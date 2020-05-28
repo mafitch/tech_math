@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2020 Megan Ossiander-Gobeille
+*********************************************************************-->
+<docinfo>
+
+    <!-- the other option is "long" which will produce an -->
+    <!-- entire front matter section with more headings   -->
+    <author-biographies length="short" />
+
+    <brandlogo url="http://uaa.alaska.edu" source="images/UAA_GG.png" />
+
+    <!-- this is the default, but supresses a warning -->
+    <cross-references text="type-global" />
+
+    <!-- more invasive option is "structural" -->
+    <numbering>
+        <division part="decorative" />
+    </numbering>
+
+</docinfo>

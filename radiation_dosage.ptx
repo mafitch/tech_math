@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-radiation" >
+<title>Radiation Dosage</title>
+
+<p>For this assignment, imagine that you are working with a radioactive material. Since we don’t want you harmed by radiation, we should understand how time and distance impacts the radioactive dose. You should also be behind material that shields you from the radioactive waves, but that math is more complicated, so we’ll focus on time and distance.</p>
+
+<p><ol>
+	<li>As your time near a radioactive source increases, does the radiation level in your body increase, decrease, or stay the same?</li>
+	<li xml:id="time-dosage">Do you think the relationship between time and dosage is linear or not linear?</li>
+	<li xml:id="radiation-exposed">Let <sq>E</sq> stand for radiation exposure, <sq>t</sq> stand for length of time of exposure, and <sq>k</sq> be the constant of variation. Write an equation representing the relationship between E, t, and k.</li>
+	<li><p>Examine the above equation you just wrote.<ol>
+		<li xml:id="equation-linear-ques">Is it linear or non-linear? This should match your answer to <xref ref="time-dosage" />.</li>
+		<li>What in the equation indicates it is linear or non-linear? That is, how did you know the answer to part <xref ref="equation-linear-ques" />?</li>
+	</ol></p></li>
+	<li><p>Radiation radiates outwards from a source evenly in all directions (like light radiates out evenly from a lightbulb) unless it is obstructed by something (like a lead shield). Imagine a radiation source floating in the center of a sphere. All parts of the sphere would be getting hit with an equal amount of radiation. We are going to figure out the radiation for a given patch of area on this sphere. It will be helpful to know the following formula: <m>A=4\pi r^2</m>, where A is the surface area of the sphere and r is the radius of the sphere.</p>
+	<p>If a sphere had a radius of 2 m, what is the surface area of the sphere? Remember to include units. Leave your answer in terms of π (meaning it should look like <fillin />π <quantity><unit base="meter" exp="2" /></quantity>).</p></li>
+	<li><p>A very rough approximation of the surface area of the front of a person is 1 <quantity><unit base="meter" exp="2" /></quantity>. Write the ratio of the surface area of the front of a person to the total surface area of our sphere with a radius of <quantity><mag>2</mag><unit base="meter" /></quantity>. See <xref ref="figure-sphere" />.</p>
+	<figure xml:id="figure-sphere"><caption>Ratio of Surface Area</caption><image width="30%" source="images/sphere_runner" /></figure></li>
+	<li>If the radiation is being emitted at an intensity of <m>x</m> Sieverts per hour (<quantity><unit base="sievert" /><per base="hour" /></quantity>), what amount of radiation will be hitting our human-sized cutout on the surface of the sphere? Your answer should be in terms of <m>x</m>.</li>
+	<li><p>Complete the following table. Notice that you already found the values for the first row.</p>
+		<table><title>Ratio of Surface Areas</title><tabular top="medium">
+		    <col width="15%" />
+			<col width="35%" />
+			<col width="20%" />
+			<row left="medium" bottom="medium"><cell right="medium"><p>Radius of circle</p></cell><cell right="medium"><p>Surface area of sphere (in terms of π) in <quantity><unit base="meter" exp="2" /></quantity></p></cell><cell right="medium"><p>Ratio of 1 <quantity><unit base="meter" exp="2" /></quantity> to surface area</p></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>2</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell><cell right="medium"></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>3</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell><cell right="medium"></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>4</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell><cell right="medium"></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>5</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell><cell right="medium"></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>r</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell><cell right="medium"></cell></row>
+		</tabular></table></li>
+	<li><p>As the radius of the sphere increases, does the level of radiation hitting our person-sized cutout increase or decrease? That is, does a person standing 4 meters away from a radioactive source get more or less radiation exposure than someone at 2 meters away? Does this increase or decrease change linearly (at a constant rate) or non-linearly (at a changing rate)? Circle the appropriate answer.</p>
+	<p>As the radius of the sphere increases, the radiation intensity is <em>increasing / decreasing</em> (circle one) in a <em>linear / non-linear</em> (circle one) fashion.</p></li>
+	<li><p>The sphere with a floating radiation source is a good model for us to use when thinking through how distance impacts radiation levels because we can disregard complicating factors like the walls, floor, and ceiling of the room as long as a person is still directly exposed to the radiation source. Still, the relationship you found between radius and radiation holds true. With that in mind, answer the following questions.</p>
+	<p>As your distance from a radiation source increases, does the intensity of radiation you receive increase or decrease? Does it change linearly (at a constant rate) or non-linearly (at a changing rate)? Circle the appropriate answer. Hint: If it feels like you already have answered this question, you are right <mdash/> you have!</p>
+	<p>As your distance from a radioactive source increases, the radiation is <em>increasing / decreasing</em> (circle one) in a <em>linear / non-linear</em> (circle one) fashion.</p></li>
+	<li xml:id="radiation-experienced"><p>Let <sq>I</sq> stand for radiation experienced by the person, <sq>r</sq> stand for distance, and <sq>k</sq> be the constant of variation. Write an equation of variation representing the relationship between I, r, and k.</p>
+	<p>Hint: Look back at your recent answers and the table you built. Is the formula you wrote logically consistent with these answers?</p></li>
+	<li><p>Let <sq>R</sq> stand for radiation exposure, <sq>t</sq> stand for length of time of exposure, <sq>r</sq> stand for distance, and <sq>k</sq> be the constant of variation (this k may be different from your k in <xref ref="radiation-exposed" /> or <xref ref="radiation-experienced" />). Write an equation of joint variation representing the relationship between R, r, t and k.</p>
+	<p>Hint: is your answer consistent with your answers to <xref ref="radiation-exposed" /> and <xref ref="radiation-experienced" />?</p></li>
+	<li>If you are 5 meters away for 3 hours, how long would you stay at 2 meters away to receive the same radiation dose?</li>
+	<li>At the end of it all, if you find yourself next to a radioactive source, what do you do? Full points will be awarded for all reasonable answers.</li>
+</ol></p>
+
+</section>
