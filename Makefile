@@ -17,8 +17,8 @@ html: *.ptx
 	-rm -r html/knowl
 	-rm -r html/images
 	install -d html/images
-	cp -a images/*.svg html/images
-	cp -a images/*.png html/images
+	-cp -a images/*.svg html/images
+	-cp -a images/*.png html/images
 	cd html
 	xsltproc --xinclude $(XSLDIR)/pretext-html.xsl ../techmath.ptx
 
@@ -31,8 +31,8 @@ latex: *.ptx
 	-rm latex/*
 	-rm -r latex/images
 	install -d latex/images
-	cp -a images/*.pdf latex/images
-	cp -a images/*.png latex/images
+	-cp -a images/*.pdf latex/images
+	-cp -a images/*.png latex/images
 	cd latex
 	xsltproc -o techmath.tex --xinclude $(XSLDIR)/pretext-latex.xsl ../techmath.ptx
 
