@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-trig-laws" >
+<title>Non-Right Triangles</title>
+
+<introduction>
+
+<p>In <xref ref="section-trig-functions" /> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangle. Here we learn some relationships that do not require any angle to be a right angle.</p>
+
+<p>Note the one relationship that did not require a right angle is that the sum of the angles of a triangle always adds to <m>180^\circ</m>. We expressed this as <m>\alpha+\theta+90^\circ = 180^\circ</m>.The <m>90^\circ</m> in the expression was for the right angle.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-law-sines">
+	<title>Law of Sines</title>
+
+	<p>In <xref ref="figure-trig-truth" /> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. This relationship is the ratio in <xref ref="equation-law-sines" />. <men xml:id="equation-law-sines"> \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.</men> </p>
+
+	<figure xml:id="figure-triangle-labeled">
+		<caption>Labeled Triangle</caption>
+		<image source="images/triangle-labeled" width="50%" />
+	</figure>
+
+	<example xml:id="example-law-sines-simple1">
+		<introduction><p>A triangle has an angle that is <m>50^\circ</m> which is opposite a side of length 6. It has another angle that is <m>45^\circ</m>.</p></introduction>
+		<task>
+			<statement><p>What is the length of the side opposite the <m>45^\circ</m> angle?</p></statement>
+			<solution><p>According to the law of sines
+				<md>
+					<mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}.</mrow>
+					<mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ).</mrow>
+					<mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}.</mrow>
+					<mrow> \amp \approx 5.54.</mrow>
+				</md>
+			</p></solution>
+		</task>
+		<task>
+			<statement><p>What is the third angle and the length of the side opposite it?</p></statement>
+			<solution><p>We can use the angle sum fact to calculate the third angle. <m>50+45+\alpha=180</m> so <m>\alpha=85</m>. The side length can be calculated using the law of sines.
+			<md>
+					<mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}.</mrow>
+					<mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ).</mrow>
+					<mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}.</mrow>
+					<mrow> \amp \approx 7.80.</mrow>
+				</md>
+			</p></solution>
+		</task>
+	</example>
+
+	<example xml:id="example-law-sines-simple2">
+		<introduction><p>A triangle has an angle of measure <m>40^\circ</m>. The side opposite it is length 5. The other two sides are length 6.74 and 7.66.</p></introduction>
+		<task>
+			<statement><p>What is the measure of the angle opposite the side of length 6.74?</p></statement>
+			<solution><p>We can use the law of sines.
+				<md>
+					<mrow>\frac{\sin(40^\circ)}{5} \amp = \frac{\sin(B)}{6.74}.</mrow>
+					<mrow>6.75 \sin(40^\circ) \amp = 5\sin(B).</mrow>
+					<mrow>\frac{6.75 \sin(40^\circ)}{5} \amp = \sin(B)</mrow>
+					<mrow>\arcsin\left(\frac{6.75 \sin(40^\circ)}{5}\right) \amp = B.</mrow>
+					<mrow>60.20 \approx B.</mrow>
+				</md>
+			</p></solution>
+		</task>
+		<task>
+			<statement><p>What is the measure of the angle opposite the side of length 7.66?</p></statement>
+			<solution><p>We can now use the angle sum fact. <m>40+60.20+\alpha=180</m> so <m>\alpha \approx 79.80</m>.</p></solution>
+		</task>
+	</example>
+
+	<exercise xml:id="exercise-law-sines1">
+		<webwork>
+			<pg-code>
+				Context("TrigDegrees");
+				$angleA = Compute(random(20,50,5));
+				$angleB = Compute(random(50,80,5));
+				$a = Compute(random(4,7,1));
+				$b = Compute("sin($angleB)/sin($angleA)*$a");
+			</pg-code>
+			<statement>
+				<p>A triangle has angles of measure <m>A=<var name="$angleA"/></m> and <m>B=<var name="$angleB"/></m>. The side opposite angle <m>A</m> has length <var name="$a"/>. What is the length of the side opposite angle <m>B</m>? <var name="$b" width="5" /></p>
+			</statement>
+		</webwork>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-ass-issue">
+	<title>Ambiguous Triangles</title>
+
+	<p>We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.</p>
+
+	<example xml:id="example-angle-side-side">
+		<statement><p>A triangle has an angle of measure <m>45^\circ</m> and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?</p></statement>
+		<solution><p>We can try to use the law of sines.
+			<md>
+				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(\theta)}{5}.</mrow>
+				<mrow>5 \cdot \frac{\sin(45^\circ)}{4} \amp = \sin(\theta).</mrow>
+				<mrow>\arcsin\left( \frac{5}{4}\sin(45^\circ) \right) \amp = \theta.</mrow>
+				<mrow>62.11^\circ \amp \approx \theta.</mrow>
+			</md>
+		Using the angle sum fact we learn the other angle is <m>45+62.11+\alpha = 180</m> or <m>\alpha \approx 72.89^\circ</m>. We use the law of sines again to find the length of the final side.
+			<md>
+				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(72.89^\circ)}{c}.</mrow>
+				<mrow>c \sin(45^\circ) \amp = 4\sin(72.89^\circ).</mrow>
+				<mrow>c \amp = 4 \frac{\sin(72.89^\circ)}{\sin(45^\circ)}.</mrow>
+				<mrow>c \amp \approx 5.41.</mrow>
+			</md>
+		</p></solution>
+		<solution><p>Note <m>\sin(117.89^\circ)=\sin(62.11^\circ)</m>. If we use <m>117.89^\circ</m> as the second angle, the third angle is <m>45+117.89+\alpha = 180</m> or <m>\alpha \approx 17.11^\circ</m>.
+			<md>
+				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(17.11^\circ)}{c}.</mrow>
+				<mrow>c \sin(45^\circ) \amp = 4\sin(17.11^\circ).</mrow>
+				<mrow>c \amp = 4 \frac{\sin(17.11^\circ)}{\sin(45^\circ)}.</mrow>
+				<mrow>c \amp \approx 1.66.</mrow>
+			</md>
+		Notice we have two, distinct triangles that match the initial angle and side information. This indicates an ambiguity if what we know is this particular information.</p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-law-cosines">
+	<title>Law of Cosines</title>
+
+	<p>For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right triangle that relationship must be slightly modified.</p>
+
+	<theorem xml:id="theorem-law-cosines">
+		<title>Law of Cosines</title>
+
+		<statement><p>For any triangle with side lengths <m>a,b,c</m> and angle <m>C</m> which is opposite side with length <m>c</m>
+		<me>c^2 = a^2+b^2-2ab\cos(C)</me>.</p></statement>
+	</theorem>
+
+	<example xml:id="example-law-cosines">
+		<statement><p>A triangle has sides of lengths 4, 5.39, and 6.13. What are the  angles?</p></statement>
+		<solution><p>We can use the Law of Cosines.
+			<md>
+				<mrow>4^2 \amp = 5.39^2+6.13^2-2(5.39)(6.13)\cos(A).</mrow>
+				<mrow>-50.63 \amp = -66.08 \cos(A).</mrow>
+				<mrow>\frac{-50.63}{-66.08} \amp = \cos(A).</mrow>
+				<mrow>0.7662 \amp = \cos(A).</mrow>
+				<mrow>\arccos(0.7662) \amp = A.</mrow>
+				<mrow>39.99^\circ \amp \approx A.</mrow>
+			</md>
+		With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again.
+			<md>
+				<mrow>5.39^2 \amp = 4^2+6.13^2-2(4)(6.13)\cos(B).</mrow>
+				<mrow>-24.52 \amp = -49.04\cos(B).</mrow>
+				<mrow>0.5 \amp = \cos(B).</mrow>
+				<mrow>\arccos(0.5) \amp = B.</mrow>
+				<mrow>60^\circ \amp = B.</mrow>
+			</md>
+		Knowing two of the angle we can use the angle sum fact to calculate the third angle measure. <m>39.99+60+\alpha=180</m> so <m>\alpha = 80.01</m>.</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-law-cosines1">
+		<webwork>
+			<pg-code>
+				Context("TrigDegrees");
+				$angleA = Compute(random(20,50,5));
+				$angleB = Compute(random(55,80,5));
+				$angleC = 180-$angleA-$angleB;
+				$a = Compute(random(4,7,1));
+				$b = Compute("sin($angleB)/sin($angleA)*$a");
+				$c = Compute("sin($angleC)/sin($angleA)*$a");
+			</pg-code>
+			<statement>
+				<p>A triangle has sides of length <m>a=<var name="$a"/></m>, <m>b=<var name="$b"/></m>, and <m>c=<var name="$c"/></m>. What is the measure of the angle opposite the side of length <m>a</m>? <var name="$angleA" width="5" /></p>
+			</statement>
+		</webwork>
+	</exercise>
+
+</subsection>
+
+</section>

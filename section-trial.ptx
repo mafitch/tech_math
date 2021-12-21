@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-typeset" >
+<title>Typesetting Experiments</title>
+
+	<figure xml:id="figure-of-figures">
+		<caption>Parallelograms</caption>
+
+		<sidebyside valign="bottom">
+			<figure xml:id="subfigure-test-image">
+				<caption>Shape</caption>
+				<image source="images/parallelogram" />
+			</figure>
+			<figure xml:id="subfigure-test-perimeter">
+				<caption>Perimeter</caption>
+				<sidebyside><p><m>2(a+b)</m></p></sidebyside>
+			</figure>
+			<figure xml:id="subfigure-test-area">
+				<caption>Area</caption>
+				<sidebyside><p><m>h_1 a</m></p></sidebyside>
+			</figure>
+		</sidebyside>
+	</figure>
+
+	<figure xml:id="figure-of-middle-figures">
+		<caption>Parallelograms</caption>
+
+		<sidebyside valign="middle">
+			<figure xml:id="subfigure-test-image2">
+				<caption>Shape</caption>
+				<image source="images/parallelogram" />
+			</figure>
+			<figure xml:id="subfigure-test-perimeter2">
+				<caption>Perimeter</caption>
+				<sidebyside><p><m>2(a+b)</m></p></sidebyside>
+			</figure>
+			<figure xml:id="subfigure-test-area2">
+				<caption>Area</caption>
+				<sidebyside><p><m>h_1 a</m></p></sidebyside>
+			</figure>
+		</sidebyside>
+	</figure>
+
+</section>

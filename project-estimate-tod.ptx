@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-tod" >
+<title>Project: Time of Death</title>
+
+<project xml:id="project-time-of-death">
+	<title>Estimating Time of Death</title>
+
+<introduction>
+	<p>The purpose of this project is to practice reading a mathematical model, using it to calculate a result, and interpreting its features. This model involves an exponential relation.</p>
+	<p>If a person is believed to have died within a day or so of the body’s discovery, it’s possible to estimate the time of death using body temperatures. Isaac Newton’s idea was that since hot things cool much faster than cool things, the rate of cooling is more or less proportional to the temperature of the object, resulting in an exponential decay model.</p>
+
+	<theorem xml:id="theorem-newton-law-cooling">
+		<title>Newton's Law of Cooling</title>
+
+		<statement><p>The temperature <m>T</m> at a time <m>x</m> of a cooling object follows the function <me>T=A+Be^{kx}</me>. <m>A</m> is the ambient (or room) temperature. <m>B</m> and <m>k</m> are constants that depend on the object.</p></statement>
+	</theorem>
+
+	<p>Suppose a forensics technician arrived at a murder scene and recorded the temperature of the surroundings as well as the body. The technician decides it is fair to assume that the room temperature has been holding steady at about <quantity><mag>68</mag><unit base="fahrenheit" /></quantity>. A thermometer was placed in the liver of the corpse and the following table of values was recorded.</p>
+
+	<table xml:id="table-time-temp">
+		<title>Time and Temperature</title>
+		<tabular top="medium">
+			<row bottom="major" left="medium"><cell right="medium">Actual Time</cell><cell right="medium">Minutes Elapsed (<m>x</m>)</cell><cell right="medium">Temperature, <m>T</m>, of the Body (°F)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">2:00 pm</cell><cell right="medium">0</cell><cell right="medium">85.90</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">2:20 pm</cell><cell right="medium">20</cell><cell right="medium">85.17</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">2:40 pm</cell><cell right="medium">40</cell><cell right="medium">84.47</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">3:00 pm</cell><cell right="medium">60</cell><cell right="medium">83.78</cell></row>
+		</tabular>
+	</table>
+
+	<p>The key to estimating time of death is to estimate <m>A</m>, <m>B</m>, <m>k</m>, and <m>x</m> in <xref ref="theorem-newton-law-cooling" />.</p>
+
+</introduction>
+
+<task xml:id="project-tod-coefficients">
+	<statement><p>Recall that the technician thinks the room temp was <quantity><mag>68</mag><unit base="fahrenheit" /></quantity>. By substituting this number and the first recording (0, 85.9) into the Cooling Equation, find <m>A=<fillin/></m> and <m>B=<fillin/></m>.</p></statement>
+</task>
+
+<task xml:id="project-tod-constant">
+	<statement><p>Once you know <m>A</m> and <m>B</m>, substitute some <em>other</em> data point into the equation so that <m>k</m> is the only variable. Solve the resulting equation and round <m>k</m> to 6 decimal places. Show your work. Remember the exponential must be isolated before you take the natural log of both sides.
+	<me>k \approx <fillin/></me></p></statement>
+</task>
+
+<task>
+	<statement><p>Note: the number <m>k</m> is called the cooling (or warming) constant. If an object cools, <m>k</m> should be negative. Mathematically, looking at the equation, why should k be negative?</p></statement>
+</task>
+
+<task>
+	<statement><p>Using the numbers you found for <m>A</m>, <m>B</m>, and <m>k</m>, write the equation for the temperature at any time <m>x</m>.</p>
+	<p><m>T(x)=<fillin/></m></p></statement>
+</task>
+
+<task>
+	<statement><p>Draw a graph of the temperature function <m>T\left(x\right)</m>. Completing the table of values may help you graph.</p>
+	<sidebyside widths="20%, 60%">
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium"><m>x</m></cell><cell right="medium"><m>y</m></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">-300</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">-100</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">100</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">300</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">500</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">700</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">900</cell><cell right="medium"></cell></row>
+		</tabular>
+		<image width="100%" source="images/tod_axes" />
+	</sidebyside></statement>
+</task>
+
+<task>
+	<statement><p>The graph of <m>T\left(x\right)</m> has a horizontal asymptote. What is the height of this asymptote and what does it tell you about the way corpses cool?</p></statement>
+</task>
+
+<task>
+	<statement><p>Notice that this equation deviates from reality if the <m>x</m>-value goes too far negative. Generally speaking, (no numbers required), at what point does the model no longer work? What in reality gives us an indication that we’ve taken it too far?</p></statement>
+</task>
+
+<task>
+	<statement><p>Assuming that the temperature of the person at the time of death (TOD) was <quantity><mag>98.6</mag><unit base="fahrenheit" /></quantity>, set up a TOD equation using the values of <m>A</m>, <m>B</m>, and <m>k</m> you’ve calculated. Then, solve the equation using the same logarithm method you used to solve for <m>k</m>.</p>
+	<p>Write your answer as a time, not just as <m>x</m> minutes. Recall that when <m>x=0</m>, the time is 2:00 PM.</p></statement>
+</task>
+
+<task>
+	<statement><p>When a forensic expert determines time of death, they often have additional information besides body temperature. Suppose a coroner finds that the person who was murdered had an infection that probably raised the core body temperature to around <quantity><mag>102</mag><unit base="fahrenheit" /></quantity>. Using the same cooling constant, ambient room temperature, and temperature data as in <xref ref="project-tod-coefficients" /> and <xref ref="project-tod-constant" />, make a new estimate for the time of death.</p>
+	<p>Again, write your answer as a time, not just as <m>x</m> minutes.</p></statement>
+</task>
+
+</project>
+
+</section>

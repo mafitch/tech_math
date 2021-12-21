@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-proportion" >
+<title>Proportions</title>
+
+<introduction>
+
+<p>Ratio problems presume that the ratio does not change. This makes sense in examples like conversion of units. For example 1 inch is always approximately 2.54 cm. In contrast rates often change: your average speed may be 25 mph, but you must have driven slower and faster during that drive. For ratios that do not change we can write equations and solve for properties.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-proportion" >
+	<title>Proportion Examples</title>
+
+	<example xml:id="exmaple-proportion-cheesecake-double">
+		<title>Cheesecake Groceries: Double</title>
+		<statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. We will determine how many grams of eggs we need if we triple the recipe. This means everything will be in ratio of 2/1. Note the 2 and 1 have infinite significant figures (they are exact numbers rather than approximated measurements).
+		<md>
+			<mrow>\frac{2}{1} &amp; = \frac{E \text{ g}}{15\bar{0} \text{ g}}.</mrow>
+			<mrow>\frac{2}{1} \cdot 150 \text{ g} &amp; = \frac{E \text{ g}}{15\bar{0} \text{ g}} \cdot 150 \text{ g}.</mrow>
+			<mrow>30\bar{0} \text{ g} &amp; = E.</mrow>
+		</md></p>
+		</statement>
+	</example>
+
+	<example xml:id="exmaple-proportion-cheesecake-scale">
+		<title>Cheesecake Groceries: Unknown</title>
+		<statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. If we have <m>35\bar{0}</m> g of egg how much cream cheese do we need? We know that the egg to cream cheese ratio must be 150/1500. We also notice this is 1/10.
+		<md>
+			<mrow>\frac{1}{10} &amp; = \frac{35\bar{0} \text{ g}}{C \text{ g}}.</mrow>
+			<mrow>\frac{10}{1} &amp; = \frac{C \text{ g}}{35\bar{0} \text{ g}}.</mrow>
+			<mrow>\frac{10}{1} \cdot 350 \text{ g} &amp; = \frac{C \text{ g}}{350 \text{ g}} \cdot 350 \text{ g}.</mrow>
+			<mrow>35\bar{0}0 &amp; = C \text{ g}.</mrow>
+		</md>
+		Notice we flipped the ratio in the second step to make the arithmetic easier to follow. You can think of this as the old addage <q>what you do to one side, you must also do to the other</q>.</p>
+		</statement>
+	</example>
+
+	<exercise xml:id="exercise-proportion-max">
+		<webwork>
+			<statement>
+				<p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. Suppose you have <m>35\bar{0}</m> g of eggs and <m>340\bar{0}</m> g of cream cheese. How much of the egg and cream cheese can you use?</p>
+				<p>Egg: <var name="'340'" width="4" /> </p>
+				<p>Cream cheese: <var name="'3400'" width="5" /> </p>
+			</statement>
+			<solution>
+				<p>The egg to cream cheese must be in a 1/10 ratio. We can check what the ratio of ingredients we have is. <me>\frac{35\bar{0} \text{ g}}{340\bar{0} \text{ g}} \approx 0.103</me> Because this is more than <m>1/10=0.1</m> we have more egg than we can use. Thus we will set up the 1/10 ratio using all of the cream cheese.
+				<md>
+					<mrow>\frac{1}{10} &amp; = \frac{E \text{ g}}{340\bar{0} \text{ g}}.</mrow>
+					<mrow>\frac{1}{10} \cdot 340\bar{0} \text{ g} &amp; = \frac{E \text{ g}}{340\bar{0} \text{ g}} \cdot 340\bar{0} \text{ g}.</mrow>
+					<mrow>34\bar{0}.0 &amp; = E \text{ g}.</mrow>
+				</md>
+				We can use 340 of the 350 grams of egg.</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<example xml:id="example-proportion-solution">
+		<statement><p>A label reads <q>2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate.</q> How many millilitres are needed to contain 800 mg of streptomycin?</p></statement>
+		<solution><p>The label gives us a ratio of 1000 mg per 2.5 mL. We can find the desired volume by setting up the following proportion.
+			<md>
+				<mrow>\frac{1000 \text{ mg}}{2.5 \text{mL}} &amp; = \frac{800 \text{ mg}}{v \text{ mL}}.</mrow>
+				<mrow>1000 \text{ mg} \cdot v \text{ mL} &amp; = 800 \text{ mg} \cdot 2.5 \text{mL}.</mrow>
+				<mrow>v \text{ mL} &amp; = \frac{800 \text{ mg} \cdot 2.5 \text{mL}}{1000 \text{ mg}}.</mrow>
+				<mrow>v &amp; = 2 \text{ mL}.</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-proportion-similar">
+	<title>Similar polygons</title>
+
+	<definition xml:id="definition-similar-triangles">
+		<title>Similar Triangles</title>
+		<statement><p>Two triangles are <term>similar</term> if and only if corresponding angles are congruent.</p></statement>
+	</definition>
+
+	<p>Note being similar results in corresponding side lengths being proprotional.</p>
+
+	<figure xml:id="figure-similar-triangle">
+	    <caption>Similar Triangles</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3">
+	        <slate xml:id="geogebra-similar-triangle" surface="geogebra" material="rwndrtjy" aspect="4:3" preview="images/similar_triangle.png">
+	                setCoordSystem(0, 8, -3, 4);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    	<instructions>
+	        	<p>Notice that the the two triangles have the same angles. Calculate ratios of corresponding sides (in this case correspond means between the same two angles). Notice that every ratio you calculate is the same.</p>
+	        </instructions>
+	    </interactive>
+	</figure>
+
+	<example xml:id="example-similar-triangles">
+		<p>Suppose triangle A has angles <m>30^\circ, 60^\circ, 90^\circ</m> with side lengths <m>1.000, 1.732, 2.000</m>. If triangle B also has angles <m>30^\circ, 60^\circ, 90^\circ</m> it is similar. Suppose the smallest side length is <m>2.000</m>. Then we know.<md>
+			<mrow>\frac{1.000}{2.000} &amp; = \frac{1.732}{s}.</mrow>
+			<mrow>\frac{1.000}{2.000} \cdot s &amp; = \frac{1.732}{s} \cdot s.</mrow>
+			<mrow>\frac{1.000}{2.000} \cdot s &amp; = 1.732.</mrow>
+			<mrow>\frac{s}{2.000} \cdot 2.000 &amp; = 1.732 \cdot 2.000.</mrow>
+			<mrow>s &amp; = 3.464.</mrow>
+		</md>
+		Note the two multiplication steps are referred to as <term>cross multiplication</term>. We can calculate the length of the third side in the same way.
+		<md>
+			<mrow>\frac{1.000}{2.000} &amp; = \frac{2.000}{s}.</mrow>
+			<mrow>\frac{1.000}{2.000} \cdot 2.000s &amp; = \frac{2.000}{s} \cdot 2.000s.</mrow>
+			<mrow>s &amp; = 4.000</mrow>
+		</md>
+		</p>
+	</example>
+
+	<exercise xml:id="exercise-similar-triangles">
+		<webwork>
+			<statement>
+				<p>Suppose triangle A has angles <m>40^\circ, 60^\circ, 80^\circ</m> and side lengths 1.000, 1.347, 2.000. If triangle B has the same angle measures and the shortest side is length 2.500, what are the other two side lengths?</p>
+				<p>Corresponds to 1.347: <var name="'3.368'" width="6" /> </p>
+				<p>Corresponds to 2.000: <var name="'5.000'" width="6" /> </p>
+			</statement>
+			<solution>
+				<p>We setup the proportions for the other two sides.
+				<md>
+					<mrow>\frac{1.000}{2.500} &amp; = \frac{1.347}{s_2}.</mrow>
+					<mrow>s_2 &amp; = 3.368.</mrow>
+					<mrow>\frac{1.000}{2.500} &amp; = \frac{2.000}{s_3}.</mrow>
+					<mrow>s_3 &amp; = 5.000.</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<p>Shapes other than triangles can be similar. For example there are similar rectangles and similar pentagons. To be similar they must have the same number of sides, corresponding angles must be the same, and corresponding sides must be in the same ratio. Note that just having the same angles is insufficient: any two rectangles have all the same angles (right angles) but not every pair is similar.</p>
+
+	<aside>
+		<title>Similar Polygons</title>
+		<p>One way to define similar polygons that avoids the trap illustrated by rectangles is to require every triangle made from vertices to have the same angles. Take two, non-similar rectangles and find the triangles that don't match.</p>
+	</aside>
+
+	<p>One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1/32 scale. This means that one inch on the model is 32 inches on the actual object.</p>
+
+</subsection>
+
+</section>

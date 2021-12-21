@@ -8,30 +8,69 @@ Copyright 2020 Mark A. Fitch
     <xi:include href="./bookinfo.ptx" /> <!-- ISBN, website, other metadata -->
 
     <book xml:id="techmath-projects">
-        <title>Projects for Technical Mathematics</title>
+        <title>Materials for Technical Mathematics</title>
 
         <xi:include href="./frontmatter.ptx" />      <!-- Title Page, Preface, etc. -->
 
+        <chapter xml:id="chapter-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Cross Cutting Topics</title>
+            <xi:include href="./section-enough.ptx" />      <!-- Accuracy and precision -->
+
+       </chapter>
+
         <chapter xml:id="chapter-ratios" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Ratios</title>
-
-            <xi:include href="./unicorn_cake.ptx" />         <!-- Activity to calculate change of size  -->
+            <xi:include href="./section-percent.ptx" />      <!-- Percents-ratio of whole -->
+            <xi:include href="./section-ratios.ptx" />      <!-- Ratios in many forms -->
+            <xi:include href="./section-proportion.ptx" />      <!-- Equal Ratios -->
+            <xi:include href="./project-falseposition.ptx" />      <!-- Using ratios to correct guesses -->
        </chapter>
 
         <chapter xml:id="chapter-variation" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Variation</title>
 
-            <xi:include href="./radiation_dosage.ptx" />         <!-- Activity to calculate change of size  -->
-            <xi:include href="./radiation_dosage2.ptx" />         <!-- Activity to calculate change of size  -->
-            <xi:include href="./cycling.ptx" />         <!-- Activity to understand linearity  -->
+            <xi:include href="./section-graphing.ptx" />         <!-- Reading graphs  -->
+            <xi:include href="./section-variation.ptx" />         <!-- Learn about different rates -->
+            <xi:include href="./section-rational.ptx" />         <!-- Solve expressions involving rational expressions -->
+            <xi:include href="./section-linear-system.ptx" />         <!-- Solving systems of linear equations -->
+            <xi:include href="./project-literal-formula.ptx" />         <!-- Activity to understand alernate forms of formulas  -->
+            <xi:include href="./project-cycling.ptx" />         <!-- Activity to understand linearity  -->
+            <xi:include href="./project-radiation-dosage2.ptx" />         <!-- Activity to understand compound variation  -->
        </chapter>
+
+       <chapter xml:id="chapter-geometry" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Geometry</title>
+
+            <xi:include href="./section-geometry2d.ptx" />         <!-- Geometric reasoning, primarily breaking down into known shapes -->
+            <xi:include href="./section-geometry3d.ptx" />         <!-- Geometric reasoning, primarily breaking down into known shapes -->
+            <xi:include href="./project-unicorn-cake2.ptx" />         <!-- Activity to calculate change of size  -->
+       </chapter>
+
+       <chapter xml:id="chapter-quadratic" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Quadratics</title>
+
+            <xi:include href="./section-quadratic-solve.ptx" />         <!-- Quadratics in symbolic form, solving -->
+            <xi:include href="./section-quadratic-graph.ptx" />         <!-- Understanding transformations -->
+        </chapter>
 
         <chapter xml:id="chapter-exponential" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Exponential</title>
 
-            <xi:include href="./estimate_tod.ptx" />         <!-- Activity to estimate time of death using exponential model  -->
-
+            <xi:include href="./section-exponential.ptx" />         <!-- Exponential relation properties -->
+            <xi:include href="./section-exponential-graph.ptx" />         <!-- Graphs of exponential functions and their properties  -->
+            <xi:include href="./section-logarithm.ptx" />         <!-- Definition and uses of logarithms  -->
+            <xi:include href="./section-log-solve.ptx" />         <!-- Solving equations using logarithms  -->
+            <xi:include href="./project-estimate-tod.ptx" />         <!-- Activity to estimate time of death using exponential model  -->
         </chapter>
+
+        <chapter xml:id="chapter-trig" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Trigonometry</title>
+
+            <xi:include href="./section-trig-functions.ptx" />         <!-- Definition of basic trig functions -->
+            <xi:include href="./section-trig-laws.ptx" />         <!-- Non-right triangle work -->
+            <xi:include href="./section-trig-graphs.ptx" />         <!-- Properties of sine waves -->
+        </chapter>
+
     </book>
 
 </pretext>

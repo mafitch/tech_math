@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-trig-graphs" >
+<title>Sine Wave Properties</title>
+
+<introduction>
+
+<p>We began by looking at trigonometric functions in the context of triangles where the represent the ratio of side lengths that is always the same for a given ratio no matter the size or location of a triangle. Here we will consider trigonometric functions in context of their graphs which have direct application.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-angles">
+	<title>Beyond Triangles</title>
+
+	<p>In triangles every angle had to be less than <m>180^\circ</m> because the sum of the angles of a triangle are only <m>180^\circ</m>. However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use the the illustration in <xref ref="figure-angle-repeat" /> to see how angles are measured and how the trig functions act on larger angles. Find each of the following.
+	<ul>
+		<li>Angle of measure <m>210^\circ</m></li>
+		<li>Angle of measure <m>-90^\circ</m> (note the illustration won't display a negative angle value, but you can move there)</li>
+		<li>Angle of measure <m>405^\circ</m> (note the illustration won't display an angle value that large, but you can move there)</li>
+		<li><m>\sin(45^\circ)</m> and <m>\sin(315^\circ)</m></li>
+	</ul></p>
+
+	<figure xml:id="figure-angle-repeat">
+		<caption>Bigger Angles</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3">
+	        <slate xml:id="geogebra-angle-repeat" surface="geogebra" material="zqv82ck6" aspect="4:3" preview="images/Angles.png">
+	                setCoordSystem(-1.1, 1.1, -1.1, 1.1);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    	<instructions>
+	        	<p>Move around point B and see how the sine and cosine values change.</p>
+	        </instructions>
+	    </interactive>
+	</figure>
+
+	<p>We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In <xref ref="figure-graph-sine" /> move around point B until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in <xref ref="figure-graph-sine-long" />. </p>
+
+	<figure xml:id="figure-graph-sine">
+		<caption>Produce Graph of Sine</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3">
+	        <slate xml:id="geogebra-graph-sine" surface="geogebra" material="qjdte5eb" aspect="4:3" preview="images/GraphSine.png">
+	                setCoordSystem(-1.1, 6.5, -1.1, 1.1);
+	                enableShiftDragZoom(true);
+	        </slate>
+	    	<instructions>
+	        	<p>Move around point B and produce the graph of sine.</p>
+	        </instructions>
+	    </interactive>
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-wave-properties">
+	<title>Properties of Sine Waves</title>
+
+	<figure xml:id="figure-graph-sine-long">
+		<caption>Graph of Sine</caption>
+		<image source="images/sine-graph-long" width="50%" />
+	</figure>
+
+	<p>Notice that the graph of sine is a wave that repeats. The piece that repeats is called a <term>cycle</term>. In the default graph this is from <m>0^\circ</m> to <m>360^\circ</m>. The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.</p>
+
+	<definition xml:id="definition-period">
+		<title>Period</title>
+		<statement><p>The length of a cycle measured in time is called the <term>period</term>.</p></statement>
+	</definition>
+
+	<definition xml:id="definition-wavelength">
+		<title>Wavelength</title>
+		<statement><p>The length of a cycle measured in distance is called the <term>wavelength</term>.</p></statement>
+	</definition>
+
+	<figure xml:id="figure-wave-period-wavelength">
+		<caption>Comparison of Period and Wavelength</caption>
+		<sbsgroup>
+			<sidebyside>
+				<image source="images/sinewave1.gif" width="30%" />
+				<image source="images/sinewave2.gif" width="30%" />
+			</sidebyside>
+			<sidebyside>
+				<p>Wavelength 2 and period 1</p>
+				<p>Wavelength 2 and period 2</p>
+			</sidebyside>
+		</sbsgroup>
+	</figure>
+
+	<definition xml:id="definition-frequency">
+		<title>Frequency</title>
+		<statement><p>The number of waves (periods) that occur per second is called the <term>frequency</term>. This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.</p></statement>
+	</definition>
+
+	<p>Note that frequency is the inverse of the period, that is period measures how many seconds for one cycle and frequency measures how many cycles in one second.</p>
+
+	<example xml:id="example-period-frequency">
+		<statement><p>If a wave has a period of <m>1/3</m> seconds, what is its frequency?</p></statement>
+		<solution><p>We can see how many <m>1/3</m> of a second there are in one second. That is
+		<md>
+			<mrow>f \cdot \frac{1}{3} \amp = 1</mrow>
+			<mrow>f \amp = 3</mrow>
+		</md> The frequency is 3.</p></solution>
+		<solution><p>We can consider this a conversion of units. If the period is <me>\frac{1/3 \text{ seconds}}{\text{cycle}}</me> and frequency is in cycles per second we can invert the measure.
+		<md>
+			<mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \amp = </mrow>
+			<mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \cdot \frac{3}{3} \amp = \frac{3 \text{ cycles}}{\text{ second}}</mrow>
+		</md></p></solution>
+	</example>
+
+	<p>Generally, if the period is <m>T</m> then the frequency is <me>f=\frac{1}{T}.</me></p>
+
+	<example xml:id="example-wave-length-measure">
+		<statement><p>What are the period and wavelength of middle C which is 261.63 Hz?</p></statement>
+		<solution><p>Because we know the frequency we can directly calculate the period. <m>261.63 = 1/T</m> or <me>T=\frac{1}{261.63} \approx 0.0038222</me></p>
+		<p>For the wavelength we need to recall the speed of sound is 1100 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1100 \text{ feet}}{\text{second}} \approx 4.20 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
+	</example>
+
+	<definition xml:id="definition-amplitude">
+		<title>Amplitude</title>
+		<statement><p>The height of the wave (from center to top) is called the <term>amplitude</term>.</p></statement>
+	</definition>
+
+	<example xml:id="example-sine-properties">
+		<image source="images/sine-property-example" width="50%" />
+		<p>The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is <me>f=\frac{1}{180} \approx 0.0056</me></p>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-sine-graphs">
+	<title>Transformations of Sine</title>
+
+	<p>In <xref ref="subsection-quadratic-transformation" /> and <xref ref="subsection-exponential-transform" /> we learned how to transform a graph by shifting it and reflecting it. Here we will learn to change the amplitude and the frequency.</p>
+
+	<figure xml:id="figure-sine-transform">
+		<caption>Amplitude and Wavelength</caption>
+	    <interactive platform="geogebra" width="100%" aspect="4:3">
+	        <slate xml:id="geogebra-sine-transform" surface="geogebra" material="rdfba54j" aspect="4:3" preview="images/SineAmplitudeFrequency.png">
+	                setCoordSystem(-0.1, 5, -5.1, 5.1);
+	        </slate>
+	    	<instructions>
+	        	<p>Use the sliders to see how multiplying inside and outside sine affects the curve.</p>
+	        </instructions>
+	    </interactive>
+	</figure>
+
+	<exercise xml:id="exercise-amplitude">
+		<introduction><p>Use <xref ref="figure-sine-transform" /> to answer the following. Note the amplitude of the unmodified graph is 1.</p></introduction>
+		<task><p>If you set <m>a=2</m>, that is graph <m>2\sin(\pi x)</m> what is the amplitude?</p></task>
+		<task><p>If you set <m>a=3</m>, that is graph <m>3\sin(\pi x)</m> what is the amplitude?</p></task>
+		<task><p>How could you obtain an amplitude of 1/2?</p></task>
+	</exercise>
+
+	<exercise xml:id="exercise-wavelength">
+		<introduction><p>Use <xref ref="figure-sine-transform" /> to answer the following. Note the wavelength of the unmodified graph is 2.</p></introduction>
+		<task><p>If you set <m>f=2</m>, that is graph <m>\sin(2 \pi x)</m> what is the wavelength?</p></task>
+		<task><p>If you set <m>f=3</m>, that is graph <m>\sin(3 \pi x)</m> what is the wavelength?</p></task>
+		<task><p>How could you obtain a wavelength of 4?</p></task>
+	</exercise>
+
+</subsection>
+
+</section>

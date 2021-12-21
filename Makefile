@@ -19,7 +19,7 @@ html: *.ptx
 	install -d html/images
 	-cp -a images/*.svg html/images
 	-cp -a images/*.png html/images
-	cd html
+	cd html; \
 	xsltproc --xinclude $(XSLDIR)/pretext-html.xsl ../techmath.ptx
 
 ## Build the pdf version
@@ -33,7 +33,7 @@ latex: *.ptx
 	install -d latex/images
 	-cp -a images/*.pdf latex/images
 	-cp -a images/*.png latex/images
-	cd latex
+	cd latex; \
 	xsltproc -o techmath.tex --xinclude $(XSLDIR)/pretext-latex.xsl ../techmath.ptx
 
 ## Check the PreTeXt schema

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-percent" >
+<title>Percents</title>
+
+<introduction>
+
+<definition xml:id="definition-percent">
+	<title>Percent</title>
+	<statement><p>A <term>percent</term> is a ratio of part of something to the whole of that thing that is written as parts per hundred.</p></statement>
+</definition>
+
+<example xml:id="example-percent1">
+	<statement><p>In a class there are 34 students. Of them 21 are female. The percent is calculated as <me>\frac{21}{34} = 0.6176</me>. This number says there are 61 hundreths (remembering our numbering system), so the percent is written as <me> 61.76\%</me></p></statement>
+</example>
+
+<p>Generally this means we calculate <me>100 \times \frac{\text{part}}{\text{whole}}. </me> </p>
+
+</introduction>
+
+<subsection xml:id="subsection-percent-examples">
+	<title>Calculating Percents</title>
+
+	<example xml:id="example-percent-gender">
+		<statement><p>In the class there are 34 students. Of them 13 are male. The percent is calculated as <me> 100 \times \frac{13}{34} = 100 \times 0.3824 = 38.24\%.</me></p></statement>
+	</example>
+
+	<exercise xml:id="exercise-percent-part-whole">
+		<webwork>
+			<statement>
+				<p>In another class there are 78 students and 44 percent are female. What percent of the students are female? <var name="'56'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>A percent is the ratio of part (44 female) to whole (78 total). So this is <m>\frac{44}{78} \approx 0.56</m>. This is 56 hundreths, so it is 56%</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<p>Note in the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.</p>
+
+	<p>Sometimes we are given the size of the whole and a percent. We must calculate how many in the part.</p>
+
+	<example xml:id="example-percent-calculate-part">
+		<statement><p>In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?</p></statement>
+		<solution><p>We use the same setup as before, but we don't know the part yet.
+			<md>
+				<mrow>100 \cdot \frac{P}{22} &amp; = 18\%</mrow>
+				<mrow>\frac{P}{22} &amp; = \frac{18}{100}</mrow>
+				<mrow>P &amp; = 22 \cdot \frac{18}{100}</mrow>
+				<mrow> &amp; \approx 3.96.</mrow>
+			</md></p>
+		</solution>
+		<solution><p>We know that a percent is a number out of 100, so we can skip a step from the previous example.
+			<md>
+				<mrow>\frac{P}{22} &amp; = 0.18</mrow>
+				<mrow>P &amp; = 22 \cdot 0.18</mrow>
+				<mrow>P &amp; = 3.96</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<p>Sometimes we know the size of a part and what percent it is. We can calculate the size of the whole.</p>
+
+	<example xml:id="example-percent-calculate-whole">
+		<statement><p>In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?</p></statement>
+		<solution><p>Again we use the same setup, but we don't yet know the whole.
+			<md>
+				<mrow>\frac{2}{W} &amp; = 0.0625.</mrow>
+				<mrow>2 &amp; = 0.0625 \cdot W.</mrow>
+				<mrow>\frac{2}{0.0625} &amp; = W.</mrow>
+				<mrow>32 &amp; = W.</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-percent-solution">
+		<webwork>
+			<statement>
+				<p>Find the number of millilitres of alcohol needed to prepare 150 mL of solution that is 5% alcohol. <var name="'7.5'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>We need to know what 5% of 150 mL is: <m>0.05 \cdot 150 = 7.5</m>.</p>
+			</solution>
+		</webwork>
+	</exercise>
+
+	<exercise xml:id="exercise-percent-calculate-simple">
+		<webwork>
+			<statement>
+				<p>There are 32 students in a class. Below are percents for each racial group tracked. Calculate the number of students in each group.</p>
+				<tabular>
+					<row><cell>Group</cell> <cell>Percent</cell> <cell>Number</cell></row>
+					<row><cell>Alaska Native</cell> <cell>6.25%</cell> <cell><var name="'2'" width="4" /></cell></row>
+					<row><cell>Asian</cell> <cell>12.5%</cell> <cell><var name="'4'" width="4" /></cell></row>
+					<row><cell>Black</cell> <cell>6.25%</cell> <cell><var name="'2'" width="4" /></cell></row>
+					<row><cell>White</cell> <cell>71.88%</cell> <cell><var name="'23'" width="4" /></cell></row>
+					<row><cell>Other</cell> <cell>9.38%</cell> <cell><var name="'3'" width="4" /></cell></row>
+				</tabular>
+			</statement>
+			<solution>
+				<p>In this class there are <m>0.0625 \cdot 32 = 2</m> Alaska Native students; <m>0.125 \cdot 32 = 4</m> Asian students; 2 Black students (same percent as Alaska Native); <m>0.7188 \cdot 23 \approx 23.0016</m> or 23 White students; and <m>0.0938 \cdot 32 \approx 3.0016</m> or 3 students who declared as other.</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-percent-increase">
+	<title>Percent Increase/Decrease</title>
+
+	<p>A common use of percents is to indicate how much something has increased (or decreased) from one time to the next.</p>
+
+	<example xml:id="example-percent-increase1">
+		<statement><p>In spring there were 22 students in a class. In fall there were 34 students in the same class. This was an increase of 34-22=12 students. We can calculate what percent 12 is of 22.
+			<me>100 \times \frac{12}{22} = 55\% </me></p>
+		</statement>
+	</example>
+
+	<p>We say that the class size had a <term>percent increase</term> of 55%. Note this says the <term>increase</term> was 55% of the previous <term>whole</term>.</p>
+
+	<p>We can think of this in another way.</p>
+
+	<example xml:id="example-percent-increase2">
+		<statement>
+			<p>In spring there were 22 students in a class. In fall there were 34 students in the same class.</p>
+			<p>We calculate the percentage the fall class size is of the spring class size. <me> 100 \times \frac{34}{22} = 155\% </me> Because the percent is greater than 100% we know this was an increase. Specifically it was an increase of 55% over the previous semester.</p>
+		</statement>
+	</example>
+
+	<exercise xml:id="exercise-percent-increase">
+		<webwork>
+			<statement>
+				<p>What is the percent increase or decrease if enrollment in a class was 57 in spring and 81 in fall? <var name="'42'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>The ratio is <m>\frac{81}{57} \approx 1.42</m>. Because 81 is greater than 57 this is a percent increase. The increase is 42%.</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<exercise xml:id="exercise-percent-decrease">
+		<webwork>
+			<statement>
+				<p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in spring? <var name="'51'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>The ratio is <m>\frac{38}{78} \approx 0.49</m>. Because 38 is greater than 78 this is a percent decrease. Because the new <em>is</em> 49% of the previous the decrease is 100%-49%=51%.</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-percent-mixture">
+	<title>Mixtures</title>
+
+	<p>We can calculate a resulting percent when we combine things with differing percents.</p>
+
+	<example xml:id="example-percent-mixture">
+		<statement><p>Suppose we have a container with a solution that is 22% sugar and the rest water and another container with a solution that is 16% sugar and the rest water. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent sugar?</p></statement>
+		<solution><p>To calculate a percent we need the total amount and amount of the part. We can calculate the total directly: <m>T=150+250=400</m>.</p>
+		<p>To calculate the part we need to know how much (rather than what percent) sugar.
+			<md>
+				<mrow>150 \cdot 0.22 &amp; = 33.</mrow>
+				<mrow>250 \cdot 0.16 &amp; = 40.</mrow>
+				<mrow>P &amp; = 33+40</mrow>
+				<mrow> &amp; = 73.</mrow>
+			</md>
+			Thus the percent of the mixture is <m>P/T = 73/400 = 18.25\%</m>.</p>
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-percent-mixture">
+		<webwork>
+			<statement>
+				<p>Suppose one container has a solution that is 11% alcohol and another container has a solution that is 40%. Both are percent by volume. If 4 oz of the first is mixed with 1 oz of the second what is the percent alcohol by volume?  <var name="'16.8'" width="5" /></p>
+			</statement>
+			<solution>
+				<p>We know we will end up with 5 oz total. We calculate the volume of alcohol in the first to be <m>0.11 \cdot 4 = 0.44</m> and the volume alcohol in the second to be <m>0.4 \cdot 1 = 0.4</m>. Thus the alcohol part is <m>0.44+0.4=0.84</m>. The percent alcohol by volume of the result is <m>P/T = 0.84/5 = 0.168</m> or 16.8%.</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-percent-limitation">
+	<title>Limitations</title>
+
+	<p>When presenting data a percent by itself can be deceptive.</p>
+
+	<example xml:id="example-percent-limitation">
+		<statement><p>Which of the following do you suppose represents a greater reduction in students?</p>
+		<tabular>
+			<row><cell>Percent reduction</cell> <cell>Total</cell></row>
+			<row><cell>18%</cell> <cell>495</cell></row>
+			<row><cell>1.85%</cell> <cell>54</cell></row>
+			<row><cell>60%</cell> <cell>5</cell></row>
+		</tabular>
+		</statement>
+		<solution>
+					<tabular>
+			<row><cell>Percent reduction</cell> <cell>Total</cell>  <cell>Number reduced</cell></row>
+			<row><cell>18%</cell> <cell>495</cell> <cell>90</cell></row>
+			<row><cell>1.85%</cell> <cell>54</cell> <cell>1</cell></row>
+			<row><cell>60%</cell> <cell>5</cell> <cell>3</cell></row>
+		</tabular>
+		<p>The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.</p>
+		<p>Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?</p>
+		</solution>
+
+	</example>
+
+</subsection>
+
+</section>

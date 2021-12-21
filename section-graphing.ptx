@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-graphing" >
+<title>Representing Data</title>
+
+<introduction>
+
+<p>We often represent numerical data using diagrams. These include various kinds of charts like bar graphs and pie charts, and graphing of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-graphing-discrete">
+	<title>Graphing Discrete Data</title>
+
+	<example xml:id="example-graphing-bar1">
+		<title>Increasing Income</title>
+
+		<statement><p>When Vasya was hired in 2017 she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.</p>
+		<p>To represent this data we first need to calculate her salary each year. We calculate this by iteratively adding the $5000 for each year. This is found in <xref ref="table-graphing-bar1" /></p>
+		<p>We will represent her salary over time using the bar graph in <xref ref="figure-graphing-bar1" />. Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year.</p>
+		<p><ul>
+			<li>Does this graph tell us when Vasya received her raises each year?</li>
+			<li>If we made the horizontal axes dollars and the vertical axis years, would this change the information presented? Would it be easier or harder to read?</li>
+		</ul></p>
+		</statement>
+	</example>
+
+	<table xml:id="table-graphing-bar1" >
+		<title>Vasya's Salary</title>
+
+		<tabular>
+			<row><cell>2017</cell> <cell>$62,347.23</cell> </row>
+			<row><cell>2018</cell> <cell>$67,347.23</cell> </row>
+			<row><cell>2019</cell> <cell>$72,347.23</cell> </row>
+			<row><cell>2020</cell> <cell>$77,347.23</cell> </row>
+			<row><cell>2021</cell> <cell>$82,347.23</cell> </row>
+		</tabular>
+	</table>
+
+	<figure xml:id="figure-graphing-bar1" >
+		<caption>Vasya's Salary</caption>
+
+		<image source="images/vasya-salary" />
+	</figure>
+
+	<example xml:id="example-graphing-bar2">
+		<title>A Different Company</title>
+
+		<statement><p>When Tien was hired he was pair an annual salary of $52,429.33. His work has been good so each year he has received raises. His salaries are found in <xref ref="table-graphing-bar2" />. A graph representing his salaries is found in <xref ref="figure-graphing-bar2" />. </p>
+		<p><ul>
+			<li>How frequently did Tien receive raises?</li>
+			<li>Can we tell the size of the raises from the graph?</li>
+		</ul></p>
+		</statement>
+	</example>
+
+	<table xml:id="table-graphing-bar2" >
+		<title>Tien's Salary</title>
+
+		<tabular>
+			<row><cell>2017</cell> <cell>$52,429.33</cell> </row>
+			<row><cell>2018</cell> <cell>$55,050.80</cell> </row>
+			<row><cell>2019</cell> <cell>$57,803.34</cell> </row>
+			<row><cell>2020</cell> <cell>$60,693.50</cell> </row>
+			<row><cell>2021</cell> <cell>$63,728.18</cell> </row>
+		</tabular>
+	</table>
+
+	<figure xml:id="figure-graphing-bar2" >
+		<caption>Tien's Salary</caption>
+
+		<image source="images/tien-salary" />
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-graphing-variation">
+	<title>Distinguishing Rates</title>
+
+	<example xml:id="example-graphing-variation">
+		<title>Compare Raises</title>
+
+		<statement><p>One of the purposes of graphing is to compare how data is changing. Here we will compare the way the raises for Vasya and Tien were calculated.</p>
+		<p>We know that Vasya's salary rose by $5000 each year. We need to calculate how much Tien's salary was raised each year. These calculations are in <xref ref="table-varies-check" />.</p>
+		<p>Notice that Tien's raises were not the same amount each year. How did the raises change? Vasya's raises were the same each year, so her salary changed by a constant amount. When the rate of change is constant we call the pattern linear. We will learn other patterns.</p>
+		</statement>
+	</example>
+
+	<definition xml:id="definition-linear">
+		<title>Linear</title>
+		<statement><p>A relation is <term>linear</term> if and only if the rate of change is constant.</p></statement>
+	</definition>
+
+	<table xml:id="table-varies-check" >
+		<title>Tien's Raises</title>
+
+		<tabular>
+			<row><cell>2018</cell> <cell>$55,050.80-$52,429.33</cell> <cell>=$2,621.47</cell></row>
+			<row><cell>2019</cell> <cell>$57,803.34-$55,050.80</cell> <cell>=$2,752.54</cell></row>
+			<row><cell>2020</cell> <cell>$60,693.50-$57,803.34</cell> <cell>=$2,890.17</cell></row>
+			<row><cell>2021</cell> <cell>$63,728.18-$60,693.50</cell> <cell>=$3,034.68</cell></row>
+		</tabular>
+	</table>
+
+	<exercise xml:id="exercise-vary-linear-check">
+		<statement>
+			<p>Which of these employees' raises were linear?</p>
+			<tabular>
+				<row><cell>Moses</cell> <cell>Freya</cell> <cell>Jamal</cell></row>
+				<row><cell>$57,233.00</cell> <cell>$61,199.00</cell> <cell>$58,769.00</cell></row>
+				<row><cell>$61,239.31</cell> <cell>$63,499.00</cell> <cell>$61,924.00</cell></row>
+				<row><cell>$65,526.06</cell> <cell>$65,799.00</cell> <cell>$65,079</cell></row>
+				<row><cell>$70,112.89</cell> <cell>$68,099.00</cell> <cell>$68,234.00</cell></row>
+				<row><cell>$75,020.79</cell> <cell>$70,399.00</cell> <cell>$71,389.00</cell></row>
+				<row><cell>$80,272.24</cell> <cell>$72,699.00</cell> <cell>$74,544.00</cell></row>
+			</tabular>
+		</statement>
+		<hint><p>Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear.</p></hint>
+	</exercise>
+
+	<p>Rather than thinking about the change as the difference (subtraction) of consecutive numbers (salaries in these examples), we can consider the percent increase for each pair of consecutive numbers.</p>
+
+	<example xml:id="example-vary-exponential">
+		<title>Salary Percent Incease</title>
+
+		<statement><p>We will first calculate the percent increase of salary each year for Vasya and for Tien. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in <xref ref="table-vary-exp-vasya" /> and <xref ref="table-vary-exp-tien" />. </p>
+		<p>Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?</p></statement>
+	</example>
+
+	<table xml:id="table-vary-exp-vasya" >
+		<title>Percent Increase for Vasya</title>
+
+		<tabular>
+			<row><cell>2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell>=1.08</cell> </row>
+			<row><cell>2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell>=1.07</cell> </row>
+			<row><cell>2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell>=1.07</cell> </row>
+			<row><cell>2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell>=1.06</cell> </row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-vary-exp-tien" >
+		<title>Percent Increase for Tien</title>
+
+		<tabular>
+			<row><cell>2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell>=1.05</cell></row>
+			<row><cell>2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell>=1.05</cell></row>
+			<row><cell>2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell>=1.05</cell></row>
+			<row><cell>2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell>=1.05</cell></row>
+		</tabular>
+	</table>
+
+</subsection>
+
+<subsection xml:id="subsection-graphing-continuous">
+	<title>Graphing Continuous Data</title>
+
+	<p>Because the salaries changed only once per year we could use a single entry each year. For other data the changes occur constantly.</p>
+
+	<example xml:id="example-vary-continuous">
+		<title>Scale Model</title>
+
+		<statement><p>A model of a space shuttle is 1:144. This means one inch on the model represents 144 inches on the actual shuttle. Similarly 2 inches on the model represents 288 inches on the actual shuttle. Lengths are not just integers, we could have a part that is 1.72 inches. This would be <m>1.72 \cdot 144 = 247.68</m> inches on the actual shuttle.</p>
+		<p>To represent the conversion from inches on the model to inches on the actual object we need to plot points and connect them continuously. A graph of this in <xref ref="figure-graphing-line1" />. Notice the two points and the extension of those.</p>
+		<p><ul>
+			<li>Why does the graph start at 0?</li>
+			<li>Is this data linear?</li>
+		</ul></p>
+		</statement>
+	</example>
+
+	<figure xml:id="figure-graphing-line1">
+		<caption>Graph of Scale</caption>
+
+		<image source="images/line-graph" />
+	</figure>
+
+	<example xml:id="example-vary-ohm">
+		<title>Ohm's Law</title>
+
+		<statement><p>Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage is analagous to the amount of pressure to move the electrons. Current is how much electricity is moving. Resistance is, as it sounds, the resitance of a material to letting electricity flow.</p>
+		<p>The relationship is <me>V = IR</me> where <m>V</m> is voltage (in units of Volts), <m>I</m> is current (in units of amps), and <m>R</m> is the resistance (in units of Ohms).</p>
+		<p>Consider a 12 V system with an 8 Ohm resistor.
+			<md>
+				<mrow>12 = &amp; I \cdot 8. </mrow>
+				<mrow>\frac{12}{8} = &amp; I. </mrow>
+				<mrow>1.5 = &amp; I.</mrow>
+			</md>
+			If we reduce the resistance to 4 Ohms we get
+			<md>
+				<mrow>12 = &amp; I \cdot 4. </mrow>
+				<mrow>\frac{12}{4} = &amp; I. </mrow>
+				<mrow>3 = &amp; I.</mrow>
+			</md>
+			If instead we increase the resistance to 16 Ohms we get
+			<md>
+				<mrow>12 = &amp; I \cdot 16. </mrow>
+				<mrow>\frac{12}{16} = &amp; I. </mrow>
+				<mrow>0.75 = &amp; I.</mrow>
+			</md>
+			We can plot these three points and draw a curve through them. This is found in <xref ref="figure-vary-ohm" />.</p>
+			<p><ul>
+				<li>The graph starts with 1 Ohm. Why does it not start at 0?</li>
+				<li>As the resistance increases what happens to the current?</li>
+			</ul></p>
+		</statement>
+	</example>
+
+	<figure xml:id="figure-vary-ohm">
+		<caption>Graph of Ohms Law</caption>
+
+		<image source="images/ohms-example" />
+	</figure>
+
+	<exercise xml:id="exercise-graphing-continuous1">
+		<introduction><p>The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by <me>P \cdot V = k \cdot T</me> where <m>P</m> is the pressure, <m>V</m> is the volume, <m>T</m> is the temperature, and <m>k</m> is a constant dependent on the specific gas.</p></introduction>
+		<task><p>Draw a graph for the equation <m>P = \frac{8.3145 T}{2.0000}</m>. Note the units are Kelvin (Celsius + 273.15) for temperature and Jules/litre for pressure. These do not need to be labeled here.</p></task>
+		<task><p>Is this relationship linear?</p></task>
+		<task><p>Draw a graph for the equation <m>P = \frac{8.3145 \cdot 293.15}{V}</m>.</p></task>
+		<task><p>Is this second relationship linear?</p></task>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-graphing-notation">
+	<title>Representing Linear Relations</title>
+
+	<p>We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. Here we will add a representation in mathematical symbols that are useful for calculation.</p>
+
+	<example xml:id="example-graphing-linear-equation">
+		<title>Equation for Vasya</title>
+
+		<statement><p>Remember from <xref ref="example-graphing-bar1" /> that Vasya's annual salary follows a linear pattern. Specifically it increases $5000.00 per year. That means in over one year it has increased $5000.00. Over two years it has increased
+		<md>
+			<mrow>\$5000.00 + \$5000.00 &amp; =</mrow>
+			<mrow>2 \cdot \$5000.00 &amp; = \$10,000.00.</mrow>
+		</md>
+		Over three years it has increased
+		<md>
+			<mrow>\$5000.00 + \$5000.00 + \$5000.00 &amp; =</mrow>
+			<mrow>3 \cdot \$5000.00 &amp; = \$15,000.00.</mrow>
+		</md>
+		Generally then we can say that after <m>n</m> years, Vasya's salary has increased <m>5000n</m> dollars. To know her actual salary we need to add her initial salary. An equation for Vasya's salary then is <me>S = \$62,347.23 + \$5000.00 n</me>.</p></statement>
+	</example>
+
+	<exercise xml:id="exercise-graphing-linear-slope">
+		<webwork>
+			<statement>
+				<p>If Dimitri's salary is given by the equation <me>S = \$73,240.00 + \$6000.00 n</me> where <m>n</m> is the year of employement, what was his initial salary? <var name="'73240'" width="7" /></p>
+				<p>What was the size of his annual raises? <var name="'6000'" width="7" /></p>
+			</statement>
+			<hint>
+				<p>His initial salary is his salary in year 0.</p>
+			</hint>
+		</webwork>
+	</exercise>
+
+	<p>In <xref ref="example-vary-continuous" /> we graphed a line. In terms of the graph of a line, the rate of change is known as the <term>slope</term>. Because the rate of change is constant, the slope can be calculated from any two points.</p>
+
+	<p>Note a rate is a ratio of changes. In terms of points expressed in Cartesian coordinates the calculation is <me>\frac{y_2-y_1}{x_2-x_1}</me>. This is read, <q>change in y divided by change in x.</q></p>
+
+	<example xml:id="example-calculate-slope">
+		<title>Calculate Slope</title>
+
+		<statement><p>The graph in <xref ref="figure-graph-slope" /> is linear. We will calculate the slope twice.</p></statement>
+		<solution><p>We will use the points (4000,33.94) and (2000,31.94).
+			<md>
+				<mrow>\frac{33.94-31.94}{4000-2000} &amp; = \frac{2}{2000}</mrow>
+				<mrow> &amp; = \frac{1}{2000}.</mrow>
+			</md>
+			This means the slope is 1 inHg (inch of mercury) per 1000 feet above mean sea level.</p></solution>
+		<solution><p>We will use the points (8000,37.94) and (4000,33.94).
+			<md>
+				<mrow>\frac{37.94-33.94}{8000-4000} &amp; = \frac{4}{4000}</mrow>
+				<mrow> &amp; = \frac{1}{2000}.</mrow>
+			</md>
+			As expected this is the same slope, because on a line the rate of change (slope) is constant.</p></solution>
+	</example>
+
+	<figure xml:id="figure-graph-slope">
+		<caption>Calculating Slope</caption>
+		<image source="images/line-slope" />
+	</figure>
+
+	<exercise xml:id="exercise-graphing-calculate-slope">
+		<webwork>
+			<statement>
+				<p>Suppose that as dry air rose it dropped in temperature in a linear fashion. If the temperature was measured at 1000 ft MSL as <m>21^\circ</m> C and at 3000 ft MSL as <m>17^\circ</m> C, what is the rate of change of temperature with respect to altitude? <var name="'2'" width="4" /></p>
+				<p>What does this imply the temperature is at 0 ft MSL? <var name="'23'" width="4" /></p>
+			</statement>
+			<solution><p>The slope can be calculated as <me>\frac{17-21}{3000-1000} &amp; = \frac{-3}{2000}</me>.</p>
+			<p>Alternately because the temperature drops as the air rises, the temperature at a lower altitude (0 is lower than 1000) will be higher. So the temperature is <m>21+2=23</m>.</p></solution>
+		</webwork>
+	</exercise>
+
+</subsection>
+
+</section>

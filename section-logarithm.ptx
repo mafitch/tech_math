@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-logarithm">
+<title>Logarithm Properties</title>
+
+<introduction>
+
+<p>Logarithms were developed initially to manage data that grows exponentially. Consider the two graphs in <xref ref="figure-logarithm-scale-example" />. The left is the normal scale. On the right is a logarithmic scale. Notice how it is easier to read values on the logarithmic scale.</p>
+
+<figure xml:id="figure-logarithm-scale-example">
+	<caption>Comparison of Scales</caption>
+
+	<sidebyside>
+		<image source="images/scale-normal" width="30%" />
+		<image source="images/scale-logarithm" width="30%" />
+	</sidebyside>
+</figure>
+
+<p>Measurement of acidity (pH) and volume (decibel) are both logarithmic scales.</p>
+
+<p>Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. For example, a 10 degree temperature change feels like more of change if the temperature is <m>23^\circ</m> F than if it is <m>51^\circ</m> F.</p>
+
+<p>Logarithms also have a connection to drunk pigeons and a Scotsman's bones.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-logarithm-notation">
+	<title>Definition of Logarithm</title>
+
+	<p>The following definition is commonly used for algebraic uses of logarithms. Note that logarithms are defined here as the opposite of an exponential.</p>
+
+	<definition xml:id="definition-logarithm">
+		<title>Logarithm</title>
+		<statement><p><m>\log_a(x)=y</m> if and only if <m>a^y=x</m></p></statement>
+	</definition>
+
+	<example xml:id="example-logarithm-exponential">
+		<introduction><p>Each of the following is a conversion between exponential and logarithmic notation.</p></introduction>
+		<task><statement><p><m>\log_2(8)=3</m> is the same as <m>2^3=8</m>.</p></statement></task>
+		<task><statement><p><m>\log_5(1/25)=-2</m> is the same as <m>5^{-2}=1/25</m>.</p></statement></task>
+		<task><statement><p><m>\log_{10}(\sqrt{10})=1/2</m> is the same as <m>10^{1/2}=\sqrt{10}</m>.</p></statement></task>
+	</example>
+
+	<exercise xml:id="exercise-log-convert1">
+		<statement><p>Write <m>\log_2(16)=4</m> in exponential notation. Confirm that it is true.</p></statement>
+		<solution><p>Using <xref ref="definition-logarithm" /> we obtain <m>2^4=16</m>. By multiplying we confirm it is true.</p></solution>
+	</exercise>
+
+	<exercise xml:id="exercise-exp-convert1">
+		<statement><p>Write <m>100^{3/2}=1000</m> in logarithm notation.</p></statement>
+		<solution><p>Using <xref ref="definition-logarithm" /> we obtain <m>\log_{100}(1000)=3/2</m>.</p></solution>
+	</exercise>
+
+	<p>Because logarithms and exponentials are defined in terms of each other, we can use properties of exponentials to discover properties of logarithms.</p>
+
+	<exercise xml:id="exercise-log-domain-negative">
+		<statement><p>Re-write <m>\log_2(-4)=x</m> as an exponential. Can you find a number for <m>x</m> that makes this statement true?</p></statement>
+	</exercise>
+
+	<exercise xml:id="exercise-log-domain-zero">
+		<statement><p>Re-write <m>\log_2(0)=x</m> as an exponential. Can you find a number for <m>x</m> that makes this statement true?</p></statement>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-logarithm-special">
+	<title>Special Logarithms</title>
+
+	<p>Some logarithms occur sufficiently frequently in applications that they have their own notation.</p>
+
+	<p>Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: <term>common logs</term>. This is written without the base. For example <m>\log(100)=2</m> is the same as <m>\log_{10}(100)=2</m>.</p>
+
+	<p>In science and from mathematics we need another log called the <term>natural logarithm</term>. This is written as <m>\ln(x)</m> (for logarithm natural). Natural logarithms are paired with the base <m>e</m>. So <m>\ln(5)=y</m> is the same as <m>e^y=5</m>. <m>e</m> is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious is <m>e \approx 2.1718281828</m>.</p>
+
+	<exercise xml:id="exercise-logarithm-natural-calculate">
+		<statement><p>Using technology, calculate <m>\ln(7)</m>.</p></statement>
+	</exercise>
+
+</subsection>
+
+</section>

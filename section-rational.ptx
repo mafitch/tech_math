@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-rational" >
+<title>Rational Expressions</title>
+
+<introduction>
+
+<p>In <xref ref="section-variation" /> we worked with some relations that involved one dividing by a variable. Here we will work with more applications that involve rational (fractional) expressions. </p>
+
+</introduction>
+
+<subsection xml:id="subsection-rational-read">
+	<title>Understand a Model</title>
+
+	<activity xml:id="activity-rational-gears">
+		<introduction><p>When one gear directly drives another the speeds at which they rotate (in rotations per minute or rpm) is given by <me>r_1 g_1 = r_2 g_2</me> where <m>r_1</m> and <m>r_2</m> are the rotation speeds of the two gears and <m>g_1</m> and <m>g_2</m> are the number of teeth on each gear.</p></introduction>
+		<task><p>Consider a pair of gears with the larger have 32 teeth and the smaller having 16 teeth. If the larger gear does one, full rotation, 32 teeth move around. This means the smaller gear also has 32 teeth move around. How many rotations is this?</p></task>
+		<task><p>Next consider a pair of gears with the larger having 36 teeth and the smaller having 20 teeth. If the larger gear rotates 2 times, how many times has the smaller gear rotated?</p></task>
+		<task><p>Next we consider the effect of increasing the disparity in the number of teeth. Suppose the smaller gear has 10 teeth. How many times does it rotate for a single rotation if the larger gear has 30 teeth? 36 teeth? 42 teeth? 48 teeth? Is this linear, quadratic, exponential, inverse of one of these?</p></task>
+		<task><p>The speed of the larger gear will always be what compared to the speed of the lower gear?</p></task>
+	</activity>
+
+</subsection>
+
+<subsection xml:id="subsection-rational-ohm">
+	<title>First Example</title>
+
+	<p>We worked with Ohm's Law relating voltage, current, and resistance. That applies to electricity flowing along one path (e.g., wire). In the next example we look at what effect connecting multiple paths has on resistance.</p>
+
+	<example xml:id="example-resistance-dual">
+		<title>Parallel Resistance</title>
+
+		<statement><p>When two resistors are in parallel as shown in <xref ref="figure-parallel-resistance" /> then the resulting resistance is given by <me>\frac{1}{R} = \frac{1}{R_1}+\frac{1}{R_2}</me>. </p>
+		<p>Calculate the resulting resistance when one resistor is 4 Ohms (<m>R_1=4</m>) and the other is 12 Ohms (<m>R_2=12</m>).</p></statement>
+		<solution><p><md>
+			<mrow>\frac{1}{R} &amp; = \frac{1}{R_1} + \frac{1}{R_2}. </mrow>
+			<mrow>\frac{1}{R} &amp; = \frac{1}{4} + \frac{1}{12}. </mrow>
+			<mrow>\frac{1}{R} &amp; = \frac{3}{3} \cdot \frac{1}{4} + \frac{1}{12}. </mrow>
+			<mrow>\frac{1}{R} &amp; = \frac{3}{12} + \frac{1}{12}. </mrow>
+			<mrow>\frac{1}{R} &amp; = \frac{4}{12} </mrow>
+			<mrow> &amp; = \frac{1}{3}.</mrow>
+			<mrow>\frac{1}{R} \cdot 3R &amp; = \frac{1}{3} \cdot 3R </mrow>
+			<mrow>3 &amp; = R. </mrow>
+		</md> Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., <sq>cross multiplication</sq>).</p></solution>
+	</example>
+
+	<figure xml:id="figure-parallel-resistance">
+		<caption>Resistors in Parallel</caption>
+		<image source="images/resistors-parallel" />
+	</figure>
+
+	<example xml:id="example-resistance-dual2">
+		<title>Parallel Resistance Solving</title>
+
+		<statement><p>In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.</p>
+		<p>If we need a five Ohm resistance and have an eight Ohm resistor already, what do we add as the second resistor?</p></statement>
+		<solution><p><md>
+			<mrow>\frac{1}{R} &amp; = \frac{1}{R_1} + \frac{1}{R_2}. </mrow>
+			<mrow>\frac{1}{5} &amp; = \frac{1}{8} + \frac{1}{R_2}. </mrow>
+			<mrow>\frac{1}{5} - \frac{1}{8} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>\frac{8}{8} \cdot \frac{1}{5} - \frac{5}{5} \cdot \frac{1}{8} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>\frac{8}{40} - \frac{5}{40} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>\frac{3}{40} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>R_2 \cdot \frac{40}{3} \cdot \frac{3}{40} &amp; = R_2 \cdot \frac{40}{3} \cdot \frac{1}{R_2}. </mrow>
+			<mrow>R_2 &amp; = \frac{40}{3} </mrow>
+			<mrow> &amp; \approx 13.\bar{3}.</mrow>
+		</md> Note the need for a common denominator in the fourth line. The final step is once again clearing of denominators (i.e., <sq>cross multiplication</sq>).</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-rational-parallel-resistors1">
+		<webwork>
+			<statement>
+				<p>If two resistors are connected in parallel and they are 4 and 16 ohms, what is the resulting resistance? <var name="'16/5'" width="6" /></p>
+			</statement>
+		</webwork>
+	</exercise>
+
+	<exercise xml:id="exercise-rational-parallel-resistors-thought">
+		<statement><p>If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, can we find a second resistor to make this work? Explain.</p></statement>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-rational-solving">
+	<title>Re-arranging Rational Expressions</title>
+
+	<p>Equations show relationships between parameters. Sometimes we want to re-arrange the equation for a specific parameter (variable).</p>
+
+	<example xml:id="example-rational-solve-gear">
+		<title>Pitch Diamter</title>
+
+		<statement><p>There is a relation between the number of teeth (<m>N</m>) of a gear, the outside diameter (<m>D_o</m>), and the pitch diameter (<m>D_p</m>). It is <me>D_p = \frac{D_o N}{N+2}.</me> If we want to find the number of teeth given the two diameters we will need to solve for <m>N</m>.</p></statement>
+		<solution><p><md>
+			<mrow>D_p &amp; = \frac{D_o N}{N+2}.</mrow>
+			<mrow>D_p \cdot (N+2) &amp; = \frac{D_o N}{N+2} \cdot (N+2).</mrow>
+			<mrow>D_p (N+2) &amp; = D_o N.</mrow>
+			<mrow>D_p N+2D_p &amp; = D_o N.</mrow>
+			<mrow>D_p N - D_o N &amp; = -2D_p.</mrow>
+			<mrow>(D_p - D_o) N &amp; = -2D_p.</mrow>
+			<mrow>\frac{(D_p - D_o) N}{D_p - D_o} &amp; = \frac{-2D_p}{D_p - D_o}.</mrow>
+			<mrow>N &amp; = \frac{-2D_p}{D_p - D_o}.</mrow>
+		</md></p>
+		<p>Notice we needed to collect the terms with <m>N</m>. This required distributing (third line), collecting on one side, then factoring.</p></solution>
+	</example>
+
+	<p>There is a relationship between volume, pressure, and temperature. <me>\frac{P_1 V_1}{T_1+460} = \frac{P_2 V_2}{T_2+460}.</me> <m>P_1</m>, <m>V_1</m>, and <m>T_1</m> are the initial pressure, volume, and temperature. <m>P_2</m>, <m>V_2</m>, and <m>T_2</m> are pressure, volume, and temperature at another time. One or more might change.</p>
+
+	<exercise>
+		<introduction><p>Consider a situation where the initial measurements are <m>P_1=29.97</m> inHg, <m>V_1=28.88 \text{ in}^3</m>,  and <m>T_1=55.00^\circ</m> F.</p></introduction>
+		<task><p>Calculate <m>P_2</m> when <m>T_2=55^\circ</m> F and <m>V_2=28.88</m> inHg.</p></task>
+		<task><p>Suppose <m>T_2=55.00^\circ</m> F (i.e., temperature is unchanged). Calculate <m>P_2</m> when <m>V_2=25.88</m>, <m>V_2=22.88</m>, and <m>V_2=19.88</m>. Is the relationship between volume and pressure linear?
+		 </p></task>
+		 <task><p>Suppose <m>V_2=28.88 \text{ in}^3</m> (i.e., the object is not changing size). Calculate <m>P_2</m> when <m>T_2=110.00</m>, <m>T_2=165.00</m>, and <m>T_2=220.00</m>. Is the relationship between pressure and temperature linear? How does the equation indicate this?</p></task>
+		 <task><p>Suppose <m>V_2=28.88 \text{ in}^3</m>. What temperature, <m>T_2</m>, will produce a pressure of 31.23 inHg?</p></task>
+		 <task>
+		 	<introduction><p>We used inHg as the unit of pressure. Would this process still work if we used <m>\text{lbs}/\text{in}^2</m> (psi)?</p></introduction>
+		 	<task><p>To figure this out copy your calculation for <m>V_2=28.88</m> and <m>T_2=55</m>. Note that the conversion from inHg to psi is 1.000 inHg to 0.4912 psi. Convert <m>P_1=29.97</m> inHg to psi.</p></task>
+		 	<task><p>Use this to recalculate <m>P_2</m>. This is in psi.</p></task>
+		 	<task><p>Convert it back to inHg.</p></task>
+		 	<task><p>Does this match your first answer?</p></task>
+		 	<task><p>Does this equation work when units are changed?</p></task>
+		 </task>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-rational-rates">
+	<title>Rates</title>
+
+	<p>There are many times when we need to calculate the rate at which something can be accomplished when more than one person/thing is working on it.</p>
+
+	<example xml:id="example-rational-work1">
+		<title>Joint Work: Draining Basement</title>
+
+		<statement><p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4.0 hours, whereas the other pump can do the job in only 3.0 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p></statement>
+		<solution><p>Stop and think about how you might approach this. There are multiple ways to do so.</p></solution>
+		<solution><p>If both pumps are running it will take less than 3 hours which one alone could do. The question is how to find the combined speed. Note speed is a rate, so this suggests we first write down the rates. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4.0 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3.0 \text{ hours}}</m>. When the pumps are working together their rates would combine; we should end up with a faster rate (less than 3 hours per basement). The combined rate is
+		<md>
+			<mrow>\frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = </mrow>
+			<mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = </mrow>
+			<mrow>\frac{3 \text{ basement}}{12.0 \text{ hours}} + \frac{4 \text{ basement}}{12.0 \text{ hours}} &amp; = \frac{7 \text{ basement}}{12.0 \text{ hours}}</mrow>
+		</md>.
+		Now we need to convert this rate from 7 basements per 12 hours to 1 basement per N hours. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.7 \text{ hours}}</me>.</p></solution>
+	</example>
+
+	<exercise>
+		<webwork>
+			<statement>
+				<p>If one shop can do seven float changes in two days, and a second shop can do thirteen float changes in three days, how long will it take the pair of shops to do 65 float changes? <var name="'8.3'" width="4" /></p>
+				<p>If they start on Monday and work only weekdays, on what day of the week will they finish? <var name="Wednesday" width="10" /></p>
+			</statement>
+		</webwork>
+	</exercise>
+
+</subsection>
+
+</section>

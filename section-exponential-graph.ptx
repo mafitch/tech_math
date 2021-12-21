@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-exponential-graph" >
+<title>Graphs of Exponential Functions</title>
+
+<introduction>
+
+<p>We have learned how to identify exponential data (<xref ref="section-variation" />) and some applications (<xref ref="section-exponential" />). Here we will consider traits of graphs of exponential functions.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-exponential-shape">
+	<title>Shape of Exponentials</title>
+
+	<p>Our first examples are discrete data. For example the number of views per day. That can be 10 or 21 but never 21.3 (we are not adding up percent of video viewed). <xref ref="figure-exponential-discrete-graph" /> contains a bar chart for exponential data.</p>
+
+	<exercise xml:id="exercise-compare-exponential-quadratic">
+		<introduction><p>Compare the exponential data in <xref ref="figure-exponential-discrete-graph" /> to the quadratic data in <xref ref="figure-quadratic-discrete-graph" />. We know that the exponential grows faster than the quadratic.</p></introduction>
+		<task>
+			<statement><p>What (if anything) makes it clear that the exponential data is growing faster?</p></statement>
+		</task>
+		<task>
+			<statement><p>What (if anything) hides the faster rate of growth of the exponential?</p></statement>
+		</task>
+	</exercise>
+
+	<p>We know that factorial data grows faster than exponential data. Repeat <xref ref="exercise-compare-exponential-quadratic" /> with the exponential and factorial graphs.</p>
+
+	<figure xml:id="figure-exponential-discrete-graph">
+		<caption>Bar Chart of Exponential Data</caption>
+
+		<image source="images/exponential-discrete-graph" width="50%" />
+	</figure>
+
+	<figure xml:id="figure-quadratic-discrete-graph">
+		<caption>Bar Chart of Quadratic Data</caption>
+
+		<image source="images/quadratic-discrete-graph" width="50%" />
+	</figure>
+
+	<figure xml:id="figure-factorial-discrete-graph">
+		<caption>Bar Chart of Factorial Data</caption>
+
+		<image source="images/factorial-discrete-graph" width="50%" />
+	</figure>
+
+	<p>We also have continuous exponential data that we can graph as curves.</p>
+
+	<example xml:id="example-graph-exponential-continous">
+		<statement><p>Graph <m>y=2^x</m>.</p></statement>
+		<solution>
+			<p>First we will generate a table of points with which to start.</p>
+			<tabular top="medium">
+				<row bottom="medium" left="medium"><cell right="medium">x</cell> <cell right="medium">-4</cell> <cell right="medium">-3</cell> <cell right="medium">-2</cell> <cell right="medium">-1</cell> <cell right="medium">0</cell> <cell right="medium">1</cell> <cell right="medium">2</cell> <cell right="medium">3</cell> <cell right="medium">4</cell></row>
+				<row bottom="medium" left="medium"><cell right="medium">2^x</cell> <cell right="medium"><m>2^{-4}=\frac{1}{2^4}=\frac{1}{16}</m></cell> <cell right="medium"><m>2^{-3}=\frac{1}{2^3}=\frac{1}{8}</m></cell> <cell right="medium"><m>2^{-2}=\frac{1}{2^2}=\frac{1}{4}</m></cell> <cell right="medium"><m>2^{-1}=\frac{1}{2^1}=\frac{1}{2}</m></cell> <cell right="medium"><m>2^0=1</m></cell> <cell right="medium"><m>2^1=2</m></cell> <cell right="medium"><m>2^2=4</m></cell> <cell right="medium"><m>2^3=8</m></cell> <cell right="medium"><m>2^4=16</m></cell></row>
+			</tabular>
+			<p>We can plot these points then sketch a curve smoothly through the points.</p>
+			<image source="images/graph-exponential-continuous" width="50%" />
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-exponential-continuous-describe">
+		<statement><p>Describe the curve in <xref ref="example-graph-exponential-continous" />. Don't try to remember mathematical terms. What we need is phrasing we can remember and use to sketch other exponential curves.</p></statement>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-exponential-transform">
+	<title>Transforming Exponential Functions</title>
+
+	<p>In <xref ref="section-quadratic-graph" /> we learned how to shift and stretch parabolas (graphs of quadratics). Those same transformations work on exponentials (and any other function).</p>
+
+	<exercise xml:id="exercise-exponential-vertical-shift">
+		<introduction><p>Graph each of the following using the graph in <xref ref="example-graph-exponential-continous" />.</p></introduction>
+		<task>
+			<statement><p><m>y=2^x+3</m></p></statement>
+		</task>
+		<task>
+			<statement><p><m>y=3(2^x)</m></p></statement>
+		</task>
+		<task>
+			<statement><p><m>y=2^{-x}</m></p></statement>
+		</task>
+	</exercise>
+
+</subsection>
+
+</section>

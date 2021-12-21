@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-geometry2D" >
+<title>Geometric Reasoning</title>
+
+<introduction>
+
+<p>Here we will use a variety of formulas for geometric properties on basic shapes to analyze objects in context and more complicated shapes. These formulas are provided (largely) without explanation. Rather the explaining the formulas our goal is to break complex problems down into simpler problems we can calculate using these formulas.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-geometric-properties-2d">
+	<title>Properties</title>
+
+	<p>The <term>perimeter</term> of a shape is the sum of the lengths of the edges of the shape.</p>
+
+	<p>The <term>area</term> of a shape is a measure of what it takes to fill the shape.</p>
+
+</subsection>
+
+<subsection xml:id="subsection-geometric-2d">
+	<title>2D Shapes</title>
+
+	<definition xml:id="definition-parallelogram">
+		<title>Parallelogram</title>
+
+		<statement><p>A <term>parallelogram</term> is a four sided shape with opposing pairs of sides parallel.</p></statement>
+	</definition>
+
+	<p>Note this includes <term>rectangles</term>, which are parallelograms with four right angles (includes squares), and <term>rhombi</term> which are parallelograms with four equal length sides.</p>
+
+	<figure xml:id="figure-parallelogram-properties">
+		<caption>Parallelograms</caption>
+
+		<tabular top="minor">
+			<col width="30%" />
+			<col width="20%" />
+			<col width="20%" />
+			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Perimeter</cell> <cell right="minor">Area</cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><image source="images/parallelogram" /></cell> <cell right="minor"><m>2(a+b)</m></cell> <cell right="minor"><m>h_1 a</m></cell> </row>
+		</tabular>
+	</figure>
+
+	<example xml:id="example-parallelogram-area">
+		<statement><p>What is the area of the parallelogram in <xref ref="figure-exercise-parallelogram-area" />?</p></statement>
+		<solution><p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3 \cdot 5 = 15.</me></p></solution>
+	</example>
+
+	<figure xml:id="figure-exercise-parallelogram-area">
+		<caption>Calculate the area</caption>
+		<image source="images/parallelogram_area" width="50%" />
+	</figure>
+
+	<exercise xml:id="exercise-parallelogram-heights">
+		<statement><p>In <xref ref="figure-parallelogram-properties" /> the height is labeled <m>h_1</m>. Where is another height that could be used?</p></statement>
+	</exercise>
+
+	<exercise xml:id="exercise-rectangle-from-parallelogram">
+		<statement><p>What does <m>h_1</m> equal in a rectangle?</p></statement>
+	</exercise>
+
+	<figure xml:id="figure-trapezoid-properties">
+		<caption>Trapezoid</caption>
+
+		<tabular top="minor">
+			<col width="30%" />
+			<col width="20%" />
+			<col width="20%" />
+			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Perimeter</cell> <cell right="minor">Area</cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><image source="images/trapezoid" /></cell> <cell right="minor"><m>a_1+b_1+a_2+b_2</m></cell> <cell right="minor"><m>\frac{h}{2}(a_1+a_2)</m></cell> </row>
+		</tabular>
+	</figure>
+
+	<example xml:id="example-trapezoid-area">
+		<statement><p>What is the area of the trapezoid in <xref ref="figure-exercise-trapezoid-area" />?</p></statement>
+		<solution><p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3}{2}(1.76+5) = 10.14.</me></p></solution>
+	</example>
+
+	<figure xml:id="figure-exercise-trapezoid-area">
+		<caption>Calculate the area</caption>
+		<image source="images/trapezoid_area" width="50%" />
+	</figure>
+
+	<figure xml:id="figure-triangle-properties">
+		<caption>Triangle</caption>
+
+		<tabular top="minor">
+			<col width="30%" />
+			<col width="20%" />
+			<col width="20%" />
+			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Perimeter</cell> <cell right="minor">Area</cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><image source="images/triangle" /></cell> <cell right="minor"><m>a+b+c</m></cell> <cell right="minor"><m>\frac{1}{2}bh</m></cell> </row>
+		</tabular>
+	</figure>
+
+	<example xml:id="example-triangle-area1">
+		<statement><p>What is the area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p></statement>
+		<solution><p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.9 \cdot 4.43 = 24.1.</me></p>
+		<p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.3</me></p></solution>
+	</example>
+
+	<figure xml:id="figure-exercise-triangle-area">
+		<caption>Calculate the area</caption>
+		<sidebyside>
+			<image source="images/triangle_area" width="50%" />
+			<image source="images/triangle_area2" width="50%" />
+		</sidebyside>
+	</figure>
+
+	<exercise xml:id="exercise-triangle-alternate-heights">
+		<statement><p>In <xref ref="figure-triangle-properties" /> the height is labeled <m>h_1</m>. Where are other possible heights and where are their bases?</p></statement>
+	</exercise>
+
+	<theorem xml:id="theorem-pythagorean">
+		<title>Pythagorean Theorem</title>
+		<statement><p>For a triangle containing a right angle <me>a^2+b^2=c^2</me> where <m>a</m> and <m>b</m> are the lengths of the sides adjacent to the right angle.</p></statement>
+	</theorem>
+
+	<p>In a later section we will develop a version of this statement for triangles without a right angle.</p>
+
+	<theorem xml:id="theorem-herons-formula">
+		<title>Heron's Formula</title>
+		<statement><p>The area of a triangle can be calculated using the three sides. <me>A = \sqrt{s(s-a)(s-b)(s-c)}</me> where <m>s=\frac{1}{2}(a+b+c)</m>.</p></statement>
+	</theorem>
+
+	<example xml:id="example-heron-triangle">
+		<statement><p>Calculate the area of the triangles in <xref ref="figure-exercise-triangle-area" />.</p></statement>
+		<solution><p>According to Heron's formula for the triangle on the left
+			<md>
+				<mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.9)</mrow>
+				<mrow> &amp; = 12.535.</mrow>
+				<mrow>\text{Area} &amp; = \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.9)}</mrow>
+				<mrow> &amp; = 24.16.</mrow>
+			</md>
+			For the triangle on the right
+			<md>
+				<mrow>s &amp; = \frac{1}{2}(5.98+8.19+2.87)</mrow>
+				<mrow> &amp; = 8.515.</mrow>
+				<mrow>\text{Area} &amp; = \sqrt{8.515(8.515-5.98)(8.515-8.19)(8.515-2.87)}</mrow>
+				<mrow> &amp; = 6.3.</mrow>
+			</md>
+		</p></solution>
+	</example>
+
+	<figure xml:id="figure-circle-properties">
+		<caption>Circle</caption>
+
+		<tabular top="minor">
+			<col width="30%" />
+			<col width="20%" />
+			<col width="20%" />
+			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Perimeter</cell> <cell right="minor">Area</cell> </row>
+			<row left="minor"><cell right="minor"><image source="images/circle_diag" /></cell> <cell right="minor"><m>2\pi r</m></cell> <cell right="minor"><m>\pi r^2</m></cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"></cell> <cell right="minor"><m>\pi d</m></cell> <cell right="minor"><m>\pi \frac{d^2}{4}</m></cell> </row>
+		</tabular>
+	</figure>
+
+</subsection>
+
+<subsection xml:id="subsection-geometry-applied">
+	<title>Applying Geometry</title>
+
+	<example xml:id="example-apply-geometry-house-wall">
+		<task>
+			<statement><p>Find the area of this wall given the dimensions given in feet.</p></statement>
+			<solution><p>First we note that we can describe the wall as a rectangle with a triangle on top of it. The sides of the rectangle area 7 and 24 feet. This means that area is <m>7 \cdot 24 = 168</m>. The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
+			<md>
+				<mrow>s &amp; = \frac{1}{2}(13+13+24)</mrow>
+				<mrow> &amp; = 25.</mrow>
+				<mrow>\text{area} &amp; = \sqrt{25(25-13)(25-13)(25-24)}</mrow>
+				<mrow> &amp; = 60.</mrow>
+			</md>
+			The total area then is <m>168+60=248</m> square feet.</p></solution>
+		</task>
+		<task>
+			<statement><p>Find the perimeter of this wall given the dimensions given in feet.</p></statement>
+			<solution><p>There are five (5) edges. There sum is <m>7+24+7+13+13=64</m> feet.</p></solution>
+		</task>
+		<task>
+			<statement><p>What is the (tallest) height of the wall?</p></statement>
+			<solution><p>We need the height of the triangular portion of the wall to find the height at the peak.
+				<md>
+					<mrow>60 &amp; = \frac{1}{2}24 h.</mrow>
+					<mrow>5 &amp; = h.</mrow>
+				</md>
+			The total height is then <m>7+5=12</m>.</p></solution>
+		</task>
+	</example>
+
+	<figure xml:id="figure-apply-geometry-house-wall">
+		<caption>Wall</caption>
+		<image source="images/HouseWall" width="50%" />
+	</figure>
+
+	<exercise xml:id="exercise-apply-geometry-birdhouse">
+		<statement><p>What is the total area of the birdhouse shown in <xref ref="figure-apply-geometry-birdhouse" />?</p></statement>
+	</exercise>
+
+	<figure xml:id="figure-apply-geometry-birdhouse">
+		<caption>Birdhouse</caption>
+		<image source="images/birdhouse" width="50%" />
+	</figure>
+</subsection>
+
+</section>

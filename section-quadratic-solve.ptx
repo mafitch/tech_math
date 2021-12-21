@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-quadratic-solve" >
+<title>Solving Quadratics</title>
+
+<introduction>
+
+<p>In <xref ref="section-variation" /> we learned to identify data that has a quadratic relation. Here we will learn to recognize these in algebraic notation and practice solving them.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-quadratic-forms">
+	<title>Algebraic Forms of Quadratics</title>
+
+	<p><term>Quadratic</term> refers to any expression that has a non-zero squared term. For example <m>2x^2+3x+2</m> and <m>5-x^2</m> are quadratics. We can show that these have the data pattern we identified. <xref ref="table-square-is-quadratic" /> demonstrates that <m>2x^2+3x+2</m> has the same pattern. </p>
+
+	<table xml:id="table-square-is-quadratic">
+		<title>Data for Quadratic</title>
+		<tabular>
+			<row><cell><m>x</m></cell> <cell><m>2x^2+3x+2</m></cell> <cell>1st Difference</cell> <cell>2nd Difference</cell> </row>
+			<row><cell>-3</cell> <cell>11</cell> <cell></cell> <cell></cell> </row>
+			<row><cell>-2</cell> <cell>4</cell> <cell>-7</cell> <cell></cell> </row>
+			<row><cell>-1</cell> <cell>1</cell> <cell>-3</cell> <cell>4</cell> </row>
+			<row><cell>0</cell> <cell>2</cell> <cell>1</cell> <cell>4</cell> </row>
+			<row><cell>1</cell> <cell>7</cell> <cell>5</cell> <cell>4</cell> </row>
+			<row><cell>2</cell> <cell>16</cell> <cell>9</cell> <cell>4</cell> </row>
+		</tabular>
+	</table>
+
+	<p>Each of the following expressions or equations is quadratic.
+		<ul>
+			<li><m>11x^2+32x-3</m></li>
+			<li><m>2(x-3)^2+7</m></li>
+			<li><m>10-21x^2</m></li>
+			<li><m>x(6x-5)=21</m></li>
+			<li><m>5x(2x-5)+25=2x-5</m></li>
+		</ul>
+		Each of the following expressions or equations is not quadratic.
+		<ul>
+			<li><m>5x+3</m></li>
+			<li><m>9x^3-2x^2+7x+8</m></li>
+			<li><m>x^2(x-5)=7</m></li>
+			<li><m>0x^2+3x+2</m></li>
+		</ul>
+	</p>
+
+	<p>The first two forms of quadratics above are common because they are useful for various applications. The first one, called <term>standard form</term>, is written as <m>ax^2+bx+c</m> where <m>a \ne 0</m>. For <m>11x^2+32x-3</m>, <m>a=11</m>, <m>b=32</m>, and <m>c=-3</m>. We will use this form in this section for the purpose of solving.</p>
+
+</subsection>
+
+<subsection xml:id="subsection-quadratic-solving">
+	<title>Solving Quadratics</title>
+
+	<p>For our purposes we will consider two methods of solving quadratics. The first is for very simple quadratics of the form <m>ax^2+c=0.</m></p>
+
+	<example xml:id="example-solve-quadratic-inversion">
+		<statement><p>Find all solutions to <m>10-21x^2=0</m>.</p></statement>
+		<solution><p>We can solve this by undoing each operation.
+			<md>
+				<mrow>10-21x^2 &amp; = 0.</mrow>
+				<mrow>-21x^2 &amp; = -10.</mrow>
+				<mrow>x^2 &amp; = \frac{-10}{-21}.</mrow>
+				<mrow>x^2 &amp; = \frac{10}{21}.</mrow>
+				<mrow>x &amp; = \pm \sqrt{10/21}.</mrow>
+			</md>
+		Notice that we end up with two results. This is typical of quadratics.</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-quadratic-inversion">
+		<webwork>
+			<statement>
+				<p>Find the solutions to <m>6(x-2)^2-24=0</m>.</p>
+				<p>Largest solution: <var name="'4'" width="4" /></p>
+				<p>Smallest solution: <var name="'0'" width="4" /></p>
+			</statement>
+			<solution>
+				<p><md>
+					<mrow>6(x-2)^2-24 &amp; = 0</mrow>
+					<mrow>6(x-2)^2 &amp; = 24</mrow>
+					<mrow>(x-2)^2 &amp; = 4</mrow>
+					<mrow>x-2 &amp; = \pm 2</mrow>
+					<mrow>x &amp; = 2 \pm 2</mrow>
+					<mrow>x &amp; = 4, 0.</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<p>When the quadratic has more than a square term, e.g., <m>11x^2+32x-3=0</m> we cannot undo each operation. For this class we will solve all of these using the quadratic formula. For <m>ax^2+bx+c=0</m> the solutions are given by <me>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.</me></p>
+
+	<example xml:id="example-solve-quadratic-formula">
+		<statement><p>Find all solutions to <m>11x^2+32x-3=0</m>.</p></statement>
+		<solution><p>We note that <m>a=11</m>, <m>b=32</m>, <m>c=-3</m>.
+		<md>
+			<mrow>x &amp; = \frac{-32 \pm \sqrt{(32)^2-4(11)(-3)}}{2(11)}</mrow>
+			<mrow> &amp; = \frac{-32 \pm \sqrt{1024+132}}{22}</mrow>
+			<mrow> &amp; = \frac{-32 \pm \sqrt{1156}}{22}</mrow>
+			<mrow> &amp; = \frac{-32 \pm 34}{22}</mrow>
+			<mrow> &amp; = \frac{1}{11}, -3</mrow>
+		</md></p></solution>
+	</example>
+
+	<example xml:id="example-solve-quadratic-rearrange">
+		<statement><p>Find all solutions to <m>8x^2-5x=2x^2+21</m>.</p></statement>
+		<solution><p>We first need to collect all terms on one side and combine them.
+		<md>
+			<mrow>8x^2-5x &amp; = 2x^2+21.</mrow>
+			<mrow>6x^2-5x-21 &amp; = 0.</mrow>
+		</md>
+		Now we can use the formula.
+		<md>
+			<mrow>x &amp; = \frac{-(-5) \pm \sqrt{(-5)^2-4(6)(-21)}}{2(6)}</mrow>
+			<mrow> &amp; = \frac{5 \pm \sqrt{25+504}}{12}</mrow>
+			<mrow> &amp; = \frac{5 \pm \sqrt{529}}{12}</mrow>
+			<mrow> &amp; = \frac{5 \pm 23}{12}</mrow>
+			<mrow> &amp; = \frac{7}{3}, -\frac{3}{2}</mrow>
+		</md></p></solution>
+	</example>
+
+
+	<exercise xml:id="exercise-quadratic-formula">
+		<webwork>
+			<statement>
+				<p>Find the solutions to <m>8x^2-30x+25=0</m>.</p>
+				<p>Largest solution: <var name="'5/4'" width="4" /></p>
+				<p>Smallest solution: <var name="'5/2'" width="4" /></p>
+			</statement>
+			<solution>
+				<p><md>
+					<mrow>x &amp; = \frac{-(-30) \pm \sqrt{(-30)^2-4(8)(25)}}{2(8)}</mrow>
+					<mrow> &amp; = \frac{30 \pm \sqrt{900-800}}{16}</mrow>
+					<mrow> &amp; = \frac{30 \pm \sqrt{100}}{16}</mrow>
+					<mrow> &amp; = \frac{30 \pm 10}{16}</mrow>
+					<mrow> &amp; = \frac{5}{2}, \frac{5}{4}</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+</subsection>
+
+</section>

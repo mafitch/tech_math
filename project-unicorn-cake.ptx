@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-cake" >
+<title>Project: Unicorn Cake</title>
+
+<project xml:id="project-unicorn-cake">
+	<title>Building a Unicorn Cake</title>
+
+<introduction>
+	<p>The purpose of this project is to use knowledge of geometric properties to solve a scaling problem. We will also use the problem to consider the difference in how different geometric properties (e.g., diameter, surface area, volume) change in a situation.</p>
+	<p>You have been selected to bake the birthday cake of a little girl who is about to turn three. This little girl has been begging for weeks for a unicorn cake, and you decide to indulge her. When looking up suggestions online on how to bake this cake, you found that most everyone suggests baking the cake in smaller circular cake pans that have a diameter of 6 inches. That’s the best way to get the height for the unicorn head. A normal circular cake pan (and the only kind you have) has a diameter of 9 inches. You need to buy cake pans. As an experienced baker, you know that the recipe you are planning on using usually fills two regular (9 inch) cake pans. How many 6-inch pans do you need to buy? We’re going to assume that all cake pans are the same height. </p>
+	<p>In this project, we will figure out how many 6 inch circular cake pans we’re going to need, assuming we’re sticking with the recipe we planned.</p>
+</introduction>
+
+<task><statement><p>After reading the scenario, I hope you are already thinking about how you might solve this. What is some information presented in the scenario that we are going to use?</p></statement></task>
+
+<task><statement><p>What is some information that you already know that might help? (Example: if we need to think about relating radius to diameter, write down that formula. What other formulas might we need?)</p></statement></task>
+
+<task>
+	<introduction><p>For the sake of comparing properties, let’s tackle the problem first by considering diameter.</p></introduction>
+	<task>
+		<statement><p>The recipe calls for two 9-in circular cake pans. What is the combined diameter of those cake pans?</p></statement>
+	</task>
+	<task>
+		<statement><p>How many 6-in circular cake pans will we need to obtain that same total diameter? (Show me the math.)</p></statement>
+	</task>
+	<task>
+		<statement><p>Is this a good way to judge how many 6-in cake pans we need? Why or why not?</p></statement>
+	</task>
+</task>
+
+<task>
+	<introduction><p>Now let’s think about surface area.</p></introduction>
+	<task>
+		<statement><p>What shape is a cake baked in a round pan? You may ignore that the top of the cake will puff up during baking. Professional bakers will cut that off to make it level.</p></statement>
+	</task>
+	<task>
+		<statement><p>What is the <em>total</em> surface area of this shape if the radius is 9" and the height is 2"?</p></statement>
+	</task>
+	<task>
+		<statement><p>The recipe calls for two 9" circular cake pans. What is the combined surface area of those cakes?</p></statement>
+	</task>
+	<task>
+		<statement><p>How many 6" circular cakes will we need to obtain that same total surface area? (Show me the math.)</p></statement>
+	</task>
+	<task>
+		<statement><p>Is this a good way to judge how many 6" cake pans we need? Why or why not?</p></statement>
+	</task>
+</task>
+
+<task>
+	<introduction><p>Finally, let's think about volume. Suppose the cake pans are all 2" deep.</p></introduction>
+	<task>
+		<statement><p>The recipe calls for two 9-in circular cake pans. What is the combined volume of those cake pans?</p></statement>
+	</task>
+	<task>
+		<statement><p>How many 6-in circular cake pans will we need to contain that same total volume without overflow? (Show me the math.)</p></statement>
+	</task>
+	<task>
+		<statement><p>Is this a good way to judge how many 6-in cake pans we need? Why or why not?</p></statement>
+	</task>
+	<task>
+		<statement><p>In the scenario, we assumed all cake pans (9" or 6") are 2". Would the number of 6" pans needed change if all the cake pans (9" and 6") were 3" deep?</p></statement>
+	</task>
+	<task>
+		<statement><p>Why is it important to our solution that all cake pans are the same height?</p></statement>
+	</task>
+</task>
+
+</project>
+
+</section>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-log-solve">
+<title>Solving Equations Using Logarithm</title>
+
+<introduction>
+
+<p>We solved equations involving a logarithm by re-writing as an exponential. Here we will use logarithms to solve exponential equations enabling us to work applications.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-logarithm-property-power">
+	<title>Additional Logarithm Property</title>
+
+	<p>We need one property of logarithms to solve the equations here. <me>\log_b(a^p) = p \log_b(a)</me></p>
+
+	<example xml:id="example-log-power-property">
+		<statement><p>Re-write <m>\log(10^7)</m></p></statement>
+		<solution><p><m>\log(10^7)=7 \log(10) = 7</m>.</p></solution>
+	</example>
+
+	<p>We can use this property to solve equations involving exponentials.</p>
+
+	<example xml:id="example-solve-exponential">
+		<statement><p>Solve <m>5 = 2^x</m>.</p></statement>
+		<solution><p>Because the exponential is base 2, we will use a log base 2.
+		<md>
+			<mrow>5 &amp; = 2^x.</mrow>
+			<mrow>\log_2(5) &amp; = \log_2(2^x).</mrow>
+			<mrow>\log_2(5) &amp; = x\log_2(2).</mrow>
+			<mrow>\log_2(5) &amp; = x \cdot 1.</mrow>
+			<mrow>\log_2(5) &amp; = x.</mrow>
+		</md>
+		Note those last three steps will always be the same, so we often jump from the second step to the last.</p></solution>
+	</example>
+
+	<example xml:id="example-solve-exponetial-algebra">
+		<statement><p>Solve <m>13 = 2+3e^{x-1}</m>.</p></statement>
+		<solution><p>Order of operations dictates the following
+		<md>
+			<mrow>13 &amp; = 2+3e{x-1}.</mrow>
+			<mrow>11 &amp; = 3e^{x-1}.</mrow>
+			<mrow>\frac{11}{3} &amp; = e^{x-1}</mrow>
+			<mrow>\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right).</mrow>
+			<mrow>\ln\left(\frac{11}{3}\right) &amp; = x-1.</mrow>
+			<mrow>\ln\left(\frac{11}{3}\right)+1 &amp; = x.</mrow>
+			<mrow>2.299 &amp; \approx x.</mrow>
+		</md></p></solution>
+	</example>
+
+	<p>We can use the relationship between exponentials and logarithms to solve logarithmic equations as well.</p>
+
+	<example xml:id="example-log-solve">
+		<statement><p>Solve <m>7 = \ln(3x+2)</m>.</p></statement>
+		<solution><p>We re-write this as an exponential.
+			<md>
+				<mrow>7 &amp; = \ln(3x+2)</mrow>
+				<mrow>e^7 &amp; = 3x+2</mrow>
+				<mrow>e^7-2 &amp; = 3x</mrow>
+				<mrow>\frac{1}{3}(e^7-2) &amp; = x</mrow>
+				<mrow>365 &amp; \approx x</mrow>
+			</md>
+		</p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-exponential-applications">
+	<title>Applications with Exponentials</title>
+
+	<example xml:id="example-exponential-decay">
+		<introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10g of Pu-241 in 14.4 years there will be only 5g of Pu-241. Generally, this can be modeled by <me>P=P_0 e^{kt}</me>. <m>P_0</m> is the initial amount of material. <m>k</m> is a constant that indicates how fast the material decays. <m>P</m> is the amount left after <m>t</m> units of time.</p></introduction>
+		<task>
+			<statement><p>Write the model for Plutonium-241.</p></statement>
+			<solution><p>We must first find <m>k</m>.
+			<md>
+				<mrow>5 &amp; = 10 e^{k(14.4)}</mrow>
+				<mrow>\frac{1}{2} &amp; = e^{k(14.4)}</mrow>
+				<mrow>\ln\left(\frac{1}{2}\right) &amp; = \ln\left(e^{k(14.4)}\right)</mrow>
+				<mrow>\ln\left(\frac{1}{2}\right) &amp; = k(14.4).</mrow>
+				<mrow>\frac{1}{14.4}\ln\left(\frac{1}{2}\right) &amp; = k</mrow>
+				<mrow>-0.0481 &amp; \approx k.</mrow>
+			</md>
+			Thus the model is <me>P = P_0 e^{-0.0481t}</me>.</p></solution>
+		</task>
+		<task>
+			<statement><p>If a lab has 12g of Pu-241, how much will be left in 6 years?</p></statement>
+			<solution><p>We use the model from the previous step.
+			<md>
+				<mrow>P &amp; = 12e^{-0.0481(6)}</mrow>
+				<mrow> &amp; = 8.99.</mrow>
+			</md></p></solution>
+		</task>
+	</example>
+
+	<example xml:id="example-pH">
+		<introduction><p>Acidity is measured in pH (percent hydrogen). It uses a logarithmic scale. <me>\text{pH} = -\log(H_3O^+)</me> where <m>H_3O^+</m> is the concentration of hydronium ions per mole. This is obtained experimentally.</p></introduction>
+		<task>
+			<statement><p>Hydrochloric acid has a concentration of 0.0025. Find its pH.</p></statement>
+			<solution><p>
+				<md>
+					<mrow>\text{pH} &amp; = -\log(0.0025)</mrow>
+					<mrow> &amp; \approx 2.60.</mrow>
+				</md>
+			</p></solution>
+		</task>
+		<task>
+			<statement><p>Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.</p></statement>
+			<solution><p>We setup the pH calculation and solve.
+				<md>
+					<mrow>5.3 &amp; = -\log(c)</mrow>
+					<mrow>-5.3 &amp; = \log(c)</mrow>
+					<mrow>10^{-5.3} &amp; = 10^{\log(c)}</mrow>
+					<mrow>10^{-5.3} &amp; = c</mrow>
+					<mrow>5.01 \times 10^{-6} &amp; \approx c</mrow>
+				</md>
+			</p></solution>
+		</task>
+	</example>
+
+	<example xml:id="example-moment-magnitude">
+		<introduction><p>Larger earthquakes today are measured and reported using the <term>moment magnitude</term> scale. This is calculated via <me>M_w = \frac{2}{3}\log(M_0)-10.7</me> where <m>M_0</m> is the seismic moment in Newtons per meter (a measure of energy).</p></introduction>
+		<task>
+			<statement><p>Based on seismic readings <m>M_0 = 7.2 \times 10^{22}</m>. What was the moment magnitude?</p></statement>
+			<solution><p>Using the formula we obtain
+			<md>
+				<mrow>M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})</mrow>
+				<mrow> &amp; \approx 4.5</mrow>
+			</md></p></solution>
+		</task>
+		<task>
+			<statement><p>What was the seismic moment for an earthquake with magnitude 7.1?</p></statement>
+			<solution><p>We setup the calculation and solve.
+			<md>
+				<mrow>7.1 &amp; = \frac{2}{3}\log(M_0)-10.7</mrow>
+				<mrow>17.8 &amp; = \frac{2}{3}\log(M_0)</mrow>
+				<mrow>26.7 &amp; = \log(M_0)</mrow>
+				<mrow>10^{26.7} &amp; = 10^{\log(M_0)}</mrow>
+				<mrow>5.01 \times 10^{26} &amp; \approx M_0</mrow>
+			</md></p></solution>
+		</task>
+	</example>
+
+</subsection>
+
+</section>

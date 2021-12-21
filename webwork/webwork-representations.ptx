@@ -1,0 +1,3387 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1">
+      <statement><p>How many significant digits does <m>203</m> have? <fillin name="AnSwEr0001" characters="3"/></p>
+<p>How many significant digits does <m>20\bar{0}0</m> have? <fillin name="AnSwEr0002" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <solution><p>Because 203 ends with a non-zero digit all three digits are significant.</p>
+<p>Because the 0 in the tens position is marked as significant (the bar) there are 3 significant digits</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApIb3cgbWFueSBzaWduaWZpY2FudCBkaWdpdHMgZG9lcyBbYDIwM2BdIGhhdmU/IFtfXXsnMyd9ezN9CgpIb3cgbWFueSBzaWduaWZpY2FudCBkaWdpdHMgZG9lcyBbYDIwXGJhcnswfTBgXSBoYXZlPyBbX117JzMnfXszfQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCkJlY2F1c2UgMjAzIGVuZHMgd2l0aCBhIG5vbi16ZXJvIGRpZ2l0IGFsbCB0aHJlZSBkaWdpdHMgYXJlIHNpZ25pZmljYW50LgoKQmVjYXVzZSB0aGUgMCBpbiB0aGUgdGVucyBwb3NpdGlvbiBpcyBtYXJrZWQgYXMgc2lnbmlmaWNhbnQgKHRoZSBiYXIpIHRoZXJlIGFyZSAzIHNpZ25pZmljYW50IGRpZ2l0cwoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+How many significant digits does [`203`] have? [_]{'3'}{3}
+
+How many significant digits does [`20\bar{0}0`] have? [_]{'3'}{3}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+Because 203 ends with a non-zero digit all three digits are significant.
+
+Because the 0 in the tens position is marked as significant (the bar) there are 3 significant digits
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10">
+      <statement><p>Suppose one container has a solution that is 11% alcohol and another container has a solution that is 40%. Both are percent by volume. If 4 oz of the first is mixed with 1 oz of the second what is the percent alcohol by volume?  <fillin name="AnSwEr0001" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>16.8</m>
+        </p>
+      </answer>
+      <solution><p>We know we will end up with 5 oz total. We calculate the volume of alcohol in the first to be <m>0.11 \cdot 4 = 0.44</m> and the volume alcohol in the second to be <m>0.4 \cdot 1 = 0.4\text{.}</m> Thus the alcohol part is <m>0.44+0.4=0.84\text{.}</m> The percent alcohol by volume of the result is <m>P/T = 0.84/5 = 0.168</m> or 16.8%.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApTdXBwb3NlIG9uZSBjb250YWluZXIgaGFzIGEgc29sdXRpb24gdGhhdCBpcyAxMSUgYWxjb2hvbCBhbmQgYW5vdGhlciBjb250YWluZXIgaGFzIGEgc29sdXRpb24gdGhhdCBpcyA0MCUuIEJvdGggYXJlIHBlcmNlbnQgYnkgdm9sdW1lLiBJZiA0IG96IG9mIHRoZSBmaXJzdCBpcyBtaXhlZCB3aXRoIDEgb3ogb2YgdGhlIHNlY29uZCB3aGF0IGlzIHRoZSBwZXJjZW50IGFsY29ob2wgYnkgdm9sdW1lPyAgW19deycxNi44J317NX0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpXZSBrbm93IHdlIHdpbGwgZW5kIHVwIHdpdGggNSBveiB0b3RhbC4gV2UgY2FsY3VsYXRlIHRoZSB2b2x1bWUgb2YgYWxjb2hvbCBpbiB0aGUgZmlyc3QgdG8gYmUgW2AwLjExIFxjZG90IDQgPSAwLjQ0YF0gYW5kIHRoZSB2b2x1bWUgYWxjb2hvbCBpbiB0aGUgc2Vjb25kIHRvIGJlIFtgMC40IFxjZG90IDEgPSAwLjRcdGV4dHsufWBdIFRodXMgdGhlIGFsY29ob2wgcGFydCBpcyBbYDAuNDQrMC40PTAuODRcdGV4dHsufWBdIFRoZSBwZXJjZW50IGFsY29ob2wgYnkgdm9sdW1lIG9mIHRoZSByZXN1bHQgaXMgW2BQL1QgPSAwLjg0LzUgPSAwLjE2OGBdIG9yIDE2LjglLgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.14)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose one container has a solution that is 11% alcohol and another container has a solution that is 40%. Both are percent by volume. If 4 oz of the first is mixed with 1 oz of the second what is the percent alcohol by volume?  [_]{'16.8'}{5}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We know we will end up with 5 oz total. We calculate the volume of alcohol in the first to be [`0.11 \cdot 4 = 0.44`] and the volume alcohol in the second to be [`0.4 \cdot 1 = 0.4\text{.}`] Thus the alcohol part is [`0.44+0.4=0.84\text{.}`] The percent alcohol by volume of the result is [`P/T = 0.84/5 = 0.168`] or 16.8%.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11">
+      <statement><p>The calculation for distance over a half hour suggests a general method for using a rate. Use this method to calculate how far the plane would travel in 3.1 hours <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>341</m>
+        </p>
+      </answer>
+      <solution><p><me>\begin{aligned}
+\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1}\\
+ \amp = \frac{341 \text{ nautical miles}}{3.1 \text{ hours}}.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj4nKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKVGhlIGNhbGN1bGF0aW9uIGZvciBkaXN0YW5jZSBvdmVyIGEgaGFsZiBob3VyIHN1Z2dlc3RzIGEgZ2VuZXJhbCBtZXRob2QgZm9yIHVzaW5nIGEgcmF0ZS4gVXNlIHRoaXMgbWV0aG9kIHRvIGNhbGN1bGF0ZSBob3cgZmFyIHRoZSBwbGFuZSB3b3VsZCB0cmF2ZWwgaW4gMy4xIGhvdXJzIFtfXXsnMzQxJ317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgoKCltgYGBcYmVnaW57YWxpZ25lZH0KXGZyYWN7MTEwIFx0ZXh0eyBuYXV0aWNhbCBtaWxlc319ezEgXHRleHR7IGhvdXJ9fSBcYW1wID0gXGZyYWN7MTEwIFx0ZXh0eyBuYXV0aWNhbCBtaWxlc319ezEgXHRleHR7IGhvdXJ9fSBcY2RvdCBcZnJhY3szLjF9ezMuMX1cXAogXGFtcCA9IFxmcmFjezM0MSBcdGV4dHsgbmF1dGljYWwgbWlsZXN9fXszLjEgXHRleHR7IGhvdXJzfX0uClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2.5)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+The calculation for distance over a half hour suggests a general method for using a rate. Use this method to calculate how far the plane would travel in 3.1 hours [_]{'341'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+
+[```\newcommand{\amp}{&}
+\begin{aligned}
+\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1}\\
+ \amp = \frac{341 \text{ nautical miles}}{3.1 \text{ hours}}.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12">
+      <statement><p>If the Diamond DA-20 climbs at the rate of</p>
+<p><me>\frac{450 \text{ feet}}{1.0 \text{ minute}}</me></p>
+<p>how long will it take it to climb 2500 ft? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5.5</m>
+        </p>
+      </answer>
+      <solution><p><me>\begin{aligned}
+\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.\\
+t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.\\
+t \amp = \frac{2500}{450}\\
+t \amp \approx 5.5.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj4nKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKSWYgdGhlIERpYW1vbmQgREEtMjAgY2xpbWJzIGF0IHRoZSByYXRlIG9mCgpbYGBgXGZyYWN7NDUwIFx0ZXh0eyBmZWV0fX17MS4wIFx0ZXh0eyBtaW51dGV9fWBgYF0KCmhvdyBsb25nIHdpbGwgaXQgdGFrZSBpdCB0byBjbGltYiAyNTAwIGZ0PyBbX117JzUuNSd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjezQ1MCBcdGV4dHsgZnR9fXsxLjAgXHRleHR7IG1pbnV0ZX19IFxhbXAgPSBcZnJhY3syNTAwIFx0ZXh0eyBmdH19e3QgXHRleHR7IG1pbnV0ZXN9fS5cXAp0IFx0ZXh0eyBtaW51dGVzfSBcY2RvdCBcZnJhY3s0NTAgXHRleHR7IGZ0fX17MS4wIFx0ZXh0eyBtaW51dGVzfX0gXGFtcCA9IHQgXHRleHR7IG1pbnV0ZXN9IFxjZG90IFxmcmFjezI1MDAgXHRleHR7IGZ0fX17dCBcdGV4dHsgbWludXRlc319LlxcCnQgXGNkb3QgNDUwIFx0ZXh0eyBmdH0gXGFtcCA9IDI1MDAgXHRleHR7IGZ0fS5cXAp0IFxjZG90IDQ1MCBcdGV4dHsgZnR9IC8gNDUwIFx0ZXh0eyBmdH0gIFxhbXAgPSAyNTAwIFx0ZXh0eyBmdH0vIDQ1MCBcdGV4dHsgZnR9LlxcCnQgXGFtcCA9IFxmcmFjezI1MDB9ezQ1MH1cXAp0IFxhbXAgXGFwcHJveCA1LjUuClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If the Diamond DA-20 climbs at the rate of
+
+[```\frac{450 \text{ feet}}{1.0 \text{ minute}}```]
+
+how long will it take it to climb 2500 ft? [_]{'5.5'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+
+[```\newcommand{\amp}{&}
+\begin{aligned}
+\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.\\
+t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.\\
+t \amp = \frac{2500}{450}\\
+t \amp \approx 5.5.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13">
+      <statement><p>Look up the conversion from kilometers to miles. How many miles per hour is 12 kilometers per hour? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7.5</m>
+        </p>
+      </answer>
+      <solution><p><me>\begin{aligned}
+\frac{12 \text{ km}}{\text{ hour}} \amp \approx \\
+\frac{12 \text{ km}}{\text{ hour}} \cdot \frac{0.621371 \text{ miles}}{\text{km}} \amp \approx \\
+\frac{7.5 \text{ miles}}{\text{hour}} \cdot \frac{\cancelhighlight{\text{km}}}{\cancelhighlight{\text{km}}} \amp \approx \\
+\frac{7.5 \text{ miles}}{\text{hour}}.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xjYW5jZWxoaWdobGlnaHR9WzFde1xjb2xvcntibHVlfXt7XGNhbmNlbHsjMX19fX1cbmV3Y29tbWFuZHtcYW1wfXsmfVwpPC9kaXY+JykpOwpDb250ZXh0KCdOdW1lcmljJyk7CgpCRUdJTl9QR01MCkxvb2sgdXAgdGhlIGNvbnZlcnNpb24gZnJvbSBraWxvbWV0ZXJzIHRvIG1pbGVzLiBIb3cgbWFueSBtaWxlcyBwZXIgaG91ciBpcyAxMiBraWxvbWV0ZXJzIHBlciBob3VyPyBbX117JzcuNSd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjezEyIFx0ZXh0eyBrbX19e1x0ZXh0eyBob3VyfX0gXGFtcCBcYXBwcm94IFxcClxmcmFjezEyIFx0ZXh0eyBrbX19e1x0ZXh0eyBob3VyfX0gXGNkb3QgXGZyYWN7MC42MjEzNzEgXHRleHR7IG1pbGVzfX17XHRleHR7a219fSBcYW1wIFxhcHByb3ggXFwKXGZyYWN7Ny41IFx0ZXh0eyBtaWxlc319e1x0ZXh0e2hvdXJ9fSBcY2RvdCBcZnJhY3tcY2FuY2VsaGlnaGxpZ2h0e1x0ZXh0e2ttfX19e1xjYW5jZWxoaWdobGlnaHR7XHRleHR7a219fX0gXGFtcCBcYXBwcm94IFxcClxmcmFjezcuNSBcdGV4dHsgbWlsZXN9fXtcdGV4dHtob3VyfX0uClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2.11)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Look up the conversion from kilometers to miles. How many miles per hour is 12 kilometers per hour? [_]{'7.5'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+
+[```\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}\newcommand{\amp}{&}
+\begin{aligned}
+\frac{12 \text{ km}}{\text{ hour}} \amp \approx \\
+\frac{12 \text{ km}}{\text{ hour}} \cdot \frac{0.621371 \text{ miles}}{\text{km}} \amp \approx \\
+\frac{7.5 \text{ miles}}{\text{hour}} \cdot \frac{\cancelhighlight{\text{km}}}{\cancelhighlight{\text{km}}} \amp \approx \\
+\frac{7.5 \text{ miles}}{\text{hour}}.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14">
+      <statement><p>Note that a pound (lb) is a unit of force. It is approximately equal to 4.45 Newtons which is another unit of force. How many Newtons per square meter is 51.2 lbs per square inch? Look up other conversions as needed. <fillin name="AnSwEr0001" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>228</m>
+        </p>
+      </answer>
+      <solution><p><me>\begin{aligned}
+\frac{51.2 \text{ lbs}}{\text{ inch}^2} \amp \approx \\
+\frac{51.2 \text{ lbs}}{\text{ inch}^2} \cdot  \frac{1.00 \text{ N}}{4.45 \text{ lbs}} \cdot \left(\frac{1.00 \text{ inch}}{0.254 \text{ m}}\right)^2 \amp \approx \\
+\frac{51.2}{4.45 \cdot 0.0254^2} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx \\
+17833 \frac{ \cancelhighlight{\text{lbs}}}{\secondcancelhighlight{\text{ inch}^2}} \cdot \frac{\text{N}}{\cancelhighlight{\text{lbs}}} \cdot \frac{\secondcancelhighlight{\text{ inch}^2}}{\text{m}^2} \amp \approx \\
+\frac{17800 \text{ N}}{\text{m}^2}.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xjYW5jZWxoaWdobGlnaHR9WzFde1xjb2xvcntibHVlfXt7XGNhbmNlbHsjMX19fX1cbmV3Y29tbWFuZHtcc2Vjb25kY2FuY2VsaGlnaGxpZ2h0fVsxXXtcY29sb3J7Z3JlZW59e3tcYmNhbmNlbHsjMX19fX1cbmV3Y29tbWFuZHtcYW1wfXsmfVwpPC9kaXY+JykpOwpDb250ZXh0KCdOdW1lcmljJyk7CgpCRUdJTl9QR01MCk5vdGUgdGhhdCBhIHBvdW5kIChsYikgaXMgYSB1bml0IG9mIGZvcmNlLiBJdCBpcyBhcHByb3hpbWF0ZWx5IGVxdWFsIHRvIDQuNDUgTmV3dG9ucyB3aGljaCBpcyBhbm90aGVyIHVuaXQgb2YgZm9yY2UuIEhvdyBtYW55IE5ld3RvbnMgcGVyIHNxdWFyZSBtZXRlciBpcyA1MS4yIGxicyBwZXIgc3F1YXJlIGluY2g/IExvb2sgdXAgb3RoZXIgY29udmVyc2lvbnMgYXMgbmVlZGVkLiBbX117JzIyOCd9ezV9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjezUxLjIgXHRleHR7IGxic319e1x0ZXh0eyBpbmNofV4yfSBcYW1wIFxhcHByb3ggXFwKXGZyYWN7NTEuMiBcdGV4dHsgbGJzfX17XHRleHR7IGluY2h9XjJ9IFxjZG90ICBcZnJhY3sxLjAwIFx0ZXh0eyBOfX17NC40NSBcdGV4dHsgbGJzfX0gXGNkb3QgXGxlZnQoXGZyYWN7MS4wMCBcdGV4dHsgaW5jaH19ezAuMjU0IFx0ZXh0eyBtfX1ccmlnaHQpXjIgXGFtcCBcYXBwcm94IFxcClxmcmFjezUxLjJ9ezQuNDUgXGNkb3QgMC4wMjU0XjJ9IFxmcmFje1x0ZXh0e2xic319e1x0ZXh0e2luY2h9XjJ9IFxjZG90ICBcZnJhY3tcdGV4dHtOfX17XHRleHR7bGJzfX0gXGNkb3QgXGZyYWN7XHRleHR7aW5jaH1eMn17XHRleHR7bX1eMn0gXGFtcCBcYXBwcm94IFxcCjE3ODMzIFxmcmFjeyBcY2FuY2VsaGlnaGxpZ2h0e1x0ZXh0e2xic319fXtcc2Vjb25kY2FuY2VsaGlnaGxpZ2h0e1x0ZXh0eyBpbmNofV4yfX0gXGNkb3QgXGZyYWN7XHRleHR7Tn19e1xjYW5jZWxoaWdobGlnaHR7XHRleHR7bGJzfX19IFxjZG90IFxmcmFje1xzZWNvbmRjYW5jZWxoaWdobGlnaHR7XHRleHR7IGluY2h9XjJ9fXtcdGV4dHttfV4yfSBcYW1wIFxhcHByb3ggXFwKXGZyYWN7MTc4MDAgXHRleHR7IE59fXtcdGV4dHttfV4yfS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2.13)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Note that a pound (lb) is a unit of force. It is approximately equal to 4.45 Newtons which is another unit of force. How many Newtons per square meter is 51.2 lbs per square inch? Look up other conversions as needed. [_]{'228'}{5}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+
+[```\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}\newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}\newcommand{\amp}{&}
+\begin{aligned}
+\frac{51.2 \text{ lbs}}{\text{ inch}^2} \amp \approx \\
+\frac{51.2 \text{ lbs}}{\text{ inch}^2} \cdot  \frac{1.00 \text{ N}}{4.45 \text{ lbs}} \cdot \left(\frac{1.00 \text{ inch}}{0.254 \text{ m}}\right)^2 \amp \approx \\
+\frac{51.2}{4.45 \cdot 0.0254^2} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx \\
+17833 \frac{ \cancelhighlight{\text{lbs}}}{\secondcancelhighlight{\text{ inch}^2}} \cdot \frac{\text{N}}{\cancelhighlight{\text{lbs}}} \cdot \frac{\secondcancelhighlight{\text{ inch}^2}}{\text{m}^2} \amp \approx \\
+\frac{17800 \text{ N}}{\text{m}^2}.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15">
+      <statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. Suppose you have <m>35\bar{0}</m> g of eggs and <m>340\bar{0}</m> g of cream cheese. How much of the egg and cream cheese can you use?</p>
+<p>Egg: <fillin name="AnSwEr0001" characters="4"/></p>
+<p>Cream cheese: <fillin name="AnSwEr0002" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>340</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3400</m>
+        </p>
+      </answer>
+      <solution><p>The egg to cream cheese must be in a 1/10 ratio. We can check what the ratio of ingredients we have is.</p>
+<p><me>\frac{35\bar{0} \text{ g}}{340\bar{0} \text{ g}} \approx 0.103</me></p>
+<p>Because this is more than <m>1/10=0.1</m> we have more egg than we can use. Thus we will set up the 1/10 ratio using all of the cream cheese.</p>
+<p><me>\begin{aligned}
+\frac{1}{10} \amp  = \frac{E \text{ g}}{340\bar{0} \text{ g}}.\\
+\frac{1}{10} \cdot 340\bar{0} \text{ g} \amp  = \frac{E \text{ g}}{340\bar{0} \text{ g}} \cdot 340\bar{0} \text{ g}.\\
+34\bar{0}.0 \amp  = E \text{ g}.
+\end{aligned}</me></p>
+<p>We can use 340 of the 350 grams of egg.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApGb3IgYSBwYXJ0aWN1bGFyIGNoZWVzZWNha2UgcmVjaXBlIHRoZXJlIGlzIFtgMTVcYmFyezB9YF0gZyBvZiBlZ2dzIGFuZCBbYDE1MFxiYXJ7MH1gXSBnIG9mIGNyZWFtIGNoZWVzZS4gU3VwcG9zZSB5b3UgaGF2ZSBbYDM1XGJhcnswfWBdIGcgb2YgZWdncyBhbmQgW2AzNDBcYmFyezB9YF0gZyBvZiBjcmVhbSBjaGVlc2UuIEhvdyBtdWNoIG9mIHRoZSBlZ2cgYW5kIGNyZWFtIGNoZWVzZSBjYW4geW91IHVzZT8KCkVnZzogW19deyczNDAnfXs0fQoKQ3JlYW0gY2hlZXNlOiBbX117JzM0MDAnfXs1fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OClRoZSBlZ2cgdG8gY3JlYW0gY2hlZXNlIG11c3QgYmUgaW4gYSAxLzEwIHJhdGlvLiBXZSBjYW4gY2hlY2sgd2hhdCB0aGUgcmF0aW8gb2YgaW5ncmVkaWVudHMgd2UgaGF2ZSBpcy4KCltgYGBcZnJhY3szNVxiYXJ7MH0gXHRleHR7IGd9fXszNDBcYmFyezB9IFx0ZXh0eyBnfX0gXGFwcHJveCAwLjEwM2BgYF0KCkJlY2F1c2UgdGhpcyBpcyBtb3JlIHRoYW4gW2AxLzEwPTAuMWBdIHdlIGhhdmUgbW9yZSBlZ2cgdGhhbiB3ZSBjYW4gdXNlLiBUaHVzIHdlIHdpbGwgc2V0IHVwIHRoZSAxLzEwIHJhdGlvIHVzaW5nIGFsbCBvZiB0aGUgY3JlYW0gY2hlZXNlLgoKW2BgYFxiZWdpbnthbGlnbmVkfQpcZnJhY3sxfXsxMH0gJiA9IFxmcmFje0UgXHRleHR7IGd9fXszNDBcYmFyezB9IFx0ZXh0eyBnfX0uXFwKXGZyYWN7MX17MTB9IFxjZG90IDM0MFxiYXJ7MH0gXHRleHR7IGd9ICYgPSBcZnJhY3tFIFx0ZXh0eyBnfX17MzQwXGJhcnswfSBcdGV4dHsgZ319IFxjZG90IDM0MFxiYXJ7MH0gXHRleHR7IGd9LlxcCjM0XGJhcnswfS4wICYgPSBFIFx0ZXh0eyBnfS4KXGVuZHthbGlnbmVkfQpgYGBdCgpXZSBjYW4gdXNlIDM0MCBvZiB0aGUgMzUwIGdyYW1zIG9mIGVnZy4KCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.3.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+For a particular cheesecake recipe there is [`15\bar{0}`] g of eggs and [`150\bar{0}`] g of cream cheese. Suppose you have [`35\bar{0}`] g of eggs and [`340\bar{0}`] g of cream cheese. How much of the egg and cream cheese can you use?
+
+Egg: [_]{'340'}{4}
+
+Cream cheese: [_]{'3400'}{5}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+The egg to cream cheese must be in a 1/10 ratio. We can check what the ratio of ingredients we have is.
+
+[```\frac{35\bar{0} \text{ g}}{340\bar{0} \text{ g}} \approx 0.103```]
+
+Because this is more than [`1/10=0.1`] we have more egg than we can use. Thus we will set up the 1/10 ratio using all of the cream cheese.
+
+[```
+\begin{aligned}
+\frac{1}{10} & = \frac{E \text{ g}}{340\bar{0} \text{ g}}.\\
+\frac{1}{10} \cdot 340\bar{0} \text{ g} & = \frac{E \text{ g}}{340\bar{0} \text{ g}} \cdot 340\bar{0} \text{ g}.\\
+34\bar{0}.0 & = E \text{ g}.
+\end{aligned}
+```]
+
+We can use 340 of the 350 grams of egg.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16">
+      <statement><p>Suppose triangle A has angles <m>40^\circ, 60^\circ, 80^\circ</m> and side lengths 1.000, 1.347, 2.000. If triangle B has the same angle measures and the shortest side is length 2.500, what are the other two side lengths?</p>
+<p>Corresponds to 1.347: <fillin name="AnSwEr0001" characters="6"/></p>
+<p>Corresponds to 2.000: <fillin name="AnSwEr0002" characters="6"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3.368</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <solution><p>We setup the proportions for the other two sides.</p>
+<p><me>\begin{aligned}
+\frac{1.000}{2.500} \amp  = \frac{1.347}{s_2}.\\
+s_2 \amp  = 3.368.\\
+\frac{1.000}{2.500} \amp  = \frac{2.000}{s_3}.\\
+s_3 \amp  = 5.000.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApTdXBwb3NlIHRyaWFuZ2xlIEEgaGFzIGFuZ2xlcyBbYDQwXlxjaXJjLCA2MF5cY2lyYywgODBeXGNpcmNgXSBhbmQgc2lkZSBsZW5ndGhzIDEuMDAwLCAxLjM0NywgMi4wMDAuIElmIHRyaWFuZ2xlIEIgaGFzIHRoZSBzYW1lIGFuZ2xlIG1lYXN1cmVzIGFuZCB0aGUgc2hvcnRlc3Qgc2lkZSBpcyBsZW5ndGggMi41MDAsIHdoYXQgYXJlIHRoZSBvdGhlciB0d28gc2lkZSBsZW5ndGhzPwoKQ29ycmVzcG9uZHMgdG8gMS4zNDc6IFtfXXsnMy4zNjgnfXs2fQoKQ29ycmVzcG9uZHMgdG8gMi4wMDA6IFtfXXsnNS4wMDAnfXs2fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIHNldHVwIHRoZSBwcm9wb3J0aW9ucyBmb3IgdGhlIG90aGVyIHR3byBzaWRlcy4KCltgYGBcYmVnaW57YWxpZ25lZH0KXGZyYWN7MS4wMDB9ezIuNTAwfSAmID0gXGZyYWN7MS4zNDd9e3NfMn0uXFwKc18yICYgPSAzLjM2OC5cXApcZnJhY3sxLjAwMH17Mi41MDB9ICYgPSBcZnJhY3syLjAwMH17c18zfS5cXApzXzMgJiA9IDUuMDAwLgpcZW5ke2FsaWduZWR9CmBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.3.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose triangle A has angles [`40^\circ, 60^\circ, 80^\circ`] and side lengths 1.000, 1.347, 2.000. If triangle B has the same angle measures and the shortest side is length 2.500, what are the other two side lengths?
+
+Corresponds to 1.347: [_]{'3.368'}{6}
+
+Corresponds to 2.000: [_]{'5.000'}{6}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We setup the proportions for the other two sides.
+
+[```
+\begin{aligned}
+\frac{1.000}{2.500} & = \frac{1.347}{s_2}.\\
+s_2 & = 3.368.\\
+\frac{1.000}{2.500} & = \frac{2.000}{s_3}.\\
+s_3 & = 5.000.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17">
+      <statement><p>If Dimitri<rsq/>s salary is given by the equation</p>
+<p><me>S = \$73,240.00 + \$6000.00 n</me></p>
+<p>where <m>n</m> is the year of employement, what was his initial salary? <fillin name="AnSwEr0001" characters="7"/></p>
+<p>What was the size of his annual raises? <fillin name="AnSwEr0002" characters="7"/></p>
+</statement>
+      <hint><p>His initial salary is his salary in year 0.</p>
+</hint>
+      <answer>
+        <p>
+          <m>73240</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6000</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApJZiBEaW1pdHJpJ3Mgc2FsYXJ5IGlzIGdpdmVuIGJ5IHRoZSBlcXVhdGlvbgoKW2BgYFMgPSBcJDczLDI0MC4wMCArIFwkNjAwMC4wMCBuYGBgXQoKd2hlcmUgW2BuYF0gaXMgdGhlIHllYXIgb2YgZW1wbG95ZW1lbnQsIHdoYXQgd2FzIGhpcyBpbml0aWFsIHNhbGFyeT8gW19deyc3MzI0MCd9ezd9CgpXaGF0IHdhcyB0aGUgc2l6ZSBvZiBoaXMgYW5udWFsIHJhaXNlcz8gW19deyc2MDAwJ317N30KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9ISU5UCkhpcyBpbml0aWFsIHNhbGFyeSBpcyBoaXMgc2FsYXJ5IGluIHllYXIgMC4KCgpFTkRfUEdNTF9ISU5UCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1.20)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If Dimitri's salary is given by the equation
+
+[```S = \$73,240.00 + \$6000.00 n```]
+
+where [`n`] is the year of employement, what was his initial salary? [_]{'73240'}{7}
+
+What was the size of his annual raises? [_]{'6000'}{7}
+
+END_PGML
+
+############################################################
+# Hint
+############################################################
+#Set value of $showHint in PGcourse.pl for course-wide attempt threshhold for revealing hints
+
+BEGIN_PGML_HINT
+His initial salary is his salary in year 0.
+
+END_PGML_HINT
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18">
+      <statement><p>Suppose that as dry air rose it dropped in temperature in a linear fashion. If the temperature was measured at 1000 ft MSL as <m>21^\circ</m> C and at 3000 ft MSL as <m>17^\circ</m> C, what is the rate of change of temperature with respect to altitude? <fillin name="AnSwEr0001" characters="4"/></p>
+<p>What does this imply the temperature is at 0 ft MSL? <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>23</m>
+        </p>
+      </answer>
+      <solution><p>The slope can be calculated as</p>
+<p><me>\frac{17-21}{3000-1000} \amp  = \frac{-3}{2000}\text{.}</me></p>
+<p>Alternately because the temperature drops as the air rises, the temperature at a lower altitude (0 is lower than 1000) will be higher. So the temperature is <m>21+2=23\text{.}</m></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApTdXBwb3NlIHRoYXQgYXMgZHJ5IGFpciByb3NlIGl0IGRyb3BwZWQgaW4gdGVtcGVyYXR1cmUgaW4gYSBsaW5lYXIgZmFzaGlvbi4gSWYgdGhlIHRlbXBlcmF0dXJlIHdhcyBtZWFzdXJlZCBhdCAxMDAwIGZ0IE1TTCBhcyBbYDIxXlxjaXJjYF0gQyBhbmQgYXQgMzAwMCBmdCBNU0wgYXMgW2AxN15cY2lyY2BdIEMsIHdoYXQgaXMgdGhlIHJhdGUgb2YgY2hhbmdlIG9mIHRlbXBlcmF0dXJlIHdpdGggcmVzcGVjdCB0byBhbHRpdHVkZT8gW19deycyJ317NH0KCldoYXQgZG9lcyB0aGlzIGltcGx5IHRoZSB0ZW1wZXJhdHVyZSBpcyBhdCAwIGZ0IE1TTD8gW19deycyMyd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KVGhlIHNsb3BlIGNhbiBiZSBjYWxjdWxhdGVkIGFzCgpbYGBgXGZyYWN7MTctMjF9ezMwMDAtMTAwMH0gJiA9IFxmcmFjey0zfXsyMDAwfVx0ZXh0ey59YGBgXQoKCgpBbHRlcm5hdGVseSBiZWNhdXNlIHRoZSB0ZW1wZXJhdHVyZSBkcm9wcyBhcyB0aGUgYWlyIHJpc2VzLCB0aGUgdGVtcGVyYXR1cmUgYXQgYSBsb3dlciBhbHRpdHVkZSAoMCBpcyBsb3dlciB0aGFuIDEwMDApIHdpbGwgYmUgaGlnaGVyLiBTbyB0aGUgdGVtcGVyYXR1cmUgaXMgW2AyMSsyPTIzXHRleHR7Ln1gXQoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1.23)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose that as dry air rose it dropped in temperature in a linear fashion. If the temperature was measured at 1000 ft MSL as [`21^\circ`] C and at 3000 ft MSL as [`17^\circ`] C, what is the rate of change of temperature with respect to altitude? [_]{'2'}{4}
+
+What does this imply the temperature is at 0 ft MSL? [_]{'23'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+The slope can be calculated as
+
+[```\frac{17-21}{3000-1000} & = \frac{-3}{2000}\text{.}```]
+
+Alternately because the temperature drops as the air rises, the temperature at a lower altitude (0 is lower than 1000) will be higher. So the temperature is [`21+2=23\text{.}`]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19">
+      <statement><p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to get 25.0 oz of a 55.0% alcohol solution? <fillin name="AnSwEr0001" characters="4"/></p>
+<p>How much solution total does this produce? Remember it is not necessarily 25.0 oz. <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9.81</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>25.8</m>
+        </p>
+      </answer>
+      <solution><p>We want to end up with at least 25.0 oz of a solution that is 45.0% water. This means we want <m>0.450 \cdot 25.0 = 11.3</m> oz of water. We already have <m>0.0900 \cdot 16.0 = 1.44</m> oz of water. Thus we need to add <m>11.3-1.44 = 9.9</m> oz of water.</p>
+<p>Because we are adding 9.9 oz of water we have <m>16.0+9.9=25.9</m> oz of solution.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApJZiB3ZSBzdGFydCB3aXRoIDE2LjAgb3ogb2YgOTEuMCUgYWxjb2hvbCBzb2x1dGlvbiwgaG93IG11Y2ggd2F0ZXIgZG8gd2UgYWRkIHRvIGdldCAyNS4wIG96IG9mIGEgNTUuMCUgYWxjb2hvbCBzb2x1dGlvbj8gW19deyc5LjgxJ317NH0KCkhvdyBtdWNoIHNvbHV0aW9uIHRvdGFsIGRvZXMgdGhpcyBwcm9kdWNlPyBSZW1lbWJlciBpdCBpcyBub3QgbmVjZXNzYXJpbHkgMjUuMCBvei4gW19deycyNS44J317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpXZSB3YW50IHRvIGVuZCB1cCB3aXRoIGF0IGxlYXN0IDI1LjAgb3ogb2YgYSBzb2x1dGlvbiB0aGF0IGlzIDQ1LjAlIHdhdGVyLiBUaGlzIG1lYW5zIHdlIHdhbnQgW2AwLjQ1MCBcY2RvdCAyNS4wID0gMTEuM2BdIG96IG9mIHdhdGVyLiBXZSBhbHJlYWR5IGhhdmUgW2AwLjA5MDAgXGNkb3QgMTYuMCA9IDEuNDRgXSBveiBvZiB3YXRlci4gVGh1cyB3ZSBuZWVkIHRvIGFkZCBbYDExLjMtMS40NCA9IDkuOWBdIG96IG9mIHdhdGVyLgoKQmVjYXVzZSB3ZSBhcmUgYWRkaW5nIDkuOSBveiBvZiB3YXRlciB3ZSBoYXZlIFtgMTYuMCs5Ljk9MjUuOWBdIG96IG9mIHNvbHV0aW9uLgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.2.13)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to get 25.0 oz of a 55.0% alcohol solution? [_]{'9.81'}{4}
+
+How much solution total does this produce? Remember it is not necessarily 25.0 oz. [_]{'25.8'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We want to end up with at least 25.0 oz of a solution that is 45.0% water. This means we want [`0.450 \cdot 25.0 = 11.3`] oz of water. We already have [`0.0900 \cdot 16.0 = 1.44`] oz of water. Thus we need to add [`11.3-1.44 = 9.9`] oz of water.
+
+Because we are adding 9.9 oz of water we have [`16.0+9.9=25.9`] oz of solution.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2">
+      <statement><p>Round 812,247 to the nearest ten: <fillin name="AnSwEr0001" characters="3"/></p>
+<p>Round 812,247 to the nearest hundred: <fillin name="AnSwEr0002" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>812250</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>812200</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApSb3VuZCA4MTIsMjQ3IHRvIHRoZSBuZWFyZXN0IHRlbjogW19deyc4MTIyNTAnfXszfQoKUm91bmQgODEyLDI0NyB0byB0aGUgbmVhcmVzdCBodW5kcmVkOiBbX117JzgxMjIwMCd9ezN9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Round 812,247 to the nearest ten: [_]{'812250'}{3}
+
+Round 812,247 to the nearest hundred: [_]{'812200'}{3}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20">
+      <statement><p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add if we want 25.0 oz of a 60.0% alcohol solution? <fillin name="AnSwEr0001" characters="4"/></p>
+<p>How much solution total does this produce? <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8.56</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>24.6</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApJZiB3ZSBzdGFydCB3aXRoIDE2LjAgb3ogb2YgOTEuMCUgYWxjb2hvbCBzb2x1dGlvbiwgaG93IG11Y2ggd2F0ZXIgZG8gd2UgYWRkIGlmIHdlIHdhbnQgMjUuMCBveiBvZiBhIDYwLjAlIGFsY29ob2wgc29sdXRpb24/IFtfXXsnOC41Nid9ezR9CgpIb3cgbXVjaCBzb2x1dGlvbiB0b3RhbCBkb2VzIHRoaXMgcHJvZHVjZT8gW19deycyNC42J317NH0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.2.14)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add if we want 25.0 oz of a 60.0% alcohol solution? [_]{'8.56'}{4}
+
+How much solution total does this produce? [_]{'24.6'}{4}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21">
+      <statement><p>If we start with 16.0 oz of 91.0% alcohol solution, what is the percent alcohol if we produce exactly 24.0 oz of solution? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>61</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApJZiB3ZSBzdGFydCB3aXRoIDE2LjAgb3ogb2YgOTEuMCUgYWxjb2hvbCBzb2x1dGlvbiwgd2hhdCBpcyB0aGUgcGVyY2VudCBhbGNvaG9sIGlmIHdlIHByb2R1Y2UgZXhhY3RseSAyNC4wIG96IG9mIHNvbHV0aW9uPyBbX117JzYxJ317NH0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.2.16)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If we start with 16.0 oz of 91.0% alcohol solution, what is the percent alcohol if we produce exactly 24.0 oz of solution? [_]{'61'}{4}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22">
+      <statement><p>If two resistors are connected in parallel and they are 4 and 16 ohms, what is the resulting resistance? <fillin name="AnSwEr0001" characters="6"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{16}{5}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApJZiB0d28gcmVzaXN0b3JzIGFyZSBjb25uZWN0ZWQgaW4gcGFyYWxsZWwgYW5kIHRoZXkgYXJlIDQgYW5kIDE2IG9obXMsIHdoYXQgaXMgdGhlIHJlc3VsdGluZyByZXNpc3RhbmNlPyBbX117JzE2LzUnfXs2fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.3.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If two resistors are connected in parallel and they are 4 and 16 ohms, what is the resulting resistance? [_]{'16/5'}{6}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23">
+      <statement><p>If one shop can do seven float changes in two days, and a second shop can do thirteen float changes in three days, how long will it take the pair of shops to do 65 float changes? <fillin name="AnSwEr0001" characters="4"/></p>
+<p>If they start on Monday and work only weekdays, on what day of the week will they finish? <fillin name="AnSwEr0002" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8.3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApJZiBvbmUgc2hvcCBjYW4gZG8gc2V2ZW4gZmxvYXQgY2hhbmdlcyBpbiB0d28gZGF5cywgYW5kIGEgc2Vjb25kIHNob3AgY2FuIGRvIHRoaXJ0ZWVuIGZsb2F0IGNoYW5nZXMgaW4gdGhyZWUgZGF5cywgaG93IGxvbmcgd2lsbCBpdCB0YWtlIHRoZSBwYWlyIG9mIHNob3BzIHRvIGRvIDY1IGZsb2F0IGNoYW5nZXM/IFtfXXsnOC4zJ317NH0KCklmIHRoZXkgc3RhcnQgb24gTW9uZGF5IGFuZCB3b3JrIG9ubHkgd2Vla2RheXMsIG9uIHdoYXQgZGF5IG9mIHRoZSB3ZWVrIHdpbGwgdGhleSBmaW5pc2g/IFtfXXtXZWRuZXNkYXl9ezEwfQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.3.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If one shop can do seven float changes in two days, and a second shop can do thirteen float changes in three days, how long will it take the pair of shops to do 65 float changes? [_]{'8.3'}{4}
+
+If they start on Monday and work only weekdays, on what day of the week will they finish? [_]{Wednesday}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24">
+      <statement><p>Solve the linear system below using substitution.</p>
+<p><me>\begin{aligned}
+2x+3y \amp  = 17.\\
+4x+2y \amp  = 14.
+\end{aligned}</me></p>
+<p><m>x =</m> <fillin name="AnSwEr0001" characters="4"/></p>
+<p><m>y =</m> <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <solution><p>We can solve the first equation for <m>x</m> and substitute.</p>
+<p><me>\begin{aligned}
+2x+3y \amp  = 17.\\
+2x \amp  = 17-3y.\\
+x \amp  = \frac{1}{2}(17-3y).
+\end{aligned}</me></p>
+<p><me>\begin{aligned}
+4x+2y \amp  = 14.\\
+4 \left( \frac{1}{2}(17-3y) \right)+2y \amp  = 14.\\
+34-6y+2y \amp  = 14.\\
+-4y \amp  = -20.\\
+y \amp  = 5.\\
+2x+3(5) \amp  = 17.\\
+2x+15 \amp  = 17.\\
+2x \amp  = 2.\\
+x \amp  = 1.\text{.}
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApTb2x2ZSB0aGUgbGluZWFyIHN5c3RlbSBiZWxvdyB1c2luZyBzdWJzdGl0dXRpb24uCgpbYGBgXGJlZ2lue2FsaWduZWR9CjJ4KzN5ICYgPSAxNy5cXAo0eCsyeSAmID0gMTQuClxlbmR7YWxpZ25lZH0KYGBgXQoKCgpbYHggPWBdIFtfXXsnMSd9ezR9CgpbYHkgPWBdIFtfXXsnNSd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgY2FuIHNvbHZlIHRoZSBmaXJzdCBlcXVhdGlvbiBmb3IgW2B4YF0gYW5kIHN1YnN0aXR1dGUuCgpbYGBgXGJlZ2lue2FsaWduZWR9CjJ4KzN5ICYgPSAxNy5cXAoyeCAmID0gMTctM3kuXFwKeCAmID0gXGZyYWN7MX17Mn0oMTctM3kpLgpcZW5ke2FsaWduZWR9CmBgYF0KCgoKW2BgYFxiZWdpbnthbGlnbmVkfQo0eCsyeSAmID0gMTQuXFwKNCBcbGVmdCggXGZyYWN7MX17Mn0oMTctM3kpIFxyaWdodCkrMnkgJiA9IDE0LlxcCjM0LTZ5KzJ5ICYgPSAxNC5cXAotNHkgJiA9IC0yMC5cXAp5ICYgPSA1LlxcCjJ4KzMoNSkgJiA9IDE3LlxcCjJ4KzE1ICYgPSAxNy5cXAoyeCAmID0gMi5cXAp4ICYgPSAxLlx0ZXh0ey59ClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Solve the linear system below using substitution.
+
+[```
+\begin{aligned}
+2x+3y & = 17.\\
+4x+2y & = 14.
+\end{aligned}
+```]
+
+[`x =`] [_]{'1'}{4}
+
+[`y =`] [_]{'5'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We can solve the first equation for [`x`] and substitute.
+
+[```
+\begin{aligned}
+2x+3y & = 17.\\
+2x & = 17-3y.\\
+x & = \frac{1}{2}(17-3y).
+\end{aligned}
+```]
+
+[```
+\begin{aligned}
+4x+2y & = 14.\\
+4 \left( \frac{1}{2}(17-3y) \right)+2y & = 14.\\
+34-6y+2y & = 14.\\
+-4y & = -20.\\
+y & = 5.\\
+2x+3(5) & = 17.\\
+2x+15 & = 17.\\
+2x & = 2.\\
+x & = 1.\text{.}
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25">
+      <statement><p>Solve the linear system below using elimination.</p>
+<p><me>\begin{aligned}
+2x+3y \amp  = 17.\\
+4x+2y \amp  = 14.
+\end{aligned}</me></p>
+<p><m>x =</m> <fillin name="AnSwEr0001" characters="4"/></p>
+<p><m>y =</m> <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <solution><p>We note that <m>4/2=2</m> so we should multiply the first equation by -2.</p>
+<p><me>\begin{aligned}
+-2(2x+3y) \amp  = -2(17).\\
+-4x-6y \amp  = -34.\\
+4x+2y \amp  = 14.\\
+-4y \amp  = -20.\\
+y \amp  = 5.\\
+2x+3(5) \amp  = 17.\\
+2x+15 \amp  = 17.\\
+2x \amp  = 2.\\
+x \amp  = 1.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApTb2x2ZSB0aGUgbGluZWFyIHN5c3RlbSBiZWxvdyB1c2luZyBlbGltaW5hdGlvbi4KCltgYGBcYmVnaW57YWxpZ25lZH0KMngrM3kgJiA9IDE3LlxcCjR4KzJ5ICYgPSAxNC4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCltgeCA9YF0gW19deycxJ317NH0KCltgeSA9YF0gW19deyc1J317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpXZSBub3RlIHRoYXQgW2A0LzI9MmBdIHNvIHdlIHNob3VsZCBtdWx0aXBseSB0aGUgZmlyc3QgZXF1YXRpb24gYnkgLTIuCgpbYGBgXGJlZ2lue2FsaWduZWR9Ci0yKDJ4KzN5KSAmID0gLTIoMTcpLlxcCi00eC02eSAmID0gLTM0LlxcCjR4KzJ5ICYgPSAxNC5cXAotNHkgJiA9IC0yMC5cXAp5ICYgPSA1LlxcCjJ4KzMoNSkgJiA9IDE3LlxcCjJ4KzE1ICYgPSAxNy5cXAoyeCAmID0gMi5cXAp4ICYgPSAxLgpcZW5ke2FsaWduZWR9CmBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Solve the linear system below using elimination.
+
+[```
+\begin{aligned}
+2x+3y & = 17.\\
+4x+2y & = 14.
+\end{aligned}
+```]
+
+[`x =`] [_]{'1'}{4}
+
+[`y =`] [_]{'5'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We note that [`4/2=2`] so we should multiply the first equation by -2.
+
+[```
+\begin{aligned}
+-2(2x+3y) & = -2(17).\\
+-4x-6y & = -34.\\
+4x+2y & = 14.\\
+-4y & = -20.\\
+y & = 5.\\
+2x+3(5) & = 17.\\
+2x+15 & = 17.\\
+2x & = 2.\\
+x & = 1.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26">
+      <statement><p>Find the solution to this system.</p>
+<p><me>\begin{aligned}
+6x+8y \amp  = {38}.\\
+9x+13y \amp  = {58}.
+\end{aligned}</me></p>
+<p><m>x=</m> <fillin name="AnSwEr0001" characters="3"/></p>
+<p><m>y=</m> <fillin name="AnSwEr0002" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgiTGltaXRlZE51bWVyaWMiKTsKJGEgPSBDb21wdXRlKHJhbmRvbSgxLDUsMSkpOwokYiA9IENvbXB1dGUocmFuZG9tKDEsNSwxKSk7CiRjMSA9IDYqJGErOCokYjsKJGMyID0gOSokYSsxMyokYjsKCkJFR0lOX1BHTUwKRmluZCB0aGUgc29sdXRpb24gdG8gdGhpcyBzeXN0ZW0uCgpbYGBgXGJlZ2lue2FsaWduZWR9CjZ4Kzh5ICYgPSBbJGMxXS5cXAo5eCsxM3kgJiA9IFskYzJdLgpcZW5ke2FsaWduZWR9CmBgYF0KCgoKW2B4PWBdIFtfXXskYX17M30KCltgeT1gXSBbX117JGJ9ezN9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(1,5,1));
+$b = Compute(random(1,5,1));
+$c1 = 6*$a+8*$b;
+$c2 = 9*$a+13*$b;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the solution to this system.
+
+[```
+\begin{aligned}
+6x+8y & = [$c1].\\
+9x+13y & = [$c2].
+\end{aligned}
+```]
+
+[`x=`] [_]{$a}{3}
+
+[`y=`] [_]{$b}{3}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27">
+      <statement><p>Determine whether this system is inconsistent or dependent.</p>
+<p><me>\begin{aligned}
+6x+8y \amp  = {62}.\\
+9x+12y \amp  = {93}.
+\end{aligned}</me></p>
+<p>The system is <var form="buttons" name="AnSwEr0001">
+<li>
+<p>Inconsistent</p>
+</li>
+<li>
+<p>Dependent</p>
+</li>
+</var></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Inconsistent}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJwYXJzZXJSYWRpb0J1dHRvbnMucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgiTGltaXRlZE51bWVyaWMiKTsKJGEgPSBDb21wdXRlKHJhbmRvbSgxLDUsMSkpOwokYiA9IENvbXB1dGUocmFuZG9tKDEsNSwxKSk7CiRjMSA9IDYqJGErOCokYjsKJGMyID0gOSokYSsxMiokYjsKJGV4cHJlc3Npb25zID0gUmFkaW9CdXR0b25zKFsiSW5jb25zaXN0ZW50IiwiRGVwZW5kZW50Il0sIDApOwoKQkVHSU5fUEdNTApEZXRlcm1pbmUgd2hldGhlciB0aGlzIHN5c3RlbSBpcyBpbmNvbnNpc3RlbnQgb3IgZGVwZW5kZW50LgoKW2BgYFxiZWdpbnthbGlnbmVkfQo2eCs4eSAmID0gWyRjMV0uXFwKOXgrMTJ5ICYgPSBbJGMyXS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKClRoZSBzeXN0ZW0gaXMgW19deyRleHByZXNzaW9uc317NX0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.13)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(1,5,1));
+$b = Compute(random(1,5,1));
+$c1 = 6*$a+8*$b;
+$c2 = 9*$a+12*$b;
+$expressions = RadioButtons(["Inconsistent","Dependent"], 0);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Determine whether this system is inconsistent or dependent.
+
+[```
+\begin{aligned}
+6x+8y & = [$c1].\\
+9x+12y & = [$c2].
+\end{aligned}
+```]
+
+The system is [_]{$expressions}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28">
+      <statement><p>Find the solutions to <m>6(x-2)^2-24=0\text{.}</m></p>
+<p>Largest solution: <fillin name="AnSwEr0001" characters="4"/></p>
+<p>Smallest solution: <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <solution><p><me>\begin{aligned}
+6(x-2)^2-24 \amp  = 0\\
+6(x-2)^2 \amp  = 24\\
+(x-2)^2 \amp  = 4\\
+x-2 \amp  = \pm 2\\
+x \amp  = 2 \pm 2\\
+x \amp  = 4, 0.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApGaW5kIHRoZSBzb2x1dGlvbnMgdG8gW2A2KHgtMileMi0yND0wXHRleHR7Ln1gXQoKTGFyZ2VzdCBzb2x1dGlvbjogW19deyc0J317NH0KClNtYWxsZXN0IHNvbHV0aW9uOiBbX117JzAnfXs0fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCgoKW2BgYFxiZWdpbnthbGlnbmVkfQo2KHgtMileMi0yNCAmID0gMFxcCjYoeC0yKV4yICYgPSAyNFxcCih4LTIpXjIgJiA9IDRcXAp4LTIgJiA9IFxwbSAyXFwKeCAmID0gMiBccG0gMlxcCnggJiA9IDQsIDAuClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.1.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the solutions to [`6(x-2)^2-24=0\text{.}`]
+
+Largest solution: [_]{'4'}{4}
+
+Smallest solution: [_]{'0'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+
+[```
+\begin{aligned}
+6(x-2)^2-24 & = 0\\
+6(x-2)^2 & = 24\\
+(x-2)^2 & = 4\\
+x-2 & = \pm 2\\
+x & = 2 \pm 2\\
+x & = 4, 0.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29">
+      <statement><p>Find the solutions to <m>8x^2-30x+25=0\text{.}</m></p>
+<p>Largest solution: <fillin name="AnSwEr0001" characters="4"/></p>
+<p>Smallest solution: <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{5}{4}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{5}{2}</m>
+        </p>
+      </answer>
+      <solution><p><me>\begin{aligned}
+x \amp  = \frac{-(-30) \pm \sqrt{(-30)^2-4(8)(25)}}{2(8)}\\
+ \amp  = \frac{30 \pm \sqrt{900-800}}{16}\\
+ \amp  = \frac{30 \pm \sqrt{100}}{16}\\
+ \amp  = \frac{30 \pm 10}{16}\\
+ \amp  = \frac{5}{2}, \frac{5}{4}
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApGaW5kIHRoZSBzb2x1dGlvbnMgdG8gW2A4eF4yLTMweCsyNT0wXHRleHR7Ln1gXQoKTGFyZ2VzdCBzb2x1dGlvbjogW19deyc1LzQnfXs0fQoKU21hbGxlc3Qgc29sdXRpb246IFtfXXsnNS8yJ317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgoKCltgYGBcYmVnaW57YWxpZ25lZH0KeCAmID0gXGZyYWN7LSgtMzApIFxwbSBcc3FydHsoLTMwKV4yLTQoOCkoMjUpfX17Mig4KX1cXAogJiA9IFxmcmFjezMwIFxwbSBcc3FydHs5MDAtODAwfX17MTZ9XFwKICYgPSBcZnJhY3szMCBccG0gXHNxcnR7MTAwfX17MTZ9XFwKICYgPSBcZnJhY3szMCBccG0gMTB9ezE2fVxcCiAmID0gXGZyYWN7NX17Mn0sIFxmcmFjezV9ezR9ClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.1.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the solutions to [`8x^2-30x+25=0\text{.}`]
+
+Largest solution: [_]{'5/4'}{4}
+
+Smallest solution: [_]{'5/2'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+
+[```
+\begin{aligned}
+x & = \frac{-(-30) \pm \sqrt{(-30)^2-4(8)(25)}}{2(8)}\\
+ & = \frac{30 \pm \sqrt{900-800}}{16}\\
+ & = \frac{30 \pm \sqrt{100}}{16}\\
+ & = \frac{30 \pm 10}{16}\\
+ & = \frac{5}{2}, \frac{5}{4}
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3">
+      <statement><p>What is the greatest possible error if 8120 was rounded to the nearest ten? <fillin name="AnSwEr0001" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <solution><p>This could be any number from 8115 to 8124. Thus the greatest possible error is 5.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApXaGF0IGlzIHRoZSBncmVhdGVzdCBwb3NzaWJsZSBlcnJvciBpZiA4MTIwIHdhcyByb3VuZGVkIHRvIHRoZSBuZWFyZXN0IHRlbj8gW19deyc1J317M30KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpUaGlzIGNvdWxkIGJlIGFueSBudW1iZXIgZnJvbSA4MTE1IHRvIDgxMjQuIFRodXMgdGhlIGdyZWF0ZXN0IHBvc3NpYmxlIGVycm9yIGlzIDUuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.14)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+What is the greatest possible error if 8120 was rounded to the nearest ten? [_]{'5'}{3}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+This could be any number from 8115 to 8124. Thus the greatest possible error is 5.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30">
+      <statement><p>In the model <m>P=173e^{0.05t}</m> what is the percent increase or decrease (2 decimal places)?</p>
+<p>It is a percent <var form="buttons" name="AnSwEr0001">
+<li>
+<p>Increase</p>
+</li>
+<li>
+<p>Decrease</p>
+</li>
+</var> of <fillin name="AnSwEr0002" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Increase}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5.13</m>
+        </p>
+      </answer>
+      <solution><p>We calculate <m>e^{0.05} \approx 1.051271096\text{.}</m> This is greater than one so it is a percent increase. The percent is 5.13</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJwYXJzZXJSYWRpb0J1dHRvbnMucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOyRleHByZXNzaW9ucyA9IFJhZGlvQnV0dG9ucyhbIkluY3JlYXNlIiwiRGVjcmVhc2UiXSwgMCk7CgpCRUdJTl9QR01MCkluIHRoZSBtb2RlbCBbYFA9MTczZV57MC4wNXR9YF0gd2hhdCBpcyB0aGUgcGVyY2VudCBpbmNyZWFzZSBvciBkZWNyZWFzZSAoMiBkZWNpbWFsIHBsYWNlcyk/CgpJdCBpcyBhIHBlcmNlbnQgW19deyRleHByZXNzaW9uc317NX0gb2YgW19deyc1LjEzJ317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpXZSBjYWxjdWxhdGUgW2BlXnswLjA1fSBcYXBwcm94IDEuMDUxMjcxMDk2XHRleHR7Ln1gXSBUaGlzIGlzIGdyZWF0ZXIgdGhhbiBvbmUgc28gaXQgaXMgYSBwZXJjZW50IGluY3JlYXNlLiBUaGUgcGVyY2VudCBpcyA1LjEzCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(6.1.17)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$expressions = RadioButtons(["Increase","Decrease"], 0);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+In the model [`P=173e^{0.05t}`] what is the percent increase or decrease (2 decimal places)?
+
+It is a percent [_]{$expressions}{5} of [_]{'5.13'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We calculate [`e^{0.05} \approx 1.051271096\text{.}`] This is greater than one so it is a percent increase. The percent is 5.13
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31">
+      <statement><p>If the two sides on the right angle have length <m>a={3}</m> and <m>b={4}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgiTGltaXRlZE51bWVyaWMiKTsKJGEgPSBDb21wdXRlKHJhbmRvbSgxLDUsMSkpOwokYiA9IENvbXB1dGUoJGErcmFuZG9tKDEsMywxKSk7CiRjID0gQ29tcHV0ZShzcXJ0KCRhKioyKyRiKioyKSk7CgpCRUdJTl9QR01MCklmIHRoZSB0d28gc2lkZXMgb24gdGhlIHJpZ2h0IGFuZ2xlIGhhdmUgbGVuZ3RoIFtgYT1bJGFdYF0gYW5kIFtgYj1bJGJdXHRleHR7LH1gXSB3aGF0IGlzIHRoZSBsZW5ndGggb2YgdGhlIGh5cG90ZW51c2U/IFtgYz1gXVtfXXskY317M30KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.1.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(1,5,1));
+$b = Compute($a+random(1,3,1));
+$c = Compute(sqrt($a**2+$b**2));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If the two sides on the right angle have length [`a=[$a]`] and [`b=[$b]\text{,}`] what is the length of the hypotenuse? [`c=`][_]{$c}{3}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32">
+      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={6}</m> and hypotenuse (side opposite the right angle) with length <m>c={5}\text{?}</m> <var form="buttons" name="AnSwEr0001">
+<li>
+<p>Yes</p>
+</li>
+<li>
+<p>No</p>
+</li>
+</var></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{No}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJwYXJzZXJSYWRpb0J1dHRvbnMucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgiTGltaXRlZE51bWVyaWMiKTsKJGEgPSBDb21wdXRlKHJhbmRvbSgzLDksMSkpOwokYyA9IENvbXB1dGUoJGEtMSk7CiRleHByZXNzaW9ucyA9IFJhZGlvQnV0dG9ucyhbIlllcyIsIk5vIl0sIDEpOwoKQkVHSU5fUEdNTApDYW4gYSB0cmlhbmdsZSBoYXZlIG9uZSBsZWcgKHNpZGUgbmV4dCB0byByaWdodCBhbmdsZSkgb2YgbGVuZ3RoIFtgYT1bJGFdYF0gYW5kIGh5cG90ZW51c2UgKHNpZGUgb3Bwb3NpdGUgdGhlIHJpZ2h0IGFuZ2xlKSB3aXRoIGxlbmd0aCBbYGM9WyRjXVx0ZXh0ez99YF0gW19deyRleHByZXNzaW9uc317NX0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.1.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(3,9,1));
+$c = Compute($a-1);
+$expressions = RadioButtons(["Yes","No"], 1);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Can a triangle have one leg (side next to right angle) of length [`a=[$a]`] and hypotenuse (side opposite the right angle) with length [`c=[$c]\text{?}`] [_]{$expressions}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33">
+      <statement><!-- PTX:WARNING: PGML wanted to center align here. -->
+<image width="50%" source="images/webwork-33-image-1"/>
+<p>If <m>\sin(\alpha)=\frac{{6}}{{11.6619}}\text{,}</m> what is the length of the opposite? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR3Rpa3oucGwiLCJNYXRlcmlhbHNfZm9yX1RlY2huaWNhbF9NYXRoZW1hdGljcy5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpOwpDb250ZXh0KCdOdW1lcmljJyk7JGEgPSBDb21wdXRlKHJhbmRvbSgzLDcsMSkpOyAjIGxlbmd0aCBvZiB0aGUgYWRqYWNlbnQKJGIgPSBDb21wdXRlKHJhbmRvbSg3LDEyLDEpKTsgIyBsZW5ndGggb2Ygb3Bwb3NpdGUKJGMgPSBDb21wdXRlKHNxcnQoJGEqKjIrJGIqKjIpKTsgIyBsZW5ndGggb2YgaHlwb3RlbnVzZQokaW1hZ2VfNDMgPSBjcmVhdGVUaWtaSW1hZ2UoKTsKJGltYWdlXzQzLT5CRUdJTl9USUtaClxkcmF3IFtzaGlmdD17KDAsMCl9LGxpbmUgd2lkdGg9MXB0LGZpbGw9YmxhY2ssZmlsbCBvcGFjaXR5PTAuMTAwMDAwMDAxNDkwMTE2MTJdICgwLDApIC0tICgwOjAuNik7ClxkcmF3IFtsaW5lIHdpZHRoPTFwdF0gKDAsMCktLSAoNCwwKTsKXGRyYXcgW2xpbmUgd2lkdGg9MXB0XSAoNCwwKS0tICg0LDMpOwpcZHJhdyBbbGluZSB3aWR0aD0xcHRdICg0LDMpLS0gKDAsMCk7ClxkcmF3IFtmaWxsPWJsYWNrXSAoMCwwKSBjaXJjbGUgKDEuNXB0KTsKXGRyYXcgW2ZpbGw9YmxhY2tdICg0LDApIGNpcmNsZSAoMS41cHQpOwpcZHJhdyBbZmlsbD1ibGFja10gKDQsMykgY2lyY2xlICgxLjVwdCk7ClxkcmF3W2NvbG9yPWJsYWNrXSAoMC4xNiwwLjQzKSBub2RlIHtBfTsKXGRyYXdbY29sb3I9YmxhY2tdICg0LjE2LDMuNDMpIG5vZGUge0J9OwpcZHJhd1tjb2xvcj1ibGFja10gKDQuMiwwLjQzKSBub2RlIHtDfTsKXGRyYXdbY29sb3I9YmxhY2tdICg0LjQsMS43Mykgbm9kZSB7YT0kYX07ClxkcmF3W2NvbG9yPWJsYWNrXSAoMi4wOCwtMC4zNSkgbm9kZSB7Yn07ClxkcmF3W2NvbG9yPWJsYWNrXSAoMS44OCwxLjk5KSBub2RlIHtjPSRjfTsKXGRyYXdbY29sb3I9YmxhY2tdICgwLjYsMC4yNSkgbm9kZSB7XChcYWxwaGFcKX07CgpFTkRfVElLWgoKQkVHSU5fUEdNTAo+PiBbQGltYWdlKGluc2VydEdyYXBoKCRpbWFnZV80MyksIHdpZHRoPT4zMDApQF0qICA8PAoKSWYgW2Bcc2luKFxhbHBoYSk9XGZyYWN7WyRhXX17WyRjXX1cdGV4dHssfWBdIHdoYXQgaXMgdGhlIGxlbmd0aCBvZiB0aGUgb3Bwb3NpdGU/IFtfXXskYn17NH0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.1.13)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGtikz.pl",
+  "Materials_for_Technical_Mathematics.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$a = Compute(random(3,7,1)); # length of the adjacent
+$b = Compute(random(7,12,1)); # length of opposite
+$c = Compute(sqrt($a**2+$b**2)); # length of hypotenuse
+$image_43 = createTikZImage();
+$image_43->BEGIN_TIKZ
+\draw [shift={(0,0)},line width=1pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (0:0.6);
+\draw [line width=1pt] (0,0)-- (4,0);
+\draw [line width=1pt] (4,0)-- (4,3);
+\draw [line width=1pt] (4,3)-- (0,0);
+\draw [fill=black] (0,0) circle (1.5pt);
+\draw [fill=black] (4,0) circle (1.5pt);
+\draw [fill=black] (4,3) circle (1.5pt);
+\draw[color=black] (0.16,0.43) node {A};
+\draw[color=black] (4.16,3.43) node {B};
+\draw[color=black] (4.2,0.43) node {C};
+\draw[color=black] (4.4,1.73) node {a=$a};
+\draw[color=black] (2.08,-0.35) node {b};
+\draw[color=black] (1.88,1.99) node {c=$c};
+\draw[color=black] (0.6,0.25) node {\(\alpha\)};
+
+END_TIKZ
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+>> [@image(insertGraph($image_43), width=>300)@]*  <<
+
+If [`\sin(\alpha)=\frac{[$a]}{[$c]}\text{,}`] what is the length of the opposite? [_]{$b}{4}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34">
+      <statement><p>A triangle has angles of measure <m>A={45}</m> and <m>B={60}\text{.}</m> The side opposite angle <m>A</m> has length 7. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\sin\!\left(60\right)}{\sin\!\left(45\right)}\cdot 7</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJjb250ZXh0VHJpZ0RlZ3JlZXMucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgiVHJpZ0RlZ3JlZXMiKTsKJGFuZ2xlQSA9IENvbXB1dGUocmFuZG9tKDIwLDUwLDUpKTsKJGFuZ2xlQiA9IENvbXB1dGUocmFuZG9tKDUwLDgwLDUpKTsKJGEgPSBDb21wdXRlKHJhbmRvbSg0LDcsMSkpOwokYiA9IENvbXB1dGUoInNpbigkYW5nbGVCKS9zaW4oJGFuZ2xlQSkqJGEiKTsKCkJFR0lOX1BHTUwKQSB0cmlhbmdsZSBoYXMgYW5nbGVzIG9mIG1lYXN1cmUgW2BBPVskYW5nbGVBXWBdIGFuZCBbYEI9WyRhbmdsZUJdXHRleHR7Ln1gXSBUaGUgc2lkZSBvcHBvc2l0ZSBhbmdsZSBbYEFgXSBoYXMgbGVuZ3RoIFskYV0uIFdoYXQgaXMgdGhlIGxlbmd0aCBvZiB0aGUgc2lkZSBvcHBvc2l0ZSBhbmdsZSBbYEJcdGV4dHs/fWBdIFtfXXskYn17NX0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.2.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextTrigDegrees.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("TrigDegrees");
+$angleA = Compute(random(20,50,5));
+$angleB = Compute(random(50,80,5));
+$a = Compute(random(4,7,1));
+$b = Compute("sin($angleB)/sin($angleA)*$a");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+A triangle has angles of measure [`A=[$angleA]`] and [`B=[$angleB]\text{.}`] The side opposite angle [`A`] has length [$a]. What is the length of the side opposite angle [`B\text{?}`] [_]{$b}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-35" ww-id="webwork-35">
+    <static seed="35">
+      <statement><p>A triangle has sides of length <m>a={5}\text{,}</m> <m>b={6.42788}\text{,}</m> and <m>c={5}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>50</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJjb250ZXh0VHJpZ0RlZ3JlZXMucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgiVHJpZ0RlZ3JlZXMiKTsKJGFuZ2xlQSA9IENvbXB1dGUocmFuZG9tKDIwLDUwLDUpKTsKJGFuZ2xlQiA9IENvbXB1dGUocmFuZG9tKDU1LDgwLDUpKTsKJGFuZ2xlQyA9IDE4MC0kYW5nbGVBLSRhbmdsZUI7CiRhID0gQ29tcHV0ZShyYW5kb20oNCw3LDEpKTsKJGIgPSBDb21wdXRlKCJzaW4oJGFuZ2xlQikvc2luKCRhbmdsZUEpKiRhIik7CiRjID0gQ29tcHV0ZSgic2luKCRhbmdsZUMpL3NpbigkYW5nbGVBKSokYSIpOwoKQkVHSU5fUEdNTApBIHRyaWFuZ2xlIGhhcyBzaWRlcyBvZiBsZW5ndGggW2BhPVskYV1cdGV4dHssfWBdIFtgYj1bJGJdXHRleHR7LH1gXSBhbmQgW2BjPVskY11cdGV4dHsufWBdIFdoYXQgaXMgdGhlIG1lYXN1cmUgb2YgdGhlIGFuZ2xlIG9wcG9zaXRlIHRoZSBzaWRlIG9mIGxlbmd0aCBbYGFcdGV4dHs/fWBdIFtfXXskYW5nbGVBfXs1fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.2.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextTrigDegrees.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("TrigDegrees");
+$angleA = Compute(random(20,50,5));
+$angleB = Compute(random(55,80,5));
+$angleC = 180-$angleA-$angleB;
+$a = Compute(random(4,7,1));
+$b = Compute("sin($angleB)/sin($angleA)*$a");
+$c = Compute("sin($angleC)/sin($angleA)*$a");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+A triangle has sides of length [`a=[$a]\text{,}`] [`b=[$b]\text{,}`] and [`c=[$c]\text{.}`] What is the measure of the angle opposite the side of length [`a\text{?}`] [_]{$angleA}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4">
+      <statement><p>What is the greatest possible error if <m>934\bar{0}00\text{?}</m> <fillin name="AnSwEr0001" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>50</m>
+        </p>
+      </answer>
+      <solution><p>The smallest accurate digit is the hundreds position as indicated by the bar. Thus the number could be anything from 933950-934049. Thus the greatest possible error is 50.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApXaGF0IGlzIHRoZSBncmVhdGVzdCBwb3NzaWJsZSBlcnJvciBpZiBbYDkzNFxiYXJ7MH0wMFx0ZXh0ez99YF0gW19deyc1MCd9ezN9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KVGhlIHNtYWxsZXN0IGFjY3VyYXRlIGRpZ2l0IGlzIHRoZSBodW5kcmVkcyBwb3NpdGlvbiBhcyBpbmRpY2F0ZWQgYnkgdGhlIGJhci4gVGh1cyB0aGUgbnVtYmVyIGNvdWxkIGJlIGFueXRoaW5nIGZyb20gOTMzOTUwLTkzNDA0OS4gVGh1cyB0aGUgZ3JlYXRlc3QgcG9zc2libGUgZXJyb3IgaXMgNTAuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.1.15)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+What is the greatest possible error if [`934\bar{0}00\text{?}`] [_]{'50'}{3}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+The smallest accurate digit is the hundreds position as indicated by the bar. Thus the number could be anything from 933950-934049. Thus the greatest possible error is 50.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5">
+      <statement><p>In another class there are 78 students and 44 percent are female. What percent of the students are female? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>56</m>
+        </p>
+      </answer>
+      <solution><p>A percent is the ratio of part (44 female) to whole (78 total). So this is <m>\frac{44}{78} \approx 0.56\text{.}</m> This is 56 hundreths, so it is 56%</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApJbiBhbm90aGVyIGNsYXNzIHRoZXJlIGFyZSA3OCBzdHVkZW50cyBhbmQgNDQgcGVyY2VudCBhcmUgZmVtYWxlLiBXaGF0IHBlcmNlbnQgb2YgdGhlIHN0dWRlbnRzIGFyZSBmZW1hbGU/IFtfXXsnNTYnfXs0fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCkEgcGVyY2VudCBpcyB0aGUgcmF0aW8gb2YgcGFydCAoNDQgZmVtYWxlKSB0byB3aG9sZSAoNzggdG90YWwpLiBTbyB0aGlzIGlzIFtgXGZyYWN7NDR9ezc4fSBcYXBwcm94IDAuNTZcdGV4dHsufWBdIFRoaXMgaXMgNTYgaHVuZHJldGhzLCBzbyBpdCBpcyA1NiUKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+In another class there are 78 students and 44 percent are female. What percent of the students are female? [_]{'56'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+A percent is the ratio of part (44 female) to whole (78 total). So this is [`\frac{44}{78} \approx 0.56\text{.}`] This is 56 hundreths, so it is 56%
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6">
+      <statement><p>Find the number of millilitres of alcohol needed to prepare 150 mL of solution that is 5% alcohol. <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7.5</m>
+        </p>
+      </answer>
+      <solution><p>We need to know what 5% of 150 mL is: <m>0.05 \cdot 150 = 7.5\text{.}</m></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApGaW5kIHRoZSBudW1iZXIgb2YgbWlsbGlsaXRyZXMgb2YgYWxjb2hvbCBuZWVkZWQgdG8gcHJlcGFyZSAxNTAgbUwgb2Ygc29sdXRpb24gdGhhdCBpcyA1JSBhbGNvaG9sLiBbX117JzcuNSd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgbmVlZCB0byBrbm93IHdoYXQgNSUgb2YgMTUwIG1MIGlzOiBbYDAuMDUgXGNkb3QgMTUwID0gNy41XHRleHR7Ln1gXQoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the number of millilitres of alcohol needed to prepare 150 mL of solution that is 5% alcohol. [_]{'7.5'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We need to know what 5% of 150 mL is: [`0.05 \cdot 150 = 7.5\text{.}`]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7">
+      <statement><p>There are 32 students in a class. Below are percents for each racial group tracked. Calculate the number of students in each group.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+</statement>
+      <solution><p>In this class there are <m>0.0625 \cdot 32 = 2</m> Alaska Native students; <m>0.125 \cdot 32 = 4</m> Asian students; 2 Black students (same percent as Alaska Native); <m>0.7188 \cdot 23 \approx 23.0016</m> or 23 White students; and <m>0.0938 \cdot 32 \approx 3.0016</m> or 3 students who declared as other.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIm5pY2VUYWJsZXMucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKVGhlcmUgYXJlIDMyIHN0dWRlbnRzIGluIGEgY2xhc3MuIEJlbG93IGFyZSBwZXJjZW50cyBmb3IgZWFjaCByYWNpYWwgZ3JvdXAgdHJhY2tlZC4gQ2FsY3VsYXRlIHRoZSBudW1iZXIgb2Ygc3R1ZGVudHMgaW4gZWFjaCBncm91cC4KCj4+IFtARGF0YVRhYmxlKFtbUEdNTCgnR3JvdXAnKSxQR01MKCdQZXJjZW50JyksUEdNTCgnTnVtYmVyJyksXSxbUEdNTCgnQWxhc2thIE5hdGl2ZScpLFBHTUwoJzYuMjUlJyksW1BHTUwoJ1tfXXsnMid9ezR9JyksXSxdLFtQR01MKCdBc2lhbicpLFBHTUwoJzEyLjUlJyksW1BHTUwoJ1tfXXsnNCd9ezR9JyksXSxdLFtQR01MKCdCbGFjaycpLFBHTUwoJzYuMjUlJyksW1BHTUwoJ1tfXXsnMid9ezR9JyksXSxdLFtQR01MKCdXaGl0ZScpLFBHTUwoJzcxLjg4JScpLFtQR01MKCdbX117JzIzJ317NH0nKSxdLF0sW1BHTUwoJ090aGVyJyksUEdNTCgnOS4zOCUnKSxbUEdNTCgnW19deyczJ317NH0nKSxdLF0sXSxhbGlnbj0+J2xsbCcsY2VudGVyPT4wLCk7QF0qIDw8CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KSW4gdGhpcyBjbGFzcyB0aGVyZSBhcmUgW2AwLjA2MjUgXGNkb3QgMzIgPSAyYF0gQWxhc2thIE5hdGl2ZSBzdHVkZW50czsgW2AwLjEyNSBcY2RvdCAzMiA9IDRgXSBBc2lhbiBzdHVkZW50czsgMiBCbGFjayBzdHVkZW50cyAoc2FtZSBwZXJjZW50IGFzIEFsYXNrYSBOYXRpdmUpOyBbYDAuNzE4OCBcY2RvdCAyMyBcYXBwcm94IDIzLjAwMTZgXSBvciAyMyBXaGl0ZSBzdHVkZW50czsgYW5kIFtgMC4wOTM4IFxjZG90IDMyIFxhcHByb3ggMy4wMDE2YF0gb3IgMyBzdHVkZW50cyB3aG8gZGVjbGFyZWQgYXMgb3RoZXIuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "niceTables.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+There are 32 students in a class. Below are percents for each racial group tracked. Calculate the number of students in each group.
+
+>> [@DataTable(
+  [
+    [PGML('Group'),
+     PGML('Percent'),
+     PGML('Number'),
+    ],
+    [PGML('Alaska Native'),
+     PGML('6.25%'),
+     [PGML('[_]{'2'}{4}'),],
+    ],
+    [PGML('Asian'),
+     PGML('12.5%'),
+     [PGML('[_]{'4'}{4}'),],
+    ],
+    [PGML('Black'),
+     PGML('6.25%'),
+     [PGML('[_]{'2'}{4}'),],
+    ],
+    [PGML('White'),
+     PGML('71.88%'),
+     [PGML('[_]{'23'}{4}'),],
+    ],
+    [PGML('Other'),
+     PGML('9.38%'),
+     [PGML('[_]{'3'}{4}'),],
+    ],
+  ],
+  align => 'lll',
+  center => 0,
+);@]* <<
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+In this class there are [`0.0625 \cdot 32 = 2`] Alaska Native students; [`0.125 \cdot 32 = 4`] Asian students; 2 Black students (same percent as Alaska Native); [`0.7188 \cdot 23 \approx 23.0016`] or 23 White students; and [`0.0938 \cdot 32 \approx 3.0016`] or 3 students who declared as other.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8">
+      <statement><p>What is the percent increase or decrease if enrollment in a class was 57 in spring and 81 in fall? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>42</m>
+        </p>
+      </answer>
+      <solution><p>The ratio is <m>\frac{81}{57} \approx 1.42\text{.}</m> Because 81 is greater than 57 this is a percent increase. The increase is 42%.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApXaGF0IGlzIHRoZSBwZXJjZW50IGluY3JlYXNlIG9yIGRlY3JlYXNlIGlmIGVucm9sbG1lbnQgaW4gYSBjbGFzcyB3YXMgNTcgaW4gc3ByaW5nIGFuZCA4MSBpbiBmYWxsPyBbX117JzQyJ317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpUaGUgcmF0aW8gaXMgW2BcZnJhY3s4MX17NTd9IFxhcHByb3ggMS40Mlx0ZXh0ey59YF0gQmVjYXVzZSA4MSBpcyBncmVhdGVyIHRoYW4gNTcgdGhpcyBpcyBhIHBlcmNlbnQgaW5jcmVhc2UuIFRoZSBpbmNyZWFzZSBpcyA0MiUuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.11)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+What is the percent increase or decrease if enrollment in a class was 57 in spring and 81 in fall? [_]{'42'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+The ratio is [`\frac{81}{57} \approx 1.42\text{.}`] Because 81 is greater than 57 this is a percent increase. The increase is 42%.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9">
+      <statement><p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in spring? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>51</m>
+        </p>
+      </answer>
+      <solution><p>The ratio is <m>\frac{38}{78} \approx 0.49\text{.}</m> Because 38 is greater than 78 this is a percent decrease. Because the new <em>is</em> 49% of the previous the decrease is 100%-49%=51%.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApXaGF0IGlzIHRoZSBwZXJjZW50IGluY3JlYXNlIG9yIGRlY3JlYXNlIGlmIGVucm9sbG1lbnQgaW4gYSBjbGFzcyB3YXMgNzggaW4gZmFsbCBhbmQgMzggaW4gc3ByaW5nPyBbX117JzUxJ317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpUaGUgcmF0aW8gaXMgW2BcZnJhY3szOH17Nzh9IFxhcHByb3ggMC40OVx0ZXh0ey59YF0gQmVjYXVzZSAzOCBpcyBncmVhdGVyIHRoYW4gNzggdGhpcyBpcyBhIHBlcmNlbnQgZGVjcmVhc2UuIEJlY2F1c2UgdGhlIG5ldyBfaXNfIDQ5JSBvZiB0aGUgcHJldmlvdXMgdGhlIGRlY3JlYXNlIGlzIDEwMCUtNDklPTUxJS4KCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-12-21T11:50:16-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.12)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in spring? [_]{'51'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+The ratio is [`\frac{38}{78} \approx 0.49\text{.}`] Because 38 is greater than 78 this is a percent decrease. Because the new _is_ 49% of the previous the decrease is 100%-49%=51%.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+</webwork-representations>
