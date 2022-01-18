@@ -129,28 +129,9 @@
 </subsection>
 
 <subsection xml:id="subsection-variation-percent-mixture">
-	<title>A Mixture Problem</title>
+	<title>Another Mixture Problem</title>
 
-	<p>Here we will solve a mixture problem using percents, then consider how the result varies with respect to a parameter (total volume).</p>
-
-	<p>The base problem is producing a isopropyl alcohol with a lower concentration of alcohol than the original solution. We begin with 16.0 oz of a 91.0% isopropyl alcohol solution. The other ingredient is water.</p>
-
-	<example xml:id="example-dilute-alcohol">
-		<title>Dilute Alcohol</title>
-
-		<statement><p>Suppose we add 4.00 oz of water to this mixture. What will the percent alcohol be?</p></statement>
-		<solution><p>The percent alcohol is the amount of alcohol divided by the total volume. The volume of alchol is <m>0.910(16.0)=14.6</m>. The volume of water from the original solution is <m>0.0900(16.0)=1.44</m>. We are adding 4.00 oz, thus the total volume is <m>16.0+4.00=20.0</m> oz. The final percent alcohol is <me>\frac{14.6}{20.0}=0.730</me> or 73.0%.</p></solution>
-	</example>
-
-	<p>If we added more water would the percent alcohol be greater or less? Note that if we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.</p>
-
-	<example xml:id="example-calculate-dilute">
-		<title>Calcluate Dilution</title>
-
-		<statement><p>Suppose we want 20.0 oz of 70.0% alcohol solution. How much water should we add? How much solution will we have?</p></statement>
-		<solution><p>Because we are adding water, it will be easier to solve this by thinking about the percent water. Because isopropyl alcohol and water are the only two ingredients, the percent water is 100%-70%=30%. We know that we are starting with <m>0.0900 \cdot 16.0 = 1.44</m> oz of water and we want to end up with <m>0.300 \cdot 20.0 = 6.00</m> oz. This leads to the equation <me>1.44+W=6.00</me>. This means we need 4.56 oz of water.</p>
-		<p>We can confirm this work by calculating the percent water. First note we have <m>16.0+4.56=20.56</m> oz of solution. The percent water then is <me>\frac{0.0900(16.0)+4.56}{16.0+4.56}=0.292</me>. Why is this not exactly 30%? That is the result of rounding with significant digits.</p></solution>
-	</example>
+	<p>In <xref ref="subsection-percent-mixture" /> we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.</p>
 
 	<p>By adding water we can of course not increase the percent alcohol, so 91% is the highest we can achieve. If we add enough water we can dilute it to as little as we want. That requires not restricting the final volume. This should make us wonder about a relationship between the desired volume and the minimum/maximum amount of alchol.</p>
 

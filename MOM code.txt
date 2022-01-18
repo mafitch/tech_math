@@ -1,0 +1,16 @@
+Manual error processing
+
+// Ensures not null
+$txt = ""
+
+// Check if number matches but not units
+$full = getstuans($stuanswers,$thisq,"0")
+if ($full !== null) {
+  $split = explode(" ",$full)
+  if (comparenumbers($area,$split[0])) { $txt = "Check units"}
+}
+
+Attempting feedback macros
+
+$error = "default"
+$error = getfeedbacktxtnumber($stuanswers[$thisq],  array($answer,1,$answer,0), array("Correct", "Correct value, check units"), "Incorrect")

@@ -6,6 +6,11 @@
 <subsection xml:id="subsection-enough-accuracy">
 	<title>Explanation</title>
 
+<figure xml:id="figure-video-precision-accuracy">
+	<caption>Introduction to Precision and Accuracy</caption>
+	<video youtube="SJZ9yCJ3NTQ" xml:id="video-precision-accuracy" />
+</figure>
+
 <p>When working with measurements, we care about the reasonableness of the results. This leads us to two concepts. </p>
 
 <definition xml:id="definition-accuracy">
@@ -63,9 +68,9 @@ We can summarize these rules as: write only digits that you mean, and if it is a
 
 	<example xml:id="example-sigfig-add">
 		<title>Addition/Subtraction with Significant Digits</title>
-		<p><m>722+11050=11770</m>. This is because the last significant digit of <m>11050</m> is the 10's position (with the 5 in it).</p>
-		<p>To understand why we ignore the 2 from 722 consider the following cases. If the second number were really 11051, then the result would be <m>722+11051=11773</m>. However if the second number were really 11056, the result would be <m>722+11056=11777</m>. Neither of these is <m>722+11050=11772</m>. This illustrates that keeping the ones digit in the sum  (2 in this example) claims precision not present.</p>
-		<p>Note as well that if the second number were really 11059, the sum would be <m>722+11059=11781</m>. This changes one of the significant digits illustrating that rounding makes a difference. Rounding will be discussed later.</p>
+		<p><m>723+11050=11770</m>. This is because the last significant digit of <m>11050</m> is the 10's position (with the 5 in it).</p>
+		<p>An explanation of why this rule works is in this video.</p>
+		<video youtube="kxnjKrjXOH4" xml:id="video-example-sigfig-add" />
 	</example>
 
 	<p>For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</p>
@@ -73,8 +78,11 @@ We can summarize these rules as: write only digits that you mean, and if it is a
 	<example xml:id="example-sigfig-multiply">
 		<title>Multiplication/Division with Significant Digits</title>
 		<p><m>11050/722=15.3</m>. This is because <m>722</m> has only 3 significant digits.</p>
-		<p>To understand why we ignore digits after the tenths (3 in this example) consider the following cases. If divisor were really 722.3, then the result would be <m>11050/722.3 = 15.29</m>. But if the divisor were really 722.8, then the result would be <m>11050/722.8 = 15.28</m>. Neither of these is <m>11050/722 = 15.30</m>. This illustrates that recording more digits than are in the problem claims precision not present.</p>
+		<p>An explanation of why this rule works is in this video.</p>
+		<video youtube="oQ48Agi4TfI" xml:id="video-example-sigfig-multiply" />
 	</example>
+
+	
 
 	<exercise xml:id="exercise-sigfigs1">
 		<webwork>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-linear" >
+<title>Linear Expressions</title>
+
+<introduction>
+
+<p>We have been solving problems involving ratios, also called proportions. These model situations where the ratio/proportion between items never changes. We also call these linear equations.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-solve-invert">
+	<title>Solving Linear Equations</title>
+
+	<p>Before reading farther solve the equation <m>5x-7=12</m>. What steps did you use? Why do they work? <xref ref="example-solve-linear-invert" /> is an example of solving another linear equation.</p>
+
+	<example xml:id="example-solve-linear-invert">
+		<statement><p>Solve <m>-8x-3=5</m>.</p></statement>
+		<solution><p><md>
+			<mrow>-8x-3 &amp; = 5.</mrow>
+			<mrow>-8x-3+3 &amp; =5+3.</mrow>
+			<mrow>-8x &amp; = 8.</mrow>
+			<mrow>\frac{-8x}{-8} &amp; = \frac{8}{-8}.</mrow>
+			<mrow>x &amp; = -1.</mrow>
+		</md>
+		Note we added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8).</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-solve-linear-invert">
+		<webwork>
+			<pg-code>
+				Context("LimitedNumeric");
+				$m = Compute(random(1,5,1));
+				$b = Compute(random(2,9,1));
+				$a = Compute(random(2,9,1));
+				$c = Compute($a*$m+$b;
+				$sol = Compute(($c-$b)/$a);
+			</pg-code>
+			<statement>
+				<p>What is the solution to <m><var name="$a" />x+<var name="$b" />=<var name="$c" /></m>. <m>x=</m><var name="$sol" width="3"/></p>
+			</statement>
+			<solution>
+				<p><md>
+					<mrow><var name="$a" />x+<var name="$b" /> &amp; = <var name="$c" /></mrow>
+					<mrow><var name="$a" />x &amp; = <var name="$c" />-<var name="$b" /></mrow>
+					<mrow>x &amp; = \frac{<var name="$c" />-<var name="$b" />}{<var name="$a" />}</mrow>
+					<mrow>x &amp; = <var name="$sol" />.</mrow>
+				</md></p>
+			</solution>
+		</webwork>
+	</exercise>
+
+	<p>Some linear equations need one more technique. What would you need to solve <m>17-4y = 14-y</m>? <xref ref="example-solve-linear-combine" /> is an example of solving a similar linear equation.</p>
+
+	<example xml:id="example-solve-linear-combine">
+		<statement><p>Solve <m>17-4y = 5+2y</m>.</p></statement>
+		<solution><p><md>
+			<mrow>17-4y &amp; = 5+2y.</mrow>
+			<mrow>-5+17-4y &amp; = -5+5+2y.</mrow>
+			<mrow>12-4y &amp; = 2y.</mrow>
+			<mrow>12-4y+4y &amp; = 2y+4y.</mrow>
+			<mrow>12 &amp; = (2+4)y.</mrow>
+			<mrow>12 &amp; = 6y.</mrow>
+			<mrow>\frac{12}{6} &amp; = \frac{6y}{6}.</mrow>
+			<mrow>2 &amp; = y.</mrow>
+		</md>
+		Notice we had to combine like terms (factor and add).</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-solve-linear-combine">
+		<webwork>
+			<pg-code>
+				Context("LimitedNumeric");
+				$a2 = Compute(random(2,7,1));
+				$m = Compute(random(2,6,1));
+				$a1 = Compute($a2+$m);
+				$b1 = Compute(random(2,9,1));
+				$k = Compute(random(1,3,1));
+				$b2 = Compute($b1+$m*$k);
+				$sol = Compute(($b2-$b1)/$m);
+			</pg-code>
+			<statement>
+				<p>What is the solution to <m><var name="$a1" />x+<var name="$b1" />=<var name="$a2" />x+<var name="$b2" /></m>. <m>x=</m><var name="$sol" width="3"/></p>
+			</statement>
+			<solution>
+				<p><md>
+					<mrow><var name="$a1" />x+<var name="$b1" /> &amp; =<var name="$a2" />x+<var name="$b2" /></mrow>
+					<mrow><var name="$a1" />x-<var name="$a2" />x &amp; = <var name="$b2" />-<var name="$b1" /></mrow>
+					<mrow>(<var name="$a1" />-<var name="$a2" />)x &amp; = <var name="$b2" />-<var name="$b1" /></mrow>
+					<mrow>x &amp; = \frac{<var name="$b2" />-<var name="$b1" />}{<var name="$a1" />-<var name="$a2" />}</mrow>
+					<mrow>x &amp; = <var name="$sol" />.</mrow>
+				</md></p>
+			</solution>
+		</webwork>
+	</exercise>
+
+	<p>Another linear equation is <m>\frac{x}{3}+\frac{x}{4}=\frac{7}{12}</m>. How would you solve it?</p>
+	<p>We can solve this the same as in <xref ref="example-solve-linear-combine"  /> but there is another technique as well. It is shown in <xref ref="example-solve-linear-clear" />.</p>
+
+	<example xml:id="example-solve-linear-clear">
+		<statement><p>Solve <m>\frac{x}{5}+\frac{2x}{7}=\frac{34}{35}</m></p></statement>
+		<solution><p><md>
+			<mrow>\frac{x}{5}+\frac{2x}{7} &amp; = \frac{34}{35}.</mrow>
+			<mrow>5 \cdot \left(\frac{x}{5}+\frac{2x}{7}\right) &amp; = 5 \cdot \frac{34}{35}.</mrow>
+			<mrow>\frac{5x}{5}+\frac{10x}{7} &amp; = 5 \cdot \frac{34}{35}.</mrow>
+			<mrow>x+\frac{10x}{7} &amp; = \frac{34}{7}.</mrow>
+			<mrow>7 \cdot \left(x+\frac{10x}{7}\right) &amp; = 7 \cdot \frac{34}{7}.</mrow>
+			<mrow>7x+\frac{7 \cdot 10x}{7} &amp; = 7 \cdot \frac{34}{7}.</mrow>
+			<mrow>7x+10x &amp; = 34.</mrow>
+			<mrow>(7+10)x &amp; = 34.</mrow>
+			<mrow>17x &amp; = 34.</mrow>
+			<mrow>\frac{17x}{17} &amp; = \frac{34}{17}.</mrow>
+			<mrow>x &amp; = 2.</mrow>
+			</md>
+			This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number, but there are no prizes for doing this fast, so you can do this either way.</p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-linear-identify">
+	<title>Identifying Linear Expressions</title>
+
+	<p>All of the equations with which we just worked are linear. What do you use to identify linear expressions or linear equations? <xref ref="table-linear-appearance"/> shows examples of linear expressions and non-linear expressions. </p>
+
+	<table xml:id="table-linear-appearance">
+		<title>Linear and Non-linear</title>
+		<tabular top="medium" bottom="medium" left="medium" right="medium">
+			<row><cell>Linear</cell><cell>Non-linear</cell></row>
+			<row><cell><m>5x+3</m></cell><cell><m>5x^2-x+3</m></cell></row>
+			<row><cell><m>y=11-\frac{7}{13}x</m></cell><cell><m>y=\frac{17}{x}</m></cell></row>
+			<row><cell><m>7x-9y=8</m></cell><cell><m>3-2xy=12</m></cell></row>
+		</tabular>
+	</table>
+
+	<p>Some equations that may not appear to be linear can be solved using the same methods.</p>
+
+	<example xml:id="example-solve-linear-hidden">
+		<statement><p>Solve <m>\frac{11}{x}+2 = \frac{18}{x}-5</m>.</p></statement>
+		<solution><p><md>
+			<mrow>\frac{11}{x}+2 &amp; = \frac{18}{x}-5.</mrow>
+			<mrow>x \cdot \left(\frac{11}{x}+2\right) &amp; = x \cdot \left(\frac{18}{x}-5\right).</mrow>
+			<mrow>11+2x &amp; = 18-5x.</mrow>
+			<mrow>-11+11+2x &amp; = -11+18-5x.</mrow>
+			<mrow>2x &amp; = 7-5x.</mrow>
+			<mrow>2x+5x &amp; = 7-5x+5x.</mrow>
+			<mrow>7x &amp; = 7.</mrow>
+			<mrow>\frac{7x}{7} &amp; = \frac{7}{7}.</mrow>
+			<mrow>x &amp; = 1.</mrow>
+		</md></p></solution>
+	</example>
+
+</subsection>
+
+</section>

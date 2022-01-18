@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-60-1-1" >
+<title>Project: Arclength Estimation</title>
+
+<project xml:id="project-60-1-1">
+	<title>Estimating Arc Lengths</title>
+
+<introduction>
+	<p>In aviation it is sometimes useful to estimate a distance between points as the length of a circular arc. This results from navigation methods (search for VOR and DME arc if curious). To estimate on the fly they use what is known as the 60:1:1 approximation. It means that 60 miles from a point a one degree arc is approximately one mile in length. Note in aviation the distances would be in nautical miles (nm), but the ratio does not change if we use statute miles (the usual type).</p>
+	<p>Here we will practice using the method to approximate then check why it works.</p>
+</introduction>
+
+<task>
+	<title>Using the Ratio</title>
+
+	<task>
+		<statement>
+			<p>View <xref ref="example-6011-ex1" /> to <xref ref="example-6011-ex3" />.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>What is the arclength of 2 degrees at a distance of 30 miles?</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>What is the arclength of 5 degrees at a distance of 30 miles?</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>What is the arclength of 10 degrees at a distance of 20 miles?</p>
+		</statement>
+	</task>
+</task>
+
+<task>
+	<title>Explaining the Ratio</title>
+
+	<task>
+		<statement>
+			<p>Calculate the perimeter of a circle with radius 60 miles using the formula <m>P=2\pi r</m> where <m>P</m> is the perimeter and <m>r</m> is the radius.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Calculate the perimeter of a semi-circle (half circle) with radius 60 miles.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Calculate the perimeter of a quarter of a circle with radius 60 miles.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Calculate the perimeter of <m>1/360</m> of a circle with radius 60 miles.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Note that the previous task is the 60:1:1 ratio (1 degree is 1/360th of a circle). Does your result match (i.e., is the result approximately 1 mile)?</p>
+		</statement>
+	</task>
+</task>
+
+</project>
+
+<example xml:id="example-6011-ex1">
+	<statement><p>Calculate the arclength of 3 degrees at 60 miles.</p></statement>
+	<solution><p>If each degree is one mile then 3 degrees is <m>A=3 \cdot 1=3</m> miles.</p></solution>
+</example>
+
+<example xml:id="example-6011-ex2">
+	<statement><p>Calculate the arclength of 1 degree at 30 miles.</p></statement>
+	<solution><p>At 30 miles we are only half way (<m>30/60=1/2</m>), so the length is <m>A=\frac{1}{2} \cdot 1 = \frac{1}{2}</m> miles.</p></solution>
+</example>
+
+<example xml:id="example-6011-ex3">
+	<statement><p>Calculate the arclength of 4 degree at 18 miles.</p></statement>
+	<solution><p>The radius is (<m>18/60=3/10</m>) of the usual. Thus each degree is <m>\frac{3}{10}</m> of a mile. This arc is <m>4^\circ</m> so the length is <m>A=\frac{3}{10} \cdot 4 = 1.2</m> miles.</p></solution>
+</example>
+
+</section>
