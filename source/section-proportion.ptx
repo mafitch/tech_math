@@ -55,18 +55,6 @@
 	    </webwork>
 	</exercise>
 
-	<example xml:id="example-proportion-solution">
-		<statement><p>A label reads <q>2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate.</q> How many millilitres are needed to contain 800 mg of streptomycin?</p></statement>
-		<solution><p>The label gives us a ratio of 1000 mg per 2.5 mL. We can find the desired volume by setting up the following proportion.
-			<md>
-				<mrow>\frac{1000 \text{ mg}}{2.5 \text{mL}} &amp; = \frac{800 \text{ mg}}{v \text{ mL}}.</mrow>
-				<mrow>1000 \text{ mg} \cdot v \text{ mL} &amp; = 800 \text{ mg} \cdot 2.5 \text{mL}.</mrow>
-				<mrow>v \text{ mL} &amp; = \frac{800 \text{ mg} \cdot 2.5 \text{mL}}{1000 \text{ mg}}.</mrow>
-				<mrow>v &amp; = 2 \text{ mL}.</mrow>
-			</md></p>
-		</solution>
-	</example>
-
 </subsection>
 
 <subsection xml:id="subsection-proportion-similar">

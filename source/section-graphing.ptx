@@ -74,83 +74,6 @@
 
 </subsection>
 
-<subsection xml:id="subsection-graphing-variation">
-	<title>Distinguishing Rates</title>
-
-	<example xml:id="example-graphing-variation">
-		<title>Compare Raises</title>
-
-		<statement><p>One of the purposes of graphing is to compare how data is changing. Here we will compare the way the raises for Vasya and Tien were calculated.</p>
-		<p>We know that Vasya's salary rose by $5000 each year. We need to calculate how much Tien's salary was raised each year. These calculations are in <xref ref="table-varies-check" />.</p>
-		<p>Notice that Tien's raises were not the same amount each year. How did the raises change? Vasya's raises were the same each year, so her salary changed by a constant amount. When the rate of change is constant we call the pattern linear. We will learn other patterns.</p>
-		</statement>
-	</example>
-
-	<definition xml:id="definition-linear">
-		<title>Linear</title>
-		<statement><p>A relation is <term>linear</term> if and only if the rate of change is constant.</p></statement>
-	</definition>
-
-	<table xml:id="table-varies-check" >
-		<title>Tien's Raises</title>
-
-		<tabular>
-			<row><cell>2018</cell> <cell>$55,050.80-$52,429.33</cell> <cell>=$2,621.47</cell></row>
-			<row><cell>2019</cell> <cell>$57,803.34-$55,050.80</cell> <cell>=$2,752.54</cell></row>
-			<row><cell>2020</cell> <cell>$60,693.50-$57,803.34</cell> <cell>=$2,890.17</cell></row>
-			<row><cell>2021</cell> <cell>$63,728.18-$60,693.50</cell> <cell>=$3,034.68</cell></row>
-		</tabular>
-	</table>
-
-	<exercise xml:id="exercise-vary-linear-check">
-		<statement>
-			<p>Which of these employees' raises were linear?</p>
-			<tabular>
-				<row><cell>Moses</cell> <cell>Freya</cell> <cell>Jamal</cell></row>
-				<row><cell>$57,233.00</cell> <cell>$61,199.00</cell> <cell>$58,769.00</cell></row>
-				<row><cell>$61,239.31</cell> <cell>$63,499.00</cell> <cell>$61,924.00</cell></row>
-				<row><cell>$65,526.06</cell> <cell>$65,799.00</cell> <cell>$65,079</cell></row>
-				<row><cell>$70,112.89</cell> <cell>$68,099.00</cell> <cell>$68,234.00</cell></row>
-				<row><cell>$75,020.79</cell> <cell>$70,399.00</cell> <cell>$71,389.00</cell></row>
-				<row><cell>$80,272.24</cell> <cell>$72,699.00</cell> <cell>$74,544.00</cell></row>
-			</tabular>
-		</statement>
-		<hint><p>Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear.</p></hint>
-	</exercise>
-
-	<p>Rather than thinking about the change as the difference (subtraction) of consecutive numbers (salaries in these examples), we can consider the percent increase for each pair of consecutive numbers.</p>
-
-	<example xml:id="example-vary-exponential">
-		<title>Salary Percent Incease</title>
-
-		<statement><p>We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in <xref ref="table-vary-exp-tien" /> and <xref ref="table-vary-exp-vasya" />. </p>
-		<p>Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?</p></statement>
-	</example>
-
-	<table xml:id="table-vary-exp-tien" >
-		<title>Percent Increase for Tien</title>
-
-		<tabular>
-			<row><cell>2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell>=1.05</cell></row>
-			<row><cell>2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell>=1.05</cell></row>
-			<row><cell>2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell>=1.05</cell></row>
-			<row><cell>2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell>=1.05</cell></row>
-		</tabular>
-	</table>
-
-	<table xml:id="table-vary-exp-vasya" >
-		<title>Percent Increase for Vasya</title>
-
-		<tabular>
-			<row><cell>2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell>=1.08</cell> </row>
-			<row><cell>2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell>=1.07</cell> </row>
-			<row><cell>2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell>=1.07</cell> </row>
-			<row><cell>2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell>=1.06</cell> </row>
-		</tabular>
-	</table>
-
-</subsection>
-
 <subsection xml:id="subsection-graphing-continuous">
 	<title>Graphing Continuous Data</title>
 
@@ -161,10 +84,7 @@
 
 		<statement><p>A model of a space shuttle is 1:144. This means one inch on the model represents 144 inches on the actual shuttle. Similarly 2 inches on the model represents 288 inches on the actual shuttle. Lengths are not just integers, we could have a part that is 1.72 inches. This would be <m>1.72 \cdot 144 = 247.68</m> inches on the actual shuttle.</p>
 		<p>To represent the conversion from inches on the model to inches on the actual object we need to plot points and connect them continuously. A graph of this in <xref ref="figure-graphing-line1" />. Notice the two points and the extension of those.</p>
-		<p><ul>
-			<li>Why does the graph start at 0?</li>
-			<li>Is this data linear?</li>
-		</ul></p>
+		<p>Why does the graph start at 0?</p>
 		</statement>
 	</example>
 
@@ -177,8 +97,8 @@
 	<example xml:id="example-vary-ohm">
 		<title>Ohm's Law</title>
 
-		<statement><p>Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage is analagous to the amount of pressure to move the electrons. Current is how much electricity is moving. Resistance is, as it sounds, the resitance of a material to letting electricity flow.</p>
-		<p>The relationship is <me>V = IR</me> where <m>V</m> is voltage (in units of Volts), <m>I</m> is current (in units of amps), and <m>R</m> is the resistance (in units of Ohms).</p>
+		<statement><p>Ohm's Law relates three properties of electricity: voltage, current, and resistance. <term>Voltage</term>, measured in volts (V), is analagous to the amount of pressure to move the electrons. <term>Current</term>, measured in amperes (amps), is how much electricity is moving. <term>Resistance</term> measured in Ohms (<m>\Omega</m>), is, as it sounds, the resitance of a material to letting electricity flow.</p>
+		<p>The relationship is <me>V = IR</me> where <m>V</m> is voltage, <m>I</m> is current, and <m>R</m> is the resistance.</p>
 		<p>Consider a 12 V system with an 8 Ohm resistor.
 			<md>
 				<mrow>12 = &amp; I \cdot 8. </mrow>
@@ -214,14 +134,12 @@
 	<exercise xml:id="exercise-graphing-continuous1">
 		<introduction><p>The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by <me>P \cdot V = k \cdot T</me> where <m>P</m> is the pressure, <m>V</m> is the volume, <m>T</m> is the temperature, and <m>k</m> is a constant dependent on the specific gas.</p></introduction>
 		<task><p>Draw a graph for the equation <m>P = \frac{8.3145 T}{2.0000}</m>. Note the units are Kelvin (Celsius + 273.15) for temperature and Jules/litre for pressure. These do not need to be labeled here.</p></task>
-		<task><p>Is this relationship linear?</p></task>
 		<task><p>Draw a graph for the equation <m>P = \frac{8.3145 \cdot 293.15}{V}</m>.</p></task>
-		<task><p>Is this second relationship linear?</p></task>
 	</exercise>
 
 </subsection>
 
-<subsection xml:id="subsection-graphing-notation">
+<subsection xml:id="subsection-linear-notation">
 	<title>Representing Linear Relations</title>
 
 	<p>We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. Here we will add a representation in mathematical symbols that are useful for calculation.</p>
@@ -265,13 +183,13 @@
 		<solution><p>We will use the points (4000,33.94) and (2000,31.94).
 			<md>
 				<mrow>\frac{33.94-31.94}{4000-2000} &amp; = \frac{2}{2000}</mrow>
-				<mrow> &amp; = \frac{1}{2000}.</mrow>
+				<mrow> &amp; = \frac{1}{1000}.</mrow>
 			</md>
 			This means the slope is 1 inHg (inch of mercury) per 1000 feet above mean sea level.</p></solution>
 		<solution><p>We will use the points (8000,37.94) and (4000,33.94).
 			<md>
 				<mrow>\frac{37.94-33.94}{8000-4000} &amp; = \frac{4}{4000}</mrow>
-				<mrow> &amp; = \frac{1}{2000}.</mrow>
+				<mrow> &amp; = \frac{1}{1000}.</mrow>
 			</md>
 			As expected this is the same slope, because on a line the rate of change (slope) is constant.</p></solution>
 	</example>
@@ -284,11 +202,11 @@
 	<exercise xml:id="exercise-graphing-calculate-slope">
 		<webwork>
 			<statement>
-				<p>Suppose that as dry air rose it dropped in temperature in a linear fashion. If the temperature was measured at 1000 ft MSL as <m>21^\circ</m> C and at 3000 ft MSL as <m>17^\circ</m> C, what is the rate of change of temperature with respect to altitude? <var name="'2'" width="4" /></p>
+				<p>Suppose that as dry air rose it dropped in temperature in a linear fashion. If the temperature was measured at 1000 ft MSL as <m>21^\circ</m> C and at 3000 ft MSL as <m>17^\circ</m> C, what is the rate of change of temperature with respect to altitude? <var name="'-1/500'" width="4" /></p>
 				<p>What does this imply the temperature is at 0 ft MSL? <var name="'23'" width="4" /></p>
 			</statement>
-			<solution><p>The slope can be calculated as <me>\frac{17-21}{3000-1000} &amp; = \frac{-3}{2000}</me>.</p>
-			<p>Alternately because the temperature drops as the air rises, the temperature at a lower altitude (0 is lower than 1000) will be higher. So the temperature is <m>21+2=23</m>.</p></solution>
+			<solution><p>The slope can be calculated as <me>\frac{17-21}{3000-1000} = \frac{-4}{2000} = -\frac{2}{1000}</me>.</p>
+			<p>Alternately because the temperature drops as the air rises, the temperature at a lower altitude (0 is lower than 1000) will be higher by 2 degrees. So the temperature is <m>21+2=23</m>.</p></solution>
 		</webwork>
 	</exercise>
 

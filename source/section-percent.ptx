@@ -151,59 +151,6 @@
 
 </subsection>
 
-<subsection xml:id="subsection-percent-mixture">
-	<title>Mixtures</title>
-
-	<p>Mixture problems involve having solutions in which typically a desired substance is mixed into another. For example an active ingredient (medicine) may be mixed into a diluent (often water).</p>
-
-	<p>We can calculate a resulting percent when we combine things with differing percents.</p>
-
-	<example xml:id="example-percent-mixture">
-		<statement><p>Suppose we have a container with a solution that is 22% sugar and the rest water and another container with a solution that is 16% sugar and the rest water. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent sugar?</p></statement>
-		<solution><p>To calculate a percent we need the total amount and amount of the part. We can calculate the total directly: <m>T=150+250=400</m>.</p>
-		<p>To calculate the part we need to know how much (rather than what percent) sugar.
-			<md>
-				<mrow>150 \cdot 0.22 &amp; = 33.</mrow>
-				<mrow>250 \cdot 0.16 &amp; = 40.</mrow>
-				<mrow>P &amp; = 33+40</mrow>
-				<mrow> &amp; = 73.</mrow>
-			</md>
-			Thus the percent of the mixture is <m>P/T = 73/400 = 18.25\%</m>.</p>
-		</solution>
-	</example>
-
-	<exercise xml:id="exercise-percent-mixture">
-		<webwork>
-			<statement>
-				<p>Suppose one container has a solution that is 11% alcohol and another container has a solution that is 40%. Both are percent by volume. If 4 oz of the first is mixed with 1 oz of the second what is the percent alcohol by volume?  <var name="'16.8'" width="5" /></p>
-			</statement>
-			<solution>
-				<p>We know we will end up with 5 oz total. We calculate the volume of alcohol in the first to be <m>0.11 \cdot 4 = 0.44</m> and the volume alcohol in the second to be <m>0.4 \cdot 1 = 0.4</m>. Thus the alcohol part is <m>0.44+0.4=0.84</m>. The percent alcohol by volume of the result is <m>P/T = 0.84/5 = 0.168</m> or 16.8%.</p>
-			</solution>
-	    </webwork>
-	</exercise>
-
-	<p>The next problem is producing a isopropyl alcohol with a lower concentration of alcohol than the original solution. We begin with 16.0 oz of a 91.0% isopropyl alcohol solution. The other ingredient is water.</p>
-
-	<example xml:id="example-dilute-alcohol">
-		<title>Dilute Alcohol</title>
-
-		<statement><p>Suppose we add 4.00 oz of water to this mixture. What will the percent alcohol be?</p></statement>
-		<solution><p>The percent alcohol is the amount of alcohol divided by the total volume. The volume of alchol is <m>0.910(16.0)=14.6</m>. The volume of water from the original solution is <m>0.0900(16.0)=1.44</m>. We are adding 4.00 oz, thus the total volume is <m>16.0+4.00=20.0</m> oz. The final percent alcohol is <me>\frac{14.6}{20.0}=0.730</me> or 73.0%.</p></solution>
-	</example>
-
-	<p>If we added more water would the percent alcohol be greater or less? Note that if we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.</p>
-
-	<example xml:id="example-calculate-dilute">
-		<title>Calcluate Dilution</title>
-
-		<statement><p>Suppose we want 20.0 oz of 70.0% alcohol solution. How much water should we add? How much solution will we have?</p></statement>
-		<solution><p>Because we are adding water, it will be easier to solve this by thinking about the percent water. Because isopropyl alcohol and water are the only two ingredients, the percent water is 100%-70%=30%. We know that we are starting with <m>0.0900 \cdot 16.0 = 1.44</m> oz of water and we want to end up with <m>0.300 \cdot 20.0 = 6.00</m> oz. This leads to the equation <me>1.44+W=6.00</me>. This means we need 4.56 oz of water.</p>
-		<p>We can confirm this work by calculating the percent water. First note we have <m>16.0+4.56=20.56</m> oz of solution. The percent water then is <me>\frac{0.0900(16.0)+4.56}{16.0+4.56}=0.292</me> which is 29.2%. Why is this not exactly 30%? That is the result of rounding with significant digits.</p></solution>
-	</example>
-
-</subsection>
-
 <subsection xml:id="subsection-percent-limitation">
 	<title>Limitations</title>
 

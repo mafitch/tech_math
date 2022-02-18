@@ -71,13 +71,14 @@
 	<p>How long will it take to travel 236 nm?</p>
 	<p>Because this is a fixed ratio we can write
 		<md>
-			<mrow>\frac{110 \text{ nm}}{1 \text{ hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
-			<mrow>t \text{ hours} \cdot \frac{110 \text{ nm}}{1 \text{ hour}} \amp = t \text{ hours} \cdot \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
+			<mrow>\frac{110 \text{ nm}}{\text{hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
+			<mrow>t \text{ hours} \cdot \frac{110 \text{ nm}}{\text{hour}} \amp = t \text{ hours} \cdot \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
 			<mrow>t \cdot 110 \text{ nm} \amp = 236 \text{ nm}.</mrow>
 			<mrow>t \cdot 110 \text{ nm} / 110 \text{ nm}  \amp = 236 \text{ nm}/ 110 \text{ nm}.</mrow>
 			<mrow>t \amp = \frac{236}{110}.</mrow>
 			<mrow>t \amp \approx 2.1.</mrow>
 		</md>
+		The multiplying steps are often called <term>cross multiplying</term>.
 	</p>
 </example>
 
@@ -110,20 +111,21 @@
 		<statement><p>We will convert 2.1 hours to a number of minutes. Note we know there are 60 minutes per hour. Notice that the conversion is like a rate. Specifically it is a fraction. If we multiply minutes/hour by hours we will end up with just minutes.</p></statement>
 		<solution><p>
 			<md>
-				<mrow>2.1 \text{ hours} \cdot \frac{60 \text{ minutes}}{\text{hour}} &amp; =</mrow>
-				<mrow>2.1 \cdot 60 \cdot \frac{\cancelhighlight{\text{hours}}}{\cancelhighlight{\text{hour}}} \text{ minutes} &amp; =</mrow>
-				<mrow>126 \text{ minutes}. &amp;</mrow>
+				<mrow>2.1 \text{ hours} \cdot \frac{60 \text{ minutes}}{\text{hour}} \amp =</mrow>
+				<mrow>2.1 \cdot 60 \cdot \frac{\bcancel{\text{ hours}}}{\bcancel{\text{hour}}} \text{ minutes} \amp =</mrow>
+				<mrow>126 \text{ minutes}. \amp</mrow>
 			</md>
 			</p>
 		</solution>
 	</example>
 
 	<example xml:id="example-unit-conversion2">
-		<statement><p>We will convert 450 feet per minute to units of inches per second. Note we know there are 12 inches per foot and 60 seconds per minute. We need to divide by feet, multiply by inches, divide by minutes, and multiply by seconds to have the units divide out as desired. That is we multiply by the ratios 12 inches/foot and 60 seconds/minute.</p></statement>
+		<statement><p>We will convert 450 feet per minute to units of inches per second.</p></statement>
+		<video youtube="rl1VIEVsJR4" xml:id="example-video-unit-conversion" />
 		<solution><p>
 			<md>
-				<mrow>\frac{450 \text{ feet}}{1 \text{ minute}} \cdot \frac{12 \text{ inches}}{1 \text{ foot}} \cdot \frac{1 \text{ minute}}{60 \text{ seconds}} &amp; = </mrow>
-				<mrow>\frac{450 \cdot 12}{60} \frac{\cancelhighlight{\text{ feet}}}{\cancelhighlight{\text{ foot}}} \cdot \frac{\secondcancelhighlight{\text{ minute}}}{\secondcancelhighlight{\text{ minute}}} \cdot \frac{\text{ inches}}{\text{ second}} &amp; = </mrow>
+				<mrow>\frac{450 \text{ feet}}{1 \text{ minute}} \cdot \frac{12 \text{ inches}}{1 \text{ foot}} \cdot \frac{1 \text{ minute}}{60 \text{ seconds}} \amp = </mrow>
+				<mrow>\frac{450 \cdot 12}{60} \frac{\cancel{\text{feet}}}{\cancel{\text{foot}}} \cdot \frac{\bcancel{\text{ minute}}}{\bcancel{\text{ minute}}} \cdot \frac{\text{ inches}}{\text{ second}} \amp = </mrow>
 				<mrow>\frac{90 \text{ inches}}{1 \text{ second}}.</mrow>
 			</md>
 			</p>
@@ -134,8 +136,8 @@
 		<statement><p>We will convert 450 feet per minute to units of meters per minute. Note when converting between dissimilar units the conversions are approximations: select a sufficiently precise approximation for your application. For this problem we will use the ratio of one foot per 0.3048 meters. We will need to divide by feet and multiply by meters so we need to reciprocate this ratio.</p></statement>
 		<solution><p>
 			<md>
-				<mrow>\frac{450 \text{ feet}}{\text{ minute}} \cdot \frac{0.3048 \text{ meters}}{\text{ foot}} &amp; = </mrow>
-				<mrow>450 \cdot 0.3048 \frac{\cancelhighlight{\text{ feet}}}{\cancelhighlight{\text{ foot}}} \cdot \frac{\text{ meters}}{\text{ minute}} &amp; \approx </mrow>
+				<mrow>\frac{450 \text{ feet}}{\text{ minute}} \cdot \frac{0.3048 \text{ meters}}{\text{ foot}} \amp = </mrow>
+				<mrow>450 \cdot 0.3048 \frac{\bcancel{\text{ feet}}}{\bcancel{\text{ foot}}} \cdot \frac{\text{ meters}}{\text{ minute}} \amp \approx </mrow>
 				<mrow>\frac{140 \text{ meters}}{\text{ minute}}.</mrow>
 			</md>
 			</p>
@@ -151,7 +153,7 @@
 				<p>	<md>
 					<mrow>\frac{12 \text{ km}}{\text{ hour}} \amp \approx </mrow>
 					<mrow>\frac{12 \text{ km}}{\text{ hour}} \cdot \frac{0.621371 \text{ miles}}{\text{km}} \amp \approx </mrow>
-					<mrow>\frac{7.5 \text{ miles}}{\text{hour}} \cdot \frac{\cancelhighlight{\text{km}}}{\cancelhighlight{\text{km}}} \amp \approx </mrow>
+					<mrow>\frac{7.5 \text{ miles}}{\text{hour}} \cdot \frac{\bcancel{\text{km}}}{\bcancel{\text{km}}} \amp \approx </mrow>
 					<mrow>\frac{7.5 \text{ miles}}{\text{hour}}.</mrow>
 				</md></p>
 			</solution>
@@ -162,10 +164,10 @@
 		<statement><p>We will convert 153 square inches to square centimeters. Note that 1 inch is approximately 2.54 centimeters. Note first that <term>square</term> here refers to the inches not to the 153. Notice also how we adjust the conversion process for this exponent.</p></statement>
 		<solution><p>
 			<md>
-				<mrow>153 \text{ inches}^2 &amp; = </mrow>
-				<mrow>153 \text{ inches}^2 \cdot \left(\frac{2.54 \text{ cm}}{\text{ inch}}\right)^2 &amp; \approx </mrow>
-				<mrow>153 \text{ inches}^2 \cdot \frac{6.45 \text{ cm}^2}{\text{ inch}^2} &amp; \approx </mrow>
-				<mrow>987 \text{ cm}^2 \cdot \frac{ \cancelhighlight{\text{ inches}^2}}{ \cancelhighlight{\text{ inch}^2}}. &amp; \approx</mrow>
+				<mrow>153 \text{ inches}^2 \amp = </mrow>
+				<mrow>153 \text{ inches}^2 \cdot \left(\frac{2.54 \text{ cm}}{\text{ inch}}\right)^2 \amp \approx </mrow>
+				<mrow>153 \text{ inches}^2 \cdot \frac{6.45 \text{ cm}^2}{\text{ inch}^2} \amp \approx </mrow>
+				<mrow>987 \text{ cm}^2 \cdot \frac{ \bcancel{\text{inches}^2}}{ \bcancel{\text{inch}}^2}. \amp \approx</mrow>
 				<mrow>987 \text{ cm}^2.</mrow>
 			</md>
 			</p>
@@ -182,7 +184,7 @@
 					<mrow>\frac{51.2 \text{ lbs}}{\text{ inch}^2} \amp \approx </mrow>
 					<mrow>\frac{51.2 \text{ lbs}}{\text{ inch}^2} \cdot  \frac{1.00 \text{ N}}{4.45 \text{ lbs}} \cdot \left(\frac{1.00 \text{ inch}}{0.254 \text{ m}}\right)^2 \amp \approx </mrow>
 					<mrow>\frac{51.2}{4.45 \cdot 0.0254^2} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx </mrow>
-					<mrow>17833 \frac{ \cancelhighlight{\text{lbs}}}{\secondcancelhighlight{\text{ inch}^2}} \cdot \frac{\text{N}}{\cancelhighlight{\text{lbs}}} \cdot \frac{\secondcancelhighlight{\text{ inch}^2}}{\text{m}^2} \amp \approx </mrow>
+					<mrow>17833 \frac{ \cancel{\text{lbs}}}{\bcancel{\text{ inch}^2}} \cdot \frac{\text{N}}{\cancel{\text{lbs}}} \cdot \frac{\bcancel{\text{ inch}^2}}{\text{m}^2} \amp \approx </mrow>
 					<mrow>\frac{17800 \text{ N}}{\text{m}^2}.</mrow>
 				</md></p>
 			</solution>
