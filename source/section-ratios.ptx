@@ -5,7 +5,7 @@
 
 <introduction>
 
-<p>With percents we are comparing the size of a part to the whole or perhaps comparing the before and after sizes of the same thing. With ratios we can compare many different quantities. </p>
+<p>With percents we are comparing the size of a part to the whole or perhaps comparing the before and after sizes. With ratios we can compare many additional quantities. </p>
 
 <example xml:id="example-ratio-class1">
 	<p>In a class there are 21 female students and 13 male students. We can write the ratio <me>\frac{21 \text{ female}}{13 \text{ male}}</me> </p>
@@ -21,94 +21,91 @@
 
 </introduction>
 
-<subsection xml:id="subsection-using-ratio">
-	<title>Using Ratios</title>
+<subsection xml:id="subsection-ratio-rates">
+	<title>Rates</title>
 
-	<p>Often we use ratios to indicate a fixed (unchanging) relationship. For example a faucet fully open may have a ratio of 2 gallons per minute. This is true in the first minute and in the second minute. This is in contrast to turning on the faucent when it will initially have no flow then build to the full rate. When a ratio is fixed we can use it to calculate amounts.</p>
+<p>One common type of ratio is a rate. These typically have units. Examples you probably know are miles per hour, kilometers per hour, and gallons per minute.</p>
 
-	<example xml:id="example-ratio-airspeed1">
-		<title>Proportion: Airspeed</title>
-		<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
-		<p>With a rate we can calculate amounts. See <xref ref="table-ratio-airspeed1" /> for results. Note the first row is the given ratio.</p>
-		<p>For the second row, note that the ratio implies that the rate does not change. If in the first hour the plane travelled 110 nm (nautical miles), then it travelled 110 nm in the second hour as well. So all total it travelled 220 nm.</p>
-		<p>In general we can add another 110 nm for each hour.</p>
-		<p>For 0.5 hours we note the following mathematics.
-			<md>
-				<mrow>\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{1/2}{1/2}</mrow>
-				<mrow> \amp = \frac{55 \text{ nautical miles}}{0.5 \text{ hour}}.</mrow>
-			</md>
-		We scaled the number of hours. What we do to the bottom (number of hours) we must also do to the top (number of miles).</p>
-		<p>For 2.5 hours we note again that because the rate does not change (110 nm for every hour) we can add 220 nm for two hours and 55 nm for the half hour giving  275 nm total.</p>
-	</example>
-
-	<table xml:id="table-ratio-airspeed1">
-		<title>Airspeed and Distance</title>
-		<tabular>
-			<row><cell>Time</cell><cell>Distance</cell></row>
-			<row><cell>1 hour</cell><cell>110 nm</cell></row>
-			<row><cell>2 hour</cell><cell>220 nm</cell></row>
-			<row><cell>0.5 hour</cell><cell>55 nm</cell></row>
-			<row><cell>2.5 hour</cell><cell>275 nm</cell></row>
-		</tabular>
-	</table>
-
-	<example xml:id="example-ratio-volume">
-		<statement><p>Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?</p></statement>
-		<solution><p>We can set this up like the half hour calculation in <xref ref="example-ratio-airspeed1" />. That is we scale the ratio to give us 2.7 minutes.
-			<md>
-				<mrow>\frac{11 \text{ gallons}}{1 \text{ minute}} \amp = \frac{11 \text{ gallons}}{1 \text{ minute}} \cdot \frac{2.7}{2.7}</mrow>
-				<mrow> \amp = \frac{2.97 \text{ gallons}}{2.7 \text{ minutes}}</mrow>
-			</md>
-		The answer is approximately 3.0 gallons.</p></solution>
-	</example>
-
-	<exercise xml:id="exercise-ratio-airspeed1">
-		<webwork>
-			<statement>
-				<p>Calculate how far a plane flying at a rate of 110 nm/hour would travel in 3.1 hours <var name="'341'" width="4" /></p>a
-	 flying at a rate of 		</statement>
-			<solution>
-				<p><md>
-					<mrow>\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1}</mrow>
-					<mrow> \amp = \frac{341 \text{ nautical miles}}{3.1 \text{ hours}}.</mrow>
-				</md></p>
-			</solution>
-	    </webwork>
-	</exercise>
-
-	<p>Like a percent ratios indicate a proportion, but do not necessarily specify how many of the items. A given ratio can be used the same way a percent is.</p>
-
-	<example xml:id="example-ratio-apply-mercury">
-		<statement><p>Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.002 liters how much mercury is consumed?</p></statement>
-		<solution><p>Note we cannot use a percent because we are comparing a weight to a volume: dissimilar measurements. We can use the ratio <m>\frac{0.022 \text{ mg}}{1 \text{ l}}</m>. We apply this ratio to the given volume of 0.002 liters.
+<example xml:id="example-ratio-airspeed1">
+	<title>Proportion: Airspeed</title>
+	<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
+	<p>With a rate we can calculate results. See <xref ref="table-ratio-airspeed1" /> for results. Note the first row is the ratio given.</p>
+	<p>For the second row, note that the ratio implies that the rate does not change. If in the first hour the plane travelled 110 nm (nautical miles), then it travelled 110 nm in the second hour. So all total it travelled 220 nm. That is we can add for each hour.</p>
+	<p>For 0.5 hours we note the following mathematics.
 		<md>
-			<mrow>\frac{0.022 \text{ mg}}{1 \text{ l}} \cdot 0.002 \text{ l} \amp = </mrow>
-			<mrow>\frac{0.022 \text{ mg}}{1 \cancel{\text{ l}}} \cdot 0.002 \cancel{\text{ l}} \amp = 0.000044 \text{ mg}.</mrow>
+			<mrow>\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{1/2}{1/2}</mrow>
+			<mrow> \amp = \frac{55 \text{ nautical miles}}{0.5 \text{ hour}}.</mrow>
 		</md>
-		</p></solution>
-	</example>
+	</p>
+	<p>For 2.5 hours we note again that because the rate does not change (110 nm for every hour) we can again add 220 nm and 55 nm for 275 nm.</p>
+</example>
 
-	<example xml:id="example-ratio-apply-saline">
-		<statement><p>A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of saline solution?</p></statement>
-		<solution><p>We can apply the given ratio (2.5 g/240 mL) to the given amount (0.5 L). First it will be convenient to conver a half liter to milliliters. This is also a ratio problem. See <xref ref="table-metric-sizes" /> for the conversion ratio.
-			<md>
-				<mrow>\frac{1000 \text{ mL}}{1 \text{ L}} \cdot 0.5 \text{ L} \amp =</mrow>
-				<mrow>\frac{1000 \cancel{\text{ mL}}}{1 \text{ L}} \cdot 0.5 \cancel{\text{ L}} \amp = 500 \text{ mL}</mrow>
-			</md>
-		Next we can apply the ratio to the volume.
-			<md>
-				<mrow>\frac{2.5 \text{ g}}{240 \text{ mL}} \cdot 500 \text{ mL} \amp =</mrow>
-				<mrow>\frac{2.5 \text{ g}}{240 \cancel{\text{ L}}} \cdot 500 \cancel{\text{ mL}} \amp = 5.2 \text{ g}</mrow>
-			</md>
-		Note we use two significant digits because the 2.5 and 240 both have two significant digits and 500 is not a measurement.</p></solution>
-	</example>
+<table xml:id="table-ratio-airspeed1">
+	<title>Airspeed and Distance</title>
+	<tabular>
+		<row><cell>Time</cell><cell>Distance</cell></row>
+		<row><cell>1 hour</cell><cell>110 nm</cell></row>
+		<row><cell>2 hour</cell><cell>220 nm</cell></row>
+		<row><cell>0.5 hour</cell><cell>55 nm</cell></row>
+		<row><cell>2.5 hour</cell><cell>275 nm</cell></row>
+	</tabular>
+</table>
+
+<exercise xml:id="exercise-ratio-airspeed1">
+	<webwork>
+		<statement>
+			<p>The calculation for distance over a half hour suggests a general method for using a rate. Use this method to calculate how far the plane would travel in 3.1 hours <var name="'341'" width="4" /></p>
+		</statement>
+		<solution>
+			<p><md>
+				<mrow>\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1}</mrow>
+				<mrow> \amp = \frac{341 \text{ nautical miles}}{3.1 \text{ hours}}.</mrow>
+			</md></p>
+		</solution>
+    </webwork>
+</exercise>
+
+<example xml:id="example-ratio-airspeed-solve">
+	<title>Proportion: Solving</title>
+	<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
+	<p>How long will it take to travel 236 nm?</p>
+	<p>Because this is a fixed ratio we can write
+		<md>
+			<mrow>\frac{110 \text{ nm}}{\text{hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
+			<mrow>t \text{ hours} \cdot \frac{110 \text{ nm}}{\text{hour}} \amp = t \text{ hours} \cdot \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
+			<mrow>t \cdot 110 \text{ nm} \amp = 236 \text{ nm}.</mrow>
+			<mrow>t \cdot 110 \text{ nm} / 110 \text{ nm}  \amp = 236 \text{ nm}/ 110 \text{ nm}.</mrow>
+			<mrow>t \amp = \frac{236}{110}.</mrow>
+			<mrow>t \amp \approx 2.1.</mrow>
+		</md>
+		The multiplying steps are often called <term>cross multiplying</term>.
+	</p>
+</example>
+
+<exercise xml:id="exercise-ratio-climb">
+	<webwork>
+		<statement>
+			<p>If the Diamond DA-20 climbs at the rate of <me>\frac{450 \text{ feet}}{1.0 \text{ minute}}</me> how long will it take it to climb 2500 ft? <var name="'5.5'" width="4" /></p>
+		</statement>
+		<solution>
+			<p>	<md>
+				<mrow>\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.</mrow>
+				<mrow>t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.</mrow>
+				<mrow>t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.</mrow>
+				<mrow>t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.</mrow>
+				<mrow>t \amp = \frac{2500}{450}</mrow>
+				<mrow>t \amp \approx 5.5.</mrow>
+			</md></p>
+		</solution>
+    </webwork>
+</exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-ratio-conversion">
 	<title>Conversion of Units</title>
 
-	<p>One common type of ratio is a rate. These typically have units. Examples you probably know are miles per hour, kilometers per hour, and gallons per minute. When we know a rate we can calculate amounts (e.g., number of miles, number of kilometers, or number of gallons). Sometimes we convert one unit to another. This is another use of ratios.</p>
+	<p>Rates include units like feet per minute or gallons per hour. Sometimes we convert one unit to another.</p>
 
 	<example xml:id="example-unit-conversion1">
 		<statement><p>We will convert 2.1 hours to a number of minutes. Note we know there are 60 minutes per hour. Notice that the conversion is like a rate. Specifically it is a fraction. If we multiply minutes/hour by hours we will end up with just minutes.</p></statement>
