@@ -14,6 +14,7 @@ Copyright 2020 Mark A. Fitch
 
         <chapter xml:id="chapter-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Cross Cutting Topics</title>
+            <xi:include href="./section-units.ptx" />      <!--  Measurements and Systemss -->
             <xi:include href="./section-enough.ptx" />      <!-- Accuracy and precision -->
 
        </chapter>
@@ -21,8 +22,10 @@ Copyright 2020 Mark A. Fitch
         <chapter xml:id="chapter-ratios" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Ratios</title>
             <xi:include href="./section-percent.ptx" />      <!-- Percents-ratio of whole -->
+            <xi:include href="./section-mixture1.ptx" />      <!-- Mixture problems as percent -->
             <xi:include href="./section-ratios.ptx" />      <!-- Ratios in many forms -->
             <xi:include href="./section-proportion.ptx" />      <!-- Equal Ratios -->
+            <xi:include href="./section-medical.ptx" />      <!-- Medical Ratios -->
             <xi:include href="./section-linear.ptx" />      <!-- Linear expressions identified and solved -->
             <xi:include href="./section-models.ptx" />      <!-- Selecting and using models for applications -->
             <xi:include href="./project-falseposition.ptx" />      <!-- Using ratios to correct guesses -->
@@ -33,7 +36,8 @@ Copyright 2020 Mark A. Fitch
             <title>Variation</title>
 
             <xi:include href="./section-graphing.ptx" />         <!-- Reading graphs  -->
-            <xi:include href="./section-variation.ptx" />         <!-- Learn about different rates -->
+            <xi:include href="./section-rates.ptx" />         <!-- Learn about different rates -->
+            <xi:include href="./section-variation.ptx" />         <!-- Representing relations -->
             <xi:include href="./section-rational.ptx" />         <!-- Solve expressions involving rational expressions -->
             <xi:include href="./section-linear-system.ptx" />         <!-- Solving systems of linear equations -->
             <xi:include href="./project-literal-formula.ptx" />         <!-- Activity to understand alernate forms of formulas  -->

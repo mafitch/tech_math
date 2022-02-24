@@ -33,7 +33,7 @@
 				$m = Compute(random(1,5,1));
 				$b = Compute(random(2,9,1));
 				$a = Compute(random(2,9,1));
-				$c = Compute($a*$m+$b;
+				$c = Compute($a*$m+$b);
 				$sol = Compute(($c-$b)/$a);
 			</pg-code>
 			<statement>

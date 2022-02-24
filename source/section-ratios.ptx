@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-ratios" >
+<title>Ratios</title>
+
+<introduction>
+
+<p>With percents we are comparing the size of a part to the whole or perhaps comparing the before and after sizes of the same thing. With ratios we can compare many different quantities. </p>
+
+<example xml:id="example-ratio-class1">
+	<p>In a class there are 21 female students and 13 male students. We can write the ratio <me>\frac{21 \text{ female}}{13 \text{ male}}</me> </p>
+	<p>Note that this is simply a statement. There is no question to answer, and nothing more to do with the ratio.</p>
+	<p>Consider that <m>\frac{21}{13} \approx 1.62 \gt 1</m>. Because it is greater than one  the ratio tells us that there are more female students than male students in the class.</p>
+	<p>The ratio <me>\frac{13 \text{ male}}{21 \text{ female}}</me> gives the exact same information. That is, the order of a ratio does not change the information though it does change the number thought of as a fraction.</p>
+</example>
+
+<example xml:id="example-ratio-pets1">
+	<p>In a neighborhood there are 7 dogs and 12 cats. We can write the ratio <me>\frac{7 \text{ dogs}}{12 \text{ cats}}</me></p>
+	<p>Note that <m>\frac{7}{12} \approx 0.58 \lt 1</m>. Because it is less than one the ratio tells us that there are fewer dogs than cats in the neighborhood.</p>
+</example>
+
+</introduction>
+
+<subsection xml:id="subsection-using-ratio">
+	<title>Using Ratios</title>
+
+	<p>Often we use ratios to indicate a fixed (unchanging) relationship. For example a faucet fully open may have a ratio of 2 gallons per minute. This is true in the first minute and in the second minute. This is in contrast to turning on the faucent when it will initially have no flow then build to the full rate. When a ratio is fixed we can use it to calculate amounts.</p>
+
+	<example xml:id="example-ratio-airspeed1">
+		<title>Proportion: Airspeed</title>
+		<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
+		<p>With a rate we can calculate amounts. See <xref ref="table-ratio-airspeed1" /> for results. Note the first row is the given ratio.</p>
+		<p>For the second row, note that the ratio implies that the rate does not change. If in the first hour the plane travelled 110 nm (nautical miles), then it travelled 110 nm in the second hour as well. So all total it travelled 220 nm.</p>
+		<p>In general we can add another 110 nm for each hour.</p>
+		<p>For 0.5 hours we note the following mathematics.
+			<md>
+				<mrow>\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{1/2}{1/2}</mrow>
+				<mrow> \amp = \frac{55 \text{ nautical miles}}{0.5 \text{ hour}}.</mrow>
+			</md>
+		We scaled the number of hours. What we do to the bottom (number of hours) we must also do to the top (number of miles).</p>
+		<p>For 2.5 hours we note again that because the rate does not change (110 nm for every hour) we can add 220 nm for two hours and 55 nm for the half hour giving  275 nm total.</p>
+	</example>
+
+	<table xml:id="table-ratio-airspeed1">
+		<title>Airspeed and Distance</title>
+		<tabular>
+			<row><cell>Time</cell><cell>Distance</cell></row>
+			<row><cell>1 hour</cell><cell>110 nm</cell></row>
+			<row><cell>2 hour</cell><cell>220 nm</cell></row>
+			<row><cell>0.5 hour</cell><cell>55 nm</cell></row>
+			<row><cell>2.5 hour</cell><cell>275 nm</cell></row>
+		</tabular>
+	</table>
+
+	<example xml:id="example-ratio-volume">
+		<statement><p>Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?</p></statement>
+		<solution><p>We can set this up like the half hour calculation in <xref ref="example-ratio-airspeed1" />. That is we scale the ratio to give us 2.7 minutes.
+			<md>
+				<mrow>\frac{11 \text{ gallons}}{1 \text{ minute}} \amp = \frac{11 \text{ gallons}}{1 \text{ minute}} \cdot \frac{2.7}{2.7}</mrow>
+				<mrow> \amp = \frac{2.97 \text{ gallons}}{2.7 \text{ minutes}}</mrow>
+			</md>
+		The answer is approximately 3.0 gallons.</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-ratio-airspeed1">
+		<webwork>
+			<statement>
+				<p>Calculate how far a plane flying at a rate of 110 nm/hour would travel in 3.1 hours <var name="'341'" width="4" /></p>a
+	 flying at a rate of 		</statement>
+			<solution>
+				<p><md>
+					<mrow>\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1}</mrow>
+					<mrow> \amp = \frac{341 \text{ nautical miles}}{3.1 \text{ hours}}.</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<p>Like a percent ratios indicate a proportion, but do not necessarily specify how many of the items. A given ratio can be used the same way a percent is.</p>
+
+	<example xml:id="example-ratio-apply-mercury">
+		<statement><p>Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.002 liters how much mercury is consumed?</p></statement>
+		<solution><p>Note we cannot use a percent because we are comparing a weight to a volume: dissimilar measurements. We can use the ratio <m>\frac{0.022 \text{ mg}}{1 \text{ l}}</m>. We apply this ratio to the given volume of 0.002 liters.
+		<md>
+			<mrow>\frac{0.022 \text{ mg}}{1 \text{ l}} \cdot 0.002 \text{ l} \amp = </mrow>
+			<mrow>\frac{0.022 \text{ mg}}{1 \cancel{\text{ l}}} \cdot 0.002 \cancel{\text{ l}} \amp = 0.000044 \text{ mg}.</mrow>
+		</md>
+		</p></solution>
+	</example>
+
+	<example xml:id="example-ratio-apply-saline">
+		<statement><p>A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of saline solution?</p></statement>
+		<solution><p>We can apply the given ratio (2.5 g/240 mL) to the given amount (0.5 L). First it will be convenient to conver a half liter to milliliters. This is also a ratio problem. See <xref ref="table-metric-sizes" /> for the conversion ratio.
+			<md>
+				<mrow>\frac{1000 \text{ mL}}{1 \text{ L}} \cdot 0.5 \text{ L} \amp =</mrow>
+				<mrow>\frac{1000 \cancel{\text{ mL}}}{1 \text{ L}} \cdot 0.5 \cancel{\text{ L}} \amp = 500 \text{ mL}</mrow>
+			</md>
+		Next we can apply the ratio to the volume.
+			<md>
+				<mrow>\frac{2.5 \text{ g}}{240 \text{ mL}} \cdot 500 \text{ mL} \amp =</mrow>
+				<mrow>\frac{2.5 \text{ g}}{240 \cancel{\text{ L}}} \cdot 500 \cancel{\text{ mL}} \amp = 5.2 \text{ g}</mrow>
+			</md>
+		Note we use two significant digits because the 2.5 and 240 both have two significant digits and 500 is not a measurement.</p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-ratio-conversion">
+	<title>Conversion of Units</title>
+
+	<p>One common type of ratio is a rate. These typically have units. Examples you probably know are miles per hour, kilometers per hour, and gallons per minute. When we know a rate we can calculate amounts (e.g., number of miles, number of kilometers, or number of gallons). Sometimes we convert one unit to another. This is another use of ratios.</p>
+
+	<example xml:id="example-unit-conversion1">
+		<statement><p>We will convert 2.1 hours to a number of minutes. Note we know there are 60 minutes per hour. Notice that the conversion is like a rate. Specifically it is a fraction. If we multiply minutes/hour by hours we will end up with just minutes.</p></statement>
+		<solution><p>
+			<md>
+				<mrow>2.1 \text{ hours} \cdot \frac{60 \text{ minutes}}{\text{hour}} \amp =</mrow>
+				<mrow>2.1 \cdot 60 \cdot \frac{\bcancel{\text{ hours}}}{\bcancel{\text{hour}}} \text{ minutes} \amp =</mrow>
+				<mrow>126 \text{ minutes}. \amp</mrow>
+			</md>
+			</p>
+		</solution>
+	</example>
+
+	<example xml:id="example-unit-conversion2">
+		<statement><p>We will convert 450 feet per minute to units of inches per second.</p></statement>
+		<video youtube="rl1VIEVsJR4" xml:id="example-video-unit-conversion" />
+		<solution><p>
+			<md>
+				<mrow>\frac{450 \text{ feet}}{1 \text{ minute}} \cdot \frac{12 \text{ inches}}{1 \text{ foot}} \cdot \frac{1 \text{ minute}}{60 \text{ seconds}} \amp = </mrow>
+				<mrow>\frac{450 \cdot 12}{60} \frac{\cancel{\text{feet}}}{\cancel{\text{foot}}} \cdot \frac{\bcancel{\text{ minute}}}{\bcancel{\text{ minute}}} \cdot \frac{\text{ inches}}{\text{ second}} \amp = </mrow>
+				<mrow>\frac{90 \text{ inches}}{1 \text{ second}}.</mrow>
+			</md>
+			</p>
+		</solution>
+	</example>
+
+	<example xml:id="example-unit-conversion-metric">
+		<statement><p>We will convert 450 feet per minute to units of meters per minute. Note when converting between dissimilar units the conversions are approximations: select a sufficiently precise approximation for your application. For this problem we will use the ratio of one foot per 0.3048 meters. We will need to divide by feet and multiply by meters so we need to reciprocate this ratio.</p></statement>
+		<solution><p>
+			<md>
+				<mrow>\frac{450 \text{ feet}}{\text{ minute}} \cdot \frac{0.3048 \text{ meters}}{\text{ foot}} \amp = </mrow>
+				<mrow>450 \cdot 0.3048 \frac{\bcancel{\text{ feet}}}{\bcancel{\text{ foot}}} \cdot \frac{\text{ meters}}{\text{ minute}} \amp \approx </mrow>
+				<mrow>\frac{140 \text{ meters}}{\text{ minute}}.</mrow>
+			</md>
+			</p>
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-convert-units">
+		<webwork>
+			<statement>
+				<p>Look up the conversion from kilometers to miles. How many miles per hour is 12 kilometers per hour? <var name="'7.5'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>	<md>
+					<mrow>\frac{12 \text{ km}}{\text{ hour}} \amp \approx </mrow>
+					<mrow>\frac{12 \text{ km}}{\text{ hour}} \cdot \frac{0.621371 \text{ miles}}{\text{km}} \amp \approx </mrow>
+					<mrow>\frac{7.5 \text{ miles}}{\text{hour}} \cdot \frac{\bcancel{\text{km}}}{\bcancel{\text{km}}} \amp \approx </mrow>
+					<mrow>\frac{7.5 \text{ miles}}{\text{hour}}.</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<example xml:id="example-unit-conversion-square">
+		<statement><p>We will convert 153 square inches to square centimeters. Note that 1 inch is approximately 2.54 centimeters. Note first that <term>square</term> here refers to the inches not to the 153. Notice also how we adjust the conversion process for this exponent.</p></statement>
+		<solution><p>
+			<md>
+				<mrow>153 \text{ inches}^2 \amp = </mrow>
+				<mrow>153 \text{ inches}^2 \cdot \left(\frac{2.54 \text{ cm}}{\text{ inch}}\right)^2 \amp \approx </mrow>
+				<mrow>153 \text{ inches}^2 \cdot \frac{6.45 \text{ cm}^2}{\text{ inch}^2} \amp \approx </mrow>
+				<mrow>987 \text{ cm}^2 \cdot \frac{ \bcancel{\text{inches}^2}}{ \bcancel{\text{inch}}^2}. \amp \approx</mrow>
+				<mrow>987 \text{ cm}^2.</mrow>
+			</md>
+			</p>
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-convert-units-squared">
+		<webwork>
+			<statement>
+				<p>Note that a pound (lb) is a unit of <term>force</term>. It is approximately equal to 4.45 Newtons which is another unit of force. How many Newtons per square meter is 51.2 lbs per square inch? Look up other conversions as needed. <var name="'228'" width="5" /></p>
+			</statement>
+			<solution>
+				<p><md>
+					<mrow>\frac{51.2 \text{ lbs}}{\text{ inch}^2} \amp \approx </mrow>
+					<mrow>\frac{51.2 \text{ lbs}}{\text{ inch}^2} \cdot  \frac{1.00 \text{ N}}{4.45 \text{ lbs}} \cdot \left(\frac{1.00 \text{ inch}}{0.254 \text{ m}}\right)^2 \amp \approx </mrow>
+					<mrow>\frac{51.2}{4.45 \cdot 0.0254^2} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx </mrow>
+					<mrow>17833 \frac{ \cancel{\text{lbs}}}{\bcancel{\text{ inch}^2}} \cdot \frac{\text{N}}{\cancel{\text{lbs}}} \cdot \frac{\bcancel{\text{ inch}^2}}{\text{m}^2} \amp \approx </mrow>
+					<mrow>\frac{17800 \text{ N}}{\text{m}^2}.</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+</subsection>
+
+</section>

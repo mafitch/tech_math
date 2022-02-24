@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-units" >
+	<title>Units</title>
+
+<introduction>
+	<p>We measure many things such as distance, time, and weight. We describe these measurements in terms of units like mile, hour, and pounds. But have you ever stopped to think about how these units are defined?</p>
+	<p>The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.</p>
+	<p>Other units, such as the metric (or SI) are much more modern. Initially many units were based on something physical. For example one calorie is the amount of heat it takes to raise the temperature of one gram of water <m>1^\circ</m> C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.</p>
+	<p>Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was change yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.</p>
+</introduction>
+
+<subsection xml:id="subsection-measurement-types">
+	<title>Types of Measurement</title>
+
+	<p>First we will look at the units (names of units) for different types of measurement. Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types. For the metric (formally known as SI or international system). <xref ref="table-units-of-measure" /> lists names of units.</p>
+
+	<table xml:id="table-units-of-measure">
+		<title>Units of Measure</title>
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">US Customary</cell><cell right="medium">Metric</cell></row>
+			<row left="medium"><cell right="medium">Length</cell><cell right="medium">inch (in)</cell><cell right="medium">meter</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">foot (ft)</cell><cell right="medium"></cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">yard (yd)</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">mile (mi)</cell><cell right="medium"></cell></row>
+			<row left="medium"><cell right="medium">Volume</cell><cell right="medium">fluid ounce (oz)</cell><cell right="medium">liter</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">cup (c)</cell><cell right="medium"></cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">pint (pt)</cell><cell right="medium"></cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">quart (qt)</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">gallon (g)</cell><cell right="medium"></cell></row>
+			<row left="medium"><cell right="medium">Weight</cell><cell right="medium">ounce (oz)</cell><cell right="medium">gram (g)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">pound (lb)</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">Temperature</cell><cell right="medium">degrees Fahrenheit (F)</cell><cell right="medium">degrees Celsius (C)</cell></row>
+			<row left="medium"><cell right="medium">Time</cell><cell colspan="2" right="medium">second (s)</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell colspan="2" right="medium">minute (min)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell colspan="2" right="medium">hour (hr)</cell></row>
+		</tabular>
+	</table>
+
+	<p>Note that fluid ounces and weight ounces are not the same unit. 10 fluid ounces of milk does not weight 10 ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes which is a good reason to us SI units.</p>
+
+	<p>Note a gram is a unit of mass rather than weight. Mass times the acceleration due to gravity is weight. However, pound and ounce are units of weight. The mass can be obtained by dividing by the acceleration due to gravity. However gram is often used to describe weight because it is easy to switch between it and weight. The unit official unit for weight (a force) is a Newton.</p>
+
+</subsection>
+
+<subsection xml:id="subsection-customary">
+	<title>U.S. Customary</title>
+
+	<p>Because the British Imperial system from which the U.S. Customary system was developed was based on disparate measurements from many years ago. As a result there are different units for different scales (e.g., inches for small lengths and miles for long distances). Converting between units therefor requires remembering special numbers for conversion. Most of these you likely know.</p>
+
+	<table xml:id="table-customary-convert">
+		<title>Converting within U.S. Customary</title>
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">Unit 1</cell><cell right="medium">Unit 2</cell></row>
+			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 mi</cell><cell right="medium">5280 ft</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 yd</cell><cell right="medium">3 ft</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 ft</cell><cell right="medium">12 in</cell></row>
+			<row left="medium"><cell right="medium">Volume</cell><cell right="medium">1 g</cell><cell right="medium">4 qts</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">1 qt</cell><cell right="medium">2 pts</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">1 pt</cell><cell right="medium">2 c</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 c</cell><cell right="medium">8 oz</cell></row>
+			<row left="medium"><cell right="medium">Weight</cell><cell right="medium">1 ton</cell><cell right="medium">2000 lbs</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 lb</cell><cell right="medium">16 oz</cell></row>
+			<row left="medium"><cell right="medium">Time</cell><cell right="medium">1 year</cell><cell right="medium">365 days</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">1 day</cell><cell right="medium">24 hrs</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">1 hr</cell><cell right="medium">60 mins</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 min</cell><cell right="medium">60 secs</cell></row>
+		</tabular>
+	</table>
+
+	<p>All of these numbers are defined this way. They are not measurments. Of course a year is not always the same number of days, but for planning purposes we can typically use the common 365 days without causing errors.</p>
+
+	<example xml:id="example-customary-convert-down1">
+		<statement><p>How many quarts is 2.3 gallons?</p></statement>
+		<solution><p>We know each gallon is 4 quarts, so we multiply by 4
+			<me>2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} = 9.2 \text{ quarts}</me></p></solution>
+	</example>
+
+	<example xml:id="example-customary-convert-down2">
+		<statement><p>How many cups is 1.7 gallons?</p></statement>
+		<solution><p>Because we don't have a number of cups per gallon we will do this in steps.
+			<me>1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ quarts}</me></p></solution>
+	</example>
+
+	<example xml:id="example-customary-convert-up1">
+		<statement><p>How many days is 17 hours?</p></statement>
+		<solution><p>We know each day is 24 hours. Because this is going to a bigger unit, we divide by 24
+			<me>17 \text{ hours} \cdot \frac{1 \text{ day}}{24 \text{ hours}} = 0.708 \text{ days}</me></p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-metric">
+	<title>Metric (SI)</title>
+
+	<p>Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each one is a power of ten (uniform).</p>
+
+	<table xml:id="table-metric-sizes">
+		<title>Metric Prefixes</title>
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium">Multiple</cell><cell right="medium">Prefix</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^{12}</m></cell><cell right="medium">tera (T)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^9</m></cell><cell right="medium">giga (G)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^6</m></cell><cell right="medium">mega (M)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^3</m></cell><cell right="medium">kilo (k)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^2</m></cell><cell right="medium">hecto (h)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10</m></cell><cell right="medium">deka (da)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^{-1}</m></cell><cell right="medium">deci (d)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^{-2}</m></cell><cell right="medium">centi (c)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^{-3}</m></cell><cell right="medium">milli (m)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^{-6}</m></cell><cell right="medium">micro (<m>\mu</m>)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^{-9}</m></cell><cell right="medium">nano (n)</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"><m>10^{-12}</m></cell><cell right="medium">pico (p)</cell></row>
+		</tabular>
+	</table>
+
+	<example xml:id="example-si-down1">
+		<statement><p>How many centimeters is 3.8 meters?</p></statement>
+		<solution><p>We know one centimeter is <m>10^{-2}</m> meters which means the decimal shifts two positions. 3.8 meters is 380 centimeters.</p></solution>
+	</example>
+
+	<example xml:id="example-si-down2">
+		<statement><p>How many kilotons is 2.3 megatons?</p></statement>
+		<solution><p>We know one kiloton is <m>10^2</m> tons and one megaton is <m>10^3</m> tons. This means we shift the decimal <m>3-2=1</m> position. 2.3 megaton is 23 kilotons.</p></solution>
+	</example>
+
+	<example xml:id="example-si-up">
+		<statement><p>How many centiliters is 13.6 milliliters?</p></statement>
+		<solution><p>We know one centiliter is <m>10^{-2}</m> liters and one milliliter is <m>10^{-3}</m> liters. This means we shift the decimal <m>-2-(-3)=1</m> position. 13.6 milliliters is 1.36 centiliters.</p></solution>
+	</example>
+	
+</subsection>
+
+<subsection xml:id="subsection-convert-si-standard">
+	<title>Converting between Systems</title>
+
+	<p>Commonly we end up with measurements in both U.S. Standard and SI units. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet).</p>
+
+	<table xml:id="table-customary-to-si">
+		<title>U.S. Customary to SI</title>
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">Standard</cell><cell right="medium">SI</cell></row>
+			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 mi</cell><cell right="medium">1.609344 km</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">1 ft</cell><cell right="medium">0.3048 m</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 in</cell><cell right="medium">2.54 cm</cell></row>
+			<row left="medium"><cell right="medium">Volume</cell><cell right="medium">1 gal</cell><cell right="medium">3.785412 L</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 oz</cell><cell right="medium">29.573532 mL</cell></row>
+			<row left="medium"><cell right="medium">Weight</cell><cell right="medium">1 lb</cell><cell right="medium">0.453592 kg</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 oz</cell><cell right="medium">28.349523 g</cell></row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-si-to-customary">
+		<title>SI to U.S. Customary</title>
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">SI</cell><cell right="medium">Standard</cell></row>
+			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 km</cell><cell right="medium">0.621371 mi</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">1 m</cell><cell right="medium">3.280840 ft</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 cm</cell><cell right="medium">0.393701 in</cell></row>
+			<row left="medium"><cell right="medium">Volume</cell><cell right="medium">1 L</cell><cell right="medium">0.264172 gal</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 mL</cell><cell right="medium">0.033814 oz</cell></row>
+			<row left="medium"><cell right="medium">Weight</cell><cell right="medium">1 kg</cell><cell right="medium">2.204623 lb</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 g</cell><cell right="medium">0.035274 oz</cell></row>
+		</tabular>
+	</table>
+
+	<example xml:id="example-customary-to-si">
+		<statement><p>How many kilometers is 26.2 miles?</p></statement>
+		<solution><p>From <xref ref="table-customary-to-si" /> we know each mile is 1.609344 km.
+			<me>26.2 \text{ miles} \cdot \frac{1.609344 \text{ km}}{\text{mi}} \approx 42.2 \text{ km}</me></p></solution>
+	</example>
+
+</subsection>
+
+</section>

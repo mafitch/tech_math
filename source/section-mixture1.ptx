@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-mixture-intro" >
+<title>Mixtures</title>
+
+<introduction>
+
+<p>There are many situations where we desire to mix two or more substances together in precise ratio. These include mixing medicines in diluents (like water) and mixing ingredients in a recipe. Here we will look at how to calculate some of those using percents.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-percent-mixture">
+	<title>Mixtures</title>
+
+	<p>Mixture problems involve having solutions in which typically a desired substance is mixed into another. For example an active ingredient (medicine) may be mixed into a diluent (often water).</p>
+
+	<p>We can calculate a resulting percent when we combine things with differing percents.</p>
+
+	<example xml:id="example-percent-mixture">
+		<statement><p>Suppose we have a container with a solution that is 22% sugar and the rest water and another container with a solution that is 16% sugar and the rest water. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent sugar?</p></statement>
+		<solution><p>To calculate a percent we need the total amount and amount of the part. We can calculate the total directly: <m>T=150+250=400</m>.</p>
+		<p>To calculate the part we need to know how much (rather than what percent) sugar.
+			<md>
+				<mrow>150 \cdot 0.22 &amp; = 33.</mrow>
+				<mrow>250 \cdot 0.16 &amp; = 40.</mrow>
+				<mrow>P &amp; = 33+40</mrow>
+				<mrow> &amp; = 73.</mrow>
+			</md>
+			Thus the percent of the mixture is <m>P/T = 73/400 = 18.25\%</m>.</p>
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-percent-mixture">
+		<webwork>
+			<statement>
+				<p>Suppose one container has a solution that is 11% alcohol and another container has a solution that is <m>4\bar{0}\%</m>. Both are percent by volume. If 4.0 oz of the first is mixed with 1.0 oz of the second what is the percent alcohol by volume?  <var name="'17'" width="5" /></p>
+			</statement>
+			<solution>
+				<p>We know we will end up with 5.0 oz total. We calculate the volume of alcohol in the first to be <m>0.11 \cdot 4.0 = 0.44</m> and the volume alcohol in the second to be <m>0.40 \cdot 1.0 = 0.40</m>. Thus the alcohol part is <m>0.44+0.40=0.84</m>. The percent alcohol by volume of the result is <m>P/T = 0.84/5.0 = 0.17</m> or 17%.</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<p>The next problem is producing a isopropyl alcohol with a lower concentration of alcohol than the original solution. We begin with 16.0 oz of a 91.0% isopropyl alcohol solution. The other ingredient is water.</p>
+
+	<example xml:id="example-dilute-alcohol">
+		<title>Dilute Alcohol</title>
+
+		<statement><p>Suppose we add 4.00 oz of water to this mixture. What will the percent alcohol be?</p></statement>
+		<solution><p>The percent alcohol is the amount of alcohol divided by the total volume. The volume of alchol is <m>0.910(16.0)=14.6</m>. The volume of water from the original solution is <m>0.0900(16.0)=1.44</m>. We are adding 4.00 oz, thus the total volume is <m>16.0+4.00=20.0</m> oz. The final percent alcohol is <me>\frac{14.6}{20.0}=0.730</me> or 73.0%.</p></solution>
+	</example>
+
+	<p>If we added more water would the percent alcohol be greater or less? Note that if we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.</p>
+
+	<example xml:id="example-calculate-dilute">
+		<title>Calcluate Dilution</title>
+
+		<statement>
+			<p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to get 25.0 oz of a 55.0% alcohol solution?</p>
+			<p>How much solution total does this produce? Remember it is not necessarily 25.0 oz.</p>
+		</statement>
+		<solution>
+			<p>This is a percent problem with the total alcohol unchanged (<m>(0.91)16=14.56</m>) and adding only some amount <m>w</m> of water. Thus we setup
+			<md>
+				<mrow>\frac{(0.910)16.0}{16.0+w} &amp; = 0.550</mrow>
+				<mrow>(0.910)16.0 &amp; = 0.550(16.0+w)</mrow>
+				<mrow>(0.910)16.0 &amp; = (0.550)16.0+(0.550)w</mrow>
+				<mrow>14.6 &amp; = 8.80+(0.550)w</mrow>
+				<mrow>5.8 &amp; = (0.550)w</mrow>
+				<mrow>\frac{5.8}{0.550} &amp; = w</mrow>
+				<mrow>11 &amp; \approx w</mrow>
+			</md>
+			Note this means we end up with <m>16+11=27</m> oz of new solution. Also the percent alcohol is <m>\frac{0.910(16.0)}{16.0+11}=0.54</m>  This is not exactly 55% because of the rounding in the calculations.</p>
+		</solution>
+	</example>
+
+	<video youtube="rWnr8ouDFCY" xml:id="video-example-mixture-dilute-percent" />
+
+</subsection>
+
+</section>

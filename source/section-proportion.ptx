@@ -12,6 +12,43 @@
 <subsection xml:id="subsection-proportion" >
 	<title>Proportion Examples</title>
 
+	<p>We can solve for values in ratio problems by setting up the equation (ratio equals ratio) and then multiplying and dividing as needed to solve. Often people remember this with the mnemonic device: cross multiplication which is also known as clearing the denominators.</p>
+
+	<example xml:id="example-ratio-airspeed-solve">
+		<title>Proportion: Solving</title>
+		<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
+		<p>How long will it take to travel 236 nm?</p>
+		<p>Because this is a fixed ratio we can write
+			<md>
+				<mrow>\frac{110 \text{ nm}}{\text{hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
+				<mrow>t \text{ hours} \cdot \frac{110 \text{ nm}}{\text{hour}} \amp = t \text{ hours} \cdot \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
+				<mrow>t \cdot 110 \text{ nm} \amp = 236 \text{ nm}.</mrow>
+				<mrow>t \cdot 110 \text{ nm} / 110 \text{ nm}  \amp = 236 \text{ nm}/ 110 \text{ nm}.</mrow>
+				<mrow>t \amp = \frac{236}{110}.</mrow>
+				<mrow>t \amp \approx 2.1.</mrow>
+			</md>
+			The multiplying steps are often called <term>cross multiplying</term>.
+		</p>
+	</example>
+
+	<exercise xml:id="exercise-ratio-climb">
+		<webwork>
+			<statement>
+				<p>If the Diamond DA-20 climbs at the rate of <me>\frac{450 \text{ feet}}{1.0 \text{ minute}}</me> how long will it take it to climb 2500 ft? <var name="'5.5'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>	<md>
+					<mrow>\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.</mrow>
+					<mrow>t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.</mrow>
+					<mrow>t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.</mrow>
+					<mrow>t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.</mrow>
+					<mrow>t \amp = \frac{2500}{450}</mrow>
+					<mrow>t \amp \approx 5.5.</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
 	<example xml:id="exmaple-proportion-cheesecake-double">
 		<title>Cheesecake Groceries: Double</title>
 		<statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. We will determine how many grams of eggs we need if we triple the recipe. This means everything will be in ratio of 2/1. Note the 2 and 1 have infinite significant figures (they are exact numbers rather than approximated measurements).
@@ -23,7 +60,7 @@
 		</statement>
 	</example>
 
-	<example xml:id="exmaple-proportion-cheesecake-scale">
+	<example xml:id="example-proportion-cheesecake-scale">
 		<title>Cheesecake Groceries: Unknown</title>
 		<statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. If we have <m>35\bar{0}</m> g of egg how much cream cheese do we need? We know that the egg to cream cheese ratio must be 150/1500. We also notice this is 1/10.
 		<md>
@@ -54,18 +91,6 @@
 			</solution>
 	    </webwork>
 	</exercise>
-
-	<example xml:id="example-proportion-solution">
-		<statement><p>A label reads <q>2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate.</q> How many millilitres are needed to contain 800 mg of streptomycin?</p></statement>
-		<solution><p>The label gives us a ratio of 1000 mg per 2.5 mL. We can find the desired volume by setting up the following proportion.
-			<md>
-				<mrow>\frac{1000 \text{ mg}}{2.5 \text{mL}} &amp; = \frac{800 \text{ mg}}{v \text{ mL}}.</mrow>
-				<mrow>1000 \text{ mg} \cdot v \text{ mL} &amp; = 800 \text{ mg} \cdot 2.5 \text{mL}.</mrow>
-				<mrow>v \text{ mL} &amp; = \frac{800 \text{ mg} \cdot 2.5 \text{mL}}{1000 \text{ mg}}.</mrow>
-				<mrow>v &amp; = 2 \text{ mL}.</mrow>
-			</md></p>
-		</solution>
-	</example>
 
 </subsection>
 

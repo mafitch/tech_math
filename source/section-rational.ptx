@@ -27,11 +27,17 @@
 
 	<p>We worked with Ohm's Law relating voltage, current, and resistance. That applies to electricity flowing along one path (e.g., wire). In the next example we look at what effect connecting multiple paths has on resistance.</p>
 
+	<p>When two resistors are in parallel as shown in <xref ref="figure-parallel-resistance" /> then the resulting resistance is given by <me>\frac{1}{R} = \frac{1}{R_1}+\frac{1}{R_2}</me>. </p>
+
+	<figure xml:id="figure-parallel-resistance">
+		<caption>Resistors in Parallel</caption>
+		<image source="images/resistors-parallel" width="60%" />
+	</figure>
+
 	<example xml:id="example-resistance-dual">
 		<title>Parallel Resistance</title>
 
-		<statement><p>When two resistors are in parallel as shown in <xref ref="figure-parallel-resistance" /> then the resulting resistance is given by <me>\frac{1}{R} = \frac{1}{R_1}+\frac{1}{R_2}</me>. </p>
-		<p>Calculate the resulting resistance when one resistor is 4 Ohms (<m>R_1=4</m>) and the other is 12 Ohms (<m>R_2=12</m>).</p></statement>
+		<statement><p>Calculate the resulting resistance when one resistor is 4 Ohms (<m>R_1=4</m>) and the other is 12 Ohms (<m>R_2=12</m>).</p></statement>
 		<solution><p><md>
 			<mrow>\frac{1}{R} &amp; = \frac{1}{R_1} + \frac{1}{R_2}. </mrow>
 			<mrow>\frac{1}{R} &amp; = \frac{1}{4} + \frac{1}{12}. </mrow>
@@ -44,28 +50,28 @@
 		</md> Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., <sq>cross multiplication</sq>).</p></solution>
 	</example>
 
-	<figure xml:id="figure-parallel-resistance">
-		<caption>Resistors in Parallel</caption>
-		<image source="images/resistors-parallel" />
-	</figure>
-
 	<example xml:id="example-resistance-dual2">
 		<title>Parallel Resistance Solving</title>
 
 		<statement><p>In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.</p>
-		<p>If we need a five Ohm resistance and have an eight Ohm resistor already, what do we add as the second resistor?</p></statement>
+		<p>If we need a five Ohm resistance and have an eight Ohm resistor already, what do we add as the second resistor? Due to common accuracy of resistor measurement we can use two significant digits.</p></statement>
 		<solution><p><md>
 			<mrow>\frac{1}{R} &amp; = \frac{1}{R_1} + \frac{1}{R_2}. </mrow>
-			<mrow>\frac{1}{5} &amp; = \frac{1}{8} + \frac{1}{R_2}. </mrow>
-			<mrow>\frac{1}{5} - \frac{1}{8} &amp; = \frac{1}{R_2}. </mrow>
-			<mrow>\frac{8}{8} \cdot \frac{1}{5} - \frac{5}{5} \cdot \frac{1}{8} &amp; = \frac{1}{R_2}. </mrow>
-			<mrow>\frac{8}{40} - \frac{5}{40} &amp; = \frac{1}{R_2}. </mrow>
-			<mrow>\frac{3}{40} &amp; = \frac{1}{R_2}. </mrow>
-			<mrow>R_2 \cdot \frac{40}{3} \cdot \frac{3}{40} &amp; = R_2 \cdot \frac{40}{3} \cdot \frac{1}{R_2}. </mrow>
-			<mrow>R_2 &amp; = \frac{40}{3} </mrow>
-			<mrow> &amp; \approx 13.\bar{3}.</mrow>
+			<mrow>\frac{1}{5.0} &amp; = \frac{1}{8.0} + \frac{1}{R_2}. </mrow>
+			<mrow>\frac{1}{5.0} - \frac{1}{8.0} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>\frac{8.0}{8.0} \cdot \frac{1}{5.0} - \frac{5.0}{5.0} \cdot \frac{1}{8.0} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>\frac{8.0}{4\bar{0}} - \frac{5}{4\bar{0}} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>\frac{3.0}{4\bar{0}} &amp; = \frac{1}{R_2}. </mrow>
+			<mrow>R_2 \cdot \frac{4\bar{0}}{3.0} \cdot \frac{3.0}{4\bar{0}} &amp; = R_2 \cdot \frac{4\bar{0}}{3.0} \cdot \frac{1}{R_2}. </mrow>
+			<mrow>R_2 &amp; = \frac{4\bar{0}}{3.0} </mrow>
+			<mrow> &amp; \approx 13.</mrow>
 		</md> Note the need for a common denominator in the fourth line. The final step is once again clearing of denominators (i.e., <sq>cross multiplication</sq>).</p></solution>
 	</example>
+
+	<figure xml:id="figure-video-parallel-resistance">
+		<caption>Parallel Resistance Solving</caption>
+		<video youtube="75S0Qbvp_W0" xml:id="video-parallel-resistance" />
+	</figure>
 
 	<exercise xml:id="exercise-rational-parallel-resistors1">
 		<webwork>
@@ -102,6 +108,11 @@
 		</md></p>
 		<p>Notice we needed to collect the terms with <m>N</m>. This required distributing (third line), collecting on one side, then factoring.</p></solution>
 	</example>
+
+	<figure xml:id="figure-video-pitch-diameter">
+		<caption>Pitch Diamter</caption>
+		<video youtube="o1v5CUSzTak" xml:id="video-pitch-diameter" />
+	</figure>
 
 	<p>There is a relationship between volume, pressure, and temperature. <me>\frac{P_1 V_1}{T_1+460} = \frac{P_2 V_2}{T_2+460}.</me> <m>P_1</m>, <m>V_1</m>, and <m>T_1</m> are the initial pressure, volume, and temperature. <m>P_2</m>, <m>V_2</m>, and <m>T_2</m> are pressure, volume, and temperature at another time. One or more might change.</p>
 
