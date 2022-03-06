@@ -5,16 +5,14 @@
 
 <introduction>
 
-<p>Here we will use a variety of formulas for geometric properties on basic shapes to analyze objects in context and more complicated shapes. These formulas are provided (largely) without explanation. Rather the explaining the formulas our goal is to break complex problems down into simpler problems we can calculate using these formulas.</p>
+<p>Here we will use a variety of formulas for geometric properties on basic shapes to analyze objects in context and more complicated shapes. These formulas are provided (largely) without explanation. Our goal is to break down complex problems into simpler problems we can solve using these formulas on basic shapes.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-geometric-properties-2d">
 	<title>Properties</title>
 
-	<p>The <term>perimeter</term> of a shape is the sum of the lengths of the edges of the shape.</p>
-
-	<p>The <term>area</term> of a shape is a measure of what it takes to fill the shape.</p>
+	<p>Two of the properties of shapes we will consider are <term>perimeter</term> and <term>area</term>. The <term>perimeter</term> of a shape is a measure of the size of its border (edges).  The <term>area</term> of a shape is a measure of what it takes to fill the shape.</p>
 
 </subsection>
 
@@ -24,10 +22,10 @@
 	<definition xml:id="definition-parallelogram">
 		<title>Parallelogram</title>
 
-		<statement><p>A <term>parallelogram</term> is a four sided shape with opposing pairs of sides parallel.</p></statement>
+		<statement><p>A <term>parallelogram</term> is a four sided shape for which  opposing pairs of sides are parallel.</p></statement>
 	</definition>
 
-	<p>Note this includes <term>rectangles</term>, which are parallelograms with four right angles (includes squares), and <term>rhombi</term> which are parallelograms with four equal length sides.</p>
+	<p>Note this includes <term>rectangles</term>, which are parallelograms with four right angles, and <term>rhombi</term> which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.</p>
 
 	<figure xml:id="figure-parallelogram-properties">
 		<caption>Parallelograms</caption>
@@ -42,8 +40,11 @@
 	</figure>
 
 	<example xml:id="example-parallelogram-area">
-		<statement><p>What is the area of the parallelogram in <xref ref="figure-exercise-parallelogram-area" />?</p></statement>
-		<solution><p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3 \cdot 5 = 15.</me></p></solution>
+		<statement><p>What are the perimeter and area of the parallelogram in <xref ref="figure-exercise-parallelogram-area" />?</p></statement>
+		<solution>
+			<p>The perimeter is the sum of the sides which in this case is <me>2(4.05+5.00) = 18.1.</me></p>
+			<p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3.00 \cdot 5.00 = 15.0.</me></p>
+		</solution>
 	</example>
 
 	<figure xml:id="figure-exercise-parallelogram-area">
@@ -59,6 +60,12 @@
 		<statement><p>What does <m>h_1</m> equal in a rectangle?</p></statement>
 	</exercise>
 
+	<definition xml:id="definition-trapezoid">
+		<title>Trapezoid</title>
+
+		<statement><p>A <term>trapezoid</term> is a four sided shape for which  one pair of opposing sides are parallel.</p></statement>
+	</definition>
+
 	<figure xml:id="figure-trapezoid-properties">
 		<caption>Trapezoid</caption>
 
@@ -72,14 +79,23 @@
 	</figure>
 
 	<example xml:id="example-trapezoid-area">
-		<statement><p>What is the area of the trapezoid in <xref ref="figure-exercise-trapezoid-area" />?</p></statement>
-		<solution><p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3}{2}(1.76+5) = 10.14.</me></p></solution>
+		<statement><p>What are the perimeter and area of the trapezoid in <xref ref="figure-exercise-trapezoid-area" />?</p></statement>
+		<solution>
+			<p>The perimeter of this trapezoid is the sum of the four side lengths <me>4.05+1.76+3.04+5.00 = 13.85</me>.</p>
+			<p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3.00}{2}(1.76+5.00) \approx 10.1.</me></p>
+		</solution>
 	</example>
 
 	<figure xml:id="figure-exercise-trapezoid-area">
 		<caption>Calculate the area</caption>
 		<image source="images/trapezoid_area" width="50%" />
 	</figure>
+
+	<definition xml:id="definition-triangle">
+		<title>Triangle</title>
+
+		<statement><p>A <term>triangle</term> is a three sided shape.</p></statement>
+	</definition>
 
 	<figure xml:id="figure-triangle-properties">
 		<caption>Triangle</caption>
@@ -93,17 +109,22 @@
 		</tabular>
 	</figure>
 
+	<p>Note that the value <m>h</m> in the area formula is called the <term>height</term> of the triangle. It is the length of a line segment perpendicularly down from a vertex to the opposing side (or extension of it). The vertical, dashed line segments in <xref ref="figure-exercise-triangle-area" /> are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side. </p>
+
 	<example xml:id="example-triangle-area1">
-		<statement><p>What is the area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p></statement>
-		<solution><p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.9 \cdot 4.43 = 24.1.</me></p>
-		<p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.3</me></p></solution>
+		<statement><p>What are the perimeter and area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p></statement>
+		<solution>
+			<p>The perimeter of the triangle on the left is <me>5.98+10.9+8.19 \approx 25.1.</me> The perimeter of the triangle on the right is <me>5.98+2.87+8.19 \approx 17.0.</me></p>
+			<p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.90 \cdot 4.43 \approx 24.1.</me></p>
+			<p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 \approx 6.36</me></p>
+		</solution>
 	</example>
 
 	<figure xml:id="figure-exercise-triangle-area">
 		<caption>Calculate the area</caption>
-		<sidebyside>
-			<image source="images/triangle_area" width="50%" />
-			<image source="images/triangle_area2" width="50%" />
+		<sidebyside valign="bottom">
+			<image source="images/triangle_area" />
+			<image source="images/triangle_area2"  />
 		</sidebyside>
 	</figure>
 
@@ -113,10 +134,21 @@
 
 	<theorem xml:id="theorem-pythagorean">
 		<title>Pythagorean Theorem</title>
-		<statement><p>For a triangle containing a right angle <me>a^2+b^2=c^2</me> where <m>a</m> and <m>b</m> are the lengths of the sides adjacent to the right angle.</p></statement>
+		<statement><p>For a triangle containing a right angle <me>a^2+b^2=c^2</me> where <m>a</m> and <m>b</m> are the lengths of the sides adjacent to the right angle and <m>c</m> is the third side.</p></statement>
 	</theorem>
 
-	<p>In a later section we will develop a version of this statement for triangles without a right angle.</p>
+	<example xml:id="example-pythagorean-use1">
+		<p>Consider the triangle on the right in <xref ref="figure-exercise-triangle-area" />. Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. 5.98 is the length of the side not adjacent to the right angle (<m>c</m> in the formula). We can calculate the length of the horizontal, dashed segment using the formula.
+		<md>
+			<mrow>4.43^2+b^2 \amp = 5.98^2.</mrow>
+			<mrow>19.6+b^2 \amp = 35.8.</mrow>
+			<mrow>b^2 \amp = 16.2.</mrow>
+			<mrow>\sqrt{b^2} \amp = \sqrt{16.2}.</mrow>
+			<mrow>b \amp \approx 4.06.</mrow>
+		</md></p>
+	</example>
+
+	<p>In <xref ref="section-trig-laws" /> we will develop a version of this statement for triangles without a right angle.</p>
 
 	<theorem xml:id="theorem-herons-formula">
 		<title>Heron's Formula</title>
@@ -127,17 +159,17 @@
 		<statement><p>Calculate the area of the triangles in <xref ref="figure-exercise-triangle-area" />.</p></statement>
 		<solution><p>According to Heron's formula for the triangle on the left
 			<md>
-				<mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.9)</mrow>
-				<mrow> &amp; = 12.535.</mrow>
-				<mrow>\text{Area} &amp; = \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.9)}</mrow>
-				<mrow> &amp; = 24.16.</mrow>
+				<mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90)</mrow>
+				<mrow> &amp; \approx 12.54.</mrow>
+				<mrow>\text{Area} &amp; = \sqrt{12.54(12.54-5.98)(12.54-8.19)(12.54-10.90)}</mrow>
+				<mrow> &amp; = 24.2.</mrow>
 			</md>
 			For the triangle on the right
 			<md>
 				<mrow>s &amp; = \frac{1}{2}(5.98+8.19+2.87)</mrow>
-				<mrow> &amp; = 8.515.</mrow>
-				<mrow>\text{Area} &amp; = \sqrt{8.515(8.515-5.98)(8.515-8.19)(8.515-2.87)}</mrow>
-				<mrow> &amp; = 6.3.</mrow>
+				<mrow> &amp; \approx 8.52.</mrow>
+				<mrow>\text{Area} &amp; = \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)}</mrow>
+				<mrow> &amp; \approx 6.35.</mrow>
 			</md>
 		</p></solution>
 	</example>
@@ -155,22 +187,39 @@
 		</tabular>
 	</figure>
 
+	<example xml:id="example-circle-properties">
+		<p>For a circle with radius 7.31 what are the perimeter and area?</p>
+		<p>The perimeter, given in <xref ref="figure-circle-properties" />, is <m>2\pi r</m>. For radius 7.31 the perimeter is <me>2\pi (7.31) \approx 45.9.</me></p>
+		<p>The area, given in <xref ref="figure-circle-properties" />, is <m>\pi r^2</m>. For radius 7.31 the area is <me>\pi (7.31)^2 \approx 168.</me></p>
+	</example>
+
+	<example xml:id="example-half-circle">
+		<p>What are the perimeter and area of a semi-circle with diameter 11.7?</p>
+		<p>The perimeter includes half the usual perimeter plus the length of the diameter. <me>\frac{1}{2}\pi (11.7)+11.7 \approx 30.1.</me></p>
+		<p>The area is simply half of the usual area. <me>\frac{1}{2}\pi (11.7)^2 \approx 215.</me></p>
+	</example>
+
 </subsection>
 
 <subsection xml:id="subsection-geometry-applied">
 	<title>Applying Geometry</title>
 
+	<p>Our first task in using geometry properties is to break down a problem into the kinds of shapes we already know. Then we can use the properties to calculate results.</p>
+
 	<example xml:id="example-apply-geometry-house-wall">
 		<task>
 			<statement><p>Find the area of this wall given the dimensions given in feet.</p></statement>
-			<solution><p>First we note that we can describe the wall as a rectangle with a triangle on top of it. The sides of the rectangle area 7 and 24 feet. This means that area is <m>7 \cdot 24 = 168</m>. The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
-			<md>
-				<mrow>s &amp; = \frac{1}{2}(13+13+24)</mrow>
-				<mrow> &amp; = 25.</mrow>
-				<mrow>\text{area} &amp; = \sqrt{25(25-13)(25-13)(25-24)}</mrow>
-				<mrow> &amp; = 60.</mrow>
-			</md>
-			The total area then is <m>168+60=248</m> square feet.</p></solution>
+			<solution>
+				<p>First we note that we can describe the wall as a rectangle with a triangle on top of it.</p>
+				<p>The sides of the rectangle area are 7 ft (height) and 24 ft (width). This means that area is <m>7 \text{ ft} \cdot 24 \text{ ft} = 168 \text{ ft}^2</m>.</p>
+				<p>The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
+				<md>
+					<mrow>s &amp; = \frac{1}{2}(13+13+24)</mrow>
+					<mrow> &amp; = 25.</mrow>
+					<mrow>\text{area} &amp; = \sqrt{25(25-13)(25-13)(25-24)}</mrow>
+					<mrow> &amp; = 60.</mrow>
+				</md>
+				The total area then is <m>168+60=248</m> square feet.</p></solution>
 		</task>
 		<task>
 			<statement><p>Find the perimeter of this wall given the dimensions given in feet.</p></statement>
@@ -178,7 +227,7 @@
 		</task>
 		<task>
 			<statement><p>What is the (tallest) height of the wall?</p></statement>
-			<solution><p>We need the height of the triangular portion of the wall to find the height at the peak.
+			<solution><p>We need the height of the triangular portion of the wall to find the height at the peak. Height is part of the area formula, and from Heron's formula we already know the height.
 				<md>
 					<mrow>60 &amp; = \frac{1}{2}24 h.</mrow>
 					<mrow>5 &amp; = h.</mrow>
@@ -190,6 +239,67 @@
 	<figure xml:id="figure-apply-geometry-house-wall">
 		<caption>Wall</caption>
 		<image source="images/HouseWall" width="50%" />
+	</figure>
+
+	<example xml:id="example-geometry-abacus">
+		<introduction>
+			<p>Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <xref ref="figure-apply-geometry-abacus" /> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5" x 3.5", just know that the actual size shrunk over time but the name did not change.</p>
+			<p>Because we must have enough wood, we will round up all approximations.</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>What is the total number of feet of lumber (2x4) needed?</p>
+			</statement>
+			<solution>
+				<p>There are two boards of length 60.0" and three boards of length 27.0". The total length is <me>2 \cdot 60.0 + 3 \cdot 27.0 = 12\bar{0}</me> We convert this to feet using a ratio. <me>120. \; \text{in} \cdot \frac{1 \; \text{ft}}{12 \; \text{in}} = 10.0 \; \text{ft}</me></p>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p>If a standard 2x4 is 96.0" long, what is the smallest number of boards Katie can purchase to have enough lumber?</p>
+			</statement>
+			<solution>
+				<p>If a 60.0" section is cut from a 96.0" board, we have <m>96.0\"-60.0\"=36.0\"</m> left. This is long enough for one of the 27.0" segments but not more. Thus two board will cover all but the last 27.0" segment. We need 3, 96.0" boards.</p>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p>If the boards are painted before they are assembled, what is the total surface area of the boards to be painted?</p>
+			</statement>
+			<solution>
+				<p>Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are
+					<md>
+						<mrow>60.0 \cdot 3.5 \amp = 210,</mrow>
+						<mrow>60.0 \cdot 1.5 \amp = 9\bar{0},</mrow>
+						<mrow>1.5 \cdot 3.5 \amp \approx 5.3.</mrow>
+					</md>
+				For the short segments these are
+					<md>
+						<mrow>27.0 \cdot 3.5 \amp \approx 95,</mrow>
+						<mrow>27.0 \cdot 1.5 \amp \approx 41,</mrow>
+						<mrow>1.5 \cdot 3.5 \amp = 5.3.</mrow>
+					</md>
+				Thus the total area is
+					<md>
+						<mrow>2(2)(210)+2(2)(9\bar{0})+2(2)(5.3)+3(2)(95)+3(2)(41)+3(2)(5.3) \amp = </mrow>
+						<mrow>810+360+21.2+570+246+31.8 \amp = 2069</mrow>
+					</md>
+				This is <m>2069 \; \text{in}^2</m>.</p>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p>What is the area that is hidden, that is, cannot be seen after assembling?</p>
+			</statement>
+			<solution>
+				<p>This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <m>3.5 \times 1.5 \approx 5.3</m>. The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <m>12 \cdot 5.3 \approx 64</m>.</p>
+			</solution>
+		</task>
+	</example>
+
+	<figure xml:id="figure-apply-geometry-abacus">
+		<caption>Birdhouse</caption>
+		<image source="images/abacus" width="50%" />
 	</figure>
 
 	<exercise xml:id="exercise-apply-geometry-birdhouse">

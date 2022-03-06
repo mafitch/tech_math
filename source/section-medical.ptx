@@ -55,11 +55,18 @@
 
 	<example xml:id="example-hcl-concentration">
 		<statement>
-			<p>A standard concentration of HCl (hydrochloric acid) is 37% by weight. This means that there are 37 g of HCl (in gas form) per every 100 g of solution. The solvent is water. A 37% solution of HCl is known to have 1190 grams per liter. How much water in volume do we need to add to the 37 g of HCl to make this solution?</p>
+			<p>A standard concentration of HCl (hydrochloric acid) is 37% by weight. The solvent is water. How much water in volume do we need to add to 37 g of HCl to make this solution?</p>
 		</statement>
 		<solution>
-			<p>Because the concentration is 37 g of HCl per 100 g of solution we need 100g - 37g = 63 g of water. 1 g of water at standard conditions fills 1 mL. This is now a unit conversion problem.
-				<me>63 g \cdot \frac{1 \text{ mL}}{1 \text{ g}} = 63 \text{ mL}</me>.</p>
+			<p>Because the concentration is given as a percent we can calculate this like <xref ref="example-percent-calculate-part" />.
+			<md>
+				<mrow>37 \; \text{g} \amp = 0.37 S \; \text{g}.</mrow>
+				<mrow>\frac{37 \; \text{g}}{0.37} \amp = \frac{0.37 S \; \text{g}}{0.37}.</mrow>
+				<mrow>100 \; \text{g} \amp = S.</mrow>
+			</md></p>
+			<p>We have a total of 100 g and 37 g is HCl, thus the water is 
+				<me>100 \; \text{g} - 37 \; \text{g} = 63 \; \text{g}</me> of water. 1 g of water at standard conditions has a volume of 1 mL. This is now a unit conversion problem.
+				<me>63 g \cdot \frac{1 \; \text{mL}}{1 \; \text{g}} = 63 \; \text{mL}</me>.</p>
 		</solution>
 	</example>
 
@@ -67,14 +74,14 @@
 
 	<example xml:id="example-calculate-dilution-factor">
 		<statement><p>A solution is produced from 3 mL of concentrated chloroform and 37 mL of water. What is the dilution factor?</p></statement>
-		<solution><p>The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is <m>3+37=40</m>. The ratio then is <m>\frac{40}{3} \approx 13</m>.</p></solution>
+		<solution><p>The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is <m>3+37=4\bar{0}</m>. The ratio then is <m>\frac{4\bar{0}}{3} \approx 13</m>.</p></solution>
 	</example>
 
 	<example xml:id="example-make-dilution-factor">
-		<statement><p>To produce a solution 3 mL of concentrated chloroform that will have a dilution factor of 50, how much diluent do we add?</p></statement>
+		<statement><p>To produce a solution 3 mL of concentrated chloroform that will have a dilution factor of <m>5\bar{0}</m>, how much diluent do we add?</p></statement>
 		<solution><p>The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. In this case we have
 		<md>
-			<mrow>3+D \amp = 50.</mrow>
+			<mrow>3+D \amp = 5\bar{0}.</mrow>
 			<mrow>D \amp =47.</mrow>
 		</md>
 		So we need 47 mL of diluent.</p></solution>
@@ -85,6 +92,23 @@
 <subsection xml:id="subsection-dilution" >
 	<title>Dilution</title>
 
+	<p>A dilution ratio tells us how much an existing solution has been diluted. Dilution ratios are used like percents or applying ratios.</p>
+
+	<example xml:id="example-dilution-ratio-apply">
+		<p>If we have a solution of HCl and water that has a ratio of solution to total of 37/100, and we apply a dilution ratio of 1/2, what is the new ratio of solution to total?</p>
+		<p><me>\frac{37}{100} \cdot \frac{1}{2} = \frac{37}{200}</me> Note this means there are 37 g of HCl and <m>200-37=163</m> grams of water.</p>
+	</example>
+
+	<example xml:id="example-diluation-ratio-calculate">
+		<p>If we know the original ratio of solution to diluent and the resulting ratio of solution to diluent, then we can calculate the dilution ratio.</p>
+		<p>Suppose the original solution of HCl and water had a ratio of solution to total of 37/100 and the resulting solution had a ratio of 74/300. What was the dilution ratio? We setup the same calculation as in <xref ref="example-dilution-ratio-apply" /> but instead of 1/2 we have the unknown ratio.
+		<md>
+			<mrow>\frac{37}{100} r \amp = \frac{74}{300}</mrow>
+			<mrow>\frac{100}{37} \cdot \frac{37}{100} r \amp = \frac{100}{37} \cdot \frac{74}{300}</mrow>
+			<mrow>r \amp = \frac{2}{3}.</mrow>
+		</md>The dilution ratio was 2/3.</p>
+	</example>
+
 	<p>One usage of dilution is to reduce the concentration so that instruments can accurately measure it. Consider trying to measure an acid without disolving the tools used to measure it.</p>
 
 	<example xml:id="example-dilute-measure">
@@ -92,53 +116,56 @@
 		<p>The serum was diluted to 1/10 and retested. The machine gave a result of 70 mg/dL. What was the initial concentration?</p></statement>
 		<solution><p>Before we jump into an equation, let's try an experiment. Suppose we take 1 dL of the original serum. To dilute to a ratio of 1/10 we need to add <m>10-1=9</m> dL of diluent. No blood glucose was added thus the concentration is changed only by the diluent. Thus the concentration of the diluted serum would be
 		<md>
-			<mrow>\frac{C+0 \text{ mg}}{1+9 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}</mrow>
-			<mrow>\frac{C \text{ mg}}{10 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}} \amp \text{ clearing the denominators}</mrow>
-			<mrow>(C \text{ mg})(\text{dL}) \amp = (70 \text{ mg})(10 \text{ dL})</mrow>
-			<mrow>\frac{(C \text{ mg})(\text{dL})}{\text{dL}} \amp = \frac{(70 \text{ mg})(10 \text{ dL})}{\text{dL}}</mrow>
-			<mrow>C \amp = \frac{700 \text{ mg}}{\text{ dL}}</mrow>
+			<mrow>\frac{C+0 \; \text{mg}}{1+9 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}}</mrow>
+			<mrow>\frac{C \; \text{mg}}{10 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}} \amp \; \text{clearing the denominators}</mrow>
+			<mrow>(C \; \text{mg})(\text{dL}) \amp = (70 \; \text{mg})(10 \; \text{dL})</mrow>
+			<mrow>\frac{(C \; \text{mg})(\text{dL})}{\text{dL}} \amp = \frac{(70 \; \text{mg})(10 \; \text{dL})}{\text{dL}}</mrow>
+			<mrow>C \amp = 700 \; \text{mg}</mrow>
 		</md>
-		Did this result depend on our selecting 1 dL of the original serum? If we are uncertain we can try the problem again and select 2 dL of the original serum. This means we need to add enough diluent to get the 1/10 ratio.
-		<me>\frac{1}{10} = \frac{2}{20}</me>
+		Did this result depend on our selecting 1 dL of the original serum? If we are uncertain we can try the problem again and select 2 dL of the original serum. To figure out the total amount of which 2 is 1/10, we can treat this like <xref ref="example-ratio-volume" />
+		<md>
+			<mrow>\frac{1}{10} \amp = \frac{1}{10} \frac{2}{2}</mrow>
+			<mrow> \amp = \frac{2}{20}.</mrow>
+		</md>
 		This means we need <m>20-2=18</m> dL of diluent to have the desired dilution ratio. Also we will have twice as much of the blood glucose.
 		<md>
-			<mrow>\frac{2C+0 \text{ mg}}{2+18 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}</mrow>
-			<mrow>\frac{2C \text{ mg}}{20 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}} \amp \text{ clearing the denominators}</mrow>
-			<mrow>(2C \text{ mg})(\text{dL}) \amp = (70 \text{ mg})(20 \text{ dL})</mrow>
-			<mrow>\frac{(2C \text{ mg})(\text{dL})}{2 \text{dL}} \amp = \frac{(70 \text{ mg})(20 \text{ dL})}{2 \text{dL}}</mrow>
-			<mrow>C \amp = \frac{700 \text{ mg}}{\text{ dL}}</mrow>
+			<mrow>\frac{2C+0 \; \text{mg}}{2+18 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}}</mrow>
+			<mrow>\frac{2C \; \text{mg}}{20 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}} \amp \; \text{clearing the denominators}</mrow>
+			<mrow>(2C \; \text{mg})(\text{dL}) \amp = (70 \; \text{mg})(20 \; \text{dL})</mrow>
+			<mrow>\frac{(2C \; \text{mg})(\text{dL})}{2 \text{dL}} \amp = \frac{(70 \; \text{mg})(20 \; \text{dL})}{2 \text{dL}}</mrow>
+			<mrow>C \amp = 700 \; \text{mg}</mrow>
 		</md>
-		Notice the result is the same. This makes sense, because we are setting up a ratio and they don't depend on the amount.</p></solution>
+		Notice the result is the same. This makes sense, because we are setting up a proportion, and ratios do not depend on the amount.</p></solution>
 	</example>
 
 	<p>Sometimes we dilute more than one time. Here we experiment to determine what the effect of <term>serial dilution</term> is upon the dilution factor.</p>
 
 	<example xml:id="example-serial-dilution">
 		<statement><p>Suppose you have a solution consisting of 10 mL of acyl chloride and 90 mL of water. If this is diluted to a dilution ratio of 1/2 and then diluted again to a dilution ratio of 1/3, what is the final dilution ratio?</p></statement>
-		<solution><p>We can do the calculations one at a time.
+		<solution><p>We can do the calculations one at a time. First we calculate the original concentration.
 			<md>
-				<mrow>\frac{10 \text{ mL}}{10+90 \text{ mL}} \amp = \frac{10}{100}</mrow>
+				<mrow>\frac{10 \; \text{mL}}{10+90 \; \text{mL}} \amp = \frac{10}{100}</mrow>
 				<mrow> \amp = \frac{1}{10}.</mrow>
 			</md>
-			To dilute to a ratio of 1/2 we can calculate the amount of diluent to add
+			To dilute to a ratio of 1/2 we can calculate the amount of diluent to add as a proportion problem like in <xref ref="example-proportion-cheesecake-double" />.
 			<md>
-				<mrow>\frac{1}{2} \amp = \frac{100 \text{ mL}}{T \text{ mL}}</mrow>
-				<mrow>1 \cdot (T \text{ mL}) \amp = 2 \cdot (100 \text{ mL})</mrow>
-				<mrow>T \amp = 200 \text{ mL}.</mrow>
+				<mrow>\frac{1}{2} \amp = \frac{100 \; \text{mL}}{T \; \text{mL}}</mrow>
+				<mrow>1 \cdot (T \; \text{mL}) \amp = 2 \cdot (100 \; \text{mL})</mrow>
+				<mrow>T \amp = 200 \; \text{mL}.</mrow>
 			</md>
-			The total will be 200 mL so we need to add 100 mL of additional diluent. Note at this point the concentration is
-			<me>\frac{10}{200} = \frac{1}{20}.</me>
+			The total will be 200 mL so we need to add <m>200 \; \text{mL}- 100 \; \text{mL} = 100 \; \text{mL}</m> of additional diluent. Note at this point the concentration is
+			<me>\frac{10 \; \text{mL acyl chloride}}{200 \; \text{mL diluent}} = \frac{1}{20}.</me>
 			To dilute again to a ratio of 1/3 we can calculate the amount of diluent to add
 			<md>
-				<mrow>\frac{1}{3} \amp = \frac{200 \text{ mL}}{T \text{ mL}}</mrow>
-				<mrow>1 \cdot (T \text{ mL}) \amp = 3 \cdot (200 \text{ mL})</mrow>
-				<mrow>T \amp = 600 \text{ mL}.</mrow>
+				<mrow>\frac{1}{3} \amp = \frac{200 \; \text{mL}}{T \; \text{mL}}</mrow>
+				<mrow>1 \cdot (T \; \text{mL}) \amp = 3 \cdot (200 \; \text{mL})</mrow>
+				<mrow>T \amp = 600 \; \text{mL}.</mrow>
 			</md>
-			The total will be 600 mL so we need to add 400 mL of additional diluent. Note at this point the concentration is
-			<me>\frac{10}{600} = \frac{1}{60}.</me>
-			Now we can determine what the resulting dilution ratio after diluting twice (1/2 and then 1/3).
+			The total will be 600 mL so we need to add <m>600 \; \text{mL} - 200 \; \text{mL} = 400 \; \text{mL}</m> of additional diluent. Note at this point the concentration is
+			<me>\frac{10 \; \text{mL acyl chloride}}{600 \; \text{mL diluent}} = \frac{1}{60}.</me>
+			Now we can determine what the resulting dilution ratio after diluting twice (1/2 and then 1/3). We set this up like <xref ref="example-diluation-ratio-calculate" />
 			<md>
-				<mrow>\frac{1}{10} \cdot F \amp = \frac{1}{60} \amp \text{ clear the denominator on the left}</mrow>
+				<mrow>\frac{1}{10} \cdot F \amp = \frac{1}{60} \amp \; \text{clear the denominator on the left}</mrow>
 				<mrow>10 \cdot \frac{1}{10} \cdot F \amp = 10 \cdot \frac{1}{60}.</mrow>
 				<mrow>F \amp = \frac{1}{6}.</mrow>
 			</md>
@@ -156,18 +183,17 @@
 
 	<example xml:id="example-dosage-insulin">
 		<statement>
-			<p>One IU of insulin is 0.0347 mg. A common concentration of insuline is U-100 which is 100 IU/mL. This is produced by combining 100 units of insulin in one mL of diluent.</p>
+			<p>One IU of insulin is 0.0347 mg. A common concentration of insulin is U-100 which is 100 IU/mL. This is produced by combining 100 units of insulin in one mL of diluent.</p>
 			<p>If a person needs 2 units of insulin, how many mL of solution will that be?</p>
 		</statement>
 		<solution>
 			<p>This is a unit conversion problem. We need to convert from IU to mL. We know the ratio is 100 IU/mL. Because we want to end up with mL, we will write the ratio as
 			<md>
-				<mrow>\frac{\text{mL}}{100 \text{ IU}} \amp = \frac{v \text{ mL}}{2 \text{ IU}} \amp \text{ clear denominators}</mrow>
-				<mrow>100 \text{ IU} \cdot \frac{\text{mL}}{100 \text{ IU}} \amp = 100 \text{ IU} \cdot \frac{v \text{ mL}}{2 \text{ IU}}</mrow>
-				<mrow>1 \text{ mL} \amp = 50v \text{ mL} \amp \text{ divide to isolate the variable}</mrow>
-				<mrow>\frac{1}{50} \text{ mL} \amp = \frac{50v}{50} \text{ mL}</mrow>
-				<mrow>\frac{1}{50} \text{ mL} \amp = v.</mrow>
-				<mrow>0.02 \text{ mL} \amp = v.</mrow>
+				<mrow>\frac{\text{mL}}{100 \; \text{IU}} \amp = \frac{v \; \text{mL}}{2 \; \text{IU}}</mrow>
+				<mrow>(1 \; \text{mL})(2 \; \text{IU}) \amp = (100 \; \text{IU})(v \; \text{mL}) \amp \text{clear denominators}</mrow>
+				<mrow>\frac{(1 \; \text{mL})(2 \; \text{IU})}{(100 \; \text{IU})} \amp = \frac{(100 \; \text{IU})(v \; \text{mL})}{(100 \; \text{IU})} \amp \; \text{divide to isolate the variable} </mrow>
+				<mrow>\frac{1}{50} \; \text{mL} \amp = v.</mrow>
+				<mrow>0.02 \; \text{mL} \amp = v.</mrow>
 			</md></p>
 		</solution>
 	</example>
@@ -176,10 +202,10 @@
 		<statement><p>A label reads <q>2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate.</q> How many millilitres are needed to contain 800 mg of streptomycin?</p></statement>
 		<solution><p>The label gives us a ratio of 1000 mg per 2.5 mL. We can find the desired volume by setting up the following proportion.
 			<md>
-				<mrow>\frac{1000 \text{ mg}}{2.5 \text{ mL}} &amp; = \frac{800 \text{ mg}}{v \text{ mL}}. \amp \text{ clear the denominators}</mrow>
-				<mrow>1000 \text{ mg} \cdot v \text{ mL} &amp; = 800 \text{ mg} \cdot 2.5 \text{ mL}. \amp \text{ divide to isolate the variable}</mrow>
-				<mrow>v \text{ mL} &amp; = \frac{800 \text{ mg} \cdot 2.5 \text{ mL}}{1000 \text{ mg}}.</mrow>
-				<mrow>v &amp; = 2 \text{ mL}.</mrow>
+				<mrow>\frac{1000 \; \text{mg}}{2.5 \; \text{mL}} &amp; = \frac{800 \; \text{mg}}{v \; \text{mL}}. \amp \; \text{clear the denominators}</mrow>
+				<mrow>1000 \; \text{mg} \cdot v \; \text{mL} &amp; = 800 \; \text{mg} \cdot 2.5 \; \text{mL}. \amp \; \text{divide to isolate the variable}</mrow>
+				<mrow>v \; \text{mL} &amp; = \frac{800 \; \text{mg} \cdot 2.5 \; \text{mL}}{1000 \; \text{mg}}.</mrow>
+				<mrow>v &amp; = 2 \; \text{mL}.</mrow>
 			</md></p>
 		</solution>
 	</example>
@@ -189,12 +215,12 @@
 			<p>Give 1500 mL of saline solution IV with a drop factor of 10 drops per mL as a rate of 50 drops per minute to an adult patient. Determine how long in hours the IV should be administered.</p>
 		</statement>
 		<solution>
-			<p>This is also a unit conversion problem.  We need to convert from drops per minute to drops per mL.
-			<me>\frac{50 \text{ drops}}{\text{minute}} \cdot \frac{\text{mL}}{10 \text{ drops}} = \frac{5 \text{ mL}}{\text{minute}}</me>
+			<p>This is also a unit conversion problem like <xref ref="example-unit-conversion2" />.  We need to convert from drops per minute to drops per mL.
+			<me>\frac{50 \; \text{drops}}{\text{minute}} \cdot \frac{\text{mL}}{10 \; \text{drops}} = \frac{5 \; \text{mL}}{\text{minute}}</me>
 			Now that we know the rate, we can determine how long it will take to give the whole IV solution. Notice how we invert the rate to make the mL units match.
-			<me>1500 \text{ mL} \cdot \frac{\text{minute}}{5 \text{ mL}} = 300 \text{ minutes}</me>
+			<me>1500 \; \text{mL} \cdot \frac{\text{minute}}{5 \; \text{mL}} = 300 \; \text{minutes}</me>
 			The final step is to convert minutes to hours. This is another unit conversion problem using a conversion from <xref ref="table-customary-convert" />
-			<me>300 \text{ minutes} \cdot \frac{1 \text{ hr}}{60 \text{ min}} = 5 \text{ hours}</me></p>
+			<me>300 \; \text{minutes} \cdot \frac{1 \; \text{hr}}{60 \; \text{min}} = 5 \; \text{hours}</me></p>
 		</solution>
 	</example>
 
@@ -205,11 +231,11 @@
 		<solution>
 			<p>Here we need to scale the amount (from 125 mg to <m>15\bar{0}</m> mg). This is a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.
 			<md>
-				<mrow>\frac{125 \text{ mg}}{5 \text{ mL}} \amp = \frac{15\bar{0} \text{ mg}}{A \text{ mL}} \amp \text{ clear the denominators}</mrow>
-				<mrow>(125 \text{ mg})(A \text{ mL}) \amp = (5 \text{ mL})(15\bar{0} \text{ mg}) \amp \text{ divide to isolate the variable}</mrow>
-				<mrow>\frac{(125 \text{ mg})(A \text{ mL})}{125 \text{ mg}} \amp = \frac{(5 \text{ mL})(15\bar{0} \text{ mg})}{(125 \text{ mg})}</mrow>
-				<mrow>A \text{ mL} \amp = \frac{(5 \text{ mL})(15\bar{0} \text{ mg})}{(125 \text{ mg})}</mrow>
-				<mrow>A \text{ mL} \amp = 6.</mrow>
+				<mrow>\frac{125 \; \text{mg}}{5 \; \text{mL}} \amp = \frac{15\bar{0} \; \text{mg}}{A \; \text{mL}} \amp \; \text{clear the denominators}</mrow>
+				<mrow>(125 \; \text{mg})(A \; \text{mL}) \amp = (5 \; \text{mL})(15\bar{0} \; \text{mg}) \amp \; \text{divide to isolate the variable}</mrow>
+				<mrow>\frac{(125 \; \text{mg})(A \; \text{mL})}{125 \; \text{mg}} \amp = \frac{(5 \; \text{mL})(15\bar{0} \; \text{mg})}{(125 \; \text{mg})}</mrow>
+				<mrow>A \; \text{mL} \amp = \frac{(5 \; \text{mL})(15\bar{0} \; \text{mg})}{(125 \; \text{mg})}</mrow>
+				<mrow>A \; \text{mL} \amp = 6.</mrow>
 			</md></p>
 		</solution>
 	</example>
@@ -221,10 +247,10 @@
 		<solution>
 			<p>Once again we need to scale the amount (from 100 mL to 500 mL). This is also a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.
 			<md>
-				<mrow>\frac{5 \text{ g}}{100 \text{ mL}} \amp = \frac{D \text{ g}}{500 \text{ mL}} \amp \text{ clear the denominators}</mrow>
-				<mrow>(5 \text{ g})(500 \text{ mL}) \amp = (D \text{ g})(100 \text{ mL}) \amp \text{ divide to isolate the variable}</mrow>
-				<mrow>\frac{(5 \text{ g})(500 \text{ mL})}{(100 \text{ mL})} \amp = \frac{(D \text{ g})(100 \text{ mL})}{(100 \text{ mL})}</mrow>
-				<mrow>25 \text{ g} \amp = D</mrow>
+				<mrow>\frac{5 \; \text{g}}{100 \; \text{mL}} \amp = \frac{D \; \text{g}}{500 \; \text{mL}} \amp \; \text{clear the denominators}</mrow>
+				<mrow>(5 \; \text{g})(500 \; \text{mL}) \amp = (D \; \text{g})(100 \; \text{mL}) \amp \; \text{divide to isolate the variable}</mrow>
+				<mrow>\frac{(5 \; \text{g})(500 \; \text{mL})}{(100 \; \text{mL})} \amp = \frac{(D \; \text{g})(100 \; \text{mL})}{(100 \; \text{mL})}</mrow>
+				<mrow>25 \; \text{g} \amp = D</mrow>
 			</md></p>
 		</solution>
 	</exercise>
@@ -233,10 +259,10 @@
 	<statement><p>A sample of chloroform water has a dilution factor of 40. If 2 mL of chloroform are needed how many milliliters total are needed?</p></statement>
 	<solution><p>A dilution factor of 40 indicates that 1 mL of chloroform is in 40 mL total of solution. We can setup a proportion to answer this.
 	<md>
-		<mrow>\frac{1 \text{ mL}}{40 \text{ mL}} \amp = \frac{2 \text{ mL}}{T \text{ mL}} \amp \text{ clear the denominators}</mrow>
-		<mrow>(1 \text{ mL})(T \text{ mL}) \amp = (2 \text{ mL})(40 \text{ mL})</mrow>
-		<mrow>\frac{(1 \text{ mL})(T \text{ mL})}{1 \text{ mL}} \amp = \frac{(2 \text{ mL})(40 \text{ mL})}{1 \text{ mL}}</mrow>
-		<mrow>T \amp = 80 \text{ mL}.</mrow>
+		<mrow>\frac{1 \; \text{mL}}{40 \; \text{mL}} \amp = \frac{2 \; \text{mL}}{T \; \text{mL}} \amp \; \text{clear the denominators}</mrow>
+		<mrow>(1 \; \text{mL})(T \; \text{mL}) \amp = (2 \; \text{mL})(40 \; \text{mL})</mrow>
+		<mrow>\frac{(1 \; \text{mL})(T \; \text{mL})}{1 \; \text{mL}} \amp = \frac{(2 \; \text{mL})(40 \; \text{mL})}{1 \; \text{mL}}</mrow>
+		<mrow>T \amp = 80 \; \text{mL}.</mrow>
 	</md></p></solution>
 	</example>
 

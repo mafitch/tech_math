@@ -21,7 +21,7 @@
 		<statement><p>A <term>prism</term> is a solid consisting of two identical polygons connected by parallelograms.</p></statement>
 	</definition>
 
-	<p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example a triangular prism or a pentagonal prism.</p>
+	<p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms.</p>
 
 	<figure xml:id="figure-prism-properties">
 		<caption>Prisms</caption>
@@ -69,7 +69,7 @@
 		</tabular>
 	</figure>
 
-	<p>Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface as a rectangle.</p>
+	<p>Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
 
 	<figure xml:id="figure-sphere-properties">
 		<caption>Sphere</caption>
@@ -134,7 +134,7 @@
 		</tabular>
 	</figure>
 
-	<p>The latin word <term>frustrum</term> means <q>cut off</q>. This is the etymology of frustrated which refers to a hope cut off. For these formulas the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
+	<p>The latin word <term>frustrum</term> means <q>cut off</q>. This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
 
 	<figure xml:id="figure-pyramid-frustrum-properties">
 		<caption>Frustrum of a Pyramid</caption>
@@ -154,9 +154,9 @@
 			<solution><p>The perimeter of the lower base is 9 and the perimeter of the upper base is 3. The area of the three sides is therefore <m>\frac{1}{2}2(9+3)=12</m>. To calculate the area of the two bases we will need Heron's formula.
 			<md>
 				<mrow>s &amp; = \frac{9}{2}.</mrow>
-				<mrow>A_2 &amp; = \sqrt{\frac{9}{2}(\frac{3}{2})^3}</mrow>
+				<mrow>A_2 &amp; = \sqrt{\frac{9}{2}\left(\frac{3}{2}\right)^3}</mrow>
 				<mrow> &amp; = \frac{9\sqrt{3}}{4}.</mrow>
-				<mrow>A_1 &amp; = \sqrt{\frac{3}{2}(\frac{1}{2})^3}</mrow>
+				<mrow>A_1 &amp; = \sqrt{\frac{3}{2}\left(\frac{1}{2}\right)^3}</mrow>
 				<mrow> &amp; = \frac{\sqrt{3}}{4}.</mrow>
 			</md>
 			Thus the surface area is <m>12+\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4} \approx 16.33</m>.</p></solution>
@@ -165,7 +165,7 @@
 			<statement><p>What is the volume of the frustrum of a pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p></statement>
 			<solution><p>Using the values provided
 				<md>
-					<mrow>V &amp; = \frac{1}{3} \cdot \frac{4}{3}(\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4}+\sqrt{\frac{9\sqrt{3}}{4} \cdot \frac{\sqrt{3}}{4}})</mrow>
+					<mrow>V &amp; = \frac{1}{3} \cdot \frac{4}{3}\left(\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4}+\sqrt{\frac{9\sqrt{3}}{4} \cdot \frac{\sqrt{3}}{4}}\right)</mrow>
 					<mrow> &amp; = \frac{13\sqrt{3}}{12}</mrow>
 					<mrow> &amp; \approx  1.88</mrow>
 				</md></p>

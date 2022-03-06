@@ -23,7 +23,7 @@
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -113,7 +113,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -185,7 +185,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" xml:id="extracted-webwork-11" ww-id="webwork-11">
     <static seed="11">
-      <statement><p>The calculation for distance over a half hour suggests a general method for using a rate. Use this method to calculate how far the plane would travel in 3.1 hours <fillin name="AnSwEr0001" characters="4"/></p>
+      <statement><p>Calculate how far a plane flying at a rate of 110 nm/hour would travel in 3.1 hours <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
@@ -193,16 +193,16 @@ ENDDOCUMENT();
         </p>
       </answer>
       <solution><p><me>\begin{aligned}
-\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1}\\
+\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1} \amp \text{ Scale the ratio.}\\
  \amp = \frac{341 \text{ nautical miles}}{3.1 \text{ hours}}.
 \end{aligned}</me></p>
 </solution>
     </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj4nKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKVGhlIGNhbGN1bGF0aW9uIGZvciBkaXN0YW5jZSBvdmVyIGEgaGFsZiBob3VyIHN1Z2dlc3RzIGEgZ2VuZXJhbCBtZXRob2QgZm9yIHVzaW5nIGEgcmF0ZS4gVXNlIHRoaXMgbWV0aG9kIHRvIGNhbGN1bGF0ZSBob3cgZmFyIHRoZSBwbGFuZSB3b3VsZCB0cmF2ZWwgaW4gMy4xIGhvdXJzIFtfXXsnMzQxJ317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgoKCltgYGBcYmVnaW57YWxpZ25lZH0KXGZyYWN7MTEwIFx0ZXh0eyBuYXV0aWNhbCBtaWxlc319ezEgXHRleHR7IGhvdXJ9fSBcYW1wID0gXGZyYWN7MTEwIFx0ZXh0eyBuYXV0aWNhbCBtaWxlc319ezEgXHRleHR7IGhvdXJ9fSBcY2RvdCBcZnJhY3szLjF9ezMuMX1cXAogXGFtcCA9IFxmcmFjezM0MSBcdGV4dHsgbmF1dGljYWwgbWlsZXN9fXszLjEgXHRleHR7IGhvdXJzfX0uClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj4nKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKQ2FsY3VsYXRlIGhvdyBmYXIgYSBwbGFuZSBmbHlpbmcgYXQgYSByYXRlIG9mIDExMCBubS9ob3VyIHdvdWxkIHRyYXZlbCBpbiAzLjEgaG91cnMgW19deyczNDEnfXs0fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCgoKW2BgYFxiZWdpbnthbGlnbmVkfQpcZnJhY3sxMTAgXHRleHR7IG5hdXRpY2FsIG1pbGVzfX17MSBcdGV4dHsgaG91cn19IFxhbXAgPSBcZnJhY3sxMTAgXHRleHR7IG5hdXRpY2FsIG1pbGVzfX17MSBcdGV4dHsgaG91cn19IFxjZG90IFxmcmFjezMuMX17My4xfSBcYW1wIFx0ZXh0eyBTY2FsZSB0aGUgcmF0aW8ufVxcCiBcYW1wID0gXGZyYWN7MzQxIFx0ZXh0eyBuYXV0aWNhbCBtaWxlc319ezMuMSBcdGV4dHsgaG91cnN9fS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -218,7 +218,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.3.5)
+## Problem1(2.3.6)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -252,7 +252,7 @@ Context('Numeric');
 ############################################################
 
 BEGIN_PGML
-The calculation for distance over a half hour suggests a general method for using a rate. Use this method to calculate how far the plane would travel in 3.1 hours [_]{'341'}{4}
+Calculate how far a plane flying at a rate of 110 nm/hour would travel in 3.1 hours [_]{'341'}{4}
 
 END_PGML
 
@@ -264,7 +264,7 @@ BEGIN_PGML_SOLUTION
 
 [```\newcommand{\amp}{&}
 \begin{aligned}
-\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1}\\
+\frac{110 \text{ nautical miles}}{1 \text{ hour}} \amp = \frac{110 \text{ nautical miles}}{1 \text{ hour}} \cdot \frac{3.1}{3.1} \amp \text{ Scale the ratio.}\\
  \amp = \frac{341 \text{ nautical miles}}{3.1 \text{ hours}}.
 \end{aligned}
 ```]
@@ -280,30 +280,24 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" xml:id="extracted-webwork-12" ww-id="webwork-12">
     <static seed="12">
-      <statement><p>If the Diamond DA-20 climbs at the rate of</p>
-<p><me>\frac{450 \text{ feet}}{1.0 \text{ minute}}</me></p>
-<p>how long will it take it to climb 2500 ft? <fillin name="AnSwEr0001" characters="4"/></p>
+      <statement><p>One formulation of amoxicillin, a drug used to treat infections in infants, contains 125 mg of amoxicillin per 5.00 mL of liquid. How much amoxicillin is in 12.0 mL of liquid? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>5.5</m>
+          <m>300</m>
         </p>
       </answer>
       <solution><p><me>\begin{aligned}
-\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
-t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
-t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.\\
-t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.\\
-t \amp = \frac{2500}{450}\\
-t \amp \approx 5.5.
+\frac{125 \text{ mg}}{5.00 \text{ mL}} \cdot 12.0 \text{ mL} \amp =\\
+\frac{125 \text{ g}}{5.00 \cancel{\text{ mL}}} \cdot 12.0 \cancel{\text{ mL}} \amp = 300 \text{ mg}
 \end{aligned}</me></p>
 </solution>
     </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj4nKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKSWYgdGhlIERpYW1vbmQgREEtMjAgY2xpbWJzIGF0IHRoZSByYXRlIG9mCgpbYGBgXGZyYWN7NDUwIFx0ZXh0eyBmZWV0fX17MS4wIFx0ZXh0eyBtaW51dGV9fWBgYF0KCmhvdyBsb25nIHdpbGwgaXQgdGFrZSBpdCB0byBjbGltYiAyNTAwIGZ0PyBbX117JzUuNSd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjezQ1MCBcdGV4dHsgZnR9fXsxLjAgXHRleHR7IG1pbnV0ZX19IFxhbXAgPSBcZnJhY3syNTAwIFx0ZXh0eyBmdH19e3QgXHRleHR7IG1pbnV0ZXN9fS5cXAp0IFx0ZXh0eyBtaW51dGVzfSBcY2RvdCBcZnJhY3s0NTAgXHRleHR7IGZ0fX17MS4wIFx0ZXh0eyBtaW51dGVzfX0gXGFtcCA9IHQgXHRleHR7IG1pbnV0ZXN9IFxjZG90IFxmcmFjezI1MDAgXHRleHR7IGZ0fX17dCBcdGV4dHsgbWludXRlc319LlxcCnQgXGNkb3QgNDUwIFx0ZXh0eyBmdH0gXGFtcCA9IDI1MDAgXHRleHR7IGZ0fS5cXAp0IFxjZG90IDQ1MCBcdGV4dHsgZnR9IC8gNDUwIFx0ZXh0eyBmdH0gIFxhbXAgPSAyNTAwIFx0ZXh0eyBmdH0vIDQ1MCBcdGV4dHsgZnR9LlxcCnQgXGFtcCA9IFxmcmFjezI1MDB9ezQ1MH1cXAp0IFxhbXAgXGFwcHJveCA1LjUuClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj4nKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKT25lIGZvcm11bGF0aW9uIG9mIGFtb3hpY2lsbGluLCBhIGRydWcgdXNlZCB0byB0cmVhdCBpbmZlY3Rpb25zIGluIGluZmFudHMsIGNvbnRhaW5zIDEyNSBtZyBvZiBhbW94aWNpbGxpbiBwZXIgNS4wMCBtTCBvZiBsaXF1aWQuIEhvdyBtdWNoIGFtb3hpY2lsbGluIGlzIGluIDEyLjAgbUwgb2YgbGlxdWlkPyBbX117JzMwMCd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjezEyNSBcdGV4dHsgbWd9fXs1LjAwIFx0ZXh0eyBtTH19IFxjZG90IDEyLjAgXHRleHR7IG1MfSBcYW1wID1cXApcZnJhY3sxMjUgXHRleHR7IGd9fXs1LjAwIFxjYW5jZWx7XHRleHR7IG1MfX19IFxjZG90IDEyLjAgXGNhbmNlbHtcdGV4dHsgbUx9fSBcYW1wID0gMzAwIFx0ZXh0eyBtZ30KXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -319,7 +313,7 @@ t \amp \approx 5.5.
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.3.7)
+## Problem1(2.3.9)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -353,11 +347,7 @@ Context('Numeric');
 ############################################################
 
 BEGIN_PGML
-If the Diamond DA-20 climbs at the rate of
-
-[```\frac{450 \text{ feet}}{1.0 \text{ minute}}```]
-
-how long will it take it to climb 2500 ft? [_]{'5.5'}{4}
+One formulation of amoxicillin, a drug used to treat infections in infants, contains 125 mg of amoxicillin per 5.00 mL of liquid. How much amoxicillin is in 12.0 mL of liquid? [_]{'300'}{4}
 
 END_PGML
 
@@ -369,12 +359,8 @@ BEGIN_PGML_SOLUTION
 
 [```\newcommand{\amp}{&}
 \begin{aligned}
-\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
-t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
-t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.\\
-t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.\\
-t \amp = \frac{2500}{450}\\
-t \amp \approx 5.5.
+\frac{125 \text{ mg}}{5.00 \text{ mL}} \cdot 12.0 \text{ mL} \amp =\\
+\frac{125 \text{ g}}{5.00 \cancel{\text{ mL}}} \cdot 12.0 \cancel{\text{ mL}} \amp = 300 \text{ mg}
 \end{aligned}
 ```]
 
@@ -408,7 +394,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -424,7 +410,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.3.11)
+## Problem1(2.3.13)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -508,7 +494,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -524,7 +510,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.3.13)
+## Problem1(2.3.15)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -589,6 +575,115 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" xml:id="extracted-webwork-15" ww-id="webwork-15">
     <static seed="15">
+      <statement><p>If the Diamond DA-20 climbs at the rate of</p>
+<p><me>\frac{450 \text{ feet}}{1.0 \text{ minute}}</me></p>
+<p>how long will it take it to climb 2500 ft? <fillin name="AnSwEr0001" characters="4"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5.5</m>
+        </p>
+      </answer>
+      <solution><p><me>\begin{aligned}
+\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.\\
+t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.\\
+t \amp = \frac{2500}{450}\\
+t \amp \approx 5.5.
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKVEVYVChNT0RFUyhQVFg9PicnLEhUTUw9Pic8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj4nKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKSWYgdGhlIERpYW1vbmQgREEtMjAgY2xpbWJzIGF0IHRoZSByYXRlIG9mCgpbYGBgXGZyYWN7NDUwIFx0ZXh0eyBmZWV0fX17MS4wIFx0ZXh0eyBtaW51dGV9fWBgYF0KCmhvdyBsb25nIHdpbGwgaXQgdGFrZSBpdCB0byBjbGltYiAyNTAwIGZ0PyBbX117JzUuNSd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjezQ1MCBcdGV4dHsgZnR9fXsxLjAgXHRleHR7IG1pbnV0ZX19IFxhbXAgPSBcZnJhY3syNTAwIFx0ZXh0eyBmdH19e3QgXHRleHR7IG1pbnV0ZXN9fS5cXAp0IFx0ZXh0eyBtaW51dGVzfSBcY2RvdCBcZnJhY3s0NTAgXHRleHR7IGZ0fX17MS4wIFx0ZXh0eyBtaW51dGVzfX0gXGFtcCA9IHQgXHRleHR7IG1pbnV0ZXN9IFxjZG90IFxmcmFjezI1MDAgXHRleHR7IGZ0fX17dCBcdGV4dHsgbWludXRlc319LlxcCnQgXGNkb3QgNDUwIFx0ZXh0eyBmdH0gXGFtcCA9IDI1MDAgXHRleHR7IGZ0fS5cXAp0IFxjZG90IDQ1MCBcdGV4dHsgZnR9IC8gNDUwIFx0ZXh0eyBmdH0gIFxhbXAgPSAyNTAwIFx0ZXh0eyBmdH0vIDQ1MCBcdGV4dHsgZnR9LlxcCnQgXGFtcCA9IFxmcmFjezI1MDB9ezQ1MH1cXAp0IFxhbXAgXGFwcHJveCA1LjUuClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2022-02-26T11:33:47-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.4.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If the Diamond DA-20 climbs at the rate of
+
+[```\frac{450 \text{ feet}}{1.0 \text{ minute}}```]
+
+how long will it take it to climb 2500 ft? [_]{'5.5'}{4}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+
+[```\newcommand{\amp}{&}
+\begin{aligned}
+\frac{450 \text{ ft}}{1.0 \text{ minute}} \amp = \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \text{ minutes} \cdot \frac{450 \text{ ft}}{1.0 \text{ minutes}} \amp = t \text{ minutes} \cdot \frac{2500 \text{ ft}}{t \text{ minutes}}.\\
+t \cdot 450 \text{ ft} \amp = 2500 \text{ ft}.\\
+t \cdot 450 \text{ ft} / 450 \text{ ft}  \amp = 2500 \text{ ft}/ 450 \text{ ft}.\\
+t \amp = \frac{2500}{450}\\
+t \amp \approx 5.5.
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16">
       <statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. Suppose you have <m>35\bar{0}</m> g of eggs and <m>340\bar{0}</m> g of cream cheese. How much of the egg and cream cheese can you use?</p>
 <p>Egg: <fillin name="AnSwEr0001" characters="4"/></p>
 <p>Cream cheese: <fillin name="AnSwEr0002" characters="5"/></p>
@@ -618,7 +713,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -634,7 +729,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.4.3)
+## Problem1(2.4.5)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -706,8 +801,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-16" ww-id="webwork-16">
-    <static seed="16">
+  <webwork-reps version="2" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17">
       <statement><p>Suppose triangle A has angles <m>40^\circ, 60^\circ, 80^\circ</m> and side lengths 1.000, 1.347, 2.000. If triangle B has the same angle measures and the shortest side is length 2.500, what are the other two side lengths?</p>
 <p>Corresponds to 1.347: <fillin name="AnSwEr0001" characters="6"/></p>
 <p>Corresponds to 2.000: <fillin name="AnSwEr0002" characters="6"/></p>
@@ -735,7 +830,7 @@ s_3 \amp  = 5.000.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -751,7 +846,7 @@ s_3 \amp  = 5.000.
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.4.7)
+## Problem1(2.4.9)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -818,9 +913,9 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-17" ww-id="webwork-17">
-    <static seed="17">
-      <statement><p>What is the solution to <m>{8}x+{3}={43}\text{.}</m> <m>x=</m><fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18">
+      <statement><p>What is the solution to <m>{4}x+{8}={28}\text{.}</m> <m>x=</m><fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
@@ -828,9 +923,9 @@ ENDDOCUMENT();
         </p>
       </answer>
       <solution><p><me>\begin{aligned}
-{8}x+{3} \amp  = {43}\\
-{8}x \amp  = {43}-{3}\\
-x \amp  = \frac{{43}-{3}}{{8}}\\
+{4}x+{8} \amp  = {28}\\
+{4}x \amp  = {28}-{8}\\
+x \amp  = \frac{{28}-{8}}{{4}}\\
 x \amp  = {5}.
 \end{aligned}</me></p>
 </solution>
@@ -839,7 +934,7 @@ x \amp  = {5}.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -922,21 +1017,21 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-18" ww-id="webwork-18">
-    <static seed="18">
-      <statement><p>What is the solution to <m>{13}x+{4}={7}x+{10}\text{.}</m> <m>x=</m><fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19">
+      <statement><p>What is the solution to <m>{6}x+{7}={2}x+{19}\text{.}</m> <m>x=</m><fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>1</m>
+          <m>3</m>
         </p>
       </answer>
       <solution><p><me>\begin{aligned}
-{13}x+{4} \amp  ={7}x+{10}\\
-{13}x-{7}x \amp  = {10}-{4}\\
-({13}-{7})x \amp  = {10}-{4}\\
-x \amp  = \frac{{10}-{4}}{{13}-{7}}\\
-x \amp  = {1}.
+{6}x+{7} \amp  ={2}x+{19}\\
+{6}x-{2}x \amp  = {19}-{7}\\
+({6}-{2})x \amp  = {19}-{7}\\
+x \amp  = \frac{{19}-{7}}{{6}-{2}}\\
+x \amp  = {3}.
 \end{aligned}</me></p>
 </solution>
     </static>
@@ -944,7 +1039,7 @@ x \amp  = {1}.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1030,8 +1125,91 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-19" ww-id="webwork-19">
-    <static seed="19">
+  <webwork-reps version="2" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2">
+      <statement><p>Round 812,247 to the nearest ten: <fillin name="AnSwEr0001" characters="3"/></p>
+<p>Round 812,247 to the nearest hundred: <fillin name="AnSwEr0002" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>812250</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>812200</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApSb3VuZCA4MTIsMjQ3IHRvIHRoZSBuZWFyZXN0IHRlbjogW19deyc4MTIyNTAnfXszfQoKUm91bmQgODEyLDI0NyB0byB0aGUgbmVhcmVzdCBodW5kcmVkOiBbX117JzgxMjIwMCd9ezN9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2022-02-26T11:33:47-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.11)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Round 812,247 to the nearest ten: [_]{'812250'}{3}
+
+Round 812,247 to the nearest hundred: [_]{'812200'}{3}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20">
       <statement><p>If Dimitri<rsq/>s salary is given by the equation</p>
 <p><me>S = \$73,240.00 + \$6000.00 n</me></p>
 <p>where <m>n</m> is the year of employement, what was his initial salary? <fillin name="AnSwEr0001" characters="7"/></p>
@@ -1054,7 +1232,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1131,91 +1309,8 @@ END_PGML_HINT
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-2" ww-id="webwork-2">
-    <static seed="2">
-      <statement><p>Round 812,247 to the nearest ten: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Round 812,247 to the nearest hundred: <fillin name="AnSwEr0002" characters="3"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>812250</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>812200</m>
-        </p>
-      </answer>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApSb3VuZCA4MTIsMjQ3IHRvIHRoZSBuZWFyZXN0IHRlbjogW19deyc4MTIyNTAnfXszfQoKUm91bmQgODEyLDI0NyB0byB0aGUgbmVhcmVzdCBodW5kcmVkOiBbX117JzgxMjIwMCd9ezN9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
-###   A recent stable commit (2020-08-09):   
-### 98f21740783f166a773df4dc83cab5293ab63a4a 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(1.2.11)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "MathObjects.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context('Numeric');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Round 812,247 to the nearest ten: [_]{'812250'}{3}
-
-Round 812,247 to the nearest hundred: [_]{'812200'}{3}
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-20" ww-id="webwork-20">
-    <static seed="20">
+  <webwork-reps version="2" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21">
       <statement><p>Suppose that as dry air rose it dropped in temperature in a linear fashion. If the temperature was measured at 1000 ft MSL as <m>21^\circ</m> C and at 3000 ft MSL as <m>17^\circ</m> C, what is the rate of change of temperature with respect to altitude? <fillin name="AnSwEr0001" characters="4"/></p>
 <p>What does this imply the temperature is at 0 ft MSL? <fillin name="AnSwEr0002" characters="4"/></p>
 </statement>
@@ -1238,7 +1333,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1314,8 +1409,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-21" ww-id="webwork-21">
-    <static seed="21">
+  <webwork-reps version="2" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22">
       <statement><p>Suppose we want 20.0 oz of 70.0% alcohol solution. How much water should we add? <fillin name="AnSwEr0001" characters="4"/> How much solution will we have? <fillin name="AnSwEr0002" characters="4"/></p>
 </statement>
       <answer>
@@ -1348,7 +1443,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1438,8 +1533,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-22" ww-id="webwork-22">
-    <static seed="22">
+  <webwork-reps version="2" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23">
       <statement><p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add if we want 25.0 oz of a 60.0% alcohol solution? <fillin name="AnSwEr0001" characters="4"/></p>
 <p>How much solution total does this produce? <fillin name="AnSwEr0002" characters="4"/></p>
 </statement>
@@ -1458,7 +1553,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1521,8 +1616,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-23" ww-id="webwork-23">
-    <static seed="23">
+  <webwork-reps version="2" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24">
       <statement><p>If we start with 16.0 oz of 91.0% alcohol solution, what is the percent alcohol if we produce exactly 24.0 oz of solution? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
@@ -1535,7 +1630,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1596,8 +1691,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-24" ww-id="webwork-24">
-    <static seed="24">
+  <webwork-reps version="2" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25">
       <statement><p>If two resistors are connected in parallel and they are 4 and 16 ohms, what is the resulting resistance? <fillin name="AnSwEr0001" characters="6"/></p>
 </statement>
       <answer>
@@ -1610,7 +1705,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1626,7 +1721,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.4.4)
+## Problem1(3.4.5)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1671,8 +1766,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-25" ww-id="webwork-25">
-    <static seed="25">
+  <webwork-reps version="2" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26">
       <statement><p>If one shop can do seven float changes in two days, and a second shop can do thirteen float changes in three days, how long will it take the pair of shops to do 65 float changes? <fillin name="AnSwEr0001" characters="4"/></p>
 <p>If they start on Monday and work only weekdays, on what day of the week will they finish? <fillin name="AnSwEr0002" characters="10"/></p>
 </statement>
@@ -1691,7 +1786,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1707,7 +1802,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.4.9)
+## Problem1(3.4.11)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1754,8 +1849,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-26" ww-id="webwork-26">
-    <static seed="26">
+  <webwork-reps version="2" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27">
       <statement><p>Solve the linear system below using substitution.</p>
 <p><me>\begin{aligned}
 2x+3y \amp  = 17.\\
@@ -1797,7 +1892,7 @@ x \amp  = 1.\text{.}
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -1900,8 +1995,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-27" ww-id="webwork-27">
-    <static seed="27">
+  <webwork-reps version="2" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28">
       <statement><p>Solve the linear system below using elimination.</p>
 <p><me>\begin{aligned}
 2x+3y \amp  = 17.\\
@@ -1938,7 +2033,7 @@ x \amp  = 1.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2033,24 +2128,24 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-28" ww-id="webwork-28">
-    <static seed="28">
+  <webwork-reps version="2" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29">
       <statement><p>Find the solution to this system.</p>
 <p><me>\begin{aligned}
-6x+8y \amp  = {22}.\\
-9x+13y \amp  = {35}.
+6x+8y \amp  = {20}.\\
+9x+13y \amp  = {31}.
 \end{aligned}</me></p>
 <p><m>x=</m> <fillin name="AnSwEr0001" characters="3"/></p>
 <p><m>y=</m> <fillin name="AnSwEr0002" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>1</m>
+          <m>2</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>2</m>
+          <m>1</m>
         </p>
       </answer>
     </static>
@@ -2058,7 +2153,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2134,12 +2229,98 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-29" ww-id="webwork-29">
-    <static seed="29">
+  <webwork-reps version="2" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3">
+      <statement><p>What is the greatest possible error if 8120 was rounded to the nearest ten? <fillin name="AnSwEr0001" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <solution><p>This could be any number from 8115 to 8124. Thus the greatest possible error is 5.</p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApXaGF0IGlzIHRoZSBncmVhdGVzdCBwb3NzaWJsZSBlcnJvciBpZiA4MTIwIHdhcyByb3VuZGVkIHRvIHRoZSBuZWFyZXN0IHRlbj8gW19deyc1J317M30KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpUaGlzIGNvdWxkIGJlIGFueSBudW1iZXIgZnJvbSA4MTE1IHRvIDgxMjQuIFRodXMgdGhlIGdyZWF0ZXN0IHBvc3NpYmxlIGVycm9yIGlzIDUuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2022-02-26T11:33:47-09:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.15)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+What is the greatest possible error if 8120 was rounded to the nearest ten? [_]{'5'}{3}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+This could be any number from 8115 to 8124. Thus the greatest possible error is 5.
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30">
       <statement><p>Determine whether this system is inconsistent or dependent.</p>
 <p><me>\begin{aligned}
-6x+8y \amp  = {20}.\\
-9x+12y \amp  = {30}.
+6x+8y \amp  = {44}.\\
+9x+12y \amp  = {66}.
 \end{aligned}</me></p>
 <p>The system is <var form="buttons" name="AnSwEr0001">
 <li>
@@ -2160,7 +2341,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2236,94 +2417,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-3" ww-id="webwork-3">
-    <static seed="3">
-      <statement><p>What is the greatest possible error if 8120 was rounded to the nearest ten? <fillin name="AnSwEr0001" characters="3"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>5</m>
-        </p>
-      </answer>
-      <solution><p>This could be any number from 8115 to 8124. Thus the greatest possible error is 5.</p>
-</solution>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJQR2NvdXJzZS5wbCIsKTtURVhUKGJlZ2lucHJvYmxlbSgpKTsKQ29udGV4dCgnTnVtZXJpYycpOwoKQkVHSU5fUEdNTApXaGF0IGlzIHRoZSBncmVhdGVzdCBwb3NzaWJsZSBlcnJvciBpZiA4MTIwIHdhcyByb3VuZGVkIHRvIHRoZSBuZWFyZXN0IHRlbj8gW19deyc1J317M30KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpUaGlzIGNvdWxkIGJlIGFueSBudW1iZXIgZnJvbSA4MTE1IHRvIDgxMjQuIFRodXMgdGhlIGdyZWF0ZXN0IHBvc3NpYmxlIGVycm9yIGlzIDUuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="http://aholiab.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
-###   A recent stable commit (2020-08-09):   
-### 98f21740783f166a773df4dc83cab5293ab63a4a 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(1.2.15)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "MathObjects.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context('Numeric');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-What is the greatest possible error if 8120 was rounded to the nearest ten? [_]{'5'}{3}
-
-END_PGML
-
-############################################################
-# Solution
-############################################################
-
-BEGIN_PGML_SOLUTION
-This could be any number from 8115 to 8124. Thus the greatest possible error is 5.
-
-END_PGML_SOLUTION
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-30" ww-id="webwork-30">
-    <static seed="30">
+  <webwork-reps version="2" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31">
       <statement><p>Find the solutions to <m>6(x-2)^2-24=0\text{.}</m></p>
 <p>Largest solution: <fillin name="AnSwEr0001" characters="4"/></p>
 <p>Smallest solution: <fillin name="AnSwEr0002" characters="4"/></p>
@@ -2352,7 +2447,7 @@ x \amp  = 4, 0.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2436,8 +2531,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-31" ww-id="webwork-31">
-    <static seed="31">
+  <webwork-reps version="2" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32">
       <statement><p>Find the solutions to <m>8x^2-30x+25=0\text{.}</m></p>
 <p>Largest solution: <fillin name="AnSwEr0001" characters="4"/></p>
 <p>Smallest solution: <fillin name="AnSwEr0002" characters="4"/></p>
@@ -2465,7 +2560,7 @@ x \amp  = \frac{-(-30) \pm \sqrt{(-30)^2-4(8)(25)}}{2(8)}\\
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2548,8 +2643,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-32" ww-id="webwork-32">
-    <static seed="32">
+  <webwork-reps version="2" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33">
       <statement><p>In the model <m>P=173e^{0.05t}</m> what is the percent increase or decrease (2 decimal places)?</p>
 <p>It is a percent <var form="buttons" name="AnSwEr0001">
 <li>
@@ -2577,7 +2672,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:58-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2651,13 +2746,13 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-33" ww-id="webwork-33">
-    <static seed="33">
-      <statement><p>If the two sides on the right angle have length <m>a={4}</m> and <m>b={6}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34">
+      <statement><p>If the two sides on the right angle have length <m>a={4}</m> and <m>b={5}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>7.2111</m>
+          <m>6.40312</m>
         </p>
       </answer>
     </static>
@@ -2665,7 +2760,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:58-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2729,9 +2824,9 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-34" ww-id="webwork-34">
-    <static seed="34">
-      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={8}</m> and hypotenuse (side opposite the right angle) with length <m>c={7}\text{?}</m> <var form="buttons" name="AnSwEr0001">
+  <webwork-reps version="2" xml:id="extracted-webwork-35" ww-id="webwork-35">
+    <static seed="35">
+      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={9}</m> and hypotenuse (side opposite the right angle) with length <m>c={8}\text{?}</m> <var form="buttons" name="AnSwEr0001">
 <li>
 <p>Yes</p>
 </li>
@@ -2750,7 +2845,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:58-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2815,15 +2910,15 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-35" ww-id="webwork-35">
-    <static seed="35">
+  <webwork-reps version="2" xml:id="extracted-webwork-36" ww-id="webwork-36">
+    <static seed="36">
       <statement><!-- PTX:WARNING: PGML wanted to center align here. -->
-<image width="50%" source="images/webwork-35-image-1"/>
-<p>If <m>\sin(\alpha)=\frac{{7}}{{13.8924}}\text{,}</m> what is the length of the opposite? <fillin name="AnSwEr0001" characters="4"/></p>
+<image width="50%" source="images/webwork-36-image-1"/>
+<p>If <m>\sin(\alpha)=\frac{{7}}{{12.2066}}\text{,}</m> what is the length of the opposite? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>12</m>
+          <m>10</m>
         </p>
       </answer>
     </static>
@@ -2831,7 +2926,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:58-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2917,13 +3012,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-36" ww-id="webwork-36">
-    <static seed="36">
-      <statement><p>A triangle has angles of measure <m>A={50}</m> and <m>B={70}\text{.}</m> The side opposite angle <m>A</m> has length 7. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" xml:id="extracted-webwork-37" ww-id="webwork-37">
+    <static seed="37">
+      <statement><p>A triangle has angles of measure <m>A={20}</m> and <m>B={55}\text{.}</m> The side opposite angle <m>A</m> has length 4. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>\frac{\sin\!\left(70\right)}{\sin\!\left(50\right)}\cdot 7</m>
+          <m>\frac{\sin\!\left(55\right)}{\sin\!\left(20\right)}\cdot 4</m>
         </p>
       </answer>
     </static>
@@ -2931,7 +3026,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:58-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -2997,13 +3092,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" xml:id="extracted-webwork-37" ww-id="webwork-37">
-    <static seed="37">
-      <statement><p>A triangle has sides of length <m>a={4}\text{,}</m> <m>b={10.1284}\text{,}</m> and <m>c={11.5175}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" xml:id="extracted-webwork-38" ww-id="webwork-38">
+    <static seed="38">
+      <statement><p>A triangle has sides of length <m>a={6}\text{,}</m> <m>b={13.9815}\text{,}</m> and <m>c={13.7135}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>20</m>
+          <m>25</m>
         </p>
       </answer>
     </static>
@@ -3011,7 +3106,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:58-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -3095,7 +3190,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -3181,7 +3276,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -3267,7 +3362,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -3349,7 +3444,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -3467,7 +3562,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
@@ -3553,7 +3648,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2022-02-18T09:22:57-09:00       
+###       on 2022-02-26T11:33:47-09:00       
 ###   A recent stable commit (2020-08-09):   
 ### 98f21740783f166a773df4dc83cab5293ab63a4a 
 ###                                          
