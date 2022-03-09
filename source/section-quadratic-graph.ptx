@@ -37,12 +37,12 @@
 		<statement>
 			<p>We will graph <m>y=2(x-1)^2-4</m>. First we complete this table</p>
 			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>2(x-1)^2-4</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>14</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium">4</cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium">-2</cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium">-4</cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium">-2</cell></row>
+				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>2(x-1)^2-4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2(-2-1)^2-4</m></cell><cell right="medium"><m>=14</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2(-1-1)^2-4</m></cell><cell right="medium"><m>=4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>2(0-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>2(1-1)^2-4</m></cell><cell right="medium"><m>=-4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2(2-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
 			</tabular>
 			<p>Next we graph these points and sketch the graph through them.</p>
 			<image source="images/parabola-graph2" width="50%" />

@@ -12,7 +12,7 @@
 <subsection xml:id="subsection-exponential-shape">
 	<title>Shape of Exponentials</title>
 
-	<p>Our first examples are discrete data. For example the number of views per day. That can be 10 or 21 but never 21.3 (we are not adding up percent of video viewed). <xref ref="figure-exponential-discrete-graph" /> contains a bar chart for exponential data.</p>
+	<p>Our first examples are discrete data. For example the number of views of a video per day. That can be 10 or 21 but never 21.3 (we are not considering the percent of a video viewed). <xref ref="figure-exponential-discrete-graph" /> contains a bar chart for exponential data.</p>
 
 	<exercise xml:id="exercise-compare-exponential-quadratic">
 		<introduction><p>Compare the exponential data in <xref ref="figure-exponential-discrete-graph" /> to the quadratic data in <xref ref="figure-quadratic-discrete-graph" />. We know that the exponential grows faster than the quadratic.</p></introduction>
@@ -51,8 +51,16 @@
 		<solution>
 			<p>First we will generate a table of points with which to start.</p>
 			<tabular top="medium">
-				<row bottom="medium" left="medium"><cell right="medium">x</cell> <cell right="medium">-4</cell> <cell right="medium">-3</cell> <cell right="medium">-2</cell> <cell right="medium">-1</cell> <cell right="medium">0</cell> <cell right="medium">1</cell> <cell right="medium">2</cell> <cell right="medium">3</cell> <cell right="medium">4</cell></row>
-				<row bottom="medium" left="medium"><cell right="medium">2^x</cell> <cell right="medium"><m>2^{-4}=\frac{1}{2^4}=\frac{1}{16}</m></cell> <cell right="medium"><m>2^{-3}=\frac{1}{2^3}=\frac{1}{8}</m></cell> <cell right="medium"><m>2^{-2}=\frac{1}{2^2}=\frac{1}{4}</m></cell> <cell right="medium"><m>2^{-1}=\frac{1}{2^1}=\frac{1}{2}</m></cell> <cell right="medium"><m>2^0=1</m></cell> <cell right="medium"><m>2^1=2</m></cell> <cell right="medium"><m>2^2=4</m></cell> <cell right="medium"><m>2^3=8</m></cell> <cell right="medium"><m>2^4=16</m></cell></row>
+				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>2^x</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-4</m></cell> <cell><m>2^{-4}=\frac{1}{2^4}</m></cell><cell right="medium"><m>=\frac{1}{16}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-3</m></cell> <cell><m>2^{-3}=\frac{1}{2^3}</m></cell><cell right="medium"><m>=\frac{1}{8}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2^{-2}=\frac{1}{2^2}</m></cell><cell right="medium"><m>=\frac{1}{4}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2^{-1}=\frac{1}{2^1}</m></cell><cell right="medium"><m>=\frac{1}{2}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>2^0</m></cell><cell right="medium"><m>=1</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>2^1</m></cell><cell right="medium"><m>=2</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2^2</m></cell><cell right="medium"><m>=4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>3</m></cell> <cell><m>2^3</m></cell><cell right="medium"><m>=8</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>4</m></cell> <cell><m>2^4</m></cell><cell right="medium"><m>=16</m></cell></row>
 			</tabular>
 			<p>We can plot these points then sketch a curve smoothly through the points.</p>
 			<image source="images/graph-exponential-continuous" width="50%" />
