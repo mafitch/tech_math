@@ -5,7 +5,7 @@
 
 <introduction>
 
-<p>In <xref ref="section-variation" /> we learned different ways data can change. These included linear, quadratic, exponential and inverse versions of these. Here we will look at more details of exponential relations. </p>
+<p>In <xref ref="section-rates" /> we learned different ways data can change. These included linear, quadratic, exponential and inverse versions of these. Here we will look at more details of exponential relations. </p>
 
 </introduction>
 
@@ -113,11 +113,11 @@
 	</table>
 
 	<p>We can express this model in mathematical notation. Let's walk through how <xref ref="table-bacteria-growth1" /> was constructed. The initial amount (information we are given) is <m>P_0 = 4000</m>. After 70 minutes these double: <m>P_1 = 4000(2) = 8000</m>. After 140 minutes they double a second time: <m>P_2 = 4000(2)(2) = 16000</m>. After 210 minutes they double a third time: <m>P_3 = 4000(2)(2)(2) = 32000</m>.</p>
-	<p>Generally ff we know the number of minutes <m>t</m>, then dividing by 70 tells us how many times cells have divided in two. We want to multiply the initial amount (4000 in this case) by two (double the population) for each of these. This gives us <m>P = 4000 \cdot 2^{t/70}</m>.</p>
+	<p>Generally if we know the number of minutes <m>t</m>, then dividing by 70 tells us how many times cells have divided in two. We want to multiply the initial amount (4000 in this case) by two (double the population) for each of these. This gives us <m>P = 4000 \cdot 2^{t/70}</m>.</p>
 
 	<example xml:id="example-exponential-cat-video">
-		<statement><p>A new cat video is posted and 12 people view it. Each day after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.</p></statement>
-		<solution><p>We can calculate the first few days results. The day after the video is posted, there will be 36 views. The third day, there will be 108 views. Each day we multiply the result by 3. Thus the number of people viewing the video is <me>v = 12(3^d)</me></p></solution>
+		<statement><p>A new cat video is posted and 12 people view it. Every 4 days after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.</p></statement>
+		<solution><p>We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is <me>v = 12(3^{d/4})</me></p></solution>
 	</example>
 
 	<exercise xml:id="exercise-exponential-bacillus-megaterium">
@@ -129,9 +129,14 @@
 
 	<p>To write the model (equation) we need to know an initial amount and the rate of increase or decrease.</p>
 
-	<example xml:id="example-write-exponential-parameters">
-		<statement><p>Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.</p></statement>
-		<solution><p>The initial population is <m>P_0=320</m>. Because the rate is doubling, we know that <m>r=2</m>. If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using <m>t/200</m>. Note this means 200 gives doubling once (<m>200/200=1</m>), and 400 gives doubling twice (<m>400/200=2</m>). <me>P=320 (2^{t/200})</me></p></solution>
+	<example xml:id="example-exponential-hares">
+		<statement>
+			<p>Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.</p>
+		</statement>
+		<solution>
+			<p>The initial population is <m>P_0=320</m>. Because the rate is doubling, we know that <m>r=2</m>. If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using <m>t/200</m>. Note this means 200 gives doubling once (<m>200/200=1</m>), and 400 gives doubling twice (<m>400/200=2</m>). <me>P=320(2^{t/200})</me>
+			</p>
+		</solution>
 	</example>
 
 	<example xml:id="example-write-exponential-parameters-one-pt">

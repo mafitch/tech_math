@@ -243,7 +243,7 @@
 
 	<example xml:id="example-geometry-abacus">
 		<introduction>
-			<p>Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <xref ref="figure-apply-geometry-abacus" /> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5" x 3.5", just know that the actual size shrunk over time but the name did not change.</p>
+			<p>Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <xref ref="figure-apply-geometry-abacus" /> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.</p>
 			<p>Because we must have enough wood, we will round up all approximations.</p>
 		</introduction>
 		<task>
@@ -251,15 +251,15 @@
 				<p>What is the total number of feet of lumber (2x4) needed?</p>
 			</statement>
 			<solution>
-				<p>There are two boards of length 60.0" and three boards of length 27.0". The total length is <me>2 \cdot 60.0 + 3 \cdot 27.0 = 12\bar{0}</me> We convert this to feet using a ratio. <me>120. \; \text{in} \cdot \frac{1 \; \text{ft}}{12 \; \text{in}} = 10.0 \; \text{ft}</me></p>
+				<p>There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is <me>2 \cdot 60.0\;\text{in} + 3 \cdot 27.0\;\text{in} = 12\bar{0}\;\text{in}</me>. We convert this to feet using a ratio. <me>120. \;\text{in} \cdot \frac{1 \; \text{ft}}{12 \; \text{in}} = 10.0 \; \text{ft}</me></p>
 			</solution>
 		</task>
 		<task>
 			<statement>
-				<p>If a standard 2x4 is 96.0" long, what is the smallest number of boards Katie can purchase to have enough lumber?</p>
+				<p>If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?</p>
 			</statement>
 			<solution>
-				<p>If a 60.0" section is cut from a 96.0" board, we have <m>96.0\"-60.0\"=36.0\"</m> left. This is long enough for one of the 27.0" segments but not more. Thus two board will cover all but the last 27.0" segment. We need 3, 96.0" boards.</p>
+				<p>If a 60.0 inch section is cut from a 96.0 inch board, we have <m>96.0\;\text{in}-60.0\;\text{in}=36.0\;\text{in}</m> left. This is long enough for one of the 27.0 inch segments but not more. Thus two board will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.</p>
 			</solution>
 		</task>
 		<task>
@@ -269,20 +269,21 @@
 			<solution>
 				<p>Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are
 					<md>
-						<mrow>60.0 \cdot 3.5 \amp = 210,</mrow>
-						<mrow>60.0 \cdot 1.5 \amp = 9\bar{0},</mrow>
-						<mrow>1.5 \cdot 3.5 \amp \approx 5.3.</mrow>
+						<mrow>60.0\;\text{in} \cdot 3.5\;\text{in} \amp = 210\;\text{in}^2,</mrow>
+						<mrow>60.0\;\text{in} \cdot 1.5\;\text{in} \amp = 9\bar{0}\;\text{in}^2,</mrow>
+						<mrow>1.5\;\text{in} \cdot 3.5\;\text{in} \amp \approx 5.3\;\text{in}^2.</mrow>
 					</md>
 				For the short segments these are
 					<md>
-						<mrow>27.0 \cdot 3.5 \amp \approx 95,</mrow>
-						<mrow>27.0 \cdot 1.5 \amp \approx 41,</mrow>
-						<mrow>1.5 \cdot 3.5 \amp = 5.3.</mrow>
+						<mrow>27.0\;\text{in} \cdot 3.5\;\text{in} \amp \approx 95\;\text{in}^2,</mrow>
+						<mrow>27.0\;\text{in} \cdot 1.5\;\text{in} \amp \approx 41\;\text{in}^2,</mrow>
+						<mrow>1.5\;\text{in} \cdot 3.5\;\text{in} \amp = 5.3\;\text{in}^2.</mrow>
 					</md>
 				Thus the total area is
 					<md>
-						<mrow>2(2)(210)+2(2)(9\bar{0})+2(2)(5.3)+3(2)(95)+3(2)(41)+3(2)(5.3) \amp = </mrow>
-						<mrow>810+360+21.2+570+246+31.8 \amp = 2069</mrow>
+						<mrow>2(2)(210\;\text{in}^2)+2(2)(9\bar{0}\;\text{in}^2)+2(2)(5.3\;\text{in}^2)</mrow>
+						<mrow>+3(2)(95\;\text{in}^2)+3(2)(41\;\text{in}^2)+3(2)(5.3\;\text{in}^2) \amp = </mrow>
+						<mrow>810+360+21.2+570+246+31.8\;\text{in}^2 \amp = 2069\;\text{in}^2</mrow>
 					</md>
 				This is <m>2069 \; \text{in}^2</m>.</p>
 			</solution>
@@ -292,7 +293,7 @@
 				<p>What is the area that is hidden, that is, cannot be seen after assembling?</p>
 			</statement>
 			<solution>
-				<p>This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <m>3.5 \times 1.5 \approx 5.3</m>. The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <m>12 \cdot 5.3 \approx 64</m>.</p>
+				<p>This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <m>3.5\;\text{in} \cdot 1.5\;\text{in} \approx 5.3\;\text{in}^2</m>. The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <m>12 \cdot 5.3\;\text{in}^2 \approx 64\;\text{in}^2</m>.</p>
 			</solution>
 		</task>
 	</example>

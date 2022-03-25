@@ -35,12 +35,12 @@
 		</tabular>
 	</table>
 
-	<definition xml:id="definition-linear">
-		<title>Linear</title>
+	<definition xml:id="definition-linear-relation">
+		<title>Linear Relation</title>
 		<statement><p>A relation is <term>linear</term> if and only if the rate of change is constant.</p></statement>
 	</definition>
 
-	<p>Note we used this constant addition property when working with ratio problems like <xref ref="example-ratio-airspeed1" />. A linear relation is one defined by a fixed ratio.</p>
+	<p>Note we used this constant addition property when working with ratio problems like <xref ref="example-ratio-airspeed1" />. Relations defined by fixed ratios like these are linear.</p>
 
 	<exercise xml:id="exercise-vary-linear-check">
 		<statement>
@@ -78,6 +78,11 @@
 			<row><cell>6</cell> <cell>36</cell> <cell>36-25=11</cell> <cell>11-9=2</cell> </row>
 		</tabular>
 	</table>
+
+	<definition xml:id="definition-quadratic-relation">
+		<title>Quadratic Relation</title>
+		<statement><p>A relation is <term>quadratic</term> if and only if the second differences are constant.</p></statement>
+	</definition>
 
 	<example xml:id="example-differences-exponential">
 		<title>Exponential Data</title>
@@ -121,6 +126,11 @@
 		</tabular>
 	</table>
 
+	<definition xml:id="definition-exponential-relation">
+		<title>Exponential Relation</title>
+		<statement><p>A relation is <term>exponential</term> if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.</p></statement>
+	</definition>
+
 </subsection>
 
 <subsection xml:id="subsection-quotients">
@@ -157,12 +167,12 @@
 		</tabular>
 	</table>
 
-	<definition xml:id="definition-exponential">
+	<definition xml:id="definition-exponential-relation-quotient">
 		<title>Exponential</title>
 		<statement><p>A relation is <term>exponential</term> if and only if the percent increase is constant.</p></statement>
 	</definition>
 
-	<p>Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <xref ref="table-ratios-exponential" /> shows an example of both. </p>
+	<p>Althought <xref ref="definition-exponential-relation" /> and <xref ref="definition-exponential-relation-quotient" /> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <xref ref="table-ratios-exponential" /> shows an example of both. </p>
 
 	<table xml:id="table-ratios-exponential">
 		<title>Exponential Data 2 Ways</title>
