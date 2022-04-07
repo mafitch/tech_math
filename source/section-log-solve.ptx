@@ -58,11 +58,11 @@
 <subsection xml:id="subsection-logarithm-property-power">
 	<title>Additional Logarithm Property</title>
 
-	<p>We need one property of logarithms to solve some equations. <me>\log_b(a^p) = p \log_b(a)</me></p>
+	<p>We need one more property of logarithms to solve some equations. <me>\log_b(a^p) = p \log_b(a)</me></p>
 
 	<example xml:id="example-log-power-property">
-		<statement><p>Re-write <m>\log(10^7)</m></p></statement>
-		<solution><p><m>\log(10^7)=7 \log(10) = 7</m>.</p></solution>
+		<statement><p>Evaluate <m>\log(10^7)</m></p></statement>
+		<solution><p><m>\log(10^7)=7 \log(10) = 7</m> because <m>\log(10)</m> is the same as <m>10^x=10</m> so <m>x=1</m>.</p></solution>
 	</example>
 
 	<p>We can use this property to solve equations involving exponentials.</p>
@@ -97,7 +97,20 @@
 
 	<p>We can use the relationship between exponentials and logarithms to solve logarithmic equations as well.</p>
 
-	<example xml:id="example-log-solve">
+	<example xml:id="example-log-solve1">
+		<statement><p>Solve <m>14 = 12+\log(5x)</m>.</p></statement>
+		<solution><p>First we combine the terms outside the logarithm, the we re-write that as an exponential.
+			<md>
+				<mrow>14 &amp; = 12+\log(5x)</mrow>
+				<mrow>2 &amp; = \log(5x)</mrow>
+				<mrow>10^2 &amp; = 5x</mrow>
+				<mrow>100 &amp; = 5x</mrow>
+				<mrow>20 &amp; \approx x</mrow>
+			</md>
+		</p></solution>
+	</example>
+
+	<example xml:id="example-log-solve2">
 		<statement><p>Solve <m>7 = \ln(3x+2)</m>.</p></statement>
 		<solution><p>We re-write this as an exponential.
 			<md>
@@ -109,6 +122,24 @@
 			</md>
 		</p></solution>
 	</example>
+
+	<exercise xml:id="exercise-log-solve-no-context">
+		<webwork>
+			<pg-code>
+				Context("LimitedNumeric");
+				Context()->flags->set(tolType=>absolute);
+				Context()->flags->set(tolType=>0.0001);
+				$p = Compute(random(2,5,1));
+				$c = Compute(random(2,9,1));
+				$s = Compute(random(1,9,1));
+				$ans = e**($p/$c)-$s;
+			</pg-code>
+			<statement>
+				<p>Solve <me><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</me> <m>\ln(<var name="$a"/>)=</m> <var name="$ans" width="12" />.</p>
+				<p>Precision should be at least four decimal places.</p>
+			</statement>
+		</webwork>
+	</exercise>
 
 </subsection>
 
@@ -153,7 +184,7 @@
 		</task>
 		<task>
 			<statement><p>Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.</p></statement>
-			<solution><p>We setup the pH calculation and solve using <xref ref="example-log-solve" />.
+			<solution><p>We setup the pH calculation and solve using <xref ref="example-log-solve2" />.
 				<md>
 					<mrow>5.3 &amp; = -\log(c)</mrow>
 					<mrow>-5.3 &amp; = \log(c)</mrow>
@@ -177,7 +208,7 @@
 		</task>
 		<task>
 			<statement><p>What was the seismic moment for an earthquake with magnitude 7.1?</p></statement>
-			<solution><p>We setup the calculation and solve using <xref ref="example-log-solve" />.
+			<solution><p>We setup the calculation and solve using <xref ref="example-log-solve2" />.
 			<md>
 				<mrow>7.1 &amp; = \frac{2}{3}\log(M_0)-10.7</mrow>
 				<mrow>17.8 &amp; = \frac{2}{3}\log(M_0)</mrow>

@@ -6,6 +6,7 @@
   <!-- source PreTeXt file                                      -->
 	<source webwork-problems="../generated/webwork/webwork-representations.xml" >
 		<directories external="../external" generated="../generated" />
+		<stringparam key="server" value="http://aholiab.uaa.alaska.edu" />
 	</source>
 
   <numbering>
