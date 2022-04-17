@@ -9,10 +9,10 @@
 
 </introduction>
 
-<subsection xml:id="subsection-side-angle-relations">
-	<title>Side/Angle Relationships</title>
+<subsection xml:id="subsection-side-and-angle-relations">
+	<title>Side and Angle Relationships</title>
 
-	<p>The <xref ref="theorem-pythagorean" /> tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means we cannot pick any three side lengths and construct a right triangle (or any triangle) with those lengths.</p>
+	<p>The <xref ref="theorem-pythagorean" /> tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.</p>
 
 	<exercise xml:id="exercise-pyth-find-hyp">
 		<webwork>
@@ -42,35 +42,11 @@
 		</webwork>
 	</exercise>
 
-	<p>Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in <xref ref="figure-trig-truth" /> to see how changing either side length or angle affects the other. </p>
-
-	<figure xml:id="figure-trig-truth">
-		<caption>Sides vs Angles</caption>
-		<interactive platform="geogebra" width="85%" aspect="4:3" preview="images/TriangleSideRatios.png">
-            <slate xml:id="sideratios" surface="geogebra" material="nzb5gsa2" aspect="4:3">
-            	setCoordSystem(-0.5, 5, -3, 7);
-                enableShiftDragZoom(true);
-            </slate>
-        	<instructions>
-        		<p>Use the slider to adjust the angle and see how the side lengths and their ratio change.</p>
-        	</instructions>
-         </interactive>
-     </figure>
-
-     <p>There is also a relationship between the three angles of any triangle.</p>
+    <p>There is also a relationship between the three angles of any triangle.</p>
 
      <theorem xml:id="theorem-triangle-angle-sum">
      	<p>The sum of the angles of any triangle is <m>180^\circ</m>.</p>
      </theorem>
-
-     <example xml:id="example-angle-sum1">
-     	<statement><p>If one angle of a right triangle is <m>55^\circ</m> what is the other angle?</p></statement>
-     	<solution><p>We know one angle is <m>90^\circ</m> (right angle) and another is <m>55^\circ</m>. Thus the third angle must satisfy
-     	<md>
-     		<mrow>90+55+\theta &amp; = 180.</mrow>
-     		<mrow>\theta &amp; = 35.</mrow>
-     	</md></p></solution>
-     </example>
 
      <example xml:id="example-angle-sum2">
      	<statement><p>If two angles of a triangle are <m>40^\circ</m> and <m>70^\circ</m> what is the other angle?</p></statement>
@@ -78,6 +54,15 @@
      	<md>
      		<mrow>40+70+\theta &amp; = 180.</mrow>
      		<mrow>\theta &amp; = 70.</mrow>
+     	</md></p></solution>
+     </example>
+
+     <example xml:id="example-angle-sum1">
+     	<statement><p>If one angle of a right triangle is <m>55^\circ</m> what is the other angle?</p></statement>
+     	<solution><p>We know one angle is <m>90^\circ</m> (right angle) and another is <m>55^\circ</m>. Thus the third angle must satisfy
+     	<md>
+     		<mrow>90+55+\theta &amp; = 180.</mrow>
+     		<mrow>\theta &amp; = 35.</mrow>
      	</md></p></solution>
      </example>
 
@@ -100,7 +85,22 @@
 <subsection xml:id="subsection-trig-ratios-defined">
 	<title>Defining Trig Functions</title>
 
-	<p>Because these side ratios are always the same for any triangle, we can use them to solve problems. First we must learn the names that are used to describe right triangles. Note the names are relative to the angle we are considering. This must be one of the two angles smaller than a right (<m>90^\circ</m>) angle.</p>
+	<p>Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in <xref ref="figure-trig-truth" /> to see how changing either side length or angle affects the other. </p>
+
+	<figure xml:id="figure-trig-truth">
+		<caption>Sides vs Angles</caption>
+		<interactive platform="geogebra" width="85%" aspect="4:3" preview="images/TriangleSideRatios.png">
+            <slate xml:id="sideratios" surface="geogebra" material="nzb5gsa2" aspect="4:3">
+            	setCoordSystem(-0.5, 5, -1, 7);
+                enableShiftDragZoom(true);
+            </slate>
+        	<instructions>
+        		<p>Use the slider to adjust the angle and see how the side lengths and their ratio change.</p>
+        	</instructions>
+         </interactive>
+    </figure>
+
+	<p>Because these side ratios are always the same for any triangle, we can use them to solve problems. First we must learn the names that are used to describe right triangles. Note the names are relative to the angle we are considering. This angle must be one of the two angles smaller than a right (<m>90^\circ</m>) angle.</p>
 	<p>Consider the labels in <xref ref="figure-triangle-side-names" /> The <term>adjacent</term> is the side touching the right angle that is also touching the angle with which we are working. The <term>opposite</term> is the side touching the right angle not touching the angle with which we are working. Both the adjacent and opposite are known as <term>legs</term> of the triangle. The <term>hypotenuse</term> is opposite the right angle (the one side not touching it).</p>
 
 	<figure xml:id="figure-triangle-side-names">
@@ -113,9 +113,12 @@
 	<table xml:id="table-trig-functions">
 		<title>Trig Functions as Ratios</title>
 		<tabular>
-			<row><cell><m>\sin(\alpha) = \frac{\text{opposite}}{\text{hypotenuse}}</m></cell><cell><m>\csc(\alpha) = \frac{\text{hypotenuse}}{\text{opposite}}</m></cell></row>
-			<row><cell><m>\cos(\alpha) = \frac{\text{adjacent}}{\text{hypotenuse}}</m></cell><cell><m>\sec(\alpha) = \frac{\text{hypotenuse}}{\text{adjacent}}</m></cell></row>
-			<row><cell><m>\tan(\alpha) = \frac{\text{opposite}}{\text{adjacent}}</m></cell><cell><m>\cot(\alpha) = \frac{\text{adjacent}}{\text{opposite}}</m></cell></row>
+			<row><cell>sine</cell><cell><m>\sin(\alpha) = \frac{\text{opposite}}{\text{hypotenuse}}</m></cell></row>
+			<row><cell>cosine</cell><cell><m>\cos(\alpha) = \frac{\text{adjacent}}{\text{hypotenuse}}</m></cell></row>
+			<row><cell>tangent</cell><cell><m>\tan(\alpha) = \frac{\text{opposite}}{\text{adjacent}}</m></cell></row>
+			<row><cell>secant</cell><cell><m>\sec(\alpha) = \frac{\text{hypotenuse}}{\text{adjacent}}</m></cell></row>
+			<row><cell>cosecant</cell><cell><m>\csc(\alpha) = \frac{\text{hypotenuse}}{\text{opposite}}</m></cell></row>
+			<row><cell>cotangent</cell><cell><m>\cot(\alpha) = \frac{\text{adjacent}}{\text{opposite}}</m></cell></row>
 		</tabular>
 	</table>
 
@@ -148,7 +151,7 @@
 
 	<example xml:id="example-trig-ratio-scale">
 		<p>Consider a right triangle with side lengths 8, 15, and 17. If <m>A</m> is the angle across from 8, then <m>\sin(A)=\frac{8}{17}</m>.</p>
-		<p>Next consider a right triangle with side lengths 16, 30, and 34. If <m>A</m> is the angle across from 16, then <m>\sin(A)=\frac{16}{34}=\frac{8}{17}</m>. This is the same ratio as the previous triangle.</p>
+		<p>Next consider a right triangle with side lengths 16, 30, and 34. If <m>A</m> is the angle across from 16, then <m>\sin(A)=\frac{16}{34}=\frac{8}{17}</m>. This is the same ratio as the previous triangle although the triangle is larger (double in each side length).</p>
 		<p>Trigonometric functions are ratios which implies that they do not contain information about scale.</p>
 	</example>
 
@@ -165,7 +168,7 @@
 		</tabular>
 	</table>
 
-	<p>Note the notation <m>\sin^{-1} x</m> shows up on calculator keys and in many books. It is unfortunately easy to confuse with <m>(\sin x)^{-1} = \frac{1}{\sin x} = \csc x</m>. Be careful to read the full context of any problem. Your calculator does not have a button for <m>(\sin x)^{-1}</m> and probably not for <m>\csc x</m>. For those you use the <m>1/x</m> button.</p>
+	<p>Note the notation <m>\sin^{-1} x</m> shows up on calculator keys and in many books. It is unfortunately easy to confuse with <m>(\sin x)^{-1} = \frac{1}{\sin x} = \csc x</m>. The relationship between <m>\csc x</m> and <m>\sin x</m> will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for <m>(\sin x)^{-1}</m> and probably not for <m>\csc x</m>. For those you use the <m>1/x</m> button, that is, calculate the <m>\sin x</m> first then invert.</p>
 
 	<example xml:id="example-angle-from-inverse-trig">
 		<statement><p>What is the measure of both non-right angles in <xref ref="figure-trig-function-read" />?</p></statement>
@@ -223,7 +226,7 @@
 
 	<example xml:id="example-triangle-solve1">
 		<statement><p>If <m>\sin \alpha = \frac{12}{13}</m> and the hypotenuse has length 13, what is the length of the adjacent side?</p></statement>
-		<solution><p>Sine is opposite over hypotenuse so, we are looking for the length of the adjacent. Further the opposite has length 12 and the hypotenuse has length 13.
+		<solution><p>Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.
 		<md>
 			<mrow>12^2+b^2 &amp; = 13^2.</mrow>
 			<mrow>b^2 &amp; = 13^2-12^2.</mrow>
@@ -241,7 +244,8 @@
 			<md>
 				<mrow>\frac{14.00}{h} \amp = 0.2800.</mrow>
 				<mrow>14.00 \amp = h \cdot 0.2800. \amp \text{ clearing the denominator}</mrow>
-				<mrow>\frac{14.00}{0.2800} \amp = 50.00.</mrow>
+				<mrow>\frac{14.00}{0.2800} \amp = h.</mrow>
+				<mrow>50.00 \amp = h.</mrow>
 			</md>
 			The hypotenuse has length 50.00.
 			<md>
@@ -294,7 +298,8 @@
 			<mrow>\theta &amp; = 23.</mrow>
 		</md></p>
 		<p>Another option is to recognize that 12/13 is adjacent over hypotenuse for the third angle. Thus it is given by <m>\arccos(12/13) \approx 23</m>.</p>
-		<p>It is also possible to use the third side. We know from <xref ref="example-triangle-solve1" /> that the third side length is 5. Thus the angle is given by <m>\arcsin(5/13) \approx 23</m>.</p></solution>
+		<p>It is also possible to use the third side. We know from <xref ref="example-triangle-solve1" /> that the third side length is 5. Thus the angle is given by <m>\arcsin(5/13) \approx 23</m>.</p>
+		<p>We can select a favorite method in cases like these.</p></solution>
 	</example>
 
 	<example xml:id="example-triangle-solve4">

@@ -135,7 +135,7 @@
 				$ans = e**($p/$c)-$s;
 			</pg-code>
 			<statement>
-				<p>Solve <me><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</me> <m>\ln(<var name="$a"/>)=</m> <var name="$ans" width="12" />.</p>
+				<p>Solve <me><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</me> <m>x=</m> <var name="$ans" width="12" />.</p>
 				<p>Precision should be at least four decimal places.</p>
 			</statement>
 		</webwork>

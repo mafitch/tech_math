@@ -5,45 +5,70 @@
 
 <introduction>
 
-<p>We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths that is always the same for a given ratio no matter the size or location of a triangle. Here we will consider trigonometric functions in context of their graphs which have direct application.</p>
+<p>We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of their graphs which have direct application.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-angles">
 	<title>Beyond Triangles</title>
 
-	<p>In triangles every angle had to be less than <m>180^\circ</m> because the sum of the angles of a triangle are only <m>180^\circ</m>. However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use the the illustration in <xref ref="figure-angle-repeat" /> to see how angles are measured and how the trig functions act on larger angles. Find each of the following.
-	<ul>
-		<li>Angle of measure <m>210^\circ</m></li>
-		<li>Angle of measure <m>-90^\circ</m> (note the illustration won't display a negative angle value, but you can move there)</li>
-		<li>Angle of measure <m>405^\circ</m> (note the illustration won't display an angle value that large, but you can move there)</li>
-		<li><m>\sin(45^\circ)</m> and <m>\sin(315^\circ)</m></li>
-	</ul></p>
+	<p>In triangles every angle had to be less than <m>180^\circ</m> because the sum of the angles of a triangle are only <m>180^\circ</m>. However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use <xref ref="activity-discover-big-angles" /> to explore this idea.</p>
+
+	<activity xml:id="activity-discover-big-angles">
+		<introduction>
+			<p>Use the the illustration in <xref ref="figure-angle-repeat" /> to see how angles are measured and how the trig functions act on larger angles. Find each of the following.</p>
+		</introduction>
+		<task>
+			<introduction><p>Angles of measure <m>30^\circ</m> and <m>210^\circ</m></p></introduction>
+			<task><p>What is the sine value for both points?</p></task>
+			<task><p>Compare the x coordinates of these two points.</p></task>
+			<task><p>Where is the triangle created by the angle <m>210^\circ</m>?</p></task>
+		</task>
+		<task>
+			<introduction><p>Angles of measure <m>45^\circ</m> and <m>315^\circ</m></p></introduction>
+			<task><p>What is the sine value for both points?</p></task>
+			<task><p>Compare the sine values for these two points.</p></task>
+			<task><p>Where is the triangle created by the angle <m>315^\circ</m>?</p></task>
+		</task>
+		<task>
+			<introduction><p>Angles of measure <m>45^\circ</m> and <m>405^\circ</m></p></introduction>
+			<task><p>Compare the sine values for these two points.</p></task>
+			<task><p>Where is the triangle created by the angle <m>315^\circ</m>?</p></task>
+			<task><p>Note the angle displayed at the origin for <m>405^\circ</m>: why does it not match the slider angle?</p></task>
+		</task>
+		<task>
+			<introduction><p>Angles of measure <m>-45^\circ</m> and <m>315^\circ</m></p></introduction>
+			<task><p>Where are the triangles for these two points?</p></task>
+			<task><p>Move the slider from <m>0^\circ</m> to <m>-45^\circ</m>. Which direction does the point move?</p></task>
+			<task><p>Note the angle displayed at the origin: explain why it is reasonable.</p></task>
+		</task>
+	</activity>
 
 	<figure xml:id="figure-angle-repeat">
 		<caption>Bigger Angles</caption>
 	    <interactive platform="geogebra" width="100%" aspect="4:3">
-	        <slate xml:id="geogebra-angle-repeat" surface="geogebra" material="zqv82ck6" aspect="4:3" preview="images/Angles.png">
+	        <slate xml:id="geogebra-angle-repeat" surface="geogebra" material="a4kkmwdt" aspect="4:3" preview="images/Angles.png">
 	                setCoordSystem(-1.1, 1.1, -1.1, 1.1);
-	                enableShiftDragZoom(true);
+	                enableShiftDragZoom(false);
 	        </slate>
 	    	<instructions>
-	        	<p>Move around point B and see how the sine and cosine values change.</p>
+	        	<p>Use the slider to change the angle. Observe how the angle is drawn and how the sine and cosine values change.</p>
+	        	<p>You can drag the slider or click on it and use the arrow keys.</p>
 	        </instructions>
 	    </interactive>
 	</figure>
 
-	<p>We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In <xref ref="figure-graph-sine" /> move around point B until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in <xref ref="figure-graph-sine-long" />. </p>
+	<p>We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In <xref ref="figure-graph-sine" /> drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in <xref ref="figure-graph-sine-long" />. </p>
 
 	<figure xml:id="figure-graph-sine">
 		<caption>Produce Graph of Sine</caption>
 	    <interactive platform="geogebra" width="100%" aspect="4:3">
-	        <slate xml:id="geogebra-graph-sine" surface="geogebra" material="qjdte5eb" aspect="4:3" preview="images/GraphSine.png">
-	                setCoordSystem(-1.1, 6.5, -1.1, 1.1);
-	                enableShiftDragZoom(true);
+	        <slate xml:id="geogebra-graph-sine" surface="geogebra" material="rmsv9eh8" aspect="4:3" preview="images/GraphSine.png">
+	                setCoordSystem(-1, 10, -1.1, 1.1);
+	                enableShiftDragZoom(false);
 	        </slate>
 	    	<instructions>
-	        	<p>Move around point B and produce the graph of sine.</p>
+	        	<p>Use the slider to change the angle and produce the graph of sine. Observe how points on the graph corresponde to heights on the triangle.</p>
 	        </instructions>
 	    </interactive>
 	</figure>
@@ -58,7 +83,9 @@
 		<image source="images/sine-graph-long" width="50%" />
 	</figure>
 
-	<p>Notice that the graph of sine is a wave that repeats. The piece that repeats is called a <term>cycle</term>. In the default graph this is from <m>0^\circ</m> to <m>360^\circ</m>. The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.</p>
+	<p>Notice that the graph of sine is a wave that repeats. The piece that repeats is called a <term>cycle</term>. In the default graph this is from <m>0^\circ</m> to <m>360^\circ</m> as shown in <xref ref="figure-graph-sine" />.</p>
+
+	<p>The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.</p>
 
 	<definition xml:id="definition-period">
 		<title>Period</title>
@@ -84,12 +111,22 @@
 		</sbsgroup>
 	</figure>
 
+	<p>Sometimes instead of measuring how long a single cycle is units of time, we measure how many cycles occur in a fixed unit of time. This is called <term>frequency</term>.</p>
+
 	<definition xml:id="definition-frequency">
 		<title>Frequency</title>
 		<statement><p>The number of waves (periods) that occur per second is called the <term>frequency</term>. This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.</p></statement>
 	</definition>
 
-	<p>Note that frequency is the inverse of the period, that is period measures how many seconds for one cycle and frequency measures how many cycles in one second.</p>
+	<p>Note that frequency is the inverse of the period as shown in <xref ref="table-period-frequency" /></p>
+
+	<table xml:id="table-period-frequency">
+		<title>Period and Frequency are Inverses</title>
+		<tabular top="medium">
+			<row left="medium" bottom="medium"><cell right="medium">Period</cell><cell right="medium">Frequency</cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><m>\frac{1\text{ cycle}}{n\text{ seconds}}</m></cell><cell right="medium"><m>\frac{n\text{ cycles}}{1\text{ second}}</m></cell></row>
+		</tabular>
+	</table>
 
 	<example xml:id="example-period-frequency">
 		<statement><p>If a wave has a period of <m>1/3</m> seconds, what is its frequency?</p></statement>
@@ -107,11 +144,48 @@
 
 	<p>Generally, if the period is <m>T</m> then the frequency is <me>f=\frac{1}{T}.</me></p>
 
-	<example xml:id="example-wave-length-measure">
-		<statement><p>What are the period and wavelength of middle C which is 261.63 Hz?</p></statement>
-		<solution><p>Because we know the frequency we can directly calculate the period. <m>261.63 = 1/T</m> or <me>T=\frac{1}{261.63} \approx 0.0038222</me></p>
-		<p>For the wavelength we need to recall the speed of sound is 1100 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1100 \text{ feet}}{\text{second}} \approx 4.20 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
+	<example xml:id="example-wave-length-sound">
+		<statement><p>What are the period and wavelength of middle C which has frequency 261.63 Hz?</p></statement>
+		<solution><p>Because we know the frequency we can directly calculate the period.
+		<md>
+			<mrow>261.63 \amp = \frac{1}{T}</mrow>
+			<mrow>T \cdot 261.63 \amp = T \cdot \frac{1}{T}</mrow>
+			<mrow>\frac{T \cdot 261.63}{261.33} \amp = \frac{1}{261.33}</mrow>
+			<mrow>T \amp = \frac{1}{261.63}</mrow>
+			<mrow>T \amp \approx 0.0038222</mrow>
+		</md></p>
+		<p>For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
 	</example>
+
+	<example xml:id="example-wave-length-radio">
+		<statement><p>A local AM radio station broadcasts at <m>750.0</m> Hz. Note radio wave move at the speed of light which is approximately <m>2.9979 \times 10^8</m> meters per second. What are the period and wavelength of this radio signal?</p></statement>
+		<solution><p>Because we know the frequency we can directly calculate the period.
+		<md>
+			<mrow>T \amp = \frac{1}{750.0}</mrow>
+			<mrow>T \amp \approx 0.00133</mrow>
+		</md></p>
+		<p>For the wavelength we need to convert units from seconds per cycle to meters per cycle<me>\frac{\text{second}}{750.0} \text{ cycles}} \cdot \frac{2.9979 \times 10^8 \text{ m}}{\text{s}} \approx 3.997 \times 10^5 \frac{\text{feet}}{\text{cycle}}.</me></p>
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-wave-length-sound">
+		<webwork>
+			<statement>
+				<p>Consider a D which has frequency 293.66 Hz</p>
+				<p>What is the period? <var name="0.0034053" width="10" /></p>
+				<p>What is the wavelength? <var name="3.800" width="6" /></p>
+			</statement>
+			<solution><p>Because we know the frequency we can directly calculate the period.
+			<md>
+				<mrow>293.66 \amp = \frac{1}{T}</mrow>
+				<mrow>T \cdot 293.66 \amp = T \cdot \frac{1}{T}</mrow>
+				<mrow>\frac{T \cdot 293.66}{293.66} \amp = \frac{1}{293.66}</mrow>
+				<mrow>T \amp = \frac{1}{293.66}</mrow>
+				<mrow>T \amp \approx 0.0034053</mrow>
+			</md></p>
+			<p>For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{293.66 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 3.800 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
+		</webwork>
+	</exercise>
 
 	<definition xml:id="definition-amplitude">
 		<title>Amplitude</title>
