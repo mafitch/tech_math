@@ -46,8 +46,8 @@
 
 	<figure xml:id="figure-angle-repeat">
 		<caption>Bigger Angles</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3">
-	        <slate xml:id="geogebra-angle-repeat" surface="geogebra" material="a4kkmwdt" aspect="4:3" preview="images/Angles.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Angles.png">
+	        <slate xml:id="geogebra-angle-repeat" surface="geogebra" material="a4kkmwdt" aspect="4:3">
 	                setCoordSystem(-1.1, 1.1, -1.1, 1.1);
 	                enableShiftDragZoom(false);
 	        </slate>
@@ -62,8 +62,8 @@
 
 	<figure xml:id="figure-graph-sine">
 		<caption>Produce Graph of Sine</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3">
-	        <slate xml:id="geogebra-graph-sine" surface="geogebra" material="rmsv9eh8" aspect="4:3" preview="images/GraphSine.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/GraphSine.png">
+	        <slate xml:id="geogebra-graph-sine" surface="geogebra" material="rmsv9eh8" aspect="4:3">
 	                setCoordSystem(-1, 10, -1.1, 1.1);
 	                enableShiftDragZoom(false);
 	        </slate>
@@ -97,19 +97,7 @@
 		<statement><p>The length of a cycle measured in distance is called the <term>wavelength</term>.</p></statement>
 	</definition>
 
-	<figure xml:id="figure-wave-period-wavelength">
-		<caption>Comparison of Period and Wavelength</caption>
-		<sbsgroup>
-			<sidebyside>
-				<image source="images/sinewave1.gif" width="30%" />
-				<image source="images/sinewave2.gif" width="30%" />
-			</sidebyside>
-			<sidebyside>
-				<p>Wavelength 2 and period 1</p>
-				<p>Wavelength 2 and period 2</p>
-			</sidebyside>
-		</sbsgroup>
-	</figure>
+	<video youtube="JIWo8PR12e4" xml:id="video-wave-period-wavelength" />
 
 	<p>Sometimes instead of measuring how long a single cycle is units of time, we measure how many cycles occur in a fixed unit of time. This is called <term>frequency</term>.</p>
 
@@ -206,8 +194,8 @@
 
 	<figure xml:id="figure-sine-transform">
 		<caption>Amplitude and Wavelength</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3">
-	        <slate xml:id="geogebra-sine-transform" surface="geogebra" material="rdfba54j" aspect="4:3" preview="images/SineAmplitudeFrequency.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/SineAmplitudeFrequency.png">
+	        <slate xml:id="geogebra-sine-transform" surface="geogebra" material="rdfba54j" aspect="4:3">
 	                setCoordSystem(-0.1, 5, -5.1, 5.1);
 	        </slate>
 	    	<instructions>

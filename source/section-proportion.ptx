@@ -106,8 +106,8 @@
 
 	<figure xml:id="figure-similar-triangle">
 	    <caption>Similar Triangles</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3">
-	        <slate xml:id="geogebra-similar-triangle" surface="geogebra" material="rwndrtjy" aspect="4:3" preview="images/similar_triangle.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/similar_triangle.png">
+	        <slate xml:id="geogebra-similar-triangle" surface="geogebra" material="rwndrtjy" aspect="4:3">
 	                setCoordSystem(0, 8, -3, 4);
 	                enableShiftDragZoom(true);
 	        </slate>

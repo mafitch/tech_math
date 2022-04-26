@@ -30,8 +30,8 @@
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Surface Area</cell> <cell right="minor">Volume</cell> </row>
-			<row left="minor" bottom="minor"><cell right="minor"><image source="images/triangular_prism" /></cell> <cell right="minor">sum of area of all sides</cell> <cell right="minor">V = B h</cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/triangular_prism" /></p></cell> <cell right="minor"><p>sum of area of all sides</p></cell> <cell right="minor"><m>V = B h</m></cell> </row>
 		</tabular>
 	</figure>
 
@@ -48,7 +48,7 @@
 
 	<figure xml:id="figure-exercise-prism-triangular">
 		<caption>Calculate the surface area and volume</caption>
-		<image source="images/triangular_prism_exercise" width="50%" />
+		<image source="images/triangular_prism_exercise" width="30%" />
 	</figure>
 
 	<definition xml:id="definition-cylinder">
@@ -64,8 +64,8 @@
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Lateral Surface Area</cell> <cell right="minor">Volume</cell> </row>
-			<row left="minor" bottom="minor"><cell right="minor"><image source="images/cylinder" /></cell> <cell right="minor"><m>A=2\pi r \cdot h</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cylinder" /></p></cell> <cell right="minor"><m>A=2\pi r \cdot h</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
 		</tabular>
 	</figure>
 
@@ -78,8 +78,8 @@
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Surface Area</cell> <cell right="minor">Volume</cell> </row>
-			<row left="minor" bottom="minor"><cell right="minor"><image source="images/sphere" /></cell> <cell right="minor"><m>A=4\pi r^2</m></cell> <cell right="minor"><m>V = \frac{4}{3}\pi r^3 </m></cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/sphere" /></p></cell> <cell right="minor"><m>A=4\pi r^2</m></cell> <cell right="minor"><m>V = \frac{4}{3}\pi r^3 </m></cell> </row>
 		</tabular>
 	</figure>
 
@@ -90,8 +90,8 @@
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Surface Area</cell> <cell right="minor">Volume</cell> </row>
-			<row left="minor" bottom="minor"><cell right="minor"><image source="images/pyramid1" /></cell> <cell right="minor">sum of surfaces</cell> <cell right="minor"><m>V = \frac{1}{3} B h </m></cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid1" /></p></cell> <cell right="minor"><p>sum of surfaces</p></cell> <cell right="minor"><m>V = \frac{1}{3} B h </m></cell> </row>
 		</tabular>
 	</figure>
 
@@ -119,7 +119,7 @@
 
 	<figure xml:id="figure-pyramid">
 		<caption>Pyramid with a square base</caption>
-		<image source="images/pyramid-triangular-exercise" width="50%" />
+		<image source="images/pyramid-triangular-exercise" width="30%" />
 	</figure>
 
 	<figure xml:id="figure-cone-properties">
@@ -129,8 +129,8 @@
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Lateral Surface Area</cell> <cell right="minor">Volume</cell> </row>
-			<row left="minor" bottom="minor"><cell right="minor"><image source="images/cone" /></cell> <cell right="minor"><m>A=\pi r (r+\sqrt{h^2+r^2})</m></cell> <cell right="minor"><m>V = \frac{\pi}{3} r^2 h </m></cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone" /></p></cell> <cell right="minor"><m>A=\pi r (r+\sqrt{h^2+r^2})</m></cell> <cell right="minor"><m>V = \frac{\pi}{3} r^2 h </m></cell> </row>
 		</tabular>
 	</figure>
 
@@ -143,8 +143,8 @@
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Lateral Surface Area</cell> <cell right="minor">Volume</cell> </row>
-			<row left="minor" bottom="minor"><cell right="minor"><image source="images/pyramid-frustrum" /></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid-frustrum" /></p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
 		</tabular>
 	</figure>
 
@@ -185,8 +185,8 @@
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor">Shape</cell> <cell right="minor">Lateral Surface Area</cell> <cell right="minor">Volume</cell> </row>
-			<row left="minor" bottom="minor"><cell right="minor"><image source="images/cone-frustrum" /></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
+			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone-frustrum" /></p></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
 		</tabular>
 	</figure>
 
@@ -218,7 +218,7 @@
 
 	<figure xml:id="figure-ice-cream">
 		<caption>Ice Cream for Volume and Surface Area</caption>
-		<image source="images/cone-sphere" width="50%" />
+		<image source="images/cone-sphere" width="30%" />
 	</figure>
 
 </subsection>
