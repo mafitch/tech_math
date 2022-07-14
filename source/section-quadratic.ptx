@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-quadratic" >
+<title>Quadratics</title>
+
+<introduction>
+
+<p>In <xref ref="section-variation" /> we learned to identify data that has a quadratic relation. Here we will learn to recognize these in algebraic notation and review their properties.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-quadratic-forms">
+	<title>Algebraic Forms of Quadratics</title>
+
+	<p><term>Quadratic</term> refers to any expression or equation that has a non-zero squared term. <xref ref="table-quadratic-appearance" /> shows some of the common forms.</p>
+
+	<table xml:id="table-quadratic-appearance">
+		<title>Quadratic and Non-quadratic</title>
+		<tabular top="medium" bottom="medium" left="medium" right="medium">
+			<row><cell>Quadratic</cell><cell>Non-quadratic</cell></row>
+			<row><cell><m>11x^2+32x-3</m></cell><cell><m>5x+3</m></cell></row>
+			<row><cell><m>2(x-3)^2+7</m></cell><cell><m>y=x^3+7x^2-5x+3</m></cell></row>
+			<row><cell><m>y=23-3x^2</m></cell><cell><m>y=\frac{17}{x^2}</m></cell></row>
+			<row><cell><m>x(6x-5)=21</m></cell><cell><m>x^2(x-5)=7</m></cell></row>
+			<row><cell><m>y=(x+3)(x-5)</m></cell><cell><m>y=0x^2+3x+2</m></cell></row>
+		</tabular>
+	</table>
+
+	<p>The first two forms of quadratics above are common because they are useful for various applications. The first one, called <term>standard form</term>, is written as <m>ax^2+bx+c</m> where <m>a \ne 0</m>. For <m>11x^2+32x-3</m>, <m>a=11</m>, <m>b=32</m>, and <m>c=-3</m>. We will use this form in this section for the purpose of solving.</p>
+
+</subsection>
+
+<subsection xml:id="subsection-quadratic-pattern" >
+	<title>Quadratic Pattern</title>
+
+	<p>We can show that expressions in these forms produce the data pattern we identified in <xref ref="example-differences-quadratic" />. <xref ref="table-square-is-quadratic" /> demonstrates that <m>2x^2+3x+2</m> has the same pattern with second differences.</p>
+
+	<table xml:id="table-square-is-quadratic">
+		<title>Data for Quadratic</title>
+		<tabular>
+			<row><cell><m>x</m></cell> <cell><m>2x^2+3x+2</m></cell> <cell>1st Difference</cell> <cell>2nd Difference</cell> </row>
+			<row><cell>-3</cell> <cell>11</cell> <cell></cell> <cell></cell> </row>
+			<row><cell>-2</cell> <cell>4</cell> <cell>-7</cell> <cell></cell> </row>
+			<row><cell>-1</cell> <cell>1</cell> <cell>-3</cell> <cell>4</cell> </row>
+			<row><cell>0</cell> <cell>2</cell> <cell>1</cell> <cell>4</cell> </row>
+			<row><cell>1</cell> <cell>7</cell> <cell>5</cell> <cell>4</cell> </row>
+			<row><cell>2</cell> <cell>16</cell> <cell>9</cell> <cell>4</cell> </row>
+		</tabular>
+	</table>
+
+</subsection>
+
+</section>

@@ -56,7 +56,9 @@ Copyright 2020 Mark A. Fitch
        <chapter xml:id="chapter-quadratic" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Quadratics</title>
 
+            <xi:include href="./section-quadratic.ptx" />         <!-- Quadratics in symbolic form, solving -->
             <xi:include href="./section-quadratic-solve.ptx" />         <!-- Quadratics in symbolic form, solving -->
+            <xi:include href="./section-roots.ptx" />         <!-- Reversed quadratics -->
             <xi:include href="./section-quadratic-graph.ptx" />         <!-- Understanding transformations -->
         </chapter>
 

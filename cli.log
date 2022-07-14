@@ -1,0 +1,23 @@
+INFO    :  PreTeXt project found in `D:\Documents\texts\tech_math`.
+WARNING :  Project's CLI version could not be detected from `requirements.txt`.
+WARNING :  Try `pretext init --refresh` to produce a compatible file.
+INFO    :  
+WARNING :  Assets like latex-images will not be regenerated for this build
+WARNING :  (previously generated assets will be used if they exist).
+WARNING :  To generate these assets before building, run `pretext build -g`.
+INFO    :  Preparing to build into D:\Documents\texts\tech_math\output\html.
+INFO    :  
+Now building HTML into D:\Documents\texts\tech_math\output\html
+
+INFO    :  discovering source file's directory name: D:\Documents\texts\tech_math\source
+INFO    :  verifying and expanding input directory: D:\Documents\texts\tech_math\source\../generated
+INFO    :  input directory expanded to absolute path: D:\Documents\texts\tech_math\generated
+INFO    :  verifying and expanding input directory: D:\Documents\texts\tech_math\source\../external
+INFO    :  input directory expanded to absolute path: D:\Documents\texts\tech_math\external
+INFO    :  converting D:\Documents\texts\tech_math\source\techmath.ptx to HTML in C:\Users\drmaf\AppData\Local\Temp\tmpjrieaf3_
+INFO    :  XSL conversion of D:\Documents\texts\tech_math\source\techmath.ptx by C:\bin\Anaconda3\lib\site-packages\pretext\static\xsl\pretext-html.xsl
+INFO    :  comprehensive messages, warnings, and errors:
+INFO    :  successful application of C:\bin\Anaconda3\lib\site-packages\pretext\static\xsl\pretext-html.xsl
+INFO    :  
+Success! Run `pretext view html` to see the results.
+
