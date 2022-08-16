@@ -5,17 +5,19 @@
 
 <introduction>
 
-<p>We have learned how to identify exponential data (<xref ref="section-variation" />) and some applications (<xref ref="section-exponential" />). Here we will consider traits of graphs of exponential functions.</p>
+<p>We have learned how to identify exponential data (<xref ref="section-variation" />) and have learned to work with some exponential applications (<xref ref="section-exponential" />). Here we will consider traits of graphs of exponential functions.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-exponential-shape">
 	<title>Shape of Exponentials</title>
 
-	<p>Our first examples are discrete data. For example the number of views per day. That can be 10 or 21 but never 21.3 (we are not adding up percent of video viewed). <xref ref="figure-exponential-discrete-graph" /> contains a bar chart for exponential data.</p>
+	<p>Our first examples are discrete data. One example is the number of views of a video per day. This can be 10 or 21 but never 21.3 (we are not considering the percent of a video viewed). <xref ref="figure-exponential-discrete-graph" /> contains a bar chart for exponential data.</p>
+
+	<p>First, we ask ourselves how we can identify discrete exponential relations from a graph, and consider how we should make graphs so the distinction between exponential growth and other growth is clear.</p>
 
 	<exercise xml:id="exercise-compare-exponential-quadratic">
-		<introduction><p>Compare the exponential data in <xref ref="figure-exponential-discrete-graph" /> to the quadratic data in <xref ref="figure-quadratic-discrete-graph" />. We know that the exponential grows faster than the quadratic.</p></introduction>
+		<introduction><p>Compare the exponential data in <xref ref="figure-exponential-discrete-graph" /> to the quadratic data in <xref ref="figure-quadratic-discrete-graph" />. We know that the exponential grows faster than the quadratic from <xref ref="subsection-vary-fast" />.</p></introduction>
 		<task>
 			<statement><p>What (if anything) makes it clear that the exponential data is growing faster?</p></statement>
 		</task>
@@ -26,21 +28,18 @@
 
 	<p>We know that factorial data grows faster than exponential data. Repeat <xref ref="exercise-compare-exponential-quadratic" /> with the exponential and factorial graphs.</p>
 
-	<figure xml:id="figure-exponential-discrete-graph">
-		<caption>Bar Chart of Exponential Data</caption>
-
-		<image source="images/exponential-discrete-graph" width="50%" />
-	</figure>
-
 	<figure xml:id="figure-quadratic-discrete-graph">
 		<caption>Bar Chart of Quadratic Data</caption>
-
 		<image source="images/quadratic-discrete-graph" width="50%" />
+	</figure>
+
+	<figure xml:id="figure-exponential-discrete-graph">
+		<caption>Bar Chart of Exponential Data</caption>
+		<image source="images/exponential-discrete-graph" width="50%" />
 	</figure>
 
 	<figure xml:id="figure-factorial-discrete-graph">
 		<caption>Bar Chart of Factorial Data</caption>
-
 		<image source="images/factorial-discrete-graph" width="50%" />
 	</figure>
 
@@ -51,8 +50,16 @@
 		<solution>
 			<p>First we will generate a table of points with which to start.</p>
 			<tabular top="medium">
-				<row bottom="medium" left="medium"><cell right="medium">x</cell> <cell right="medium">-4</cell> <cell right="medium">-3</cell> <cell right="medium">-2</cell> <cell right="medium">-1</cell> <cell right="medium">0</cell> <cell right="medium">1</cell> <cell right="medium">2</cell> <cell right="medium">3</cell> <cell right="medium">4</cell></row>
-				<row bottom="medium" left="medium"><cell right="medium">2^x</cell> <cell right="medium"><m>2^{-4}=\frac{1}{2^4}=\frac{1}{16}</m></cell> <cell right="medium"><m>2^{-3}=\frac{1}{2^3}=\frac{1}{8}</m></cell> <cell right="medium"><m>2^{-2}=\frac{1}{2^2}=\frac{1}{4}</m></cell> <cell right="medium"><m>2^{-1}=\frac{1}{2^1}=\frac{1}{2}</m></cell> <cell right="medium"><m>2^0=1</m></cell> <cell right="medium"><m>2^1=2</m></cell> <cell right="medium"><m>2^2=4</m></cell> <cell right="medium"><m>2^3=8</m></cell> <cell right="medium"><m>2^4=16</m></cell></row>
+				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>2^x</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-4</m></cell> <cell><m>2^{-4}=\frac{1}{2^4}</m></cell><cell right="medium"><m>=\frac{1}{16}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-3</m></cell> <cell><m>2^{-3}=\frac{1}{2^3}</m></cell><cell right="medium"><m>=\frac{1}{8}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2^{-2}=\frac{1}{2^2}</m></cell><cell right="medium"><m>=\frac{1}{4}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2^{-1}=\frac{1}{2^1}</m></cell><cell right="medium"><m>=\frac{1}{2}</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>2^0</m></cell><cell right="medium"><m>=1</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>2^1</m></cell><cell right="medium"><m>=2</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2^2</m></cell><cell right="medium"><m>=4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>3</m></cell> <cell><m>2^3</m></cell><cell right="medium"><m>=8</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>4</m></cell> <cell><m>2^4</m></cell><cell right="medium"><m>=16</m></cell></row>
 			</tabular>
 			<p>We can plot these points then sketch a curve smoothly through the points.</p>
 			<image source="images/graph-exponential-continuous" width="50%" />
@@ -61,6 +68,56 @@
 
 	<exercise xml:id="exercise-exponential-continuous-describe">
 		<statement><p>Describe the curve in <xref ref="example-graph-exponential-continous" />. Don't try to remember mathematical terms. What we need is phrasing we can remember and use to sketch other exponential curves.</p></statement>
+	</exercise>
+
+	<p>In <xref ref="subsection-vary-fast" /> we looked at exponentials as they increase which on all of these graphs is toward the right. Now we will consider the exponential going to the left.</p>
+
+	<example xml:id="example-exponential-decrease1" >
+		<p>In <xref ref="exercise-exponential-bacillus-megaterium" /> we determined that the amount of bacteria was modeled by <me>b = 30(2^{t/25})</me>. Initially (<m>t=0</m>) there are 30 g of bacteria. Now we will calculate how much bacteria there was before this initial measurement.</p>
+		<tabular top="medium">
+			<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>30(2^{0/25})</m></cell><cell><m>=30 \cdot 1</m></cell><cell right="medium"><m>=30</m></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-25</m></cell> <cell><m>30(2^{-25/25})</m></cell><cell><m>=30 \cdot \frac{1}{2}</m></cell><cell right="medium"><m>=15</m></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-25</m></cell> <cell><m>30(2^{-50/25})</m></cell><cell><m>=30 \cdot \frac{1}{4}</m></cell><cell right="medium"><m>=15</m></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-25</m></cell> <cell><m>30(2^{-75/25})</m></cell><cell><m>=30 \cdot \frac{1}{8}</m></cell><cell right="medium"><m>=7.5</m></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-25</m></cell> <cell><m>30(2^{-100/25})</m></cell><cell><m>=30 \cdot \frac{1}{16}</m></cell><cell right="medium"><m>=3.75</m></cell></row>
+		</tabular>
+		<p>We notice that the amount of bacteria decreases. More specifically we see that it is divided in half each time. This is in contrast to doubling each time as it grows.</p>
+		<p>We also notice that because it is divided in half, there is always some left. No matter how far back in time we go, there will always be some. This is part of all exponentials: rapid growth in one direction and a gentle decrease toward some amount (zero in this case) in the other direction.</p>
+		<p>The model measures the bacteria by weight in grams. This can always be cut in half. What reality constraint should we put on this model?</p>
+	</example>
+
+	<p>Radioactive substances are not stable. The radiation they give off is the result of the atoms breaking down into other substances. This means that the amount of the original substance decreases over time. It has been shown that this decrease is exponential. The rate of decay is expressed in <term>half-life</term>, the amount of time for the substance to be reduced by half.</p>
+
+	<example xml:id="exponential-decrease-radioactive-decay">
+		<introduction>
+			<p>Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with <m>13\bar{0}</m> g of uranium-242.</p>
+		</introduction>
+		<task>
+			<statement><p>How much is left at times 16.8, 33.6, and 50.4 minutes?</p></statement>
+			<solution><p>At time 0 we have <m>13\bar{0}</m> g. At time 16.8 it will be half of the original which is <m>65</m> g. At time 33.6 it will be reduced by half twice (<m>33.6/18.8=2</m>). Thus there will be <m>\frac{13\bar{0}}{2 \cdot 2} \approx 33</m> g. At time 50.4 it will be reduced by half three times (<m>50.4/16.8=3</m>), so the amount remaining will be <m>\frac{13\bar{0}}{2 \cdot 2 \cdot 2} \approx 17</m> g.</p></solution>
+		</task>
+		<task>
+			<statement><p>Write a model for this decay.</p></statement>
+			<solution><p>We can use the process from <xref ref="subsection-exponential-application" />. The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is <m>\frac{1}{2}</m>. <me>A = 13\bar{0}\left(\frac{1}{2}\right)^{t/16.8}</me></p></solution>
+		</task>
+		<task>
+			<statement><p>Graph this model.</p></statement>
+			<solution><p>We can use the points from the first task and the method from <xref ref="example-graph-exponential-continous" />.</p>
+			<image source="images/exp_decay1" width="50%" />
+			<p>Notice the gentle decrease toward zero is to the right this time as opposed to the left in <xref ref="example-graph-exponential-continous" />. That is because we are cutting in half each time instead of doubling.</p></solution>
+		</task>
+	</example>
+
+	<exercise xml:id="exercise-exponential-medicine-half-life">
+		<webwork>
+			<statement>
+				<p>Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6 hours. Suppose Victor is prescribed <m>5\bar{0}</m> mg/day. If Victor takes his first 50 mg pill Monday morning, how much is still in his blood Tuesday morning at the same time? <var name="'3'" width="4" /> </p>
+				<p>Graph the amount of atenolol in his blood for the first day.</p>
+			</statement>
+			<solution>
+				<p>A day is 24 hours so there are <m>24/6=4</m> times that the amount of the drug in the body will be reduced by half. Because the initial amount was <m>5\bar{0}</m> mg the amount the next day is <me>\frac{50}{2^4} \approx 3</me></p>
+			</solution>
+		</webwork>
 	</exercise>
 
 </subsection>

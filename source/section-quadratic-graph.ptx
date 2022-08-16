@@ -18,12 +18,12 @@
 		<statement>
 			<p>First we complete this table</p>
 			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>x^2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2)^2=4</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium">(-1)^2=1</cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium">0^2=0</cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium">1^2=1</cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium">2^2=4</cell></row>
+				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>x^2</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>(-2)^2</m></cell><cell right="medium"><m>=4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>(-1)^2</m></cell><cell right="medium"><m>=1</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>0^2</m></cell><cell right="medium"><m>=0</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>1^2</m></cell><cell right="medium"><m>=1</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2^2</m></cell><cell right="medium"><m>=4</m></cell></row>
 			</tabular>
 			<p>Next we graph these points and sketch the graph through them.</p>
 			<image source="images/parabola-graph" width="50%" />
@@ -32,6 +32,23 @@
 
 	<p>Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the <term>vertex</term>. It is at (0,0) for this parabola.</p>
 	<p>Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the <term>line of symmetry</term>. In this case that is the vertical line <m>x=0</m>.</p>
+
+	<example xml:id="example-graph-parabola-general">
+		<statement>
+			<p>We will graph <m>y=2(x-1)^2-4</m>. First we complete this table</p>
+			<tabular top="medium">
+				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>2(x-1)^2-4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2(-2-1)^2-4</m></cell><cell right="medium"><m>=14</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2(-1-1)^2-4</m></cell><cell right="medium"><m>=4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>2(0-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>2(1-1)^2-4</m></cell><cell right="medium"><m>=-4</m></cell></row>
+				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2(2-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
+			</tabular>
+			<p>Next we graph these points and sketch the graph through them.</p>
+			<image source="images/parabola-graph2" width="50%" />
+			<p>Notice that this time the vertex is at <m>(1,-4)</m>. The line of symmetry is <m>x=1</m>.</p>
+		</statement>
+	</example>
 
 </subsection>
 

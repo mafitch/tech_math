@@ -11,7 +11,7 @@
 	<p>For an unrelated example of a model, consider dropping a ball off a cliff. Ignoring air resistance, the ball’s position can be modeled by the equation <m>h = kt^2</m>, where <m>t</m> is the time and <m>h</m> is the height of the ball. There are some other numbers that go in there, but what is changing is the time and position (height). That equation framework is the mathematical model.</p>
 	<p>You may find this to be a challenging project. Do the best you can and use your own common sense. Math should make sense! After you finish this, please read back over your work and make sure your answers are logically consistent.</p>
 	<p>Remember that you can ask questions and meet up with a tutor, but you should <em>not</em> be looking up answers or just writing down what someone else says. Do not let someone else copy your answers. That is academic dishonesty and you should not allow it. Your work should be your own.</p>
-	<p>For this project, imagine that you are working with radioactive material. Since we don’t want you harmed by radiation, we should understand how time and distance impacts the radioactive dose. (You should also be behind material that shields you from the radiation, but that math is more complicated, so we’ll focus on time and distance.)</p>
+	<p>For this project, imagine that you are working with radioactive material. Since we do not want you harmed by radiation, we should understand how time and distance impacts the radioactive dose. (You should also be behind material that shields you from the radiation, but that math is more complicated, so we’ll focus on time and distance.)</p>
 </introduction>
 
 <task><statement><p>As your time near a radioactive source increases, does the radiation level in your body increase, decrease, or stay the same?</p></statement></task>
@@ -29,10 +29,10 @@
 	<p>We have determined the relation between time and radiation exposure. Next we determine the relation between distance to radiation source and radiation exposure. These can be different.</p>
 	<p>Radiation radiates outwards from a source evenly in all directions (like light radiates out evenly from a lightbulb) unless it is obstructed by something (like a lead shield). Imagine a radiation source floating in the center of a sphere. All parts of the sphere would be getting hit with an equal amount of radiation. We are going to figure out the radiation for a given patch of area on this sphere.</p>
 <p>It will be helpful to know the following formula: <m>A=4\pi r^2</m>, where A is the surface area of the sphere and r is the radius of the sphere.</p>
-<p>If a sphere had a radius of 2 m, what is the surface area of the sphere? Remember to include units. Leave your answer in terms of π (meaning it should look like <fillin />π <quantity><unit base="meter" exp="2" /></quantity>).</p></statement></task>
+<p>If a sphere had a radius of 2 m, what is the surface area of the sphere? Remember to include units. Leave your answer in terms of <m>\pi</m> (meaning it should look like <fillin /><m>\pi</m> <quantity><unit base="meter" exp="2" /></quantity>).</p></statement></task>
 
 <task>
-	<introduction><p>A very rough approximation of the surface area of the front of a person is 1 <quantity><unit base="meter" exp="2" /></quantity>. We will consider what percent of the surface area of a sphere this is.</p>
+	<introduction><p>A very rough approximation of the surface area of the front of a person is <quantity><mag>1</mag><unit base="meter" exp="2" /></quantity>. We will consider what percent of the surface area of a sphere this is.</p>
 	<figure xml:id="figure-sphere-runner">
 		<caption>Surface Area Ratio</caption>
 		<sidebyside widths="15%, 30%" valign="middle">
@@ -41,26 +41,26 @@
 		</sidebyside>
 	</figure></introduction>
 	<task><statement>
-		<p>What percent of the surface area of a sphere of radius 1 is 1 <quantity><unit base="meter" exp="2" /></quantity>?</p>
+		<p>What percent of the surface area of a sphere of radius 1 is <quantity><mag>1</mag><unit base="meter" exp="2" /></quantity>?</p>
 	</statement></task>
 	<task><statement>
-		<p>What percent of the surface area of a sphere of radius 2 is 1 <quantity><unit base="meter" exp="2" /></quantity>?</p>
+		<p>What percent of the surface area of a sphere of radius 2 is <quantity><mag>1</mag><unit base="meter" exp="2" /></quantity>?</p>
 	</statement></task>
 	<task><statement>
 		<p>Why does the change in percent make sense? See <xref ref="figure-sphere-runner" />.</p>
 	</statement></task>
 	<task><statement>
-		<p>In general as the radius increases what will the percent of the surface that is 1 <quantity><unit base="meter" exp="2" /></quantity> do? Increase/remain the same/decrease?</p>
+		<p>In general as the radius increases what will the percent of the surface that is <quantity><mag>1</mag><unit base="meter" exp="2" /></quantity> do? Increase/remain the same/decrease?</p>
 	</statement></task>
 </task>
 
 <task>
 	<introduction><p>Note that the amount of radiation (energy) remains the same regardless of the radius of the sphere. That is a sphere with radius 1 and surface area <m>4\pi</m> has the same energy as a sphere with radius 2 and surface area <m>16\pi</m>.</p></introduction>
 	<task><statement>
-		<p>If the radiation is being emitted at an intensity of <m>5</m> Sieverts per hour (<quantity><unit base="sievert" /><per base="hour" /></quantity>), what amount of radiation will be hitting our 1 <quantity><unit base="meter" exp="2" /></quantity> person who is at a distance of 1 <quantity><unit base="meter" /></quantity> from the source?</p>
+		<p>If the radiation is being emitted at an intensity of <m>5</m> Sieverts per hour (<quantity><unit base="sievert" /><per base="hour" /></quantity>), what amount of radiation will be hitting our <quantity><mag>1</mag><unit base="meter" exp="2" /></quantity> person who is at a distance of <quantity><mag>1</mag><unit base="meter" /></quantity> from the source?</p>
 	</statement></task>
 	<task><statement>
-		<p>If the radiation is being emitted at an intensity of <m>5</m> Sieverts per hour (<quantity><unit base="sievert" /><per base="hour" /></quantity>), what amount of radiation will be hitting our 1 <quantity><unit base="meter" exp="2" /></quantity> person who is at a distance of 2 <quantity><unit base="meter" /></quantity> from the source?</p>
+		<p>If the radiation is being emitted at an intensity of <m>5</m> Sieverts per hour (<quantity><unit base="sievert" /><per base="hour" /></quantity>), what amount of radiation will be hitting our <quantity><mag>1</mag><unit base="meter" exp="2" /></quantity> person who is at a distance of <quantity><mag>2</mag><unit base="meter" /></quantity> from the source?</p>
 	</statement></task>
 	<task><statement>
 		<p>In general as the distance (radius) increases what happens to the amount of radiation absorbed by the person do? Increase/remain the same/decrease?</p>
@@ -78,12 +78,12 @@
 		    <col width="15%" />
 			<col width="35%" />
 			<col width="20%" />
-			<row left="medium" bottom="medium"><cell right="medium"><p>Radius of circle</p></cell><cell right="medium"><p>Ratio of 1 <quantity><unit base="meter" exp="2" /></quantity> to surface area</p></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><p>Radius of circle</p></cell><cell right="medium"><p>Ratio of <quantity><mag>1</mag><unit base="meter" exp="2" /></quantity> to surface area</p></cell></row>
 			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>2</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell></row>
 			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>3</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell></row>
 			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>4</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell></row>
 			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>5</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell></row>
-			<row left="medium" bottom="medium"><cell right="medium"><p><quantity><mag>r</mag><unit base="meter" /></quantity></p></cell><cell right="medium"></cell></row>
+			<row left="medium" bottom="medium"><cell right="medium"><p>r <quantity><unit base="meter" /></quantity></p></cell><cell right="medium"></cell></row>
 		</tabular></table>
 	</statement></task>
 
@@ -96,7 +96,7 @@
 
 <task><statement><p>Is the relationship between distance and the potential amount of radiation hitting the person better modeled by direct variation or inverse variation?</p></statement></task>
 
-<task><statement><p>Consider the numbers 16, 36, 64, 100. These numbers are significant in mathematics. What is the pattern or significance of these numbers? (Note: you only see these numbers if you completed the table in terms of π (don’t multiply and round). Go back and fix your table if you don’t see these numbers.)</p></statement></task>
+<task><statement><p>Consider the numbers 16, 36, 64, 100. These numbers are significant in mathematics. What is the pattern or significance of these numbers? (Note: you only see these numbers if you completed the table in terms of <m>\pi</m> (do not multiply and round). Go back and fix your table if you do not see these numbers.)</p></statement></task>
 
 <task xml:id="task-sphere-increase"><statement><p>As the radius of the sphere increases, does the level of radiation hitting our person-sized cutout increase or decrease? Does this increase or decrease change linearly (at a constant rate) or non-linearly (at a changing rate)? Circle the appropriate answer.</p>
 

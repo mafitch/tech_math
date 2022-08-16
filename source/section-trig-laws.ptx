@@ -5,16 +5,21 @@
 
 <introduction>
 
-<p>In <xref ref="section-trig-functions" /> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangle. Here we learn some relationships that do not require any angle to be a right angle.</p>
+<p>In <xref ref="section-trig-functions" /> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.</p>
 
-<p>Note the one relationship that did not require a right angle is that the sum of the angles of a triangle always adds to <m>180^\circ</m>. We expressed this as <m>\alpha+\theta+90^\circ = 180^\circ</m>.The <m>90^\circ</m> in the expression was for the right angle.</p>
+<p>Note the one relationship that did not require a right angle is the angle sum property <xref ref="theorem-triangle-angle-sum" />.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-law-sines">
 	<title>Law of Sines</title>
 
-	<p>In <xref ref="figure-trig-truth" /> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. This relationship is the ratio in <xref ref="equation-law-sines" />. <men xml:id="equation-law-sines"> \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.</men> </p>
+	<p>In <xref ref="figure-trig-truth" /> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.</p>
+
+	<theorem xml:id="theorem-law-sines">
+		<title>Law of Sines</title>
+		<p>For a triangle with angles and sides as labeled in <xref ref="figure-triangle-labeled" />, <me> \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.</me> </p>
+	</theorem>
 
 	<figure xml:id="figure-triangle-labeled">
 		<caption>Labeled Triangle</caption>
@@ -28,7 +33,7 @@
 			<solution><p>According to the law of sines
 				<md>
 					<mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}.</mrow>
-					<mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ).</mrow>
+					<mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \text{ Clearing the denominators}</mrow>
 					<mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}.</mrow>
 					<mrow> \amp \approx 5.54.</mrow>
 				</md>
@@ -39,7 +44,7 @@
 			<solution><p>We can use the angle sum fact to calculate the third angle. <m>50+45+\alpha=180</m> so <m>\alpha=85</m>. The side length can be calculated using the law of sines.
 			<md>
 					<mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}.</mrow>
-					<mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ).</mrow>
+					<mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \text{ Clearing the denominators}</mrow>
 					<mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}.</mrow>
 					<mrow> \amp \approx 7.80.</mrow>
 				</md>
@@ -54,7 +59,7 @@
 			<solution><p>We can use the law of sines.
 				<md>
 					<mrow>\frac{\sin(40^\circ)}{5} \amp = \frac{\sin(B)}{6.74}.</mrow>
-					<mrow>6.75 \sin(40^\circ) \amp = 5\sin(B).</mrow>
+					<mrow>6.75 \sin(40^\circ) \amp = 5\sin(B). \amp \text{ Clearing the denominators}</mrow>
 					<mrow>\frac{6.75 \sin(40^\circ)}{5} \amp = \sin(B)</mrow>
 					<mrow>\arcsin\left(\frac{6.75 \sin(40^\circ)}{5}\right) \amp = B.</mrow>
 					<mrow>60.20 \approx B.</mrow>
@@ -90,8 +95,8 @@
 	<p>We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.</p>
 
 	<example xml:id="example-angle-side-side">
-		<statement><p>A triangle has an angle of measure <m>45^\circ</m> and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?</p></statement>
-		<solution><p>We can try to use the law of sines.
+		<p>A triangle has an angle of measure <m>45^\circ</m> and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?</p>
+		<p>We can try to use the law of sines.
 			<md>
 				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(\theta)}{5}.</mrow>
 				<mrow>5 \cdot \frac{\sin(45^\circ)}{4} \amp = \sin(\theta).</mrow>
@@ -105,32 +110,41 @@
 				<mrow>c \amp = 4 \frac{\sin(72.89^\circ)}{\sin(45^\circ)}.</mrow>
 				<mrow>c \amp \approx 5.41.</mrow>
 			</md>
-		</p></solution>
-		<solution><p>Note <m>\sin(117.89^\circ)=\sin(62.11^\circ)</m>. If we use <m>117.89^\circ</m> as the second angle, the third angle is <m>45+117.89+\alpha = 180</m> or <m>\alpha \approx 17.11^\circ</m>.
+		This gives us a triangle with angles: <m>45^\circ, 62.11^\circ, 72.89^\circ</m>; and with side lengths: 4, 5, and 5.41.
+		</p>
+		<p>Note <m>\sin(117.89^\circ)=\sin(62.11^\circ)</m>, that is,  If we use <m>117.89^\circ</m> as the second angle, the third angle is <m>45+117.89+\alpha = 180</m> or <m>\alpha \approx 17.11^\circ</m>.
 			<md>
 				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(17.11^\circ)}{c}.</mrow>
 				<mrow>c \sin(45^\circ) \amp = 4\sin(17.11^\circ).</mrow>
 				<mrow>c \amp = 4 \frac{\sin(17.11^\circ)}{\sin(45^\circ)}.</mrow>
 				<mrow>c \amp \approx 1.66.</mrow>
 			</md>
-		Notice we have two, distinct triangles that match the initial angle and side information. This indicates an ambiguity if what we know is this particular information.</p></solution>
+		Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <xref ref="figure-ass-two-cases" />. This indicates an ambiguity if what we know is this particular information.</p>
 	</example>
+
+	<figure xml:id="figure-ass-two-cases">
+		<caption>Two Possible Triangles</caption>
+		<sidebyside>
+			<image source="images/ASS_triangle1" width="45%" />
+			<image source="images/ASS_triangle2" width="45%" />
+		</sidebyside>
+	</figure>
 
 </subsection>
 
 <subsection xml:id="subsection-law-cosines">
 	<title>Law of Cosines</title>
 
-	<p>For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right triangle that relationship must be slightly modified.</p>
+	<p>For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.</p>
 
 	<theorem xml:id="theorem-law-cosines">
 		<title>Law of Cosines</title>
 
-		<statement><p>For any triangle with side lengths <m>a,b,c</m> and angle <m>C</m> which is opposite side with length <m>c</m>
+		<statement><p>For any triangle with side lengths <m>a,b,c</m> and angle <m>C</m> which is opposite the side with length <m>c</m>
 		<me>c^2 = a^2+b^2-2ab\cos(C)</me>.</p></statement>
 	</theorem>
 
-	<example xml:id="example-law-cosines">
+	<example xml:id="example-law-cosines-sss">
 		<statement><p>A triangle has sides of lengths 4, 5.39, and 6.13. What are the  angles?</p></statement>
 		<solution><p>We can use the Law of Cosines.
 			<md>
@@ -149,7 +163,30 @@
 				<mrow>\arccos(0.5) \amp = B.</mrow>
 				<mrow>60^\circ \amp = B.</mrow>
 			</md>
-		Knowing two of the angle we can use the angle sum fact to calculate the third angle measure. <m>39.99+60+\alpha=180</m> so <m>\alpha = 80.01</m>.</p></solution>
+		Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. <m>39.99+60+C=180</m> so <m>C = 80.01</m>.</p></solution>
+	</example>
+
+	<example xml:id="example-law-cosine-asa">
+		<statement><p>A triangle has side lengths 5 and 7 and the angle between them is <m>40^\circ</m>. What are the length of the other side and the measures of the other angles?</p></statement>
+		<solution><p>
+			We can use the Law of Cosines because we know <m>a,b</m> and <m>C</m>.
+			<md>
+				<mrow>c^2 \amp = 5^2+7^2-2(5)(7)\cos(40^\circ)</mrow>
+				<mrow>c^2 \amp \approx 20.38.</mrow>
+				<mrow>\sqrt{c^2} \amp \approx \sqrt{20.38}.</mrow>
+				<mrow>c \amp \approx 4.51.</mrow>
+			</md>
+			Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles.
+			<md>
+				<mrow>\frac{\sin(40^\circ)}{4.51} \amp = \frac{\sin(A)}{5}.</mrow>
+				<mrow>5 \cdot \frac{\sin(40^\circ)}{4.51} \amp = 5 \cdot \frac{\sin(A)}{5}.</mrow>
+				<mrow>0.7126 \amp = \sin(A).</mrow>
+				<mrow>\arcsin(0.7126) \amp = A.</mrow>
+				<mrow>45.45 \amp \approx A.</mrow>
+			</md>
+			Finally we can use the angle sum theorem to calculate the final angle.
+			<m>40+45.45+B = 180</m> so <m>B=94.55</m>.
+		</p></solution>
 	</example>
 
 	<exercise xml:id="exercise-law-cosines1">

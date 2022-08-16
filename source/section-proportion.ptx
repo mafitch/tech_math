@@ -12,27 +12,64 @@
 <subsection xml:id="subsection-proportion" >
 	<title>Proportion Examples</title>
 
-	<example xml:id="exmaple-proportion-cheesecake-double">
+	<p>We can solve for values in ratio problems by setting up the equation (ratio equals ratio) and then multiplying and dividing as needed to solve. Often people remember this with the mnemonic device: cross multiplication which is also known as clearing the denominators.</p>
+
+	<example xml:id="example-ratio-airspeed-solve">
+		<title>Proportion: Solving</title>
+		<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \; \text{nautical miles}}{1 \; \text{hour}}</me>.</p>
+		<p>How long will it take to travel 236 nm?</p>
+		<p>Because this is a fixed ratio we can write
+			<md>
+				<mrow>\frac{110 \; \text{nm}}{\text{hour}} \amp = \frac{236 \; \text{nm}}{t \; \text{hours}}.</mrow>
+				<mrow>t \; \text{hours} \cdot \frac{110 \; \text{nm}}{1 \text{hour}} \amp = 1 \; \text{hour} \cdot \frac{236 \; \text{nm}}{t \; \text{hours}}.</mrow>
+				<mrow>t \cdot 110 \; \text{nm} \amp = 236 \; \text{nm}. \amp \; \text{Clearing the denominators.}</mrow>
+				<mrow>\frac{t \cdot 110 \; \text{nm}}{110 \; \text{nm}}  \amp = \frac{236 \; \text{nm}}{110 \; \text{nm}}.</mrow>
+				<mrow>t \amp = \frac{236}{110}.</mrow>
+				<mrow>t \amp \approx 2.1 \; \text{hours}.</mrow>
+			</md>
+		</p>
+	</example>
+
+	<exercise xml:id="exercise-ratio-climb">
+		<webwork>
+			<statement>
+				<p>If the Diamond DA-20 climbs at the rate of <me>\frac{450 \; \text{feet}}{1.0 \; \text{minute}}</me> how long will it take it to climb 2500 ft? <var name="'5.5'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>	<md>
+					<mrow>\frac{450 \; \text{ft}}{1.0 \; \text{minute}} \amp = \frac{2500 \; \text{ft}}{t \; \text{minutes}}.</mrow>
+					<mrow>t \; \text{minutes} \cdot \frac{450 \; \text{ft}}{1.0 \; \text{minutes}} \amp = t \; \text{minutes} \cdot \frac{2500 \; \text{ft}}{t \; \text{minutes}}.</mrow>
+					<mrow>t \cdot 450 \; \text{ft} \amp = 2500 \; \text{ft}.</mrow>
+					<mrow>\frac{t \cdot 450 \; \text{ft}}{450 \; \text{ft}} \amp = \frac{2500 \; \text{ft}}{450 \; \text{ft}}.</mrow>
+					<mrow>t \amp = \frac{2500}{450}</mrow>
+					<mrow>t \amp \approx 5.5 \text{ minutes}.</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<example xml:id="example-proportion-cheesecake-double">
 		<title>Cheesecake Groceries: Double</title>
 		<statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. We will determine how many grams of eggs we need if we triple the recipe. This means everything will be in ratio of 2/1. Note the 2 and 1 have infinite significant figures (they are exact numbers rather than approximated measurements).
 		<md>
-			<mrow>\frac{2}{1} &amp; = \frac{E \text{ g}}{15\bar{0} \text{ g}}.</mrow>
-			<mrow>\frac{2}{1} \cdot 150 \text{ g} &amp; = \frac{E \text{ g}}{15\bar{0} \text{ g}} \cdot 150 \text{ g}.</mrow>
-			<mrow>30\bar{0} \text{ g} &amp; = E.</mrow>
+			<mrow>\frac{2}{1} &amp; = \frac{E \; \text{g}}{15\bar{0} \; \text{g}}.</mrow>
+			<mrow>\frac{2}{1} \cdot 150 \; \text{g} &amp; = \frac{E \; \text{g}}{15\bar{0} \; \text{g}} \cdot 150 \; \text{g}.</mrow>
+			<mrow>2 \cdot 15\bar{0} \; \text{g} &amp; = E \cdot 1. \amp \; \text{Eliminating the denominator.}</mrow>
+			<mrow>30\bar{0} \; \text{g} &amp; = E \text{ of eggs}.</mrow>
 		</md></p>
 		</statement>
 	</example>
 
-	<example xml:id="exmaple-proportion-cheesecake-scale">
+	<example xml:id="example-proportion-cheesecake-scale">
 		<title>Cheesecake Groceries: Unknown</title>
 		<statement><p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. If we have <m>35\bar{0}</m> g of egg how much cream cheese do we need? We know that the egg to cream cheese ratio must be 150/1500. We also notice this is 1/10.
 		<md>
-			<mrow>\frac{1}{10} &amp; = \frac{35\bar{0} \text{ g}}{C \text{ g}}.</mrow>
-			<mrow>\frac{10}{1} &amp; = \frac{C \text{ g}}{35\bar{0} \text{ g}}.</mrow>
-			<mrow>\frac{10}{1} \cdot 350 \text{ g} &amp; = \frac{C \text{ g}}{350 \text{ g}} \cdot 350 \text{ g}.</mrow>
-			<mrow>35\bar{0}0 &amp; = C \text{ g}.</mrow>
+			<mrow>\frac{1}{10} &amp; = \frac{35\bar{0} \; \text{g}}{C \; \text{g}}.</mrow>
+			<mrow>\frac{10}{1} &amp; = \frac{C \; \text{g}}{35\bar{0} \; \text{g}}.</mrow>
+			<mrow>\frac{10}{1} \cdot 350 \; \text{g} &amp; = \frac{C \; \text{g}}{350 \; \text{g}} \cdot 350 \; \text{g}.</mrow>
+			<mrow>35\bar{0}0 &amp; = C \; \text{g of cream cheese}.</mrow>
 		</md>
-		Notice we flipped the ratio in the second step to make the arithmetic easier to follow. You can think of this as the old addage <q>what you do to one side, you must also do to the other</q>.</p>
+		Notice we flipped the ratio in the second step to make the arithmetic easier to follow. You can think of this as the addage <q>what you do to one side, you must also do to the other</q>.</p>
 		</statement>
 	</example>
 
@@ -44,11 +81,11 @@
 				<p>Cream cheese: <var name="'3400'" width="5" /> </p>
 			</statement>
 			<solution>
-				<p>The egg to cream cheese must be in a 1/10 ratio. We can check what the ratio of ingredients we have is. <me>\frac{35\bar{0} \text{ g}}{340\bar{0} \text{ g}} \approx 0.103</me> Because this is more than <m>1/10=0.1</m> we have more egg than we can use. Thus we will set up the 1/10 ratio using all of the cream cheese.
+				<p>The egg to cream cheese must be in a 1/10 ratio. We can check what the ratio of ingredients we have is. <me>\frac{35\bar{0} \; \text{g}}{340\bar{0} \; \text{g}} \approx 0.103</me> Because this is more than <m>1/10=0.1</m> we have more egg than we can use. Thus we will set up the 1/10 ratio using all of the cream cheese.
 				<md>
-					<mrow>\frac{1}{10} &amp; = \frac{E \text{ g}}{340\bar{0} \text{ g}}.</mrow>
-					<mrow>\frac{1}{10} \cdot 340\bar{0} \text{ g} &amp; = \frac{E \text{ g}}{340\bar{0} \text{ g}} \cdot 340\bar{0} \text{ g}.</mrow>
-					<mrow>34\bar{0}.0 &amp; = E \text{ g}.</mrow>
+					<mrow>\frac{1}{10} &amp; = \frac{E \; \text{g}}{340\bar{0} \; \text{g}}.</mrow>
+					<mrow>\frac{1}{10} \cdot 340\bar{0} \; \text{g} &amp; = \frac{E \; \text{g}}{340\bar{0} \; \text{g}} \cdot 340\bar{0} \; \text{g}.</mrow>
+					<mrow>34\bar{0}.0 &amp; = E \; \text{g}.</mrow>
 				</md>
 				We can use 340 of the 350 grams of egg.</p>
 			</solution>
@@ -65,12 +102,12 @@
 		<statement><p>Two triangles are <term>similar</term> if and only if corresponding angles are congruent.</p></statement>
 	</definition>
 
-	<p>Note being similar results in corresponding side lengths being proprotional.</p>
+	<p><term>Congruent</term> in this case means the same length. Because triangles are similar corresponding side lengths are proprotional.</p>
 
 	<figure xml:id="figure-similar-triangle">
 	    <caption>Similar Triangles</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3">
-	        <slate xml:id="geogebra-similar-triangle" surface="geogebra" material="rwndrtjy" aspect="4:3" preview="images/similar_triangle.png">
+	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/similar_triangle.png">
+	        <slate xml:id="geogebra-similar-triangle" surface="geogebra" material="rwndrtjy" aspect="4:3">
 	                setCoordSystem(0, 8, -3, 4);
 	                enableShiftDragZoom(true);
 	        </slate>
@@ -80,15 +117,15 @@
 	    </interactive>
 	</figure>
 
+	<p>We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as <xref ref="example-ratio-airspeed-solve" />.</p>
+
 	<example xml:id="example-similar-triangles">
 		<p>Suppose triangle A has angles <m>30^\circ, 60^\circ, 90^\circ</m> with side lengths <m>1.000, 1.732, 2.000</m>. If triangle B also has angles <m>30^\circ, 60^\circ, 90^\circ</m> it is similar. Suppose the smallest side length is <m>2.000</m>. Then we know.<md>
 			<mrow>\frac{1.000}{2.000} &amp; = \frac{1.732}{s}.</mrow>
-			<mrow>\frac{1.000}{2.000} \cdot s &amp; = \frac{1.732}{s} \cdot s.</mrow>
-			<mrow>\frac{1.000}{2.000} \cdot s &amp; = 1.732.</mrow>
-			<mrow>\frac{s}{2.000} \cdot 2.000 &amp; = 1.732 \cdot 2.000.</mrow>
+			<mrow>\frac{1.000}{2.000} \cdot 2.000 s &amp; = \frac{1.732}{s} \cdot 2.000 s. \amp \text{ Clearing the denominators.}</mrow>
+			<mrow>s &amp; = 1.732(2.000).</mrow>
 			<mrow>s &amp; = 3.464.</mrow>
-		</md>
-		Note the two multiplication steps are referred to as <term>cross multiplication</term>. We can calculate the length of the third side in the same way.
+		</md>We can calculate the length of the third side in the same way.
 		<md>
 			<mrow>\frac{1.000}{2.000} &amp; = \frac{2.000}{s}.</mrow>
 			<mrow>\frac{1.000}{2.000} \cdot 2.000s &amp; = \frac{2.000}{s} \cdot 2.000s.</mrow>

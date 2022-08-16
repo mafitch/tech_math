@@ -5,7 +5,9 @@
 
 <introduction>
 
-<p>Logarithms were developed initially to manage data that grows exponentially. Consider the two graphs in <xref ref="figure-logarithm-scale-example" />. The left is the normal scale. On the right is a logarithmic scale. Notice how it is easier to read values on the logarithmic scale.</p>
+<p>Consider the two graphs in <xref ref="figure-logarithm-scale-example" />. Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left or the version on the right?</p>
+
+<p>The graph on the left uses the typical (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label).</p>
 
 <figure xml:id="figure-logarithm-scale-example">
 	<caption>Comparison of Scales</caption>
@@ -16,9 +18,7 @@
 	</sidebyside>
 </figure>
 
-<p>Measurement of acidity (pH) and volume (decibel) are both logarithmic scales.</p>
-
-<p>Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. For example, a 10 degree temperature change feels like more of change if the temperature is <m>23^\circ</m> F than if it is <m>51^\circ</m> F.</p>
+<p>Logarithms were developed initially to manage data that is very large. They are effective for data that grows quickly. Measurement of acidity (pH) and volume (decibel) both use a logarithmic scale. Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. For example, a 10 degree temperature change feels like more of change if the initial temperature is <m>23^\circ</m> F than if it is <m>51^\circ</m> F.</p>
 
 <p>Logarithms also have a connection to drunk pigeons and a Scotsman's bones.</p>
 
@@ -51,14 +51,48 @@
 		<solution><p>Using <xref ref="definition-logarithm" /> we obtain <m>\log_{100}(1000)=3/2</m>.</p></solution>
 	</exercise>
 
-	<p>Because logarithms and exponentials are defined in terms of each other, we can use properties of exponentials to discover properties of logarithms.</p>
+</subsection>
+
+<subsection xml:id="subsection-logarithm-graph">
+	<title>Graphing Logarithms</title>
+
+	<p>Now we will use <xref ref="definition-logarithm" /> to analyze the shape of graphs of logarithms.</p>
+
+	<p>To practice we will graph <m>y=\log_2(x)</m>. As before we will begin by completing a table. First, consider <m>y=\log_2(2)</m>. This can be re-written as <m>2^y=2</m> which tells us that <m>y=1</m>. Second, consider <m>y=\log_2(4)</m>. This can be re-written as <m>2^y=4</m> which tells us that <m>y=2</m>. Because we re-write as <m>2^y=x</m> it is easiest if the <m>x</m> is a power of 2. For example <m>x=2^3=8</m>. This tells us that <m>\log_2(8)=3</m>.</p>
+	<p>Note that this last point shows us that the logarithm grows (vertically) forever. If we want the height to be 100, we select <m>x=2^{100}</m>.</p>
+	<p>This also shows us that the rate of growth is very slow. To increase one unit of height the input must double (because this is base 2).</p>
+	<p>Consider next the special case <m>y=\log_2(1)</m>. This can be re-written as <m>2^y=1</m> which tells us that <m>y=0</m>. This is the only place where a logarithm is zero.</p>
+	<p>Next we will plot points left of <m>x=1</m>. We start with fractions. For <m>y=\log_2(1/2)</m> we have <m>2^y=\frac{1}{2}</m>. This tells us that <m>y=-1</m> because negative exponents mean division. Similarly for <m>y=\log_2(1/4)</m> we have <m>2^y=\frac{1}{4}=\frac{1}{2^2}</m>,so <m>y=-2</m>.</p>
+	<p>Just as the curve grows, slowly forever as <m>x</m> increases, these examples show us that it grows forever downward as <m>x</m> approaches zero. Notice the y value doubled when we cut the input in half. This means the growth downward is very fast.</p>
+
+	<table xml:id="table-log2-graph">
+		<title>Points for logarithm</title>
+		<tabular top="medium">
+			<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>\log_2(x)</m></cell></row>
+			<row left="medium" bottom="medium" halign="right"><cell right="medium">1</cell><cell><m>\log_2(1)=</m></cell><cell right="medium">0</cell></row>
+			<row left="medium" bottom="medium" halign="right"><cell right="medium">2</cell><cell><m>\log_2(2)=</m></cell><cell right="medium">1</cell></row>
+			<row left="medium" bottom="medium" halign="right"><cell right="medium">4</cell><cell><m>\log_2(4)=</m></cell><cell right="medium">2</cell></row>
+			<row left="medium" bottom="medium" halign="right"><cell right="medium">8</cell><cell><m>\log_2(8)=</m></cell><cell right="medium">3</cell></row>
+			<row left="medium" bottom="medium" halign="right"><cell right="medium"><m>2^{10}</m></cell><cell><m>\log_2(2^{10})=</m></cell><cell right="medium">10</cell></row>
+			<row left="medium" bottom="medium" halign="right"><cell right="medium">1/2</cell><cell><m>\log_2(1/2)=</m></cell><cell right="medium">-1</cell></row>
+			<row left="medium" bottom="medium" halign="right"><cell right="medium">1/4</cell><cell><m>\log_2(1/4)=</m></cell><cell right="medium">-2</cell></row>
+		</tabular>
+	</table>
+
+	<figure xml:id="figure-log2-graph">
+		<caption>Graph of <m>y=\log_2(x)</m></caption>
+		<image source="images/graph-log2" width="50%" />
+	</figure>
+
+	<p>There are two types of values we did not include in our graph example.</p>
+
+	<example xml:id="example-log-domain-zero">
+		<statement><p>What is <m>y=\log_2(0)</m>?</p></statement>
+		<solution><p>First we re-write this log as an exponential. <m>2^y=0</m>. We know that no exponent will produce a zero, so there is no solution for this.</p></solution>
+	</example>
 
 	<exercise xml:id="exercise-log-domain-negative">
 		<statement><p>Re-write <m>\log_2(-4)=x</m> as an exponential. Can you find a number for <m>x</m> that makes this statement true?</p></statement>
-	</exercise>
-
-	<exercise xml:id="exercise-log-domain-zero">
-		<statement><p>Re-write <m>\log_2(0)=x</m> as an exponential. Can you find a number for <m>x</m> that makes this statement true?</p></statement>
 	</exercise>
 
 </subsection>
@@ -70,10 +104,21 @@
 
 	<p>Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: <term>common logs</term>. This is written without the base. For example <m>\log(100)=2</m> is the same as <m>\log_{10}(100)=2</m>.</p>
 
-	<p>In science and from mathematics we need another log called the <term>natural logarithm</term>. This is written as <m>\ln(x)</m> (for logarithm natural). Natural logarithms are paired with the base <m>e</m>. So <m>\ln(5)=y</m> is the same as <m>e^y=5</m>. <m>e</m> is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious is <m>e \approx 2.1718281828</m>.</p>
+	<p>In science and from mathematics we need another log called the <term>natural logarithm</term>. This is written as <m>\ln(x)</m> (for logarithm natural). Natural logarithms are paired with the base <m>e</m>. So <m>\ln(5)=y</m> is the same as <m>e^y=5</m>. <m>e</m> is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious <m>e \approx 2.1718281828</m>.</p>
 
 	<exercise xml:id="exercise-logarithm-natural-calculate">
-		<statement><p>Using technology, calculate <m>\ln(7)</m>.</p></statement>
+		<webwork>
+			<pg-code>
+				Context("LimitedNumeric");
+				Context()->flags->set(tolType=>absolute);
+				Context()->flags->set(tolType=>0.0001);
+				$a = Compute(random(2,9,1));
+			</pg-code>
+			<statement>
+				<p>Using technology, calculate <m>\ln(<var name="$a"/>)=</m> <var name="'1.945910149'" width="12" />.</p>
+				<p>Precision should be at least four decimal places.</p>
+			</statement>
+		</webwork>
 	</exercise>
 
 </subsection>

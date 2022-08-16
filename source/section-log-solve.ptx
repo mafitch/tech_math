@@ -5,18 +5,64 @@
 
 <introduction>
 
-<p>We solved equations involving a logarithm by re-writing as an exponential. Here we will use logarithms to solve exponential equations enabling us to work applications.</p>
+<p>We can evaluate expressions with exponentials and logarithms using devices. We can also solve equations involving logarithmic and exponential expressions. We will use both the definition of logarithm and the relationship between logarithmic and exponential expressions.</p>
 
 </introduction>
+
+<subsection xml:id="subsection-solve-logs">
+	<title>Evaluating and Solving with Logs</title>
+
+	<p>First, we will use <xref ref="definition-logarithm" /> to solve logarithmic equations.</p>
+
+	<example xml:id="example-log-solve-basic">
+		<p>Solve <me>\log_3(x)=2</me>. We can re-write this as <me>3^2=x</me> which tells us that <m>x=9</m>.</p>
+	</example>
+
+	<example xml:id="example-log-solve-medium">
+		<p>Solve <me>\log_2(x+5)=7</me>. We can re-write this as 
+		<md>
+			<mrow>2^7 \amp = x+5.</mrow>
+			<mrow>128 \amp = x+5.</mrow>
+			<mrow>123 \amp = x.</mrow>
+		</md></p>
+		<video youtube="fNrmpAfH47A" xml:id="video-example-log-solve" />
+	</example>
+
+	<exercise xml:id="exercise-log-solve">
+		<webwork>
+			<pg-code>
+				Context("LimitedNumeric");
+				$k = Compute(random(2,5,1));
+				$b = Compute(random(2,5,1));
+				$j = Compute(random(3,7,1));
+				$c = $k*$j;
+				$ans = $b**$j;
+			</pg-code>
+			<statement>
+				<p>Solve <m><var name="$k"/>\log_{<var name="$b"/>}(x)=<var name="$c"/></m>. <var name="$ans" width="4" /></p>
+			</statement>
+			<solution>
+				<p><md>
+					<mrow><var name="$k"/>\log_{<var name="$b"/>}(x) \amp = <var name="$c"/></mrow>
+					<mrow><var name="$k"/>\log_{<var name="$b"/>}(x)/<var name="$k"/> \amp = <var name="$c"/>/<var name="$k"/></mrow>
+					<mrow>\log_{<var name="$b"/>}(x) \amp = <var name="$j"/></mrow>
+					<mrow><var name="$b"/>^{<var name="$j"/>} \amp = x</mrow>
+					<mrow><var name="$ans"/> \amp = x</mrow>
+				</md></p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+</subsection>
 
 <subsection xml:id="subsection-logarithm-property-power">
 	<title>Additional Logarithm Property</title>
 
-	<p>We need one property of logarithms to solve the equations here. <me>\log_b(a^p) = p \log_b(a)</me></p>
+	<p>We need one more property of logarithms to solve some equations. <me>\log_b(a^p) = p \log_b(a)</me></p>
 
 	<example xml:id="example-log-power-property">
-		<statement><p>Re-write <m>\log(10^7)</m></p></statement>
-		<solution><p><m>\log(10^7)=7 \log(10) = 7</m>.</p></solution>
+		<statement><p>Evaluate <m>\log(10^7)</m></p></statement>
+		<solution><p><m>\log(10^7)=7 \log(10) = 7</m> because <m>\log(10)</m> is the same as <m>10^x=10</m> so <m>x=1</m>.</p></solution>
 	</example>
 
 	<p>We can use this property to solve equations involving exponentials.</p>
@@ -31,14 +77,15 @@
 			<mrow>\log_2(5) &amp; = x \cdot 1.</mrow>
 			<mrow>\log_2(5) &amp; = x.</mrow>
 		</md>
-		Note those last three steps will always be the same, so we often jump from the second step to the last.</p></solution>
+		Note those last three steps will always be the same, so we often jump from the second step to the last.</p>
+		<video youtube="F5wY2KRtFuQ" xml:id="video-example-solve-exponential2" /></solution>
 	</example>
 
 	<example xml:id="example-solve-exponetial-algebra">
 		<statement><p>Solve <m>13 = 2+3e^{x-1}</m>.</p></statement>
 		<solution><p>Order of operations dictates the following
 		<md>
-			<mrow>13 &amp; = 2+3e{x-1}.</mrow>
+			<mrow>13 &amp; = 2+3e^{x-1}.</mrow>
 			<mrow>11 &amp; = 3e^{x-1}.</mrow>
 			<mrow>\frac{11}{3} &amp; = e^{x-1}</mrow>
 			<mrow>\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right).</mrow>
@@ -50,7 +97,20 @@
 
 	<p>We can use the relationship between exponentials and logarithms to solve logarithmic equations as well.</p>
 
-	<example xml:id="example-log-solve">
+	<example xml:id="example-log-solve1">
+		<statement><p>Solve <m>14 = 12+\log(5x)</m>.</p></statement>
+		<solution><p>First we combine the terms outside the logarithm, the we re-write that as an exponential.
+			<md>
+				<mrow>14 &amp; = 12+\log(5x)</mrow>
+				<mrow>2 &amp; = \log(5x)</mrow>
+				<mrow>10^2 &amp; = 5x</mrow>
+				<mrow>100 &amp; = 5x</mrow>
+				<mrow>20 &amp; \approx x</mrow>
+			</md>
+		</p></solution>
+	</example>
+
+	<example xml:id="example-log-solve2">
 		<statement><p>Solve <m>7 = \ln(3x+2)</m>.</p></statement>
 		<solution><p>We re-write this as an exponential.
 			<md>
@@ -63,6 +123,24 @@
 		</p></solution>
 	</example>
 
+	<exercise xml:id="exercise-log-solve-no-context">
+		<webwork>
+			<pg-code>
+				Context("LimitedNumeric");
+				Context()->flags->set(tolType=>absolute);
+				Context()->flags->set(tolType=>0.0001);
+				$p = Compute(random(2,5,1));
+				$c = Compute(random(2,9,1));
+				$s = Compute(random(1,9,1));
+				$ans = e**($p/$c)-$s;
+			</pg-code>
+			<statement>
+				<p>Solve <me><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</me> <m>x=</m> <var name="$ans" width="12" />.</p>
+				<p>Precision should be at least four decimal places.</p>
+			</statement>
+		</webwork>
+	</exercise>
+
 </subsection>
 
 <subsection xml:id="subsection-exponential-applications">
@@ -72,7 +150,7 @@
 		<introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10g of Pu-241 in 14.4 years there will be only 5g of Pu-241. Generally, this can be modeled by <me>P=P_0 e^{kt}</me>. <m>P_0</m> is the initial amount of material. <m>k</m> is a constant that indicates how fast the material decays. <m>P</m> is the amount left after <m>t</m> units of time.</p></introduction>
 		<task>
 			<statement><p>Write the model for Plutonium-241.</p></statement>
-			<solution><p>We must first find <m>k</m>.
+			<solution><p>We must first find <m>k</m>. We can use <xref ref="example-solve-exponetial-algebra" />.
 			<md>
 				<mrow>5 &amp; = 10 e^{k(14.4)}</mrow>
 				<mrow>\frac{1}{2} &amp; = e^{k(14.4)}</mrow>
@@ -106,7 +184,7 @@
 		</task>
 		<task>
 			<statement><p>Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.</p></statement>
-			<solution><p>We setup the pH calculation and solve.
+			<solution><p>We setup the pH calculation and solve using <xref ref="example-log-solve2" />.
 				<md>
 					<mrow>5.3 &amp; = -\log(c)</mrow>
 					<mrow>-5.3 &amp; = \log(c)</mrow>
@@ -130,7 +208,7 @@
 		</task>
 		<task>
 			<statement><p>What was the seismic moment for an earthquake with magnitude 7.1?</p></statement>
-			<solution><p>We setup the calculation and solve.
+			<solution><p>We setup the calculation and solve using <xref ref="example-log-solve2" />.
 			<md>
 				<mrow>7.1 &amp; = \frac{2}{3}\log(M_0)-10.7</mrow>
 				<mrow>17.8 &amp; = \frac{2}{3}\log(M_0)</mrow>

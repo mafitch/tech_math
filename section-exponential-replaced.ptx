@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-exponential" >
+<title>Exponential Relations</title>
+
+<introduction>
+
+<p>In <xref ref="section-rates" /> we learned different ways data can change. These included linear, quadratic, exponential and inverse versions of these. Here we will look at more details of exponential relations. </p>
+
+</introduction>
+
+<subsection xml:id="subsection-vary-fast">
+	<title>Comparing Growth Rates</title>
+
+	<p>In <xref ref="section-variation" /> we learned that for linear data the differences between consecutive elements are always the same. In <xref ref="table-differences-linear" /> the change is always 3. In <xref ref="table-differences-quadratic2" /> we notice that as the data progresses, the difference between consecutive elements increases. However, it is less than the value at that point. That is when the value is 32, the change is only 18.</p>
+
+	<p>In <xref ref="table-differences-exponential2" /> we see that the differences of consecutive elements is the same as the previous number. This means the difference increases, and that it is changing faster than the quadratic data. There are even faster rates of growth than this. Consider <xref ref="table-differences-factorial" />. The differences of consecutive elements increases. However, in the last entry we see the data was 24 and the change was 96 which is much larger.</p>
+
+	<table xml:id="table-differences-linear">
+		<title>Linear Relation</title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell halign="right" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="left" right="medium"><m>3n+2</m></cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">5</cell> <cell halign="right" right="medium">8</cell> <cell halign="right" right="medium">11</cell> <cell halign="right" right="medium">14</cell> <cell halign="right" right="medium">17</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="right" right="medium">Differences</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">3</cell> </row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-differences-quadratic2">
+		<title>Quadratic Relation</title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell halign="right" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="left" right="medium"><m>2n^2</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">8</cell> <cell halign="right" right="medium">18</cell> <cell halign="right" right="medium">32</cell> <cell halign="right" right="medium">50</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="right" right="medium">Differences</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">6</cell> <cell halign="right" right="medium">10</cell> <cell halign="right" right="medium">14</cell> <cell halign="right" right="medium">18</cell> </row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-differences-exponential2">
+		<title>Exponential Relation</title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell halign="right" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+			<row bottom="medium" left="medium" halign="right"><cell halign="left" right="medium"><m>3(2^n)</m></cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">6</cell> <cell halign="right" right="medium">12</cell> <cell halign="right" right="medium">24</cell> <cell halign="right" right="medium">48</cell> <cell halign="right" right="medium">96</cell> </row>
+			<row bottom="medium" left="medium" halign="right"><cell halign="right" right="medium">Differences</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">6</cell> <cell halign="right" right="medium">12</cell> <cell halign="right" right="medium">24</cell> <cell halign="right" right="medium">48</cell> </row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-differences-factorial">
+		<title>Factorial Relation</title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell halign="right" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+			<row bottom="medium" left="medium" halign="center"><cell halign="left" right="medium"><m>n!</m></cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">6</cell> <cell halign="right" right="medium">24</cell> <cell halign="right" right="medium">120</cell> </row>
+			<row bottom="medium" left="medium" halign="center"><cell halign="right" right="medium">Differences</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">18</cell> <cell halign="right" right="medium">96</cell> </row>
+		</tabular>
+	</table>
+
+</subsection>
+
+<subsection xml:id="subsection-divide-rate-compare">
+	<title>Rate as Ratio</title>
+
+	<p>In <xref ref="example-vary-exponential" /> we saw that exponential data can be identified by the ratio of consecutive terms. That ratio between any consecutive terms is the same. Here we will compare the ratios for linear, exponential, and factorial data.</p>
+
+	<p>In <xref ref="table-ratios-linear" /> notice that <m>\frac{8}{5} &lt; \frac{5}{2}</m>. This is true of the other, consecutive ratios. They appear to be getting closer to 1. In <xref ref="table-ratios-exponential2" /> the ratios are constant. Interestingly, in <xref ref="table-ratios-factorial" /> the ratios are increasing linearly. This again is bigger than exponentials.</p>
+
+	<table xml:id="table-ratios-linear">
+		<title>Linear Relation</title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell halign="center" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="center" right="medium"><m>3n+2</m></cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">5</cell> <cell halign="right" right="medium">8</cell> <cell halign="right" right="medium">11</cell> <cell halign="right" right="medium">14</cell> <cell halign="right" right="medium">17</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="center" right="medium">Ratios</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium"><m>5/2</m></cell> <cell halign="right" right="medium"><m>8/5</m></cell> <cell halign="right" right="medium"><m>11/8</m></cell> <cell halign="right" right="medium"><m>14/11</m></cell> <cell halign="right" right="medium"><m>17/14</m></cell> </row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-ratios-exponential2">
+		<title>Exponential Relation</title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell halign="center" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="center" right="medium"><m>3(2^n)</m></cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">6</cell> <cell halign="right" right="medium">12</cell> <cell halign="right" right="medium">24</cell> <cell halign="right" right="medium">48</cell> <cell halign="right" right="medium">96</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="center" right="medium">Ratios</cell> <cell right="medium"></cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> </row>
+		</tabular>
+	</table>
+
+	<table xml:id="table-ratios-factorial">
+		<title>Factorial Relation</title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="left" right="medium"><m>n!</m></cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">6</cell> <cell halign="right" right="medium">24</cell> <cell halign="right" right="medium">120</cell> </row>
+			<row bottom="medium" left="medium"><cell halign="left" right="medium">Ratios</cell> <cell right="medium"></cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
+		</tabular>
+	</table>
+
+</subsection>
+
+<subsection xml:id="subsection-exponential-application">
+	<title>Applications</title>
+
+	<p>The bacteria <term>lactobacilus acidophilus</term> is known to grow exponentially in milk (part of making yogurt). Based on experiments a new generation of bacteria are formed every 70 minutes. For a while we can assume the original bacteria remain. Thus the population growth is as shown in <xref ref="table-bacteria-growth1" />. Note that at 70 minutes the model supposes all 4000 cells divide producing 4000 new cells. Thus the total population is <m>4000+4000=8000</m>. This repeats every 70 minutes. Because the cells split into two cells, the population doubles (multiply by 2).</p>
+
+	<table xml:id="table-bacteria-growth1">
+		<title>Growth of <term>Lactobacilus Acidophilus</term></title>
+
+		<tabular top="medium">
+			<row bottom="medium" left="medium"><cell right="medium">Minutes</cell> <cell right="medium">0</cell> <cell right="medium">70</cell> <cell right="medium">140</cell> <cell right="medium">210</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">Population</cell> <cell right="medium">4000</cell> <cell right="medium">8000</cell> <cell right="medium">16000</cell> <cell right="medium">32000</cell></row>
+			<row bottom="medium" left="medium"><cell halign="left" right="medium">Added</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">4000</cell> <cell halign="right" right="medium">8000</cell> <cell halign="right" right="medium">16000</cell></row>
+		</tabular>
+	</table>
+
+	<p>We can express this model in mathematical notation. Let's walk through how <xref ref="table-bacteria-growth1" /> was constructed. The initial amount (information we are given) is <m>P_0 = 4000</m>. After 70 minutes these double: <m>P_1 = 4000(2) = 8000</m>. After 140 minutes they double a second time: <m>P_2 = 4000(2)(2) = 16000</m>. After 210 minutes they double a third time: <m>P_3 = 4000(2)(2)(2) = 32000</m>.</p>
+	<p>Generally if we know the number of minutes <m>t</m>, then dividing by 70 tells us how many times cells have divided in two. We want to multiply the initial amount (4000 in this case) by two (double the population) for each of these. This gives us <m>P = 4000 \cdot 2^{t/70}</m>.</p>
+
+	<example xml:id="example-exponential-cat-video">
+		<statement><p>A new cat video is posted and 12 people view it. Every 4 days after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.</p></statement>
+		<solution><p>We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is <me>v = 12(3^{d/4})</me></p></solution>
+	</example>
+
+	<exercise xml:id="exercise-exponential-bacillus-megaterium">
+		<statement><p>The bacteria <term>bacillus megaterium</term> grows exponentially. It forms a new generation every 25 minutes. Write an equation to model this grows supposing there are 3000 bacteria at the beginning.</p></statement>
+		<solution><p><me>b = 3000(2^{t/25})</me></p></solution>
+	</exercise>
+
+	<p>Note that in general these types of exponential growth models look like <me>P = P_0 (r^t)</me> where <m>P</m> is the current population (or count), <m>P_0</m> is the initial population (or count), and <m>r</m> is the rate at which the population grows (e.g., doubles, triples).</p>
+
+	<p>To write the model (equation) we need to know an initial amount and the rate of increase or decrease.</p>
+
+	<example xml:id="example-exponential-hares">
+		<statement>
+			<p>Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.</p>
+		</statement>
+		<solution>
+			<p>The initial population is <m>P_0=320</m>. Because the rate is doubling, we know that <m>r=2</m>. If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using <m>t/200</m>. Note this means 200 gives doubling once (<m>200/200=1</m>), and 400 gives doubling twice (<m>400/200=2</m>). <me>P=320(2^{t/200})</me>
+			</p>
+		</solution>
+	</example>
+
+	<example xml:id="example-write-exponential-parameters-one-pt">
+		<statement><p>Suppose we know that over a period of 7 years a salary had the same percent increase at the end of each year. If the initial salary was $53,242.17 and the salary at the end of 7 years was $67,368.33, what is the model for the salary?</p></statement>
+		<solution><p>The end of seven years means there have been six raises. From the two data points we know 
+		<md>
+			<mrow>67368.33 &amp; = 53242.17(r^6)</mrow>
+			<mrow>\frac{67368.33}{53242.17} &amp; = r^6</mrow>
+			<mrow>\sqrt[6]{\frac{67368.33}{53242.17}} &amp; = \sqrt[6]{r^6}</mrow>
+			<mrow>1.04 &amp; = r</mrow>
+		</md> Thus the full model is <me>S = 53242.17(1.04)^t</me> where <m>t</m> is time in years.</p></solution>
+	</example>
+
+	<example xml:id="example-write-exponential-parameters-two-pts">
+		<statement><p>Suppose we know that over a period of 10 years a salary had the same percent increase at the end of each year. If the salary at the end of year two was $72,438.84, and the salary at the end of year eight was $89,045.83, what is the model for the salary?</p></statement>
+		<solution><p>From the data we know the following two statements are true
+		<md>
+			<mrow>72438.84 &amp; = S_0(r^2)</mrow>
+			<mrow>89045.83 &amp; = S_0(r^8)</mrow>
+		</md>
+		Although the first point is after year two, we could use that as the initial year. Year eight then would be six years later. This gives us the following model.
+		<md>
+			<mrow>89045.83 &amp; = 72438.84(r^6)</mrow>
+			<mrow>\frac{89045.83}{72438.84} &amp; = r^6</mrow>
+			<mrow>\sqrt[6]{\frac{89045.83}{72438.84}} &amp; = \sqrt[6]{r^6}</mrow>
+			<mrow>1.035 &amp; = r</mrow>
+		</md> Remember we built this from year 2. The shift it back to year 0 we have at least two options. We can use the idea of shifting graphs to write the model <me>S = 72438.84(1.035)^{t-2}</me> where <m>t</m> is time in years. If we want to write it without the shift we need to calculate the salary at year zero. We can express the year two salary in terms of the initial salary.
+		<md>
+			<mrow>72438.84 &amp; = S_0(1.035)^2</mrow>
+			<mrow>\frac{72438.84}{1.035^2} &amp; = S_0</mrow>
+			<mrow>67622.43 &amp; S_0</mrow>
+		</md> This gives us the model <me>S = 67622.43(1.035)^2</me>.</p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-exponential-interp">
+	<title>Interpretation of Exponentials</title>
+
+	<p>There is more than one way to interpret the base (e.g., the 7 in <m>P=5(7^n)</m>). When it is an integer like 2 (<m>P=5(2^n)</m>)or 3 (<m>P=7(3^n)</m>) it tells us that the data is doubling or tripling. When the base looks like 1.053 (<m>P=100(1.053)^n</m>) it tells us the percent increase. In this example this represents a 5.3% increase. Recall from <xref ref="subsection-percent-increase" /> that a 3% decrease is represented by <m>100\%-3\%=97\%</m> decrease. In an exponential model this would look like <m>P=100(0.97)^n</m>.</p>
+
+	<p>Even when the exponential model is expressed in terms of fractions, we can determine the percent increase or decrease.</p>
+
+	<example xml:id="example-convert-percent-increase">
+		<statement><p>In the exponential model <m>P=342\left(\frac{7}{5}\right)^n</m> what is the percent increase or decrease?</p></statement>
+		<solution><p>We convert the fraction <m>7/5</m> to decimal: 1.40. Because it is bigger than one it is a percent increase, specifically a 40% increase.</p></solution>
+	</example>
+
+	<example xml:id="example-convert-percent-decrease">
+		<statement><p>In the exponential model <m>P=342\left(\frac{39}{40}\right)^n</m> what is the percent increase or decrease?</p></statement>
+		<solution><p>We convert the fraction <m>39/40</m> to decimal: 0.975. Because it is less than one it is a percent decrease, specifically a <m>1-0.975=0.025</m> or 2.5% decrease.</p></solution>
+	</example>
+
+	<p>A common base for exponentials in many scientific models is <m>e</m>. We can work with this base using calculation devices which will have an <m>e^x</m> button or an <m>\text{exp}(x)</m> function.</p>
+
+	<example xml:id="example-convert-exp-percent">
+		<statement><p>What is the percent increase or decrease for the exponential model <m>P=27e^{0.02t}</m>?</p></statement>
+		<solution><p>Just as with the fractions we convert to decimal. Note that we can also write the model <m>P=27(e^{0.02})^t</m>. Do you see the difference? <m>e^{0.02} \approx 1.0202</m>. Thus this is a percent increase of 2.02%.</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-exponential-percent-increase">
+		<webwork>
+			<pg-code>
+				$expressions = RadioButtons(["Increase","Decrease"], 0);
+			</pg-code>
+			<statement>
+				<p>In the model <m>P=173e^{0.05t}</m> what is the percent increase or decrease (2 decimal places)?</p>
+				<p>It is a percent <var name="$expressions" form="buttons"/> of <var name="'5.13'" width="4" /></p>
+			</statement>
+			<solution>
+				<p>We calculate <m>e^{0.05} \approx 1.051271096</m>. This is greater than one so it is a percent increase. The percent is 5.13</p>
+			</solution>
+	    </webwork>
+	</exercise>
+</subsection>
+
+</section>
