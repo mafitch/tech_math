@@ -6,7 +6,7 @@
 -->
 <project>
   <targets>
-    <target name="html">
+    <target name="web">
       <format>html</format>
       <source>source/techmath.ptx</source>
       <publication>publication/publication.ptx</publication>
