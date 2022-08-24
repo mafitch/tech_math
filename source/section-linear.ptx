@@ -117,6 +117,22 @@
 
 </subsection>
 
+<subsection xml:id="subsection-linear-named-constants">
+	<title>Solving with Multiple Variables</title>
+
+	<p>When we are using models (also called formulas) they often include more than one variable (also known as named constants). The process for solving such models is the same.</p>
+
+	<example xml:id="example-solve-ohms">
+		<statement><p>Solve the equation <m>V=IR</m> for <m>R</m>. Note the meaning for these variables is explained in <xref ref="example-vary-ohm" />.</p></statement>
+		<solution><p><md>
+			<mrow>V &amp; = IR.</mrow>
+			<mrow>\frac{V}{I} &amp; = \frac{IR}{I} &amp; \text{divide to undo multiplication}.</mrow>
+			<mrow>\frac{V}{I} &amp; = R.</mrow>
+		</md></p></solution>
+	</example>
+
+</subsection>
+
 <subsection xml:id="subsection-linear-identify">
 	<title>Identifying Linear Expressions</title>
 
