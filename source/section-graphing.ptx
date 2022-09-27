@@ -5,9 +5,104 @@
 
 <introduction>
 
-<p>We often represent numerical data using diagrams. These include various kinds of charts like bar graphs and pie charts, and graphing of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates.</p>
+<p>We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphing of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates.</p>
 
 </introduction>
+
+<subsection xml:id="subsection-tables">
+	<title>Reading Tables of Data</title>
+
+	<p>Sometimes we simply write down the numbers in tables. This works well if we have a limited number of entries and only two aspects to consider. The two aspects become headers for the rows and columns.</p>
+
+	<table xml:id="table-table-stall">
+		<title>Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS</title>
+		<tabular top="major">
+			<row halign="center" bottom="medium" left="major"><cell></cell><cell colspan="4" right="major">Angle of Bank</cell></row>
+			<row halign="center" bottom="medium" left="major"><cell right="medium">Flap Setting</cell><cell right="medium"><m>0^\circ</m></cell><cell right="medium"><m>30^\circ</m></cell><cell right="medium"><m>45^\circ</m></cell><cell right="major"><m>60^\circ</m></cell></row>
+			<row halign="center" bottom="medium" left="major"><cell right="medium">Up</cell><cell right="medium">48</cell><cell right="medium">52</cell><cell right="medium">57</cell><cell right="major">68</cell></row>
+			<row halign="center" bottom="medium" left="major"><cell right="medium"><m>10^\circ</m></cell><cell right="medium">43</cell><cell right="medium">46</cell><cell right="medium">51</cell><cell right="major">61</cell></row>
+			<row halign="center" bottom="medium" left="major"><cell right="medium">Full</cell><cell right="medium">40</cell><cell right="medium">43</cell><cell right="medium">48</cell><cell right="major">57</cell></row>
+		</tabular>
+	</table>
+
+	<p>Note that stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. It results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Others refer to varying degrees of extension.</p>
+
+	<example xml:id="example-table-read-direct">
+		<p>What is the stall speed in a <m>30^\circ</m> bank angle with flaps up?</p>
+		<p>We can determine this by looking for the column labeled <q><m>30^\circ</m></q> and the row labeled <q>Up</q>. In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.</p>
+	</example>
+
+	<example xml:id="example-table-read-interpolate">
+		<p>What is the stall speed in a <m>15^\circ</m> bank angle with flaps at <m>10^\circ</m>?</p>
+		<p>First, we note that there is no column for <m>15^\circ</m> bank angle. However we have <m>0^\circ</m> and <m>30^\circ</m>. <m>15^\circ</m> is half way between these two. For this chart and some others it is reasonable to estimate our desired number by calculating the number between those given.</p>
+		<p>The two stall speeds are 43 and 46. The number in between (the average) is <m>(43+46)/2=44.5</m>. When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</p>
+	</example>
+
+	<exercise xml:id="exercise-table-read-direct">
+		<webwork>
+			<statement>
+				<p>What is the stall speed at <m>60^\circ</m> bank angle and <m>10^\circ</m> flap setting? <var name="'61'" width="4" /> KIAS</p>
+			</statement>
+	    </webwork>
+	</exercise>
+
+	<exercise xml:id="exercise-table-read-indirect">
+		<webwork>
+			<statement>
+				<p>What is the stall speed at <m>37.5^\circ</m> bank angle and full flap setting? <var name="'46'" width="4" /> KIAS</p>
+			</statement>
+			<solution>
+				<p>Note this bank angle is half way between <m>30^\circ</m> and <m>45^\circ</m>. We can average the entries for those bank angles. <me>\frac{43+48}{2}=45.5</me> We round up to 46 KIAS for safety.</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-reading-curve-graphs">
+	<title>Reading Graphs</title>
+
+	<p>Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and read the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.</p>
+
+	<example xml:id="example-read-graph-glide">
+		<p>If the plane with maximum engine out glide represented in <xref ref="figure-maximum-glide" /> is 2400 ft above the ground how many nautical miles can it glide forward?</p>
+		<p>Note each horizontal major line is 2000 ft. Counting we find 10 minor lines between each major line, so we know they represent <m>2000/10=200</m> ft. each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know they represent <m>2/10=0.2</m> nm.</p>
+		<p>2400 is two minor lines above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. It is two minor lines before 4. This is <m>4-2(0.2)=3.8</m> nm.</p>
+	</example>
+
+	<figure xml:id="figure-maximum-glide">
+		<caption>Graph Representing Maximum Engine Out Glide</caption>
+		<image source="images/MaximumGlide" width="80%" />
+	</figure>
+
+	<exercise xml:id="exercise-table-read-graph">
+		<webwork>
+			<statement>
+				<p>What is the maximum glide for an aircraft 5000 above the ground? <var name="'8.2'" width="4" /> nm</p>
+			</statement>
+	    </webwork>
+	</exercise>
+
+	<p>Graphs can be from raw data which can seem random. We still read these the same way.</p>
+
+	<example xml:id="example-read-graph-temp-dewpoint">
+		<p><xref ref="figure-temp-dewpoint" /> has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.</p>
+		<p>What are the temperature and dewpoint at the 700 millibar level?</p>
+		<p>We follow the 700 mb line over to the dewpoint (green, dashed) line. It is just above <m>-20^\circ</m> C. We estimate <m>-18^\circ</m> C. Continuing across the 700 mb line to the temperature (red, solid) line we find it about half way between 0 and 10. We estimate the temperature is <m>5^\circ</m> C.</p>
+	</example>
+
+	<figure xml:id="figure-temp-dewpoint">
+		<caption>Graph of Temperature and Dewpoint</caption>
+		<image source="images/TempDewpoint" width="80%" />
+	</figure>
+
+	<p>Note some charts like <xref ref="figure-temp-dewpoint" /> are not meant to convey specific numbers but rather to show trends.</p>
+
+	<example xml:id="example-read-graph-clouds-form">
+		<p>Clouds form when the temperature reaches the dewpoint. We see in <xref ref="figure-temp-dewpoint" /> that the temperature is always higher than the dewpoint, so no clouds are expected where this sounding (weather balloon reading) was taken.</p>
+	</example>
+
+</subsection>
 
 <subsection xml:id="subsection-graphing-discrete">
 	<title>Graphing Discrete Data</title>
@@ -97,8 +192,7 @@
 	<example xml:id="example-vary-ohm">
 		<title>Ohm's Law</title>
 
-		<statement><p>Ohm's Law relates three properties of electricity: voltage, current, and resistance. <term>Voltage</term>, measured in volts (V), is analagous to the amount of pressure to move the electrons. <term>Current</term>, measured in amperes (amps), is how much electricity is moving. <term>Resistance</term> measured in Ohms (<m>\Omega</m>), is, as it sounds, the resitance of a material to letting electricity flow.</p>
-		<p>The relationship is <me>V = IR</me> where <m>V</m> is voltage, <m>I</m> is current, and <m>R</m> is the resistance.</p>
+		<statement><p>Recall Ohm's Law <m>V = IR</m> from <xref ref="example-formula-ohms-law" />.</p>
 		<p>Consider a 12 V system with an 8 Ohm resistor.
 			<md>
 				<mrow>12 = &amp; I \cdot 8. </mrow>
@@ -211,5 +305,219 @@
 	</exercise>
 
 </subsection>
+
+<exercises>
+	<exercisegroup>
+		<introduction><p>Answer these questions about interpreting data.</p></introduction>
+	    <exercise>
+	        <title>Identify Rate</title>
+	        <myopenmath problem="62749" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Determine Linear</title>
+	        <myopenmath problem="71129" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Identify Rate</title>
+	        <myopenmath problem="71141" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graph and Table</title>
+	        <myopenmath problem="72597" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Compare Linear Functions</title>
+	        <myopenmath problem="75002" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="2550" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="3740" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="3741" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="48954" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="50254" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="62381" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="76745" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="93873" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="483520" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="504316" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="204172" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="204173" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="1425" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Determine if Linear</title>
+	        <myopenmath problem="1736" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find Equation</title>
+	        <myopenmath problem="107144" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Interpret Graph</title>
+	        <myopenmath problem="483534" />
+	    </exercise>
+
+	</exercisegroup>
+
+	<exercisegroup>
+		<introduction><p>Answer these questions about lines.</p></introduction>
+	    <exercise>
+	        <title>Rate from Data</title>
+	        <myopenmath problem="818" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Rate from Data</title>
+	        <myopenmath problem="854" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find Slope from Points</title>
+	        <myopenmath problem="2101" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find Slope from Graph</title>
+	        <myopenmath problem="2104" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Population</title>
+	        <myopenmath problem="2107" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Identify Slope</title>
+	        <myopenmath problem="15577" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Equation from Table</title>
+	        <myopenmath problem="182503" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Equation from Table</title>
+	        <myopenmath problem="483502" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find Slope from Graph</title>
+	        <myopenmath problem="483533" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Tuition</title>
+	        <myopenmath problem="718005" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Check if Linear</title>
+	        <myopenmath problem="234907" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Check if Linear</title>
+	        <myopenmath problem="234909" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Write Equation</title>
+	        <myopenmath problem="1423" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Write Eqation</title>
+	        <myopenmath problem="2699" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Write Eqation</title>
+	        <myopenmath problem="15603" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graph Line</title>
+	        <myopenmath problem="13865" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graph Line</title>
+	        <myopenmath problem="29942" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graph Line</title>
+	        <myopenmath problem="204105" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Write Equation and Graph Line</title>
+	        <myopenmath problem="1020133" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graph Line</title>
+	        <myopenmath problem="199528" />
+	    </exercise>
+	</exercisegroup>
+</exercises>
 
 </section>

@@ -1,21 +1,39 @@
-INFO    :  PreTeXt project found in `D:\Documents\texts\tech_math`.
-INFO    :  
-WARNING :  Assets like latex-images will not be regenerated for this build
-WARNING :  (previously generated assets will be used if they exist).
-WARNING :  To generate these assets before building, run `pretext build -g`.
-INFO    :  Preparing to build into D:\Documents\texts\tech_math\output\html.
-INFO    :  
+INFO    : PreTeXt project found in `D:\Documents\texts\tech_math`.
+INFO    : Since no build target was supplied, the first target of the project.ptx manifest (web) will be built.
+WARNING : Generating only webwork assets.
+INFO    : Now generating webwork representation
+
+
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'D:/Documents/texts/tech_math/publication/publication.ptx'}
+INFO    : discovering source file's directory name: D:\Documents\texts\tech_math\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\tech_math\source\../generated
+INFO    : input directory expanded to absolute path: D:\Documents\texts\tech_math\generated
+INFO    : verifying and expanding input directory: D:\Documents\texts\tech_math\source\../external
+INFO    : input directory expanded to absolute path: D:\Documents\texts\tech_math\external
+INFO    : XSL conversion of D:\Documents\texts\tech_math\source\techmath.ptx by C:\Users\drmaf\.ptx\xsl\extract-pg.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\extract-pg.xsl
+INFO    : validating, cleaning server URL: http://aholiab.uaa.alaska.edu
+ERROR   : PTX:ERROR: there was a problem with the server URL, http://aholiab.uaa.alaska.edu
+HTTPConnectionPool(host='aholiab.uaa.alaska.edu', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EC8EC765E0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+INFO    : ##################
+ERROR   : Failed to generate the webwork-representations file.  Check your source and partial output to diagnose the issue.
+WARNING : Continuing...
+INFO    : Preparing to build into D:\Documents\texts\tech_math\output\html.
+INFO    : 
 Now building HTML into D:\Documents\texts\tech_math\output\html
 
-INFO    :  discovering source file's directory name: D:\Documents\texts\tech_math\source
-INFO    :  verifying and expanding input directory: D:\Documents\texts\tech_math\source\../generated
-INFO    :  input directory expanded to absolute path: D:\Documents\texts\tech_math\generated
-INFO    :  verifying and expanding input directory: D:\Documents\texts\tech_math\source\../external
-INFO    :  input directory expanded to absolute path: D:\Documents\texts\tech_math\external
-INFO    :  converting D:\Documents\texts\tech_math\source\techmath.ptx to HTML in C:\Users\drmaf\AppData\Local\Temp\tmpz9qr1tos
-INFO    :  XSL conversion of D:\Documents\texts\tech_math\source\techmath.ptx by C:\bin\Anaconda3\lib\site-packages\pretext\static\xsl\pretext-html.xsl
-INFO    :  comprehensive messages, warnings, and errors:
-INFO    :  successful application of C:\bin\Anaconda3\lib\site-packages\pretext\static\xsl\pretext-html.xsl
-INFO    :  
-Success! Run `pretext view html` to see the results.
+INFO    : discovering source file's directory name: D:\Documents\texts\tech_math\source
+INFO    : verifying and expanding input directory: D:\Documents\texts\tech_math\source\../generated
+INFO    : input directory expanded to absolute path: D:\Documents\texts\tech_math\generated
+INFO    : verifying and expanding input directory: D:\Documents\texts\tech_math\source\../external
+INFO    : input directory expanded to absolute path: D:\Documents\texts\tech_math\external
+INFO    : converting D:\Documents\texts\tech_math\source\techmath.ptx to HTML in C:\Users\drmaf\AppData\Local\Temp\tmpz47aavet
+INFO    : XSL conversion of D:\Documents\texts\tech_math\source\techmath.ptx by C:\Users\drmaf\.ptx\xsl\pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\drmaf\.ptx\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : While running pretext, the following errors occured:
 

@@ -6,7 +6,7 @@
 -->
 <project>
   <targets>
-    <target name="html">
+    <target name="web">
       <format>html</format>
       <source>source/techmath.ptx</source>
       <publication>publication/publication.ptx</publication>
@@ -33,9 +33,18 @@
       <output-dir>output/subset</output-dir>
       <stringparam key="debug.skip-knowls" value="yes"/>
     </target>
+    <target name="noexercise">
+      <format>pdf</format>
+      <source>source/techmath.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/pdf</output-dir>
+      <xsl>xsl/pretext-noexer.xsl</xsl>
+    </target>
   </targets>
   <executables>
-      <tex>xelatex</tex>
+      <pdflatex>pdflatex</pdflatex>
+      <latex>latex</latex>
+      <xelatex>xelatex</xelatex>
       <pdfsvg>pdf2svg</pdfsvg>
       <asy>asy</asy>
       <sage>sage</sage>

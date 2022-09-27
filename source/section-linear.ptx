@@ -117,6 +117,52 @@
 
 </subsection>
 
+<subsection xml:id="subsection-linear-formulas">
+	<title>Solving with Multiple Variables</title>
+
+	<p>When we are using models (also called formulas) they often include more than one variable (also known as named constants). The process for solving such models is the same.</p>
+
+	<example xml:id="example-solve-ohms">
+		<statement><p>Solve the equation <m>V=IR</m> for <m>R</m>. Note, this formula is explained in <xref ref="example-formula-ohms-law" />.</p></statement>
+		<solution><p><md>
+			<mrow>V &amp; = IR.</mrow>
+			<mrow>\frac{V}{I} &amp; = \frac{IR}{I} &amp; \text{divide to undo multiplication}.</mrow>
+			<mrow>\frac{V}{I} &amp; = R.</mrow>
+		</md></p></solution>
+	</example>
+
+	<example xml:id="example-solve-lift">
+		<statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>S</m>.</p></statement>
+		<solution><p><md>
+			<mrow>L \amp = \frac{1}{2}\rho S C_L v^2.</mrow>
+			<mrow>2L \amp = 2\frac{1}{2}\rho S C_L v^2.</mrow>
+			<mrow>2L \amp = \rho S C_L v^2.</mrow>
+			<mrow>\frac{2L}{\rho} \amp = \frac{\rho S C_L v^2}{\rho}.</mrow>
+			<mrow>\frac{2L}{\rho} \amp = S C_L v^2.</mrow>
+			<mrow>\frac{2L}{\rho C_L} \amp = \frac{S C_L v^2}{C_L}.</mrow>
+			<mrow>\frac{2L}{\rho C_L} \amp = S v^2.</mrow>
+			<mrow>\frac{2L}{\rho C_L v^2} \amp = \frac{S v^2}{v^2}.</mrow>
+			<mrow>\frac{2L}{\rho C_L v^2} \amp = S.</mrow>
+		</md></p></solution>
+	</example>
+
+	<example xml:id="example-solve-lift-with-values">
+		<statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>S</m> when <m>L=255\bar{0}</m>, <m>\rho=0.002378</m>, and <m>C_L=1.430</m>.</p></statement>
+		<solution><p>Because we know some of the values, we can first insert them before solving.<md>
+			<mrow>255\bar{0} \amp = \frac{1}{2}(0.002378)S(1.430)v^2.</mrow>
+			<mrow>255\bar{0} \amp = 0.001700 S v^2.</mrow>
+			<mrow>\frac{255\bar{0}}{0.001700} \amp = \frac{0.001700 S v^2}{0.001700}.</mrow>
+			<mrow>150\bar{0}000 \amp = S v^2.</mrow>
+			<mrow>\frac{150\bar{0}000}{v^2} \amp = \frac{S v^2}{v^2}.</mrow>
+			<mrow>\frac{150\bar{0}000}{v^2} \amp = S.</mrow>
+		</md></p></solution>
+	</example>
+
+	<exercise xml:id="exercise-solve-lift">
+		<statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>\rho</m>.</p></statement>
+	</exercise>
+</subsection>
+
 <subsection xml:id="subsection-linear-identify">
 	<title>Identifying Linear Expressions</title>
 
@@ -151,4 +197,79 @@
 
 </subsection>
 
+<exercises>
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="2326" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="2496" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="3419" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="1287" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="2017" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="2020" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="2498" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="2070" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="2348" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="4150" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="4153" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="4157" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="4159" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="4167" />
+    </exercise>
+
+    <exercise>
+        <title>Solve</title>
+        <myopenmath problem="4169" />
+    </exercise></exercises>
 </section>

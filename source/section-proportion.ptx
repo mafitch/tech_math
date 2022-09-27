@@ -14,6 +14,8 @@
 
 	<p>We can solve for values in ratio problems by setting up the equation (ratio equals ratio) and then multiplying and dividing as needed to solve. Often people remember this with the mnemonic device: cross multiplication which is also known as clearing the denominators.</p>
 
+	<video youtube="gk2PpTQyZk8" xml:id="video-example-proportion-solve" />
+
 	<example xml:id="example-ratio-airspeed-solve">
 		<title>Proportion: Solving</title>
 		<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \; \text{nautical miles}}{1 \; \text{hour}}</me>.</p>
@@ -21,7 +23,7 @@
 		<p>Because this is a fixed ratio we can write
 			<md>
 				<mrow>\frac{110 \; \text{nm}}{\text{hour}} \amp = \frac{236 \; \text{nm}}{t \; \text{hours}}.</mrow>
-				<mrow>t \; \text{hours} \cdot \frac{110 \; \text{nm}}{1 \text{hour}} \amp = 1 \; \text{hour} \cdot \frac{236 \; \text{nm}}{t \; \text{hours}}.</mrow>
+				<mrow>t \; \text{hours} \cdot \frac{110 \; \text{nm}}{1 \text{hour}} \amp = t \; \text{hours} \cdot \frac{236 \; \text{nm}}{t \; \text{hours}}.</mrow>
 				<mrow>t \cdot 110 \; \text{nm} \amp = 236 \; \text{nm}. \amp \; \text{Clearing the denominators.}</mrow>
 				<mrow>\frac{t \cdot 110 \; \text{nm}}{110 \; \text{nm}}  \amp = \frac{236 \; \text{nm}}{110 \; \text{nm}}.</mrow>
 				<mrow>t \amp = \frac{236}{110}.</mrow>
@@ -81,11 +83,23 @@
 				<p>Cream cheese: <var name="'3400'" width="5" /> </p>
 			</statement>
 			<solution>
-				<p>The egg to cream cheese must be in a 1/10 ratio. We can check what the ratio of ingredients we have is. <me>\frac{35\bar{0} \; \text{g}}{340\bar{0} \; \text{g}} \approx 0.103</me> Because this is more than <m>1/10=0.1</m> we have more egg than we can use. Thus we will set up the 1/10 ratio using all of the cream cheese.
+				<p>First we can figure out whether the egg or the cream cheese is the limiting ingredient. The egg to cream cheese must be in a <me>\frac{15\bar{0}}{150\bar{0}}=\frac{1.00}{10.0}</me> ratio. We can calculate the ratio of ingredients we have <me>\frac{35\bar{0} \; \text{g}}{340\bar{0} \; \text{g}} \approx 0.103</me> Because this is more than <m>0.103 \gt 0.1=1/10,</m> we have more egg than we can use, because the numerator (egg) is bigger. Thus we will set up the proportion using all of the cream cheese.</p>
+				<p>We can setup the ratio multiple ways. The first is using the egg to cheese ratio.
 				<md>
-					<mrow>\frac{1}{10} &amp; = \frac{E \; \text{g}}{340\bar{0} \; \text{g}}.</mrow>
-					<mrow>\frac{1}{10} \cdot 340\bar{0} \; \text{g} &amp; = \frac{E \; \text{g}}{340\bar{0} \; \text{g}} \cdot 340\bar{0} \; \text{g}.</mrow>
+					<mrow>\frac{15\bar{0}}{150\bar{0}} &amp; = \frac{E \; \text{g}}{340\bar{0} \; \text{g}}.</mrow>
+					<mrow>\frac{1.00}{10.0} &amp; = \frac{E \; \text{g}}{340\bar{0} \; \text{g}}.</mrow>
+					<mrow>\frac{1.00}{10.0} \cdot 340\bar{0} \; \text{g} &amp; = \frac{E \; \text{g}}{340\bar{0} \; \text{ g}} \cdot 340\bar{0} \; \text{g}.</mrow>
 					<mrow>34\bar{0}.0 &amp; = E \; \text{g}.</mrow>
+				</md>
+				We can use 340 of the 350 grams of egg.</p>
+				<p>Another way is using the recipe to scaled up ratio.
+				<md>
+					<mrow>\frac{15\bar{0}}{E} &amp; = \frac{150\bar{0}}{340\bar{0}}.</mrow>
+					<mrow>\frac{15\bar{0}}{E}E &amp; = \frac{150\bar{0}}{340\bar{0}}E.</mrow>
+					<mrow>15\bar{0} &amp; = \frac{150\bar{0}}{340\bar{0}}E.</mrow>
+					<mrow>\frac{340\bar{0}}{150\bar{0}} \cdot 15\bar{0} &amp; = \frac{340\bar{0}}{150\bar{0}} \cdot \frac{150\bar{0}}{340\bar{0}}E.</mrow>
+					<mrow>\frac{340\bar{0} \cdot 15\bar{0}}{150\bar{0}} &amp; = E.</mrow>
+					<mrow>34\bar{0} &amp; = E.</mrow>
 				</md>
 				We can use 340 of the 350 grams of egg.</p>
 			</solution>
@@ -163,5 +177,107 @@
 	<p>One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1/32 scale. This means that one inch on the model is 32 inches on the actual object.</p>
 
 </subsection>
+
+<exercises>
+    <exercise>
+        <title>Fractions</title>
+        <myopenmath problem="41890" />
+    </exercise>
+
+    <exercise>
+        <title>Fractions</title>
+        <myopenmath problem="41892" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion (no context)</title>
+        <myopenmath problem="877" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion (no context)</title>
+        <myopenmath problem="878" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion (no context)</title>
+        <myopenmath problem="882" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion (no context)</title>
+        <myopenmath problem="42462" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion Application</title>
+        <myopenmath problem="42472" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion Application</title>
+        <myopenmath problem="42474" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion Application</title>
+        <myopenmath problem="42476" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion Application</title>
+        <myopenmath problem="42478" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion Application</title>
+        <myopenmath problem="42482" />
+    </exercise>
+
+    <exercise>
+        <title>Proportion Application</title>
+        <myopenmath problem="42484" />
+    </exercise>
+
+    <exercise>
+        <title>Solution</title>
+        <myopenmath problem="773773" />
+    </exercise>
+
+    <exercise>
+        <title>Similar Triangles</title>
+        <myopenmath problem="32076" />
+    </exercise>
+
+    <exercise>
+        <title>Similar Triangles</title>
+        <myopenmath problem="773857" />
+    </exercise>
+
+    <exercise>
+        <title>Similar Triangles</title>
+        <myopenmath problem="17545" />
+    </exercise>
+
+    <exercise>
+        <title>Similar Triangles</title>
+        <myopenmath problem="156750" />
+    </exercise>
+
+    <exercise>
+        <title>Similar Triangles</title>
+        <myopenmath problem="163398" />
+    </exercise>
+
+    <exercise>
+        <title>Similar Triangles</title>
+        <myopenmath problem="173630" />
+    </exercise>
+
+    <exercise>
+        <title>Similar Triangles</title>
+        <myopenmath problem="892" />
+    </exercise>
+</exercises>
 
 </section>

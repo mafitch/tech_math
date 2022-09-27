@@ -32,17 +32,17 @@
 <subsection xml:id="subsection-enough-sigfigs">
 	<title>Significant Figures</title>
 
-<p>When writing down measurements we need a way to indicate how precise the measurement is. <term>Significant digits</term> also called <term>significant figures</term> or simply <q>sig figs</q> are a way to do this.</p>
+	<p>When writing down measurements we need a way to indicate how precise the measurement is. <term>Significant digits</term> also called <term>significant figures</term> or simply <q>sig figs</q> are a way to do this.</p>
 
-<p>The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.
-	<ol>
-		<li>All non-zero digits are signficant.</li>
-		<li>Zeros between non-zeros are significant.</li>
-		<li>Any zeros written to the right of the decimal point are significant.</li>
-		<li>If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.</li>
-		<li>For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.</li>
-	</ol>
-We can summarize these rules as: write only digits that you mean, and if it is ambiguous clarify.</p>
+	<p>The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.
+		<ol>
+			<li>All non-zero digits are signficant.</li>
+			<li>Zeros between non-zeros are significant.</li>
+			<li>Any zeros written to the right of the decimal point are significant.</li>
+			<li>If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.</li>
+			<li>For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.</li>
+		</ol>
+	We can summarize these rules as: write only digits that you mean, and if it is ambiguous clarify.</p>
 
 	<example xml:id="example-sigfigs">
 		<title>Writing Significant Digits</title>
@@ -58,33 +58,7 @@ We can summarize these rules as: write only digits that you mean, and if it is a
 		</p>
 	</example>
 
-	<p>We also need rules for arithmetic with significant digits. These are based on two principles
-	<ul>
-		<li>A result of arithmetic cannot be more precise than the least precise measurement.</li>
-		<li>The number of significant digits cannot increase.</li>
-	</ul></p>
-
-	<p>For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. This means the result is not significant in any digit not significant in one of the numbers.</p>
-
-	<example xml:id="example-sigfig-add">
-		<title>Addition/Subtraction with Significant Digits</title>
-		<p><m>723+11050=11770</m>. This is because the last significant digit of <m>11050</m> is the 10's position (with the 5 in it).</p>
-		<p>An explanation of why this rule works is in this video.</p>
-		<video youtube="kxnjKrjXOH4" xml:id="video-example-sigfig-add" />
-	</example>
-
-	<p>For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</p>
-
-	<example xml:id="example-sigfig-multiply">
-		<title>Multiplication/Division with Significant Digits</title>
-		<p><m>11050/722=15.3</m>. This is because <m>722</m> has only 3 significant digits.</p>
-		<p>An explanation of why this rule works is in this video.</p>
-		<video youtube="oQ48Agi4TfI" xml:id="video-example-sigfig-multiply" />
-	</example>
-
-	
-
-	<exercise xml:id="exercise-sigfigs1">
+	<exercise xml:id="exercise-sigfigs-count">
 		<webwork>
 			<statement>
 				<p>How many significant digits does <m>203</m> have? <var name="'3'" width="3" /> </p>
@@ -97,16 +71,100 @@ We can summarize these rules as: write only digits that you mean, and if it is a
 	    </webwork>
 	</exercise>
 
+	<p>We also need rules for arithmetic with significant digits. These are based on two principles
+	<ul>
+		<li>A result of arithmetic cannot be more precise than the least precise measurement.</li>
+		<li>The number of significant digits cannot increase.</li>
+	</ul></p>
+
+	<p>For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left, last significant digit.</p>
+
+	<example xml:id="example-sigfig-subtract">
+		<title>Subtraction with Significant Digits</title>
+		<p><m>11050-723=10330</m>. This is because the last significant digit of <m>11050</m> is the 10's position (with the 5 in it) whereas the last significant digit of <m>723</m> is the 1's position (with the 3 in it). We do not know the 1's position of 11050, so we cannot know the 1's position in the result.</p>
+	</example>
+
+	<example xml:id="example-sigfig-add">
+		<title>Addition with Significant Digits</title>
+		<p><m>311+8310+202200=210800</m>. This is because the farthest left, last significant digit is in the 100's position in 202200. The extra precision of the other two numbers is not useful.</p>
+	</example>
+
+	<p>The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. A detailed explanation is in this video.</p>
+	<video youtube="kxnjKrjXOH4" xml:id="video-example-sigfig-add" />
+
+	<exercise xml:id="exercise-sigfigs-add">
+		<webwork>
+			<statement>
+				<p>Calculate <m>646+21.12+120</m>: <var name="'790'" width="5" /> </p>
+				<p>Calculate <m>63.97-21</m>: <var name="'43'" width="5" /> </p>
+			</statement>
+			<solution>
+				<p><m>646+21.12+120=787.12 \approx 790</m> because <m>120</m> is significant to only the 10's position (the others are more precise).</p>
+				<p><m>63.97-21=42.97 \approx 43</m> because <m>21</m> is significant to only the 1's position (the other is more precise).</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<p>For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</p>
+
+	<example xml:id="example-sigfig-divide">
+		<title>Division with Significant Digits</title>
+		<p><m>11050/722=15.3</m>. This is because <m>722</m> has only 3 significant digits.</p>
+	</example>
+
+	<example xml:id="example-sigfig-multiply">
+		<title>Multiplication with Significant Digits</title>
+		<p><m>17 \times 14\bar{0} \times 3.178= 7600</m>. This is because <m>17</m> has only two significant digits.</p>
+	</example>
+
+	<p>The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. An explanation of why this rule works is in this video.</p>
+	<video youtube="oQ48Agi4TfI" xml:id="video-example-sigfig-multiply" />
+
+	<exercise xml:id="exercise-sigfigs-multiply">
+		<webwork>
+			<statement>
+				<p>Calculate <m>646 \times 21.12</m>: <var name="'13600'" width="7" /> </p>
+				<p>Calculate <m>63.97/21</m>: <var name="'3.0'" width="5" /> </p>
+			</statement>
+			<solution>
+				<p><m>646 \times 21.12=13643.52 \approx 13600</m> because <m>646</m> has only 3 significant digits (the other has more).</p>
+				<p><m>63.97/21=3.046190476 \approx 3.0</m> because <m>21</m> has only 2 significant digits (the other has more).</p>
+			</solution>
+	    </webwork>
+	</exercise>
+
+	<p>Significant digit rules must be applied at each step. That is if we have a mix of addition, subtraction, multiplication, and division then we do one operation at a time and apply the appropriate significant digits rule before performing the next arithmetic step.</p>
+
+	<example xml:id="example-sigfig-multi">
+		<title>Multi-Step Arithmetic with Significant Digits</title>
+		<p>Consider <me>11,728+39(17.9+1.23).</me> By order of operations we first calculate <m>17.9+1.23 \approx 19.1.</m> Second by order of operations we calculate <m>39 \times 19.1 = 740.</m> Finally we calculate <m>11,728+740=12,470.</m></p>
+	</example>
+
 </subsection>
 
 <subsection xml:id="subsection-rounding">
 	<title>Rounding</title>
 
-	<p>For a variety of reasons in applications we need to round a number, that is ignore some level of precision. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need <m>21/12=1.75</m> cartons. Since we cannot purchase part of a carton, we must round 1.75 to 2, and purchase 2 cartons.</p>
+	<p>For a variety of reasons in applications we need to round a number, that is ignore some level of precision.</p>
+
+	<table xml:id="table-round-reasons">
+		<title>Reasons for Rounding</title>
+		<tabular>
+			<row><cell>Reality Constraints</cell><cell>For example we cannot buy partial packages or have fractional people</cell></row>
+			<row><cell>Remove Detail</cell><cell>For example when describing the population of a nation</cell></row>
+			<row><cell>Control Error</cell><cell>When used in significant digits</cell></row>
+		</tabular>
+	</table>
+
+	<p>The reason for rounding determines how we do it. Consider the following reality constraints requiring rounding. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need <m>21/12=1.75</m> cartons. Since we cannot purchase part of a carton, we must round 1.75 to 2, and purchase 2 cartons.</p>
 	<p>Note in this example reality requires us to round up to the nearest integer. We round to an integer because we cannot purchase fractional cartons of eggs. We had to round up, because rounding down would leave us with insufficient eggs (and we are hungry).</p>
 	<p>Suppose you have a bank account containing $11410 that accrues 1.65% interest. The bank calculates the payment should be <m>\$11410 \cdot 0.00165 = \$18.8265</m>. The bank will pay you $18.82. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.</p>
 
-	<p>We can round to the nearest thousand or the nearest hundredth. Context or instructions will specify which. We can round up, down, or simply <q>round</q>.</p>
+	<p>For removal of detail consider reporting the population of a country. We might report the population as 9 million rather than 9,904,607. We do this because we don't need the exact number which likely is changing every day. When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 and $80,290.11 is unlikely to change a decision. A common usage of removing detail is when we care about the scale of things rather than the count.</p>
+
+	<p>Rounding to control error is the use of significant digits.</p>
+
+	<p>We can round to any digit. We can round up, down, or simply <q>round</q>. Context or instructions will specify which digit and which type of rounding.</p>
 
 	<example xml:id="example-rounding-types1">
 		<title>Rounding Up/Down</title>
@@ -116,7 +174,7 @@ We can summarize these rules as: write only digits that you mean, and if it is a
 		</task>
 		<task>
 			<statement><p>Round 72481 up to the nearest hundred.</p></statement>
-			<solution><p>72600 is rounding up: we increase the 4 to a 5 and <q>truncate</q> (turn to 0) all digits to the right. Note <m>72500 \ge 72481</m>.</p></solution>
+			<solution><p>72500 is rounding up: we increase the 4 to a 5 and <q>truncate</q> (turn to 0) all digits to the right. Note <m>72500 \ge 72481</m>.</p></solution>
 		</task>
 		<task>
 			<statement><p>Round 72481 the nearest hundred.</p></statement>
@@ -135,7 +193,7 @@ We can summarize these rules as: write only digits that you mean, and if it is a
 			<solution><p>73000 is rounding up: we increase the 2 to a 3 and <q>truncate</q> (turn to 0) all digits to the right. Note <m>73000 \ge 72481</m>.</p></solution>
 		</task>
 		<task>
-			<statement><p>Round 72481 to the nearest hundred.</p></statement>
+			<statement><p>Round 72481 to the nearest thousand.</p></statement>
 			<solution><p>Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is <m>4 &lt; 5</m> which makes it closer to go down. We could also recognize the need to round down by calculating <m>3000-2481=519</m> and <m>2481-2000=481</m> and noticing that <m>481 &lt; 519</m>. </p></solution>
 		</task>
 	</example>
@@ -205,13 +263,19 @@ We can summarize these rules as: write only digits that you mean, and if it is a
 	<exercise xml:id="exercise-greatest-error2">
 		<webwork>
 			<statement>
-				<p>What is the greatest possible error if <m>934\bar{0}00</m>? <var name="'50'" width="3" /> </p>
+				<p>What is the greatest possible error in the result <m>934\bar{0}00</m>? <var name="'50'" width="3" /> </p>
 			</statement>
 			<solution>
 				<p>The smallest accurate digit is the hundreds position as indicated by the bar. Thus the number could be anything from 933950-934049. Thus the greatest possible error is 50.</p>
 			</solution>
 	    </webwork>
 	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-rounding-roundup">
+	<title>Purposes of Rounding</title>
+
 
 </subsection>
 

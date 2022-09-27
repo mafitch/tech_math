@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--********************************************************************
-Copyright 2020 Mark A. Fitch
+Copyright 2020 Megan Ossiander-Gobeille and Mark Fitch
 *********************************************************************-->
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 
@@ -16,6 +16,7 @@ Copyright 2020 Mark A. Fitch
             <title>Cross Cutting Topics</title>
             <xi:include href="./section-units.ptx" />      <!--  Measurements and Systemss -->
             <xi:include href="./section-enough.ptx" />      <!-- Accuracy and precision -->
+            <xi:include href="./section-formula.ptx" />      <!-- Reading and calculating with formulas/models -->
 
        </chapter>
 
