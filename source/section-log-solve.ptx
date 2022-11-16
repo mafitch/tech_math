@@ -58,14 +58,14 @@
 <subsection xml:id="subsection-logarithm-property-power">
 	<title>Additional Logarithm Property</title>
 
-	<p>We need one more property of logarithms to solve some equations. <me>\log_b(a^p) = p \log_b(a)</me></p>
+	<p>We need one more property of logarithms to solve some equations.</p>
 
 	<example xml:id="example-log-power-property">
 		<statement><p>Evaluate <m>\log(10^7)</m></p></statement>
 		<solution><p><m>\log(10^7)=7 \log(10) = 7</m> because <m>\log(10)</m> is the same as <m>10^x=10</m> so <m>x=1</m>.</p></solution>
 	</example>
 
-	<p>We can use this property to solve equations involving exponentials.</p>
+	<p>In general the property is <me>\log_b(a^p) = p \log_b(a)</me>. We can use this property to solve equations involving exponentials.</p>
 
 	<example xml:id="example-solve-exponential">
 		<statement><p>Solve <m>5 = 2^x</m>.</p></statement>
@@ -79,6 +79,22 @@
 		</md>
 		Note those last three steps will always be the same, so we often jump from the second step to the last.</p>
 		<video youtube="F5wY2KRtFuQ" xml:id="video-example-solve-exponential2" /></solution>
+	</example>
+
+	<p>Your calculator likely does not have a button for calculating <m>\log_2(x)</m>. The property we used does not depend on using that log however.</p>
+
+	<example xml:id="example-solve-exponential-ln">
+		<statement><p>Solve <m>5 = 2^x</m>.</p></statement>
+		<solution><p>Because the exponential is base 2, we will use a log base 2.
+		<md>
+			<mrow>5 &amp; = 2^x.</mrow>
+			<mrow>\ln(5) &amp; = \ln(2^x).</mrow>
+			<mrow>\ln(5) &amp; = x\ln(2).</mrow>
+			<mrow>\frac{\ln(5)}{\ln(2)} &amp; = \frac{x\ln(2)}{\ln(2)}.</mrow>
+			<mrow>\frac{\ln(5)}{\ln(2)} &amp; = x.</mrow>
+		</md>
+		Your calculator does have a button for <m>\ln(x)</m>. Note this implies that <m>\log_2(5) = \frac{\ln(5)}{\ln(2)}</m>. This relationship always works.</p>
+		</solution>
 	</example>
 
 	<example xml:id="example-solve-exponetial-algebra">
@@ -171,6 +187,43 @@
 		</task>
 	</example>
 
+	<example xml:id="example-exponential-growth-redux">
+		<statement><p>In <xref ref="subsection-exponential-application" /> we produced the model <m>P=4000 \cdot 2^{t/70}</m>. Here we will redo this problem using the model <m>P=P_0 e^{kt}</m>.</p>
+		<p>The bacteria <term>lactobacilus acidophilus</term> doubles in population every 70 minutes. If the initial population was 4000 bacteria, what would the population be after 24 hours?</p></statement>
+		<solution><p>First we calculate the constant <m>k</m> in the model.
+		<md>
+			<mrow>8000 &amp; = 4000e^{70 k}</mrow>
+			<mrow>\frac{8000}{4000} &amp; = e^{70k}</mrow>
+			<mrow>2 &amp; = e^{70k}</mrow>
+			<mrow>\ln(2) &amp; = 70k</mrow>
+			<mrow>\frac{\ln(2)}{70} &amp; = k</mrow>
+			<mrow>k &amp; \approx 0.009902</mrow>
+		</md>
+		Using this value we can now calculate the value after 24 hours. Note 24 hours is <m>24 \cdot 60 = 1440</m> minutes.
+		<md>
+			<mrow>P &amp; = 4000e^{(1440)(0.009902)}</mrow>
+			<mrow> &amp; \approx 6.232 \times 10^9</mrow>
+		</md></p>
+		</solution>
+	</example>
+
+	<p>Note, that the example in <xref ref="subsection-exponential-application" /> and <xref ref="example-exponential-growth-redux" /> imply that <m>4000 \cdot 2^{t/70} = 4000 e^{(0.009902)t}</m>. Generally, we can write <m>2^x = e^{kx}</m> or <m>3^x = e^{kx}</m> or similar for value of <m>k</m>.</p>
+
+	<example xml:id="example-convert-exponential-e">
+		<statement><p>Write <m>2^x</m> as <m>e^{kx}</m>.</p></statement>
+		<solution><p>
+			<md>
+				<mrow>2^x &amp; = e^{kx}.</mrow>
+				<mrow>\ln(2^x) &amp; = \ln(e^{kx}).</mrow>
+				<mrow>x \ln(2) &amp; = (kx)\ln(e).</mrow>
+				<mrow>x \ln(2) &amp; = kx.</mrow>
+				<mrow>\frac{x \ln(2)}{x} &amp; = \frac{kx}{x}.</mrow>
+				<mrow>\ln(2) &amp; = k</mrow>
+			</md>
+			Thus <m>2^x = e^{x \ln(2)}</m>.</p>
+		</solution>
+	</example>
+
 	<example xml:id="example-pH">
 		<introduction><p>Acidity is measured in pH (percent hydrogen). It uses a logarithmic scale. <me>\text{pH} = -\log(H_3O^+)</me> where <m>H_3O^+</m> is the concentration of hydronium ions per mole. This is obtained experimentally.</p></introduction>
 		<task>
@@ -220,5 +273,105 @@
 	</example>
 
 </subsection>
+
+<exercises>
+	<exercisegroup>
+		<introduction><p>Solve equations with logarithms and exponentials</p></introduction>
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="1539" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="1549" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="1552" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="1554" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="1541" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="8516" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="64235" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="64252" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Contextless</title>
+	        <myopenmath problem="38430" />
+	    </exercise>
+	</exercisegroup>
+	<exercisegroup>
+		<introduction><p>Use logarithms and exponentials to work with applications.</p></introduction>
+	    <exercise>
+	        <myopenmath problem="1585" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="1499" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="1767" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="5787" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="5788" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="6591" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="1054132" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="1566" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="1565" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="15892" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="67160" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="127542" />
+	    </exercise>
+	</exercisegroup>
+</exercises>
 
 </section>

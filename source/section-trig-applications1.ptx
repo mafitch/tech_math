@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-trig-applications1" >
+<title>Using Trig Functions</title>
+
+<introduction>
+
+<p>In problems where we identify a right triangle, we know or need an angle, and we know or need sides, we can use trigonometric functions to calculate what we need.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-trig-function-application">
+	<title>Calculating lengths using trig functions</title>
+
+	<definition xml:id="definitin-angle-elevation">
+		<title>Angle of Elevation</title>
+		<statement><p>The <term>angle of elevation</term> of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).</p></statement>
+	</definition>
+
+	<definition xml:id="definitin-angle-depression">
+		<title>Angle of Depression</title>
+		<statement><p>The <term>angle of depression</term> of an object or observation is the angle measured from level down to the object (or line of sight).</p></statement>
+	</definition>
+
+    <example xml:id="example-apply-ladder-height">
+     	<statement><p>For safety reasons the optimal angle of elevation of a ladder is <m>75^\circ</m>. If the ladder is 16' long, at what height will the top of the ladder be resting against a wall?</p></statement>
+     	<solution>
+     		<p>First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle, the length of the hypotenuse, and we want the length opposite the angle, we want to use the sine function.</p>
+			<p><md>
+				<mrow>\sin(75^\circ) &amp; = \frac{B}{16}</mrow>
+				<mrow>16\sin(75^\circ) &amp; = B</mrow>
+				<mrow>15.45 &amp; \approx B</mrow>
+			</md> Thus the optimal distance to place the base of the ladder is 15.5 feet from the wall.</p>
+		</solution>
+     </example>
+
+     <example xml:id="example-apply-measure-height">
+     	<statement><p>The shadow of a tree is measured to be 103 ft (measured from the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be <m>63^\circ</m>. How tall is the tree?</p></statement>
+     	<solution><p>This forms a right triangle with angle <m>63^\circ</m>, adjacent length 103 ft, and we want the length of the opposite leg.
+     	<md>
+     		<mrow>\tan(63^\circ) &amp; = \frac{H}{103}.</mrow>
+     		<mrow>103\tan(63^\circ) &amp; = H.</mrow>
+     		<mrow>2\bar{0}0 &amp; \approx H.</mrow>
+     	</md> The tree is approximately 200 feet high.</p></solution>
+     </example>
+
+     <example xml:id="example-apply-runway-tch">
+     	<statement><p>Aircraft typically fly a <m>3^\circ</m> angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.</p></statement>
+     	<solution><p>This is a right triangle with adjacent leg length 1020 ft and angle <m>3^\circ</m>. The length of the opposite is the height at the threshold.
+     	<md>
+     		<mrow>\tan(3^\circ) &amp; = \frac{T}{1020}.</mrow>
+     		<mrow>1020\tan(3^\circ) &amp; = T.</mrow>
+     		<mrow>53 &amp; \approx \frac{T}{1020}.</mrow>
+     	</md></p></solution>
+     </example>
+
+	<exercise xml:id="exercise-apply-runway-tch">
+		<webwork>
+			<statement>
+				<p>At a particular airport the angle of depression flown by aircraft following the PAPI (vertical guidance) is <m>3.05^\circ</m>. This leads to a point 1020 ft from the threshold of the runway. How high is the aircraft at the threshold? <var name="54" width="3" /></p>
+			</statement>
+		</webwork>
+	</exercise>
+
+</subsection>
+
+<exercises>
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057317" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057318" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057327" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057330" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057329" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057332" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="127096" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057354" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057358" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="929531" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="929530" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057360" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057361" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057363" />
+	</exercise>
+
+	<exercise>
+	    <title>Trig Application</title>
+	    <myopenmath problem="1057364" />
+	</exercise>
+</exercises>
+
+</section>
