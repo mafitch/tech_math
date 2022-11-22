@@ -85,7 +85,24 @@
 <subsection xml:id="subsection-trig-ratios-defined">
 	<title>Defining Trig Functions</title>
 
+	<p>Note that in a right triangle the other two angles have measure less than right angles. This is a result of <xref ref="theorem-triangle-angle-sum"/>. Consider that <m>180^\circ-90^\circ=90^\circ</m> so the remaining two angles have a sum that adds to <m>90^\circ</m> implying both are smaller.</p>
+	<p>For right triangles we have names for the sides. Consider the labels in <xref ref="figure-triangle-side-names" /> The <term>adjacent</term> is the side touching the right angle that is also touching the angle with which we are working. The <term>opposite</term> is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in <xref ref="figure-trig-function-read"/> the adjacent side for <m>\alpha</m> has length 5 and the adjacent side for <m>\theta</m> has length 3. Both the adjacent and opposite are known as <term>legs</term> of the triangle. The <term>hypotenuse</term> is opposite the right angle (the one side not touching it).</p>
+
+	<figure xml:id="figure-triangle-side-names">
+		<caption>Right Triangle Terminology</caption>
+		<image source="images/triangle-names" width="50%"/>
+	</figure>
+
 	<p>Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in <xref ref="figure-trig-truth" /> to see how changing either side length or angle affects the other. </p>
+
+	<activity xml:id="activity-angle-side-relation">
+		<introduction><p>The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in <xref ref="figure-trig-truth"/></p></introduction>
+		<task xml:id="activity-angle-side-opposite"><p>Use the slider for <m>\alpha</m> to increase the angle from <m>0^\circ</m> to <m>90^\circ</m>. As the angle increases what does the length of the opposite side (j) do?</p></task>
+		<task xml:id="activity-angle-side-adjacent"><p>Use the slider for <m>\alpha</m> to increase the angle from <m>0^\circ</m> to <m>90^\circ</m>. As the angle increases what does the length of the adjacent side (j) do?</p></task>
+		<task><p>Note that the hypotenuse does not change in this example. Based on your result in <xref ref="activity-angle-side-opposite" />, as the angle <m>\alpha</m> increases what will the ratio of opposite to hypotenuse (j/g) do?</p></task>
+		<task><p>Note that the hypotenuse does not change in this example. Based on your result in <xref ref="activity-angle-side-adjacent" />, as the angle <m>\alpha</m> increases what will the ratio of adjacent to hypotenuse (i/g) do?</p></task>
+		<task><p>Based on your result in <xref ref="activity-angle-side-opposite" /> and <xref ref="activity-angle-side-adjacent" />, as the angle <m>\alpha</m> increases what will the ratio of opposite to adjacent (j/i) do?</p></task>
+	</activity>
 
 	<figure xml:id="figure-trig-truth">
 		<caption>Sides vs Angles</caption>
@@ -100,15 +117,7 @@
          </interactive>
     </figure>
 
-	<p>Because these side ratios are always the same for any triangle, we can use them to solve problems. First we must learn the names that are used to describe right triangles. Note the names are relative to the angle we are considering. This angle must be one of the two angles smaller than a right (<m>90^\circ</m>) angle.</p>
-	<p>Consider the labels in <xref ref="figure-triangle-side-names" /> The <term>adjacent</term> is the side touching the right angle that is also touching the angle with which we are working. The <term>opposite</term> is the side touching the right angle not touching the angle with which we are working. Both the adjacent and opposite are known as <term>legs</term> of the triangle. The <term>hypotenuse</term> is opposite the right angle (the one side not touching it).</p>
-
-	<figure xml:id="figure-triangle-side-names">
-		<caption>Right Triangle Terminology</caption>
-		<image source="images/triangle-names" width="50%"/>
-	</figure>
-
-	<p>The trigonometric functions (names for the ratios) are in <xref ref="table-trig-functions" /></p>
+	<p>Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in <xref ref="table-trig-functions" /></p>
 
 	<table xml:id="table-trig-functions">
 		<title>Trig Functions as Ratios</title>
@@ -350,5 +359,101 @@
 	</exercise>
 
 </subsection>
+
+<exercises>
+	<exercisegroup>
+		<introduction><p>Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.</p></introduction>
+	    <exercise>
+	        <title>Triangle Side Length</title>
+	        <myopenmath problem="1780" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Triangle Side Length</title>
+	        <myopenmath problem="1782" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Triangle Angles</title>
+	        <myopenmath problem="745315" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Triangle Angles</title>
+	        <myopenmath problem="745315" />
+	    </exercise>
+	</exercisegroup>
+
+	<exercisegroup>
+		<introduction><p>Use the ratio definitions of trigonometric functions to answer these.</p></introduction>
+	    <exercise>
+	        <title>Right Triangle Side Names</title>
+	        <myopenmath problem="4359" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Trig Function Definitions</title>
+	        <myopenmath problem="4363" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Trig Function Value</title>
+	        <myopenmath problem="8297" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Trig Function Value</title>
+	        <myopenmath problem="8298" />
+	    </exercise>
+	</exercisegroup>
+
+	<exercisegroup>
+		<introduction><p>Calculate side lengths and angles using trigonometric functions.</p></introduction>
+	    <exercise>
+	        <title>Find a side length</title>
+	        <myopenmath problem="836778" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find a side length</title>
+	        <myopenmath problem="836784" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find a side length</title>
+	        <myopenmath problem="836782" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find a side length</title>
+	        <myopenmath problem="836776" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find a side length</title>
+	        <myopenmath problem="836785" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find a side length</title>
+	        <myopenmath problem="830410" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find angles and side lengths</title>
+	        <myopenmath problem="1057071" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find angles and side lengths</title>
+	        <myopenmath problem="1057110" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Find angles and side lengths</title>
+	        <myopenmath problem="1057112" />
+	    </exercise>
+	</exercisegroup>
+</exercises>
 
 </section>

@@ -115,12 +115,129 @@
 				$a = Compute(random(2,9,1));
 			</pg-code>
 			<statement>
-				<p>Using technology, calculate <m>\ln(<var name="$a"/>)=</m> <var name="'1.945910149'" width="12" />.</p>
+				<p>Using technology, calculate <m>\ln(<var name="$a"/>)=</m> <var name="'2.0794'" width="12" />.</p>
 				<p>Precision should be at least four decimal places.</p>
 			</statement>
 		</webwork>
 	</exercise>
 
 </subsection>
+
+<exercises>
+	<exercisegroup>
+		<introduction><p>Calculate using logarithms</p></introduction>
+	    <exercise>
+	        <title>Notation</title>
+	        <myopenmath problem="100176" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Notation</title>
+	        <myopenmath problem="100176" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Notation</title>
+	        <myopenmath problem="100193" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Notation</title>
+	        <myopenmath problem="100193" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Notation</title>
+	        <myopenmath problem="1514" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Evaluate</title>
+	        <myopenmath problem="8522" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Evaluate</title>
+	        <myopenmath problem="35022" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Notation</title>
+	        <myopenmath problem="72629" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Notation</title>
+	        <myopenmath problem="15905" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Solve</title>
+	        <myopenmath problem="392038" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Solve</title>
+	        <myopenmath problem="728281" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Solve</title>
+	        <myopenmath problem="2434" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Solve</title>
+	        <myopenmath problem="2654" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Solve</title>
+	        <myopenmath problem="100541" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Solve</title>
+	        <myopenmath problem="2667" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Solve</title>
+	        <myopenmath problem="2668" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Application</title>
+	        <myopenmath problem="273794" />
+	    </exercise>
+	</exercisegroup>
+	<exercisegroup>
+		<introduction><p>Graph Logarithms</p></introduction>
+	    <exercise>
+	        <title>Graphs</title>
+	        <myopenmath problem="45602" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graphs</title>
+	        <myopenmath problem="418041" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graphs</title>
+	        <myopenmath problem="418054" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graphs</title>
+	        <myopenmath problem="418064" />
+	    </exercise>
+
+	    <exercise>
+	        <title>Graphs</title>
+	        <myopenmath problem="428652" />
+	    </exercise>
+	</exercisegroup>
+</exercises>
 
 </section>

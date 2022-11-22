@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-trig-error" >
+<title>Project: Effects of Scale on Error</title>
+
+<project xml:id="project-trig-error">
+	<title>Select the Best Time of Day</title>
+
+<introduction>
+	<p>In <xref ref="example-apply-measure-height"/> we learned to indirectly measure height of an object from the length of its shadow and angle of elevation. Here we consider the effects of the angle of elevation on the precision of our result.</p>
+</introduction>
+
+<task>
+	<statement><p>Suppose the shadow of a tree is measured to be 73 ft. If the the angle of elevation of the sun from the end of the shadow is <m>45^\circ</m>, what is the height of the tree?</p></statement>
+</task>
+
+<task>
+	<introduction><p>We will consider the impact of the sun's angle of elevation on the calculation. For this section suppose the tree is exactly 73 ft tall.</p></introduction>
+	<task><p>Suppose the angle of elevation of the sun is <m>45^\circ</m>. What is the length of the shadow?</p></task>
+	<task><p>Suppose the angle of elevation of the sun is <m>55^\circ</m>. What is the length of the shadow?</p></task>
+	<task><p>Suppose the angle of elevation of the sun is <m>65^\circ</m>. What is the length of the shadow?</p></task>
+	<task><p>Suppose the angle of elevation of the sun is <m>75^\circ</m>. What is the length of the shadow?</p></task>
+	<task><p>Suppose the angle of elevation of the sun is <m>85^\circ</m>. What is the length of the shadow?</p></task>
+	<task><p>As the angle of elevation grows from <m>0^\circ</m> toward <m>90^\circ</m> does the length of the shadow increase directly or inversely? Is it linear?</p></task>
+	<task><p>Note the angle of elevation of the sun grows from morning until (high) noon and then decreases again. At what time of day would it be easiest to measure the length of the shadow in order to estimate the height of the tree?</p></task>
+</task>
+
+<task>
+	<introduction><p>We will consider the effect of error in measurement of the angle of elevation of the sun on our calculation of the height of the tree.</p></introduction>
+	<task><p>Suppose the shadow's length is 73 ft. What is the estimated height of the tree if the angle of elevation is measured to be <m>46^\circ</m>? <m>44^\circ</m>?</p></task>
+	<task><p>Suppose the shadow's length is 51 ft. What is the estimated height of the tree if the angle of elevation is measured to be <m>56^\circ</m>? <m>54^\circ</m>?</p></task>
+	<task><p>Suppose the shadow's length is 34 ft. What is the estimated height of the tree if the angle of elevation is measured to be <m>66^\circ</m>? <m>64^\circ</m>?</p></task>
+	<task><p>Suppose the shadow's length is 20 ft. What is the estimated height of the tree if the angle of elevation is measured to be <m>76^\circ</m>? <m>74^\circ</m>?</p></task>
+	<task><p>Suppose the shadow's length is 6 ft. What is the estimated height of the tree if the angle of elevation is measured to be <m>86^\circ</m>? <m>84^\circ</m>?</p></task>
+	<task><p>How much effect on the estimated height of the tree can error in measurement of the angle have?</p></task>
+	<task><p>Does the error change as the angle of elevation increases?</p></task>
+</task>
+
+<task>
+	<introduction><p>We will consider the effect of error in measurement of the length of the shadow on our calculation of the height of the tree.</p></introduction>
+	<task><p>Suppose the angle of elevation of the sun from the end of the shadow is <m>45^\circ</m>. What is the estimated height of the tree if the length of the shadow is measured to be 72 ft? 74 ft?</p></task>
+	<task><p>Suppose the angle of elevation of the sun from the end of the shadow is <m>55^\circ</m>. What is the estimated height of the tree if the length of the shadow is measured to be 50 ft? 52 ft?</p></task>
+	<task><p>Suppose the angle of elevation of the sun from the end of the shadow is <m>65^\circ</m>. What is the estimated height of the tree if the length of the shadow is measured to be 33 ft? 35 ft?</p></task>
+	<task><p>Suppose the angle of elevation of the sun from the end of the shadow is <m>75^\circ</m>. What is the estimated height of the tree if the length of the shadow is measured to be 19 ft? 21 ft?</p></task>
+	<task><p>Suppose the angle of elevation of the sun from the end of the shadow is <m>85^\circ</m>. What is the estimated height of the tree if the length of the shadow is measured to be 5 ft? 7 ft?</p></task>
+	<task><p>At what angle of elevation does the difference in shadow length make the greatest difference?</p></task>
+	<task><p>What does this suggest about when we should measure the shadow?</p></task>
+</task>
+
+</project>
+
+</section>

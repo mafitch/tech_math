@@ -64,9 +64,9 @@
 			<solution><p>We can set this up like the half hour calculation in <xref ref="example-ratio-airspeed1" />. That is we scale the ratio to give us 2.7 minutes.
 				<md>
 					<mrow>\frac{11 \; \text{gallons}}{1 \; \text{minute}} \amp = \frac{11 \; \text{gallons}}{1 \; \text{minute}} \cdot \frac{2.7}{2.7} \amp \; \text{Scale the ratio.}</mrow>
-					<mrow> \amp = \frac{2.97 \; \text{gallons}}{2.7 \; \text{minutes}}</mrow>
+					<mrow> \amp = \frac{29.7 \; \text{gallons}}{2.7 \; \text{minutes}}</mrow>
 				</md>
-			The answer is approximately 3.0 gallons.</p></solution>
+			The answer is approximately 30 gallons.</p></solution>
 		</example>
 
 		<exercise xml:id="exercise-ratio-airspeed1">
@@ -136,6 +136,13 @@
 
 	<p>One common type of ratio is a rate. These typically have units. Examples you probably know are miles per hour, kilometers per hour, and gallons per minute. When we know a rate we can calculate amounts (e.g., number of miles, number of kilometers, or number of gallons). Sometimes we convert one unit to another. This is accomplished by applying ratios as we did in <xref ref="example-ratio-apply-mercury" /> .</p>
 
+	<example xml:id="example-unit-conversion-scale">
+		<statement><p>Find the ratio of 5 cm to 40 mm.</p></statement>
+		<solution><p>We can write simply <me>\frac{5 \text{ cm}}{40 \text{ mm}}</me> but the mismatched units make this less informative than it could be. We know 5 cm is 50 mm, so the ratio could also be written <me>\frac{50 \text{ mm}}{40 \text{ mm}}=\frac{5 \text{ mm}}{4 \text{ mm}}.</me> Note it is equally valid to note that 40 mm is 4 cm and write the ratio <me>\frac{5 \text{ cm}}{4 \text{ cm}}.</me> Note that the units do not affect the ratio when it is reduced.</p></solution>
+	</example>
+
+	<video start="48" youtube="8scVh5UaSog" xml:id="video-example-unit-convert-scale" />
+
 	<example xml:id="example-unit-conversion1">
 		<statement><p>We will convert 2.1 hours to a number of minutes. Note we know there are 60 minutes per hour. Notice that the conversion is like a rate. Specifically it is a fraction. If we multiply minutes/hour by hours we will end up with just minutes.</p></statement>
 		<solution><p>
@@ -204,18 +211,21 @@
 		</solution>
 	</example>
 
+	<video youtube="GOOM4EOQUbU" xml:id="video-example-multi-unit-convert" />
+
 	<exercise xml:id="exercise-convert-units-squared">
 		<webwork>
 			<statement>
-				<p>Note that a pound (lb) is a unit of <term>force</term>. It is approximately equal to 4.45 Newtons which is another unit of force. How many Newtons per square meter is 51.2 lbs per square inch? Look up other conversions as needed. <var name="'228'" width="5" /></p>
+				<p>Note that a pound (lb) is a unit of <term>force</term>. It is approximately equal to 4.45 Newtons which is another unit of force. How many Newtons per square meter is 51.2 lbs per square inch? Look up other conversions as needed. <var name="'353000'" width="7" /></p>
 			</statement>
 			<solution>
 				<p><md>
 					<mrow>\frac{51.2 \; \text{lbs}}{\; \text{inch}^2} \amp \approx </mrow>
-					<mrow>\frac{51.2 \; \text{lbs}}{\; \text{inch}^2} \cdot  \frac{1.00 \; \text{N}}{4.45 \; \text{lbs}} \cdot \left(\frac{1.00 \; \text{inch}}{0.254 \; \text{m}}\right)^2 \amp \approx </mrow>
-					<mrow>\frac{51.2}{4.45 \cdot 0.0254^2} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx </mrow>
-					<mrow>17833 \frac{ \cancel{\text{lbs}}}{\bcancel{\; \text{inch}^2}} \cdot \frac{\text{N}}{\cancel{\text{lbs}}} \cdot \frac{\bcancel{\; \text{inch}^2}}{\text{m}^2} \amp \approx </mrow>
-					<mrow>\frac{17800 \; \text{N}}{\text{m}^2}.</mrow>
+					<mrow>\frac{51.2 \; \text{lbs}}{\; \text{inch}^2} \cdot  \frac{4.45 \; \text{N}}{1.00 \; \text{lbs}} \cdot \left(\frac{1.00 \; \text{inch}}{0.0254 \; \text{m}}\right)^2 \amp \approx </mrow>
+					<mrow>\frac{51.2 \cdot 4.45}{(0.0254)^2} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx </mrow>
+					<mrow>\frac{228}{0.000645} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx </mrow>
+					<mrow>353000 \frac{ \cancel{\text{lbs}}}{\bcancel{\; \text{inch}^2}} \cdot \frac{\text{N}}{\cancel{\text{lbs}}} \cdot \frac{\bcancel{\; \text{inch}^2}}{\text{m}^2} \amp \approx </mrow>
+					<mrow>\frac{353000 \; \text{N}}{\text{m}^2}.</mrow>
 				</md></p>
 			</solution>
 	    </webwork>
