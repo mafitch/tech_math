@@ -12,7 +12,12 @@
     <projects level="0"/>
   </numbering>
 
-  <webwork server="http://aholiab.uaa.alaska.edu" />
+  <common>
+      <exercise-divisional statement="yes" hint="yes" answer="yes" solution="no"/>
+  </common>
+
+<!--  <webwork server="http://aholiab.uaa.alaska.edu" /> -->
+  <webwork server="http://webwork.uaa.alaska.edu" />
 
 	<html>
 		<baseurl href="http://www.math.uaa.alaska.edu/\~afmaf/classes/math104/materials/" />
@@ -20,5 +25,16 @@
 		<knowl proof="no"/>
 		<knowl exercise-inline="no"/>
 	</html>
+
+    <!-- LaTeX specific options: set @print="yes" to get pdf set up   -->
+    <!-- for printing; set @sides="two" if the printing woudl be two- -->
+    <!-- sided.  The asymptote/@links set to "yes" would produce      -->
+    <!-- links the html version of asymptote graphics.                -->
+  <latex print="no" sides="one">
+    <asymptote links="no"/>
+    <page>
+      <geometry>letterpaper,total={6.5in,9in},left=1.0in</geometry>
+    </page>
+  </latex>
 
 </publication>
