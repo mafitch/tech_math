@@ -34,10 +34,10 @@
       <stringparam key="debug.skip-knowls" value="yes"/>
     </target>
     <target name="noexercise">
-      <format>pdf</format>
+      <format>latex</format>
       <source>source/techmath.ptx</source>
       <publication>publication/publication.ptx</publication>
-      <output-dir>output/pdf</output-dir>
+      <output-dir>output/noexercise</output-dir>
       <xsl>xsl/pretext-noexer.xsl</xsl>
     </target>
   </targets>
