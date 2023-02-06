@@ -279,7 +279,7 @@
 				<image width="50%">
 					<latex-image>
 						\begin{tikzpicture}
-						\draw [shift={(0,0)},line width=1pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (0:0.6);
+						\draw [shift={(0,0)},line width=1pt] (0,0) -- (0:0.6);
 						\draw [line width=1pt] (0,0)-- (4,0);
 						\draw [line width=1pt] (4,0)-- (4,3);
 						\draw [line width=1pt] (4,3)-- (0,0);

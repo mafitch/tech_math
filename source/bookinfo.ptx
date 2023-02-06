@@ -16,6 +16,9 @@ Copyright 2020 Megan Ossiander-Gobeille and Mark Fitch
     <latex-preamble>
         <package>cancel</package>
     </latex-preamble>
+    <latex-image-preamble>
+        \usepackage{tikz}
+    </latex-image-preamble>
     <macros>
     %  cancelhighlight (draw attention to when a factor is canceled)
     %  Usage: \frac{(x+1)\cancelhighlight{(x+2)}{\cancelhighlight{(x+2)}}}
