@@ -144,21 +144,26 @@
 		<title>Joint Work: Draining Basement</title>
 
 		<statement><p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4.0 hours, whereas the other pump can do the job in only 3.0 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p></statement>
-		<solution><p>Stop and think about how you might approach this. There are multiple ways to do so.</p></solution>
 		<solution><p>If both pumps are running it will take less than 3 hours which one alone could do. The question is how to find the combined speed. Note speed is a rate, so this suggests we first write down the rates. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4.0 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3.0 \text{ hours}}</m>. When the pumps are working together their rates would combine; we should end up with a faster rate (less than 3 hours per basement). The combined rate is
 		<md>
 			<mrow>\frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = </mrow>
 			<mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = </mrow>
 			<mrow>\frac{3 \text{ basement}}{12.0 \text{ hours}} + \frac{4 \text{ basement}}{12.0 \text{ hours}} &amp; = \frac{7 \text{ basement}}{12.0 \text{ hours}}</mrow>
 		</md>.
-		Now we need to convert this rate from 7 basements per 12 hours to 1 basement per N hours. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.7 \text{ hours}}</me>.</p></solution>
+		Now we need to scale this rate from 7 basements per 12 hours to 1 basement per N hours. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.7 \text{ hours}}</me>. Thus if both pumps are working it will take 1.7 hours drain the basement.</p></solution>
 	</example>
 
 	<exercise>
 		<webwork>
+			<pg-macros>
+				<macro-file>parserPopUp</macro-file>
+			</pg-macros>
+			<pg-code>
+				$popup = PopUp(["Monday","Tuesday","Wednesday","Thursday","Friday"],"Wednesday");
+			</pg-code>
 			<statement>
 				<p>If one shop can do seven float changes in two days, and a second shop can do thirteen float changes in three days, how long will it take the pair of shops to do 65 float changes? <var name="'8.3'" width="4" /></p>
-				<p>If they start on Monday and work only weekdays, on what day of the week will they finish? <var name="Wednesday" width="10" /></p>
+				<p>If they start on Monday and work only weekdays, on what day of the week will they finish? <var name="$popup" width="10" /></p>
 			</statement>
 		</webwork>
 	</exercise>
