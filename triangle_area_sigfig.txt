@@ -1,0 +1,27 @@
+$anstypes=array("calculated","calculated")
+
+$a1, $b1 = diffrrands(100,1000,10, 2);
+$c1 = rand(abs($a1-$b1)+100,$a1+$b1-100);           //third side computation
+$value = rrand(1500,2500,100);
+
+$a = prettysigfig($a1, 3, ",",false,false,true);
+$b = prettysigfig($b1, 3, ",",false,false,true);
+$c = prettysigfig($c1, 3, ",",false,false,true)
+
+//compute the answers
+$s = 0.5*($a1 + $b1 + $c1);    //half the perimeter
+$Area = roundsigfig(sqrt($s*($s-$a1)*($s-$b1)*($s-$c1)), 3);   // Heron's formula
+$acres = $Area/43560;  // number of acres
+$answerv =  round($acres * $value, 0);
+
+$answer[0] = $Area
+$answer[1] = $answerv
+$reqsigfigs[0] ="=3"
+
+<p>A triangular parcel of land has sides of lengths $a feet, $b feet and $c feet. All of these measurements have 3 significant digits.</p>
+<p>a) What is the area of the parcel of land? <br />Round your answer to appropriate significant digits.</p>
+<p><br />Area = $answerbox[0]&nbsp;`"ft"^2`
+  <br /><br />
+  b) If land is valued at $$value per acre (1 acre is 43,560 `"feet"^2` ), what is the value of the parcel of land? <br />Round your answer to the nearest dollar.
+  <br /><br /><br />
+  value =$ $answerbox[1]</p>
