@@ -1,0 +1,57 @@
+$anstypes = array("calculated","calculated")
+$r = rand(1,3)
+$cd = 2$r
+$d = rand($cd+1,$cd+8)
+$h = rand(5,20)
+
+$tsaconst = 2$d^2+4$d$h
+$tsacoeff = 2$r$h-2$r
+$volconst = $d^2*$h
+$volcoeff = $r^2*($h-1)
+
+$answer = array("$tsaconst+$tsacoeff pi","$volconst-$volcoeff pi")
+
+$answerboxsize = 8
+$formatfeedbackon = true
+$requiretimes = "pi,=1"
+$pic = showasciisvg("setBorder(0);
+initPicture(-10,10,-10,10);
+fill='lightgray';
+path([[-2,4],[7,4],[4,8],[-5,8]]);
+line([7,-8],[-2,-8]);
+line([-2,4],[-2,-8]);
+line([7,-8],[7,4]);
+line([-2,-8],[-5,-4]);
+line([7,4],[-2,4]);
+line([-2,4],[-5,8]);
+line([7,4],[4,8]);
+line([4,8],[-5,8]);
+line([-5,8],[-5,-4]);
+line([-1,-5.2],[-7,-5.2]);
+line([-3.5,-6],[-7,-6]);
+marker = 'arrow';
+line([0,0],[3,0]);
+line([0,0],[-1,0]);
+line([1,9],[4,9]);
+line([-1,9],[-5,9]);
+line([8.3,0],[8.3,4]);
+line([8.3,-2],[8.3,-8]);
+line([7.1,5.5],[7.7,4.4]);
+line([6.1,6.8],[4.6,8.5]);
+strokedasharray = '6 6';
+fill = 'white';
+ellipse( [1,6], 2, 1 );
+ellipse( [1,-5], 2, 1 );
+marker = 'none';
+line([7,-8],[4,-4]);
+line([4,8],[4,-4]);
+line([-5,-4],[4,-4]);
+line([3,6],[3,-5]);
+line([-1,6],[-1,-5]);
+text([0,9],'$d');
+text([6.7,6.4],'$d');
+text([1,1],'$cd');
+text([-8,-5.5],'1');
+text([8.3,-1],'$h');
+fontsize='15';
+text([-8,-7],'thick');",250,250)

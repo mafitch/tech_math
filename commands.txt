@@ -1,0 +1,38 @@
+cd /c/vm
+source ptx/Scripts/activate
+deactivate
+
+cd /c/DATA/Documents/texts/tech_math
+cd /d/Documents/texts/tech_math/
+
+pretext build web
+
+pretext build pdf
+
+pretext build noexercise
+
+pretext generate webwork
+
+pretext generate youtube
+
+~/pretext/pretext/pretext -c mom -p publication/publication.ptx source/techmath.ptx
+
+~/pretext/pretext/pretext -c webwork -s "(http://aholiab.uaa.alaska.edu,anonymous,anonymous,unused,anonymous)" -d /d/Documents/texts/tech_math/generated/webwork/ source/techmath.ptx
+
+~/pretext/pretext/pretext -c webwork -s "(http://webwork.uaa.alaska.edu,anonymous,anonymous,unused,anonymous)" -d /d/Documents/texts/tech_math/generated/webwork/ source/techmath.ptx
+
+~/pretext/pretext/pretext -c youtube -p publication/publication.ptx -d generated/images/ source/techmath.ptx
+
+~/pretext/pretext/pretext -c preview -f png -p publication/publication.ptx source/techmath.ptx
+
+pageres -d5 -v --overwrite --transparent --selector=#interactive-2 --filename=interactive-2-preview http://www.math.uaa.alaska.edu/\\~afmaf/classes/math104/materials/interactive-2.html
+
+sed -i 's/https:\/\/myopenmaths3.s3.amazonaws.com\/gimages/mom/g' *.xml
+sed -i 's/https:\/\/myopenmaths3.s3.amazonaws.com\/gimgs/mom/g' *.xml
+
+~/pretext/pretext/pretext -c all -f assembly-static -p publication/publication.ptx -d output/xml source/techmath.ptx
+
+~/pretext/pretext/pretext -c all -f latex -p publication/publication.ptx -d output output/xml/techmath.xml
+
+/c/'Program Files'/Java/jdk-20/bin/java -classpath ~/xsltproc/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/xsltproc/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /d/Documents/texts/tech_math/source/techmath.ptx >/d/Documents/texts/tech_math/schemaerrors.txt
+

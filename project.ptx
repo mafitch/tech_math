@@ -1,58 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    This file provides the overall configuration for your PreTeXt
-    project. To edit the content of your document, open `source/main.ptx`
-    (default location).
--->
-<project>
+<!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
+<project ptx-version="2">
   <targets>
-    <target name="web">
-      <format>html</format>
-      <source>source/techmath.ptx</source>
-      <publication>publication/publication.ptx</publication>
-      <output-dir>output/html</output-dir>
-    </target>
-    <target name="latex">
-      <format>latex</format>
-      <source>source/techmath.ptx</source>
-      <publication>publication/publication.ptx</publication>
-      <output-dir>output/latex</output-dir>
-    </target>
-    <target name="pdf">
-      <format>pdf</format>
-      <source>source/techmath.ptx</source>
-      <publication>publication/publication.ptx</publication>
-      <output-dir>output/pdf</output-dir>
-    </target>
-    <!-- To quickly build the html of a subset of your project, edit main-subset.ptx
-        and run `pretext build subset` (or `view` with watch option) -->
-    <target name="subset">
-      <format>html</format>
-      <source>source/main-subset.ptx</source>
-      <publication>publication/publication.ptx</publication>
-      <output-dir>output/subset</output-dir>
-      <stringparam key="debug.skip-knowls" value="yes"/>
-    </target>
-    <target name="noexercise">
-      <format>latex</format>
-      <source>source/techmath.ptx</source>
-      <publication>publication/publication.ptx</publication>
-      <output-dir>output/noexercise</output-dir>
-      <xsl>xsl/pretext-noexer.xsl</xsl>
+    <target name="web" format="html" source="techmath.ptx" />
+    <target name="print" format="pdf" source="techmath.ptx" />
+    <target name="noexercise"
+      format="latex"
+      source="techmath.ptx"
+      output-dir="output/noexercise"
+      xsl="xsl/pretext-noexer.xsl">
     </target>
   </targets>
-  <executables>
-      <pdflatex>pdflatex</pdflatex>
-      <latex>latex</latex>
-      <xelatex>xelatex</xelatex>
-      <pdfsvg>pdf2svg</pdfsvg>
-      <asy>asy</asy>
-      <sage>sage</sage>
-      <pdfpng>convert</pdfpng>
-      <pdfeps>pdftops</pdfeps>
-      <pdfcrop>pdf-crop-margins</pdfcrop>
-      <pageres>pageres</pageres>
-      <node>node</node>
-      <liblouis>file2brl</liblouis>
-    </executables>
 </project>
