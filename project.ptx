@@ -4,11 +4,12 @@
   <targets>
     <target name="web" format="html" source="techmath.ptx" />
     <target name="print" format="pdf" source="techmath.ptx" />
+    <target name="latex" format="latex" source="techmath.ptx" />
     <target name="noexercise"
       format="latex"
       source="techmath.ptx"
       output-dir="output/noexercise"
-      xsl="xsl/pretext-noexer.xsl">
+      xsl="pretext-noexer.xsl">
     </target>
   </targets>
 </project>

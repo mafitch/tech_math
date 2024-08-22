@@ -27,17 +27,20 @@
 
 	<p>Note this includes <term>rectangles</term>, which are parallelograms with four right angles, and <term>rhombi</term> which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.</p>
 
-	<figure xml:id="figure-parallelogram-properties">
-		<caption>Parallelograms</caption>
+	<table xml:id="figure-parallelogram-properties">
+		<title>Parallelograms</title>
 
 		<tabular top="minor">
 			<col width="30%" />
 			<col width="20%" />
 			<col width="20%" />
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Perimeter</p></cell> <cell right="minor"><p>Area</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/parallelogram" /></p></cell> <cell right="minor"><m>2(a+b)</m></cell> <cell right="minor"><m>h_1 a</m></cell> </row>
+			<row valign="middle" left="minor" bottom="minor">
+				<cell halign="center" right="minor"><image width="100%" source="images/parallelogram" /></cell> 
+				<cell right="minor"><m>2(a+b)</m></cell> <cell right="minor"><m>h_1 a</m></cell> 
+			</row>
 		</tabular>
-	</figure>
+	</table>
 
 	<example xml:id="example-parallelogram-area">
 		<statement><p>What are the perimeter and area of the parallelogram in <xref ref="figure-exercise-parallelogram-area" />?</p></statement>
@@ -66,8 +69,8 @@
 		<statement><p>A <term>trapezoid</term> is a four sided shape for which  one pair of opposing sides are parallel.</p></statement>
 	</definition>
 
-	<figure xml:id="figure-trapezoid-properties">
-		<caption>Trapezoid</caption>
+	<table xml:id="figure-trapezoid-properties">
+		<title>Trapezoid</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -76,7 +79,7 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Perimeter</p></cell> <cell right="minor"><p>Area</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/trapezoid" /></p></cell> <cell right="minor"><m>a_1+b_1+a_2+b_2</m></cell> <cell right="minor"><m>\frac{h}{2}(a_1+a_2)</m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<example xml:id="example-trapezoid-area">
 		<statement><p>What are the perimeter and area of the trapezoid in <xref ref="figure-exercise-trapezoid-area" />?</p></statement>
@@ -97,8 +100,8 @@
 		<statement><p>A <term>triangle</term> is a three sided shape.</p></statement>
 	</definition>
 
-	<figure xml:id="figure-triangle-properties">
-		<caption>Triangle</caption>
+	<table xml:id="figure-triangle-properties">
+		<title>Triangle</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -107,7 +110,7 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Perimeter</p></cell> <cell right="minor"><p>Area</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/triangle" /></p></cell> <cell right="minor"><m>a+b+c</m></cell> <cell right="minor"><m>\frac{1}{2}bh</m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<p>Note that the value <m>h</m> in the area formula is called the <term>height</term> of the triangle. It is the length of a line segment perpendicularly down from a vertex to the opposing side (or extension of it). The vertical, dashed line segments in <xref ref="figure-exercise-triangle-area" /> are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side. </p>
 
@@ -174,8 +177,8 @@
 		</p></solution>
 	</example>
 
-	<figure xml:id="figure-circle-properties">
-		<caption>Circle</caption>
+	<table xml:id="figure-circle-properties">
+		<title>Circle</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -185,7 +188,7 @@
 			<row left="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/circle_diag" /></p></cell> <cell right="minor"><m>2\pi r</m></cell> <cell right="minor"><m>\pi r^2</m></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell right="minor"><p></p></cell> <cell right="minor"><m>\pi d</m></cell> <cell right="minor"><m>\pi \frac{d^2}{4}</m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<example xml:id="example-circle-properties">
 		<p>For a circle with radius 7.31 what are the perimeter and area?</p>
@@ -356,17 +359,12 @@
 
     <exercise>
         <title>Contextless Composite Area</title>
-        <myopenmath problem="2937" />
+        <myopenmath problem="1434310" />
     </exercise>
 
     <exercise>
         <title>Area Application</title>
         <myopenmath problem="899333" />
-    </exercise>
-
-    <exercise>
-        <title>Contextless Composite Area</title>
-        <myopenmath problem="28884" />
     </exercise>
 
     <exercise>

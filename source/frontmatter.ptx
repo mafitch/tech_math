@@ -45,7 +45,11 @@
     <preface xml:id="preface-student">
         <title>For Students</title>
 
-        <p>This book is designed for use in learning specific mathematical skills and topics useful in a variety of trades. The skills include
+        <p>This book is intended for use as lessons in a course that emphasizes building the skills to read and use mathematics (such as in a technical manual), and to recognize mathematical concepts in things you see and read in life.</p>
+
+        <p>This book is not written as a how to manual for specific applications. That is, while this book provides examples of many specific applications from trades and life, it does not provide a step-by-step example to follow for every type of problem. Rather it provides initial examples, presents general concepts used in the example, and helps you practice recognizing what is important in an example and applying it to similar problems.</p>
+
+        <p>The topics include
             <ul>
                 <li>Interpret data in various formats and analyze mathematical models</li>
                 <li>Read and use mathematical models in a technical document</li>
@@ -55,65 +59,64 @@
             <ul>
                 <li><p>Precision and accuracy
                     <ul>
-                        <li>Rounding</li>
-                        <li>Significant Figures</li>
-                    </ul></p>
-                </li>
+                        <li>Rounding (skill)</li>
+                        <li>Significant Figures (skill)</li>
+                        <li>Determining appropriate rounding from context (critical thinking)</li>
+                    </ul>
+                </p></li>
                 <li><p>Rates
                     <ul>
-                        <li>Identify rates as linear, quadratic, exponential, or other</li>
-                        <li>Direct and indirect variation</li>
-                    </ul></p>
-                </li>
+                        <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
+                        <li>Identify data varrying directly or indirectly (critical thinking)</li>
+                    </ul>
+                </p></li>
                 <li><p>Proportions
                     <ul>
-                        <li>Setup and solve</li>
-                        <li>Percentage</li>
-                        <li>Unit conversion</li>
-                        <li>Mixtures</li>
-                        <li>Similarity of shapes</li>
-                    </ul></p>
-                </li>
+                        <li>Setup and solve proportions (skill)</li>
+                        <li>Calculate Percentages (skill)</li>
+                        <li>Understand and interpret percentages (critical thinking)</li>
+                        <li>Unit conversion (skill)</li>
+                    </ul>
+                </p></li>
                 <li><p>Solving
                     <ul>
-                        <li>Solve linear, rational, quadratic, and exponential equations and formulas</li>
-                        <li>Solve a system of linear equations</li>
-                    </ul></p>
-                </li>
-                <li><p>Linear Relationships
+                        <li>Solve linear, rational, quadratic, and exponential equations and formulas (skill)</li>
+                        <li>Solve a system of linear equations (skill)</li>
+                    </ul>
+                </p></li>
+                <li><p>Models
                     <ul>
-                        <li>Linear models</li>
-                        <li>Determine slope</li>
-                        <li>Interpret and extrapolate from data</li>
-                    </ul></p>
-                </li>
-                <li><p>Other Relationships
-                    <ul>
-                        <li>Quadratic models</li>
-                        <li>Exponential models</li>
-                        <li>Logarithmic models</li>
-                    </ul></p>
-                </li>
+                        <li>Read and interpret models (critical thinking)</li>
+                        <li>Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+                    </ul>
+                </p></li>
                 <li><p>Trigonometry
                     <ul>
-                        <li>Analyze right triangles</li>
-                        <li>Analyze non-right triangles</li>
-                        <li>Sine and cosine functions</li>
-                        <li>Trigonometric models</li>
+                        <li>Analyze right triangles (skill)</li>
+                        <li>Analyze non-right triangles (skill)</li>
+                        <li>Identify properties of sine and cosine functions (skill)</li>
                     </ul></p>
                 </li>
             </ul>
         </p>
-        <p>This book is not written as a how to manual for specific applications. That is, this book does not provide a step-by-step example to follow for every type of problem. Rather it provides an initial example, presents general concepts used in the example, and helps you practice recognizing the same concept and applying it to other problems.</p>
-        <p>This book is intended for use in a course that emphasizes building the skills to read and use mathematics (such as in a manual), and to recognize mathematical concepts in things you see and read.</p>
     </preface>
 
     <preface xml:id="preface-faculty">
         <title>For Faculty</title>
 
-        <p>This book is designed to be used for classes supporting trade programs in a variety of fields and also to satisfy baccalaureate general education requirements. The first version was written to transition to an OER for MATH A104 Technical Mathematics at the Univesity of Alaska Anchorage. Served disciplines included auto and heavy equipment mechanics, welding and non-destructive testing, aviation mechanics, pilots and air traffic controller, and medical certification programs.</p>
+        <p>This book is designed to be used for classes supporting trade programs in a variety of fields and also to satisfy baccalaureate general education requirements. </p>
 
-        <p>Because of a desire to enable students in these programs to extend their studies into a baccalaureate, the course was designed to fufill the general education requirements meaning the students would not need to take another mathematics or quantitative literacy course. The general education outcome was: Quantitative courses develop abilities to reason mathematically and analyze quantitative and qualitative data to reach sound conclusions for success in undergraduate study and professional life. The indicators were
+        <p>It is also written to be used in conjunction with active learning pedagogies rather than as a reference text. That is, it has been designed for students to read the examples, work initial problems to help them identify questions, and to then seek help while working on exercises. It can be easily incorporated into flipped classrooms and asynchronous learning. It intentionally does not provide an example to mimic for each question in the exercises. Rather each section provides an simple example, a more complex example, and some explanation about what is important. Then exercises are provided for them to test their ability to recognize and use the mathematics from that section.</p>
+
+        <p>The check points (exercises in the reading) are self-grading with feedback so the reader can determine what if any questions they need to ask. Videos, where included, are presentations of the introduction of the concept in that section. Homework by default is live, online problems that provide feedback. The scores on these cannot be saved in an LMS however. If you wish to use MyOpenMath, the problems, and even a shell, can be provided. If desired the PDF version can be used which does not have live homework.</p>
+
+        <p>The projects are an integral part of the general education goals. These are intended to be assigned after relevant material is covered. They require students to use topics from that chapter to perform calculations and then interpret the results of their work. The projects also provide a opportunity for students to express calculations using standard mathematical notation and to communicate mathematical results in clear language.</p>
+
+        <p>For context, here is a brief history. The first version of this text was written to transition to an OER for MATH A104 Technical Mathematics at the Univesity of Alaska Anchorage. Commercially available texts emphasized memorizing problem types with limited critical thinking. As such they could not be used to satisfy the general education requirement. There was also a desire to reduce costs including for textbooks and online homework systems. As a result this book was created with matching homework in MyOpenMath.</p>
+
+        <p>Served disciplines at UAA included auto/diesel, heavy equipment mechanics, welding and non-destructive testing, aviation mechanics, piloting, air traffic controll, and medical certification programs.</p>
+
+        <p>The general education outcome around which this was designed was: Quantitative courses develop abilities to reason mathematically and analyze quantitative and qualitative data to reach sound conclusions for success in undergraduate study and professional life. The indicators were
             <ul>
                 <li>Interprets info in mathematical form (equations, graphs, diagrams, tables, words)</li>
                 <li>Represents and/or converts relevant quant info and explain its assumptions and limits</li>
@@ -121,10 +124,6 @@
                 <li>Communicates quantitative results appropriate to the problem or context</li>
             </ul>
         </p>
-
-        <p>The projects are an integral part of the general education goals. These are intended to be assigned after relevant material is covered. They require students to recognize the material on their own and apply it. The projects are designed to give students opportunity to express calculations using standard mathematical notation and to communicate mathematical results in clear language.</p>
-
-        <p>The book is written to be used in conjunction with active learning pedagogies. Each section introduces concepts providing a couple examples and then provides a self-grading exercise with feedback for the reader to test comprehension of the concept. Videos where included are presentations of the introduction of the concept. Homework by default is live, online problems that provide feedback. The scores on these cannot be saved. Because this is implemented through MyOpenMath, that tool can be easily paired with the book. It is possible to produce a version of the text where the homework is not live.</p>
 
     </preface>
 

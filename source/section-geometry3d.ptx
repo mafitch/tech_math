@@ -23,8 +23,8 @@
 
 	<p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms.</p>
 
-	<figure xml:id="figure-prism-properties">
-		<caption>Prisms</caption>
+	<table xml:id="figure-prism-properties">
+		<title>Prisms</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -33,7 +33,7 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/triangular_prism" /></p></cell> <cell right="minor"><p>sum of area of all sides</p></cell> <cell right="minor"><m>V = B h</m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<example xml:id="example-prism-surface-area">
 		<task>
@@ -57,8 +57,8 @@
 		<statement><p>A <term>cylinder</term> is a circular prism.</p></statement>
 	</definition>
 
-	<figure xml:id="figure-cylinder-properties">
-		<caption>Cylinder</caption>
+	<table xml:id="figure-cylinder-properties">
+		<title>Cylinder</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -67,12 +67,12 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cylinder" /></p></cell> <cell right="minor"><m>A=2\pi r \cdot h</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<p>Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
 
-	<figure xml:id="figure-sphere-properties">
-		<caption>Sphere</caption>
+	<table xml:id="figure-sphere-properties">
+		<title>Sphere</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -81,10 +81,10 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/sphere" /></p></cell> <cell right="minor"><m>A=4\pi r^2</m></cell> <cell right="minor"><m>V = \frac{4}{3}\pi r^3 </m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
-	<figure xml:id="figure-pyramid-properties">
-		<caption>Pyramid</caption>
+	<table xml:id="figure-pyramid-properties">
+		<title>Pyramid</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -93,7 +93,7 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid1" /></p></cell> <cell right="minor"><p>sum of surfaces</p></cell> <cell right="minor"><m>V = \frac{1}{3} B h </m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<exercise xml:id="exercise-pyramid-compare-prism">
 		<statement><p>What is the relationship between the volume of a pyramid to the volume of a prism with the same base?</p></statement>
@@ -122,8 +122,8 @@
 		<image source="images/pyramid-triangular-exercise" width="30%" />
 	</figure>
 
-	<figure xml:id="figure-cone-properties">
-		<caption>Cone</caption>
+	<table xml:id="figure-cone-properties">
+		<title>Cone</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -132,12 +132,12 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone" /></p></cell> <cell right="minor"><m>A=\pi r \sqrt{h^2+r^2}</m> or <m>A=\pi r s</m></cell> <cell right="minor"><m>V = \frac{\pi}{3} r^2 h </m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<p>The latin word <term>frustrum</term> means <q>cut off</q>. This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
 
-	<figure xml:id="figure-pyramid-frustrum-properties">
-		<caption>Frustrum of a Pyramid</caption>
+	<table> xml:id="figure-pyramid-frustrum-properties">
+		<title>Frustrum of a Pyramid</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -146,7 +146,7 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid-frustrum" /></p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<example xml:id="example-pyramid-frustrum">
 		<task>
@@ -178,8 +178,8 @@
 		<image source="images/pyramid-frustrum-exercise" width="50%" />
 	</figure>
 
-	<figure xml:id="figure-cone-frustrum-properties">
-		<caption>Frustrum of a Cone</caption>
+	<table xml:id="figure-cone-frustrum-properties">
+		<title>Frustrum of a Cone</title>
 
 		<tabular top="minor">
 			<col width="30%" />
@@ -188,7 +188,7 @@
 			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
 			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone-frustrum" /></p></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
 		</tabular>
-	</figure>
+	</table>
 
 	<exercise xml:id="exercise-frustrum-cone-limitations">
 		<introduction><p>For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.</p>

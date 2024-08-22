@@ -1,19 +1,20 @@
-cd /c/vm
-source ptx/Scripts/activate
+source /c/pve/pretext/Scripts/activate
 deactivate
 
 cd /c/DATA/Documents/texts/tech_math
-cd /d/Documents/texts/tech_math/
 
 pretext build web
 
-pretext build pdf
+pretext build print -q
 
 pretext build noexercise
 
 pretext generate webwork
 
 pretext generate youtube
+
+Regexp: Preview question [0-9] Part [0-9] of [0-9]
+Regexp: grep "1[0-9][1-9]\%" generated/problems/*
 
 ~/pretext/pretext/pretext -c mom -p publication/publication.ptx source/techmath.ptx
 
@@ -22,6 +23,8 @@ pretext generate youtube
 ~/pretext/pretext/pretext -c webwork -s "(http://webwork.uaa.alaska.edu,anonymous,anonymous,unused,anonymous)" -d /d/Documents/texts/tech_math/generated/webwork/ source/techmath.ptx
 
 ~/pretext/pretext/pretext -c youtube -p publication/publication.ptx -d generated/images/ source/techmath.ptx
+
+~/pretext/pretext/pretext -c all -f pdf -p publication/publication.ptx source/techmath.ptx
 
 ~/pretext/pretext/pretext -c preview -f png -p publication/publication.ptx source/techmath.ptx
 
