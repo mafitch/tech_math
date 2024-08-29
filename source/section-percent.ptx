@@ -26,8 +26,13 @@
 
 	<example xml:id="example-percent-female">
 		<title>Calculate a Percent</title>
-		<statement><p>In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as <me>\frac{\text{part}}{\text{whole}} = \frac{21}{34} = 0.6176</me>. This number says there are 61 hundreths (remembering our numbering system), so the percent is written as <me> 61.76\%</me></p></statement>
+		<statement>
+			<p>In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as <me>\frac{\text{part}}{\text{whole}} = \frac{21}{34} \approx 0.6176</me>. This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.</p>
+			<p>Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information we would most likely round to 62%. This would convey the same meaning because the difference between 61.76% and 62% for 34 people is less than one person.</p>
+		</statement>
 	</example>
+
+	<video youtube="gA7tQzn72lg" xml:id="video-example-percent-use-definition" />
 
 	<p>Generally, we calculate a percent by <me>100 \times \frac{\text{part}}{\text{whole}}. </me> </p>
 
@@ -69,7 +74,7 @@
 				<mrow>\frac{4}{22} &amp; = 0.18\overline{18}</mrow>
 				<mrow> &amp; \approx 18.18\%</mrow>
 			</md>
-			This suggests that the original 18\% was rounded. Likely it was rounded to the ones position out of convenience.</p>
+			This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.</p>
 		</solution>
 		<solution><p>We know that a percent is a number out of 100, so we can skip a step from the previous example.
 			<md>
@@ -98,7 +103,6 @@
 	    </webwork> -->
 	    <myopenmath problem="1437339" />
 	</exercise>
-	<video start="159" youtube="P2KOjsVlaKI" xml:id="video-example-percent-calculate-whole" />
 
 	<p>Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.</p>
 
@@ -119,13 +123,13 @@
 		<title>How to Use an Example: Percents</title>
 		<p>Consider the following question.</p>
 		<p>If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?</p>
-		<p>Because we see <q>2%</q> we recognize this as a percent problem. Without more information we can begin writing our steps.
+		<p>Because we see <q>2%</q> we recognize this as a percent problem. Without more information we can begin writing our steps. In <xref ref="example-percent-calculate-whole" /> the first step is writing the definition of percent.
 		<me>\frac{\text{part}}{\text{whole}} = \text{percent}</me>
-		We know the percent is 2 and we know that in a calculation we write the percent as a decimal. Thus our next step is
+		In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2, and we know that in a calculation we write the percent as a decimal. Thus our next step is
 		<me>\frac{\text{part}}{\text{whole}} = \frac{2}{100}</me>
-		The 18 pages is stated as one chapter and is contrasted to the <q>entire</q> book. Thus the 18 is the part.
+		In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the <q>entire</q> book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable.
 		<me>\frac{18}{\text{whole}} = \frac{2}{100}</me>
-		Now we can solve. For convenience we will write <m>W</m> instead of <q>whole</q>.
+		Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example, we apply our algebra skills. For convenience we will write <m>W</m> instead of <q>whole</q>.
 		<md>
 			<mrow>\frac{18}{W} &amp; = \frac{2}{100}</mrow>
 			<mrow>\frac{18}{W}W &amp; = \frac{2}{100}W</mrow>
@@ -150,6 +154,10 @@
 		<myopenmath problem="1436592" />
 	</exercise>
 
+	<p>This video covers the topics above.</p>
+
+	<video start="159" youtube="P2KOjsVlaKI" xml:id="video-example-percent-calculate-whole" />
+
 </subsection>
 
 <subsection xml:id="subsection-percent-increase">
@@ -158,12 +166,10 @@
 	<p>A common use of percents is to indicate how much something has increased (or decreased) from one time to the next.</p>
 
 	<example xml:id="example-percent-increase1">
-		<statement><p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. This was an increase of 34-22=12 students. We can calculate what percent 12 is of 22.
+		<statement><p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22.
 			<me>100 \times \frac{12}{22} = 55\% </me></p>
 		</statement>
 	</example>
-
-	<video youtube="P2KOjsVlaKI" xml:id="video-example-percent-increase" />
 
 	<p>We say that the class size had a <term>percent increase</term> of 55%. Note this says the <term>increase</term> was 55% of the previous <term>whole</term>.</p>
 
@@ -171,8 +177,10 @@
 
 	<example xml:id="example-percent-increase2">
 		<statement>
-			<p>In spring there were 22 students in a class. In fall there were 34 students in the same class.</p>
-			<p>We calculate the percentage the fall class size is of the spring class size. <me> 100 \times \frac{34}{22} = 155\% </me> Because the percent is greater than 100% we know this was an increase. Specifically it was an increase of 55% over the previous semester.</p>
+			<p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class.</p>
+			<p>We calculate the percentage the fall class size is with respect to the spring class size. <me> 100 \times \frac{34}{22} = 155\% </me> </p>
+			<p>Because the fall class size (in the role of <q>part</q>) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.</p>
+			<p>Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.</p>
 		</statement>
 	</example>
 
@@ -188,15 +196,15 @@
 		<myopenmath problem="1437364" />
 	</exercise>
 
-	<example xml:id="example-percent-increase-decrease">
+	<example xml:id="example-percent-increase-or-decrease">
 		<statement>
-				<p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in spring?</p>
+				<p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring?</p>
 		</statement>
 		<solution>
 			<p>Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. <m>78-38=40</m>. Thus the percent decrease is <me>100 \cdot \frac{40}{78} = 51\%</me>.</p>
 		</solution>
 		<solution>
-			<p>As with the percent increase we can start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is <m>100 \cdot \frac{38}{78} \approx 0.49</m>. Because the new <em>is</em> 49% of the previous the decrease is 100%-49%=51%.</p>
+			<p>As with the percent increase we can start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is <m>100 \cdot \frac{38}{78} \approx 0.49</m>. Because the new enrollment <em>is</em> 49% of the previous enrollment the decrease is 100%-49%=51%.</p>
 		</solution>
 	</example>
 
@@ -211,6 +219,9 @@
 	    </webwork> -->
 	    <myopenmath problem="1437459" />
 	</exercise>
+
+	<p>This video covers percent increase topics.</p>
+	<video youtube="P2KOjsVlaKI" xml:id="video-example-percent-increase" />
 
 </subsection>
 
@@ -229,120 +240,147 @@
 		</tabular>
 		</statement>
 		<solution>
-					<tabular>
+			<tabular>
 			<row><cell>Percent reduction</cell> <cell>Total</cell>  <cell>Number reduced</cell></row>
 			<row><cell>18%</cell> <cell>495</cell> <cell>90</cell></row>
 			<row><cell>1.85%</cell> <cell>54</cell> <cell>1</cell></row>
 			<row><cell>60%</cell> <cell>5</cell> <cell>3</cell></row>
-		</tabular>
-		<p>The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.</p>
-		<p>Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?</p>
+			</tabular>
+			<p>The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.</p>
+			<p>Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?</p>
 		</solution>
 
 	</example>
 
+	<p>While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.</p>
+
+	<example xml:id="example-percent-exceeds-100">
+		<p><xref ref="table-example-percent-more-100"/> contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.</p>
+		<p>When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.</p>
+	</example>
+
+	<table xml:id="table-example-percent-more-100">
+		<title>Declared Race in Alaska</title>
+		<tabular>
+			<row><cell>Race</cell> <cell>Percent</cell></row>
+			<row><cell>Alaska Native/Native American</cell> <cell>21.9%</cell></row>
+			<row><cell>Native Hawaiian/Pacific Islander</cell> <cell>2.5%</cell></row>
+			<row><cell>Asian</cell> <cell>8.4%</cell></row>
+			<row><cell>Black</cell> <cell>40.8%</cell></row>
+			<row><cell>White</cell> <cell>70.4%</cell></row>
+			<row><cell>Other</cell> <cell>5.4%</cell></row>
+		</tabular>
+	</table>
+
 </subsection>
 
-	<exercises>
-        <exercise>
-            <title>Decimal to Percentage</title>
-            <myopenmath problem="865549" />
-        </exercise>
+<exercises>
+	<exercisegroup>
+		<introduction><p>Questions about the definition, terminology, and notation.</p></introduction>
 
-        <exercise>
-            <title>Decimal to Percentage</title>
-            <myopenmath problem="901" />
-        </exercise>
+	    <exercise>
+	        <title>Decimal to Percentage</title>
+	        <myopenmath problem="865549" />
+	    </exercise>
 
-        <exercise>
-            <title>Fraction to Percentage</title>
-            <myopenmath problem="865561" />
-        </exercise>
+	    <exercise>
+	        <title>Fraction to Percentage</title>
+	        <myopenmath problem="865561" />
+	    </exercise>
 
-        <exercise>
-            <title>Fraction to Percentage</title>
-            <myopenmath problem="904" />
-        </exercise>
+	    <exercise>
+	        <title>Percent of Whole</title>
+	        <myopenmath problem="17624" />
+	    </exercise>
 
-        <exercise>
-            <title>Percent of Whole</title>
-            <myopenmath problem="17624" />
-        </exercise>
+	</exercisegroup>
 
-        <exercise>
-            <title>Percent of Whole</title>
-            <myopenmath problem="16041" />
-        </exercise>
+	<exercisegroup>
+		<introduction><p>Use percentages in various settings.</p></introduction>
 
-        <exercise>
-            <title>Percent of Whole</title>
-            <myopenmath problem="372563" />
-        </exercise>
+	    <exercise>
+	        <title>Application of Percent</title>
+	        <myopenmath problem="865583" />
+	    </exercise>
 
-        <exercise>
-            <title>Application of Percent</title>
-            <myopenmath problem="865583" />
-        </exercise>
+	    <exercise>
+	        <title>Percent of Whole</title>
+	        <myopenmath problem="372563" />
+	    </exercise>
 
-        <exercise>
-            <title>Application of Percent</title>
-            <myopenmath problem="372563" />
-        </exercise>
+	    <exercise>
+	        <title>Use Percent to Calculate Total</title>
+	        <myopenmath problem="841" />
+	    </exercise>
 
-        <exercise>
-            <title>Use Percent to Calculate Total</title>
-            <myopenmath problem="841" />
-        </exercise>
+	    <exercise>
+	        <title>Calculate Original from Percent</title>
+	        <myopenmath problem="54686" />
+	    </exercise>
 
-        <exercise>
-            <title>Calculate Original from Percent</title>
-            <myopenmath problem="54686" />
-        </exercise>
+	    <exercise>
+	        <title>Calculate Whole from Part and Percent</title>
+	        <myopenmath problem="865646" />
+	    </exercise>
 
-        <exercise>
-            <title>Calculate Whole from Part and Percent</title>
-            <myopenmath problem="430696" />
-        </exercise>
+	    <exercise>
+	        <title>Percent Decrease</title>
+	        <myopenmath problem="430713" />
+	    </exercise>
 
-        <exercise>
-            <title>Calculate Whole from Part and Percent</title>
-            <myopenmath problem="865646" />
-        </exercise>
+	    <exercise>
+	        <title>Percents as Fractions</title>
+	        <myopenmath problem="782181" />
+	    </exercise>
 
-        <exercise>
-            <title>Percent Decrease</title>
-            <myopenmath problem="430713" />
-        </exercise>
+	    <exercise>
+	        <title>Percents as Fractions</title>
+	        <myopenmath problem="782182" />
+	    </exercise>
 
-        <exercise>
-            <title>Percents as Fractions</title>
-            <myopenmath problem="782181" />
-        </exercise>
+	    <exercise>
+	        <title>Percents as Fractions</title>
+	        <myopenmath problem="869293" />
+	    </exercise>
 
-        <exercise>
-            <title>Percents as Fractions</title>
-            <myopenmath problem="782182" />
-        </exercise>
+	    <exercise>
+	        <title>Percents as Fractions</title>
+	        <myopenmath problem="612034" />
+	    </exercise>
 
-        <exercise>
-            <title>Percents as Fractions</title>
-            <myopenmath problem="869293" />
-        </exercise>
+	    <exercise>
+	        <title>Percents as Fractions</title>
+	        <myopenmath problem="612063" />
+	    </exercise>
 
-        <exercise>
-            <title>Percents as Fractions</title>
-            <myopenmath problem="612034" />
-        </exercise>
+	    <exercise>
+	        <title>Percents as Fractions</title>
+	        <myopenmath problem="612069" />
+	    </exercise>
 
-        <exercise>
-            <title>Percents as Fractions</title>
-            <myopenmath problem="612063" />
-        </exercise>
+	    <exercise>
+	        <title>Repeated Percents</title>
+	        <myopenmath problem="834" />
+	    </exercise>
 
-        <exercise>
-            <title>Percents as Fractions</title>
-            <myopenmath problem="612069" />
-        </exercise>
-    </exercises>
+	    <exercise>
+	        <title>Percent Increase or Decrease</title>
+	        <myopenmath problem="965" />
+	    </exercise>
+
+	</exercisegroup>
+
+	<exercisegroup>
+		<introduction>
+			<p>Add problems asking students if the total should be 100% or greater.</p>
+			<p>Add problems asking students which percent and which amount are larger.</p>
+		</introduction>
+	    <exercise>
+	        <title>Dummy entry</title>
+	        <myopenmath problem="965" />
+	    </exercise>
+	</exercisegroup>
+
+</exercises>
 
 </section>
