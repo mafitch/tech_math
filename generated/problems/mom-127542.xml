@@ -9,14 +9,14 @@ Sometimes studies state this in terms of "half-life", and sometimes as an hourly
 <p>
 Where <m>\displaystyle{A}</m> is the initial amount, <m>\displaystyle{H}{L}</m> is the half-life in hours, <m>\displaystyle{t}</m> is the time in hours, and <m>\displaystyle{r}</m> is the hourly rate of decrease.</p>
 <p>
-Suppose a substance has a half-life of 8 hours.</p>
+Suppose a substance has a half-life of 6 hours.</p>
 <p>
 What is the hourly decay rate, to the nearest tenth of a percent?
 <fillin characters="5" /> <percent/>
 </p>
 </statement>
 <solution>
-<p><ul><li>8.3</li></ul></p><p><m>\displaystyle{A}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{{H}{L}}}}}={A}\cdot{\left({1}-{r}\right)}^{{t}}</m></p>
+<p><ul><li>10.9</li></ul></p><p><m>\displaystyle{A}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{{H}{L}}}}}={A}\cdot{\left({1}-{r}\right)}^{{t}}</m></p>
 <p>
 We can start by dividing both sides by the initial amount <m>\displaystyle{A}</m>.</p>
 <p>
@@ -38,9 +38,9 @@ OR  </p>
 <p>
 <m>\displaystyle{r}={1}-{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{{H}{L}}}}}</m></p>
 <p>
-If the half-life is 8 hours, then we get <m>\displaystyle{r}={1}-{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{8}}}}\approx{0.082995956795329}</m></p>
+If the half-life is 6 hours, then we get <m>\displaystyle{r}={1}-{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{6}}}}\approx{0.10910128185966}</m></p>
 <p>
-If we round to the nearest tenth of a percent, then the rate of decrease, <m>\displaystyle{r}\approx{8.3}\%</m>.</p>
+If we round to the nearest tenth of a percent, then the rate of decrease, <m>\displaystyle{r}\approx{10.9}\%</m>.</p>
 </solution>
 </myopenmath>
 

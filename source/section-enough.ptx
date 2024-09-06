@@ -3,36 +3,92 @@
 <section xml:id="section-enough" >
 	<title>Accuracy and Precision</title>
 
+<introduction>
+	<p>This section addresses the topics
+		<ul>
+			<li>Interpret data in various formats and analyze mathematical models</li>
+			<li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+		</ul>
+		and covers the mathematical concepts
+		<ul>
+            <li>Rounding (skill)</li>
+            <li>Significant Figures (skill)</li>
+            <li>Determining appropriate rounding from context (critical thinking)</li>
+		</ul>
+	</p>
+
+	<p>While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.</p>
+	<p>First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.</p>
+</introduction>
+
 <subsection xml:id="subsection-enough-accuracy">
 	<title>Explanation</title>
 
-<figure xml:id="figure-video-precision-accuracy">
-	<caption>Introduction to Precision and Accuracy</caption>
-	<video youtube="SJZ9yCJ3NTQ" xml:id="video-precision-accuracy" />
-</figure>
+	<p>When working with measurements, we care about the reasonableness of the results. Suppose four people measure the length of a piece of wood and come up with 1.235 m, 1.236 m, 1.237 m, and 1.234 m. We might conclude that we are confident it is 1.23 m long but we are not certain about the millimeters position. This leads to the concepts of accuracy and precision.</p>
 
-<p>When working with measurements, we care about the reasonableness of the results. This leads us to two concepts. </p>
+	<definition xml:id="definition-accuracy">
+		<title>Accuracy</title>
+		<statement><p>The <term>accuracy</term> of a measurement is how close the measurement is to the actual value.</p></statement>
+	</definition>
 
-<definition xml:id="definition-accuracy">
-	<title>Accuracy</title>
-	<statement><p>The <term>accuracy</term> of a measurement is how close the measurement is to the actual value.</p></statement>
-</definition>
+	<example xml:id="example-accuracy-length">
+		<p>If the board referenced above is actually 1.2364 m long then all four measurements are accurate to the second decimal place. The second measurement (1.236 m) is accurate to the third decimal place.</p>
+	</example>
 
-<p>Note, if we are measuring something, it is because we don't know the actual value. Thus we can't determine the exact value of many kinds of data. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is reasonably accurate.</p>
+	<example xml:id="example-accuracy-number">
+		<p>Note <m>\frac{22}{7} \approx 3.142857</m> is an approximation for <m>\pi</m>. Because <m>\pi</m> to six decimals places (not rounded) is 3.141592, this approximation is accurate to only 2 decimal places.</p>
+		<p>Note, <m>\pi</m> is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.</p>
+	</example>
 
-<definition xml:id="definition-precision">
-	<title>Precision</title>
-	<statement><p>The <term>precision</term> of a measurement is the size of the smallest unit in it.</p></statement>
-</definition>
+	<p>Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and all such tools have a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.</p>
 
-<p>Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean they are close to the actual value.</p>
+	<definition xml:id="definition-error">
+		<title>Error</title>
+		<statement><p>The <term>error</term> of a measurement is the difference between the reported measurement and the actual value.</p></statement>
+	</definition>
+
+	<example xml:id="example-error-number">
+		<p>The number of people at an outdoor concert was 2453. If someone estimated that the number of people was 2500, then that estimate is accurate to 1000's place, but has an error of only <m>2500-2453=47</m>.</p>
+	</example>
+
+	<definition xml:id="definition-precision">
+		<title>Precision</title>
+		<statement><p>The <term>precision</term> of a measurement is the size of the smallest unit in it.</p></statement>
+	</definition>
+
+	<p>Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean that number is close to the actual value of the measurement.</p>
+
+	<example xml:id="example-compare-accuracy-precision">
+		<p>The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?</p>
+		<p>Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).</p>
+		<p>Because the response matches the actual value to the hundreds position, it is accurate to 2 decimal places.</p>
+		<p>Because <m>5.7647-5.7632=0.0015</m>, the error is 0.0015.</p>
+	</example>
+
+	<figure xml:id="figure-video-precision-accuracy">
+		<caption>Introduction to Precision and Accuracy</caption>
+		<video youtube="SJZ9yCJ3NTQ" xml:id="video-precision-accuracy" />
+	</figure>
+
+	<p>How do we end up with measurements parts of which are not accurate? Consider the following.</p>
+
+	<example xml:id="example-measure-error-ruler">
+		<image source="images/measure_length" />
+		<p>When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3/4<dblprime/> and less than 7/8<dblprime/>. The right side of the shape appears to be less than half way between 3/4<dblprime/> and 7/8<dblprime/>. Because it appears to be closer to 3/4<dblprime/>, we can state the width is 3/4<dblprime/>. Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.</p>
+		<p>We know this measurement is accurate to the nearest 1/8<dblprime/>, because the ruler has those marked and, in this case, we can be confident it is closer to the left side.</p>
+		<p>To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13/16<dblprime/> or 1/16<dblprime/> farther. Thus we can state that the shape is 3/4<dblprime/> wide with an error that is less than 1/16<dblprime/>.</p>
+	</example>
+
+	<p>While other tools for measurement can be more precise, every tool has a limit to its precision that is similar to this example. We should always be aware of the limitations of measurements when we use them.</p>
 
 </subsection>
 
 <subsection xml:id="subsection-enough-sigfigs">
 	<title>Significant Figures</title>
 
-	<p>When writing down measurements we need a way to indicate how precise the measurement is. <term>Significant digits</term> also called <term>significant figures</term> or simply <q>sig figs</q> are a way to do this.</p>
+	<p>It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation <m>\frac{22}{7}</m>) for <m>\pi</m> makes no sense, because it is only accurate to the hundreds position (3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in most of the problems for the rest of the course.</p>
+
+	<p>When writing down measurements we need a way to indicate how precise the measurement is. <term>Significant digits</term>, also called <term>significant figures</term> or simply <q>sig figs</q>, are a way to do this.</p>
 
 	<p>The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.
 		<ol>
@@ -59,7 +115,7 @@
 	</example>
 
 	<exercise xml:id="exercise-sigfigs-count">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>How many significant digits does <m>203</m> have? <var name="'3'" width="3" /> </p>
 				<p>How many significant digits does <m>20\bar{0}0</m> have? <var name="'3'" width="3" /> </p>
@@ -68,7 +124,8 @@
 				<p>Because 203 ends with a non-zero digit all three digits are significant.</p>
 				<p>Because the 0 in the tens position is marked as significant (the bar) there are 3 significant digits</p>
 			</solution>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1444280" />
 	</exercise>
 
 	<p>We also need rules for arithmetic with significant digits. These are based on two principles
@@ -86,14 +143,14 @@
 
 	<example xml:id="example-sigfig-add">
 		<title>Addition with Significant Digits</title>
-		<p><m>311+8310+202200=210800</m>. This is because the farthest left, last significant digit is in the 100's position in 202200. The extra precision of the other two numbers is not useful.</p>
+		<p><m>311+8310+202200 \approx 210800</m>. This is because the farthest left, last significant digit is in the 100's position in 202200. The extra precision of the other two numbers is not useful.</p>
 	</example>
 
-	<p>The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. A detailed explanation is in this video.</p>
+	<p>The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious an explanation of why this rule works is in this video.</p>
 	<video youtube="kxnjKrjXOH4" xml:id="video-example-sigfig-add" />
 
 	<exercise xml:id="exercise-sigfigs-add">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>Calculate <m>646+21.12+120</m>: <var name="'790'" width="5" /> </p>
 				<p>Calculate <m>63.97-21</m>: <var name="'43'" width="5" /> </p>
@@ -102,7 +159,8 @@
 				<p><m>646+21.12+120=787.12 \approx 790</m> because <m>120</m> is significant to only the 10's position (the others are more precise).</p>
 				<p><m>63.97-21=42.97 \approx 43</m> because <m>21</m> is significant to only the 1's position (the other is more precise).</p>
 			</solution>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1444299" />
 	</exercise>
 
 	<p>For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</p>
@@ -117,11 +175,11 @@
 		<p><m>17 \times 14\bar{0} \times 3.178= 7600</m>. This is because <m>17</m> has only two significant digits.</p>
 	</example>
 
-	<p>The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. An explanation of why this rule works is in this video.</p>
+	<p>The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious an explanation of why this rule works is in this video.</p>
 	<video youtube="oQ48Agi4TfI" xml:id="video-example-sigfig-multiply" />
 
 	<exercise xml:id="exercise-sigfigs-multiply">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>Calculate <m>646 \times 21.12</m>: <var name="'13600'" width="7" /> </p>
 				<p>Calculate <m>63.97/21</m>: <var name="'3.0'" width="5" /> </p>
@@ -130,22 +188,38 @@
 				<p><m>646 \times 21.12=13643.52 \approx 13600</m> because <m>646</m> has only 3 significant digits (the other has more).</p>
 				<p><m>63.97/21=3.046190476 \approx 3.0</m> because <m>21</m> has only 2 significant digits (the other has more).</p>
 			</solution>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1444891" />
 	</exercise>
 
-	<p>Significant digit rules must be applied at each step. That is if we have a mix of addition, subtraction, multiplication, and division then we do one operation at a time and apply the appropriate significant digits rule before performing the next arithmetic step.</p>
+	<p>The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.</p>
 
-	<example xml:id="example-sigfig-multi">
+	<example xml:id="example-sigfig-multi1">
 		<title>Multi-Step Arithmetic with Significant Digits</title>
-		<p>Consider <me>11,728+39(17.9+1.23).</me> By order of operations we first calculate <m>17.9+1.23 \approx 19.1.</m> Second by order of operations we calculate <m>39 \times 19.1 = 740.</m> Finally we calculate <m>11,728+740=12,470.</m></p>
+		<p>Consider <me>11,728+39(17.9+1.23).</me> By order of operations we first calculate <m>17.9+1.23 = 19.13</m> . Note that the result 19.13 is significant only to the first decimal place. Second by order of operations we calculate <m>39 \times 19.13 = 746.07</m>. This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place. The last calculation is <m>11,728+746.07=12,474.07</m>. 11,728 is significant to the one's place but the 746.07 is only significant to the 10's place. As a result the final result is rounded to the 10's place so <me>11,728+39(17.9+1.23) \approx 12,470.</me></p>
 	</example>
+
+	<example xml:id="example-sigfig-multi2">
+		<p>Calculate <me>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4).</me> Note the <m>1/2</m> is an exact number here. The rest are measurements in centimeters.
+		<md>
+			<mrow>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4) &amp; =</mrow>
+			<mrow>21 \cdot 9 - \frac{1}{2} \cdot 9(12) &amp; = \text{ all numbers are precise to the ones position}</mrow>
+			<mrow>189 - 54 &amp; = \text{ only one significant digit remains in both numbers because 9 has only one}</mrow>
+			<mrow>105 &amp; \approx \text{ 189 was precise to only the hundreds position}</mrow>
+			<mrow>100.</mrow>
+		</md></p>
+	</example>
+
+	<exercise xml:id="exercise-sigfig-multi-step">
+		<myopenmath problem="1445015" />
+	</exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-rounding">
 	<title>Rounding</title>
 
-	<p>For a variety of reasons in applications we need to round a number, that is ignore some level of precision.</p>
+	<p>Significant digits uses rounding to remove non-useful precision. This section presents various motivations for rounding and types of rounding and  motivations for each.</p>
 
 	<table xml:id="table-round-reasons">
 		<title>Reasons for Rounding</title>
@@ -156,15 +230,19 @@
 		</tabular>
 	</table>
 
-	<p>The reason for rounding determines how we do it. Consider the following reality constraints requiring rounding. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need <m>21/12=1.75</m> cartons. Since we cannot purchase part of a carton, we must round 1.75 to 2, and purchase 2 cartons.</p>
+	<p>The reason for rounding determines how we do it. Consider the following reality constraints requiring rounding. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need <m>21/12=1.75</m> cartons. Since we cannot purchase part of a carton, we must round 1.75 up to 2, and purchase 2 cartons.</p>
+
 	<p>Note in this example reality requires us to round up to the nearest integer. We round to an integer because we cannot purchase fractional cartons of eggs. We had to round up, because rounding down would leave us with insufficient eggs (and we are hungry).</p>
+
 	<p>Suppose you have a bank account containing $11410 that accrues 1.65% interest. The bank calculates the payment should be <m>\$11410 \cdot 0.0165 = \$188.265</m>. The bank will pay you $188.26. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.</p>
 
-	<p>For removal of detail consider reporting the population of a country. We might report the population as 9 million rather than 9,904,607. We do this because we don't need the exact number which likely is changing every day. When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 and $80,290.11 is unlikely to change a decision. A common usage of removing detail is when we care about the scale of things rather than the count.</p>
+	<p>For removal of detail consider reporting the population of a country. We might report the population as over 9 million rather than 9,904,607. There are multiple motivations for this rounding. Note the population is likely changing multiple times per day, so more precision in the number does not equal more accuracy. Also, because of the scale (millions) the detail about how many ones, tens, hundred, and thousands looses meaning.</p>
+
+	<p>When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 and $80,290.11 is unlikely to change a decision. The applicant will ask about the exact salary after deciding the position is a good fit. A common usage of removing detail is when we care about the scale of things rather than the count.</p>
 
 	<p>Rounding to control error is the use of significant digits.</p>
 
-	<p>We can round to any digit. We can round up, down, or simply <q>round</q>. Context or instructions will specify which digit and which type of rounding.</p>
+	<p>Before considering context, we will practice rounding numbers. Note we can round to any digit. We can round up, down, or to the nearest number (what is meant by <q>round</q> if neither up nor down are specified). Context or instructions will specify which digit and which type of rounding.</p>
 
 	<example xml:id="example-rounding-types1">
 		<title>Rounding Up/Down</title>
@@ -178,7 +256,7 @@
 		</task>
 		<task>
 			<statement><p>Round 72481 the nearest hundred.</p></statement>
-			<solution><p>Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is <m>8 \ge 5</m> which makes it closer to go up. We could also recognize the need to round up by calculating <m>500-481=19</m> and <m>481-400=81</m> and noticing that <m>81 \ge 19</m>. </p></solution>
+			<solution><p>Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is <m>8 \ge 5</m> which means rounding up results in a closer number. We could also recognize the need to round up by calculating <m>500-481=19</m> and <m>481-400=81</m> and noticing that <m>19 \le 81</m> (round up is closer). </p></solution>
 		</task>
 	</example>
 
@@ -194,7 +272,7 @@
 		</task>
 		<task>
 			<statement><p>Round 72481 to the nearest thousand.</p></statement>
-			<solution><p>Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is <m>4 &lt; 5</m> which makes it closer to go down. We could also recognize the need to round down by calculating <m>3000-2481=519</m> and <m>2481-2000=481</m> and noticing that <m>481 &lt; 519</m>. </p></solution>
+			<solution><p>Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is <m>4 &lt; 5</m> which makes it closer to go down. We could also recognize the need to round down by calculating <m>3000-2481=519</m> and <m>2481-2000=481</m> and noticing that <m>481 \lt 519</m>. </p></solution>
 		</task>
 	</example>
 
@@ -210,22 +288,39 @@
 	</example>
 
 	<exercise xml:id="exercise-rounding">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>Round 812,247 to the nearest ten: <var name="'812250'" width="3" /> </p>
 				<p>Round 812,247 to the nearest hundred: <var name="'812200'" width="3" /> </p>
 			</statement>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1444907" />
 	</exercise>
+
+	<p>Next we need to consider when to use each type of rounding.</p>
+
+	<example xml:id="example-rounding-carpet-tiles">
+		<p>Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20<dblprime/>. If a room is 50 feet by 38 feet, how many carpet square do we need?</p>
+		<p>First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <m>50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 in</m>. This will require laying <m>\frac{600 \text{ in}}{20 \text{ in}} = 30</m> tiles across.</p>
+		<p>Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <m>38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 in</m>. This will require laying <m>\frac{456 \text{ in}}{20 \text{ in}} = 22.8</m> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</p>
+		<p>Finally we can count the number of tiles which is <m>30 \times 23 = 690</m> tiles.</p>
+		<p>If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up.</p>
+	</example>
+
+	<example xml:id="example-rounding-distribute-cookies">
+		<p>Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?</p>
+		<p>There are <m>3 \cdot 12 = 36</m> cookies. Each person can have <m>36/7 \approx 5.1</m> cookies. Because cutting cookies into pieces is typically a bad idea, we must round this down to 5 cookies per person.</p>
+		<p>Curious minds want to know what happens with the rest of the cookies. Notice there will be <m>7 \cdot 5 = 35</m> cookies given away leaving just one cookie for the baker to enjoy.</p>
+	</example>
 
 </subsection>
 
 <subsection xml:id="subsection-greatest-error">
 	<title>Greatest Possible Error</title>
 
-	<p>When we write a number with significant digits notation or we round a number we write a number that has some error in it. For example if it rained 0.86 inches in a day and we write 0.9 inches, there is an error of 0.4. The important question is <q>how big can the error be?</q>.</p>
+	<p>We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.</p>
 
-	<p>Because our rule for rounding is digits 0-4 round down round up and digits 5-9, rounding will always have a greatest possible error of 5. Consider <xref ref="example-greatest-error" />.</p>
+	<p>Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, rounding will always have a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.</p>
 
 	<example xml:id="example-greatest-error">
 		<statement><p>What is the greatest possible error if 130 was rounded to the nearest 10?</p></statement>
@@ -250,33 +345,29 @@
 	<p>Notice we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object isn't exactly on one of the lines, you will choose the closest one. The closest one requires rounding.</p>
 
 	<exercise xml:id="exercise-greatest-error1">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>What is the greatest possible error if 8120 was rounded to the nearest ten? <var name="'5'" width="3" /> </p>
 			</statement>
 			<solution>
 				<p>This could be any number from 8115 to 8124. Thus the greatest possible error is 5.</p>
 			</solution>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1444922" />
 	</exercise>
 
 	<exercise xml:id="exercise-greatest-error2">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>What is the greatest possible error in the result <m>934\bar{0}00</m>? <var name="'50'" width="3" /> </p>
 			</statement>
 			<solution>
 				<p>The smallest accurate digit is the hundreds position as indicated by the bar. Thus the number could be anything from 933950-934049. Thus the greatest possible error is 50.</p>
 			</solution>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1444933" />
 	</exercise>
 
-</subsection>
-
-<subsection xml:id="subsection-rounding-roundup">
-	<title>Purposes of Rounding</title>
-
-	<p>Ask the instructor to complete this section.</p>
 </subsection>
 
 <exercises>

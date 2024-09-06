@@ -5,19 +5,25 @@
 
 <introduction>
 
-	<p>This section addresses
+	<p>This section addresses the topics
+		<ul>
+			<li>Interpret data in various formats and analyze mathematical models</li>
+			<li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+		</ul>
+		and covers the mathematical concepts
 		<ul>
 			<li>Calculate Percentages (skill)</li>
 			<li>Understand and interpret percentages (critical thinking)</li>
 		</ul>
 	</p>
 
-	<p>Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie. We will learn how to calculate a percent, how to convert between percents and the numbers, and how to recognize what a percent does and cannot tell us.</p>
+	<p>Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.</p>
+	<p>We will learn how to calculate a percent (<xref ref="subsection-percent-examples" />, <xref ref="proportions-calculate-percent" />), how to convert between percents and the numbers (also <xref ref="subsection-percent-examples" />, <xref ref="proportions-calculate-percent" />), how to describe growth in terms of percents (<xref ref="subsection-percent-increase" />,  <xref ref="proportions-interpret-percent" />), and how to recognize what a percent does and cannot tell us (<xref ref="subsection-percent-limitation" />, <xref ref="proportions-interpret-percent" />).</p>
 
 </introduction>
 
-	<subsection xml:id="subsection-percent-examples">
-		<title>Calculating Percents</title>
+<subsection xml:id="subsection-percent-examples">
+	<title>Calculating Percents</title>
 
 	<definition xml:id="definition-percent">
 		<title>Percent</title>
@@ -84,6 +90,9 @@
 			</md></p>
 		</solution>
 	</example>
+
+	<video youtube="032A8A0mlPg" xml:id="video-example-percent-part-from-percent" />
+
 	<exercise xml:id="exercise-percent-calculate-simple">
 <!--		<webwork>
 			<statement>
@@ -110,7 +119,7 @@
 		<statement><p>In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?</p></statement>
 		<solution><p>Again we use the same setup, but we don't yet know the whole.
 			<md>
-				<mrow>\frac{\text{part}}{\text{whole}} &amp; = 0.0625.</mrow>
+				<mrow>\frac{\text{part}}{\text{whole}} &amp; = \text{percent}.</mrow>
 				<mrow>\frac{2}{W} &amp; = 0.0625.</mrow>
 				<mrow>2 &amp; = 0.0625 \cdot W.</mrow>
 				<mrow>\frac{2}{0.0625} &amp; = W.</mrow>
@@ -139,6 +148,8 @@
 		</md>
 		Thus we know the entire book has 900 pages.</p>
 	</example>
+
+	<video youtube="53ff6cvt2iU" xml:id="video-example-percent-use-example" />
 
 	<p>In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.</p>
 

@@ -17,7 +17,7 @@
             <email>maossiandergobeille@alaska.edu</email>
         </author>
 
-        <date>14 September 2023</date>
+        <date>30 August 2024</date>
 
     </titlepage>
 
@@ -31,7 +31,7 @@
 
         <copyright>
             <year>2021</year>
-            <holder>Megan Ossiander-Gobeille, Mark Fitch</holder>
+            <holder>Mark Fitch, Megan Ossiander-Gobeille</holder>
             <minilicense>GFDL License</minilicense>
             <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
         </copyright>
@@ -50,54 +50,54 @@
         <p>This book is not written as a how to manual for specific applications. That is, while this book provides examples of many specific applications from trades and life, it does not provide a step-by-step example to follow for every type of problem. Rather it provides initial examples, presents general concepts used in the example, and helps you practice recognizing what is important in an example and applying it to similar problems.</p>
 
         <p>The topics include
-            <ul>
-                <li>Interpret data in various formats and analyze mathematical models</li>
-                <li>Read and use mathematical models in a technical document</li>
-                <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
-            </ul>
+            <ol>
+                <li xml:id="topic-interpret">Interpret data in various formats and analyze mathematical models</li>
+                <li xml:id="topic-models">Read and use mathematical models in a technical document</li>
+                <li xml:id="topic-communicate">Communicate results in mathematical notation and in language appropriate to the technical field</li>
+            </ol>
             You will learn to work with the following mathematical concepts.
-            <ul>
+            <ol>
                 <li><p>Precision and accuracy
-                    <ul>
+                    <ol>
                         <li>Rounding (skill)</li>
                         <li>Significant Figures (skill)</li>
                         <li>Determining appropriate rounding from context (critical thinking)</li>
-                    </ul>
+                    </ol>
                 </p></li>
                 <li><p>Proportions
-                    <ul>
-                        <li>Setup and solve proportions (skill)</li>
-                        <li>Calculate Percentages (skill)</li>
-                        <li>Understand and interpret percentages (critical thinking)</li>
-                        <li>Unit conversion (skill)</li>
-                    </ul>
+                    <ol>
+                        <li xml:id="proportions-solve">Setup and solve proportions (skill)</li>
+                        <li xml:id="proportions-calculate-percent">Calculate Percentages (skill)</li>
+                        <li xml:id="proportions-interpret-percent">Understand and interpret percentages (critical thinking)</li>
+                        <li xml:id="proportions-unit-conversion">Unit conversion (skill)</li>
+                    </ol>
                 </p></li>
                 <li><p>Rates
-                    <ul>
+                    <ol>
                         <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
                         <li>Identify data varrying directly or indirectly (critical thinking)</li>
-                    </ul>
+                    </ol>
                 </p></li>
                 <li><p>Solving
-                    <ul>
+                    <ol>
                         <li>Solve linear, rational, quadratic, and exponential equations and formulas (skill)</li>
                         <li>Solve a system of linear equations (skill)</li>
-                    </ul>
+                    </ol>
                 </p></li>
                 <li><p>Models
-                    <ul>
-                        <li>Read and interpret models (critical thinking)</li>
-                        <li>Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
-                    </ul>
+                    <ol>
+                        <li xml:id="models-read">Read and interpret models (critical thinking)</li>
+                        <li xml:id="models-use">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+                    </ol>
                 </p></li>
                 <li><p>Trigonometry
-                    <ul>
+                    <ol>
                         <li>Analyze right triangles (skill)</li>
                         <li>Analyze non-right triangles (skill)</li>
                         <li>Identify properties of sine and cosine functions (skill)</li>
-                    </ul></p>
+                    </ol></p>
                 </li>
-            </ul>
+            </ol>
         </p>
     </preface>
 

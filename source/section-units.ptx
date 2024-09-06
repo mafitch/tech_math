@@ -4,16 +4,34 @@
 	<title>Units</title>
 
 <introduction>
+	<p>This section addresses the topics
+		<ul>
+			<li>Interpret data in various formats and analyze mathematical models</li>
+			<li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+		</ul>
+		and covers the mathematical concepts
+		<ul>
+			<li>Unit conversion (skill)</li>
+			<li>Setup and solve proportions (skill)</li>
+		</ul>
+	</p>
+
+	<p>This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.</p>
+
+	<p>In this section we will introduce the units so we can understand them when we read technical material (<xref ref="topic-models" />) and use them correctly to communicate results to others (<xref ref="topic-communicate" />). We will also learn to convert units (<xref ref="proportions-unit-conversion" />) which involves our first use of proportions (<xref ref="proportions-solve" />).</p>
+
 	<p>We measure many things such as distance, time, and weight. We describe these measurements in terms of units like mile, hour, and pounds. But have you ever stopped to think about how these units are defined?</p>
 	<p>The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.</p>
 	<p>Other units, such as the metric (or SI) are much more modern. Initially many units were based on something physical. For example one calorie is the amount of heat it takes to raise the temperature of one gram of water <m>1^\circ</m> C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.</p>
-	<p>Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was change yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.</p>
+	<p>Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.</p>
 </introduction>
 
 <subsection xml:id="subsection-measurement-types">
 	<title>Types of Measurement</title>
 
-	<p>First we will look at the units (names of units) for different types of measurement. Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types. For the metric (formally known as SI or international system). <xref ref="table-units-of-measure" /> lists names of units.</p>
+	<p>First we will look at the units (names of units) for different types of measurement. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.</p>
+
+	<p>Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the metric system (formally known as SI or international system) which has one name for each property and prefixes to indicate the size. <xref ref="table-units-of-measure" /> lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, <ellipsis/>).</p>
 
 	<table xml:id="table-units-of-measure">
 		<title>Units of Measure</title>
@@ -38,24 +56,29 @@
 		</tabular>
 	</table>
 
-	<p>Note that fluid ounces and weight ounces are not the same unit. 10 fluid ounces of milk does not weight 10 ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes which is a good reason to us SI units.</p>
+	<p><alert>One name: two meanings</alert> Note that fluid ounces and weight ounces are not the same unit. 10 fluid ounces of milk does not weigh 10 ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes which is a good reason to us SI units.</p>
 
-	<p>Note a gram is a unit of mass rather than weight. Mass times the acceleration due to gravity is weight. However, pound and ounce are units of weight. The mass can be obtained by dividing by the acceleration due to gravity. However gram is often used to describe weight because it is easy to switch between it and weight. The unit official unit for weight (a force) is a Newton.</p>
+	<p>Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.</p>
 
 </subsection>
 
 <subsection xml:id="subsection-customary">
 	<title>U.S. Customary</title>
 
-	<p>Because the British Imperial system from which the U.S. Customary system was developed was based on disparate measurements from many years ago. As a result there are different units for different scales (e.g., inches for small lengths and miles for long distances). Converting between units therefor requires remembering special numbers for conversion. Most of these you likely know.</p>
+	<p>Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.</p>
+
+	<p>Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.</p>
+
+	<p>Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.</p>
 
 	<table xml:id="table-customary-convert">
 		<title>Converting within U.S. Customary</title>
 		<tabular top="medium">
 			<row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">Unit 1</cell><cell right="medium">Unit 2</cell></row>
 			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 mi</cell><cell right="medium">5280 ft</cell></row>
-			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 yd</cell><cell right="medium">3 ft</cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">1 yd</cell><cell right="medium">3 ft</cell></row>
 			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 ft</cell><cell right="medium">12 in</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium">Area</cell><cell right="medium">1 acre</cell><cell right="medium">43,560 <m>\text{ft}^2</m></cell></row>
 			<row left="medium"><cell right="medium">Volume</cell><cell right="medium">1 g</cell><cell right="medium">4 qts</cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">1 qt</cell><cell right="medium">2 pts</cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">1 pt</cell><cell right="medium">2 c</cell></row>
@@ -69,34 +92,51 @@
 		</tabular>
 	</table>
 
-	<p>All of these numbers are defined this way. They are not measurments. Of course a year is not always the same number of days, but for planning purposes we can typically use the common 365 days without injury or loss.</p>
+	<p>Of course a year is not always the same number of days. It is important to know whether in a given circumstance we can use the common approximation of 365 days without injury or loss.</p>
 
-	<video youtube="jOgRlTt4h7I" xml:id="video-example-unit-convert-down" />
+	<p>Review each of these examples to see how to convert from one U.S. Customary unit to another.</p>
 
 	<example xml:id="example-customary-convert-down1">
 		<statement><p>How many quarts is 2.3 gallons?</p></statement>
-		<solution><p>We know each gallon is 4 quarts, so we multiply by 4
+		<solution><p>From <xref ref="table-customary-convert" /> we know (or can look up) that each gallon is 4 quarts. This means we have <m>\frac{4 \text{ quarts}}{1 \text{ gallon}}</m>. This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out.
 			<me>2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} = 9.2 \text{ quarts}</me></p></solution>
 	</example>
 
 	<example xml:id="example-customary-convert-down2">
 		<statement><p>How many cups is 1.7 gallons?</p></statement>
-		<solution><p>Because we don't have a number of cups per gallon we will do this in steps.
-			<me>1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ quarts}</me></p></solution>
+		<solution>
+			<p>We do not have a number of cups per gallon. However, we can convert start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.</p>
+			<p>As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.
+			<me>1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ quarts}</me></p>
+		</solution>
 	</example>
 
 	<example xml:id="example-customary-convert-up1">
 		<statement><p>How many days is 17 hours?</p></statement>
-		<solution><p>We know each day is 24 hours. Because this is going to a bigger unit, we divide by 24
-			<me>17 \text{ hours} \cdot \frac{1 \text{ day}}{24 \text{ hours}} = 0.708 \text{ days}</me></p></solution>
+		<solution>
+			<p>Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use <m>\frac{1 \text{ day}}{24 \text{ hours}}</m>
+			<me>17 \text{ hours} \cdot \frac{1 \text{ day}}{24 \text{ hours}} = 0.708\overline{3} \text{ days}</me></p>
+		</solution>
 	</example>
+
+	<video youtube="jOgRlTt4h7I" xml:id="video-example-unit-convert-down" />
+
+	<p>Check that you can perform a unit conversion using this Checkpoint.</p>
+
+	<exercise xml:id="checkpoint-us-unit-conversion">
+	    <myopenmath problem="880590" />
+	</exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-metric">
 	<title>Metric (SI)</title>
 
-	<p>Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each one is a power of ten (uniform).</p>
+	<p>Just as with U.S. Customary units we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.</p>
+
+	<p>Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).</p>
+
+	<p>You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.</p>
 
 	<table xml:id="table-metric-sizes">
 		<title>Metric Prefixes</title>
@@ -117,27 +157,36 @@
 		</tabular>
 	</table>
 
+	<p>Review each of these examples to see how to convert from one SI unit to another.</p>
+
 	<example xml:id="example-si-down1">
 		<statement><p>How many centimeters is 3.8 meters?</p></statement>
-		<solution><p>We know one centimeter is <m>10^{-2}</m> meters which means the decimal shifts two positions. 3.8 meters is 380 centimeters.</p></solution>
+		<solution>
+			<p>From <xref ref="table-metric-sizes" /> we know one centimeter is <m>10^{-2}</m> meters, that is, <m>\frac{1 \text{ cm}}{10^{-2} \text{ m}}</m>. This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. <me>3.8 \text{ m} \cdot \frac{1 \text{ cm}}{10^{-2} \text{ m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.</me> Note, because this is a power of ten (<m>10^2</m>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</p>
+			<p>Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).</p>
+		</solution>
 	</example>
 
 	<example xml:id="example-si-down2">
 		<statement><p>How many kilotons is 2.3 megatons?</p></statement>
-		<solution><p>We know one kiloton is <m>10^2</m> tons and one megaton is <m>10^3</m> tons. This means we shift the decimal <m>3-2=1</m> position. 2.3 megaton is 23 kilotons.</p></solution>
+		<solution><p>We know one kiloton is <m>10^3</m> tons and one megaton is <m>10^6</m> tons. These are three powers apart (<m>6-3=3</m>), which means we shift the decimal position three places. Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</p></solution>
 	</example>
 
 	<example xml:id="example-si-up">
 		<statement><p>How many centiliters is 13.6 milliliters?</p></statement>
-		<solution><p>We know one centiliter is <m>10^{-2}</m> liters and one milliliter is <m>10^{-3}</m> liters. This means we shift the decimal <m>-2-(-3)=1</m> position. 13.6 milliliters is 1.36 centiliters.</p></solution>
+		<solution><p>We know one centiliter is <m>10^{-2}</m> liters and one milliliter is <m>10^{-3}</m> liters. This means we shift the decimal <m>-2-(-3)=1</m> position. Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (make the number smaller). 13.6 milliliters is 1.36 centiliters.</p></solution>
 	</example>
-	
+
+	<exercise xml:id="checkpoint-si-unit-conversion">
+	    <myopenmath problem="1443483" />
+	</exercise>
+
 </subsection>
 
 <subsection xml:id="subsection-convert-si-standard">
 	<title>Converting between Systems</title>
 
-	<p>Commonly we end up with measurements in both U.S. Standard and SI units. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet).</p>
+	<p>Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.</p>
 
 	<table xml:id="table-customary-to-si">
 		<title>U.S. Customary to SI</title>
@@ -167,11 +216,77 @@
 		</tabular>
 	</table>
 
+	<p>Review each of these examples to see how to convert between U.S. Customary units and SI units.</p>
+
 	<example xml:id="example-customary-to-si">
 		<statement><p>How many kilometers is 26.2 miles?</p></statement>
-		<solution><p>From <xref ref="table-customary-to-si" /> we know each mile is 1.609344 km.
+		<solution><p>From <xref ref="table-customary-to-si" /> we know each mile is 1.609344 km; this means there is <me>\frac{1.609344 \text{ km}}{1 \text{ mi}}</me>. The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.
 			<me>26.2 \text{ miles} \cdot \frac{1.609344 \text{ km}}{\text{mi}} \approx 42.2 \text{ km}</me></p></solution>
 	</example>
+
+	<example xml:id="example-si-to-customary">
+		<statement><p>How many inches is 15 centimeters?</p></statement>
+		<solution><p>From <xref ref="table-si-to-customary" /> we know each centimeter is 0.393701 inches; this means there is <me>\frac{0.393701 \text{ in}}{1 \text{ cm}}</me>. The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out.
+			<me>15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} \approx 5.9 \text{ in}</me></p></solution>
+	</example>
+
+	<example xml:id="example-si-to-customary-scaled">
+		<statement><p>How many inches is 1 meter?</p></statement>
+		<solution>
+			<p>From <xref ref="table-si-to-customary" /> we know each meter is 3.280840 feet. From <xref ref="table-customary-convert" /> that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet.
+			<me>1 \text{ m} \cdot \frac{3.280840 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} \approx 39 \text{ in}</me></p>
+		</solution>
+	</example>
+
+	<exercise xml:id="checkpoint-customary-si-conversion">
+	    <myopenmath problem="1443832" />
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-convert-compound">
+	<title>Converting Compound Units</title>
+
+	<p>Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.</p>
+
+	<example xml:id="example-convert-speed">
+		<statement><p>How many meters per second is 15 miles per hour?</p></statement>
+		<solution>
+			<p>We start with <m>\frac{15 \text{ mi}}{1 \text{ hr}}</m>. We can convert miles to feet and feet to meters (multi-step conversion like <xref ref="example-customary-convert-down2" />). The conversion ratios suggest we can multiply the 15 mi/hr by the conversion ratios. <me>\frac{15 \text{ mi}}{1 \text{ hr}} \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \cdot \frac{0.3048 \text{ m}}{1 \text{ ft}} \approx \frac{24140 \text{ m}}{1 \text{ hr}}</me> We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. <me>\frac{24140 \text{ m}}{1 \text{ hr}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \cdot \frac{1 \text{ min}}{60 \text{ sec}} \approx 6.706 \frac{\text{m}}{\text{sec}}</me>.</p>
+			<p>Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.</p>
+		</solution>
+	</example>
+
+	<example xml:id="example-convert-extra-units">
+		<statement><p>How many pounds does a tablespoon of water weigh? Note that one gallon of water weights 8 lbs. Also a tablespoon is a half fluid ounce.</p></statement>
+		<solution>
+			<p>We need to conver the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. <me>\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} = \frac{1 \text{lb}}{64 \text{ tbs}} = 0.015625 \frac{\text{lbs}}{\text{tbs}}</me>.</p>
+		</solution>
+	</example>
+
+	<exercise xml:id="checkpoint-convert-ratio-units">
+	    <myopenmath problem="880611" />
+	</exercise>
+
+	<p>Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.</p>
+
+	<example xml:id="example-convert-square-units">
+		<statement><p>Convert 2 acres to units of square miles.</p></statement>
+		<solution>
+			<p>First we note that an acre is <m>43,560 \text{ft}^2</m>. From <xref ref="table-customary-convert" /> we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.
+			<md>
+				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mile}}{5280 \text{ ft}} \cdot \frac{\text{mile}}{5280 \text{ ft}} &amp; =</mrow>
+				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \left(\frac{\text{mile}}{5280 \text{ ft}}\right)^2 &amp; =</mrow>
+				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mile}^2}{5280^2 \text{ ft}^2} &amp; = \frac{1}{320} \text{ mi}^2</mrow>
+				<mrow> &amp; = 0.003125</mrow>
+			</md></p>
+			<p>It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.</p>
+		</solution>
+	</example>
+
+	<exercise xml:id="checkpoint-convert-square-units">
+	    <myopenmath problem="1443878" />
+	</exercise>
 
 </subsection>
 
