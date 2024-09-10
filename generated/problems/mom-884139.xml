@@ -2,31 +2,31 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="884139">
 <statement>
 <p>
-A few winters ago, it was very cold in northern Vermont, and Althea thought about leaving the kitchen faucet running overnight (so the water pipes wouldn't freeze). Althea's roommate Nia was a little concerned that they would be wasting a lot of water, so they performed an experiment.</p>
+A few winters ago, it was very cold in northern Maine, and Donovan thought about leaving the kitchen faucet running overnight (so the water pipes wouldn't freeze). Donovan's roommate Ian was a little concerned that they would be wasting a lot of water, so they performed an experiment.</p>
 <p>
-Nia turned the kitchen faucet on so it was dripping water at a constant rate. Then she held up a single teaspoon
-under the faucet, and it filled in <m>\displaystyle{9}</m> seconds. So, the water was "flowing" at a rate of <m>\displaystyle{1}</m> teaspoon per <m>\displaystyle{9}</m> seconds.</p>
+Ian turned the kitchen faucet on so it was dripping water at a constant rate. Then he held up a 1/2 teaspoon
+under the faucet, and it filled in <m>\displaystyle{9}</m> seconds. So, the water was "flowing" at a rate of <m>\displaystyle{0.5}</m> teaspoons per <m>\displaystyle{9}</m> seconds.</p>
 <p>
-<em>Question:</em> They were going to sleep and planned to get up <m>\displaystyle{6}</m> hours later to turn off the faucet. How many <em>gallons of water</em> would have gone down the drain in that time?</p>
+<em>Question:</em> They were going to sleep and planned to get up <m>\displaystyle{5}</m> hours later to turn off the faucet. How many <em>gallons of water</em> would have gone down the drain in that time?</p>
 <p>
-<lbracket/>Answer this question by converting <m>\displaystyle{6}</m> hours into gallons. Give your answer as a decimal number, rounded correctly to the nearest thousandth of a gallon.<rbracket/></p>
+<lbracket/>Answer this question by converting <m>\displaystyle{5}</m> hours into gallons. Give your answer as a decimal number, rounded correctly to the nearest thousandth of a gallon.<rbracket/></p>
 <p>
 Some Useful Unit Conversions</p>
-<p><ul><li>1 gallon = 128 fluid ounces</li><li>1 tablespoon = 3 teaspoons</li><li>2 tablespoons = 1 fluid ounce</li><li>9 seconds = 1 teaspoon</li><li>60 seconds = 1 minute</li><li>60 minutes = 1 hour</li></ul></p>
+<p><ul><li>128 fluid ounces = 1 gallon</li><li>2 tablespoons = 1 fluid ounce</li><li>1 minute = 60 seconds</li><li>1 hour = 60 minutes</li><li>0.5 teaspoons = 9 seconds</li><li>1 tablespoon = 3 teaspoons</li></ul></p>
 <p>
-In all, approximately <fillin characters="8" /> gallons of water will flow down the drain in <m>\displaystyle{6}</m> hours.
+In all, approximately <fillin characters="8" /> gallons of water will flow down the drain in <m>\displaystyle{5}</m> hours.
 </p>
 </statement>
 <solution>
-<p><ul><li>3.125</li></ul></p><p>We can begin with <m>\displaystyle{6}</m> hours as a fraction, and multiply by unit fractions, canceling units along the way until the remaining unit is just <em>gallons</em>:</p>
+<p><ul><li>1.302</li></ul></p><p>We can begin with <m>\displaystyle{5}</m> hours as a fraction, and multiply by unit fractions, canceling units along the way until the remaining unit is just <em>gallons</em>:</p>
 <p>
-<m>\displaystyle\frac{{{6}\ {\color{red}\cancel{{\text{hours}}}}}}{{1}}\cdot\frac{{{60}\ {\color{blue}\cancel{{\text{minutes}}}}}}{{{1}\ {\color{red}\cancel{{\text{hour}}}}}}\cdot\frac{{{60}\ {\color{purp\le}\cancel{{\text{seconds}}}}}}{{{1}\ {\color{blue}\cancel{{\text{minute}}}}}}\cdot\frac{{{1}\ {\color{green}\cancel{{\text{tsp}}}}}}{{{9}\ {\color{purp\le}\cancel{{\text{sec}}}}}}\cdot\frac{{{1}\ {\color{\quad\textor\quadan\ge}\cancel{{\text{tbsp}}}}}}{{{3}\ {\color{green}\cancel{{\text{tsp}}}}}}\cdot\frac{{{1}\ \cancel{{\text{fl oz}}}}}{{{2}\ {\color{\quad\textor\quadan\ge}\cancel{{\text{tbsp}}}}}}\cdot\frac{{{1}\ \text{gallon}}}{{{128}\ \cancel{{\text{fl oz}}}}}</m></p>
+<m>\displaystyle\frac{{{5}\ {\color{red}\cancel{{\text{hours}}}}}}{{1}}\cdot\frac{{{60}\ {\color{blue}\cancel{{\text{minutes}}}}}}{{{1}\ {\color{red}\cancel{{\text{hour}}}}}}\cdot\frac{{{60}\ {\color{purp\le}\cancel{{\text{seconds}}}}}}{{{1}\ {\color{blue}\cancel{{\text{minute}}}}}}\cdot\frac{{{0.5}\ {\color{green}\cancel{{\text{tsp}}}}}}{{{9}\ {\color{purp\le}\cancel{{\text{sec}}}}}}\cdot\frac{{{1}\ {\color{\quad\textor\quadan\ge}\cancel{{\text{tbsp}}}}}}{{{3}\ {\color{green}\cancel{{\text{tsp}}}}}}\cdot\frac{{{1}\ \cancel{{\text{fl oz}}}}}{{{2}\ {\color{\quad\textor\quadan\ge}\cancel{{\text{tbsp}}}}}}\cdot\frac{{{1}\ \text{gallon}}}{{{128}\ \cancel{{\text{fl oz}}}}}</m></p>
 <p>
-<m>\displaystyle=\frac{{{6}\cdot{60}\cdot{60}\cdot{1}}}{{{9}\cdot{3}\cdot{2}\cdot{128}}}\ \text{gallons}</m></p>
+<m>\displaystyle=\frac{{{5}\cdot{60}\cdot{60}\cdot{0.5}}}{{{9}\cdot{3}\cdot{2}\cdot{128}}}\ \text{gallons}</m></p>
 <p>
-<m>\displaystyle={3.125}\ \text{gallons}</m></p>
+<m>\displaystyle={1.3020833333333}\ \text{gallons}</m></p>
 <p>
-<m>\displaystyle\approx{3.125}\ \text{gallons}</m></p>
+<m>\displaystyle\approx{1.302}\ \text{gallons}</m></p>
 </solution>
 </myopenmath>
 
