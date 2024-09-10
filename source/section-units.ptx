@@ -40,7 +40,8 @@
 			<row left="medium"><cell right="medium">Length</cell><cell right="medium">inch (in)</cell><cell right="medium">meter (m)</cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">foot (ft)</cell><cell right="medium"></cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">yard (yd)</cell><cell right="medium"></cell></row>
-			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">mile (mi)</cell><cell right="medium"></cell></row>
+			<row left="medium"><cell right="medium"></cell><cell right="medium">mile (mi)</cell><cell right="medium"></cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">nautical mile (nm)</cell><cell right="medium"></cell></row>
 			<row left="medium"><cell right="medium">Volume</cell><cell right="medium">fluid ounce (oz)</cell><cell right="medium">liter (L or <m>\ell</m>)</cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">cup (c)</cell><cell right="medium"></cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">pint (pt)</cell><cell right="medium"></cell></row>
@@ -75,6 +76,7 @@
 		<title>Converting within U.S. Customary</title>
 		<tabular top="medium">
 			<row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">Unit 1</cell><cell right="medium">Unit 2</cell></row>
+			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 nm</cell><cell right="medium">6076 ft</cell></row>
 			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 mi</cell><cell right="medium">5280 ft</cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">1 yd</cell><cell right="medium">3 ft</cell></row>
 			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 ft</cell><cell right="medium">12 in</cell></row>
@@ -192,6 +194,7 @@
 		<title>U.S. Customary to SI</title>
 		<tabular top="medium">
 			<row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">Standard</cell><cell right="medium">SI</cell></row>
+			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 nm</cell><cell right="medium">1.852 km</cell></row>
 			<row left="medium"><cell right="medium">Length</cell><cell right="medium">1 mi</cell><cell right="medium">1.609344 km</cell></row>
 			<row left="medium"><cell right="medium"></cell><cell right="medium">1 ft</cell><cell right="medium">0.3048 m</cell></row>
 			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 in</cell><cell right="medium">2.54 cm</cell></row>
@@ -273,11 +276,11 @@
 	<example xml:id="example-convert-square-units">
 		<statement><p>Convert 2 acres to units of square miles.</p></statement>
 		<solution>
-			<p>First we note that an acre is <m>43,560 \text{ft}^2</m>. From <xref ref="table-customary-convert" /> we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.
+			<p>First we note that an acre is <m>43,560 \text{ ft}^2</m>. From <xref ref="table-customary-convert" /> we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.
 			<md>
-				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mile}}{5280 \text{ ft}} \cdot \frac{\text{mile}}{5280 \text{ ft}} &amp; =</mrow>
-				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \left(\frac{\text{mile}}{5280 \text{ ft}}\right)^2 &amp; =</mrow>
-				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mile}^2}{5280^2 \text{ ft}^2} &amp; = \frac{1}{320} \text{ mi}^2</mrow>
+				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mi}}{5280 \text{ ft}} \cdot \frac{\text{mi}}{5280 \text{ ft}} &amp; =</mrow>
+				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \left(\frac{\text{mi}}{5280 \text{ ft}}\right)^2 &amp; =</mrow>
+				<mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mi}^2}{5280^2 \text{ ft}^2} &amp; = \frac{1}{320} \text{ mi}^2</mrow>
 				<mrow> &amp; = 0.003125</mrow>
 			</md></p>
 			<p>It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.</p>

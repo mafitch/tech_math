@@ -26,16 +26,14 @@ Regexp: grep "1[0-9][1-9]\%" generated/problems/*
 
 ~/pretext/pretext/pretext -c all -f pdf -p publication/publication.ptx source/techmath.ptx
 
+~/pretext/pretext/pretext -c all -f html -p publication/publication.ptx source/techmath.ptx
+
 ~/pretext/pretext/pretext -c preview -f png -p publication/publication.ptx source/techmath.ptx
-
-pageres -d5 -v --overwrite --transparent --selector=#interactive-2 --filename=interactive-2-preview http://www.math.uaa.alaska.edu/\\~afmaf/classes/math104/materials/interactive-2.html
-
-sed -i 's/https:\/\/myopenmaths3.s3.amazonaws.com\/gimages/mom/g' *.xml
-sed -i 's/https:\/\/myopenmaths3.s3.amazonaws.com\/gimgs/mom/g' *.xml
 
 ~/pretext/pretext/pretext -c all -f assembly-static -p publication/publication.ptx -d output/xml source/techmath.ptx
 
 ~/pretext/pretext/pretext -c all -f latex -p publication/publication.ptx -d output output/xml/techmath.xml
 
-/c/'Program Files'/Java/jdk-20/bin/java -classpath ~/xsltproc/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/xsltproc/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /d/Documents/texts/tech_math/source/techmath.ptx >/d/Documents/texts/tech_math/schemaerrors.txt
+/c/'Program Files'/jdk-22.0.2/bin/java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /c/DATA/Documents/texts/tech_math/source/techmath.ptx >/c/DATA/Documents/texts/tech_math/schemaerrors.txt
 
+grep -Ev "myopenmath|exercise" schemaerrors.txt

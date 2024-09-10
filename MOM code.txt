@@ -12,8 +12,14 @@ if ($full !== null) {
 
 Attempting feedback macros
 
-$error = "default"
 $error = getfeedbacktxtnumber($stuanswers[$thisq],  array($answer,1,$answer,0), array("Correct", "Correct value, check units"), "Incorrect")
+
+Feedback for multi-part problems
+$percent = round(100*($new/$old),0)
+$stuans = getstuans($stuanswers,$thisq,0)
+if ($stuans != null) {
+	$error = getfeedbacktxtnumber($stuans,  array($answer,1,$percent,0), array("Percent correct", "Did you enter percent or percent decrease/increase?"), "Incorrect") 
+}
 
 Survey
 

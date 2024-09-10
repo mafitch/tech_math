@@ -4,233 +4,209 @@
 <title>Ratios</title>
 
 <introduction>
+	<p>This section addresses the topics
+		<ul>
+			<li>Interpret data in various formats and analyze mathematical models</li>
+			<li>Read and use mathematical models in a technical document</li>
+		</ul>
+		and covers the mathematical concepts
+		<ul>
+			<li>Setup and solve proportions (skill)</li>
+		</ul>
+	</p>
 
-<p>With percents we are comparing the size of a part to the whole or perhaps comparing the before and after sizes of the same thing. With ratios we can compare many different quantities. </p>
-
-<example xml:id="example-ratio-class1">
-	<p>In a class there are 21 female students and 13 male students. We can write the ratio <me>\frac{21 \; \text{female}}{13 \; \text{male}}</me> </p>
-	<p>Note that this is simply a statement. There is no question to answer, and nothing more to do with the ratio.</p>
-	<p>Consider that <m>\frac{21}{13} \approx 1.62 \gt 1</m>. Because it is greater than one  the ratio tells us that there are more female students than male students in the class.</p>
-	<p>The ratio <me>\frac{13 \; \text{male}}{21 \; \text{female}}</me> gives the exact same information. That is, the order of a ratio does not change the information though it does change the number thought of as a fraction.</p>
-</example>
-
-<example xml:id="example-ratio-pets1">
-	<p>In a neighborhood there are 7 dogs and 12 cats. We can write the ratio <me>\frac{7 \; \text{dogs}}{12 \; \text{cats}}</me></p>
-	<p>Note that <m>\frac{7}{12} \approx 0.58 \lt 1</m>. Because it is less than one the ratio tells us that there are fewer dogs than cats in the neighborhood.</p>
-</example>
+	<p>A ratio expresses a fixed relationship between two quantities. This section illustrates using ratios to calculate amounts subject to a ratio and presents how to recognize what a ratio does and cannot tell us. Note, percents are simply ratios scaled to parts per 100, that is, what we know about percents is applicable here.</p>
 
 </introduction>
 
-<subsection xml:id="subsection-using-ratio">
+<subsection xml:id="subsection-ratio-examples">
+	<title>Example Ratios</title>
+
+	<example xml:id="example-ratio-simple-syrup">
+		<p>Simple syrup consists of one cup of sugar and one cup of water which is heated until the sugar is disolved. There are multiple ratios that express this combination. <m>\frac{1 \text{ cup sugar}}{1 \text{ cup water}}</m>, <m>\frac{7.05 \text{ oz}}{8 \text{ oz}}</m> ratio of sugar to water by weight, <m>\frac{7.05 \text{ oz}}{15.05 \text{ oz}}</m> ratio of sugar to simple syrup.</p>
+		<p>Each of these ratios indicates that there is a fixed amount of sugar relative to the water or resulting syrup. That is, is if we made simple syrup with 2 cups of sugar we would need 2 cups of water because <me>\frac{2 \text{ cups sugar}}{2 \text{ cups water}} = \frac{1 \text{ cup sugar}}{1 \text{ cup water}}</me> by reducing fractions.</p>
+	</example>
+
+	<example xml:id="example-ratio-pets1">
+		<p>In a neighborhood there are 7 dogs and 12 cats. To express the relative number dogs and cats we can write the ratio <me>\frac{7 \text{ dogs}}{12 \text{ cats}}</me></p>
+		<p>Note that <m>\frac{7}{12} \approx 0.58 \lt 1</m>. Because it is less than one the ratio tells us that there are fewer dogs than cats in this neighborhood.</p>
+		<p>We could also write <m>\frac{12 \text{ cats}}{7 \text{ dogs}}</m> to express the exact same relationship. Note that <m>\frac{12}{7} \approx 1.7 \gt 1</m>. Because it is greater than one the ratio tells us that there are more cats than dogs in the neighborhood (same result as above).</p>
+	</example>
+
+	<example xml:id="example-ratio-rate1">
+		<p>Rates are expressed as ratios. The following rates are all written as ratios. <me>\frac{35 \text{ miles}}{1 \text{ hour}}</me> <me>\frac{8 \text{ gallons}}{1 \text{ minute}}</me> Notice that these (and most rates) are expressed with the denominator being one. This makes it easier to calculate as will be seen below. Frequently we will skip writing the one in the denominator, e.g., <m>\frac{35 \text{ miles}}{\text{hour}}</m>.</p>
+		<p>Rates are not required to have a denominator of one and sometimes a different denominator is easier for calculation. For example <me>\frac{3 \text{ nm}}{2 \text{min}}=\frac{1.5 \text{ nm}}{1 \text{ min}}</me></p>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-using-ratios">
 	<title>Using Ratios</title>
 
-	<introduction>
-		<p>Ratios imply amounts at fixed periods. They can also be used to calculate amounts of parts from totals.</p>
-	</introduction>
-
-	<subsubsection xml:id="subsubsection-using-ratio-list">
-		<title>Listing Amounts</title>
-
-	<p>Often we use ratios to indicate a fixed (unchanging) relationship. For example a faucet fully open may have a ratio of 2 gallons per minute. This is true in the first minute and in the second minute. This is in contrast to when we turn on a faucent: it goes from a rate of 0 g/min to 2 g/min over a few seconds. When a ratio is fixed we can use it to calculate amounts.</p>
+	<p>Just like percents (which are ratios written in decimal form) if we know a ratio and one of the amounts we can calculate the other amount. The method is the same as with percents, namely multiplying the correct number or solving an equation.</p>
 
 	<example xml:id="example-ratio-airspeed1">
-			<title>Proportion: Airspeed</title>
-			<p>The Diamond DA-20 cruises at the rate of <me>\frac{110 \; \text{nautical miles}}{1 \; \text{hour}}</me>.</p>
-			<p>With a rate we can calculate amounts. See <xref ref="table-ratio-airspeed1" /> for results. Note the first row is the given ratio.</p>
-			<p>For the second row, note that the ratio implies that the rate does not change. If in the first hour the plane travelled 110 nm (nautical miles), then it travelled 110 nm in the second hour as well. So all total it travelled 220 nm.</p>
-			<p>In general we can add another 110 nm for each hour.</p>
-			<p>For 0.5 hours we note the following mathematics.
-				<md>
-					<mrow>\frac{110 \; \text{nautical miles}}{1 \; \text{hour}} \amp = \frac{110 \; \text{nautical miles}}{1 \; \text{hour}} \cdot \frac{1/2}{1/2}</mrow>
-					<mrow> \amp = \frac{55 \; \text{nautical miles}}{0.5 \; \text{hour}}.</mrow>
-				</md>
-			We scaled the number of hours. What we do to the bottom (number of hours) we must also do to the top (number of miles).</p>
-			<p>For 2.5 hours we note again that because the rate does not change (110 nm for every hour) we can add 220 nm for two hours and 55 nm for the half hour giving  275 nm total.</p>
-		</example>
+		<title>Ratio: Airspeed</title>
+		<p>The Diamond DA-20 cruises at the rate (speed) of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>. Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?</p>
+		<p>The units suggest we can multiply these. <me>\frac{110 \text{ nm}}{1 \text{ hr}} \cdot 2.5 \text{ hr} = 275 \text{ nm}</me>. This works because we are multiplying by hours and dividing by hours which leaves us with nautical miles as desired.</p>
+	</example>
 
-		<table xml:id="table-ratio-airspeed1">
-			<title>Airspeed and Distance</title>
-			<tabular>
-				<row><cell>Time</cell><cell>Distance</cell></row>
-				<row><cell>1 hour</cell><cell>110 nm</cell></row>
-				<row><cell>2 hour</cell><cell>220 nm</cell></row>
-				<row><cell>0.5 hour</cell><cell>55 nm</cell></row>
-				<row><cell>2.5 hour</cell><cell>275 nm</cell></row>
-			</tabular>
-		</table>
+	<example xml:id="example-ratio-airspeed2">
+		<title>Ratio: Airspeed by Table</title>
+		<p>There is another approach to the same question.</p>
+		<p>The Diamond DA-20 cruises at the rate (speed) of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>. Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?</p>
+		<p>Because this ratio remains the same during cruise we can break the problem down into pieces. Based on the ratio (speed) in the first hour the plane will cruise 110 nm. In the second hour it will cruise another 110 nm. In the last half hour it will fly half of the distance which is <m>110/2=55</m> nm. Thus in 2.5 hours it will cruise <m>110+110+55=275</m> nm.</p>
+		<p> Some manuals provide tables to make this method convenient. See <xref ref="table-ratio-airspeed1" /> for a table of this sort. How far can the DA-20 cruise in 2.7 hours? We need to write 2.7 as the sum of numbers in the table. One way is <m>2.7 = 2+0.5+0.2</m>. From the table we know it will cruise 220 nm in 2 hours, 55 nm in an additional 0.5 hours, and 22 nm in the final 0.2 hours. Thus it will cruise <m>220+55+22=297</m> nm.</p>
+		<p>While this method makes sense, it takes more time than simply multiplying.</p>
+	</example>
 
-		<example xml:id="example-ratio-volume">
-			<statement><p>Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?</p></statement>
-			<solution><p>We can set this up like the half hour calculation in <xref ref="example-ratio-airspeed1" />. That is we scale the ratio to give us 2.7 minutes.
-				<md>
-					<mrow>\frac{11 \; \text{gallons}}{1 \; \text{minute}} \amp = \frac{11 \; \text{gallons}}{1 \; \text{minute}} \cdot \frac{2.7}{2.7} \amp \; \text{Scale the ratio.}</mrow>
-					<mrow> \amp = \frac{29.7 \; \text{gallons}}{2.7 \; \text{minutes}}</mrow>
-				</md>
-			The answer is approximately 30 gallons.</p></solution>
-		</example>
+	<table xml:id="table-ratio-airspeed1">
+		<title>Airspeed and Distance</title>
+		<tabular>
+			<row><cell>Time</cell><cell>Distance</cell></row>
+			<row><cell>0.1 hour</cell><cell>11 nm</cell></row>
+			<row><cell>0.2 hour</cell><cell>22 nm</cell></row>
+			<row><cell>0.3 hour</cell><cell>33 nm</cell></row>
+			<row><cell>0.4 hour</cell><cell>44 nm</cell></row>
+			<row><cell>0.5 hour</cell><cell>55 nm</cell></row>
+			<row><cell>1 hour</cell><cell>110 nm</cell></row>
+			<row><cell>2 hour</cell><cell>220 nm</cell></row>
+			<row><cell>3 hour</cell><cell>330 nm</cell></row>
+		</tabular>
+	</table>
 
-		<exercise xml:id="exercise-ratio-airspeed1">
-			<webwork>
-				<statement>
-					<p>Calculate how far a plane flying at a rate of 110 nm/hour would travel in 3.1 hours <var name="'341'" width="4" /></p></statement>
-				<solution>
-					<p><md>
-						<mrow>\frac{110 \; \text{nautical miles}}{1 \; \text{hour}} \amp = \frac{110 \; \text{nautical miles}}{1 \; \text{hour}} \cdot \frac{3.1}{3.1} \amp \; \text{Scale the ratio.}</mrow>
-						<mrow> \amp = \frac{341 \; \text{nautical miles}}{3.1 \; \text{hours}}.</mrow>
-					</md></p>
-				</solution>
-		    </webwork>
-		</exercise>
-
-	</subsubsection>
-
-	<subsubsection xml:id="subsubsection-using-ratio-part">
-		<title>Calculating Parts</title>
-
-		<p>Like a percent, ratios indicate a relative amount, but do not directly specify an amount. A ratio can be used in calculations the same way a percent is.</p>
+	<example xml:id="example-ratio-volume">
+		<statement><p>Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?</p></statement>
+		<solution><p>We can set this up like the calculation in <xref ref="example-ratio-airspeed1" />. In that example multiplied the ratio (nm/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal/min) by the number of minutes which will give us gallons. <me>\frac{11  \text{ gal}}{1 \text{ min}} \cdot 2.7 \text{ min} = 29.7 \text{ gal} \approx 30 \text{ gal}.</me>
+		Here we use significant digits because these are measurements.</p></solution>
+	</example>
 
 	<example xml:id="example-ratio-apply-mercury">
-			<statement><p>Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.002 liters how much mercury is consumed?</p></statement>
-			<solution><p>Note we cannot use a percent because we are comparing a weight to a volume: dissimilar measurements. We can use the ratio <m>\frac{0.022 \; \text{mg}}{1 \; \ell}</m>. We apply this ratio to the given volume of 0.002 liters.
-			<md>
-				<mrow>\frac{0.022 \; \text{mg}}{1 \; \ell} \cdot 0.002  \ell \amp = </mrow>
-				<mrow>\frac{0.022 \; \text{mg}}{1 \; \cancel{\ell}} \cdot 0.002 \; \cancel{\ell} \amp = 0.000044 \; \text{mg}.</mrow>
-			</md>
-			</p></solution>
-		</example>
-
-		<example xml:id="example-ratio-apply-saline">
-			<statement><p>A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of saline solution?</p></statement>
-			<solution><p>We can apply the given ratio (2.5 g/240 mL) to the given amount (0.5 L). First it will be convenient to conver a half liter to milliliters. This is also a ratio problem. See <xref ref="table-metric-sizes" /> for the conversion ratio.
-				<md>
-					<mrow>\frac{1000 \; \text{mL}}{1 \text{L}} \cdot 0.5 \; \text{L} \amp =</mrow>
-					<mrow>\frac{1000 \; \text{mL}}{1 \; \cancel{\text{L}}} \cdot 0.5 \; \cancel{\text{L}} \amp = 500 \; \text{mL}</mrow>
-				</md>
-			Next we can apply the ratio to the volume.
-				<md>
-					<mrow>\frac{2.5 \; \text{g}}{240 \; \text{mL}} \cdot 500 \; \text{mL} \amp =</mrow>
-					<mrow>\frac{2.5 \; \text{g}}{240 \; \cancel{\text{mL}}} \cdot 500 \; \cancel{\text{mL}} \amp = 5.2 \; \text{g}</mrow>
-				</md>
-			Note we use two significant digits because the 2.5 and 240 both have two significant digits and 500 is not a measurement.</p></solution>
-		</example>
-
-		<exercise xml:id="exercise-ratio-apply-medical">
-			<webwork>
-				<statement>
-					<p>One formulation of amoxicillin, a drug used to treat infections in infants, contains 125 mg of amoxicillin per 5.00 mL of liquid. How much amoxicillin is in 12.0 mL of liquid? <var name="'300'" width="4" /></p></statement>
-				<solution><p>
-					<md>
-						<mrow>\frac{125 \; \text{mg}}{5.00 \; \text{mL}} \cdot 12.0 \; \text{mL} \amp =</mrow>
-						<mrow>\frac{125 \; \text{g}}{5.00 \cancel{\; \text{mL}}} \cdot 12.0 \cancel{\; \text{mL}} \amp = 300 \; \text{mg}</mrow>
-					</md>
-				</p></solution>
-		    </webwork>
-		</exercise>
-
-	</subsubsection>
-
-</subsection>
-
-<subsection xml:id="subsection-ratio-conversion">
-	<title>Conversion of Units</title>
-
-	<p>One common type of ratio is a rate. These typically have units. Examples you probably know are miles per hour, kilometers per hour, and gallons per minute. When we know a rate we can calculate amounts (e.g., number of miles, number of kilometers, or number of gallons). Sometimes we convert one unit to another. This is accomplished by applying ratios as we did in <xref ref="example-ratio-apply-mercury" /> .</p>
-
-	<example xml:id="example-unit-conversion-scale">
-		<statement><p>Find the ratio of 5 cm to 40 mm.</p></statement>
-		<solution><p>We can write simply <me>\frac{5 \text{ cm}}{40 \text{ mm}}</me> but the mismatched units make this less informative than it could be. We know 5 cm is 50 mm, so the ratio could also be written <me>\frac{50 \text{ mm}}{40 \text{ mm}}=\frac{5 \text{ mm}}{4 \text{ mm}}.</me> Note it is equally valid to note that 40 mm is 4 cm and write the ratio <me>\frac{5 \text{ cm}}{4 \text{ cm}}.</me> Note that the units do not affect the ratio when it is reduced.</p></solution>
+		<statement><p>Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.0020 liters how much mercury is consumed?</p></statement>
+		<solution><p>We can use the ratio <m>\frac{0.022 \; \text{mg}}{1 \; \ell}</m>. We apply this ratio to the given volume of 0.0020 liters. <me>\frac{0.022 \text{ mg}}{1 \; \ell} \cdot 0.0020 \; \ell = 0.000044 \text{ mg}</me>
+		</p></solution>
 	</example>
 
-	<video start="48" youtube="8scVh5UaSog" xml:id="video-example-unit-convert-scale" />
-
-	<example xml:id="example-unit-conversion1">
-		<statement><p>We will convert 2.1 hours to a number of minutes. Note we know there are 60 minutes per hour. Notice that the conversion is like a rate. Specifically it is a fraction. If we multiply minutes/hour by hours we will end up with just minutes.</p></statement>
-		<solution><p>
-			<md>
-				<mrow>2.1 \; \text{hours} \cdot \frac{60 \; \text{minutes}}{\text{hour}} \amp =</mrow>
-				<mrow>2.1 \; \cancel{\text{hours}} \cdot \frac{60 \; \text{minutes}}{\cancel{\text{hour}}} \amp =</mrow>
-				<mrow>126 \; \text{minutes}. \amp</mrow>
-			</md>
-			</p>
-		</solution>
-	</example>
-
-	<example xml:id="example-unit-conversion2">
-		<statement><p>We will convert 450 feet per minute to units of inches per second.</p></statement>
-		
-		<solution><video youtube="rl1VIEVsJR4" xml:id="example-video-unit-conversion" />
-		<p>
-			<md>
-				<mrow>\frac{450 \; \text{feet}}{1 \; \text{minute}} \cdot \frac{12 \; \text{inches}}{1 \; \text{foot}} \cdot \frac{1 \; \text{minute}}{60 \; \text{seconds}} \amp = </mrow>
-				<mrow>\frac{450 \cdot 12}{60} \frac{\cancel{\text{feet}}}{\cancel{\text{foot}}} \cdot \frac{\bcancel{\text{minute}}}{\bcancel{\text{minute}}} \cdot \frac{\text{inches}}{\text{second}} \amp = </mrow>
-				<mrow>\frac{90 \; \text{inches}}{1 \; \text{second}}.</mrow>
-			</md>
-			</p>
-		</solution>
-	</example>
-
-	<example xml:id="example-unit-conversion-metric">
-		<statement><p>We will convert 450 feet per minute to units of meters per minute. Note when converting between dissimilar units the conversions are approximations: select a sufficiently precise approximation for your application. For this problem we will use the ratio of one foot per 0.3048 meters. We will need to divide by feet and multiply by meters so we need to reciprocate this ratio.</p></statement>
-		<solution><p>
-			<md>
-				<mrow>\frac{450 \; \text{feet}}{\; \text{minute}} \cdot \frac{0.3048 \; \text{meters}}{\text{foot}} \amp = </mrow>
-				<mrow>450 \cdot 0.3048 \frac{\bcancel{\text{feet}}}{\bcancel{\; \text{foot}}} \cdot \frac{\text{meters}}{\text{minute}} \amp \approx </mrow>
-				<mrow>\frac{140 \; \text{meters}}{\text{minute}}.</mrow>
-			</md>
-			</p>
-		</solution>
-	</example>
-
-	<exercise xml:id="exercise-convert-units">
-		<webwork>
+	<exercise xml:id="exercise-ratio-airspeed1">
+<!--		<webwork>
 			<statement>
-				<p>Look up the conversion from kilometers to miles. How many miles per hour is 12 kilometers per hour? <var name="'7.5'" width="4" /></p>
-			</statement>
-			<solution>
-				<p>	<md>
-					<mrow>\frac{12 \; \text{km}}{\; \text{hour}} \amp \approx </mrow>
-					<mrow>\frac{12 \; \text{km}}{\; \text{hour}} \cdot \frac{0.621371 \; \text{miles}}{\text{km}} \amp \approx </mrow>
-					<mrow>\frac{7.5 \; \text{miles}}{\text{hour}} \cdot \frac{\bcancel{\text{km}}}{\bcancel{\text{km}}} \amp \approx </mrow>
-					<mrow>\frac{7.5 \; \text{miles}}{\text{hour}}.</mrow>
-				</md></p>
-			</solution>
-	    </webwork>
-	</exercise>
-
-	<example xml:id="example-unit-conversion-square">
-		<statement><p>We will convert 153 square inches to square centimeters. Note that 1 inch is approximately 2.54 centimeters. Note first that <term>square</term> here refers to the inches not to the 153. Notice also how we adjust the conversion process for this exponent.</p></statement>
-		<solution><p>
-			<md>
-				<mrow>153 \; \text{inches}^2 \amp = </mrow>
-				<mrow>153 \; \text{inches}^2 \cdot \left(\frac{2.54 \; \text{cm}}{\text{inch}}\right)^2 \amp \approx </mrow>
-				<mrow>153 \; \text{inches}^2 \cdot \frac{6.45 \; \text{cm}^2}{\text{inch}^2} \amp \approx </mrow>
-				<mrow>987 \; \text{cm}^2 \cdot \frac{ \cancel{\text{inches}^2}}{\cancel{\text{inch}}^2}. \amp \approx</mrow>
-				<mrow>987 \; \text{cm}^2.</mrow>
-			</md>
-			</p>
-		</solution>
-	</example>
-
-	<video youtube="GOOM4EOQUbU" xml:id="video-example-multi-unit-convert" />
-
-	<exercise xml:id="exercise-convert-units-squared">
-		<webwork>
-			<statement>
-				<p>Note that a pound (lb) is a unit of <term>force</term>. It is approximately equal to 4.45 Newtons which is another unit of force. How many Newtons per square meter is 51.2 lbs per square inch? Look up other conversions as needed. <var name="'353000'" width="7" /></p>
-			</statement>
+				<p>Calculate how far a plane flying at a rate of 110 nm/hour would travel in 3.1 hours <var name="'341'" width="4" /></p></statement>
 			<solution>
 				<p><md>
-					<mrow>\frac{51.2 \; \text{lbs}}{\; \text{inch}^2} \amp \approx </mrow>
-					<mrow>\frac{51.2 \; \text{lbs}}{\; \text{inch}^2} \cdot  \frac{4.45 \; \text{N}}{1.00 \; \text{lbs}} \cdot \left(\frac{1.00 \; \text{inch}}{0.0254 \; \text{m}}\right)^2 \amp \approx </mrow>
-					<mrow>\frac{51.2 \cdot 4.45}{(0.0254)^2} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx </mrow>
-					<mrow>\frac{228}{0.000645} \frac{\text{lbs}}{\text{inch}^2} \cdot  \frac{\text{N}}{\text{lbs}} \cdot \frac{\text{inch}^2}{\text{m}^2} \amp \approx </mrow>
-					<mrow>353000 \frac{ \cancel{\text{lbs}}}{\bcancel{\; \text{inch}^2}} \cdot \frac{\text{N}}{\cancel{\text{lbs}}} \cdot \frac{\bcancel{\; \text{inch}^2}}{\text{m}^2} \amp \approx </mrow>
-					<mrow>\frac{353000 \; \text{N}}{\text{m}^2}.</mrow>
+					<mrow>\frac{110 \; \text{nautical miles}}{1 \; \text{hour}} \amp = \frac{110 \; \text{nautical miles}}{1 \; \text{hour}} \cdot \frac{3.1}{3.1} \amp \; \text{Scale the ratio.}</mrow>
+					<mrow> \amp = \frac{341 \; \text{nautical miles}}{3.1 \; \text{hours}}.</mrow>
 				</md></p>
 			</solution>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1446161" />
+	</exercise>
+
+	<p>The method for ratios that have a number other than one in the denominator is the same.</p>
+
+	<example xml:id="example-ratio-apply-saline">
+		<statement><p>A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of saline solution?</p></statement>
+		<solution><p>We can apply the given ratio (2.5 g/240 mL) to the given amount (0.5 L). First it will be convenient to convert a half liter to milliliters. This is also a ratio problem. See <xref ref="table-metric-sizes" /> for the conversion ratio. <me>\frac{1000 \text{ mL}}{1 \text{ L}} \cdot 0.5 \text{ L} = 500 \text{ mL}.</me>
+		Next we can multiply the saline solution ratio by the volume. <me>\frac{2.5 \text{ g}}{240 \text{mL}} \cdot 500 \text{ mL} = 5.2 \text{ g}.</me>
+		Note we use two significant digits because the measurements 2.5 and 240 both have two significant digits. The 500 is part of a definition so it has infinite significant digits.</p></solution>
+	</example>
+
+	<example xml:id="example-ratio-apply-time-approx">
+		<statement><p>At 90 nm/hr a plane travels 3 nm/2 min. How far will it travel in 6 minutes?</p></statement>
+		<solution><p>We can multiply the given ratio (nm/hr) by the given amount (min) to calculate distance (nm). <me>\frac{3 \text{ nm}}{2 \text{ min}} \cdot 6 \text{ min} = 9 \text{ nm}.</me></p></solution>
+	</example>
+
+	<exercise xml:id="exercise-ratio-apply-medical">
+<!--		<webwork>
+			<statement>
+				<p>One formulation of amoxicillin, a drug used to treat infections in infants, contains 125 mg of amoxicillin per 5.00 mL of liquid. How much amoxicillin is in 12.0 mL of liquid? <var name="'300'" width="4" /></p></statement>
+			<solution><p>
+				<md>
+					<mrow>\frac{125 \; \text{mg}}{5.00 \; \text{mL}} \cdot 12.0 \; \text{mL} \amp =</mrow>
+					<mrow>\frac{125 \; \text{g}}{5.00 \cancel{\; \text{mL}}} \cdot 12.0 \cancel{\; \text{mL}} \amp = 300 \; \text{mg}</mrow>
+				</md>
+			</p></solution>
+	    </webwork> -->
+	    <myopenmath problem="1446964" />
 	</exercise>
 
 </subsection>
+
+<subsection xml:id="subsection-ratio-literacy" >
+	<title>Understanding Ratios</title>
+
+	<p>Like percents ratios tell us a relationship between two quantities but do not tell us how much. For example if a cookie recipe calls for 2 cups of milk for every 3 eggs, we do not know how many eggs are needed for a dozen cookies. We would also need to know either how many cups of milk per dozen or how many eggs per dozen.</p>
+
+	<p>Ratios may be based on rounded numbers. For example the unit convesion <m>\frac{8 \text{ kilometers}}{5 \text{ miles}}</m> is convenient for quick calculations. However, <m>8/5 = 1.6 \approx 1.609344</m> which is a more accurate conversion rate. If we are trying to convert <q>Tempo 30</q> (a speed limit of 30 kph) to mph this ratio is fine. If we are sending a satellite to another planet, we will need a more accurate conversion.</p>
+
+	<p>Rounding may occur to make the ratio easier to comprehend. For example according to <url href="https://www.census.gov/library/stories/2023/05/2020-census-united-states-older-population-grew.html" >an article by the U.S. Census Bureau</url> 1 in 6 people in the U.S. was aged 65 and over. Because this ratio uses small numbers it is easy to understand. It is much easier to read and use than a more precise estimate of <m>\frac{57822315}{333287562}</m>.</p>
+
+</subsection>
+
+<exercises>
+    <exercise>
+        <myopenmath problem="798" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="790" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="800" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="37869" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="37873" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="37874" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="801" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="203087" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="203092" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="641952" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="569970" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="884140" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="884139" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="884137" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="210934" />
+    </exercise>
+
+    <exercise>
+    	<statement><p>Add some about interpreting ratios here.</p></statement>
+    </exercise>
+
+</exercises>
 
 </section>
