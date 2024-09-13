@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-medical" >
+<title>Medical Ratios</title>
+
+<introduction>
+	<p>This section addresses the topics
+		<ul>
+			<li>Interpret data in various formats and analyze mathematical models</li>
+			<li>Read and use mathematical models in a technical document</li>
+		</ul>
+		and covers the mathematical concepts
+		<ul>
+			<li>Setup and solve proportions (skill)</li>
+		</ul>
+	</p>
+
+	<p>A common application of ratios in medicine is creating drugs of a desired strength. For example some drugs need to be administered based on the body weight of the patient. This requires the medical personnel to mix the drug they have on hand to the needed strength.</p>
+
+	<p>We will work the following three types of medical problems.
+		<ul>
+			<li>Measure drug concentration</li>
+			<li>Dilute a drug to a lower concentration</li>
+			<li>Determine how much drug to use</li>
+		</ul>
+	Each of these is a type of problem already covered (ratio, percent, or proportion). We need only recognize which type and use those methods.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-dilution-terminology" >
+	<title>Terminology</title>
+
+	<p>In order to answer medical proportion questions we will need to understand some of terminology and application. This section presents the necessary terminology.
+
+	<p>The active ingredient in a drug is often added to a inactive ingredient (often liquid) to administer it. This liquid is known as a <term>diluent</term>. The diluent might be water, saline solution, or other substances.</p>
+
+	<p>The substance (active ingredient for medicine) which may be a powder or another liquid to which the diluent is added is called the <term>solute</term>. The solute is disolved in the diluent. For example salt (solute) is disolved in water (diluent) to make saline solution.</p>
+
+	<p>Even if the drug can be administered directly (e.g., is already liquid) we sometimes need to dilute the <term>stock solution</term> (undiluted drug) for ease of use.</p>
+
+	<p>In some problems the drug mixture will be divided into parts. These parts are sometimes called <term>aliquots</term>. For example when testing substances (like blood samples) we may divide the sample drawn into multiple aliquots, one for each test to be run.</p>
+
+	<p>The most important concept is measuring how concentrated a solution is. This enables providing sufficient and safe amounts of drugs. There are three common ways concentration is written.</p>
+
+	<definition xml:id="definition-dilution-ratio">
+		<title>Dilution Ratio</title>
+		<statement>
+			<p>The <term>Dilution Ratio</term> is the ratio of solute (drug) to diluent.</p>
+			<p>If the solute is a solid (e.g., powder) then this is in units of mass per volume (e.g., grams per milliliter). For example a dilution ratio of 1:4 means 1 g of drug to 4 mL of diluent. Because of the ways powders are absorbed into liquids this likely remains 4 mL of solution (or imperceptibly more).</p>
+			<p>If the solute is a liquid, then this is in units of volume per volume (e.g., mL per mL). For example a dilution ratio of 1:4 means 1 mL of drug to 4 mL of diluent giving 5 mL of solution.</p>
+		</statement>
+	</definition>
+
+	<definition xml:id="definition-dilution-factor">
+		<title>Dilution Factor</title>
+		<statement>
+			<p>The <term>Dilution Factor</term> is the ratio of solute (drug) to the resulting solution.</p>
+			<p>If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, 5 g of drug in a total of 100 mL of solution. We do not care how much diluent was added. This can be achieved by putting in the dry ingredient, then adding part of the diluent to disolve the dry ingredient, then pouring in enough additional diluent to reach the desired volume.</p>
+			<p>If the solute is liquid, then this is in units of volume per volume. For example a dilution factor of 5 means 1 unit of the drug in every 5 units of solution implying 4 units of diluent (1:4 dilution ratio).</p>
+		</statement>
+	</definition>
+
+	<definition xml:id="definition-percent-concentration">
+		<title>Percent Concentration</title>
+		<statement>
+			<p>The <term>Percent Concentration</term> is the ratio of mass of solute (drug) to 100 mL of diluent.</p>
+			<p>If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, if there are 2 mg of drug per 100 mL of solution, then the percent concentration is 2/100 or 2%. Note this is neither percent by volume nor percent by mass as would be used in science.</p>
+			<p>If the solute is liquid, then this is in units of volume per volume. For example if the are 2 mL of drug per 100 mL of solution, then the percenet concentration is 2/100 or 2%.</p>
+		</statement>
+	</definition>
+
+	<p>These examples illustrate the meaning of these terms.</p>
+
+	<example xml:id="example-solutions-terminology-dry">
+		<p>Saline solution consists of the solute salt (sodium chloride) disolved in the diluent pure water.</p>
+		<p>The saline solution used in medical applications is 9 g of the solute salt, which is a solid, disolved in 1 liter of the diluent water. We know 1 liter is 1000 milliliter (<xref ref="table-metric-sizes" text="custom">metric terminology</xref>). The dilution ratio is 9/1000. The percent concentration is <m>\frac{9}{1000}=0.009</m> or 0.9%.</p>
+	</example>
+
+	<example xml:id="example-solutions-terminology-wet">
+		<p>Clorox<registered/> Disinfection Bleach contains 7.0% sodium hypochlorite which is a liquid, i.e., the percent concentration is 7.0%. In 11 oz of bleach solution there is therefore <m>11 \cdot 0.070 \approx 0.77</m> oz of sodium hypochlorite. This means <m>11-0.77=10.23</m> oz is water. Thus the dilution ratio is <m>\frac{0.77}{10.23}</m> and the dilution factor is <m>\frac{0.77}{11}</m> or 0.7.</p>
+	</example>
+
+	<video youtube="BYXKwXJVrio" xml:id="video-example-percent-concentration" />
+
+	<myopenmath problem="1449971" />
+
+	<myopenmath problem="1450004" />
+
+</subsection>
+
+<subsection xml:id="subsection-medicine-concentration">
+	<title>Making Solutions</title>
+
+	<p>One use of proportion in medicine is producing a solution containing the appropriate concentration of active ingredient. The proportion will be stated as a dilution factor or percent concentration.
+
+	<p>A solution of a desired concentration can be produced to have a desired percent concentration. Be careful in each problem to determine if this is by weight or by volume. The result can be significantly different.</p>
+
+	<example xml:id="example-hcl-concentration">
+		<statement>
+			<p>A standard concentration of HCl (hydrochloric acid) is 37% by weight. The solvent is water. How much water in volume do we need to add to 37 g of HCl to make this solution?</p>
+		</statement>
+		<solution>
+			<p>Because the concentration is given as a percent we can calculate this like <xref ref="example-percent-calculate-part" />.
+			<md>
+				<mrow>37 \; \text{g} \amp = 0.37 S \; \text{g}.</mrow>
+				<mrow>\frac{37 \; \text{g}}{0.37} \amp = \frac{0.37 S \; \text{g}}{0.37}.</mrow>
+				<mrow>100 \; \text{g} \amp = S.</mrow>
+			</md></p>
+			<p>We have a total of 100 g and 37 g is HCl, thus the water is 
+				<me>100 \; \text{g} - 37 \; \text{g} = 63 \; \text{g}</me> of water. 1 g of water at standard conditions has a volume of 1 mL. This is now a unit conversion problem.
+				<me>63 g \cdot \frac{1 \; \text{mL}}{1 \; \text{g}} = 63 \; \text{mL}</me>.</p>
+		</solution>
+	</example>
+
+	<p>Solutions are sometimes diluted by a specified amount to produce a less concentrated version. First, we will practice calculating dilution factors.</p>
+
+	<example xml:id="example-calculate-dilution-factor">
+		<statement><p>A solution is produced from 3 mL of concentrated chloroform and 37 mL of water. What is the dilution factor?</p></statement>
+		<solution><p>The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is <m>3+37=4\bar{0}</m>. The ratio then is <m>\frac{4\bar{0}}{3} \approx 13</m>.</p></solution>
+	</example>
+
+	<example xml:id="example-make-dilution-factor">
+		<statement><p>To produce a solution 3.0 mL of concentrated chloroform that will have a dilution factor of <m>5\bar{0}</m>, how much diluent do we add?</p></statement>
+		<solution><p>The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. In this case we have
+		<md>
+			<mrow>\frac{3.0+D}{3.0} \amp = \frac{5\bar{0}}{1.0}.</mrow>
+			<mrow>3.0 \cdot \frac{3.0+D}{3.0} \amp = 3.0 \cdot \frac{5\bar{0}}{1.0}.</mrow>
+			<mrow>3.0+D \amp = 150.</mrow>
+			<mrow>-3.0+3.0+D \amp = -3.0+150.</mrow>
+			<mrow>D \amp = 147.</mrow>
+		</md>
+		So we need 147 mL of diluent.</p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-dilution" >
+	<title>Dilution</title>
+
+	<p>A dilution ratio tells us how much an existing solution has been diluted. Dilution ratios are used like percents or applying ratios.</p>
+
+	<example xml:id="example-dilution-ratio-apply">
+		<p>If we have a solution of HCl and water that has a ratio of solution to total of 37/100, and we apply a dilution ratio of 1/2, what is the new ratio of solution to total?</p>
+		<p><me>\frac{37}{100} \cdot \frac{1}{2} = \frac{37}{200}</me> Note this means there are 37 g of HCl and <m>200-37=163</m> grams of water.</p>
+	</example>
+
+	<example xml:id="example-diluation-ratio-calculate">
+		<p>If we know the original ratio of solution to diluent and the resulting ratio of solution to diluent, then we can calculate the dilution ratio.</p>
+		<p>Suppose the original solution of HCl and water had a ratio of solution to total of 37/100 and the resulting solution had a ratio of 74/300. What was the dilution ratio? We setup the same calculation as in <xref ref="example-dilution-ratio-apply" /> but instead of 1/2 we have the unknown ratio.
+		<md>
+			<mrow>\frac{37}{100} r \amp = \frac{74}{300}</mrow>
+			<mrow>\frac{100}{37} \cdot \frac{37}{100} r \amp = \frac{100}{37} \cdot \frac{74}{300}</mrow>
+			<mrow>r \amp = \frac{2}{3}.</mrow>
+		</md>The dilution ratio was 2/3.</p>
+	</example>
+
+	<p>One usage of dilution is to reduce the concentration so that instruments can accurately measure it. Consider trying to measure an acid without disolving the tools used to measure it.</p>
+
+	<example xml:id="example-dilute-measure">
+		<statement><p>A sample of a suspected high blood glucose value was obtained. According to the manufacturer of the instrument used to read blood glucose values, the highest glucose result which can be obtained on this particular instrument is 500 mg/dL. When the sample was run, the machine gave an error message (concentration too high).</p>
+		<p>The serum was diluted to 1/10 and retested. The machine gave a result of 70 mg/dL. What was the initial concentration?</p>
+		<p>Note that the ratio is milligrams to decilitres (weight to volume). In these types of problems the amount of substance is so small that it does not affect the volume.</p></statement>
+		<solution><p>Before we jump into an equation, let's try an experiment. Suppose we take 1 dL of the original serum. Because the blood sample is so small, we can calculate as if all the volume is the diluent. To dilute to a ratio of 1/10 we need to add <m>10-1=9</m> dL of diluent. No blood glucose was added thus the concentration is changed only by the diluent. Thus the concentration of the diluted serum would be
+		<md>
+			<mrow>\frac{C+0 \; \text{mg}}{1+9 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}}</mrow>
+			<mrow>\frac{C \; \text{mg}}{10 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}} \amp \; \text{clearing the denominators}</mrow>
+			<mrow>(C \; \text{mg})(\text{dL}) \amp = (70 \; \text{mg})(10 \; \text{dL})</mrow>
+			<mrow>\frac{(C \; \text{mg})(\text{dL})}{\text{dL}} \amp = \frac{(70 \; \text{mg})(10 \; \text{dL})}{\text{dL}}</mrow>
+			<mrow>C \amp = 700 \; \text{mg}</mrow>
+		</md>
+		Did this result depend on our selecting 1 dL of the original serum? If we are uncertain we can try the problem again and select 2 dL of the original serum. To figure out the total amount of which 2 is 1/10, we can treat this like <xref ref="example-ratio-volume" />
+		<md>
+			<mrow>\frac{1}{10} \amp = \frac{1}{10} \frac{2}{2}</mrow>
+			<mrow> \amp = \frac{2}{20}.</mrow>
+		</md>
+		This means we need <m>20-2=18</m> dL of diluent to have the desired dilution ratio. Also we will have twice as much of the blood glucose.
+		<md>
+			<mrow>\frac{2C+0 \; \text{mg}}{2+18 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}}</mrow>
+			<mrow>\frac{2C \; \text{mg}}{20 \; \text{dL}} \amp = \frac{70 \; \text{mg}}{\text{dL}} \amp \; \text{clearing the denominators}</mrow>
+			<mrow>(2C \; \text{mg})(\text{dL}) \amp = (70 \; \text{mg})(20 \; \text{dL})</mrow>
+			<mrow>\frac{(2C \; \text{mg})(\text{dL})}{2 \text{dL}} \amp = \frac{(70 \; \text{mg})(20 \; \text{dL})}{2 \text{dL}}</mrow>
+			<mrow>C \amp = 700 \; \text{mg}</mrow>
+		</md>
+		Notice the result is the same. This makes sense, because we are setting up a proportion, and ratios do not depend on the amount.</p></solution>
+	</example>
+
+	<p>Sometimes we dilute more than one time. Here we experiment to determine what the effect of <term>serial dilution</term> is upon the dilution factor.</p>
+
+	<example xml:id="example-serial-dilution">
+		<statement><p>Suppose you have a solution consisting of 10 mL of acyl chloride and 90 mL of water. If this is diluted to a dilution ratio of 1/2 and then diluted again to a dilution ratio of 1/3, what is the final dilution ratio?</p></statement>
+		<solution><p>We can do the calculations one at a time. First we calculate the original concentration.
+			<md>
+				<mrow>\frac{10 \; \text{mL}}{10+90 \; \text{mL}} \amp = \frac{10}{100}</mrow>
+				<mrow> \amp = \frac{1}{10}.</mrow>
+			</md>
+			To dilute to a ratio of 1/2 we can calculate the amount of diluent to add as a proportion problem like in <xref ref="example-proportion-cheesecake-double" />.
+			<md>
+				<mrow>\frac{1}{2} \amp = \frac{100 \; \text{mL}}{T \; \text{mL}}</mrow>
+				<mrow>1 \cdot (T \; \text{mL}) \amp = 2 \cdot (100 \; \text{mL})</mrow>
+				<mrow>T \amp = 200 \; \text{mL}.</mrow>
+			</md>
+			The total will be 200 mL so we need to add <m>200 \; \text{mL}- 100 \; \text{mL} = 100 \; \text{mL}</m> of additional diluent. Note at this point the concentration is
+			<me>\frac{10 \; \text{mL acyl chloride}}{200 \; \text{mL diluent}} = \frac{1}{20}.</me>
+			To dilute again to a ratio of 1/3 we can calculate the amount of diluent to add
+			<md>
+				<mrow>\frac{1}{3} \amp = \frac{200 \; \text{mL}}{T \; \text{mL}}</mrow>
+				<mrow>1 \cdot (T \; \text{mL}) \amp = 3 \cdot (200 \; \text{mL})</mrow>
+				<mrow>T \amp = 600 \; \text{mL}.</mrow>
+			</md>
+			The total will be 600 mL so we need to add <m>600 \; \text{mL} - 200 \; \text{mL} = 400 \; \text{mL}</m> of additional diluent. Note at this point the concentration is
+			<me>\frac{10 \; \text{mL acyl chloride}}{600 \; \text{mL diluent}} = \frac{1}{60}.</me>
+			Now we can determine what the resulting dilution ratio after diluting twice (1/2 and then 1/3). We set this up like <xref ref="example-diluation-ratio-calculate" />
+			<md>
+				<mrow>\frac{1}{10} \cdot F \amp = \frac{1}{60} \amp \; \text{clear the denominator on the left}</mrow>
+				<mrow>10 \cdot \frac{1}{10} \cdot F \amp = 10 \cdot \frac{1}{60}.</mrow>
+				<mrow>F \amp = \frac{1}{6}.</mrow>
+			</md>
+			Notice that <m>\frac{1}{6} = \frac{1}{2} \cdot \frac{1}{3}</m>. This relationship is always true for serial dilution.</p></solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-dosage">
+	<title>Dosage</title>
+
+	<p>If we know the concentration of a drug, we can determine how much is needed for a given dose.</p>
+
+	<p>In medicine some substances are measured in <term>International Unit</term> or IU. For each substance this is defined by the effect of that amount of the drug.</p>
+
+	<example xml:id="example-dosage-insulin">
+		<statement>
+			<p>One IU of insulin is 0.0347 mg. A common concentration of insulin is U-100 which is 100 IU/mL. This is produced by combining 100 units of insulin in one mL of diluent.</p>
+			<p>If a person needs 2 units of insulin, how many mL of solution will that be?</p>
+		</statement>
+		<solution>
+			<p>This is a unit conversion problem. We need to convert from IU to mL. We know the ratio is 100 IU/mL. Because we want to end up with mL, we will write the ratio as
+			<md>
+				<mrow>\frac{\text{mL}}{100 \; \text{IU}} \amp = \frac{v \; \text{mL}}{2 \; \text{IU}}</mrow>
+				<mrow>(1 \; \text{mL})(2 \; \text{IU}) \amp = (100 \; \text{IU})(v \; \text{mL}) \amp \text{clear denominators}</mrow>
+				<mrow>\frac{(1 \; \text{mL})(2 \; \text{IU})}{(100 \; \text{IU})} \amp = \frac{(100 \; \text{IU})(v \; \text{mL})}{(100 \; \text{IU})} \amp \; \text{divide to isolate the variable} </mrow>
+				<mrow>\frac{1}{50} \; \text{mL} \amp = v.</mrow>
+				<mrow>0.02 \; \text{mL} \amp = v.</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<example xml:id="example-proportion-solution">
+		<statement><p>A label reads <q>2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate.</q> How many millilitres are needed to contain 800 mg of streptomycin?</p></statement>
+		<solution><p>The label gives us a ratio of 1000 mg per 2.5 mL. We can find the desired volume by setting up the following proportion.
+			<md>
+				<mrow>\frac{1000 \; \text{mg}}{2.5 \; \text{mL}} &amp; = \frac{800 \; \text{mg}}{v \; \text{mL}}. \amp \; \text{clear the denominators}</mrow>
+				<mrow>1000 \; \text{mg} \cdot v \; \text{mL} &amp; = 800 \; \text{mg} \cdot 2.5 \; \text{mL}. \amp \; \text{divide to isolate the variable}</mrow>
+				<mrow>v \; \text{mL} &amp; = \frac{800 \; \text{mg} \cdot 2.5 \; \text{mL}}{1000 \; \text{mg}}.</mrow>
+				<mrow>v &amp; = 2 \; \text{mL}.</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<video start="151" youtube="rwOaLzJCfPw" xml:id="video-example-proportion-solution" />
+
+	<example xml:id="example-dosage-drop-factor">
+		<statement>
+			<p>Give 1500 mL of saline solution IV with a drop factor of 10 drops per mL as a rate of 50 drops per minute to an adult patient. Determine how long in hours the IV should be administered.</p>
+		</statement>
+		<solution>
+			<p>This is also a unit conversion problem like <xref ref="example-convert-speed" />.  We need to convert from drops per minute to drops per mL.
+			<me>\frac{50 \; \text{drops}}{\text{minute}} \cdot \frac{\text{mL}}{10 \; \text{drops}} = \frac{5 \; \text{mL}}{\text{minute}}</me>
+			Now that we know the rate, we can determine how long it will take to give the whole IV solution. Notice how we invert the rate to make the mL units match.
+			<me>1500 \; \text{mL} \cdot \frac{\text{minute}}{5 \; \text{mL}} = 300 \; \text{minutes}</me>
+			The final step is to convert minutes to hours. This is another unit conversion problem using a conversion from <xref ref="table-customary-convert" />
+			<me>300 \; \text{minutes} \cdot \frac{1 \; \text{hr}}{60 \; \text{min}} = 5 \; \text{hours}</me></p>
+		</solution>
+	</example>
+
+	<video youtube="rwOaLzJCfPw" xml:id="video-example-scale-medication" />
+
+	<example xml:id="example-scale-medication1">
+		<statement>
+			<p>Amoxicillin is an antibiotic obtainable in a liquid suspension form, part medication and part water, and is frequently used to treat infections in infants. One formulation of the drug contains 125 mg of amoxicillin per 5 mL of liquid. A pediatrician orders <m>15\bar{0}</m> mg per day for a 4-month-old child with an ear infection. How much of the amoxicillin suspension would the parent need to administer to the infant in order to achieve the recommended daily dose?</p>
+		</statement>
+		<solution>
+			<p>Here we need to scale the amount (from 125 mg to <m>15\bar{0}</m> mg). This is a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.
+			<md>
+				<mrow>\frac{125 \; \text{mg}}{5 \; \text{mL}} \amp = \frac{15\bar{0} \; \text{mg}}{A \; \text{mL}} \amp \; \text{clear the denominators}</mrow>
+				<mrow>(125 \; \text{mg})(A \; \text{mL}) \amp = (5 \; \text{mL})(15\bar{0} \; \text{mg}) \amp \; \text{divide to isolate the variable}</mrow>
+				<mrow>\frac{(125 \; \text{mg})(A \; \text{mL})}{125 \; \text{mg}} \amp = \frac{(5 \; \text{mL})(15\bar{0} \; \text{mg})}{(125 \; \text{mg})}</mrow>
+				<mrow>A \; \text{mL} \amp = \frac{(5 \; \text{mL})(15\bar{0} \; \text{mg})}{(125 \; \text{mg})}</mrow>
+				<mrow>A \; \text{mL} \amp = 6.</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<exercise xml:id="exercise-scale-medication">
+		<statement>
+			<p>A 5% dextrose solution (D5W) contains 5 g of pure dextrose per 100 mL of solution. A doctor orders 500 mL of D5W IV for a patient. How much dextrose does the patient receive from that IV?</p>
+		</statement>
+		<solution>
+			<p>Once again we need to scale the amount (from 100 mL to 500 mL). This is also a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.
+			<md>
+				<mrow>\frac{5 \; \text{g}}{100 \; \text{mL}} \amp = \frac{D \; \text{g}}{500 \; \text{mL}} \amp \; \text{clear the denominators}</mrow>
+				<mrow>(5 \; \text{g})(500 \; \text{mL}) \amp = (D \; \text{g})(100 \; \text{mL}) \amp \; \text{divide to isolate the variable}</mrow>
+				<mrow>\frac{(5 \; \text{g})(500 \; \text{mL})}{(100 \; \text{mL})} \amp = \frac{(D \; \text{g})(100 \; \text{mL})}{(100 \; \text{mL})}</mrow>
+				<mrow>25 \; \text{g} \amp = D</mrow>
+			</md></p>
+		</solution>
+	</exercise>
+
+	<example xml:id="example-dose-dilution-factor">
+	<statement><p>A sample of chloroform water has a dilution factor of 40. If 2 mL of chloroform are needed how many milliliters total are needed?</p></statement>
+	<solution><p>A dilution factor of 40 indicates that 1 mL of chloroform is in 40 mL total of solution. We can setup a proportion to answer this.
+	<md>
+		<mrow>\frac{1 \; \text{mL}}{40 \; \text{mL}} \amp = \frac{2 \; \text{mL}}{T \; \text{mL}} \amp \; \text{clear the denominators}</mrow>
+		<mrow>(1 \; \text{mL})(T \; \text{mL}) \amp = (2 \; \text{mL})(40 \; \text{mL})</mrow>
+		<mrow>\frac{(1 \; \text{mL})(T \; \text{mL})}{1 \; \text{mL}} \amp = \frac{(2 \; \text{mL})(40 \; \text{mL})}{1 \; \text{mL}}</mrow>
+		<mrow>T \amp = 80 \; \text{mL}.</mrow>
+	</md></p></solution>
+	</example>
+
+</subsection>
+
+<exercises>
+    <exercise>
+        <title>Medical Ratio</title>
+        <myopenmath problem="1064004" />
+    </exercise>
+
+    <exercise>
+        <title>Medical Ratio</title>
+        <myopenmath problem="1064006" />
+    </exercise>
+
+    <exercise>
+        <title>Medical Ratio</title>
+        <myopenmath problem="1064008" />
+    </exercise>
+
+    <exercise>
+        <title>Medical Proportion</title>
+        <myopenmath problem="1064009" />
+    </exercise>
+
+    <exercise>
+        <title>Medicine to Solution</title>
+        <myopenmath problem="884968" />
+    </exercise>
+
+    <exercise>
+        <title>Medical Ratio with Rounding</title>
+        <myopenmath problem="887221" />
+    </exercise>
+
+    <exercise>
+        <title>Concentration</title>
+        <myopenmath problem="887241" />
+    </exercise>
+
+    <exercise>
+        <title>Concentration</title>
+        <myopenmath problem="887950" />
+    </exercise>
+
+    <exercise>
+        <title>Concentration</title>
+        <myopenmath problem="887952" />
+    </exercise>
+
+    <exercise>
+        <title>Dilution Ratio</title>
+        <myopenmath problem="887953" />
+    </exercise>
+
+    <exercise>
+        <title>Dilution Ratio</title>
+        <myopenmath problem="887955" />
+    </exercise>
+
+    <exercise>
+        <title>Dilution Ratio</title>
+        <myopenmath problem="887957" />
+    </exercise>
+
+    <exercise>
+        <title>Serial Dilution</title>
+        <myopenmath problem="887959" />
+    </exercise>
+</exercises>
+
+</section>

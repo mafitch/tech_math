@@ -193,13 +193,13 @@
 			<statement><p>Two triangles are <term>similar</term> if and only if corresponding angles are the same.</p></statement>
 		</definition>
 
-		<p>When triangles are similiar their corresponding side lengths are proprotional. Corresponding sides are the sides from both triangles that are across from an angle of the same measure. This is illustrated in the following example.</p>
+		<p>When triangles are similiar their corresponding side lengths are proportional. Corresponding sides are the sides from both triangles that are across from an angle of the same measure. This is illustrated in the following example.</p>
 
 		<example xml:id="example-illustrate-similar-triangles">
 			<image source="images/similar_triangles" />
-			<p>The triangles <m>\triangle ABC</m> and <m>\triangle DEF</m> are similar. Notice that the angles at <m>A</m> and <m>D</m> are the same as are the angles at <m>B</m> and <m>E</m> and the angles at <m>C</m> and <m>F</m>.</p>
-			<p>Note that <m>BC</m> is the side opposite the angle at <m>A</m> and <m>EF</m> is the side opposite the angle at <m>D</m>. Because <m>A</m> and <m>D</m> are the same, the sides opposite them are the corresponding pairs.</p>
-			<p>Similarly <m>CA</m> is the side opposite the angle at <m>B</m> and <m>FD</m> is the side opposite the angle at <m>E</m>. Because <m>B</m> and <m>E</m> are the same, the sides opposite them are the corresponding pairs.</p>
+			<p>The triangles <m>\triangle ABC</m> and <m>\triangle DEF</m> are similar. Notice that the angles at <m>A</m> and <m>D</m> are the same measure as are the angles at <m>B</m> and <m>E</m> and the angles at <m>C</m> and <m>F</m>.</p>
+			<p>Note that <m>BC</m> is the side opposite the angle at <m>A</m> and <m>EF</m> is the side opposite the angle at <m>D</m>. Because <m>A</m> and <m>D</m> are the same measure, the sides opposite them are the corresponding pairs.</p>
+			<p>Similarly <m>CA</m> is the side opposite the angle at <m>B</m> and <m>FD</m> is the side opposite the angle at <m>E</m>. Because <m>B</m> and <m>E</m> are the same measure, the sides opposite them are the corresponding pairs.</p>
 			<p>What is the third pair of corresponding sides?</p>
 			<p>As a result the following ratios of sides are the same <me>\frac{AB}{DE}=\frac{BC}{EF}=\frac{CA}{FD}.</me> You can confirm this by dividing the lengths (<m>\frac{3.26}{2.51}=\frac{4.86}{3.73}=\frac{5.34}{4.1}</m>).</p>
 		</example>
@@ -229,17 +229,21 @@
 		<p>We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as <xref ref="example-ratio-airspeed-solve" />.</p>
 
 		<example xml:id="example-similar-triangles">
-			<p>Suppose triangle A has angles <m>30^\circ, 60^\circ, 90^\circ</m> with the lengths of the sides opposite them <m>1.000, 1.732, 2.000</m>. If triangle B also has angles <m>30^\circ, 60^\circ, 90^\circ</m> it is similar. Suppose the length of the side opposite the <m>30^\circ</m> angle is <m>2.000</m>. Then we know.
+			<image source="images/similar_triangles_369" />
+			<p>Suppose triangle ABC has angles <m>90^\circ, 60^\circ, 30^\circ</m> with the lengths of the sides opposite them <m>2.000, 1.732, 1.000</m>. If triangle DEF also has angles <m>90^\circ, 60^\circ, 30^\circ</m> it is similar. Suppose the length of the side <m>DE</m> opposite the <m>30^\circ</m> angle at point F is <m>2.000</m>.</p>
+			<p>First, we identify the corresponding sides. <m>\overline{AB}</m> and <m>\overline{DE}</m> are opposite <m>30^\circ</m> angles so they are corresponding. <m>\overline{CA}</m> and <m>\overline{FD}</m> are opposite <m>60^\circ</m> angles so they are corresponding. Finally, <m>\overline{BC}</m> and <m>\overline{EF}</m> are opposite <m>90^\circ</m> angles so they are corresponding. This means <me>\frac{\overline{AB}}{\overline{DE}} = \frac{\overline{CA}}{\overline{FD}} = \frac{\overline{BC}}{\overline{EF}}.</me></p>
+			<p>Because we know the ratio <m>\frac{\overline{AB}}{\overline{DE}}</m> we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving.
 			<md>
-				<mrow>\frac{1.000}{2.000} &amp; = \frac{1.732}{s}.</mrow>
-				<mrow>\frac{1.000}{2.000} \cdot 2.000 s &amp; = \frac{1.732}{s} \cdot 2.000 s. \amp \text{ Clearing the denominators.}</mrow>
-				<mrow>s &amp; = 1.732(2.000).</mrow>
-				<mrow>s &amp; = 3.464.</mrow>
+				<mrow>\frac{\overline{DE}}{\overline{AB}} &amp; = \frac{\overline{DF}}{\overline{CA}}</mrow>
+				<mrow>\frac{2.000}{1.000} &amp; = \frac{\overline{DF}}{1.732}.</mrow>
+				<mrow>\frac{2.000}{1.000} \cdot 1.732 &amp; = \frac{\overline{DF}}{1.732} \cdot 1.732. \amp \text{ Clearing the denominators.}</mrow>
+				<mrow>3.464 &amp; = \overline{DF}.</mrow>
 			</md>We can calculate the length of the third side in the same way.
 			<md>
-				<mrow>\frac{1.000}{2.000} &amp; = \frac{2.000}{s}.</mrow>
-				<mrow>\frac{1.000}{2.000} \cdot 2.000s &amp; = \frac{2.000}{s} \cdot 2.000s.</mrow>
-				<mrow>s &amp; = 4.000</mrow>
+				<mrow>\frac{\overline{DE}}{\overline{AB}} &amp; = \frac{\overline{EF}}{\overline{BC}}.</mrow>
+				<mrow>\frac{2.000}{1.000} &amp; = \frac{\overline{EF}}{2.000}.</mrow>
+				<mrow>\frac{2.000}{1.000} \cdot 2.000 &amp; = \frac{\overline{EF}}{2.000} \cdot 2.000.</mrow>
+				<mrow>4.000 &amp; = \overline{EF}.</mrow>
 			</md>
 			</p>
 		</example>
@@ -269,7 +273,22 @@
 	<subsubsection xml:id="subsubsection-similar-applied">
 		<title>Similarity in Applications</title>
 
-		<p>Put stuff here</p>
+		<p>Similar triangles can be found in a variety of circumstances. This example uses recognizes similar triangles in a context which has been used many time in history for indirect measurement.</p>
+
+		<example xml:id="example-similar-measure-height">
+			<image source="shadow_light_pole" />
+			<p>A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?</p>
+			<p>In this image we have two (right) triangles that will be useful. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other triangle has a leg that is the entire bottom (length 8 ft plus 30 ft). The other leg is the height of the light. The angles of the two triangles are the same. Because they are both right triangles (we are supposing the light post is straight up and the person is standing straight up), the angles at the persons feet and the base of the light are the same. They share the angle on the left (between dashed line and ground). The third angle must match because the first two do.</p>
+			<p>Because these have the same angles they are similar and we can use the proportionality of ratios of corresponding side lengths. Before we do we will convert the height of the person to decimal. 5 ft 6 in is 5.5 ft.
+				<md>
+					<mrow>\frac{5.5 \text{ ft}}\frac{8 \text{ ft}} \amp = \frac{h}{38 \text{ ft}}.</mrow>
+					<mrow>\frac{5.5 \text{ ft}}\frac{8 \text{ ft}} \cdot (38 \text{ ft}) \amp = \frac{h}{38 \text{ ft}} \cdot (38 \text{ ft}).</mrow>
+					<mrow>26.125 \text{ ft} \amp = h.</mrow>
+				</md>
+			If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches. <me> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</me> Thus the height to that point on the light is 26 ft and 2 in.</p>
+			<p>Note we use this type of measurement because it is simpler. We can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).</p>
+		</example>
+
 	</subsubsection>
 
 	<subsubsection xml:id="subsubsection-extending-similarity">
@@ -289,85 +308,104 @@
 </subsection>
 
 <exercises>
-    <exercise>
-        <title>Proportion (no context)</title>
-        <myopenmath problem="877" />
-    </exercise>
+	<exercisegroup>
+		<introduction>
+			<p>Solve each of these proportions.</p>
+		</introduction>
 
-    <exercise>
-        <title>Proportion (no context)</title>
-        <myopenmath problem="878" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="878" />
+	    </exercise>
 
-    <exercise>
-        <title>Proportion (no context)</title>
-        <myopenmath problem="882" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="42462" />
+	    </exercise>
 
-    <exercise>
-        <title>Proportion (no context)</title>
-        <myopenmath problem="42462" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="877" />
+	    </exercise>
+	</exercisegroup>
 
-    <exercise>
-        <title>Proportion Application</title>
-        <myopenmath problem="42472" />
-    </exercise>
+	<exercisegroup>
+		<introduction>
+			<p>Identify a proportion in each application. Set it up, and solve for the requested value(s).</p>
+		</introduction>
 
-    <exercise>
-        <title>Proportion Application</title>
-        <myopenmath problem="42474" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="882" />
+	    </exercise>
 
-    <exercise>
-        <title>Proportion Application</title>
-        <myopenmath problem="42476" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="42472" />
+	    </exercise>
 
-    <exercise>
-        <title>Proportion Application</title>
-        <myopenmath problem="42478" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="887068" />
+	    </exercise>
 
-    <exercise>
-        <title>Proportion Application</title>
-        <myopenmath problem="42482" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="42478" />
+	    </exercise>
 
-    <exercise>
-        <title>Proportion Application</title>
-        <myopenmath problem="42484" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="42482" />
+	    </exercise>
 
-    <exercise>
-        <title>Solution</title>
-        <myopenmath problem="773773" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="42484" />
+	    </exercise>
 
-    <exercise>
-        <title>Similar Triangles</title>
-        <myopenmath problem="1064472" />
-    </exercise>
+	    <exercise>
+	        <myopenmath problem="1097613" />
+	    </exercise>
 
-    <exercise>
-        <title>Similar Triangles</title>
-        <myopenmath problem="1064010" />
-    </exercise>
+		<exercise>
+			<myopenmath problem="892" />
+		</exercise>
 
-    <exercise>
-        <title>Similar Triangles</title>
-        <myopenmath problem="17545" />
-    </exercise>
+		<exercise>
+			<myopenmath problem="17630" />
+		</exercise>
 
-    <exercise>
-        <title>Similar Triangles</title>
-        <myopenmath problem="163398" />
-    </exercise>
+	</exercisegroup>
 
-    <exercise>
-        <title>Similar Triangles</title>
-        <myopenmath problem="892" />
-    </exercise>
+	<exercisegroup>
+		<introduction>
+			<p>Use the property of side ratios for similar triangles to find the values requested.</p>
+		</introduction>
+
+		<exercise>
+			<myopenmath problem="1064472" />
+		</exercise>
+
+		<exercise>
+			<myopenmath problem="1448697" />
+		</exercise>
+
+	</exercisegroup>
+
+	<exercisegroup>
+		<introduction>
+			<p>Identify similar triangles in each application, then use the property of side ratios to find the requested value(s).</p>
+		</introduction>
+
+	    <exercise>
+	        <myopenmath problem="1064010" />
+	    </exercise>
+
+	    <exercise>
+	        <myopenmath problem="885705" />
+	    </exercise>
+
+		<exercise>
+			<myopenmath problem="885689" />
+		</exercise>
+
+		<exercise>
+			<myopenmath problem="163398" />
+		</exercise>
+
+	</exercisegroup>
 </exercises>
 
 </section>
