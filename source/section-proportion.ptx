@@ -276,13 +276,13 @@
 		<p>Similar triangles can be found in a variety of circumstances. This example uses recognizes similar triangles in a context which has been used many time in history for indirect measurement.</p>
 
 		<example xml:id="example-similar-measure-height">
-			<image source="shadow_light_pole" />
+			<image source="images/shadow_light_pole" />
 			<p>A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?</p>
 			<p>In this image we have two (right) triangles that will be useful. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other triangle has a leg that is the entire bottom (length 8 ft plus 30 ft). The other leg is the height of the light. The angles of the two triangles are the same. Because they are both right triangles (we are supposing the light post is straight up and the person is standing straight up), the angles at the persons feet and the base of the light are the same. They share the angle on the left (between dashed line and ground). The third angle must match because the first two do.</p>
 			<p>Because these have the same angles they are similar and we can use the proportionality of ratios of corresponding side lengths. Before we do we will convert the height of the person to decimal. 5 ft 6 in is 5.5 ft.
 				<md>
-					<mrow>\frac{5.5 \text{ ft}}\frac{8 \text{ ft}} \amp = \frac{h}{38 \text{ ft}}.</mrow>
-					<mrow>\frac{5.5 \text{ ft}}\frac{8 \text{ ft}} \cdot (38 \text{ ft}) \amp = \frac{h}{38 \text{ ft}} \cdot (38 \text{ ft}).</mrow>
+					<mrow>\frac{5.5 \text{ ft}}{8 \text{ ft}} \amp = \frac{h}{38 \text{ ft}}.</mrow>
+					<mrow>\frac{5.5 \text{ ft}}{8 \text{ ft}} \cdot (38 \text{ ft}) \amp = \frac{h}{38 \text{ ft}} \cdot (38 \text{ ft}).</mrow>
 					<mrow>26.125 \text{ ft} \amp = h.</mrow>
 				</md>
 			If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches. <me> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</me> Thus the height to that point on the light is 26 ft and 2 in.</p>

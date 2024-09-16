@@ -4,10 +4,31 @@
 <title>Linear Expressions</title>
 
 <introduction>
+	<p>This section addresses the topics
+		<ul>
+			<li>Interpret data in various formats and analyze mathematical models</li>
+			<li>Read and use mathematical models in a technical document</li>
+		</ul>
+		and covers the mathematical concepts
+		<ul>
+			<li>Solve <em>linear</em>, rational, quadratic, and exponential equations and formulas (skill)</li>
+			<li xml:id="models-read">Read and interpret models (critical thinking)</li>
+			<li xml:id="models-use">Use models including <em>linear</em>, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+		</ul>
+	</p>
 
-<p>We have been solving problems involving ratios, also called proportions. These model situations where the ratio/proportion between items never changes. We also call these linear equations.</p>
+	<p>We have been solving problems involving ratios. These model situations where the relationship between two quantities expressed as a fraction never changes. For example there are always 12 inches in a foot or there needed to be 12 mg of a drug in every 100 mL. This section presents a slight extension of this concept for cases where we need a shift. For example to convert between Fahrenheit and Celsius scale for temperature we need to know <m>\frac{5^\circ \text{ C}}{9^\circ \text{ F}}</m> but also that 0<degree/> C is 32<degree/> F. These extended ratios are <term>linear</term> models (equations).</p>
 
 </introduction>
+
+<subsection xml:id="subsection-present-linear">
+	<title>Linear Models</title>
+
+	<p>First, this section presents examples of linear models and how to handle the shift.</p>
+
+	<example xml:id="example-linear-model-temperature">
+		<p>Both Celsius and Fahrenheit can be described as giving the number of degrees above or below the freezing point of water. Because 0<degree/> C is the freezing temperature of water, 10<degree/> C is 10<degree/> above freezing.
+</subsection>
 
 <subsection xml:id="subsection-solve-invert">
 	<title>Solving Linear Equations</title>
