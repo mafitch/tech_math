@@ -5,6 +5,8 @@
 
 <introduction>
 
+use a model, solve (algebra), identify models (intro here, spread out)
+
 <p>We are emphasizing using math to address questions that arise from various circumstances. This means the problems do not come with a model (think equation or function) and instructions on using it. In this section we will consider how we can go about using a description (typically verbal) to identify and use a model.</p>
 
 </introduction>
@@ -66,6 +68,52 @@
 		<video youtube="zjO5bwOt7Qk" xml:id="video-example-model-uhaul" />
 	</figure>
 
+</subsection>
+
+<subsection xml:id="subsection-linear-formulas">
+    <title>Solving with Multiple Variables</title>
+
+    <p>When we are using models (also called formulas) they often include more than one variable (also known as named constants). The process for solving such models is the same.</p>
+
+    <example xml:id="example-solve-ohms">
+        <statement><p>Solve the equation <m>V=IR</m> for <m>R</m>. Note, this formula is explained in <xref ref="example-formula-ohms-law" />.</p></statement>
+        <solution><p><md>
+            <mrow>V &amp; = IR.</mrow>
+            <mrow>\frac{V}{I} &amp; = \frac{IR}{I} &amp; \text{divide to undo multiplication}.</mrow>
+            <mrow>\frac{V}{I} &amp; = R.</mrow>
+        </md></p></solution>
+    </example>
+
+    <example xml:id="example-solve-lift">
+        <statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>S</m>.</p></statement>
+        <solution><p><md>
+            <mrow>L \amp = \frac{1}{2}\rho S C_L v^2.</mrow>
+            <mrow>2L \amp = 2\frac{1}{2}\rho S C_L v^2.</mrow>
+            <mrow>2L \amp = \rho S C_L v^2.</mrow>
+            <mrow>\frac{2L}{\rho} \amp = \frac{\rho S C_L v^2}{\rho}.</mrow>
+            <mrow>\frac{2L}{\rho} \amp = S C_L v^2.</mrow>
+            <mrow>\frac{2L}{\rho C_L} \amp = \frac{S C_L v^2}{C_L}.</mrow>
+            <mrow>\frac{2L}{\rho C_L} \amp = S v^2.</mrow>
+            <mrow>\frac{2L}{\rho C_L v^2} \amp = \frac{S v^2}{v^2}.</mrow>
+            <mrow>\frac{2L}{\rho C_L v^2} \amp = S.</mrow>
+        </md></p></solution>
+    </example>
+
+    <example xml:id="example-solve-lift-with-values">
+        <statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>S</m> when <m>L=255\bar{0}</m>, <m>\rho=0.002378</m>, and <m>C_L=1.430</m>.</p></statement>
+        <solution><p>Because we know some of the values, we can first insert them before solving.<md>
+            <mrow>255\bar{0} \amp = \frac{1}{2}(0.002378)S(1.430)v^2.</mrow>
+            <mrow>255\bar{0} \amp = 0.001700 S v^2.</mrow>
+            <mrow>\frac{255\bar{0}}{0.001700} \amp = \frac{0.001700 S v^2}{0.001700}.</mrow>
+            <mrow>150\bar{0}000 \amp = S v^2.</mrow>
+            <mrow>\frac{150\bar{0}000}{v^2} \amp = \frac{S v^2}{v^2}.</mrow>
+            <mrow>\frac{150\bar{0}000}{v^2} \amp = S.</mrow>
+        </md></p></solution>
+    </example>
+
+    <exercise xml:id="exercise-solve-lift">
+        <statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>\rho</m>.</p></statement>
+    </exercise>
 </subsection>
 
 <exercises>

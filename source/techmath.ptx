@@ -27,15 +27,15 @@ Copyright 2020 Megan Ossiander-Gobeille and Mark Fitch
             <xi:include href="./section-ratios.ptx" />      <!-- Ratios in many forms -->
             <xi:include href="./section-proportion.ptx" />      <!-- Equal Ratios -->
             <xi:include href="./section-medical.ptx" />      <!-- Medical Ratios -->
-            <xi:include href="./section-linear.ptx" />      <!-- Linear expressions identified and solved -->
-            <xi:include href="./section-models.ptx" />      <!-- Selecting and using models for applications -->
             <xi:include href="./project-falseposition.ptx" />      <!-- Using ratios to correct guesses -->
             <xi:include href="./project-sixty-one-one.ptx" />      <!-- Using ratios to estimate arclength -->
        </chapter>
 
         <chapter xml:id="chapter-variation" xmlns:xi="http://www.w3.org/2001/XInclude">
-            <title>Variation</title>
+            <title>Models</title>
 
+            <xi:include href="./section-models.ptx" />      <!-- Selecting and using models for applications -->
+            <xi:include href="./section-linear.ptx" />      <!-- Linear expressions identified and solved -->
             <xi:include href="./section-graphing.ptx" />         <!-- Reading graphs  -->
             <xi:include href="./section-rates.ptx" />         <!-- Learn about different rates -->
             <xi:include href="./section-variation.ptx" />         <!-- Representing relations -->

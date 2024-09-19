@@ -16,7 +16,7 @@
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -106,7 +106,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -204,7 +204,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -283,216 +283,6 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
     <static seed="4">
-      <statement><p>What is the solution to <m>{5}x+{7}={22}\text{.}</m> <m>x=</m><fillin name="AnSwEr0001" characters="3"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>3</m>
-        </p>
-      </answer>
-      <solution><p><me>\begin{aligned}
-{5}x+{7} \amp  = {22}\\
-{5}x \amp  = {22}-{7}\\
-x \amp  = \frac{{22}-{7}}{{5}}\\
-x \amp  = {3}.
-\end{aligned}</me></p>
-</solution>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRtID0gQ29tcHV0ZShyYW5kb20oMSw1LDEpKTsKJGIgPSBDb21wdXRlKHJhbmRvbSgyLDksMSkpOwokYSA9IENvbXB1dGUocmFuZG9tKDIsOSwxKSk7CiRjID0gQ29tcHV0ZSgkYSokbSskYik7CiRzb2wgPSBDb21wdXRlKCgkYy0kYikvJGEpOwoKQkVHSU5fUEdNTApXaGF0IGlzIHRoZSBzb2x1dGlvbiB0byBbYFskYV14K1skYl09WyRjXVx0ZXh0ey59YF0gW2B4PWBdW19deyRzb2x9ezN9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KCgpbYGBgXGJlZ2lue2FsaWduZWR9ClskYV14K1skYl0gJiA9IFskY11cXApbJGFdeCAmID0gWyRjXS1bJGJdXFwKeCAmID0gXGZyYWN7WyRjXS1bJGJdfXtbJGFdfVxcCnggJiA9IFskc29sXS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(2.6.2)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("LimitedNumeric");
-$m = Compute(random(1,5,1));
-$b = Compute(random(2,9,1));
-$a = Compute(random(2,9,1));
-$c = Compute($a*$m+$b);
-$sol = Compute(($c-$b)/$a);
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-What is the solution to [`[$a]x+[$b]=[$c]\text{.}`] [`x=`][_]{$sol}{3}
-
-END_PGML
-
-############################################################
-# Solution
-############################################################
-
-BEGIN_PGML_SOLUTION
-
-[```
-\begin{aligned}
-[$a]x+[$b] & = [$c]\\
-[$a]x & = [$c]-[$b]\\
-x & = \frac{[$c]-[$b]}{[$a]}\\
-x & = [$sol].
-\end{aligned}
-```]
-
-END_PGML_SOLUTION
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
-    <static seed="5">
-      <statement><p>What is the solution to <m>{8}x+{8}={5}x+{17}\text{.}</m> <m>x=</m><fillin name="AnSwEr0001" characters="3"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>3</m>
-        </p>
-      </answer>
-      <solution><p><me>\begin{aligned}
-{8}x+{8} \amp  ={5}x+{17}\\
-{8}x-{5}x \amp  = {17}-{8}\\
-({8}-{5})x \amp  = {17}-{8}\\
-x \amp  = \frac{{17}-{8}}{{8}-{5}}\\
-x \amp  = {3}.
-\end{aligned}</me></p>
-</solution>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhMiA9IENvbXB1dGUocmFuZG9tKDIsNywxKSk7CiRtID0gQ29tcHV0ZShyYW5kb20oMiw2LDEpKTsKJGExID0gQ29tcHV0ZSgkYTIrJG0pOwokYjEgPSBDb21wdXRlKHJhbmRvbSgyLDksMSkpOwokayA9IENvbXB1dGUocmFuZG9tKDEsMywxKSk7CiRiMiA9IENvbXB1dGUoJGIxKyRtKiRrKTsKJHNvbCA9IENvbXB1dGUoKCRiMi0kYjEpLyRtKTsKCkJFR0lOX1BHTUwKV2hhdCBpcyB0aGUgc29sdXRpb24gdG8gW2BbJGExXXgrWyRiMV09WyRhMl14K1skYjJdXHRleHR7Ln1gXSBbYHg9YF1bX117JHNvbH17M30KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRhMV14K1skYjFdICYgPVskYTJdeCtbJGIyXVxcClskYTFdeC1bJGEyXXggJiA9IFskYjJdLVskYjFdXFwKKFskYTFdLVskYTJdKXggJiA9IFskYjJdLVskYjFdXFwKeCAmID0gXGZyYWN7WyRiMl0tWyRiMV19e1skYTFdLVskYTJdfVxcCnggJiA9IFskc29sXS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(2.6.4)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("LimitedNumeric");
-$a2 = Compute(random(2,7,1));
-$m = Compute(random(2,6,1));
-$a1 = Compute($a2+$m);
-$b1 = Compute(random(2,9,1));
-$k = Compute(random(1,3,1));
-$b2 = Compute($b1+$m*$k);
-$sol = Compute(($b2-$b1)/$m);
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-What is the solution to [`[$a1]x+[$b1]=[$a2]x+[$b2]\text{.}`] [`x=`][_]{$sol}{3}
-
-END_PGML
-
-############################################################
-# Solution
-############################################################
-
-BEGIN_PGML_SOLUTION
-
-[```
-\begin{aligned}
-[$a1]x+[$b1] & =[$a2]x+[$b2]\\
-[$a1]x-[$a2]x & = [$b2]-[$b1]\\
-([$a1]-[$a2])x & = [$b2]-[$b1]\\
-x & = \frac{[$b2]-[$b1]}{[$a1]-[$a2]}\\
-x & = [$sol].
-\end{aligned}
-```]
-
-END_PGML_SOLUTION
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
-    <static seed="6">
       <statement><p>What is the stall speed at <m>60^\circ</m> bank angle and <m>10^\circ</m> flap setting? <fillin name="AnSwEr0001" characters="4"/> KIAS</p>
 </statement>
       <answer>
@@ -505,7 +295,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -521,7 +311,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.1.4)
+## Problem1(3.3.4)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -565,8 +355,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
-    <static seed="7">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5">
       <statement><p>What is the stall speed at <m>37.5^\circ</m> bank angle and full flap setting? <fillin name="AnSwEr0001" characters="4"/> KIAS</p>
 </statement>
       <answer>
@@ -583,7 +373,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -599,7 +389,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.1.5)
+## Problem1(3.3.5)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -656,8 +446,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
-    <static seed="8">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6">
       <statement><p>What is the maximum glide for an aircraft 5000 above the ground? <fillin name="AnSwEr0001" characters="4"/> nm</p>
 </statement>
       <answer>
@@ -670,7 +460,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -686,7 +476,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.1.8)
+## Problem1(3.3.8)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -730,8 +520,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
-    <static seed="9">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7">
       <statement><p>If Dimitri<rsq/>s salary is given by the equation</p>
 <p><me>S = \$73,240.00 + \$6000.00 n</me></p>
 <p>where <m>n</m> is the year of employement, what was his initial salary? <fillin name="AnSwEr0001" characters="7"/></p>
@@ -754,7 +544,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -770,7 +560,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.1.24)
+## Problem1(3.3.24)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -830,8 +620,8 @@ END_PGML_HINT
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
-    <static seed="10">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8">
       <statement><p>Suppose that as dry air rose it dropped in temperature in a linear fashion. If the temperature was measured at 1000 ft MSL as <m>21^\circ</m> C and at 3000 ft MSL as <m>17^\circ</m> C, what is the rate of change of temperature with respect to altitude? <fillin name="AnSwEr0001" characters="4"/></p>
 <p>What does this imply the temperature is at 0 ft MSL? <fillin name="AnSwEr0002" characters="4"/></p>
 </statement>
@@ -854,7 +644,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -870,7 +660,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.1.27)
+## Problem1(3.3.27)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -929,8 +719,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
-    <static seed="11">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9">
       <statement><p>Suppose we want 20.0 oz of 70.0% alcohol solution. How much water should we add? <fillin name="AnSwEr0001" characters="4"/> How much solution will we have? <fillin name="AnSwEr0002" characters="4"/></p>
 </statement>
       <answer>
@@ -963,7 +753,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -979,7 +769,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.3.9)
+## Problem1(3.5.9)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1052,8 +842,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
-    <static seed="12">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10">
       <statement><p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add if we want 25.0 oz of a 60.0% alcohol solution? <fillin name="AnSwEr0001" characters="4"/></p>
 <p>How much solution total does this produce? <fillin name="AnSwEr0002" characters="4"/></p>
 </statement>
@@ -1072,7 +862,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1088,7 +878,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.3.10)
+## Problem1(3.5.10)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1134,8 +924,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
-    <static seed="13">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11">
       <statement><p>If we start with 16.0 oz of 91.0% alcohol solution, what is the percent alcohol if we produce exactly 24.0 oz of solution? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
@@ -1148,7 +938,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1164,7 +954,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.3.12)
+## Problem1(3.5.12)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1208,8 +998,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-14" ww-id="webwork-14">
-    <static seed="14">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12">
       <statement><p>If two resistors are connected in parallel and they are 4 and 16 ohms, what is the resulting resistance? <fillin name="AnSwEr0001" characters="6"/></p>
 </statement>
       <answer>
@@ -1222,7 +1012,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1238,7 +1028,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.4.5)
+## Problem1(3.6.5)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1282,8 +1072,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-15" ww-id="webwork-15">
-    <static seed="15">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13">
       <statement><p>If one shop can do seven float changes in two days, and a second shop can do thirteen float changes in three days, how long will it take the pair of shops to do 65 float changes? <fillin name="AnSwEr0001" characters="4"/></p>
 <p>If they start on Monday and work only weekdays, on what day of the week will they finish? <var form="popup" name="AnSwEr0002">
 <li>
@@ -1318,7 +1108,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1334,7 +1124,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.4.11)
+## Problem1(3.6.11)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1383,8 +1173,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-16" ww-id="webwork-16">
-    <static seed="16">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14">
       <statement><p>Solve the linear system below using substitution.</p>
 <p><me>\begin{aligned}
 2x+3y \amp  = 17.\\
@@ -1426,7 +1216,7 @@ x \amp  = 1.\text{.}
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1442,7 +1232,7 @@ x \amp  = 1.\text{.}
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.8)
+## Problem1(3.7.8)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1528,8 +1318,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-17" ww-id="webwork-17">
-    <static seed="17">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15">
       <statement><p>Solve the linear system below using elimination.</p>
 <p><me>\begin{aligned}
 2x+3y \amp  = 17.\\
@@ -1566,7 +1356,7 @@ x \amp  = 1.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1582,7 +1372,7 @@ x \amp  = 1.
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.9)
+## Problem1(3.7.9)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1660,35 +1450,35 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-18" ww-id="webwork-18">
-    <static seed="18">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16">
       <statement><p>Find the solution to this system.</p>
 <p><me>\begin{aligned}
-6x+8y \amp  = {70}.\\
-9x+13y \amp  = {110}.
+6x+8y \amp  = {48}.\\
+9x+13y \amp  = {75}.
 \end{aligned}</me></p>
 <p><m>x=</m> <fillin name="AnSwEr0001" characters="3"/></p>
 <p><m>y=</m> <fillin name="AnSwEr0002" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>5</m>
+          <m>4</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>5</m>
+          <m>3</m>
         </p>
       </answer>
       <solution><p>To eliminate the <m>9x</m> term we need to multiply the <m>6x</m> equation by <m>-9/6=-3/2</m></p>
 <p><me>\begin{aligned}
--3/2(6x+8y) \amp  = -3/2{70}\\
--9x-12y \amp  = {-105}\\
-9x+13y \amp  = {110}\\
-y \amp  = {5}\\
-6x+8({5}) \amp  = {70}\\
-6x \amp  = {30}\\
-x \amp  = {5}
+-3/2(6x+8y) \amp  = -3/2{48}\\
+-9x-12y \amp  = {-72}\\
+9x+13y \amp  = {75}\\
+y \amp  = {3}\\
+6x+8({3}) \amp  = {48}\\
+6x \amp  = {24}\\
+x \amp  = {4}
 \end{aligned}</me></p>
 </solution>
     </static>
@@ -1696,7 +1486,7 @@ x \amp  = {5}
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1712,7 +1502,7 @@ x \amp  = {5}
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.10)
+## Problem1(3.7.10)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1794,12 +1584,12 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-19" ww-id="webwork-19">
-    <static seed="19">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17">
       <statement><p>Determine whether this system is inconsistent or dependent.</p>
 <p><me>\begin{aligned}
-6x+8y \amp  = {30}.\\
-9x+12y \amp  = {45}.
+6x+8y \amp  = {46}.\\
+9x+12y \amp  = {69}.
 \end{aligned}</me></p>
 <p>The system is <var form="buttons" name="AnSwEr0001">
 <li>
@@ -1820,7 +1610,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1836,7 +1626,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.13)
+## Problem1(3.7.13)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -1895,8 +1685,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-20" ww-id="webwork-20">
-    <static seed="20">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18">
       <statement><p>Find the solutions to <m>6(x-2)^2-24=0\text{.}</m></p>
 <p>Largest solution: <fillin name="AnSwEr0001" characters="4"/></p>
 <p>Smallest solution: <fillin name="AnSwEr0002" characters="4"/></p>
@@ -1925,7 +1715,7 @@ x \amp  = 4, 0.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2008,8 +1798,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-21" ww-id="webwork-21">
-    <static seed="21">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19">
       <statement><p>Find the solutions to <m>8x^2-30x+25=0\text{.}</m></p>
 <p>Largest solution: <fillin name="AnSwEr0001" characters="4"/></p>
 <p>Smallest solution: <fillin name="AnSwEr0002" characters="4"/></p>
@@ -2037,7 +1827,7 @@ x \amp  = \frac{-(-30) \pm \sqrt{(-30)^2-4(8)(25)}}{2(8)}\\
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2119,8 +1909,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-22" ww-id="webwork-22">
-    <static seed="22">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20">
       <statement><p>In the model <m>P=173e^{0.05t}</m> what is the percent increase or decrease (2 decimal places)?</p>
 <p>It is a percent <var form="buttons" name="AnSwEr0001">
 <li>
@@ -2148,7 +1938,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2221,8 +2011,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-23" ww-id="webwork-23">
-    <static seed="23">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21">
       <statement><p>Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6 hours. Suppose Victor is prescribed <m>5\bar{0}</m> mg/day. If Victor takes his first 50 mg pill Monday morning, how much is still in his blood Tuesday morning at the same time? <fillin name="AnSwEr0001" characters="4"/></p>
 <p>Graph the amount of atenolol in his blood for the first day.</p>
 </statement>
@@ -2239,7 +2029,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2312,9 +2102,9 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-24" ww-id="webwork-24">
-    <static seed="24">
-      <statement><p>Using technology, calculate <m>\ln({7})=</m> <fillin name="AnSwEr0001" characters="12"/>.</p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22">
+      <statement><p>Using technology, calculate <m>\ln({5})=</m> <fillin name="AnSwEr0001" characters="12"/>.</p>
 <p>Precision should be at least four decimal places.</p>
 </statement>
       <answer>
@@ -2327,7 +2117,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2392,21 +2182,21 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-25" ww-id="webwork-25">
-    <static seed="25">
-      <statement><p>Solve <m>{5}\log_{{3}}(x)={15}\text{.}</m> <fillin name="AnSwEr0001" characters="4"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23">
+      <statement><p>Solve <m>{4}\log_{{2}}(x)={16}\text{.}</m> <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>27</m>
+          <m>16</m>
         </p>
       </answer>
       <solution><p><me>\begin{aligned}
-{5}\log_{{3}}(x) \amp = {15}\\
-{5}\log_{{3}}(x)/{5} \amp = {15}/{5}\\
-\log_{{3}}(x) \amp = {3}\\
-{3}^{{3}} \amp = x\\
-{27} \amp = x
+{4}\log_{{2}}(x) \amp = {16}\\
+{4}\log_{{2}}(x)/{4} \amp = {16}/{4}\\
+\log_{{2}}(x) \amp = {4}\\
+{2}^{{4}} \amp = x\\
+{16} \amp = x
 \end{aligned}</me></p>
 </solution>
     </static>
@@ -2414,7 +2204,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2497,16 +2287,16 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-26" ww-id="webwork-26">
-    <static seed="26">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24">
       <statement><p>Solve</p>
-<p><me>{5} = {2}\ln(x+{6})</me></p>
+<p><me>{4} = {8}\ln(x+{7})</me></p>
 <p><m>x=</m> <fillin name="AnSwEr0001" characters="12"/>.</p>
 <p>Precision should be at least four decimal places.</p>
 </statement>
       <answer>
         <p>
-          <m>6.18249</m>
+          <m>-5.35128</m>
         </p>
       </answer>
     </static>
@@ -2514,7 +2304,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2586,13 +2376,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-27" ww-id="webwork-27">
-    <static seed="27">
-      <statement><p>If the two sides on the right angle have length <m>a={5}</m> and <m>b={8}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25">
+      <statement><p>If the two sides on the right angle have length <m>a={4}</m> and <m>b={6}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>9.43398</m>
+          <m>7.2111</m>
         </p>
       </answer>
     </static>
@@ -2600,7 +2390,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2663,9 +2453,9 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-28" ww-id="webwork-28">
-    <static seed="28">
-      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={3}</m> and hypotenuse (side opposite the right angle) with length <m>c={2}\text{?}</m> <var form="buttons" name="AnSwEr0001">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26">
+      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={9}</m> and hypotenuse (side opposite the right angle) with length <m>c={8}\text{?}</m> <var form="buttons" name="AnSwEr0001">
 <li>
 <p>Yes</p>
 </li>
@@ -2684,7 +2474,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2748,13 +2538,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-29" ww-id="webwork-29">
-    <static seed="29">
-      <statement><p>If two angles of a triangle are 35 and 30, what is the measure of the third angle? <fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27">
+      <statement><p>If two angles of a triangle are 60 and 55, what is the measure of the third angle? <fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>115</m>
+          <m>65</m>
         </p>
       </answer>
     </static>
@@ -2762,7 +2552,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2825,20 +2615,20 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-30" ww-id="webwork-30">
-    <static seed="30">
-      <statement><p>If the leg lengths of a right triangle are 5 and 8, what are the measures of the angles?</p>
-<p>Angle opposite side length 5: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Angle opposite side length 8: <fillin name="AnSwEr0002" characters="3"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28">
+      <statement><p>If the leg lengths of a right triangle are 4 and 7, what are the measures of the angles?</p>
+<p>Angle opposite side length 4: <fillin name="AnSwEr0001" characters="3"/></p>
+<p>Angle opposite side length 7: <fillin name="AnSwEr0002" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>\tan^{-1}\!\left(\frac{5}{8}\right)</m>
+          <m>\tan^{-1}\!\left(\frac{4}{7}\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\tan^{-1}\!\left(\frac{8}{5}\right)</m>
+          <m>\tan^{-1}\!\left(\frac{7}{4}\right)</m>
         </p>
       </answer>
     </static>
@@ -2846,7 +2636,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2915,15 +2705,15 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-31" ww-id="webwork-31">
-    <static seed="31">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29">
       <statement><!-- PTX:WARNING: PGML wanted to center align here. -->
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-31-image-1"/>
-<p>For a right triangle if <m>\sin(\alpha)=\frac{{5}}{{9.43398}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-29-image-1"/>
+<p>For a right triangle if <m>\sin(\alpha)=\frac{{4}}{{8.06226}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>8</m>
+          <m>7</m>
         </p>
       </answer>
     </static>
@@ -2931,7 +2721,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3019,26 +2809,26 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-32" ww-id="webwork-32">
-    <static seed="32">
-      <statement><p>If a triangle has a leg of length 6 and hypotenuse of length 15, what is the length of the other side and what are the measures of the angles?</p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30">
+      <statement><p>If a triangle has a leg of length 5 and hypotenuse of length 13, what is the length of the other side and what are the measures of the angles?</p>
 <p>Length of other leg: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Angle opposite side length 6: <fillin name="AnSwEr0002" characters="3"/></p>
+<p>Angle opposite side length 5: <fillin name="AnSwEr0002" characters="3"/></p>
 <p>Angle opposite other leg: <fillin name="AnSwEr0003" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>13.7477</m>
+          <m>12</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\sin^{-1}\!\left(\frac{6}{15}\right)</m>
+          <m>\sin^{-1}\!\left(\frac{5}{13}\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\cos^{-1}\!\left(\frac{6}{15}\right)</m>
+          <m>\cos^{-1}\!\left(\frac{5}{13}\right)</m>
         </p>
       </answer>
     </static>
@@ -3046,7 +2836,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3118,8 +2908,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-33" ww-id="webwork-33">
-    <static seed="33">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31">
       <statement><p>At a particular airport the angle of depression flown by aircraft following the PAPI (vertical guidance) is <m>3.05^\circ\text{.}</m> This leads to a point 1020 ft from the threshold of the runway. How high is the aircraft at the threshold? <fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
@@ -3132,7 +2922,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3192,13 +2982,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-34" ww-id="webwork-34">
-    <static seed="34">
-      <statement><p>A triangle has angles of measure <m>A={45}</m> and <m>B={60}\text{.}</m> The side opposite angle <m>A</m> has length 7. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32">
+      <statement><p>A triangle has angles of measure <m>A={35}</m> and <m>B={80}\text{.}</m> The side opposite angle <m>A</m> has length 4. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>\frac{\sin\!\left(60\right)}{\sin\!\left(45\right)}\cdot 7</m>
+          <m>\frac{\sin\!\left(80\right)}{\sin\!\left(35\right)}\cdot 4</m>
         </p>
       </answer>
     </static>
@@ -3206,7 +2996,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3271,13 +3061,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-35" ww-id="webwork-35">
-    <static seed="35">
-      <statement><p>A triangle has sides of length <m>a={5}\text{,}</m> <m>b={6.42788}\text{,}</m> and <m>c={5}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33">
+      <statement><p>A triangle has sides of length <m>a={6}\text{,}</m> <m>b={8.77141}\text{,}</m> and <m>c={8.77141}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>50</m>
+          <m>40</m>
         </p>
       </answer>
     </static>
@@ -3285,7 +3075,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3352,8 +3142,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-36" ww-id="webwork-36">
-    <static seed="36">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34">
       <statement><p>Consider a D which has frequency 293.66 Hz</p>
 <p>What is the period? <fillin name="AnSwEr0001" characters="10"/></p>
 <p>What is the wavelength? <fillin name="AnSwEr0002" characters="6"/></p>
@@ -3384,7 +3174,7 @@ T \amp \approx 0.0034053
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-09-16T10:06:20-08:00       
+###       on 2024-09-18T12:15:35-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

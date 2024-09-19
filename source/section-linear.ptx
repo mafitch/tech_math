@@ -12,26 +12,194 @@
 		and covers the mathematical concepts
 		<ul>
 			<li>Solve <em>linear</em>, rational, quadratic, and exponential equations and formulas (skill)</li>
-			<li xml:id="models-read">Read and interpret models (critical thinking)</li>
-			<li xml:id="models-use">Use models including <em>linear</em>, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+			<li>Read and interpret models (critical thinking)</li>
+			<li>Use models including <em>linear</em>, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
 		</ul>
 	</p>
 
-	<p>We have been solving problems involving ratios. These model situations where the relationship between two quantities expressed as a fraction never changes. For example there are always 12 inches in a foot or there needed to be 12 mg of a drug in every 100 mL. This section presents a slight extension of this concept for cases where we need a shift. For example to convert between Fahrenheit and Celsius scale for temperature we need to know <m>\frac{5^\circ \text{ C}}{9^\circ \text{ F}}</m> but also that 0<degree/> C is 32<degree/> F. These extended ratios are <term>linear</term> models (equations).</p>
+	<p>Having looked at models in general this section presents linear models. First, we look at some examples and learn how the pieces of a linear model work. Next, we learn to write linear models given a description of a problem. After that we practice solving for different parts of a linear equation. <xref ref="section-rates" /> will introduce a more in depth look at identifying linear models. </p>
 
 </introduction>
 
 <subsection xml:id="subsection-present-linear">
 	<title>Linear Models</title>
 
-	<p>First, this section presents examples of linear models and how to handle the shift.</p>
+	<p>This section presents examples of linear models and provides an explanation for the two parts of a linear model.</p>
 
-	<example xml:id="example-linear-model-temperature">
-		<p>Both Celsius and Fahrenheit can be described as giving the number of degrees above or below the freezing point of water. Because 0<degree/> C is the freezing temperature of water, 10<degree/> C is 10<degree/> above freezing.
+	<p>A linear model (equation) can be written in the following, equivalent forms.
+		<ul>
+			<li><m>y=\frac{a}{b}x+c</m></li>
+			<li><m>by-ax-bc = 0</m></li>
+		</ul>
+	</p>
+
+	<paragraphs xml:id="model-temperature-altitude-fahrenheit">
+		<title>Model of Temperature Change with Altitude</title>
+
+		<p>As a result of atmospheric physics temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as <me>T_A = T_G - \left(\frac{3.5}{1000}\right)A.</me>
+		<ul>
+			<li><m>T_A</m> is the expected temperature at the specified altitude.</li>
+			<li><m>T_G</m> is the temperature at ground level.</li>
+			<li><m>A</m> is the specified altitude in number of feet above ground level.</li>
+			<li><m>\frac{3.5^\circ}{1000 \text{ ft}}</m> is the rate of temperature decrease.</li>
+		</ul>
+		All temperatures are in Fahrenheit.</p>
+		<p>Note <m>T_G</m> is a parameter, that is, this model depends on the temperature at ground level which of course differs by location and time. We need to obtain that before we can use the model. This is in contrast to the rate 3.5/1000 which is fixed (a result of atmospheric physics). The model states that temperature decreases with altitude, which is why altitude (<m>A</m>) is the variable.</p>
+		<p>To model the temperature decreasing the rate is negative: subtracting from the starting temperature results in a decrease. All linear models have a rate.</p>
+		<p>The decrease begins from <m>T_G</m>. This ground level temperature is a starting point from which change occurs. All linear models have a starting point (or shift).</p>
+	</paragraphs>
+
+	<example xml:id="example-linear-model-read1">
+		<statement>
+			<p>If the temperature at ground level is 43<degree/> what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?</p>
+			<p>Because fractions of a degree are not useful in making decisions like what to wear, we will round to units.</p>
+		</statement>
+		<solution>
+			<p>Note <m>T_G = 43^\circ</m>. We need to calculate <m>T_A</m> for <m>A=1000, 2000, 3000, 3500</m>.
+			<md>
+				<mrow>T_{1000} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(1000 \text{ ft})</mrow>
+				<mrow> &amp; = 39.5</mrow>
+				<mrow> &amp; \approx 40.</mrow>
+				<mrow>T_{2000} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(2000 \text{ ft})</mrow>
+				<mrow> &amp; = 36.</mrow>
+				<mrow>T_{3000} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(3000 \text{ ft})</mrow>
+				<mrow> &amp; = 32.5</mrow>
+				<mrow> &amp; \approx 33.</mrow>
+				<mrow>T_{3500} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(3500 \text{ ft})</mrow>
+				<mrow> &amp; = 30.75</mrow>
+				<mrow> &amp; \approx 31.</mrow>
+			</md></p>
+			<p>Notice that we now know that it will be below freezing just above 3000 ft.</p>
+		</solution>
+	</example>
+
+	<paragraphs xml:id="model-time-to-altitude">
+		<title>Model of Time to Altitude</title>
+
+		<p>A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate. <me>A_t = A_G+C \cdot t.</me>
+		<ul>
+			<li><m>A_t</m> is the altitude after <m>t</m> minutes.</li>
+			<li><m>A_G</m> is the starting altitude (likely ground level) in feet mean sea level (MSL).</li>
+			<li><m>C</m> is the rate of climb in feet per minute.</li>
+			<li><m>t</m> is the time since the climb began in minutes.</li>
+		</ul></p>
+		<p>Note <m>A_G</m> is a parameter, that is, this model depends on the elevation from which the plane begins to climb. This varies by airport (if the climb is started from the ground) or by the situation (if the plane needs to climb from some elevation at which it is flying). The rate <m>C</m> is also a parameter which must be obtained for each plane and is often available in the aircraft's Pilot's Operating Handbook (POH). The model states that altitude increases with time, which is why time (<m>t</m>) is the variable.</p>
+		<p>In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).</p>
+		<p>Note the same plane will reach a given altitude after different amounts of time depending on how high it was to start with. <m>A_G</m> shifts the model up or down to represent this.</p>
+	</paragraphs>
+
+	<example xml:id="example-linear-model-read2">
+		<statement>
+			<p>If a plane begins at 160 ft MSL and is climbing at 700 ft/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?</p>
+			<p>These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for <m>A_G</m> is to round down: this will give us a lower altitude. If that lower altitude is safe, then one 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude at 700 ft/min, then we will reach it a little earlier at 720 ft/min.</p>
+		</statement>
+		<solution>
+			<p>Note <me>A_t = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot t.</me> The expected altitudes are
+			<md>
+				<mrow>A_t &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 5 \text{ min}</mrow>
+				<mrow> &amp; = 3660.</mrow>
+				<mrow>A_t &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 10 \text{ min}</mrow>
+				<mrow> &amp; = 7160.</mrow>
+				<mrow>A_t &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 15 \text{ min}</mrow>
+				<mrow> &amp; = 10660.</mrow>
+			</md></p>
+			<p>Note if we need to climb above 4500 ft MSL we will achieve this in between 5 and 10 minutes (closer to 5).</p>
+		</solution>
+	</example>
+
+	<paragraphs xml:id="model-fuel-remaining">
+		<title>Model of Fuel Remaining Calculation</title>
+
+		<p>When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model <me>F_t = F_I - r \cdot t.</me>
+		<ul>
+			<li><m>F_t</m> is the amount of fuel remaining after <m>t</m> minutes.</li>
+			<li><m>F_I</m> is the amount of fuel at the beginning.</li>
+			<li><m>r</m> is the rate (volume per time) at which fuel is being consumed.</li>
+			<li><m>t</m> is the time the vehicle has been operated.</li>
+		</ul>
+		Fuel amounts will be measured in units of volume like gallons or liters. Time will be measured in minutes or hours. The rate <m>r</m> is then in units such as gallons/hour or liters/min.</p>
+		<p>Note <m>F_I</m> is a parameter, that is, this model depends on the amount of fuel with which we began. The rate <m>r</m> is also a parameter which must be obtained for each vehicle. Often this is not shown during operation (fuel gauges show how much rather than how fast). The model states that the amount of fuel decreases with time, which is why time (<m>t</m>) is the variable.</p>
+		<p>Because fuel decreases the <m>r \cdot t</m> term is subtracted decreasing the amount from <m>F_I</m>.</p>
+		<p>Note the same plane will reach a given remaining fuel amount (like empty) at different times depending on how much we have at the beginning. <m>F_I</m> shifts the model up or down to represent this.</p>
+	</paragraphs>
+
+	<example xml:id="example-linear-model-read3">
+		<statement>
+			<p>If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?</p>
+			<p>A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.</p>
+		</statement>
+		<solution>
+			<p>Note <me>F_t = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot t \text{ hr}.</me> Thus
+			<md>
+				<mrow>F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 1 \text{ hr}</mrow>
+				<mrow> &amp; = 18.45</mrow>
+				<mrow> &amp; \approx 18.4.</mrow>
+				<mrow>F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 2 \text{ hrs}</mrow>
+				<mrow> &amp; = 16.9.</mrow>
+				<mrow>F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 3 \text{ hrs}</mrow>
+				<mrow> &amp; = 15.35</mrow>
+				<mrow> &amp; \approx 15.3.</mrow>
+				<mrow>F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 0.6 \text{ hrs}</mrow>
+				<mrow> &amp; = 19.07</mrow>
+				<mrow> &amp; \approx 19.0.</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<p>Use this Checkpoint to practice using a linear model.</p>
+
+	<exercise>
+		<myopenmath problem="1453442" />
+	</exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-build-linear-models">
+	<title>Building Linear Models</title>
+
+	<p>The previous section presented linear models, and illustrated using provided models. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.</p>
+
+	<p>A linear model has a starting point (shift, <m>b</m>) and rate (ratio, <m>m</m>). We need to identify these and then write the linear model <me>y = mx+b</me> with these values. We should also label units and explain any parameters.</p>
+
+	<example xml:id="example-linear-model-purchase">
+		<p>Consider rope that costs $0.93 per foot with a shipping charge of $7.64. To produce a model for the cost of each purchase we will start by trying a couple specific orders.</p>
+		<p>Suppose we are purchasing 20 feet of this rope. The cost for the 20 feet will be <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</m>, because each foot is $0.93. This is just like unit conversion: the units ($/ft and ft) suggest multiplying.</p>
+		<p>Notice this multiplication is also the same as using a ratio (proportion). We could setup <m>\frac{\$0.93}{1 \text{ft}} = \frac{C}{20 \text{ ft}}</m> When we solve this we end up with the same multiplication <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</m>.</p>
+		<p>Next we must add the shipping charge. Thus the final cost is <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$26.24</m>. Note there is no rounding because all numbers are exact (no measurements, so no signficant digits) and no fractions of a cent occurred.</p>
+		<p>Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be <me>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</me>. Then we must add the shipping charge. Thus the final cost is <m>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$100.64</m>.</p>
+		<p>Notice we could do this with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as <me>s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C</me>.</p>
+		<p>Notice that this equation has a ratio (0.93/1), which is the cost per foot, but also has a shift (+7.64), which is the fixed shipping cost. Thus this is another linear equation.</p>
+	</example>
+
+	<p>When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.</p>
+
+	<example xml:id="example-linear-model-pressure-drop">
+		<p>At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). To produce a model for pressure decrease we will start by calculating the pressure for a couple specific cases.</p>
+		<p>If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?</p>
+		<p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>29.76 \text{ inHg} - 4.5^\circ \text{ inHg} = 25.26 \text{ inHg}</m>. We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <m>T = 29.76-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
+		<p>If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?</p>
+		<p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}</m>. Written as one calculation this is <m>P = 30.02-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
+		<p>Notice we could do this same calculation for any altitude. So in general we can write <me>P_A = P_G-\left(A \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </me> <m>P_A</m> is the pressure at the specified altitude. <m>P_G</m> is the pressure at ground level. <m>A</m> is the altitude above ground level. This is a linear equation with a ratio of (-1/1000) which is the drop in pressure with altitude, and a shift of <m>P_G</m>, which is the pressure on the ground.</p>
+	</example>
+
+	<example xml:id="example-linear-model-temperature-conversion">
+		<p>We will find a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Note that every 9 degrees F is only 5 degrees C, so to convert we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32<degree/> and Celsius starts at 0<degree/>. Notice we have a ratio and a shift, so this already looks like a linear model.</p>
+		<p>To begin with we will convert 52<degree/> F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).</p>
+		<p>The first step is to determine how many degrees above freezing. Because 32<degree/> F is the freezing temperature of water, 52<degree/> F is <m>52^\circ-32^\circ=20^\circ</m> above freezing.</p>
+		<p>The next step is to scale the degrees. The conversion ratio is <m>\frac{9^\circ \text{ F}}{5^\circ \text{ C}}</m>. Converting the 20<degree/> above freezing is now a unit conversion. The units suggest we can multiply <m>20^\circ \text{ F} \cdot \frac{5^\circ \text{ C}}{9^\circ \text{ F}} \approx 11^\circ \text{ C}</m>. Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11<degree/> C above the freezing point of water in Celsius.</p>
+		<p>Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0<degree/>, we have <m>0^\circ+11^\circ=11^\circ</m> C.</p>
+		<p>If we write all of that as one step we obtain <me>(52^\circ \text{ F}-32^\circ \text{ F})\frac{5^\circ \text{ C}}{9^\circ \text{ F}}+0^\circ \text{ C} = 11^\circ \text{ C}</me>.</p>
+		<p>Notice we could do this with any temperature. So if we call the temperature to convert <m>T</m> we have <me>C = (T-32)\frac{5}{9}+0</me>. This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain <me>C = (T-32)\frac{5}{9}+0 = \frac{5}{9}T-\frac{160}{9}.</me> So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32<degree/> is the freezing point of water as opposed to <m>160/9</m> which has no useful meaning.</p>
+	</example>
+
+	<p>The temperature conversion example illustrates an idea about models. We describe a linear model as having a ratio and a (that is one) shift. However, in the temperature conversion example there is a shift a ratio and another shift, or two shifts. We showed these can be combined as one shift. That is always true. However, sometimes the version with multiple shifts is easier to understand. This will be true when we look at graphs of quadratics and exponentials (other forms of models).</p>
+
 </subsection>
 
 <subsection xml:id="subsection-solve-invert">
 	<title>Solving Linear Equations</title>
+
+	<p>The first section demonstrated using linear models to calculate values. However, sometimes we know the result and want to know the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.</p>
 
 	<p>Before reading farther solve the equation <m>5x-7=12</m>. What steps did you use? Why do they work? <xref ref="example-solve-linear-invert" /> is an example of solving another linear equation.</p>
 
@@ -48,7 +216,7 @@
 	</example>
 
 	<exercise xml:id="exercise-solve-linear-invert">
-		<webwork>
+<!--		<webwork>
 			<pg-code>
 				Context("LimitedNumeric");
 				$m = Compute(random(1,5,1));
@@ -68,28 +236,29 @@
 					<mrow>x &amp; = <var name="$sol" />.</mrow>
 				</md></p>
 			</solution>
-		</webwork>
+		</webwork> -->
+		<myopenmath problem="1453992" />
 	</exercise>
 
-	<p>Some linear equations need one more technique. What would you need to solve <m>17-4y = 14-y</m>? <xref ref="example-solve-linear-combine" /> is an example of solving a similar linear equation.</p>
+	<p>Some linear equations need one more technique. What would you need to solve <m>17-4y = 14-y</m>? Below is an example of solving a similar linear equation.</p>
 
 	<example xml:id="example-solve-linear-combine">
 		<statement><p>Solve <m>17-4y = 5+2y</m>.</p></statement>
 		<solution><p><md>
 			<mrow>17-4y &amp; = 5+2y.</mrow>
-			<mrow>-5+17-4y &amp; = -5+5+2y.</mrow>
+			<mrow>-5+17-4y &amp; = -5+5+2y. &amp; \text{Undo }+5\text{ by subtracting.}</mrow>
 			<mrow>12-4y &amp; = 2y.</mrow>
-			<mrow>12-4y+4y &amp; = 2y+4y.</mrow>
-			<mrow>12 &amp; = (2+4)y.</mrow>
+			<mrow>12-4y+4y &amp; = 2y+4y. &amp; \text{Bring terms with variable to the same side.}</mrow>
+			<mrow>12 &amp; = (2+4)y. &amp; \text{ Factoring leaves only one variable.}</mrow>
 			<mrow>12 &amp; = 6y.</mrow>
-			<mrow>\frac{12}{6} &amp; = \frac{6y}{6}.</mrow>
+			<mrow>\frac{12}{6} &amp; = \frac{6y}{6}. &amp; \text{Undo multiplication with division.}</mrow>
 			<mrow>2 &amp; = y.</mrow>
 		</md>
 		Notice we had to combine like terms (factor and add).</p></solution>
 	</example>
 
 	<exercise xml:id="exercise-solve-linear-combine">
-		<webwork>
+<!--		<webwork>
 			<pg-code>
 				Context("LimitedNumeric");
 				$a2 = Compute(random(2,7,1));
@@ -112,11 +281,12 @@
 					<mrow>x &amp; = <var name="$sol" />.</mrow>
 				</md></p>
 			</solution>
-		</webwork>
+		</webwork> -->
+		<myopenmath problem="1454026" />
 	</exercise>
 
 	<p>Another linear equation is <m>\frac{x}{3}+\frac{x}{4}=\frac{7}{12}</m>. How would you solve it?</p>
-	<p>We can solve this the same as in <xref ref="example-solve-linear-combine"  /> but there is another technique as well. It is shown in <xref ref="example-solve-linear-clear" />.</p>
+	<p>We can solve this the same as in <xref ref="example-solve-linear-combine"  /> but there is another technique as well whic is shown below.</p>
 
 	<example xml:id="example-solve-linear-clear">
 		<statement><p>Solve <m>\frac{x}{5}+\frac{2x}{7}=\frac{34}{35}</m></p></statement>
@@ -133,61 +303,51 @@
 			<mrow>\frac{17x}{17} &amp; = \frac{34}{17}.</mrow>
 			<mrow>x &amp; = 2.</mrow>
 			</md>
-			This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number, but there are no prizes for doing this fast, so you can do this either way.</p></solution>
+			This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.</p></solution>
 	</example>
 
-</subsection>
+	<p>Now that we have practiced solving linear equations, we can use this skill with the models.</p>
 
-<subsection xml:id="subsection-linear-formulas">
-	<title>Solving with Multiple Variables</title>
-
-	<p>When we are using models (also called formulas) they often include more than one variable (also known as named constants). The process for solving such models is the same.</p>
-
-	<example xml:id="example-solve-ohms">
-		<statement><p>Solve the equation <m>V=IR</m> for <m>R</m>. Note, this formula is explained in <xref ref="example-formula-ohms-law" />.</p></statement>
-		<solution><p><md>
-			<mrow>V &amp; = IR.</mrow>
-			<mrow>\frac{V}{I} &amp; = \frac{IR}{I} &amp; \text{divide to undo multiplication}.</mrow>
-			<mrow>\frac{V}{I} &amp; = R.</mrow>
-		</md></p></solution>
+	<example xml:id="example-solve-temperature-drop">
+		<p>Given the temperature model in <xref ref="model-temperature-altitude-fahrenheit" text="title" /> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing.</p>
+		<p>In this case the model is <m>T_A = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A</m>. We know <m>T_A=32^\circ</m> and we want to calculate <m>A</m>, the altitude in feet.
+		<md>
+			<mrow>32^\circ &amp; = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A</mrow>
+			<mrow>-65^\circ + 32^\circ &amp; = -65^\circ + 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A</mrow>
+			<mrow>-33^\circ &amp; = -\frac{3.5^\circ}{1000 \text{ ft}}A</mrow>
+			<mrow>-\frac{1000 \text{ ft}}{3.5^\circ} \cdot -33^\circ &amp; = -\frac{1000 \text{ ft}}{3.5^\circ} \cdot -\frac{3.5^\circ}{1000 \text{ ft}}A</mrow>
+			<mrow>9428.571428 \text{ ft} &amp; = A.</mrow>
+			<mrow>9430 \text{ ft} &amp; \approx A.</mrow>
+		</md>
+		We round to the tens position because that is the precision shown by many altimeters.</p>
 	</example>
 
-	<example xml:id="example-solve-lift">
-		<statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>S</m>.</p></statement>
-		<solution><p><md>
-			<mrow>L \amp = \frac{1}{2}\rho S C_L v^2.</mrow>
-			<mrow>2L \amp = 2\frac{1}{2}\rho S C_L v^2.</mrow>
-			<mrow>2L \amp = \rho S C_L v^2.</mrow>
-			<mrow>\frac{2L}{\rho} \amp = \frac{\rho S C_L v^2}{\rho}.</mrow>
-			<mrow>\frac{2L}{\rho} \amp = S C_L v^2.</mrow>
-			<mrow>\frac{2L}{\rho C_L} \amp = \frac{S C_L v^2}{C_L}.</mrow>
-			<mrow>\frac{2L}{\rho C_L} \amp = S v^2.</mrow>
-			<mrow>\frac{2L}{\rho C_L v^2} \amp = \frac{S v^2}{v^2}.</mrow>
-			<mrow>\frac{2L}{\rho C_L v^2} \amp = S.</mrow>
-		</md></p></solution>
+	<example xml:id="example-solve-time-altitude">
+		<p>Given the time to altitude model in <xref ref="model-time-to-altitude" text="title" /> and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft/min, how long will it take to complete the climb?</p>
+		<p>In this case the model is <m>A_t = 80 \text{ ft} + \frac{700 \text{ ft}}{\text{min}}t</m>. We know <m>A_t=5000</m> ft, and we want to know the time <m>t</m>.
+		<md>
+			<mrow>5000 \text{ ft} &amp; = 80 \text{ ft} + \frac{700 \text{ ft}}{\text{min}}t.</mrow>
+			<mrow>-80 \text{ ft} + 5000 \text{ ft} &amp; = -80 \text{ ft} + 80 \text{ ft} + \frac{700 \text{ ft}}{\text{min}}t.</mrow>
+			<mrow>4920 &amp; = \frac{700 \text{ ft}}{\text{min}}t.</mrow>
+			<mrow>\frac{\text{min}}{700 \text{ ft}} \cdot 4920 &amp; = \frac{\text{min}}{700 \text{ ft}} \cdot \frac{700 \text{ ft}}{\text{min}}t.</mrow>
+			<mrow>7.028571429 &amp; = t.</mrow>
+			<mrow>8 &amp; = t.</mrow>
+		</md>
+		We round up as a safety margin: it is better to assume we need 8 minutes and be higher than to hope we can recognize 0.03 of a minute (not quite 2 seconds).</p>
 	</example>
 
-	<example xml:id="example-solve-lift-with-values">
-		<statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>S</m> when <m>L=255\bar{0}</m>, <m>\rho=0.002378</m>, and <m>C_L=1.430</m>.</p></statement>
-		<solution><p>Because we know some of the values, we can first insert them before solving.<md>
-			<mrow>255\bar{0} \amp = \frac{1}{2}(0.002378)S(1.430)v^2.</mrow>
-			<mrow>255\bar{0} \amp = 0.001700 S v^2.</mrow>
-			<mrow>\frac{255\bar{0}}{0.001700} \amp = \frac{0.001700 S v^2}{0.001700}.</mrow>
-			<mrow>150\bar{0}000 \amp = S v^2.</mrow>
-			<mrow>\frac{150\bar{0}000}{v^2} \amp = \frac{S v^2}{v^2}.</mrow>
-			<mrow>\frac{150\bar{0}000}{v^2} \amp = S.</mrow>
-		</md></p></solution>
-	</example>
+	<p>Use this Checkpoint to try solving a linear model.</p>
 
-	<exercise xml:id="exercise-solve-lift">
-		<statement><p>Solve the lift equation <m>L=\frac{1}{2}\rho S C_L v^2</m> for <m>\rho</m>.</p></statement>
+	<exercise>
+		<myopenmath problem="1454112" />
 	</exercise>
+
 </subsection>
 
 <subsection xml:id="subsection-linear-identify">
 	<title>Identifying Linear Expressions</title>
 
-	<p>All of the equations with which we just worked are linear. What do you use to identify linear expressions or linear equations? <xref ref="table-linear-appearance"/> shows examples of linear expressions and non-linear expressions. </p>
+	<p>All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? <xref ref="table-linear-appearance"/> shows examples of linear expressions and non-linear expressions. </p>
 
 	<table xml:id="table-linear-appearance">
 		<title>Linear and Non-linear</title>
@@ -215,6 +375,8 @@
 			<mrow>x &amp; = 1.</mrow>
 		</md></p></solution>
 	</example>
+
+	<p>In <xref ref="section-rates" /> we will learn to identify linear models from data.</p>
 
 </subsection>
 
