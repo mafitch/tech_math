@@ -5,56 +5,92 @@
 
 <introduction>
 
-<p>We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphing of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates.</p>
+    <p>This section addresses the topics
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+            <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+        </ul>
+        and covers the mathematical concepts
+        <ul>
+            <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
+            <li>Identify data varrying directly or indirectly (critical thinking)</li>
+        </ul>
+    </p>
+
+	<p>We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphs of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates. More details about rates will be covered in <xref ref="section-rates" />. </p>
 
 </introduction>
 
 <subsection xml:id="subsection-tables">
 	<title>Reading Tables of Data</title>
 
-	<p>Sometimes we simply write down the numbers in tables. This works well if we have a limited number of entries and only two aspects to consider. The two aspects become headers for the rows and columns.</p>
+	<p>This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.</p>
+
+	<p>Tables are useful if we have a limited number of entries, and the data can be indexed by two traits. The two traits become headers for the rows and columns. Note by limited number of entries we mean that the table can be easily used. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.</p>
 
 	<table xml:id="table-table-stall">
 		<title>Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS</title>
 		<tabular top="major">
 			<row halign="center" bottom="medium" left="major"><cell></cell><cell colspan="4" right="major">Angle of Bank</cell></row>
-			<row halign="center" bottom="medium" left="major"><cell right="medium">Flap Setting</cell><cell right="medium"><m>0^\circ</m></cell><cell right="medium"><m>30^\circ</m></cell><cell right="medium"><m>45^\circ</m></cell><cell right="major"><m>60^\circ</m></cell></row>
+			<row halign="center" bottom="medium" left="major"><cell right="medium">Flap Setting</cell><cell right="medium">0<degree/></cell><cell right="medium">30<degree/></cell><cell right="medium">45<degree/></cell><cell right="major">60<degree/></cell></row>
 			<row halign="center" bottom="medium" left="major"><cell right="medium">Up</cell><cell right="medium">48</cell><cell right="medium">52</cell><cell right="medium">57</cell><cell right="major">68</cell></row>
-			<row halign="center" bottom="medium" left="major"><cell right="medium"><m>10^\circ</m></cell><cell right="medium">43</cell><cell right="medium">46</cell><cell right="medium">51</cell><cell right="major">61</cell></row>
-			<row halign="center" bottom="medium" left="major"><cell right="medium">Full</cell><cell right="medium">40</cell><cell right="medium">43</cell><cell right="medium">48</cell><cell right="major">57</cell></row>
+			<row halign="center" bottom="medium" left="major"><cell right="medium">Approach</cell><cell right="medium">43</cell><cell right="medium">46</cell><cell right="medium">51</cell><cell right="major">61</cell></row>
+			<row halign="center" bottom="medium" left="major"><cell right="medium">Landing</cell><cell right="medium">40</cell><cell right="medium">43</cell><cell right="medium">48</cell><cell right="major">57</cell></row>
 		</tabular>
 	</table>
 
-	<p>Note that stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. It results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Others refer to varying degrees of extension.</p>
+	<p>We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity note that stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.</p>
 
 	<example xml:id="example-table-read-direct">
-		<p>What is the stall speed in a <m>30^\circ</m> bank angle with flaps up?</p>
-		<p>We can determine this by looking for the column labeled <q><m>30^\circ</m></q> and the row labeled <q>Up</q>. In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.</p>
+		<p>What is the stall speed in a 30<degree/> bank angle with flaps up?</p>
+		<p>We can determine this by looking for the column labeled <q>30<degree/></q> and the row labeled <q>Up</q>. In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.</p>
 	</example>
 
-	<example xml:id="example-table-read-interpolate">
-		<p>What is the stall speed in a <m>15^\circ</m> bank angle with flaps at <m>10^\circ</m>?</p>
-		<p>First, we note that there is no column for <m>15^\circ</m> bank angle. However we have <m>0^\circ</m> and <m>30^\circ</m>. <m>15^\circ</m> is half way between these two. For this chart and some others it is reasonable to estimate our desired number by calculating the number between those given.</p>
-		<p>The two stall speeds are 43 and 46. The number in between (the average) is <m>(43+46)/2=44.5</m>. When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</p>
+	<example xml:id="example-table-read-find">
+		<p>In what condition is the stall speed the highest?</p>
+		<p>If we read all three rows, the largest number we find is 68. That is in the Up row and 60<degree/> column. So the stall speed is highest in the steep, 60<degree/> turn with the flaps in the up position.</p>
+		<p>Note, there is no shortcut here for checking the entry in every row and column.</p>
+	</example>
+
+	<example xml:id="example-table-read-pattern">
+		<statement>
+			<p>As the angle of bank increases (from 0<degree/> to 60<degree/>) what happens to the stall speed?</p>
+		</statement>
+		<solution>
+			<p>If we look in the Up row, the stall speed changes from 48 to 52 to 57 to 68. The first thing we notice is that the stall speed increases.</p>
+			<p>If we repeat this in the Approach row, we again see the speeds are increasing. The same is true in the Landing row.</p>
+			<p>Thus we can say that stall speed increases as the angle of bank increases.</p>
+			<p>In later sections (<xref ref="section-rates" /> ) we will learn to be more specific about patterns when possible.</p>
+		</solution>
 	</example>
 
 	<exercise xml:id="exercise-table-read-direct">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>What is the stall speed at <m>60^\circ</m> bank angle and <m>10^\circ</m> flap setting? <var name="'61'" width="4" /> KIAS</p>
 			</statement>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1457060" />
 	</exercise>
 
+	<p>Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. Below we show interpolation based on linear data. Linear data is described in <xref ref="section-linear" /> and <xref ref="section-rates"/>.</p>
+
+	<example xml:id="example-table-read-interpolate">
+		<p>What is the stall speed in a 15<degree/> bank angle with flaps in the Approach setting?</p>
+		<p>First, we note that there is no column for 15<degree/> bank angle. However we have 0<degree/> and 30<degree/>. 15<degree/> is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.</p>
+		<p>The two stall speeds are 43 and 46. The number in between (the average) is <m>(43+46)/2=44.5</m>. When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</p>
+	</example>
+
 	<exercise xml:id="exercise-table-read-indirect">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>What is the stall speed at <m>37.5^\circ</m> bank angle and full flap setting? <var name="'46'" width="4" /> KIAS</p>
 			</statement>
 			<solution>
 				<p>Note this bank angle is half way between <m>30^\circ</m> and <m>45^\circ</m>. We can average the entries for those bank angles. <me>\frac{43+48}{2}=45.5</me> We round up to 46 KIAS for safety.</p>
 			</solution>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1457088" />
 	</exercise>
 
 </subsection>
@@ -62,12 +98,17 @@
 <subsection xml:id="subsection-reading-curve-graphs">
 	<title>Reading Graphs</title>
 
+	<p>This section illustrates how some data can be represented in graphs and how to read data from a graph including some comparisons of graphs.</p>
+
 	<p>Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and read the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.</p>
 
 	<example xml:id="example-read-graph-glide">
 		<p>If the plane with maximum engine out glide represented in <xref ref="figure-maximum-glide" /> is 2400 ft above the ground how many nautical miles can it glide forward?</p>
-		<p>Note each horizontal major line is 2000 ft. Counting we find 10 minor lines between each major line, so we know they represent <m>2000/10=200</m> ft. each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know they represent <m>2/10=0.2</m> nm.</p>
-		<p>2400 is two minor lines above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. It is two minor lines before 4. This is <m>4-2(0.2)=3.8</m> nm.</p>
+		<p>First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. Note, no line is labeled 2400, but we do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.</p>
+		<p>Counting we find 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent <m>2000/10=200</m> ft.</p>
+		<p>Because <m>2400=2000+2(200)</m> we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.</p>
+		<p>We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent <m>2/10=0.2</m> nm.</p>
+		<p>The glide distance for 2400 ft is therefore <m>4-2(0.2)=3.8</m> nm. We subtracted here because it is before 4.</p>
 	</example>
 
 	<figure xml:id="figure-maximum-glide">
@@ -76,36 +117,64 @@
 	</figure>
 
 	<exercise xml:id="exercise-table-read-graph">
-		<webwork>
+<!--		<webwork>
 			<statement>
 				<p>What is the maximum glide for an aircraft 5000 above the ground? <var name="'8.2'" width="4" /> nm</p>
 			</statement>
-	    </webwork>
+	    </webwork> -->
+	    <myopenmath problem="1457191" />
 	</exercise>
 
-	<p>Graphs can be from raw data which can seem random. We still read these the same way.</p>
+	<p>When we look at any table, graph, or figure we should ask ourselves why various choices were made. We may need to ask someone with related knowledge for an explanation.</p>
+
+	<example xml:id="example-critical-graph-glide">
+		<p>Consider <xref ref="figure-maximum-glide" />. The input we use is <q>Height Above Ground (ft)</q>. Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?</p>
+		<p>Consider that the inputs are <em>heights</em>. This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.</p>
+		<p>Why do the inputs begin at 0 and end at 12000?</p>
+		<p>They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.</p>
+		<p>They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.</p>
+		<p>Why are the inputs labeled every 2000 and the inputs every 2?</p>
+		<p>This is purely space available. If we put in more labels they would overlap each other.</p>
+	</example>
+
+	<p>Graphs can be from raw data which may appear random. We still read these graphs the same way.</p>
 
 	<example xml:id="example-read-graph-temp-dewpoint">
 		<p><xref ref="figure-temp-dewpoint" /> has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.</p>
 		<p>What are the temperature and dewpoint at the 700 millibar level?</p>
-		<p>We follow the 700 mb line over to the dewpoint (green, dashed) line. It is just above <m>-20^\circ</m> C. We estimate <m>-18^\circ</m> C. Continuing across the 700 mb line to the temperature (red, solid) line we find it about half way between 0 and 10. We estimate the temperature is <m>5^\circ</m> C.</p>
+		<p>We follow the 700 mb line over to the dewpoint (green, dashed) line. It is not quite halfway between -20<degree/> C and 0<degree/>. We estimate -7<degree/> C. Continuing across the 700 mb line to the temperature (red, solid) line we find it a little closer to 0<degree/>. We estimate the temperature is 5<degree/> C.</p>
 	</example>
 
 	<figure xml:id="figure-temp-dewpoint">
 		<caption>Graph of Temperature and Dewpoint</caption>
-		<image source="images/TempDewpoint" width="80%" />
+		<image source="images/TempDewpointPANC" width="80%" />
 	</figure>
 
 	<p>Note some charts like <xref ref="figure-temp-dewpoint" /> are not meant to convey specific numbers but rather to show trends.</p>
 
 	<example xml:id="example-read-graph-clouds-form">
-		<p>Clouds form when the temperature reaches the dewpoint. We see in <xref ref="figure-temp-dewpoint" /> that the temperature is always higher than the dewpoint, so no clouds are expected where this sounding (weather balloon reading) was taken.</p>
+		<p>Notice that while the temperature (red, solid line) wiggles around, it trends down as the pressure decreases. That is temperature decreases as altitude increases. We expect this, because it is farther from the ground which heats the air.</p>
+		<p>Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in <xref ref="figure-temp-dewpoint" /> three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.</p>
+	</example>
+
+	<example xml:id="example-critical-graph-radiosonde">
+		<p>Consider <xref ref="figure-temp-dewpoint" />. The input we use is <q>Pressure (millibars)</q>. Why was the y-axis chosen for the inputs here?</p>
+		<p>The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.</p>
+		<p>Why do the y-axis labels decrease as they go up?</p>
+		<p>Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.</p>
+		<p>Why do the inputs begin at 1000?</p>
+		<p>Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.</p>
+		<p>Why are the output labels from -100 to 40?</p>
+		<p>These are based on commonly experienced temperatures. Temperatures lower than -100<degree/> C are not expected. Temperatures above 40<degree/> C do occur, but not in the location where this sounding was taken.</p>
+		<p>Use <xref ref="example-linear-model-temperature-conversion" /> to convert 50<degree/> C to Fahrenheit to see why this temperature is uncommon in most locations.</p>
 	</example>
 
 </subsection>
 
 <subsection xml:id="subsection-graphing-discrete">
 	<title>Graphing Discrete Data</title>
+
+	<p>The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet. Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This <term>discrete</term> data is often graphed differently. This section illustrates some ways of presenting discrete data.</p>
 
 	<example xml:id="example-graphing-bar1">
 		<title>Increasing Income</title>
