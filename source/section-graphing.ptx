@@ -169,27 +169,18 @@
 		<p>Use <xref ref="example-linear-model-temperature-conversion" /> to convert 50<degree/> C to Fahrenheit to see why this temperature is uncommon in most locations.</p>
 	</example>
 
-</subsection>
-
-<subsection xml:id="subsection-graphing-discrete">
-	<title>Graphing Discrete Data</title>
-
-	<p>The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet. Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This <term>discrete</term> data is often graphed differently. This section illustrates some ways of presenting discrete data.</p>
+	<p>The input for the glide ratio questions is altitude. Altitudes are <term>continuous</term> that is it makes sense to refer to an altitude of 2453.27 feet (fractional feet). Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This <term>discrete</term> data is often graphed differently. The next examples illustrate a way of presenting discrete data.</p>
 
 	<example xml:id="example-graphing-bar1">
 		<title>Increasing Income</title>
 
-		<statement><p>When Vasya was hired in 2017 she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.</p>
-		<p>To represent this data we first need to calculate her salary each year. We calculate this by iteratively adding the $5000 for each year. This is found in <xref ref="table-graphing-bar1" /></p>
-		<p>We will represent her salary over time using the bar graph in <xref ref="figure-graphing-bar1" />. Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year.</p>
-		<p><ul>
-			<li>Does this graph tell us when Vasya received her raises each year?</li>
-			<li>If we made the horizontal axes dollars and the vertical axis years, would this change the information presented? Would it be easier or harder to read?</li>
-		</ul></p>
-		</statement>
+		<p>When Vasya was hired in 2017 she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.</p>
+		<p>To represent this data we first need to calculate her salary each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an <term>iterative</term> process. <xref ref="table-salary-vasya" /> contains the results. Notice a table is a good means to represent discrete data.</p>
+		<p>We will represent her salary over time using the bar graph in <xref ref="figure-read-graph-bar" />. Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.</p>
+		<p>Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might the graph be changed to make information easier to find?</p>
 	</example>
 
-	<table xml:id="table-graphing-bar1" >
+	<table xml:id="table-salary-vasya" >
 		<title>Vasya's Salary</title>
 
 		<tabular>
@@ -198,58 +189,107 @@
 			<row><cell>2019</cell> <cell>$72,347.23</cell> </row>
 			<row><cell>2020</cell> <cell>$77,347.23</cell> </row>
 			<row><cell>2021</cell> <cell>$82,347.23</cell> </row>
+			<row><cell>2022</cell> <cell>$87,347.23</cell> </row>
+			<row><cell>2023</cell> <cell>$92,347.23</cell> </row>
+			<row><cell>2024</cell> <cell>$97,347.23</cell> </row>
 		</tabular>
 	</table>
 
-	<figure xml:id="figure-graphing-bar1" >
+	<figure xml:id="figure-read-graph-bar" >
 		<caption>Vasya's Salary</caption>
 
 		<image source="images/vasya-salary" />
 	</figure>
 
-	<example xml:id="example-graphing-bar2">
-		<title>A Different Company</title>
-
-		<statement><p>When Tien was hired he was pair an annual salary of $52,429.33. His work has been good so each year he has received raises. His salaries are found in <xref ref="table-graphing-bar2" />. A graph representing his salaries is found in <xref ref="figure-graphing-bar2" />. </p>
-		<p><ul>
-			<li>How frequently did Tien receive raises?</li>
-			<li>Can we tell the size of the raises from the graph?</li>
-		</ul></p>
-		</statement>
+	<example xml:id="example-read-graph-bar-compare">
+		<introduction>
+			<p>Vasya wishes to know how her raises are helping her keep up with increasing costs. <xref ref="figure-read-graph-compare" /> shows her raises as a percent of her previous year's salary and the inflation rate (<url href="https://www.usinflationcalculator.com/inflation/current-inflation-rates/" visual="usinflationcalculator.com/inflation/current-inflation-rates/" />) If her raises are at least as large as inflation, then her spending power is not diminished (keeping up)</p>
+		</introduction>
+		<task>
+			<p>Using <xref ref="table-salary-vasya" /> confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the raise as a percent of the previous year.</p>
+		</task>
+		<task>
+			<statement>
+				<p>For these years is she keeping up with inflation?</p>
+			</statement>
+			<solution>
+				<p>Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.</p>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p>What trend do you notice in the percent increase of salary? Why is this happening?</p>
+			</statement>
+			<solution>
+				<p>Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part/whole) the part remains fixed while the whole increases.</p>
+				<p>Unless there is a change this will lead to her raises eventually not keeping up with inflation.</p>
+			</solution>
+		</task>
 	</example>
 
-	<table xml:id="table-graphing-bar2" >
-		<title>Tien's Salary</title>
+	<figure xml:id="figure-read-graph-compare" >
+		<caption>Vasya's Salary</caption>
 
-		<tabular>
-			<row><cell>2017</cell> <cell>$52,429.33</cell> </row>
-			<row><cell>2018</cell> <cell>$55,050.80</cell> </row>
-			<row><cell>2019</cell> <cell>$57,803.34</cell> </row>
-			<row><cell>2020</cell> <cell>$60,693.50</cell> </row>
-			<row><cell>2021</cell> <cell>$63,728.18</cell> </row>
-		</tabular>
-	</table>
+		<image source="images/vasya-raise-comparison" />
+	</figure>
 
-	<figure xml:id="figure-graphing-bar2" >
-		<caption>Tien's Salary</caption>
+	<exercise xml:id="exercise-read-bar-graph">
+		<introduction>
+			<p>Consider <xref ref="figure-salary-inflation" />. It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>In which years did Guido receive a raise?</p>
+			</statement>
+			<solution>
+				<p>The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.</p>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p>In which years did Guido's salary appear to grow at least as much as inflation?</p>
+			</statement>
+			<solution>
+				<p>We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.</p>
+				<p>We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.</p>
+			</solution>
+		</task>
+	</exercise>
 
-		<image source="images/tien-salary" />
+	<figure xml:id="figure-salary-inflation" >
+		<caption>Salary vs Inflation</caption>
+
+		<image source="images/vasya-raise-comparison" />
 	</figure>
 
 </subsection>
 
-<subsection xml:id="subsection-graphing-continuous">
-	<title>Graphing Continuous Data</title>
+<subsection xml:id="subsection-analyze-using-graphs">
+	<title>Using Graphs to Analyze Models</title>
 
-	<p>Because the salaries changed only once per year we could use a single entry each year. For other data the changes occur constantly.</p>
+	<p>Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.</p>
 
-	<example xml:id="example-vary-continuous">
+	<example xml:id="example-scale-model">
 		<title>Scale Model</title>
 
-		<statement><p>A model of a space shuttle is 1:144. This means one inch on the model represents 144 inches on the actual shuttle. Similarly 2 inches on the model represents 288 inches on the actual shuttle. Lengths are not just integers, we could have a part that is 1.72 inches. This would be <m>1.72 \cdot 144 = 247.68</m> inches on the actual shuttle.</p>
-		<p>To represent the conversion from inches on the model to inches on the actual object we need to plot points and connect them continuously. A graph of this in <xref ref="figure-graphing-line1" />. Notice the two points and the extension of those.</p>
-		<p>Why does the graph start at 0?</p>
-		</statement>
+		<p>A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle, that is, there is a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If a portion of the model is 1.72 inches then means the part on the actual shuttle is <m>1.72 \cdot 144 = 247.68</m> inches. In general <m>A = 144M</m> where <m>M</m> is the size on the model and <m>A</m> is the size on the actual shuttle.</p>
+		<p>To represent this scale conversion as a graph we will generate a table like <xref ref="table-salary-vasya"/> then we will use that to plot the graph.</p>
+		<tabular>
+			<row><cell>Model</cell> <cell>Full Size</cell> </row>
+			<row><cell>1.0</cell> <cell>144</cell> </row>
+			<row><cell>1.5</cell> <cell>216</cell> </row>
+			<row><cell>2.0</cell> <cell>288</cell> </row>
+			<row><cell>2.5</cell> <cell>360</cell> </row>
+			<row><cell>3.0</cell> <cell>432</cell> </row>
+		</tabular>
+		<p>We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in <xref ref="figure-graphing-line1" />.</p>
+		<p>For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.</p>
+	</example>
+
+	<example xml:id="example-analyze-scale-model">
+		<p>Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.</p>
+		<p>Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.</p>
+		<p>This graph is a line. We knew it would be because <m>A = 144M</m> is in the form of a line (as shown in <xref ref="subsection-present-linear" />).</p>
 	</example>
 
 	<figure xml:id="figure-graphing-line1">
@@ -258,33 +298,30 @@
 		<image source="images/line-graph" />
 	</figure>
 
+	<p>The next example is a shape we have not yet encountered in this text.</p>
+
 	<example xml:id="example-vary-ohm">
 		<title>Ohm's Law</title>
 
-		<statement><p>Recall Ohm's Law <m>V = IR</m> from <xref ref="example-formula-ohms-law" />.</p>
-		<p>Consider a 12 V system with an 8 Ohm resistor.
-			<md>
-				<mrow>12 = &amp; I \cdot 8. </mrow>
-				<mrow>\frac{12}{8} = &amp; I. </mrow>
-				<mrow>1.5 = &amp; I.</mrow>
-			</md>
-			If we reduce the resistance to 4 Ohms we get
-			<md>
-				<mrow>12 = &amp; I \cdot 4. </mrow>
-				<mrow>\frac{12}{4} = &amp; I. </mrow>
-				<mrow>3 = &amp; I.</mrow>
-			</md>
-			If instead we increase the resistance to 16 Ohms we get
-			<md>
-				<mrow>12 = &amp; I \cdot 16. </mrow>
-				<mrow>\frac{12}{16} = &amp; I. </mrow>
-				<mrow>0.75 = &amp; I.</mrow>
-			</md>
-			We can plot these three points and draw a curve through them. This is found in <xref ref="figure-vary-ohm" />.</p>
-			<p><ul>
-				<li>The graph starts with 1 Ohm. Why does it not start at 0?</li>
-				<li>As the resistance increases what happens to the current?</li>
-			</ul></p>
+		<statement><p>Recall Ohm's Law <m>V = IR</m> from <xref ref="model-ohms-law" />. We will explore the relationship between current (<m>I</m>) and resistance (<m>R</m>).</p>
+		<p>To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current (<m>I</m>).
+		<md>
+			<mrow>V &amp; = IR.</mrow>
+			<mrow>V \cdot \frac{1}{R} &amp; = IR \cdot \frac{1}{R}.</mrow>
+			<mrow>\frac{V}{R} &amp; = I.</mrow>
+		</md>
+		Because we are interested in the effect of resistance on current we will pick a fixed voltage: <m>V=12</m> V. Thus our equation is <m>I = \frac{12}{R}</m>.</p>
+		<tabular>
+			<row><cell>Resistance</cell> <cell>Current</cell> </row>
+			<row><cell>1.0</cell> <cell>12</cell> </row>
+			<row><cell>4.0</cell> <cell>3.0</cell> </row>
+			<row><cell>8.0</cell> <cell>1.5</cell> </row>
+			<row><cell>12.0</cell> <cell>1.0</cell> </row>
+			<row><cell>16.0</cell> <cell>0.75</cell> </row>
+		</tabular>
+		<p>We can plot these points and sketch a curve through them. This graph is in <xref ref="figure-vary-ohm" />.</p>
+		<p>The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.</p>
+		<p>The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes <m>I=\frac{12}{0}</m>. Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.</p>
 		</statement>
 	</example>
 
@@ -335,7 +372,7 @@
 		</webwork>
 	</exercise>
 
-	<p>In <xref ref="example-vary-continuous" /> we graphed a line. In terms of the graph of a line, the rate of change is known as the <term>slope</term>. Because the rate of change is constant, the slope can be calculated from any two points.</p>
+	<p>In <xref ref="example-scale-model" /> we graphed a line. In terms of the graph of a line, the rate of change is known as the <term>slope</term>. Because the rate of change is constant, the slope can be calculated from any two points.</p>
 
 	<p>Note a rate is a ratio of changes. In terms of points expressed in Cartesian coordinates the calculation is <me>\frac{y_2-y_1}{x_2-x_1}</me>. This is read, <q>change in y divided by change in x.</q></p>
 

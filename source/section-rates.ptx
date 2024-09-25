@@ -14,6 +14,40 @@
 
 	<p>One way to measure rates is to look at the differences between data point.</p>
 
+	<p>First we add another salary example that we can use for contrast with <xref ref="example-read-graph-bar-compare" />.</p>
+
+	<table xml:id="table-graphing-bar2" >
+		<title>Tien's Salary</title>
+
+		<tabular>
+			<row><cell>2017</cell> <cell>$52,429.33</cell> </row>
+			<row><cell>2018</cell> <cell>$55,050.80</cell> </row>
+			<row><cell>2019</cell> <cell>$57,803.34</cell> </row>
+			<row><cell>2020</cell> <cell>$60,693.50</cell> </row>
+			<row><cell>2021</cell> <cell>$63,728.18</cell> </row>
+			<row><cell>2022</cell> <cell>$66,914.59</cell> </row>
+			<row><cell>2023</cell> <cell>$70,260.32</cell> </row>
+			<row><cell>2024</cell> <cell>$73,773.33</cell> </row>
+		</tabular>
+	</table>
+
+<!--	<figure xml:id="figure-graphing-bar2" >
+		<caption>Tien's Salary</caption>
+
+		<image source="images/tien-salary" />
+	</figure> -->
+
+	<example xml:id="example-salary2">
+		<title>A Different Company</title>
+
+		<statement><p>When Tien was hired he was pair an annual salary of $52,429.33. His work has been good so each year he has received raises. His salaries are found in <xref ref="table-graphing-bar2" />. <!-- A graph representing his salaries is found in <xref ref="figure-graphing-bar2" />. --></p>
+		<p><ul>
+			<li>How frequently did Tien receive raises?</li>
+			<li>Can we tell the size of the raises from the graph?</li>
+		</ul></p>
+		</statement>
+	</example>
+
 	<example xml:id="example-graphing-variation">
 		<title>Compare Raises</title>
 
