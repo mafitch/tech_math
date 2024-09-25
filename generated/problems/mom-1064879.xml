@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064879">
+<statement>
+<p>The half-life of caffeine in the human body is about 5.7 hours. A cup of coffee has about 105 mg of caffeine.</p>
+<p><ol>
+  <li><p>Write an equation for the amount of caffeine in a person's body after drinking a cup of coffee? Let <m>\displaystyle{C}</m> be the milligrams of caffeine in the body after <m>\displaystyle{t}</m> hours. <fillin characters="20" />Preview Question 1 Part 1 of 3  
+</p></li>
+  <li><p>How much caffeine will remain after 10 hours? <fillin characters="3" /> mg. State your answer to the nearest hundredth of a mg.</p></li>
+  <li><p>How long until there are only 20 mg remaining? <fillin characters="3" /> hours. State your answer to the nearest hundredth of an hour.</p></li>
+</ol></p>
+
+</statement>
+<solution>
+<p><ul><li><m>\displaystyle{C}={105}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m></li><li>about 31.12 mg</li><li>about 13.64 hours</li></ul></p><p><ol>
+  <li><p>The general half-life equation is <m>\displaystyle{C}={C}_{{0}}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{{H}{L}}}}}</m>. </p>
+<p>
+    In this case <m>\displaystyle{C}={105}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m></p></li>
+  <li><p>In <m>\displaystyle{t}={10}</m> hours there will be <m>\displaystyle{C}={105}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{10}}{{5.7}}}}</m> mg. </p>
+<p>
+    Starting with 105 mg of caffeine and a half-life of 5.7 hours, this person's system will have about 31.12 mg after 10 hours.</p></li>
+  <li><p>Here we have to solve the equation <m>\displaystyle{20}={105}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m>.</p>
+<p>
+    First, divide by 105. </p>
+<p>
+    <m>\displaystyle\frac{{20}}{{105}}={\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m> </p>
+<p>
+    Then apply the <m>\displaystyle{\log}</m> to both sides. </p>
+<p>
+    <m>\displaystyle{\log{{\left(\frac{{20}}{{105}}\right)}}}={\log{{\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}\right)}}}</m> </p>
+<p>
+    Now bring the power down as a multiple of the right side. </p>
+<p>
+    <m>\displaystyle{\log{{\left(\frac{{20}}{{105}}\right)}}}=\frac{{t}}{{5.7}}\cdot{\log{{\left(\frac{{1}}{{2}}\right)}}}</m> </p>
+<p>
+    Multiply by 5.7. </p>
+<p>
+    <m>\displaystyle{5.7}\cdot{\log{{\left(\frac{{20}}{{105}}\right)}}}={t}\cdot{\log{{\left(\frac{{1}}{{2}}\right)}}}</m> </p>
+<p>
+    Divide by <m>\displaystyle{\log{{\left(\frac{{1}}{{2}}\right)}}}</m>. </p>
+<p>
+    <m>\displaystyle{5.7}\cdot\frac{{\log{{\left(\frac{{20}}{{105}}\right)}}}}{{\log{{\left(\frac{{1}}{{2}}\right)}}}}={t}</m> </p>
+<p>
+    Starting with 105 mg of caffeine and a half-life of 5.7 hours, there will be 20 mg remaining in this person's system after about 13.64 hours.</p></li>
+</ol></p>
+</solution>
+</myopenmath>
+

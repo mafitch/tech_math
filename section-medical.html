@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Medical Ratios</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="http://aholiab.uaa.alaska.edu/mital/external/images/UAA_GG.png">
+<meta property="book:title" content="Mathematics in Trades and Life">
+<meta property="book:author" content="Mark Fitch">
+<meta property="book:author" content="Megan Ossiander-Gobeille">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork.uaa.alaska.edu/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.4.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.04737dc219c2d2eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<style>
+#preface-student-4-1 { counter-set: preface-student-4-1 0; }
+#preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
+#preface-student-4-1 > li { counter-increment: preface-student-4-1; }
+#preface-student-4-2 { counter-set: preface-student-4-2 0; }
+#preface-student-4-2 > li::marker { content: ""counter(preface-student-4-2,decimal)"."; }
+#preface-student-4-2 > li { counter-increment: preface-student-4-2; }
+#preface-student-4-2-1-1-1 { counter-set: preface-student-4-2-1-1-1 0; }
+#preface-student-4-2-1-1-1 > li::marker { content: "("counter(preface-student-4-2-1-1-1,lower-alpha)")"; }
+#preface-student-4-2-1-1-1 > li { counter-increment: preface-student-4-2-1-1-1; }
+#preface-student-4-2-2-1-1 { counter-set: preface-student-4-2-2-1-1 0; }
+#preface-student-4-2-2-1-1 > li::marker { content: "("counter(preface-student-4-2-2-1-1,lower-alpha)")"; }
+#preface-student-4-2-2-1-1 > li { counter-increment: preface-student-4-2-2-1-1; }
+#preface-student-4-2-3-1-1 { counter-set: preface-student-4-2-3-1-1 0; }
+#preface-student-4-2-3-1-1 > li::marker { content: "("counter(preface-student-4-2-3-1-1,lower-alpha)")"; }
+#preface-student-4-2-3-1-1 > li { counter-increment: preface-student-4-2-3-1-1; }
+#preface-student-4-2-4-1-1 { counter-set: preface-student-4-2-4-1-1 0; }
+#preface-student-4-2-4-1-1 > li::marker { content: "("counter(preface-student-4-2-4-1-1,lower-alpha)")"; }
+#preface-student-4-2-4-1-1 > li { counter-increment: preface-student-4-2-4-1-1; }
+#preface-student-4-2-5-1-1 { counter-set: preface-student-4-2-5-1-1 0; }
+#preface-student-4-2-5-1-1 > li::marker { content: "("counter(preface-student-4-2-5-1-1,lower-alpha)")"; }
+#preface-student-4-2-5-1-1 > li { counter-increment: preface-student-4-2-5-1-1; }
+#preface-student-4-2-6-1-1 { counter-set: preface-student-4-2-6-1-1 0; }
+#preface-student-4-2-6-1-1 > li::marker { content: "("counter(preface-student-4-2-6-1-1,lower-alpha)")"; }
+#preface-student-4-2-6-1-1 > li { counter-increment: preface-student-4-2-6-1-1; }
+#subsection-enough-sigfigs-4-1 { counter-set: subsection-enough-sigfigs-4-1 0; }
+#subsection-enough-sigfigs-4-1 > li::marker { content: ""counter(subsection-enough-sigfigs-4-1,decimal)"."; }
+#subsection-enough-sigfigs-4-1 > li { counter-increment: subsection-enough-sigfigs-4-1; }
+#project-radiation-dosage-6-1-1-1 { counter-set: project-radiation-dosage-6-1-1-1 0; }
+#project-radiation-dosage-6-1-1-1 > li::marker { content: ""counter(project-radiation-dosage-6-1-1-1,decimal)"."; }
+#project-radiation-dosage-6-1-1-1 > li { counter-increment: project-radiation-dosage-6-1-1-1; }
+#project-unicorn-cake-2-5-1 { counter-set: project-unicorn-cake-2-5-1 0; }
+#project-unicorn-cake-2-5-1 > li::marker { content: ""counter(project-unicorn-cake-2-5-1,decimal)"."; }
+#project-unicorn-cake-2-5-1 > li { counter-increment: project-unicorn-cake-2-5-1; }
+</style>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-proportion.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-ratios.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-activity-falseposition.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+\newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
+\newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-faculty.html" class="internal"><span class="title">For Faculty</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-si-standard" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Converting between Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-compound" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Converting Compound Units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-units.html#section-units-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-greatest-error" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Greatest Possible Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-enough.html#section-enough-7" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-models.html#section-models-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-literal-formula.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Project: Literal Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-percent.html#section-percent-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-mixture.html#subsection-produce-solution" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Producing a Desired Solution</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-mixture.html#section-mixture-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-ratios.html#section-ratios-6" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-extending-similarity" class="internal"><span class="codenumber">2.4.3.4</span> <span class="title">Similarity Beyond Triangles</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-proportion.html#section-proportion-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Terminology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Dilution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dosage</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-falseposition.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Project: False Position</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-60-1-1.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Project: Arclength Estimation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-linear-identify" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Identifying Linear Expressions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear.html#section-linear-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-linear-notation" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-graphing.html#section-graphing-7" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rates.html#section-rates-5" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-read" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Understand a Model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-ohm" class="internal"><span class="codenumber">3.5.2</span> <span class="title">First Example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Rates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-dual-mixture" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-linear-system-weird" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Other Cases</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear-systems.html#section-linear-systems-7" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cycling.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Project: Biking in Kansas and Alaska</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-radiation2.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Project: Radiation Dosage</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-2d" class="internal"><span class="codenumber">4.1.2</span> <span class="title">2D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry2D.html#section-geometry2D-6" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-3d" class="internal"><span class="codenumber">4.2.2</span> <span class="title">3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cake.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Project: Unicorn Cake</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-pattern" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Pattern</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-quadratic-solving" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-models" class="internal"><span class="codenumber">5.2.1.2</span> <span class="title">Solving Formulas with Quadratics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.1.3</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-4" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-powers-general" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Generalized Powers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-powers" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-roots-general" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-roots" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Transformations of Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-transformation" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Transformations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-change-form" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Forms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-6" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-6" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Evaluating and Solving with Logs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-logarithm-property-power" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Additional Logarithm Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-log-solve.html#section-log-solve-6" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-tod.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Project: Time of Death</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-side-and-angle-relations" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Side and Angle Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-6" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-applications1.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Using Trig Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-applications1.html#subsection-trig-function-application" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Calculating lengths using trig functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-applications1.html#section-trig-applications1-4" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-6" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-graphs.html#section-trig-graphs-6" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-trig-error.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Project: Effects of Scale on Error</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-medical"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.5</span><span class="space"> </span><span class="title">Medical Ratios</span>
+</h2>
+<section class="introduction" id="section-medical-2"><div class="para logical" id="section-medical-2-1">
+<div class="para">This section addresses the topics</div>
+<ul class="disc" id="section-medical-2-1-1">
+<li id="section-medical-2-1-1-1"><div class="para" id="p-derived-section-medical-2-1-1-1">Interpret data in various formats and analyze mathematical models</div></li>
+<li id="section-medical-2-1-1-2"><div class="para" id="p-derived-section-medical-2-1-1-2">Read and use mathematical models in a technical document</div></li>
+</ul>
+<div class="para">and covers the mathematical concepts</div>
+<ul class="disc" id="section-medical-2-1-2"><li id="section-medical-2-1-2-1"><div class="para" id="p-derived-section-medical-2-1-2-1">Setup and solve proportions (skill)</div></li></ul>
+</div> <div class="para" id="section-medical-2-2">This section uses medical applications, primarily determine medicine dosages, to illustrate the use of ratios including change of units and proportions. In each example look for how the ratio is recognized and how the information provided is used to setup a calculation.</div> <div class="para" id="section-medical-2-3">A common application of ratios in medicine is creating drugs of a desired strength. For example some drugs need to be administered based on the body weight of the patient. This requires the medical personnel to mix the drug they have on hand to the needed strength.</div> <div class="para logical" id="section-medical-2-4">
+<div class="para">We will work the following three types of medical problems.</div>
+<ul class="disc" id="section-medical-2-4-1">
+<li id="section-medical-2-4-1-1"><div class="para" id="p-derived-section-medical-2-4-1-1">Measure drug concentration</div></li>
+<li id="section-medical-2-4-1-2"><div class="para" id="p-derived-section-medical-2-4-1-2">Dilute a drug to a lower concentration</div></li>
+<li id="section-medical-2-4-1-3"><div class="para" id="p-derived-section-medical-2-4-1-3">Determine how much drug to use</div></li>
+</ul>
+</div></section><section class="subsection" id="subsection-dilution-terminology"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="space"> </span><span class="title">Terminology</span>
+</h3>
+<div class="para" id="subsection-dilution-terminology-2">This section defines terminology used in medicine and sciences about solution concentrations that we need for the ratio examples in this section.</div>
+<div class="para" id="subsection-dilution-terminology-3">The active ingredient in a drug is often added to a inactive ingredient (often liquid) to administer it. This liquid is known as a <dfn class="terminology">diluent</dfn>. The diluent might be water, saline solution, or other substances.</div>
+<div class="para" id="subsection-dilution-terminology-4">The substance (active ingredient for medicine) which may be a powder or another liquid to which the diluent is added is called the <dfn class="terminology">solute</dfn>. The solute is disolved in the diluent. For example salt (solute) is disolved in water (diluent) to make saline solution.</div>
+<div class="para" id="subsection-dilution-terminology-5">Even if the drug can be administered directly (e.g., is already liquid) we sometimes need to dilute the <dfn class="terminology">stock solution</dfn> (undiluted drug) for ease of use.</div>
+<div class="para" id="subsection-dilution-terminology-6">In some problems the drug mixture will be divided into parts. These parts are sometimes called <dfn class="terminology">aliquots</dfn>. For example when testing substances (like blood samples) we may divide the sample drawn into multiple aliquots, one for each test to be run.</div>
+<div class="para" id="subsection-dilution-terminology-7">The most important concept is measuring how concentrated a solution is. This enables providing sufficient and safe amounts of drugs. There are three common ways concentration is written. These three are examples of how ratios can present the relationship between quantities in different ways. Being able to change between the different presentations of concentration will demonstrate your ability to understand and use ratios accurately.</div>
+<article class="definition definition-like" id="definition-dilution-ratio"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Dilution Ratio.</span>
+</h4> <div class="para" id="definition-dilution-ratio-2-1">The <dfn class="terminology">Dilution Ratio</dfn> is the ratio of solute (drug) to diluent.</div> <div class="para" id="definition-dilution-ratio-2-2">If the solute is a liquid, then this is in units of volume per volume (e.g., mL per mL). For example a dilution ratio of 1:4 means 1 mL of drug to 4 mL of diluent giving 5 mL of solution.</div> <div class="para" id="definition-dilution-ratio-2-3">This expression of concentration is unlikely to be used for dry solutes.</div></article><article class="definition definition-like" id="definition-dilution-factor"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Dilution Factor.</span>
+</h4> <div class="para" id="definition-dilution-factor-2-1">The <dfn class="terminology">Dilution Factor</dfn> is the ratio of solute (drug) to the resulting solution.</div> <div class="para" id="definition-dilution-factor-2-2">If the solute is liquid, then this is in units of volume per volume. For example a dilution factor of 5 means 1 unit of the drug in every 5 units of solution implying 4 units of diluent (1/4 dilution ratio).</div> <div class="para" id="definition-dilution-factor-2-3">If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, 5 g of drug in a total of 100 mL of solution. Note we do not care how much diluent was added (hence we cannot calculate dilution ratio). This dilution factor can be achieved by putting in the dry ingredient, then adding part of the diluent to disolve the dry ingredient, then pouring in enough additional diluent to reach the desired volume.</div></article><article class="definition definition-like" id="definition-percent-concentration"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.3</span><span class="period">.</span><span class="space"> </span><span class="title">Percent Concentration.</span>
+</h4> <div class="para" id="definition-percent-concentration-2-1">The <dfn class="terminology">Percent Concentration</dfn> is the ratio of mass of solute (drug) to 100 mL of diluent.</div> <div class="para" id="definition-percent-concentration-2-2">If the solute is liquid, then this is in units of volume per volume. For example if the are 2 mL of drug per 100 mL of solution, then the percenet concentration is 2/100 or 2%.</div> <div class="para" id="definition-percent-concentration-2-3">If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, if there are 2 mg of drug per 100 mL of solution, then the percent concentration is 2/100 or 2%. Note this is neither percent by volume nor percent by mass as would be used in science.</div></article><div class="para" id="subsection-dilution-terminology-11">These examples illustrate the meaning of these terms.</div>
+<article class="example example-like" id="example-calculate-dilution-factor"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="example-calculate-dilution-factor-1"><div class="para" id="example-calculate-dilution-factor-1-1">A solution is produced from 3 mL of concentrated chloroform and 37 mL of water.</div></div>
+<article class="task exercise-like" id="example-calculate-dilution-factor-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="example-calculate-dilution-factor-2-1-1">What is the dilution ratio?</div>
+<div class="solutions"><details id="example-calculate-dilution-factor-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-calculate-dilution-factor-2-2-1">The dilution ratio is the ratio of the solute to the diluent. We are given both. The dilution ratio is <span class="process-math">\(3/37\text{.}\)</span>
+</div></div></details></div></article><article class="task exercise-like" id="example-calculate-dilution-factor-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="example-calculate-dilution-factor-3-1-1">What is the dilution factor?</div>
+<div class="solutions"><details id="example-calculate-dilution-factor-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-calculate-dilution-factor-3-2-1">The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is <span class="process-math">\(3+37=4\bar{0}\text{.}\)</span> The ratio then is <span class="process-math">\(\frac{4\bar{0}}{3} \approx 13\text{.}\)</span>
+</div></div></details></div></article><article class="task exercise-like" id="example-calculate-dilution-factor-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="example-calculate-dilution-factor-4-1-1">Calculate the percent concentration.</div>
+<div class="solutions"><details id="example-calculate-dilution-factor-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-calculate-dilution-factor-4-2-1">The percent concentration is the ratio of the solute to the total solution by volume written as a percent. We are given the volume of the solute (3 mL) and have calculated the total volume in the previous task (40 mL). Thus the percent concentration is <span class="process-math">\(\frac{3}{40} = 0.075\)</span> which is 7.5%.</div></div></details></div></article></article><article class="example example-like" id="example-solutions-terminology-dry"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solutions-terminology-dry-1">Saline solution consists of the solute salt (sodium chloride) dissolved in the diluent pure water. The saline solution most commonly used in medical applications is 9 g of the solute salt, which is a solid, dissolved in enough water to make 1 liter of solution.</div> <div class="para logical" id="example-solutions-terminology-dry-2">
+<div class="para">Because the solution is produced by adding enough water (amount not specified) it is easiest to express the concentration as a dilution factor. For medicine these are most commonly expressed in terms of milliliters, so we will convert units (<a href="section-units.html#table-metric-sizes" class="xref" data-knowl="./knowl/xref/table-metric-sizes.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.7: Metric Prefixes">metric terminology</a>). The dilution factor is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-metric-sizes.html">
+\begin{equation*}
+\frac{9 \text{ g}}{1 \text{ L}} \cdot \frac{1 \text{ L}}{1000 \text{mL}}=\frac{9 \text{ g}}{1000 \text{mL}}. 
+\end{equation*}
+</div>
+</div> <div class="para logical" id="example-solutions-terminology-dry-3">
+<div class="para">We can also calculate the percent concentration. To do this we need to express volume in milliliters (percent concentration is ratio of solute to 100 mL). We can use unit conversion from above. The percent concentration is</div>
+<div class="displaymath process-math" id="example-solutions-terminology-dry-3-1">
+\begin{align*}
+\frac{9 \text{ g}}{1000 \text{ mL}} &amp; =\\
+\frac{9 \text{ g}}{1000 \text{ mL}} \cdot \frac{1/10}{1/10} &amp; =\\
+\frac{0.9 \text{ g}}{100 \text{ mL}} &amp; = 0.009
+\end{align*}
+</div>
+<div class="para">or 0.9%.</div>
+</div> <div class="para" id="example-solutions-terminology-dry-4">Note how comparing the information provided to the definition showed us we needed to perform a unit conversion. The definitions also stated which number is numerator and denominator and what form to use for a final expression (e.g., percent or fraction).</div></article><article class="example example-like" id="example-solutions-terminology-wet"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solutions-terminology-wet-1">Clorox® Disinfecting Bleach contains 7.0% sodium hypochlorite which is a liquid. This means the percent concentration is 7.0%. From this information we can calculate the dilution ratio and dilution factor.</div> <div class="para" id="example-solutions-terminology-wet-2">One commercially available size of bleach contains 11 oz. To calculate the dilution ratio and dilution factor we need to know the amount of solute (sodium hypochlorite) in the 11 oz. Because it has a percent concentration of 7.0%  there is <span class="process-math">\(11 \cdot 0.070 = 0.77\)</span> oz of sodium hypochlorite.</div> <div class="para" id="example-solutions-terminology-wet-3">This is all we need for the dilution factor which is <span class="process-math">\(\frac{0.77}{11}\text{.}\)</span> This would be easier to read if we reduce it <span class="process-math">\(\frac{0.77}{11}=0.7\)</span> or <span class="process-math">\(\frac{0.7}{1}\)</span> expressed in ounces of bleach to ounces of water.</div> <div class="para" id="example-solutions-terminology-wet-4">For the dilution ratio we need the amount of water added. Because the total solution is 11 oz and we know 0.77 oz is bleach, the water is <span class="process-math">\(11-0.77=10.23\)</span> oz. Thus the dilution ratio is <span class="process-math">\(\frac{0.77}{10.23}\text{.}\)</span>
+</div> <div class="para" id="example-solutions-terminology-wet-5">This ratio is hard to interpret, so we should reduce the fraction. We can perform this reduction multiple ways.</div> <div class="para logical" id="example-solutions-terminology-wet-6"><div class="displaymath process-math" id="example-solutions-terminology-wet-6-1">
+\begin{align*}
+\frac{0.77}{10.23} \amp = \frac{0.77}{10.23} \cdot \frac{1/0.77}{1/0.77} \\
+\amp = \frac{1}{10.23/0.77}\\
+\amp \approx \frac{1}{13.29}.
+\end{align*}
+</div></div> <div class="para logical" id="example-solutions-terminology-wet-7">
+<div class="para">Another options is</div>
+<div class="displaymath process-math" id="example-solutions-terminology-wet-7-1">
+\begin{align*}
+\frac{0.77}{10.23} \amp = \frac{1}{R}.\\
+\frac{0.77}{10.23} \cdot 10.23 \cdot R \amp = \frac{1}{R} \cdot 10.23 \cdot R.\\
+0.77R \amp = 10.23.\\
+R \amp = \frac{10.23}{0.77}.\\
+R \amp \approx 13.29.
+\end{align*}
+</div>
+</div> <div class="para" id="example-solutions-terminology-wet-8">The ratio <span class="process-math">\(\frac{1}{13.29}\)</span> means there is one ounce of bleach for every 13.29 ounces of water.</div></article><div class="para" id="subsection-dilution-terminology-15">Note a pure substance has dilution factor 1/1 (the total volume of the solution is just the volume of the solute). The percent concentration for a pure substance is 100%.</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/BYXKwXJVrio?&amp;modestbranding=1&amp;rel=0" id="video-example-percent-concentration"></iframe></div>
+<div class="para" id="subsection-dilution-terminology-17">Use these Checkpoints to test your ability to calculate these ratios.</div>
+<div id="momsubsection-dilution-terminology-18wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-dilution-terminology-18" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1449971&amp;frame_id=momsubsection-dilution-terminology-18"></iframe></div>
+<div id="momsubsection-dilution-terminology-19wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-dilution-terminology-19" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1450004&amp;frame_id=momsubsection-dilution-terminology-19"></iframe></div></section><section class="subsection" id="subsection-dilution"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="space"> </span><span class="title">Dilution</span>
+</h3>
+<div class="para" id="subsection-dilution-2">This section shows how to use knowledge of proportions to perform calculations required in medicine. Dilution ratios or factors tell us a desired ratio, and we know the initial ratio. This pair allows us to setup a proportion.</div>
+<div class="para" id="subsection-dilution-3">This first example shows how to produce a solution with a desired dilution factor.</div>
+<article class="example example-like" id="example-make-dilution-factor"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-make-dilution-factor-1">How much diluent do we need to add to produce a solution containing 3.0 mL of concentrated chloroform that will have a dilution factor of <span class="process-math">\(5\bar{0}\text{?}\)</span>
+</div> <div class="para logical" id="example-make-dilution-factor-2">
+<div class="para">The dilution factor is the ratio of the total to the substance. We want that to equal <span class="process-math">\(5\bar{0}\text{,}\)</span> so we can write the proportion</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\text{total}}{\text{solute}}=\frac{5\bar{0}}{1}.
+\end{equation*}
+</div>
+</div> <div class="para" id="example-make-dilution-factor-3">We are not given the total volume, but the total is the volume of the solute plus the volume of the diluent. We do know the volume of solute (3.0 mL), and the volume of diluent is what we want to calculate. We can call the volume of diluent <span class="process-math">\(D\text{.}\)</span> The volume of the solution is <span class="process-math">\(3.0+D\)</span> where <span class="process-math">\(D\)</span> is the volume of diluent to add.</div> <div class="para logical" id="example-make-dilution-factor-4">
+<div class="para">Because we are starting with 3.0 mL of concentrated chloroform (no dilution) our proportion is</div>
+<div class="displaymath process-math" id="example-make-dilution-factor-4-1">
+\begin{align*}
+\frac{3.0+D}{3.0} \amp = \frac{5\bar{0}}{1.0}.\\
+3.0 \cdot \frac{3.0+D}{3.0} \amp = 3.0 \cdot \frac{5\bar{0}}{1.0}.\\
+3.0+D \amp = 150.\\
+-3.0+3.0+D \amp = -3.0+150.\\
+D \amp = 147.
+\end{align*}
+</div>
+<div class="para">So we need 147 mL of diluent. Notice once we had the proportion set up we needed only use algebra.</div>
+</div></article><div class="para" id="subsection-dilution-5">This example shows us how to apply a dilution ratio (dilute our solution). We can calculate the resulting dilution factor afterward.</div>
+<article class="example example-like" id="example-dilute-to-percent-concentration"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-dilute-to-percent-concentration-1">A doctor orders 120 mL of 50% solution of Ensure every two hours. How much Ensure (liquid) and water is needed?</div> <div class="para" id="example-dilute-to-percent-concentration-2">50% is a percent concentration. This means the Ensure should be 50% of the total volume (120 mL). <span class="process-math">\(120 \cdot 0.50 = 60\)</span> mL of Ensure. This leaves <span class="process-math">\(120-60=60\)</span> mL of water (diluent).</div> <div class="para" id="example-dilute-to-percent-concentration-3">The dilution ratio is 1/1, because there is the same volume of solute (Ensure) and diluent (water). The dilution factor is 1/2, because we have 60 mL of Ensure in 120 mL of solution (<span class="process-math">\(60/120=1/2\)</span>).</div></article><div class="para" id="subsection-dilution-7">Working on dilutions is a proportion problem. This next example presents a scenario where we work a dilution problem backwards. Notice that the setup is still a proportion and the solving is still just the algebra steps needed.</div>
+<article class="example example-like" id="example-dilute-measure"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-dilute-measure-1-1">One usage of dilution is to reduce the concentration so that instruments can accurately measure it. Consider trying to measure an acid without dissolving the tools used to measure it.</div> <div class="para" id="example-dilute-measure-1-2">A sample of a suspected high blood glucose value was obtained. According to the manufacturer of the instrument used to read blood glucose values, the highest glucose result which can be obtained on this particular instrument is 500 mg/dL. When the sample was run, the machine gave an error message (concentration too high).</div> <div class="para" id="example-dilute-measure-1-3">The serum was then diluted to 1/10 and retested. The machine gave a result of 70 mg/dL. What was the initial concentration?</div> <div class="para" id="example-dilute-measure-1-4">Note that the ratio is milligrams to decilitres (weight to volume). In these types of problems the amount of substance is so small that it does not affect the volume.</div>
+<div class="solutions"><details id="example-dilute-measure-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-dilute-measure-2-1">Before we jump into an equation, let’s try an experiment. That’s right, in math we do not have to know what to do when we start. We will try something and learn from it, maybe revising our approach after the first try.</div> <div class="para logical" id="example-dilute-measure-2-2">
+<div class="para">This is a dilution problem which means we can setup the proportion</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\text{solute mg}}{\text{diluent dL}}=\frac{70 \text{ mg}}{\text{dL}}.
+\end{equation*}
+</div>
+</div> <div class="para" id="example-dilute-measure-2-3">We are trying to find the amount of blood sugar in the sample, so the solute portion is unknown. We also do not have the size of sample taken. We will experiment to see how this affects the problem.</div> <div class="para logical" id="example-dilute-measure-2-4">
+<div class="para">Suppose we take 1 dL of the original serum. Because the blood sample is so small, we can calculate as if all the volume is the diluent. That is we started with 1 dL and added more to dilute. To dilute to a ratio of 1/10 we need to add <span class="process-math">\(10-1=9\)</span> dL of diluent. No blood glucose was added thus the concentration is changed only by the diluent. Thus the concentration proportion is now</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-volume.html" id="example-dilute-measure-2-4-2">
+\begin{align*}
+\frac{C+0 \text{ mg}}{1+9 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}\\
+\frac{C \text{ mg}}{10 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}} \amp \text{ clearing the denominators}\\
+(C \text{ mg})(\text{dL}) \amp = (70 \text{ mg})(10 \text{ dL})\\
+\frac{(C \text{ mg})(\text{dL})}{\text{dL}} \amp = \frac{(70 \text{ mg})(10 \text{ dL})}{\text{dL}}\\
+C \amp = 700 \text{ mg}
+\end{align*}
+</div>
+<div class="para">Did this result depend on our selecting 1 dL of the original serum? If we are uncertain we can try the problem again and select 2 dL of the original serum. To figure out the total amount of which 2 is 1/10, we can treat this like <a href="section-ratios.html#example-ratio-volume" class="xref" data-knowl="./knowl/xref/example-ratio-volume.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.3.7">Example 2.3.7</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-volume.html" id="example-dilute-measure-2-4-4">
+\begin{align*}
+\frac{1}{10} \amp = \frac{1}{10} \frac{2}{2}\\
+\amp = \frac{2}{20}.
+\end{align*}
+</div>
+<div class="para">This means we need <span class="process-math">\(20-2=18\)</span> dL of diluent to have the desired dilution ratio. Also we will have twice as much of the blood glucose.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-volume.html" id="example-dilute-measure-2-4-6">
+\begin{align*}
+\frac{2C+0 \text{ mg}}{2+18 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}\\
+\frac{2C \text{ mg}}{20 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}} \amp \text{ clearing the denominators}\\
+(2C \text{ mg})(\text{dL}) \amp = (70 \text{ mg})(20 \text{ dL})\\
+\frac{(2C \text{ mg})(\text{dL})}{2 \text{dL}} \amp = \frac{(70 \text{ mg})(20 \text{ dL})}{2 \text{dL}}\\
+C \amp = 700 \text{ mg}
+\end{align*}
+</div>
+<div class="para">Notice the result is the same. This makes sense, because we are setting up a proportion, and ratios do not depend on the amount.</div>
+</div> <div class="para" id="example-dilute-measure-2-5">We can be confident that the original serum sample had a blood glucose level of 700 mg/dL.</div>
+</div></details></div></article><div class="para" id="subsection-dilution-9">Sometimes we dilute more than one time. Here we experiment to determine what the effect of <dfn class="terminology">serial dilution</dfn> is upon the resulting dilution factor.</div>
+<article class="example example-like" id="example-serial-dilution"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-serial-dilution-1-1">Suppose you have a solution consisting of 10 mL of acyl chloride and 90 mL of water. If this is diluted to a dilution ratio of 1/2 and then diluted again to a dilution ratio of 1/3, what is the final dilution ratio?</div>
+<div class="solutions"><details id="example-serial-dilution-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-serial-dilution-2-1">
+<div class="para">We can do the calculations one at a time. First we calculate the original concentration.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-proportion-cheesecake-double.html" id="example-serial-dilution-2-1-1">
+\begin{align*}
+\frac{10 \text{ mL}}{10+90 \text{ mL}} \amp = \frac{10}{100}\\
+\amp = \frac{1}{10}.
+\end{align*}
+</div>
+<div class="para">To dilute to a ratio of 1/2 we can calculate the amount of diluent to add as a proportion problem like in <a href="section-proportion.html#example-proportion-cheesecake-double" class="xref" data-knowl="./knowl/xref/example-proportion-cheesecake-double.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.1: Cheesecake Groceries: Double">Example 2.4.1</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-proportion-cheesecake-double.html" id="example-serial-dilution-2-1-3">
+\begin{align*}
+\frac{1}{2} \amp = \frac{100 \text{ mL}}{T \text{ mL}}\\
+1 \cdot (T \text{ mL}) \amp = 2 \cdot (100 \text{ mL})\\
+T \amp = 200 \text{ mL}.
+\end{align*}
+</div>
+<div class="para">The total will be 200 mL so we need to add <span class="process-math">\(200 \text{ mL}- 100 \text{ mL} = 100 \text{ mL}\)</span> of additional diluent. Note at this point the concentration is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-proportion-cheesecake-double.html">
+\begin{equation*}
+\frac{10 \text{ mL acyl chloride}}{200 \text{ mL diluent}} = \frac{1}{20}.
+\end{equation*}
+</div>
+<div class="para">To dilute again to a ratio of 1/3 we can calculate the amount of diluent to add</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-proportion-cheesecake-double.html" id="example-serial-dilution-2-1-6">
+\begin{align*}
+\frac{1}{3} \amp = \frac{200 \text{ mL}}{T \text{ mL}}\\
+1 \cdot (T \text{ mL}) \amp = 3 \cdot (200 \text{ mL})\\
+T \amp = 600 \text{ mL}.
+\end{align*}
+</div>
+<div class="para">The total will be 600 mL so we need to add <span class="process-math">\(600 \text{ mL} - 200 \text{ mL} = 400 \text{ mL}\)</span> of additional diluent. Note at this point the concentration is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-proportion-cheesecake-double.html">
+\begin{equation*}
+\frac{10 \text{ mL acyl chloride}}{600 \text{ mL diluent}} = \frac{1}{60}.
+\end{equation*}
+</div>
+<div class="para">Now we can determine what the resulting dilution ratio after diluting twice (1/2 and then 1/3).</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-proportion-cheesecake-double.html" id="example-serial-dilution-2-1-9">
+\begin{align*}
+\frac{1}{10} \cdot F \amp = \frac{1}{60} \amp \text{ clear the denominator on the left}\\
+10 \cdot \frac{1}{10} \cdot F \amp = 10 \cdot \frac{1}{60}.\\
+F \amp = \frac{1}{6}.
+\end{align*}
+</div>
+</div> <div class="para" id="example-serial-dilution-2-2">Notice that <span class="process-math">\(\frac{1}{6} = \frac{1}{2} \cdot \frac{1}{3}\text{.}\)</span> This relationship is always true for serial dilution.</div>
+</div></details></div></article></section><section class="subsection" id="subsection-dosage"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.3</span><span class="space"> </span><span class="title">Dosage</span>
+</h3>
+<div class="para" id="subsection-dosage-2">If we know the concentration of a drug, we can determine how much is needed for a given dose. These are proportion problems that require change of units.</div>
+<div class="para" id="subsection-dosage-3">In medicine some substances are measured in <dfn class="terminology">International Unit</dfn> or IU. For each substance this is defined by the effect of that amount of the drug.</div>
+<article class="example example-like" id="example-scale-dosage-insulin"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-scale-dosage-insulin-1-1">One IU of insulin is 0.0347 mg. A common concentration of insulin is U-100 which is 100 IU/mL. This is produced by combining 100 units of insulin in one mL of diluent.</div> <div class="para" id="example-scale-dosage-insulin-1-2">If a person needs 2 units of insulin, how many mL of solution will that be?</div>
+<div class="solutions">
+<details id="example-scale-dosage-insulin-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-scale-dosage-insulin-2-1">
+<div class="para">This can be solved as a proportion because are asked for an amount that matches a ratio. The ratio (concentration) is 100 IU/mL. Because we are solving for a number of mL, we will write the ratio as</div>
+<div class="displaymath process-math" id="example-scale-dosage-insulin-2-1-1">
+\begin{align*}
+\frac{\text{mL}}{100 \text{ IU}} \amp = \frac{v \text{ mL}}{2 \text{ IU}}\\
+\frac{\text{mL}}{100 \text{ IU}} \cdot (2 \text{ IU}) \amp = \frac{v \text{ mL}}{2 \text{ IU}} \cdot (2 \text{ IU}) \amp \text{ multiply to isolate the variable}\\
+\frac{2 \text{ mL}}{100} \amp = v \text{ mL}\\
+\frac{1}{50} \text{ mL} \amp = v.\\
+0.02 \text{ mL} \amp = v.
+\end{align*}
+</div>
+</div></div></details><details id="example-scale-dosage-insulin-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-scale-dosage-insulin-3-1">Because we have a ratio of desired amount to provided amount we can also solve this problem as a percent.</div> <div class="para" id="example-scale-dosage-insulin-3-2">The ratio is desired amount/provided amount. In this case <span class="process-math">\(\frac{2 \text{ IU}}{100 \text{ IU}}=\frac{1}{50}=0.02\)</span> which is 2%. We therefore want 2% of the 1 mL (from 100 IU/1 mL) or 0.02 mL.</div>
+</div></details>
+</div></article><article class="example example-like" id="example-scale-dosage-streptomycin"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-scale-dosage-streptomycin-1-1">A label reads “2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate.” How many milliliters are needed to contain 800 mg of streptomycin?</div>
+<div class="solutions">
+<details id="example-scale-dosage-streptomycin-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-scale-dosage-streptomycin-2-1">Because a ratio is given (1000 mg/2.5 mL) and we want to scale this (to 800 mg), this can be setup as a proportion.</div> <div class="para logical" id="example-scale-dosage-streptomycin-2-2">
+<div class="para">Because we want to solve for volume (mL) we setup the proportion as follows.</div>
+<div class="displaymath process-math" id="example-scale-dosage-streptomycin-2-2-1">
+\begin{align*}
+\frac{2.5 \text{ mL}}{1000 \text{ mg}} &amp; = \frac{v \text{ mL}}{800 \text{ mg}}.\\
+\frac{2.5 \text{ mL}}{1000 \text{ mg}} \cdot (800 \text{ mg}) &amp; = \frac{v \text{ mL}}{800 \text{ mg}} \cdot (800 \text{ mg}).\\
+2 \text{ mL} &amp; = v.
+\end{align*}
+</div>
+</div>
+</div></details><details id="example-scale-dosage-streptomycin-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-scale-dosage-streptomycin-3-1">Because we have a ratio of desired amount to provided amount we can also solve this problem as a percent.</div> <div class="para" id="example-scale-dosage-streptomycin-3-2">The ratio is desired amount/provided amount. In this case <span class="process-math">\(\frac{800 \text{ IU}}{1000 \text{ IU}}=\frac{4}{5}=0.8\)</span> which is 80%. We therefore want 80% of the 2.5 mL does or 2 mL.</div>
+</div></details>
+</div></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/rwOaLzJCfPw?&amp;modestbranding=1&amp;rel=0&amp;start=151" id="video-example-proportion-solution"></iframe></div>
+<article class="exercise exercise-like" id="exercise-scale-dosage"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.5.13</span><span class="period">.</span>
+</h4>
+<div id="momexercise-scale-dosage-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-scale-dosage-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1450625&amp;frame_id=momexercise-scale-dosage-1"></iframe></div></article><div class="para" id="subsection-dosage-8">A physician may prescribe a medicine and specify a total amount and a speed at which it should be delivered. For IV’s this is called <dfn class="terminology">drop factor</dfn> and is specified as a number of drops per minute. Medical personnel must calculate how long to operate the IV so that the total amount of drug prescribed is delivered in the specified time.</div>
+<article class="example example-like" id="example-dosage-drop-factor"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-dosage-drop-factor-1-1">Give 1500 mL of saline solution IV with a drop factor of 10 drops per mL at a rate of 50 drops per minute to an adult patient. Determine how long in hours the IV should be administered.</div>
+<div class="solutions"><details id="example-dosage-drop-factor-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-dosage-drop-factor-2-1">
+<div class="para">The rate is specified in drops and the amount is specified in mL which means we need to convert units. This will be done like <a href="section-units.html#example-convert-speed" class="xref" data-knowl="./knowl/xref/example-convert-speed.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1.18">Example 1.1.18</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-convert-speed.html ./knowl/xref/table-customary-convert.html">
+\begin{equation*}
+\frac{50 \text{ drops}}{\text{minute}} \cdot \frac{\text{mL}}{10 \text{ drops}} = \frac{5 \text{ mL}}{\text{minute}}
+\end{equation*}
+</div>
+<div class="para">Now that we know the rate in mL, we can setup a proportion so that time calculated per total grams of medication matches the specified rate. Notice how we invert the rate to make the algebra easier.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-convert-speed.html ./knowl/xref/table-customary-convert.html" id="example-dosage-drop-factor-2-1-3">
+\begin{align*}
+\frac{T \text{ min}}{1500 \text{ mL}} &amp; = \frac{1 \text{ min}}{5 \text{ mL}}.\\
+\frac{T \text{ min}}{1500 \text{ mL}} \cdot (1500 \text{ mL}) &amp; = \frac{1 \text{ min}}{5 \text{ mL}} \cdot (1500 \text{ mL}).\\
+T &amp; = 300 \text{ min}.
+\end{align*}
+</div>
+<div class="para">The final step is to convert minutes to hours. This is another unit conversion problem using a conversion from <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a>. The units suggest we can multiply the 300 minutes by the conversion ratio.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-convert-speed.html ./knowl/xref/table-customary-convert.html">
+\begin{equation*}
+300 \text{ minutes} \cdot \frac{1 \text{ hour}}{60 \text{ minutes}} = 5 \text{ hours}
+\end{equation*}
+</div>
+</div></div></details></div></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/rwOaLzJCfPw?&amp;modestbranding=1&amp;rel=0" id="video-example-scale-medication"></iframe></div>
+<article class="example example-like" id="example-scale-medication1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-scale-medication1-1-1">Amoxicillin is an antibiotic obtainable in a liquid suspension form, part medication and part water, and is frequently used to treat infections in infants. One formulation of the drug contains 125 mg of amoxicillin per 5 mL of liquid. A pediatrician orders <span class="process-math">\(150\)</span> mg per day for a 4-month-old child with an ear infection. How much of the amoxicillin suspension would the parent need to administer to the infant in order to achieve the recommended daily dose?</div>
+<div class="solutions"><details id="example-scale-medication1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-scale-medication1-2-1">
+<div class="para">Here we need to scale the amount (from 125 mg to <span class="process-math">\(150\)</span> mg). This is a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.</div>
+<div class="displaymath process-math" id="example-scale-medication1-2-1-2">
+\begin{align*}
+\frac{125 \text{ mg}}{5 \text{ mL}} \amp = \frac{150 \text{ mg}}{A \text{ mL}} \amp \text{ clear the denominators}\\
+(125 \text{ mg})(A \text{ mL}) \amp = (5 \text{ mL})(150 \text{ mg}) \amp \text{ divide to isolate the variable}\\
+\frac{(125 \text{ mg})(A \text{ mL})}{125 \text{ mg}} \amp = \frac{(5 \text{ mL})(150 \text{ mg})}{(125 \text{ mg})}\\
+A \text{ mL} \amp = \frac{(5 \text{ mL})(150 \text{ mg})}{(125 \text{ mg})}\\
+A \amp = 6 \text{ mL}.
+\end{align*}
+</div>
+</div></div></details></div></article><article class="exercise exercise-like" id="exercise-scale-medication"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.5.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="exercise-scale-medication-1-1">A 5% dextrose solution (D5W) contains 5 g of pure dextrose per 100 mL of solution. A doctor orders 500 mL of D5W IV for a patient. How much dextrose does the patient receive from that IV?</div>
+<div class="solutions"><details id="exercise-scale-medication-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="exercise-scale-medication-2-1">
+<div class="para">Once again we need to scale the amount (from 100 mL to 500 mL). This is also a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.</div>
+<div class="displaymath process-math" id="exercise-scale-medication-2-1-1">
+\begin{align*}
+\frac{5 \text{ g}}{100 \text{ mL}} \amp = \frac{D \text{ g}}{500 \text{ mL}} \amp \text{ clear the denominators}\\
+(5 \text{ g})(500 \text{ mL}) \amp = (D \text{ g})(100 \text{ mL}) \amp \text{ divide to isolate the variable}\\
+\frac{(5 \text{ g})(500 \text{ mL})}{(100 \text{ mL})} \amp = \frac{(D \text{ g})(100 \text{ mL})}{(100 \text{ mL})}\\
+25 \text{ g} \amp = D
+\end{align*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="example-dose-dilution-factor"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.5.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-dose-dilution-factor-1-1">A sample of chloroform water has a dilution factor of 40. If 2 mL of chloroform are needed how many milliliters total are needed?</div>
+<div class="solutions"><details id="example-dose-dilution-factor-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-dose-dilution-factor-2-1">
+<div class="para">A dilution factor of 40 indicates that 1 mL of chloroform is in 40 mL total of solution. We can setup a proportion to answer this.</div>
+<div class="displaymath process-math" id="example-dose-dilution-factor-2-1-1">
+\begin{align*}
+\frac{1 \text{ mL}}{40 \text{ mL}} \amp = \frac{2 \text{ mL}}{T \text{ mL}} \amp \text{ clear the denominators}\\
+(1 \text{ mL})(T \text{ mL}) \amp = (2 \text{ mL})(40 \text{ mL})\\
+\frac{(1 \text{ mL})(T \text{ mL})}{1 \text{ mL}} \amp = \frac{(2 \text{ mL})(40 \text{ mL})}{1 \text{ mL}}\\
+T \amp = 80 \text{ mL}.
+\end{align*}
+</div>
+</div></div></details></div></article></section><section class="exercises" id="section-medical-6"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.5.4</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="section-medical-6-1"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Medical Ratio.</span>
+</h4>
+<div id="momsection-medical-6-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1064004&amp;frame_id=momsection-medical-6-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-2"><h4 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Medical Ratio.</span>
+</h4>
+<div id="momsection-medical-6-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1064006&amp;frame_id=momsection-medical-6-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-3"><h4 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Medical Ratio.</span>
+</h4>
+<div id="momsection-medical-6-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1064008&amp;frame_id=momsection-medical-6-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-4"><h4 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Medical Proportion.</span>
+</h4>
+<div id="momsection-medical-6-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1064009&amp;frame_id=momsection-medical-6-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-5"><h4 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Medicine to Solution.</span>
+</h4>
+<div id="momsection-medical-6-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=884968&amp;frame_id=momsection-medical-6-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-6"><h4 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Medical Ratio with Rounding.</span>
+</h4>
+<div id="momsection-medical-6-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887221&amp;frame_id=momsection-medical-6-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-7"><h4 class="heading">
+<span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Concentration.</span>
+</h4>
+<div id="momsection-medical-6-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887241&amp;frame_id=momsection-medical-6-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-8"><h4 class="heading">
+<span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Concentration.</span>
+</h4>
+<div id="momsection-medical-6-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887950&amp;frame_id=momsection-medical-6-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-9"><h4 class="heading">
+<span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Concentration.</span>
+</h4>
+<div id="momsection-medical-6-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887952&amp;frame_id=momsection-medical-6-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-10"><h4 class="heading">
+<span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Dilution Ratio.</span>
+</h4>
+<div id="momsection-medical-6-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887953&amp;frame_id=momsection-medical-6-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-11"><h4 class="heading">
+<span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Dilution Ratio.</span>
+</h4>
+<div id="momsection-medical-6-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887955&amp;frame_id=momsection-medical-6-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-12"><h4 class="heading">
+<span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Dilution Ratio.</span>
+</h4>
+<div id="momsection-medical-6-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887957&amp;frame_id=momsection-medical-6-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-medical-6-13"><h4 class="heading">
+<span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Serial Dilution.</span>
+</h4>
+<div id="momsection-medical-6-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-medical-6-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=887959&amp;frame_id=momsection-medical-6-13-2"></iframe></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="section-proportion.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-activity-falseposition.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

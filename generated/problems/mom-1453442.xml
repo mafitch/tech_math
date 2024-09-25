@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1453442">
+<statement>
+<p>The expected temperature at a height above ground is given by</p>
+<p>
+  <m>\displaystyle{T}_{{A}}={T}_{{G}}-\frac{{{3.5}}}{{{1000}}}{A}</m></p>
+<p>
+  where <m>\displaystyle{T}_{{A}}</m> is the expected temperature in Fahrenheit</p>
+<p>
+  <m>\displaystyle{T}_{{G}}</m> is the temperature at ground level in Fahrenheit</p>
+<p>
+  <m>\displaystyle{A}</m> is the height above ground level in feet</p>
+<p>If the temperature on the ground is <m>\displaystyle{39}^{\circ}</m>, what will it be at 3900 feet above ground level? <fillin characters="3" /></p>
+<p>Answers should be rounded to the units place.</p>
+
+
+</statement>
+<solution>
+<p><ul><li>25</li></ul></p><p>The model for this situation is <m>\displaystyle{T}_{{A}}={39}-\frac{{{3.5}}}{{{1000}}}{A}</m>.</p>
+<p>Because we want to estimate the temperature at 3900 ft AGL, we calculate <m>\displaystyle{T}_{{A}}={39}-\frac{{{3.5}}}{{{1000}}}{3900}={25.35}\approx{25}</m></p>
+</solution>
+</myopenmath>
+

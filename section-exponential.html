@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Exponential Relations</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="http://aholiab.uaa.alaska.edu/mital/external/images/UAA_GG.png">
+<meta property="book:title" content="Mathematics in Trades and Life">
+<meta property="book:author" content="Mark Fitch">
+<meta property="book:author" content="Megan Ossiander-Gobeille">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork.uaa.alaska.edu/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.4.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.04737dc219c2d2eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<style>
+#preface-student-4-1 { counter-set: preface-student-4-1 0; }
+#preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
+#preface-student-4-1 > li { counter-increment: preface-student-4-1; }
+#preface-student-4-2 { counter-set: preface-student-4-2 0; }
+#preface-student-4-2 > li::marker { content: ""counter(preface-student-4-2,decimal)"."; }
+#preface-student-4-2 > li { counter-increment: preface-student-4-2; }
+#preface-student-4-2-1-1-1 { counter-set: preface-student-4-2-1-1-1 0; }
+#preface-student-4-2-1-1-1 > li::marker { content: "("counter(preface-student-4-2-1-1-1,lower-alpha)")"; }
+#preface-student-4-2-1-1-1 > li { counter-increment: preface-student-4-2-1-1-1; }
+#preface-student-4-2-2-1-1 { counter-set: preface-student-4-2-2-1-1 0; }
+#preface-student-4-2-2-1-1 > li::marker { content: "("counter(preface-student-4-2-2-1-1,lower-alpha)")"; }
+#preface-student-4-2-2-1-1 > li { counter-increment: preface-student-4-2-2-1-1; }
+#preface-student-4-2-3-1-1 { counter-set: preface-student-4-2-3-1-1 0; }
+#preface-student-4-2-3-1-1 > li::marker { content: "("counter(preface-student-4-2-3-1-1,lower-alpha)")"; }
+#preface-student-4-2-3-1-1 > li { counter-increment: preface-student-4-2-3-1-1; }
+#preface-student-4-2-4-1-1 { counter-set: preface-student-4-2-4-1-1 0; }
+#preface-student-4-2-4-1-1 > li::marker { content: "("counter(preface-student-4-2-4-1-1,lower-alpha)")"; }
+#preface-student-4-2-4-1-1 > li { counter-increment: preface-student-4-2-4-1-1; }
+#preface-student-4-2-5-1-1 { counter-set: preface-student-4-2-5-1-1 0; }
+#preface-student-4-2-5-1-1 > li::marker { content: "("counter(preface-student-4-2-5-1-1,lower-alpha)")"; }
+#preface-student-4-2-5-1-1 > li { counter-increment: preface-student-4-2-5-1-1; }
+#preface-student-4-2-6-1-1 { counter-set: preface-student-4-2-6-1-1 0; }
+#preface-student-4-2-6-1-1 > li::marker { content: "("counter(preface-student-4-2-6-1-1,lower-alpha)")"; }
+#preface-student-4-2-6-1-1 > li { counter-increment: preface-student-4-2-6-1-1; }
+#subsection-enough-sigfigs-4-1 { counter-set: subsection-enough-sigfigs-4-1 0; }
+#subsection-enough-sigfigs-4-1 > li::marker { content: ""counter(subsection-enough-sigfigs-4-1,decimal)"."; }
+#subsection-enough-sigfigs-4-1 > li { counter-increment: subsection-enough-sigfigs-4-1; }
+#project-radiation-dosage-6-1-1-1 { counter-set: project-radiation-dosage-6-1-1-1 0; }
+#project-radiation-dosage-6-1-1-1 > li::marker { content: ""counter(project-radiation-dosage-6-1-1-1,decimal)"."; }
+#project-radiation-dosage-6-1-1-1 > li { counter-increment: project-radiation-dosage-6-1-1-1; }
+#project-unicorn-cake-2-5-1 { counter-set: project-unicorn-cake-2-5-1 0; }
+#project-unicorn-cake-2-5-1 > li::marker { content: ""counter(project-unicorn-cake-2-5-1,decimal)"."; }
+#project-unicorn-cake-2-5-1 > li { counter-increment: project-unicorn-cake-2-5-1; }
+</style>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chapter-exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-exponential.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-exponential-graph.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+\newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
+\newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-faculty.html" class="internal"><span class="title">For Faculty</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-si-standard" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Converting between Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-compound" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Converting Compound Units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-units.html#section-units-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-greatest-error" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Greatest Possible Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-enough.html#section-enough-7" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-models.html#section-models-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-literal-formula.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Project: Literal Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-percent.html#section-percent-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-mixture.html#subsection-produce-solution" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Producing a Desired Solution</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-mixture.html#section-mixture-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-ratios.html#section-ratios-6" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-extending-similarity" class="internal"><span class="codenumber">2.4.3.4</span> <span class="title">Similarity Beyond Triangles</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-proportion.html#section-proportion-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Terminology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Dilution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dosage</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-falseposition.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Project: False Position</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-60-1-1.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Project: Arclength Estimation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-linear-identify" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Identifying Linear Expressions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear.html#section-linear-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-linear-notation" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-graphing.html#section-graphing-7" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rates.html#section-rates-5" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-read" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Understand a Model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-ohm" class="internal"><span class="codenumber">3.5.2</span> <span class="title">First Example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Rates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-dual-mixture" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-linear-system-weird" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Other Cases</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear-systems.html#section-linear-systems-7" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cycling.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Project: Biking in Kansas and Alaska</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-radiation2.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Project: Radiation Dosage</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-2d" class="internal"><span class="codenumber">4.1.2</span> <span class="title">2D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry2D.html#section-geometry2D-6" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-3d" class="internal"><span class="codenumber">4.2.2</span> <span class="title">3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cake.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Project: Unicorn Cake</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-pattern" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Pattern</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-quadratic-solving" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-models" class="internal"><span class="codenumber">5.2.1.2</span> <span class="title">Solving Formulas with Quadratics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.1.3</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-4" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-powers-general" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Generalized Powers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-powers" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-roots-general" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-roots" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Transformations of Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-transformation" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Transformations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-change-form" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Forms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-6" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-6" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Evaluating and Solving with Logs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-logarithm-property-power" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Additional Logarithm Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-log-solve.html#section-log-solve-6" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-tod.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Project: Time of Death</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-side-and-angle-relations" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Side and Angle Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-6" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-applications1.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Using Trig Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-applications1.html#subsection-trig-function-application" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Calculating lengths using trig functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-applications1.html#section-trig-applications1-4" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-6" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-graphs.html#section-trig-graphs-6" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-trig-error.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Project: Effects of Scale on Error</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-exponential"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">6.1</span><span class="space"> </span><span class="title">Exponential Relations</span>
+</h2>
+<section class="introduction" id="section-exponential-2"><div class="para" id="section-exponential-2-1">In <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> we learned different ways data can change. These included linear, quadratic, exponential and inverse versions of these. Here we will look at more details of exponential relations.</div> <div class="para" id="section-exponential-2-2">For exponential relations we know that the differences (additive rate) is a multiple of the value (<a href="section-rates.html#definition-exponential-relation" class="xref" data-knowl="./knowl/xref/definition-exponential-relation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.14: Exponential Relation">Definition 3.3.14</a>) and that the percent increase is constant (<a href="section-rates.html#definition-exponential-relation-quotient" class="xref" data-knowl="./knowl/xref/definition-exponential-relation-quotient.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.18: Exponential">Definition 3.3.18</a>). Now we will learn to work with these relations in applications.</div></section><section class="subsection" id="subsection-vary-fast"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.1</span><span class="space"> </span><span class="title">Comparing Growth Rates</span>
+</h3>
+<div class="para" id="subsection-vary-fast-2">In colloquial speech <dfn class="terminology">exponential</dfn> is used to mean “very fast”. We are using a much more specific definition. Here we will see why we think of exponential as very fast. We will do this by comparing how fast exponential relations grow relative to linear, quadratic, and one new relation.</div>
+<div class="para" id="subsection-vary-fast-3">Consider the linear, quadratic, and exponential relations in <a href="section-exponential.html#table-differences-linear" class="xref" data-knowl="./knowl/xref/table-differences-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.1: Linear Relation">Table 6.1.1</a>, <a href="section-exponential.html#table-differences-quadratic2" class="xref" data-knowl="./knowl/xref/table-differences-quadratic2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.2: Quadratic Relation">Table 6.1.2</a>, and <a href="section-exponential.html#table-differences-exponential2" class="xref" data-knowl="./knowl/xref/table-differences-exponential2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.3: Exponential Relation">Table 6.1.3</a> respectively. Because the differences for a linear relation are always the same, eventually the values are bigger than the change (e.g., 5,8,11 are all bigger than 3). For both quadratic and exponential data the bigger they are the faster they grow. The growth is not the same however.</div>
+<div class="para" id="subsection-vary-fast-4">For the quadratic relation the first differences are getting bigger (at a constant rate), but eventually they are less than the value (e.g., 6,10,14 are less than 8,18, and 32 respectively) just like the linears. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic eventually.</div>
+<figure class="table table-like" id="table-differences-linear"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.1<span class="period">.</span></span><span class="space"> </span>Linear Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">1</td>
+<td class="r m b2 r2 l0 t2 lines">2</td>
+<td class="r m b2 r2 l0 t2 lines">3</td>
+<td class="r m b2 r2 l0 t2 lines">4</td>
+<td class="r m b2 r2 l0 t2 lines">5</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(3n+2\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">5</td>
+<td class="r m b2 r2 l0 t0 lines">8</td>
+<td class="r m b2 r2 l0 t0 lines">11</td>
+<td class="r m b2 r2 l0 t0 lines">14</td>
+<td class="r m b2 r2 l0 t0 lines">17</td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines">Differences</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+</tr>
+</table></div></figure><figure class="table table-like" id="table-differences-quadratic2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.2<span class="period">.</span></span><span class="space"> </span>Quadratic Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">1</td>
+<td class="r m b2 r2 l0 t2 lines">2</td>
+<td class="r m b2 r2 l0 t2 lines">3</td>
+<td class="r m b2 r2 l0 t2 lines">4</td>
+<td class="r m b2 r2 l0 t2 lines">5</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(2n^2\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">0</td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">8</td>
+<td class="r m b2 r2 l0 t0 lines">18</td>
+<td class="r m b2 r2 l0 t0 lines">32</td>
+<td class="r m b2 r2 l0 t0 lines">50</td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines">Differences</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">6</td>
+<td class="r m b2 r2 l0 t0 lines">10</td>
+<td class="r m b2 r2 l0 t0 lines">14</td>
+<td class="r m b2 r2 l0 t0 lines">18</td>
+</tr>
+</table></div></figure><figure class="table table-like" id="table-differences-exponential2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.3<span class="period">.</span></span><span class="space"> </span>Exponential Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">1</td>
+<td class="r m b2 r2 l0 t2 lines">2</td>
+<td class="r m b2 r2 l0 t2 lines">3</td>
+<td class="r m b2 r2 l0 t2 lines">4</td>
+<td class="r m b2 r2 l0 t2 lines">5</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(3(2^n)\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">6</td>
+<td class="r m b2 r2 l0 t0 lines">12</td>
+<td class="r m b2 r2 l0 t0 lines">24</td>
+<td class="r m b2 r2 l0 t0 lines">48</td>
+<td class="r m b2 r2 l0 t0 lines">96</td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines">Differences</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">6</td>
+<td class="r m b2 r2 l0 t0 lines">12</td>
+<td class="r m b2 r2 l0 t0 lines">24</td>
+<td class="r m b2 r2 l0 t0 lines">48</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-vary-fast-8">We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. <a href="section-exponential.html#table-ratios-linear" class="xref" data-knowl="./knowl/xref/table-ratios-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.4: Linear Relation">Table 6.1.4</a> has the ratios for a linear relation. Notice that <span class="process-math">\(\frac{8}{5} &lt; \frac{5}{2}\text{.}\)</span> This inequality is true of the other ratios. The ratios are becoming smaller; indeed they appear to be approaching 1. In <a href="section-exponential.html#table-ratios-exponential2" class="xref" data-knowl="./knowl/xref/table-ratios-exponential2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.5: Exponential Relation">Table 6.1.5</a>, the ratios for an exponential relation are constant. This also shows us that exponential relations grow faster than linear relations.</div>
+<figure class="table table-like" id="table-ratios-linear"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.4<span class="period">.</span></span><span class="space"> </span>Linear Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">1</td>
+<td class="r m b2 r2 l0 t2 lines">2</td>
+<td class="r m b2 r2 l0 t2 lines">3</td>
+<td class="r m b2 r2 l0 t2 lines">4</td>
+<td class="r m b2 r2 l0 t2 lines">5</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(3n+2\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">5</td>
+<td class="r m b2 r2 l0 t0 lines">8</td>
+<td class="r m b2 r2 l0 t0 lines">11</td>
+<td class="r m b2 r2 l0 t0 lines">14</td>
+<td class="r m b2 r2 l0 t0 lines">17</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Ratios</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(5/2\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(8/5\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(11/8\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(14/11\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(17/14\)</span></td>
+</tr>
+</table></div></figure><figure class="table table-like" id="table-ratios-exponential2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.5<span class="period">.</span></span><span class="space"> </span>Exponential Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">1</td>
+<td class="r m b2 r2 l0 t2 lines">2</td>
+<td class="r m b2 r2 l0 t2 lines">3</td>
+<td class="r m b2 r2 l0 t2 lines">4</td>
+<td class="r m b2 r2 l0 t2 lines">5</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(3(2^n)\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">6</td>
+<td class="r m b2 r2 l0 t0 lines">12</td>
+<td class="r m b2 r2 l0 t0 lines">24</td>
+<td class="r m b2 r2 l0 t0 lines">48</td>
+<td class="r m b2 r2 l0 t0 lines">96</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Ratios</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+</tr>
+</table></div></figure></section><section class="subsection" id="subsection-even-faster"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.2</span><span class="space"> </span><span class="title">Faster than Exponential</span>
+</h3>
+<div class="para" id="subsection-even-faster-2">The previous section might suggest that exponential is the fastest relation. It is not. In <a href="section-exponential.html#table-ratios-factorial" class="xref" data-knowl="./knowl/xref/table-ratios-factorial.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.6: Factorial Relation">Table 6.1.6</a> are the ratios for a relation known as factorial. Interestingly, the ratios giving the percent increase are linear. This is vaguely like quadratic relations where their differences are linear. As quadratic relations are faster growing than linear relations, so factorial relations are faster growing than exponential relations.</div>
+<figure class="table table-like" id="table-ratios-factorial"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.6<span class="period">.</span></span><span class="space"> </span>Factorial Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">1</td>
+<td class="r m b2 r2 l0 t2 lines">2</td>
+<td class="r m b2 r2 l0 t2 lines">3</td>
+<td class="r m b2 r2 l0 t2 lines">4</td>
+<td class="r m b2 r2 l0 t2 lines">5</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(n!\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">1</td>
+<td class="r m b2 r2 l0 t0 lines">1</td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">6</td>
+<td class="r m b2 r2 l0 t0 lines">24</td>
+<td class="r m b2 r2 l0 t0 lines">120</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Ratios</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">1</td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l0 t0 lines">4</td>
+<td class="r m b2 r2 l0 t0 lines">5</td>
+</tr>
+</table></div></figure></section><section class="subsection" id="subsection-exponential-application"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.3</span><span class="space"> </span><span class="title">Applications</span>
+</h3>
+<div class="para" id="subsection-exponential-application-2">The bacteria <dfn class="terminology">lactobacilus acidophilus</dfn> is known to grow exponentially in milk (part of making yogurt). Based on experiments a new generation of bacteria are formed every 70 minutes. For a while we can assume the original bacteria remain. Thus the population growth is as shown in <a href="section-exponential.html#table-bacteria-growth1" class="xref" data-knowl="./knowl/xref/table-bacteria-growth1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.7: Growth of Lactobacilus Acidophilus">Table 6.1.7</a>. Note that at 70 minutes the model supposes all 4000 cells divide producing 4000 new cells. Thus the total population is <span class="process-math">\(4000+4000=8000\text{.}\)</span> This repeats every 70 minutes. Because the cells split into two cells, the population doubles (multiply by 2).</div>
+<figure class="table table-like" id="table-bacteria-growth1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.7<span class="period">.</span></span><span class="space"> </span>Growth of <dfn class="terminology">Lactobacilus Acidophilus</dfn></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Minutes</td>
+<td class="l m b2 r2 l0 t2 lines">0</td>
+<td class="l m b2 r2 l0 t2 lines">70</td>
+<td class="l m b2 r2 l0 t2 lines">140</td>
+<td class="l m b2 r2 l0 t2 lines">210</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Population</td>
+<td class="l m b2 r2 l0 t0 lines">4000</td>
+<td class="l m b2 r2 l0 t0 lines">8000</td>
+<td class="l m b2 r2 l0 t0 lines">16000</td>
+<td class="l m b2 r2 l0 t0 lines">32000</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Added</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">4000</td>
+<td class="r m b2 r2 l0 t0 lines">8000</td>
+<td class="r m b2 r2 l0 t0 lines">16000</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-exponential-application-4">We can express this model in mathematical notation. Let’s walk through how <a href="section-exponential.html#table-bacteria-growth1" class="xref" data-knowl="./knowl/xref/table-bacteria-growth1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.7: Growth of Lactobacilus Acidophilus">Table 6.1.7</a> was constructed. The initial amount (information we are given) is <span class="process-math">\(P_0 = 4000\text{.}\)</span> After 70 minutes these double: <span class="process-math">\(P_1 = 4000(2) = 8000\text{.}\)</span> After 140 minutes they double a second time: <span class="process-math">\(P_2 = 4000(2)(2) = 16000\text{.}\)</span> After 210 minutes they double a third time: <span class="process-math">\(P_3 = 4000(2)(2)(2) = 32000\text{.}\)</span>
+</div>
+<div class="para" id="subsection-exponential-application-5">Generally if we know the number of minutes <span class="process-math">\(t\text{,}\)</span> then dividing by 70 tells us how many times cells have divided in two. We want to multiply the initial amount (4000 in this case) by two (double the population) for each of these. This gives us <span class="process-math">\(P = 4000 \cdot 2^{t/70}\text{.}\)</span>
+</div>
+<article class="example example-like" id="example-exponential-cat-video"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-exponential-cat-video-1-1">A new cat video is posted and 12 people view it. Every 4 days after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.</div>
+<div class="solutions"><details id="example-exponential-cat-video-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-exponential-cat-video-2-1">
+<div class="para">We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v = 12(3^{d/4})
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="exercise exercise-like" id="exercise-exponential-bacillus-megaterium"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="exercise-exponential-bacillus-megaterium-1-1">The bacteria <dfn class="terminology">bacillus megaterium</dfn> grows exponentially. It forms a new generation every 25 minutes. Write an equation to model this grows supposing there are 30 g bacteria at the beginning.</div>
+<div class="solutions"><details id="exercise-exponential-bacillus-megaterium-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="exercise-exponential-bacillus-megaterium-2-1"><div class="displaymath process-math">
+\begin{equation*}
+b = 30(2^{t/25})
+\end{equation*}
+</div></div></div></details></div></article><div class="para logical" id="subsection-exponential-application-8">
+<div class="para">Note that in general these types of exponential growth models look like</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P = P_0 (r^t)
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(P\)</span> is the current population (or count), <span class="process-math">\(P_0\)</span> is the initial population (or count), and <span class="process-math">\(r\)</span> is the rate at which the population grows (e.g., doubles, triples).</div>
+</div>
+<div class="para" id="subsection-exponential-application-9">To write the model (equation) we need to know an initial amount and the rate of increase or decrease.</div>
+<article class="example example-like" id="example-exponential-hares"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-exponential-hares-1-1">Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.</div>
+<div class="solutions"><details id="example-exponential-hares-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-exponential-hares-2-1">
+<div class="para">The initial population is <span class="process-math">\(P_0=320\text{.}\)</span> Because the rate is doubling, we know that <span class="process-math">\(r=2\text{.}\)</span> If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using <span class="process-math">\(t/200\text{.}\)</span> Note this means 200 gives doubling once (<span class="process-math">\(200/200=1\)</span>), and 400 gives doubling twice (<span class="process-math">\(400/200=2\)</span>).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P=320(2^{t/200})
+\end{equation*}
+</div>
+</div></div></details></div></article><div class="para" id="subsection-exponential-application-11">We learned in <a href="section-rates.html#subsection-quotients" class="internal" title="Subsection 3.3.2: Quotients">Subsection 3.3.2</a> that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.</div>
+<article class="example example-like" id="example-write-exponential-parameters"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-write-exponential-parameters-1-1">Tien’s initial salary was $52,429.33. He received a 5% raise each year. What should Tien’s salary be entering the sixth year?</div>
+<div class="solutions"><details id="example-write-exponential-parameters-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-write-exponential-parameters-2-1">
+<div class="para">Because the raise is a 5% increase, the percent is <span class="process-math">\(p=1.05\text{.}\)</span> The model then is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S=\$52,429.33(1.05)^t
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(t\)</span> is the number of years since he was hired. Entering the sixth year would mean five raises. His salary would be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S=\$52,429.33(1.05)^5 = \$66,914.59.
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="example-write-exponential-parameters-reverse"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-write-exponential-parameters-reverse-1-1">If Moses’ salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?</div>
+<div class="solutions"><details id="example-write-exponential-parameters-reverse-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-write-exponential-parameters-reverse-2-1">
+<div class="para">Because the raise is a 4% increase, the percent is <span class="process-math">\(p=1.04\text{.}\)</span> The model then is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S=S_0(1.04)^t
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(t\)</span> is the number of years since he was hired, and <span class="process-math">\(S_0\)</span> is the initial salary. We can now solve for the initial salary.</div>
+<div class="displaymath process-math" id="example-write-exponential-parameters-reverse-2-1-5">
+\begin{align*}
+\$72,311.54 \amp = S_0(1.04)^6.\\
+\$72,311.54 \amp = S_0(1.2653).\\
+\frac{\$72,311.54}{1.2653} \amp = \frac{S_0(1.2653)}{1.2653}.\\
+\$57,149.72 \amp = S_0.
+\end{align*}
+</div>
+<div class="para">Note, because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.</div>
+</div></div></details></div></article><article class="example example-like" id="example-write-exponential-parameters-one-pt"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-write-exponential-parameters-one-pt-1-1">We will calculate the percent increase given initial and final salaries. If Raven’s initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?</div>
+<div class="solutions"><details id="example-write-exponential-parameters-one-pt-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-write-exponential-parameters-one-pt-2-1">
+<div class="para">The end of seven years means there have been six raises. From the two data points we know</div>
+<div class="displaymath process-math" id="example-write-exponential-parameters-one-pt-2-1-1">
+\begin{align*}
+67368.33 &amp; = 53242.17(r^6)\\
+\frac{67368.33}{53242.17} &amp; = r^6\\
+\sqrt[6]{\frac{67368.33}{53242.17}} &amp; = \sqrt[6]{r^6}\\
+1.04 &amp; = r
+\end{align*}
+</div>
+<div class="para">Thus her annual percentage increase was 4%. The full model is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S = 53242.17(1.04)^t
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(t\)</span> is time in years.</div>
+</div></div></details></div></article></section><section class="subsection" id="subsection-exponential-interp"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.4</span><span class="space"> </span><span class="title">Interpretation of Exponentials</span>
+</h3>
+<div class="para logical" id="subsection-exponential-interp-2">
+<div class="para">There is more than one way to interpret the base (e.g., the 7 in <span class="process-math">\(P=5(7^n)\)</span>). When it is an integer like 2 (<span class="process-math">\(P=5(2^n)\)</span>) or 3 (<span class="process-math">\(P=7(3^n)\)</span>) it tells us that the data is doubling or tripling. When the base looks like 1.053 (<span class="process-math">\(P=100(1.053)^n\)</span>) it tells us the percent increase. In this example this represents a 5.3% increase. Recall from <a href="section-percent.html#subsection-percent-increase" class="internal" title="Subsection 2.1.2: Percent Increase/Decrease">Subsection 2.1.2</a> that a 3% decrease is represented by <span class="process-math">\(100\%-3\%=97\%\text{.}\)</span> In an exponential model this would look like <span class="process-math">\(P=100(0.97)^n\text{.}\)</span> Generally interpreted as a percent the exponential model is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subsection-percent-increase.html">
+\begin{equation*}
+P=P_0(r)^n=P_0(1 \pm p)^n.
+\end{equation*}
+</div>
+</div>
+<article class="example example-like" id="example-percent-increase-read"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-percent-increase-read-1-1">Suppose <span class="process-math">\(P=100(1.032)^t\)</span> where <span class="process-math">\(t\)</span> is the number of years. What is the annual percent increase?</div>
+<div class="solutions"><details id="example-percent-increase-read-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-percent-increase-read-2-1">
+<div class="para">We know that</div>
+<div class="displaymath process-math" id="example-percent-increase-read-2-1-1">
+\begin{align*}
+1.032 \amp = 1+p\\
+1.032-1 \amp = p\\
+0.032 \amp = p
+\end{align*}
+</div>
+<div class="para">so this is a 3.2% increase.</div>
+</div></div></details></div></article><article class="example example-like" id="example-percent-decrease-read"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-percent-decrease-read-1-1">Suppose <span class="process-math">\(P=100(0.88)^t\)</span> where <span class="process-math">\(t\)</span> is the number of years. What is the annual percent decrease?</div>
+<div class="solutions"><details id="example-percent-decrease-read-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-percent-decrease-read-2-1">
+<div class="para">We know that</div>
+<div class="displaymath process-math" id="example-percent-decrease-read-2-1-1">
+\begin{align*}
+0.88 \amp = 1-p\\
+0.88-1 \amp = -p\\
+-0.12 \amp = -p\\
+0.12 \amp = p
+\end{align*}
+</div>
+<div class="para">so this is a 12% decrease.</div>
+</div></div></details></div></article><article class="example example-like" id="example-percent-increase-decrease"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-percent-increase-decrease-1-1">Suppose <span class="process-math">\(P=230(1.03)^t\text{.}\)</span> Is this increase or decrease and what is the percent increase/decrease?</div>
+<div class="solutions"><details id="example-percent-increase-decrease-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-percent-increase-decrease-2-1">
+<div class="para">Because <span class="process-math">\(1.03 &gt; 1.00\)</span> this is a percent increase.</div>
+<div class="displaymath process-math" id="example-percent-increase-decrease-2-1-2">
+\begin{align*}
+1.03 \amp = 1 + p\\
+1.03-1 \amp = p\\
+0.03 \amp = p
+\end{align*}
+</div>
+<div class="para">Thus this is a 3% increase.</div>
+</div></div></details></div></article><div class="para" id="subsection-exponential-interp-6">Even when the exponential model is expressed in terms of fractions, we can determine the percent increase or decrease.</div>
+<article class="example example-like" id="example-convert-percent-increase"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-convert-percent-increase-1-1">In the exponential model <span class="process-math">\(P=342\left(\frac{7}{5}\right)^n\)</span> what is the percent increase or decrease?</div>
+<div class="solutions"><details id="example-convert-percent-increase-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-convert-percent-increase-2-1">We convert the fraction <span class="process-math">\(7/5\)</span> to decimal: 1.40. Because it is bigger than one it is a percent increase. Note <span class="process-math">\(1.40=1+0.40\text{,}\)</span> so this is a 40% increase.</div></div></details></div></article><article class="example example-like" id="example-convert-percent-decrease"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.18</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-convert-percent-decrease-1-1">In the exponential model <span class="process-math">\(P=342\left(\frac{39}{40}\right)^n\)</span> what is the percent increase or decrease?</div>
+<div class="solutions"><details id="example-convert-percent-decrease-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-convert-percent-decrease-2-1">We convert the fraction <span class="process-math">\(39/40\)</span> to decimal: 0.975. Because it is less than one it is a percent decrease. Note <span class="process-math">\(1-0.975=0.025\text{,}\)</span> so this is a 2.5% decrease.</div></div></details></div></article><div class="para" id="subsection-exponential-interp-9">A common base for exponentials in many scientific models is <span class="process-math">\(e\text{.}\)</span> We can work with this base using calculation devices which will have an <span class="process-math">\(e^x\)</span> button or an <span class="process-math">\(\text{exp}(x)\)</span> function.</div>
+<article class="example example-like" id="example-convert-exp-percent"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.19</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-convert-exp-percent-1-1">What is the percent increase or decrease for the exponential model <span class="process-math">\(P=27e^{0.02t}\text{?}\)</span>
+</div>
+<div class="solutions"><details id="example-convert-exp-percent-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-convert-exp-percent-2-1">Just as with the fractions we convert to decimal. Note that we can also write the model <span class="process-math">\(P=27(e^{0.02})^t\text{.}\)</span> Do you see the difference? <span class="process-math">\(e^{0.02} \approx 1.0202\text{.}\)</span> Thus this is a percent increase of 2.02%.</div></div></details></div></article><article class="exercise exercise-like" id="exercise-exponential-percent-increase"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.20</span><span class="period">.</span>
+</h4>
+<div id="webwork-12" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="12" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VyUmFkaW9CdXR0b25zLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTskZXhwcmVzc2lvbnMgPSBSYWRpb0J1dHRvbnMoWyJJbmNyZWFzZSIsIkRlY3JlYXNlIl0sIDApOwoKQkVHSU5fUEdNTApJbiB0aGUgbW9kZWwgW2BQPTE3M2VeezAuMDV0fWBdIHdoYXQgaXMgdGhlIHBlcmNlbnQgaW5jcmVhc2Ugb3IgZGVjcmVhc2UgKDIgZGVjaW1hbCBwbGFjZXMpPwoKSXQgaXMgYSBwZXJjZW50IFtfXXskZXhwcmVzc2lvbnN9ezV9IG9mIFtfXXsnNS4xMyd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgY2FsY3VsYXRlIFtgZV57MC4wNX0gXGFwcHJveCAxLjA1MTI3MTA5Nlx0ZXh0ey59YF0gVGhpcyBpcyBncmVhdGVyIHRoYW4gb25lIHNvIGl0IGlzIGEgcGVyY2VudCBpbmNyZWFzZS4gVGhlIHBlcmNlbnQgaXMgNS4xMwoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-12')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-12-1-1-1">In the model <span class="process-math">\(P=173e^{0.05t}\)</span> what is the percent increase or decrease (2 decimal places)?</div> <div class="para logical" id="extracted-webwork-12-1-1-2">
+<div class="para">It is a percent</div>
+<ul class="circle" id="extracted-webwork-12-1-1-2-1">
+<li id="extracted-webwork-12-1-1-2-1-1"><div class="para" id="extracted-webwork-12-1-1-2-1-1-1">Increase</div></li>
+<li id="extracted-webwork-12-1-1-2-1-2"><div class="para" id="extracted-webwork-12-1-1-2-1-2-1">Decrease</div></li>
+</ul>
+<div class="para">of <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
+</div>
+</div>
+<div class="solutions">
+<details id="extracted-webwork-12-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-12-1-2-1"><span class="process-math">\(\text{Increase}\)</span></div></div></details><details id="extracted-webwork-12-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-12-1-3-1"><span class="process-math">\(5.13\)</span></div></div></details><details id="extracted-webwork-12-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="extracted-webwork-12-1-4-1">We calculate <span class="process-math">\(e^{0.05} \approx 1.051271096\text{.}\)</span> This is greater than one so it is a percent increase. The percent is 5.13</div></div></details>
+</div>
+</div>
+</div></article></section><section class="exercises" id="section-exponential-7"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">6.1.5</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<div class="exercisegroup" id="section-exponential-7-1">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="section-exponential-7-1-1"><div class="para" id="section-exponential-7-1-1-1">Calculate results for exponential relations.</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="section-exponential-7-1-2"><h5 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-1-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-7-1-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-3"><h5 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-1-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-7-1-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-4"><h5 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-1-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-7-1-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-5"><h5 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-1-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-7-1-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-6"><h5 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-1-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-7-1-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-7"><h5 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-1-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-7-1-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-8"><h5 class="heading">
+<span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-1-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=34501&amp;frame_id=momsection-exponential-7-1-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-9"><h5 class="heading">
+<span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Faux Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2639&amp;frame_id=momsection-exponential-7-1-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-10"><h5 class="heading">
+<span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820197&amp;frame_id=momsection-exponential-7-1-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-11"><h5 class="heading">
+<span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2555&amp;frame_id=momsection-exponential-7-1-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-12"><h5 class="heading">
+<span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=915429&amp;frame_id=momsection-exponential-7-1-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-13"><h5 class="heading">
+<span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3587&amp;frame_id=momsection-exponential-7-1-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-14"><h5 class="heading">
+<span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2645&amp;frame_id=momsection-exponential-7-1-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-15"><h5 class="heading">
+<span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2646&amp;frame_id=momsection-exponential-7-1-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-16"><h5 class="heading">
+<span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=225121&amp;frame_id=momsection-exponential-7-1-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-17"><h5 class="heading">
+<span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=915440&amp;frame_id=momsection-exponential-7-1-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-18"><h5 class="heading">
+<span class="codenumber">17<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436228&amp;frame_id=momsection-exponential-7-1-18-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-19"><h5 class="heading">
+<span class="codenumber">18<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h5>
+<div id="momsection-exponential-7-1-19-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-19-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436224&amp;frame_id=momsection-exponential-7-1-19-2"></iframe></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="section-exponential-7-2">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="section-exponential-7-2-1"><div class="para" id="section-exponential-7-2-1-1">Graph exponential relations</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="section-exponential-7-2-2"><h5 class="heading">
+<span class="codenumber">19<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-2-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1498&amp;frame_id=momsection-exponential-7-2-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-3"><h5 class="heading">
+<span class="codenumber">20<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-2-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1762&amp;frame_id=momsection-exponential-7-2-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-4"><h5 class="heading">
+<span class="codenumber">21<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-2-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3600&amp;frame_id=momsection-exponential-7-2-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-5"><h5 class="heading">
+<span class="codenumber">22<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-2-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3606&amp;frame_id=momsection-exponential-7-2-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-6"><h5 class="heading">
+<span class="codenumber">23<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-2-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3607&amp;frame_id=momsection-exponential-7-2-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-7"><h5 class="heading">
+<span class="codenumber">24<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-2-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=99678&amp;frame_id=momsection-exponential-7-2-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-8"><h5 class="heading">
+<span class="codenumber">25<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h5>
+<div id="momsection-exponential-7-2-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=114632&amp;frame_id=momsection-exponential-7-2-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-9"><h5 class="heading">
+<span class="codenumber">26<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
+</h5>
+<div id="momsection-exponential-7-2-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-7-2-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-10"><h5 class="heading">
+<span class="codenumber">27<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
+</h5>
+<div id="momsection-exponential-7-2-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-7-2-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-11"><h5 class="heading">
+<span class="codenumber">28<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
+</h5>
+<div id="momsection-exponential-7-2-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-7-2-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-12"><h5 class="heading">
+<span class="codenumber">29<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
+</h5>
+<div id="momsection-exponential-7-2-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-7-2-12-2"></iframe></div></article>
+</div>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chapter-exponential.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-exponential-graph.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Linear Expressions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="http://aholiab.uaa.alaska.edu/mital/external/images/UAA_GG.png">
+<meta property="book:title" content="Mathematics in Trades and Life">
+<meta property="book:author" content="Mark Fitch">
+<meta property="book:author" content="Megan Ossiander-Gobeille">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork.uaa.alaska.edu/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.4.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.04737dc219c2d2eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<style>
+#preface-student-4-1 { counter-set: preface-student-4-1 0; }
+#preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
+#preface-student-4-1 > li { counter-increment: preface-student-4-1; }
+#preface-student-4-2 { counter-set: preface-student-4-2 0; }
+#preface-student-4-2 > li::marker { content: ""counter(preface-student-4-2,decimal)"."; }
+#preface-student-4-2 > li { counter-increment: preface-student-4-2; }
+#preface-student-4-2-1-1-1 { counter-set: preface-student-4-2-1-1-1 0; }
+#preface-student-4-2-1-1-1 > li::marker { content: "("counter(preface-student-4-2-1-1-1,lower-alpha)")"; }
+#preface-student-4-2-1-1-1 > li { counter-increment: preface-student-4-2-1-1-1; }
+#preface-student-4-2-2-1-1 { counter-set: preface-student-4-2-2-1-1 0; }
+#preface-student-4-2-2-1-1 > li::marker { content: "("counter(preface-student-4-2-2-1-1,lower-alpha)")"; }
+#preface-student-4-2-2-1-1 > li { counter-increment: preface-student-4-2-2-1-1; }
+#preface-student-4-2-3-1-1 { counter-set: preface-student-4-2-3-1-1 0; }
+#preface-student-4-2-3-1-1 > li::marker { content: "("counter(preface-student-4-2-3-1-1,lower-alpha)")"; }
+#preface-student-4-2-3-1-1 > li { counter-increment: preface-student-4-2-3-1-1; }
+#preface-student-4-2-4-1-1 { counter-set: preface-student-4-2-4-1-1 0; }
+#preface-student-4-2-4-1-1 > li::marker { content: "("counter(preface-student-4-2-4-1-1,lower-alpha)")"; }
+#preface-student-4-2-4-1-1 > li { counter-increment: preface-student-4-2-4-1-1; }
+#preface-student-4-2-5-1-1 { counter-set: preface-student-4-2-5-1-1 0; }
+#preface-student-4-2-5-1-1 > li::marker { content: "("counter(preface-student-4-2-5-1-1,lower-alpha)")"; }
+#preface-student-4-2-5-1-1 > li { counter-increment: preface-student-4-2-5-1-1; }
+#preface-student-4-2-6-1-1 { counter-set: preface-student-4-2-6-1-1 0; }
+#preface-student-4-2-6-1-1 > li::marker { content: "("counter(preface-student-4-2-6-1-1,lower-alpha)")"; }
+#preface-student-4-2-6-1-1 > li { counter-increment: preface-student-4-2-6-1-1; }
+#subsection-enough-sigfigs-4-1 { counter-set: subsection-enough-sigfigs-4-1 0; }
+#subsection-enough-sigfigs-4-1 > li::marker { content: ""counter(subsection-enough-sigfigs-4-1,decimal)"."; }
+#subsection-enough-sigfigs-4-1 > li { counter-increment: subsection-enough-sigfigs-4-1; }
+#project-radiation-dosage-6-1-1-1 { counter-set: project-radiation-dosage-6-1-1-1 0; }
+#project-radiation-dosage-6-1-1-1 > li::marker { content: ""counter(project-radiation-dosage-6-1-1-1,decimal)"."; }
+#project-radiation-dosage-6-1-1-1 > li { counter-increment: project-radiation-dosage-6-1-1-1; }
+#project-unicorn-cake-2-5-1 { counter-set: project-unicorn-cake-2-5-1 0; }
+#project-unicorn-cake-2-5-1 > li::marker { content: ""counter(project-unicorn-cake-2-5-1,decimal)"."; }
+#project-unicorn-cake-2-5-1 > li { counter-increment: project-unicorn-cake-2-5-1; }
+</style>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chapter-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-graphing.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+\newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
+\newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-faculty.html" class="internal"><span class="title">For Faculty</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-si-standard" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Converting between Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-compound" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Converting Compound Units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-units.html#section-units-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-greatest-error" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Greatest Possible Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-enough.html#section-enough-7" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-models.html#section-models-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-literal-formula.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Project: Literal Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-percent.html#section-percent-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-mixture.html#subsection-produce-solution" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Producing a Desired Solution</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-mixture.html#section-mixture-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-ratios.html#section-ratios-6" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-extending-similarity" class="internal"><span class="codenumber">2.4.3.4</span> <span class="title">Similarity Beyond Triangles</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-proportion.html#section-proportion-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Terminology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Dilution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dosage</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-falseposition.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Project: False Position</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-60-1-1.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Project: Arclength Estimation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-linear-identify" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Identifying Linear Expressions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear.html#section-linear-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-linear-notation" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-graphing.html#section-graphing-7" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rates.html#section-rates-5" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-read" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Understand a Model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-ohm" class="internal"><span class="codenumber">3.5.2</span> <span class="title">First Example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Rates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-dual-mixture" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-linear-system-weird" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Other Cases</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear-systems.html#section-linear-systems-7" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cycling.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Project: Biking in Kansas and Alaska</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-radiation2.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Project: Radiation Dosage</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-2d" class="internal"><span class="codenumber">4.1.2</span> <span class="title">2D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry2D.html#section-geometry2D-6" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-3d" class="internal"><span class="codenumber">4.2.2</span> <span class="title">3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cake.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Project: Unicorn Cake</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-pattern" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Pattern</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-quadratic-solving" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-models" class="internal"><span class="codenumber">5.2.1.2</span> <span class="title">Solving Formulas with Quadratics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.1.3</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-4" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-powers-general" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Generalized Powers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-powers" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-roots-general" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-roots" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Transformations of Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-transformation" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Transformations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-change-form" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Forms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-6" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-6" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Evaluating and Solving with Logs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-logarithm-property-power" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Additional Logarithm Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-log-solve.html#section-log-solve-6" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-tod.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Project: Time of Death</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-side-and-angle-relations" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Side and Angle Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-6" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-applications1.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Using Trig Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-applications1.html#subsection-trig-function-application" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Calculating lengths using trig functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-applications1.html#section-trig-applications1-4" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-6" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-graphs.html#section-trig-graphs-6" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-trig-error.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Project: Effects of Scale on Error</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-linear"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Linear Expressions</span>
+</h2>
+<section class="introduction" id="section-linear-2"><div class="para logical" id="section-linear-2-1">
+<div class="para">This section addresses the topics</div>
+<ul class="disc" id="section-linear-2-1-1">
+<li id="section-linear-2-1-1-1"><div class="para" id="p-derived-section-linear-2-1-1-1">Interpret data in various formats and analyze mathematical models</div></li>
+<li id="section-linear-2-1-1-2"><div class="para" id="p-derived-section-linear-2-1-1-2">Read and use mathematical models in a technical document</div></li>
+</ul>
+<div class="para">and covers the mathematical concepts</div>
+<ul class="disc" id="section-linear-2-1-2">
+<li id="section-linear-2-1-2-1"><div class="para" id="p-derived-section-linear-2-1-2-1">Solve <em class="emphasis">linear</em>, rational, quadratic, and exponential equations and formulas (skill)</div></li>
+<li id="section-linear-2-1-2-2"><div class="para" id="p-derived-section-linear-2-1-2-2">Read and interpret models (critical thinking)</div></li>
+<li id="section-linear-2-1-2-3"><div class="para" id="p-derived-section-linear-2-1-2-3">Use models including <em class="emphasis">linear</em>, quadratic, exponential/logarithmic, and trigonometric (skill)</div></li>
+</ul>
+</div> <div class="para" id="section-linear-2-2">Having looked at models in general this section presents linear models. First, we look at some examples and learn how the pieces of a linear model work. Next, we learn to write linear models given a description of a problem. After that we practice solving for different parts of a linear equation. <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> will introduce a more in depth look at identifying linear models.</div></section><section class="subsection" id="subsection-present-linear"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">Linear Models</span>
+</h3>
+<div class="para" id="subsection-present-linear-2">This section presents examples of linear models and provides an explanation for the two parts of a linear model.</div>
+<div class="para logical" id="subsection-present-linear-3">
+<div class="para">A linear model (equation) can be written in the following, equivalent forms.</div>
+<ul class="disc" id="subsection-present-linear-3-1">
+<li id="subsection-present-linear-3-1-1"><div class="para" id="p-derived-subsection-present-linear-3-1-1"><span class="process-math">\(\displaystyle y=\frac{a}{b}x+c\)</span></div></li>
+<li id="subsection-present-linear-3-1-2"><div class="para" id="p-derived-subsection-present-linear-3-1-2"><span class="process-math">\(\displaystyle by-ax-bc = 0\)</span></div></li>
+</ul>
+</div>
+<section class="paragraphs" id="model-temperature-altitude-fahrenheit"><h4 class="heading"><span class="title">Model of Temperature Change with Altitude.</span></h4> <div class="para logical" id="model-temperature-altitude-fahrenheit-2">
+<div class="para">As a result of atmospheric physics temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T_A = T_G - \left(\frac{3.5}{1000}\right)A.
+\end{equation*}
+</div>
+<ul class="disc" id="model-temperature-altitude-fahrenheit-2-2">
+<li id="model-temperature-altitude-fahrenheit-2-2-1"><div class="para" id="p-derived-model-temperature-altitude-fahrenheit-2-2-1">
+<span class="process-math">\(T_A\)</span> is the expected temperature at the specified altitude.</div></li>
+<li id="model-temperature-altitude-fahrenheit-2-2-2"><div class="para" id="p-derived-model-temperature-altitude-fahrenheit-2-2-2">
+<span class="process-math">\(T_G\)</span> is the temperature at ground level.</div></li>
+<li id="model-temperature-altitude-fahrenheit-2-2-3"><div class="para" id="p-derived-model-temperature-altitude-fahrenheit-2-2-3">
+<span class="process-math">\(A\)</span> is the specified altitude in number of feet above ground level.</div></li>
+<li id="model-temperature-altitude-fahrenheit-2-2-4"><div class="para" id="p-derived-model-temperature-altitude-fahrenheit-2-2-4">
+<span class="process-math">\(\frac{3.5^\circ}{1000 \text{ ft}}\)</span> is the rate of temperature decrease.</div></li>
+</ul>
+<div class="para">All temperatures are in Fahrenheit.</div>
+</div> <div class="para" id="model-temperature-altitude-fahrenheit-3">Note <span class="process-math">\(T_G\)</span> is a parameter, that is, this model depends on the temperature at ground level which of course differs by location and time. We need to obtain that before we can use the model. This is in contrast to the rate 3.5/1000 which is fixed (a result of atmospheric physics). The model states that temperature decreases with altitude, which is why altitude (<span class="process-math">\(A\)</span>) is the variable.</div> <div class="para" id="model-temperature-altitude-fahrenheit-4">To model the temperature decreasing the rate is negative: subtracting from the starting temperature results in a decrease. All linear models have a rate.</div> <div class="para" id="model-temperature-altitude-fahrenheit-5">The decrease begins from <span class="process-math">\(T_G\text{.}\)</span> This ground level temperature is a starting point from which change occurs. All linear models have a starting point (or shift).</div></section><article class="example example-like" id="example-linear-model-read1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-linear-model-read1-1-1">If the temperature at ground level is 43° what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?</div> <div class="para" id="example-linear-model-read1-1-2">Because fractions of a degree are not useful in making decisions like what to wear, we will round to units.</div>
+<div class="solutions"><details id="example-linear-model-read1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-linear-model-read1-2-1">
+<div class="para">Note <span class="process-math">\(T_G = 43^\circ\text{.}\)</span> We need to calculate <span class="process-math">\(T_A\)</span> for <span class="process-math">\(A=1000, 2000, 3000, 3500\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="example-linear-model-read1-2-1-4">
+\begin{align*}
+T_{1000} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(1000 \text{ ft})\\
+&amp; = 39.5\\
+&amp; \approx 40.\\
+T_{2000} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(2000 \text{ ft})\\
+&amp; = 36.\\
+T_{3000} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(3000 \text{ ft})\\
+&amp; = 32.5\\
+&amp; \approx 33.\\
+T_{3500} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(3500 \text{ ft})\\
+&amp; = 30.75\\
+&amp; \approx 31.
+\end{align*}
+</div>
+</div> <div class="para" id="example-linear-model-read1-2-2">Notice that we now know that it will be below freezing just above 3000 ft.</div>
+</div></details></div></article><section class="paragraphs" id="model-time-to-altitude"><h4 class="heading"><span class="title">Model of Time to Altitude.</span></h4> <div class="para logical" id="model-time-to-altitude-2">
+<div class="para">A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A_t = A_G+C \cdot t.
+\end{equation*}
+</div>
+<ul class="disc" id="model-time-to-altitude-2-2">
+<li id="model-time-to-altitude-2-2-1"><div class="para" id="p-derived-model-time-to-altitude-2-2-1">
+<span class="process-math">\(A_t\)</span> is the altitude after <span class="process-math">\(t\)</span> minutes.</div></li>
+<li id="model-time-to-altitude-2-2-2"><div class="para" id="p-derived-model-time-to-altitude-2-2-2">
+<span class="process-math">\(A_G\)</span> is the starting altitude (likely ground level) in feet mean sea level (MSL).</div></li>
+<li id="model-time-to-altitude-2-2-3"><div class="para" id="p-derived-model-time-to-altitude-2-2-3">
+<span class="process-math">\(C\)</span> is the rate of climb in feet per minute.</div></li>
+<li id="model-time-to-altitude-2-2-4"><div class="para" id="p-derived-model-time-to-altitude-2-2-4">
+<span class="process-math">\(t\)</span> is the time since the climb began in minutes.</div></li>
+</ul>
+</div> <div class="para" id="model-time-to-altitude-3">Note <span class="process-math">\(A_G\)</span> is a parameter, that is, this model depends on the elevation from which the plane begins to climb. This varies by airport (if the climb is started from the ground) or by the situation (if the plane needs to climb from some elevation at which it is flying). The rate <span class="process-math">\(C\)</span> is also a parameter which must be obtained for each plane and is often available in the aircraft’s Pilot’s Operating Handbook (POH). The model states that altitude increases with time, which is why time (<span class="process-math">\(t\)</span>) is the variable.</div> <div class="para" id="model-time-to-altitude-4">In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).</div> <div class="para" id="model-time-to-altitude-5">Note the same plane will reach a given altitude after different amounts of time depending on how high it was to start with. <span class="process-math">\(A_G\)</span> shifts the model up or down to represent this.</div></section><article class="example example-like" id="example-linear-model-read2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-linear-model-read2-1-1">If a plane begins at 160 ft MSL and is climbing at 700 ft/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?</div> <div class="para" id="example-linear-model-read2-1-2">These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for <span class="process-math">\(A_G\)</span> is to round down: this will give us a lower altitude. If that lower altitude is safe, then one 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude at 700 ft/min, then we will reach it a little earlier at 720 ft/min.</div>
+<div class="solutions"><details id="example-linear-model-read2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-linear-model-read2-2-1">
+<div class="para">Note</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A_t = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot t.
+\end{equation*}
+</div>
+<div class="para">The expected altitudes are</div>
+<div class="displaymath process-math" id="example-linear-model-read2-2-1-2">
+\begin{align*}
+A_t &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 5 \text{ min}\\
+&amp; = 3660.\\
+A_t &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 10 \text{ min}\\
+&amp; = 7160.\\
+A_t &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 15 \text{ min}\\
+&amp; = 10660.
+\end{align*}
+</div>
+</div> <div class="para" id="example-linear-model-read2-2-2">Note if we need to climb above 4500 ft MSL we will achieve this in between 5 and 10 minutes (closer to 5).</div>
+</div></details></div></article><section class="paragraphs" id="model-fuel-remaining"><h4 class="heading"><span class="title">Model of Fuel Remaining Calculation.</span></h4> <div class="para logical" id="model-fuel-remaining-2">
+<div class="para">When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F_t = F_I - r \cdot t.
+\end{equation*}
+</div>
+<ul class="disc" id="model-fuel-remaining-2-2">
+<li id="model-fuel-remaining-2-2-1"><div class="para" id="p-derived-model-fuel-remaining-2-2-1">
+<span class="process-math">\(F_t\)</span> is the amount of fuel remaining after <span class="process-math">\(t\)</span> minutes.</div></li>
+<li id="model-fuel-remaining-2-2-2"><div class="para" id="p-derived-model-fuel-remaining-2-2-2">
+<span class="process-math">\(F_I\)</span> is the amount of fuel at the beginning.</div></li>
+<li id="model-fuel-remaining-2-2-3"><div class="para" id="p-derived-model-fuel-remaining-2-2-3">
+<span class="process-math">\(r\)</span> is the rate (volume per time) at which fuel is being consumed.</div></li>
+<li id="model-fuel-remaining-2-2-4"><div class="para" id="p-derived-model-fuel-remaining-2-2-4">
+<span class="process-math">\(t\)</span> is the time the vehicle has been operated.</div></li>
+</ul>
+<div class="para">Fuel amounts will be measured in units of volume like gallons or liters. Time will be measured in minutes or hours. The rate <span class="process-math">\(r\)</span> is then in units such as gallons/hour or liters/min.</div>
+</div> <div class="para" id="model-fuel-remaining-3">Note <span class="process-math">\(F_I\)</span> is a parameter, that is, this model depends on the amount of fuel with which we began. The rate <span class="process-math">\(r\)</span> is also a parameter which must be obtained for each vehicle. Often this is not shown during operation (fuel gauges show how much rather than how fast). The model states that the amount of fuel decreases with time, which is why time (<span class="process-math">\(t\)</span>) is the variable.</div> <div class="para" id="model-fuel-remaining-4">Because fuel decreases the <span class="process-math">\(r \cdot t\)</span> term is subtracted decreasing the amount from <span class="process-math">\(F_I\text{.}\)</span>
+</div> <div class="para" id="model-fuel-remaining-5">Note the same plane will reach a given remaining fuel amount (like empty) at different times depending on how much we have at the beginning. <span class="process-math">\(F_I\)</span> shifts the model up or down to represent this.</div></section><article class="example example-like" id="example-linear-model-read3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-linear-model-read3-1-1">If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?</div> <div class="para" id="example-linear-model-read3-1-2">A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.</div>
+<div class="solutions"><details id="example-linear-model-read3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-linear-model-read3-2-1">
+<div class="para">Note</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F_t = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot t \text{ hr}.
+\end{equation*}
+</div>
+<div class="para">Thus</div>
+<div class="displaymath process-math" id="example-linear-model-read3-2-1-2">
+\begin{align*}
+F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 1 \text{ hr}\\
+&amp; = 18.45\\
+&amp; \approx 18.4.\\
+F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 2 \text{ hrs}\\
+&amp; = 16.9.\\
+F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 3 \text{ hrs}\\
+&amp; = 15.35\\
+&amp; \approx 15.3.\\
+F_t &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 0.6 \text{ hrs}\\
+&amp; = 19.07\\
+&amp; \approx 19.0.
+\end{align*}
+</div>
+</div></div></details></div></article><div class="para" id="subsection-present-linear-10">Use this Checkpoint to practice using a linear model.</div>
+<article class="exercise exercise-like" id="subsection-present-linear-11"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-present-linear-11-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-present-linear-11-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1453442&amp;frame_id=momsubsection-present-linear-11-1"></iframe></div></article></section><section class="subsection" id="subsection-build-linear-models"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Building Linear Models</span>
+</h3>
+<div class="para" id="subsection-build-linear-models-2">The previous section presented linear models, and illustrated using provided models. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.</div>
+<div class="para logical" id="subsection-build-linear-models-3">
+<div class="para">A linear model has a starting point (shift, <span class="process-math">\(b\)</span>) and rate (ratio, <span class="process-math">\(m\)</span>). We need to identify these and then write the linear model</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = mx+b
+\end{equation*}
+</div>
+<div class="para">with these values. We should also label units and explain any parameters.</div>
+</div>
+<article class="example example-like" id="example-linear-model-purchase"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-linear-model-purchase-1">Consider rope that costs $0.93 per foot with a shipping charge of $7.64. To produce a model for the cost of each purchase we will start by trying a couple specific orders.</div> <div class="para" id="example-linear-model-purchase-2">Suppose we are purchasing 20 feet of this rope. The cost for the 20 feet will be <span class="process-math">\(20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}\text{,}\)</span> because each foot is $0.93. This is just like unit conversion: the units ($/ft and ft) suggest multiplying.</div> <div class="para" id="example-linear-model-purchase-3">Notice this multiplication is also the same as using a ratio (proportion). We could setup <span class="process-math">\(\frac{\$0.93}{1 \text{ft}} = \frac{C}{20 \text{ ft}}\)</span> When we solve this we end up with the same multiplication <span class="process-math">\(20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}\text{.}\)</span>
+</div> <div class="para" id="example-linear-model-purchase-4">Next we must add the shipping charge. Thus the final cost is <span class="process-math">\(20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$26.24\text{.}\)</span> Note there is no rounding because all numbers are exact (no measurements, so no signficant digits) and no fractions of a cent occurred.</div> <div class="para logical" id="example-linear-model-purchase-5">
+<div class="para">Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}\text{.}
+\end{equation*}
+</div>
+<div class="para">Then we must add the shipping charge. Thus the final cost is <span class="process-math">\(100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$100.64\text{.}\)</span>
+</div>
+</div> <div class="para logical" id="example-linear-model-purchase-6">
+<div class="para">Notice we could do this with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C\text{.}
+\end{equation*}
+</div>
+</div> <div class="para" id="example-linear-model-purchase-7">Notice that this equation has a ratio (0.93/1), which is the cost per foot, but also has a shift (+7.64), which is the fixed shipping cost. Thus this is another linear equation.</div></article><div class="para" id="subsection-build-linear-models-5">When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.</div>
+<article class="example example-like" id="example-linear-model-pressure-drop"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-linear-model-pressure-drop-1">At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). To produce a model for pressure decrease we will start by calculating the pressure for a couple specific cases.</div> <div class="para" id="example-linear-model-pressure-drop-2">If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?</div> <div class="para" id="example-linear-model-pressure-drop-3">The pressure drop is a ratio <span class="process-math">\(\frac{1 \text{ inHg}}{1000 \text{ ft}}\text{.}\)</span> The units suggest we can multiply <span class="process-math">\(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}\text{.}\)</span> This is the drop in pressure. To calculate the resulting pressure we need <span class="process-math">\(29.76 \text{ inHg} - 4.5^\circ \text{ inHg} = 25.26 \text{ inHg}\text{.}\)</span> We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <span class="process-math">\(T = 29.76-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). \)</span>
+</div> <div class="para" id="example-linear-model-pressure-drop-4">If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?</div> <div class="para" id="example-linear-model-pressure-drop-5">The pressure drop is a ratio <span class="process-math">\(\frac{1 \text{ inHg}}{1000 \text{ ft}}\text{.}\)</span> The units suggest we can multiply <span class="process-math">\(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}\text{.}\)</span> This is the drop in pressure. To calculate the resulting pressure we need <span class="process-math">\(30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}\text{.}\)</span> Written as one calculation this is <span class="process-math">\(P = 30.02-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). \)</span>
+</div> <div class="para logical" id="example-linear-model-pressure-drop-6">
+<div class="para">Notice we could do this same calculation for any altitude. So in general we can write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P_A = P_G-\left(A \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). 
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(P_A\)</span> is the pressure at the specified altitude. <span class="process-math">\(P_G\)</span> is the pressure at ground level. <span class="process-math">\(A\)</span> is the altitude above ground level. This is a linear equation with a ratio of (-1/1000) which is the drop in pressure with altitude, and a shift of <span class="process-math">\(P_G\text{,}\)</span> which is the pressure on the ground.</div>
+</div></article><article class="example example-like" id="example-linear-model-temperature-conversion"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-linear-model-temperature-conversion-1">We will find a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Note that every 9 degrees F is only 5 degrees C, so to convert we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32° and Celsius starts at 0°. Notice we have a ratio and a shift, so this already looks like a linear model.</div> <div class="para" id="example-linear-model-temperature-conversion-2">To begin with we will convert 52° F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).</div> <div class="para" id="example-linear-model-temperature-conversion-3">The first step is to determine how many degrees above freezing. Because 32° F is the freezing temperature of water, 52° F is <span class="process-math">\(52^\circ-32^\circ=20^\circ\)</span> above freezing.</div> <div class="para" id="example-linear-model-temperature-conversion-4">The next step is to scale the degrees. The conversion ratio is <span class="process-math">\(\frac{9^\circ \text{ F}}{5^\circ \text{ C}}\text{.}\)</span> Converting the 20° above freezing is now a unit conversion. The units suggest we can multiply <span class="process-math">\(20^\circ \text{ F} \cdot \frac{5^\circ \text{ C}}{9^\circ \text{ F}} \approx 11^\circ \text{ C}\text{.}\)</span> Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11° C above the freezing point of water in Celsius.</div> <div class="para" id="example-linear-model-temperature-conversion-5">Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0°, we have <span class="process-math">\(0^\circ+11^\circ=11^\circ\)</span> C.</div> <div class="para logical" id="example-linear-model-temperature-conversion-6">
+<div class="para">If we write all of that as one step we obtain</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(52^\circ \text{ F}-32^\circ \text{ F})\frac{5^\circ \text{ C}}{9^\circ \text{ F}}+0^\circ \text{ C} = 11^\circ \text{ C}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="example-linear-model-temperature-conversion-7">
+<div class="para">Notice we could do this with any temperature. So if we call the temperature to convert <span class="process-math">\(T\)</span> we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C = (T-32)\frac{5}{9}+0\text{.}
+\end{equation*}
+</div>
+<div class="para">This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C = (T-32)\frac{5}{9}+0 = \frac{5}{9}T-\frac{160}{9}.
+\end{equation*}
+</div>
+<div class="para">So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32° is the freezing point of water as opposed to <span class="process-math">\(160/9\)</span> which has no useful meaning.</div>
+</div></article><div class="para" id="subsection-build-linear-models-8">The temperature conversion example illustrates an idea about models. We describe a linear model as having a ratio and a (that is one) shift. However, in the temperature conversion example there is a shift a ratio and another shift, or two shifts. We showed these can be combined as one shift. That is always true. However, sometimes the version with multiple shifts is easier to understand. This will be true when we look at graphs of quadratics and exponentials (other forms of models).</div></section><section class="subsection" id="subsection-solve-invert"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">Solving Linear Equations</span>
+</h3>
+<div class="para" id="subsection-solve-invert-2">The first section demonstrated using linear models to calculate values. However, sometimes we know the result and want to know the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.</div>
+<div class="para" id="subsection-solve-invert-3">Before reading farther solve the equation <span class="process-math">\(5x-7=12\text{.}\)</span> What steps did you use? Why do they work? <a href="section-linear.html#example-solve-linear-invert" class="xref" data-knowl="./knowl/xref/example-solve-linear-invert.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.8">Example 3.1.8</a> is an example of solving another linear equation.</div>
+<article class="example example-like" id="example-solve-linear-invert"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-linear-invert-1-1">Solve <span class="process-math">\(-8x-3=5\text{.}\)</span>
+</div>
+<div class="solutions"><details id="example-solve-linear-invert-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-solve-linear-invert-2-1">
+<div class="displaymath process-math" id="example-solve-linear-invert-2-1-1">
+\begin{align*}
+-8x-3 &amp; = 5.\\
+-8x-3+3 &amp; =5+3.\\
+-8x &amp; = 8.\\
+\frac{-8x}{-8} &amp; = \frac{8}{-8}.\\
+x &amp; = -1.
+\end{align*}
+</div>
+<div class="para">Note we added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8).</div>
+</div></div></details></div></article><article class="exercise exercise-like" id="exercise-solve-linear-invert"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
+</h4>
+<div id="momexercise-solve-linear-invert-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-solve-linear-invert-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1453992&amp;frame_id=momexercise-solve-linear-invert-1"></iframe></div></article><div class="para" id="subsection-solve-invert-6">Some linear equations need one more technique. What would you need to solve <span class="process-math">\(17-4y = 14-y\text{?}\)</span> Below is an example of solving a similar linear equation.</div>
+<article class="example example-like" id="example-solve-linear-combine"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-linear-combine-1-1">Solve <span class="process-math">\(17-4y = 5+2y\text{.}\)</span>
+</div>
+<div class="solutions"><details id="example-solve-linear-combine-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-solve-linear-combine-2-1">
+<div class="displaymath process-math" id="example-solve-linear-combine-2-1-1">
+\begin{align*}
+17-4y &amp; = 5+2y.\\
+-5+17-4y &amp; = -5+5+2y. &amp; \text{Undo }+5\text{ by subtracting.}\\
+12-4y &amp; = 2y.\\
+12-4y+4y &amp; = 2y+4y. &amp; \text{Bring terms with variable to the same side.}\\
+12 &amp; = (2+4)y. &amp; \text{ Factoring leaves only one variable.}\\
+12 &amp; = 6y.\\
+\frac{12}{6} &amp; = \frac{6y}{6}. &amp; \text{Undo multiplication with division.}\\
+2 &amp; = y.
+\end{align*}
+</div>
+<div class="para">Notice we had to combine like terms (factor and add).</div>
+</div></div></details></div></article><article class="exercise exercise-like" id="exercise-solve-linear-combine"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
+</h4>
+<div id="momexercise-solve-linear-combine-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-solve-linear-combine-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1454026&amp;frame_id=momexercise-solve-linear-combine-1"></iframe></div></article><div class="para" id="subsection-solve-invert-9">Another linear equation is <span class="process-math">\(\frac{x}{3}+\frac{x}{4}=\frac{7}{12}\text{.}\)</span> How would you solve it?</div>
+<div class="para" id="subsection-solve-invert-10">We can solve this the same as in <a href="section-linear.html#example-solve-linear-combine" class="xref" data-knowl="./knowl/xref/example-solve-linear-combine.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.10">Example 3.1.10</a> but there is another technique as well whic is shown below.</div>
+<article class="example example-like" id="example-solve-linear-clear"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-linear-clear-1-1">Solve <span class="process-math">\(\frac{x}{5}+\frac{2x}{7}=\frac{34}{35}\)</span>
+</div>
+<div class="solutions"><details id="example-solve-linear-clear-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-solve-linear-clear-2-1">
+<div class="displaymath process-math" id="example-solve-linear-clear-2-1-1">
+\begin{align*}
+\frac{x}{5}+\frac{2x}{7} &amp; = \frac{34}{35}.\\
+5 \cdot \left(\frac{x}{5}+\frac{2x}{7}\right) &amp; = 5 \cdot \frac{34}{35}.\\
+\frac{5x}{5}+\frac{10x}{7} &amp; = 5 \cdot \frac{34}{35}.\\
+x+\frac{10x}{7} &amp; = \frac{34}{7}.\\
+7 \cdot \left(x+\frac{10x}{7}\right) &amp; = 7 \cdot \frac{34}{7}.\\
+7x+\frac{7 \cdot 10x}{7} &amp; = 7 \cdot \frac{34}{7}.\\
+7x+10x &amp; = 34.\\
+(7+10)x &amp; = 34.\\
+17x &amp; = 34.\\
+\frac{17x}{17} &amp; = \frac{34}{17}.\\
+x &amp; = 2.
+\end{align*}
+</div>
+<div class="para">This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.</div>
+</div></div></details></div></article><div class="para" id="subsection-solve-invert-12">Now that we have practiced solving linear equations, we can use this skill with the models.</div>
+<article class="example example-like" id="example-solve-temperature-drop"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-temperature-drop-1">Given the temperature model in <a href="section-linear.html#model-temperature-altitude-fahrenheit" class="xref" data-knowl="./knowl/xref/model-temperature-altitude-fahrenheit.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraphs: Model of Temperature Change with Altitude">Model of Temperature Change with Altitude</a> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing.</div> <div class="para logical" id="example-solve-temperature-drop-2">
+<div class="para">In this case the model is <span class="process-math">\(T_A = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A\text{.}\)</span> We know <span class="process-math">\(T_A=32^\circ\)</span> and we want to calculate <span class="process-math">\(A\text{,}\)</span> the altitude in feet.</div>
+<div class="displaymath process-math" id="example-solve-temperature-drop-2-4">
+\begin{align*}
+32^\circ &amp; = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A\\
+-65^\circ + 32^\circ &amp; = -65^\circ + 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A\\
+-33^\circ &amp; = -\frac{3.5^\circ}{1000 \text{ ft}}A\\
+-\frac{1000 \text{ ft}}{3.5^\circ} \cdot -33^\circ &amp; = -\frac{1000 \text{ ft}}{3.5^\circ} \cdot -\frac{3.5^\circ}{1000 \text{ ft}}A\\
+9428.571428 \text{ ft} &amp; = A.\\
+9430 \text{ ft} &amp; \approx A.
+\end{align*}
+</div>
+<div class="para">We round to the tens position because that is the precision shown by many altimeters.</div>
+</div></article><article class="example example-like" id="example-solve-time-altitude"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-time-altitude-1">Given the time to altitude model in <a href="section-linear.html#model-time-to-altitude" class="xref" data-knowl="./knowl/xref/model-time-to-altitude.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraphs: Model of Time to Altitude">Model of Time to Altitude</a> and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft/min, how long will it take to complete the climb?</div> <div class="para logical" id="example-solve-time-altitude-2">
+<div class="para">In this case the model is <span class="process-math">\(A_t = 80 \text{ ft} + \frac{700 \text{ ft}}{\text{min}}t\text{.}\)</span> We know <span class="process-math">\(A_t=5000\)</span> ft, and we want to know the time <span class="process-math">\(t\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="example-solve-time-altitude-2-4">
+\begin{align*}
+5000 \text{ ft} &amp; = 80 \text{ ft} + \frac{700 \text{ ft}}{\text{min}}t.\\
+-80 \text{ ft} + 5000 \text{ ft} &amp; = -80 \text{ ft} + 80 \text{ ft} + \frac{700 \text{ ft}}{\text{min}}t.\\
+4920 &amp; = \frac{700 \text{ ft}}{\text{min}}t.\\
+\frac{\text{min}}{700 \text{ ft}} \cdot 4920 &amp; = \frac{\text{min}}{700 \text{ ft}} \cdot \frac{700 \text{ ft}}{\text{min}}t.\\
+7.028571429 &amp; = t.\\
+8 &amp; = t.
+\end{align*}
+</div>
+<div class="para">We round up as a safety margin: it is better to assume we need 8 minutes and be higher than to hope we can recognize 0.03 of a minute (not quite 2 seconds).</div>
+</div></article><div class="para" id="subsection-solve-invert-15">Use this Checkpoint to try solving a linear model.</div>
+<article class="exercise exercise-like" id="subsection-solve-invert-16"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-solve-invert-16-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-solve-invert-16-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1454112&amp;frame_id=momsubsection-solve-invert-16-1"></iframe></div></article></section><section class="subsection" id="subsection-linear-identify"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">Identifying Linear Expressions</span>
+</h3>
+<div class="para" id="subsection-linear-identify-2">All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? <a href="section-linear.html#table-linear-appearance" class="xref" data-knowl="./knowl/xref/table-linear-appearance.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.16: Linear and Non-linear">Table 3.1.16</a> shows examples of linear expressions and non-linear expressions.</div>
+<figure class="table table-like" id="table-linear-appearance"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.16<span class="period">.</span></span><span class="space"> </span>Linear and Non-linear</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Linear</td>
+<td class="l m b2 r2 l0 t2 lines">Non-linear</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(5x+3\)</span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(5x^2-x+3\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(y=11-\frac{7}{13}x\)</span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(y=\frac{17}{x}\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(7x-9y=8\)</span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(3-2xy=12\)</span></td>
+</tr>
+</table></div></figure><div class="para" id="subsection-linear-identify-4">Some equations that may not appear to be linear can be solved using the same methods.</div>
+<article class="example example-like" id="example-solve-linear-hidden"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-linear-hidden-1-1">Solve <span class="process-math">\(\frac{11}{x}+2 = \frac{18}{x}-5\text{.}\)</span>
+</div>
+<div class="solutions"><details id="example-solve-linear-hidden-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-solve-linear-hidden-2-1"><div class="displaymath process-math" id="example-solve-linear-hidden-2-1-1">
+\begin{align*}
+\frac{11}{x}+2 &amp; = \frac{18}{x}-5.\\
+x \cdot \left(\frac{11}{x}+2\right) &amp; = x \cdot \left(\frac{18}{x}-5\right).\\
+11+2x &amp; = 18-5x.\\
+-11+11+2x &amp; = -11+18-5x.\\
+2x &amp; = 7-5x.\\
+2x+5x &amp; = 7-5x+5x.\\
+7x &amp; = 7.\\
+\frac{7x}{7} &amp; = \frac{7}{7}.\\
+x &amp; = 1.
+\end{align*}
+</div></div></div></details></div></article><div class="para" id="subsection-linear-identify-6">In <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> we will learn to identify linear models from data.</div></section><section class="exercises" id="section-linear-7"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="section-linear-7-1"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2326&amp;frame_id=momsection-linear-7-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2"><h4 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2496&amp;frame_id=momsection-linear-7-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3"><h4 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3419&amp;frame_id=momsection-linear-7-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-4"><h4 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1287&amp;frame_id=momsection-linear-7-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-5"><h4 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2017&amp;frame_id=momsection-linear-7-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-6"><h4 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2020&amp;frame_id=momsection-linear-7-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-7"><h4 class="heading">
+<span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2498&amp;frame_id=momsection-linear-7-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-8"><h4 class="heading">
+<span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2070&amp;frame_id=momsection-linear-7-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-9"><h4 class="heading">
+<span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2348&amp;frame_id=momsection-linear-7-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-10"><h4 class="heading">
+<span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4150&amp;frame_id=momsection-linear-7-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-11"><h4 class="heading">
+<span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4153&amp;frame_id=momsection-linear-7-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-12"><h4 class="heading">
+<span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4157&amp;frame_id=momsection-linear-7-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-13"><h4 class="heading">
+<span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4159&amp;frame_id=momsection-linear-7-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-14"><h4 class="heading">
+<span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4167&amp;frame_id=momsection-linear-7-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-15"><h4 class="heading">
+<span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
+</h4>
+<div id="momsection-linear-7-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4169&amp;frame_id=momsection-linear-7-15-2"></iframe></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chapter-models.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-graphing.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

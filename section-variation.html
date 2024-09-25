@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Variation</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="http://aholiab.uaa.alaska.edu/mital/external/images/UAA_GG.png">
+<meta property="book:title" content="Mathematics in Trades and Life">
+<meta property="book:author" content="Mark Fitch">
+<meta property="book:author" content="Megan Ossiander-Gobeille">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork.uaa.alaska.edu/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.4.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.04737dc219c2d2eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<style>
+#preface-student-4-1 { counter-set: preface-student-4-1 0; }
+#preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
+#preface-student-4-1 > li { counter-increment: preface-student-4-1; }
+#preface-student-4-2 { counter-set: preface-student-4-2 0; }
+#preface-student-4-2 > li::marker { content: ""counter(preface-student-4-2,decimal)"."; }
+#preface-student-4-2 > li { counter-increment: preface-student-4-2; }
+#preface-student-4-2-1-1-1 { counter-set: preface-student-4-2-1-1-1 0; }
+#preface-student-4-2-1-1-1 > li::marker { content: "("counter(preface-student-4-2-1-1-1,lower-alpha)")"; }
+#preface-student-4-2-1-1-1 > li { counter-increment: preface-student-4-2-1-1-1; }
+#preface-student-4-2-2-1-1 { counter-set: preface-student-4-2-2-1-1 0; }
+#preface-student-4-2-2-1-1 > li::marker { content: "("counter(preface-student-4-2-2-1-1,lower-alpha)")"; }
+#preface-student-4-2-2-1-1 > li { counter-increment: preface-student-4-2-2-1-1; }
+#preface-student-4-2-3-1-1 { counter-set: preface-student-4-2-3-1-1 0; }
+#preface-student-4-2-3-1-1 > li::marker { content: "("counter(preface-student-4-2-3-1-1,lower-alpha)")"; }
+#preface-student-4-2-3-1-1 > li { counter-increment: preface-student-4-2-3-1-1; }
+#preface-student-4-2-4-1-1 { counter-set: preface-student-4-2-4-1-1 0; }
+#preface-student-4-2-4-1-1 > li::marker { content: "("counter(preface-student-4-2-4-1-1,lower-alpha)")"; }
+#preface-student-4-2-4-1-1 > li { counter-increment: preface-student-4-2-4-1-1; }
+#preface-student-4-2-5-1-1 { counter-set: preface-student-4-2-5-1-1 0; }
+#preface-student-4-2-5-1-1 > li::marker { content: "("counter(preface-student-4-2-5-1-1,lower-alpha)")"; }
+#preface-student-4-2-5-1-1 > li { counter-increment: preface-student-4-2-5-1-1; }
+#preface-student-4-2-6-1-1 { counter-set: preface-student-4-2-6-1-1 0; }
+#preface-student-4-2-6-1-1 > li::marker { content: "("counter(preface-student-4-2-6-1-1,lower-alpha)")"; }
+#preface-student-4-2-6-1-1 > li { counter-increment: preface-student-4-2-6-1-1; }
+#subsection-enough-sigfigs-4-1 { counter-set: subsection-enough-sigfigs-4-1 0; }
+#subsection-enough-sigfigs-4-1 > li::marker { content: ""counter(subsection-enough-sigfigs-4-1,decimal)"."; }
+#subsection-enough-sigfigs-4-1 > li { counter-increment: subsection-enough-sigfigs-4-1; }
+#project-radiation-dosage-6-1-1-1 { counter-set: project-radiation-dosage-6-1-1-1 0; }
+#project-radiation-dosage-6-1-1-1 > li::marker { content: ""counter(project-radiation-dosage-6-1-1-1,decimal)"."; }
+#project-radiation-dosage-6-1-1-1 > li { counter-increment: project-radiation-dosage-6-1-1-1; }
+#project-unicorn-cake-2-5-1 { counter-set: project-unicorn-cake-2-5-1 0; }
+#project-unicorn-cake-2-5-1 > li::marker { content: ""counter(project-unicorn-cake-2-5-1,decimal)"."; }
+#project-unicorn-cake-2-5-1 > li { counter-increment: project-unicorn-cake-2-5-1; }
+</style>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-rates.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-models.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-rational.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+\newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
+\newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-faculty.html" class="internal"><span class="title">For Faculty</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-si-standard" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Converting between Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-compound" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Converting Compound Units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-units.html#section-units-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-greatest-error" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Greatest Possible Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-enough.html#section-enough-7" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-models.html#section-models-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-literal-formula.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Project: Literal Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-percent.html#section-percent-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-mixture.html#subsection-produce-solution" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Producing a Desired Solution</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-mixture.html#section-mixture-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-ratios.html#section-ratios-6" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-extending-similarity" class="internal"><span class="codenumber">2.4.3.4</span> <span class="title">Similarity Beyond Triangles</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-proportion.html#section-proportion-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Terminology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Dilution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dosage</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-falseposition.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Project: False Position</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-60-1-1.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Project: Arclength Estimation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-linear-identify" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Identifying Linear Expressions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear.html#section-linear-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-linear-notation" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-graphing.html#section-graphing-7" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rates.html#section-rates-5" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-read" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Understand a Model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-ohm" class="internal"><span class="codenumber">3.5.2</span> <span class="title">First Example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Rates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-dual-mixture" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-linear-system-weird" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Other Cases</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear-systems.html#section-linear-systems-7" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cycling.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Project: Biking in Kansas and Alaska</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-radiation2.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Project: Radiation Dosage</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-2d" class="internal"><span class="codenumber">4.1.2</span> <span class="title">2D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry2D.html#section-geometry2D-6" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-3d" class="internal"><span class="codenumber">4.2.2</span> <span class="title">3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cake.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Project: Unicorn Cake</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-pattern" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Pattern</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-quadratic-solving" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-models" class="internal"><span class="codenumber">5.2.1.2</span> <span class="title">Solving Formulas with Quadratics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.1.3</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-4" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-powers-general" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Generalized Powers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-powers" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-roots-general" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-roots" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Transformations of Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-transformation" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Transformations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-change-form" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Forms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-6" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-6" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Evaluating and Solving with Logs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-logarithm-property-power" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Additional Logarithm Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-log-solve.html#section-log-solve-6" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-tod.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Project: Time of Death</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-side-and-angle-relations" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Side and Angle Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-6" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-applications1.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Using Trig Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-applications1.html#subsection-trig-function-application" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Calculating lengths using trig functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-applications1.html#section-trig-applications1-4" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-6" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-graphs.html#section-trig-graphs-6" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-trig-error.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Project: Effects of Scale on Error</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-variation"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.4</span><span class="space"> </span><span class="title">Variation</span>
+</h2>
+<section class="introduction" id="section-variation-2"><div class="para" id="section-variation-2-1">In <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> we compared data based on the rate. Here we will emphasize how one variable affects another.</div></section><section class="subsection" id="subsection-vary-direct"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="space"> </span><span class="title">Direct Relations</span>
+</h3>
+<div class="para" id="subsection-vary-direct-2">In <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> we saw examples where the data increased. For example the salaries went up each year. The quadratic (<a href="section-rates.html#example-differences-quadratic" class="xref" data-knowl="./knowl/xref/example-differences-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.7: Quadratic Data">Example 3.3.7</a>) and exponential (<a href="section-rates.html#example-differences-exponential" class="xref" data-knowl="./knowl/xref/example-differences-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.10: Exponential Data">Example 3.3.10</a>) also are increasing data. When an increase in one variable causes another to increase, we call the relationship between them <dfn class="terminology">direct</dfn>.</div>
+<div class="para logical" id="subsection-vary-direct-3">
+<div class="para">For some problems it makes sense to look at these another way. Consider the situation in <a href="section-variation.html#figure-hydraulic-press" class="xref" data-knowl="./knowl/xref/figure-hydraulic-press.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.1">Figure 3.4.1</a>. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <span class="process-math">\(P=\frac{F_1}{A_1}\text{.}\)</span> The same is true on the right <span class="process-math">\(P=\frac{F_2}{A_2}\text{.}\)</span> Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-hydraulic-press.html">
+\begin{equation*}
+\frac{F_1}{A_1} = \frac{F_2}{A_2}\text{.}
+\end{equation*}
+</div>
+</div>
+<figure class="figure figure-like" id="figure-hydraulic-press"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/hydraulic-press.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.1<span class="period">.</span></span><span class="space"> </span>Hydraulic Press</figcaption></figure><article class="example example-like" id="exmaple-hydraulic-piston-calculate"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="exmaple-hydraulic-piston-calculate-1-1">If the left piston has area <span class="process-math">\(16 \text{ cm}^2\text{,}\)</span> and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <span class="process-math">\(25 \text{ cm}^2\text{?}\)</span>
+</div>
+<div class="solutions"><details id="exmaple-hydraulic-piston-calculate-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="exmaple-hydraulic-piston-calculate-2-1">
+<div class="para">Notice this is a proportion problem. We can use the relationship</div>
+<div class="displaymath process-math" id="exmaple-hydraulic-piston-calculate-2-1-1">
+\begin{align*}
+\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{25 \text{ cm}^2}{F_2}.\\
+(16 \text{ cm}^2)F_2 \amp = (25 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}\\
+\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(25 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. \\
+F_2 \amp \approx 7.8 \text{ N}.
+\end{align*}
+</div>
+</div></div></details></div></article><div class="para" id="subsection-vary-direct-6">Next lets consider how changing the size of the second piston affects the force.</div>
+<article class="example example-like" id="example-hydraulic-piston-change"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-hydraulic-piston-change-1-1">If the second piston’s area is change from <span class="process-math">\(25 \text{ cm}^2\)</span> to <span class="process-math">\(36 \text{ cm}^2\text{,}\)</span> what is the increase or decrease in force?</div>
+<div class="solutions"><details id="example-hydraulic-piston-change-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-hydraulic-piston-change-2-1">
+<div class="para">First we setup the same problem as in <a href="section-variation.html#exmaple-hydraulic-piston-calculate" class="xref" data-knowl="./knowl/xref/exmaple-hydraulic-piston-calculate.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.2">Example 3.4.2</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/exmaple-hydraulic-piston-calculate.html" id="example-hydraulic-piston-change-2-1-2">
+\begin{align*}
+\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{36 \text{ cm}^2}{F_2}.\\
+(16 \text{ cm}^2)F_2 \amp = (36 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}\\
+\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(36 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. \\
+F_2 \amp \approx 11 \text{ N}.
+\end{align*}
+</div>
+</div> <div class="para" id="example-hydraulic-piston-change-2-2">The piston is larger and the force is also larger</div>
+</div></details></div></article><article class="example example-like" id="example-voltage-resistance-linear"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-voltage-resistance-linear-1-1">Voltage and resistance vary directly (see further <a href="section-graphing.html#example-vary-ohm" class="xref" data-knowl="./knowl/xref/example-vary-ohm.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.26: Ohm’s Law">Example 3.2.26</a>) . If voltage is 24 V and resistance is <span class="process-math">\(8 \Omega\text{,}\)</span> how would the voltage have to change if the resistance changes to <span class="process-math">\(6 \Omega\text{?}\)</span> to <span class="process-math">\(10 \Omega\text{?}\)</span>
+</div>
+<div class="solutions"><details id="example-voltage-resistance-linear-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-voltage-resistance-linear-2-1">
+<div class="para">Because the relationship is direct we can write</div>
+<div class="displaymath process-math" id="example-voltage-resistance-linear-2-1-1">
+\begin{align*}
+\frac{V_1}{R_1} \amp = \frac{V_2}{R_2}.\\
+\frac{24 \text{ V}}{8 \Omega} \amp = \frac{V_2}{6 \Omega}.\\
+\frac{24 \text{ V}}{8 \Omega}(6 \Omega) \amp = V_2. \amp \text{ Eliminating the denominator on the right}\\
+18 \text{ V} \amp = V_2.
+\end{align*}
+</div>
+<div class="para">We do the same for the second case.</div>
+<div class="displaymath process-math" id="example-voltage-resistance-linear-2-1-2">
+\begin{align*}
+\frac{V_1}{R_1} \amp = \frac{V_2}{R_2}.\\
+\frac{24 \text{ V}}{8 \Omega} \amp = \frac{V_2}{10 \Omega}.\\
+\frac{24 \text{ V}}{8 \Omega}(10 \Omega) \amp = V_2. \amp \text{ Eliminating the denominator on the right}\\
+30 \text{ V} \amp = V_2.
+\end{align*}
+</div>
+<div class="para">Notice that the resistances we chose change in a linear fashion: 6, 8, 10. Also note that the voltages changed in a linear fashion: 18, 24, 30.</div>
+</div></div></details></div></article></section><section class="subsection" id="subsection-vary-inverse"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="space"> </span><span class="title">Inverse Relations</span>
+</h3>
+<div class="para" id="subsection-vary-inverse-2">In <a href="section-graphing.html#example-vary-ohm" class="xref" data-knowl="./knowl/xref/example-vary-ohm.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.26: Ohm’s Law">Example 3.2.26</a> we saw data where the increase in one variable caused a decrease in the other. That example is known as an <dfn class="terminology">inverse</dfn> relation.</div>
+<div class="para" id="subsection-vary-inverse-3">Whereas a direct relation can be expressed as <span class="process-math">\(\frac{V_1}{R_1} = \frac{V_2}{R_2}\)</span> inverse relation can be expressed as <span class="process-math">\(I_1 R_1 = I_2 R_2\text{.}\)</span>
+</div>
+<article class="example example-like" id="example-current-resistance"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-current-resistance-1-1">If the current is 3 amps when the resistance is 8 Ohms, what will the current be when the resistance is 6 Ohms? 4 Ohms?</div>
+<div class="solutions"><details id="example-current-resistance-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-current-resistance-2-1">
+<div class="para">Because this is an inverse relation, we can write</div>
+<div class="displaymath process-math" id="example-current-resistance-2-1-1">
+\begin{align*}
+I_1 R_1 \amp = I_2 R_2\\
+(3 \text{ amps})(8 \Omega) \amp I_2(6 \Omega)\\
+\frac{(3 \text{ amps})(8 \Omega)}{6 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}\\
+2.25 \text{ amps} \amp = I_2.
+\end{align*}
+</div>
+<div class="para">The second case can be written</div>
+<div class="displaymath process-math" id="example-current-resistance-2-1-2">
+\begin{align*}
+(3 \text{ amps})(8 \Omega) \amp I_2(4 \Omega)\\
+\frac{(3 \text{ amps})(8 \Omega)}{4 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}\\
+1.5 \text{ amps} \amp = I_2.
+\end{align*}
+</div>
+</div></div></details></div></article><div class="para" id="subsection-vary-inverse-5">Note that the relation in <a href="section-variation.html#example-current-resistance" class="xref" data-knowl="./knowl/xref/example-current-resistance.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.5">Example 3.4.5</a> the resistances we chose change in a linear fashion: 4, 6, 8. The current also change in a linear fashion: 3, 2.25, 1.5. Thus the relation is inverse linear.</div>
+<article class="example example-like" id="example-inverse-exponential"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">Decreasing Exponential.</span>
+</h4>
+<div class="para" id="example-inverse-exponential-2-1">In <a href="section-variation.html#table-inverse-exponential" class="xref" data-knowl="./knowl/xref/table-inverse-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.4.7: Negative Exponential">Table 3.4.7</a> we see data for an exponential with a negative exponent. Note that this decreases. The differences display the same pattern of matching the data except they are negative. The negative should make sense because the data is decreasing. This is inverse exponential.</div></article><figure class="table table-like" id="table-inverse-exponential"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.7<span class="period">.</span></span><span class="space"> </span>Negative Exponential</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(n\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2^{-n}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Difference</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1/2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1/4</td>
+<td class="l m b0 r0 l0 t0 lines">-1/4</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1/8</td>
+<td class="l m b0 r0 l0 t0 lines">-1/8</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines">1/16</td>
+<td class="l m b0 r0 l0 t0 lines">-1/16</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">1/32</td>
+<td class="l m b0 r0 l0 t0 lines">-1/32</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">1/64</td>
+<td class="l m b0 r0 l0 t0 lines">-1/64</td>
+</tr>
+</table></div></figure></section><section class="subsection" id="subsection-constant-variation"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="space"> </span><span class="title">Constant of Variation</span>
+</h3>
+<div class="para" id="subsection-constant-variation-2">We defined direct and indirect variation in terms of how change in one variable affects another. Here we consider this from a different perspective.</div>
+<div class="para" id="subsection-constant-variation-3">For direct variation the ratio of variables is always equal. In <a href="section-variation.html#example-voltage-resistance-linear" class="xref" data-knowl="./knowl/xref/example-voltage-resistance-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.4">Example 3.4.4</a> we have <span class="process-math">\(\frac{V_1}{R_1} = \frac{V_2}{R_2}\text{.}\)</span> The specific results were <span class="process-math">\(\frac{30}{10}=\frac{24}{8}=\frac{18}{6}=3\text{.}\)</span> The number 3 is known as the <dfn class="terminology">constant of variation</dfn>. In some cases it has meaning. In this case we recognize it to be the current (i.e., 3 amps).</div>
+<article class="example example-like" id="example-constant-variation-lift"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.8</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="example-constant-variation-lift-1">
+<div class="para">Lift (<span class="process-math">\(L\text{,}\)</span> the force that keeps aircraft in the air) increases with air density (<span class="process-math">\(\rho\)</span>), surface area of wing (<span class="process-math">\(s\)</span>), and the square of velocity (<span class="process-math">\(v^2\)</span>). This can be expressed as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{L_1}{\rho_1 s_1 v_1^2} = \frac{L_1}{\rho_2 s_2 v_2^2}
+\end{equation*}
+</div>
+<div class="para">Thus if air density decreases (<span class="process-math">\(\rho_2 \lt \rho_1\)</span>) either surface area or velocity must increase to maintain lift.</div>
+</div> <div class="para logical" id="example-constant-variation-lift-2">
+<div class="para">We can also express this as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{L}{\rho s v^2} = k
+\end{equation*}
+</div>
+<div class="para">or</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L = k \rho s v^2\text{.}
+\end{equation*}
+</div>
+<div class="para">For lift it is known that <span class="process-math">\(k=\frac{1}{2}C_L\)</span> where <span class="process-math">\(C_L\)</span> is known as the coefficient of lift. It depends on a variety of factors such as the shape of the wing and the angle the wing makes with the air.</div>
+</div></article></section><section class="subsection" id="subsection-variation-percent-mixture"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="space"> </span><span class="title">Another Mixture Problem</span>
+</h3>
+<div class="para" id="subsection-variation-percent-mixture-2">In <a href="section-mixture.html" class="internal" title="Section 2.2: Mixtures">Section 2.2</a> we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.</div>
+<div class="para" id="subsection-variation-percent-mixture-3">By adding water we can of course not increase the percent alcohol, so 91% is the highest we can achieve. If we add enough water we can dilute it to as little as we want. That requires not restricting the final volume. This should make us wonder about a relationship between the desired volume and the minimum/maximum amount of alchol.</div>
+<div class="para" id="subsection-variation-percent-mixture-4">This first question is the same as <a href="section-mixture.html#example-calculate-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.2.6: Calcluate Dilution">Example 2.2.6</a>. Use it to check your understanding of the process.</div>
+<article class="exercise exercise-like" id="exercise-calculate-dilute"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.9</span><span class="period">.</span>
+</h4>
+<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7ClRFWFQoTU9ERVMoUFRYPT4nJyxIVE1MPT4nPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+XChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpPC9kaXY+JykpOwpDb250ZXh0KCdOdW1lcmljJyk7CgpCRUdJTl9QR01MClN1cHBvc2Ugd2Ugd2FudCAyMC4wIG96IG9mIDcwLjAlIGFsY29ob2wgc29sdXRpb24uIEhvdyBtdWNoIHdhdGVyIHNob3VsZCB3ZSBhZGQ/IFtfXXsnNC45J317NH0gSG93IG11Y2ggc29sdXRpb24gd2lsbCB3ZSBoYXZlPyBbX117JzIwLjknfXs0fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OClRoaXMgaXMgYSBwZXJjZW50IHByb2JsZW0gd2l0aCB0aGUgdG90YWwgYWxjb2hvbCB1bmNoYW5nZWQgKFtgKDAuOTEpMTY9MTQuNTZgXSkgYW5kIGFkZGluZyBvbmx5IHNvbWUgYW1vdW50IFtgd2BdIG9mIHdhdGVyLiBUaHVzIHdlIHNldHVwCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjeygwLjkxMCkxNi4wfXsxNi4wK3d9IFxhbXAgPSAwLjcwMFxcCigwLjkxMCkxNi4wIFxhbXAgPSAwLjcwMCgxNi4wK3cpXFwKKDAuOTEwKTE2LjAgXGFtcCA9ICgwLjcwMCkxNi4wKygwLjcwMCl3XFwKMTQuNiBcYW1wID0gMTEuMisoMC43MDApd1xcCjMuNCBcYW1wID0gKDAuNzAwKXdcXApcZnJhY3szLjR9ezAuNzAwfSBcYW1wID0gd1xcCjQuOSBcYW1wIFxhcHByb3ggdwpcZW5ke2FsaWduZWR9CmBgYF0KClRodXMgd2UgZW5kIHVwIHdpdGggW2AxNis0Ljk9MjAuOWBdIG96IG9mIHRoZSBuZXcgc29sdXRpb24uCgpXZSBjYW4gY29uZmlybSB0aGlzIHdvcmsgYnkgY2FsY3VsYXRpbmcgdGhlIHBlcmNlbnQgd2F0ZXIuIFRoZSBwZXJjZW50IGFsY29ob2wgaXMKCltgYGBcZnJhY3swLjkxMCgxNi4wKX17MTYuMCs0Ljl9PTAuNzBgYGBdCgp3aGljaCBpcyA3MCUuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-1-1-1-1">Suppose we want 20.0 oz of 70.0% alcohol solution. How much water should we add? <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span> How much solution will we have? <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
+</div>
+<div class="solutions">
+<details id="extracted-webwork-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-1-1-2-1"><span class="process-math">\(4.9\)</span></div></div></details><details id="extracted-webwork-1-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-1-1-3-1"><span class="process-math">\(20.9\)</span></div></div></details><details id="extracted-webwork-1-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-1-1-4-1">This is a percent problem with the total alcohol unchanged (<span class="process-math">\((0.91)16=14.56\)</span>) and adding only some amount <span class="process-math">\(w\)</span> of water. Thus we setup</div> <div class="para logical" id="extracted-webwork-1-1-4-2"><div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+\frac{(0.910)16.0}{16.0+w} \amp = 0.700\\
+(0.910)16.0 \amp = 0.700(16.0+w)\\
+(0.910)16.0 \amp = (0.700)16.0+(0.700)w\\
+14.6 \amp = 11.2+(0.700)w\\
+3.4 \amp = (0.700)w\\
+\frac{3.4}{0.700} \amp = w\\
+4.9 \amp \approx w
+\end{aligned}
+\end{equation*}
+</div></div> <div class="para" id="extracted-webwork-1-1-4-3">Thus we end up with <span class="process-math">\(16+4.9=20.9\)</span> oz of the new solution.</div> <div class="para" id="extracted-webwork-1-1-4-4">We can confirm this work by calculating the percent water. The percent alcohol is</div> <div class="para logical" id="extracted-webwork-1-1-4-5"><div class="displaymath process-math">
+\begin{equation*}
+\frac{0.910(16.0)}{16.0+4.9}=0.70
+\end{equation*}
+</div></div> <div class="para" id="extracted-webwork-1-1-4-6">which is 70%.</div>
+</div></details>
+</div>
+</div>
+</div></article><div class="para" id="subsection-variation-percent-mixture-6">Next we will illustrate that for a desired volume, we cannot obtain every percent.</div>
+<article class="exercise exercise-like" id="exercise-calculate-dilute2"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.10</span><span class="period">.</span>
+</h4>
+<div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKSWYgd2Ugc3RhcnQgd2l0aCAxNi4wIG96IG9mIDkxLjAlIGFsY29ob2wgc29sdXRpb24sIGhvdyBtdWNoIHdhdGVyIGRvIHdlIGFkZCBpZiB3ZSB3YW50IDI1LjAgb3ogb2YgYSA2MC4wJSBhbGNvaG9sIHNvbHV0aW9uPyBbX117JzguNTYnfXs0fQoKSG93IG11Y2ggc29sdXRpb24gdG90YWwgZG9lcyB0aGlzIHByb2R1Y2U/IFtfXXsnMjQuNid9ezR9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-2-1-1-1">If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add if we want 25.0 oz of a 60.0% alcohol solution? <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
+</div> <div class="para" id="extracted-webwork-2-1-1-2">How much solution total does this produce? <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
+</div>
+<div class="solutions">
+<details id="extracted-webwork-2-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-2-1-2-1"><span class="process-math">\(8.56\)</span></div></div></details><details id="extracted-webwork-2-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-2-1-3-1"><span class="process-math">\(24.6\)</span></div></div></details>
+</div>
+</div>
+</div></article><div class="para" id="subsection-variation-percent-mixture-8">Notice that we did not produce 25 oz but a little less. One question we can ask then is “what is the percent alcohol solution we can obtain for a given volume?”</div>
+<article class="example example-like" id="example-calculate-exact-volume-dilute"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.11</span><span class="period">.</span><span class="space"> </span><span class="title">Exact Volume Dilution.</span>
+</h4>
+<div class="para" id="example-calculate-exact-volume-dilute-2-1">If we start with 16.0 oz of 91.0% alcohol solution and we want exactly 20.0 oz of solution, what is the percent alcohol we can obtain?</div>
+<div class="solutions"><details id="example-calculate-exact-volume-dilute-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-calculate-exact-volume-dilute-3-1">
+<div class="para">If we call the percent alcohol <span class="process-math">\(P\)</span> then the percent water is <span class="process-math">\((1-P)\text{.}\)</span> Thus the final solution will have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(1-P)20.0 \text{ oz}
+\end{equation*}
+</div>
+<div class="para">of water. We already have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.0900 \cdot 16.0 = 1.44 \text{ oz}
+\end{equation*}
+</div>
+<div class="para">of water. Thus we need</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(1-P)20.0-1.44
+\end{equation*}
+</div>
+<div class="para">oz of water. The total volume then will be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(1-P)20.0-1.44+16.0=20.0 \text{ oz}
+\end{equation*}
+</div>
+<div class="para">Solving this tells us the percentage possible is</div>
+<div class="displaymath process-math" id="example-calculate-exact-volume-dilute-3-1-7">
+\begin{align*}
+(1-P)20.0-1.44+16.0 &amp; = 20.0\\
+(1-P)20.0 +14.6 &amp; = 20.0\\
+(1-P)20.0 &amp; = 5.4\\
+1-P &amp; = \frac{5.4}{20.0}\\
+-P &amp; = \frac{5.4}{20.0}-1\\
+P &amp; = 1-\frac{5.4}{20.0}\\
+P &amp; \approx 0.73
+\end{align*}
+</div>
+<div class="para">Thus the percent we obtain for exactly 20.0 oz is 73%.</div>
+</div></div></details></div></article><article class="exercise exercise-like" id="exercise-calculate-exact-volume-dilute"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.12</span><span class="period">.</span>
+</h4>
+<div id="webwork-3" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="3" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKSWYgd2Ugc3RhcnQgd2l0aCAxNi4wIG96IG9mIDkxLjAlIGFsY29ob2wgc29sdXRpb24sIHdoYXQgaXMgdGhlIHBlcmNlbnQgYWxjb2hvbCBpZiB3ZSBwcm9kdWNlIGV4YWN0bHkgMjQuMCBveiBvZiBzb2x1dGlvbj8gW19deyc2MSd9ezR9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-3')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-3-1-1-1">If we start with 16.0 oz of 91.0% alcohol solution, what is the percent alcohol if we produce exactly 24.0 oz of solution? <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
+</div>
+<div class="solutions"><details id="extracted-webwork-3-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-3-1-2-1"><span class="process-math">\(61\)</span></div></div></details></div>
+</div>
+</div></article><article class="exercise exercise-like" id="exercise-exact-volume-variation"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="exercise-exact-volume-variation-1-1">Does the percent alcohol vary linear, quadratic, exponential, or the inverse of one of these with respect to the volume? You will need to determine the percent alcohol for 28.0 oz of solution and perhas 32.0 oz of solution. Use these data points to determine the relation.</div></article></section><section class="exercises" id="section-variation-7"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="section-variation-7-1"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Distinguish Direct and Indirect Variation.</span>
+</h4>
+<div id="momsection-variation-7-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=350419&amp;frame_id=momsection-variation-7-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-2"><h4 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Describe Relation.</span>
+</h4>
+<div id="momsection-variation-7-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=102065&amp;frame_id=momsection-variation-7-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-3"><h4 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Describe Relation.</span>
+</h4>
+<div id="momsection-variation-7-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=102067&amp;frame_id=momsection-variation-7-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-4"><h4 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=791957&amp;frame_id=momsection-variation-7-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-5"><h4 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3834&amp;frame_id=momsection-variation-7-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-6"><h4 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=894881&amp;frame_id=momsection-variation-7-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-7"><h4 class="heading">
+<span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=791959&amp;frame_id=momsection-variation-7-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-8"><h4 class="heading">
+<span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=894887&amp;frame_id=momsection-variation-7-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-9"><h4 class="heading">
+<span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h4>
+<div id="momsection-variation-7-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2882&amp;frame_id=momsection-variation-7-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-10"><h4 class="heading">
+<span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h4>
+<div id="momsection-variation-7-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3830&amp;frame_id=momsection-variation-7-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-11"><h4 class="heading">
+<span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h4>
+<div id="momsection-variation-7-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3831&amp;frame_id=momsection-variation-7-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-12"><h4 class="heading">
+<span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=894995&amp;frame_id=momsection-variation-7-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-13"><h4 class="heading">
+<span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=894993&amp;frame_id=momsection-variation-7-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-14"><h4 class="heading">
+<span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3841&amp;frame_id=momsection-variation-7-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-15"><h4 class="heading">
+<span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h4>
+<div id="momsection-variation-7-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=102026&amp;frame_id=momsection-variation-7-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-16"><h4 class="heading">
+<span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h4>
+<div id="momsection-variation-7-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=102032&amp;frame_id=momsection-variation-7-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-17"><h4 class="heading">
+<span class="codenumber">17<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
+</h4>
+<div id="momsection-variation-7-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=102029&amp;frame_id=momsection-variation-7-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-18"><h4 class="heading">
+<span class="codenumber">18<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=895001&amp;frame_id=momsection-variation-7-18-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-19"><h4 class="heading">
+<span class="codenumber">19<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-19-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-19-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=895002&amp;frame_id=momsection-variation-7-19-2"></iframe></div></article><article class="exercise exercise-like" id="section-variation-7-20"><h4 class="heading">
+<span class="codenumber">20<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
+</h4>
+<div id="momsection-variation-7-20-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-variation-7-20-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2883&amp;frame_id=momsection-variation-7-20-2"></iframe></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="section-rates.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-rational.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

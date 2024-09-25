@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Units</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="http://aholiab.uaa.alaska.edu/mital/external/images/UAA_GG.png">
+<meta property="book:title" content="Mathematics in Trades and Life">
+<meta property="book:author" content="Mark Fitch">
+<meta property="book:author" content="Megan Ossiander-Gobeille">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork.uaa.alaska.edu/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.4.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.04737dc219c2d2eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<style>
+#preface-student-4-1 { counter-set: preface-student-4-1 0; }
+#preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
+#preface-student-4-1 > li { counter-increment: preface-student-4-1; }
+#preface-student-4-2 { counter-set: preface-student-4-2 0; }
+#preface-student-4-2 > li::marker { content: ""counter(preface-student-4-2,decimal)"."; }
+#preface-student-4-2 > li { counter-increment: preface-student-4-2; }
+#preface-student-4-2-1-1-1 { counter-set: preface-student-4-2-1-1-1 0; }
+#preface-student-4-2-1-1-1 > li::marker { content: "("counter(preface-student-4-2-1-1-1,lower-alpha)")"; }
+#preface-student-4-2-1-1-1 > li { counter-increment: preface-student-4-2-1-1-1; }
+#preface-student-4-2-2-1-1 { counter-set: preface-student-4-2-2-1-1 0; }
+#preface-student-4-2-2-1-1 > li::marker { content: "("counter(preface-student-4-2-2-1-1,lower-alpha)")"; }
+#preface-student-4-2-2-1-1 > li { counter-increment: preface-student-4-2-2-1-1; }
+#preface-student-4-2-3-1-1 { counter-set: preface-student-4-2-3-1-1 0; }
+#preface-student-4-2-3-1-1 > li::marker { content: "("counter(preface-student-4-2-3-1-1,lower-alpha)")"; }
+#preface-student-4-2-3-1-1 > li { counter-increment: preface-student-4-2-3-1-1; }
+#preface-student-4-2-4-1-1 { counter-set: preface-student-4-2-4-1-1 0; }
+#preface-student-4-2-4-1-1 > li::marker { content: "("counter(preface-student-4-2-4-1-1,lower-alpha)")"; }
+#preface-student-4-2-4-1-1 > li { counter-increment: preface-student-4-2-4-1-1; }
+#preface-student-4-2-5-1-1 { counter-set: preface-student-4-2-5-1-1 0; }
+#preface-student-4-2-5-1-1 > li::marker { content: "("counter(preface-student-4-2-5-1-1,lower-alpha)")"; }
+#preface-student-4-2-5-1-1 > li { counter-increment: preface-student-4-2-5-1-1; }
+#preface-student-4-2-6-1-1 { counter-set: preface-student-4-2-6-1-1 0; }
+#preface-student-4-2-6-1-1 > li::marker { content: "("counter(preface-student-4-2-6-1-1,lower-alpha)")"; }
+#preface-student-4-2-6-1-1 > li { counter-increment: preface-student-4-2-6-1-1; }
+#subsection-enough-sigfigs-4-1 { counter-set: subsection-enough-sigfigs-4-1 0; }
+#subsection-enough-sigfigs-4-1 > li::marker { content: ""counter(subsection-enough-sigfigs-4-1,decimal)"."; }
+#subsection-enough-sigfigs-4-1 > li { counter-increment: subsection-enough-sigfigs-4-1; }
+#project-radiation-dosage-6-1-1-1 { counter-set: project-radiation-dosage-6-1-1-1 0; }
+#project-radiation-dosage-6-1-1-1 > li::marker { content: ""counter(project-radiation-dosage-6-1-1-1,decimal)"."; }
+#project-radiation-dosage-6-1-1-1 > li { counter-increment: project-radiation-dosage-6-1-1-1; }
+#project-unicorn-cake-2-5-1 { counter-set: project-unicorn-cake-2-5-1 0; }
+#project-unicorn-cake-2-5-1 > li::marker { content: ""counter(project-unicorn-cake-2-5-1,decimal)"."; }
+#project-unicorn-cake-2-5-1 > li { counter-increment: project-unicorn-cake-2-5-1; }
+</style>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chapter-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-intro.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-enough.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+\newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
+\newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-faculty.html" class="internal"><span class="title">For Faculty</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-si-standard" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Converting between Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-compound" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Converting Compound Units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-units.html#section-units-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-greatest-error" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Greatest Possible Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-enough.html#section-enough-7" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-models.html#section-models-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-literal-formula.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Project: Literal Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-percent.html#section-percent-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-mixture.html#subsection-produce-solution" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Producing a Desired Solution</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-mixture.html#section-mixture-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-ratios.html#section-ratios-6" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-extending-similarity" class="internal"><span class="codenumber">2.4.3.4</span> <span class="title">Similarity Beyond Triangles</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-proportion.html#section-proportion-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Terminology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Dilution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dosage</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-falseposition.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Project: False Position</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-60-1-1.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Project: Arclength Estimation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-linear-identify" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Identifying Linear Expressions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear.html#section-linear-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-linear-notation" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-graphing.html#section-graphing-7" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rates.html#section-rates-5" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-read" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Understand a Model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-ohm" class="internal"><span class="codenumber">3.5.2</span> <span class="title">First Example</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Rates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-dual-mixture" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-linear-system-weird" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Other Cases</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear-systems.html#section-linear-systems-7" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cycling.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Project: Biking in Kansas and Alaska</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-radiation2.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Project: Radiation Dosage</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-2d" class="internal"><span class="codenumber">4.1.2</span> <span class="title">2D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry2D.html#section-geometry2D-6" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Properties</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-3d" class="internal"><span class="codenumber">4.2.2</span> <span class="title">3D Shapes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cake.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Project: Unicorn Cake</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-pattern" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Pattern</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-quadratic-solving" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-models" class="internal"><span class="codenumber">5.2.1.2</span> <span class="title">Solving Formulas with Quadratics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsubsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.1.3</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-4" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-powers-general" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Generalized Powers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-powers" class="internal"><span class="codenumber">5.3.2.1</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsubsection">
+<div class="toc-title-box"><a href="section-roots.html#subsubsection-roots-general" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Generalized Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="section-roots.html#exercises-roots" class="internal"><span class="codenumber">5.3.2.2</span> <span class="title">Reading Questions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Transformations of Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-transformation" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Transformations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-change-form" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Forms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-6" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-6" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Evaluating and Solving with Logs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-logarithm-property-power" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Additional Logarithm Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-log-solve.html#section-log-solve-6" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-tod.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Project: Time of Death</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-side-and-angle-relations" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Side and Angle Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-6" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-applications1.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Using Trig Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-applications1.html#subsection-trig-function-application" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Calculating lengths using trig functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-applications1.html#section-trig-applications1-4" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-6" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-graphs.html#section-trig-graphs-6" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-trig-error.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Project: Effects of Scale on Error</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-units"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Units</span>
+</h2>
+<section class="introduction" id="section-units-2"><div class="para logical" id="section-units-2-1">
+<div class="para">This section addresses the topics</div>
+<ul class="disc" id="section-units-2-1-1">
+<li id="section-units-2-1-1-1"><div class="para" id="p-derived-section-units-2-1-1-1">Interpret data in various formats and analyze mathematical models</div></li>
+<li id="section-units-2-1-1-2"><div class="para" id="p-derived-section-units-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div></li>
+</ul>
+<div class="para">and covers the mathematical concepts</div>
+<ul class="disc" id="section-units-2-1-2">
+<li id="section-units-2-1-2-1"><div class="para" id="p-derived-section-units-2-1-2-1">Unit conversion (skill)</div></li>
+<li id="section-units-2-1-2-2"><div class="para" id="p-derived-section-units-2-1-2-2">Setup and solve proportions (skill)</div></li>
+</ul>
+</div> <div class="para" id="section-units-2-2">This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.</div> <div class="para" id="section-units-2-3">In this section we will introduce the units so we can understand them when we read technical material (<a href="preface-student.html#topic-models" class="xref" data-knowl="./knowl/xref/topic-models.html" data-reveal-label="Reveal" data-close-label="Close" title="Item 2">Item 2</a>) and use them correctly to communicate results to others (<a href="preface-student.html#topic-communicate" class="xref" data-knowl="./knowl/xref/topic-communicate.html" data-reveal-label="Reveal" data-close-label="Close" title="Item 3">Item 3</a>). We will also learn to convert units (<a href="preface-student.html#proportions-unit-conversion" class="xref" data-knowl="./knowl/xref/proportions-unit-conversion.html" data-reveal-label="Reveal" data-close-label="Close" title="Item 2.d">Item 2.d</a>) which involves our first use of proportions (<a href="preface-student.html#proportions-solve" class="xref" data-knowl="./knowl/xref/proportions-solve.html" data-reveal-label="Reveal" data-close-label="Close" title="Item 2.a">Item 2.a</a>).</div> <div class="para" id="section-units-2-4">We measure many things such as distance, time, and weight. We describe these measurements in terms of units like mile, hour, and pounds. But have you ever stopped to think about how these units are defined?</div> <div class="para" id="section-units-2-5">The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.</div> <div class="para" id="section-units-2-6">Other units, such as the metric (or SI) are much more modern. Initially many units were based on something physical. For example one calorie is the amount of heat it takes to raise the temperature of one gram of water <span class="process-math">\(1^\circ\)</span> C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.</div> <div class="para" id="section-units-2-7">Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.</div></section><section class="subsection" id="subsection-measurement-types"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Types of Measurement</span>
+</h3>
+<div class="para" id="subsection-measurement-types-2">First we will look at the units (names of units) for different types of measurement. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.</div>
+<div class="para" id="subsection-measurement-types-3">Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the metric system (formally known as SI or international system) which has one name for each property and prefixes to indicate the size. <a href="section-units.html#table-units-of-measure" class="xref" data-knowl="./knowl/xref/table-units-of-measure.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.1: Units of Measure">Table 1.1.1</a> lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, …).</div>
+<figure class="table table-like" id="table-units-of-measure"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.1<span class="period">.</span></span><span class="space"> </span>Units of Measure</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Measuring</td>
+<td class="l m b2 r2 l0 t2 lines">US Customary</td>
+<td class="l m b2 r2 l0 t2 lines">Metric</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Length</td>
+<td class="l m b0 r2 l0 t0 lines">inch (in)</td>
+<td class="l m b0 r2 l0 t0 lines">meter (m)</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">foot (ft)</td>
+<td class="l m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">yard (yd)</td>
+<td class="l m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">mile (mi)</td>
+<td class="l m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">nautical mile (nm)</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Volume</td>
+<td class="l m b0 r2 l0 t0 lines">fluid ounce (oz)</td>
+<td class="l m b0 r2 l0 t0 lines">liter (L or <span class="process-math">\(\ell\)</span>)</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">cup (c)</td>
+<td class="l m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">pint (pt)</td>
+<td class="l m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">quart (qt)</td>
+<td class="l m b0 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">gallon (g)</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Weight</td>
+<td class="l m b0 r2 l0 t0 lines">ounce (oz)</td>
+<td class="l m b0 r2 l0 t0 lines">gram (g)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">pound (lb)</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Temperature</td>
+<td class="l m b2 r2 l0 t0 lines">degrees Fahrenheit (F)</td>
+<td class="l m b2 r2 l0 t0 lines">degrees Celsius (C)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Pressure</td>
+<td class="l m b2 r2 l0 t0 lines">inches of mercury (inHg)</td>
+<td class="l m b2 r2 l0 t0 lines">Pascal (Pa)</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Time</td>
+<td class="l m b0 r2 l0 t0 lines" colspan="2">second (s)</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines" colspan="2">minute (min)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines" colspan="2">hour (hr)</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-measurement-types-5">
+<em class="alert">One name: two meanings</em> Note that fluid ounces and weight ounces are not the same unit. 10 fluid ounces of milk does not weigh 10 ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes which is a good reason to us SI units.</div>
+<div class="para" id="subsection-measurement-types-6">Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.</div></section><section class="subsection" id="subsection-customary"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">U.S. Customary</span>
+</h3>
+<div class="para" id="subsection-customary-2">Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.</div>
+<div class="para" id="subsection-customary-3">Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.</div>
+<div class="para" id="subsection-customary-4">Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.</div>
+<figure class="table table-like" id="table-customary-convert"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.2<span class="period">.</span></span><span class="space"> </span>Converting within U.S. Customary</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Measuring</td>
+<td class="l m b2 r2 l0 t2 lines">Unit 1</td>
+<td class="l m b2 r2 l0 t2 lines">Unit 2</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Length</td>
+<td class="l m b0 r2 l0 t0 lines">1 nm</td>
+<td class="l m b0 r2 l0 t0 lines">6076 ft</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Length</td>
+<td class="l m b0 r2 l0 t0 lines">1 mi</td>
+<td class="l m b0 r2 l0 t0 lines">5280 ft</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1 yd</td>
+<td class="l m b0 r2 l0 t0 lines">3 ft</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 ft</td>
+<td class="l m b2 r2 l0 t0 lines">12 in</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Area</td>
+<td class="l m b2 r2 l0 t0 lines">1 acre</td>
+<td class="l m b2 r2 l0 t0 lines">43,560 <span class="process-math">\(\text{ft}^2\)</span>
+</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Volume</td>
+<td class="l m b0 r2 l0 t0 lines">1 g</td>
+<td class="l m b0 r2 l0 t0 lines">4 qts</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1 qt</td>
+<td class="l m b0 r2 l0 t0 lines">2 pts</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1 pt</td>
+<td class="l m b0 r2 l0 t0 lines">2 c</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 c</td>
+<td class="l m b2 r2 l0 t0 lines">8 oz</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Weight</td>
+<td class="l m b0 r2 l0 t0 lines">1 ton</td>
+<td class="l m b0 r2 l0 t0 lines">2000 lbs</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 lb</td>
+<td class="l m b2 r2 l0 t0 lines">16 oz</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Time</td>
+<td class="l m b0 r2 l0 t0 lines">1 year</td>
+<td class="l m b0 r2 l0 t0 lines">365 days</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1 day</td>
+<td class="l m b0 r2 l0 t0 lines">24 hrs</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1 hr</td>
+<td class="l m b0 r2 l0 t0 lines">60 mins</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 min</td>
+<td class="l m b2 r2 l0 t0 lines">60 secs</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-customary-6">Of course a year is not always the same number of days. It is important to know whether in a given circumstance we can use the common approximation of 365 days without injury or loss.</div>
+<div class="para" id="subsection-customary-7">Review each of these examples to see how to convert from one U.S. Customary unit to another.</div>
+<article class="example example-like" id="example-customary-convert-down1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-customary-convert-down1-1-1">How many quarts is 2.3 gallons?</div>
+<div class="solutions"><details id="example-customary-convert-down1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-customary-convert-down1-2-1">
+<div class="para">From <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> we know (or can look up) that each gallon is 4 quarts. This means we have <span class="process-math">\(\frac{4 \text{ quarts}}{1 \text{ gallon}}\text{.}\)</span> This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html">
+\begin{equation*}
+2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} = 9.2 \text{ quarts}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="example-customary-convert-down2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-customary-convert-down2-1-1">How many cups is 1.7 gallons?</div>
+<div class="solutions"><details id="example-customary-convert-down2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-customary-convert-down2-2-1">We do not have a number of cups per gallon. However, we can convert start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.</div> <div class="para logical" id="example-customary-convert-down2-2-2">
+<div class="para">As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ quarts}
+\end{equation*}
+</div>
+</div>
+</div></details></div></article><article class="example example-like" id="example-customary-convert-up1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-customary-convert-up1-1-1">How many days is 17 hours?</div>
+<div class="solutions"><details id="example-customary-convert-up1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-customary-convert-up1-2-1">
+<div class="para">Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use <span class="process-math">\(\frac{1 \text{ day}}{24 \text{ hours}}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+17 \text{ hours} \cdot \frac{1 \text{ day}}{24 \text{ hours}} = 0.708\overline{3} \text{ days}
+\end{equation*}
+</div>
+</div></div></details></div></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/jOgRlTt4h7I?&amp;modestbranding=1&amp;rel=0" id="video-example-unit-convert-down"></iframe></div>
+<div class="para" id="subsection-customary-12">Check that you can perform a unit conversion using this Checkpoint.</div>
+<article class="exercise exercise-like" id="checkpoint-us-unit-conversion"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
+</h4>
+<div id="momcheckpoint-us-unit-conversion-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momcheckpoint-us-unit-conversion-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880590&amp;frame_id=momcheckpoint-us-unit-conversion-1"></iframe></div></article></section><section class="subsection" id="subsection-metric"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Metric (SI)</span>
+</h3>
+<div class="para" id="subsection-metric-2">Just as with U.S. Customary units we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.</div>
+<div class="para" id="subsection-metric-3">Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).</div>
+<div class="para" id="subsection-metric-4">You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.</div>
+<figure class="table table-like" id="table-metric-sizes"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.7<span class="period">.</span></span><span class="space"> </span>Metric Prefixes</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Multiple</td>
+<td class="l m b2 r2 l0 t2 lines">Prefix</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^{12}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">tera (T)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^9\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">giga (G)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^6\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">mega (M)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^3\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">kilo (k)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^2\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">hecto (h)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">deka (da)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^{-1}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">deci (d)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^{-2}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">centi (c)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^{-3}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">milli (m)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^{-6}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">micro (<span class="process-math">\(\mu\)</span>)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^{-9}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">nano (n)</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(10^{-12}\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">pico (p)</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-metric-6">Review each of these examples to see how to convert from one SI unit to another.</div>
+<article class="example example-like" id="example-si-down1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-si-down1-1-1">How many centimeters is 3.8 meters?</div>
+<div class="solutions"><details id="example-si-down1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-si-down1-2-1">
+<div class="para">From <a href="section-units.html#table-metric-sizes" class="xref" data-knowl="./knowl/xref/table-metric-sizes.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.7: Metric Prefixes">Table 1.1.7</a> we know one centimeter is <span class="process-math">\(10^{-2}\)</span> meters, that is, <span class="process-math">\(\frac{1 \text{ cm}}{10^{-2} \text{ m}}\text{.}\)</span> This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-metric-sizes.html">
+\begin{equation*}
+3.8 \text{ m} \cdot \frac{1 \text{ cm}}{10^{-2} \text{ m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.
+\end{equation*}
+</div>
+<div class="para">Note, because this is a power of ten (<span class="process-math">\(10^2\)</span>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</div>
+</div> <div class="para" id="example-si-down1-2-2">Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).</div>
+</div></details></div></article><article class="example example-like" id="example-si-down2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-si-down2-1-1">How many kilotons is 2.3 megatons?</div>
+<div class="solutions"><details id="example-si-down2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-si-down2-2-1">We know one kiloton is <span class="process-math">\(10^3\)</span> tons and one megaton is <span class="process-math">\(10^6\)</span> tons. These are three powers apart (<span class="process-math">\(6-3=3\)</span>), which means we shift the decimal position three places. Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</div></div></details></div></article><article class="example example-like" id="example-si-up"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-si-up-1-1">How many centiliters is 13.6 milliliters?</div>
+<div class="solutions"><details id="example-si-up-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-si-up-2-1">We know one centiliter is <span class="process-math">\(10^{-2}\)</span> liters and one milliliter is <span class="process-math">\(10^{-3}\)</span> liters. This means we shift the decimal <span class="process-math">\(-2-(-3)=1\)</span> position. Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (make the number smaller). 13.6 milliliters is 1.36 centiliters.</div></div></details></div></article><article class="exercise exercise-like" id="checkpoint-si-unit-conversion"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
+</h4>
+<div id="momcheckpoint-si-unit-conversion-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momcheckpoint-si-unit-conversion-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1443483&amp;frame_id=momcheckpoint-si-unit-conversion-1"></iframe></div></article></section><section class="subsection" id="subsection-convert-si-standard"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="space"> </span><span class="title">Converting between Systems</span>
+</h3>
+<div class="para" id="subsection-convert-si-standard-2">Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.</div>
+<figure class="table table-like" id="table-customary-to-si"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.12<span class="period">.</span></span><span class="space"> </span>U.S. Customary to SI</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Measuring</td>
+<td class="l m b2 r2 l0 t2 lines">Standard</td>
+<td class="l m b2 r2 l0 t2 lines">SI</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Length</td>
+<td class="l m b0 r2 l0 t0 lines">1 nm</td>
+<td class="l m b0 r2 l0 t0 lines">1.852 km</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Length</td>
+<td class="l m b0 r2 l0 t0 lines">1 mi</td>
+<td class="l m b0 r2 l0 t0 lines">1.609344 km</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1 ft</td>
+<td class="l m b0 r2 l0 t0 lines">0.3048 m</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 in</td>
+<td class="l m b2 r2 l0 t0 lines">2.54 cm</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Volume</td>
+<td class="l m b0 r2 l0 t0 lines">1 gal</td>
+<td class="l m b0 r2 l0 t0 lines">3.785412 L</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 oz</td>
+<td class="l m b2 r2 l0 t0 lines">29.573532 mL</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Weight</td>
+<td class="l m b0 r2 l0 t0 lines">1 lb</td>
+<td class="l m b0 r2 l0 t0 lines">0.453592 kg</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 oz</td>
+<td class="l m b2 r2 l0 t0 lines">28.349523 g</td>
+</tr>
+</table></div></figure><figure class="table table-like" id="table-si-to-customary"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.13<span class="period">.</span></span><span class="space"> </span>SI to U.S. Customary</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Measuring</td>
+<td class="l m b2 r2 l0 t2 lines">SI</td>
+<td class="l m b2 r2 l0 t2 lines">Standard</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Length</td>
+<td class="l m b0 r2 l0 t0 lines">1 km</td>
+<td class="l m b0 r2 l0 t0 lines">0.621371 mi</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1 m</td>
+<td class="l m b0 r2 l0 t0 lines">3.280840 ft</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 cm</td>
+<td class="l m b2 r2 l0 t0 lines">0.393701 in</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Volume</td>
+<td class="l m b0 r2 l0 t0 lines">1 L</td>
+<td class="l m b0 r2 l0 t0 lines">0.264172 gal</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 mL</td>
+<td class="l m b2 r2 l0 t0 lines">0.033814 oz</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l2 t0 lines">Weight</td>
+<td class="l m b0 r2 l0 t0 lines">1 kg</td>
+<td class="l m b0 r2 l0 t0 lines">2.204623 lb</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines">1 g</td>
+<td class="l m b2 r2 l0 t0 lines">0.035274 oz</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-convert-si-standard-5">Review each of these examples to see how to convert between U.S. Customary units and SI units.</div>
+<article class="example example-like" id="example-customary-to-si"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-customary-to-si-1-1">How many kilometers is 26.2 miles?</div>
+<div class="solutions"><details id="example-customary-to-si-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-customary-to-si-2-1">
+<div class="para">From <a href="section-units.html#table-customary-to-si" class="xref" data-knowl="./knowl/xref/table-customary-to-si.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.12: U.S. Customary to SI">Table 1.1.12</a> we know each mile is 1.609344 km; this means there is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-to-si.html">
+\begin{equation*}
+\frac{1.609344 \text{ km}}{1 \text{ mi}}\text{.}
+\end{equation*}
+</div>
+<div class="para">The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-to-si.html">
+\begin{equation*}
+26.2 \text{ miles} \cdot \frac{1.609344 \text{ km}}{\text{mi}} \approx 42.2 \text{ km}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="example-si-to-customary"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-si-to-customary-1-1">How many inches is 15 centimeters?</div>
+<div class="solutions"><details id="example-si-to-customary-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-si-to-customary-2-1">
+<div class="para">From <a href="section-units.html#table-si-to-customary" class="xref" data-knowl="./knowl/xref/table-si-to-customary.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.13: SI to U.S. Customary">Table 1.1.13</a> we know each centimeter is 0.393701 inches; this means there is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-si-to-customary.html">
+\begin{equation*}
+\frac{0.393701 \text{ in}}{1 \text{ cm}}\text{.}
+\end{equation*}
+</div>
+<div class="para">The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-si-to-customary.html">
+\begin{equation*}
+15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} \approx 5.9 \text{ in}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="example-si-to-customary-scaled"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-si-to-customary-scaled-1-1">How many inches is 1 meter?</div>
+<div class="solutions"><details id="example-si-to-customary-scaled-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-si-to-customary-scaled-2-1">
+<div class="para">From <a href="section-units.html#table-si-to-customary" class="xref" data-knowl="./knowl/xref/table-si-to-customary.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.13: SI to U.S. Customary">Table 1.1.13</a> we know each meter is 3.280840 feet. From <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-si-to-customary.html ./knowl/xref/table-customary-convert.html">
+\begin{equation*}
+1 \text{ m} \cdot \frac{3.280840 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} \approx 39 \text{ in}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="exercise exercise-like" id="checkpoint-customary-si-conversion"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.17</span><span class="period">.</span>
+</h4>
+<div id="momcheckpoint-customary-si-conversion-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momcheckpoint-customary-si-conversion-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1443832&amp;frame_id=momcheckpoint-customary-si-conversion-1"></iframe></div></article></section><section class="subsection" id="subsection-convert-compound"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="space"> </span><span class="title">Converting Compound Units</span>
+</h3>
+<div class="para" id="subsection-convert-compound-2">Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.</div>
+<article class="example example-like" id="example-convert-speed"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.18</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-convert-speed-1-1">How many meters per second is 15 miles per hour?</div>
+<div class="solutions"><details id="example-convert-speed-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-convert-speed-2-1">
+<div class="para">We start with <span class="process-math">\(\frac{15 \text{ mi}}{1 \text{ hr}}\text{.}\)</span> We can convert miles to feet and feet to meters (multi-step conversion like <a href="section-units.html#example-customary-convert-down2" class="xref" data-knowl="./knowl/xref/example-customary-convert-down2.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1.4">Example 1.1.4</a>). The conversion ratios suggest we can multiply the 15 mi/hr by the conversion ratios.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-customary-convert-down2.html">
+\begin{equation*}
+\frac{15 \text{ mi}}{1 \text{ hr}} \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \cdot \frac{0.3048 \text{ m}}{1 \text{ ft}} \approx \frac{24140 \text{ m}}{1 \text{ hr}}
+\end{equation*}
+</div>
+<div class="para">We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-customary-convert-down2.html">
+\begin{equation*}
+\frac{24140 \text{ m}}{1 \text{ hr}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \cdot \frac{1 \text{ min}}{60 \text{ sec}} \approx 6.706 \frac{\text{m}}{\text{sec}}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para" id="example-convert-speed-2-2">Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.</div>
+</div></details></div></article><article class="example example-like" id="example-convert-extra-units"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.19</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-convert-extra-units-1-1">How many pounds does a tablespoon of water weigh? Note that one gallon of water weights 8 lbs. Also a tablespoon is a half fluid ounce.</div>
+<div class="solutions"><details id="example-convert-extra-units-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-convert-extra-units-2-1">
+<div class="para">We need to conver the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} = \frac{1 \text{lb}}{64 \text{ tbs}} = 0.015625 \frac{\text{lbs}}{\text{tbs}}\text{.}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="exercise exercise-like" id="checkpoint-convert-ratio-units"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.20</span><span class="period">.</span>
+</h4>
+<div id="momcheckpoint-convert-ratio-units-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momcheckpoint-convert-ratio-units-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880611&amp;frame_id=momcheckpoint-convert-ratio-units-1"></iframe></div></article><div class="para" id="subsection-convert-compound-6">Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.</div>
+<article class="example example-like" id="example-convert-square-units"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.21</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-convert-square-units-1-1">Convert 2 acres to units of square miles.</div>
+<div class="solutions"><details id="example-convert-square-units-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-convert-square-units-2-1">
+<div class="para">First we note that an acre is <span class="process-math">\(43,560 \text{ ft}^2\text{.}\)</span> From <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html" id="example-convert-square-units-2-1-3">
+\begin{align*}
+2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mi}}{5280 \text{ ft}} \cdot \frac{\text{mi}}{5280 \text{ ft}} &amp; =\\
+2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \left(\frac{\text{mi}}{5280 \text{ ft}}\right)^2 &amp; =\\
+2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mi}^2}{5280^2 \text{ ft}^2} &amp; = \frac{1}{320} \text{ mi}^2\\
+&amp; = 0.003125
+\end{align*}
+</div>
+</div> <div class="para" id="example-convert-square-units-2-2">It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.</div>
+</div></details></div></article><article class="exercise exercise-like" id="checkpoint-convert-square-units"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.22</span><span class="period">.</span>
+</h4>
+<div id="momcheckpoint-convert-square-units-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momcheckpoint-convert-square-units-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1443878&amp;frame_id=momcheckpoint-convert-square-units-1"></iframe></div></article></section><section class="exercises" id="section-units-8"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="section-units-8-1"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=281746&amp;frame_id=momsection-units-8-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-2"><h4 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=98431&amp;frame_id=momsection-units-8-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-3"><h4 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880590&amp;frame_id=momsection-units-8-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-4"><h4 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880560&amp;frame_id=momsection-units-8-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-5"><h4 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=611410&amp;frame_id=momsection-units-8-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-6"><h4 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=990&amp;frame_id=momsection-units-8-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-7"><h4 class="heading">
+<span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880561&amp;frame_id=momsection-units-8-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-8"><h4 class="heading">
+<span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=18868&amp;frame_id=momsection-units-8-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-9"><h4 class="heading">
+<span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=108209&amp;frame_id=momsection-units-8-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-10"><h4 class="heading">
+<span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=126782&amp;frame_id=momsection-units-8-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-11"><h4 class="heading">
+<span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880611&amp;frame_id=momsection-units-8-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-12"><h4 class="heading">
+<span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=283597&amp;frame_id=momsection-units-8-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-13"><h4 class="heading">
+<span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880612&amp;frame_id=momsection-units-8-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-14"><h4 class="heading">
+<span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880564&amp;frame_id=momsection-units-8-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-15"><h4 class="heading">
+<span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=407640&amp;frame_id=momsection-units-8-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-16"><h4 class="heading">
+<span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=591886&amp;frame_id=momsection-units-8-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-17"><h4 class="heading">
+<span class="codenumber">17<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=591911&amp;frame_id=momsection-units-8-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-18"><h4 class="heading">
+<span class="codenumber">18<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=839099&amp;frame_id=momsection-units-8-18-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-19"><h4 class="heading">
+<span class="codenumber">19<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-19-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-19-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880558&amp;frame_id=momsection-units-8-19-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-20"><h4 class="heading">
+<span class="codenumber">20<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-20-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-20-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=873236&amp;frame_id=momsection-units-8-20-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-21"><h4 class="heading">
+<span class="codenumber">21<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-21-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-21-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=126794&amp;frame_id=momsection-units-8-21-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-22"><h4 class="heading">
+<span class="codenumber">22<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-22-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-22-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=126795&amp;frame_id=momsection-units-8-22-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-23"><h4 class="heading">
+<span class="codenumber">23<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-23-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-23-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=18872&amp;frame_id=momsection-units-8-23-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-24"><h4 class="heading">
+<span class="codenumber">24<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-24-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-24-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=880562&amp;frame_id=momsection-units-8-24-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-25"><h4 class="heading">
+<span class="codenumber">25<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-25-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-25-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=999&amp;frame_id=momsection-units-8-25-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-26"><h4 class="heading">
+<span class="codenumber">26<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-26-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-26-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=378195&amp;frame_id=momsection-units-8-26-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-27"><h4 class="heading">
+<span class="codenumber">27<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-27-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-27-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1001&amp;frame_id=momsection-units-8-27-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-28"><h4 class="heading">
+<span class="codenumber">28<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-28-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-28-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=13776&amp;frame_id=momsection-units-8-28-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-29"><h4 class="heading">
+<span class="codenumber">29<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-29-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-29-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=407644&amp;frame_id=momsection-units-8-29-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-30"><h4 class="heading">
+<span class="codenumber">30<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-30-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-30-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=18876&amp;frame_id=momsection-units-8-30-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-31"><h4 class="heading">
+<span class="codenumber">31<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-31-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-31-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=101947&amp;frame_id=momsection-units-8-31-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-32"><h4 class="heading">
+<span class="codenumber">32<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-32-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-32-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=283604&amp;frame_id=momsection-units-8-32-2"></iframe></div></article><article class="exercise exercise-like" id="section-units-8-33"><h4 class="heading">
+<span class="codenumber">33<span class="period">.</span></span><span class="space"> </span><span class="title">Units.</span>
+</h4>
+<div id="momsection-units-8-33-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-units-8-33-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=283606&amp;frame_id=momsection-units-8-33-2"></iframe></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chapter-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-enough.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
