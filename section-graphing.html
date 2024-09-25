@@ -794,47 +794,96 @@ P \cdot V = k \cdot T
 </div></article></article></section><section class="subsection" id="subsection-linear-notation"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="space"> </span><span class="title">Graphing Lines</span>
 </h3>
-<div class="para" id="subsection-linear-notation-2">We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section addresses graphing lines from equations and analyzing linear models from graphs.</div>
-<div class="para" id="subsection-linear-notation-3">As described in <a href="section-linear.html#subsection-present-linear" class="internal" title="Subsection 3.1.1: Linear Models">Subsection 3.1.1</a> a linear equation (model) can be written as <span class="process-math">\(y=\frac{a}{b}x+c\text{.}\)</span> In <a href="section-graphing.html#example-scale-model" class="xref" data-knowl="./knowl/xref/example-scale-model.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.23: Scale Model">Example 3.2.23</a> we graphed a linear equation. In that example <span class="process-math">\(\frac{a}{b}=\frac{144}{1}\)</span> from the scaling factor and <span class="process-math">\(b=0\)</span> because the line was not shifted.</div>
-<div class="para" id="subsection-linear-notation-4">When referencing a graph of a line, the rate of change is known as the <dfn class="terminology">slope</dfn>. Often the slope is expressed as <span class="process-math">\(\frac{\text{rise}}{\text{run}}\)</span> because the denominator indicates how far horizontally along the graph we need to go for the graph to rise vertically the amount of the numerator. In the scale model example every one unit along the x-axis the line rises 144. The slope is 144/1 (rise/run).</div>
-<div class="para logical" id="subsection-linear-notation-5">
+<div class="para" id="subsection-linear-notation-2">We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines if we have the equation and presents analyzing linear models based on their graphs.</div>
+<div class="para" id="subsection-linear-notation-3">As described in <a href="section-linear.html#subsection-present-linear" class="internal" title="Subsection 3.1.1: Linear Models">Subsection 3.1.1</a> a linear equation (model) has two parts: <span class="process-math">\(\frac{a}{b}\)</span> and <span class="process-math">\(+c\text{.}\)</span> First, we address the role of the ratio in the graph.</div>
+<article class="definition definition-like" id="definition-slope"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.29</span><span class="period">.</span><span class="space"> </span><span class="title">Slope.</span>
+</h4> <div class="para logical" id="definition-slope-2-1">
+<div class="para">The rate of change of a line (graph) is called its <dfn class="terminology">slope</dfn>. The numerator is the change in y and the denominator is the change in x. Slope can be calculated as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+m=\frac{\text{rise}}{\text{run}}=\frac{y_2-y_1}{x_2-x_1}
+\end{equation*}
+</div>
+<div class="para">Rise and run are terms to help us remember the formula.</div>
+</div></article><div class="para" id="subsection-linear-notation-5">In <a href="section-graphing.html#example-scale-model" class="xref" data-knowl="./knowl/xref/example-scale-model.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.23: Scale Model">Example 3.2.23</a> we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have <span class="process-math">\(m=\frac{a}{b}=\frac{144}{1}\)</span> that is 144 is the change in y and and 1 is the change in x.</div>
+<div class="para logical" id="subsection-linear-notation-6">
 <div class="para">Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{y_2-y_1}{x_2-x_1}\text{.}
 \end{equation*}
 </div>
-<div class="para">This ratio is read, “change in y divided by change in x.”</div>
+<div class="para">The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.</div>
 </div>
 <article class="example example-like" id="example-calculate-slope"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.29</span><span class="period">.</span><span class="space"> </span><span class="title">Calculate Slope.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.30</span><span class="period">.</span><span class="space"> </span><span class="title">Calculate Slope.</span>
 </h4>
-<div class="para" id="example-calculate-slope-2-1">The graph in <a href="section-graphing.html#figure-graph-slope" class="xref" data-knowl="./knowl/xref/figure-graph-slope.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.30">Figure 3.2.30</a> is linear. We will calculate the slope twice.</div>
+<div class="para" id="example-calculate-slope-2-1">The graph in <a href="section-graphing.html#figure-graph-slope" class="xref" data-knowl="./knowl/xref/figure-graph-slope.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.31">Figure 3.2.31</a> is linear. We will calculate the slope twice.</div>
 <div class="solutions">
 <details id="example-calculate-slope-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-calculate-slope-3-1">
-<div class="para">First, we will use the points (4000,33.94) and (2000,31.94).</div>
-<div class="displaymath process-math" id="example-calculate-slope-3-1-1">
+<div class="para">First, we will use the points <span class="process-math">\((400\bar{0},25.92)\)</span> and <span class="process-math">\((200\bar{0},27.92)\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="example-calculate-slope-3-1-3">
 \begin{align*}
-\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{33.94-31.94}{4000-2000}\\
-&amp; = \frac{2}{2000}\\
-&amp; = \frac{1}{1000}.
+\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{25.92-27.92}{400\bar{0}-200\bar{0}}\\
+&amp; = \frac{-2.00}{200\bar{0}}\\
+&amp; = -\frac{1.00}{100\bar{0}}.
 \end{align*}
 </div>
-<div class="para">This means the slope is 1 inHg (inch of mercury) per 1000 feet above mean sea level.</div>
+<div class="para">This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of <span class="process-math">\(100\bar{0}\)</span> feet above mean sea level.</div>
 </div></div></details><details id="example-calculate-slope-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-calculate-slope-4-1">
-<div class="para">We will use the points (8000,37.94) and (4000,33.94).</div>
-<div class="displaymath process-math" id="example-calculate-slope-4-1-1">
+<div class="para">We will use the points <span class="process-math">\((800\bar{0},21.92)\)</span> and <span class="process-math">\((400\bar{0},25.92)\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="example-calculate-slope-4-1-3">
 \begin{align*}
-\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{37.94-33.94}{8000-4000}\\
-&amp; = \frac{4}{4000}\\
-&amp; = \frac{1}{1000}.
+\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{21.92-25.92}{800\bar{0}-400\bar{0}}\\
+&amp; = \frac{-4.00}{400\bar{0}}\\
+&amp; = -\frac{1.00}{100\bar{0}}.
 \end{align*}
 </div>
 <div class="para">As expected this is the same slope, because on a line the rate of change (slope) is constant.</div>
 </div></div></details>
 </div></article><figure class="figure figure-like" id="figure-graph-slope"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/line-slope.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.30<span class="period">.</span></span><span class="space"> </span>Calculating Slope</figcaption></figure><article class="exercise exercise-like" id="exercise-graphing-calculate-slope"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.31</span><span class="period">.</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.31<span class="period">.</span></span><span class="space"> </span>Calculating Slope</figcaption></figure><div class="para" id="subsection-linear-notation-9">To write the equation for a line we need the shift <span class="process-math">\(+c\)</span> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <span class="process-math">\(c\)</span> controls this shift. It is typically easiest to read this shift at <span class="process-math">\(x=0\)</span> because in the linear form <span class="process-math">\(y=mx+c\)</span> we have <span class="process-math">\(y=m \cdot 0 + c = c\text{,}\)</span> so the <span class="process-math">\(y\)</span> coordinate at <span class="process-math">\(x=0\)</span> is the shift.</div>
+<article class="example example-like" id="example-calculate-shift"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.32</span><span class="period">.</span><span class="space"> </span><span class="title">Calculate Shift.</span>
+</h4>
+<div class="para" id="example-calculate-shift-2-1">The graph in <a href="section-graphing.html#figure-graph-slope" class="xref" data-knowl="./knowl/xref/figure-graph-slope.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.31">Figure 3.2.31</a> is linear. We will calculate the shift.</div>
+<div class="solutions"><details id="example-calculate-shift-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-calculate-shift-3-1">The shift can be read when <span class="process-math">\(x=0\text{.}\)</span> That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.</div> <div class="para logical" id="example-calculate-shift-3-2">
+<div class="para">We will use <span class="process-math">\((200\bar{0},27.92)\)</span> to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up</div>
+<div class="displaymath process-math" id="example-calculate-shift-3-2-2">
+\begin{align*}
+\frac{1.00 \text{ inHg}}{100\bar{0} \text{ ft}} &amp; = \frac{d \text{ inHg}}{200\bar{0} \text{ ft}}.\\
+\frac{1.00 \text{ inHg}}{100\bar{0} \text{ ft}} \cdot 200\bar{0} \text{ ft} &amp; = \frac{d \text{ inHg}}{200\bar{0} \text{ ft}} \cdot 200\bar{0} \text{ ft}.\\
+2.00 \text{ inHg} &amp; = d.
+\end{align*}
+</div>
+<div class="para">Thus the pressure should increase by 2.00 inHg giving us <span class="process-math">\(P=27.92+2=29.92\text{.}\)</span> Thus the point is <span class="process-math">\((0.00, 29.92)\)</span> and the shift is <span class="process-math">\(c=29.92\text{.}\)</span>
+</div>
+</div> <div class="para logical" id="example-calculate-shift-3-3">
+<div class="para">Combining this shift with the slope from the example above the model is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P=29.92-\frac{1}{1000}A.
+\end{equation*}
+</div>
+<ul class="disc" id="example-calculate-shift-3-3-2">
+<li id="example-calculate-shift-3-3-2-1"><div class="para" id="p-derived-example-calculate-shift-3-3-2-1">
+<span class="process-math">\(P\)</span> is the pressure at altitude <span class="process-math">\(A\text{.}\)</span>
+</div></li>
+<li id="example-calculate-shift-3-3-2-2"><div class="para" id="p-derived-example-calculate-shift-3-3-2-2">29.92 is the initial pressure.</div></li>
+<li id="example-calculate-shift-3-3-2-3"><div class="para" id="p-derived-example-calculate-shift-3-3-2-3">The rate is <span class="process-math">\(\frac{1 \text{ inHg}}{1000 \text{ ft}}\text{.}\)</span>
+</div></li>
+<li id="example-calculate-shift-3-3-2-4"><div class="para" id="p-derived-example-calculate-shift-3-3-2-4">
+<span class="process-math">\(A\)</span> is the altitude above ground level.</div></li>
+</ul>
+<div class="para">If we replaced 29.92 with a parameter <span class="process-math">\(P_G\)</span> we could generalize the model to <span class="process-math">\(P_A = P_G-\frac{1}{1000}A\text{.}\)</span>
+</div>
+</div>
+</div></details></div></article><article class="exercise exercise-like" id="exercise-graphing-calculate-slope"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.33</span><span class="period">.</span>
 </h4>
 <div id="momexercise-graphing-calculate-slope-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-graphing-calculate-slope-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1458490&amp;frame_id=momexercise-graphing-calculate-slope-1"></iframe></div></article></section><section class="exercises" id="section-graphing-7"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="space"> </span><span class="title">Exercises</span>
