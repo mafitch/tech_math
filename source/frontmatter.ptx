@@ -38,9 +38,14 @@
 
     </colophon>
 
-    <!-- The following items must be placed in the desired/required order -->
-    <!-- This will be checked by a Document Type Definition eventually -->
-    <!-- Order: dedication, acknowledgements, forewords, prefaces -->
+    <acknowlegment>
+        <p>This text began as class presentation notes from Megan Gobeille. Its development has been aided by input from the following people.
+            <ul>
+                <li>Megan Ossiander-Gobeille</li>
+                <li>Deb Crawford</li>
+            </ul>
+        </p>
+    </acknowlegment>
 
     <preface xml:id="preface-student">
         <title>For Students</title>
