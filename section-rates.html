@@ -345,9 +345,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-analyze-multi-variable-models" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Analyzing Models with Multiple Variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-set-up" class="internal"><span class="codenumber">3.4.2</span> <span class="title">More Model Usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-model-limitations-think-first" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Limitations of Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -540,9 +540,9 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.3</span><span class="space"> </span><span class="title">Identifying Rates</span>
 </h2>
 <section class="introduction" id="section-rates-2"><div class="para logical" id="section-rates-2-1">
-<div class="para">This section addresses the topics</div>
+<div class="para">This section addresses the following topics.</div>
 <ul class="disc" id="section-rates-2-1-1"><li id="section-rates-2-1-1-1"><div class="para" id="p-derived-section-rates-2-1-1-1">Interpret data in various formats and analyze mathematical models</div></li></ul>
-<div class="para">and covers the mathematical concepts</div>
+<div class="para">This section covers the following mathematical concepts.</div>
 <ul class="disc" id="section-rates-2-1-2"><li id="section-rates-2-1-2-1"><div class="para" id="p-derived-section-rates-2-1-2-1">Identify rates as linear, quadratic, exponential, or other (critical thinking)</div></li></ul>
 </div> <div class="para" id="section-rates-2-2">So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.</div></section><section class="subsection" id="subsection-vary-difference"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="space"> </span><span class="title">Differences</span>
@@ -869,49 +869,69 @@ eBookConfig.enable_chatcodes =  false;
 </h4>
 <div class="para" id="example-vary-exponential-2-1">We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in <a href="section-rates.html#table-vary-exp-tien" class="xref" data-knowl="./knowl/xref/table-vary-exp-tien.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.17: Percent Increase for Tien">Table 3.3.17</a> and <a href="section-rates.html#table-vary-exp-vasya" class="xref" data-knowl="./knowl/xref/table-vary-exp-vasya.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.18: Percent Increase for Vasya">Table 3.3.18</a>.</div> <div class="para" id="example-vary-exponential-2-2">Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?</div></article><figure class="table table-like" id="table-vary-exp-tien"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.17<span class="period">.</span></span><span class="space"> </span>Percent Increase for Tien</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
+<td class="l m b0 r0 l0 t0 lines">Year</td>
+<td class="l m b0 r0 l0 t0 lines">Ratio</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Increase</td>
+</tr>
+<tr>
 <td class="l m b0 r0 l0 t0 lines">2018</td>
 <td class="l m b0 r0 l0 t0 lines">$55,050.80/$52,429.33</td>
 <td class="l m b0 r0 l0 t0 lines">=1.05</td>
+<td class="l m b0 r0 l0 t0 lines">5%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2019</td>
 <td class="l m b0 r0 l0 t0 lines">$57,803.34/$55,050.80</td>
 <td class="l m b0 r0 l0 t0 lines">=1.05</td>
+<td class="l m b0 r0 l0 t0 lines">5%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2020</td>
 <td class="l m b0 r0 l0 t0 lines">$60,693.50/$57,803.34</td>
 <td class="l m b0 r0 l0 t0 lines">=1.05</td>
+<td class="l m b0 r0 l0 t0 lines">5%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2021</td>
 <td class="l m b0 r0 l0 t0 lines">$63,728.18/$60,693.50</td>
 <td class="l m b0 r0 l0 t0 lines">=1.05</td>
+<td class="l m b0 r0 l0 t0 lines">5%</td>
 </tr>
 </table></div></figure><figure class="table table-like" id="table-vary-exp-vasya"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.18<span class="period">.</span></span><span class="space"> </span>Percent Increase for Vasya</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Year</td>
+<td class="l m b0 r0 l0 t0 lines">Ratio</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">Increase</td>
+</tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2018</td>
 <td class="l m b0 r0 l0 t0 lines">$67,347.23/$62,347.23</td>
 <td class="l m b0 r0 l0 t0 lines">=1.08</td>
+<td class="l m b0 r0 l0 t0 lines">8%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2019</td>
 <td class="l m b0 r0 l0 t0 lines">$72,347.23/$67,347.23</td>
 <td class="l m b0 r0 l0 t0 lines">=1.07</td>
+<td class="l m b0 r0 l0 t0 lines">7%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2020</td>
 <td class="l m b0 r0 l0 t0 lines">$77,347.23/$72,347.23</td>
 <td class="l m b0 r0 l0 t0 lines">=1.07</td>
+<td class="l m b0 r0 l0 t0 lines">7%</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2021</td>
 <td class="l m b0 r0 l0 t0 lines">$82,347.23/$77,347.23</td>
 <td class="l m b0 r0 l0 t0 lines">=1.06</td>
+<td class="l m b0 r0 l0 t0 lines">6%</td>
 </tr>
 </table></div></figure><article class="definition definition-like" id="definition-exponential-relation-quotient"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.19</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential.</span>
-</h4> <div class="para" id="definition-exponential-relation-quotient-2-1">A relation is <dfn class="terminology">exponential</dfn> if and only if the percent increase is constant.</div></article><div class="para" id="subsection-quotients-7">Althought <a href="section-rates.html#definition-exponential-relation" class="xref" data-knowl="./knowl/xref/definition-exponential-relation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.15: Exponential Relation">Definition 3.3.15</a> and <a href="section-rates.html#definition-exponential-relation-quotient" class="xref" data-knowl="./knowl/xref/definition-exponential-relation-quotient.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.19: Exponential">Definition 3.3.19</a> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <a href="section-rates.html#table-ratios-exponential" class="xref" data-knowl="./knowl/xref/table-ratios-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.20: Exponential Data 2 Ways">Table 3.3.20</a> shows an example of both.</div>
+</h4> <div class="para" id="definition-exponential-relation-quotient-2-1">A relation is <dfn class="terminology">exponential</dfn> if and only if the percent increase is constant.</div></article><div class="para" id="subsection-quotients-7">Although <a href="section-rates.html#definition-exponential-relation" class="xref" data-knowl="./knowl/xref/definition-exponential-relation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.15: Exponential Relation">Definition 3.3.15</a> and <a href="section-rates.html#definition-exponential-relation-quotient" class="xref" data-knowl="./knowl/xref/definition-exponential-relation-quotient.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.19: Exponential">Definition 3.3.19</a> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <a href="section-rates.html#table-ratios-exponential" class="xref" data-knowl="./knowl/xref/table-ratios-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.20: Exponential Data 2 Ways">Table 3.3.20</a> shows an example of both.</div>
 <figure class="table table-like" id="table-ratios-exponential"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.20<span class="period">.</span></span><span class="space"> </span>Exponential Data 2 Ways</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines">n</td>

@@ -345,9 +345,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-analyze-multi-variable-models" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Analyzing Models with Multiple Variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-set-up" class="internal"><span class="codenumber">3.4.2</span> <span class="title">More Model Usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-model-limitations-think-first" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Limitations of Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -539,10 +539,10 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-linear-systems"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.6</span><span class="space"> </span><span class="title">Linear Systems</span>
 </h2>
-<section class="introduction" id="section-linear-systems-2"><div class="para" id="section-linear-systems-2-1">In <a href="section-variation.html#example-calculate-exact-volume-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-exact-volume-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.11: Exact Volume Dilution">Example 3.4.11</a> we wanted to solve a problem with two constraints. We could meet one exactly (percent alcohol) and the other in inequality (at least that volume). Many problems have more than one constraint (condition we want to meet). Here we will learn to solve one type of them.</div></section><section class="subsection" id="subsection-dual-mixture"><h3 class="heading hide-type">
+<section class="introduction" id="section-linear-systems-2"><div class="para" id="section-linear-systems-2-1">In <a href="section-variation.html#example-calculate-exact-volume-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-exact-volume-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.12: Exact Volume Dilution">Example 3.4.12</a> we wanted to solve a problem with two constraints. We could meet one exactly (percent alcohol) and the other in inequality (at least that volume). Many problems have more than one constraint (condition we want to meet). Here we will learn to solve one type of them.</div></section><section class="subsection" id="subsection-dual-mixture"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="space"> </span><span class="title">Motivation</span>
 </h3>
-<div class="para" id="subsection-dual-mixture-2">In <a href="section-variation.html#example-calculate-exact-volume-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-exact-volume-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.11: Exact Volume Dilution">Example 3.4.11</a> we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures and want to combine them.</div>
+<div class="para" id="subsection-dual-mixture-2">In <a href="section-variation.html#example-calculate-exact-volume-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-exact-volume-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.12: Exact Volume Dilution">Example 3.4.12</a> we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures and want to combine them.</div>
 <article class="example example-like" id="example-dual-mixture"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Combining Mixtures.</span>
 </h4>
@@ -556,7 +556,7 @@ A+B = 10.0.
 \end{equation*}
 </div>
 </div> <div class="para logical" id="example-dual-mixture-3-3">
-<div class="para">The second contraint is the percent alcohol. As in <a href="section-variation.html#example-calculate-exact-volume-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-exact-volume-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.11: Exact Volume Dilution">Example 3.4.11</a> we will start by figuring out how much alcohol total will be in the resulting solution. Because it will be 85% alcohol there will be</div>
+<div class="para">The second contraint is the percent alcohol. As in <a href="section-variation.html#example-calculate-exact-volume-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-exact-volume-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.12: Exact Volume Dilution">Example 3.4.12</a> we will start by figuring out how much alcohol total will be in the resulting solution. Because it will be 85% alcohol there will be</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-calculate-exact-volume-dilute.html">
 \begin{equation*}
 (0.85)10.0 = 8.5 \text{ oz}\text{.}

@@ -345,9 +345,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-direct" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Direct Relations</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-inverse" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Inverse Relations</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-constant-variation" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Constant of Variation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-analyze-multi-variable-models" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Analyzing Models with Multiple Variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-set-up" class="internal"><span class="codenumber">3.4.2</span> <span class="title">More Model Usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-model-limitations-think-first" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Limitations of Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-variation-percent-mixture" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Another Mixture Problem</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-7" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -539,12 +539,154 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-variation"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.4</span><span class="space"> </span><span class="title">Variation</span>
 </h2>
-<section class="introduction" id="section-variation-2"><div class="para" id="section-variation-2-1">In <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> we compared data based on the rate. Here we will emphasize how one variable affects another.</div></section><section class="subsection" id="subsection-vary-direct"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="space"> </span><span class="title">Direct Relations</span>
+<section class="introduction" id="section-variation-2"><div class="para logical" id="section-variation-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-variation-2-1-1">
+<li id="section-variation-2-1-1-1"><div class="para" id="p-derived-section-variation-2-1-1-1">Interpret data in various formats and analyze mathematical models</div></li>
+<li id="section-variation-2-1-1-2"><div class="para" id="p-derived-section-variation-2-1-1-2">Read and use mathematical models in a technical document</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-variation-2-1-2">
+<li id="section-variation-2-1-2-1"><div class="para" id="p-derived-section-variation-2-1-2-1">Identify rates as linear, quadratic, exponential, or other (critical thinking)</div></li>
+<li id="section-variation-2-1-2-2"><div class="para" id="p-derived-section-variation-2-1-2-2">Identify data varrying directly or indirectly (critical thinking)</div></li>
+<li id="section-variation-2-1-2-3"><div class="para" id="p-derived-section-variation-2-1-2-3">Solve linear, rational, quadratic, and exponential equations and formulas (skill)</div></li>
+</ul>
+</div> <div class="para" id="section-variation-2-2">
+<a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> presents how to determine the rate at which one variable grows with respect to another. In all of those cases we considered only one variable changing. However, many models have more than one variable or parameter, and we wish to analyze the impact each one has on the result. This section will also present one more type of rate.</div></section><section class="subsection" id="subsection-analyze-multi-variable-models"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="space"> </span><span class="title">Analyzing Models with Multiple Variables</span>
 </h3>
-<div class="para" id="subsection-vary-direct-2">In <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> we saw examples where the data increased. For example the salaries went up each year. The quadratic (<a href="section-rates.html#example-differences-quadratic" class="xref" data-knowl="./knowl/xref/example-differences-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.8: Quadratic Data">Example 3.3.8</a>) and exponential (<a href="section-rates.html#example-differences-exponential" class="xref" data-knowl="./knowl/xref/example-differences-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.11: Exponential Data">Example 3.3.11</a>) also are increasing data. When an increase in one variable causes another to increase, we call the relationship between them <dfn class="terminology">direct</dfn>.</div>
-<div class="para logical" id="subsection-vary-direct-3">
-<div class="para">For some problems it makes sense to look at these another way. Consider the situation in <a href="section-variation.html#figure-hydraulic-press" class="xref" data-knowl="./knowl/xref/figure-hydraulic-press.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.1">Figure 3.4.1</a>. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <span class="process-math">\(P=\frac{F_1}{A_1}\text{.}\)</span> The same is true on the right <span class="process-math">\(P=\frac{F_2}{A_2}\text{.}\)</span> Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus</div>
+<div class="para" id="subsection-analyze-multi-variable-models-2">This first example illustrates how a result can be linear with respect to one or more variables and quadratic (or other relationships) with another.</div>
+<article class="example example-like" id="example-vary-multi-lift"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-vary-multi-lift-1">Review <a href="section-models.html#model-lift-equation" class="xref" data-knowl="./knowl/xref/model-lift-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 1.3.3: Lift Equation">Fact 1.3.3</a>. Consider how lift changes with respect to each of the parameters.</div> <div class="para logical" id="example-vary-multi-lift-2">
+<div class="para">Consider <span class="process-math">\(\rho\)</span> the density of air. If the other parameters remain constant (only density changes), then the model looks like</div>
+<div class="displaymath process-math" id="example-vary-multi-lift-2-2">
+\begin{align*}
+L &amp; = \frac{1}{2}\rho s C_L v^2\\
+&amp; = \left( \frac{1}{2} s C_L v^2 \right)\rho \\
+&amp; = k \rho.
+\end{align*}
+</div>
+<div class="para">We can see that lift (<span class="process-math">\(L\)</span>) changes linearly with respect to air density (<span class="process-math">\(\rho\)</span>).</div>
+</div> <div class="para logical" id="example-vary-multi-lift-3">
+<div class="para">Consider <span class="process-math">\(s\)</span> the surface area of the airfoil (wing or propeller). If the other parameters remain constant (only surface area changes), then the model looks like</div>
+<div class="displaymath process-math" id="example-vary-multi-lift-3-2">
+\begin{align*}
+L &amp; = \frac{1}{2}\rho s C_L v^2\\
+&amp; = \left( \frac{1}{2} \rho C_L v^2 \right)s \\
+&amp; = k s.
+\end{align*}
+</div>
+<div class="para">We can see that lift (<span class="process-math">\(L\)</span>) changes linearly with respect to surface area (<span class="process-math">\(s\)</span>).</div>
+</div> <div class="para logical" id="example-vary-multi-lift-4">
+<div class="para">Consider <span class="process-math">\(C_L\)</span> the coefficient of lift of the airfoil. If the other parameters remain constant, then the model looks like</div>
+<div class="displaymath process-math" id="example-vary-multi-lift-4-2">
+\begin{align*}
+L &amp; = \frac{1}{2}\rho s C_L v^2\\
+&amp; = \left( \frac{1}{2} \rho s v^2 \right)C_L \\
+&amp; = k C_L.
+\end{align*}
+</div>
+<div class="para">We can see that lift (<span class="process-math">\(L\)</span>) changes linearly with respect to the coefficient of lift (<span class="process-math">\(C_L\)</span>).</div>
+</div> <div class="para logical" id="example-vary-multi-lift-5">
+<div class="para">Consider <span class="process-math">\(v\)</span> the velocity. If the other parameters remain constant, then the model looks like</div>
+<div class="displaymath process-math" id="example-vary-multi-lift-5-2">
+\begin{align*}
+L &amp; = \frac{1}{2}\rho s C_L v^2\\
+&amp; = \left( \frac{1}{2} \rho s C_L \right)v^2 \\
+&amp; = k v^2.
+\end{align*}
+</div>
+<div class="para">We can see that lift (<span class="process-math">\(L\)</span>) changes quadratically with respect to velocity (<span class="process-math">\(v^2\)</span>).</div>
+</div> <div class="para" id="example-vary-multi-lift-6">How can we apply this knowledge? Lift changes linearly with respect to all parameters except for velocity. If greater lift (to handle greater weight) is needed, velocity provides bigger bang for our buck than any other change.</div></article><div class="para" id="subsection-analyze-multi-variable-models-4">This second example has us look at the impact on more than just one variable. It also introduces a new relationship.</div>
+<article class="example example-like" id="example-vary-multi-gas"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-vary-multi-gas-1">Review <a href="section-models.html#model-lift-equation" class="xref" data-knowl="./knowl/xref/model-lift-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Fact 1.3.3: Lift Equation">Fact 1.3.3</a>.</div> <div class="para logical" id="example-vary-multi-gas-2">
+<div class="para">First consider the impact temperature (<span class="process-math">\(T\)</span>) has on pressure (<span class="process-math">\(P\)</span>). If the other parameters remain constant, then the model looks like</div>
+<div class="displaymath process-math" id="example-vary-multi-gas-2-3">
+\begin{align*}
+PV &amp; = nRT.\\
+P &amp; = \frac{nRT}{V}.\\
+P &amp; = \frac{nR}{V}T.\\
+P &amp; = kT.
+\end{align*}
+</div>
+<div class="para">Pressure (<span class="process-math">\(P\)</span>) grows linearly with respect to temperature.</div>
+</div> <div class="para" id="example-vary-multi-gas-3">Notice that we can write that last equation at <span class="process-math">\(\frac{1}{k}P = T\)</span> which means we can also make the reverse statement: temperature increases linearly with pressure.</div> <div class="para logical" id="example-vary-multi-gas-4">
+<div class="para">Next consider the impact temperature (<span class="process-math">\(T\)</span>) has on volume (<span class="process-math">\(V\)</span>). If the other parameters remain constant, then the model looks like</div>
+<div class="displaymath process-math" id="example-vary-multi-gas-4-3">
+\begin{align*}
+PV &amp; = nRT.\\
+V &amp; = \frac{nRT}{P}.\\
+V &amp; = \frac{nR}{P}T.\\
+V &amp; = kT.
+\end{align*}
+</div>
+<div class="para">Volume (<span class="process-math">\(V\)</span>) also grows linearly with respect to temperature.</div>
+</div> <div class="para logical" id="example-vary-multi-gas-5">
+<div class="para">Finally consider the impact volume (<span class="process-math">\(V\)</span>) has on pressure (<span class="process-math">\(P\)</span>). If the other parameters remain constant, then the model looks like</div>
+<div class="displaymath process-math" id="example-vary-multi-gas-5-3">
+\begin{align*}
+PV &amp; = nRT.\\
+P &amp; = \frac{nRT}{V}.\\
+P &amp; = (nRt)\frac{1}{V}.\\
+P &amp; = k \cdot \frac{1}{V}.
+\end{align*}
+</div>
+<div class="para">This pattern is not linear (nor quadratic, nor exponential). If volume is increased the right hand side will decrease (dividing by a larger number). This means that pressure will decrease. Conversely if volume is decreased the right hand side will increase (divide by a smaller number). This means that pressure will increase.</div>
+</div></article><article class="definition definition-like" id="definition-vary-directly"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Vary Directly.</span>
+</h4> <div class="para" id="definition-vary-directly-2-1">For two quantities <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> if increasing <span class="process-math">\(b\)</span> increases <span class="process-math">\(a\text{,}\)</span> then <span class="process-math">\(a\)</span> is said to <dfn class="terminology">vary directly</dfn> with <span class="process-math">\(b\text{.}\)</span>
+</div></article><article class="definition definition-like" id="definition-vary-indirectly"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="period">.</span><span class="space"> </span><span class="title">Vary Indirectly.</span>
+</h4> <div class="para" id="definition-vary-indirectly-2-1">For two quantities <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> if increasing <span class="process-math">\(b\)</span> decreases <span class="process-math">\(a\text{,}\)</span> then <span class="process-math">\(a\)</span> is said to <dfn class="terminology">vary indirectly</dfn> with <span class="process-math">\(b\text{.}\)</span>
+</div></article><div class="para" id="subsection-analyze-multi-variable-models-8">
+<a href="section-graphing.html#example-vary-ohm" class="xref" data-knowl="./knowl/xref/example-vary-ohm.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.26: Ohm’s Law">Example 3.2.26</a> illustrated a model  where the increase in one variable caused a decrease in the other. We used an experiment (plugging in numbers) to discover the inverse relationship.</div>
+<div class="para" id="subsection-analyze-multi-variable-models-9">If two quantities vary directly, the model may be  linear or quadratic. If two quantities vary inversely, the model may be neither linear nor quadratic. In contrast the next example illustrates two quantities can vary inversely, and the model is still exponential.</div>
+<article class="example example-like" id="example-inverse-exponential"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="period">.</span><span class="space"> </span><span class="title">Decreasing Exponential.</span>
+</h4> <div class="para" id="example-inverse-exponential-2">Review the data in the table below. First, notice that <span class="process-math">\(a\)</span> decreases as <span class="process-math">\(n\)</span> increases which means <span class="process-math">\(a\)</span> varies inversely with <span class="process-math">\(n\text{.}\)</span> Second, note that the data is exponential with a ratio of <span class="process-math">\(1/2\text{.}\)</span> All exponential models that are decreasing have this property.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(n\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(a=\frac{1}{2^n}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Ratio</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1/2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1/4</td>
+<td class="l m b0 r0 l0 t0 lines">1/2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1/8</td>
+<td class="l m b0 r0 l0 t0 lines">1/2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines">1/16</td>
+<td class="l m b0 r0 l0 t0 lines">1/2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">1/32</td>
+<td class="l m b0 r0 l0 t0 lines">1/2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">1/64</td>
+<td class="l m b0 r0 l0 t0 lines">1/2</td>
+</tr>
+</table></div></article></section><section class="subsection" id="subsection-vary-set-up"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="space"> </span><span class="title">More Model Usage</span>
+</h3>
+<div class="para logical" id="subsection-vary-set-up-2">
+<div class="para">For some problems it makes sense to look at these another way. Consider the situation in <a href="section-variation.html#figure-hydraulic-press" class="xref" data-knowl="./knowl/xref/figure-hydraulic-press.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.6">Figure 3.4.6</a>. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <span class="process-math">\(P=\frac{F_1}{A_1}\text{.}\)</span> The same is true on the right <span class="process-math">\(P=\frac{F_2}{A_2}\text{.}\)</span> Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-hydraulic-press.html">
 \begin{equation*}
 \frac{F_1}{A_1} = \frac{F_2}{A_2}\text{.}
@@ -552,14 +694,14 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <figure class="figure figure-like" id="figure-hydraulic-press"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/hydraulic-press.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.1<span class="period">.</span></span><span class="space"> </span>Hydraulic Press</figcaption></figure><article class="example example-like" id="exmaple-hydraulic-piston-calculate"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="period">.</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.6<span class="period">.</span></span><span class="space"> </span>Hydraulic Press</figcaption></figure><article class="example example-like" id="example-hydraulic-piston-calculate"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="exmaple-hydraulic-piston-calculate-1-1">If the left piston has area <span class="process-math">\(16 \text{ cm}^2\text{,}\)</span> and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <span class="process-math">\(25 \text{ cm}^2\text{?}\)</span>
+<div class="para" id="example-hydraulic-piston-calculate-1-1">If the left piston has area <span class="process-math">\(16 \text{ cm}^2\text{,}\)</span> and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <span class="process-math">\(25 \text{ cm}^2\text{?}\)</span>
 </div>
-<div class="solutions"><details id="exmaple-hydraulic-piston-calculate-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="exmaple-hydraulic-piston-calculate-2-1">
+<div class="solutions"><details id="example-hydraulic-piston-calculate-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-hydraulic-piston-calculate-2-1">
 <div class="para">Notice this is a proportion problem. We can use the relationship</div>
-<div class="displaymath process-math" id="exmaple-hydraulic-piston-calculate-2-1-1">
+<div class="displaymath process-math" id="example-hydraulic-piston-calculate-2-1-1">
 \begin{align*}
 \frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{25 \text{ cm}^2}{F_2}.\\
 (16 \text{ cm}^2)F_2 \amp = (25 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}\\
@@ -567,16 +709,16 @@ eBookConfig.enable_chatcodes =  false;
 F_2 \amp \approx 7.8 \text{ N}.
 \end{align*}
 </div>
-</div></div></details></div></article><div class="para" id="subsection-vary-direct-6">Next lets consider how changing the size of the second piston affects the force.</div>
+</div></div></details></div></article><div class="para" id="subsection-vary-set-up-5">Next lets consider how changing the size of the second piston affects the force.</div>
 <article class="example example-like" id="example-hydraulic-piston-change"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.8</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-hydraulic-piston-change-1-1">If the second piston’s area is change from <span class="process-math">\(25 \text{ cm}^2\)</span> to <span class="process-math">\(36 \text{ cm}^2\text{,}\)</span> what is the increase or decrease in force?</div>
 <div class="solutions"><details id="example-hydraulic-piston-change-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="example-hydraulic-piston-change-2-1">
-<div class="para">First we setup the same problem as in <a href="section-variation.html#exmaple-hydraulic-piston-calculate" class="xref" data-knowl="./knowl/xref/exmaple-hydraulic-piston-calculate.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.2">Example 3.4.2</a>
+<div class="para">First we setup the same problem as in <a href="section-variation.html#example-hydraulic-piston-calculate" class="xref" data-knowl="./knowl/xref/example-hydraulic-piston-calculate.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.7">Example 3.4.7</a>
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/exmaple-hydraulic-piston-calculate.html" id="example-hydraulic-piston-change-2-1-2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-hydraulic-piston-calculate.html" id="example-hydraulic-piston-change-2-1-2">
 \begin{align*}
 \frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{36 \text{ cm}^2}{F_2}.\\
 (16 \text{ cm}^2)F_2 \amp = (36 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}\\
@@ -585,39 +727,8 @@ F_2 \amp \approx 11 \text{ N}.
 \end{align*}
 </div>
 </div> <div class="para" id="example-hydraulic-piston-change-2-2">The piston is larger and the force is also larger</div>
-</div></details></div></article><article class="example example-like" id="example-voltage-resistance-linear"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-voltage-resistance-linear-1-1">Voltage and resistance vary directly (see further <a href="section-graphing.html#example-vary-ohm" class="xref" data-knowl="./knowl/xref/example-vary-ohm.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.26: Ohm’s Law">Example 3.2.26</a>) . If voltage is 24 V and resistance is <span class="process-math">\(8 \Omega\text{,}\)</span> how would the voltage have to change if the resistance changes to <span class="process-math">\(6 \Omega\text{?}\)</span> to <span class="process-math">\(10 \Omega\text{?}\)</span>
-</div>
-<div class="solutions"><details id="example-voltage-resistance-linear-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-voltage-resistance-linear-2-1">
-<div class="para">Because the relationship is direct we can write</div>
-<div class="displaymath process-math" id="example-voltage-resistance-linear-2-1-1">
-\begin{align*}
-\frac{V_1}{R_1} \amp = \frac{V_2}{R_2}.\\
-\frac{24 \text{ V}}{8 \Omega} \amp = \frac{V_2}{6 \Omega}.\\
-\frac{24 \text{ V}}{8 \Omega}(6 \Omega) \amp = V_2. \amp \text{ Eliminating the denominator on the right}\\
-18 \text{ V} \amp = V_2.
-\end{align*}
-</div>
-<div class="para">We do the same for the second case.</div>
-<div class="displaymath process-math" id="example-voltage-resistance-linear-2-1-2">
-\begin{align*}
-\frac{V_1}{R_1} \amp = \frac{V_2}{R_2}.\\
-\frac{24 \text{ V}}{8 \Omega} \amp = \frac{V_2}{10 \Omega}.\\
-\frac{24 \text{ V}}{8 \Omega}(10 \Omega) \amp = V_2. \amp \text{ Eliminating the denominator on the right}\\
-30 \text{ V} \amp = V_2.
-\end{align*}
-</div>
-<div class="para">Notice that the resistances we chose change in a linear fashion: 6, 8, 10. Also note that the voltages changed in a linear fashion: 18, 24, 30.</div>
-</div></div></details></div></article></section><section class="subsection" id="subsection-vary-inverse"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="space"> </span><span class="title">Inverse Relations</span>
-</h3>
-<div class="para" id="subsection-vary-inverse-2">In <a href="section-graphing.html#example-vary-ohm" class="xref" data-knowl="./knowl/xref/example-vary-ohm.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.26: Ohm’s Law">Example 3.2.26</a> we saw data where the increase in one variable caused a decrease in the other. That example is known as an <dfn class="terminology">inverse</dfn> relation.</div>
-<div class="para" id="subsection-vary-inverse-3">Whereas a direct relation can be expressed as <span class="process-math">\(\frac{V_1}{R_1} = \frac{V_2}{R_2}\)</span> inverse relation can be expressed as <span class="process-math">\(I_1 R_1 = I_2 R_2\text{.}\)</span>
-</div>
-<article class="example example-like" id="example-current-resistance"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="period">.</span>
+</div></details></div></article><article class="example example-like" id="example-current-resistance"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-current-resistance-1-1">If the current is 3 amps when the resistance is 8 Ohms, what will the current be when the resistance is 6 Ohms? 4 Ohms?</div>
 <div class="solutions"><details id="example-current-resistance-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-current-resistance-2-1">
@@ -638,83 +749,19 @@ I_1 R_1 \amp = I_2 R_2\\
 1.5 \text{ amps} \amp = I_2.
 \end{align*}
 </div>
-</div></div></details></div></article><div class="para" id="subsection-vary-inverse-5">Note that the relation in <a href="section-variation.html#example-current-resistance" class="xref" data-knowl="./knowl/xref/example-current-resistance.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.5">Example 3.4.5</a> the resistances we chose change in a linear fashion: 4, 6, 8. The current also change in a linear fashion: 3, 2.25, 1.5. Thus the relation is inverse linear.</div>
-<article class="example example-like" id="example-inverse-exponential"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">Decreasing Exponential.</span>
-</h4>
-<div class="para" id="example-inverse-exponential-2-1">In <a href="section-variation.html#table-inverse-exponential" class="xref" data-knowl="./knowl/xref/table-inverse-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.4.7: Negative Exponential">Table 3.4.7</a> we see data for an exponential with a negative exponent. Note that this decreases. The differences display the same pattern of matching the data except they are negative. The negative should make sense because the data is decreasing. This is inverse exponential.</div></article><figure class="table table-like" id="table-inverse-exponential"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.7<span class="period">.</span></span><span class="space"> </span>Negative Exponential</figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(n\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2^{-n}\)</span></td>
-<td class="l m b0 r0 l0 t0 lines">Difference</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">1</td>
-<td class="l m b0 r0 l0 t0 lines">1/2</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">2</td>
-<td class="l m b0 r0 l0 t0 lines">1/4</td>
-<td class="l m b0 r0 l0 t0 lines">-1/4</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">3</td>
-<td class="l m b0 r0 l0 t0 lines">1/8</td>
-<td class="l m b0 r0 l0 t0 lines">-1/8</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">4</td>
-<td class="l m b0 r0 l0 t0 lines">1/16</td>
-<td class="l m b0 r0 l0 t0 lines">-1/16</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">5</td>
-<td class="l m b0 r0 l0 t0 lines">1/32</td>
-<td class="l m b0 r0 l0 t0 lines">-1/32</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">6</td>
-<td class="l m b0 r0 l0 t0 lines">1/64</td>
-<td class="l m b0 r0 l0 t0 lines">-1/64</td>
-</tr>
-</table></div></figure></section><section class="subsection" id="subsection-constant-variation"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="space"> </span><span class="title">Constant of Variation</span>
+</div></div></details></div></article><div class="para" id="subsection-vary-set-up-8">Note that the relation in <a href="section-variation.html#example-current-resistance" class="xref" data-knowl="./knowl/xref/example-current-resistance.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.9">Example 3.4.9</a> the resistances we chose change in a linear fashion: 4, 6, 8. The current also change in a linear fashion: 3, 2.25, 1.5. Thus the relation is inverse linear.</div></section><section class="subsection" id="subsection-model-limitations-think-first"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="space"> </span><span class="title">Limitations of Models</span>
 </h3>
-<div class="para" id="subsection-constant-variation-2">We defined direct and indirect variation in terms of how change in one variable affects another. Here we consider this from a different perspective.</div>
-<div class="para" id="subsection-constant-variation-3">For direct variation the ratio of variables is always equal. In <a href="section-variation.html#example-voltage-resistance-linear" class="xref" data-knowl="./knowl/xref/example-voltage-resistance-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.4">Example 3.4.4</a> we have <span class="process-math">\(\frac{V_1}{R_1} = \frac{V_2}{R_2}\text{.}\)</span> The specific results were <span class="process-math">\(\frac{30}{10}=\frac{24}{8}=\frac{18}{6}=3\text{.}\)</span> The number 3 is known as the <dfn class="terminology">constant of variation</dfn>. In some cases it has meaning. In this case we recognize it to be the current (i.e., 3 amps).</div>
-<article class="example example-like" id="example-constant-variation-lift"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.8</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="example-constant-variation-lift-1">
-<div class="para">Lift (<span class="process-math">\(L\text{,}\)</span> the force that keeps aircraft in the air) increases with air density (<span class="process-math">\(\rho\)</span>), surface area of wing (<span class="process-math">\(s\)</span>), and the square of velocity (<span class="process-math">\(v^2\)</span>). This can be expressed as</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{L_1}{\rho_1 s_1 v_1^2} = \frac{L_1}{\rho_2 s_2 v_2^2}
-\end{equation*}
-</div>
-<div class="para">Thus if air density decreases (<span class="process-math">\(\rho_2 \lt \rho_1\)</span>) either surface area or velocity must increase to maintain lift.</div>
-</div> <div class="para logical" id="example-constant-variation-lift-2">
-<div class="para">We can also express this as</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{L}{\rho s v^2} = k
-\end{equation*}
-</div>
-<div class="para">or</div>
-<div class="displaymath process-math">
-\begin{equation*}
-L = k \rho s v^2\text{.}
-\end{equation*}
-</div>
-<div class="para">For lift it is known that <span class="process-math">\(k=\frac{1}{2}C_L\)</span> where <span class="process-math">\(C_L\)</span> is known as the coefficient of lift. It depends on a variety of factors such as the shape of the wing and the angle the wing makes with the air.</div>
-</div></article></section><section class="subsection" id="subsection-variation-percent-mixture"><h3 class="heading hide-type">
+<div class="para" id="subsection-model-limitations-think-first-2">In <a href="section-variation.html#example-vary-multi-gas" class="xref" data-knowl="./knowl/xref/example-vary-multi-gas.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.4.2">Example 3.4.2</a> we solved the model equation to see how one value changes with respect to another. We considered how temperature impacts pressure if the other properties do not change. We also considered how temperature impacts volume if the other properties do not change. We might ask how how volume impacts temperature if the other properties do not change.</div>
+<div class="para" id="subsection-model-limitations-think-first-3">We will not however, because this is impossible. If volume is reduced (e.g., we press down on the handle of a tire pump and do not let the air out), then the pressure will increase. There is no way around that. The increase of pressure will then result in an increase of temperature. This still matches the model we have.</div>
+<div class="para" id="subsection-model-limitations-think-first-4">When using a model, mathematics is used to understand what is meant, but we must understand some of the background so we do not draw false conclusions.</div></section><section class="subsection" id="subsection-variation-percent-mixture"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="space"> </span><span class="title">Another Mixture Problem</span>
 </h3>
 <div class="para" id="subsection-variation-percent-mixture-2">In <a href="section-mixture.html" class="internal" title="Section 2.2: Mixtures">Section 2.2</a> we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.</div>
 <div class="para" id="subsection-variation-percent-mixture-3">By adding water we can of course not increase the percent alcohol, so 91% is the highest we can achieve. If we add enough water we can dilute it to as little as we want. That requires not restricting the final volume. This should make us wonder about a relationship between the desired volume and the minimum/maximum amount of alchol.</div>
 <div class="para" id="subsection-variation-percent-mixture-4">This first question is the same as <a href="section-mixture.html#example-calculate-dilute" class="xref" data-knowl="./knowl/xref/example-calculate-dilute.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.2.6: Calcluate Dilution">Example 2.2.6</a>. Use it to check your understanding of the process.</div>
 <article class="exercise exercise-like" id="exercise-calculate-dilute"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.9</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.10</span><span class="period">.</span>
 </h4>
 <div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7ClRFWFQoTU9ERVMoUFRYPT4nJyxIVE1MPT4nPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+XChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpPC9kaXY+JykpOwpDb250ZXh0KCdOdW1lcmljJyk7CgpCRUdJTl9QR01MClN1cHBvc2Ugd2Ugd2FudCAyMC4wIG96IG9mIDcwLjAlIGFsY29ob2wgc29sdXRpb24uIEhvdyBtdWNoIHdhdGVyIHNob3VsZCB3ZSBhZGQ/IFtfXXsnNC45J317NH0gSG93IG11Y2ggc29sdXRpb24gd2lsbCB3ZSBoYXZlPyBbX117JzIwLjknfXs0fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OClRoaXMgaXMgYSBwZXJjZW50IHByb2JsZW0gd2l0aCB0aGUgdG90YWwgYWxjb2hvbCB1bmNoYW5nZWQgKFtgKDAuOTEpMTY9MTQuNTZgXSkgYW5kIGFkZGluZyBvbmx5IHNvbWUgYW1vdW50IFtgd2BdIG9mIHdhdGVyLiBUaHVzIHdlIHNldHVwCgpbYGBgXGJlZ2lue2FsaWduZWR9ClxmcmFjeygwLjkxMCkxNi4wfXsxNi4wK3d9IFxhbXAgPSAwLjcwMFxcCigwLjkxMCkxNi4wIFxhbXAgPSAwLjcwMCgxNi4wK3cpXFwKKDAuOTEwKTE2LjAgXGFtcCA9ICgwLjcwMCkxNi4wKygwLjcwMCl3XFwKMTQuNiBcYW1wID0gMTEuMisoMC43MDApd1xcCjMuNCBcYW1wID0gKDAuNzAwKXdcXApcZnJhY3szLjR9ezAuNzAwfSBcYW1wID0gd1xcCjQuOSBcYW1wIFxhcHByb3ggdwpcZW5ke2FsaWduZWR9CmBgYF0KClRodXMgd2UgZW5kIHVwIHdpdGggW2AxNis0Ljk9MjAuOWBdIG96IG9mIHRoZSBuZXcgc29sdXRpb24uCgpXZSBjYW4gY29uZmlybSB0aGlzIHdvcmsgYnkgY2FsY3VsYXRpbmcgdGhlIHBlcmNlbnQgd2F0ZXIuIFRoZSBwZXJjZW50IGFsY29ob2wgaXMKCltgYGBcZnJhY3swLjkxMCgxNi4wKX17MTYuMCs0Ljl9PTAuNzBgYGBdCgp3aGljaCBpcyA3MCUuCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
@@ -745,7 +792,7 @@ L = k \rho s v^2\text{.}
 </div>
 </div></article><div class="para" id="subsection-variation-percent-mixture-6">Next we will illustrate that for a desired volume, we cannot obtain every percent.</div>
 <article class="exercise exercise-like" id="exercise-calculate-dilute2"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.10</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.11</span><span class="period">.</span>
 </h4>
 <div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKSWYgd2Ugc3RhcnQgd2l0aCAxNi4wIG96IG9mIDkxLjAlIGFsY29ob2wgc29sdXRpb24sIGhvdyBtdWNoIHdhdGVyIGRvIHdlIGFkZCBpZiB3ZSB3YW50IDI1LjAgb3ogb2YgYSA2MC4wJSBhbGNvaG9sIHNvbHV0aW9uPyBbX117JzguNTYnfXs0fQoKSG93IG11Y2ggc29sdXRpb24gdG90YWwgZG9lcyB0aGlzIHByb2R1Y2U/IFtfXXsnMjQuNid9ezR9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
@@ -759,7 +806,7 @@ L = k \rho s v^2\text{.}
 </div>
 </div></article><div class="para" id="subsection-variation-percent-mixture-8">Notice that we did not produce 25 oz but a little less. One question we can ask then is “what is the percent alcohol solution we can obtain for a given volume?”</div>
 <article class="example example-like" id="example-calculate-exact-volume-dilute"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.11</span><span class="period">.</span><span class="space"> </span><span class="title">Exact Volume Dilution.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.4.12</span><span class="period">.</span><span class="space"> </span><span class="title">Exact Volume Dilution.</span>
 </h4>
 <div class="para" id="example-calculate-exact-volume-dilute-2-1">If we start with 16.0 oz of 91.0% alcohol solution and we want exactly 20.0 oz of solution, what is the percent alcohol we can obtain?</div>
 <div class="solutions"><details id="example-calculate-exact-volume-dilute-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-calculate-exact-volume-dilute-3-1">
@@ -801,7 +848,7 @@ P &amp; \approx 0.73
 </div>
 <div class="para">Thus the percent we obtain for exactly 20.0 oz is 73%.</div>
 </div></div></details></div></article><article class="exercise exercise-like" id="exercise-calculate-exact-volume-dilute"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.12</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.13</span><span class="period">.</span>
 </h4>
 <div id="webwork-3" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="3" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKSWYgd2Ugc3RhcnQgd2l0aCAxNi4wIG96IG9mIDkxLjAlIGFsY29ob2wgc29sdXRpb24sIHdoYXQgaXMgdGhlIHBlcmNlbnQgYWxjb2hvbCBpZiB3ZSBwcm9kdWNlIGV4YWN0bHkgMjQuMCBveiBvZiBzb2x1dGlvbj8gW19deyc2MSd9ezR9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-3')">Activate</button></div>
@@ -811,7 +858,7 @@ P &amp; \approx 0.73
 <div class="solutions"><details id="extracted-webwork-3-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-3-1-2-1"><span class="process-math">\(61\)</span></div></div></details></div>
 </div>
 </div></article><article class="exercise exercise-like" id="exercise-exact-volume-variation"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.13</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.4.14</span><span class="period">.</span>
 </h4>
 <div class="para" id="exercise-exact-volume-variation-1-1">Does the percent alcohol vary linear, quadratic, exponential, or the inverse of one of these with respect to the volume? You will need to determine the percent alcohol for 28.0 oz of solution and perhas 32.0 oz of solution. Use these data points to determine the relation.</div></article></section><section class="exercises" id="section-variation-7"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="space"> </span><span class="title">Exercises</span>
