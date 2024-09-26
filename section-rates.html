@@ -539,79 +539,164 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-rates"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.3</span><span class="space"> </span><span class="title">Identifying Rates</span>
 </h2>
-<section class="introduction" id="section-rates-2"><div class="para" id="section-rates-2-1">A very important mathematical concept is rates. Often the rate at which something is happening is more important than the current scale or other measures. Here we will learn to identify rates from data.</div></section><section class="subsection" id="subsection-vary-difference"><h3 class="heading hide-type">
+<section class="introduction" id="section-rates-2"><div class="para logical" id="section-rates-2-1">
+<div class="para">This section addresses the topics</div>
+<ul class="disc" id="section-rates-2-1-1"><li id="section-rates-2-1-1-1"><div class="para" id="p-derived-section-rates-2-1-1-1">Interpret data in various formats and analyze mathematical models</div></li></ul>
+<div class="para">and covers the mathematical concepts</div>
+<ul class="disc" id="section-rates-2-1-2"><li id="section-rates-2-1-2-1"><div class="para" id="p-derived-section-rates-2-1-2-1">Identify rates as linear, quadratic, exponential, or other (critical thinking)</div></li></ul>
+</div> <div class="para" id="section-rates-2-2">So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.</div></section><section class="subsection" id="subsection-vary-difference"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="space"> </span><span class="title">Differences</span>
 </h3>
-<div class="para" id="subsection-vary-difference-2">One way to measure rates is to look at the differences between data point.</div>
-<div class="para" id="subsection-vary-difference-3">First we add another salary example that we can use for contrast with <a href="section-graphing.html#example-read-graph-bar-compare" class="xref" data-knowl="./knowl/xref/example-read-graph-bar-compare.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.19">Example 3.2.19</a>.</div>
-<figure class="table table-like" id="table-graphing-bar2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.1<span class="period">.</span></span><span class="space"> </span>Tien’s Salary</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="subsection-vary-difference-2">One way to measure rates is to look at the differences between data points. Calculating these differences is illustrated in the table below.</div>
+<figure class="table table-like" id="table-differences-exponential-tien"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.1<span class="period">.</span></span><span class="space"> </span>Tien’s Salary</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Year</td>
+<td class="l m b0 r0 l0 t0 lines">Salary</td>
+<td class="l m b0 r0 l0 t0 lines">Difference</td>
+</tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2017</td>
 <td class="l m b0 r0 l0 t0 lines">$52,429.33</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2018</td>
 <td class="l m b0 r0 l0 t0 lines">$55,050.80</td>
+<td class="l m b0 r0 l0 t0 lines">$55,050.80-$52,429.33=$2,621.47</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2019</td>
 <td class="l m b0 r0 l0 t0 lines">$57,803.34</td>
+<td class="l m b0 r0 l0 t0 lines">$57,803.34-$55,050.80=$2,752.54</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2020</td>
 <td class="l m b0 r0 l0 t0 lines">$60,693.50</td>
+<td class="l m b0 r0 l0 t0 lines">$60,693.50-$57,803.34=$2,890.17</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2021</td>
 <td class="l m b0 r0 l0 t0 lines">$63,728.18</td>
+<td class="l m b0 r0 l0 t0 lines">$63,728.18-$60,693.50=$3,034.68</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2022</td>
 <td class="l m b0 r0 l0 t0 lines">$66,914.59</td>
+<td class="l m b0 r0 l0 t0 lines">$66,914.59-$63,728.18=$3,186.41</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2023</td>
 <td class="l m b0 r0 l0 t0 lines">$70,260.32</td>
+<td class="l m b0 r0 l0 t0 lines">$70,260.32-$66,914.59=$3,345.73</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2024</td>
 <td class="l m b0 r0 l0 t0 lines">$73,773.33</td>
+<td class="l m b0 r0 l0 t0 lines">$73,773.33-$70,260.32=$3,513.02</td>
 </tr>
-</table></div></figure><article class="example example-like" id="example-salary2"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">A Different Company.</span>
-</h4>
-<div class="para" id="example-salary2-2-1">When Tien was hired he was pair an annual salary of $52,429.33. His work has been good so each year he has received raises. His salaries are found in <a href="section-rates.html#table-graphing-bar2" class="xref" data-knowl="./knowl/xref/table-graphing-bar2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.1: Tien’s Salary">Table 3.3.1</a>.</div> <div class="para logical" id="example-salary2-2-2"><ul class="disc" id="example-salary2-2-2-1">
-<li id="example-salary2-2-2-1-1"><div class="para" id="p-derived-example-salary2-2-2-1-1">How frequently did Tien receive raises?</div></li>
-<li id="example-salary2-2-2-1-2"><div class="para" id="p-derived-example-salary2-2-2-1-2">Can we tell the size of the raises from the graph?</div></li>
-</ul></div></article><article class="example example-like" id="example-graphing-variation"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Compare Raises.</span>
-</h4>
-<div class="para" id="example-graphing-variation-2-1">One of the purposes of graphing is to compare how data is changing. Here we will compare the way the raises for Vasya and Tien were calculated.</div> <div class="para" id="example-graphing-variation-2-2">We know that Vasya’s salary rose by $5000 each year. We need to calculate how much Tien’s salary was raised each year. These calculations are in <a href="section-rates.html#table-varies-check" class="xref" data-knowl="./knowl/xref/table-varies-check.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.4: Tien’s Raises">Table 3.3.4</a>.</div> <div class="para" id="example-graphing-variation-2-3">Notice that Tien’s raises were not the same amount each year. How did the raises change? Vasya’s raises were the same each year, so her salary changed by a constant amount. When the rate of change is constant we call the pattern <dfn class="terminology">linear</dfn>. We will learn other patterns as well.</div></article><figure class="table table-like" id="table-varies-check"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.4<span class="period">.</span></span><span class="space"> </span>Tien’s Raises</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</table></div></figure><div class="para" id="subsection-vary-difference-4">In order to see how these differences can help us distinguish between linear and other models, consider Vasya’s salary in <a href="section-graphing.html#example-graphing-bar1" class="xref" data-knowl="./knowl/xref/example-graphing-bar1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.16: Increasing Income">Example 3.2.16</a>. We know that the difference between each year’s salary is $5000.00, because we are told that was the raise each year. This is linear model. In contrast Tien’s raises are different each year (they grow year to year). This means his salary does not grow linearly.</div>
+<article class="example example-like" id="example-differences-lines2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Differences for Atmospheric Pressure Model.</span>
+</h4> <div class="para" id="example-differences-lines2-2">Consider the model in <a href="section-graphing.html#example-calculate-slope" class="xref" data-knowl="./knowl/xref/example-calculate-slope.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.2.30: Calculate Slope">Example 3.2.30</a>. <a href="section-rates.html#table-differences-lines2a" class="xref" data-knowl="./knowl/xref/table-differences-lines2a.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.3: Atmospheric Pressure Differences (2000 ft intervals)">Table 3.3.3</a> calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.</div> <div class="para" id="example-differences-lines2-3">
+<a href="section-rates.html#table-differences-lines2b" class="xref" data-knowl="./knowl/xref/table-differences-lines2b.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.4: Atmospheric Pressure Differences (1000 ft intervals)">Table 3.3.4</a> calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.</div> <div class="para" id="example-differences-lines2-4">The differences we obtained do match. Consider <span class="process-math">\(\frac{-2.00}{2000} = \frac{-1.00}{1000}\text{.}\)</span> When written as a ratio the differences are the same number.</div></article><figure class="table table-like" id="table-differences-lines2a"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.3<span class="period">.</span></span><span class="space"> </span>Atmospheric Pressure Differences (2000 ft intervals)</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2018</td>
-<td class="l m b0 r0 l0 t0 lines">$55,050.80-$52,429.33</td>
-<td class="l m b0 r0 l0 t0 lines">=$2,621.47</td>
+<td class="l m b0 r0 l0 t0 lines">Altitude (ft MSL)</td>
+<td class="l m b0 r0 l0 t0 lines">Expected Pressure (inHg)</td>
+<td class="l m b0 r0 l0 t0 lines">Difference</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2019</td>
-<td class="l m b0 r0 l0 t0 lines">$57,803.34-$55,050.80</td>
-<td class="l m b0 r0 l0 t0 lines">=$2,752.54</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">29.92</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2020</td>
-<td class="l m b0 r0 l0 t0 lines">$60,693.50-$57,803.34</td>
-<td class="l m b0 r0 l0 t0 lines">=$2,890.17</td>
+<td class="l m b0 r0 l0 t0 lines">2000</td>
+<td class="l m b0 r0 l0 t0 lines">27.92</td>
+<td class="l m b0 r0 l0 t0 lines">27.92-29.92=-2.00</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2021</td>
-<td class="l m b0 r0 l0 t0 lines">$63,728.18-$60,693.50</td>
-<td class="l m b0 r0 l0 t0 lines">=$3,034.68</td>
+<td class="l m b0 r0 l0 t0 lines">4000</td>
+<td class="l m b0 r0 l0 t0 lines">25.92</td>
+<td class="l m b0 r0 l0 t0 lines">25.92-27.92=-2.00</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">6000</td>
+<td class="l m b0 r0 l0 t0 lines">23.92</td>
+<td class="l m b0 r0 l0 t0 lines">23.92-25.92=-2.00</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">8000</td>
+<td class="l m b0 r0 l0 t0 lines">21.92</td>
+<td class="l m b0 r0 l0 t0 lines">21.92-23.92=-2.00</td>
+</tr>
+</table></div></figure><figure class="table table-like" id="table-differences-lines2b"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.4<span class="period">.</span></span><span class="space"> </span>Atmospheric Pressure Differences (1000 ft intervals)</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Altitude (ft MSL)</td>
+<td class="l m b0 r0 l0 t0 lines">Expected Pressure (inHg)</td>
+<td class="l m b0 r0 l0 t0 lines">Difference</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">29.92</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">1000</td>
+<td class="l m b0 r0 l0 t0 lines">28.92</td>
+<td class="l m b0 r0 l0 t0 lines">28.92-29.92=-1.00</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2000</td>
+<td class="l m b0 r0 l0 t0 lines">27.92</td>
+<td class="l m b0 r0 l0 t0 lines">27.92-28.92=-1.00</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3000</td>
+<td class="l m b0 r0 l0 t0 lines">26.92</td>
+<td class="l m b0 r0 l0 t0 lines">26.92-27.92=-1.00</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">4000</td>
+<td class="l m b0 r0 l0 t0 lines">25.92</td>
+<td class="l m b0 r0 l0 t0 lines">25.92-26.92=-1.00</td>
 </tr>
 </table></div></figure><article class="definition definition-like" id="definition-linear-relation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Linear Relation.</span>
-</h4> <div class="para" id="definition-linear-relation-2-1">A relation is <dfn class="terminology">linear</dfn> if and only if the rate of change is constant.</div></article><div class="para" id="subsection-vary-difference-9">Note we used this constant addition property when working with ratio problems like <a href="section-ratios.html#example-ratio-airspeed1" class="xref" data-knowl="./knowl/xref/example-ratio-airspeed1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.3.4: Ratio: Airspeed">Example 2.3.4</a>. Relations defined by fixed ratios like these are linear.</div>
+</h4> <div class="para" id="definition-linear-relation-2-1">A relation is <dfn class="terminology">linear</dfn> if and only if the rate of change is constant.</div></article><div class="para" id="subsection-vary-difference-9">This states that a linear model grows by the same amount from one step to the next (rate of change or difference). This equal growth results from the ratio <span class="process-math">\(m\)</span> in the form <span class="process-math">\(y=mx+b\text{.}\)</span> Consider the specific case <span class="process-math">\(y=3x+2\text{.}\)</span> In the table below notice that the differences are all the same and that the difference is 3. 3 is the ratio from the equation. This is always the case. The slope is how fast the line grows.</div>
+<figure class="table table-like" id="table-line-differences"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.6<span class="period">.</span></span><span class="space"> </span>Differences for Lines</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">Difference</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">5-2=3</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(8\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">8-5=3</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(11\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">11-8=3</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(14\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">14-11=3</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-vary-difference-11">Note we used this constant addition property when working with ratio problems like <a href="section-ratios.html#example-ratio-airspeed1" class="xref" data-knowl="./knowl/xref/example-ratio-airspeed1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.3.4: Ratio: Airspeed">Example 2.3.4</a>. Relations defined by fixed ratios like these are linear.</div>
 <article class="exercise exercise-like" id="exercise-vary-linear-check"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.6</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="exercise-vary-linear-check-1-1">Which of these employees’ raises were linear?</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -650,11 +735,11 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">$74,544.00</td>
 </tr>
 </table></div>
-<div class="solutions"><details id="exercise-vary-linear-check-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="exercise-vary-linear-check-2-1">Subtract consecutive pairs of salaries. If all the differences are the same, then that person’s raises were linear.</div></div></details></div></article><div class="para" id="subsection-vary-difference-11">For linear data we noted that consecutive differences are always the same. In <a href="section-rates.html#example-differences-quadratic" class="xref" data-knowl="./knowl/xref/example-differences-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.7: Quadratic Data">Example 3.3.7</a> to <a href="section-rates.html#example-differences-exponential" class="xref" data-knowl="./knowl/xref/example-differences-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.10: Exponential Data">Example 3.3.10</a> we will see known data and how the differences look.</div>
+<div class="solutions"><details id="exercise-vary-linear-check-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="exercise-vary-linear-check-2-1">Subtract consecutive pairs of salaries. If all the differences are the same, then that person’s raises were linear.</div></div></details></div></article><div class="para" id="subsection-vary-difference-13">For linear data consecutive differences are always the same. The next examples (<a href="section-rates.html#example-differences-quadratic" class="xref" data-knowl="./knowl/xref/example-differences-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.8: Quadratic Data">Example 3.3.8</a> to <a href="section-rates.html#example-differences-exponential" class="xref" data-knowl="./knowl/xref/example-differences-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.11: Exponential Data">Example 3.3.11</a>) illustrate known, non-linear data and how the differences for those look.</div>
 <article class="example example-like" id="example-differences-quadratic"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.7</span><span class="period">.</span><span class="space"> </span><span class="title">Quadratic Data.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.8</span><span class="period">.</span><span class="space"> </span><span class="title">Quadratic Data.</span>
 </h4>
-<div class="para" id="example-differences-quadratic-2-1">Note in <a href="section-rates.html#table-differences-quadratic" class="xref" data-knowl="./knowl/xref/table-differences-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.8: Quadratic Data">Table 3.3.8</a> that the first differences are not the same. However, they increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be true for all quadratic data.</div></article><figure class="table table-like" id="table-differences-quadratic"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.8<span class="period">.</span></span><span class="space"> </span>Quadratic Data</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="example-differences-quadratic-2-1">Consider <a href="section-rates.html#table-differences-quadratic" class="xref" data-knowl="./knowl/xref/table-differences-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.9: Quadratic Data">Table 3.3.9</a>. The first differences (what we calculated above) are not the same. Thus this data is not linear.</div> <div class="para" id="example-differences-quadratic-2-2">However, the first differences increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all <dfn class="terminology">quadratic</dfn> data.</div></article><figure class="table table-like" id="table-differences-quadratic"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.9<span class="period">.</span></span><span class="space"> </span>Quadratic Data</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(n\)</span></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(n^2\)</span></td>
@@ -695,11 +780,11 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">11-9=2</td>
 </tr>
 </table></div></figure><article class="definition definition-like" id="definition-quadratic-relation"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.9</span><span class="period">.</span><span class="space"> </span><span class="title">Quadratic Relation.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.10</span><span class="period">.</span><span class="space"> </span><span class="title">Quadratic Relation.</span>
 </h4> <div class="para" id="definition-quadratic-relation-2-1">A relation is <dfn class="terminology">quadratic</dfn> if and only if the second differences are constant.</div></article><article class="example example-like" id="example-differences-exponential"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.10</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Data.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.11</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Data.</span>
 </h4>
-<div class="para" id="example-differences-exponential-2-1">In <a href="section-rates.html#table-differences-exponential" class="xref" data-knowl="./knowl/xref/table-differences-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.11: Exponential Data">Table 3.3.11</a> the differences are not the same nor do they show the pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This measn the rate is determined by the current scale. This is the pattern of data that varies exponentially.</div></article><figure class="table table-like" id="table-differences-exponential"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.11<span class="period">.</span></span><span class="space"> </span>Exponential Data</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="example-differences-exponential-2-1">Consider <a href="section-rates.html#table-differences-exponential" class="xref" data-knowl="./knowl/xref/table-differences-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.12: Exponential Data">Table 3.3.12</a>. The differences are not the same nor do they show the same pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.</div></article><figure class="table table-like" id="table-differences-exponential"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.12<span class="period">.</span></span><span class="space"> </span>Exponential Data</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(n\)</span></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2^n\)</span></td>
@@ -734,11 +819,11 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">64</td>
 <td class="l m b0 r0 l0 t0 lines">64-32=32</td>
 </tr>
-</table></div></figure><div class="para" id="subsection-vary-difference-17">Note that the differences for exponential data are not always exactly equal to the data.</div>
+</table></div></figure><div class="para" id="subsection-vary-difference-19">The next example illustrates that the differences for exponential data are not always exactly equal to the data.</div>
 <article class="example example-like" id="example-differences-exponential-scale"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.12</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Data Differences.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.13</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Data Differences.</span>
 </h4>
-<div class="para" id="example-differences-exponential-scale-2-1">In <a href="section-rates.html#table-differences-exponential-scale" class="xref" data-knowl="./knowl/xref/table-differences-exponential-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.13: Exponential Data with Scale">Table 3.3.13</a> note that the differences are not exactly equal to the original numbers. However, note that <span class="process-math">\(6=2 \cdot 3\)</span> <span class="process-math">\(18=2 \cdot 9\text{,}\)</span> and <span class="process-math">\(54=2 \cdot 27\text{.}\)</span> The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.</div></article><figure class="table table-like" id="table-differences-exponential-scale"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.13<span class="period">.</span></span><span class="space"> </span>Exponential Data with Scale</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="example-differences-exponential-scale-2-1">Consider <a href="section-rates.html#table-differences-exponential-scale" class="xref" data-knowl="./knowl/xref/table-differences-exponential-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.14: Exponential Data with Scale">Table 3.3.14</a>. The differences are not exactly equal to the original numbers. However, notice that <span class="process-math">\(6=2 \cdot 3\)</span> <span class="process-math">\(18=2 \cdot 9\text{,}\)</span> and <span class="process-math">\(54=2 \cdot 27\text{.}\)</span> The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.</div> <div class="para" id="example-differences-exponential-scale-2-2">Happily there is an easier way to determine that data is exponential shown in the next section.</div></article><figure class="table table-like" id="table-differences-exponential-scale"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.14<span class="period">.</span></span><span class="space"> </span>Exponential Data with Scale</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(n\)</span></td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(3^n\)</span></td>
@@ -774,15 +859,15 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">729-243=486</td>
 </tr>
 </table></div></figure><article class="definition definition-like" id="definition-exponential-relation"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.14</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Relation.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.15</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Relation.</span>
 </h4> <div class="para" id="definition-exponential-relation-2-1">A relation is <dfn class="terminology">exponential</dfn> if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.</div></article></section><section class="subsection" id="subsection-quotients"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="space"> </span><span class="title">Quotients</span>
 </h3>
-<div class="para" id="subsection-quotients-2">Rather than thinking about the change as the difference (subtraction) of consecutive numbers (salaries in these examples), we can consider the percent increase for each pair of consecutive numbers.</div>
+<div class="para" id="subsection-quotients-2">The previous section analyzed change as the difference (subtraction) of consecutive numbers (salaries in these examples). This section analyzes change using the percent increase for each pair of consecutive numbers.</div>
 <article class="example example-like" id="example-vary-exponential"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.15</span><span class="period">.</span><span class="space"> </span><span class="title">Salary Percent Incease.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.16</span><span class="period">.</span><span class="space"> </span><span class="title">Salary Percent Incease.</span>
 </h4>
-<div class="para" id="example-vary-exponential-2-1">We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in <a href="section-rates.html#table-vary-exp-tien" class="xref" data-knowl="./knowl/xref/table-vary-exp-tien.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.16: Percent Increase for Tien">Table 3.3.16</a> and <a href="section-rates.html#table-vary-exp-vasya" class="xref" data-knowl="./knowl/xref/table-vary-exp-vasya.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.17: Percent Increase for Vasya">Table 3.3.17</a>.</div> <div class="para" id="example-vary-exponential-2-2">Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?</div></article><figure class="table table-like" id="table-vary-exp-tien"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.16<span class="period">.</span></span><span class="space"> </span>Percent Increase for Tien</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="example-vary-exponential-2-1">We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in <a href="section-rates.html#table-vary-exp-tien" class="xref" data-knowl="./knowl/xref/table-vary-exp-tien.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.17: Percent Increase for Tien">Table 3.3.17</a> and <a href="section-rates.html#table-vary-exp-vasya" class="xref" data-knowl="./knowl/xref/table-vary-exp-vasya.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.18: Percent Increase for Vasya">Table 3.3.18</a>.</div> <div class="para" id="example-vary-exponential-2-2">Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?</div></article><figure class="table table-like" id="table-vary-exp-tien"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.17<span class="period">.</span></span><span class="space"> </span>Percent Increase for Tien</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2018</td>
 <td class="l m b0 r0 l0 t0 lines">$55,050.80/$52,429.33</td>
@@ -803,7 +888,7 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">$63,728.18/$60,693.50</td>
 <td class="l m b0 r0 l0 t0 lines">=1.05</td>
 </tr>
-</table></div></figure><figure class="table table-like" id="table-vary-exp-vasya"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.17<span class="period">.</span></span><span class="space"> </span>Percent Increase for Vasya</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</table></div></figure><figure class="table table-like" id="table-vary-exp-vasya"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.18<span class="period">.</span></span><span class="space"> </span>Percent Increase for Vasya</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines">2018</td>
 <td class="l m b0 r0 l0 t0 lines">$67,347.23/$62,347.23</td>
@@ -825,9 +910,9 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b0 r0 l0 t0 lines">=1.06</td>
 </tr>
 </table></div></figure><article class="definition definition-like" id="definition-exponential-relation-quotient"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.18</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential.</span>
-</h4> <div class="para" id="definition-exponential-relation-quotient-2-1">A relation is <dfn class="terminology">exponential</dfn> if and only if the percent increase is constant.</div></article><div class="para" id="subsection-quotients-7">Althought <a href="section-rates.html#definition-exponential-relation" class="xref" data-knowl="./knowl/xref/definition-exponential-relation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.14: Exponential Relation">Definition 3.3.14</a> and <a href="section-rates.html#definition-exponential-relation-quotient" class="xref" data-knowl="./knowl/xref/definition-exponential-relation-quotient.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.18: Exponential">Definition 3.3.18</a> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <a href="section-rates.html#table-ratios-exponential" class="xref" data-knowl="./knowl/xref/table-ratios-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.19: Exponential Data 2 Ways">Table 3.3.19</a> shows an example of both.</div>
-<figure class="table table-like" id="table-ratios-exponential"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.19<span class="period">.</span></span><span class="space"> </span>Exponential Data 2 Ways</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.3.19</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential.</span>
+</h4> <div class="para" id="definition-exponential-relation-quotient-2-1">A relation is <dfn class="terminology">exponential</dfn> if and only if the percent increase is constant.</div></article><div class="para" id="subsection-quotients-7">Althought <a href="section-rates.html#definition-exponential-relation" class="xref" data-knowl="./knowl/xref/definition-exponential-relation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.15: Exponential Relation">Definition 3.3.15</a> and <a href="section-rates.html#definition-exponential-relation-quotient" class="xref" data-knowl="./knowl/xref/definition-exponential-relation-quotient.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.19: Exponential">Definition 3.3.19</a> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <a href="section-rates.html#table-ratios-exponential" class="xref" data-knowl="./knowl/xref/table-ratios-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.3.20: Exponential Data 2 Ways">Table 3.3.20</a> shows an example of both.</div>
+<figure class="table table-like" id="table-ratios-exponential"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.3.20<span class="period">.</span></span><span class="space"> </span>Exponential Data 2 Ways</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines">n</td>
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\left(\frac{4}{3}\right)^n\)</span></td>

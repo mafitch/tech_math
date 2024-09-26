@@ -3787,43 +3787,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Identifying Rates",
-  "body": " Identifying Rates   A very important mathematical concept is rates. Often the rate at which something is happening is more important than the current scale or other measures. Here we will learn to identify rates from data.    Differences  One way to measure rates is to look at the differences between data point.  First we add another salary example that we can use for contrast with .   Tien's Salary   2017  $52,429.33   2018  $55,050.80   2019  $57,803.34   2020  $60,693.50   2021  $63,728.18   2022  $66,914.59   2023  $70,260.32   2024  $73,773.33       A Different Company  When Tien was hired he was pair an annual salary of $52,429.33. His work has been good so each year he has received raises. His salaries are found in .   How frequently did Tien receive raises?  Can we tell the size of the raises from the graph?      Compare Raises  One of the purposes of graphing is to compare how data is changing. Here we will compare the way the raises for Vasya and Tien were calculated.  We know that Vasya's salary rose by $5000 each year. We need to calculate how much Tien's salary was raised each year. These calculations are in .  Notice that Tien's raises were not the same amount each year. How did the raises change? Vasya's raises were the same each year, so her salary changed by a constant amount. When the rate of change is constant we call the pattern linear . We will learn other patterns as well.     Tien's Raises   2018  $55,050.80-$52,429.33  =$2,621.47  2019  $57,803.34-$55,050.80  =$2,752.54  2020  $60,693.50-$57,803.34  =$2,890.17  2021  $63,728.18-$60,693.50  =$3,034.68     Linear Relation  A relation is linear if and only if the rate of change is constant.   Note we used this constant addition property when working with ratio problems like . Relations defined by fixed ratios like these are linear.   Which of these employees' raises were linear?   Moses  Freya  Jamal  $57,233.00  $61,199.00  $58,769.00  $61,239.31  $63,499.00  $61,924.00  $65,526.06  $65,799.00  $65,079.00  $70,112.89  $68,099.00  $68,234.00  $75,020.79  $70,399.00  $71,389.00  $80,272.24  $72,699.00  $74,544.00   Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear.  For linear data we noted that consecutive differences are always the same. In to we will see known data and how the differences look.   Quadratic Data  Note in that the first differences are not the same. However, they increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be true for all quadratic data.    Quadratic Data     1st difference  2nd difference   1  1   2  4  4-1=3   3  9  9-4=5  5-3=2   4  16  16-9=7  7-5=2   5  25  25-16=9  9-7=2   6  36  36-25=11  11-9=2      Quadratic Relation  A relation is quadratic if and only if the second differences are constant.    Exponential Data  In the differences are not the same nor do they show the pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This measn the rate is determined by the current scale. This is the pattern of data that varies exponentially.    Exponential Data     Difference   1  2   2  4  4-2=2   3  8  8-4=4   4  16  16-8=8   5  32  32-16=16   6  64  64-32=32     Note that the differences for exponential data are not always exactly equal to the data.   Exponential Data Differences  In note that the differences are not exactly equal to the original numbers. However, note that  , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.    Exponential Data with Scale     Difference   1  3   2  9  9-3=6   3  27  27-9=18   4  81  81-27=54   5  243  243-81=162   6  729  729-243=486      Exponential Relation  A relation is exponential if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.     Quotients  Rather than thinking about the change as the difference (subtraction) of consecutive numbers (salaries in these examples), we can consider the percent increase for each pair of consecutive numbers.   Salary Percent Incease  We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in and .  Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?    Percent Increase for Tien   2018  $55,050.80\/$52,429.33  =1.05  2019  $57,803.34\/$55,050.80  =1.05  2020  $60,693.50\/$57,803.34  =1.05  2021  $63,728.18\/$60,693.50  =1.05     Percent Increase for Vasya   2018  $67,347.23\/$62,347.23  =1.08   2019  $72,347.23\/$67,347.23  =1.07   2020  $77,347.23\/$72,347.23  =1.07   2021  $82,347.23\/$77,347.23  =1.06      Exponential  A relation is exponential if and only if the percent increase is constant.   Althought and are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. shows an example of both.   Exponential Data 2 Ways   n   Difference  Ratio   1    2      3      4      5      6          Determine Rate  Check if Linear  Check if Linear  Check if Linear  Check if Linear  Find Slope for Linear  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Validity of Model  Write next terms  Write next terms  Write next terms   "
+  "body": " Identifying Rates   This section addresses the topics  Interpret data in various formats and analyze mathematical models  and covers the mathematical concepts  Identify rates as linear, quadratic, exponential, or other (critical thinking)    So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.    Differences  One way to measure rates is to look at the differences between data points. Calculating these differences is illustrated in the table below.   Tien's Salary   Tien's Salary  Year  Salary  Difference   2017  $52,429.33    2018  $55,050.80  $55,050.80-$52,429.33=$2,621.47   2019  $57,803.34  $57,803.34-$55,050.80=$2,752.54   2020  $60,693.50  $60,693.50-$57,803.34=$2,890.17   2021  $63,728.18  $63,728.18-$60,693.50=$3,034.68   2022  $66,914.59  $66,914.59-$63,728.18=$3,186.41   2023  $70,260.32  $70,260.32-$66,914.59=$3,345.73   2024  $73,773.33  $73,773.33-$70,260.32=$3,513.02     In order to see how these differences can help us distinguish between linear and other models, consider Vasya's salary in . We know that the difference between each year's salary is $5000.00, because we are told that was the raise each year. This is linear model. In contrast Tien's raises are different each year (they grow year to year). This means his salary does not grow linearly.   Differences for Atmospheric Pressure Model  Consider the model in . calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.  calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.  The differences we obtained do match. Consider . When written as a ratio the differences are the same number.    Atmospheric Pressure Differences (2000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    2000  27.92  27.92-29.92=-2.00   4000  25.92  25.92-27.92=-2.00   6000  23.92  23.92-25.92=-2.00   8000  21.92  21.92-23.92=-2.00      Atmospheric Pressure Differences (1000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    1000  28.92  28.92-29.92=-1.00   2000  27.92  27.92-28.92=-1.00   3000  26.92  26.92-27.92=-1.00   4000  25.92  25.92-26.92=-1.00      Linear Relation  A relation is linear if and only if the rate of change is constant.   This states that a linear model grows by the same amount from one step to the next (rate of change or difference). This equal growth results from the ratio in the form . Consider the specific case . In the table below notice that the differences are all the same and that the difference is 3. 3 is the ratio from the equation. This is always the case. The slope is how fast the line grows.   Differences for Lines     Difference       5-2=3    8-5=3    11-8=3    14-11=3    Note we used this constant addition property when working with ratio problems like . Relations defined by fixed ratios like these are linear.   Which of these employees' raises were linear?   Moses  Freya  Jamal  $57,233.00  $61,199.00  $58,769.00  $61,239.31  $63,499.00  $61,924.00  $65,526.06  $65,799.00  $65,079.00  $70,112.89  $68,099.00  $68,234.00  $75,020.79  $70,399.00  $71,389.00  $80,272.24  $72,699.00  $74,544.00   Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear.  For linear data consecutive differences are always the same. The next examples ( to ) illustrate known, non-linear data and how the differences for those look.   Quadratic Data  Consider . The first differences (what we calculated above) are not the same. Thus this data is not linear.  However, the first differences increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all quadratic data.    Quadratic Data     1st difference  2nd difference   1  1   2  4  4-1=3   3  9  9-4=5  5-3=2   4  16  16-9=7  7-5=2   5  25  25-16=9  9-7=2   6  36  36-25=11  11-9=2      Quadratic Relation  A relation is quadratic if and only if the second differences are constant.    Exponential Data  Consider . The differences are not the same nor do they show the same pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.    Exponential Data     Difference   1  2   2  4  4-2=2   3  8  8-4=4   4  16  16-8=8   5  32  32-16=16   6  64  64-32=32     The next example illustrates that the differences for exponential data are not always exactly equal to the data.   Exponential Data Differences   Consider . The differences are not exactly equal to the original numbers. However, notice that  , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.  Happily there is an easier way to determine that data is exponential shown in the next section.     Exponential Data with Scale     Difference   1  3   2  9  9-3=6   3  27  27-9=18   4  81  81-27=54   5  243  243-81=162   6  729  729-243=486      Exponential Relation  A relation is exponential if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.     Quotients  The previous section analyzed change as the difference (subtraction) of consecutive numbers (salaries in these examples). This section analyzes change using the percent increase for each pair of consecutive numbers.   Salary Percent Incease  We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in and .  Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?    Percent Increase for Tien   2018  $55,050.80\/$52,429.33  =1.05  2019  $57,803.34\/$55,050.80  =1.05  2020  $60,693.50\/$57,803.34  =1.05  2021  $63,728.18\/$60,693.50  =1.05     Percent Increase for Vasya   2018  $67,347.23\/$62,347.23  =1.08   2019  $72,347.23\/$67,347.23  =1.07   2020  $77,347.23\/$72,347.23  =1.07   2021  $82,347.23\/$77,347.23  =1.06      Exponential  A relation is exponential if and only if the percent increase is constant.   Althought and are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. shows an example of both.   Exponential Data 2 Ways   n   Difference  Ratio   1    2      3      4      5      6          Determine Rate  Check if Linear  Check if Linear  Check if Linear  Check if Linear  Find Slope for Linear  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Validity of Model  Write next terms  Write next terms  Write next terms   "
 },
 {
-  "id": "table-graphing-bar2",
+  "id": "table-differences-exponential-tien",
   "level": "2",
-  "url": "section-rates.html#table-graphing-bar2",
+  "url": "section-rates.html#table-differences-exponential-tien",
   "type": "Table",
   "number": "3.3.1",
   "title": "Tien’s Salary",
-  "body": " Tien's Salary   2017  $52,429.33   2018  $55,050.80   2019  $57,803.34   2020  $60,693.50   2021  $63,728.18   2022  $66,914.59   2023  $70,260.32   2024  $73,773.33    "
+  "body": " Tien's Salary   Tien's Salary  Year  Salary  Difference   2017  $52,429.33    2018  $55,050.80  $55,050.80-$52,429.33=$2,621.47   2019  $57,803.34  $57,803.34-$55,050.80=$2,752.54   2020  $60,693.50  $60,693.50-$57,803.34=$2,890.17   2021  $63,728.18  $63,728.18-$60,693.50=$3,034.68   2022  $66,914.59  $66,914.59-$63,728.18=$3,186.41   2023  $70,260.32  $70,260.32-$66,914.59=$3,345.73   2024  $73,773.33  $73,773.33-$70,260.32=$3,513.02    "
 },
 {
-  "id": "example-salary2",
+  "id": "example-differences-lines2",
   "level": "2",
-  "url": "section-rates.html#example-salary2",
+  "url": "section-rates.html#example-differences-lines2",
   "type": "Example",
   "number": "3.3.2",
-  "title": "A Different Company.",
-  "body": " A Different Company  When Tien was hired he was pair an annual salary of $52,429.33. His work has been good so each year he has received raises. His salaries are found in .   How frequently did Tien receive raises?  Can we tell the size of the raises from the graph?    "
+  "title": "Differences for Atmospheric Pressure Model.",
+  "body": " Differences for Atmospheric Pressure Model  Consider the model in . calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.  calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.  The differences we obtained do match. Consider . When written as a ratio the differences are the same number.  "
 },
 {
-  "id": "example-graphing-variation",
+  "id": "table-differences-lines2a",
   "level": "2",
-  "url": "section-rates.html#example-graphing-variation",
-  "type": "Example",
+  "url": "section-rates.html#table-differences-lines2a",
+  "type": "Table",
   "number": "3.3.3",
-  "title": "Compare Raises.",
-  "body": " Compare Raises  One of the purposes of graphing is to compare how data is changing. Here we will compare the way the raises for Vasya and Tien were calculated.  We know that Vasya's salary rose by $5000 each year. We need to calculate how much Tien's salary was raised each year. These calculations are in .  Notice that Tien's raises were not the same amount each year. How did the raises change? Vasya's raises were the same each year, so her salary changed by a constant amount. When the rate of change is constant we call the pattern linear . We will learn other patterns as well.   "
+  "title": "Atmospheric Pressure Differences (2000 ft intervals)",
+  "body": " Atmospheric Pressure Differences (2000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    2000  27.92  27.92-29.92=-2.00   4000  25.92  25.92-27.92=-2.00   6000  23.92  23.92-25.92=-2.00   8000  21.92  21.92-23.92=-2.00    "
 },
 {
-  "id": "table-varies-check",
+  "id": "table-differences-lines2b",
   "level": "2",
-  "url": "section-rates.html#table-varies-check",
+  "url": "section-rates.html#table-differences-lines2b",
   "type": "Table",
   "number": "3.3.4",
-  "title": "Tien’s Raises",
-  "body": " Tien's Raises   2018  $55,050.80-$52,429.33  =$2,621.47  2019  $57,803.34-$55,050.80  =$2,752.54  2020  $60,693.50-$57,803.34  =$2,890.17  2021  $63,728.18-$60,693.50  =$3,034.68   "
+  "title": "Atmospheric Pressure Differences (1000 ft intervals)",
+  "body": " Atmospheric Pressure Differences (1000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    1000  28.92  28.92-29.92=-1.00   2000  27.92  27.92-28.92=-1.00   3000  26.92  26.92-27.92=-1.00   4000  25.92  25.92-26.92=-1.00    "
 },
 {
   "id": "definition-linear-relation",
@@ -3835,11 +3835,20 @@ var ptx_lunr_docs = [
   "body": " Linear Relation  A relation is linear if and only if the rate of change is constant.  "
 },
 {
+  "id": "table-line-differences",
+  "level": "2",
+  "url": "section-rates.html#table-line-differences",
+  "type": "Table",
+  "number": "3.3.6",
+  "title": "Differences for Lines",
+  "body": " Differences for Lines     Difference       5-2=3    8-5=3    11-8=3    14-11=3   "
+},
+{
   "id": "exercise-vary-linear-check",
   "level": "2",
   "url": "section-rates.html#exercise-vary-linear-check",
   "type": "Checkpoint",
-  "number": "3.3.6",
+  "number": "3.3.7",
   "title": "",
   "body": " Which of these employees' raises were linear?   Moses  Freya  Jamal  $57,233.00  $61,199.00  $58,769.00  $61,239.31  $63,499.00  $61,924.00  $65,526.06  $65,799.00  $65,079.00  $70,112.89  $68,099.00  $68,234.00  $75,020.79  $70,399.00  $71,389.00  $80,272.24  $72,699.00  $74,544.00   Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. "
 },
@@ -3848,16 +3857,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#example-differences-quadratic",
   "type": "Example",
-  "number": "3.3.7",
+  "number": "3.3.8",
   "title": "Quadratic Data.",
-  "body": " Quadratic Data  Note in that the first differences are not the same. However, they increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be true for all quadratic data.  "
+  "body": " Quadratic Data  Consider . The first differences (what we calculated above) are not the same. Thus this data is not linear.  However, the first differences increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all quadratic data.  "
 },
 {
   "id": "table-differences-quadratic",
   "level": "2",
   "url": "section-rates.html#table-differences-quadratic",
   "type": "Table",
-  "number": "3.3.8",
+  "number": "3.3.9",
   "title": "Quadratic Data",
   "body": " Quadratic Data     1st difference  2nd difference   1  1   2  4  4-1=3   3  9  9-4=5  5-3=2   4  16  16-9=7  7-5=2   5  25  25-16=9  9-7=2   6  36  36-25=11  11-9=2    "
 },
@@ -3866,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#definition-quadratic-relation",
   "type": "Definition",
-  "number": "3.3.9",
+  "number": "3.3.10",
   "title": "Quadratic Relation.",
   "body": " Quadratic Relation  A relation is quadratic if and only if the second differences are constant.  "
 },
@@ -3875,16 +3884,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#example-differences-exponential",
   "type": "Example",
-  "number": "3.3.10",
+  "number": "3.3.11",
   "title": "Exponential Data.",
-  "body": " Exponential Data  In the differences are not the same nor do they show the pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This measn the rate is determined by the current scale. This is the pattern of data that varies exponentially.  "
+  "body": " Exponential Data  Consider . The differences are not the same nor do they show the same pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.  "
 },
 {
   "id": "table-differences-exponential",
   "level": "2",
   "url": "section-rates.html#table-differences-exponential",
   "type": "Table",
-  "number": "3.3.11",
+  "number": "3.3.12",
   "title": "Exponential Data",
   "body": " Exponential Data     Difference   1  2   2  4  4-2=2   3  8  8-4=4   4  16  16-8=8   5  32  32-16=16   6  64  64-32=32    "
 },
@@ -3893,16 +3902,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#example-differences-exponential-scale",
   "type": "Example",
-  "number": "3.3.12",
+  "number": "3.3.13",
   "title": "Exponential Data Differences.",
-  "body": " Exponential Data Differences  In note that the differences are not exactly equal to the original numbers. However, note that  , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.  "
+  "body": " Exponential Data Differences   Consider . The differences are not exactly equal to the original numbers. However, notice that  , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.  Happily there is an easier way to determine that data is exponential shown in the next section.   "
 },
 {
   "id": "table-differences-exponential-scale",
   "level": "2",
   "url": "section-rates.html#table-differences-exponential-scale",
   "type": "Table",
-  "number": "3.3.13",
+  "number": "3.3.14",
   "title": "Exponential Data with Scale",
   "body": " Exponential Data with Scale     Difference   1  3   2  9  9-3=6   3  27  27-9=18   4  81  81-27=54   5  243  243-81=162   6  729  729-243=486    "
 },
@@ -3911,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#definition-exponential-relation",
   "type": "Definition",
-  "number": "3.3.14",
+  "number": "3.3.15",
   "title": "Exponential Relation.",
   "body": " Exponential Relation  A relation is exponential if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.  "
 },
@@ -3920,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#example-vary-exponential",
   "type": "Example",
-  "number": "3.3.15",
+  "number": "3.3.16",
   "title": "Salary Percent Incease.",
   "body": " Salary Percent Incease  We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in and .  Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?  "
 },
@@ -3929,7 +3938,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#table-vary-exp-tien",
   "type": "Table",
-  "number": "3.3.16",
+  "number": "3.3.17",
   "title": "Percent Increase for Tien",
   "body": " Percent Increase for Tien   2018  $55,050.80\/$52,429.33  =1.05  2019  $57,803.34\/$55,050.80  =1.05  2020  $60,693.50\/$57,803.34  =1.05  2021  $63,728.18\/$60,693.50  =1.05   "
 },
@@ -3938,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#table-vary-exp-vasya",
   "type": "Table",
-  "number": "3.3.17",
+  "number": "3.3.18",
   "title": "Percent Increase for Vasya",
   "body": " Percent Increase for Vasya   2018  $67,347.23\/$62,347.23  =1.08   2019  $72,347.23\/$67,347.23  =1.07   2020  $77,347.23\/$72,347.23  =1.07   2021  $82,347.23\/$77,347.23  =1.06    "
 },
@@ -3947,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#definition-exponential-relation-quotient",
   "type": "Definition",
-  "number": "3.3.18",
+  "number": "3.3.19",
   "title": "Exponential.",
   "body": " Exponential  A relation is exponential if and only if the percent increase is constant.  "
 },
@@ -3956,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rates.html#table-ratios-exponential",
   "type": "Table",
-  "number": "3.3.19",
+  "number": "3.3.20",
   "title": "Exponential Data 2 Ways",
   "body": " Exponential Data 2 Ways   n   Difference  Ratio   1    2      3      4      5      6       "
 },
