@@ -5,222 +5,247 @@
 
 <introduction>
 
-<p>A very important mathematical concept is rates. Often the rate at which something is happening is more important than the current scale or other measures. Here we will learn to identify rates from data.</p>
+    <p>This section addresses the topics
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+        </ul>
+        and covers the mathematical concepts
+        <ul>
+            <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
+        </ul>
+    </p>
+
+    <p>So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-vary-difference">
-	<title>Differences</title>
+    <title>Differences</title>
 
-	<p>One way to measure rates is to look at the differences between data point.</p>
+    <p>One way to measure rates is to look at the differences between data points. Calculating these differences is illustrated in the table below.</p>
 
-	<p>First we add another salary example that we can use for contrast with <xref ref="example-read-graph-bar-compare" />.</p>
+    <table xml:id="table-differences-exponential-tien" >
+        <title>Tien's Salary</title>
 
-	<table xml:id="table-graphing-bar2" >
-		<title>Tien's Salary</title>
+        <tabular>
+            <title>Tien's Salary</title>
+            <row><cell>Year</cell> <cell>Salary</cell> <cell>Difference</cell> </row>
+            <row><cell>2017</cell> <cell>$52,429.33</cell> <cell></cell> </row>
+            <row><cell>2018</cell> <cell>$55,050.80</cell> <cell>$55,050.80-$52,429.33=$2,621.47</cell> </row>
+            <row><cell>2019</cell> <cell>$57,803.34</cell> <cell>$57,803.34-$55,050.80=$2,752.54</cell> </row>
+            <row><cell>2020</cell> <cell>$60,693.50</cell> <cell>$60,693.50-$57,803.34=$2,890.17</cell> </row>
+            <row><cell>2021</cell> <cell>$63,728.18</cell> <cell>$63,728.18-$60,693.50=$3,034.68</cell> </row>
+            <row><cell>2022</cell> <cell>$66,914.59</cell> <cell>$66,914.59-$63,728.18=$3,186.41</cell> </row>
+            <row><cell>2023</cell> <cell>$70,260.32</cell> <cell>$70,260.32-$66,914.59=$3,345.73</cell> </row>
+            <row><cell>2024</cell> <cell>$73,773.33</cell> <cell>$73,773.33-$70,260.32=$3,513.02</cell> </row>
+        </tabular>
+    </table>
 
-		<tabular>
-			<row><cell>2017</cell> <cell>$52,429.33</cell> </row>
-			<row><cell>2018</cell> <cell>$55,050.80</cell> </row>
-			<row><cell>2019</cell> <cell>$57,803.34</cell> </row>
-			<row><cell>2020</cell> <cell>$60,693.50</cell> </row>
-			<row><cell>2021</cell> <cell>$63,728.18</cell> </row>
-			<row><cell>2022</cell> <cell>$66,914.59</cell> </row>
-			<row><cell>2023</cell> <cell>$70,260.32</cell> </row>
-			<row><cell>2024</cell> <cell>$73,773.33</cell> </row>
-		</tabular>
-	</table>
+    <p>In order to see how these differences can help us distinguish between linear and other models, consider Vasya's salary in <xref ref="example-graphing-bar1" />. We know that the difference between each year's salary is $5000.00, because we are told that was the raise each year. This is linear model. In contrast Tien's raises are different each year (they grow year to year). This means his salary does not grow linearly.</p>
 
-<!--	<figure xml:id="figure-graphing-bar2" >
-		<caption>Tien's Salary</caption>
+    <example xml:id="example-differences-lines2">
+        <title>Differences for Atmospheric Pressure Model</title>
 
-		<image source="images/tien-salary" />
-	</figure> -->
+        <p>Consider the model in <xref ref="example-calculate-slope" />. <xref ref="table-differences-lines2a" /> calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.</p>
+        <p><xref ref="table-differences-lines2b" /> calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.</p>
+        <p>The differences we obtained do match. Consider <m>\frac{-2.00}{2000} = \frac{-1.00}{1000}</m>. When written as a ratio the differences are the same number.</p>
+    </example>
 
-	<example xml:id="example-salary2">
-		<title>A Different Company</title>
+    <table xml:id="table-differences-lines2a">
+        <title>Atmospheric Pressure Differences (2000 ft intervals)</title>
+        <tabular>
+            <row><cell>Altitude (ft MSL)</cell> <cell>Expected Pressure (inHg)</cell> <cell>Difference</cell> </row>
+            <row><cell>0</cell> <cell>29.92</cell> <cell></cell> </row>
+            <row><cell>2000</cell> <cell>27.92</cell> <cell>27.92-29.92=-2.00</cell> </row>
+            <row><cell>4000</cell> <cell>25.92</cell> <cell>25.92-27.92=-2.00</cell> </row>
+            <row><cell>6000</cell> <cell>23.92</cell> <cell>23.92-25.92=-2.00</cell> </row>
+            <row><cell>8000</cell> <cell>21.92</cell> <cell>21.92-23.92=-2.00</cell> </row>
+        </tabular>
+    </table>
 
-		<statement><p>When Tien was hired he was pair an annual salary of $52,429.33. His work has been good so each year he has received raises. His salaries are found in <xref ref="table-graphing-bar2" />. <!-- A graph representing his salaries is found in <xref ref="figure-graphing-bar2" />. --></p>
-		<p><ul>
-			<li>How frequently did Tien receive raises?</li>
-			<li>Can we tell the size of the raises from the graph?</li>
-		</ul></p>
-		</statement>
-	</example>
+    <table xml:id="table-differences-lines2b">
+        <title>Atmospheric Pressure Differences (1000 ft intervals)</title>
+        <tabular>
+            <row><cell>Altitude (ft MSL)</cell> <cell>Expected Pressure (inHg)</cell> <cell>Difference</cell> </row>
+            <row><cell>0</cell> <cell>29.92</cell> <cell></cell> </row>
+            <row><cell>1000</cell> <cell>28.92</cell> <cell>28.92-29.92=-1.00</cell> </row>
+            <row><cell>2000</cell> <cell>27.92</cell> <cell>27.92-28.92=-1.00</cell> </row>
+            <row><cell>3000</cell> <cell>26.92</cell> <cell>26.92-27.92=-1.00</cell> </row>
+            <row><cell>4000</cell> <cell>25.92</cell> <cell>25.92-26.92=-1.00</cell> </row>
+        </tabular>
+    </table>
 
-	<example xml:id="example-graphing-variation">
-		<title>Compare Raises</title>
+    <definition xml:id="definition-linear-relation">
+        <title>Linear Relation</title>
+        <statement><p>A relation is <term>linear</term> if and only if the rate of change is constant.</p></statement>
+    </definition>
 
-		<statement><p>One of the purposes of graphing is to compare how data is changing. Here we will compare the way the raises for Vasya and Tien were calculated.</p>
-		<p>We know that Vasya's salary rose by $5000 each year. We need to calculate how much Tien's salary was raised each year. These calculations are in <xref ref="table-varies-check" />.</p>
+    <p>This states that a linear model grows by the same amount from one step to the next (rate of change or difference). This equal growth results from the ratio <m>m</m> in the form <m>y=mx+b</m>. Consider the specific case <m>y=3x+2</m>. In the table below notice that the differences are all the same and that the difference is 3. 3 is the ratio from the equation. This is always the case. The slope is how fast the line grows.</p>
 
-		<p>Notice that Tien's raises were not the same amount each year. How did the raises change? Vasya's raises were the same each year, so her salary changed by a constant amount. When the rate of change is constant we call the pattern <term>linear</term>. We will learn other patterns as well.</p>
-		</statement>
-	</example>
+    <table xml:id="table-line-differences">
+        <title>Differences for Lines</title>
+        <tabular>
+            <row><cell><m>x</m></cell> <cell><m>y</m></cell> <cell>Difference</cell></row>
+            <row><cell><m>0</m></cell> <cell><m>2</m></cell> <cell></cell></row>
+            <row><cell><m>1</m></cell> <cell><m>5</m></cell> <cell>5-2=3</cell></row>
+            <row><cell><m>2</m></cell> <cell><m>8</m></cell> <cell>8-5=3</cell></row>
+            <row><cell><m>3</m></cell> <cell><m>11</m></cell> <cell>11-8=3</cell></row>
+            <row><cell><m>4</m></cell> <cell><m>14</m></cell> <cell>14-11=3</cell></row>
+        </tabular>
+    </table>
 
-	<table xml:id="table-varies-check" >
-		<title>Tien's Raises</title>
+    <p>Note we used this constant addition property when working with ratio problems like <xref ref="example-ratio-airspeed1" />. Relations defined by fixed ratios like these are linear.</p>
 
-		<tabular>
-			<row><cell>2018</cell> <cell>$55,050.80-$52,429.33</cell> <cell>=$2,621.47</cell></row>
-			<row><cell>2019</cell> <cell>$57,803.34-$55,050.80</cell> <cell>=$2,752.54</cell></row>
-			<row><cell>2020</cell> <cell>$60,693.50-$57,803.34</cell> <cell>=$2,890.17</cell></row>
-			<row><cell>2021</cell> <cell>$63,728.18-$60,693.50</cell> <cell>=$3,034.68</cell></row>
-		</tabular>
-	</table>
+    <exercise xml:id="exercise-vary-linear-check">
+        <statement>
+            <p>Which of these employees' raises were linear?</p>
+            <tabular>
+                <row><cell>Moses</cell> <cell>Freya</cell> <cell>Jamal</cell></row>
+                <row><cell>$57,233.00</cell> <cell>$61,199.00</cell> <cell>$58,769.00</cell></row>
+                <row><cell>$61,239.31</cell> <cell>$63,499.00</cell> <cell>$61,924.00</cell></row>
+                <row><cell>$65,526.06</cell> <cell>$65,799.00</cell> <cell>$65,079.00</cell></row>
+                <row><cell>$70,112.89</cell> <cell>$68,099.00</cell> <cell>$68,234.00</cell></row>
+                <row><cell>$75,020.79</cell> <cell>$70,399.00</cell> <cell>$71,389.00</cell></row>
+                <row><cell>$80,272.24</cell> <cell>$72,699.00</cell> <cell>$74,544.00</cell></row>
+            </tabular>
+        </statement>
+        <hint><p>Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear.</p></hint>
+    </exercise>
 
-	<definition xml:id="definition-linear-relation">
-		<title>Linear Relation</title>
-		<statement><p>A relation is <term>linear</term> if and only if the rate of change is constant.</p></statement>
-	</definition>
+    <p>For linear data consecutive differences are always the same. The next examples (<xref ref="example-differences-quadratic" /> to <xref ref="example-differences-exponential" />) illustrate known, non-linear data and how the differences for those look.</p>
 
-	<p>Note we used this constant addition property when working with ratio problems like <xref ref="example-ratio-airspeed1" />. Relations defined by fixed ratios like these are linear.</p>
+    <example xml:id="example-differences-quadratic">
+        <title>Quadratic Data</title>
 
-	<exercise xml:id="exercise-vary-linear-check">
-		<statement>
-			<p>Which of these employees' raises were linear?</p>
-			<tabular>
-				<row><cell>Moses</cell> <cell>Freya</cell> <cell>Jamal</cell></row>
-				<row><cell>$57,233.00</cell> <cell>$61,199.00</cell> <cell>$58,769.00</cell></row>
-				<row><cell>$61,239.31</cell> <cell>$63,499.00</cell> <cell>$61,924.00</cell></row>
-				<row><cell>$65,526.06</cell> <cell>$65,799.00</cell> <cell>$65,079.00</cell></row>
-				<row><cell>$70,112.89</cell> <cell>$68,099.00</cell> <cell>$68,234.00</cell></row>
-				<row><cell>$75,020.79</cell> <cell>$70,399.00</cell> <cell>$71,389.00</cell></row>
-				<row><cell>$80,272.24</cell> <cell>$72,699.00</cell> <cell>$74,544.00</cell></row>
-			</tabular>
-		</statement>
-		<hint><p>Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear.</p></hint>
-	</exercise>
-	<p>For linear data we noted that consecutive differences are always the same. In <xref ref="example-differences-quadratic" /> to <xref ref="example-differences-exponential" /> we will see known data and how the differences look.</p>
+        <statement><p>Consider <xref ref="table-differences-quadratic" />. The first differences (what we calculated above) are not the same. Thus this data is not linear.</p>
+        <p>However, the first differences increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all <term>quadratic</term> data.</p></statement>
+    </example>
 
-	<example xml:id="example-differences-quadratic">
-		<title>Quadratic Data</title>
+    <table xml:id="table-differences-quadratic">
+        <title>Quadratic Data</title>
 
-		<statement><p>Note in <xref ref="table-differences-quadratic" /> that the first differences are not the same. However, they increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be true for all quadratic data.</p></statement>
-	</example>
+        <tabular>
+            <row><cell><m>n</m></cell> <cell><m>n^2</m></cell> <cell>1st difference</cell> <cell>2nd difference</cell> </row>
+            <row><cell>1</cell> <cell>1</cell> </row>
+            <row><cell>2</cell> <cell>4</cell> <cell>4-1=3</cell> </row>
+            <row><cell>3</cell> <cell>9</cell> <cell>9-4=5</cell> <cell>5-3=2</cell> </row>
+            <row><cell>4</cell> <cell>16</cell> <cell>16-9=7</cell> <cell>7-5=2</cell> </row>
+            <row><cell>5</cell> <cell>25</cell> <cell>25-16=9</cell> <cell>9-7=2</cell> </row>
+            <row><cell>6</cell> <cell>36</cell> <cell>36-25=11</cell> <cell>11-9=2</cell> </row>
+        </tabular>
+    </table>
 
-	<table xml:id="table-differences-quadratic">
-		<title>Quadratic Data</title>
+    <definition xml:id="definition-quadratic-relation">
+        <title>Quadratic Relation</title>
+        <statement><p>A relation is <term>quadratic</term> if and only if the second differences are constant.</p></statement>
+    </definition>
 
-		<tabular>
-			<row><cell><m>n</m></cell> <cell><m>n^2</m></cell> <cell>1st difference</cell> <cell>2nd difference</cell> </row>
-			<row><cell>1</cell> <cell>1</cell> </row>
-			<row><cell>2</cell> <cell>4</cell> <cell>4-1=3</cell> </row>
-			<row><cell>3</cell> <cell>9</cell> <cell>9-4=5</cell> <cell>5-3=2</cell> </row>
-			<row><cell>4</cell> <cell>16</cell> <cell>16-9=7</cell> <cell>7-5=2</cell> </row>
-			<row><cell>5</cell> <cell>25</cell> <cell>25-16=9</cell> <cell>9-7=2</cell> </row>
-			<row><cell>6</cell> <cell>36</cell> <cell>36-25=11</cell> <cell>11-9=2</cell> </row>
-		</tabular>
-	</table>
+    <example xml:id="example-differences-exponential">
+        <title>Exponential Data</title>
 
-	<definition xml:id="definition-quadratic-relation">
-		<title>Quadratic Relation</title>
-		<statement><p>A relation is <term>quadratic</term> if and only if the second differences are constant.</p></statement>
-	</definition>
+        <statement><p>Consider <xref ref="table-differences-exponential" />. The differences are not the same nor do they show the same pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.</p></statement>
+    </example>
 
-	<example xml:id="example-differences-exponential">
-		<title>Exponential Data</title>
+    <table xml:id="table-differences-exponential" >
+        <title>Exponential Data</title>
 
-		<statement><p>In <xref ref="table-differences-exponential" /> the differences are not the same nor do they show the pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This measn the rate is determined by the current scale. This is the pattern of data that varies exponentially.</p></statement>
-	</example>
+        <tabular>
+            <row><cell><m>n</m></cell> <cell><m>2^n</m></cell> <cell>Difference</cell> </row>
+            <row><cell>1</cell> <cell>2</cell> </row>
+            <row><cell>2</cell> <cell>4</cell> <cell>4-2=2</cell> </row>
+            <row><cell>3</cell> <cell>8</cell> <cell>8-4=4</cell> </row>
+            <row><cell>4</cell> <cell>16</cell> <cell>16-8=8</cell> </row>
+            <row><cell>5</cell> <cell>32</cell> <cell>32-16=16</cell> </row>
+            <row><cell>6</cell> <cell>64</cell> <cell>64-32=32</cell> </row>
+        </tabular>
+    </table>
 
-	<table xml:id="table-differences-exponential" >
-		<title>Exponential Data</title>
+    <p>The next example illustrates that the differences for exponential data are not always exactly equal to the data.</p>
 
-		<tabular>
-			<row><cell><m>n</m></cell> <cell><m>2^n</m></cell> <cell>Difference</cell> </row>
-			<row><cell>1</cell> <cell>2</cell> </row>
-			<row><cell>2</cell> <cell>4</cell> <cell>4-2=2</cell> </row>
-			<row><cell>3</cell> <cell>8</cell> <cell>8-4=4</cell> </row>
-			<row><cell>4</cell> <cell>16</cell> <cell>16-8=8</cell> </row>
-			<row><cell>5</cell> <cell>32</cell> <cell>32-16=16</cell> </row>
-			<row><cell>6</cell> <cell>64</cell> <cell>64-32=32</cell> </row>
-		</tabular>
-	</table>
+    <example xml:id="example-differences-exponential-scale">
+        <title>Exponential Data Differences</title>
 
-	<p>Note that the differences for exponential data are not always exactly equal to the data.</p>
+        <statement>
+            <p>Consider <xref ref="table-differences-exponential-scale" />. The differences are not exactly equal to the original numbers. However, notice that <m>6=2 \cdot 3</m> <m>18=2 \cdot 9</m>, and <m>54=2 \cdot 27</m>. The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.</p>
+            <p>Happily there is an easier way to determine that data is exponential shown in the next section.</p>
+        </statement>
+    </example>
 
-	<example xml:id="example-differences-exponential-scale">
-		<title>Exponential Data Differences</title>
+    <table xml:id="table-differences-exponential-scale" >
+        <title>Exponential Data with Scale</title>
 
-		<statement><p>In <xref ref="table-differences-exponential-scale" /> note that the differences are not exactly equal to the original numbers. However, note that <m>6=2 \cdot 3</m> <m>18=2 \cdot 9</m>, and <m>54=2 \cdot 27</m>. The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.</p></statement>
-	</example>
+        <tabular>
+            <row><cell><m>n</m></cell> <cell><m>3^n</m></cell> <cell>Difference</cell> </row>
+            <row><cell>1</cell> <cell>3</cell> </row>
+            <row><cell>2</cell> <cell>9</cell> <cell>9-3=6</cell> </row>
+            <row><cell>3</cell> <cell>27</cell> <cell>27-9=18</cell> </row>
+            <row><cell>4</cell> <cell>81</cell> <cell>81-27=54</cell> </row>
+            <row><cell>5</cell> <cell>243</cell> <cell>243-81=162</cell> </row>
+            <row><cell>6</cell> <cell>729</cell> <cell>729-243=486</cell> </row>
+        </tabular>
+    </table>
 
-	<table xml:id="table-differences-exponential-scale" >
-		<title>Exponential Data with Scale</title>
-
-		<tabular>
-			<row><cell><m>n</m></cell> <cell><m>3^n</m></cell> <cell>Difference</cell> </row>
-			<row><cell>1</cell> <cell>3</cell> </row>
-			<row><cell>2</cell> <cell>9</cell> <cell>9-3=6</cell> </row>
-			<row><cell>3</cell> <cell>27</cell> <cell>27-9=18</cell> </row>
-			<row><cell>4</cell> <cell>81</cell> <cell>81-27=54</cell> </row>
-			<row><cell>5</cell> <cell>243</cell> <cell>243-81=162</cell> </row>
-			<row><cell>6</cell> <cell>729</cell> <cell>729-243=486</cell> </row>
-		</tabular>
-	</table>
-
-	<definition xml:id="definition-exponential-relation">
-		<title>Exponential Relation</title>
-		<statement><p>A relation is <term>exponential</term> if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.</p></statement>
-	</definition>
+    <definition xml:id="definition-exponential-relation">
+        <title>Exponential Relation</title>
+        <statement><p>A relation is <term>exponential</term> if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.</p></statement>
+    </definition>
 
 </subsection>
 
 <subsection xml:id="subsection-quotients">
-	<title>Quotients</title>
+    <title>Quotients</title>
 
-	<p>Rather than thinking about the change as the difference (subtraction) of consecutive numbers (salaries in these examples), we can consider the percent increase for each pair of consecutive numbers.</p>
+    <p>The previous section analyzed change as the difference (subtraction) of consecutive numbers (salaries in these examples). This section analyzes change using the percent increase for each pair of consecutive numbers.</p>
 
-	<example xml:id="example-vary-exponential">
-		<title>Salary Percent Incease</title>
+    <example xml:id="example-vary-exponential">
+        <title>Salary Percent Incease</title>
 
-		<statement><p>We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in <xref ref="table-vary-exp-tien" /> and <xref ref="table-vary-exp-vasya" />. </p>
-		<p>Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?</p></statement>
-	</example>
+        <statement><p>We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in <xref ref="table-vary-exp-tien" /> and <xref ref="table-vary-exp-vasya" />. </p>
+        <p>Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?</p></statement>
+    </example>
 
-	<table xml:id="table-vary-exp-tien" >
-		<title>Percent Increase for Tien</title>
+    <table xml:id="table-vary-exp-tien" >
+        <title>Percent Increase for Tien</title>
 
-		<tabular>
-			<row><cell>2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell>=1.05</cell></row>
-			<row><cell>2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell>=1.05</cell></row>
-			<row><cell>2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell>=1.05</cell></row>
-			<row><cell>2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell>=1.05</cell></row>
-		</tabular>
-	</table>
+        <tabular>
+            <row><cell>2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell>=1.05</cell></row>
+            <row><cell>2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell>=1.05</cell></row>
+            <row><cell>2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell>=1.05</cell></row>
+            <row><cell>2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell>=1.05</cell></row>
+        </tabular>
+    </table>
 
-	<table xml:id="table-vary-exp-vasya" >
-		<title>Percent Increase for Vasya</title>
+    <table xml:id="table-vary-exp-vasya" >
+        <title>Percent Increase for Vasya</title>
 
-		<tabular>
-			<row><cell>2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell>=1.08</cell> </row>
-			<row><cell>2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell>=1.07</cell> </row>
-			<row><cell>2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell>=1.07</cell> </row>
-			<row><cell>2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell>=1.06</cell> </row>
-		</tabular>
-	</table>
+        <tabular>
+            <row><cell>2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell>=1.08</cell> </row>
+            <row><cell>2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell>=1.07</cell> </row>
+            <row><cell>2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell>=1.07</cell> </row>
+            <row><cell>2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell>=1.06</cell> </row>
+        </tabular>
+    </table>
 
-	<definition xml:id="definition-exponential-relation-quotient">
-		<title>Exponential</title>
-		<statement><p>A relation is <term>exponential</term> if and only if the percent increase is constant.</p></statement>
-	</definition>
+    <definition xml:id="definition-exponential-relation-quotient">
+        <title>Exponential</title>
+        <statement><p>A relation is <term>exponential</term> if and only if the percent increase is constant.</p></statement>
+    </definition>
 
-	<p>Althought <xref ref="definition-exponential-relation" /> and <xref ref="definition-exponential-relation-quotient" /> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <xref ref="table-ratios-exponential" /> shows an example of both. </p>
+    <p>Althought <xref ref="definition-exponential-relation" /> and <xref ref="definition-exponential-relation-quotient" /> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <xref ref="table-ratios-exponential" /> shows an example of both. </p>
 
-	<table xml:id="table-ratios-exponential">
-		<title>Exponential Data 2 Ways</title>
+    <table xml:id="table-ratios-exponential">
+        <title>Exponential Data 2 Ways</title>
 
-		<tabular>
-			<row><cell>n</cell> <cell><m>5\left(\frac{4}{3}\right)^n</m></cell> <cell>Difference</cell> <cell>Ratio</cell> </row>
-			<row><cell>1</cell> <cell><m>\frac{20}{3}</m></cell> </row>
-			<row><cell>2</cell> <cell><m>\frac{80}{9}</m></cell> <cell><m>\frac{20}{9}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
-			<row><cell>3</cell> <cell><m>\frac{320}{27}</m></cell> <cell><m>\frac{80}{27}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
-			<row><cell>4</cell> <cell><m>\frac{1280}{81}</m></cell> <cell><m>\frac{320}{81}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
-			<row><cell>5</cell> <cell><m>\frac{5120}{243}</m></cell> <cell><m>\frac{1280}{243}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
-			<row><cell>6</cell> <cell><m>\frac{20480}{729}</m></cell> <cell><m>\frac{5120}{729}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
-		</tabular>
-	</table>
+        <tabular>
+            <row><cell>n</cell> <cell><m>5\left(\frac{4}{3}\right)^n</m></cell> <cell>Difference</cell> <cell>Ratio</cell> </row>
+            <row><cell>1</cell> <cell><m>\frac{20}{3}</m></cell> </row>
+            <row><cell>2</cell> <cell><m>\frac{80}{9}</m></cell> <cell><m>\frac{20}{9}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
+            <row><cell>3</cell> <cell><m>\frac{320}{27}</m></cell> <cell><m>\frac{80}{27}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
+            <row><cell>4</cell> <cell><m>\frac{1280}{81}</m></cell> <cell><m>\frac{320}{81}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
+            <row><cell>5</cell> <cell><m>\frac{5120}{243}</m></cell> <cell><m>\frac{1280}{243}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
+            <row><cell>6</cell> <cell><m>\frac{20480}{729}</m></cell> <cell><m>\frac{5120}{729}</m></cell> <cell><m>\frac{4}{3}</m></cell> </row>
+        </tabular>
+    </table>
 
 </subsection>
 
