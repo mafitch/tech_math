@@ -5,11 +5,11 @@
 
 <introduction>
 
-    <p>This section addresses the topics
+    <p>This section addresses the following topics.
         <ul>
             <li>Interpret data in various formats and analyze mathematical models</li>
         </ul>
-        and covers the mathematical concepts
+        This section covers the following mathematical concepts.
         <ul>
             <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
         </ul>
@@ -208,10 +208,11 @@
         <title>Percent Increase for Tien</title>
 
         <tabular>
-            <row><cell>2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell>=1.05</cell></row>
-            <row><cell>2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell>=1.05</cell></row>
-            <row><cell>2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell>=1.05</cell></row>
-            <row><cell>2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell>=1.05</cell></row>
+            <row><cell>Year</cell> <cell>Ratio</cell> <cell></cell> <cell>Increase</cell> </row>
+            <row><cell>2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell>=1.05</cell> <cell>5%</cell> </row>
+            <row><cell>2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell>=1.05</cell><cell>5%</cell> </row>
+            <row><cell>2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell>=1.05</cell><cell>5%</cell> </row>
+            <row><cell>2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell>=1.05</cell><cell>5%</cell> </row>
         </tabular>
     </table>
 
@@ -219,10 +220,11 @@
         <title>Percent Increase for Vasya</title>
 
         <tabular>
-            <row><cell>2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell>=1.08</cell> </row>
-            <row><cell>2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell>=1.07</cell> </row>
-            <row><cell>2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell>=1.07</cell> </row>
-            <row><cell>2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell>=1.06</cell> </row>
+            <row><cell>Year</cell> <cell>Ratio</cell> <cell></cell> <cell>Increase</cell> </row>
+            <row><cell>2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell>=1.08</cell><cell>8%</cell>  </row>
+            <row><cell>2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell>=1.07</cell> <cell>7%</cell> </row>
+            <row><cell>2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell>=1.07</cell> <cell>7%</cell> </row>
+            <row><cell>2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell>=1.06</cell> <cell>6%</cell> </row>
         </tabular>
     </table>
 
@@ -231,7 +233,7 @@
         <statement><p>A relation is <term>exponential</term> if and only if the percent increase is constant.</p></statement>
     </definition>
 
-    <p>Althought <xref ref="definition-exponential-relation" /> and <xref ref="definition-exponential-relation-quotient" /> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <xref ref="table-ratios-exponential" /> shows an example of both. </p>
+    <p>Although <xref ref="definition-exponential-relation" /> and <xref ref="definition-exponential-relation-quotient" /> are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. <xref ref="table-ratios-exponential" /> shows an example of both. </p>
 
     <table xml:id="table-ratios-exponential">
         <title>Exponential Data 2 Ways</title>

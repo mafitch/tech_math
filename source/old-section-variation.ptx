@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-variation" >
+<title>Variation</title>
+
+<introduction>
+
+<p>In <xref ref="section-rates" /> we compared data based on the rate. Here we will emphasize how one variable affects another.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-vary-direct">
+	<title>Direct Relations</title>
+
+	<p>In <xref ref="section-rates" /> we saw examples where the data increased. For example the salaries went up each year. The quadratic (<xref ref="example-differences-quadratic" />) and exponential (<xref ref="example-differences-exponential" />) also are increasing data. When an increase in one variable causes another to increase, we call the relationship between them <term>direct</term>.</p>
+
+	<p>For some problems it makes sense to look at these another way. Consider the situation in <xref ref="figure-hydraulic-press" />. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <m>P=\frac{F_1}{A_1}</m>. The same is true on the right <m>P=\frac{F_2}{A_2}</m>. Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus <me>\frac{F_1}{A_1} = \frac{F_2}{A_2}</me>.</p>
+
+	<figure xml:id="figure-hydraulic-press">
+		<caption>Hydraulic Press</caption>
+		<image source="images/hydraulic-press" width="60%"/>
+	</figure>
+
+	<example xml:id="exmaple-hydraulic-piston-calculate">
+		<statement><p>If the left piston has area <m>16 \text{ cm}^2</m>, and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <m>25 \text{ cm}^2</m>?</p></statement>
+		<solution><p>Notice this is a proportion problem. We can use the relationship
+			<md>
+				<mrow>\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{25 \text{ cm}^2}{F_2}.</mrow>
+				<mrow>(16 \text{ cm}^2)F_2 \amp = (25 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}</mrow>
+				<mrow>\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(25 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. </mrow>
+				<mrow>F_2 \amp \approx 7.8 \text{ N}.</mrow>
+			</md></p>
+		</solution>
+	</example>
+
+	<p>Next lets consider how changing the size of the second piston affects the force.</p>
+
+	<example xml:id="example-hydraulic-piston-change">
+		<statement><p>If the second piston's area is change from <m>25 \text{ cm}^2</m> to <m>36 \text{ cm}^2</m>, what is the increase or decrease in force?</p></statement>
+		<solution><p>First we setup the same problem as in <xref ref="exmaple-hydraulic-piston-calculate" />
+			<md>
+				<mrow>\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{36 \text{ cm}^2}{F_2}.</mrow>
+				<mrow>(16 \text{ cm}^2)F_2 \amp = (36 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}</mrow>
+				<mrow>\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(36 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. </mrow>
+				<mrow>F_2 \amp \approx 11 \text{ N}.</mrow>
+			</md></p>
+			<p>The piston is larger and the force is also larger</p>
+		</solution>
+	</example>
+
+	<example xml:id="example-voltage-resistance-linear">
+		<statement><p>Voltage and resistance vary directly (see further <xref ref="example-vary-ohm" />) . If voltage is 24 V and resistance is <m>8 \Omega</m>, how would the voltage have to change if the resistance changes to <m>6 \Omega</m>? to <m>10 \Omega</m>?</p></statement>
+		<solution><p>Because the relationship is direct we can write
+			<md>
+				<mrow>\frac{V_1}{R_1} \amp = \frac{V_2}{R_2}.</mrow>
+				<mrow>\frac{24 \text{ V}}{8 \Omega} \amp = \frac{V_2}{6 \Omega}.</mrow>
+				<mrow>\frac{24 \text{ V}}{8 \Omega}(6 \Omega) \amp = V_2. \amp \text{ Eliminating the denominator on the right}</mrow>
+				<mrow>18 \text{ V} \amp = V_2.</mrow>
+			</md>
+			We do the same for the second case.
+			<md>
+				<mrow>\frac{V_1}{R_1} \amp = \frac{V_2}{R_2}.</mrow>
+				<mrow>\frac{24 \text{ V}}{8 \Omega} \amp = \frac{V_2}{10 \Omega}.</mrow>
+				<mrow>\frac{24 \text{ V}}{8 \Omega}(10 \Omega) \amp = V_2. \amp \text{ Eliminating the denominator on the right}</mrow>
+				<mrow>30 \text{ V} \amp = V_2.</mrow>
+			</md>
+			Notice that the resistances we chose change in a linear fashion: 6, 8, 10. Also note that the voltages changed in a linear fashion: 18, 24, 30.</p>
+		</solution>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-vary-inverse">
+	<title>Inverse Relations</title>
+
+	<p>In <xref ref="example-vary-ohm" /> we saw data where the increase in one variable caused a decrease in the other. That example is known as an <term>inverse</term> relation.</p>
+
+	<p>Whereas a direct relation can be expressed as <m>\frac{V_1}{R_1} = \frac{V_2}{R_2}</m> inverse relation can be expressed as <m>I_1 R_1 = I_2 R_2</m>.</p>
+
+	<example xml:id="example-current-resistance">
+		<statement><p>If the current is 3 amps when the resistance is 8 Ohms, what will the current be when the resistance is 6 Ohms? 4 Ohms?</p></statement>
+		<solution><p>Because this is an inverse relation, we can write
+			<md>
+				<mrow>I_1 R_1 \amp = I_2 R_2</mrow>
+				<mrow>(3 \text{ amps})(8 \Omega) \amp I_2(6 \Omega)</mrow>
+				<mrow>\frac{(3 \text{ amps})(8 \Omega)}{6 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}</mrow>
+				<mrow>2.25 \text{ amps} \amp = I_2.</mrow>
+			</md>
+			The second case can be written
+			<md>
+				<mrow>(3 \text{ amps})(8 \Omega) \amp I_2(4 \Omega)</mrow>
+				<mrow>\frac{(3 \text{ amps})(8 \Omega)}{4 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}</mrow>
+				<mrow>1.5 \text{ amps} \amp = I_2.</mrow>
+			</md>
+		</p></solution>
+	</example>
+
+	<p>Note that the relation in <xref ref="example-current-resistance" /> the resistances we chose change in a linear fashion: 4, 6, 8. The current also change in a linear fashion: 3, 2.25, 1.5. Thus the relation is inverse linear.</p>
+
+	<example xml:id="example-inverse-exponential">
+		<title>Decreasing Exponential</title>
+
+		<statement><p>In <xref ref="table-inverse-exponential" /> we see data for an exponential with a negative exponent. Note that this decreases. The differences display the same pattern of matching the data except they are negative. The negative should make sense because the data is decreasing. This is inverse exponential.</p></statement>
+	</example>
+
+	<table xml:id="table-inverse-exponential">
+		<title>Negative Exponential</title>
+
+		<tabular>
+			<row><cell><m>n</m></cell> <cell><m>2^{-n}</m></cell> <cell>Difference</cell> </row>
+			<row><cell>1</cell> <cell>1/2</cell> </row>
+			<row><cell>2</cell> <cell>1/4</cell> <cell>-1/4</cell> </row>
+			<row><cell>3</cell> <cell>1/8</cell> <cell>-1/8</cell> </row>
+			<row><cell>4</cell> <cell>1/16</cell> <cell>-1/16</cell> </row>
+			<row><cell>5</cell> <cell>1/32</cell> <cell>-1/32</cell> </row>
+			<row><cell>6</cell> <cell>1/64</cell> <cell>-1/64</cell> </row>
+		</tabular>
+	</table>
+
+</subsection>
+
+<subsection xml:id="subsection-constant-variation">
+	<title>Constant of Variation</title>
+
+	<p>We defined direct and indirect variation in terms of how change in one variable affects another. Here we consider this from a different perspective.</p>
+
+	<p>For direct variation the ratio of variables is always equal. In <xref ref="example-voltage-resistance-linear" /> we have <m>\frac{V_1}{R_1} = \frac{V_2}{R_2}</m>. The specific results were <m>\frac{30}{10}=\frac{24}{8}=\frac{18}{6}=3</m>. The number 3 is known as the <term>constant of variation</term>. In some cases it has meaning. In this case we recognize it to be the current (i.e., 3 amps).</p>
+
+	<example xml:id="example-constant-variation-lift">
+		<p>Lift (<m>L</m>, the force that keeps aircraft in the air) increases with air density (<m>\rho</m>), surface area of wing (<m>s</m>), and the square of velocity (<m>v^2</m>). This can be expressed as <me>\frac{L_1}{\rho_1 s_1 v_1^2} = \frac{L_1}{\rho_2 s_2 v_2^2}</me> Thus if air density decreases (<m>\rho_2 \lt \rho_1</m>) either surface area or velocity must increase to maintain lift.</p>
+		<p>We can also express this as <me>\frac{L}{\rho s v^2} = k</me> or <me>L = k \rho s v^2</me>. For lift it is known that <m>k=\frac{1}{2}C_L</m> where <m>C_L</m> is known as the coefficient of lift. It depends on a variety of factors such as the shape of the wing and the angle the wing makes with the air.</p>
+	</example>
+
+</subsection>
+
+<subsection xml:id="subsection-variation-percent-mixture">
+	<title>Another Mixture Problem</title>
+
+	<p>In <xref ref="section-mixture" /> we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.</p>
+
+	<p>By adding water we can of course not increase the percent alcohol, so 91% is the highest we can achieve. If we add enough water we can dilute it to as little as we want. That requires not restricting the final volume. This should make us wonder about a relationship between the desired volume and the minimum/maximum amount of alchol.</p>
+
+	<p>This first question is the same as <xref ref="example-calculate-dilute" />. Use it to check your understanding of the process.</p>
+
+	<exercise xml:id="exercise-calculate-dilute">
+		<webwork>
+			<statement><p>Suppose we want 20.0 oz of 70.0% alcohol solution. How much water should we add? <var name="'4.9'" width="4" /> How much solution will we have? <var name="'20.9'" width="4" /></p></statement>
+			<solution><p>This is a percent problem with the total alcohol unchanged (<m>(0.91)16=14.56</m>) and adding only some amount <m>w</m> of water. Thus we setup
+					<md>
+						<mrow>\frac{(0.910)16.0}{16.0+w} \amp = 0.700</mrow>
+						<mrow>(0.910)16.0 \amp = 0.700(16.0+w)</mrow>
+						<mrow>(0.910)16.0 \amp = (0.700)16.0+(0.700)w</mrow>
+						<mrow>14.6 \amp = 11.2+(0.700)w</mrow>
+						<mrow>3.4 \amp = (0.700)w</mrow>
+						<mrow>\frac{3.4}{0.700} \amp = w</mrow>
+						<mrow>4.9 \amp \approx w</mrow>
+					</md>
+				Thus we end up with <m>16+4.9=20.9</m> oz of the new solution.</p>
+			<p>We can confirm this work by calculating the percent water. The percent alcohol is <me>\frac{0.910(16.0)}{16.0+4.9}=0.70</me> which is 70%.</p></solution>
+	    </webwork>
+	</exercise>
+
+	<p>Next we will illustrate that for a desired volume, we cannot obtain every percent.</p>
+
+	<exercise xml:id="exercise-calculate-dilute2">
+		<webwork>
+			<statement>
+				<p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add if we want 25.0 oz of a 60.0% alcohol solution? <var name="'8.56'" width="4" /></p>
+				<p>How much solution total does this produce? <var name="'24.6'" width="4" /></p>
+			</statement>
+	    </webwork>
+	</exercise>
+
+	<p>Notice that we did not produce 25 oz but a little less. One question we can ask then is <q>what is the percent alcohol solution we can obtain for a given volume?</q></p>
+
+	<example xml:id="example-calculate-exact-volume-dilute">
+		<title>Exact Volume Dilution</title>
+
+		<statement><p>If we start with 16.0 oz of 91.0% alcohol solution and we want exactly 20.0 oz of solution, what is the percent alcohol we can obtain?</p></statement>
+		<solution><p>If we call the percent alcohol <m>P</m> then the percent water is <m>(1-P)</m>. Thus the final solution will have <me>(1-P)20.0 \text{ oz}</me> of water. We already have <me>0.0900 \cdot 16.0 = 1.44 \text{ oz}</me> of water. Thus we need <me>(1-P)20.0-1.44</me> oz of water. The total volume then will be <me>(1-P)20.0-1.44+16.0=20.0 \text{ oz}</me> Solving this tells us the percentage possible is
+		<md>
+			<mrow>(1-P)20.0-1.44+16.0 &amp; = 20.0</mrow>
+			<mrow>(1-P)20.0 +14.6 &amp; = 20.0</mrow>
+			<mrow>(1-P)20.0 &amp; = 5.4</mrow>
+			<mrow>1-P &amp; = \frac{5.4}{20.0}</mrow>
+			<mrow> -P &amp; = \frac{5.4}{20.0}-1</mrow>
+			<mrow> P &amp; = 1-\frac{5.4}{20.0}</mrow>
+			<mrow> P &amp; \approx 0.73</mrow>
+		</md>
+		Thus the percent we obtain for exactly 20.0 oz is 73%.</p></solution>
+	</example>
+
+	<exercise xml:id="exercise-calculate-exact-volume-dilute">
+		<webwork>
+			<statement>
+				<p>If we start with 16.0 oz of 91.0% alcohol solution, what is the percent alcohol if we produce exactly 24.0 oz of solution? <var name="'61'" width="4" /></p>
+			</statement>
+	    </webwork>
+	</exercise>
+
+	<exercise xml:id="exercise-exact-volume-variation">
+		<statement><p>Does the percent alcohol vary linear, quadratic, exponential, or the inverse of one of these with respect to the volume? You will need to determine the percent alcohol for 28.0 oz of solution and perhas 32.0 oz of solution. Use these data points to determine the relation.</p></statement>
+	</exercise>
+
+</subsection>
+
+<exercises>
+	<exercise>
+	    <title>Distinguish Direct and Indirect Variation</title>
+	    <myopenmath problem="350419" />
+	</exercise>
+
+	<exercise>
+	    <title>Describe Relation</title>
+	    <myopenmath problem="102065" />
+	</exercise>
+
+	<exercise>
+	    <title>Describe Relation</title>
+	    <myopenmath problem="102067" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="791957" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="3834" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="894881" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="791959" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="894887" />
+	</exercise>
+
+	<exercise>
+	    <title>Contextless Practice</title>
+	    <myopenmath problem="2882" />
+	</exercise>
+
+	<exercise>
+	    <title>Contextless Practice</title>
+	    <myopenmath problem="3830" />
+	</exercise>
+
+	<exercise>
+	    <title>Contextless Practice</title>
+	    <myopenmath problem="3831" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="894995" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="894993" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="3841" />
+	</exercise>
+
+	<exercise>
+	    <title>Contextless Practice</title>
+	    <myopenmath problem="102026" />
+	</exercise>
+
+	<exercise>
+	    <title>Contextless Practice</title>
+	    <myopenmath problem="102032" />
+	</exercise>
+
+	<exercise>
+	    <title>Contextless Practice</title>
+	    <myopenmath problem="102029" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="895001" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="895002" />
+	</exercise>
+
+	<exercise>
+	    <title>Application</title>
+	    <myopenmath problem="2883" />
+	</exercise>
+</exercises>
+
+</section>
