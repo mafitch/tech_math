@@ -127,63 +127,103 @@
 <subsection xml:id="subsection-vary-set-up">
     <title>More Model Usage</title>
 
-    <p>For some problems it makes sense to look at these another way. Consider the situation in <xref ref="figure-hydraulic-press" />. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <m>P=\frac{F_1}{A_1}</m>. The same is true on the right <m>P=\frac{F_2}{A_2}</m>. Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus <me>\frac{F_1}{A_1} = \frac{F_2}{A_2}</me>.</p>
+    <p>In the section above and in <xref ref="section-rates" /> we determined growth rates (e.g., linear, quadratic exponential, and direct and inverse variation) by generating data and checking the consecutive differences and/or the consecutive ratios. In this section we learn a method to directly calculate the relationship.</p>
+
+    <fact xml:id="model-pressure">
+        <p>Pressure is a measure of the amount of force spread over an area. <me>P = \frac{F}{A}</me> where
+        <ul>
+            <li><m>P</m> is pressure,</li>
+            <li><m>F</m> is the force in units of pounds (lbs) or Newtons (N),</li>
+            <li><m>A</m> is the area in units of square inches, or meters, or similar.</li>
+        </ul></p>
+    </fact>
+
+    <example xml:id="pressure-footprint">
+        <p>Walking on snow (or mud) is difficult because our feet tend to puncture the snow. We can use snowshoes to avoid this problem. The reduction in pressure is the reason snowshoes work.</p>
+        <p>Suppose Guido weighs 172 lbs. Each foot has an area of <quantity><mag>22</mag><unit base="inch" exp="2" /></quantity>. The pressure he exerts on the snow is
+        <md>
+            <mrow>P &amp; = \frac{172 \text{ lbs}}{2 \cdot 22 \text{ in}^2}</mrow>
+            <mrow> &amp; = \frac{172 \text{ lbs}}{44 \text{ in}^2}</mrow>
+            <mrow> &amp; = 3.9 \text{ lbs}/\text{in}^2</mrow>
+            <mrow> &amp; = 3.9 \text{psi}.</mrow>
+        </md>
+        If he wears snowshoes that have a surface area of <quantity><mag>144</mag><unit base="inch" exp="2" /></quantity>, what is the pressure?
+        <md>
+            <mrow>P &amp; = \frac{172 \text{ lbs}}{2 \cdot 144 \text{ in}^2}</mrow>
+            <mrow> &amp; = \frac{172 \text{ lbs}}{288 \text{ in}^2}</mrow>
+            <mrow> &amp; = 1.19 \text{ lbs}/\text{in}^2</mrow>
+            <mrow> &amp; = 1.19 \text{psi}.</mrow>
+        </md>
+        Note because this is a science model, we use significant digits for rounding.</p>
+    </example>
+
+    <p>The next example illustrates how we can construct another model when we are interested in only some of the variables.</p>
 
     <figure xml:id="figure-hydraulic-press">
         <caption>Hydraulic Press</caption>
         <image source="images/hydraulic-press" width="60%"/>
     </figure>
 
-    <example xml:id="example-hydraulic-piston-calculate">
-        <statement><p>If the left piston has area <m>16 \text{ cm}^2</m>, and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <m>25 \text{ cm}^2</m>?</p></statement>
-        <solution><p>Notice this is a proportion problem. We can use the relationship
+    <fact xml:id="model-hydraulic">
+        <title>Hydraulics</title>
+
+        <p>Consider the situation in <xref ref="figure-hydraulic-press" />. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <m>P=\frac{F_1}{A_1}</m>. The same is true on the right <m>P=\frac{F_2}{A_2}</m>. Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus <me>\frac{F_1}{A_1} = \frac{F_2}{A_2}</me>.</p>
+    </fact>
+
+    <example xml:id="example-hydraulic-calculate">
+        <p>If the left piston has area <m>16 \text{ cm}^2</m>, and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <m>25 \text{ cm}^2</m>?</p>
+        <p>Notice this is a proportion problem. We can use the relationship
             <md>
                 <mrow>\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{25 \text{ cm}^2}{F_2}.</mrow>
                 <mrow>(16 \text{ cm}^2)F_2 \amp = (25 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}</mrow>
                 <mrow>\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(25 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. </mrow>
                 <mrow>F_2 \amp \approx 7.8 \text{ N}.</mrow>
             </md></p>
-        </solution>
     </example>
 
-    <p>Next lets consider how changing the size of the second piston affects the force.</p>
+    <p>The next example illustrates how we can determine how one variable varies with respect to another by direct calculation. Specifically, consider how changing the size of the second piston affects the resulting force.</p>
 
     <example xml:id="example-hydraulic-piston-change">
-        <statement><p>If the second piston's area is change from <m>25 \text{ cm}^2</m> to <m>36 \text{ cm}^2</m>, what is the increase or decrease in force?</p></statement>
-        <solution><p>First we setup the same problem as in <xref ref="example-hydraulic-piston-calculate" />
+        <statement><p>If the second piston's area is changed from <m>25 \text{ cm}^2</m> to <m>36 \text{ cm}^2</m>, what is the increase or decrease in force?</p></statement>
+        <solution><p>First we setup the same problem as in <xref ref="example-hydraulic-calculate" />
             <md>
                 <mrow>\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{36 \text{ cm}^2}{F_2}.</mrow>
                 <mrow>(16 \text{ cm}^2)F_2 \amp = (36 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}</mrow>
                 <mrow>\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(36 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. </mrow>
                 <mrow>F_2 \amp \approx 11 \text{ N}.</mrow>
             </md></p>
-            <p>The piston is larger and the force is also larger</p>
+            <p>The piston is larger and the force is also larger. Thus we know that force and area vary directly. Note the equation also shows us that they increase linearly, because all terms are linear. In particular <m>F_2 = A_2 \left(\frac{F_1}{A_1}\right)</m> is in the form of a line with ratio <m>F_1/A_1</m> and no shift.</p>
         </solution>
     </example>
 
-<!-- if kept, use as another example of setting two versions equal -->
+    <p><xref ref="model-ideal-gas-law" /> gives two forms of the ideal gas law. The second is produced from the first in the same way as the hydraulics model is produced from the pressure definition. To illustrate consider the case of the air/water mixture in a pressure cooker. First recall the ideal gas law <m>PV=nRT</m>. The pressure cooker changes the temperature of the gas, but the volume, number of molecules and gas constant do not change. Thus we have <m>P_1 V=nRT_1</m> and <m>P_2 V=nRT_2</m>. In both cases we can solve for the shared variables. Note
+    <md>
+        <mrow>P_1 V &amp; = nRT_1</mrow>
+        <mrow>P_1 V \cdot \frac{1}{VT_1} &amp; = nRT_1 \cdot \frac{1}{VT_1}</mrow>
+        <mrow>\frac{P_1}{T_1} &amp; = \frac{nR}{V}</mrow>
+    </md> Similarly <m>\frac{P_2}{T_2} = \frac{nR}{V}</m>. Because both expressions equal <m>nR/V</m> we can set them equal giving <m>\frac{P_1}{T_1} = \frac{P_2}{T_2}</m> which is the other model.</p>
+
+    <p>The example above produces a second form of the ideal gas law. This example produces a second form of Ohm's Law. In many applications the voltage is fixed. For example it might be 12V from a car battery. Thus if we are considering current and resistance in two places we have <m>V=I_1 R_1</m> and <m>V=I_2 R_2</m>. Because voltage is the same (same source of electricity) we have <m>I_1 R_1 = I_2 R_2</m>.</p>
+
     <example xml:id="example-current-resistance">
         <statement><p>If the current is 3 amps when the resistance is 8 Ohms, what will the current be when the resistance is 6 Ohms? 4 Ohms?</p></statement>
-        <solution><p>Because this is an inverse relation, we can write
+        <solution>
+            <p>We can write
             <md>
                 <mrow>I_1 R_1 \amp = I_2 R_2</mrow>
                 <mrow>(3 \text{ amps})(8 \Omega) \amp I_2(6 \Omega)</mrow>
                 <mrow>\frac{(3 \text{ amps})(8 \Omega)}{6 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}</mrow>
-                <mrow>2.25 \text{ amps} \amp = I_2.</mrow>
+                <mrow>4 \text{ amps} \amp = I_2.</mrow>
             </md>
             The second case can be written
             <md>
                 <mrow>(3 \text{ amps})(8 \Omega) \amp I_2(4 \Omega)</mrow>
                 <mrow>\frac{(3 \text{ amps})(8 \Omega)}{4 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}</mrow>
-                <mrow>1.5 \text{ amps} \amp = I_2.</mrow>
-            </md>
-        </p></solution>
+                <mrow>6 \text{ amps} \amp = I_2.</mrow>
+            </md></p>
+            <p>Notice as the resistance decreased, the current increased. Current varies inversely with resistance.</p>
+        </solution>
     </example>
-
-    <p>Note that the relation in <xref ref="example-current-resistance" /> the resistances we chose change in a linear fashion: 4, 6, 8. The current also change in a linear fashion: 3, 2.25, 1.5. Thus the relation is inverse linear.</p>
-
-<!-- next comes from recognizing that a/b=k implies same growth whereas ab=k implies inverse -->
-<!--    <p>Whereas a direct relation can be expressed as <m>\frac{V_1}{R_1} = \frac{V_2}{R_2}</m> inverse relation can be expressed as <m>I_1 R_1 = I_2 R_2</m>.</p> -->
 
 </subsection>
 

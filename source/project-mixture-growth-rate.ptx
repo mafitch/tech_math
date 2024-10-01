@@ -4,81 +4,91 @@
 <title>Project: Constraints on Dilution Problems</title>
 
 <project xml:id="project-dilution-constraints">
-	<title>Project: Constraints on Dilution</title>
+    <title>Project: Constraints on Dilution</title>
 
 <introduction>
-	<p>Curiosity is an important mathematical virtue. We have seen limitations on the results we can obtain when diluting a mixture. This project guides us through conclusions on those constraints and asks at what rate it grows. Each question is worth I DONT KNOW points.</p>
+    <p>Curiosity is an important mathematical virtue. We have seen limitations on the results we can obtain when diluting a mixture. This project guides us through conclusions on those constraints and asks at what rate it grows. Each question is worth I DONT KNOW points.</p>
 
     <p>In <xref ref="section-mixture" /> we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.</p>
 
     <p>By adding water we can of course not increase the percent alcohol, so if we start with 91% alcohol 91% is the highest we can achieve. On the other side we can reduce the percent alcohol to as little as we want (not quite to 0%) if we dilute it enough. This dilution requires not restricting the final volume. This pair of restrictions should make us wonder about a relationship between the desired volume and the minimum/maximum amount of alchol.</p>
+
+    <p>For all of these questions start with 16 oz of 91.0% alcohol solution.</p>
+
 </introduction>
 
 <task>
-    <p>This first question is the same as <xref ref="example-calculate-dilute" />. Use it to check your understanding of the process.</p>
-
-<!--    <exercise xml:id="exercise-calculate-dilute">
-        <webwork>
-            <statement><p>Suppose we want 20.0 oz of 70.0% alcohol solution. How much water should we add? <var name="'4.9'" width="4" /> How much solution will we have? <var name="'20.9'" width="4" /></p></statement>
-            <solution><p>This is a percent problem with the total alcohol unchanged (<m>(0.91)16=14.56</m>) and adding only some amount <m>w</m> of water. Thus we setup
-                    <md>
-                        <mrow>\frac{(0.910)16.0}{16.0+w} \amp = 0.700</mrow>
-                        <mrow>(0.910)16.0 \amp = 0.700(16.0+w)</mrow>
-                        <mrow>(0.910)16.0 \amp = (0.700)16.0+(0.700)w</mrow>
-                        <mrow>14.6 \amp = 11.2+(0.700)w</mrow>
-                        <mrow>3.4 \amp = (0.700)w</mrow>
-                        <mrow>\frac{3.4}{0.700} \amp = w</mrow>
-                        <mrow>4.9 \amp \approx w</mrow>
-                    </md>
-                Thus we end up with <m>16+4.9=20.9</m> oz of the new solution.</p>
-            <p>We can confirm this work by calculating the percent water. The percent alcohol is <me>\frac{0.910(16.0)}{16.0+4.9}=0.70</me> which is 70%.</p></solution>
-        </webwork>
-    </exercise> -->
+    <p>This first question is the same as <xref ref="example-calculate-dilute" />. Use it to review the basic dilution calculation.</p>
+    <p>Suppose you have 16 oz of 91.0% alcohol solution. How much water must we add to obtain at least 20.0 oz of 70.0% alcohol solution?</p>
+    <p>How many ounces is the resulting solution?</p>
 </task>
 
 <task>
-    <p>Next we will illustrate that for a desired volume, we cannot obtain every percent.</p>
-
-<!--    <exercise xml:id="exercise-calculate-dilute2">
-        <webwork>
-            <statement>
-                <p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add if we want 25.0 oz of a 60.0% alcohol solution? <var name="'8.56'" width="4" /></p>
-                <p>How much solution total does this produce? <var name="'24.6'" width="4" /></p>
-            </statement>
-        </webwork>
-    </exercise> -->
+    <introduction>
+        <p>Next we will illustrate that for a percent alcohol such as 70%, there is a maximum volume we can achieve. Specifically this is the number we already calculated.</p>
+    </introduction>
+    <task>
+        <p>If we dilute to a 70.0% alcohol solution what is the resulting amount of solution? You calculate this above.</p>
+        <p>Add one ounce of water. Calculate the resulting percent alcohol.</p>
+    </task>
+    <task>
+        <p>Did the percent alcohol decrease, stay the same, or increase?</p>
+    </task>
+    <task>
+        <p>As a result can we produce more 70.0% alcohol solution starting with 16.0 oz of 91.0% alcohol?</p>
+    </task>
+    <conclusion>
+        <p>Note, if we added less water we would have less solution, so that is a decrease (not the maximum).</p>
+    </conclusion>
+</task>
+<task>
+    <introduction>
+        <p>Next, we ask at what rate does the maximum percent alcohol increase or decrease as we increase the desired amount of solution. To figure this out we will calculate the percent for multiple amounts and analyze the data as we did in <xref ref="section-rates" /> and <xref ref="section-variation" /> </p>
+    </introduction>
+    <task>
+        <p>How much water must be added for 20 oz of solution?</p>
+        <p>What is the resulting percent alcohol?</p>
+    </task>
+    <task>
+        <p>How much water must be added for 22 oz of solution?</p>
+        <p>What is the resulting percent alcohol?</p>
+    </task>
+    <task>
+        <p>How much water must be added for 24 oz of solution?</p>
+        <p>What is the resulting percent alcohol?</p>
+    </task>
+    <task>
+        <p>Does the maximum percent alcohol increase or decrease with the increase in the number of ounces?</p>
+    </task>
+    <task>
+        <p>Does it grow linearly, quadratically, exponentially, or otherwise?</p>
+    </task>
 </task>
 
 <task>
-    <p>Notice that we did not produce 25 oz but a little less. One question we can ask then is <q>what is the percent alcohol solution we can obtain for a given volume?</q></p>
-
-<!--        <title>Exact Volume Dilution</title> -->
-
-    <p>If we start with 16.0 oz of 91.0% alcohol solution and we want exactly 20.0 oz of solution, what is the percent alcohol we can obtain?</p></statement>
-        <solution><p>If we call the percent alcohol <m>P</m> then the percent water is <m>(1-P)</m>. Thus the final solution will have <me>(1-P)20.0 \text{ oz}</me> of water. We already have <me>0.0900 \cdot 16.0 = 1.44 \text{ oz}</me> of water. Thus we need <me>(1-P)20.0-1.44</me> oz of water. The total volume then will be <me>(1-P)20.0-1.44+16.0=20.0 \text{ oz}</me> Solving this tells us the percentage possible is
-        <md>
-            <mrow>(1-P)20.0-1.44+16.0 &amp; = 20.0</mrow>
-            <mrow>(1-P)20.0 +14.6 &amp; = 20.0</mrow>
-            <mrow>(1-P)20.0 &amp; = 5.4</mrow>
-            <mrow>1-P &amp; = \frac{5.4}{20.0}</mrow>
-            <mrow> -P &amp; = \frac{5.4}{20.0}-1</mrow>
-            <mrow> P &amp; = 1-\frac{5.4}{20.0}</mrow>
-            <mrow> P &amp; \approx 0.73</mrow>
-        </md>
-        Thus the percent we obtain for exactly 20.0 oz is 73%.</p></solution>
-    </example>
-
-    <exercise xml:id="exercise-calculate-exact-volume-dilute">
-        <webwork>
-            <statement>
-                <p>If we start with 16.0 oz of 91.0% alcohol solution, what is the percent alcohol if we produce exactly 24.0 oz of solution? <var name="'61'" width="4" /></p>
-            </statement>
-        </webwork>
-    </exercise>
-
-    <exercise xml:id="exercise-exact-volume-variation">
-        <statement><p>Does the percent alcohol vary linear, quadratic, exponential, or the inverse of one of these with respect to the volume? You will need to determine the percent alcohol for 28.0 oz of solution and perhas 32.0 oz of solution. Use these data points to determine the relation.</p></statement>
-    </exercise>
+    <introduction>
+        <p>We can ask this question in reverse as well. If we want a percent alcohol, what is the resulting maximum amount of resulting solution? Then we measure the growth of the amount.</p>
+        <p>Once again we start with 16.0 oz of 91.0% alcohol solution.</p>
+    </introduction>
+    <task>
+        <p>If we want exactly 80.0% alcohol, what is the resulting volume of solution?</p>
+    </task>
+    <task>
+        <p>If we want exactly 70.0% alcohol, what is the resulting volume of solution?</p>
+    </task>
+    <task>
+        <p>If we want exactly 60.0% alcohol, what is the resulting volume of solution?</p>
+    </task>
+    <task>
+        <p>Does the volume of solution increase or decrease as the percent concentration decreases?</p>
+    </task>
+    <task>
+        <p>Does the volume of solution grow/shrink linearly, quadratically, exponentially, or otherwise?</p>
+    </task>
+</task>
+<conclusion>
+    <p>Note if in some model a variable <m>a</m> varies directly with respect to a variable <m>b</m>, then <m>b</m> must vary directly with respect to <m>a</m>. It cannot be direct in one direction and inverse in the other.</p>
+</conclusion>
 
 </project>
 
