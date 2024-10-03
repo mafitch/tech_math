@@ -20,18 +20,18 @@
 
 	<p>In this section we will introduce the units so we can understand them when we read technical material (<xref ref="topic-models" />) and use them correctly to communicate results to others (<xref ref="topic-communicate" />). We will also learn to convert units (<xref ref="proportions-unit-conversion" />) which involves our first use of proportions (<xref ref="proportions-solve" />).</p>
 
-	<p>We measure many things such as distance, time, and weight. We describe these measurements in terms of units like mile, hour, and pounds. But have you ever stopped to think about how these units are defined?</p>
+	<p>We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?</p>
 	<p>The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.</p>
-	<p>Other units, such as the metric (or SI) are much more modern. Initially many units were based on something physical. For example one calorie is the amount of heat it takes to raise the temperature of one gram of water <m>1^\circ</m> C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.</p>
+	<p>Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water <m>1^\circ</m> C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.</p>
 	<p>Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.</p>
 </introduction>
 
 <subsection xml:id="subsection-measurement-types">
 	<title>Types of Measurement</title>
 
-	<p>First we will look at the units (names of units) for different types of measurement. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.</p>
+	<p>First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.</p>
 
-	<p>Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the metric system (formally known as SI or international system) which has one name for each property and prefixes to indicate the size. <xref ref="table-units-of-measure" /> lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, <ellipsis/>).</p>
+	<p>Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. <xref ref="table-units-of-measure" /> lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, <ellipsis/>).</p>
 
 	<table xml:id="table-units-of-measure">
 		<title>Units of Measure</title>
@@ -50,14 +50,15 @@
 			<row left="medium"><cell right="medium">Weight</cell><cell right="medium">ounce (oz)</cell><cell right="medium">gram (g)</cell></row>
 			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">pound (lb)</cell><cell right="medium"></cell></row>
 			<row bottom="medium" left="medium"><cell right="medium">Temperature</cell><cell right="medium">degrees Fahrenheit (F)</cell><cell right="medium">degrees Celsius (C)</cell></row>
-			<row bottom="medium" left="medium"><cell right="medium">Pressure</cell><cell right="medium">inches of mercury (inHg)</cell><cell right="medium">Pascal (Pa)</cell></row>
+			<row left="medium"><cell right="medium">Pressure</cell><cell right="medium">inches of mercury (inHg)</cell><cell right="medium">bar</cell></row>
+			<row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">pounds per square inch (psi)</cell><cell right="medium">Pascal (Pa)</cell></row>
 			<row left="medium"><cell right="medium">Time</cell><cell colspan="2" right="medium">second (s)</cell></row>
 			<row left="medium"><cell right="medium"></cell><cell colspan="2" right="medium">minute (min)</cell></row>
 			<row bottom="medium" left="medium"><cell right="medium"></cell><cell colspan="2" right="medium">hour (hr)</cell></row>
 		</tabular>
 	</table>
 
-	<p><alert>One name: two meanings</alert> Note that fluid ounces and weight ounces are not the same unit. 10 fluid ounces of milk does not weigh 10 ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes which is a good reason to us SI units.</p>
+	<p><alert>One name: two meanings</alert> Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.</p>
 
 	<p>Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.</p>
 
