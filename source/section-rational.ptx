@@ -176,23 +176,52 @@
 <subsection xml:id="subsection-rational-rates">
     <title>Rates</title>
 
-    <p>There are many times when we need to calculate the rate at which something can be accomplished when more than one person/thing is working on it. This section illustrates how to obtain a resulting rate from the individual rates.</p>
+    <p>There are many times when we need to calculate the rate at which something can be accomplished when more than one person/thing is working on it. This section illustrates how to obtain a resulting rate from the individual rates. This process requires algebra similar to that above.</p>
 
-    <example xml:id="example-rational-work1">
+    <example xml:id="example-joint-work1">
         <title>Joint Work: Draining Basement</title>
 
-        <statement><p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4.0 hours, whereas the other pump can do the job in only 3.0 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p></statement>
-        <solution><p>If both pumps are running it will take less than 3 hours which one alone could do. The question is how to find the combined speed. Note speed is a rate, so this suggests we first write down the rates. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4.0 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3.0 \text{ hours}}</m>. When the pumps are working together their rates would combine; we should end up with a faster rate (less than 3 hours per basement). The combined rate is
+        <p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4.0 hours, whereas the other pump can do the job in only 3.0 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p>
+        <p>The question is how to find the speed of the combined pumps. Adding a pump would increase the speed; we want to find a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4.0 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3.0 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
         <md>
-            <mrow>\frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = </mrow>
-            <mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = </mrow>
+            <mrow>\frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = &amp; \text{ Obtain a common denominator}</mrow>
+            <mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = &amp; \text{ Scaling accomplishes this}</mrow>
             <mrow>\frac{3 \text{ basement}}{12.0 \text{ hours}} + \frac{4 \text{ basement}}{12.0 \text{ hours}} &amp; = \frac{7 \text{ basement}}{12.0 \text{ hours}}</mrow>
-        </md>.
-        Now we need to scale this rate from 7 basements per 12 hours to 1 basement per N hours. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.7 \text{ hours}}</me>. Thus if both pumps are working it will take 1.7 hours drain the basement.</p></solution>
+        </md>. Notice in the last line that we have converted the rates from being the same number of basements to the same number of hours. We converted rates to a form that was easier to use.</p>
+        <p>The next step is to use this rate to determine how long it takes to empty one basement. This means scaling this rate from 7 basements per 12 hours to 1 basement per N hours which is a proportion.
+            <md>
+                <mrow>\frac{7 \text{ basement}}{12.0 \text{ hours}} &amp; = \frac{1 \text{ basement}}{N \text{ hours}}.</mrow>
+                <mrow>\frac{12.0 \text{ hours}}{7 \text{ basement}} &amp; = \frac{N \text{ hours}}{1 \text{ basement}}. &amp; \text{ Upsidedown ratios are still equal.}</mrow>
+                <mrow>\frac{12.0 \text{ hours}}{7 \text{ basement}} &amp; = \frac{N \text{ hours}}{1 \text{ basement}}. </mrow>
+                <mrow>\frac{12.0 \text{ hours}}{7 \text{ basement}} \cdot (1 \text{ basement}) &amp; = \frac{N \text{ hours}}{1 \text{ basement}} \cdot (1 \text{ basement}). </mrow>
+                <mrow>1.714285714 \text{ hours} &amp; \approx N.</mrow>
+            </md> Given this is in hours it makes sense to round to the hundreds (a little less than a minute). Because it is how long it will take it makes sense to round up. We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).</p>
+        <p>Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.72 \text{ hours}}</me>. Thus if both pumps are working it will take 1.72 hours drain the basement.</p>
+        <p>The increase in speed, results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).</p>
+    </example>
+
+    <example xml:id="example-use-example-joint-work">
+        <title>How to Use an Example: Joint Work</title>
+        <p>If one housekeeper can clean a hotel room in 11 minutes, and another can clean a room in 13 minutes. How long will it take them combined to clean 27 rooms?</p>
+        <p>Because the question asks us to determine combined speed, we recognize this as a <q>joint work</q> problem. Looking at <xref ref="example-joint-work1" /> we see that the first step was to write down the two rates. <m>\frac{1 \text{ room}}{11 \text{ minutes}}</m> and <m>\frac{1 \text{ room}}{13 \text{ minutes}}</m>.</p>
+        <p>After writing the rates, we realize we need to add the rates.
+            <md>
+                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}}+\frac{1 \text{ room}}{13 \text{ minutes}} &amp; = &amp; \text{common denominator needed} </mrow>
+                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}} \cdot \frac{13}{13} +\frac{1 \text{ room}}{13 \text{ minutes}} \cdot \frac{11}{11} &amp; = &amp; \text{this scales the rates}</mrow>
+                <mrow>\frac{13 \text{ rooms}}{143 \text{ minutes}}+\frac{11 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{24 \text{room}}{143 \text{ minutes}}.</mrow>
+            </md></p>
+        <p>After calculating the rate, the next step was setting up the proportion. In this case we want to find the time to clean 27 rooms.
+            <md>
+                <mrow>\frac{24 \text{room}}{143 \text{ minutes}} &amp; = \frac{27 \text{ rooms}}{N \text{ minutes}}.</mrow>
+                <mrow>\frac{143 \text{ minutes}}{24 \text{room}} &amp; = \frac{N \text{ minutes}}{27 \text{ rooms}}.</mrow>
+                <mrow>\frac{143 \text{ minutes}}{24 \text{room}} \cdot (27 \text{ rooms}) &amp; = \frac{N \text{ minutes}}{27 \text{ rooms}} \cdot (27 \text{ rooms}).</mrow>
+                <mrow>140.875 \text{ minutes} &amp; = N.</mrow>
+            </md>
+        Because this is about the time required to complete a task it makes sense to round up to 141 minutes.</p>
     </example>
 
     <exercise>
-        <webwork>
+<!--        <webwork>
             <pg-macros>
                 <macro-file>parserPopUp</macro-file>
             </pg-macros>
@@ -203,7 +232,8 @@
                 <p>If one shop can do seven float changes in two days, and a second shop can do thirteen float changes in three days, how long will it take the pair of shops to do 65 float changes? <var name="'8.3'" width="4" /></p>
                 <p>If they start on Monday and work only weekdays, on what day of the week will they finish? <var name="$popup" width="10" /></p>
             </statement>
-        </webwork>
+        </webwork> -->
+        <myopenmath problem="1464997" />
     </exercise>
 
 </subsection>
