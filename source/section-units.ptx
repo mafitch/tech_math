@@ -105,12 +105,26 @@
             <me>2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} = 9.2 \text{ quarts}</me></p>
     </example>
 
+    <p>Sometimes to convert units we need to convert more than once.</p>
+
     <example xml:id="example-customary-convert-down2">
+        <statement><p>How many cups is 1.5 quarts?</p></statement>
+        <solution>
+            <p>While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.</p>
+            <p><m>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} = 3.0 \text{ pints}</m>. Now we can convert the pints to cups. <m>3.0 \text{ pints} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}</m>.</p>
+            <p>When we know that we need multiple conversions we can calculate them all at once. <me>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}</me></p>
+            <p>When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (pints in this case) are divided out leaving us with only the desired unit.</p>
+        </solution>
+    </example>
+
+    <p>Nothing restricts this process to two at a time.</p>
+
+    <example xml:id="example-customary-convert-down3">
         <statement><p>How many cups is 1.7 gallons?</p></statement>
         <solution>
             <p>The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.</p>
             <p>As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.
-            <me>1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ quarts}</me></p>
+            <me>1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ cups}</me></p>
         </solution>
     </example>
 
@@ -151,12 +165,26 @@
             <row bottom="medium" left="medium"><cell right="medium"><m>10^3</m></cell><cell right="medium">kilo (k)</cell></row>
             <row bottom="medium" left="medium"><cell right="medium"><m>10^2</m></cell><cell right="medium">hecto (h)</cell></row>
             <row bottom="medium" left="medium"><cell right="medium"><m>10</m></cell><cell right="medium">deka (da)</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"><m>10^{-1}</m></cell><cell right="medium">deci (d)</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"><m>10^{-2}</m></cell><cell right="medium">centi (c)</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"><m>10^{-3}</m></cell><cell right="medium">milli (m)</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"><m>10^{-6}</m></cell><cell right="medium">micro (<m>\mu</m>)</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"><m>10^{-9}</m></cell><cell right="medium">nano (n)</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"><m>10^{-12}</m></cell><cell right="medium">pico (p)</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>1/10</m></cell><cell right="medium">deci (d)</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^2}</m></cell><cell right="medium">centi (c)</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^3}</m></cell><cell right="medium">milli (m)</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^6}</m></cell><cell right="medium">micro (<m>\mu</m>)</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^9}</m></cell><cell right="medium">nano (n)</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^12}</m></cell><cell right="medium">pico (p)</cell></row>
+        </tabular>
+    </table>
+
+    <p>This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).</p>
+
+    <table xml:id="table-metric-metric-conversion">
+        <title>Metric Conversion</title>
+        <tabular top="medium">
+            <row bottom="medium" left="medium"><cell right="medium">Scaled Unit</cell><cell right="medium">Base Unit</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium">kilometer (km)</cell><cell right="medium"><m>10^3=1000</m> meters</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium">hectometer</cell><cell right="medium"><m>10^2=100</m> meters</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium">10 decimeters</cell><cell right="medium">meter</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>10^2=100</m> centimeters</cell><cell right="medium">meter</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>10^3=1000</m> millimeters</cell><cell right="medium">meter</cell></row>
         </tabular>
     </table>
 
@@ -165,7 +193,7 @@
     <example xml:id="example-si-down1">
         <statement><p>How many centimeters is 3.8 meters?</p></statement>
         <solution>
-            <p>From <xref ref="table-metric-sizes" /> we know one centimeter is <m>10^{-2}</m> meters, that is, <m>\frac{1 \text{ cm}}{10^{-2} \text{ m}}</m>. This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. <me>3.8 \text{ m} \cdot \frac{1 \text{ cm}}{10^{-2} \text{ m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.</me> Note, because this is a power of ten (<m>10^2</m>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</p>
+            <p>From <xref ref="table-metric-sizes" /> we know <m>10^2=100</m> centimeters is 1 meter, that is, <m>\frac{100 \text{ cm}}{1 \text{ m}}</m>. This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. <me>3.8 \text{ m} \cdot \frac{100 \text{ cm}}{\text{m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.</me> Note, because centi is a power of ten (<m>10^2</m>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</p>
             <p>Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).</p>
         </solution>
     </example>
@@ -177,7 +205,7 @@
 
     <example xml:id="example-si-up">
         <statement><p>How many centiliters is 13.6 milliliters?</p></statement>
-        <solution><p>We know one centiliter is <m>10^{-2}</m> liters and one milliliter is <m>10^{-3}</m> liters. This means we shift the decimal <m>-2-(-3)=1</m> position. Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (make the number smaller). 13.6 milliliters is 1.36 centiliters.</p></solution>
+        <solution><p>We know <m>10^2=100</m> centiliters is 1 liter and <m>10^3=1000</m> milliliters is 1 liter. This means we shift the decimal <m>2-(3)=-1</m>. Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.</p></solution>
     </example>
 
     <exercise xml:id="checkpoint-si-unit-conversion">
@@ -195,14 +223,14 @@
         <title>U.S. Customary to SI</title>
         <tabular top="medium">
             <row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">Standard</cell><cell right="medium">SI</cell></row>
-            <row left="medium"><cell right="medium">Length</cell><cell right="medium">1 nm</cell><cell right="medium">1.852 km</cell></row>
-            <row left="medium"><cell right="medium">Length</cell><cell right="medium">1 mi</cell><cell right="medium">1.609344 km</cell></row>
-            <row left="medium"><cell right="medium"></cell><cell right="medium">1 ft</cell><cell right="medium">0.3048 m</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 in</cell><cell right="medium">2.54 cm</cell></row>
-            <row left="medium"><cell right="medium">Volume</cell><cell right="medium">1 gal</cell><cell right="medium">3.785412 L</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 oz</cell><cell right="medium">29.573532 mL</cell></row>
+            <row left="medium"><cell right="medium">Length</cell><cell right="medium">1 nm</cell><cell right="medium">1.85200 km</cell></row>
+            <row left="medium"><cell right="medium">Length</cell><cell right="medium">1 mi</cell><cell right="medium">1.60934 km</cell></row>
+            <row left="medium"><cell right="medium"></cell><cell right="medium">1 ft</cell><cell right="medium">0.304800 m</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 in</cell><cell right="medium">2.54000 cm</cell></row>
+            <row left="medium"><cell right="medium">Volume</cell><cell right="medium">1 gal</cell><cell right="medium">3.78541 L</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 oz</cell><cell right="medium">29.5735 mL</cell></row>
             <row left="medium"><cell right="medium">Weight</cell><cell right="medium">1 lb</cell><cell right="medium">0.453592 kg</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 oz</cell><cell right="medium">28.349523 g</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 oz</cell><cell right="medium">28.3495 g</cell></row>
         </tabular>
     </table>
 
@@ -211,12 +239,12 @@
         <tabular top="medium">
             <row bottom="medium" left="medium"><cell right="medium">Measuring</cell><cell right="medium">SI</cell><cell right="medium">Standard</cell></row>
             <row left="medium"><cell right="medium">Length</cell><cell right="medium">1 km</cell><cell right="medium">0.621371 mi</cell></row>
-            <row left="medium"><cell right="medium"></cell><cell right="medium">1 m</cell><cell right="medium">3.280840 ft</cell></row>
+            <row left="medium"><cell right="medium"></cell><cell right="medium">1 m</cell><cell right="medium">3.28084 ft</cell></row>
             <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 cm</cell><cell right="medium">0.393701 in</cell></row>
             <row left="medium"><cell right="medium">Volume</cell><cell right="medium">1 L</cell><cell right="medium">0.264172 gal</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 mL</cell><cell right="medium">0.033814 oz</cell></row>
-            <row left="medium"><cell right="medium">Weight</cell><cell right="medium">1 kg</cell><cell right="medium">2.204623 lb</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 g</cell><cell right="medium">0.035274 oz</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 mL</cell><cell right="medium">0.0338140 oz</cell></row>
+            <row left="medium"><cell right="medium">Weight</cell><cell right="medium">1 kg</cell><cell right="medium">2.20462 lb</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"></cell><cell right="medium">1 g</cell><cell right="medium">0.0352740 oz</cell></row>
         </tabular>
     </table>
 
@@ -224,21 +252,26 @@
 
     <example xml:id="example-customary-to-si">
         <statement><p>How many kilometers is 26.2 miles?</p></statement>
-        <solution><p>From <xref ref="table-customary-to-si" /> we know each mile is 1.609344 km; this means there is <me>\frac{1.609344 \text{ km}}{1 \text{ mi}}</me>. The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.
-            <me>26.2 \text{ miles} \cdot \frac{1.609344 \text{ km}}{\text{mi}} \approx 42.2 \text{ km}</me></p></solution>
+        <solution>
+            <p>From <xref ref="table-customary-to-si" /> we know each mile is 1.60934 km; this means there is <me>\frac{1.60934 \text{ km}}{1 \text{ mi}}</me>. The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.
+            <me>26.2 \text{ miles} \cdot \frac{1.60934 \text{ km}}{\text{mi}} = 42.164708 \approx 42.2 \text{ km}</me>
+            We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in <xref ref="section-enough" />. </p>
+        </solution>
     </example>
 
     <example xml:id="example-si-to-customary">
         <statement><p>How many inches is 15 centimeters?</p></statement>
-        <solution><p>From <xref ref="table-si-to-customary" /> we know each centimeter is 0.393701 inches; this means there is <me>\frac{0.393701 \text{ in}}{1 \text{ cm}}</me>. The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out.
-            <me>15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} \approx 5.9 \text{ in}</me></p></solution>
+        <solution>
+            <p>From <xref ref="table-si-to-customary" /> we know each centimeter is 0.393701 inches; this means there is <me>\frac{0.393701 \text{ in}}{1 \text{ cm}}</me>. The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out.
+            <me>15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} = 5.905515 \approx 5.9 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
+        </solution>
     </example>
 
     <example xml:id="example-si-to-customary-scaled">
         <statement><p>How many inches is 1 meter?</p></statement>
         <solution>
-            <p>From <xref ref="table-si-to-customary" /> we know each meter is 3.280840 feet. From <xref ref="table-customary-convert" /> that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet.
-            <me>1 \text{ m} \cdot \frac{3.280840 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} \approx 39 \text{ in}</me></p>
+            <p>From <xref ref="table-si-to-customary" /> we know each meter is 3.28084 feet. From <xref ref="table-customary-convert" /> that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet.
+            <me>1 \text{ m} \cdot \frac{3.28084 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 39.37008 \approx 39 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
         </solution>
     </example>
 
@@ -262,9 +295,9 @@
     </example>
 
     <example xml:id="example-convert-extra-units">
-        <statement><p>How many pounds does a tablespoon of water weigh? Note that one gallon of water weights 8 lbs. Also a tablespoon is a half fluid ounce.</p></statement>
+        <statement><p>How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.</p></statement>
         <solution>
-            <p>We need to conver the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. <me>\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} = \frac{1 \text{lb}}{64 \text{ tbs}} = 0.015625 \frac{\text{lbs}}{\text{tbs}}</me>.</p>
+            <p>We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. <me>\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} = \frac{1 \text{lb}}{64 \text{ tbs}} = 0.015625 \frac{\text{lbs}}{\text{tbs}}</me>.</p>
         </solution>
     </example>
 
@@ -279,9 +312,9 @@
         <solution>
             <p>First we note that an acre is <m>43,560 \text{ ft}^2</m>. From <xref ref="table-customary-convert" /> we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.
             <md>
-                <mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mi}}{5280 \text{ ft}} \cdot \frac{\text{mi}}{5280 \text{ ft}} &amp; =</mrow>
-                <mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \left(\frac{\text{mi}}{5280 \text{ ft}}\right)^2 &amp; =</mrow>
-                <mrow>2 \text{acres} \cdot \frac{43,560 \text{ ft}^2}{\text{acre}} \cdot \frac{\text{mi}^2}{5280^2 \text{ ft}^2} &amp; = \frac{1}{320} \text{ mi}^2</mrow>
+                <mrow>2 \text{ acres} \cdot \frac{43,560 \text{ ft}^2}{\text{ acre}} \cdot \frac{\text{mi}}{5280 \text{ ft}} \cdot \frac{\text{mi}}{5280 \text{ ft}} &amp; =</mrow>
+                <mrow>2 \text{ acres} \cdot \frac{43,560 \text{ ft}^2}{\text{ acre}} \cdot \left(\frac{\text{mi}}{5280 \text{ ft}}\right)^2 &amp; =</mrow>
+                <mrow>2 \text{ acres} \cdot \frac{43,560 \text{ ft}^2}{\text{ acre}} \cdot \frac{\text{mi}^2}{5280^2 \text{ ft}^2} &amp; = \frac{1}{320} \text{ mi}^2</mrow>
                 <mrow> &amp; = 0.003125</mrow>
             </md></p>
             <p>It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.</p>

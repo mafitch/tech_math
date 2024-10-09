@@ -36,7 +36,7 @@
 	</example>
 
 	<example xml:id="example-accuracy-number">
-		<p>Note <m>\frac{22}{7} \approx 3.142857</m> is an approximation for <m>\pi</m>. Because <m>\pi</m> to six decimals places (not rounded) is 3.141592, this approximation is accurate to only 2 decimal places.</p>
+		<p>Note <m>\frac{22}{7} \approx 3.142857</m> is an approximation for <m>\pi</m>. Because <m>\pi</m> to six decimals places (not rounded) is 3.141592, the approximation <m>22/7</m> is accurate to only 2 decimal places (i.e., 3.14).</p>
 		<p>Note, <m>\pi</m> is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.</p>
 	</example>
 
@@ -70,7 +70,7 @@
 		<video youtube="SJZ9yCJ3NTQ" xml:id="video-precision-accuracy" />
 	</figure>
 
-	<p>How do we end up with measurements parts of which are not accurate? Consider the following.</p>
+	<p>How do we end up with parts of measurements which are not accurate? Consider the following.</p>
 
 	<example xml:id="example-measure-error-ruler">
 		<image source="images/measure_length" />
@@ -205,8 +205,8 @@
 			<mrow>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4) &amp; =</mrow>
 			<mrow>21 \cdot 9 - \frac{1}{2} \cdot 9(12) &amp; = \text{ all numbers are precise to the ones position}</mrow>
 			<mrow>189 - 54 &amp; = \text{ only one significant digit remains in both numbers because 9 has only one}</mrow>
-			<mrow>105 &amp; \approx \text{ 189 was precise to only the hundreds position}</mrow>
-			<mrow>100.</mrow>
+			<mrow>135 &amp; = \approx \text{ 189 was precise to only the hundreds position}</mrow>
+			<mrow>100. &amp; \text{So we round to the hundreds.}</mrow>
 		</md></p>
 	</example>
 
