@@ -129,14 +129,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.1';
+eBookConfig.runestone_version = '7.4.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.04737dc219c2d2eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
@@ -537,62 +537,73 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-linear-systems"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.6</span><span class="space"> </span><span class="title">Linear Systems</span>
 </h2>
-<section class="introduction" id="section-linear-systems-2"><div class="para" id="section-linear-systems-2-1">In  we wanted to solve a problem with two constraints. We could meet one exactly (percent alcohol) and the other in inequality (at least that volume). Many problems have more than one constraint (condition we want to meet). Here we will learn to solve one type of them.</div></section><section class="subsection" id="subsection-dual-mixture"><h3 class="heading hide-type">
+<section class="introduction" id="section-linear-systems-2"><div class="para logical" id="section-linear-systems-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-linear-systems-2-1-1">
+<li id="section-linear-systems-2-1-1-1"><div class="para" id="p-derived-section-linear-systems-2-1-1-1">Interpret data in various formats and analyze mathematical models</div></li>
+<li id="section-linear-systems-2-1-1-2"><div class="para" id="p-derived-section-linear-systems-2-1-1-2">Read and use mathematical models in a technical document</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-linear-systems-2-1-2"><li id="section-linear-systems-2-1-2-1"><div class="para" id="p-derived-section-linear-systems-2-1-2-1">Solve a system of linear equations (skill)</div></li></ul>
+</div>
+<div class="para" id="section-linear-systems-2-2">In <a href="section-mixture.html#example-percent-mixture-sugar" class="xref" data-knowl="./knowl/xref/example-percent-mixture-sugar.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.2.1">Example 2.2.1</a> we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions involving two or more constraints (equations) at the same time.</div></section><section class="subsection" id="subsection-dual-mixture"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="space"> </span><span class="title">Motivation</span>
 </h3>
-<div class="para" id="subsection-dual-mixture-2">In previous dilution problems we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures and want to combine them.</div>
+<div class="para" id="subsection-dual-mixture-2">This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.</div>
+<div class="para" id="subsection-dual-mixture-3">In previous dilution problems we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.</div>
 <article class="example example-like" id="example-dual-mixture"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Combining Mixtures.</span>
 </h4>
-<div class="para" id="example-dual-mixture-2-1">Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce <span class="process-math">\(10.0\)</span> oz of 85% alcohol?</div>
-<div class="solutions"><details id="example-dual-mixture-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="example-dual-mixture-3-1">A common technique in mathematics is to start by writing the answer. We will declare that we will use <span class="process-math">\(A\)</span> oz of 91% alcohol and <span class="process-math">\(B\)</span> oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).</div> <div class="para logical" id="example-dual-mixture-3-2">
+<div class="para" id="example-dual-mixture-2">Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce <span class="process-math">\(10.0\)</span> oz of 85% alcohol?</div>
+<div class="para" id="example-dual-mixture-3">A common technique in mathematics is to start by writing the answer. We will declare that we will use <span class="process-math">\(A\)</span> oz of 91% alcohol and <span class="process-math">\(B\)</span> oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).</div>
+<div class="para logical" id="example-dual-mixture-4">
 <div class="para">The first constraint is that we end up with 10 oz of solution. Thus</div>
 <div class="displaymath process-math">
 \begin{equation*}
 A+B = 10.0.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="example-dual-mixture-3-3">
-<div class="para">The second contraint is the percent alcohol.  Because it will be 85% alcohol there will be</div>
+</div>
+<div class="para logical" id="example-dual-mixture-5">
+<div class="para">The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (0.85)10.0 = 8.5 \text{ oz}\text{.}
 \end{equation*}
 </div>
-<div class="para">Because <span class="process-math">\(A\)</span> oz of the first solution will be added and it is 91% alcohol, it will contribute <span class="process-math">\((0.91)A\)</span> oz of alcohol. Similarly the second solution will contribute <span class="process-math">\((0.75)B\)</span> oz of alcohol. Combined we will obtain</div>
+<div class="para">This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because <span class="process-math">\(A\)</span> oz of the first solution will be added and it is 91% alcohol, it will contribute <span class="process-math">\((0.91)A\)</span> oz of alcohol. Similarly the second solution will contribute <span class="process-math">\((0.75)B\)</span> oz of alcohol. Combined we will obtain</div>
 <div class="displaymath process-math">
 \begin{equation*}
-(0.91)A+(0.75)B = 8.5.
+(0.91)A+(0.75)B = 8.5 \text{ oz}.
 \end{equation*}
 </div>
-</div> <div class="para" id="example-dual-mixture-3-4">Now we just need a way to solve this pair of equations.</div>
-</div></details></div></article></section><section class="subsection" id="subsection-crossing-lines"><h3 class="heading hide-type">
+</div>
+<div class="para" id="example-dual-mixture-6">Now we just need a way to solve this pair of equations.</div></article></section><section class="subsection" id="subsection-crossing-lines"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="space"> </span><span class="title">Crossing Lines</span>
 </h3>
-<div class="para" id="subsection-crossing-lines-2">Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.</div>
-<div class="para" id="subsection-crossing-lines-3">Recall that a line is a relation (set of points) such that the change between any two, equally space points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how <dfn class="terminology">steep</dfn> the line is.</div>
-<article class="example example-like" id="example-line-from-slope"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="period">.</span>
+<div class="para" id="subsection-crossing-lines-2">This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) their should be a solution. The next section provides the method for solving.</div>
+<div class="para" id="subsection-crossing-lines-3">Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.</div>
+<div class="para" id="subsection-crossing-lines-4">Recall that a line is a relation (set of points) such that the change between any two, equally spaced points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how <dfn class="terminology">steep</dfn> the line is.</div>
+<article class="exercise exercise-like" id="example-steep-crossing"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-line-from-slope-1-1">Suppose we start at a point <span class="process-math">\((1,3)\text{.}\)</span> If we know that the line increases 2 units for each step then the points <span class="process-math">\((2,5)\)</span> and <span class="process-math">\((3,7)\)</span> are also on the line. This shows us that for each x value we add 2. This gives us <span class="process-math">\(2x\)</span> because that adds two for each x. But we must account for starting at <span class="process-math">\((1,3)\text{.}\)</span> <span class="process-math">\(2(1)=2\)</span> so we need to add one to shift it up. This is why the line is <span class="process-math">\(2x+1\text{.}\)</span> This is the slope-intercept form of a line. The coefficient of x, 2 in this case, tells us how steep (how much it goes up for each incease of x). The constant, 1 in this case, shifts the line up or down.</div></article><article class="exercise exercise-like" id="example-steep-crossing"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="period">.</span>
-</h4>
-<div class="introduction" id="example-steep-crossing-1"><div class="para" id="example-steep-crossing-1-1">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.4">Figure 3.6.4</a> there are two lines. One goes through point <span class="process-math">\(A=(1,3)\text{.}\)</span> It rises at a slope of <span class="process-math">\(2/1\)</span> (two up for each one over). The other line goes through the point <span class="process-math">\(B=(1,2)\)</span> which is below <span class="process-math">\(A\text{.}\)</span>
+<div class="introduction" id="example-steep-crossing-1"><div class="para" id="example-steep-crossing-1-1">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.3">Figure 3.6.3</a> there are two lines. One goes through point <span class="process-math">\(A=(1,3)\text{.}\)</span> It rises at a slope of <span class="process-math">\(2/1\)</span> (two up for each one over). The other line goes through the point <span class="process-math">\(B=(1,2)\)</span> which is below <span class="process-math">\(A\text{.}\)</span>
 </div></div>
 <article class="task exercise-like" id="example-steep-crossing-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-steep-crossing-2-1">Use the slider to set the slope of the second line to 3. Does the line cross the one through <span class="process-math">\(A\text{?}\)</span> Where (left or right of point <span class="process-math">\(B\)</span>)?</div></article><article class="task exercise-like" id="example-steep-crossing-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="example-steep-crossing-3-1">Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point <span class="process-math">\(B\)</span>)?</div></article><article class="task exercise-like" id="example-steep-crossing-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="example-steep-crossing-4-1">Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point <span class="process-math">\(B\)</span>)?</div></article><article class="task exercise-like" id="example-steep-crossing-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="example-steep-crossing-5-1">In general if one slope is steeper than the other will they cross?</div></article><article class="task exercise-like" id="example-steep-crossing-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="example-steep-crossing-6-1">Can you select a slope so that they don’t cross?</div></article></article><figure class="figure figure-like" id="figure-steep-crossing"><iframe id="figure-steep-crossing-2" width="510" height="383" src="figure-steep-crossing-2-if.html"></iframe><div class="instructions"><details id="figure-steep-crossing-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content"><div class="para" id="figure-steep-crossing-2-2-1">Use the slider to adjust the slope of the line through B.</div></div></details></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.4<span class="period">.</span></span><span class="space"> </span>Crossing Lines</figcaption></figure><article class="exercise exercise-like" id="example-cross-when"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="period">.</span>
+<div class="para" id="example-steep-crossing-5-1">In general if either slope is steeper than the other slope will the two lines cross?</div></article><article class="task exercise-like" id="example-steep-crossing-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="example-steep-crossing-6-1">Can you select a slope for the second line so that these two lines do not cross?</div></article></article><figure class="figure figure-like" id="figure-steep-crossing"><iframe id="figure-steep-crossing-2" width="510" height="383" src="figure-steep-crossing-2-if.html"></iframe><div class="instructions"><details id="figure-steep-crossing-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content"><div class="para" id="figure-steep-crossing-2-2-1">Use the slider to adjust the slope of the line through B.</div></div></details></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.3<span class="period">.</span></span><span class="space"> </span>Crossing Lines</figcaption></figure><div class="para" id="subsection-crossing-lines-7">This next example applies the idea of a line starting lower but rising faster to answer a financial question.</div>
+<article class="exercise exercise-like" id="example-cross-when"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-cross-when-1-1">Vasya’s initial pay was $62,347.23. She received $5,000 raises each year. Pyotr’s initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?</div>
 <div class="solutions">
 <details id="example-cross-when-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="example-cross-when-2-1">We could make a table.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="example-cross-when-2-1">We could make a table.</div>
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Year</td>
 <td class="l m b0 r0 l0 t0 lines">Vasya</td>
@@ -623,71 +634,72 @@ A+B = 10.0.
 <td class="l m b0 r0 l0 t0 lines">$82,347.23</td>
 <td class="l m b0 r0 l0 t0 lines">$81,242.33</td>
 </tr>
-</table></div> <div class="para" id="example-cross-when-2-3">We see that is in 2016 that Vasya is first paid more.</div>
-</div></details><details id="example-cross-when-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-cross-when-3-1">We could note that Vasya’s raises are $1,500 more each year than Pyotr’s raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is <span class="process-math">\(67242.33-62347.23=4895.10\text{.}\)</span> Because she gains by 1500 each year it will take <span class="process-math">\(4895.10/1500 = 3.2634 \)</span> years. Because they receive raises once a year it will take 4 years. Thus she is first paid more in 2016.</div></div></details>
+</table></div>
+<div class="para" id="example-cross-when-2-3">We see that is in 2016 that Vasya is first paid more.</div>
+</div></details><details id="example-cross-when-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-cross-when-3-1">We could note that Vasya’s raises are $1,500 more each year than Pyotr’s raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is <span class="process-math">\(67242.33-62347.23=4895.10\text{.}\)</span> Because she gains by 1500 each year it will take <span class="process-math">\(4895.10/1500 = 3.2634 \)</span> years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.</div></div></details>
 </div></article></section><section class="subsection" id="subsection-system-solving"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="space"> </span><span class="title">Solving Linear Systems</span>
 </h3>
-<div class="para" id="subsection-system-solving-2">We will consider two ways of solving linear systems of this type. The second method is very important for larger systems.</div>
+<div class="para" id="subsection-system-solving-2">This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.</div>
 <article class="example example-like" id="example-dual-mixture-solve"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.6</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="example-dual-mixture-solve-1-1">
+<div class="para logical" id="example-dual-mixture-solve-1">
 <div class="para">We will solve the system from <a href="section-linear-systems.html#example-dual-mixture" class="xref" data-knowl="./knowl/xref/example-dual-mixture.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.6.1: Combining Mixtures">Example 3.6.1</a>. The two equations are</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-dual-mixture.html" id="example-dual-mixture-solve-1-1-2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-dual-mixture.html" id="example-dual-mixture-solve-1-2">
 \begin{align*}
 A+B &amp; = 10.0.\\
 (0.91)A+(0.75)B &amp; = 8.5.
 \end{align*}
 </div>
 </div>
-<div class="solutions"><details id="example-dual-mixture-solve-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="example-dual-mixture-solve-2-1">
-<div class="para">Notice we can solve the first equation for <span class="process-math">\(B\text{,}\)</span> then substitute it into the second.</div>
-<div class="displaymath process-math" id="example-dual-mixture-solve-2-1-2">
+<div class="para logical" id="example-dual-mixture-solve-2">
+<div class="para">Notice we can solve the first equation for <span class="process-math">\(B\text{,}\)</span> then substitute it into the second. The result is a single equation with only one variable. We already know how to solve that one.</div>
+<div class="displaymath process-math" id="example-dual-mixture-solve-2-2">
 \begin{align*}
 B &amp; = 10.0-A.\\
 (0.91)A+(0.75)(10.0-A) &amp; = 8.5.\\
 (0.91)A+7.5-(0.75)A &amp; = 8.5.\\
 (0.16)A &amp; = 1.0.\\
 A &amp; = \frac{1.0}{0.16}\\
-&amp; = 6.3.
+&amp; = 6.25\\
+&amp; \approx 6.3.
 \end{align*}
 </div>
-<div class="para">Now that we know that <span class="process-math">\(A=6.3\)</span> we can substitute that into <span class="process-math">\(A+B=10.0.\)</span> This gives us</div>
-<div class="displaymath process-math" id="example-dual-mixture-solve-2-1-5">
+<div class="para">Now that we know that <span class="process-math">\(A \approx 6.3\)</span> we can substitute that into <span class="process-math">\(A+B=10.0.\)</span> This gives us</div>
+<div class="displaymath process-math" id="example-dual-mixture-solve-2-5">
 \begin{align*}
 A+B &amp; = 10.0.\\
-6.3+B &amp; = 10.0.\\
-B &amp; = 3.7.
+6.3+B &amp; \approx 10.0.\\
+B &amp; \approx 3.7.
 \end{align*}
 </div>
-</div> <div class="para logical" id="example-dual-mixture-solve-2-2">
+</div>
+<div class="para logical" id="example-dual-mixture-solve-3">
 <div class="para">We can check that this works in the other equation (about percent alcohol).</div>
-<div class="displaymath process-math" id="example-dual-mixture-solve-2-2-1">
+<div class="displaymath process-math" id="example-dual-mixture-solve-3-1">
 \begin{align*}
 (0.91)A+(0.75)B &amp; = \\
 (0.91)(6.3)+(0.75)(3.7) &amp; = \\
 5.7+2.8 &amp; = 8.5.
 \end{align*}
 </div>
-</div>
-</div></details></div></article><div class="para" id="subsection-system-solving-4">If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. We call it <dfn class="terminology">elimination</dfn>.</div>
+</div></article><div class="para" id="subsection-system-solving-4">If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. This method is called <dfn class="terminology">elimination</dfn>.</div>
 <article class="example example-like" id="example-dual-mixture-eliminate"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.7</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.6</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="example-dual-mixture-eliminate-1-1">
+<div class="para logical" id="example-dual-mixture-eliminate-1">
 <div class="para">We will solve the system</div>
-<div class="displaymath process-math" id="example-dual-mixture-eliminate-1-1-1">
+<div class="displaymath process-math" id="example-dual-mixture-eliminate-1-1">
 \begin{align*}
 A+B &amp; = 10.0.\\
 (0.91)A+(0.75)B &amp; = 8.5.
 \end{align*}
 </div>
 </div>
-<div class="solutions"><details id="example-dual-mixture-eliminate-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-dual-mixture-eliminate-2-1">
-<div class="para">Note how we modify the first equation to partially match the second one.</div>
-<div class="displaymath process-math" id="example-dual-mixture-eliminate-2-1-1">
+<div class="para logical" id="example-dual-mixture-eliminate-2">
+<div class="para">In the second line below notice how we modify the first equation to partially match the second one.</div>
+<div class="displaymath process-math" id="example-dual-mixture-eliminate-2-1">
 \begin{align*}
 A+B &amp; = 10.0.\\
 -(0.91)(A+B) &amp; = -(0.91)10.0.\\
@@ -695,150 +707,47 @@ A+B &amp; = 10.0.\\
 (0.91)A+(0.75)B &amp; = 8.5.\\
 -(0.16)B &amp; = -0.6.\\
 B &amp; = \frac{-0.6}{-0.16}\\
-&amp; = 3.7.
+&amp; = 3.75\\
+&amp; \approx 3.8
 \end{align*}
 </div>
-<div class="para">In the fifth line we added the two equations. Because they had opposite coefficients for <span class="process-math">\(A\text{,}\)</span> that was eliminated leaving us with just <span class="process-math">\(B\text{.}\)</span> This can always be done with systems of linear equations.</div>
-</div></div></details></div></article><article class="exercise exercise-like" id="exercise-linear-system-integers"><h4 class="heading">
+<div class="para">In the fifth line we added the two equations. Because they had opposite coefficients for <span class="process-math">\(A\text{,}\)</span> that variable was eliminated leaving us with just <span class="process-math">\(B\text{.}\)</span> This can always be done with systems of linear equations.</div>
+</div>
+<div class="para logical" id="example-dual-mixture-eliminate-3">
+<div class="para">We finish solving this system the same way as the previous example, by substituting the value of <span class="process-math">\(B\)</span> back into the first equation.</div>
+<div class="displaymath process-math" id="example-dual-mixture-eliminate-3-2">
+\begin{align*}
+A+B &amp; = 10.0.\\
+A+3.8 &amp; \approx 10.0.\\
+A &amp; \approx 6.2.
+\end{align*}
+</div>
+</div></article><div class="para" id="subsection-system-solving-6">Notice that we ended up with slightly different solutions in <a href="section-linear-systems.html#example-dual-mixture-solve" class="xref" data-knowl="./knowl/xref/example-dual-mixture-solve.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.6.5">Example 3.6.5</a> and <a href="section-linear-systems.html#example-dual-mixture-eliminate" class="xref" data-knowl="./knowl/xref/example-dual-mixture-eliminate.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.6.6">Example 3.6.6</a>. This is not the result of differences in the methods. Rather it is the result of rounding and it is a result of our choice of variable to solve first. These slightly different results are a reminder to be careful when rounding is involved. If the difference between these results makes a difference in our lives, then we need to measure more precisely.</div>
+<article class="exercise exercise-like" id="exercise-linear-system-integers"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.7</span><span class="period">.</span>
+</h4>
+<div id="momexercise-linear-system-integers-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-linear-system-integers-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1468692&amp;frame_id=momexercise-linear-system-integers-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-linear-system-eliminate"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.8</span><span class="period">.</span>
 </h4>
-<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKU29sdmUgdGhlIGxpbmVhciBzeXN0ZW0gYmVsb3cgdXNpbmcgc3Vic3RpdHV0aW9uLgoKW2BgYFxiZWdpbnthbGlnbmVkfQoyeCszeSAmID0gMTcuXFwKNHgrMnkgJiA9IDE0LgpcZW5ke2FsaWduZWR9CmBgYF0KCgoKW2B4ID1gXSBbX117JzEnfXs0fQoKW2B5ID1gXSBbX117JzUnfXs0fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIGNhbiBzb2x2ZSB0aGUgZmlyc3QgZXF1YXRpb24gZm9yIFtgeGBdIGFuZCBzdWJzdGl0dXRlLgoKW2BgYFxiZWdpbnthbGlnbmVkfQoyeCszeSAmID0gMTcuXFwKMnggJiA9IDE3LTN5LlxcCnggJiA9IFxmcmFjezF9ezJ9KDE3LTN5KS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCltgYGBcYmVnaW57YWxpZ25lZH0KNHgrMnkgJiA9IDE0LlxcCjQgXGxlZnQoIFxmcmFjezF9ezJ9KDE3LTN5KSBccmlnaHQpKzJ5ICYgPSAxNC5cXAozNC02eSsyeSAmID0gMTQuXFwKLTR5ICYgPSAtMjAuXFwKeSAmID0gNS5cXAoyeCszKDUpICYgPSAxNy5cXAoyeCsxNSAmID0gMTcuXFwKMnggJiA9IDIuXFwKeCAmID0gMS5cdGV4dHsufQpcZW5ke2FsaWduZWR9CmBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-1-1-1-1">Solve the linear system below using substitution.</div> <div class="para logical" id="extracted-webwork-1-1-1-2"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
-2x+3y \amp  = 17.\\
-4x+2y \amp  = 14.
-\end{aligned}
-\end{equation*}
-</div></div> <div class="para" id="extracted-webwork-1-1-1-3">
-<span class="process-math">\(x =\)</span> <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
-</div> <div class="para" id="extracted-webwork-1-1-1-4">
-<span class="process-math">\(y =\)</span> <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
-</div>
-<div class="solutions">
-<details id="extracted-webwork-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-1-1-2-1"><span class="process-math">\(1\)</span></div></div></details><details id="extracted-webwork-1-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-1-1-3-1"><span class="process-math">\(5\)</span></div></div></details><details id="extracted-webwork-1-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="extracted-webwork-1-1-4-1">We can solve the first equation for <span class="process-math">\(x\)</span> and substitute.</div> <div class="para logical" id="extracted-webwork-1-1-4-2"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
-2x+3y \amp  = 17.\\
-2x \amp  = 17-3y.\\
-x \amp  = \frac{1}{2}(17-3y).
-\end{aligned}
-\end{equation*}
-</div></div> <div class="para logical" id="extracted-webwork-1-1-4-3"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
-4x+2y \amp  = 14.\\
-4 \left( \frac{1}{2}(17-3y) \right)+2y \amp  = 14.\\
-34-6y+2y \amp  = 14.\\
--4y \amp  = -20.\\
-y \amp  = 5.\\
-2x+3(5) \amp  = 17.\\
-2x+15 \amp  = 17.\\
-2x \amp  = 2.\\
-x \amp  = 1.\text{.}
-\end{aligned}
-\end{equation*}
-</div></div>
-</div></details>
-</div>
-</div>
-</div></article><article class="exercise exercise-like" id="exercise-linear-system-eliminate"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.9</span><span class="period">.</span>
-</h4>
-<div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKU29sdmUgdGhlIGxpbmVhciBzeXN0ZW0gYmVsb3cgdXNpbmcgZWxpbWluYXRpb24uCgpbYGBgXGJlZ2lue2FsaWduZWR9CjJ4KzN5ICYgPSAxNy5cXAo0eCsyeSAmID0gMTQuClxlbmR7YWxpZ25lZH0KYGBgXQoKCgpbYHggPWBdIFtfXXsnMSd9ezR9CgpbYHkgPWBdIFtfXXsnNSd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2Ugbm90ZSB0aGF0IFtgNC8yPTJgXSBzbyB3ZSBzaG91bGQgbXVsdGlwbHkgdGhlIGZpcnN0IGVxdWF0aW9uIGJ5IC0yLgoKW2BgYFxiZWdpbnthbGlnbmVkfQotMigyeCszeSkgJiA9IC0yKDE3KS5cXAotNHgtNnkgJiA9IC0zNC5cXAo0eCsyeSAmID0gMTQuXFwKLTR5ICYgPSAtMjAuXFwKeSAmID0gNS5cXAoyeCszKDUpICYgPSAxNy5cXAoyeCsxNSAmID0gMTcuXFwKMnggJiA9IDIuXFwKeCAmID0gMS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-2-1-1-1">Solve the linear system below using elimination.</div> <div class="para logical" id="extracted-webwork-2-1-1-2"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
-2x+3y \amp  = 17.\\
-4x+2y \amp  = 14.
-\end{aligned}
-\end{equation*}
-</div></div> <div class="para" id="extracted-webwork-2-1-1-3">
-<span class="process-math">\(x =\)</span> <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
-</div> <div class="para" id="extracted-webwork-2-1-1-4">
-<span class="process-math">\(y =\)</span> <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
-</div>
-<div class="solutions">
-<details id="extracted-webwork-2-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-2-1-2-1"><span class="process-math">\(1\)</span></div></div></details><details id="extracted-webwork-2-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-2-1-3-1"><span class="process-math">\(5\)</span></div></div></details><details id="extracted-webwork-2-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="extracted-webwork-2-1-4-1">We note that <span class="process-math">\(4/2=2\)</span> so we should multiply the first equation by -2.</div> <div class="para logical" id="extracted-webwork-2-1-4-2"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
--2(2x+3y) \amp  = -2(17).\\
--4x-6y \amp  = -34.\\
-4x+2y \amp  = 14.\\
--4y \amp  = -20.\\
-y \amp  = 5.\\
-2x+3(5) \amp  = 17.\\
-2x+15 \amp  = 17.\\
-2x \amp  = 2.\\
-x \amp  = 1.
-\end{aligned}
-\end{equation*}
-</div></div>
-</div></details>
-</div>
-</div>
-</div></article><article class="exercise exercise-like" id="exercise-linear-system-rand"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.10</span><span class="period">.</span>
-</h4>
-<div id="webwork-3" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="3" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMSw1LDEpKTsKJGIgPSBDb21wdXRlKHJhbmRvbSgxLDUsMSkpOwokYzEgPSA2KiRhKzgqJGI7CiRjMiA9IDkqJGErMTMqJGI7CiRzYzEgPSAtMy8yKiRjMTsKJHNzID0gJGMxLTgqJGI7CgpCRUdJTl9QR01MCkZpbmQgdGhlIHNvbHV0aW9uIHRvIHRoaXMgc3lzdGVtLgoKW2BgYFxiZWdpbnthbGlnbmVkfQo2eCs4eSAmID0gWyRjMV0uXFwKOXgrMTN5ICYgPSBbJGMyXS4KXGVuZHthbGlnbmVkfQpgYGBdCgoKCltgeD1gXSBbX117JGF9ezN9CgpbYHk9YF0gW19deyRifXszfQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OClRvIGVsaW1pbmF0ZSB0aGUgW2A5eGBdIHRlcm0gd2UgbmVlZCB0byBtdWx0aXBseSB0aGUgW2A2eGBdIGVxdWF0aW9uIGJ5IFtgLTkvNj0tMy8yYF0KCltgYGBcYmVnaW57YWxpZ25lZH0KLTMvMig2eCs4eSkgJiA9IC0zLzJbJGMxXVxcCi05eC0xMnkgJiA9IFskc2MxXVxcCjl4KzEzeSAmID0gWyRjMl1cXAp5ICYgPSBbJGJdXFwKNngrOChbJGJdKSAmID0gWyRjMV1cXAo2eCAmID0gWyRzc11cXAp4ICYgPSBbJGFdClxlbmR7YWxpZ25lZH0KYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-3')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-3-1-1-1">Find the solution to this system.</div> <div class="para logical" id="extracted-webwork-3-1-1-2"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
-6x+8y \amp  = {20}.\\
-9x+13y \amp  = {31}.
-\end{aligned}
-\end{equation*}
-</div></div> <div class="para" id="extracted-webwork-3-1-1-3">
-<span class="process-math">\(x=\)</span> <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>
-</div> <div class="para" id="extracted-webwork-3-1-1-4">
-<span class="process-math">\(y=\)</span> <span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>
-</div>
-<div class="solutions">
-<details id="extracted-webwork-3-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-3-1-2-1"><span class="process-math">\(2\)</span></div></div></details><details id="extracted-webwork-3-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-3-1-3-1"><span class="process-math">\(1\)</span></div></div></details><details id="extracted-webwork-3-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="extracted-webwork-3-1-4-1">To eliminate the <span class="process-math">\(9x\)</span> term we need to multiply the <span class="process-math">\(6x\)</span> equation by <span class="process-math">\(-9/6=-3/2\)</span>
-</div> <div class="para logical" id="extracted-webwork-3-1-4-2"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
--3/2(6x+8y) \amp  = -3/2{20}\\
--9x-12y \amp  = {-30}\\
-9x+13y \amp  = {31}\\
-y \amp  = {1}\\
-6x+8({1}) \amp  = {20}\\
-6x \amp  = {12}\\
-x \amp  = {2}
-\end{aligned}
-\end{equation*}
-</div></div>
-</div></details>
-</div>
-</div>
-</div></article></section><section class="subsection" id="subsection-linear-system-weird"><h3 class="heading hide-type">
+<div id="momexercise-linear-system-eliminate-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-linear-system-eliminate-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1468733&amp;frame_id=momexercise-linear-system-eliminate-1"></iframe></div></article></section><section class="subsection" id="subsection-linear-system-weird"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="space"> </span><span class="title">Other Cases</span>
 </h3>
-<div class="para" id="subsection-linear-system-weird-2">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.4">Figure 3.6.4</a> we found a slope that caused no intersection. If we were solving a pair of linear equations that represented lines like this we would find no solution. These are known as <dfn class="terminology">inconsistent</dfn> systems.</div>
+<div class="para" id="subsection-linear-system-weird-2">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.3">Figure 3.6.3</a> we found a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this we would find no solution. These are known as <dfn class="terminology">inconsistent</dfn> systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.</div>
 <article class="example example-like" id="example-linear-system-inconsistent"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.11</span><span class="period">.</span><span class="space"> </span><span class="title">Inconsistent Linear System.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.9</span><span class="period">.</span><span class="space"> </span><span class="title">Inconsistent Linear System.</span>
 </h4>
-<div class="para logical" id="example-linear-system-inconsistent-2-1">
+<div class="para logical" id="example-linear-system-inconsistent-2">
 <div class="para">Find all solutions to the system</div>
-<div class="displaymath process-math" id="example-linear-system-inconsistent-2-1-1">
+<div class="displaymath process-math" id="example-linear-system-inconsistent-2-1">
 \begin{align*}
 2x + 3y &amp; = 5.\\
 4x + 6y &amp; = 7.
 \end{align*}
 </div>
 </div>
-<div class="solutions"><details id="example-linear-system-inconsistent-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-linear-system-inconsistent-3-1">
+<div class="para logical" id="example-linear-system-inconsistent-3">
 <div class="para">We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation).</div>
-<div class="displaymath process-math" id="example-linear-system-inconsistent-3-1-1">
+<div class="displaymath process-math" id="example-linear-system-inconsistent-3-1">
 \begin{align*}
 2x + 3y &amp; = 5.\\
 -2(2x+3y) &amp; = -2(5).\\
@@ -847,23 +756,23 @@ x \amp  = {2}
 0 &amp; = -3.
 \end{align*}
 </div>
-<div class="para">Our work is correct, but the conclusion is clearly false. This means there are no solutions. You can think of this as saying, for a solution to exist 0 must equal -3.</div>
-</div></div></details></div></article><div class="para" id="subsection-linear-system-weird-4">There is a third case.</div>
+<div class="para">Our work is correct, but the conclusion is clearly false. You can think of this as saying, for a solution to exist 0 must equal -3. This means there are no solutions.</div>
+</div></article><div class="para" id="subsection-linear-system-weird-4">There is a third case.</div>
 <article class="example example-like" id="example-linear-system-dependent"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.12</span><span class="period">.</span><span class="space"> </span><span class="title">Dependent System.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.10</span><span class="period">.</span><span class="space"> </span><span class="title">Dependent System.</span>
 </h4>
-<div class="para logical" id="example-linear-system-dependent-2-1">
+<div class="para logical" id="example-linear-system-dependent-2">
 <div class="para">Find all solutions to the system</div>
-<div class="displaymath process-math" id="example-linear-system-dependent-2-1-1">
+<div class="displaymath process-math" id="example-linear-system-dependent-2-1">
 \begin{align*}
 2x + 3y &amp; = 5.\\
 4x + 6y &amp; = 10.
 \end{align*}
 </div>
 </div>
-<div class="solutions"><details id="example-linear-system-dependent-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-linear-system-dependent-3-1">
+<div class="para logical" id="example-linear-system-dependent-3">
 <div class="para">We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation).</div>
-<div class="displaymath process-math" id="example-linear-system-dependent-3-1-1">
+<div class="displaymath process-math" id="example-linear-system-dependent-3-1">
 \begin{align*}
 2x + 3y &amp; = 5.\\
 -2(2x+3y) &amp; = -2(5).\\
@@ -873,29 +782,10 @@ x \amp  = {2}
 \end{align*}
 </div>
 <div class="para">This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them <dfn class="terminology">dependent</dfn>.</div>
-</div></div></details></div></article><article class="exercise exercise-like" id="exercise-linear-system-inconsistent-rand"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.13</span><span class="period">.</span>
+</div></article><article class="exercise exercise-like" id="exercise-linear-system-inconsistent-rand"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.11</span><span class="period">.</span>
 </h4>
-<div id="webwork-4" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="4" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VyUmFkaW9CdXR0b25zLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMSw1LDEpKTsKJGIgPSBDb21wdXRlKHJhbmRvbSgxLDUsMSkpOwokYzEgPSA2KiRhKzgqJGI7CiRjMiA9IDkqJGErMTIqJGI7CiRleHByZXNzaW9ucyA9IFJhZGlvQnV0dG9ucyhbIkluY29uc2lzdGVudCIsIkRlcGVuZGVudCJdLCAxKTsKCkJFR0lOX1BHTUwKRGV0ZXJtaW5lIHdoZXRoZXIgdGhpcyBzeXN0ZW0gaXMgaW5jb25zaXN0ZW50IG9yIGRlcGVuZGVudC4KCltgYGBcYmVnaW57YWxpZ25lZH0KNngrOHkgJiA9IFskYzFdLlxcCjl4KzEyeSAmID0gWyRjMl0uClxlbmR7YWxpZ25lZH0KYGBgXQoKCgpUaGUgc3lzdGVtIGlzIFtfXXskZXhwcmVzc2lvbnN9ezV9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-4')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-4-1-1-1">Determine whether this system is inconsistent or dependent.</div> <div class="para logical" id="extracted-webwork-4-1-1-2"><div class="displaymath process-math">
-\begin{equation*}
-\begin{aligned}
-6x+8y \amp  = {50}.\\
-9x+12y \amp  = {75}.
-\end{aligned}
-\end{equation*}
-</div></div> <div class="para logical" id="extracted-webwork-4-1-1-3">
-<div class="para">The system is</div>
-<ul class="circle" id="extracted-webwork-4-1-1-3-1">
-<li id="extracted-webwork-4-1-1-3-1-1"><div class="para" id="extracted-webwork-4-1-1-3-1-1-1">Inconsistent</div></li>
-<li id="extracted-webwork-4-1-1-3-1-2"><div class="para" id="extracted-webwork-4-1-1-3-1-2-1">Dependent</div></li>
-</ul>
-</div>
-<div class="solutions"><details id="extracted-webwork-4-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-4-1-2-1"><span class="process-math">\(\text{Dependent}\)</span></div></div></details></div>
-</div>
-</div></article></section><section class="exercises" id="section-linear-systems-7"><h3 class="heading hide-type">
+<div id="momexercise-linear-system-inconsistent-rand-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-linear-system-inconsistent-rand-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1468760&amp;frame_id=momexercise-linear-system-inconsistent-rand-1"></iframe></div></article></section><section class="exercises" id="section-linear-systems-7"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="section-linear-systems-7-1"><h4 class="heading">

@@ -129,14 +129,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.1';
+eBookConfig.runestone_version = '7.4.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.04737dc219c2d2eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
@@ -549,37 +549,49 @@ eBookConfig.enable_chatcodes =  false;
 <li id="section-enough-2-1-2-2"><div class="para" id="p-derived-section-enough-2-1-2-2">Significant Figures (skill)</div></li>
 <li id="section-enough-2-1-2-3"><div class="para" id="p-derived-section-enough-2-1-2-3">Determining appropriate rounding from context (critical thinking)</div></li>
 </ul>
-</div> <div class="para" id="section-enough-2-2">While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.</div> <div class="para" id="section-enough-2-3">First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.</div></section><section class="subsection" id="subsection-enough-accuracy"><h3 class="heading hide-type">
+</div>
+<div class="para" id="section-enough-2-2">While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.</div>
+<div class="para" id="section-enough-2-3">First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.</div></section><section class="subsection" id="subsection-enough-accuracy"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">Explanation</span>
 </h3>
 <div class="para" id="subsection-enough-accuracy-2">When working with measurements, we care about the reasonableness of the results. Suppose four people measure the length of a piece of wood and come up with 1.235 m, 1.236 m, 1.237 m, and 1.234 m. We might conclude that we are confident it is 1.23 m long but we are not certain about the millimeters position. This leads to the concepts of accuracy and precision.</div>
 <article class="definition definition-like" id="definition-accuracy"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Accuracy.</span>
-</h4> <div class="para" id="definition-accuracy-2-1">The <dfn class="terminology">accuracy</dfn> of a measurement is how close the measurement is to the actual value.</div></article><article class="example example-like" id="example-accuracy-length"><h4 class="heading">
+</h4>
+<div class="para" id="definition-accuracy-2-1">The <dfn class="terminology">accuracy</dfn> of a measurement is how close the measurement is to the actual value.</div></article><article class="example example-like" id="example-accuracy-length"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-accuracy-length-1">If the board referenced above is actually 1.2364 m long then all four measurements are accurate to the second decimal place. The second measurement (1.236 m) is accurate to the third decimal place.</div></article><article class="example example-like" id="example-accuracy-number"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-accuracy-number-1">Note <span class="process-math">\(\frac{22}{7} \approx 3.142857\)</span> is an approximation for <span class="process-math">\(\pi\text{.}\)</span> Because <span class="process-math">\(\pi\)</span> to six decimals places (not rounded) is 3.141592, this approximation is accurate to only 2 decimal places.</div> <div class="para" id="example-accuracy-number-2">Note, <span class="process-math">\(\pi\)</span> is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.</div></article><div class="para" id="subsection-enough-accuracy-6">Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and all such tools have a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.</div>
+<div class="para" id="example-accuracy-number-1">Note <span class="process-math">\(\frac{22}{7} \approx 3.142857\)</span> is an approximation for <span class="process-math">\(\pi\text{.}\)</span> Because <span class="process-math">\(\pi\)</span> to six decimals places (not rounded) is 3.141592, the approximation <span class="process-math">\(22/7\)</span> is accurate to only 2 decimal places (i.e., 3.14).</div>
+<div class="para" id="example-accuracy-number-2">Note, <span class="process-math">\(\pi\)</span> is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.</div></article><div class="para" id="subsection-enough-accuracy-6">Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and all such tools have a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.</div>
 <article class="definition definition-like" id="definition-error"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span><span class="space"> </span><span class="title">Error.</span>
-</h4> <div class="para" id="definition-error-2-1">The <dfn class="terminology">error</dfn> of a measurement is the difference between the reported measurement and the actual value.</div></article><article class="example example-like" id="example-error-number"><h4 class="heading">
+</h4>
+<div class="para" id="definition-error-2-1">The <dfn class="terminology">error</dfn> of a measurement is the difference between the reported measurement and the actual value.</div></article><article class="example example-like" id="example-error-number"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-error-number-1">The number of people at an outdoor concert was 2453. If someone estimated that the number of people was 2500, then that estimate is accurate to 1000’s place, but has an error of only <span class="process-math">\(2500-2453=47\text{.}\)</span>
 </div></article><article class="definition definition-like" id="definition-precision"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span><span class="space"> </span><span class="title">Precision.</span>
-</h4> <div class="para" id="definition-precision-2-1">The <dfn class="terminology">precision</dfn> of a measurement is the size of the smallest unit in it.</div></article><div class="para" id="subsection-enough-accuracy-10">Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean that number is close to the actual value of the measurement.</div>
+</h4>
+<div class="para" id="definition-precision-2-1">The <dfn class="terminology">precision</dfn> of a measurement is the size of the smallest unit in it.</div></article><div class="para" id="subsection-enough-accuracy-10">Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean that number is close to the actual value of the measurement.</div>
 <article class="example example-like" id="example-compare-accuracy-precision"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-compare-accuracy-precision-1">The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?</div> <div class="para" id="example-compare-accuracy-precision-2">Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).</div> <div class="para" id="example-compare-accuracy-precision-3">Because the response matches the actual value to the hundreds position, it is accurate to 2 decimal places.</div> <div class="para" id="example-compare-accuracy-precision-4">Because <span class="process-math">\(5.7647-5.7632=0.0015\text{,}\)</span> the error is 0.0015.</div></article><figure class="figure figure-like" id="figure-video-precision-accuracy"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/SJZ9yCJ3NTQ?&amp;modestbranding=1&amp;rel=0" id="video-precision-accuracy"></iframe></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.8<span class="period">.</span></span><span class="space"> </span>Introduction to Precision and Accuracy</figcaption></figure><div class="para" id="subsection-enough-accuracy-13">How do we end up with measurements parts of which are not accurate? Consider the following.</div>
+<div class="para" id="example-compare-accuracy-precision-1">The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?</div>
+<div class="para" id="example-compare-accuracy-precision-2">Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).</div>
+<div class="para" id="example-compare-accuracy-precision-3">Because the response matches the actual value to the hundreds position, it is accurate to 2 decimal places.</div>
+<div class="para" id="example-compare-accuracy-precision-4">Because <span class="process-math">\(5.7647-5.7632=0.0015\text{,}\)</span> the error is 0.0015.</div></article><figure class="figure figure-like" id="figure-video-precision-accuracy"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/SJZ9yCJ3NTQ?&amp;modestbranding=1&amp;rel=0" id="video-precision-accuracy"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.8<span class="period">.</span></span><span class="space"> </span>Introduction to Precision and Accuracy</figcaption></figure><div class="para" id="subsection-enough-accuracy-13">How do we end up with parts of measurements which are not accurate? Consider the following.</div>
 <article class="example example-like" id="example-measure-error-ruler"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
 </h4>
-<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/measure_length.svg" role="img" class="contained"></div> <div class="para" id="example-measure-error-ruler-2">When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3/4″ and less than 7/8″. The right side of the shape appears to be less than half way between 3/4″ and 7/8″. Because it appears to be closer to 3/4″, we can state the width is 3/4″. Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.</div> <div class="para" id="example-measure-error-ruler-3">We know this measurement is accurate to the nearest 1/8″, because the ruler has those marked and, in this case, we can be confident it is closer to the left side.</div> <div class="para" id="example-measure-error-ruler-4">To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13/16″ or 1/16″ farther. Thus we can state that the shape is 3/4″ wide with an error that is less than 1/16″.</div></article><div class="para" id="subsection-enough-accuracy-15">While other tools for measurement can be more precise, every tool has a limit to its precision that is similar to this example. We should always be aware of the limitations of measurements when we use them.</div></section><section class="subsection" id="subsection-enough-sigfigs"><h3 class="heading hide-type">
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/measure_length.svg" role="img" class="contained"></div>
+<div class="para" id="example-measure-error-ruler-2">When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3/4″ and less than 7/8″. The right side of the shape appears to be less than half way between 3/4″ and 7/8″. Because it appears to be closer to 3/4″, we can state the width is 3/4″. Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.</div>
+<div class="para" id="example-measure-error-ruler-3">We know this measurement is accurate to the nearest 1/8″, because the ruler has those marked and, in this case, we can be confident it is closer to the left side.</div>
+<div class="para" id="example-measure-error-ruler-4">To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13/16″ or 1/16″ farther. Thus we can state that the shape is 3/4″ wide with an error that is less than 1/16″.</div></article><div class="para" id="subsection-enough-accuracy-15">While other tools for measurement can be more precise, every tool has a limit to its precision that is similar to this example. We should always be aware of the limitations of measurements when we use them.</div></section><section class="subsection" id="subsection-enough-sigfigs"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="space"> </span><span class="title">Significant Figures</span>
 </h3>
 <div class="para" id="subsection-enough-sigfigs-2">It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation <span class="process-math">\(\frac{22}{7}\)</span>) for <span class="process-math">\(\pi\)</span> makes no sense, because it is only accurate to the hundreds position (3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in most of the problems for the rest of the course.</div>
@@ -597,7 +609,8 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <article class="example example-like" id="example-sigfigs"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span><span class="space"> </span><span class="title">Writing Significant Digits.</span>
-</h4> <div class="para logical" id="example-sigfigs-2">
+</h4>
+<div class="para logical" id="example-sigfigs-2">
 <div class="para">Each of these numbers is written with five (5) significant digits.</div>
 <ul class="disc" id="example-sigfigs-2-1">
 <li id="example-sigfigs-2-1-1"><div class="para" id="p-derived-example-sigfigs-2-1-1"><span class="process-math">\(\displaystyle 10267\)</span></div></li>
@@ -619,10 +632,12 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsection-enough-sigfigs-8">For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left, last significant digit.</div>
 <article class="example example-like" id="example-sigfig-subtract"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.12</span><span class="period">.</span><span class="space"> </span><span class="title">Subtraction with Significant Digits.</span>
-</h4> <div class="para" id="example-sigfig-subtract-2">
+</h4>
+<div class="para" id="example-sigfig-subtract-2">
 <span class="process-math">\(11050-723=10330\text{.}\)</span> This is because the last significant digit of <span class="process-math">\(11050\)</span> is the 10’s position (with the 5 in it) whereas the last significant digit of <span class="process-math">\(723\)</span> is the 1’s position (with the 3 in it). We do not know the 1’s position of 11050, so we cannot know the 1’s position in the result.</div></article><article class="example example-like" id="example-sigfig-add"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.13</span><span class="period">.</span><span class="space"> </span><span class="title">Addition with Significant Digits.</span>
-</h4> <div class="para" id="example-sigfig-add-2">
+</h4>
+<div class="para" id="example-sigfig-add-2">
 <span class="process-math">\(311+8310+202200 \approx 210800\text{.}\)</span> This is because the farthest left, last significant digit is in the 100’s position in 202200. The extra precision of the other two numbers is not useful.</div></article><div class="para" id="subsection-enough-sigfigs-11">The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious an explanation of why this rule works is in this video.</div>
 <div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/kxnjKrjXOH4?&amp;modestbranding=1&amp;rel=0" id="video-example-sigfig-add"></iframe></div>
 <article class="exercise exercise-like" id="exercise-sigfigs-add"><h4 class="heading">
@@ -631,10 +646,12 @@ eBookConfig.enable_chatcodes =  false;
 <div id="momexercise-sigfigs-add-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-add-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444299&amp;frame_id=momexercise-sigfigs-add-1"></iframe></div></article><div class="para" id="subsection-enough-sigfigs-14">For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</div>
 <article class="example example-like" id="example-sigfig-divide"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.15</span><span class="period">.</span><span class="space"> </span><span class="title">Division with Significant Digits.</span>
-</h4> <div class="para" id="example-sigfig-divide-2">
+</h4>
+<div class="para" id="example-sigfig-divide-2">
 <span class="process-math">\(11050/722=15.3\text{.}\)</span> This is because <span class="process-math">\(722\)</span> has only 3 significant digits.</div></article><article class="example example-like" id="example-sigfig-multiply"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.16</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplication with Significant Digits.</span>
-</h4> <div class="para" id="example-sigfig-multiply-2">
+</h4>
+<div class="para" id="example-sigfig-multiply-2">
 <span class="process-math">\(17 \times 14\bar{0} \times 3.178= 7600\text{.}\)</span> This is because <span class="process-math">\(17\)</span> has only two significant digits.</div></article><div class="para" id="subsection-enough-sigfigs-17">The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious an explanation of why this rule works is in this video.</div>
 <div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/oQ48Agi4TfI?&amp;modestbranding=1&amp;rel=0" id="video-example-sigfig-multiply"></iframe></div>
 <article class="exercise exercise-like" id="exercise-sigfigs-multiply"><h4 class="heading">
@@ -643,7 +660,8 @@ eBookConfig.enable_chatcodes =  false;
 <div id="momexercise-sigfigs-multiply-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-multiply-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444891&amp;frame_id=momexercise-sigfigs-multiply-1"></iframe></div></article><div class="para" id="subsection-enough-sigfigs-20">The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.</div>
 <article class="example example-like" id="example-sigfig-multi1"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.18</span><span class="period">.</span><span class="space"> </span><span class="title">Multi-Step Arithmetic with Significant Digits.</span>
-</h4> <div class="para logical" id="example-sigfig-multi1-2">
+</h4>
+<div class="para logical" id="example-sigfig-multi1-2">
 <div class="para">Consider</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -672,8 +690,8 @@ eBookConfig.enable_chatcodes =  false;
 21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4) &amp; =\\
 21 \cdot 9 - \frac{1}{2} \cdot 9(12) &amp; = \text{ all numbers are precise to the ones position}\\
 189 - 54 &amp; = \text{ only one significant digit remains in both numbers because 9 has only one}\\
-105 &amp; \approx \text{ 189 was precise to only the hundreds position}\\
-100.
+135 &amp; = \approx \text{ 189 was precise to only the hundreds position}\\
+100. &amp; \text{So we round to the hundreds.}
 \end{align*}
 </div>
 </div></article><article class="exercise exercise-like" id="exercise-sigfig-multi-step"><h4 class="heading">
@@ -728,7 +746,8 @@ eBookConfig.enable_chatcodes =  false;
 <div class="solutions"><details id="example-rounding-types2-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-rounding-types2-4-2-1">Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is <span class="process-math">\(4 &lt; 5\)</span> which makes it closer to go down. We could also recognize the need to round down by calculating <span class="process-math">\(3000-2481=519\)</span> and <span class="process-math">\(2481-2000=481\)</span> and noticing that <span class="process-math">\(481 \lt 519\text{.}\)</span>
 </div></div></details></div></article></article><article class="example example-like" id="example-rounding-positions"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.24</span><span class="period">.</span><span class="space"> </span><span class="title">Rounding to Different Precisions.</span>
-</h4> <div class="para logical" id="example-rounding-positions-2">
+</h4>
+<div class="para logical" id="example-rounding-positions-2">
 <div class="para">Round 72321.83 to the specified precision.</div>
 <ul class="disc" id="example-rounding-positions-2-1">
 <li id="example-rounding-positions-2-1-1"><div class="para" id="p-derived-example-rounding-positions-2-1-1">Thousands: 72000</div></li>
@@ -742,10 +761,16 @@ eBookConfig.enable_chatcodes =  false;
 <article class="example example-like" id="example-rounding-carpet-tiles"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.26</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-rounding-carpet-tiles-1">Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20″. If a room is 50 feet by 38 feet, how many carpet square do we need?</div> <div class="para" id="example-rounding-carpet-tiles-2">First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <span class="process-math">\(50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{600 \text{ in}}{20 \text{ in}} = 30\)</span> tiles across.</div> <div class="para" id="example-rounding-carpet-tiles-3">Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <span class="process-math">\(38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{456 \text{ in}}{20 \text{ in}} = 22.8\)</span> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</div> <div class="para" id="example-rounding-carpet-tiles-4">Finally we can count the number of tiles which is <span class="process-math">\(30 \times 23 = 690\)</span> tiles.</div> <div class="para" id="example-rounding-carpet-tiles-5">If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up.</div></article><article class="example example-like" id="example-rounding-distribute-cookies"><h4 class="heading">
+<div class="para" id="example-rounding-carpet-tiles-1">Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20″. If a room is 50 feet by 38 feet, how many carpet square do we need?</div>
+<div class="para" id="example-rounding-carpet-tiles-2">First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <span class="process-math">\(50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{600 \text{ in}}{20 \text{ in}} = 30\)</span> tiles across.</div>
+<div class="para" id="example-rounding-carpet-tiles-3">Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <span class="process-math">\(38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{456 \text{ in}}{20 \text{ in}} = 22.8\)</span> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</div>
+<div class="para" id="example-rounding-carpet-tiles-4">Finally we can count the number of tiles which is <span class="process-math">\(30 \times 23 = 690\)</span> tiles.</div>
+<div class="para" id="example-rounding-carpet-tiles-5">If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up.</div></article><article class="example example-like" id="example-rounding-distribute-cookies"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.27</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-rounding-distribute-cookies-1">Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?</div> <div class="para" id="example-rounding-distribute-cookies-2">There are <span class="process-math">\(3 \cdot 12 = 36\)</span> cookies. Each person can have <span class="process-math">\(36/7 \approx 5.1\)</span> cookies. Because cutting cookies into pieces is typically a bad idea, we must round this down to 5 cookies per person.</div> <div class="para" id="example-rounding-distribute-cookies-3">Curious minds want to know what happens with the rest of the cookies. Notice there will be <span class="process-math">\(7 \cdot 5 = 35\)</span> cookies given away leaving just one cookie for the baker to enjoy.</div></article></section><section class="subsection" id="subsection-greatest-error"><h3 class="heading hide-type">
+<div class="para" id="example-rounding-distribute-cookies-1">Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?</div>
+<div class="para" id="example-rounding-distribute-cookies-2">There are <span class="process-math">\(3 \cdot 12 = 36\)</span> cookies. Each person can have <span class="process-math">\(36/7 \approx 5.1\)</span> cookies. Because cutting cookies into pieces is typically a bad idea, we must round this down to 5 cookies per person.</div>
+<div class="para" id="example-rounding-distribute-cookies-3">Curious minds want to know what happens with the rest of the cookies. Notice there will be <span class="process-math">\(7 \cdot 5 = 35\)</span> cookies given away leaving just one cookie for the baker to enjoy.</div></article></section><section class="subsection" id="subsection-greatest-error"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="space"> </span><span class="title">Greatest Possible Error</span>
 </h3>
 <div class="para" id="subsection-greatest-error-2">We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.</div>
@@ -756,8 +781,11 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-greatest-error-1-1">What is the greatest possible error if 130 was rounded to the nearest 10?</div>
 <div class="solutions"><details id="example-greatest-error-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="example-greatest-error-2-1">One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at <span class="process-math">\(134-130=4\text{.}\)</span>
-</div> <div class="para" id="example-greatest-error-2-2">The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at <span class="process-math">\(130-125=5\text{.}\)</span>
-</div> <div class="para" id="example-greatest-error-2-3">Thus the greatest possible error was 5 from the case that 125 was rounded up.</div> <div class="para" id="example-greatest-error-2-4">Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits don’t change the rounding.</div>
+</div>
+<div class="para" id="example-greatest-error-2-2">The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at <span class="process-math">\(130-125=5\text{.}\)</span>
+</div>
+<div class="para" id="example-greatest-error-2-3">Thus the greatest possible error was 5 from the case that 125 was rounded up.</div>
+<div class="para" id="example-greatest-error-2-4">Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits don’t change the rounding.</div>
 </div></details></div></article><article class="example example-like" id="example-greatest-error2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.29</span><span class="period">.</span>
 </h4>
