@@ -4,292 +4,317 @@
 <title>Linear Systems</title>
 
 <introduction>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+            <li>Read and use mathematical models in a technical document</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Solve a system of linear equations (skill)</li>
+        </ul>
+    </p>
 
-<p>In <!--<xref ref="example-calculate-exact-volume-dilute" /> --> we wanted to solve a problem with two constraints. We could meet one exactly (percent alcohol) and the other in inequality (at least that volume). Many problems have more than one constraint (condition we want to meet). Here we will learn to solve one type of them. </p>
+    <p>In <xref ref="example-percent-mixture-sugar" /> we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions involving two or more constraints (equations) at the same time.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-dual-mixture">
-	<title>Motivation</title>
+    <title>Motivation</title>
 
-	<p>In previous dilution problems we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures and want to combine them.</p>
+    <p>This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.</p>
 
-	<example xml:id="example-dual-mixture">
-		<title>Combining Mixtures</title>
-		<statement><p>Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce <m>10.0</m> oz of 85% alcohol?</p></statement>
-		<solution><p>A common technique in mathematics is to start by writing the answer. We will declare that we will use <m>A</m> oz of 91% alcohol and <m>B</m> oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).</p>
-		<p>The first constraint is that we end up with 10 oz of solution. Thus <me>A+B = 10.0.</me></p>
-		<p>The second contraint is the percent alcohol. <!--As in <xref ref="example-calculate-exact-volume-dilute" /> we will start by figuring out how much alcohol total will be in the resulting solution. --> Because it will be 85% alcohol there will be <me>(0.85)10.0 = 8.5 \text{ oz}</me>. Because <m>A</m> oz of the first solution will be added and it is 91% alcohol, it will contribute <m>(0.91)A</m> oz of alcohol. Similarly the second solution will contribute <m>(0.75)B</m> oz of alcohol. Combined we will obtain <me>(0.91)A+(0.75)B = 8.5.</me></p>
-		<p>Now we just need a way to solve this pair of equations.</p></solution>
-	</example>
+    <p>In previous dilution problems we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.</p>
+
+    <example xml:id="example-dual-mixture">
+        <title>Combining Mixtures</title>
+        <p>Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce <m>10.0</m> oz of 85% alcohol?</p>
+        <p>A common technique in mathematics is to start by writing the answer. We will declare that we will use <m>A</m> oz of 91% alcohol and <m>B</m> oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).</p>
+        <p>The first constraint is that we end up with 10 oz of solution. Thus <me>A+B = 10.0.</me></p>
+        <p>The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be <me>(0.85)10.0 = 8.5 \text{ oz}</me>. This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because <m>A</m> oz of the first solution will be added and it is 91% alcohol, it will contribute <m>(0.91)A</m> oz of alcohol. Similarly the second solution will contribute <m>(0.75)B</m> oz of alcohol. Combined we will obtain <me>(0.91)A+(0.75)B = 8.5 \text{ oz}.</me></p>
+        <p>Now we just need a way to solve this pair of equations.</p>
+    </example>
 
 </subsection>
 
 <subsection xml:id="subsection-crossing-lines">
-	<title>Crossing Lines</title>
+    <title>Crossing Lines</title>
 
-	<p>Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.</p>
-	<p>Recall that a line is a relation (set of points) such that the change between any two, equally space points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how <term>steep</term> the line is.</p>
+    <p>This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) their should be a solution. The next section provides the method for solving.</p>
 
-	<example xml:id="example-line-from-slope">
-		<statement><p>Suppose we start at a point <m>(1,3)</m>. If we know that the line increases 2 units for each step then the points <m>(2,5)</m> and <m>(3,7)</m> are also on the line. This shows us that for each x value we add 2. This gives us <m>2x</m> because that adds two for each x. But we must account for starting at <m>(1,3)</m>. <m>2(1)=2</m> so we need to add one to shift it up. This is why the line is <m>2x+1</m>. This is the slope-intercept form of a line. The coefficient of x, 2 in this case, tells us how steep (how much it goes up for each incease of x). The constant, 1 in this case, shifts the line up or down.</p></statement>
-	</example>
+    <p>Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.</p>
 
-	<exercise xml:id="example-steep-crossing">
-		<introduction><p>In <xref ref="figure-steep-crossing" /> there are two lines. One goes through point <m>A=(1,3)</m>. It rises at a slope of <m>2/1</m> (two up for each one over). The other line goes through the point <m>B=(1,2)</m> which is below <m>A</m>.</p></introduction>
-		<task><p>Use the slider to set the slope of the second line to 3. Does the line cross the one through <m>A</m>? Where (left or right of point <m>B</m>)?</p></task>
-		<task><p>Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point <m>B</m>)?</p></task>
-		<task><p>Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point <m>B</m>)?</p></task>
-		<task><p>In general if one slope is steeper than the other will they cross?</p></task>
-		<task><p>Can you select a slope so that they don't cross?</p></task>
-	</exercise>
+    <p>Recall that a line is a relation (set of points) such that the change between any two, equally spaced points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how <term>steep</term> the line is.</p>
 
-	<figure xml:id="figure-steep-crossing">
-		<caption>Crossing Lines</caption>
-		<interactive platform="geogebra" preview="images/CrossingLines.png" width="85%" aspect="4:3">
+    <exercise xml:id="example-steep-crossing">
+        <introduction><p>In <xref ref="figure-steep-crossing" /> there are two lines. One goes through point <m>A=(1,3)</m>. It rises at a slope of <m>2/1</m> (two up for each one over). The other line goes through the point <m>B=(1,2)</m> which is below <m>A</m>.</p></introduction>
+        <task><p>Use the slider to set the slope of the second line to 3. Does the line cross the one through <m>A</m>? Where (left or right of point <m>B</m>)?</p></task>
+        <task><p>Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point <m>B</m>)?</p></task>
+        <task><p>Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point <m>B</m>)?</p></task>
+        <task><p>In general if either slope is steeper than the other slope will the two lines cross?</p></task>
+        <task><p>Can you select a slope for the second line so that these two lines do not cross?</p></task>
+    </exercise>
+
+    <figure xml:id="figure-steep-crossing">
+        <caption>Crossing Lines</caption>
+        <interactive platform="geogebra" preview="images/CrossingLines.png" width="85%" aspect="4:3">
             <slate xml:id="medians" surface="geogebra" material="jtzemq8d" aspect="4:3">
-            	setCoordSystem(-0.5, 6, -0.5, 5);
+                setCoordSystem(-0.5, 6, -0.5, 5);
                 enableShiftDragZoom(true);
             </slate>
-        	<instructions>
-        		<p>Use the slider to adjust the slope of the line through B.</p>
-        	</instructions>
+            <instructions>
+                <p>Use the slider to adjust the slope of the line through B.</p>
+            </instructions>
          </interactive>
      </figure>
 
-	<exercise xml:id="example-cross-when">
-		<statement><p>Vasya's initial pay was $62,347.23. She received $5,000 raises each year. Pyotr's initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?</p></statement>
-		<solution><p>We could make a table.</p>
-			<tabular>
-				<row><cell>Year</cell> <cell>Vasya</cell> <cell>Pyotr</cell> </row>
-				<row><cell>2012</cell> <cell>$62,347.23</cell> <cell>$67,242.33</cell> </row>
-				<row><cell>2013</cell> <cell>$67,347.23</cell> <cell>$70,742.33</cell> </row>
-				<row><cell>2014</cell> <cell>$72,347.23</cell> <cell>$74,242.33</cell> </row>
-				<row><cell>2015</cell> <cell>$77,347.23</cell> <cell>$77,742.33</cell> </row>
-				<row><cell>2016</cell> <cell>$82,347.23</cell> <cell>$81,242.33</cell> </row>
-			</tabular>
-			<p>We see that is in 2016 that Vasya is first paid more.</p></solution>
-		<solution><p>We could note that Vasya's raises are $1,500 more each year than Pyotr's raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is <m>67242.33-62347.23=4895.10</m>. Because she gains by 1500 each year it will take <m>4895.10/1500 = 3.2634 </m> years. Because they receive raises once a year it will take 4 years. Thus she is first paid more in 2016.</p></solution>
-	</exercise>
+     <p>This next example applies the idea of a line starting lower but rising faster to answer a financial question.</p>
+
+    <exercise xml:id="example-cross-when">
+        <statement><p>Vasya's initial pay was $62,347.23. She received $5,000 raises each year. Pyotr's initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?</p></statement>
+        <solution><p>We could make a table.</p>
+            <tabular>
+                <row><cell>Year</cell> <cell>Vasya</cell> <cell>Pyotr</cell> </row>
+                <row><cell>2012</cell> <cell>$62,347.23</cell> <cell>$67,242.33</cell> </row>
+                <row><cell>2013</cell> <cell>$67,347.23</cell> <cell>$70,742.33</cell> </row>
+                <row><cell>2014</cell> <cell>$72,347.23</cell> <cell>$74,242.33</cell> </row>
+                <row><cell>2015</cell> <cell>$77,347.23</cell> <cell>$77,742.33</cell> </row>
+                <row><cell>2016</cell> <cell>$82,347.23</cell> <cell>$81,242.33</cell> </row>
+            </tabular>
+            <p>We see that is in 2016 that Vasya is first paid more.</p></solution>
+        <solution><p>We could note that Vasya's raises are $1,500 more each year than Pyotr's raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is <m>67242.33-62347.23=4895.10</m>. Because she gains by 1500 each year it will take <m>4895.10/1500 = 3.2634 </m> years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.</p></solution>
+    </exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-system-solving">
-	<title>Solving Linear Systems</title>
+    <title>Solving Linear Systems</title>
 
-	<p>We will consider two ways of solving linear systems of this type. The second method is very important for larger systems.</p>
+    <p>This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.</p>
 
-	<example xml:id="example-dual-mixture-solve">
-		<statement><p>We will solve the system from <xref ref="example-dual-mixture" />. The two equations are 
-		<md>
-			<mrow>A+B &amp; = 10.0.</mrow>
-			<mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
-		</md>
-		</p></statement>
-		<solution><p>Notice we can solve the first equation for <m>B</m>, then substitute it into the second.
-		<md>
-			<mrow>B &amp; = 10.0-A.</mrow>
-			<mrow>(0.91)A+(0.75)(10.0-A) &amp; = 8.5.</mrow>
-			<mrow>(0.91)A+7.5-(0.75)A &amp; = 8.5.</mrow>
-			<mrow>(0.16)A &amp; = 1.0.</mrow>
-			<mrow>A &amp; = \frac{1.0}{0.16}</mrow>
-			<mrow> &amp; = 6.3.</mrow>
-		</md>
-		Now that we know that <m>A=6.3</m> we can substitute that into <m>A+B=10.0.</m> This gives us
-		<md>
-			<mrow>A+B &amp; = 10.0.</mrow>
-			<mrow>6.3+B &amp; = 10.0.</mrow>
-			<mrow>B &amp; = 3.7.</mrow>
-		</md></p>
-		<p>We can check that this works in the other equation (about percent alcohol).
-			<md>
-				<mrow>(0.91)A+(0.75)B &amp; = </mrow>
-				<mrow>(0.91)(6.3)+(0.75)(3.7) &amp; = </mrow>
-				<mrow>5.7+2.8 &amp; = 8.5.</mrow>
-			</md></p>
-		</solution>
-	</example>
+    <example xml:id="example-dual-mixture-solve">
+        <p>We will solve the system from <xref ref="example-dual-mixture" />. The two equations are 
+        <md>
+            <mrow>A+B &amp; = 10.0.</mrow>
+            <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
+        </md>
+        </p>
+        <p>Notice we can solve the first equation for <m>B</m>, then substitute it into the second. The result is a single equation with only one variable. We already know how to solve that one.
+        <md>
+            <mrow>B &amp; = 10.0-A.</mrow>
+            <mrow>(0.91)A+(0.75)(10.0-A) &amp; = 8.5.</mrow>
+            <mrow>(0.91)A+7.5-(0.75)A &amp; = 8.5.</mrow>
+            <mrow>(0.16)A &amp; = 1.0.</mrow>
+            <mrow>A &amp; = \frac{1.0}{0.16}</mrow>
+            <mrow> &amp; = 6.25</mrow>
+            <mrow> &amp; \approx 6.3.</mrow>
+        </md>
+        Now that we know that <m>A \approx 6.3</m> we can substitute that into <m>A+B=10.0.</m> This gives us
+        <md>
+            <mrow>A+B &amp; = 10.0.</mrow>
+            <mrow>6.3+B &amp; \approx 10.0.</mrow>
+            <mrow>B &amp; \approx 3.7.</mrow>
+        </md></p>
+        <p>We can check that this works in the other equation (about percent alcohol).
+            <md>
+                <mrow>(0.91)A+(0.75)B &amp; = </mrow>
+                <mrow>(0.91)(6.3)+(0.75)(3.7) &amp; = </mrow>
+                <mrow>5.7+2.8 &amp; = 8.5.</mrow>
+            </md></p>
+    </example>
 
-	<p>If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. We call it <term>elimination</term>.</p>
+    <p>If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. This method is called <term>elimination</term>.</p>
 
-	<example xml:id="example-dual-mixture-eliminate">
-		<statement><p>We will solve the system
-		<md>
-			<mrow>A+B &amp; = 10.0.</mrow>
-			<mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
-		</md></p></statement>
-		<solution><p>Note how we modify the first equation to partially match the second one.
-		<md>
-			<mrow>A+B &amp; = 10.0.</mrow>
-			<mrow>-(0.91)(A+B) &amp; = -(0.91)10.0.</mrow>
-			<mrow>-(0.91)A-(0.91)B &amp; = -9.1.</mrow>
-			<mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
-			<mrow>-(0.16)B &amp; = -0.6.</mrow>
-			<mrow>B &amp; = \frac{-0.6}{-0.16}</mrow>
-			<mrow> &amp; = 3.7.</mrow>
-		</md>
-		In the fifth line we added the two equations. Because they had opposite coefficients for <m>A</m>, that was eliminated leaving us with just <m>B</m>. This can always be done with systems of linear equations.</p></solution>
-	</example>
+    <example xml:id="example-dual-mixture-eliminate">
+        <p>We will solve the system
+        <md>
+            <mrow>A+B &amp; = 10.0.</mrow>
+            <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
+        </md></p>
+        <p>In the second line below notice how we modify the first equation to partially match the second one.
+        <md>
+            <mrow>A+B &amp; = 10.0.</mrow>
+            <mrow>-(0.91)(A+B) &amp; = -(0.91)10.0.</mrow>
+            <mrow>-(0.91)A-(0.91)B &amp; = -9.1.</mrow>
+            <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
+            <mrow>-(0.16)B &amp; = -0.6.</mrow>
+            <mrow>B &amp; = \frac{-0.6}{-0.16}</mrow>
+            <mrow> &amp; = 3.75</mrow>
+            <mrow> &amp; \approx 3.8</mrow>
+        </md>
+        In the fifth line we added the two equations. Because they had opposite coefficients for <m>A</m>, that variable was eliminated leaving us with just <m>B</m>. This can always be done with systems of linear equations.</p>
+        <p>We finish solving this system the same way as the previous example, by substituting the value of <m>B</m> back into the first equation.
+        <md>
+            <mrow>A+B &amp; = 10.0.</mrow>
+            <mrow>A+3.8 &amp; \approx 10.0.</mrow>
+            <mrow>A &amp; \approx 6.2.</mrow>
+        </md></p>
+    </example>
 
-	<exercise xml:id="exercise-linear-system-integers">
-		<webwork>
-			<statement>
-				<p>Solve the linear system below using substitution.
-				<md>
-					<mrow>2x+3y &amp; = 17.</mrow>
-					<mrow>4x+2y &amp; = 14.</mrow>
-				</md></p>
-				<p><m>x =</m> <var name="'1'" width="4" /></p>
-				<p><m>y =</m> <var name="'5'" width="4" /></p>
-			</statement>
-			<solution><p>We can solve the first equation for <m>x</m> and substitute.
-			<md>
-				<mrow>2x+3y &amp; = 17.</mrow>
-				<mrow>2x &amp; = 17-3y.</mrow>
-				<mrow>x &amp; = \frac{1}{2}(17-3y).</mrow>
-			</md>
-			<md>
-				<mrow>4x+2y &amp; = 14.</mrow>
-				<mrow>4 \left( \frac{1}{2}(17-3y) \right)+2y &amp; = 14.</mrow>
-				<mrow>34-6y+2y &amp; = 14.</mrow>
-				<mrow>-4y &amp; = -20.</mrow>
-				<mrow>y &amp; = 5.</mrow>
-				<mrow>2x+3(5) &amp; = 17.</mrow>
-				<mrow>2x+15 &amp; = 17.</mrow>
-				<mrow>2x &amp; = 2.</mrow>
-				<mrow>x &amp; = 1.</mrow>
-			</md>.</p></solution>
-	    </webwork>
-	</exercise>
+    <p>Notice that we ended up with slightly different solutions in <xref ref="example-dual-mixture-solve" /> and <xref ref="example-dual-mixture-eliminate" />. This is not the result of differences in the methods. Rather it is the result of rounding and it is a result of our choice of variable to solve first. These slightly different results are a reminder to be careful when rounding is involved. If the difference between these results makes a difference in our lives, then we need to measure more precisely.</p>
 
-	<exercise xml:id="exercise-linear-system-eliminate">
-		<webwork>
-			<statement>
-				<p>Solve the linear system below using elimination.
-				<md>
-					<mrow>2x+3y &amp; = 17.</mrow>
-					<mrow>4x+2y &amp; = 14.</mrow>
-				</md></p>
-				<p><m>x =</m> <var name="'1'" width="4" /></p>
-				<p><m>y =</m> <var name="'5'" width="4" /></p>
-			</statement>
-			<solution><p>We note that <m>4/2=2</m> so we should multiply the first equation by -2.
-			<md>
-				<mrow>-2(2x+3y) &amp; = -2(17).</mrow>
-				<mrow>-4x-6y &amp; = -34.</mrow>
-				<mrow>4x+2y &amp; = 14.</mrow>
-				<mrow>-4y &amp; = -20.</mrow>
-				<mrow>y &amp; = 5.</mrow>
-				<mrow>2x+3(5) &amp; = 17.</mrow>
-				<mrow>2x+15 &amp; = 17.</mrow>
-				<mrow>2x &amp; = 2.</mrow>
-				<mrow>x &amp; = 1.</mrow>
-			</md></p></solution>
-	    </webwork>
-	</exercise>
+    <exercise xml:id="exercise-linear-system-integers">
+<!--        <webwork>
+            <statement>
+                <p>Solve the linear system below using substitution.
+                <md>
+                    <mrow>2x+3y &amp; = 17.</mrow>
+                    <mrow>4x+2y &amp; = 14.</mrow>
+                </md></p>
+                <p><m>x =</m> <var name="'1'" width="4" /></p>
+                <p><m>y =</m> <var name="'5'" width="4" /></p>
+            </statement>
+            <solution><p>We can solve the first equation for <m>x</m> and substitute.
+            <md>
+                <mrow>2x+3y &amp; = 17.</mrow>
+                <mrow>2x &amp; = 17-3y.</mrow>
+                <mrow>x &amp; = \frac{1}{2}(17-3y).</mrow>
+            </md>
+            <md>
+                <mrow>4x+2y &amp; = 14.</mrow>
+                <mrow>4 \left( \frac{1}{2}(17-3y) \right)+2y &amp; = 14.</mrow>
+                <mrow>34-6y+2y &amp; = 14.</mrow>
+                <mrow>-4y &amp; = -20.</mrow>
+                <mrow>y &amp; = 5.</mrow>
+                <mrow>2x+3(5) &amp; = 17.</mrow>
+                <mrow>2x+15 &amp; = 17.</mrow>
+                <mrow>2x &amp; = 2.</mrow>
+                <mrow>x &amp; = 1.</mrow>
+            </md>.</p></solution>
+        </webwork> -->
+        <myopenmath problem="1468692" />
+    </exercise>
 
-	<exercise xml:id="exercise-linear-system-rand">
-		<webwork>
-			<pg-code>
-				Context("LimitedNumeric");
-				$a = Compute(random(1,5,1));
-				$b = Compute(random(1,5,1));
-				$c1 = 6*$a+8*$b;
-				$c2 = 9*$a+13*$b;
-				$sc1 = -3/2*$c1;
-				$ss = $c1-8*$b;
-			</pg-code>
-			<statement>
-				<p>Find the solution to this system.
-				<md>
-					<mrow>6x+8y &amp; = <var name="$c1"/>.</mrow>
-					<mrow>9x+13y &amp; = <var name="$c2"/>.</mrow>
-				</md></p>
-				<p><m>x=</m> <var name="$a" width="3"/></p>
-				<p><m>y=</m> <var name="$b" width="3"/></p>
-			</statement>
-			<solution>
-				<p>To eliminate the <m>9x</m> term we need to multiply the <m>6x</m> equation by <m>-9/6=-3/2</m>
-				<md>
-					<mrow>-3/2(6x+8y) &amp; = -3/2<var name="$c1"/></mrow>
-					<mrow>-9x-12y &amp; = <var name="$sc1"/></mrow>
-					<mrow>9x+13y &amp; = <var name="$c2"/></mrow>
-					<mrow>y &amp; = <var name="$b"/></mrow>
-					<mrow>6x+8(<var name="$b"/>) &amp; = <var name="$c1"/></mrow>
-					<mrow>6x &amp; = <var name="$ss"/></mrow>
-					<mrow>x &amp; = <var name="$a"/></mrow>
-				</md></p>
-			</solution>
-		</webwork>
-	</exercise>
+    <exercise xml:id="exercise-linear-system-eliminate">
+<!--        <webwork>
+            <statement>
+                <p>Solve the linear system below using elimination.
+                <md>
+                    <mrow>2x+3y &amp; = 17.</mrow>
+                    <mrow>4x+2y &amp; = 14.</mrow>
+                </md></p>
+                <p><m>x =</m> <var name="'1'" width="4" /></p>
+                <p><m>y =</m> <var name="'5'" width="4" /></p>
+            </statement>
+            <solution><p>We note that <m>4/2=2</m> so we should multiply the first equation by -2.
+            <md>
+                <mrow>-2(2x+3y) &amp; = -2(17).</mrow>
+                <mrow>-4x-6y &amp; = -34.</mrow>
+                <mrow>4x+2y &amp; = 14.</mrow>
+                <mrow>-4y &amp; = -20.</mrow>
+                <mrow>y &amp; = 5.</mrow>
+                <mrow>2x+3(5) &amp; = 17.</mrow>
+                <mrow>2x+15 &amp; = 17.</mrow>
+                <mrow>2x &amp; = 2.</mrow>
+                <mrow>x &amp; = 1.</mrow>
+            </md></p></solution>
+        </webwork> -->
+        <myopenmath problem="1468733" />
+    </exercise>
+
+<!--    <exercise xml:id="exercise-linear-system-rand">
+        <webwork>
+            <pg-code>
+                Context("LimitedNumeric");
+                $a = Compute(random(1,5,1));
+                $b = Compute(random(1,5,1));
+                $c1 = 6*$a+8*$b;
+                $c2 = 9*$a+13*$b;
+                $sc1 = -3/2*$c1;
+                $ss = $c1-8*$b;
+            </pg-code>
+            <statement>
+                <p>Find the solution to this system.
+                <md>
+                    <mrow>6x+8y &amp; = <var name="$c1"/>.</mrow>
+                    <mrow>9x+13y &amp; = <var name="$c2"/>.</mrow>
+                </md></p>
+                <p><m>x=</m> <var name="$a" width="3"/></p>
+                <p><m>y=</m> <var name="$b" width="3"/></p>
+            </statement>
+            <solution>
+                <p>To eliminate the <m>9x</m> term we need to multiply the <m>6x</m> equation by <m>-9/6=-3/2</m>
+                <md>
+                    <mrow>-3/2(6x+8y) &amp; = -3/2<var name="$c1"/></mrow>
+                    <mrow>-9x-12y &amp; = <var name="$sc1"/></mrow>
+                    <mrow>9x+13y &amp; = <var name="$c2"/></mrow>
+                    <mrow>y &amp; = <var name="$b"/></mrow>
+                    <mrow>6x+8(<var name="$b"/>) &amp; = <var name="$c1"/></mrow>
+                    <mrow>6x &amp; = <var name="$ss"/></mrow>
+                    <mrow>x &amp; = <var name="$a"/></mrow>
+                </md></p>
+            </solution>
+        </webwork>
+    </exercise> -->
 
 </subsection>
 
 <subsection xml:id="subsection-linear-system-weird">
-	<title>Other Cases</title>
+    <title>Other Cases</title>
 
-	<p>In <xref ref="figure-steep-crossing" /> we found a slope that caused no intersection. If we were solving a pair of linear equations that represented lines like this we would find no solution. These are known as <term>inconsistent</term> systems.</p>
+    <p>In <xref ref="figure-steep-crossing" /> we found a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this we would find no solution. These are known as <term>inconsistent</term> systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.</p>
 
-	<example xml:id="example-linear-system-inconsistent">
-		<title>Inconsistent Linear System</title>
-		<statement><p>Find all solutions to the system
-			<md>
-				<mrow>2x + 3y &amp; = 5.</mrow>
-				<mrow>4x + 6y &amp; = 7.</mrow>
-			</md>
-		</p></statement>
-		<solution><p>We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation).
-			<md>
-				<mrow>2x + 3y &amp; = 5.</mrow>
-				<mrow>-2(2x+3y) &amp; = -2(5).</mrow>
-				<mrow>-4x-6y &amp; = -10.</mrow>
-				<mrow>4x+6y &amp; = 7.</mrow>
-				<mrow>0 &amp; = -3.</mrow>
-			</md>
-		Our work is correct, but the conclusion is clearly false. This means there are no solutions. You can think of this as saying, for a solution to exist 0 must equal -3.</p></solution>
-	</example>
+    <example xml:id="example-linear-system-inconsistent">
+        <title>Inconsistent Linear System</title>
+        <p>Find all solutions to the system
+            <md>
+                <mrow>2x + 3y &amp; = 5.</mrow>
+                <mrow>4x + 6y &amp; = 7.</mrow>
+            </md>
+        </p>
+        <p>We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation).
+            <md>
+                <mrow>2x + 3y &amp; = 5.</mrow>
+                <mrow>-2(2x+3y) &amp; = -2(5).</mrow>
+                <mrow>-4x-6y &amp; = -10.</mrow>
+                <mrow>4x+6y &amp; = 7.</mrow>
+                <mrow>0 &amp; = -3.</mrow>
+            </md>
+        Our work is correct, but the conclusion is clearly false. You can think of this as saying, for a solution to exist 0 must equal -3. This means there are no solutions.</p>
+    </example>
 
-	<p>There is a third case.</p>
+    <p>There is a third case.</p>
 
-	<example xml:id="example-linear-system-dependent">
-		<title>Dependent System</title>
-		<statement><p>Find all solutions to the system
-			<md>
-				<mrow>2x + 3y &amp; = 5.</mrow>
-				<mrow>4x + 6y &amp; = 10.</mrow>
-			</md>
-		</p></statement>
-		<solution><p>We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation).
-			<md>
-				<mrow>2x + 3y &amp; = 5.</mrow>
-				<mrow>-2(2x+3y) &amp; = -2(5).</mrow>
-				<mrow>-4x-6y &amp; = -10.</mrow>
-				<mrow>4x+6y &amp; = 10.</mrow>
-				<mrow>0 &amp; = 0.</mrow>
-			</md>
-		This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them <term>dependent</term>.</p></solution>
-	</example>
+    <example xml:id="example-linear-system-dependent">
+        <title>Dependent System</title>
+        <p>Find all solutions to the system
+            <md>
+                <mrow>2x + 3y &amp; = 5.</mrow>
+                <mrow>4x + 6y &amp; = 10.</mrow>
+            </md>
+        </p>
+        <p>We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation).
+            <md>
+                <mrow>2x + 3y &amp; = 5.</mrow>
+                <mrow>-2(2x+3y) &amp; = -2(5).</mrow>
+                <mrow>-4x-6y &amp; = -10.</mrow>
+                <mrow>4x+6y &amp; = 10.</mrow>
+                <mrow>0 &amp; = 0.</mrow>
+            </md>
+        This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them <term>dependent</term>.</p>
+    </example>
 
-	<exercise xml:id="exercise-linear-system-inconsistent-rand">
-		<webwork>
-			<pg-code>
-				Context("LimitedNumeric");
-				$a = Compute(random(1,5,1));
-				$b = Compute(random(1,5,1));
-				$c1 = 6*$a+8*$b;
-				$c2 = 9*$a+12*$b;
-				$expressions = RadioButtons(["Inconsistent","Dependent"], 1);
-			</pg-code>
-			<statement>
-				<p>Determine whether this system is inconsistent or dependent.
-				<md>
-					<mrow>6x+8y &amp; = <var name="$c1"/>.</mrow>
-					<mrow>9x+12y &amp; = <var name="$c2"/>.</mrow>
-				</md></p>
-				<p>The system is <var name="$expressions" form="buttons"/></p>
-			</statement>
-		</webwork>
-	</exercise>
+    <exercise xml:id="exercise-linear-system-inconsistent-rand">
+<!--        <webwork>
+            <pg-code>
+                Context("LimitedNumeric");
+                $a = Compute(random(1,5,1));
+                $b = Compute(random(1,5,1));
+                $c1 = 6*$a+8*$b;
+                $c2 = 9*$a+12*$b;
+                $expressions = RadioButtons(["Inconsistent","Dependent"], 1);
+            </pg-code>
+            <statement>
+                <p>Determine whether this system is inconsistent or dependent.
+                <md>
+                    <mrow>6x+8y &amp; = <var name="$c1"/>.</mrow>
+                    <mrow>9x+12y &amp; = <var name="$c2"/>.</mrow>
+                </md></p>
+                <p>The system is <var name="$expressions" form="buttons"/></p>
+            </statement>
+        </webwork> -->
+        <myopenmath problem="1468760" />
+    </exercise>
 
 </subsection>
 
