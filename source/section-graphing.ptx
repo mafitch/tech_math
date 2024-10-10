@@ -73,12 +73,21 @@
         <myopenmath problem="1457060" />
     </exercise>
 
-    <p>Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. Below we show interpolation based on linear data. Linear data is described in <xref ref="section-linear" /> and <xref ref="section-rates"/>.</p>
+    <p>Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. This is called <term>interpolation</term>. Below we provide examples of interpolation for linear data. Linear data is described in <xref ref="section-linear" /> and <xref ref="section-rates"/>.</p>
 
     <example xml:id="example-table-read-interpolate">
+        <title>Interpolation in a Table</title>
         <p>What is the stall speed in a 15<degree/> bank angle with flaps in the Approach setting?</p>
         <p>First, we note that there is no column for 15<degree/> bank angle. However we have 0<degree/> and 30<degree/>. 15<degree/> is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.</p>
         <p>The two stall speeds are 43 and 46. The number in between (the average) is <m>(43+46)/2=44.5</m>. When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</p>
+    </example>
+
+    <example xml:id="example-table-read-interpolate-third">
+        <p>When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.</p>
+        <p>What is the stall speed with 10<degree/> bank angle with flaps in the Up setting?</p>
+        <p>The nearest entries in the table are 0<degree/> and 30<degree/>. We need to figure out what percent 10 is between 0 and 30. We can use that to find the matching number between the table entries (48 and 52). Percent is part/whole which in this case is <me>\frac{10}{30-0} = \frac{10}{30} = \frac{1}{3}</me>. We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.</p>
+        <p>We want the speed that is 1/3 of the way between 48 and 52. Again we treat this as a percent problem. We want percent times the whole to calculate the part. <me>\frac{1}{3} \cdot (52-48) = \frac{4}{3}.</me> This result is how far above 48, so the speed is <me>48+4/3 \approx 49.3 \approx 50.</me> We round up for safety.</p>
+        <p>Because there are only 4 knots between the entries, it hardly seems worthwhile to do all this work, especially because we round up for safety. There are times however, when this process is useful.</p>
     </example>
 
     <exercise xml:id="exercise-table-read-indirect">
@@ -259,7 +268,7 @@
     <figure xml:id="figure-salary-inflation" >
         <caption>Salary vs Inflation</caption>
 
-        <image source="images/vasya-raise-comparison" />
+        <image source="images/salary-inflation-comparison" />
     </figure>
 
 </subsection>
