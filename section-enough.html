@@ -591,10 +591,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/measure_length.svg" role="img" class="contained"></div>
 <div class="para" id="example-measure-error-ruler-2">When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3/4″ and less than 7/8″. The right side of the shape appears to be less than half way between 3/4″ and 7/8″. Because it appears to be closer to 3/4″, we can state the width is 3/4″. Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.</div>
 <div class="para" id="example-measure-error-ruler-3">We know this measurement is accurate to the nearest 1/8″, because the ruler has those marked and, in this case, we can be confident it is closer to the left side.</div>
-<div class="para" id="example-measure-error-ruler-4">To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13/16″ or 1/16″ farther. Thus we can state that the shape is 3/4″ wide with an error that is less than 1/16″.</div></article><div class="para" id="subsection-enough-accuracy-15">While other tools for measurement can be more precise, every tool has a limit to its precision that is similar to this example. We should always be aware of the limitations of measurements when we use them.</div></section><section class="subsection" id="subsection-enough-sigfigs"><h3 class="heading hide-type">
+<div class="para" id="example-measure-error-ruler-4">To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13/16″ or 1/16″ farther. Thus we can state that the shape is 3/4″ wide with an error that is less than 1/16″.</div></article><div class="para" id="subsection-enough-accuracy-15">While other tools for measurement can be more precise, every tool has a limit to its precision similar to this example. We should always be aware of the limitations of measurements when we use them.</div></section><section class="subsection" id="subsection-enough-sigfigs"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="space"> </span><span class="title">Significant Figures</span>
 </h3>
-<div class="para" id="subsection-enough-sigfigs-2">It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation <span class="process-math">\(\frac{22}{7}\)</span>) for <span class="process-math">\(\pi\)</span> makes no sense, because it is only accurate to the hundreds position (3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in most of the problems for the rest of the course.</div>
+<div class="para" id="subsection-enough-sigfigs-2">It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation <span class="process-math">\(\pi \approx \frac{22}{7}\)</span> <a href="section-enough.html#example-accuracy-number" class="xref" data-knowl="./knowl/xref/example-accuracy-number.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.2.3">Example 1.2.3</a>) makes no sense, because it is only accurate to the hundreds position (i.e., 3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in most of the problems for the rest of the course.</div>
 <div class="para" id="subsection-enough-sigfigs-3">When writing down measurements we need a way to indicate how precise the measurement is. <dfn class="terminology">Significant digits</dfn>, also called <dfn class="terminology">significant figures</dfn> or simply “sig figs”, are a way to do this.</div>
 <div class="para logical" id="subsection-enough-sigfigs-4">
 <div class="para">The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.</div>
@@ -605,8 +605,9 @@ eBookConfig.enable_chatcodes =  false;
 <li id="subsection-enough-sigfigs-4-1-4"><div class="para" id="p-derived-subsection-enough-sigfigs-4-1-4">If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.</div></li>
 <li id="subsection-enough-sigfigs-4-1-5"><div class="para" id="p-derived-subsection-enough-sigfigs-4-1-5">For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.</div></li>
 </ol>
-<div class="para">We can summarize these rules as: write only digits that you mean, and if it is ambiguous clarify.</div>
+<div class="para">We can summarize these rules as: write only digits that you mean, and if it is ambiguous, clarify.</div>
 </div>
+<div class="para" id="subsection-enough-sigfigs-5">Significant digits apply to numbers resulting from measurements. That is, they apply when there is doubt about the accuracy of the number. These will be mixed with exact numbers (numbers with infinite precision). For example the 1/2 in the area of a triangle (<span class="process-math">\(\text{Area}=1/2bh\)</span>) is an exact number.</div>
 <article class="example example-like" id="example-sigfigs"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span><span class="space"> </span><span class="title">Writing Significant Digits.</span>
 </h4>
@@ -622,14 +623,14 @@ eBookConfig.enable_chatcodes =  false;
 </div></article><article class="exercise exercise-like" id="exercise-sigfigs-count"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>
 </h4>
-<div id="momexercise-sigfigs-count-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-count-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444280&amp;frame_id=momexercise-sigfigs-count-1"></iframe></div></article><div class="para logical" id="subsection-enough-sigfigs-7">
+<div id="momexercise-sigfigs-count-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-count-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444280&amp;frame_id=momexercise-sigfigs-count-1"></iframe></div></article><div class="para logical" id="subsection-enough-sigfigs-8">
 <div class="para">We also need rules for arithmetic with significant digits. These are based on two principles</div>
-<ul class="disc" id="subsection-enough-sigfigs-7-1">
-<li id="subsection-enough-sigfigs-7-1-1"><div class="para" id="p-derived-subsection-enough-sigfigs-7-1-1">A result of arithmetic cannot be more precise than the least precise measurement.</div></li>
-<li id="subsection-enough-sigfigs-7-1-2"><div class="para" id="p-derived-subsection-enough-sigfigs-7-1-2">The number of significant digits cannot increase.</div></li>
+<ul class="disc" id="subsection-enough-sigfigs-8-1">
+<li id="subsection-enough-sigfigs-8-1-1"><div class="para" id="p-derived-subsection-enough-sigfigs-8-1-1">A result of arithmetic cannot be more precise than the least precise measurement.</div></li>
+<li id="subsection-enough-sigfigs-8-1-2"><div class="para" id="p-derived-subsection-enough-sigfigs-8-1-2">The number of significant digits cannot increase.</div></li>
 </ul>
 </div>
-<div class="para" id="subsection-enough-sigfigs-8">For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left, last significant digit.</div>
+<div class="para" id="subsection-enough-sigfigs-9">For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left, last significant digit.</div>
 <article class="example example-like" id="example-sigfig-subtract"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.12</span><span class="period">.</span><span class="space"> </span><span class="title">Subtraction with Significant Digits.</span>
 </h4>
@@ -638,12 +639,13 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.13</span><span class="period">.</span><span class="space"> </span><span class="title">Addition with Significant Digits.</span>
 </h4>
 <div class="para" id="example-sigfig-add-2">
-<span class="process-math">\(311+8310+202200 \approx 210800\text{.}\)</span> This is because the farthest left, last significant digit is in the 100’s position in 202200. The extra precision of the other two numbers is not useful.</div></article><div class="para" id="subsection-enough-sigfigs-11">The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious an explanation of why this rule works is in this video.</div>
+<span class="process-math">\(311+8310+202200 \approx 210800\text{.}\)</span> This is because the farthest left, last significant digit is in the 100’s position in 202200. The extra precision of the other two numbers is not useful.</div></article><div class="para" id="subsection-enough-sigfigs-12">The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious an explanation of why this rule works is in this video.</div>
 <div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/kxnjKrjXOH4?&amp;modestbranding=1&amp;rel=0" id="video-example-sigfig-add"></iframe></div>
+<div class="para" id="subsection-enough-sigfigs-14">Exact numbers may be mixed in calculations with addition/subtraction. For example suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is <span class="process-math">\(C=\frac{5}{9}(F-32)\text{.}\)</span> The 32 and 5/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems). The F (measured temperature) would have limited precision and therefore determine the precision of the result.</div>
 <article class="exercise exercise-like" id="exercise-sigfigs-add"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.14</span><span class="period">.</span>
 </h4>
-<div id="momexercise-sigfigs-add-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-add-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444299&amp;frame_id=momexercise-sigfigs-add-1"></iframe></div></article><div class="para" id="subsection-enough-sigfigs-14">For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</div>
+<div id="momexercise-sigfigs-add-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-add-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444299&amp;frame_id=momexercise-sigfigs-add-1"></iframe></div></article><div class="para" id="subsection-enough-sigfigs-16">For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</div>
 <article class="example example-like" id="example-sigfig-divide"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.15</span><span class="period">.</span><span class="space"> </span><span class="title">Division with Significant Digits.</span>
 </h4>
@@ -652,14 +654,31 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.16</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplication with Significant Digits.</span>
 </h4>
 <div class="para" id="example-sigfig-multiply-2">
-<span class="process-math">\(17 \times 14\bar{0} \times 3.178= 7600\text{.}\)</span> This is because <span class="process-math">\(17\)</span> has only two significant digits.</div></article><div class="para" id="subsection-enough-sigfigs-17">The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious an explanation of why this rule works is in this video.</div>
+<span class="process-math">\(17 \times 14\bar{0} \times 3.178= 7600\text{.}\)</span> This is because <span class="process-math">\(17\)</span> has only two significant digits.</div></article><div class="para" id="subsection-enough-sigfigs-19">The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious an explanation of why this rule works is in this video.</div>
 <div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/oQ48Agi4TfI?&amp;modestbranding=1&amp;rel=0" id="video-example-sigfig-multiply"></iframe></div>
-<article class="exercise exercise-like" id="exercise-sigfigs-multiply"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.17</span><span class="period">.</span>
+<div class="para" id="subsection-enough-sigfigs-21">Exact numbers may be mixed in calculations with multiplication and division. The following example illustrates how we determine the resulting number of significant digits when exact numbers are mixed with measurements.</div>
+<article class="example example-like" id="example-sigfigs-with-exact"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.17</span><span class="period">.</span>
 </h4>
-<div id="momexercise-sigfigs-multiply-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-multiply-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444891&amp;frame_id=momexercise-sigfigs-multiply-1"></iframe></div></article><div class="para" id="subsection-enough-sigfigs-20">The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.</div>
+<div class="para" id="example-sigfigs-with-exact-1">Suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is <span class="process-math">\(C=\frac{5}{9}(F-32)\text{.}\)</span> The 32 and 5/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems).</div>
+<div class="para logical" id="example-sigfigs-with-exact-2">
+<div class="para">If we read the temperature as 44.7° F then the conversion is as follows.</div>
+<div class="displaymath process-math" id="example-sigfigs-with-exact-2-2">
+\begin{align*}
+C &amp; = \frac{5}{9}(F-32)\\
+C &amp; = \frac{5}{9}(44.7-32)\\
+&amp; = \frac{5}{9}(12.7) &amp; \text{ Tenths place is last sigfig}\\
+&amp; \approx 7.055555\\
+&amp; \approx 7.06 &amp; \text{Only 3 sigfigs}
+\end{align*}
+</div>
+<div class="para">In the subtraction step the 32 is exact so the precision is determined by solely 44.7 (tenths place). In the multipication step the 5/9 is exact so the precision is determined by the 12.7 (three significant digits).</div>
+</div></article><article class="exercise exercise-like" id="exercise-sigfigs-multiply"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.18</span><span class="period">.</span>
+</h4>
+<div id="momexercise-sigfigs-multiply-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-multiply-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444891&amp;frame_id=momexercise-sigfigs-multiply-1"></iframe></div></article><div class="para" id="subsection-enough-sigfigs-24">The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.</div>
 <article class="example example-like" id="example-sigfig-multi1"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.18</span><span class="period">.</span><span class="space"> </span><span class="title">Multi-Step Arithmetic with Significant Digits.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.19</span><span class="period">.</span><span class="space"> </span><span class="title">Multi-Step Arithmetic with Significant Digits.</span>
 </h4>
 <div class="para logical" id="example-sigfig-multi1-2">
 <div class="para">Consider</div>
@@ -675,7 +694,7 @@ eBookConfig.enable_chatcodes =  false;
 \end{equation*}
 </div>
 </div></article><article class="example example-like" id="example-sigfig-multi2"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.19</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.20</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-sigfig-multi2-1">
 <div class="para">Calculate</div>
@@ -695,13 +714,13 @@ eBookConfig.enable_chatcodes =  false;
 \end{align*}
 </div>
 </div></article><article class="exercise exercise-like" id="exercise-sigfig-multi-step"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.20</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.21</span><span class="period">.</span>
 </h4>
 <div id="momexercise-sigfig-multi-step-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfig-multi-step-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1445015&amp;frame_id=momexercise-sigfig-multi-step-1"></iframe></div></article></section><section class="subsection" id="subsection-rounding"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="space"> </span><span class="title">Rounding</span>
 </h3>
 <div class="para" id="subsection-rounding-2">Significant digits uses rounding to remove non-useful precision. This section presents various motivations for rounding and types of rounding and  motivations for each.</div>
-<figure class="table table-like" id="table-round-reasons"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.21<span class="period">.</span></span><span class="space"> </span>Reasons for Rounding</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<figure class="table table-like" id="table-round-reasons"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.2.22<span class="period">.</span></span><span class="space"> </span>Reasons for Rounding</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Reality Constraints</td>
 <td class="l m b0 r0 l0 t0 lines">For example we cannot buy partial packages or have fractional people</td>
@@ -722,7 +741,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsection-rounding-9">Rounding to control error is the use of significant digits.</div>
 <div class="para" id="subsection-rounding-10">Before considering context, we will practice rounding numbers. Note we can round to any digit. We can round up, down, or to the nearest number (what is meant by “round” if neither up nor down are specified). Context or instructions will specify which digit and which type of rounding.</div>
 <article class="example example-like" id="example-rounding-types1"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.22</span><span class="period">.</span><span class="space"> </span><span class="title">Rounding Up/Down.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.23</span><span class="period">.</span><span class="space"> </span><span class="title">Rounding Up/Down.</span>
 </h4>
 <article class="task exercise-like" id="example-rounding-types1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-rounding-types1-2-1-1">Round 72481 down to the nearest hundred.</div>
@@ -733,7 +752,7 @@ eBookConfig.enable_chatcodes =  false;
 </div></div></details></div></article><article class="task exercise-like" id="example-rounding-types1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="example-rounding-types1-4-1-1">Round 72481 the nearest hundred.</div>
 <div class="solutions"><details id="example-rounding-types1-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-rounding-types1-4-2-1">Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is <span class="process-math">\(8 \ge 5\)</span> which means rounding up results in a closer number. We could also recognize the need to round up by calculating <span class="process-math">\(500-481=19\)</span> and <span class="process-math">\(481-400=81\)</span> and noticing that <span class="process-math">\(19 \le 81\)</span> (round up is closer).</div></div></details></div></article></article><article class="example example-like" id="example-rounding-types2"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.23</span><span class="period">.</span><span class="space"> </span><span class="title">Rounding Up/Down.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.24</span><span class="period">.</span><span class="space"> </span><span class="title">Rounding Up/Down.</span>
 </h4>
 <article class="task exercise-like" id="example-rounding-types2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-rounding-types2-2-1-1">Round 72481 down to the nearest thousand.</div>
@@ -745,7 +764,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-rounding-types2-4-1-1">Round 72481 to the nearest thousand.</div>
 <div class="solutions"><details id="example-rounding-types2-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-rounding-types2-4-2-1">Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is <span class="process-math">\(4 &lt; 5\)</span> which makes it closer to go down. We could also recognize the need to round down by calculating <span class="process-math">\(3000-2481=519\)</span> and <span class="process-math">\(2481-2000=481\)</span> and noticing that <span class="process-math">\(481 \lt 519\text{.}\)</span>
 </div></div></details></div></article></article><article class="example example-like" id="example-rounding-positions"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.24</span><span class="period">.</span><span class="space"> </span><span class="title">Rounding to Different Precisions.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.25</span><span class="period">.</span><span class="space"> </span><span class="title">Rounding to Different Precisions.</span>
 </h4>
 <div class="para logical" id="example-rounding-positions-2">
 <div class="para">Round 72321.83 to the specified precision.</div>
@@ -755,18 +774,18 @@ eBookConfig.enable_chatcodes =  false;
 <li id="example-rounding-positions-2-1-3"><div class="para" id="p-derived-example-rounding-positions-2-1-3">Tenths: 72321.8</div></li>
 </ul>
 </div></article><article class="exercise exercise-like" id="exercise-rounding"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.25</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.26</span><span class="period">.</span>
 </h4>
 <div id="momexercise-rounding-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-rounding-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444907&amp;frame_id=momexercise-rounding-1"></iframe></div></article><div class="para" id="subsection-rounding-15">Next we need to consider when to use each type of rounding.</div>
 <article class="example example-like" id="example-rounding-carpet-tiles"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.26</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.27</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-rounding-carpet-tiles-1">Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20″. If a room is 50 feet by 38 feet, how many carpet square do we need?</div>
 <div class="para" id="example-rounding-carpet-tiles-2">First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <span class="process-math">\(50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{600 \text{ in}}{20 \text{ in}} = 30\)</span> tiles across.</div>
 <div class="para" id="example-rounding-carpet-tiles-3">Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <span class="process-math">\(38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{456 \text{ in}}{20 \text{ in}} = 22.8\)</span> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</div>
 <div class="para" id="example-rounding-carpet-tiles-4">Finally we can count the number of tiles which is <span class="process-math">\(30 \times 23 = 690\)</span> tiles.</div>
 <div class="para" id="example-rounding-carpet-tiles-5">If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up.</div></article><article class="example example-like" id="example-rounding-distribute-cookies"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.27</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.28</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-rounding-distribute-cookies-1">Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?</div>
 <div class="para" id="example-rounding-distribute-cookies-2">There are <span class="process-math">\(3 \cdot 12 = 36\)</span> cookies. Each person can have <span class="process-math">\(36/7 \approx 5.1\)</span> cookies. Because cutting cookies into pieces is typically a bad idea, we must round this down to 5 cookies per person.</div>
@@ -776,7 +795,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsection-greatest-error-2">We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.</div>
 <div class="para" id="subsection-greatest-error-3">Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, rounding will always have a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.</div>
 <article class="example example-like" id="example-greatest-error"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.28</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.29</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-greatest-error-1-1">What is the greatest possible error if 130 was rounded to the nearest 10?</div>
 <div class="solutions"><details id="example-greatest-error-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
@@ -787,19 +806,19 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-greatest-error-2-3">Thus the greatest possible error was 5 from the case that 125 was rounded up.</div>
 <div class="para" id="example-greatest-error-2-4">Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits don’t change the rounding.</div>
 </div></details></div></article><article class="example example-like" id="example-greatest-error2"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.29</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.30</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-greatest-error2-1-1">What is the greatest possible error if 9.31 was rounded to the nearest hundredth?</div>
 <div class="solutions"><details id="example-greatest-error2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-greatest-error2-2-1">The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 5 one thousdandths.</div></div></details></div></article><article class="example example-like" id="example-greatest-error-up"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.30</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.31</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-greatest-error-up-1-1">What is the greatest possible error if 223 was rounded up to the nearest one?</div>
 <div class="solutions"><details id="example-greatest-error-up-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-greatest-error-up-2-1">223 could have been rounded up from 222.1. But it could also have been rounded up from 222.01 or anything else. Thus the greatest possible error is less than 1 (<span class="process-math">\(223-222=1\)</span>).</div></div></details></div></article><div class="para" id="subsection-greatest-error-7">Notice we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object isn’t exactly on one of the lines, you will choose the closest one. The closest one requires rounding.</div>
 <article class="exercise exercise-like" id="exercise-greatest-error1"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.31</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.32</span><span class="period">.</span>
 </h4>
 <div id="momexercise-greatest-error1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-greatest-error1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444922&amp;frame_id=momexercise-greatest-error1-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-greatest-error2"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.32</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.33</span><span class="period">.</span>
 </h4>
 <div id="momexercise-greatest-error2-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-greatest-error2-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444933&amp;frame_id=momexercise-greatest-error2-1"></iframe></div></article></section><section class="exercises" id="section-enough-7"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="space"> </span><span class="title">Exercises</span>
