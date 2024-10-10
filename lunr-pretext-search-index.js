@@ -3139,7 +3139,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Representing Data",
-  "body": " Representing Data   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphs of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates. More details about rates will be covered in .    Reading Tables of Data  This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.  Tables are useful if we have a limited number of entries, and the data can be indexed by two traits. The two traits become headers for the rows and columns. Note by limited number of entries we mean that the table can be easily used. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.   Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS   Angle of Bank  Flap Setting 0 30 45 60  Up 48 52 57 68  Approach 43 46 51 61  Landing 40 43 48 57    We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity note that stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.   What is the stall speed in a 30 bank angle with flaps up?  We can determine this by looking for the column labeled 30 and the row labeled Up . In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.    In what condition is the stall speed the highest?  If we read all three rows, the largest number we find is 68. That is in the Up row and 60 column. So the stall speed is highest in the steep, 60 turn with the flaps in the up position.  Note, there is no shortcut here for checking the entry in every row and column.     As the angle of bank increases (from 0 to 60 ) what happens to the stall speed?    If we look in the Up row, the stall speed changes from 48 to 52 to 57 to 68. The first thing we notice is that the stall speed increases.  If we repeat this in the Approach row, we again see the speeds are increasing. The same is true in the Landing row.  Thus we can say that stall speed increases as the angle of bank increases.  In later sections ( ) we will learn to be more specific about patterns when possible.     Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. Below we show interpolation based on linear data. Linear data is described in and .   What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.      Reading Graphs  This section illustrates how some data can be represented in graphs and how to read data from a graph including some comparisons of graphs.  Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and read the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.   If the plane with maximum engine out glide represented in is 2400 ft above the ground how many nautical miles can it glide forward?  First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. Note, no line is labeled 2400, but we do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.  Counting we find 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent ft.  Because we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.  We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent nm.  The glide distance for 2400 ft is therefore nm. We subtracted here because it is before 4.    Graph Representing Maximum Engine Out Glide     When we look at any table, graph, or figure we should ask ourselves why various choices were made. We may need to ask someone with related knowledge for an explanation.   Consider . The input we use is Height Above Ground (ft) . Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?  Consider that the inputs are heights . This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.  Why do the inputs begin at 0 and end at 12000?  They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.  They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.  Why are the inputs labeled every 2000 and the inputs every 2?  This is purely space available. If we put in more labels they would overlap each other.   Graphs can be from raw data which may appear random. We still read these graphs the same way.   has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.  What are the temperature and dewpoint at the 700 millibar level?  We follow the 700 mb line over to the dewpoint (green, dashed) line. It is not quite halfway between -20 C and 0 . We estimate -7 C. Continuing across the 700 mb line to the temperature (red, solid) line we find it a little closer to 0 . We estimate the temperature is 5 C.    Graph of Temperature and Dewpoint    Note some charts like are not meant to convey specific numbers but rather to show trends.   Notice that while the temperature (red, solid line) wiggles around, it trends down as the pressure decreases. That is temperature decreases as altitude increases. We expect this, because it is farther from the ground which heats the air.  Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.    Consider . The input we use is Pressure (millibars) . Why was the y-axis chosen for the inputs here?  The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.  Why do the y-axis labels decrease as they go up?  Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.  Why do the inputs begin at 1000?  Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.  Why are the output labels from -100 to 40?  These are based on commonly experienced temperatures. Temperatures lower than -100 C are not expected. Temperatures above 40 C do occur, but not in the location where this sounding was taken.  Use to convert 50 C to Fahrenheit to see why this temperature is uncommon in most locations.   The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet (fractional feet). Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This discrete data is often graphed differently. The next examples illustrate a way of presenting discrete data.   Increasing Income  When Vasya was hired in 2017 she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.  To represent this data we first need to calculate her salary each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an iterative process. contains the results. Notice a table is a good means to represent discrete data.  We will represent her salary over time using the bar graph in . Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.  Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might the graph be changed to make information easier to find?    Vasya's Salary   2017  $62,347.23   2018  $67,347.23   2019  $72,347.23   2020  $77,347.23   2021  $82,347.23   2022  $87,347.23   2023  $92,347.23   2024  $97,347.23      Vasya's Salary      Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished (keeping up)   Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the raise as a percent of the previous year.   For these years is she keeping up with inflation?   Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.    What trend do you notice in the percent increase of salary? Why is this happening?   Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part remains fixed while the whole increases.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.     Vasya's Salary     Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.   In which years did Guido receive a raise?   The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.   In which years did Guido's salary appear to grow at least as much as inflation?   We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.    Salary vs Inflation      Using Graphs to Analyze Models  Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.   Scale Model  A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle, that is, there is a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If a portion of the model is 1.72 inches then means the part on the actual shuttle is inches. In general where is the size on the model and is the size on the actual shuttle.  To represent this scale conversion as a graph we will generate a table like then we will use that to plot the graph.   Model  Full Size   1.0  144   1.5  216   2.0  288   2.5  360   3.0  432    We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in .  For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.    Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.  Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.  This graph is a line. We knew it would be because is in the form of a line (as shown in ).    Graph of Scale    The next example is a shape we have not yet encountered in this text.   Ohm's Law  Recall Ohm's Law from . We will explore the relationship between current ( ) and resistance ( ).  To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current ( ). Because we are interested in the effect of resistance on current we will pick a fixed voltage: V. Thus our equation is .   Resistance  Current   1.0  12   4.0  3.0   8.0  1.5   12.0  1.0   16.0  0.75    We can plot these points and sketch a curve through them. This graph is in .  The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.  The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes . Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.     Graph of Ohms Law    The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas. Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here. Draw a graph for the equation .    Graphing Lines  We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines if we have the equation and presents analyzing linear models based on their graphs.  As described in a linear equation (model) has two parts: and . First, we address the role of the ratio in the graph.   Slope   The rate of change of a line (graph) is called its slope . The numerator is the change in y and the denominator is the change in x. Slope can be calculated as Rise and run are terms to help us remember the formula.    In we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have that is 144 is the change in y and and 1 is the change in x.  Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using . The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.   Calculate Slope  The graph in is linear. We will calculate the slope twice.  First, we will use the points and . This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of feet above mean sea level.  We will use the points and . As expected this is the same slope, because on a line the rate of change (slope) is constant.    Calculating Slope    To write the equation for a line we need the shift as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. controls this shift. It is typically easiest to read this shift at because in the linear form we have , so the coordinate at is the shift.   Calculate Shift   The graph in is linear. We will calculate the shift.   The shift can be read when . That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.  We will use to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up Thus the pressure should increase by 2.00 inHg giving us . Thus the point is and the shift is .  Combining this shift with the slope from the example above the model is   is the pressure at altitude .  29.92 is the initial pressure.  The rate is .  is the altitude above ground level.  If we replaced 29.92 with a parameter we could generalize the model to .        Answer these questions about interpreting data.   Determine Linear   Graph and Table  Graph and Table  Graph and Table  Graph and Table  Graph and Table  Compare Linear Functions  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Determine if Linear  Find Equation  Interpret Graph    Answer these questions about lines.  Rate from Data  Rate from Data  Find Slope from Points  Find Slope from Graph  Population  Identify Slope  Equation from Table  Equation from Table  Find Slope from Graph  Tuition  Check if Linear  Check if Linear  Write Equation  Write Eqation  Write Eqation  Graph Line  Graph Line  Graph Line  Write Equation and Graph Line    "
+  "body": " Representing Data   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphs of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates. More details about rates will be covered in .    Reading Tables of Data  This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.  Tables are useful if we have a limited number of entries, and the data can be indexed by two traits. The two traits become headers for the rows and columns. Note by limited number of entries we mean that the table can be easily used. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.   Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS   Angle of Bank  Flap Setting 0 30 45 60  Up 48 52 57 68  Approach 43 46 51 61  Landing 40 43 48 57    We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity note that stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.   What is the stall speed in a 30 bank angle with flaps up?  We can determine this by looking for the column labeled 30 and the row labeled Up . In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.    In what condition is the stall speed the highest?  If we read all three rows, the largest number we find is 68. That is in the Up row and 60 column. So the stall speed is highest in the steep, 60 turn with the flaps in the up position.  Note, there is no shortcut here for checking the entry in every row and column.     As the angle of bank increases (from 0 to 60 ) what happens to the stall speed?    If we look in the Up row, the stall speed changes from 48 to 52 to 57 to 68. The first thing we notice is that the stall speed increases.  If we repeat this in the Approach row, we again see the speeds are increasing. The same is true in the Landing row.  Thus we can say that stall speed increases as the angle of bank increases.  In later sections ( ) we will learn to be more specific about patterns when possible.     Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. This is called interpolation . Below we provide examples of interpolation for linear data. Linear data is described in and .   Interpolation in a Table  What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.    When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.  What is the stall speed with 10 bank angle with flaps in the Up setting?  The nearest entries in the table are 0 and 30 . We need to figure out what percent 10 is between 0 and 30. We can use that to find the matching number between the table entries (48 and 52). Percent is part\/whole which in this case is . We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.  We want the speed that is 1\/3 of the way between 48 and 52. Again we treat this as a percent problem. We want percent times the whole to calculate the part. This result is how far above 48, so the speed is We round up for safety.  Because there are only 4 knots between the entries, it hardly seems worthwhile to do all this work, especially because we round up for safety. There are times however, when this process is useful.      Reading Graphs  This section illustrates how some data can be represented in graphs and how to read data from a graph including some comparisons of graphs.  Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and read the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.   If the plane with maximum engine out glide represented in is 2400 ft above the ground how many nautical miles can it glide forward?  First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. Note, no line is labeled 2400, but we do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.  Counting we find 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent ft.  Because we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.  We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent nm.  The glide distance for 2400 ft is therefore nm. We subtracted here because it is before 4.    Graph Representing Maximum Engine Out Glide     When we look at any table, graph, or figure we should ask ourselves why various choices were made. We may need to ask someone with related knowledge for an explanation.   Consider . The input we use is Height Above Ground (ft) . Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?  Consider that the inputs are heights . This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.  Why do the inputs begin at 0 and end at 12000?  They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.  They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.  Why are the inputs labeled every 2000 and the inputs every 2?  This is purely space available. If we put in more labels they would overlap each other.   Graphs can be from raw data which may appear random. We still read these graphs the same way.   has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.  What are the temperature and dewpoint at the 700 millibar level?  We follow the 700 mb line over to the dewpoint (green, dashed) line. It is not quite halfway between -20 C and 0 . We estimate -7 C. Continuing across the 700 mb line to the temperature (red, solid) line we find it a little closer to 0 . We estimate the temperature is 5 C.    Graph of Temperature and Dewpoint    Note some charts like are not meant to convey specific numbers but rather to show trends.   Notice that while the temperature (red, solid line) wiggles around, it trends down as the pressure decreases. That is temperature decreases as altitude increases. We expect this, because it is farther from the ground which heats the air.  Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.    Consider . The input we use is Pressure (millibars) . Why was the y-axis chosen for the inputs here?  The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.  Why do the y-axis labels decrease as they go up?  Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.  Why do the inputs begin at 1000?  Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.  Why are the output labels from -100 to 40?  These are based on commonly experienced temperatures. Temperatures lower than -100 C are not expected. Temperatures above 40 C do occur, but not in the location where this sounding was taken.  Use to convert 50 C to Fahrenheit to see why this temperature is uncommon in most locations.   The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet (fractional feet). Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This discrete data is often graphed differently. The next examples illustrate a way of presenting discrete data.   Increasing Income  When Vasya was hired in 2017 she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.  To represent this data we first need to calculate her salary each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an iterative process. contains the results. Notice a table is a good means to represent discrete data.  We will represent her salary over time using the bar graph in . Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.  Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might the graph be changed to make information easier to find?    Vasya's Salary   2017  $62,347.23   2018  $67,347.23   2019  $72,347.23   2020  $77,347.23   2021  $82,347.23   2022  $87,347.23   2023  $92,347.23   2024  $97,347.23      Vasya's Salary      Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished (keeping up)   Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the raise as a percent of the previous year.   For these years is she keeping up with inflation?   Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.    What trend do you notice in the percent increase of salary? Why is this happening?   Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part remains fixed while the whole increases.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.     Vasya's Salary     Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.   In which years did Guido receive a raise?   The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.   In which years did Guido's salary appear to grow at least as much as inflation?   We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.    Salary vs Inflation      Using Graphs to Analyze Models  Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.   Scale Model  A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle, that is, there is a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If a portion of the model is 1.72 inches then means the part on the actual shuttle is inches. In general where is the size on the model and is the size on the actual shuttle.  To represent this scale conversion as a graph we will generate a table like then we will use that to plot the graph.   Model  Full Size   1.0  144   1.5  216   2.0  288   2.5  360   3.0  432    We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in .  For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.    Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.  Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.  This graph is a line. We knew it would be because is in the form of a line (as shown in ).    Graph of Scale    The next example is a shape we have not yet encountered in this text.   Ohm's Law  Recall Ohm's Law from . We will explore the relationship between current ( ) and resistance ( ).  To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current ( ). Because we are interested in the effect of resistance on current we will pick a fixed voltage: V. Thus our equation is .   Resistance  Current   1.0  12   4.0  3.0   8.0  1.5   12.0  1.0   16.0  0.75    We can plot these points and sketch a curve through them. This graph is in .  The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.  The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes . Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.     Graph of Ohms Law    The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas. Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here. Draw a graph for the equation .    Graphing Lines  We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines if we have the equation and presents analyzing linear models based on their graphs.  As described in a linear equation (model) has two parts: and . First, we address the role of the ratio in the graph.   Slope   The rate of change of a line (graph) is called its slope . The numerator is the change in y and the denominator is the change in x. Slope can be calculated as Rise and run are terms to help us remember the formula.    In we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have that is 144 is the change in y and and 1 is the change in x.  Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using . The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.   Calculate Slope  The graph in is linear. We will calculate the slope twice.  First, we will use the points and . This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of feet above mean sea level.  We will use the points and . As expected this is the same slope, because on a line the rate of change (slope) is constant.    Calculating Slope    To write the equation for a line we need the shift as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. controls this shift. It is typically easiest to read this shift at because in the linear form we have , so the coordinate at is the shift.   Calculate Shift   The graph in is linear. We will calculate the shift.   The shift can be read when . That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.  We will use to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up Thus the pressure should increase by 2.00 inHg giving us . Thus the point is and the shift is .  Combining this shift with the slope from the example above the model is   is the pressure at altitude .  29.92 is the initial pressure.  The rate is .  is the altitude above ground level.  If we replaced 29.92 with a parameter we could generalize the model to .        Answer these questions about interpreting data.   Determine Linear   Graph and Table  Graph and Table  Graph and Table  Graph and Table  Graph and Table  Compare Linear Functions  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Interpret Graph  Determine if Linear  Find Equation  Interpret Graph    Answer these questions about lines.  Rate from Data  Rate from Data  Find Slope from Points  Find Slope from Graph  Population  Identify Slope  Equation from Table  Equation from Table  Find Slope from Graph  Tuition  Check if Linear  Check if Linear  Write Equation  Write Eqation  Write Eqation  Graph Line  Graph Line  Graph Line  Write Equation and Graph Line    "
 },
 {
   "id": "table-table-stall",
@@ -3187,20 +3187,38 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
+  "id": "subsection-tables-10",
+  "level": "2",
+  "url": "section-graphing.html#subsection-tables-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "interpolation "
+},
+{
   "id": "example-table-read-interpolate",
   "level": "2",
   "url": "section-graphing.html#example-table-read-interpolate",
   "type": "Example",
   "number": "3.2.6",
+  "title": "Interpolation in a Table.",
+  "body": " Interpolation in a Table  What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.  "
+},
+{
+  "id": "example-table-read-interpolate-third",
+  "level": "2",
+  "url": "section-graphing.html#example-table-read-interpolate-third",
+  "type": "Example",
+  "number": "3.2.7",
   "title": "",
-  "body": " What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.  "
+  "body": " When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.  What is the stall speed with 10 bank angle with flaps in the Up setting?  The nearest entries in the table are 0 and 30 . We need to figure out what percent 10 is between 0 and 30. We can use that to find the matching number between the table entries (48 and 52). Percent is part\/whole which in this case is . We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.  We want the speed that is 1\/3 of the way between 48 and 52. Again we treat this as a percent problem. We want percent times the whole to calculate the part. This result is how far above 48, so the speed is We round up for safety.  Because there are only 4 knots between the entries, it hardly seems worthwhile to do all this work, especially because we round up for safety. There are times however, when this process is useful.  "
 },
 {
   "id": "exercise-table-read-indirect",
   "level": "2",
   "url": "section-graphing.html#exercise-table-read-indirect",
   "type": "Checkpoint",
-  "number": "3.2.7",
+  "number": "3.2.8",
   "title": "",
   "body": ""
 },
@@ -3209,7 +3227,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-read-graph-glide",
   "type": "Example",
-  "number": "3.2.8",
+  "number": "3.2.9",
   "title": "",
   "body": " If the plane with maximum engine out glide represented in is 2400 ft above the ground how many nautical miles can it glide forward?  First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. Note, no line is labeled 2400, but we do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.  Counting we find 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent ft.  Because we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.  We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent nm.  The glide distance for 2400 ft is therefore nm. We subtracted here because it is before 4.  "
 },
@@ -3218,7 +3236,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-maximum-glide",
   "type": "Figure",
-  "number": "3.2.9",
+  "number": "3.2.10",
   "title": "",
   "body": " Graph Representing Maximum Engine Out Glide   "
 },
@@ -3227,7 +3245,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#exercise-table-read-graph",
   "type": "Checkpoint",
-  "number": "3.2.10",
+  "number": "3.2.11",
   "title": "",
   "body": ""
 },
@@ -3236,7 +3254,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-critical-graph-glide",
   "type": "Example",
-  "number": "3.2.11",
+  "number": "3.2.12",
   "title": "",
   "body": " Consider . The input we use is Height Above Ground (ft) . Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?  Consider that the inputs are heights . This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.  Why do the inputs begin at 0 and end at 12000?  They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.  They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.  Why are the inputs labeled every 2000 and the inputs every 2?  This is purely space available. If we put in more labels they would overlap each other.  "
 },
@@ -3245,7 +3263,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-read-graph-temp-dewpoint",
   "type": "Example",
-  "number": "3.2.12",
+  "number": "3.2.13",
   "title": "",
   "body": " has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.  What are the temperature and dewpoint at the 700 millibar level?  We follow the 700 mb line over to the dewpoint (green, dashed) line. It is not quite halfway between -20 C and 0 . We estimate -7 C. Continuing across the 700 mb line to the temperature (red, solid) line we find it a little closer to 0 . We estimate the temperature is 5 C.  "
 },
@@ -3254,7 +3272,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-temp-dewpoint",
   "type": "Figure",
-  "number": "3.2.13",
+  "number": "3.2.14",
   "title": "",
   "body": " Graph of Temperature and Dewpoint   "
 },
@@ -3263,7 +3281,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-read-graph-clouds-form",
   "type": "Example",
-  "number": "3.2.14",
+  "number": "3.2.15",
   "title": "",
   "body": " Notice that while the temperature (red, solid line) wiggles around, it trends down as the pressure decreases. That is temperature decreases as altitude increases. We expect this, because it is farther from the ground which heats the air.  Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.  "
 },
@@ -3272,7 +3290,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-critical-graph-radiosonde",
   "type": "Example",
-  "number": "3.2.15",
+  "number": "3.2.16",
   "title": "",
   "body": " Consider . The input we use is Pressure (millibars) . Why was the y-axis chosen for the inputs here?  The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.  Why do the y-axis labels decrease as they go up?  Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.  Why do the inputs begin at 1000?  Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.  Why are the output labels from -100 to 40?  These are based on commonly experienced temperatures. Temperatures lower than -100 C are not expected. Temperatures above 40 C do occur, but not in the location where this sounding was taken.  Use to convert 50 C to Fahrenheit to see why this temperature is uncommon in most locations.  "
 },
@@ -3290,7 +3308,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-graphing-bar1",
   "type": "Example",
-  "number": "3.2.16",
+  "number": "3.2.17",
   "title": "Increasing Income.",
   "body": " Increasing Income  When Vasya was hired in 2017 she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.  To represent this data we first need to calculate her salary each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an iterative process. contains the results. Notice a table is a good means to represent discrete data.  We will represent her salary over time using the bar graph in . Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.  Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might the graph be changed to make information easier to find?  "
 },
@@ -3299,7 +3317,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#table-salary-vasya",
   "type": "Table",
-  "number": "3.2.17",
+  "number": "3.2.18",
   "title": "Vasya’s Salary",
   "body": " Vasya's Salary   2017  $62,347.23   2018  $67,347.23   2019  $72,347.23   2020  $77,347.23   2021  $82,347.23   2022  $87,347.23   2023  $92,347.23   2024  $97,347.23    "
 },
@@ -3308,7 +3326,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-read-graph-bar",
   "type": "Figure",
-  "number": "3.2.18",
+  "number": "3.2.19",
   "title": "",
   "body": " Vasya's Salary   "
 },
@@ -3317,7 +3335,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-read-graph-bar-compare",
   "type": "Example",
-  "number": "3.2.19",
+  "number": "3.2.20",
   "title": "",
   "body": "  Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished (keeping up)   Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the raise as a percent of the previous year.   For these years is she keeping up with inflation?   Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.    What trend do you notice in the percent increase of salary? Why is this happening?   Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part remains fixed while the whole increases.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.   "
 },
@@ -3326,7 +3344,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-read-graph-compare",
   "type": "Figure",
-  "number": "3.2.20",
+  "number": "3.2.21",
   "title": "",
   "body": " Vasya's Salary   "
 },
@@ -3335,7 +3353,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#exercise-read-bar-graph",
   "type": "Checkpoint",
-  "number": "3.2.21",
+  "number": "3.2.22",
   "title": "",
   "body": " Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.   In which years did Guido receive a raise?   The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.   In which years did Guido's salary appear to grow at least as much as inflation?   We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.  "
 },
@@ -3344,7 +3362,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-salary-inflation",
   "type": "Figure",
-  "number": "3.2.22",
+  "number": "3.2.23",
   "title": "",
   "body": " Salary vs Inflation   "
 },
@@ -3353,7 +3371,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-scale-model",
   "type": "Example",
-  "number": "3.2.23",
+  "number": "3.2.24",
   "title": "Scale Model.",
   "body": " Scale Model  A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle, that is, there is a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If a portion of the model is 1.72 inches then means the part on the actual shuttle is inches. In general where is the size on the model and is the size on the actual shuttle.  To represent this scale conversion as a graph we will generate a table like then we will use that to plot the graph.   Model  Full Size   1.0  144   1.5  216   2.0  288   2.5  360   3.0  432    We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in .  For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.  "
 },
@@ -3362,7 +3380,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-analyze-scale-model",
   "type": "Example",
-  "number": "3.2.24",
+  "number": "3.2.25",
   "title": "",
   "body": " Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.  Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.  This graph is a line. We knew it would be because is in the form of a line (as shown in ).  "
 },
@@ -3371,7 +3389,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-graphing-line1",
   "type": "Figure",
-  "number": "3.2.25",
+  "number": "3.2.26",
   "title": "",
   "body": " Graph of Scale   "
 },
@@ -3380,7 +3398,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-vary-ohm",
   "type": "Example",
-  "number": "3.2.26",
+  "number": "3.2.27",
   "title": "Ohm’s Law.",
   "body": " Ohm's Law  Recall Ohm's Law from . We will explore the relationship between current ( ) and resistance ( ).  To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current ( ). Because we are interested in the effect of resistance on current we will pick a fixed voltage: V. Thus our equation is .   Resistance  Current   1.0  12   4.0  3.0   8.0  1.5   12.0  1.0   16.0  0.75    We can plot these points and sketch a curve through them. This graph is in .  The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.  The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes . Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.   "
 },
@@ -3389,7 +3407,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-vary-ohm",
   "type": "Figure",
-  "number": "3.2.27",
+  "number": "3.2.28",
   "title": "",
   "body": " Graph of Ohms Law   "
 },
@@ -3398,7 +3416,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#exercise-graphing-continuous1",
   "type": "Checkpoint",
-  "number": "3.2.28",
+  "number": "3.2.29",
   "title": "",
   "body": "The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas. Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here. Draw a graph for the equation . "
 },
@@ -3407,7 +3425,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#definition-slope",
   "type": "Definition",
-  "number": "3.2.29",
+  "number": "3.2.30",
   "title": "Slope.",
   "body": " Slope   The rate of change of a line (graph) is called its slope . The numerator is the change in y and the denominator is the change in x. Slope can be calculated as Rise and run are terms to help us remember the formula.   "
 },
@@ -3416,7 +3434,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-calculate-slope",
   "type": "Example",
-  "number": "3.2.30",
+  "number": "3.2.31",
   "title": "Calculate Slope.",
   "body": " Calculate Slope  The graph in is linear. We will calculate the slope twice.  First, we will use the points and . This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of feet above mean sea level.  We will use the points and . As expected this is the same slope, because on a line the rate of change (slope) is constant.  "
 },
@@ -3425,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#figure-graph-slope",
   "type": "Figure",
-  "number": "3.2.31",
+  "number": "3.2.32",
   "title": "",
   "body": " Calculating Slope   "
 },
@@ -3434,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#example-calculate-shift",
   "type": "Example",
-  "number": "3.2.32",
+  "number": "3.2.33",
   "title": "Calculate Shift.",
   "body": " Calculate Shift   The graph in is linear. We will calculate the shift.   The shift can be read when . That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.  We will use to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up Thus the pressure should increase by 2.00 inHg giving us . Thus the point is and the shift is .  Combining this shift with the slope from the example above the model is   is the pressure at altitude .  29.92 is the initial pressure.  The rate is .  is the altitude above ground level.  If we replaced 29.92 with a parameter we could generalize the model to .   "
 },
@@ -3443,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#exercise-graphing-calculate-slope",
   "type": "Checkpoint",
-  "number": "3.2.33",
+  "number": "3.2.34",
   "title": "",
   "body": ""
 },
@@ -3832,7 +3850,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Identifying Rates",
-  "body": " Identifying Rates   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)    So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.    Differences  One way to measure rates is to look at the differences between data points. Calculating these differences is illustrated in the table below.   Tien's Salary   Tien's Salary  Year  Salary  Difference   2017  $52,429.33    2018  $55,050.80  $55,050.80-$52,429.33=$2,621.47   2019  $57,803.34  $57,803.34-$55,050.80=$2,752.54   2020  $60,693.50  $60,693.50-$57,803.34=$2,890.17   2021  $63,728.18  $63,728.18-$60,693.50=$3,034.68   2022  $66,914.59  $66,914.59-$63,728.18=$3,186.41   2023  $70,260.32  $70,260.32-$66,914.59=$3,345.73   2024  $73,773.33  $73,773.33-$70,260.32=$3,513.02     In order to see how these differences can help us distinguish between linear and other models, consider Vasya's salary in . We know that the difference between each year's salary is $5000.00, because we are told that was the raise each year. This is linear model. In contrast Tien's raises are different each year (they grow year to year). This means his salary does not grow linearly.   Differences for Atmospheric Pressure Model  Consider the model in . calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.  calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.  The differences we obtained do match. Consider . When written as a ratio the differences are the same number.    Atmospheric Pressure Differences (2000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    2000  27.92  27.92-29.92=-2.00   4000  25.92  25.92-27.92=-2.00   6000  23.92  23.92-25.92=-2.00   8000  21.92  21.92-23.92=-2.00      Atmospheric Pressure Differences (1000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    1000  28.92  28.92-29.92=-1.00   2000  27.92  27.92-28.92=-1.00   3000  26.92  26.92-27.92=-1.00   4000  25.92  25.92-26.92=-1.00      Linear Relation  A relation is linear if and only if the rate of change is constant.   This states that a linear model grows by the same amount from one step to the next (rate of change or difference). This equal growth results from the ratio in the form . Consider the specific case . In the table below notice that the differences are all the same and that the difference is 3. 3 is the ratio from the equation. This is always the case. The slope is how fast the line grows.   Differences for Lines     Difference       5-2=3    8-5=3    11-8=3    14-11=3    Note we used this constant addition property when working with ratio problems like . Relations defined by fixed ratios like these are linear.  For linear data consecutive differences are always the same. The next examples ( to ) illustrate known, non-linear data and how the differences for those look.   Quadratic Data  Consider . The first differences (what we calculated above) are not the same. Thus this data is not linear.  However, the first differences increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all quadratic data.    Quadratic Data     1st difference  2nd difference   1  1   2  4  4-1=3   3  9  9-4=5  5-3=2   4  16  16-9=7  7-5=2   5  25  25-16=9  9-7=2   6  36  36-25=11  11-9=2      Quadratic Relation  A relation is quadratic if and only if the second differences are constant.    Exponential Data  Consider . The differences are not the same nor do they show the same pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.    Exponential Data     Difference   1  2   2  4  4-2=2   3  8  8-4=4   4  16  16-8=8   5  32  32-16=16   6  64  64-32=32     The next example illustrates that the differences for exponential data are not always exactly equal to the data.   Exponential Data Differences   Consider . The differences are not exactly equal to the original numbers. However, notice that  , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.  Happily there is an easier way to determine that data is exponential shown in the next section.     Exponential Data with Scale     Difference   1  3   2  9  9-3=6   3  27  27-9=18   4  81  81-27=54   5  243  243-81=162   6  729  729-243=486      Exponential Relation  A relation is exponential if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.     Quotients  The previous section analyzed change as the difference (subtraction) of consecutive numbers (salaries in these examples). This section analyzes change using the percent increase for each pair of consecutive numbers.   Salary Percent Incease  We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in and .  Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?    Percent Increase for Tien   Year  Ratio   Increase   2018  $55,050.80\/$52,429.33  =1.05  5%   2019  $57,803.34\/$55,050.80  =1.05 5%   2020  $60,693.50\/$57,803.34  =1.05 5%   2021  $63,728.18\/$60,693.50  =1.05 5%      Percent Increase for Vasya   Year  Ratio   Increase   2018  $67,347.23\/$62,347.23  =1.08 8%   2019  $72,347.23\/$67,347.23  =1.07  7%   2020  $77,347.23\/$72,347.23  =1.07  7%   2021  $82,347.23\/$77,347.23  =1.06  6%      Exponential  A relation is exponential if and only if the percent increase is constant.    The table below gives an amount of caffeine in the blood stream. This data is exponential with a ratio of 0.87. This ratio means there is a 13% decrease per hour of caffeine in the blood stream per hour in this example. This is in contrast to the previous example which was an increasing exponential.   Hour  Caffeine  Ratio   0  95 mg    1  83 mg    2  72 mg    3  63 mg    4  55 mg    5  48 mg    6  41 mg    7  36 mg    8  31 mg      Although and are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. shows an example of analyzing data using both differences and ratios. Notice that the differences are a scaled version of the original data (scaled by ). The ratio from the quotient is which gives about a 33% increase. For the curious the data was generate by .   Exponential Data 2 Ways   Data  Difference  Ratio                             Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. If not linear, divide consecutive pairs. If all the ratios are the same, then that person's raises were exponential.    Determine Rate  Check if Linear  Check if Linear  Check if Linear  Check if Linear  Find Slope for Linear  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Validity of Model  Write next terms  Write next terms  Write next terms   "
+  "body": " Identifying Rates   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)    So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.    Differences  One way to measure rates is to look at the differences between data points. Calculating these differences is illustrated in the table below.   Tien's Salary   Tien's Salary  Year  Salary  Difference   2017  $52,429.33    2018  $55,050.80  $55,050.80-$52,429.33=$2,621.47   2019  $57,803.34  $57,803.34-$55,050.80=$2,752.54   2020  $60,693.50  $60,693.50-$57,803.34=$2,890.17   2021  $63,728.18  $63,728.18-$60,693.50=$3,034.68   2022  $66,914.59  $66,914.59-$63,728.18=$3,186.41   2023  $70,260.32  $70,260.32-$66,914.59=$3,345.73   2024  $73,773.33  $73,773.33-$70,260.32=$3,513.02     In order to see how these differences can help us distinguish between linear and other models, consider Vasya's salary in . We know that the difference between each year's salary is $5000.00, because we are told that was the raise each year. This is linear model. In contrast Tien's raises are different each year (they grow year to year). This means his salary does not grow linearly.   Differences for Atmospheric Pressure Model  Consider the model in . calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.  calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.  The differences we obtained do match. Consider . When written as a ratio the differences are the same number.    Atmospheric Pressure Differences (2000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    2000  27.92  27.92-29.92=-2.00   4000  25.92  25.92-27.92=-2.00   6000  23.92  23.92-25.92=-2.00   8000  21.92  21.92-23.92=-2.00      Atmospheric Pressure Differences (1000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    1000  28.92  28.92-29.92=-1.00   2000  27.92  27.92-28.92=-1.00   3000  26.92  26.92-27.92=-1.00   4000  25.92  25.92-26.92=-1.00      Linear Relation  A relation is linear if and only if the rate of change is constant.   This states that a linear model grows by the same amount from one step to the next (rate of change or difference). This equal growth results from the ratio in the form . Consider the specific case . In the table below notice that the differences are all the same and that the difference is 3. 3 is the ratio from the equation. This is always the case. The slope is how fast the line grows.   Differences for Lines     Difference       5-2=3    8-5=3    11-8=3    14-11=3    Note we used this constant addition property when working with ratio problems like . Relations defined by fixed ratios like these are linear.  For linear data consecutive differences are always the same. The next examples ( to ) illustrate known, non-linear data and how the differences for those look.   Quadratic Data  Consider . The first differences (what we calculated above) are not the same. Thus this data is not linear.  However, the first differences increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all quadratic data.    Quadratic Data     1st difference  2nd difference   1  1   2  4  4-1=3   3  9  9-4=5  5-3=2   4  16  16-9=7  7-5=2   5  25  25-16=9  9-7=2   6  36  36-25=11  11-9=2      Quadratic Relation  A relation is quadratic if and only if the second differences are constant.    Exponential Data  Consider . The differences are not the same nor do they show the same pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.    Exponential Data     Difference   1  2   2  4  4-2=2   3  8  8-4=4   4  16  16-8=8   5  32  32-16=16   6  64  64-32=32     The next example illustrates that the differences for exponential data are not always exactly equal to the data.   Exponential Data Differences   Consider . The differences are not exactly equal to the original numbers. However, notice that  , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.  Happily there is an easier way to determine that data is exponential shown in the next section.     Exponential Data with Scale     Difference   1  3   2  9  9-3=6   3  27  27-9=18   4  81  81-27=54   5  243  243-81=162   6  729  729-243=486      Exponential Relation  A relation is exponential if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.     Quotients  The previous section analyzed change as the difference (subtraction) of consecutive numbers (salaries in these examples). This section analyzes change using the percent increase for each pair of consecutive numbers.   Salary Percent Incease  We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in and .  Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?    Percent Increase for Tien   Year  Ratio   Increase   2018  $55,050.80\/$52,429.33  =1.05  5%   2019  $57,803.34\/$55,050.80  =1.05 5%   2020  $60,693.50\/$57,803.34  =1.05 5%   2021  $63,728.18\/$60,693.50  =1.05 5%      Percent Increase for Vasya   Year  Ratio   Increase   2018  $67,347.23\/$62,347.23  =1.08 8%   2019  $72,347.23\/$67,347.23  =1.07  7%   2020  $77,347.23\/$72,347.23  =1.07  7%   2021  $82,347.23\/$77,347.23  =1.06  6%      Exponential  A relation is exponential if and only if the percent increase is constant.    The table below gives an amount of caffeine in the blood stream. This data is exponential with a ratio of 0.87. This ratio means there is a 13% decrease per hour of caffeine in the blood stream per hour in this example. This is in contrast to the previous example which was an increasing exponential.   Hour  Caffeine  Ratio   0  95 mg    1  83 mg    2  72 mg    3  63 mg    4  55 mg    5  48 mg    6  41 mg    7  36 mg    8  31 mg      Although and are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. shows an example of analyzing data using both differences and ratios. Notice that the differences are a scaled version of the original data (scaled by ). The ratio from the quotient is which gives about a 33% increase. For the curious the data was generate by .   Exponential Data 2 Ways   Data  Difference  Ratio                             Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. If not linear, divide consecutive pairs. If all the ratios are the same, then that person's raises were exponential.    Extrapolation  In we found a value between two entries in a table. That is interpolation. In other cases we want to find a value past the end of a table. This is called extrapolation .   Extrapolation from a Table  Based on what do we expect Tien's salary to be in 2022, 2025?  From we know each entry is 1.05 times the previous year's salary. Because that was the pattern every year, we might safely suppose it will occur again. Thus we expect his 2022 salary to be .  To extrapolate to 2025 we repeat this process for 2023, 2024, and 2025. If his raises continue at the same rate he will have a salary of $89,671.94 in 2025.    Based on what do we expect Vasya's salary to be in 2025, 2028?  From we know that Vasya has received a $5,000 raise each year. Because that has been the pattern, we might safely suppose it will continue. Thus we expect her 2025 salary to be  To calculate her expected 2028 salary we note that is 4 years after 2024, so she should have four raises of $5,000 each. Her expected salary will be   Notice that in both of these examples we needed to know the growth rate (i.e., exponential or linear respectively) before we could extrapolate.     Determine Rate  Check if Linear  Check if Linear  Check if Linear  Check if Linear  Find Slope for Linear  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Determine Rate  Validity of Model  Write next terms  Write next terms  Write next terms   "
 },
 {
   "id": "table-differences-exponential-tien",
@@ -4024,137 +4042,173 @@ var ptx_lunr_docs = [
   "body": "Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. If not linear, divide consecutive pairs. If all the ratios are the same, then that person's raises were exponential. "
 },
 {
-  "id": "section-rates-5-1",
+  "id": "subsection-extrapolation-2",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-1",
+  "url": "section-rates.html#subsection-extrapolation-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "extrapolation "
+},
+{
+  "id": "example-table-extrapolate-exponential",
+  "level": "2",
+  "url": "section-rates.html#example-table-extrapolate-exponential",
+  "type": "Example",
+  "number": "3.3.22",
+  "title": "Extrapolation from a Table.",
+  "body": " Extrapolation from a Table  Based on what do we expect Tien's salary to be in 2022, 2025?  From we know each entry is 1.05 times the previous year's salary. Because that was the pattern every year, we might safely suppose it will occur again. Thus we expect his 2022 salary to be .  To extrapolate to 2025 we repeat this process for 2023, 2024, and 2025. If his raises continue at the same rate he will have a salary of $89,671.94 in 2025.  "
+},
+{
+  "id": "example-table-extrapolate-linear",
+  "level": "2",
+  "url": "section-rates.html#example-table-extrapolate-linear",
+  "type": "Example",
+  "number": "3.3.23",
+  "title": "",
+  "body": " Based on what do we expect Vasya's salary to be in 2025, 2028?  From we know that Vasya has received a $5,000 raise each year. Because that has been the pattern, we might safely suppose it will continue. Thus we expect her 2025 salary to be  To calculate her expected 2028 salary we note that is 4 years after 2024, so she should have four raises of $5,000 each. Her expected salary will be  "
+},
+{
+  "id": "exercise-extrapolate-salary",
+  "level": "2",
+  "url": "section-rates.html#exercise-extrapolate-salary",
+  "type": "Checkpoint",
+  "number": "3.3.24",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-rates-6-1",
+  "level": "2",
+  "url": "section-rates.html#section-rates-6-1",
   "type": "Exercise",
-  "number": "3.3.3.1",
+  "number": "3.3.4.1",
   "title": "Determine Rate.",
   "body": "Determine Rate "
 },
 {
-  "id": "section-rates-5-2",
+  "id": "section-rates-6-2",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-2",
+  "url": "section-rates.html#section-rates-6-2",
   "type": "Exercise",
-  "number": "3.3.3.2",
+  "number": "3.3.4.2",
   "title": "Check if Linear.",
   "body": "Check if Linear "
 },
 {
-  "id": "section-rates-5-3",
+  "id": "section-rates-6-3",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-3",
+  "url": "section-rates.html#section-rates-6-3",
   "type": "Exercise",
-  "number": "3.3.3.3",
+  "number": "3.3.4.3",
   "title": "Check if Linear.",
   "body": "Check if Linear "
 },
 {
-  "id": "section-rates-5-4",
+  "id": "section-rates-6-4",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-4",
+  "url": "section-rates.html#section-rates-6-4",
   "type": "Exercise",
-  "number": "3.3.3.4",
+  "number": "3.3.4.4",
   "title": "Check if Linear.",
   "body": "Check if Linear "
 },
 {
-  "id": "section-rates-5-5",
+  "id": "section-rates-6-5",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-5",
+  "url": "section-rates.html#section-rates-6-5",
   "type": "Exercise",
-  "number": "3.3.3.5",
+  "number": "3.3.4.5",
   "title": "Check if Linear.",
   "body": "Check if Linear "
 },
 {
-  "id": "section-rates-5-6",
+  "id": "section-rates-6-6",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-6",
+  "url": "section-rates.html#section-rates-6-6",
   "type": "Exercise",
-  "number": "3.3.3.6",
+  "number": "3.3.4.6",
   "title": "Find Slope for Linear.",
   "body": "Find Slope for Linear "
 },
 {
-  "id": "section-rates-5-7",
+  "id": "section-rates-6-7",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-7",
+  "url": "section-rates.html#section-rates-6-7",
   "type": "Exercise",
-  "number": "3.3.3.7",
+  "number": "3.3.4.7",
   "title": "Determine Rate.",
   "body": "Determine Rate "
 },
 {
-  "id": "section-rates-5-8",
+  "id": "section-rates-6-8",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-8",
+  "url": "section-rates.html#section-rates-6-8",
   "type": "Exercise",
-  "number": "3.3.3.8",
+  "number": "3.3.4.8",
   "title": "Determine Rate.",
   "body": "Determine Rate "
 },
 {
-  "id": "section-rates-5-9",
+  "id": "section-rates-6-9",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-9",
+  "url": "section-rates.html#section-rates-6-9",
   "type": "Exercise",
-  "number": "3.3.3.9",
+  "number": "3.3.4.9",
   "title": "Determine Rate.",
   "body": "Determine Rate "
 },
 {
-  "id": "section-rates-5-10",
+  "id": "section-rates-6-10",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-10",
+  "url": "section-rates.html#section-rates-6-10",
   "type": "Exercise",
-  "number": "3.3.3.10",
+  "number": "3.3.4.10",
   "title": "Determine Rate.",
   "body": "Determine Rate "
 },
 {
-  "id": "section-rates-5-11",
+  "id": "section-rates-6-11",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-11",
+  "url": "section-rates.html#section-rates-6-11",
   "type": "Exercise",
-  "number": "3.3.3.11",
+  "number": "3.3.4.11",
   "title": "Determine Rate.",
   "body": "Determine Rate "
 },
 {
-  "id": "section-rates-5-12",
+  "id": "section-rates-6-12",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-12",
+  "url": "section-rates.html#section-rates-6-12",
   "type": "Exercise",
-  "number": "3.3.3.12",
+  "number": "3.3.4.12",
   "title": "Validity of Model.",
   "body": "Validity of Model "
 },
 {
-  "id": "section-rates-5-13",
+  "id": "section-rates-6-13",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-13",
+  "url": "section-rates.html#section-rates-6-13",
   "type": "Exercise",
-  "number": "3.3.3.13",
+  "number": "3.3.4.13",
   "title": "Write next terms.",
   "body": "Write next terms "
 },
 {
-  "id": "section-rates-5-14",
+  "id": "section-rates-6-14",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-14",
+  "url": "section-rates.html#section-rates-6-14",
   "type": "Exercise",
-  "number": "3.3.3.14",
+  "number": "3.3.4.14",
   "title": "Write next terms.",
   "body": "Write next terms "
 },
 {
-  "id": "section-rates-5-15",
+  "id": "section-rates-6-15",
   "level": "2",
-  "url": "section-rates.html#section-rates-5-15",
+  "url": "section-rates.html#section-rates-6-15",
   "type": "Exercise",
-  "number": "3.3.3.15",
+  "number": "3.3.4.15",
   "title": "Write next terms.",
   "body": "Write next terms "
 },
