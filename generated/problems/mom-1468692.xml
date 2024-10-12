@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{5}{x}-{8}{y}={13}</m> </p>
+<p><m>\displaystyle{5}{x}-{8}{y}=-{43}</m> </p>
 <p>
-  <m>\displaystyle{5}{x}-{8}{y}={83}</m></p>
+  <m>\displaystyle-{2}{x}-{6}{y}={8}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({7},-{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{5}{x}+-{8}{y}={13}</m></p>
-<p><m>\displaystyle-{5}{x}={13}-{\left(-{8}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{13}-{\left(-{8}{y}\right)}}}{{-{{5}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{7},{1}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{5}{x}+-{8}{y}=-{43}</m></p>
+<p><m>\displaystyle{5}{x}=-{43}-{\left(-{8}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{43}-{\left(-{8}{y}\right)}}}{{5}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{5}{\left(\frac{{{13}-{\left(-{8}{y}\right)}}}{{-{{5}}}}\right)}+-{8}{y}={83}</m></p>
-<p><m>\displaystyle\frac{{5}}{{-{{5}}}}\cdot{\left({13}\right)}-\frac{{5}}{{-{{5}}}}{\left(-{8}\right)}{y}+-{8}{y}={83}</m></p>
-<p><m>\displaystyle-{13}-{\left(-{8}\right)}{y}+-{8}{y}={83}</m></p>
-<p><m>\displaystyle-{8}{y}+{\left(-{8}\right)}{y}={83}--{13}</m></p>
-<p><m>\displaystyle-{8}{y}+{\left(-{8}\right)}{y}={96}</m></p>
-<p><m>\displaystyle{\left(-{8}+{\left(-{8}\right)}\right)}{y}={96}</m></p>
-<p><m>\displaystyle-{16}{y}={96}</m></p>
-<p><m>\displaystyle{y}=\frac{{96}}{{-{{16}}}}</m></p>
-<p><m>\displaystyle{y}=-{6}</m></p>
+<p><m>\displaystyle-{2}{\left(\frac{{-{43}-{\left(-{8}{y}\right)}}}{{5}}\right)}+-{6}{y}={8}</m></p>
+<p><m>\displaystyle-\frac{{2}}{{5}}\cdot{\left(-{43}\right)}--\frac{{2}}{{5}}{\left(-{8}\right)}{y}+-{6}{y}={8}</m></p>
+<p><m>\displaystyle{17.2}-{\left(-{3.2}\right)}{y}+-{6}{y}={8}</m></p>
+<p><m>\displaystyle-{3.2}{y}+{\left(-{6}\right)}{y}={8}-{17.2}</m></p>
+<p><m>\displaystyle-{3.2}{y}+{\left(-{6}\right)}{y}=-{9.2}</m></p>
+<p><m>\displaystyle{\left(-{3.2}+{\left(-{6}\right)}\right)}{y}=-{9.2}</m></p>
+<p><m>\displaystyle-{9.2}{y}=-{9.2}</m></p>
+<p><m>\displaystyle{y}=-\frac{{9.2}}{{-{{9.2}}}}</m></p>
+<p><m>\displaystyle{y}={1}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{5}{x}+-{8}{\left(-{6}\right)}={13}</m></p>
-<p><m>\displaystyle-{5}{x}+{\left({48}\right)}={13}</m></p>
-<p><m>\displaystyle-{5}{x}={13}-{\left({48}\right)}</m></p>
-<p><m>\displaystyle-{5}{x}=-{35}</m></p>
-<p><m>\displaystyle{x}=-\frac{{35}}{{-{{5}}}}</m></p>
-<p><m>\displaystyle{x}={7}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({7},-{6}\right)}</m>.</p>
+<p><m>\displaystyle{5}{x}+-{8}{\left({1}\right)}=-{43}</m></p>
+<p><m>\displaystyle{5}{x}+{\left(-{8}\right)}=-{43}</m></p>
+<p><m>\displaystyle{5}{x}=-{43}-{\left(-{8}\right)}</m></p>
+<p><m>\displaystyle{5}{x}=-{35}</m></p>
+<p><m>\displaystyle{x}=-\frac{{35}}{{5}}</m></p>
+<p><m>\displaystyle{x}=-{7}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{7},{1}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
