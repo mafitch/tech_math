@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "For Students",
-  "body": " For Students  This book is intended for use as lessons in a course that emphasizes building the skills to read and use mathematics (such as in a technical manual), and to recognize mathematical concepts in things you see and read in life.  This book is not written as a how to manual for specific applications. That is, while this book provides examples of many specific applications from trades and life, it does not provide a step-by-step example to follow for every type of problem. Rather it provides initial examples, presents general concepts used in the example, and helps you practice recognizing what is important in an example and applying it to similar problems.  The topics include  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  You will learn to work with the following mathematical concepts.  Precision and accuracy  Rounding (skill)  Significant Figures (skill)  Determining appropriate rounding from context (critical thinking)    Proportions  Set up and solve proportions (skill)  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)  Unit conversion (skill)    Rates  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    Solving  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Solve a system of linear equations (skill)    Models  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    Trigonometry  Analyze right triangles (skill)  Analyze non-right triangles (skill)  Identify properties of sine and cosine functions (skill)      "
+  "body": " For Students  This book is intended for use as lessons in a course that emphasizes building the skills to read and use mathematics (such as in a technical manual), and to recognize mathematical concepts in things you see and read in life.  This book is not written as a how to manual for specific applications. That is, while this book provides examples of many specific applications from trades and life, it does not provide a step-by-step example to follow for every type of problem. Rather it provides initial examples, presents general concepts used in the example, and helps you practice recognizing what is important in an example and applying it to similar problems.  The topics include  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  You will learn to work with the following mathematical concepts.  Precision and accuracy  Rounding (skill)  Significant Figures (skill)  Determining appropriate rounding from context (critical thinking)    Proportions  Set up and solve proportions (skill)  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)  Unit conversion (skill)    Rates  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    Solving  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Solve a system of linear equations (skill)    Models  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    Geometric Reasoning  Identify shapes and apply their properties (skill)  Analyze right triangles (skill)  Analyze non-right triangles (skill)  Identify properties of sine and cosine functions (skill)      "
 },
 {
   "id": "preface-faculty",
@@ -5010,31 +5010,40 @@ var ptx_lunr_docs = [
   "url": "section-geometry2D.html",
   "type": "Section",
   "number": "4.1",
-  "title": "Geometric Reasoning",
-  "body": " Geometric Reasoning   Here we will use a variety of formulas for geometric properties on basic shapes to analyze objects in context and more complicated shapes. These formulas are provided (largely) without explanation. Our goal is to break down complex problems into simpler problems we can solve using these formulas on basic shapes.    Properties  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape.    2D Shapes   Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Note this includes rectangles , which are parallelograms with four right angles, and rhombi which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.   Parallelograms      Shape  Perimeter  Area           What are the perimeter and area of the parallelogram in ?   The perimeter is the sum of the sides which in this case is  The area of a parallelogram, given in is . For this parallelogram that is     Calculate the area    In the height is labeled . Where is another height that could be used?  What does equal in a rectangle?   Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.    Trapezoid      Shape  Perimeter  Area          What are the perimeter and area of the trapezoid in ?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is     Calculate the area     Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area         Note that the value in the area formula is called the height of the triangle. It is the length of a line segment perpendicularly down from a vertex to the opposing side (or extension of it). The vertical, dashed line segments in are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.   What are the perimeter and area of the triangles in ?   The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is     Calculate the area       In the height is labeled . Where are other possible heights and where are their bases?   Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle on the right in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. 5.98 is the length of the side not adjacent to the right angle ( in the formula). We can calculate the length of the horizontal, dashed segment using the formula.   In we will develop a version of this statement for triangles without a right angle.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .    Calculate the area of the triangles in .  According to Heron's formula for the triangle on the left For the triangle on the right     Circle      Shape  Perimeter  Area              For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 the perimeter is  The area, given in , is . For radius 7.31 the area is    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter.  The area is simply half of the usual area.     Applying Geometry  Our first task in using geometry properties is to break down a problem into the kinds of shapes we already know. Then we can use the properties to calculate results.   Find the area of this wall given the dimensions given in feet.  First we note that we can describe the wall as a rectangle with a triangle on top of it.  The sides of the rectangle area are 7 ft (height) and 24 ft (width). This means that area is .  The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.  Find the perimeter of this wall given the dimensions given in feet. There are five (5) edges. There sum is feet.  What is the (tallest) height of the wall? We need the height of the triangular portion of the wall to find the height at the peak. Height is part of the area formula, and from Heron's formula we already know the height. The total height is then .    Wall      Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations.    What is the total number of feet of lumber (2x4) needed?   There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is . We convert this to feet using a ratio.    If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?   If a 60.0 inch section is cut from a 96.0 inch board, we have left. This is long enough for one of the 27.0 inch segments but not more. Thus two board will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.    If the boards are painted before they are assembled, what is the total surface area of the boards to be painted?   Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is This is .    What is the area that is hidden, that is, cannot be seen after assembling?   This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .     Abacus    What is the total area of the birdhouse shown in ?   Birdhouse      Area Application  Contextless Area  Perimeter and Area Theory  Contextless Area  Contextless Composite Area  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Perimeter and Area  Contextless Area  Contextless Area  Area and Perimeter Application  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Area    "
+  "title": "Geometric Reasoning 2D",
+  "body": " Geometric Reasoning 2D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae. Memorizing all of the formulae is not likely useful. In a job you will be able to look them up. However, anything you use a lot (e.g., triangles) is worth memorizing.  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape. In the figure below showing the outline of Kapi'olani Regional Park the perimeter is the distance someone would travel walking around the edge of the park. The area determines how much grass seed it would take to spread over the park.   Complex Shape with Perimeter and Area     Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Parallelograms include rectangles , which are parallelograms with four right angles, and rhombi , which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.   Parallelograms      Shape  Perimeter  Area          The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with . This means the 2 is an exact number.   What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . For this parallelogram that is    What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. Significant digits rounding is used, because side lengths would be measurements.     Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.    Trapezoid      Shape  Perimeter  Area          What are the perimeter and area of the trapezoid in ?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is     Calculate the area     Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area         Note that the value in the area formula is called the height of the triangle. It is the length of a line segment perpendicularly down from a vertex to the opposing side (or extension of it). The vertical, dashed line segments in are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.   What are the perimeter and area of the triangles in ?   The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is     Calculate the area       In the height is labeled . Where are other possible heights and where are their bases?   Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle on the right in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. 5.98 is the length of the side not adjacent to the right angle ( in the formula). We can calculate the length of the horizontal, dashed segment using the formula.   In we will develop a version of this statement for triangles without a right angle.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .    Calculate the area of the triangles in .  According to Heron's formula for the triangle on the left For the triangle on the right     Circle      Shape  Perimeter  Area              For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 the perimeter is  The area, given in , is . For radius 7.31 the area is    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter.  The area is simply half of the usual area.     Applying Geometry  Our first task in using geometry properties is to break down a problem into the kinds of shapes we already know. Then we can use the properties to calculate results.   Find the area of this wall given the dimensions given in feet.  First we note that we can describe the wall as a rectangle with a triangle on top of it.  The sides of the rectangle area are 7 ft (height) and 24 ft (width). This means that area is .  The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.  Find the perimeter of this wall given the dimensions given in feet. There are five (5) edges. There sum is feet.  What is the (tallest) height of the wall? We need the height of the triangular portion of the wall to find the height at the peak. Height is part of the area formula, and from Heron's formula we already know the height. The total height is then .    Wall      Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations.    What is the total number of feet of lumber (2x4) needed?   There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is . We convert this to feet using a ratio.    If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?   If a 60.0 inch section is cut from a 96.0 inch board, we have left. This is long enough for one of the 27.0 inch segments but not more. Thus two board will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.    If the boards are painted before they are assembled, what is the total surface area of the boards to be painted?   Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is This is .    What is the area that is hidden, that is, cannot be seen after assembling?   This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .     Abacus    What is the total area of the birdhouse shown in ?   Birdhouse      Area Application  Contextless Area  Perimeter and Area Theory  Contextless Area  Contextless Composite Area  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Perimeter and Area  Contextless Area  Contextless Area  Area and Perimeter Application  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Area    "
 },
 {
-  "id": "subsection-geometric-properties-2d-2",
+  "id": "subsection-geometric-properties-2d-3",
   "level": "2",
-  "url": "section-geometry2D.html#subsection-geometric-properties-2d-2",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perimeter area perimeter area "
 },
 {
+  "id": "figure-illustrate-perimeter-area",
+  "level": "2",
+  "url": "section-geometry2D.html#figure-illustrate-perimeter-area",
+  "type": "Figure",
+  "number": "4.1.1",
+  "title": "",
+  "body": " Complex Shape with Perimeter and Area   "
+},
+{
   "id": "definition-parallelogram",
   "level": "2",
   "url": "section-geometry2D.html#definition-parallelogram",
   "type": "Definition",
-  "number": "4.1.1",
+  "number": "4.1.2",
   "title": "Parallelogram.",
   "body": " Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.  "
 },
 {
-  "id": "subsection-geometric-2d-3",
+  "id": "subsection-geometric-properties-2d-6",
   "level": "2",
-  "url": "section-geometry2D.html#subsection-geometric-2d-3",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-6",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5045,7 +5054,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#figure-parallelogram-properties",
   "type": "Table",
-  "number": "4.1.2",
+  "number": "4.1.3",
   "title": "Parallelograms",
   "body": " Parallelograms      Shape  Perimeter  Area         "
 },
@@ -5054,36 +5063,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#example-parallelogram-area",
   "type": "Example",
-  "number": "4.1.3",
-  "title": "",
-  "body": " What are the perimeter and area of the parallelogram in ?   The perimeter is the sum of the sides which in this case is  The area of a parallelogram, given in is . For this parallelogram that is   "
-},
-{
-  "id": "figure-exercise-parallelogram-area",
-  "level": "2",
-  "url": "section-geometry2D.html#figure-exercise-parallelogram-area",
-  "type": "Figure",
   "number": "4.1.4",
   "title": "",
-  "body": " Calculate the area   "
+  "body": " What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . For this parallelogram that is  "
 },
 {
-  "id": "exercise-parallelogram-heights",
+  "id": "example-rectangle-area",
   "level": "2",
-  "url": "section-geometry2D.html#exercise-parallelogram-heights",
-  "type": "Checkpoint",
+  "url": "section-geometry2D.html#example-rectangle-area",
+  "type": "Example",
   "number": "4.1.5",
   "title": "",
-  "body": "In the height is labeled . Where is another height that could be used? "
+  "body": " What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. Significant digits rounding is used, because side lengths would be measurements.  "
 },
 {
-  "id": "exercise-rectangle-from-parallelogram",
+  "id": "subsection-geometric-properties-2d-11",
   "level": "2",
-  "url": "section-geometry2D.html#exercise-rectangle-from-parallelogram",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-11",
   "type": "Checkpoint",
   "number": "4.1.6",
   "title": "",
-  "body": "What does equal in a rectangle? "
+  "body": ""
 },
 {
   "id": "definition-trapezoid",
@@ -5140,9 +5140,9 @@ var ptx_lunr_docs = [
   "body": " Triangle      Shape  Perimeter  Area        "
 },
 {
-  "id": "subsection-geometric-2d-15",
+  "id": "subsection-geometric-properties-2d-18",
   "level": "2",
-  "url": "section-geometry2D.html#subsection-geometric-2d-15",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-18",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5293,182 +5293,182 @@ var ptx_lunr_docs = [
   "body": " Birdhouse   "
 },
 {
-  "id": "section-geometry2D-6-1",
+  "id": "section-geometry2D-5-1",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-1",
+  "url": "section-geometry2D.html#section-geometry2D-5-1",
   "type": "Exercise",
-  "number": "4.1.4.1",
+  "number": "4.1.3.1",
   "title": "Area Application.",
   "body": "Area Application "
 },
 {
-  "id": "section-geometry2D-6-2",
+  "id": "section-geometry2D-5-2",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-2",
+  "url": "section-geometry2D.html#section-geometry2D-5-2",
   "type": "Exercise",
-  "number": "4.1.4.2",
+  "number": "4.1.3.2",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-3",
+  "id": "section-geometry2D-5-3",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-3",
+  "url": "section-geometry2D.html#section-geometry2D-5-3",
   "type": "Exercise",
-  "number": "4.1.4.3",
+  "number": "4.1.3.3",
   "title": "Perimeter and Area Theory.",
   "body": "Perimeter and Area Theory "
 },
 {
-  "id": "section-geometry2D-6-4",
+  "id": "section-geometry2D-5-4",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-4",
+  "url": "section-geometry2D.html#section-geometry2D-5-4",
   "type": "Exercise",
-  "number": "4.1.4.4",
+  "number": "4.1.3.4",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-5",
+  "id": "section-geometry2D-5-5",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-5",
+  "url": "section-geometry2D.html#section-geometry2D-5-5",
   "type": "Exercise",
-  "number": "4.1.4.5",
+  "number": "4.1.3.5",
   "title": "Contextless Composite Area.",
   "body": "Contextless Composite Area "
 },
 {
-  "id": "section-geometry2D-6-6",
+  "id": "section-geometry2D-5-6",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-6",
+  "url": "section-geometry2D.html#section-geometry2D-5-6",
   "type": "Exercise",
-  "number": "4.1.4.6",
+  "number": "4.1.3.6",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-7",
+  "id": "section-geometry2D-5-7",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-7",
+  "url": "section-geometry2D.html#section-geometry2D-5-7",
   "type": "Exercise",
-  "number": "4.1.4.7",
+  "number": "4.1.3.7",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-8",
+  "id": "section-geometry2D-5-8",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-8",
+  "url": "section-geometry2D.html#section-geometry2D-5-8",
   "type": "Exercise",
-  "number": "4.1.4.8",
+  "number": "4.1.3.8",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-9",
+  "id": "section-geometry2D-5-9",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-9",
+  "url": "section-geometry2D.html#section-geometry2D-5-9",
   "type": "Exercise",
-  "number": "4.1.4.9",
+  "number": "4.1.3.9",
   "title": "Contextless Composite Area.",
   "body": "Contextless Composite Area "
 },
 {
-  "id": "section-geometry2D-6-10",
+  "id": "section-geometry2D-5-10",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-10",
+  "url": "section-geometry2D.html#section-geometry2D-5-10",
   "type": "Exercise",
-  "number": "4.1.4.10",
+  "number": "4.1.3.10",
   "title": "Area Application.",
   "body": "Area Application "
 },
 {
-  "id": "section-geometry2D-6-11",
+  "id": "section-geometry2D-5-11",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-11",
+  "url": "section-geometry2D.html#section-geometry2D-5-11",
   "type": "Exercise",
-  "number": "4.1.4.11",
+  "number": "4.1.3.11",
   "title": "Contextless Perimeter and Area.",
   "body": "Contextless Perimeter and Area "
 },
 {
-  "id": "section-geometry2D-6-12",
+  "id": "section-geometry2D-5-12",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-12",
+  "url": "section-geometry2D.html#section-geometry2D-5-12",
   "type": "Exercise",
-  "number": "4.1.4.12",
+  "number": "4.1.3.12",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-13",
+  "id": "section-geometry2D-5-13",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-13",
+  "url": "section-geometry2D.html#section-geometry2D-5-13",
   "type": "Exercise",
-  "number": "4.1.4.13",
+  "number": "4.1.3.13",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-14",
+  "id": "section-geometry2D-5-14",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-14",
+  "url": "section-geometry2D.html#section-geometry2D-5-14",
   "type": "Exercise",
-  "number": "4.1.4.14",
+  "number": "4.1.3.14",
   "title": "Area and Perimeter Application.",
   "body": "Area and Perimeter Application "
 },
 {
-  "id": "section-geometry2D-6-15",
+  "id": "section-geometry2D-5-15",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-15",
+  "url": "section-geometry2D.html#section-geometry2D-5-15",
   "type": "Exercise",
-  "number": "4.1.4.15",
+  "number": "4.1.3.15",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-16",
+  "id": "section-geometry2D-5-16",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-16",
+  "url": "section-geometry2D.html#section-geometry2D-5-16",
   "type": "Exercise",
-  "number": "4.1.4.16",
+  "number": "4.1.3.16",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-17",
+  "id": "section-geometry2D-5-17",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-17",
+  "url": "section-geometry2D.html#section-geometry2D-5-17",
   "type": "Exercise",
-  "number": "4.1.4.17",
+  "number": "4.1.3.17",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
 {
-  "id": "section-geometry2D-6-18",
+  "id": "section-geometry2D-5-18",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-18",
+  "url": "section-geometry2D.html#section-geometry2D-5-18",
   "type": "Exercise",
-  "number": "4.1.4.18",
+  "number": "4.1.3.18",
   "title": "Contextless Composite Area.",
   "body": "Contextless Composite Area "
 },
 {
-  "id": "section-geometry2D-6-19",
+  "id": "section-geometry2D-5-19",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-19",
+  "url": "section-geometry2D.html#section-geometry2D-5-19",
   "type": "Exercise",
-  "number": "4.1.4.19",
+  "number": "4.1.3.19",
   "title": "Area Application.",
   "body": "Area Application "
 },
 {
-  "id": "section-geometry2D-6-20",
+  "id": "section-geometry2D-5-20",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-6-20",
+  "url": "section-geometry2D.html#section-geometry2D-5-20",
   "type": "Exercise",
-  "number": "4.1.4.20",
+  "number": "4.1.3.20",
   "title": "Contextless Area.",
   "body": "Contextless Area "
 },
@@ -5479,7 +5479,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Geometric Reasoning 3D",
-  "body": " Geometric Reasoning 3D   Properties  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape.  The volume of a 3D shape is a measure of what it takes to fill a 3D shape.    3D Shapes   Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms.   Prisms      Shape  Surface Area  Volume    sum of area of all sides       What is the surface area of the right triangular prism in ? The surface area consists of the areas of the three rectangles and the two right triangles. The rectangle areas are , , and . Because the triangles are right triangles, they both have area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3, times the height of the prism, 10. Thus the area is .    Calculate the surface area and volume     Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.   Sphere      Shape  Surface Area  Volume          Pyramid      Shape  Surface Area  Volume    sum of surfaces      What is the relationship between the volume of a pyramid to the volume of a prism with the same base?   What is the surface area of the pyramid in This pyramid consists of four triangular sides and a square base. The area of a triangle can be found using Heron's formula. The area of the base is 4. Thus the surface area is .  What is the volume of the pyramid in The volume of a pyramid is a third of base times height, so .    Pyramid with a square base     Cone      Shape  Lateral Surface Area  Volume    or      The latin word frustrum means cut off . This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note below refers to the perimeter of the bases.  xml:id=\"figure-pyramid-frustrum-properties\"> Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume          What is the surface area of the frustrum of a pyramid in ? The perimeter of the lower base is 9 and the perimeter of the upper base is 3. The area of the three sides is therefore . To calculate the area of the two bases we will need Heron's formula. Thus the surface area is .  What is the volume of the frustrum of a pyramid in ? Using the values provided     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry   An ice cream cone has the dimensions shown in . What is the volume of the ice cream? This is a right circular cone with a half sphere on top. The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is 59.  An ice cream cone has the dimensions shown in . What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is 102.    Ice Cream for Volume and Surface Area       Volume Application  Volume Application  Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
+  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Properties  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape.  The volume of a 3D shape is a measure of what it takes to fill a 3D shape.    3D Shapes   Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms.   Prisms      Shape  Surface Area  Volume    sum of area of all sides       What is the surface area of the right triangular prism in ? The surface area consists of the areas of the three rectangles and the two right triangles. The rectangle areas are , , and . Because the triangles are right triangles, they both have area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3, times the height of the prism, 10. Thus the area is .    Calculate the surface area and volume     Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.   Sphere      Shape  Surface Area  Volume          Pyramid      Shape  Surface Area  Volume    sum of surfaces      What is the relationship between the volume of a pyramid to the volume of a prism with the same base?   What is the surface area of the pyramid in This pyramid consists of four triangular sides and a square base. The area of a triangle can be found using Heron's formula. The area of the base is 4. Thus the surface area is .  What is the volume of the pyramid in The volume of a pyramid is a third of base times height, so .    Pyramid with a square base     Cone      Shape  Lateral Surface Area  Volume    or      The latin word frustrum means cut off . This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note below refers to the perimeter of the bases.  xml:id=\"figure-pyramid-frustrum-properties\"> Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume          What is the surface area of the frustrum of a pyramid in ? The perimeter of the lower base is 9 and the perimeter of the upper base is 3. The area of the three sides is therefore . To calculate the area of the two bases we will need Heron's formula. Thus the surface area is .  What is the volume of the frustrum of a pyramid in ? Using the values provided     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry   An ice cream cone has the dimensions shown in . What is the volume of the ice cream? This is a right circular cone with a half sphere on top. The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is 59.  An ice cream cone has the dimensions shown in . What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is 102.    Ice Cream for Volume and Surface Area       Volume Application  Volume Application  Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
 },
 {
   "id": "subsection-geometric-properties-3d-2",
@@ -5689,117 +5689,117 @@ var ptx_lunr_docs = [
   "body": " Ice Cream for Volume and Surface Area   "
 },
 {
-  "id": "section-geometry3D-5-1",
+  "id": "section-geometry3D-6-1",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-1",
+  "url": "section-geometry3D.html#section-geometry3D-6-1",
   "type": "Exercise",
   "number": "4.2.4.1",
   "title": "Volume Application.",
   "body": "Volume Application "
 },
 {
-  "id": "section-geometry3D-5-2",
+  "id": "section-geometry3D-6-2",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-2",
+  "url": "section-geometry3D.html#section-geometry3D-6-2",
   "type": "Exercise",
   "number": "4.2.4.2",
   "title": "Volume Application.",
   "body": "Volume Application "
 },
 {
-  "id": "section-geometry3D-5-3",
+  "id": "section-geometry3D-6-3",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-3",
+  "url": "section-geometry3D.html#section-geometry3D-6-3",
   "type": "Exercise",
   "number": "4.2.4.3",
   "title": "Contextless Volume.",
   "body": "Contextless Volume "
 },
 {
-  "id": "section-geometry3D-5-4",
+  "id": "section-geometry3D-6-4",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-4",
+  "url": "section-geometry3D.html#section-geometry3D-6-4",
   "type": "Exercise",
   "number": "4.2.4.4",
   "title": "Contextless Composite Volume.",
   "body": "Contextless Composite Volume "
 },
 {
-  "id": "section-geometry3D-5-5",
+  "id": "section-geometry3D-6-5",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-5",
+  "url": "section-geometry3D.html#section-geometry3D-6-5",
   "type": "Exercise",
   "number": "4.2.4.5",
   "title": "Contextless Composite Volume.",
   "body": "Contextless Composite Volume "
 },
 {
-  "id": "section-geometry3D-5-6",
+  "id": "section-geometry3D-6-6",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-6",
+  "url": "section-geometry3D.html#section-geometry3D-6-6",
   "type": "Exercise",
   "number": "4.2.4.6",
   "title": "Contextless Composite Volume.",
   "body": "Contextless Composite Volume "
 },
 {
-  "id": "section-geometry3D-5-7",
+  "id": "section-geometry3D-6-7",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-7",
+  "url": "section-geometry3D.html#section-geometry3D-6-7",
   "type": "Exercise",
   "number": "4.2.4.7",
   "title": "Contextless Composite Volume.",
   "body": "Contextless Composite Volume "
 },
 {
-  "id": "section-geometry3D-5-8",
+  "id": "section-geometry3D-6-8",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-8",
+  "url": "section-geometry3D.html#section-geometry3D-6-8",
   "type": "Exercise",
   "number": "4.2.4.8",
   "title": "Contextless Volume.",
   "body": "Contextless Volume "
 },
 {
-  "id": "section-geometry3D-5-9",
+  "id": "section-geometry3D-6-9",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-9",
+  "url": "section-geometry3D.html#section-geometry3D-6-9",
   "type": "Exercise",
   "number": "4.2.4.9",
   "title": "Volume Application.",
   "body": "Volume Application "
 },
 {
-  "id": "section-geometry3D-5-10",
+  "id": "section-geometry3D-6-10",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-10",
+  "url": "section-geometry3D.html#section-geometry3D-6-10",
   "type": "Exercise",
   "number": "4.2.4.10",
   "title": "Volume Application.",
   "body": "Volume Application "
 },
 {
-  "id": "section-geometry3D-5-11",
+  "id": "section-geometry3D-6-11",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-11",
+  "url": "section-geometry3D.html#section-geometry3D-6-11",
   "type": "Exercise",
   "number": "4.2.4.11",
   "title": "Volume Application.",
   "body": "Volume Application "
 },
 {
-  "id": "section-geometry3D-5-12",
+  "id": "section-geometry3D-6-12",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-12",
+  "url": "section-geometry3D.html#section-geometry3D-6-12",
   "type": "Exercise",
   "number": "4.2.4.12",
   "title": "Contextless Volume.",
   "body": "Contextless Volume "
 },
 {
-  "id": "section-geometry3D-5-13",
+  "id": "section-geometry3D-6-13",
   "level": "2",
-  "url": "section-geometry3D.html#section-geometry3D-5-13",
+  "url": "section-geometry3D.html#section-geometry3D-6-13",
   "type": "Exercise",
   "number": "4.2.4.13",
   "title": "Volume Application.",
