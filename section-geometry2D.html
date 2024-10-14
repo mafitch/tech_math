@@ -129,7 +129,7 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.4.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
@@ -137,7 +137,7 @@ eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
 <script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.51d479d87f8466bb.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -605,7 +605,7 @@ eBookConfig.enable_chatcodes =  false;
 \text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510.
 \end{equation*}
 </div>
-<div class="para">Significant digits rounding is used, because side lengths would be measurements.</div>
+<div class="para">Significant digits rounding is used, because side lengths are measurements.</div>
 </div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-11"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.6</span><span class="period">.</span>
 </h4>
@@ -623,12 +623,13 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(a_1+b_1+a_2+b_2\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{h}{2}(a_1+a_2)\)</span></td>
 </tr>
-</table></div></figure><article class="example example-like" id="example-trapezoid-area"><h4 class="heading">
+</table></div></figure><div class="para" id="subsection-geometric-properties-2d-14">Because none of the side lengths need be the same, the perimeter “formula” is just the sum of the four sides. The height must be between the two, parallel sides. The formula does not work if a line is connected between the other two sides.</div>
+<article class="example example-like" id="example-trapezoid-area"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-trapezoid-area-1-1">What are the perimeter and area of the trapezoid in <a href="section-geometry2D.html#figure-exercise-trapezoid-area" class="xref" data-knowl="./knowl/xref/figure-exercise-trapezoid-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.10">Figure 4.1.10</a>?</div>
-<div class="solutions"><details id="example-trapezoid-area-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="example-trapezoid-area-2-1">
+<div class="para" id="example-trapezoid-area-1">What are the perimeter and area of this trapezoid?</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/trapezoid_area.svg" role="img" class="contained"></div>
+<div class="para logical" id="example-trapezoid-area-3">
 <div class="para">The perimeter of this trapezoid is the sum of the four side lengths</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -636,19 +637,42 @@ eBookConfig.enable_chatcodes =  false;
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="example-trapezoid-area-2-2">
+<div class="para logical" id="example-trapezoid-area-4">
 <div class="para">The area of a trapezoid, given in <a href="section-geometry2D.html#figure-trapezoid-properties" class="xref" data-knowl="./knowl/xref/figure-trapezoid-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.8: Trapezoid">Table 4.1.8</a> is <span class="process-math">\(\frac{h}{2}(a+b)\text{.}\)</span> For this trapezoid that is</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-trapezoid-properties.html">
 \begin{equation*}
-\text{Area} = \frac{3.00}{2}(1.76+5.00) \approx 10.1.
+\text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1.
+\end{equation*}
+</div>
+<div class="para">Significant digits rounding is used, because side lengths are measurements.</div>
+</div></article><div class="para" id="subsection-geometric-properties-2d-16">Note the following is also a trapezoid and the formulae still apply.</div>
+<article class="example example-like" id="example-trapezoid-too"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-trapezoid-too-1">What are the perimeter and area of this trapezoid?</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/trapezoid_too.svg" role="img" class="contained"></div>
+<div class="para logical" id="example-trapezoid-too-3">
+<div class="para">The perimeter of this trapezoid is the sum of the four side lengths</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10.00+10.00+8.54+13.00 = 41.54\text{.}
 \end{equation*}
 </div>
 </div>
-</div></details></div></article><figure class="figure figure-like" id="figure-exercise-trapezoid-area"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/trapezoid_area.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.10<span class="period">.</span></span><span class="space"> </span>Calculate the area</figcaption></figure><article class="definition definition-like" id="definition-triangle"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.11</span><span class="period">.</span><span class="space"> </span><span class="title">Triangle.</span>
+<div class="para logical" id="example-trapezoid-too-4">
+<div class="para">The area of a trapezoid, given in <a href="section-geometry2D.html#figure-trapezoid-properties" class="xref" data-knowl="./knowl/xref/figure-trapezoid-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.8: Trapezoid">Table 4.1.8</a> is <span class="process-math">\(\frac{h}{2}(a+b)\text{.}\)</span> For this trapezoid that is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-trapezoid-properties.html">
+\begin{equation*}
+\text{Area} = \frac{8.00}{2}(10.00+13.00) = 92.0.
+\end{equation*}
+</div>
+</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-18"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="definition-triangle-2-1">A <dfn class="terminology">triangle</dfn> is a three sided shape.</div></article><figure class="table table-like" id="figure-triangle-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.12<span class="period">.</span></span><span class="space"> </span>Triangle</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div id="momsubsection-geometric-properties-2d-18-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-18-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471129&amp;frame_id=momsubsection-geometric-properties-2d-18-1"></iframe></div></article><article class="definition definition-like" id="definition-triangle"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.12</span><span class="period">.</span><span class="space"> </span><span class="title">Triangle.</span>
+</h4>
+<div class="para" id="definition-triangle-2-1">A <dfn class="terminology">triangle</dfn> is a three sided shape.</div></article><figure class="table table-like" id="figure-triangle-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.13<span class="period">.</span></span><span class="space"> </span>Triangle</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-triangle-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-triangle-properties-2-4-2-1">Perimeter</div></td>
@@ -659,51 +683,52 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(a+b+c\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{1}{2}bh\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-2d-18">Note that the value <span class="process-math">\(h\)</span> in the area formula is called the <dfn class="terminology">height</dfn> of the triangle. It is the length of a line segment perpendicularly down from a vertex to the opposing side (or extension of it). The vertical, dashed line segments in <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.14">Figure 4.1.14</a> are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</div>
+</table></div></figure><div class="para" id="subsection-geometric-properties-2d-21">Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15">Figure 4.1.15</a>. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side. The <span class="process-math">\(1/2\)</span> in the area formula is an exact number.</div>
 <article class="example example-like" id="example-triangle-area1"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.13</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-triangle-area1-1-1">What are the perimeter and area of the triangles in <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.14">Figure 4.1.14</a>?</div>
-<div class="solutions"><details id="example-triangle-area1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="example-triangle-area1-2-1">
+<div class="para" id="example-triangle-area1-1">What are the perimeter and area of the triangles in <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15">Figure 4.1.15</a>?</div>
+<div class="para logical" id="example-triangle-area1-2">
 <div class="para">The perimeter of the triangle on the left is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-5.98+10.9+8.19 \approx 25.1.
+5.98+10.9+8.19 = 25.07 \approx 25.1.
 \end{equation*}
 </div>
 <div class="para">The perimeter of the triangle on the right is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-5.98+2.87+8.19 \approx 17.0.
+5.98+2.87+8.19 = 17.04 \approx 17.0.
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="example-triangle-area1-2-2">
-<div class="para">The area of a triangle, given in <a href="section-geometry2D.html#figure-triangle-properties" class="xref" data-knowl="./knowl/xref/figure-triangle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.12: Triangle">Table 4.1.12</a> is <span class="process-math">\(\frac{1}{2}b h\text{.}\)</span> For the triangle on the left that is</div>
+<div class="para logical" id="example-triangle-area1-3">
+<div class="para">The area of a triangle, given in <a href="section-geometry2D.html#figure-triangle-properties" class="xref" data-knowl="./knowl/xref/figure-triangle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.13: Triangle">Table 4.1.13</a> is <span class="process-math">\(\frac{1}{2}b h\text{.}\)</span> For the triangle on the left that is</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-triangle-properties.html">
 \begin{equation*}
-\text{Area} = \frac{1}{2}10.90 \cdot 4.43 \approx 24.1.
+\text{Area} = \frac{1}{2}10.90 \cdot 4.43 = 24.1435 \approx 24.1.
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="example-triangle-area1-2-3">
+<div class="para logical" id="example-triangle-area1-4">
 <div class="para">For the triangle on the right the area is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\text{Area} = \frac{1}{2}2.87 \cdot 4.43 \approx 6.36
+\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.35705 \approx 6.36
 \end{equation*}
 </div>
-</div>
-</div></details></div></article><figure class="figure figure-like" id="figure-exercise-triangle-area"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel bottom" style="width:50%;"><img src="external/images/triangle_area.svg" role="img" class="contained"></div>
-<div class="sbspanel bottom" style="width:50%;"><img src="external/images/triangle_area2.svg" role="img" class="contained"></div>
+</div></article><figure class="figure figure-like" id="figure-exercise-triangle-area"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel bottom" style="width:50%;"><figure class="figure figure-like" id="subfigure-triangle-area1"><img src="external/images/triangle_area.svg" role="img" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Obtuse Triangle</figcaption></figure></div>
+<div class="sbspanel bottom" style="width:50%;"><figure class="figure figure-like" id="subfigure-triangle-area2"><img src="external/images/triangle_area2.svg" role="img" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Acute Triangle</figcaption></figure></div>
 </div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.14<span class="period">.</span></span><span class="space"> </span>Calculate the area</figcaption></figure><article class="exercise exercise-like" id="exercise-triangle-alternate-heights"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.15</span><span class="period">.</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.15<span class="period">.</span></span><span class="space"> </span>Two Triangles</figcaption></figure><article class="exercise exercise-like" id="subsection-geometric-properties-2d-24"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.16</span><span class="period">.</span>
 </h4>
-<div class="para" id="exercise-triangle-alternate-heights-1-1">In <a href="section-geometry2D.html#figure-triangle-properties" class="xref" data-knowl="./knowl/xref/figure-triangle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.12: Triangle">Table 4.1.12</a> the height is labeled <span class="process-math">\(h_1\text{.}\)</span> Where are other possible heights and where are their bases?</div></article><article class="theorem theorem-like" id="theorem-pythagorean"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.1.16</span><span class="period">.</span><span class="space"> </span><span class="title">Pythagorean Theorem.</span>
+<div id="momsubsection-geometric-properties-2d-24-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-24-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471177&amp;frame_id=momsubsection-geometric-properties-2d-24-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-triangle-alternate-heights"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="exercise-triangle-alternate-heights-1-1">In <a href="section-geometry2D.html#figure-triangle-properties" class="xref" data-knowl="./knowl/xref/figure-triangle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.13: Triangle">Table 4.1.13</a> the height is labeled <span class="process-math">\(h\text{.}\)</span> Draw the other two heights.</div></article><article class="theorem theorem-like" id="theorem-pythagorean"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.1.18</span><span class="period">.</span><span class="space"> </span><span class="title">Pythagorean Theorem.</span>
 </h4>
 <div class="para logical" id="theorem-pythagorean-2-1">
 <div class="para">For a triangle containing a right angle</div>
@@ -714,11 +739,11 @@ a^2+b^2=c^2
 </div>
 <div class="para">where <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are the lengths of the sides adjacent to the right angle and <span class="process-math">\(c\)</span> is the third side.</div>
 </div></article><article class="example example-like" id="example-pythagorean-use1"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.17</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.19</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-pythagorean-use1-1">
-<div class="para">Consider the triangle on the right in <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.14">Figure 4.1.14</a>. Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. 5.98 is the length of the side not adjacent to the right angle (<span class="process-math">\(c\)</span> in the formula). We can calculate the length of the horizontal, dashed segment using the formula.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-exercise-triangle-area.html" id="example-pythagorean-use1-1-3">
+<div class="para">Consider the triangle in <a href="section-geometry2D.html#subfigure-triangle-area2" class="xref" data-knowl="./knowl/xref/subfigure-triangle-area2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15.(b)">Figure 4.1.15.(b)</a>. Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle (<span class="process-math">\(c\)</span> in the formula).</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subfigure-triangle-area2.html" id="example-pythagorean-use1-1-3">
 \begin{align*}
 4.43^2+b^2 \amp = 5.98^2.\\
 19.6+b^2 \amp = 35.8.\\
@@ -727,9 +752,31 @@ b^2 \amp = 16.2.\\
 b \amp \approx 4.06.
 \end{align*}
 </div>
-</div></article><div class="para" id="subsection-geometric-properties-2d-24">In <a href="section-trig-laws.html" class="internal" title="Section 7.3: Non-Right Triangles">Section 7.3</a> we will develop a version of this statement for triangles without a right angle.</div>
+<div class="para">We use significant figures rounding because side lengths are measurements.</div>
+</div></article><article class="example example-like" id="example-not-right-triangle"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.20</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="example-not-right-triangle-1">
+<div class="para">Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in <a href="section-geometry2D.html#subfigure-triangle-area1" class="xref" data-knowl="./knowl/xref/subfigure-triangle-area1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15.(a)">Figure 4.1.15.(a)</a> appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then <span class="process-math">\(a^2+b^2\)</span> will equal <span class="process-math">\(c^2\text{.}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subfigure-triangle-area1.html" id="example-not-right-triangle-1-4">
+\begin{align*}
+a^2+b^2 &amp; =\\
+5.98^2 + 8.19^2 &amp; = \\
+35.8 + 67.1 &amp; = 102.9.\\
+c^2 &amp; = 102.9.\\
+c &amp; = \sqrt{102.9}\\
+&amp; = 10.1.
+\end{align*}
+</div>
+<div class="para">Because <span class="process-math">\(10.1 \ne 10.9\)</span> this is not a right triangle, but it appears to be close.</div>
+</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-29"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.21</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-geometric-properties-2d-29-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-29-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471255&amp;frame_id=momsubsection-geometric-properties-2d-29-1"></iframe></div></article><div class="para" id="subsection-geometric-properties-2d-30">In <a href="section-trig-laws.html" class="internal" title="Section 7.3: Non-Right Triangles">Section 7.3</a> we will develop a version of this statement for triangles without a right angle.</div>
+<div class="para" id="subsection-geometric-properties-2d-31">The formula for area of a triangle above requires that we be able to calculate the height. In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.</div>
 <article class="theorem theorem-like" id="theorem-herons-formula"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.1.18</span><span class="period">.</span><span class="space"> </span><span class="title">Heron’s Formula.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.1.22</span><span class="period">.</span><span class="space"> </span><span class="title">Heron’s Formula.</span>
 </h4>
 <div class="para logical" id="theorem-herons-formula-2-1">
 <div class="para">The area of a triangle can be calculated using the three sides.</div>
@@ -740,30 +787,43 @@ A = \sqrt{s(s-a)(s-b)(s-c)}
 </div>
 <div class="para">where <span class="process-math">\(s=\frac{1}{2}(a+b+c)\text{.}\)</span>
 </div>
-</div></article><article class="example example-like" id="example-heron-triangle"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.19</span><span class="period">.</span>
+</div></article><div class="para" id="subsection-geometric-properties-2d-33">The <span class="process-math">\(1/2\)</span> in Heron’s formula is an exact number.</div>
+<article class="example example-like" id="example-heron-triangle"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.23</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-heron-triangle-1-1">Calculate the area of the triangles in <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.14">Figure 4.1.14</a>.</div>
-<div class="solutions"><details id="example-heron-triangle-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-heron-triangle-2-1">
-<div class="para">According to Heron’s formula for the triangle on the left</div>
-<div class="displaymath process-math" id="example-heron-triangle-2-1-1">
+<div class="para" id="example-heron-triangle-1">Calculate the area of the triangles in <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15">Figure 4.1.15</a>.</div>
+<div class="para logical" id="example-heron-triangle-2">
+<div class="para">According to Heron’s formula for the triangle in <a href="section-geometry2D.html#subfigure-triangle-area1" class="xref" data-knowl="./knowl/xref/subfigure-triangle-area1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15.(a)">Figure 4.1.15.(a)</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subfigure-triangle-area1.html" id="example-heron-triangle-2-2">
 \begin{align*}
 s &amp; = \frac{1}{2}(5.98+8.19+10.90)\\
-&amp; \approx 12.54.\\
-\text{Area} &amp; = \sqrt{12.54(12.54-5.98)(12.54-8.19)(12.54-10.90)}\\
-&amp; = 24.2.
+&amp; = 12.535. &amp; \text{ Precise to the hundredths only}\\
+\text{Area} &amp; \approx \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.90)} &amp; \text{Factors have 3 sigfigs}\\
+&amp; \approx \sqrt{583.7199977} &amp; \text{Root maintains 3 sigfigs}\\
+&amp; \approx 24.16\\
+&amp; \approx 24.2.
 \end{align*}
 </div>
-<div class="para">For the triangle on the right</div>
-<div class="displaymath process-math" id="example-heron-triangle-2-1-2">
+</div>
+<div class="para logical" id="example-heron-triangle-3">
+<div class="para">For the triangle in <a href="section-geometry2D.html#subfigure-triangle-area2" class="xref" data-knowl="./knowl/xref/subfigure-triangle-area2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15.(b)">Figure 4.1.15.(b)</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subfigure-triangle-area2.html" id="example-heron-triangle-3-2">
 \begin{align*}
 s &amp; = \frac{1}{2}(5.98+8.19+2.87)\\
-&amp; \approx 8.52.\\
-\text{Area} &amp; = \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)}\\
+&amp; \approx 8.52. &amp; \text{Precise to the hundredths}\\
+\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} &amp; \text{Each factor has 3 sigfigs}\\
+&amp; \approx \sqrt{40.34927160} &amp; \text{Root maintains 3 sigfigs}\\
 &amp; \approx 6.35.
 \end{align*}
 </div>
-</div></div></details></div></article><figure class="table table-like" id="figure-circle-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.20<span class="period">.</span></span><span class="space"> </span>Circle</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</div>
+<div class="para" id="example-heron-triangle-4">We use significant digits rounding because the side lengths are measurements.</div></article><div class="para" id="subsection-geometric-properties-2d-35">Notice that the results from Heron’s formula are slightly different from the results using the <span class="process-math">\(\frac{1}{2}bh\)</span> formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.</div>
+<article class="exercise exercise-like" id="subsection-geometric-properties-2d-36"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.24</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-geometric-properties-2d-36-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-36-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471317&amp;frame_id=momsubsection-geometric-properties-2d-36-1"></iframe></div></article><figure class="table table-like" id="figure-circle-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.25<span class="period">.</span></span><span class="space"> </span>Circle</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-circle-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-circle-properties-2-4-2-1">Perimeter</div></td>
@@ -779,50 +839,68 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87)\\
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\pi d\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\pi \frac{d^2}{4}\)</span></td>
 </tr>
-</table></div></figure><article class="example example-like" id="example-circle-properties"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.21</span><span class="period">.</span>
+</table></div></figure><div class="para" id="subsection-geometric-properties-2d-38">The 2 and 4 in the formulae are exact numbers. When performing calculations with <span class="process-math">\(\pi\)</span> we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.</div>
+<article class="example example-like" id="example-circle-properties"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.26</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-circle-properties-1">For a circle with radius 7.31 what are the perimeter and area?</div>
 <div class="para logical" id="example-circle-properties-2">
-<div class="para">The perimeter, given in <a href="section-geometry2D.html#figure-circle-properties" class="xref" data-knowl="./knowl/xref/figure-circle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.20: Circle">Table 4.1.20</a>, is <span class="process-math">\(2\pi r\text{.}\)</span> For radius 7.31 the perimeter is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-circle-properties.html">
-\begin{equation*}
-2\pi (7.31) \approx 45.9.
-\end{equation*}
+<div class="para">The perimeter, given in <a href="section-geometry2D.html#figure-circle-properties" class="xref" data-knowl="./knowl/xref/figure-circle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.25: Circle">Table 4.1.25</a>, is <span class="process-math">\(2\pi r\text{.}\)</span> For radius 7.31</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-circle-properties.html" id="example-circle-properties-2-3">
+\begin{align*}
+\text{perimeter} &amp; = 2\pi (7.31)\\
+&amp; \approx 2(3.14)(7.31)\\
+&amp; = 45.9068.\\
+&amp; \approx 45.9.
+\end{align*}
 </div>
+<div class="para">We use the approximation 3.14 for <span class="process-math">\(\pi\)</span> because our measurements have only three significant digits.</div>
 </div>
 <div class="para logical" id="example-circle-properties-3">
-<div class="para">The area, given in <a href="section-geometry2D.html#figure-circle-properties" class="xref" data-knowl="./knowl/xref/figure-circle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.20: Circle">Table 4.1.20</a>, is <span class="process-math">\(\pi r^2\text{.}\)</span> For radius 7.31 the area is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-circle-properties.html">
-\begin{equation*}
-\pi (7.31)^2 \approx 168.
-\end{equation*}
+<div class="para">The area, given in <a href="section-geometry2D.html#figure-circle-properties" class="xref" data-knowl="./knowl/xref/figure-circle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.25: Circle">Table 4.1.25</a>, is <span class="process-math">\(\pi r^2\text{.}\)</span> For radius 7.31</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-circle-properties.html" id="example-circle-properties-3-3">
+\begin{align*}
+\text{area} &amp; = \pi (7.31)^2\\
+&amp; = (3.14)(7.31)^2\\
+&amp; = \approx 167.789354.\\
+&amp; = \approx 168.
+\end{align*}
 </div>
 </div></article><article class="example example-like" id="example-half-circle"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.22</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.27</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-half-circle-1">What are the perimeter and area of a semi-circle with diameter 11.7?</div>
 <div class="para logical" id="example-half-circle-2">
-<div class="para">The perimeter includes half the usual perimeter plus the length of the diameter.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{1}{2}\pi (11.7)+11.7 \approx 30.1.
-\end{equation*}
+<div class="para">The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: <span class="process-math">\(\pi d\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="example-half-circle-2-2">
+\begin{align*}
+\text{perimeter} &amp; = \frac{1}{2}\pi (11.7)+11.7\\
+&amp; \frac{1}{2}(3.14)(11.7)+11.7\\
+&amp; = 30.069\\
+&amp; \approx 30.1.
+\end{align*}
 </div>
 </div>
 <div class="para logical" id="example-half-circle-3">
 <div class="para">The area is simply half of the usual area.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{1}{2}\pi (11.7)^2 \approx 215.
-\end{equation*}
+<div class="displaymath process-math" id="example-half-circle-3-1">
+\begin{align*}
+\text{area} &amp; = \frac{1}{2}\pi (11.7)^2\\
+&amp; = \frac{1}{2}(3.14) (11.7)^2\\
+&amp; \approx 214.9173.\\
+&amp; \approx 215.
+\end{align*}
 </div>
-</div></article></section><section class="subsection" id="subsection-geometry-applied"><h3 class="heading hide-type">
+</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-41"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.28</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-geometric-properties-2d-41-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-41-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471355&amp;frame_id=momsubsection-geometric-properties-2d-41-1"></iframe></div></article></section><section class="subsection" id="subsection-geometry-applied"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="space"> </span><span class="title">Applying Geometry</span>
 </h3>
 <div class="para" id="subsection-geometry-applied-2">Our first task in using geometry properties is to break down a problem into the kinds of shapes we already know. Then we can use the properties to calculate results.</div>
 <article class="example example-like" id="example-apply-geometry-house-wall"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.23</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.29</span><span class="period">.</span>
 </h4>
 <article class="task exercise-like" id="example-apply-geometry-house-wall-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-apply-geometry-house-wall-1-1-1">Find the area of this wall given the dimensions given in feet.</div>
@@ -857,11 +935,11 @@ s &amp; = \frac{1}{2}(13+13+24)\\
 <div class="para">The total height is then <span class="process-math">\(7+5=12\text{.}\)</span>
 </div>
 </div></div></details></div></article></article><figure class="figure figure-like" id="figure-apply-geometry-house-wall"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/HouseWall.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.24<span class="period">.</span></span><span class="space"> </span>Wall</figcaption></figure><article class="example example-like" id="example-geometry-abacus"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.25</span><span class="period">.</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.30<span class="period">.</span></span><span class="space"> </span>Wall</figcaption></figure><article class="example example-like" id="example-geometry-abacus"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.31</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="example-geometry-abacus-1">
-<div class="para" id="example-geometry-abacus-1-1">Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <a href="section-geometry2D.html#figure-apply-geometry-abacus" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-abacus.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.26">Figure 4.1.26</a> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.</div>
+<div class="para" id="example-geometry-abacus-1-1">Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <a href="section-geometry2D.html#figure-apply-geometry-abacus" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-abacus.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.32">Figure 4.1.32</a> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.</div>
 <div class="para" id="example-geometry-abacus-1-2">Because we must have enough wood, we will round up all approximations.</div>
 </div>
 <article class="task exercise-like" id="example-geometry-abacus-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -914,11 +992,11 @@ s &amp; = \frac{1}{2}(13+13+24)\\
 <div class="para" id="example-geometry-abacus-5-1-1">What is the area that is hidden, that is, cannot be seen after assembling?</div>
 <div class="solutions"><details id="example-geometry-abacus-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-geometry-abacus-5-2-1">This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <span class="process-math">\(3.5\;\text{in} \cdot 1.5\;\text{in} \approx 5.3\;\text{in}^2\text{.}\)</span> The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <span class="process-math">\(12 \cdot 5.3\;\text{in}^2 \approx 64\;\text{in}^2\text{.}\)</span>
 </div></div></details></div></article></article><figure class="figure figure-like" id="figure-apply-geometry-abacus"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/images/abacus.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.26<span class="period">.</span></span><span class="space"> </span>Abacus</figcaption></figure><article class="exercise exercise-like" id="exercise-apply-geometry-birdhouse"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.27</span><span class="period">.</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.32<span class="period">.</span></span><span class="space"> </span>Abacus</figcaption></figure><article class="exercise exercise-like" id="exercise-apply-geometry-birdhouse"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.33</span><span class="period">.</span>
 </h4>
-<div class="para" id="exercise-apply-geometry-birdhouse-1-1">What is the total area of the birdhouse shown in <a href="section-geometry2D.html#figure-apply-geometry-birdhouse" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-birdhouse.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.28">Figure 4.1.28</a>?</div></article><figure class="figure figure-like" id="figure-apply-geometry-birdhouse"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/birdhouse.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.28<span class="period">.</span></span><span class="space"> </span>Birdhouse</figcaption></figure></section><section class="exercises" id="section-geometry2D-5"><h3 class="heading hide-type">
+<div class="para" id="exercise-apply-geometry-birdhouse-1-1">What is the total area of the birdhouse shown in <a href="section-geometry2D.html#figure-apply-geometry-birdhouse" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-birdhouse.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.34">Figure 4.1.34</a>?</div></article><figure class="figure figure-like" id="figure-apply-geometry-birdhouse"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/birdhouse.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.34<span class="period">.</span></span><span class="space"> </span>Birdhouse</figcaption></figure></section><section class="exercises" id="section-geometry2D-5"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="section-geometry2D-5-1"><h4 class="heading">

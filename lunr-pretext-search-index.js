@@ -5011,7 +5011,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Geometric Reasoning 2D",
-  "body": " Geometric Reasoning 2D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae. Memorizing all of the formulae is not likely useful. In a job you will be able to look them up. However, anything you use a lot (e.g., triangles) is worth memorizing.  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape. In the figure below showing the outline of Kapi'olani Regional Park the perimeter is the distance someone would travel walking around the edge of the park. The area determines how much grass seed it would take to spread over the park.   Complex Shape with Perimeter and Area     Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Parallelograms include rectangles , which are parallelograms with four right angles, and rhombi , which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.   Parallelograms      Shape  Perimeter  Area          The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with . This means the 2 is an exact number.   What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . For this parallelogram that is    What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. Significant digits rounding is used, because side lengths would be measurements.     Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.    Trapezoid      Shape  Perimeter  Area          What are the perimeter and area of the trapezoid in ?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is     Calculate the area     Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area         Note that the value in the area formula is called the height of the triangle. It is the length of a line segment perpendicularly down from a vertex to the opposing side (or extension of it). The vertical, dashed line segments in are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.   What are the perimeter and area of the triangles in ?   The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is     Calculate the area       In the height is labeled . Where are other possible heights and where are their bases?   Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle on the right in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. 5.98 is the length of the side not adjacent to the right angle ( in the formula). We can calculate the length of the horizontal, dashed segment using the formula.   In we will develop a version of this statement for triangles without a right angle.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .    Calculate the area of the triangles in .  According to Heron's formula for the triangle on the left For the triangle on the right     Circle      Shape  Perimeter  Area              For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 the perimeter is  The area, given in , is . For radius 7.31 the area is    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter.  The area is simply half of the usual area.     Applying Geometry  Our first task in using geometry properties is to break down a problem into the kinds of shapes we already know. Then we can use the properties to calculate results.   Find the area of this wall given the dimensions given in feet.  First we note that we can describe the wall as a rectangle with a triangle on top of it.  The sides of the rectangle area are 7 ft (height) and 24 ft (width). This means that area is .  The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.  Find the perimeter of this wall given the dimensions given in feet. There are five (5) edges. There sum is feet.  What is the (tallest) height of the wall? We need the height of the triangular portion of the wall to find the height at the peak. Height is part of the area formula, and from Heron's formula we already know the height. The total height is then .    Wall      Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations.    What is the total number of feet of lumber (2x4) needed?   There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is . We convert this to feet using a ratio.    If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?   If a 60.0 inch section is cut from a 96.0 inch board, we have left. This is long enough for one of the 27.0 inch segments but not more. Thus two board will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.    If the boards are painted before they are assembled, what is the total surface area of the boards to be painted?   Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is This is .    What is the area that is hidden, that is, cannot be seen after assembling?   This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .     Abacus    What is the total area of the birdhouse shown in ?   Birdhouse      Area Application  Contextless Area  Perimeter and Area Theory  Contextless Area  Contextless Composite Area  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Perimeter and Area  Contextless Area  Contextless Area  Area and Perimeter Application  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Area    "
+  "body": " Geometric Reasoning 2D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae. Memorizing all of the formulae is not likely useful. In a job you will be able to look them up. However, anything you use a lot (e.g., triangles) is worth memorizing.  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape. In the figure below showing the outline of Kapi'olani Regional Park the perimeter is the distance someone would travel walking around the edge of the park. The area determines how much grass seed it would take to spread over the park.   Complex Shape with Perimeter and Area     Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Parallelograms include rectangles , which are parallelograms with four right angles, and rhombi , which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.   Parallelograms      Shape  Perimeter  Area          The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with . This means the 2 is an exact number.   What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . For this parallelogram that is    What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. Significant digits rounding is used, because side lengths are measurements.     Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.    Trapezoid      Shape  Perimeter  Area         Because none of the side lengths need be the same, the perimeter formula is just the sum of the four sides. The height must be between the two, parallel sides. The formula does not work if a line is connected between the other two sides.   What are the perimeter and area of this trapezoid?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is Significant digits rounding is used, because side lengths are measurements.   Note the following is also a trapezoid and the formulae still apply.   What are the perimeter and area of this trapezoid?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is     Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area         Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side. Any vertex\/side pair can be used. Be aware that the height may not intersect the opposite side; consider . The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side. The in the area formula is an exact number.   What are the perimeter and area of the triangles in ?  The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is    Two Triangles    Obtuse Triangle     Acute Triangle       In the height is labeled . Draw the other two heights.   Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle ( in the formula). We use significant figures rounding because side lengths are measurements.    Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then will equal . Because this is not a right triangle, but it appears to be close.    In we will develop a version of this statement for triangles without a right angle.  The formula for area of a triangle above requires that we be able to calculate the height. In we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .   The in Heron's formula is an exact number.   Calculate the area of the triangles in .  According to Heron's formula for the triangle in    For the triangle in    We use significant digits rounding because the side lengths are measurements.   Notice that the results from Heron's formula are slightly different from the results using the formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.    Circle      Shape  Perimeter  Area             The 2 and 4 in the formulae are exact numbers. When performing calculations with we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.   For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 We use the approximation 3.14 for because our measurements have only three significant digits.  The area, given in , is . For radius 7.31    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: .  The area is simply half of the usual area.      Applying Geometry  Our first task in using geometry properties is to break down a problem into the kinds of shapes we already know. Then we can use the properties to calculate results.   Find the area of this wall given the dimensions given in feet.  First we note that we can describe the wall as a rectangle with a triangle on top of it.  The sides of the rectangle area are 7 ft (height) and 24 ft (width). This means that area is .  The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.  Find the perimeter of this wall given the dimensions given in feet. There are five (5) edges. There sum is feet.  What is the (tallest) height of the wall? We need the height of the triangular portion of the wall to find the height at the peak. Height is part of the area formula, and from Heron's formula we already know the height. The total height is then .    Wall      Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations.    What is the total number of feet of lumber (2x4) needed?   There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is . We convert this to feet using a ratio.    If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?   If a 60.0 inch section is cut from a 96.0 inch board, we have left. This is long enough for one of the 27.0 inch segments but not more. Thus two board will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.    If the boards are painted before they are assembled, what is the total surface area of the boards to be painted?   Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is This is .    What is the area that is hidden, that is, cannot be seen after assembling?   This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .     Abacus    What is the total area of the birdhouse shown in ?   Birdhouse      Area Application  Contextless Area  Perimeter and Area Theory  Contextless Area  Contextless Composite Area  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Perimeter and Area  Contextless Area  Contextless Area  Area and Perimeter Application  Contextless Area  Contextless Area  Contextless Area  Contextless Composite Area  Area Application  Contextless Area    "
 },
 {
   "id": "subsection-geometric-properties-2d-3",
@@ -5074,7 +5074,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.1.5",
   "title": "",
-  "body": " What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. Significant digits rounding is used, because side lengths would be measurements.  "
+  "body": " What are the perimeter and area of this parallelogram?   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. Significant digits rounding is used, because side lengths are measurements.  "
 },
 {
   "id": "subsection-geometric-properties-2d-11",
@@ -5110,23 +5110,32 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.1.9",
   "title": "",
-  "body": " What are the perimeter and area of the trapezoid in ?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is   "
+  "body": " What are the perimeter and area of this trapezoid?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is Significant digits rounding is used, because side lengths are measurements.  "
 },
 {
-  "id": "figure-exercise-trapezoid-area",
+  "id": "example-trapezoid-too",
   "level": "2",
-  "url": "section-geometry2D.html#figure-exercise-trapezoid-area",
-  "type": "Figure",
+  "url": "section-geometry2D.html#example-trapezoid-too",
+  "type": "Example",
   "number": "4.1.10",
   "title": "",
-  "body": " Calculate the area   "
+  "body": " What are the perimeter and area of this trapezoid?   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is  "
+},
+{
+  "id": "subsection-geometric-properties-2d-18",
+  "level": "2",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-18",
+  "type": "Checkpoint",
+  "number": "4.1.11",
+  "title": "",
+  "body": ""
 },
 {
   "id": "definition-triangle",
   "level": "2",
   "url": "section-geometry2D.html#definition-triangle",
   "type": "Definition",
-  "number": "4.1.11",
+  "number": "4.1.12",
   "title": "Triangle.",
   "body": " Triangle  A triangle is a three sided shape.  "
 },
@@ -5135,52 +5144,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#figure-triangle-properties",
   "type": "Table",
-  "number": "4.1.12",
+  "number": "4.1.13",
   "title": "Triangle",
   "body": " Triangle      Shape  Perimeter  Area        "
-},
-{
-  "id": "subsection-geometric-properties-2d-18",
-  "level": "2",
-  "url": "section-geometry2D.html#subsection-geometric-properties-2d-18",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "height "
 },
 {
   "id": "example-triangle-area1",
   "level": "2",
   "url": "section-geometry2D.html#example-triangle-area1",
   "type": "Example",
-  "number": "4.1.13",
+  "number": "4.1.14",
   "title": "",
-  "body": " What are the perimeter and area of the triangles in ?   The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is   "
+  "body": " What are the perimeter and area of the triangles in ?  The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is  "
 },
 {
   "id": "figure-exercise-triangle-area",
   "level": "2",
   "url": "section-geometry2D.html#figure-exercise-triangle-area",
   "type": "Figure",
-  "number": "4.1.14",
+  "number": "4.1.15",
   "title": "",
-  "body": " Calculate the area      "
+  "body": " Two Triangles    Obtuse Triangle     Acute Triangle     "
+},
+{
+  "id": "subsection-geometric-properties-2d-24",
+  "level": "2",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-24",
+  "type": "Checkpoint",
+  "number": "4.1.16",
+  "title": "",
+  "body": ""
 },
 {
   "id": "exercise-triangle-alternate-heights",
   "level": "2",
   "url": "section-geometry2D.html#exercise-triangle-alternate-heights",
   "type": "Checkpoint",
-  "number": "4.1.15",
+  "number": "4.1.17",
   "title": "",
-  "body": "In the height is labeled . Where are other possible heights and where are their bases? "
+  "body": "In the height is labeled . Draw the other two heights. "
 },
 {
   "id": "theorem-pythagorean",
   "level": "2",
   "url": "section-geometry2D.html#theorem-pythagorean",
   "type": "Theorem",
-  "number": "4.1.16",
+  "number": "4.1.18",
   "title": "Pythagorean Theorem.",
   "body": " Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.  "
 },
@@ -5189,16 +5198,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#example-pythagorean-use1",
   "type": "Example",
-  "number": "4.1.17",
+  "number": "4.1.19",
   "title": "",
-  "body": " Consider the triangle on the right in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. 5.98 is the length of the side not adjacent to the right angle ( in the formula). We can calculate the length of the horizontal, dashed segment using the formula.  "
+  "body": " Consider the triangle in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle ( in the formula). We use significant figures rounding because side lengths are measurements.  "
+},
+{
+  "id": "example-not-right-triangle",
+  "level": "2",
+  "url": "section-geometry2D.html#example-not-right-triangle",
+  "type": "Example",
+  "number": "4.1.20",
+  "title": "",
+  "body": " Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then will equal . Because this is not a right triangle, but it appears to be close.  "
+},
+{
+  "id": "subsection-geometric-properties-2d-29",
+  "level": "2",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-29",
+  "type": "Checkpoint",
+  "number": "4.1.21",
+  "title": "",
+  "body": ""
 },
 {
   "id": "theorem-herons-formula",
   "level": "2",
   "url": "section-geometry2D.html#theorem-herons-formula",
   "type": "Theorem",
-  "number": "4.1.18",
+  "number": "4.1.22",
   "title": "Heron’s Formula.",
   "body": " Heron's Formula  The area of a triangle can be calculated using the three sides. where .  "
 },
@@ -5207,16 +5234,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#example-heron-triangle",
   "type": "Example",
-  "number": "4.1.19",
+  "number": "4.1.23",
   "title": "",
-  "body": " Calculate the area of the triangles in .  According to Heron's formula for the triangle on the left For the triangle on the right   "
+  "body": " Calculate the area of the triangles in .  According to Heron's formula for the triangle in    For the triangle in    We use significant digits rounding because the side lengths are measurements.  "
+},
+{
+  "id": "subsection-geometric-properties-2d-36",
+  "level": "2",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-36",
+  "type": "Checkpoint",
+  "number": "4.1.24",
+  "title": "",
+  "body": ""
 },
 {
   "id": "figure-circle-properties",
   "level": "2",
   "url": "section-geometry2D.html#figure-circle-properties",
   "type": "Table",
-  "number": "4.1.20",
+  "number": "4.1.25",
   "title": "Circle",
   "body": " Circle      Shape  Perimeter  Area            "
 },
@@ -5225,25 +5261,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#example-circle-properties",
   "type": "Example",
-  "number": "4.1.21",
+  "number": "4.1.26",
   "title": "",
-  "body": " For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 the perimeter is  The area, given in , is . For radius 7.31 the area is  "
+  "body": " For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 We use the approximation 3.14 for because our measurements have only three significant digits.  The area, given in , is . For radius 7.31  "
 },
 {
   "id": "example-half-circle",
   "level": "2",
   "url": "section-geometry2D.html#example-half-circle",
   "type": "Example",
-  "number": "4.1.22",
+  "number": "4.1.27",
   "title": "",
-  "body": " What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter.  The area is simply half of the usual area.  "
+  "body": " What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: .  The area is simply half of the usual area.  "
+},
+{
+  "id": "subsection-geometric-properties-2d-41",
+  "level": "2",
+  "url": "section-geometry2D.html#subsection-geometric-properties-2d-41",
+  "type": "Checkpoint",
+  "number": "4.1.28",
+  "title": "",
+  "body": ""
 },
 {
   "id": "example-apply-geometry-house-wall",
   "level": "2",
   "url": "section-geometry2D.html#example-apply-geometry-house-wall",
   "type": "Example",
-  "number": "4.1.23",
+  "number": "4.1.29",
   "title": "",
   "body": " Find the area of this wall given the dimensions given in feet.  First we note that we can describe the wall as a rectangle with a triangle on top of it.  The sides of the rectangle area are 7 ft (height) and 24 ft (width). This means that area is .  The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.  Find the perimeter of this wall given the dimensions given in feet. There are five (5) edges. There sum is feet.  What is the (tallest) height of the wall? We need the height of the triangular portion of the wall to find the height at the peak. Height is part of the area formula, and from Heron's formula we already know the height. The total height is then .  "
 },
@@ -5252,7 +5297,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#figure-apply-geometry-house-wall",
   "type": "Figure",
-  "number": "4.1.24",
+  "number": "4.1.30",
   "title": "",
   "body": " Wall   "
 },
@@ -5261,7 +5306,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#example-geometry-abacus",
   "type": "Example",
-  "number": "4.1.25",
+  "number": "4.1.31",
   "title": "",
   "body": "  Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations.    What is the total number of feet of lumber (2x4) needed?   There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is . We convert this to feet using a ratio.    If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?   If a 60.0 inch section is cut from a 96.0 inch board, we have left. This is long enough for one of the 27.0 inch segments but not more. Thus two board will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.    If the boards are painted before they are assembled, what is the total surface area of the boards to be painted?   Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is This is .    What is the area that is hidden, that is, cannot be seen after assembling?   This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .   "
 },
@@ -5270,7 +5315,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#figure-apply-geometry-abacus",
   "type": "Figure",
-  "number": "4.1.26",
+  "number": "4.1.32",
   "title": "",
   "body": " Abacus   "
 },
@@ -5279,7 +5324,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#exercise-apply-geometry-birdhouse",
   "type": "Checkpoint",
-  "number": "4.1.27",
+  "number": "4.1.33",
   "title": "",
   "body": "What is the total area of the birdhouse shown in ? "
 },
@@ -5288,7 +5333,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-geometry2D.html#figure-apply-geometry-birdhouse",
   "type": "Figure",
-  "number": "4.1.28",
+  "number": "4.1.34",
   "title": "",
   "body": " Birdhouse   "
 },
