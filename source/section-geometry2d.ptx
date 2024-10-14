@@ -68,7 +68,7 @@
         <p>What are the perimeter and area of this parallelogram?</p>
         <image source="images/rectangle_area" width="30%" />
         <p>The perimeter is the sum of the side lengths which in this case is <me>2(18.1+28.2) = 92.8.</me></p>
-        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. Because this is a rectangle a side length can be used as the height. <me>\text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510.</me> Significant digits rounding is used, because side lengths would be measurements.</p>
+        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. Because this is a rectangle a side length can be used as the height. <me>\text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510.</me> Significant digits rounding is used, because side lengths are measurements.</p>
     </example>
 
     <exercise>
@@ -93,18 +93,27 @@
         </tabular>
     </table>
 
+    <p>Because none of the side lengths need be the same, the perimeter <q>formula</q> is just the sum of the four sides. The height must be between the two, parallel sides. The formula does not work if a line is connected between the other two sides.</p>
+
     <example xml:id="example-trapezoid-area">
-        <statement><p>What are the perimeter and area of the trapezoid in <xref ref="figure-exercise-trapezoid-area" />?</p></statement>
-        <solution>
-            <p>The perimeter of this trapezoid is the sum of the four side lengths <me>4.05+1.76+3.04+5.00 = 13.85</me>.</p>
-            <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3.00}{2}(1.76+5.00) \approx 10.1.</me></p>
-        </solution>
+        <p>What are the perimeter and area of this trapezoid?</p>
+        <image source="images/trapezoid_area" width="30%" />
+        <p>The perimeter of this trapezoid is the sum of the four side lengths <me>4.05+1.76+3.04+5.00 = 13.85</me>.</p>
+        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1.</me> Significant digits rounding is used, because side lengths are measurements.</p>
     </example>
 
-    <figure xml:id="figure-exercise-trapezoid-area">
-        <caption>Calculate the area</caption>
-        <image source="images/trapezoid_area" width="30%" />
-    </figure>
+    <p>Note the following is also a trapezoid and the formulae still apply.</p>
+
+    <example xml:id="example-trapezoid-too">
+        <p>What are the perimeter and area of this trapezoid?</p>
+        <image source="images/trapezoid_too" width="30%" />
+        <p>The perimeter of this trapezoid is the sum of the four side lengths <me>10.00+10.00+8.54+13.00 = 41.54</me>.</p>
+        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{8.00}{2}(10.00+13.00) = 92.0.</me></p>
+    </example>
+
+    <exercise>
+        <myopenmath problem="1471129" />
+    </exercise>
 
     <definition xml:id="definition-triangle">
         <title>Triangle</title>
@@ -124,27 +133,35 @@
         </tabular>
     </table>
 
-    <p>Note that the value <m>h</m> in the area formula is called the <term>height</term> of the triangle. It is the length of a line segment perpendicularly down from a vertex to the opposing side (or extension of it). The vertical, dashed line segments in <xref ref="figure-exercise-triangle-area" /> are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side. </p>
+    <p>Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <xref ref="figure-exercise-triangle-area" />. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side. The <m>1/2</m> in the area formula is an exact number.</p>
 
     <example xml:id="example-triangle-area1">
-        <statement><p>What are the perimeter and area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p></statement>
-        <solution>
-            <p>The perimeter of the triangle on the left is <me>5.98+10.9+8.19 \approx 25.1.</me> The perimeter of the triangle on the right is <me>5.98+2.87+8.19 \approx 17.0.</me></p>
-            <p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.90 \cdot 4.43 \approx 24.1.</me></p>
-            <p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 \approx 6.36</me></p>
-        </solution>
+        <p>What are the perimeter and area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p>
+        <p>The perimeter of the triangle on the left is <me>5.98+10.9+8.19 = 25.07 \approx 25.1.</me> The perimeter of the triangle on the right is <me>5.98+2.87+8.19 = 17.04 \approx 17.0.</me></p>
+        <p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.90 \cdot 4.43 = 24.1435 \approx 24.1.</me></p>
+        <p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.35705 \approx 6.36</me></p>
     </example>
 
     <figure xml:id="figure-exercise-triangle-area">
-        <caption>Calculate the area</caption>
+        <caption>Two Triangles</caption>
         <sidebyside valign="bottom">
-            <image width="30%" source="images/triangle_area" />
-            <image width="30%" source="images/triangle_area2"  />
+            <figure xml:id="subfigure-triangle-area1">
+                <caption>Obtuse Triangle</caption>
+                <image width="30%" source="images/triangle_area" />
+            </figure>
+            <figure xml:id="subfigure-triangle-area2">
+                <caption>Acute Triangle</caption>
+                <image width="30%" source="images/triangle_area2"  />
+            </figure>
         </sidebyside>
     </figure>
 
+    <exercise>
+        <myopenmath problem="1471177" />
+    </exercise>
+
     <exercise xml:id="exercise-triangle-alternate-heights">
-        <statement><p>In <xref ref="figure-triangle-properties" /> the height is labeled <m>h_1</m>. Where are other possible heights and where are their bases?</p></statement>
+        <statement><p>In <xref ref="figure-triangle-properties" /> the height is labeled <m>h</m>. Draw the other two heights.</p></statement>
     </exercise>
 
     <theorem xml:id="theorem-pythagorean">
@@ -153,41 +170,74 @@
     </theorem>
 
     <example xml:id="example-pythagorean-use1">
-        <p>Consider the triangle on the right in <xref ref="figure-exercise-triangle-area" />. Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. 5.98 is the length of the side not adjacent to the right angle (<m>c</m> in the formula). We can calculate the length of the horizontal, dashed segment using the formula.
+        <p>Consider the triangle in <xref ref="subfigure-triangle-area2" />. Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle (<m>c</m> in the formula).
         <md>
             <mrow>4.43^2+b^2 \amp = 5.98^2.</mrow>
             <mrow>19.6+b^2 \amp = 35.8.</mrow>
             <mrow>b^2 \amp = 16.2.</mrow>
             <mrow>\sqrt{b^2} \amp = \sqrt{16.2}.</mrow>
             <mrow>b \amp \approx 4.06.</mrow>
-        </md></p>
+        </md>
+        We use significant figures rounding because side lengths are measurements.</p>
     </example>
 
+    <example xml:id="example-not-right-triangle">
+        <p>Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in <xref ref="subfigure-triangle-area1" /> appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then <m>a^2+b^2</m> will equal <m>c^2</m>.
+        <md>
+            <mrow>a^2+b^2 &amp; =</mrow>
+            <mrow>5.98^2 + 8.19^2 &amp; = </mrow>
+            <mrow>35.8 + 67.1 &amp; = 102.9.</mrow>
+            <mrow>c^2 &amp; = 102.9.</mrow>
+            <mrow>c &amp; = \sqrt{102.9}</mrow>
+            <mrow> &amp; = 10.1.</mrow>
+        </md>
+        Because <m>10.1 \ne 10.9</m> this is not a right triangle, but it appears to be close.</p>
+    </example>
+
+    <exercise>
+        <myopenmath problem="1471255" />
+    </exercise>
+
     <p>In <xref ref="section-trig-laws" /> we will develop a version of this statement for triangles without a right angle.</p>
+
+    <p>The formula for area of a triangle above requires that we be able to calculate the height. In <xref ref="section-trig-functions" /> we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.</p>
 
     <theorem xml:id="theorem-herons-formula">
         <title>Heron's Formula</title>
         <statement><p>The area of a triangle can be calculated using the three sides. <me>A = \sqrt{s(s-a)(s-b)(s-c)}</me> where <m>s=\frac{1}{2}(a+b+c)</m>.</p></statement>
     </theorem>
 
+    <p>The <m>1/2</m> in Heron's formula is an exact number.</p>
+
     <example xml:id="example-heron-triangle">
-        <statement><p>Calculate the area of the triangles in <xref ref="figure-exercise-triangle-area" />.</p></statement>
-        <solution><p>According to Heron's formula for the triangle on the left
+        <p>Calculate the area of the triangles in <xref ref="figure-exercise-triangle-area" />.</p>
+        <p>According to Heron's formula for the triangle in <xref ref="subfigure-triangle-area1" />
             <md>
                 <mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90)</mrow>
-                <mrow> &amp; \approx 12.54.</mrow>
-                <mrow>\text{Area} &amp; = \sqrt{12.54(12.54-5.98)(12.54-8.19)(12.54-10.90)}</mrow>
-                <mrow> &amp; = 24.2.</mrow>
+                <mrow> &amp; = 12.535. &amp; \text{ Precise to the hundredths only}</mrow>
+                <mrow>\text{Area} &amp; \approx \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.90)} &amp; \text{Factors have 3 sigfigs}</mrow>
+                <mrow> &amp; \approx \sqrt{583.7199977} &amp; \text{Root maintains 3 sigfigs}</mrow>
+                <mrow> &amp; \approx 24.16</mrow>
+                <mrow> &amp; \approx 24.2.</mrow>
             </md>
-            For the triangle on the right
+        </p>
+        <p>For the triangle in <xref ref="subfigure-triangle-area2" />
             <md>
                 <mrow>s &amp; = \frac{1}{2}(5.98+8.19+2.87)</mrow>
-                <mrow> &amp; \approx 8.52.</mrow>
-                <mrow>\text{Area} &amp; = \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)}</mrow>
+                <mrow> &amp; \approx 8.52. &amp; \text{Precise to the hundredths}</mrow>
+                <mrow>\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} &amp; \text{Each factor has 3 sigfigs}</mrow>
+                <mrow> &amp; \approx \sqrt{40.34927160} &amp; \text{Root maintains 3 sigfigs}</mrow>
                 <mrow> &amp; \approx 6.35.</mrow>
             </md>
-        </p></solution>
+        </p>
+        <p>We use significant digits rounding because the side lengths are measurements.</p>
     </example>
+
+    <p>Notice that the results from Heron's formula are slightly different from the results using the <m>\frac{1}{2}bh</m> formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.</p>
+
+    <exercise>
+        <myopenmath problem="1471317" />
+    </exercise>
 
     <table xml:id="figure-circle-properties">
         <title>Circle</title>
@@ -202,17 +252,47 @@
         </tabular>
     </table>
 
+    <p>The 2 and 4 in the formulae are exact numbers. When performing calculations with <m>\pi</m> we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.</p>
+
     <example xml:id="example-circle-properties">
         <p>For a circle with radius 7.31 what are the perimeter and area?</p>
-        <p>The perimeter, given in <xref ref="figure-circle-properties" />, is <m>2\pi r</m>. For radius 7.31 the perimeter is <me>2\pi (7.31) \approx 45.9.</me></p>
-        <p>The area, given in <xref ref="figure-circle-properties" />, is <m>\pi r^2</m>. For radius 7.31 the area is <me>\pi (7.31)^2 \approx 168.</me></p>
+        <p>The perimeter, given in <xref ref="figure-circle-properties" />, is <m>2\pi r</m>. For radius 7.31
+        <md>
+            <mrow>\text{perimeter} &amp; = 2\pi (7.31)</mrow>
+            <mrow> &amp; \approx 2(3.14)(7.31)</mrow>
+            <mrow> &amp; = 45.9068.</mrow>
+            <mrow> &amp; \approx 45.9.</mrow>
+        </md> We use the approximation 3.14 for <m>\pi</m> because our measurements have only three significant digits.</p>
+        <p>The area, given in <xref ref="figure-circle-properties" />, is <m>\pi r^2</m>. For radius 7.31
+        <md>
+            <mrow>\text{area} &amp; = \pi (7.31)^2</mrow>
+            <mrow> &amp; = (3.14)(7.31)^2</mrow>
+            <mrow> &amp; = \approx 167.789354.</mrow>
+            <mrow> &amp; = \approx 168.</mrow>
+        </md></p>
     </example>
 
     <example xml:id="example-half-circle">
         <p>What are the perimeter and area of a semi-circle with diameter 11.7?</p>
-        <p>The perimeter includes half the usual perimeter plus the length of the diameter. <me>\frac{1}{2}\pi (11.7)+11.7 \approx 30.1.</me></p>
-        <p>The area is simply half of the usual area. <me>\frac{1}{2}\pi (11.7)^2 \approx 215.</me></p>
+        <p>The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: <m>\pi d</m>.
+        <md>
+            <mrow>\text{perimeter} &amp; = \frac{1}{2}\pi (11.7)+11.7</mrow>
+            <mrow> &amp; \frac{1}{2}(3.14)(11.7)+11.7</mrow>
+            <mrow> &amp; = 30.069</mrow>
+            <mrow> &amp; \approx 30.1.</mrow>
+        </md></p>
+        <p>The area is simply half of the usual area.
+        <md>
+            <mrow>\text{area} &amp; = \frac{1}{2}\pi (11.7)^2</mrow>
+            <mrow> &amp; = \frac{1}{2}(3.14) (11.7)^2</mrow>
+            <mrow> &amp; \approx 214.9173.</mrow>
+            <mrow> &amp; \approx 215.</mrow>
+        </md></p>
     </example>
+
+    <exercise>
+        <myopenmath problem="1471355" />
+    </exercise>
 
 </subsection>
 
