@@ -20,16 +20,17 @@
 </introduction>
 
 <subsection xml:id="subsection-geometric-properties-3d">
-	<title>Properties</title>
+	<title>Formulae</title>
 
-	<p>The <term>surface area</term> of a 3D shape is the cummulative area of all the 2D areas of the shape.</p>
+    <p>This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.</p>
 
-	<p>The <term>volume</term> of a 3D shape is a measure of what it takes to fill a 3D shape.</p>
+	<p>The <term>surface area</term> of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The <term>volume</term> of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.</p>
 
-</subsection>
+    <figure xml:id="figure-illustrate-surface-volume">
+        <caption>Complex Shape with Surface and Volume</caption>
 
-<subsection xml:id="subsection-geometric-3d">
-	<title>3D Shapes</title>
+        <image source="images/popcorn_cone" />
+    </figure>
 
 	<definition xml:id="definition-prism">
 		<title>Prism</title>
@@ -37,7 +38,22 @@
 		<statement><p>A <term>prism</term> is a solid consisting of two identical polygons connected by parallelograms.</p></statement>
 	</definition>
 
-	<p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms.</p>
+	<p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms.</p>
+
+	<figure xml:id="figure-prisms-examples">
+		<caption>Various Prisms</caption>
+
+		<sbsgroup width="30%">
+			<sidebyside>
+				<image source="images/triangular_prism" />
+				<image source="images/triangular_prism_non_right" />
+			</sidebyside>
+			<sidebyside>
+				<image source="images/trapezoidal_prism_right" />
+				<image source="images/trapezoidal_prism_right" />
+			</sidebyside>
+		</sbsgroup>
+	</figure>
 
 	<table xml:id="figure-prism-properties">
 		<title>Prisms</title>
