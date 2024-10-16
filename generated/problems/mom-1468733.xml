@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle-{3}{x}-{9}{y}=-{51}</m> </p>
+<p><m>\displaystyle-{6}{x}-{7}{y}={93}</m> </p>
 <p>
-  <m>\displaystyle{6}{x}+{4}{y}={18}</m></p>
+  <m>\displaystyle-{x}+{8}{y}=-{67}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{1},{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of -6. So we scale by <m>\displaystyle-\frac{{6}}{{-{{3}}}}</m>.</p>
-<p><m>\displaystyle-\frac{{{6}}}{{-{{3}}}}{\left(-{3}{x}+-{9}{y}\right)}=-\frac{{{6}}}{{-{{3}}}}{\left(-{51}\right)}</m></p>
-<p><m>\displaystyle-{\left({6}\right)}{x}+-{18}{y}=-{102}</m></p>
-<p><m>\displaystyle{6}{x}+{4}{y}={18}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{5},-{9}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of --1. So we scale by <m>\displaystyle--\frac{{1}}{{-{{6}}}}</m>.</p>
+<p><m>\displaystyle-\frac{{-{1}}}{{-{{6}}}}{\left(-{6}{x}+-{7}{y}\right)}=-\frac{{-{1}}}{{-{{6}}}}{\left({93}\right)}</m></p>
+<p><m>\displaystyle-{\left(-{1}\right)}{x}+{1.1666666666667}{y}=-{15.5}</m></p>
+<p><m>\displaystyle-{x}+{8}{y}=-{67}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle-{14}{y}=-{84}</m></p>
-<p><m>\displaystyle{y}=-\frac{{84}}{{-{{14}}}}</m></p>
-<p><m>\displaystyle{y}={6}</m></p>
+<p><m>\displaystyle{9.1666666666667}{y}=-{82.5}</m></p>
+<p><m>\displaystyle{y}=-\frac{{82.5}}{{9.1666666666667}}</m></p>
+<p><m>\displaystyle{y}=-{9}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{3}{x}+-{9}{\left({6}\right)}=-{51}</m></p>
-<p><m>\displaystyle-{3}{x}+{\left(-{54}\right)}=-{51}</m></p>
-<p><m>\displaystyle-{3}{x}=-{51}-{\left(-{54}\right)}</m></p>
-<p><m>\displaystyle-{3}{x}={3}</m></p>
-<p><m>\displaystyle{x}=\frac{{3}}{{-{{3}}}}</m></p>
-<p><m>\displaystyle{x}=-{1}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{1},{6}\right)}</m>.</p>
+<p><m>\displaystyle-{6}{x}+-{7}{\left(-{9}\right)}={93}</m></p>
+<p><m>\displaystyle-{6}{x}+{\left({63}\right)}={93}</m></p>
+<p><m>\displaystyle-{6}{x}={93}-{\left({63}\right)}</m></p>
+<p><m>\displaystyle-{6}{x}={30}</m></p>
+<p><m>\displaystyle{x}=\frac{{30}}{{-{{6}}}}</m></p>
+<p><m>\displaystyle{x}=-{5}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{5},-{9}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
