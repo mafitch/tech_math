@@ -299,42 +299,53 @@
 <subsection xml:id="subsection-geometry-applied">
     <title>Applying Geometry</title>
 
-    <p>Our first task in using geometry properties is to break down a problem into the kinds of shapes we already know. Then we can use the properties to calculate results.</p>
+    <p>When we encounter geometric questions, they will often involve shapes consisting of more than one basic shape such as the park boundry above. Our first task then is  to break down these shapes into pieces that are basic shapes (ones we already know). Then we can use the geometric properties to calculate results.</p>
+
+    <p>Note that often we can break down a complex shape in more than one way. Which way we choose will depend on what we are trying to calculate and what information we have available.</p>
 
     <example xml:id="example-apply-geometry-house-wall">
         <task>
-            <statement><p>Find the area of this wall given the dimensions given in feet.</p></statement>
-            <solution>
-                <p>First we note that we can describe the wall as a rectangle with a triangle on top of it.</p>
-                <p>The sides of the rectangle area are 7 ft (height) and 24 ft (width). This means that area is <m>7 \text{ ft} \cdot 24 \text{ ft} = 168 \text{ ft}^2</m>.</p>
-                <p>The top is a triangle with two sides of length 13 and one of length 24. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
-                <md>
-                    <mrow>s &amp; = \frac{1}{2}(13+13+24)</mrow>
-                    <mrow> &amp; = 25.</mrow>
-                    <mrow>\text{area} &amp; = \sqrt{25(25-13)(25-13)(25-24)}</mrow>
-                    <mrow> &amp; = 60.</mrow>
-                </md>
-                The total area then is <m>168+60=228</m> square feet.</p></solution>
+            <p>Find the area of this wall given the dimensions given in feet.</p>
+            <image source="images/HouseWall" width="30%" />
+            <p>First we notice that we can describe the wall as a rectangle with a triangle on top of it.</p>
+            <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \cdot 24.0 \text{ ft} = 168 \text{ ft}^2 \approx 170 \text{ ft}^2</m>.</p>
+            <p>The top is a triangle with two sides of length 13.0 and one of length 24.0. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
+            <md>
+                <mrow>s &amp; = \frac{1}{2}(13.0+13.0+24.0)</mrow>
+                <mrow> &amp; = 25.0.</mrow>
+                <mrow>\text{area} &amp; = \sqrt{25.0(25.0-13.0)(25.0-13.0)(25.0-24.0)}</mrow>
+                <mrow> &amp; = \sqrt{3600}</mrow>
+                <mrow> &amp; = 6\bar{0}.</mrow>
+            </md>
+            The total area then is <m>170+6\bar{0} \approx 230</m> square feet.</p>
         </task>
         <task>
-            <statement><p>Find the perimeter of this wall given the dimensions given in feet.</p></statement>
-            <solution><p>There are five (5) edges. There sum is <m>7+24+7+13+13=64</m> feet.</p></solution>
+            <p>Find the perimeter of this wall given the dimensions given in feet.</p>
+            <p>There are five (5) edges. There sum is <m>7.0+24.0+7.0+13.0+13.0=64.0</m> feet.</p>
         </task>
         <task>
-            <statement><p>What is the (tallest) height of the wall?</p></statement>
-            <solution><p>We need the height of the triangular portion of the wall to find the height at the peak. Height is part of the area formula, and from Heron's formula we already know the height.
+            <p>What is the (tallest) height of the wall?</p>
+            <p>The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following.
                 <md>
-                    <mrow>60 &amp; = \frac{1}{2}24 h.</mrow>
-                    <mrow>5 &amp; = h.</mrow>
+                    <mrow>6\bar{0} &amp; = \frac{1}{2}24.0 h.</mrow>
+                    <mrow>5.0 &amp; = h.</mrow>
                 </md>
-            The total height is then <m>7+5=12</m>.</p></solution>
+            The total height is then <m>7.0+5.0=12.0</m>.</p>
         </task>
     </example>
 
-    <figure xml:id="figure-apply-geometry-house-wall">
-        <caption>Wall</caption>
-        <image source="images/HouseWall" width="30%" />
-    </figure>
+    <example xml:id="example-geometry2d-floor-plan">
+        <p>Calculate the square footage of the combined living room and hallway.</p>
+        <image source="images/floor_plan_1" width="40%" />
+        <p>This layout is rectangular. The living room is a rectange with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.</p>
+        <p>To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.</p>
+        <p>The living room height is <m>12 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 10 \text{ in} = 154 \text{ in}</m>. The width is <m>15 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 7 \text{ in} = 187 \text{ in}</m>. The area is <m>154 \cdot 187 = 28798</m> square inches.</p>
+        <p>The hallway height is <m>3 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 1 \text{ in} = 37 \text{ in}</m>. The width is <m>11 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 1 \text{ in} = 122 \text{ in}</m>. The area is <m>37 \cdot 122 = 4514</m> square inches.</p>
+        <p>The total floor surface is <m>28798+4514=33312</m> square inches. We can not convert that back to feet. <me>33312 \text{ in}^2 \cdot \left( \frac{1 \text{ ft}}{12 \text{ in}} \right)^2 = \frac{33312}{144} \text{ ft}^2 \approx 231.333 \text{ ft}^2 \approx 230 \text{ ft}^2.</me></p>
+        <p>We use significant digits rounding because these are measurements. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like <m>3 \text{ ft} 1 \text{in} \approx 3.0833 \text{ ft}</m>. The repeated decimal would have to be rounded. This is why it was easier to convert to inches than to decimal feet.</p>
+    </example>
+
+    <p>The following example requires geometric thinking, but does not require any formulae. Especially important is the type of rounding which is determined by physical constraints.</p>
 
     <example xml:id="example-geometry-abacus">
         <introduction>
@@ -346,7 +357,7 @@
                 <p>What is the total number of feet of lumber (2x4) needed?</p>
             </statement>
             <solution>
-                <p>There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is <me>2 \cdot 60.0\;\text{in} + 3 \cdot 27.0\;\text{in} = 12\bar{0}\;\text{in}</me>. We convert this to feet using a ratio. <me>120. \;\text{in} \cdot \frac{1 \; \text{ft}}{12 \; \text{in}} = 10.0 \; \text{ft}</me></p>
+                <p>There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is <me>2 \cdot 60.0\text{ in} + 3 \cdot 27.0\text{ in} = 12\bar{0}\text{ in}</me>. We convert this to feet using a ratio. <me>120. \text{ in} \cdot \frac{1 \text{ ft}}{12 \; \text{in}} = 10.0 \text{ ft}</me></p>
             </solution>
         </task>
         <task>
@@ -354,33 +365,39 @@
                 <p>If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?</p>
             </statement>
             <solution>
-                <p>If a 60.0 inch section is cut from a 96.0 inch board, we have <m>96.0\;\text{in}-60.0\;\text{in}=36.0\;\text{in}</m> left. This is long enough for one of the 27.0 inch segments but not more. Thus two board will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.</p>
+                <p>If a 60.0 inch section is cut from a 96.0 inch board, we have <m>96.0\text{ in}-60.0\text{ in}=36.0\text{ in}</m> left. This is long enough for one of the 27.0 inch segments but not more. Thus two boards will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.</p>
             </solution>
         </task>
         <task>
             <statement>
-                <p>If the boards are painted before they are assembled, what is the total surface area of the boards to be painted?</p>
+                <p>If the boards are painted before they are assembled, what is the total surface area of the boards to be painted? Paint cans are rated for the number of square feet they can cover. We will want the solution in units of square feet.</p>
             </statement>
             <solution>
                 <p>Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are
                     <md>
-                        <mrow>60.0\;\text{in} \cdot 3.5\;\text{in} \amp = 210\;\text{in}^2,</mrow>
-                        <mrow>60.0\;\text{in} \cdot 1.5\;\text{in} \amp = 9\bar{0}\;\text{in}^2,</mrow>
-                        <mrow>1.5\;\text{in} \cdot 3.5\;\text{in} \amp \approx 5.3\;\text{in}^2.</mrow>
+                        <mrow>60.0\text{ in} \cdot 3.5\text{ in} \amp = 210\text{ in}^2,</mrow>
+                        <mrow>60.0\text{ in} \cdot 1.5\text{ in} \amp = 9\bar{0}\text{ in}^2,</mrow>
+                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp \approx 5.3\text{ in}^2.</mrow>
                     </md>
                 For the short segments these are
                     <md>
-                        <mrow>27.0\;\text{in} \cdot 3.5\;\text{in} \amp \approx 95\;\text{in}^2,</mrow>
-                        <mrow>27.0\;\text{in} \cdot 1.5\;\text{in} \amp \approx 41\;\text{in}^2,</mrow>
-                        <mrow>1.5\;\text{in} \cdot 3.5\;\text{in} \amp = 5.3\;\text{in}^2.</mrow>
+                        <mrow>27.0\text{ in} \cdot 3.5\text{ in} \amp \approx 95\text{ in}^2,</mrow>
+                        <mrow>27.0\text{ in} \cdot 1.5\text{ in} \amp \approx 41\text{ in}^2,</mrow>
+                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp = 5.3\text{ in}^2.</mrow>
                     </md>
                 Thus the total area is
                     <md>
-                        <mrow>2(2)(210\;\text{in}^2)+2(2)(9\bar{0}\;\text{in}^2)+2(2)(5.3\;\text{in}^2)</mrow>
-                        <mrow>+3(2)(95\;\text{in}^2)+3(2)(41\;\text{in}^2)+3(2)(5.3\;\text{in}^2) \amp = </mrow>
-                        <mrow>810+360+21.2+570+246+31.8\;\text{in}^2 \amp = 2069\;\text{in}^2</mrow>
+                        <mrow>2(2)(210\text{ in}^2)+2(2)(9\bar{0}\text{ in}^2)+2(2)(5.3\text{ in}^2)</mrow>
+                        <mrow>+3(2)(95\text{ in}^2)+3(2)(41\text{ in}^2)+3(2)(5.3\text{ in}^2) \amp = </mrow>
+                        <mrow>810+360+21.2+570+246+31.8\text{ in}^2 \amp = 2069\text{ in}^2</mrow>
                     </md>
-                This is <m>2069 \; \text{in}^2</m>.</p>
+                This is <m>2069 \text{ in}^2</m>.</p>
+                <p>Finally we convert this to square feet using the method of <xref ref="example-convert-square-units" />.
+                <md>
+                    <mrow>2069\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = </mrow>
+                    <mrow>\frac{2069}{12^2} \text{ ft}^2 &amp; = 14.3680555 \text{ ft}^2</mrow>
+                    <mrow> &amp; \approx 14.37 \text{ ft}^2.</mrow>
+                </md></p>
             </solution>
         </task>
         <task>
@@ -388,7 +405,7 @@
                 <p>What is the area that is hidden, that is, cannot be seen after assembling?</p>
             </statement>
             <solution>
-                <p>This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <m>3.5\;\text{in} \cdot 1.5\;\text{in} \approx 5.3\;\text{in}^2</m>. The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <m>12 \cdot 5.3\;\text{in}^2 \approx 64\;\text{in}^2</m>.</p>
+                <p>This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <m>3.5\text{ in} \cdot 1.5\text{ in} \approx 5.3\text{ in}^2</m>. The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <m>12 \cdot 5.3\text{ in}^2 \approx 64\text{ in}^2</m>.</p>
             </solution>
         </task>
     </example>
@@ -398,14 +415,27 @@
         <image source="images/abacus" width="40%" />
     </figure>
 
-    <exercise xml:id="exercise-apply-geometry-birdhouse">
-        <statement><p>What is the total area of the birdhouse shown in <xref ref="figure-apply-geometry-birdhouse" />?</p></statement>
+    <p>The following example also illustrates rounding according to physical constraints.</p>
+
+    <example xml:id="example-carpet-squares">
+        <p>We are purchasing carpet squares to carpet a rectangular room that is 15.5 ft by 19.0 ft. These carpet squares are 18 in by 18 in. A box contains 10 squares. How many boxes of carpet squares do we need purchase?</p>
+        <image source="images/carpet_square_fixed" width="30%" />
+        <p>We need to know how many square across and down the room. For the number of squares across we can divide the width of the room (15.5 ft) by the width of a carpet square (18 in). This requires matching units, so <m>15.5 \text{ ft} \cdot \frac{12 \text{ in}}{\text{ft}} = 186 \text{ in}</m> Thus the number of squares across is <m>\frac{186}{18} = 10.333</m>. This means the final square will be a third of a square in width. While it might seem efficient to reuse the rest of that carpet square in the rows above, we cannot because the pattern would not continue correctly. Thus we simply round up to 11 squares across.</p>
+        <p>Next we calculate the number of squares down. <m>19.0 \text{ ft} \cdot \frac{12 \text{ in}}{\text{ft}} = 228 \text{ in}</m>. Thus the number of squares down is <m>\frac{228}{18} = 12.666</m>. Again to have enough squares we must round up to 13 squares down.</p>
+        <p>Thus the total number of carpet squares needed is <m>11 \cdot 13 = 143</m>. Because each box has 10 squares each, we need <m>\frac{143}{10} = 14.3</m> boxes. To have enough we need 15 boxes. In practice we would likely buy at least one extra box in case there are problems.</p>
+    </example>
+
+    <example xml:id="example-carpet-square-failure">
+        <p>At first the following might seem to be a reasonable way to solve this problem. First, calculate the total square inches of floor. Using the conversion to inches from above <m>186 \cdot 228 = 42408</m> square inches of floor.</p>
+        <p>Next we can divide by the number of square inches each carpet squares covers to count the number of squares. Each square covers <m>18^2 = 324</m> square inches. Thus we calculate that we need <m>\frac{42408}{324} = 130.888</m> carpet squares.</p>
+        <p>This is substantially fewer than the 143 we calculated previously. The reason is this calculation assumes we can use each of the partial squares somewhere else in the room. This is true when the pattern does not need to match, but not in this case.</p>
+        <p>Now you may understand why such repeating patterns are avoided in most carpets.</p>
+    </example>
+
+    <exercise>
+        <myopenmath problem="147156" />
     </exercise>
 
-    <figure xml:id="figure-apply-geometry-birdhouse">
-        <caption>Birdhouse</caption>
-        <image source="images/birdhouse" width="30%" />
-    </figure>
 </subsection>
 
 <exercises>

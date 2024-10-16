@@ -20,11 +20,11 @@
 </introduction>
 
 <subsection xml:id="subsection-geometric-properties-3d">
-	<title>Formulae</title>
+    <title>Formulae</title>
 
     <p>This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.</p>
 
-	<p>The <term>surface area</term> of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The <term>volume</term> of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.</p>
+    <p>The <term>surface area</term> of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The <term>volume</term> of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.</p>
 
     <figure xml:id="figure-illustrate-surface-volume">
         <caption>Complex Shape with Surface and Volume</caption>
@@ -32,226 +32,246 @@
         <image source="images/popcorn_cone" />
     </figure>
 
-	<definition xml:id="definition-prism">
-		<title>Prism</title>
+    <definition xml:id="definition-prism">
+        <title>Prism</title>
 
-		<statement><p>A <term>prism</term> is a solid consisting of two identical polygons connected by parallelograms.</p></statement>
-	</definition>
+        <statement><p>A <term>prism</term> is a solid consisting of two identical polygons connected by parallelograms.</p></statement>
+    </definition>
 
-	<p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms.</p>
+    <p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.</p>
 
-	<figure xml:id="figure-prisms-examples">
-		<caption>Various Prisms</caption>
+    <figure xml:id="figure-prisms-examples">
+        <caption>Various Prisms</caption>
 
-		<sbsgroup width="30%">
-			<sidebyside>
-				<image source="images/triangular_prism" />
-				<image source="images/triangular_prism_non_right" />
-			</sidebyside>
-			<sidebyside>
-				<image source="images/trapezoidal_prism_right" />
-				<image source="images/trapezoidal_prism_right" />
-			</sidebyside>
-		</sbsgroup>
-	</figure>
+        <sbsgroup width="30%">
+            <sidebyside>
+                <image source="images/triangular_prism" />
+                <image source="images/triangular_prism_non_right" />
+            </sidebyside>
+            <sidebyside>
+                <image source="images/trapezoidal_prism_right" />
+                <image source="images/trapezoidal_prism_non_right" />
+            </sidebyside>
+        </sbsgroup>
+    </figure>
 
-	<table xml:id="figure-prism-properties">
-		<title>Prisms</title>
+    <table xml:id="figure-prism-properties">
+        <title>Prisms</title>
 
-		<tabular top="minor">
-			<col width="30%" />
-			<col width="20%" />
-			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/triangular_prism" /></p></cell> <cell right="minor"><p>sum of area of all sides</p></cell> <cell right="minor"><m>V = B h</m></cell> </row>
-		</tabular>
-	</table>
+        <tabular top="minor">
+            <col width="30%" />
+            <col width="20%" />
+            <col width="20%" />
+            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/triangular_prism" /></p></cell> <cell right="minor"><p>sum of area of all sides</p></cell> <cell right="minor"><m>V = B h</m></cell> </row>
+        </tabular>
+    </table>
 
-	<example xml:id="example-prism-surface-area">
-		<task>
-			<statement><p>What is the surface area of the right triangular prism in <xref ref="figure-exercise-prism-triangular" />?</p></statement>
-			<solution><p>The surface area consists of the areas of the three rectangles and the two right triangles. The rectangle areas are <m>2 \cdot 10 = 20</m>, <m>3 \cdot 10 = 30</m>, and <m>\sqrt{13} \cdot 10 \approx 36</m>. Because the triangles are right triangles, they both have area <m>\frac{1}{2} \cdot 2 \cdot 3 = 3</m>. The total area is <m>20+30+36+6 \approx 92</m>.</p></solution>
-		</task>
-		<task>
-			<statement><p>What is the volume of the triangular prism in <xref ref="figure-exercise-prism-triangular" />?</p></statement>
-			<solution><p>The volume is the area of the triangle, 3, times the height of the prism, 10. Thus the area is <m>3 \cdot 10 = 30</m>.</p></solution>
-		</task>
-	</example>
+    <p>For surface area the sides are always parallelograms (rectangles for right prisms).</p>
 
-	<figure xml:id="figure-exercise-prism-triangular">
-		<caption>Calculate the surface area and volume</caption>
-		<image source="images/triangular_prism_exercise" width="30%" />
-	</figure>
+    <example xml:id="example-prism-surface-area">
+        <task>
+            <p>What is the surface area of the right triangular prism in <xref ref="figure-exercise-prism-triangular" />?</p>
+            <p>The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area <m>\frac{1}{2} \cdot 2.125 \cdot 3.125 = 3.3203125 \approx 3.320</m>. The rectangle areas are <m>2.125 \cdot 10.250 = 21.78125 \approx 21.78</m> and <m>3.125 \cdot 10.250 = 32.03125 \approx 32.03</m>. For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem.
+            <md>
+                <mrow>(2.125)^2+(3.125)^2 &amp; = c^2.</mrow>
+                <mrow>4.515625+9.765625 &amp; = c^2. &amp; \text{Squaring maintains 4 sigfigs}</mrow>
+                <mrow>14.28125 &amp; = c^2. &amp; \text{Adding precise to 1000ths}</mrow>
+                <mrow>\sqrt{14.28125} &amp; = c. &amp; \text{Root maintains 5 sigfigs}</mrow>
+                <mrow>3.77905 &amp; \approx c.</mrow>
+                <mrow>3.7791 &amp; \approx c.</mrow>
+            </md>
+            The third rectangle has area <m>3.7791 \cdot 10.250 \approx 38.735775 \approx 38.736</m>.  The total area is <m>2(3.320)+21.78+32.03+38.736 \approx 99.186 \approx 99.19</m>.</p>
+        </task>
+        <task>
+            <p>What is the volume of the triangular prism in <xref ref="figure-exercise-prism-triangular" />?</p>
+            <p>The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is <m>3.320 \cdot 10.250 = 34.03</m>.</p>
+        </task>
+    </example>
 
-	<definition xml:id="definition-cylinder">
-		<title>Cylinder</title>
+    <figure xml:id="figure-exercise-prism-triangular">
+        <caption>Calculate the surface area and volume</caption>
+        <image source="images/triangular_prism_exercise" width="30%" />
+    </figure>
 
-		<statement><p>A <term>cylinder</term> is a circular prism.</p></statement>
-	</definition>
+    <definition xml:id="definition-cylinder">
+        <title>Cylinder</title>
 
-	<table xml:id="figure-cylinder-properties">
-		<title>Cylinder</title>
+        <statement><p>A <term>cylinder</term> is a circular prism.</p></statement>
+    </definition>
 
-		<tabular top="minor">
-			<col width="30%" />
-			<col width="20%" />
-			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cylinder" /></p></cell> <cell right="minor"><m>A=2\pi r \cdot h</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
-		</tabular>
-	</table>
+    <table xml:id="figure-cylinder-properties">
+        <title>Cylinder</title>
 
-	<p>Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
+        <tabular top="minor">
+            <col width="30%" />
+            <col width="20%" />
+            <col width="20%" />
+            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cylinder" /></p></cell> <cell right="minor"><m>A=2\pi r \cdot h</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
+        </tabular>
+    </table>
 
-	<table xml:id="figure-sphere-properties">
-		<title>Sphere</title>
+    <p>Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
 
-		<tabular top="minor">
-			<col width="30%" />
-			<col width="20%" />
-			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/sphere" /></p></cell> <cell right="minor"><m>A=4\pi r^2</m></cell> <cell right="minor"><m>V = \frac{4}{3}\pi r^3 </m></cell> </row>
-		</tabular>
-	</table>
+    <table xml:id="figure-sphere-properties">
+        <title>Sphere</title>
 
-	<table xml:id="figure-pyramid-properties">
-		<title>Pyramid</title>
+        <tabular top="minor">
+            <col width="30%" />
+            <col width="20%" />
+            <col width="20%" />
+            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/sphere" /></p></cell> <cell right="minor"><m>A=4\pi r^2</m></cell> <cell right="minor"><m>V = \frac{4}{3}\pi r^3 </m></cell> </row>
+        </tabular>
+    </table>
 
-		<tabular top="minor">
-			<col width="30%" />
-			<col width="20%" />
-			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid1" /></p></cell> <cell right="minor"><p>sum of surfaces</p></cell> <cell right="minor"><m>V = \frac{1}{3} B h </m></cell> </row>
-		</tabular>
-	</table>
+    <table xml:id="figure-pyramid-properties">
+        <title>Pyramid</title>
 
-	<exercise xml:id="exercise-pyramid-compare-prism">
-		<statement><p>What is the relationship between the volume of a pyramid to the volume of a prism with the same base?</p></statement>
-	</exercise>
+        <tabular top="minor">
+            <col width="30%" />
+            <col width="20%" />
+            <col width="20%" />
+            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid1" /></p></cell> <cell right="minor"><p>sum of surfaces</p></cell> <cell right="minor"><m>V = \frac{1}{3} B h </m></cell> </row>
+        </tabular>
+    </table>
 
-	<example xml:id="example-pyramid-calculuate">
-		<task>
-			<statement><p>What is the surface area of the pyramid in <xref ref="figure-pyramid" /></p></statement>
-			<solution><p>This pyramid consists of four triangular sides and a square base. The area of a triangle can be found using Heron's formula.
-				<md>
-					<mrow>s &amp; = \frac{1}{2}(\sqrt{10}+\sqrt{10}+2).</mrow>
-					<mrow>A &amp; = \sqrt{s(s-\sqrt{10})(s-\sqrt{10})(s-2)}</mrow>
-					<mrow> &amp; = \sqrt{(1+\sqrt{10})(1)(1)(\sqrt{10}-1)}</mrow>
-					<mrow> &amp; = 3.</mrow>
-				</md>
-			The area of the base is 4. Thus the surface area is <m>4+4(3)=16</m>.</p></solution>
-		</task>
-		<task>
-			<statement><p>What is the volume of the pyramid in <xref ref="figure-pyramid" /></p></statement>
-			<solution><p>The volume of a pyramid is a third of base times height, so <m>V=\frac{1}{3}(2^2)(2\sqrt{2}) \approx 3.77</m>.</p></solution>
-		</task>
-	</example>
+    <exercise xml:id="exercise-pyramid-compare-prism">
+        <statement><p>What is the relationship between the volume of a pyramid to the volume of a prism with the same base?</p></statement>
+    </exercise>
 
-	<figure xml:id="figure-pyramid">
-		<caption>Pyramid with a square base</caption>
-		<image source="images/pyramid-triangular-exercise" width="30%" />
-	</figure>
+    <example xml:id="example-pyramid-calculuate">
+        <task>
+            <statement><p>What is the surface area of the pyramid in <xref ref="figure-pyramid" /></p></statement>
+            <solution><p>This pyramid consists of four triangular sides and a square base. The area of a triangle can be found using Heron's formula.
+                <md>
+                    <mrow>s &amp; = \frac{1}{2}(\sqrt{10}+\sqrt{10}+2).</mrow>
+                    <mrow>A &amp; = \sqrt{s(s-\sqrt{10})(s-\sqrt{10})(s-2)}</mrow>
+                    <mrow> &amp; = \sqrt{(1+\sqrt{10})(1)(1)(\sqrt{10}-1)}</mrow>
+                    <mrow> &amp; = 3.</mrow>
+                </md>
+            The area of the base is 4. Thus the surface area is <m>4+4(3)=16</m>.</p></solution>
+        </task>
+        <task>
+            <statement><p>What is the volume of the pyramid in <xref ref="figure-pyramid" /></p></statement>
+            <solution><p>The volume of a pyramid is a third of base times height, so <m>V=\frac{1}{3}(2^2)(2\sqrt{2}) \approx 3.77</m>.</p></solution>
+        </task>
+    </example>
 
-	<table xml:id="figure-cone-properties">
-		<title>Cone</title>
+    <figure xml:id="figure-pyramid">
+        <caption>Pyramid with a square base</caption>
+        <image source="images/pyramid-triangular-exercise" width="30%" />
+    </figure>
 
-		<tabular top="minor">
-			<col width="30%" />
-			<col width="20%" />
-			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone" /></p></cell> <cell right="minor"><m>A=\pi r \sqrt{h^2+r^2}</m> or <m>A=\pi r s</m></cell> <cell right="minor"><m>V = \frac{\pi}{3} r^2 h </m></cell> </row>
-		</tabular>
-	</table>
+    <table xml:id="figure-cone-properties">
+        <title>Cone</title>
 
-	<p>The latin word <term>frustrum</term> means <q>cut off</q>. This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
+        <tabular top="minor">
+            <col width="30%" />
+            <col width="20%" />
+            <col width="20%" />
+            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone" /></p></cell> <cell right="minor"><m>A=\pi r \sqrt{h^2+r^2}</m> or <m>A=\pi r s</m></cell> <cell right="minor"><m>V = \frac{\pi}{3} r^2 h </m></cell> </row>
+        </tabular>
+    </table>
 
-	<table> xml:id="figure-pyramid-frustrum-properties">
-		<title>Frustrum of a Pyramid</title>
+    <p>The latin word <term>frustrum</term> means <q>cut off</q>. This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
 
-		<tabular top="minor">
-			<col width="30%" />
-			<col width="20%" />
-			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid-frustrum" /></p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
-		</tabular>
-	</table>
+    <table> xml:id="figure-pyramid-frustrum-properties">
+        <title>Frustrum of a Pyramid</title>
 
-	<example xml:id="example-pyramid-frustrum">
-		<task>
-			<statement><p>What is the surface area of the frustrum of a pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p></statement>
-			<solution><p>The perimeter of the lower base is 9 and the perimeter of the upper base is 3. The area of the three sides is therefore <m>\frac{1}{2}2(9+3)=12</m>. To calculate the area of the two bases we will need Heron's formula.
-			<md>
-				<mrow>s &amp; = \frac{9}{2}.</mrow>
-				<mrow>A_2 &amp; = \sqrt{\frac{9}{2}\left(\frac{3}{2}\right)^3}</mrow>
-				<mrow> &amp; = \frac{9\sqrt{3}}{4}.</mrow>
-				<mrow>A_1 &amp; = \sqrt{\frac{3}{2}\left(\frac{1}{2}\right)^3}</mrow>
-				<mrow> &amp; = \frac{\sqrt{3}}{4}.</mrow>
-			</md>
-			Thus the surface area is <m>12+\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4} \approx 16.33</m>.</p></solution>
-		</task>
-		<task>
-			<statement><p>What is the volume of the frustrum of a pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p></statement>
-			<solution><p>Using the values provided
-				<md>
-					<mrow>V &amp; = \frac{1}{3} \cdot \frac{4}{3}\left(\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4}+\sqrt{\frac{9\sqrt{3}}{4} \cdot \frac{\sqrt{3}}{4}}\right)</mrow>
-					<mrow> &amp; = \frac{13\sqrt{3}}{12}</mrow>
-					<mrow> &amp; \approx  1.88</mrow>
-				</md></p>
-			</solution>
-		</task>
-	</example>
+        <tabular top="minor">
+            <col width="30%" />
+            <col width="20%" />
+            <col width="20%" />
+            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid-frustrum" /></p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
+        </tabular>
+    </table>
 
-	<figure xml:id="figure-pyramid-frustrum-example">
-		<caption>Calculate Area and Volume of this Frustrum</caption>
-		<image source="images/pyramid-frustrum-exercise" width="50%" />
-	</figure>
+    <example xml:id="example-pyramid-frustrum">
+        <task>
+            <statement><p>What is the surface area of the frustrum of a pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p></statement>
+            <solution><p>The perimeter of the lower base is 9 and the perimeter of the upper base is 3. The area of the three sides is therefore <m>\frac{1}{2}2(9+3)=12</m>. To calculate the area of the two bases we will need Heron's formula.
+            <md>
+                <mrow>s &amp; = \frac{9}{2}.</mrow>
+                <mrow>A_2 &amp; = \sqrt{\frac{9}{2}\left(\frac{3}{2}\right)^3}</mrow>
+                <mrow> &amp; = \frac{9\sqrt{3}}{4}.</mrow>
+                <mrow>A_1 &amp; = \sqrt{\frac{3}{2}\left(\frac{1}{2}\right)^3}</mrow>
+                <mrow> &amp; = \frac{\sqrt{3}}{4}.</mrow>
+            </md>
+            Thus the surface area is <m>12+\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4} \approx 16.33</m>.</p></solution>
+        </task>
+        <task>
+            <statement><p>What is the volume of the frustrum of a pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p></statement>
+            <solution><p>Using the values provided
+                <md>
+                    <mrow>V &amp; = \frac{1}{3} \cdot \frac{4}{3}\left(\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4}+\sqrt{\frac{9\sqrt{3}}{4} \cdot \frac{\sqrt{3}}{4}}\right)</mrow>
+                    <mrow> &amp; = \frac{13\sqrt{3}}{12}</mrow>
+                    <mrow> &amp; \approx  1.88</mrow>
+                </md></p>
+            </solution>
+        </task>
+    </example>
 
-	<table xml:id="figure-cone-frustrum-properties">
-		<title>Frustrum of a Cone</title>
+    <figure xml:id="figure-pyramid-frustrum-example">
+        <caption>Calculate Area and Volume of this Frustrum</caption>
+        <image source="images/pyramid-frustrum-exercise" width="50%" />
+    </figure>
 
-		<tabular top="minor">
-			<col width="30%" />
-			<col width="20%" />
-			<col width="20%" />
-			<row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-			<row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone-frustrum" /></p></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
-		</tabular>
-	</table>
+    <table xml:id="figure-cone-frustrum-properties">
+        <title>Frustrum of a Cone</title>
 
-	<exercise xml:id="exercise-frustrum-cone-limitations">
-		<introduction><p>For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.</p>
-		<p>For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height.</p></introduction>
-		<task><p>If the height is 3, can the slant height be 2?</p></task>
-		<task><p>What is the bottom of the range of possible slant heights for this frustrum?</p></task>
-		<task><p>If the height is 3 and the top base has radius 1, what is the slant height?</p></task>
-		<task><p>If the height is 3 and the top base has radius 0.5, what is the slant height?</p></task>
-		<task><p>What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).</p></task>
-	</exercise>
+        <tabular top="minor">
+            <col width="30%" />
+            <col width="20%" />
+            <col width="20%" />
+            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone-frustrum" /></p></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
+        </tabular>
+    </table>
+
+    <exercise xml:id="exercise-frustrum-cone-limitations">
+        <introduction><p>For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.</p>
+        <p>For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height.</p></introduction>
+        <task><p>If the height is 3, can the slant height be 2?</p></task>
+        <task><p>What is the bottom of the range of possible slant heights for this frustrum?</p></task>
+        <task><p>If the height is 3 and the top base has radius 1, what is the slant height?</p></task>
+        <task><p>If the height is 3 and the top base has radius 0.5, what is the slant height?</p></task>
+        <task><p>What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).</p></task>
+    </exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-geometry3d-applied">
-	<title>Applying Geometry</title>
+    <title>Applying Geometry</title>
 
-	<example xml:id="example-apply-geometry-ice-cream">
-		<task>
-			<statement><p>An ice cream cone has the dimensions shown in <xref ref="figure-ice-cream" />. What is the volume of the ice cream?</p></statement>
-			<solution><p>This is a right circular cone with a half sphere on top. The volume of the cone is <m>V_c = \frac{\pi}{3} 2^2 \cdot 10 \approx 42</m>. The volume of the half sphere is <m>\frac{1}{2} \cdot \frac{4}{3} \pi 2^3 \approx 17</m>. Thus the total volume of the ice cream is 59.</p></solution>
-		</task>
-		<task>
-			<statement><p>An ice cream cone has the dimensions shown in <xref ref="figure-ice-cream" />. What is the surface area of the ice cream? Note the greater the area the faster it melts.</p></statement>
-			<solution><p>This is a right circular cone with a half sphere on top. The surface area of the cone is <m>A_c = 2\pi (2+\sqrt{10^2+2^2}) \approx 77</m>. The surface area of the half sphere is <m>\frac{1}{2} \cdot 4 \pi 2^2 \approx 25</m>. Thus the total surface area of the ice cream is 102.</p></solution>
-		</task>
-	</example>
+    <example xml:id="example-apply-geometry-ice-cream">
+        <task>
+            <statement><p>An ice cream cone has the dimensions shown in <xref ref="figure-ice-cream" />. What is the volume of the ice cream?</p></statement>
+            <solution><p>This is a right circular cone with a half sphere on top. The volume of the cone is <m>V_c = \frac{\pi}{3} 2^2 \cdot 10 \approx 42</m>. The volume of the half sphere is <m>\frac{1}{2} \cdot \frac{4}{3} \pi 2^3 \approx 17</m>. Thus the total volume of the ice cream is 59.</p></solution>
+        </task>
+        <task>
+            <statement><p>An ice cream cone has the dimensions shown in <xref ref="figure-ice-cream" />. What is the surface area of the ice cream? Note the greater the area the faster it melts.</p></statement>
+            <solution><p>This is a right circular cone with a half sphere on top. The surface area of the cone is <m>A_c = 2\pi (2+\sqrt{10^2+2^2}) \approx 77</m>. The surface area of the half sphere is <m>\frac{1}{2} \cdot 4 \pi 2^2 \approx 25</m>. Thus the total surface area of the ice cream is 102.</p></solution>
+        </task>
+    </example>
 
-	<figure xml:id="figure-ice-cream">
-		<caption>Ice Cream for Volume and Surface Area</caption>
-		<image source="images/cone-sphere" width="30%" />
-	</figure>
+    <figure xml:id="figure-ice-cream">
+        <caption>Ice Cream for Volume and Surface Area</caption>
+        <image source="images/cone-sphere" width="30%" />
+    </figure>
+
+    <exercise xml:id="exercise-apply-geometry-birdhouse">
+        <statement><p>What is the total area of the birdhouse shown in <xref ref="figure-apply-geometry-birdhouse" />?</p></statement>
+    </exercise>
+
+    <figure xml:id="figure-apply-geometry-birdhouse">
+        <caption>Birdhouse</caption>
+        <image source="images/birdhouse" width="30%" />
+    </figure>
 
 </subsection>
 
