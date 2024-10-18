@@ -29,7 +29,7 @@
     <figure xml:id="figure-illustrate-surface-volume">
         <caption>Complex Shape with Surface and Volume</caption>
 
-        <image source="images/popcorn_cone" />
+        <image source="images/popcorn_cone" width="30%" />
     </figure>
 
     <definition xml:id="definition-prism">
@@ -67,7 +67,7 @@
         </tabular>
     </table>
 
-    <p>For surface area the sides are always parallelograms (rectangles for right prisms).</p>
+    <p>For surface area the sides are always parallelograms (rectangles for right prisms). For the volume <m>B</m> is the area of the base (the triangle or trapezoid in the four examples). <m>h</m> is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.</p>
 
     <example xml:id="example-prism-surface-area">
         <task>
@@ -84,14 +84,27 @@
             The third rectangle has area <m>3.7791 \cdot 10.250 \approx 38.735775 \approx 38.736</m>.  The total area is <m>2(3.320)+21.78+32.03+38.736 \approx 99.186 \approx 99.19</m>.</p>
         </task>
         <task>
-            <p>What is the volume of the triangular prism in <xref ref="figure-exercise-prism-triangular" />?</p>
+            <p>What is the volume of the triangular prism in <xref ref="figure-exercise-prism-triangular-right" />?</p>
             <p>The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is <m>3.320 \cdot 10.250 = 34.03</m>.</p>
+        </task>
+        <task>
+            <p>What is the volume of the triangular prism in <xref ref="figure-exercise-prism-triangular-slant" />?</p>
+            <p>The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is <m>3.320 \cdot 10.250 = 34.03</m>. Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.</p>
         </task>
     </example>
 
     <figure xml:id="figure-exercise-prism-triangular">
         <caption>Calculate the surface area and volume</caption>
-        <image source="images/triangular_prism_exercise" width="30%" />
+        <sidebyside>
+            <figure xml:id="figure-exercise-prism-triangular-right">
+                <caption>Right Triangular Prism</caption>
+                <image source="images/triangular_prism_exercise" width="30%" />
+            </figure>
+            <figure xml:id="figure-exercise-prism-triangular-slant">
+                <caption>Non-Right Triangular Prism</caption>
+                <image source="images/triangular_prism_slant_exercise" width="30%" />
+            </figure>
+        </sidebyside>
     </figure>
 
     <definition xml:id="definition-cylinder">
@@ -108,11 +121,38 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cylinder" /></p></cell> <cell right="minor"><m>A=2\pi r \cdot h</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cylinder" /></p></cell> <cell right="minor"><m>A=2\pi r \cdot s</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
         </tabular>
     </table>
 
-    <p>Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
+    <p>The 2 is an exact number. If the cylinder is not slanted then <m>s=h</m>. Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
+
+    <example xml:id="example-cylinder-properties">
+        <p>What are the total surface area and volume of this slanted cylinder?</p>
+        <image source="images/cylinder_exercise" width="30%" />
+        <p>The lateral surface area is
+        <md>
+            <mrow>2\pi(3.907)(5.666) &amp; \approx </mrow>
+            <mrow>2(3.142)(3.907)(5.666) &amp; \approx 139.1092976</mrow>
+            <mrow> &amp; \approx 139.1</mrow>
+        </md>
+        We use <m>\pi</m> rounded to 3 decimal places to have the same number of significant digits as the measurements.</p>
+        <p>The area of the top and bottom are both
+        <md>
+            <mrow>\pi(3.907)^2 &amp; \approx </mrow>
+            <mrow>(3.142)(3.907)^2 &amp; \approx 47.96152716</mrow>
+            <mrow> &amp; \approx 47.96.</mrow>
+        </md>
+        Thus the total surface area is <me>2(47.96)+139.1 \approx 235.02 \approx 235.0.</me></p>
+        <p>The volume is
+            <md>
+                <mrow>V &amp; = \pi(3.907)^2(5.324)</mrow>
+                <mrow> &amp; \approx (3.142)(3.907)^2(5.324)</mrow>
+                <mrow> &amp; \approx 255.3471706</mrow>
+                <mrow> &amp; \approx 255.3</mrow>
+            </md>
+        </p>
+    </example>
 
     <table xml:id="figure-sphere-properties">
         <title>Sphere</title>
@@ -126,6 +166,26 @@
         </tabular>
     </table>
 
+    <p>The 4 and 4/3 are exact numbers.</p>
+
+    <example xml:id="example-sphere-properties">
+        <p>What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.</p>
+        <image source="images/half_sphere_exercise" width="30%" />
+        <p>Because this is a dome (half sphere) we divide the formulae by 2.
+        <md>
+            <mrow>A &amp; = \frac{1}{2}(4\pi(12.9167)^2)</mrow>
+            <mrow> &amp; \approx \frac{1}{2}(4(3.14159)(12.9167)^2)</mrow>
+            <mrow> &amp; \approx 1048.292907</mrow>
+            <mrow> &amp; \approx 1048.29</mrow>
+        </md>
+        <md>
+            <mrow>V &amp; = \frac{1}{2}\left(\frac{4}{3}\pi(12.9167)^3 \right)</mrow>
+            <mrow> &amp; \approx \frac{1}{2}\left(\frac{4}{3}(3.14159)(12.9167)^3 \right)</mrow>
+            <mrow> &amp; \approx 4513.494997</mrow>
+            <mrow> &amp; \approx 4513.49</mrow>
+        </md></p>
+    </example>
+
     <table xml:id="figure-pyramid-properties">
         <title>Pyramid</title>
 
@@ -138,32 +198,65 @@
         </tabular>
     </table>
 
-    <exercise xml:id="exercise-pyramid-compare-prism">
-        <statement><p>What is the relationship between the volume of a pyramid to the volume of a prism with the same base?</p></statement>
-    </exercise>
+    <p>The 1/3 is an exact number.</p>
 
     <example xml:id="example-pyramid-calculuate">
         <task>
-            <statement><p>What is the surface area of the pyramid in <xref ref="figure-pyramid" /></p></statement>
-            <solution><p>This pyramid consists of four triangular sides and a square base. The area of a triangle can be found using Heron's formula.
+            <p>What is the surface area of this pyramid?</p>
+            <image source="images/pyramid-triangular-exercise" width="30%" />
+            <p>This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers.</p>
+            <p>The area of one of the triangles can be found using Heron's formula.
                 <md>
-                    <mrow>s &amp; = \frac{1}{2}(\sqrt{10}+\sqrt{10}+2).</mrow>
-                    <mrow>A &amp; = \sqrt{s(s-\sqrt{10})(s-\sqrt{10})(s-2)}</mrow>
-                    <mrow> &amp; = \sqrt{(1+\sqrt{10})(1)(1)(\sqrt{10}-1)}</mrow>
-                    <mrow> &amp; = 3.</mrow>
+                    <mrow>s &amp; = \frac{1}{2}(2.0000+3.1623+3.1623)</mrow>
+                    <mrow> &amp; = 4.1623. \text{ All numbers precise to 4 decimal places}. </mrow>
+                    <mrow>A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)} \text{ Subtraction maintains 4 decimal places}</mrow>
+                    <mrow> &amp; = \sqrt{(4.1623)(1.0000)(1.0000)(2.1623)} \text{ Product will have 5 sigfigs}</mrow>
+                    <mrow> &amp; = \sqrt{9.00014129} \text{Root will maintain 5 sigfigs}</mrow>
+                    <mrow> &amp; = 3.000023548</mrow>
+                    <mrow> &amp; = 3.0000.</mrow>
                 </md>
-            The area of the base is 4. Thus the surface area is <m>4+4(3)=16</m>.</p></solution>
+            The area of the base is <m>2.0000 \cdot 2.0000 = 4.0000</m>. Thus the surface area is <m>4.0000+4(3.0000)=16.0000</m>.</p>
         </task>
         <task>
-            <statement><p>What is the volume of the pyramid in <xref ref="figure-pyramid" /></p></statement>
-            <solution><p>The volume of a pyramid is a third of base times height, so <m>V=\frac{1}{3}(2^2)(2\sqrt{2}) \approx 3.77</m>.</p></solution>
+            <p>What is the volume of this pyramid?</p>
+            <p>The volume is <m>V=\frac{1}{3}(2.0000^2)(2.8284) = 3.7712</m>.</p>
         </task>
     </example>
 
-    <figure xml:id="figure-pyramid">
-        <caption>Pyramid with a square base</caption>
-        <image source="images/pyramid-triangular-exercise" width="30%" />
-    </figure>
+    <example xml:id="example-pyramid-minimal-parameters">
+        <p>Find the volume of this rectangular pyramid.</p>
+        <image source="images/pyramid-exercise-no-height" width="30%" />
+        <p>To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).</p>
+        <p>We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.</p>
+        <image source="images/pyramid-exercise-no-height-labeled" width="30%" />
+        <p><md>
+            <mrow>\left(\frac{5.31}{2}\right)^2+\left(\frac{3.17}{2}\right)^2 &amp; = c^2.</mrow>
+            <mrow>7.049025+2.512225 &amp; = c^2. \text{3 sigfigs from squares}</mrow>
+            <mrow>9.56125 &amp; = c^2. \text{precise to hundredths}</mrow>
+            <mrow>\sqrt{9.56125} &amp; = c. \text{3 sigfigs maintained}</mrow>
+            <mrow>3.0921271 &amp; \approx c.</mrow>
+            <mrow>3.09 &amp; \approx c.</mrow>
+        </md>
+        Next, we can use this length and the given side length to calculate the height.
+        <md>
+            <mrow>3.09^2 + h^2 &amp; = 9.72^2.</mrow>
+            <mrow>9.5481 + h^2 &amp; = 94.4784. \text{ 3 sigfigs maintained}</mrow>
+            <mrow>h^2 &amp; = 94.4784-9.5481.</mrow>
+            <mrow>h^2 &amp; = 84.9303. \text{ Precise to only tenths}</mrow>
+            <mrow>h &amp; = \sqrt{84.9303}. \text{ Root maitains 3 sigfigs}</mrow>
+            <mrow>h &amp; \approx 9.215763</mrow>
+            <mrow>h &amp; \approx 9.22.</mrow>
+        </md></p>
+        <p>Finally we can calculate the volume. The base has area <m>5.31 \cdot 3.17 = 16.8327 \approx 16.8</m>. This pyramid has volume <me>V = \frac{1}{3}(16.8)(9.22) = 51.632 \approx 51.6.</me></p>
+    </example>
+
+    <exercise xml:id="exercise-pyramid-rectangular">
+        <myopenmath problem="1473351" />
+    </exercise>
+
+    <exercise xml:id="exercise-pyramid-compare-prism">
+        <statement><p>What is the relationship between the volume of a pyramid to the volume of a prism with the same base? <q>same base</q> means the same shape and size. The pyramid could then be placed inside the prism.</p></statement>
+    </exercise>
 
     <table xml:id="figure-cone-properties">
         <title>Cone</title>
@@ -179,7 +272,7 @@
 
     <p>The latin word <term>frustrum</term> means <q>cut off</q>. This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
 
-    <table> xml:id="figure-pyramid-frustrum-properties">
+    <table xml:id="figure-pyramid-frustrum-properties">
         <title>Frustrum of a Pyramid</title>
 
         <tabular top="minor">
