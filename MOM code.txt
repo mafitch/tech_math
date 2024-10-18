@@ -29,3 +29,21 @@ $answer[1] = 0
 $partialcredit[1] = array(0,1,1,1,2,1,3,1,4,1,5,1,6,1,7,1,8,1,9,1,10,1)
 
 <p>A matching example in the textbook is Example $answerbox[1]</p>
+
+CalcPlot3D example
+// Generate the image; unfortunately cannot remove axes
+loadlibrary("plot3d")
+$img = CalcPlot3Dembed(array(
+  "curve,$width*t/2-$width/2,$depth*t/2-$depth/2,$height*t,0,1,2,1,blue",
+  "curve,$width*t/2-$width/2,-$depth*t/2+$depth/2,$height*t,0,1,2,1,blue",
+  "curve,-$width*t/2+$width/2,$depth*t/2-$depth/2,$height*t,0,1,2,1,blue",
+  "curve,-$width*t/2+$width/2,-$depth*t/2+$depth/2,$height*t,0,1,2,1,blue",
+  "curve,t,$depth/2,0,-$width/2,$width/2,2,1,blue",
+  "curve,t,-$depth/2,0,-$width/2,$width/2,2,1,blue",
+  "curve,$width/2,t,0,-$depth/2,$depth/2,2,1,blue",
+  "curve,-$width/2,t,0,-$depth/2,$depth/2,2,1,blue",
+  "text,$width_sf,0,-$depth/2,0,red,14,0,0,0,left",
+  "text,$depth_sf,$width/2,0,0,red,14,0,0,0,left",
+  "text,$height_sf,0,0,$height/3,red,14,0,0,0,left",
+  "text,$hyp_sf,-$width/4,-$depth/4,$height/2,red,14,0,0,0,left"
+),500,500,-ceil($width/2),ceil($width/2),-ceil($depth/2),ceil($depth/2),0,$height,1,1,1,-0.5,$height+0.5,0)
