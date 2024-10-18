@@ -547,7 +547,7 @@ eBookConfig.enable_chatcodes =  false;
 </h3>
 <div class="para" id="subsection-geometric-properties-3d-2">This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.</div>
 <div class="para" id="subsection-geometric-properties-3d-3">The <dfn class="terminology">surface area</dfn> of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The <dfn class="terminology">volume</dfn> of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.</div>
-<figure class="figure figure-like" id="figure-illustrate-surface-volume"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/popcorn_cone.svg" role="img" class="contained"></div>
+<figure class="figure figure-like" id="figure-illustrate-surface-volume"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/popcorn_cone.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.1<span class="period">.</span></span><span class="space"> </span>Complex Shape with Surface and Volume</figcaption></figure><article class="definition definition-like" id="definition-prism"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Prism.</span>
 </h4>
@@ -571,7 +571,7 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b1 r1 l0 t0" style="max-width:120px;"><div class="para" id="figure-prism-properties-2-5-2-1">sum of area of all sides</div></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(V = B h\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-3d-9">For surface area the sides are always parallelograms (rectangles for right prisms).</div>
+</table></div></figure><div class="para" id="subsection-geometric-properties-3d-9">For surface area the sides are always parallelograms (rectangles for right prisms). For the volume <span class="process-math">\(B\)</span> is the area of the base (the triangle or trapezoid in the four examples). <span class="process-math">\(h\)</span> is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.</div>
 <article class="example example-like" id="example-prism-surface-area"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.5</span><span class="period">.</span>
 </h4>
@@ -592,9 +592,14 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">The third rectangle has area <span class="process-math">\(3.7791 \cdot 10.250 \approx 38.735775 \approx 38.736\text{.}\)</span>  The total area is <span class="process-math">\(2(3.320)+21.78+32.03+38.736 \approx 99.186 \approx 99.19\text{.}\)</span>
 </div>
 </div></article><article class="task exercise-like" id="example-prism-surface-area-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-prism-surface-area-2-1">What is the volume of the triangular prism in <a href="section-geometry3D.html#figure-exercise-prism-triangular" class="xref" data-knowl="./knowl/xref/figure-exercise-prism-triangular.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.6">Figure 4.2.6</a>?</div>
+<div class="para" id="example-prism-surface-area-2-1">What is the volume of the triangular prism in <a href="section-geometry3D.html#figure-exercise-prism-triangular-right" class="xref" data-knowl="./knowl/xref/figure-exercise-prism-triangular-right.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.6.(a)">Figure 4.2.6.(a)</a>?</div>
 <div class="para" id="example-prism-surface-area-2-2">The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is <span class="process-math">\(3.320 \cdot 10.250 = 34.03\text{.}\)</span>
-</div></article></article><figure class="figure figure-like" id="figure-exercise-prism-triangular"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/triangular_prism_exercise.svg" role="img" class="contained"></div>
+</div></article><article class="task exercise-like" id="example-prism-surface-area-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="example-prism-surface-area-3-1">What is the volume of the triangular prism in <a href="section-geometry3D.html#figure-exercise-prism-triangular-slant" class="xref" data-knowl="./knowl/xref/figure-exercise-prism-triangular-slant.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.6.(b)">Figure 4.2.6.(b)</a>?</div>
+<div class="para" id="example-prism-surface-area-3-2">The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is <span class="process-math">\(3.320 \cdot 10.250 = 34.03\text{.}\)</span> Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.</div></article></article><figure class="figure figure-like" id="figure-exercise-prism-triangular"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-exercise-prism-triangular-right"><img src="external/images/triangular_prism_exercise.svg" role="img" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Right Triangular Prism</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-exercise-prism-triangular-slant"><img src="external/images/triangular_prism_slant_exercise.svg" role="img" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Non-Right Triangular Prism</figcaption></figure></div>
+</div></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.6<span class="period">.</span></span><span class="space"> </span>Calculate the surface area and volume</figcaption></figure><article class="definition definition-like" id="definition-cylinder"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.7</span><span class="period">.</span><span class="space"> </span><span class="title">Cylinder.</span>
 </h4>
@@ -606,11 +611,53 @@ eBookConfig.enable_chatcodes =  false;
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-cylinder-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/cylinder.svg" role="img" class="contained"></div></div></td>
-<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(A=2\pi r \cdot h\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(A=2\pi r \cdot s\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(V = \pi r^2 h\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-3d-14">Note the surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</div>
-<figure class="table table-like" id="figure-sphere-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.9<span class="period">.</span></span><span class="space"> </span>Sphere</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</table></div></figure><div class="para" id="subsection-geometric-properties-3d-14">The 2 is an exact number. If the cylinder is not slanted then <span class="process-math">\(s=h\text{.}\)</span> Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</div>
+<article class="example example-like" id="example-cylinder-properties"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-cylinder-properties-1">What are the total surface area and volume of this slanted cylinder?</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/cylinder_exercise.svg" role="img" class="contained"></div>
+<div class="para logical" id="example-cylinder-properties-3">
+<div class="para">The lateral surface area is</div>
+<div class="displaymath process-math" id="example-cylinder-properties-3-1">
+\begin{align*}
+2\pi(3.907)(5.666) &amp; \approx \\
+2(3.142)(3.907)(5.666) &amp; \approx 139.1092976\\
+&amp; \approx 139.1
+\end{align*}
+</div>
+<div class="para">We use <span class="process-math">\(\pi\)</span> rounded to 3 decimal places to have the same number of significant digits as the measurements.</div>
+</div>
+<div class="para logical" id="example-cylinder-properties-4">
+<div class="para">The area of the top and bottom are both</div>
+<div class="displaymath process-math" id="example-cylinder-properties-4-1">
+\begin{align*}
+\pi(3.907)^2 &amp; \approx \\
+(3.142)(3.907)^2 &amp; \approx 47.96152716\\
+&amp; \approx 47.96.
+\end{align*}
+</div>
+<div class="para">Thus the total surface area is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2(47.96)+139.1 \approx 235.02 \approx 235.0.
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="example-cylinder-properties-5">
+<div class="para">The volume is</div>
+<div class="displaymath process-math" id="example-cylinder-properties-5-1">
+\begin{align*}
+V &amp; = \pi(3.907)^2(5.324)\\
+&amp; \approx (3.142)(3.907)^2(5.324)\\
+&amp; \approx 255.3471706\\
+&amp; \approx 255.3
+\end{align*}
+</div>
+</div></article><figure class="table table-like" id="figure-sphere-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.10<span class="period">.</span></span><span class="space"> </span>Sphere</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-sphere-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-sphere-properties-2-4-2-1">Surface Area</div></td>
@@ -621,7 +668,31 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(A=4\pi r^2\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(V = \frac{4}{3}\pi r^3 \)</span></td>
 </tr>
-</table></div></figure><figure class="table table-like" id="figure-pyramid-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.10<span class="period">.</span></span><span class="space"> </span>Pyramid</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</table></div></figure><div class="para" id="subsection-geometric-properties-3d-17">The 4 and 4/3 are exact numbers.</div>
+<article class="example example-like" id="example-sphere-properties"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-sphere-properties-1">What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/half_sphere_exercise.svg" role="img" class="contained"></div>
+<div class="para logical" id="example-sphere-properties-3">
+<div class="para">Because this is a dome (half sphere) we divide the formulae by 2.</div>
+<div class="displaymath process-math" id="example-sphere-properties-3-1">
+\begin{align*}
+A &amp; = \frac{1}{2}(4\pi(12.9167)^2)\\
+&amp; \approx \frac{1}{2}(4(3.14159)(12.9167)^2)\\
+&amp; \approx 1048.292907\\
+&amp; \approx 1048.29
+\end{align*}
+</div>
+<div class="displaymath process-math" id="example-sphere-properties-3-2">
+\begin{align*}
+V &amp; = \frac{1}{2}\left(\frac{4}{3}\pi(12.9167)^3 \right)\\
+&amp; \approx \frac{1}{2}\left(\frac{4}{3}(3.14159)(12.9167)^3 \right)\\
+&amp; \approx 4513.494997\\
+&amp; \approx 4513.49
+\end{align*}
+</div>
+</div></article><figure class="table table-like" id="figure-pyramid-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.12<span class="period">.</span></span><span class="space"> </span>Pyramid</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-pyramid-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-pyramid-properties-2-4-2-1">Surface Area</div></td>
@@ -632,33 +703,78 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b1 r1 l0 t0" style="max-width:120px;"><div class="para" id="figure-pyramid-properties-2-5-2-1">sum of surfaces</div></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(V = \frac{1}{3} B h \)</span></td>
 </tr>
-</table></div></figure><article class="exercise exercise-like" id="exercise-pyramid-compare-prism"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.11</span><span class="period">.</span>
-</h4>
-<div class="para" id="exercise-pyramid-compare-prism-1-1">What is the relationship between the volume of a pyramid to the volume of a prism with the same base?</div></article><article class="example example-like" id="example-pyramid-calculuate"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.12</span><span class="period">.</span>
+</table></div></figure><div class="para" id="subsection-geometric-properties-3d-20">The 1/3 is an exact number.</div>
+<article class="example example-like" id="example-pyramid-calculuate"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.13</span><span class="period">.</span>
 </h4>
 <article class="task exercise-like" id="example-pyramid-calculuate-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-pyramid-calculuate-1-1-1">What is the surface area of the pyramid in <a href="section-geometry3D.html#figure-pyramid" class="xref" data-knowl="./knowl/xref/figure-pyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.13">Figure 4.2.13</a>
-</div>
-<div class="solutions"><details id="example-pyramid-calculuate-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-pyramid-calculuate-1-2-1">
-<div class="para">This pyramid consists of four triangular sides and a square base. The area of a triangle can be found using Heron’s formula.</div>
-<div class="displaymath process-math" id="example-pyramid-calculuate-1-2-1-1">
+<div class="para" id="example-pyramid-calculuate-1-1">What is the surface area of this pyramid?</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/pyramid-triangular-exercise.svg" role="img" class="contained"></div>
+<div class="para" id="example-pyramid-calculuate-1-3">This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers.</div>
+<div class="para logical" id="example-pyramid-calculuate-1-4">
+<div class="para">The area of one of the triangles can be found using Heron’s formula.</div>
+<div class="displaymath process-math" id="example-pyramid-calculuate-1-4-1">
 \begin{align*}
-s &amp; = \frac{1}{2}(\sqrt{10}+\sqrt{10}+2).\\
-A &amp; = \sqrt{s(s-\sqrt{10})(s-\sqrt{10})(s-2)}\\
-&amp; = \sqrt{(1+\sqrt{10})(1)(1)(\sqrt{10}-1)}\\
-&amp; = 3.
+s &amp; = \frac{1}{2}(2.0000+3.1623+3.1623)\\
+&amp; = 4.1623. \text{ All numbers precise to 4 decimal places}. \\
+A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)} \text{ Subtraction maintains 4 decimal places}\\
+&amp; = \sqrt{(4.1623)(1.0000)(1.0000)(2.1623)} \text{ Product will have 5 sigfigs}\\
+&amp; = \sqrt{9.00014129} \text{Root will maintain 5 sigfigs}\\
+&amp; = 3.000023548\\
+&amp; = 3.0000.
 \end{align*}
 </div>
-<div class="para">The area of the base is 4. Thus the surface area is <span class="process-math">\(4+4(3)=16\text{.}\)</span>
+<div class="para">The area of the base is <span class="process-math">\(2.0000 \cdot 2.0000 = 4.0000\text{.}\)</span> Thus the surface area is <span class="process-math">\(4.0000+4(3.0000)=16.0000\text{.}\)</span>
 </div>
-</div></div></details></div></article><article class="task exercise-like" id="example-pyramid-calculuate-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-pyramid-calculuate-2-1-1">What is the volume of the pyramid in <a href="section-geometry3D.html#figure-pyramid" class="xref" data-knowl="./knowl/xref/figure-pyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.13">Figure 4.2.13</a>
+</div></article><article class="task exercise-like" id="example-pyramid-calculuate-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="example-pyramid-calculuate-2-1">What is the volume of this pyramid?</div>
+<div class="para" id="example-pyramid-calculuate-2-2">The volume is <span class="process-math">\(V=\frac{1}{3}(2.0000^2)(2.8284) = 3.7712\text{.}\)</span>
+</div></article></article><article class="example example-like" id="example-pyramid-minimal-parameters"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-pyramid-minimal-parameters-1">Find the volume of this rectangular pyramid.</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/pyramid-exercise-no-height.svg" role="img" class="contained"></div>
+<div class="para" id="example-pyramid-minimal-parameters-3">To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).</div>
+<div class="para" id="example-pyramid-minimal-parameters-4">We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/pyramid-exercise-no-height-labeled.svg" role="img" class="contained"></div>
+<div class="para logical" id="example-pyramid-minimal-parameters-6">
+<div class="displaymath process-math" id="example-pyramid-minimal-parameters-6-1">
+\begin{align*}
+\left(\frac{5.31}{2}\right)^2+\left(\frac{3.17}{2}\right)^2 &amp; = c^2.\\
+7.049025+2.512225 &amp; = c^2. \text{3 sigfigs from squares}\\
+9.56125 &amp; = c^2. \text{precise to hundredths}\\
+\sqrt{9.56125} &amp; = c. \text{3 sigfigs maintained}\\
+3.0921271 &amp; \approx c.\\
+3.09 &amp; \approx c.
+\end{align*}
 </div>
-<div class="solutions"><details id="example-pyramid-calculuate-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-pyramid-calculuate-2-2-1">The volume of a pyramid is a third of base times height, so <span class="process-math">\(V=\frac{1}{3}(2^2)(2\sqrt{2}) \approx 3.77\text{.}\)</span>
-</div></div></details></div></article></article><figure class="figure figure-like" id="figure-pyramid"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/pyramid-triangular-exercise.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.13<span class="period">.</span></span><span class="space"> </span>Pyramid with a square base</figcaption></figure><figure class="table table-like" id="figure-cone-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.14<span class="period">.</span></span><span class="space"> </span>Cone</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para">Next, we can use this length and the given side length to calculate the height.</div>
+<div class="displaymath process-math" id="example-pyramid-minimal-parameters-6-2">
+\begin{align*}
+3.09^2 + h^2 &amp; = 9.72^2.\\
+9.5481 + h^2 &amp; = 94.4784. \text{ 3 sigfigs maintained}\\
+h^2 &amp; = 94.4784-9.5481.\\
+h^2 &amp; = 84.9303. \text{ Precise to only tenths}\\
+h &amp; = \sqrt{84.9303}. \text{ Root maitains 3 sigfigs}\\
+h &amp; \approx 9.215763\\
+h &amp; \approx 9.22.
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-pyramid-minimal-parameters-7">
+<div class="para">Finally we can calculate the volume. The base has area <span class="process-math">\(5.31 \cdot 3.17 = 16.8327 \approx 16.8\text{.}\)</span> This pyramid has volume</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V = \frac{1}{3}(16.8)(9.22) = 51.632 \approx 51.6.
+\end{equation*}
+</div>
+</div></article><article class="exercise exercise-like" id="exercise-pyramid-rectangular"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.15</span><span class="period">.</span>
+</h4>
+<div id="momexercise-pyramid-rectangular-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-pyramid-rectangular-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1473351&amp;frame_id=momexercise-pyramid-rectangular-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-pyramid-compare-prism"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="exercise-pyramid-compare-prism-1-1">What is the relationship between the volume of a pyramid to the volume of a prism with the same base? “same base” means the same shape and size. The pyramid could then be placed inside the prism.</div></article><figure class="table table-like" id="figure-cone-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.17<span class="period">.</span></span><span class="space"> </span>Cone</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-cone-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-cone-properties-2-4-2-1">Lateral Surface Area</div></td>
@@ -671,23 +787,23 @@ A &amp; = \sqrt{s(s-\sqrt{10})(s-\sqrt{10})(s-2)}\\
 </td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(V = \frac{\pi}{3} r^2 h \)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-3d-21">The latin word <dfn class="terminology">frustrum</dfn> means “cut off”. This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note <span class="process-math">\(P_i\)</span> below refers to the perimeter of the bases.</div>
-<figure class="table table-like" id="subsection-geometric-properties-3d-22"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.15<span class="period">.</span></span><span class="space"> </span>Frustrum of a Pyramid</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</table></div></figure><div class="para" id="subsection-geometric-properties-3d-26">The latin word <dfn class="terminology">frustrum</dfn> means “cut off”. This is the etymology of frustrated which refers to a cut off hope. For these formulas the bases must be parallel. Note <span class="process-math">\(P_i\)</span> below refers to the perimeter of the bases.</div>
+<figure class="table table-like" id="figure-pyramid-frustrum-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.18<span class="period">.</span></span><span class="space"> </span>Frustrum of a Pyramid</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="subsection-geometric-properties-3d-22-2-4-1-1">Shape</div></td>
-<td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="subsection-geometric-properties-3d-22-2-4-2-1">Lateral Surface Area</div></td>
-<td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="subsection-geometric-properties-3d-22-2-4-3-1">Volume</div></td>
+<td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-pyramid-frustrum-properties-2-4-1-1">Shape</div></td>
+<td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-pyramid-frustrum-properties-2-4-2-1">Lateral Surface Area</div></td>
+<td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-pyramid-frustrum-properties-2-4-3-1">Volume</div></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0" style="max-width:180px;"><div class="para" id="subsection-geometric-properties-3d-22-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/pyramid-frustrum.svg" role="img" class="contained"></div></div></td>
+<td class="c m b1 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-pyramid-frustrum-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/pyramid-frustrum.svg" role="img" class="contained"></div></div></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{1}{2}s(P_1+P_2)\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) \)</span></td>
 </tr>
 </table></div></figure><article class="example example-like" id="example-pyramid-frustrum"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.16</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.19</span><span class="period">.</span>
 </h4>
 <article class="task exercise-like" id="example-pyramid-frustrum-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-pyramid-frustrum-1-1-1">What is the surface area of the frustrum of a pyramid in <a href="section-geometry3D.html#figure-pyramid-frustrum-example" class="xref" data-knowl="./knowl/xref/figure-pyramid-frustrum-example.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.17">Figure 4.2.17</a>?</div>
+<div class="para" id="example-pyramid-frustrum-1-1-1">What is the surface area of the frustrum of a pyramid in <a href="section-geometry3D.html#figure-pyramid-frustrum-example" class="xref" data-knowl="./knowl/xref/figure-pyramid-frustrum-example.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.20">Figure 4.2.20</a>?</div>
 <div class="solutions"><details id="example-pyramid-frustrum-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-pyramid-frustrum-1-2-1">
 <div class="para">The perimeter of the lower base is 9 and the perimeter of the upper base is 3. The area of the three sides is therefore <span class="process-math">\(\frac{1}{2}2(9+3)=12\text{.}\)</span> To calculate the area of the two bases we will need Heron’s formula.</div>
 <div class="displaymath process-math" id="example-pyramid-frustrum-1-2-1-2">
@@ -702,7 +818,7 @@ A_1 &amp; = \sqrt{\frac{3}{2}\left(\frac{1}{2}\right)^3}\\
 <div class="para">Thus the surface area is <span class="process-math">\(12+\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}{4} \approx 16.33\text{.}\)</span>
 </div>
 </div></div></details></div></article><article class="task exercise-like" id="example-pyramid-frustrum-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-pyramid-frustrum-2-1-1">What is the volume of the frustrum of a pyramid in <a href="section-geometry3D.html#figure-pyramid-frustrum-example" class="xref" data-knowl="./knowl/xref/figure-pyramid-frustrum-example.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.17">Figure 4.2.17</a>?</div>
+<div class="para" id="example-pyramid-frustrum-2-1-1">What is the volume of the frustrum of a pyramid in <a href="section-geometry3D.html#figure-pyramid-frustrum-example" class="xref" data-knowl="./knowl/xref/figure-pyramid-frustrum-example.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.20">Figure 4.2.20</a>?</div>
 <div class="solutions"><details id="example-pyramid-frustrum-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-pyramid-frustrum-2-2-1">
 <div class="para">Using the values provided</div>
 <div class="displaymath process-math" id="example-pyramid-frustrum-2-2-1-1">
@@ -713,7 +829,7 @@ V &amp; = \frac{1}{3} \cdot \frac{4}{3}\left(\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}
 \end{align*}
 </div>
 </div></div></details></div></article></article><figure class="figure figure-like" id="figure-pyramid-frustrum-example"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/pyramid-frustrum-exercise.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.17<span class="period">.</span></span><span class="space"> </span>Calculate Area and Volume of this Frustrum</figcaption></figure><figure class="table table-like" id="figure-cone-frustrum-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.18<span class="period">.</span></span><span class="space"> </span>Frustrum of a Cone</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.20<span class="period">.</span></span><span class="space"> </span>Calculate Area and Volume of this Frustrum</figcaption></figure><figure class="table table-like" id="figure-cone-frustrum-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.2.21<span class="period">.</span></span><span class="space"> </span>Frustrum of a Cone</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-cone-frustrum-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-cone-frustrum-properties-2-4-2-1">Lateral Surface Area</div></td>
@@ -725,7 +841,7 @@ V &amp; = \frac{1}{3} \cdot \frac{4}{3}\left(\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) \)</span></td>
 </tr>
 </table></div></figure><article class="exercise exercise-like" id="exercise-frustrum-cone-limitations"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.19</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.22</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="exercise-frustrum-cone-limitations-1">
 <div class="para" id="exercise-frustrum-cone-limitations-1-1">For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.</div>
@@ -740,18 +856,18 @@ V &amp; = \frac{1}{3} \cdot \frac{4}{3}\left(\frac{9\sqrt{3}}{4}+\frac{\sqrt{3}}
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Applying Geometry</span>
 </h3>
 <article class="example example-like" id="example-apply-geometry-ice-cream"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.20</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.23</span><span class="period">.</span>
 </h4>
 <article class="task exercise-like" id="example-apply-geometry-ice-cream-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-apply-geometry-ice-cream-1-1-1">An ice cream cone has the dimensions shown in <a href="section-geometry3D.html#figure-ice-cream" class="xref" data-knowl="./knowl/xref/figure-ice-cream.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.21">Figure 4.2.21</a>. What is the volume of the ice cream?</div>
+<div class="para" id="example-apply-geometry-ice-cream-1-1-1">An ice cream cone has the dimensions shown in <a href="section-geometry3D.html#figure-ice-cream" class="xref" data-knowl="./knowl/xref/figure-ice-cream.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.24">Figure 4.2.24</a>. What is the volume of the ice cream?</div>
 <div class="solutions"><details id="example-apply-geometry-ice-cream-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-apply-geometry-ice-cream-1-2-1">This is a right circular cone with a half sphere on top. The volume of the cone is <span class="process-math">\(V_c = \frac{\pi}{3} 2^2 \cdot 10 \approx 42\text{.}\)</span> The volume of the half sphere is <span class="process-math">\(\frac{1}{2} \cdot \frac{4}{3} \pi 2^3 \approx 17\text{.}\)</span> Thus the total volume of the ice cream is 59.</div></div></details></div></article><article class="task exercise-like" id="example-apply-geometry-ice-cream-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-apply-geometry-ice-cream-2-1-1">An ice cream cone has the dimensions shown in <a href="section-geometry3D.html#figure-ice-cream" class="xref" data-knowl="./knowl/xref/figure-ice-cream.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.21">Figure 4.2.21</a>. What is the surface area of the ice cream? Note the greater the area the faster it melts.</div>
+<div class="para" id="example-apply-geometry-ice-cream-2-1-1">An ice cream cone has the dimensions shown in <a href="section-geometry3D.html#figure-ice-cream" class="xref" data-knowl="./knowl/xref/figure-ice-cream.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.24">Figure 4.2.24</a>. What is the surface area of the ice cream? Note the greater the area the faster it melts.</div>
 <div class="solutions"><details id="example-apply-geometry-ice-cream-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-apply-geometry-ice-cream-2-2-1">This is a right circular cone with a half sphere on top. The surface area of the cone is <span class="process-math">\(A_c = 2\pi (2+\sqrt{10^2+2^2}) \approx 77\text{.}\)</span> The surface area of the half sphere is <span class="process-math">\(\frac{1}{2} \cdot 4 \pi 2^2 \approx 25\text{.}\)</span> Thus the total surface area of the ice cream is 102.</div></div></details></div></article></article><figure class="figure figure-like" id="figure-ice-cream"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/cone-sphere.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.21<span class="period">.</span></span><span class="space"> </span>Ice Cream for Volume and Surface Area</figcaption></figure><article class="exercise exercise-like" id="exercise-apply-geometry-birdhouse"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.22</span><span class="period">.</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.24<span class="period">.</span></span><span class="space"> </span>Ice Cream for Volume and Surface Area</figcaption></figure><article class="exercise exercise-like" id="exercise-apply-geometry-birdhouse"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.25</span><span class="period">.</span>
 </h4>
-<div class="para" id="exercise-apply-geometry-birdhouse-1-1">What is the total area of the birdhouse shown in <a href="section-geometry3D.html#figure-apply-geometry-birdhouse" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-birdhouse.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.23">Figure 4.2.23</a>?</div></article><figure class="figure figure-like" id="figure-apply-geometry-birdhouse"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/birdhouse.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.23<span class="period">.</span></span><span class="space"> </span>Birdhouse</figcaption></figure></section><section class="exercises" id="section-geometry3D-5"><h3 class="heading hide-type">
+<div class="para" id="exercise-apply-geometry-birdhouse-1-1">What is the total area of the birdhouse shown in <a href="section-geometry3D.html#figure-apply-geometry-birdhouse" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-birdhouse.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.26">Figure 4.2.26</a>?</div></article><figure class="figure figure-like" id="figure-apply-geometry-birdhouse"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/birdhouse.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.26<span class="period">.</span></span><span class="space"> </span>Birdhouse</figcaption></figure></section><section class="exercises" id="section-geometry3D-5"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="section-geometry3D-5-1"><h4 class="heading">
