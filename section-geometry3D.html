@@ -892,8 +892,8 @@ A &amp; = \frac{1}{2}(2.422)(3.500+2.200)\\
 <div class="para">We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values</div>
 <div class="displaymath process-math" id="example-pyramid-frustrum-2-2-1">
 \begin{align*}
-V &amp; = \frac{1}{3}(2.333)(60.01+23.71+sqrt{(60.01)(23.71)}) \text{ Product maintains 4 sigfigs}\\
-&amp; = \frac{1}{3}(2.333)(60.01+23.71+sqrt{1422.8371}) \text{ Root maintains 4 sigfigs}\\
+V &amp; = \frac{1}{3}(2.333)(60.01+23.71+\sqrt{(60.01)(23.71)}) \text{ Product maintains 4 sigfigs}\\
+&amp; = \frac{1}{3}(2.333)(60.01+23.71+\sqrt{1422.8371}) \text{ Root maintains 4 sigfigs}\\
 &amp; = \frac{1}{3}(2.333)(60.01+23.71+37.72051299) \text{ All terms precise to 2 places}\\
 &amp; = \frac{1}{3}(2.333)(121.440513) \text{ Product maintains 4 sigfigs}\\
 &amp; = 94.44023895\\
@@ -948,8 +948,8 @@ TA &amp; = \pi r^2\\
 <div class="para">Now we can calculate the volume of the muffin tin.</div>
 <div class="displaymath process-math" id="example-cone-frustrum-muffin-tin-4-2">
 \begin{align*}
-V &amp; = \frac{1}{3}(3.3)(78+160+sqrt{(78)(160)}) \text{ Product maintains 2 sigfigs}\\
-&amp; = \frac{1}{3}(3.3)(78+160+sqrt{12480}) \text{ Root maintains 2 sigfigs}\\
+V &amp; = \frac{1}{3}(3.3)(78+160+\sqrt{(78)(160)}) \text{ Product maintains 2 sigfigs}\\
+&amp; = \frac{1}{3}(3.3)(78+160+\sqrt{12480}) \text{ Root maintains 2 sigfigs}\\
 &amp; \approx \frac{1}{3}(3.3)(78+160+111.7139) \text{ Root maintains 2 sigfigs}\\
 &amp; \approx \frac{1}{3}(3.3)(349.7139) \text{ Product maintains 2 sigfigs}\\
 &amp; = 384.6853\\
@@ -989,19 +989,98 @@ h &amp; = \sqrt{33.5537} \text{ Root maintains 3 sigfigs}\\
 <div class="para" id="exercise-frustrum-cone-limitations-6-1">What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).</div></article></article></section><section class="subsection" id="subsection-geometry3d-applied"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Applying Geometry</span>
 </h3>
-<article class="example example-like" id="example-apply-geometry-ice-cream"><h4 class="heading">
+<div class="para" id="subsection-geometry3d-applied-2">Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in <a href="section-geometry3D.html#example-pyramid-minimal-parameters" class="xref" data-knowl="./knowl/xref/example-pyramid-minimal-parameters.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 4.2.14">Example 4.2.14</a> and <a href="section-geometry3D.html#example-cone-calculate-height" class="xref" data-knowl="./knowl/xref/example-cone-calculate-height.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 4.2.24">Example 4.2.24</a>. We will extend our ability to calculate missing parameters in <a href="chapter-trig.html" class="internal" title="Chapter 7: Trigonometry">Chapter 7</a>. In the following problems we identify shapes and apply the appropriate formulae.</div>
+<article class="example example-like" id="exercise-apply-geometry-birdhouse"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.26</span><span class="period">.</span>
 </h4>
-<article class="task exercise-like" id="example-apply-geometry-ice-cream-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-apply-geometry-ice-cream-1-1-1">An ice cream cone has the dimensions shown in <a href="section-geometry3D.html#figure-ice-cream" class="xref" data-knowl="./knowl/xref/figure-ice-cream.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.27">Figure 4.2.27</a>. What is the volume of the ice cream?</div>
-<div class="solutions"><details id="example-apply-geometry-ice-cream-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-apply-geometry-ice-cream-1-2-1">This is a right circular cone with a half sphere on top. The volume of the cone is <span class="process-math">\(V_c = \frac{\pi}{3} 2^2 \cdot 10 \approx 42\text{.}\)</span> The volume of the half sphere is <span class="process-math">\(\frac{1}{2} \cdot \frac{4}{3} \pi 2^3 \approx 17\text{.}\)</span> Thus the total volume of the ice cream is 59.</div></div></details></div></article><article class="task exercise-like" id="example-apply-geometry-ice-cream-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-apply-geometry-ice-cream-2-1-1">An ice cream cone has the dimensions shown in <a href="section-geometry3D.html#figure-ice-cream" class="xref" data-knowl="./knowl/xref/figure-ice-cream.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.27">Figure 4.2.27</a>. What is the surface area of the ice cream? Note the greater the area the faster it melts.</div>
-<div class="solutions"><details id="example-apply-geometry-ice-cream-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-apply-geometry-ice-cream-2-2-1">This is a right circular cone with a half sphere on top. The surface area of the cone is <span class="process-math">\(A_c = 2\pi (2+\sqrt{10^2+2^2}) \approx 77\text{.}\)</span> The surface area of the half sphere is <span class="process-math">\(\frac{1}{2} \cdot 4 \pi 2^2 \approx 25\text{.}\)</span> Thus the total surface area of the ice cream is 102.</div></div></details></div></article></article><figure class="figure figure-like" id="figure-ice-cream"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/cone-sphere.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.27<span class="period">.</span></span><span class="space"> </span>Ice Cream for Volume and Surface Area</figcaption></figure><article class="exercise exercise-like" id="exercise-apply-geometry-birdhouse"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.28</span><span class="period">.</span>
+<div class="para" id="exercise-apply-geometry-birdhouse-1">What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1/8 inch.</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/birdhouse.svg" role="img" class="contained"></div>
+<div class="para" id="exercise-apply-geometry-birdhouse-3">First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.</div>
+<div class="para logical" id="exercise-apply-geometry-birdhouse-4">
+<div class="para">Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron’s formula for area.</div>
+<div class="displaymath process-math" id="exercise-apply-geometry-birdhouse-4-1">
+\begin{align*}
+s &amp; = \frac{1}{2}(5+5+3)\\
+&amp; = \frac{13}{2}\\
+&amp; = 6.5\\
+TA &amp; = \sqrt{6.5(6.5-3)(6.5-5)^2}\\
+&amp; = \sqrt{6.5(3.5)(1.5)^2}\\
+&amp; = \sqrt{51.1875}\\
+&amp; \approx 7.1545\\
+&amp; \approx 7.2
+\end{align*}
+</div>
+<div class="para">We round to the tenths as being the closest unit to an 1/8th inch.</div>
+</div>
+<div class="para logical" id="exercise-apply-geometry-birdhouse-5">
+<div class="para">For the hole we know the diameter so we use the area formula <span class="process-math">\(\frac{\pi}{4}d^2\text{.}\)</span> This hole has area</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\pi}{4}(1)^2 = \frac{3.14}{4} \approx 0.785
+\end{equation*}
+</div>
+<div class="para">The area of the front triangle is <span class="process-math">\(7.2-0.785 = 6.415 \approx 6.4\text{.}\)</span>
+</div>
+</div>
+<div class="para" id="exercise-apply-geometry-birdhouse-6">The bottom rectangle has area <span class="process-math">\(3 \cdot 10 = 30\)</span> square inches. The two sides both have area <span class="process-math">\(5 \cdot 10 = 50\)</span> square inches.</div>
+<div class="para logical" id="exercise-apply-geometry-birdhouse-7">
+<div class="para">Thus the total area is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+7.2+6.4+2(50)+30 = 143.6\text{.}
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-apply-geometry-ice-cream"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.27</span><span class="period">.</span>
 </h4>
-<div class="para" id="exercise-apply-geometry-birdhouse-1-1">What is the total area of the birdhouse shown in <a href="section-geometry3D.html#figure-apply-geometry-birdhouse" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-birdhouse.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.29">Figure 4.2.29</a>?</div></article><figure class="figure figure-like" id="figure-apply-geometry-birdhouse"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/birdhouse.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.29<span class="period">.</span></span><span class="space"> </span>Birdhouse</figcaption></figure></section><section class="exercises" id="section-geometry3D-5"><h3 class="heading hide-type">
+<div class="introduction" id="example-apply-geometry-ice-cream-1">
+<div class="para" id="example-apply-geometry-ice-cream-1-1">An ice cream cone has the dimensions shown below.</div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/cone-sphere.svg" role="img" class="contained"></div>
+</div>
+<article class="task exercise-like" id="example-apply-geometry-ice-cream-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="example-apply-geometry-ice-cream-2-1-1">What is the volume of the ice cream?</div>
+<div class="solutions"><details id="example-apply-geometry-ice-cream-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="example-apply-geometry-ice-cream-2-2-1">First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is <span class="process-math">\(2 \; \frac{3}{8} = 2.375\)</span> inches. The radius then is half of that or <span class="process-math">\(1 \; \frac{3}{16} = 1.1875\text{.}\)</span>
+</div>
+<div class="para logical" id="example-apply-geometry-ice-cream-2-2-2">
+<div class="para">The volume of the cone is</div>
+<div class="displaymath process-math" id="example-apply-geometry-ice-cream-2-2-2-1">
+\begin{align*}
+V_c &amp; = \frac{\pi}{3} (1.1875)^2 (7)\\
+&amp; = \frac{3.1415}{3} (1.1875)^2 (7)\\
+&amp; \approx 10.33668\\
+&amp;  \approx 10.3\text{.}
+\end{align*}
+</div>
+<div class="para">The volume of the half sphere is</div>
+<div class="displaymath process-math" id="example-apply-geometry-ice-cream-2-2-2-2">
+\begin{align*}
+V_s &amp; = \frac{1}{2} \cdot \frac{4}{3} \pi (1.1875)^3\\
+&amp; = \frac{2}{3}(3.1416)(1.1875)^3\\
+&amp; \approx 3.50719961\\
+&amp; =  \approx 3.5.
+\end{align*}
+</div>
+<div class="para">Thus the total volume of the ice cream is <span class="process-math">\(10.3+3.5=13.8\text{.}\)</span>
+</div>
+</div>
+</div></details></div></article><article class="task exercise-like" id="example-apply-geometry-ice-cream-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="example-apply-geometry-ice-cream-3-1-1">What is the surface area of the ice cream? Note the greater the area the faster it melts.</div>
+<div class="solutions"><details id="example-apply-geometry-ice-cream-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-apply-geometry-ice-cream-3-2-1">
+<div class="para">This is a right circular cone with a half sphere on top. The surface area of the cone is</div>
+<div class="displaymath process-math" id="example-apply-geometry-ice-cream-3-2-1-1">
+\begin{align*}
+A_c &amp; = \pi(1.1875)\sqrt{6^2+(1.1875)^2}\\
+&amp; = (3.1416)(1.1875)\sqrt{6^2+(1.1875)^2}\\
+&amp; \approx (3.1416)(1.1875)\sqrt{37.410156}\\
+&amp; \approx (3.1416) (1.1875) (6.116384)\\
+&amp; \approx 22.818089\\
+&amp; \approx 22.8
+\end{align*}
+</div>
+<div class="para">The surface area of the half sphere is <span class="process-math">\(\frac{1}{2} \cdot 4 \pi (1.1875)^2 \approx 8.86029375 \approx 8.9\text{.}\)</span> Thus the total surface area of the ice cream is <span class="process-math">\(22.8+8.9=31.7\text{.}\)</span>
+</div>
+</div></div></details></div></article></article></section><section class="exercises" id="section-geometry3D-5"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="section-geometry3D-5-1"><h4 class="heading">
