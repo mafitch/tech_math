@@ -5947,7 +5947,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Quadratics",
-  "body": " Quadratics   In we learned to identify data that has a quadratic relation. Here we will learn to recognize these in algebraic notation and review their properties.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. shows some of the common forms.   Quadratic and Non-quadratic   Quadratic Non-quadratic         The first two forms of quadratics above are common because they are useful for various applications. The first one, called standard form , is written as where . For , , , and . We will use this form in this section for the purpose of solving.    Quadratic Pattern  We can show that expressions in these forms produce the data pattern we identified in . demonstrates that has the same pattern with second differences.   Data for Quadratic     1st Difference  2nd Difference   -3  11     -2  4  -7    -1  1  -3  4   0  2  1  4   1  7  5  4   2  16  9  4      "
+  "body": " Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Read and interpret models (critical thinking)    In we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.  One of comparing different rates is to enable us to enable us to provide more specific statements than slow or fast. Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept Identify rates as linear, quadratic, exponential, or other.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.   Algebraic Notation for Quadratics   Example  Form  Description    y=ax^2+bx+c,  Standard    ,  Factored    ,  Nice     For this class the form we will see the most is where has some meaning in each model.  When reading models quadratics may look a little different. shows examples of equations that are quadratic and some that are not (but might look like it).   Quadratic and Non-quadratic   Quadratic Non-quadratic           Quadratic Models  Now that we know how to recognize models (equations) as quadratic, we will present a few.   Load Factor   The load factor imposed on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.     Kinetic Energy   The kinetic energy of an object in motion, we will consider flight of gliders, is where  is the mass (think weight) of the object  is the velocity of the object.       Inversely Quadratic Relations  has as an example that is not quadratic. Instead varies inversely with the square of . While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.   Quadratic Relation     1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6      Inversely Quadratic Relation     1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200     In the second differences are all 6, so that is quadratic. In contrast in the second differences are all different.   Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.     "
 },
 {
   "id": "subsection-quadratic-forms-2",
@@ -5959,31 +5959,67 @@ var ptx_lunr_docs = [
   "body": "Quadratic "
 },
 {
+  "id": "table-quadratic-notation",
+  "level": "2",
+  "url": "section-quadratic.html#table-quadratic-notation",
+  "type": "Table",
+  "number": "5.1.1",
+  "title": "Algebraic Notation for Quadratics",
+  "body": " Algebraic Notation for Quadratics   Example  Form  Description    y=ax^2+bx+c,  Standard    ,  Factored    ,  Nice    "
+},
+{
   "id": "table-quadratic-appearance",
   "level": "2",
   "url": "section-quadratic.html#table-quadratic-appearance",
   "type": "Table",
-  "number": "5.1.1",
+  "number": "5.1.2",
   "title": "Quadratic and Non-quadratic",
   "body": " Quadratic and Non-quadratic   Quadratic Non-quadratic        "
 },
 {
-  "id": "subsection-quadratic-forms-4",
+  "id": "model-load-factor",
   "level": "2",
-  "url": "section-quadratic.html#subsection-quadratic-forms-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "standard form "
+  "url": "section-quadratic.html#model-load-factor",
+  "type": "Fact",
+  "number": "5.1.3",
+  "title": "Load Factor.",
+  "body": " Load Factor   The load factor imposed on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.   "
+},
+{
+  "id": "model-kinetic-energy",
+  "level": "2",
+  "url": "section-quadratic.html#model-kinetic-energy",
+  "type": "Fact",
+  "number": "5.1.4",
+  "title": "Kinetic Energy.",
+  "body": " Kinetic Energy   The kinetic energy of an object in motion, we will consider flight of gliders, is where  is the mass (think weight) of the object  is the velocity of the object.    "
 },
 {
   "id": "table-square-is-quadratic",
   "level": "2",
   "url": "section-quadratic.html#table-square-is-quadratic",
   "type": "Table",
-  "number": "5.1.2",
-  "title": "Data for Quadratic",
-  "body": " Data for Quadratic     1st Difference  2nd Difference   -3  11     -2  4  -7    -1  1  -3  4   0  2  1  4   1  7  5  4   2  16  9  4    "
+  "number": "5.1.5",
+  "title": "Quadratic Relation",
+  "body": " Quadratic Relation     1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6    "
+},
+{
+  "id": "table-inverse-square-is-not-quadratic",
+  "level": "2",
+  "url": "section-quadratic.html#table-inverse-square-is-not-quadratic",
+  "type": "Table",
+  "number": "5.1.6",
+  "title": "Inversely Quadratic Relation",
+  "body": " Inversely Quadratic Relation     1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200    "
+},
+{
+  "id": "model-gravity",
+  "level": "2",
+  "url": "section-quadratic.html#model-gravity",
+  "type": "Fact",
+  "number": "5.1.7",
+  "title": "Gravitational Attraction.",
+  "body": " Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.   "
 },
 {
   "id": "section-quadratic-solve",
@@ -5992,7 +6028,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Solving Quadratics",
-  "body": " Solving Quadratics   We know what quadratic data looks like and how quadratics are written. Next we will learn to solve expressions with quadratics.    Solving Quadratics   For our purposes we will consider two methods of solving quadratics. Both of these are processes to memorize and practice.    Solving Quadratics with Inversion  The first is for very simple quadratics of the form   Find all solutions to .  We can solve this by undoing each operation. Notice that we end up with two results. This is typical of quadratics.    Find all solutions to .  We can solve this by undoing each operation.      Find the solutions to  Largest solution:  Smallest solution:                     Recall the lift equation in . If , , and , what velocity in miles per hour is needed to produce ?    We start by filling in the information we know in the equation.  Note the units for velocity are feet per second. Now we need to convert units (like ).       Solving Formulas with Quadratics    Solve the lift equation for .        The load factor imposed on aircraft is given by where is the speed and is the stall speed. Solve for if .        Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot undo each operation. For this class we will solve all of these using the quadratic formula. For the solutions are given by   Find all solutions to .  We note that , , .    Find all solutions to .  We first need to collect all terms on one side and combine them. Now we can use the formula.     Find the solutions to  Largest solution:  Smallest solution:                      Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Parabolic Arc Approximation  Application  Application  Change of Area  Change of Area   "
+  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.  Rounding to two decimal places was an arbitrary choice because this is not an application.    Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ).      Consider What velocity will produce a load factor of if the stall speed ?  Note that 2 is an exact number, and 54 is a measurement.     Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Find all solutions to .  We note that , , .      Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Parabolic Arc Approximation  Application  Application  Change of Area  Change of Area   "
 },
 {
   "id": "example-solve-quadratic-inversion",
@@ -6001,7 +6037,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.2.1",
   "title": "",
-  "body": " Find all solutions to .  We can solve this by undoing each operation. Notice that we end up with two results. This is typical of quadratics.  "
+  "body": " Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.  Rounding to two decimal places was an arbitrary choice because this is not an application.  "
 },
 {
   "id": "example-solve-quadratic-inversion2",
@@ -6010,7 +6046,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.2.2",
   "title": "",
-  "body": " Find all solutions to .  We can solve this by undoing each operation.   "
+  "body": " Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   "
 },
 {
   "id": "exercise-quadratic-inversion",
@@ -6019,7 +6055,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "5.2.3",
   "title": "",
-  "body": "  Find the solutions to  Largest solution:  Smallest solution:                  "
+  "body": ""
 },
 {
   "id": "example-quadratic-lift",
@@ -6028,131 +6064,113 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.2.4",
   "title": "",
-  "body": "  Recall the lift equation in . If , , and , what velocity in miles per hour is needed to produce ?    We start by filling in the information we know in the equation.  Note the units for velocity are feet per second. Now we need to convert units (like ).    "
-},
-{
-  "id": "example-quadratic-solve-lift",
-  "level": "2",
-  "url": "section-quadratic-solve.html#example-quadratic-solve-lift",
-  "type": "Example",
-  "number": "5.2.5",
-  "title": "",
-  "body": "  Solve the lift equation for .      "
+  "body": " Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ).   "
 },
 {
   "id": "example-quadratic-solve-load-factor",
   "level": "2",
   "url": "section-quadratic-solve.html#example-quadratic-solve-load-factor",
   "type": "Example",
-  "number": "5.2.6",
+  "number": "5.2.5",
   "title": "",
-  "body": " The load factor imposed on aircraft is given by where is the speed and is the stall speed. Solve for if .     "
+  "body": "  Consider What velocity will produce a load factor of if the stall speed ?  Note that 2 is an exact number, and 54 is a measurement.     Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.   "
 },
 {
   "id": "example-solve-quadratic-formula",
   "level": "2",
   "url": "section-quadratic-solve.html#example-solve-quadratic-formula",
   "type": "Example",
-  "number": "5.2.7",
+  "number": "5.2.6",
   "title": "",
   "body": " Find all solutions to .  We note that , , .  "
-},
-{
-  "id": "example-solve-quadratic-rearrange",
-  "level": "2",
-  "url": "section-quadratic-solve.html#example-solve-quadratic-rearrange",
-  "type": "Example",
-  "number": "5.2.8",
-  "title": "",
-  "body": " Find all solutions to .  We first need to collect all terms on one side and combine them. Now we can use the formula.  "
 },
 {
   "id": "exercise-quadratic-formula",
   "level": "2",
   "url": "section-quadratic-solve.html#exercise-quadratic-formula",
   "type": "Checkpoint",
-  "number": "5.2.9",
+  "number": "5.2.7",
   "title": "",
-  "body": "  Find the solutions to  Largest solution:  Smallest solution:                  "
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-4-1",
+  "id": "section-quadratic-solve-5-1",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-1",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1",
   "type": "Exercise",
-  "number": "5.2.2.1",
+  "number": "5.2.3.1",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-quadratic-solve-4-2",
+  "id": "section-quadratic-solve-5-2",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-2",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2",
   "type": "Exercise",
-  "number": "5.2.2.2",
+  "number": "5.2.3.2",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-quadratic-solve-4-3",
+  "id": "section-quadratic-solve-5-3",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-3",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-3",
   "type": "Exercise",
-  "number": "5.2.2.3",
+  "number": "5.2.3.3",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-quadratic-solve-4-4",
+  "id": "section-quadratic-solve-5-4",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-4",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-4",
   "type": "Exercise",
-  "number": "5.2.2.4",
+  "number": "5.2.3.4",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-quadratic-solve-4-5",
+  "id": "section-quadratic-solve-5-5",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-5",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-5",
   "type": "Exercise",
-  "number": "5.2.2.5",
+  "number": "5.2.3.5",
   "title": "Parabolic Arc Approximation.",
   "body": "Parabolic Arc Approximation "
 },
 {
-  "id": "section-quadratic-solve-4-6",
+  "id": "section-quadratic-solve-5-6",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-6",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-6",
   "type": "Exercise",
-  "number": "5.2.2.6",
+  "number": "5.2.3.6",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-quadratic-solve-4-7",
+  "id": "section-quadratic-solve-5-7",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-7",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-7",
   "type": "Exercise",
-  "number": "5.2.2.7",
+  "number": "5.2.3.7",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-quadratic-solve-4-8",
+  "id": "section-quadratic-solve-5-8",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-8",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-8",
   "type": "Exercise",
-  "number": "5.2.2.8",
+  "number": "5.2.3.8",
   "title": "Change of Area.",
   "body": "Change of Area "
 },
 {
-  "id": "section-quadratic-solve-4-9",
+  "id": "section-quadratic-solve-5-9",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-4-9",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-9",
   "type": "Exercise",
-  "number": "5.2.2.9",
+  "number": "5.2.3.9",
   "title": "Change of Area.",
   "body": "Change of Area "
 },
@@ -6163,68 +6181,23 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Roots",
-  "body": " Roots   In we solved expressions with quadratics using the square root. Here we will briefly describe roots in general including notation and their rate.    Definition of Roots  As implied by their use in solving square roots are an opposite concept to squares. For example means that 9 is the result of multiplying 3 by itself. means that 4 is a number that multiplied by itself is 16. This means in general .  There is one detail that we will not use, but should be acknowledged. Note that and . Thus might be considered to have two solutions. We saw this in . When solving using inversion as in we will ignore the negative solution which will not be useful in the problems asked.    Generalized Roots   Generalized Powers  Just as we can multiply a number by itself (e.g., ) we can multiply a number by itself more than once (e.g., ). In general   Evaluate each of these by multiplying enough times        Generalized Roots  Just as there are square roots to solve problems involving squares, there are roots for other powers as well. These are denoted with a small number to show which root. For example this is a third root: Just as with square roots we can use a device to calculate the values. The device may have a key like .  Another notation for roots is a type of exponent. For example, Likewise, This notation can be used when solving problems with powers.   Evaluate each of these using a device.          Rates of Roots  We have compared rates of linear, quadratic, and exponential data ( ). Here we learn about rates by considering the rate of roots.  To compare rates see . Notice that the rate is eventuallymuch slower than even a linear. Because a linear is slower than a linear it is also slower than a quadratic or exponential.   Rate Comparison: Linear and Square Root    With rates it is important to test if a slow growth rate is leveling off or not. We will show that a square root (and other roots) do not level off. Note in we can produce an arbitrarily large result from a square root. If it leveled off at some number like 2000, we would not have a result larger, but . We can do this for any possible height for leveling off.   Rate of a Square Root                        "
+  "body": " Roots   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)    This section is for those who are curious for more details about roots, like the square root. These extensions do not show up in any models in this text. The rate question is an important general concept however.    Definition of Roots  As implied by their use in solving equations with a square term, square roots are a sort of opposite to squares. For example means that 9 is the result of multiplying 3 by itself. means that 3 is a number that multiplied by itself is 9. This means in general  There is one detail that we will not use, but should be acknowledged. Consider that and . Thus might be considered to have two solutions. We saw this in . However when solving using inversion as in reality constraints often meant the negative root was not a solution to the application even if it fits the equation.    Generalized Roots  Just as we can multiply a number by itself (e.g., ) we can multiply a number by itself more than once (e.g., ). In general   As noted above square roots perform the reverse action of squaring. To solve problems involving other powers, there are matching roots. These are denoted with a small number to show which root. For example this is a third root: This root means that because , . In general There are restrictions ( is an integer; if is even, must be non-negative). For models in this text none of these play a role.  Just as with square roots we can use a device to calculate the values. The device may have a key like .  Another notation for roots is a type of exponent. For example, Likewise, This notation can be used when solving problems with powers.     Rates of Roots  This section illustrates where roots fall with respect to the question, How fast is it growing? It ends by addressing an important general question: if growth is slowing is it stopping?  shows a linear equation and a square root equation. The square root eventually grows much more slowly than the linear grows. Because a linear grows more slowly than a quadratic or exponential, the root also grows more slowly than quadratics and exponentials.  The first important idea here is that the square root grows more quickly than the linear at first, but then slows down and is passed up. When we are comparing rates, we typically look at what happens eventually. It does not matter so much what happens at first. For example for salaries, exponential growth might be slower for the first few years, but in our careers it will be substantially more.   Rate Comparison: Linear and Square Root    With rates it is important to test if a slow growth rate is leveling off or not. By level off we mean that even though it is constantly growing it never passes some fixed amount. For example, the numbers 0.5, 0.75, 0.875, 0.9375, 0.96875 is growing, but never passes 1.0. We will show that a square root (and other roots) do not level off.  Consider . Clearly this grows larger than 1, because we have a 1 in the first entry. It also grows larger than 2, because we can obtain 2 from . In general if we ask, can the square root grow beyond , the answer is: consider that , so if we choose that will be larger than . While slow, the square root continues to grow without bound (infinite growth).   Rate of a Square Root                        "
 },
 {
-  "id": "exercises-powers-2",
+  "id": "subsection-roots-general-3",
   "level": "2",
-  "url": "section-roots.html#exercises-powers-2",
-  "type": "Reading Question",
-  "number": "5.3.2.1.1",
+  "url": "section-roots.html#subsection-roots-general-3",
+  "type": "Checkpoint",
+  "number": "5.3.1",
   "title": "",
   "body": ""
 },
 {
-  "id": "exercises-powers-3",
+  "id": "subsection-roots-general-7",
   "level": "2",
-  "url": "section-roots.html#exercises-powers-3",
-  "type": "Reading Question",
-  "number": "5.3.2.1.2",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "exercises-powers-4",
-  "level": "2",
-  "url": "section-roots.html#exercises-powers-4",
-  "type": "Reading Question",
-  "number": "5.3.2.1.3",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "exercises-roots-2",
-  "level": "2",
-  "url": "section-roots.html#exercises-roots-2",
-  "type": "Reading Question",
-  "number": "5.3.2.2.1",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "exercises-roots-3",
-  "level": "2",
-  "url": "section-roots.html#exercises-roots-3",
-  "type": "Reading Question",
-  "number": "5.3.2.2.2",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "exercises-roots-4",
-  "level": "2",
-  "url": "section-roots.html#exercises-roots-4",
-  "type": "Reading Question",
-  "number": "5.3.2.2.3",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "exercises-roots-5",
-  "level": "2",
-  "url": "section-roots.html#exercises-roots-5",
-  "type": "Reading Question",
-  "number": "5.3.2.2.4",
+  "url": "section-roots.html#subsection-roots-general-7",
+  "type": "Checkpoint",
+  "number": "5.3.2",
   "title": "",
   "body": ""
 },
@@ -6233,7 +6206,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-roots.html#figure-root-rate",
   "type": "Figure",
-  "number": "5.3.1",
+  "number": "5.3.3",
   "title": "",
   "body": " Rate Comparison: Linear and Square Root   "
 },
@@ -6242,7 +6215,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-roots.html#table-root-increase",
   "type": "Table",
-  "number": "5.3.2",
+  "number": "5.3.4",
   "title": "Rate of a Square Root",
   "body": " Rate of a Square Root                      "
 },
@@ -7747,7 +7720,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Ratios",
-  "body": " Trigonometric Ratios   In we learned about areas of triangles and a relationship between the three sides of a right triangle. In this and the next sections we will look at relationships between angles of the triangles and their sides.    Side and Angle Relationships  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No              There is also a relationship between the three angles of any triangle.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy     If two angles of a triangle are 30 and 50, what is the measure of the third angle?              Defining Trig Functions  Note that in a right triangle the other two angles have measure less than right angles. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.  For right triangles we have names for the sides. Consider the labels in The adjacent is the side touching the right angle that is also touching the angle with which we are working. The opposite is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in the adjacent side for has length 5 and the adjacent side for has length 3. Both the adjacent and opposite are known as legs of the triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology    Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in to see how changing either side length or angle affects the other.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios has an inherent limitation.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.   It is also possible to find the angle given the ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . The relationship between and will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for and probably not for . For those you use the button, that is, calculate the first then invert.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 4 and 7, what are the measures of the angles?  Angle opposite side length 4:  Angle opposite side length 7:                   Solving Triangles  Our goal now is to use partial information about a triangle to find the rest.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 5 and hypotenuse of length 13, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 5:  Angle opposite other leg:                         Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
+  "body": " Trigonometric Ratios   In we learned about areas of triangles and a relationship between the three sides of a right triangle. In this and the next sections we will look at relationships between angles of the triangles and their sides.    Side and Angle Relationships  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No              There is also a relationship between the three angles of any triangle.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy     If two angles of a triangle are 60 and 40, what is the measure of the third angle?              Defining Trig Functions  Note that in a right triangle the other two angles have measure less than right angles. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.  For right triangles we have names for the sides. Consider the labels in The adjacent is the side touching the right angle that is also touching the angle with which we are working. The opposite is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in the adjacent side for has length 5 and the adjacent side for has length 3. Both the adjacent and opposite are known as legs of the triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology    Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in to see how changing either side length or angle affects the other.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios has an inherent limitation.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.   It is also possible to find the angle given the ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . The relationship between and will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for and probably not for . For those you use the button, that is, calculate the first then invert.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 7 and 10, what are the measures of the angles?  Angle opposite side length 7:  Angle opposite side length 10:                   Solving Triangles  Our goal now is to use partial information about a triangle to find the rest.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 4 and hypotenuse of length 11, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 4:  Angle opposite other leg:                         Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
 },
 {
   "id": "exercise-pyth-find-hyp",
@@ -7801,7 +7774,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.6",
   "title": "",
-  "body": "  If two angles of a triangle are 30 and 50, what is the measure of the third angle?           "
+  "body": "  If two angles of a triangle are 60 and 40, what is the measure of the third angle?           "
 },
 {
   "id": "subsection-trig-ratios-defined-3",
@@ -7909,7 +7882,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.16",
   "title": "",
-  "body": "  If the leg lengths of a right triangle are 4 and 7, what are the measures of the angles?  Angle opposite side length 4:  Angle opposite side length 7:                "
+  "body": "  If the leg lengths of a right triangle are 7 and 10, what are the measures of the angles?  Angle opposite side length 7:  Angle opposite side length 10:                "
 },
 {
   "id": "figure-triangle-generic-labels",
@@ -7972,7 +7945,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.23",
   "title": "",
-  "body": "  If a triangle has a leg of length 5 and hypotenuse of length 13, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 5:  Angle opposite other leg:                     "
+  "body": "  If a triangle has a leg of length 4 and hypotenuse of length 11, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 4:  Angle opposite other leg:                     "
 },
 {
   "id": "section-trig-functions-6-1-2",
