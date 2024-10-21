@@ -5,80 +5,80 @@
 
 <introduction>
 
-<p>In <xref ref="section-quadratic-solve" /> we solved expressions with quadratics using the square root. Here we will briefly describe roots in general including notation and their rate.</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
+        </ul>
+    </p>
+
+    <p>This section is for those who are curious for more details about roots, like the square root. These extensions do not show up in any models in this text. The rate question is an important general concept however.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-roots-definition">
-	<title>Definition of Roots</title>
+    <title>Definition of Roots</title>
 
-	<p>As implied by their use in solving square roots are an opposite concept to squares. For example <m>3^2=9</m> means that 9 is the result of multiplying 3 by itself. <m>\sqrt{16}=4</m> means that 4 is a number that multiplied by itself is 16. This means in general <me>\sqrt{n^2}=n.</me>.</p>
-	<p>There is one detail that we will not use, but should be acknowledged. Note that <m>(3)^2=9</m> and <m>(-3)^2=9</m>. Thus <m>\sqrt{9}</m> might be considered to have two solutions. We saw this in <xref ref="subsubsection-solve-quadratic-formula" />. When solving using inversion as in <xref ref="subsubsection-solve-quadratic-inversion" /> we will ignore the negative solution which will not be useful in the problems asked.</p>
+    <p>As implied by their use in solving equations with a square term, square roots are a sort of opposite to squares. For example <m>3^2=9</m> means that 9 is the result of multiplying 3 by itself. <m>\sqrt{9}=3</m> means that 3 is a number that multiplied by itself is 9. This means in general <me>\sqrt{n^2}=n.</me></p>
+
+    <p>There is one detail that we will not use, but should be acknowledged. Consider that <m>(3)^2=9</m> and <m>(-3)^2=9</m>. Thus <m>\sqrt{9}</m> might be considered to have two solutions. We saw this in <xref ref="subsection-solve-quadratic-formula" />. However when solving using inversion as in <xref ref="subsection-solve-quadratic-inversion" /> reality constraints often meant the negative root was not a solution to the application even if it fits the equation.</p>
 
 </subsection>
 
 <subsection xml:id="subsection-roots-general">
-	<title>Generalized Roots</title>
+    <title>Generalized Roots</title>
 
-	<subsubsection xml:id="subsubsection-powers-general">
-		<title>Generalized Powers</title>
+    <p>Just as we can multiply a number by itself (e.g., <m>3^2=3 \cdot 3 = 9</m>) we can multiply a number by itself more than once (e.g., <m>3^3=3 \cdot 3 \cdot 3 = 27</m>). In general <me>3^m = \overbrace{3 \cdot 3 \cdot \ldots 3}^m.</me></p>
 
-		<p>Just as we can multiply a number by itself (e.g., <m>3^2=3 \cdot 3 = 9</m>) we can multiply a number by itself more than once (e.g., <m>3^3=3 \cdot 3 \cdot 3 = 27</m>). In general <me>3^m = \overbrace{3 \cdot 3 \cdot \ldots 3}^m.</me></p>
+    <exercise>
+        <myopenmath problem="1475633" />
+    </exercise>
 
-		<reading-questions xml:id="exercises-powers">
-			<introduction><p>Evaluate each of these by multiplying enough times</p></introduction>
-			<exercise><p><m>2^5</m></p></exercise>
-			<exercise><p><m>4^3</m></p></exercise>
-			<exercise><p><m>(1.9)^4</m></p></exercise>
-		</reading-questions>
+    <p>As noted above square roots perform the reverse action of squaring. To solve problems involving other powers, there are matching roots. These are denoted with a small number to show which root. For example this is a third root: <me>\sqrt[3]{8}=2.</me> This root means that because <m>2^3=8</m>, <m>\sqrt[3]{8}=\sqrt[3]{2^3}=2</m>. In general <me>\sqrt[n]{x^n}=x.</me> There are restrictions (<m>n</m> is an integer; if <m>n</m> is even, <m>x</m> must be non-negative). For models in this text none of these play a role.</p>
 
-	</subsubsection>
+    <p>Just as with square roots we can use a device to calculate the values. The device may have a key like <m>\sqrt[m]{x}</m>.</p>
 
-	<subsubsection xml:id="subsubsection-roots-general">
-		<title>Generalized Roots</title>
+    <p>Another notation for roots is a type of exponent. For example, <me>\sqrt{9}=9^{1/2}=3.</me> Likewise, <me>\sqrt[3]{8}=8^{1/3}=2.</me> This notation can be used when solving problems with powers.</p>
 
-		<p>Just as there are square roots to solve problems involving squares, there are roots for other powers as well. These are denoted with a small number to show which root. For example this is a third root: <me>\sqrt[3]{8}=2.</me> Just as with square roots we can use a device to calculate the values. The device may have a key like <m>\sqrt[m]{x}</m>.</p>
-
-		<p>Another notation for roots is a type of exponent. For example, <me>\sqrt{9}=9^{1/2}=3.</me> Likewise, <me>\sqrt[3]{8}=8^{1/3}=2.</me> This notation can be used when solving problems with powers.</p>
-
-		<reading-questions xml:id="exercises-roots">
-			<introduction><p>Evaluate each of these using a device.</p></introduction>
-			<exercise><p><m>\sqrt[3]{27}</m></p></exercise>
-			<exercise><p><m>\sqrt[3]{64}</m></p></exercise>
-			<exercise><p><m>\sqrt[5]{32}</m></p></exercise>
-			<exercise><p><m>\sqrt[4]{20}</m></p></exercise>
-		</reading-questions>
-
-	</subsubsection>
+    <exercise>
+        <myopenmath problem="1475643" />
+    </exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-root-rate">
-	<title>Rates of Roots</title>
+    <title>Rates of Roots</title>
 
-	<p>We have compared rates of linear, quadratic, and exponential data (<xref ref="section-rates" />). Here we learn about rates by considering the rate of roots.</p>
+    <p>This section illustrates where roots fall with respect to the question, <q>How fast is it growing?</q> It ends by addressing an important general question: if growth is slowing is it stopping?</p>
 
-	<p>To compare rates see <xref ref="figure-root-rate" />. Notice that the rate is eventuallymuch slower than even a linear. Because a linear is slower than a linear it is also slower than a quadratic or exponential.</p>
+    <p><xref ref="figure-root-rate" /> shows a linear equation and a square root equation. The square root eventually grows much more slowly than the linear grows. Because a linear grows more slowly than a quadratic or exponential, the root also grows more slowly than quadratics and exponentials.</p>
 
-	<figure xml:id="figure-root-rate">
-		<caption>Rate Comparison: Linear and Square Root</caption>
-		<image source="images/rate-compare-root" />
-	</figure>
+    <p>The first important idea here is that the square root grows more quickly than the linear at first, but then slows down and is passed up. When we are comparing rates, we typically look at what happens eventually. It does not matter so much what happens at first. For example for salaries, exponential growth might be slower for the first few years, but in our careers it will be substantially more.</p>
 
-	<p>With rates it is important to test if a slow growth rate is leveling off or not. We will show that a square root (and other roots) do not level off. Note in <xref ref="table-root-increase" /> we can produce an arbitrarily large result from a square root. If it leveled off at some number like 2000, we would not have a result larger, but <m>\sqrt{3000^2}=3000</m>. We can do this for any possible height for leveling off. </p>
+    <figure xml:id="figure-root-rate">
+        <caption>Rate Comparison: Linear and Square Root</caption>
+        <image source="images/rate-compare-root" />
+    </figure>
 
-	<table xml:id="table-root-increase" >
-		<title>Rate of a Square Root</title>
+    <p>With rates it is important to test if a slow growth rate is leveling off or not. By level off we mean that even though it is constantly growing it never passes some fixed amount. For example, the numbers 0.5, 0.75, 0.875, 0.9375, 0.96875 is growing, but never passes 1.0. We will show that a square root (and other roots) do not level off.</p>
 
-		<tabular>
-			<row><cell><m>n</m></cell> <cell><m>\sqrt{n}</m></cell> </row>
-			<row><cell><m>1^2=1</m></cell> <cell><m>1</m></cell> </row>
-			<row><cell><m>2^2=4</m></cell> <cell><m>2</m></cell> </row>
-			<row><cell><m>3^2=9</m></cell> <cell><m>3</m></cell> </row>
-			<row><cell><m>10^2=100</m></cell> <cell><m>10</m></cell> </row>
-			<row><cell><m>n^2</m></cell> <cell><m>n</m></cell> </row>
-		</tabular>
-	</table>
+    <p>Consider <xref ref="table-root-increase" />. Clearly this grows larger than 1, because we have a 1 in the first entry. It also grows larger than 2, because we can obtain 2 from <m>n=4</m>. In general if we ask, can the square root grow beyond <m>n</m>, the answer is: consider that <m>\sqrt(n^2)=n</m>, so if we choose <m>n^2+1</m> that will be larger than <m>n</m>. While slow, the square root continues to grow without bound (infinite growth).</p>
+
+    <table xml:id="table-root-increase" >
+        <title>Rate of a Square Root</title>
+
+        <tabular>
+            <row><cell><m>n</m></cell> <cell><m>\sqrt{n}</m></cell> </row>
+            <row><cell><m>1^2=1</m></cell> <cell><m>1</m></cell> </row>
+            <row><cell><m>2^2=4</m></cell> <cell><m>2</m></cell> </row>
+            <row><cell><m>3^2=9</m></cell> <cell><m>3</m></cell> </row>
+            <row><cell><m>10^2=100</m></cell> <cell><m>10</m></cell> </row>
+            <row><cell><m>n^2</m></cell> <cell><m>n</m></cell> </row>
+        </tabular>
+    </table>
 
 </subsection>
 

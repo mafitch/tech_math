@@ -5,188 +5,155 @@
 
 <introduction>
 
-<p>We know what quadratic data looks like and how quadratics are written. Next we will learn to solve expressions with quadratics.</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Read and use mathematical models in a technical document</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Solve linear, rational, quadratic, and exponential equations and formulas (skill)</li>
+        </ul>
+    </p>
+
+    <p>This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.</p>
 
 </introduction>
 
-<subsection xml:id="subsection-quadratic-solving">
-	<title>Solving Quadratics</title>
+<subsection xml:id="subsection-solve-quadratic-inversion" >
+    <title>Solving Quadratics with Inversion</title>
 
-	<introduction>
-		<p>For our purposes we will consider two methods of solving quadratics. Both of these are processes to memorize and practice.</p>
-	</introduction>
+    <p>The first method is for very simple quadratics of the form <m>ax^2+c=0.</m> Notice that there is no linear term in <m>x</m>. This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.</p>
 
-	<subsubsection xml:id="subsubsection-solve-quadratic-inversion" >
-		<title>Solving Quadratics with Inversion</title>
+    <example xml:id="example-solve-quadratic-inversion">
+        <p>Find all solutions to <m>10-21x^2=0</m>. Round solutions to 2 decimal places.</p>
+        <p>We can solve this by undoing each operation.
+            <md>
+                <mrow>10-21x^2 \amp = 0.</mrow>
+                <mrow>-21x^2 \amp = -10.</mrow>
+                <mrow>x^2 \amp = \frac{-10}{-21}.</mrow>
+                <mrow>x^2 \amp = \frac{10}{21}.</mrow>
+                <mrow>\sqrt{x^2} \amp = \sqrt{10/21}.</mrow>
+                <mrow>x \amp = \pm \sqrt{10/21}.</mrow>
+                <mrow>x \amp \approx \pm 0.6900655593.</mrow>
+                <mrow>x \amp \approx \pm 0.69.</mrow>
+            </md>
+        </p>
+        <p>Notice that we end up with two results. The <m>\pm</m> results from squaring eliminating a negative. That is, <m>(2)^2=4</m> and <m>(-2)^2=4</m>. So <m>\sqrt{4}</m> could be either 2 or -2.</p>
+        <p>Rounding to two decimal places was an arbitrary choice because this is not an application.</p>
+    </example>
 
-		<p>The first is for very simple quadratics of the form <m>ax^2+c=0.</m></p>
+    <example xml:id="example-solve-quadratic-inversion2">
+        <statement><p>Find all solutions to <m>7(x-3)^2-4=0</m>. Round solutions to 2 decimal places.</p></statement>
+        <solution><p>We can solve this by undoing each operation.
+            <md>
+                <mrow>7(x-3)^2-4 \amp = 0.</mrow>
+                <mrow>7(x-3)^2 \amp = 4.</mrow>
+                <mrow>(x-3)^2 \amp = \frac{4}{7}.</mrow>
+                <mrow>\sqrt{(x-3)^2} \amp = \sqrt{\frac{4}{7}}.</mrow>
+                <mrow>x-3 \amp = \pm \sqrt{\frac{4}{7}}.</mrow>
+                <mrow>x \amp = \pm \sqrt{\frac{4}{7}}+3.</mrow>
+                <mrow>x \amp \approx 3.755928946, 2.244071054 .</mrow>
+                <mrow>x \amp \approx 3.76, 2.24.</mrow>
+            </md></p>
+        </solution>
+    </example>
 
-		<example xml:id="example-solve-quadratic-inversion">
-			<statement><p>Find all solutions to <m>10-21x^2=0</m>.</p></statement>
-			<solution><p>We can solve this by undoing each operation.
-				<md>
-					<mrow>10-21x^2 \amp = 0.</mrow>
-					<mrow>-21x^2 \amp = -10.</mrow>
-					<mrow>x^2 \amp = \frac{-10}{-21}.</mrow>
-					<mrow>x^2 \amp = \frac{10}{21}.</mrow>
-					<mrow>\sqrt{x^2} \amp = \sqrt{10/21}.</mrow>
-					<mrow>x \amp = \pm \sqrt{10/21}.</mrow>
-					<mrow>x \amp \approx \pm 0.69.</mrow>
-				</md>
-			Notice that we end up with two results. This is typical of quadratics.</p></solution>
-		</example>
+    <exercise xml:id="exercise-quadratic-inversion">
+<!--        <webwork>
+            <statement>
+                <p>Find the solutions to <m>6(x-2)^2-24=0</m>.</p>
+                <p>Largest solution: <var name="'4'" width="4" /></p>
+                <p>Smallest solution: <var name="'0'" width="4" /></p>
+            </statement>
+            <solution>
+                <p><md>
+                    <mrow>6(x-2)^2-24 &amp; = 0</mrow>
+                    <mrow>6(x-2)^2 &amp; = 24</mrow>
+                    <mrow>(x-2)^2 &amp; = 4</mrow>
+                    <mrow>x-2 &amp; = \pm 2</mrow>
+                    <mrow>x &amp; = 2 \pm 2</mrow>
+                    <mrow>x &amp; = 4, 0.</mrow>
+                </md></p>
+            </solution>
+        </webwork> -->
+        <myopenmath problem="1475529" />
+    </exercise>
 
-		<example xml:id="example-solve-quadratic-inversion2">
-			<statement><p>Find all solutions to <m>7(x-3)^2-4=0</m>.</p></statement>
-			<solution><p>We can solve this by undoing each operation.
-				<md>
-					<mrow>7(x-3)^2-4 \amp = 0.</mrow>
-					<mrow>7(x-3)^2 \amp = 4.</mrow>
-					<mrow>(x-3)^2 \amp = \frac{4}{7}.</mrow>
-					<mrow>\sqrt{(x-3)^2} \amp = \sqrt{\frac{4}{7}}.</mrow>
-					<mrow>x-3 \amp = \pm \sqrt{\frac{4}{7}}.</mrow>
-					<mrow>x \amp = \pm \sqrt{\frac{4}{7}}+3.</mrow>
-					<mrow>x \amp \approx 3.76, 2.24.</mrow>
-				</md></p>
-			</solution>
-		</example>
+    <example xml:id="example-quadratic-lift">
+        <p>Recall the lift equation in <xref ref="model-lift-equation" />. If <m>\rho=0.002309 \text{ slugs}/\text{ft}^3</m>, <m>S=174.0 \text{ ft}^2</m>, and <m>C_L=0.5001</m>, what velocity in nautical miles per hour is needed to produce <m>L=3500. \text{ lbs}</m>?</p>
+        <p>We start by filling in the information we know in the equation.
+        <md>
+            <mrow>3500. \amp = \frac{1}{2}(0.002309)(174.0)(0.5001)v^2.</mrow>
+            <mrow>3500. \amp \approx 0.1005v^2.</mrow>
+            <mrow>\frac{3500.}{0.1005} \amp \approx v^2.</mrow>
+            <mrow>34830 \amp \approx v^2.</mrow>
+            <mrow>\sqrt{34830} \amp \approx \sqrt{v^2}.</mrow>
+            <mrow>186.6 \amp \approx v.</mrow>
+        </md></p>
+        <p>We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.</p>
+        <p>Note the units for velocity are feet per second. Now we need to convert units (like <xref ref="example-convert-speed" />).
+        <me>\frac{186.6 \; \text{ft}}{\text{s}} \cdot \frac{\text{mi}}{6076 \; \text{ft}} \cdot \frac{3600 \; \text{s}}{\text{hr}} \approx 110.5595787 \frac{\text{mi}}{\text{hr}} \approx 110.6 \frac{\text{mi}}{\text{hr}}</me>
+        </p>
+    </example>
 
-		<exercise xml:id="exercise-quadratic-inversion">
-			<webwork>
-				<statement>
-					<p>Find the solutions to <m>6(x-2)^2-24=0</m>.</p>
-					<p>Largest solution: <var name="'4'" width="4" /></p>
-					<p>Smallest solution: <var name="'0'" width="4" /></p>
-				</statement>
-				<solution>
-					<p><md>
-						<mrow>6(x-2)^2-24 &amp; = 0</mrow>
-						<mrow>6(x-2)^2 &amp; = 24</mrow>
-						<mrow>(x-2)^2 &amp; = 4</mrow>
-						<mrow>x-2 &amp; = \pm 2</mrow>
-						<mrow>x &amp; = 2 \pm 2</mrow>
-						<mrow>x &amp; = 4, 0.</mrow>
-					</md></p>
-				</solution>
-		    </webwork>
-		</exercise>
+    <example xml:id="example-quadratic-solve-load-factor">
+        <statement>
+            <p>Consider <xref ref="model-load-factor" /> What velocity will produce a load factor of <m>n=2</m> if the stall speed <m>v_s=54</m>?</p>
+            <p>Note that 2 is an exact number, and 54 is a measurement.</p>
+        </statement>
+        <solution>
+            <p><md>
+                <mrow>2 \amp = \left(\frac{v}{v_s}\right)^2.</mrow>
+                <mrow>2 \amp = \left(\frac{v}{54}\right)^2.</mrow>
+                <mrow>\sqrt{2} \amp = \sqrt{\left(\frac{v}{54}\right)^2}.</mrow>
+                <mrow>\sqrt{2} \amp = \frac{v}{54}.</mrow>
+                <mrow>54\sqrt{2} \amp = 54\frac{v}{54}.</mrow>
+                <mrow>54\sqrt{2} \amp = v.</mrow>
+                <mrow>76.36753235 \amp \approx v.</mrow>
+                <mrow>76 \amp = \approx.</mrow>
+            </md></p>
+            <p>Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.</p>
+        </solution>
+    </example>
 
-		<example xml:id="example-quadratic-lift">
-			<statement>
-				<p>Recall the lift equation in <xref ref="model-lift-equation" />. If <m>\rho=0.002309 \; \text{slugs}/\text{ft}^3</m>, <m>S=174.0 \; \text{ft}^2</m>, and <m>C_L=0.5001</m>, what velocity in miles per hour is needed to produce <m>L=3500. \; \text{lbs}</m>?</p>
-			</statement>
-			<solution>
-				<p>We start by filling in the information we know in the equation.
-				<md>
-					<mrow>3500. \amp = \frac{1}{2}(0.002309)(174.0)(0.5001)v^2.</mrow>
-					<mrow>3500. \amp \approx 0.1005v^2.</mrow>
-					<mrow>\frac{3500.}{0.1005} \amp \approx v^2.</mrow>
-					<mrow>34830 \amp \approx v^2.</mrow>
-					<mrow>\sqrt{34830} \amp \approx \sqrt{v^2}.</mrow>
-					<mrow>186.6 \amp \approx v.</mrow>
-				</md></p>
-				<p>Note the units for velocity are feet per second. Now we need to convert units (like <xref ref="example-convert-speed" />).
-				<me>\frac{186.6 \; \text{ft}}{\text{s}} \cdot \frac{\text{mi}}{5280. \; \text{ft}} \cdot \frac{3600 \; \text{s}}{\text{hr}} \approx 273.7 \frac{\text{mi}}{\text{hr}}</me>
-				</p>
-			</solution>
-		</example>
+</subsection>
 
-	</subsubsection>
+<subsection xml:id="subsection-solve-quadratic-formula">
+    <title>Solving Quadratics with the Formula</title>
 
-	<subsubsection xml:id="subsubsection-solve-quadratic-models">
-		<title>Solving Formulas with Quadratics</title>
+    <p>When the quadratic has more than a square term, e.g., <m>11x^2+32x-3=0</m> we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For <m>ax^2+bx+c=0</m> the solutions are given by <me>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.</me></p>
 
-		<example xml:id="example-quadratic-solve-lift">
-			<statement>
-				<p>Solve the lift equation for <m>v</m>.</p>
-			</statement>
-			<solution>
-				<p><md>
-					<mrow>L \amp = \frac{1}{2}\rho S C_L v^2.</mrow>
-					<mrow>2L \amp = 2\frac{1}{2}\rho S C_L v^2.</mrow>
-					<mrow>2L \amp = \rho S C_L v^2.</mrow>
-					<mrow>\frac{2L}{\rho} \amp = \frac{\rho S C_L v^2}{\rho}.</mrow>
-					<mrow>\frac{2L}{\rho} \amp = S C_L v^2.</mrow>
-					<mrow>\frac{2L}{\rho S} \amp = \frac{S C_L v^2}{S}.</mrow>
-					<mrow>\frac{2L}{\rho S} \amp = C_L v^2.</mrow>
-					<mrow>\frac{2L}{\rho S C_L} \amp = \frac{C_L v^2}{C_L}.</mrow>
-					<mrow>\frac{2L}{\rho S C_L} \amp = v^2.</mrow>
-					<mrow>\sqrt{\frac{2L}{\rho S C_L}} \amp = \sqrt{v^2}.</mrow>
-					<mrow>\sqrt{\frac{2L}{\rho S C_L}} \amp = v.</mrow>
-				</md></p>
-			</solution>
-		</example>
+    <example xml:id="example-solve-quadratic-formula">
+        <p>Find all solutions to <m>11x^2+32x-3=0</m>.</p>
+        <p>We note that <m>a=11</m>, <m>b=32</m>, <m>c=-3</m>.
+        <md>
+            <mrow>x &amp; = \frac{-32 \pm \sqrt{(32)^2-4(11)(-3)}}{2(11)}</mrow>
+            <mrow> &amp; = \frac{-32 \pm \sqrt{1024+132}}{22}</mrow>
+            <mrow> &amp; = \frac{-32 \pm \sqrt{1156}}{22}</mrow>
+            <mrow> &amp; = \frac{-32 \pm 34}{22}</mrow>
+            <mrow> &amp; = \frac{1}{11}, -3</mrow>
+        </md></p>
+    </example>
 
-		<example xml:id="example-quadratic-solve-load-factor">
-			<statement><p>The load factor imposed on aircraft is given by <me>n=\left(\frac{v}{v_s}\right)^2</me> where <m>v</m> is the speed and <m>v_s</m> is the stall speed. Solve for <m>v</m> if <m>v_s=54</m>.</p></statement>
-			<solution><p>
-				<md>
-					<mrow>n \amp = \left(\frac{v}{v_s}\right)^2.</mrow>
-					<mrow>n \amp = \left(\frac{v}{54}\right)^2.</mrow>
-					<mrow>\sqrt{n} \amp = \sqrt{\left(\frac{v}{54}\right)^2}.</mrow>
-					<mrow>\sqrt{n} \amp = \frac{v}{54}.</mrow>
-					<mrow>54\sqrt{n} \amp = 54\frac{v}{54}.</mrow>
-					<mrow>54\sqrt{n} \amp = v.</mrow>
-				</md>
-			</p></solution>
-		</example>
-
-	</subsubsection>
-
-	<subsubsection xml:id="subsubsection-solve-quadratic-formula">
-		<title>Solving Quadratics with the Formula</title>
-
-		<p>When the quadratic has more than a square term, e.g., <m>11x^2+32x-3=0</m> we cannot undo each operation. For this class we will solve all of these using the quadratic formula. For <m>ax^2+bx+c=0</m> the solutions are given by <me>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.</me></p>
-
-		<example xml:id="example-solve-quadratic-formula">
-			<statement><p>Find all solutions to <m>11x^2+32x-3=0</m>.</p></statement>
-			<solution><p>We note that <m>a=11</m>, <m>b=32</m>, <m>c=-3</m>.
-			<md>
-				<mrow>x &amp; = \frac{-32 \pm \sqrt{(32)^2-4(11)(-3)}}{2(11)}</mrow>
-				<mrow> &amp; = \frac{-32 \pm \sqrt{1024+132}}{22}</mrow>
-				<mrow> &amp; = \frac{-32 \pm \sqrt{1156}}{22}</mrow>
-				<mrow> &amp; = \frac{-32 \pm 34}{22}</mrow>
-				<mrow> &amp; = \frac{1}{11}, -3</mrow>
-			</md></p></solution>
-		</example>
-
-		<example xml:id="example-solve-quadratic-rearrange">
-			<statement><p>Find all solutions to <m>8x^2-5x=2x^2+21</m>.</p></statement>
-			<solution><p>We first need to collect all terms on one side and combine them.
-			<md>
-				<mrow>8x^2-5x &amp; = 2x^2+21.</mrow>
-				<mrow>6x^2-5x-21 &amp; = 0.</mrow>
-			</md>
-			Now we can use the formula.
-			<md>
-				<mrow>x &amp; = \frac{-(-5) \pm \sqrt{(-5)^2-4(6)(-21)}}{2(6)}</mrow>
-				<mrow> &amp; = \frac{5 \pm \sqrt{25+504}}{12}</mrow>
-				<mrow> &amp; = \frac{5 \pm \sqrt{529}}{12}</mrow>
-				<mrow> &amp; = \frac{5 \pm 23}{12}</mrow>
-				<mrow> &amp; = \frac{7}{3}, -\frac{3}{2}</mrow>
-			</md></p></solution>
-		</example>
-
-		<exercise xml:id="exercise-quadratic-formula">
-			<webwork>
-				<statement>
-					<p>Find the solutions to <m>8x^2-30x+25=0</m>.</p>
-					<p>Largest solution: <var name="'5/2'" width="4" /></p>
-					<p>Smallest solution: <var name="'5/4'" width="4" /></p>
-				</statement>
-				<solution>
-					<p><md>
-						<mrow>x &amp; = \frac{-(-30) \pm \sqrt{(-30)^2-4(8)(25)}}{2(8)}</mrow>
-						<mrow> &amp; = \frac{30 \pm \sqrt{900-800}}{16}</mrow>
-						<mrow> &amp; = \frac{30 \pm \sqrt{100}}{16}</mrow>
-						<mrow> &amp; = \frac{30 \pm 10}{16}</mrow>
-						<mrow> &amp; = \frac{5}{2}, \frac{5}{4}</mrow>
-					</md></p>
-				</solution>
-		    </webwork>
-		</exercise>
-
-	</subsubsection>
+    <exercise xml:id="exercise-quadratic-formula">
+<!--        <webwork>
+            <statement>
+                <p>Find the solutions to <m>8x^2-30x+25=0</m>.</p>
+                <p>Largest solution: <var name="'5/2'" width="4" /></p>
+                <p>Smallest solution: <var name="'5/4'" width="4" /></p>
+            </statement>
+            <solution>
+                <p><md>
+                    <mrow>x &amp; = \frac{-(-30) \pm \sqrt{(-30)^2-4(8)(25)}}{2(8)}</mrow>
+                    <mrow> &amp; = \frac{30 \pm \sqrt{900-800}}{16}</mrow>
+                    <mrow> &amp; = \frac{30 \pm \sqrt{100}}{16}</mrow>
+                    <mrow> &amp; = \frac{30 \pm 10}{16}</mrow>
+                    <mrow> &amp; = \frac{5}{2}, \frac{5}{4}</mrow>
+                </md></p>
+            </solution>
+        </webwork> -->
+        <myopenmath problem="1475570" />
+    </exercise>
 
 </subsection>
 

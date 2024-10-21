@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1464997">
 <statement>
-<p>If one shop can do 5 float changes in two days, and a second shop can do 13 float changes in three days, how long will it take the pair of shops to do 74 float changes? <fillin characters="4" /></p>
+<p>If one shop can do 5 float changes in two days, and a second shop can do 11 float changes in three days, how long will it take the pair of shops to do 78 float changes? <fillin characters="4" /></p>
 <p>If they start on Monday and work only weekdays, on what day of the week will they finish? </p>
 <p><ol style="list-style-type:upper-alpha"><li>Monday</li> 
 <li>Tuesday</li> 
@@ -13,16 +13,16 @@
 
 </statement>
 <solution>
-<p><ul><li>11</li><li>A: Monday</li></ul></p><p>First we need to add the rates to obtain the total rate.</p>
-<p><m>\displaystyle\frac{{5}}{{2}}+\frac{{13}}{{3}}=</m></p>
-<p><m>\displaystyle\frac{{{5}\cdot{3}}}{{{2}\cdot{3}}}+\frac{{{13}\cdot{2}}}{{{3}\cdot{2}}}=\frac{{41}}{{6}}</m></p>
+<p><ul><li>13</li><li>C: Wednesday</li></ul></p><p>First we need to add the rates to obtain the total rate.</p>
+<p><m>\displaystyle\frac{{5}}{{2}}+\frac{{11}}{{3}}=</m></p>
+<p><m>\displaystyle\frac{{{5}\cdot{3}}}{{{2}\cdot{3}}}+\frac{{{11}\cdot{2}}}{{{3}\cdot{2}}}=\frac{{37}}{{6}}</m></p>
 <p>Now we can setup the proportion to answer the question.</p>
-<p><m>\displaystyle\frac{{41}}{{6}}=\frac{{74}}{{N}}</m></p>
-<p><m>\displaystyle\frac{{6}}{{41}}=\frac{{N}}{{74}}</m></p>
-<p><m>\displaystyle\frac{{6}}{{41}}\cdot{74}={N}</m></p>
-<p><m>\displaystyle{10.829268292683}={N}</m></p>
-<p><m>\displaystyle{11}\approx{N}</m> to indicate on how many days work was done.</p>
-<p>11 days is 2 weeks and 1 additional days. Thus the final day will be Tuesday.</p>
+<p><m>\displaystyle\frac{{37}}{{6}}=\frac{{78}}{{N}}</m></p>
+<p><m>\displaystyle\frac{{6}}{{37}}=\frac{{N}}{{78}}</m></p>
+<p><m>\displaystyle\frac{{6}}{{37}}\cdot{78}={N}</m></p>
+<p><m>\displaystyle{12.648648648649}={N}</m></p>
+<p><m>\displaystyle{13}\approx{N}</m> to indicate on how many days work was done.</p>
+<p>13 days is 2 weeks and 3 additional days. Thus the final day will be Thursday.</p>
 </solution>
 </myopenmath>
 

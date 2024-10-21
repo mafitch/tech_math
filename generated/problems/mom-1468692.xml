@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{4}{x}+{2}{y}={14}</m> </p>
+<p><m>\displaystyle-{6}{x}-{5}{y}={39}</m> </p>
 <p>
-  <m>\displaystyle{5}{x}+{3}{y}=-{45}</m></p>
+  <m>\displaystyle{9}{x}+{4}{y}=-{27}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{6},-{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{4}{x}+{2}{y}={14}</m></p>
-<p><m>\displaystyle-{4}{x}={14}-{\left({2}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{14}-{\left({2}{y}\right)}}}{{-{{4}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left({1},-{9}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle-{6}{x}+-{5}{y}={39}</m></p>
+<p><m>\displaystyle-{6}{x}={39}-{\left(-{5}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{{39}-{\left(-{5}{y}\right)}}}{{-{{6}}}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{5}{\left(\frac{{{14}-{\left({2}{y}\right)}}}{{-{{4}}}}\right)}+{3}{y}=-{45}</m></p>
-<p><m>\displaystyle\frac{{5}}{{-{{4}}}}\cdot{\left({14}\right)}-\frac{{5}}{{-{{4}}}}{\left({2}\right)}{y}+{3}{y}=-{45}</m></p>
-<p><m>\displaystyle-{17.5}-{\left({2.5}\right)}{y}+{3}{y}=-{45}</m></p>
-<p><m>\displaystyle{2.5}{y}+{\left({3}\right)}{y}=-{45}--{17.5}</m></p>
-<p><m>\displaystyle{2.5}{y}+{\left({3}\right)}{y}=-{27.5}</m></p>
-<p><m>\displaystyle{\left({2.5}+{\left({3}\right)}\right)}{y}=-{27.5}</m></p>
-<p><m>\displaystyle{5.5}{y}=-{27.5}</m></p>
-<p><m>\displaystyle{y}=-\frac{{27.5}}{{5.5}}</m></p>
-<p><m>\displaystyle{y}=-{5}</m></p>
+<p><m>\displaystyle{9}{\left(\frac{{{39}-{\left(-{5}{y}\right)}}}{{-{{6}}}}\right)}+{4}{y}=-{27}</m></p>
+<p><m>\displaystyle\frac{{9}}{{-{{6}}}}\cdot{\left({39}\right)}-\frac{{9}}{{-{{6}}}}{\left(-{5}\right)}{y}+{4}{y}=-{27}</m></p>
+<p><m>\displaystyle-{58.5}-{\left(-{7.5}\right)}{y}+{4}{y}=-{27}</m></p>
+<p><m>\displaystyle-{7.5}{y}+{\left({4}\right)}{y}=-{27}--{58.5}</m></p>
+<p><m>\displaystyle-{7.5}{y}+{\left({4}\right)}{y}={31.5}</m></p>
+<p><m>\displaystyle{\left(-{7.5}+{\left({4}\right)}\right)}{y}={31.5}</m></p>
+<p><m>\displaystyle-{3.5}{y}={31.5}</m></p>
+<p><m>\displaystyle{y}=\frac{{31.5}}{{-{{3.5}}}}</m></p>
+<p><m>\displaystyle{y}=-{9}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{4}{x}+{2}{\left(-{5}\right)}={14}</m></p>
-<p><m>\displaystyle-{4}{x}+{\left(-{10}\right)}={14}</m></p>
-<p><m>\displaystyle-{4}{x}={14}-{\left(-{10}\right)}</m></p>
-<p><m>\displaystyle-{4}{x}={24}</m></p>
-<p><m>\displaystyle{x}=\frac{{24}}{{-{{4}}}}</m></p>
-<p><m>\displaystyle{x}=-{6}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{6},-{5}\right)}</m>.</p>
+<p><m>\displaystyle-{6}{x}+-{5}{\left(-{9}\right)}={39}</m></p>
+<p><m>\displaystyle-{6}{x}+{\left({45}\right)}={39}</m></p>
+<p><m>\displaystyle-{6}{x}={39}-{\left({45}\right)}</m></p>
+<p><m>\displaystyle-{6}{x}=-{6}</m></p>
+<p><m>\displaystyle{x}=-\frac{{6}}{{-{{6}}}}</m></p>
+<p><m>\displaystyle{x}={1}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({1},-{9}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

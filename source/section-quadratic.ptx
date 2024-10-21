@@ -5,48 +5,134 @@
 
 <introduction>
 
-<p>In <xref ref="section-variation" /> we learned to identify data that has a quadratic relation. Here we will learn to recognize these in algebraic notation and review their properties.</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+            <li>Read and use mathematical models in a technical document</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
+            <li>Read and interpret models (critical thinking)</li>
+        </ul>
+    </p>
+
+    <p>In <xref ref="section-variation" /> we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.</p>
+
+    <p>One of comparing different rates is to enable us to enable us to provide more specific statements than <q>slow</q> or <q>fast.</q> Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept <q>Identify rates as linear, quadratic, exponential, or other.</q></p>
 
 </introduction>
 
 <subsection xml:id="subsection-quadratic-forms">
-	<title>Algebraic Forms of Quadratics</title>
+    <title>Algebraic Forms of Quadratics</title>
 
-	<p><term>Quadratic</term> refers to any expression or equation that has a non-zero squared term. <xref ref="table-quadratic-appearance" /> shows some of the common forms.</p>
+    <p><term>Quadratic</term> refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.</p>
 
-	<table xml:id="table-quadratic-appearance">
-		<title>Quadratic and Non-quadratic</title>
-		<tabular top="medium" bottom="medium" left="medium" right="medium">
-			<row><cell>Quadratic</cell><cell>Non-quadratic</cell></row>
-			<row><cell><m>11x^2+32x-3</m></cell><cell><m>5x+3</m></cell></row>
-			<row><cell><m>2(x-3)^2+7</m></cell><cell><m>y=x^3+7x^2-5x+3</m></cell></row>
-			<row><cell><m>y=23-3x^2</m></cell><cell><m>y=\frac{17}{x^2}</m></cell></row>
-			<row><cell><m>x(6x-5)=21</m></cell><cell><m>x^2(x-5)=7</m></cell></row>
-			<row><cell><m>y=(x+3)(x-5)</m></cell><cell><m>y=0x^2+3x+2</m></cell></row>
-		</tabular>
-	</table>
+    <table xml:id="table-quadratic-notation">
+        <title>Algebraic Notation for Quadratics</title>
+        <tabular>
+            <row><cell>Example</cell> <cell>Form</cell> <cell>Description</cell> </row>
+            <row><cell><m>y=5x^2-17x-12</m></cell> <cell>y=ax^2+bx+c, <m>a \ne 0</m></cell> <cell>Standard</cell> </row>
+            <row><cell><m>y=(5x+3)(x-4)</m></cell> <cell><m>y=(a_1 x -b_1)(a_2 x -b_2)</m>, <m>a_i \ne 0</m></cell> <cell>Factored</cell> </row>
+            <row><cell><m>y=5\left( x -\frac{17}{10} \right)^2-\frac{1489}{100}</m></cell> <cell><m>y=a(x-h)^2+k</m>, <m>a \ne 0</m></cell> <cell>Nice</cell> </row>
+        </tabular>
+    </table>
 
-	<p>The first two forms of quadratics above are common because they are useful for various applications. The first one, called <term>standard form</term>, is written as <m>ax^2+bx+c</m> where <m>a \ne 0</m>. For <m>11x^2+32x-3</m>, <m>a=11</m>, <m>b=32</m>, and <m>c=-3</m>. We will use this form in this section for the purpose of solving.</p>
+    <p>For this class the form we will see the most is <me>y=k x^2</me> where <m>k</m> has some meaning in each model.</p>
+
+    <p>When reading models quadratics may look a little different. <xref ref="table-quadratic-appearance" /> shows examples of equations that are quadratic and some that are not (but might look like it).</p>
+
+    <table xml:id="table-quadratic-appearance">
+        <title>Quadratic and Non-quadratic</title>
+        <tabular top="medium" bottom="medium" left="medium" right="medium">
+            <row><cell>Quadratic</cell><cell>Non-quadratic</cell></row>
+            <row><cell><m>11x^2+32x-3</m></cell><cell><m>5x+3</m></cell></row>
+            <row><cell><m>2(x-3)^2+7</m></cell><cell><m>y=x^3+7x^2-5x+3</m></cell></row>
+            <row><cell><m>y=23-3x^2</m></cell><cell><m>y=\frac{17}{x^2}</m></cell></row>
+            <row><cell><m>x(6x-5)=21</m></cell><cell><m>x^2(x-5)=7</m></cell></row>
+            <row><cell><m>y=(x+3)(x-5)</m></cell><cell><m>y=0x^2+3x+2</m></cell></row>
+        </tabular>
+    </table>
 
 </subsection>
 
-<subsection xml:id="subsection-quadratic-pattern" >
-	<title>Quadratic Pattern</title>
+<subsection xml:id="subsection-quadratic-models">
+    <title>Quadratic Models</title>
 
-	<p>We can show that expressions in these forms produce the data pattern we identified in <xref ref="example-differences-quadratic" />. <xref ref="table-square-is-quadratic" /> demonstrates that <m>2x^2+3x+2</m> has the same pattern with second differences.</p>
+    <p>Now that we know how to recognize models (equations) as quadratic, we will present a few.</p>
 
-	<table xml:id="table-square-is-quadratic">
-		<title>Data for Quadratic</title>
-		<tabular>
-			<row><cell><m>x</m></cell> <cell><m>2x^2+3x+2</m></cell> <cell>1st Difference</cell> <cell>2nd Difference</cell> </row>
-			<row><cell>-3</cell> <cell>11</cell> <cell></cell> <cell></cell> </row>
-			<row><cell>-2</cell> <cell>4</cell> <cell>-7</cell> <cell></cell> </row>
-			<row><cell>-1</cell> <cell>1</cell> <cell>-3</cell> <cell>4</cell> </row>
-			<row><cell>0</cell> <cell>2</cell> <cell>1</cell> <cell>4</cell> </row>
-			<row><cell>1</cell> <cell>7</cell> <cell>5</cell> <cell>4</cell> </row>
-			<row><cell>2</cell> <cell>16</cell> <cell>9</cell> <cell>4</cell> </row>
-		</tabular>
-	</table>
+    <fact xml:id="model-load-factor">
+        <title>Load Factor</title>
+        <statement>
+            <p>The load factor imposed on an aircraft is <me>n=\left(\frac{v}{v_s}\right)^2</me> where
+            <ul>
+                <li><m>n</m> is the load factor,</li>
+                <li><m>v</m> is the velocity, and</li>
+                <li><m>v_s</m> is the stall speed.</li>
+            </ul></p>
+            <p>Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression <q>pulling g's</q> refers to experiencing a load factor greater than one.</p>
+        </statement>
+    </fact>
+
+    <fact xml:id="model-kinetic-energy">
+        <title>Kinetic Energy</title>
+        <statement>
+            <p>The kinetic energy of an object in motion, we will consider flight of gliders, is <me>E = \frac{1}{2}m v^2</me> where
+            <ul>
+                <li><m>m</m> is the mass (think weight) of the object</li>
+                <li><m>v</m> is the velocity of the object.</li>
+            </ul></p>
+        </statement>
+    </fact>
+
+</subsection>
+
+<subsection xml:id="subsection-inverse-square" >
+    <title>Inversely Quadratic Relations</title>
+
+    <p><xref ref="table-quadratic-appearance" /> has <m>y=17/x^2</m> as an example that is not quadratic. Instead <m>y</m> varies inversely with the square of <m>x</m>. While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.</p>
+
+    <table xml:id="table-square-is-quadratic">
+        <title>Quadratic Relation</title>
+        <tabular>
+            <row><cell><m>x</m></cell> <cell><m>3x^2</m></cell> <cell>1st Difference</cell> <cell>2nd Difference</cell> </row>
+            <row><cell>1</cell> <cell>3</cell> <cell></cell> <cell></cell> </row>
+            <row><cell>2</cell> <cell>12</cell> <cell>9</cell> <cell></cell> </row>
+            <row><cell>3</cell> <cell>27</cell> <cell>15</cell> <cell>6</cell> </row>
+            <row><cell>4</cell> <cell>48</cell> <cell>21</cell> <cell>6</cell> </row>
+            <row><cell>5</cell> <cell>75</cell> <cell>27</cell> <cell>6</cell> </row>
+            <row><cell>6</cell> <cell>108</cell> <cell>33</cell> <cell>6</cell> </row>
+        </tabular>
+    </table>
+
+    <table xml:id="table-inverse-square-is-not-quadratic">
+        <title>Inversely Quadratic Relation</title>
+        <tabular>
+            <row><cell><m>x</m></cell> <cell><m>\frac{3}{x^2}</m></cell> <cell>1st Difference</cell> <cell>2nd Difference</cell> </row>
+            <row><cell>1</cell> <cell>3</cell> <cell></cell> <cell></cell> </row>
+            <row><cell>2</cell> <cell>3/4</cell> <cell>-9/4</cell> <cell></cell> </row>
+            <row><cell>3</cell> <cell>1/3</cell> <cell>-5/12</cell> <cell>11/6</cell> </row>
+            <row><cell>4</cell> <cell>3/16</cell> <cell>-7/48</cell> <cell>13/48</cell> </row>
+            <row><cell>5</cell> <cell>3/25</cell> <cell>-27/400</cell> <cell>47/600</cell> </row>
+            <row><cell>6</cell> <cell>1/12</cell> <cell>-11/300</cell> <cell>37/1200</cell> </row>
+        </tabular>
+    </table>
+
+    <p>In <xref ref="table-square-is-quadratic" /> the second differences are all 6, so that is quadratic. In contrast in <xref ref="table-inverse-square-is-not-quadratic" /> the second differences are all different.</p>
+
+    <fact xml:id="model-gravity">
+        <title>Gravitational Attraction</title>
+        <statement>
+            <p>Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is <me>F = G \cdot \frac{m_1 m_2}{r^2}</me> where
+            <ul>
+                <li><m>F</m> is the resulting gravitational force in Newtons</li>
+                <li><m>G</m> is the gravitational constant</li>
+                <li><m>m_1, m_2</m> are the masses of the two objects in kilograms</li>
+                <li><m>r</m> is the distance between the two objects in meters</li>
+            </ul></p>
+            <p>The gravitational constant is <m>G=6.6743 \times 10^{-11} \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2}</m>. The constant has not been determined to any greater precision.</p>
+        </statement>
+    </fact>
 
 </subsection>
 
