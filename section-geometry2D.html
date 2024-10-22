@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.3.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -779,10 +779,11 @@ A = \sqrt{s(s-a)(s-b)(s-c)}
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subfigure-triangle-area1.html" id="example-heron-triangle-2-2">
 \begin{align*}
-s &amp; = \frac{1}{2}(5.98+8.19+10.90)\\
-&amp; = 12.535. &amp; \text{ Precise to the hundredths only}\\
-\text{Area} &amp; \approx \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.90)} &amp; \text{Factors have 3 sigfigs}\\
-&amp; \approx \sqrt{583.7199977} &amp; \text{Root maintains 3 sigfigs}\\
+s &amp; = \frac{1}{2}(5.98+8.19+10.90) \text{ Each term is precise to the 100ths (2 places)}\\
+&amp; = 12.535. \text{ Addition maintains to the 100ths (4 sigfigs)}\\
+\text{Area} &amp; \approx \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.90)} \text{ Terms precise to 100ths, 3 sigfigs}\\
+&amp; \approx \sqrt{12.535(6.555)(4.345)(1.635)} \text{ Product maintains 3 sigfigs}\\
+&amp; \approx \sqrt{583.7199977} \text{ Root maintains 3 sigfigs}\\
 &amp; \approx 24.16\\
 &amp; \approx 24.2.
 \end{align*}
@@ -793,11 +794,13 @@ s &amp; = \frac{1}{2}(5.98+8.19+10.90)\\
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subfigure-triangle-area2.html" id="example-heron-triangle-3-2">
 \begin{align*}
-s &amp; = \frac{1}{2}(5.98+8.19+2.87)\\
-&amp; \approx 8.52. &amp; \text{Precise to the hundredths}\\
-\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} &amp; \text{Each factor has 3 sigfigs}\\
-&amp; \approx \sqrt{40.34927160} &amp; \text{Root maintains 3 sigfigs}\\
-&amp; \approx 6.35.
+s &amp; = \frac{1}{2}(5.98+8.19+2.87) \text{ Each term precise to 100ths}\\
+&amp; \approx 8.52. \text{ Sum maintains to the 100ths}\\
+\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} \text{ Sums maintain to the 100ths}\\
+&amp; \approx \sqrt{8.52(2.54)(0.33)(5.65)} \text{ Smallest factor has 2 sigfigs}\\
+&amp; \approx \sqrt{40.34927160} \text{ Root maintains 2 sigfigs}\\
+&amp; \approx 6.35210765\\
+&amp; \approx 6.4.
 \end{align*}
 </div>
 </div>
@@ -836,7 +839,7 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87)\\
 &amp; \approx 45.9.
 \end{align*}
 </div>
-<div class="para">We use the approximation 3.14 for <span class="process-math">\(\pi\)</span> because our measurements have only three significant digits.</div>
+<div class="para">We need to approximate <span class="process-math">\(\pi\)</span> to at least as many significant digits as the others numbers to avoid reducing precision. We could use more.</div>
 </div>
 <div class="para logical" id="example-circle-properties-3">
 <div class="para">The area, given in <a href="section-geometry2D.html#figure-circle-properties" class="xref" data-knowl="./knowl/xref/figure-circle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.25: Circle">Table 4.1.25</a>, is <span class="process-math">\(\pi r^2\text{.}\)</span> For radius 7.31</div>
@@ -844,8 +847,8 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87)\\
 \begin{align*}
 \text{area} &amp; = \pi (7.31)^2\\
 &amp; = (3.14)(7.31)^2\\
-&amp; = \approx 167.789354.\\
-&amp; = \approx 168.
+&amp; \approx 167.789354.\\
+&amp; \approx 168.
 \end{align*}
 </div>
 </div></article><article class="example example-like" id="example-half-circle"><h4 class="heading">
@@ -889,7 +892,7 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87)\\
 <div class="para" id="example-apply-geometry-house-wall-1-1">Find the area of this wall given the dimensions given in feet.</div>
 <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/HouseWall.svg" role="img" class="contained"></div>
 <div class="para" id="example-apply-geometry-house-wall-1-3">First we notice that we can describe the wall as a rectangle with a triangle on top of it.</div>
-<div class="para" id="example-apply-geometry-house-wall-1-4">The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <span class="process-math">\(7.0 \text{ ft} \cdot 24.0 \text{ ft} = 168 \text{ ft}^2 \approx 170 \text{ ft}^2\text{.}\)</span>
+<div class="para" id="example-apply-geometry-house-wall-1-4">The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <span class="process-math">\(7.0 \text{ ft} \cdot 24.0 \text{ ft} = 168 \text{ ft}^2\text{.}\)</span>
 </div>
 <div class="para logical" id="example-apply-geometry-house-wall-1-5">
 <div class="para">The top is a triangle with two sides of length 13.0 and one of length 24.0. We don’t know the height of the triangle so it will be easier to use Heron’s formula for area.</div>
@@ -898,11 +901,12 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87)\\
 s &amp; = \frac{1}{2}(13.0+13.0+24.0)\\
 &amp; = 25.0.\\
 \text{area} &amp; = \sqrt{25.0(25.0-13.0)(25.0-13.0)(25.0-24.0)}\\
+&amp; = \sqrt{25.0(12.0)(12.0)(1.0)}\\
 &amp; = \sqrt{3600}\\
 &amp; = 6\bar{0}.
 \end{align*}
 </div>
-<div class="para">The total area then is <span class="process-math">\(170+6\bar{0} \approx 230\)</span> square feet.</div>
+<div class="para">The total area then is <span class="process-math">\(168+6\bar{0} = 228 \approx 230\)</span> square feet.</div>
 </div></article><article class="task exercise-like" id="example-apply-geometry-house-wall-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="example-apply-geometry-house-wall-2-1">Find the perimeter of this wall given the dimensions given in feet.</div>
 <div class="para" id="example-apply-geometry-house-wall-2-2">There are five (5) edges. There sum is <span class="process-math">\(7.0+24.0+7.0+13.0+13.0=64.0\)</span> feet.</div></article><article class="task exercise-like" id="example-apply-geometry-house-wall-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
@@ -912,6 +916,8 @@ s &amp; = \frac{1}{2}(13.0+13.0+24.0)\\
 <div class="displaymath process-math" id="example-apply-geometry-house-wall-3-2-1">
 \begin{align*}
 6\bar{0} &amp; = \frac{1}{2}24.0 h.\\
+6\bar{0} &amp; =  12.0 h.\\
+\frac{6\bar{0}}{12.0} &amp; = h.\\
 5.0 &amp; = h.
 \end{align*}
 </div>
@@ -942,7 +948,7 @@ s &amp; = \frac{1}{2}(13.0+13.0+24.0)\\
 </h4>
 <div class="introduction" id="example-geometry-abacus-1">
 <div class="para" id="example-geometry-abacus-1-1">Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <a href="section-geometry2D.html#figure-apply-geometry-abacus" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-abacus.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.32">Figure 4.1.32</a> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.</div>
-<div class="para" id="example-geometry-abacus-1-2">Because we must have enough wood, we will round up all approximations.</div>
+<div class="para" id="example-geometry-abacus-1-2">Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.</div>
 </div>
 <article class="task exercise-like" id="example-geometry-abacus-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-geometry-abacus-2-1-1">What is the total number of feet of lumber (2x4) needed?</div>
@@ -970,37 +976,36 @@ s &amp; = \frac{1}{2}(13.0+13.0+24.0)\\
 \begin{align*}
 60.0\text{ in} \cdot 3.5\text{ in} \amp = 210\text{ in}^2,\\
 60.0\text{ in} \cdot 1.5\text{ in} \amp = 9\bar{0}\text{ in}^2,\\
-1.5\text{ in} \cdot 3.5\text{ in} \amp \approx 5.3\text{ in}^2.
+1.5\text{ in} \cdot 3.5\text{ in} \amp \approx 5.25\text{ in}^2.
 \end{align*}
 </div>
-<div class="para">For the short segments these are</div>
-<div class="displaymath process-math" id="example-geometry-abacus-4-2-1-2">
+<div class="para">This is <span class="process-math">\(5+\frac{1}{4}\text{.}\)</span> For the short segments these are</div>
+<div class="displaymath process-math" id="example-geometry-abacus-4-2-1-3">
 \begin{align*}
 27.0\text{ in} \cdot 3.5\text{ in} \amp \approx 95\text{ in}^2,\\
 27.0\text{ in} \cdot 1.5\text{ in} \amp \approx 41\text{ in}^2,\\
-1.5\text{ in} \cdot 3.5\text{ in} \amp = 5.3\text{ in}^2.
+1.5\text{ in} \cdot 3.5\text{ in} \amp = 5.25\text{ in}^2.
 \end{align*}
 </div>
 <div class="para">Thus the total area is</div>
-<div class="displaymath process-math" id="example-geometry-abacus-4-2-1-3">
+<div class="displaymath process-math" id="example-geometry-abacus-4-2-1-4">
 \begin{align*}
-2(2)(210\text{ in}^2)+2(2)(9\bar{0}\text{ in}^2)+2(2)(5.3\text{ in}^2)\\
-+3(2)(95\text{ in}^2)+3(2)(41\text{ in}^2)+3(2)(5.3\text{ in}^2) \amp = \\
-810+360+21.2+570+246+31.8\text{ in}^2 \amp = 2069\text{ in}^2
+2(2)(210\text{ in}^2)+2(2)(9\bar{0}\text{ in}^2)+2(2)(5.25\text{ in}^2)\\
++3(2)(95\text{ in}^2)+3(2)(41\text{ in}^2)+3(2)(5.25\text{ in}^2) \amp = \\
+810+360+21+570+246+31.5\text{ in}^2 \amp = 2038.5\text{ in}^2
 \end{align*}
 </div>
-<div class="para">This is <span class="process-math">\(2069 \text{ in}^2\text{.}\)</span>
-</div>
+<div class="para">No rounding is necessary because measurments were accurate to 1/8th inch, and a half inch is a multiple of an 1/8th inch.</div>
 </div>
 <div class="para logical" id="example-geometry-abacus-4-2-2">
 <div class="para">Finally we convert this to square feet using the method of <a href="section-units.html#example-convert-square-units" class="xref" data-knowl="./knowl/xref/example-convert-square-units.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1.23">Example 1.1.23</a>.</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-convert-square-units.html" id="example-geometry-abacus-4-2-2-2">
 \begin{align*}
-2069\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = \\
-\frac{2069}{12^2} \text{ ft}^2 &amp; = 14.3680555 \text{ ft}^2\\
-&amp; \approx 14.37 \text{ ft}^2.
+2038.5\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = \\
+\frac{2038.5}{12^2} \text{ ft}^2 &amp; = 14.15625 \text{ ft}^2.
 \end{align*}
 </div>
+<div class="para">We would need paint to cover 15 square feet to have at least enough.</div>
 </div>
 </div></details></div></article><article class="task exercise-like" id="example-geometry-abacus-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="example-geometry-abacus-5-1-1">What is the area that is hidden, that is, cannot be seen after assembling?</div>

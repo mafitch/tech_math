@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.3.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -564,7 +564,7 @@ eBookConfig.enable_chatcodes =  false;
 </h4>
 <div class="para" id="example-compare-accuracy-precision-1">The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?</div>
 <div class="para" id="example-compare-accuracy-precision-2">Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).</div>
-<div class="para" id="example-compare-accuracy-precision-3">Because the response matches the actual value to the hundreds position, it is accurate to 2 decimal places.</div>
+<div class="para" id="example-compare-accuracy-precision-3">Because the response matches the actual value to 2 decimal places (the 100ths position), it is accurate to 2 decimal places.</div>
 <div class="para" id="example-compare-accuracy-precision-4">Because <span class="process-math">\(5.7647-5.7632=0.0015\text{,}\)</span> the error is 0.0015.</div></article><figure class="figure figure-like" id="figure-video-precision-accuracy"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/SJZ9yCJ3NTQ?&amp;modestbranding=1&amp;rel=0" id="video-precision-accuracy"></iframe></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.8<span class="period">.</span></span><span class="space"> </span>Introduction to Precision and Accuracy</figcaption></figure><div class="para" id="subsection-enough-accuracy-13">How do we end up with parts of measurements which are not accurate? Consider the following.</div>
 <article class="example example-like" id="example-measure-error-ruler"><h4 class="heading">
@@ -659,6 +659,7 @@ C &amp; = \frac{5}{9}(44.7-32)\\
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.18</span><span class="period">.</span>
 </h4>
 <div id="momexercise-sigfigs-multiply-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfigs-multiply-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1444891&amp;frame_id=momexercise-sigfigs-multiply-1"></iframe></div></article><div class="para" id="subsection-enough-sigfigs-24">The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.</div>
+<div class="para" id="subsection-enough-sigfigs-25">This example also illustrates a way you might keep track of which digits are significant in each step. The rightmost (smallest place value) digit that is significant is underlined. This is not a mathematical notation, but rather a convenient way to track the significant digits.</div>
 <article class="example example-like" id="example-sigfig-multi1"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.19</span><span class="period">.</span><span class="space"> </span><span class="title">Multi-Step Arithmetic with Significant Digits.</span>
 </h4>
@@ -669,12 +670,16 @@ C &amp; = \frac{5}{9}(44.7-32)\\
 11,728+39(17.9+1.23).
 \end{equation*}
 </div>
-<div class="para">By order of operations we first calculate <span class="process-math">\(17.9+1.23 = 19.13\)</span> . Note that the result 19.13 is significant only to the first decimal place. Second by order of operations we calculate <span class="process-math">\(39 \times 19.13 = 746.07\text{.}\)</span> This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10’s place. The last calculation is <span class="process-math">\(11,728+746.07=12,474.07\text{.}\)</span> 11,728 is significant to the one’s place but the 746.07 is only significant to the 10’s place. As a result the final result is rounded to the 10’s place so</div>
-<div class="displaymath process-math">
-\begin{equation*}
-11,728+39(17.9+1.23) \approx 12,470.
-\end{equation*}
+<div class="displaymath process-math" id="example-sigfig-multi1-2-2">
+\begin{align*}
+11,72\underline{}8+3\underline{9}(17.\underline{9}+1.2\underline{3}) &amp; =\\
+11,72\underline{}8+3\underline{9}(19.\underline{1}3) &amp; =\\
+11,72\underline{8}+7\underline{4}6.07 &amp; = 12,4\underline{7}4.07\\
+&amp; \approx 12,470.
+\end{align*}
 </div>
+</div>
+<div class="para" id="example-sigfig-multi1-3">By order of operations we first calculate <span class="process-math">\(17.9+1.23 = 19.13\)</span> . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate <span class="process-math">\(39 \cdot 19.13 = 746.07\text{.}\)</span> This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10’s place (the 4). The last calculation is <span class="process-math">\(11,728+746.07=12,474.07\text{.}\)</span> 11,728 is significant to the one’s place but the 746.07 is only significant to the 10’s place. This means the final result is rounded to the 10’s place so <span class="process-math">\(11,728+39(17.9+1.23) \approx 12,470.\)</span>
 </div></article><article class="example example-like" id="example-sigfig-multi2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.20</span><span class="period">.</span>
 </h4>
@@ -688,14 +693,31 @@ C &amp; = \frac{5}{9}(44.7-32)\\
 <div class="para">Note the <span class="process-math">\(1/2\)</span> is an exact number here. The rest are measurements in centimeters.</div>
 <div class="displaymath process-math" id="example-sigfig-multi2-1-3">
 \begin{align*}
-21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4) &amp; =\\
-21 \cdot 9 - \frac{1}{2} \cdot 9(12) &amp; = \text{ all numbers are precise to the ones position}\\
-189 - 54 &amp; = \text{ only one significant digit remains in both numbers because 9 has only one}\\
-135 &amp; = \approx \text{ 189 was precise to only the hundreds position}\\
+2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(2\underline{1}-\underline{5}-\underline{4}) &amp; =\\
+2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(1\underline{2}) &amp; = \text{ all numbers are precise to the ones position}\\
+\underline{1}89 - \underline{5}4 &amp; = \text{ only one significant digit remains in both numbers because 9 has only one}\\
+\underline{1}35 &amp; \approx \text{ 189 was precise to only the hundreds position}\\
 100. &amp; \text{So we round to the hundreds.}
 \end{align*}
 </div>
-</div></article><article class="exercise exercise-like" id="exercise-sigfig-multi-step"><h4 class="heading">
+</div>
+<div class="para logical" id="example-sigfig-multi2-2">
+<div class="para">When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been</div>
+<div class="displaymath process-math">
+\begin{equation*}
+20.5 \cdot 8.5 - \frac{1}{2}8.5(20.5-4.5-3.5) = 121.125.
+\end{equation*}
+</div>
+<div class="para">If all the measurements were rounded down (e.g., 21 was rounded from 21.4), the the value could have been</div>
+<div class="displaymath process-math">
+\begin{equation*}
+21.4 \cdot 9.4 - \frac{1}{2}9.4(21.4-5.4-4.4) = 146.64.
+\end{equation*}
+</div>
+<div class="para">Using these two possibilities we see that the value could be anywhere from 121.125 to 146.64. The one hundred is the only digit about which we can be certain. That is why it is the only significant digit and why we eliminate (replace with zero) all the others.</div>
+</div>
+<div class="para" id="example-sigfig-multi2-3">If losing this much precision is a problem, then we need to obtain more precise measurements.</div></article><div class="para" id="subsection-enough-sigfigs-28">Significant digts communicates which digits are definitely meaningful. There are other motivations for rounding which lead to keeping more digits. This will be addressed in the next section.</div>
+<article class="exercise exercise-like" id="exercise-sigfig-multi-step"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.21</span><span class="period">.</span>
 </h4>
 <div id="momexercise-sigfig-multi-step-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-sigfig-multi-step-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1445015&amp;frame_id=momexercise-sigfig-multi-step-1"></iframe></div></article></section><section class="subsection" id="subsection-rounding"><h3 class="heading hide-type">
@@ -764,7 +786,7 @@ C &amp; = \frac{5}{9}(44.7-32)\\
 </h4>
 <div class="para" id="example-rounding-carpet-tiles-1">Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20″. If a room is 50 feet by 38 feet, how many carpet square do we need?</div>
 <div class="para" id="example-rounding-carpet-tiles-2">First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <span class="process-math">\(50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{600 \text{ in}}{20 \text{ in}} = 30\)</span> tiles across.</div>
-<div class="para" id="example-rounding-carpet-tiles-3">Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <span class="process-math">\(38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 in\text{.}\)</span> This will require laying <span class="process-math">\(\frac{456 \text{ in}}{20 \text{ in}} = 22.8\)</span> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</div>
+<div class="para" id="example-rounding-carpet-tiles-3">Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <span class="process-math">\(38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 \text{ in}\text{.}\)</span> This will require laying <span class="process-math">\(\frac{456 \text{ in}}{20 \text{ in}} = 22.8\)</span> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</div>
 <div class="para" id="example-rounding-carpet-tiles-4">Finally we can count the number of tiles which is <span class="process-math">\(30 \times 23 = 690\)</span> tiles.</div>
 <div class="para" id="example-rounding-carpet-tiles-5">If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up.</div></article><article class="example example-like" id="example-rounding-distribute-cookies"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.28</span><span class="period">.</span>
@@ -779,15 +801,13 @@ C &amp; = \frac{5}{9}(44.7-32)\\
 <article class="example example-like" id="example-greatest-error"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.29</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-greatest-error-1-1">What is the greatest possible error if 130 was rounded to the nearest 10?</div>
-<div class="solutions"><details id="example-greatest-error-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="example-greatest-error-2-1">One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at <span class="process-math">\(134-130=4\text{.}\)</span>
+<div class="para" id="example-greatest-error-1">What is the greatest possible error if 130 was rounded to the nearest 10?</div>
+<div class="para" id="example-greatest-error-2">One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at <span class="process-math">\(134-130=4\text{.}\)</span>
 </div>
-<div class="para" id="example-greatest-error-2-2">The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at <span class="process-math">\(130-125=5\text{.}\)</span>
+<div class="para" id="example-greatest-error-3">The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at <span class="process-math">\(130-125=5\text{.}\)</span>
 </div>
-<div class="para" id="example-greatest-error-2-3">Thus the greatest possible error was 5 from the case that 125 was rounded up.</div>
-<div class="para" id="example-greatest-error-2-4">Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits don’t change the rounding.</div>
-</div></details></div></article><article class="example example-like" id="example-greatest-error2"><h4 class="heading">
+<div class="para" id="example-greatest-error-4">Thus the greatest possible error was 5 from the case that 125 was rounded up.</div>
+<div class="para" id="example-greatest-error-5">Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits don’t change the rounding.</div></article><article class="example example-like" id="example-greatest-error2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.30</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-greatest-error2-1-1">What is the greatest possible error if 9.31 was rounded to the nearest hundredth?</div>
