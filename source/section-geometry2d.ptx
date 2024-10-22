@@ -213,21 +213,24 @@
         <p>Calculate the area of the triangles in <xref ref="figure-exercise-triangle-area" />.</p>
         <p>According to Heron's formula for the triangle in <xref ref="subfigure-triangle-area1" />
             <md>
-                <mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90)</mrow>
-                <mrow> &amp; = 12.535. &amp; \text{ Precise to the hundredths only}</mrow>
-                <mrow>\text{Area} &amp; \approx \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.90)} &amp; \text{Factors have 3 sigfigs}</mrow>
-                <mrow> &amp; \approx \sqrt{583.7199977} &amp; \text{Root maintains 3 sigfigs}</mrow>
+                <mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90) \text{ Each term is precise to the 100ths (2 places)}</mrow>
+                <mrow> &amp; = 12.535. \text{ Addition maintains to the 100ths (4 sigfigs)}</mrow>
+                <mrow>\text{Area} &amp; \approx \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.90)} \text{ Terms precise to 100ths, 3 sigfigs}</mrow>
+                <mrow> &amp; \approx \sqrt{12.535(6.555)(4.345)(1.635)} \text{ Product maintains 3 sigfigs}</mrow>
+                <mrow> &amp; \approx \sqrt{583.7199977} \text{ Root maintains 3 sigfigs}</mrow>
                 <mrow> &amp; \approx 24.16</mrow>
                 <mrow> &amp; \approx 24.2.</mrow>
             </md>
         </p>
         <p>For the triangle in <xref ref="subfigure-triangle-area2" />
             <md>
-                <mrow>s &amp; = \frac{1}{2}(5.98+8.19+2.87)</mrow>
-                <mrow> &amp; \approx 8.52. &amp; \text{Precise to the hundredths}</mrow>
-                <mrow>\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} &amp; \text{Each factor has 3 sigfigs}</mrow>
-                <mrow> &amp; \approx \sqrt{40.34927160} &amp; \text{Root maintains 3 sigfigs}</mrow>
-                <mrow> &amp; \approx 6.35.</mrow>
+                <mrow>s &amp; = \frac{1}{2}(5.98+8.19+2.87) \text{ Each term precise to 100ths}</mrow>
+                <mrow> &amp; \approx 8.52. \text{ Sum maintains to the 100ths}</mrow>
+                <mrow>\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} \text{ Sums maintain to the 100ths}</mrow>
+                <mrow> &amp; \approx \sqrt{8.52(2.54)(0.33)(5.65)} \text{ Smallest factor has 2 sigfigs}</mrow>
+                <mrow> &amp; \approx \sqrt{40.34927160} \text{ Root maintains 2 sigfigs}</mrow>
+                <mrow> &amp; \approx 6.35210765</mrow>
+                <mrow> &amp; \approx 6.4.</mrow>
             </md>
         </p>
         <p>We use significant digits rounding because the side lengths are measurements.</p>
@@ -262,13 +265,14 @@
             <mrow> &amp; \approx 2(3.14)(7.31)</mrow>
             <mrow> &amp; = 45.9068.</mrow>
             <mrow> &amp; \approx 45.9.</mrow>
-        </md> We use the approximation 3.14 for <m>\pi</m> because our measurements have only three significant digits.</p>
+        </md>
+        We need to approximate <m>\pi</m> to at least as many significant digits as the others numbers to avoid reducing precision. We could use more.</p>
         <p>The area, given in <xref ref="figure-circle-properties" />, is <m>\pi r^2</m>. For radius 7.31
         <md>
             <mrow>\text{area} &amp; = \pi (7.31)^2</mrow>
             <mrow> &amp; = (3.14)(7.31)^2</mrow>
-            <mrow> &amp; = \approx 167.789354.</mrow>
-            <mrow> &amp; = \approx 168.</mrow>
+            <mrow> &amp; \approx 167.789354.</mrow>
+            <mrow> &amp; \approx 168.</mrow>
         </md></p>
     </example>
 
@@ -308,16 +312,17 @@
             <p>Find the area of this wall given the dimensions given in feet.</p>
             <image source="images/HouseWall" width="30%" />
             <p>First we notice that we can describe the wall as a rectangle with a triangle on top of it.</p>
-            <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \cdot 24.0 \text{ ft} = 168 \text{ ft}^2 \approx 170 \text{ ft}^2</m>.</p>
+            <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \cdot 24.0 \text{ ft} = 168 \text{ ft}^2</m>.</p>
             <p>The top is a triangle with two sides of length 13.0 and one of length 24.0. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
             <md>
                 <mrow>s &amp; = \frac{1}{2}(13.0+13.0+24.0)</mrow>
                 <mrow> &amp; = 25.0.</mrow>
                 <mrow>\text{area} &amp; = \sqrt{25.0(25.0-13.0)(25.0-13.0)(25.0-24.0)}</mrow>
+                <mrow> &amp; = \sqrt{25.0(12.0)(12.0)(1.0)}</mrow>
                 <mrow> &amp; = \sqrt{3600}</mrow>
                 <mrow> &amp; = 6\bar{0}.</mrow>
             </md>
-            The total area then is <m>170+6\bar{0} \approx 230</m> square feet.</p>
+            The total area then is <m>168+6\bar{0} = 228 \approx 230</m> square feet.</p>
         </task>
         <task>
             <p>Find the perimeter of this wall given the dimensions given in feet.</p>
@@ -328,6 +333,8 @@
             <p>The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following.
                 <md>
                     <mrow>6\bar{0} &amp; = \frac{1}{2}24.0 h.</mrow>
+                    <mrow>6\bar{0} &amp; =  12.0 h.</mrow>
+                    <mrow>\frac{6\bar{0}}{12.0} &amp; = h.</mrow>
                     <mrow>5.0 &amp; = h.</mrow>
                 </md>
             The total height is then <m>7.0+5.0=12.0</m>.</p>
@@ -350,7 +357,7 @@
     <example xml:id="example-geometry-abacus">
         <introduction>
             <p>Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <xref ref="figure-apply-geometry-abacus" /> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.</p>
-            <p>Because we must have enough wood, we will round up all approximations.</p>
+            <p>Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.</p>
         </introduction>
         <task>
             <statement>
@@ -377,27 +384,26 @@
                     <md>
                         <mrow>60.0\text{ in} \cdot 3.5\text{ in} \amp = 210\text{ in}^2,</mrow>
                         <mrow>60.0\text{ in} \cdot 1.5\text{ in} \amp = 9\bar{0}\text{ in}^2,</mrow>
-                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp \approx 5.3\text{ in}^2.</mrow>
-                    </md>
+                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp \approx 5.25\text{ in}^2.</mrow>
+                    </md> This is <m>5+\frac{1}{4}</m>.
                 For the short segments these are
                     <md>
                         <mrow>27.0\text{ in} \cdot 3.5\text{ in} \amp \approx 95\text{ in}^2,</mrow>
                         <mrow>27.0\text{ in} \cdot 1.5\text{ in} \amp \approx 41\text{ in}^2,</mrow>
-                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp = 5.3\text{ in}^2.</mrow>
+                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp = 5.25\text{ in}^2.</mrow>
                     </md>
                 Thus the total area is
                     <md>
-                        <mrow>2(2)(210\text{ in}^2)+2(2)(9\bar{0}\text{ in}^2)+2(2)(5.3\text{ in}^2)</mrow>
-                        <mrow>+3(2)(95\text{ in}^2)+3(2)(41\text{ in}^2)+3(2)(5.3\text{ in}^2) \amp = </mrow>
-                        <mrow>810+360+21.2+570+246+31.8\text{ in}^2 \amp = 2069\text{ in}^2</mrow>
+                        <mrow>2(2)(210\text{ in}^2)+2(2)(9\bar{0}\text{ in}^2)+2(2)(5.25\text{ in}^2)</mrow>
+                        <mrow>+3(2)(95\text{ in}^2)+3(2)(41\text{ in}^2)+3(2)(5.25\text{ in}^2) \amp = </mrow>
+                        <mrow>810+360+21+570+246+31.5\text{ in}^2 \amp = 2038.5\text{ in}^2</mrow>
                     </md>
-                This is <m>2069 \text{ in}^2</m>.</p>
+                No rounding is necessary because measurments were accurate to 1/8th inch, and a half inch is a multiple of an 1/8th inch.</p>
                 <p>Finally we convert this to square feet using the method of <xref ref="example-convert-square-units" />.
                 <md>
-                    <mrow>2069\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = </mrow>
-                    <mrow>\frac{2069}{12^2} \text{ ft}^2 &amp; = 14.3680555 \text{ ft}^2</mrow>
-                    <mrow> &amp; \approx 14.37 \text{ ft}^2.</mrow>
-                </md></p>
+                    <mrow>2038.5\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = </mrow>
+                    <mrow>\frac{2038.5}{12^2} \text{ ft}^2 &amp; = 14.15625 \text{ ft}^2.</mrow>
+                </md> We would need paint to cover 15 square feet to have at least enough.</p>
             </solution>
         </task>
         <task>

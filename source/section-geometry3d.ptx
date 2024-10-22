@@ -74,16 +74,16 @@
     <example xml:id="example-prism-surface-area">
         <task>
             <p>What is the surface area of the right triangular prism in <xref ref="figure-exercise-prism-triangular" />?</p>
-            <p>The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area <m>\frac{1}{2} \cdot 2.125 \cdot 3.125 = 3.3203125 \approx 3.320</m>. The rectangle areas are <m>2.125 \cdot 10.250 = 21.78125 \approx 21.78</m> and <m>3.125 \cdot 10.250 = 32.03125 \approx 32.03</m>. For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem.
+            <p>The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area <m>\frac{1}{2} \cdot 2.12\underline{5} \cdot 3.12\underline{5} = 3.3\underline{2}03125</m>. The rectangle areas are <m>2.12\underline{5} \cdot 10.25\underline{0} = 21.7\underline{8}125</m> and <m>3.12\underline{5} \cdot 10.25\underline{0} = 32.0\underline{3}125</m>. For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem.
             <md>
-                <mrow>(2.125)^2+(3.125)^2 &amp; = c^2.</mrow>
-                <mrow>4.515625+9.765625 &amp; = c^2. &amp; \text{Squaring maintains 4 sigfigs}</mrow>
-                <mrow>14.28125 &amp; = c^2. &amp; \text{Adding precise to 1000ths}</mrow>
-                <mrow>\sqrt{14.28125} &amp; = c. &amp; \text{Root maintains 5 sigfigs}</mrow>
-                <mrow>3.77905 &amp; \approx c.</mrow>
+                <mrow>(2.12\underline{5})^2+(3.12\underline{5})^2 &amp; = c^2.</mrow>
+                <mrow>4.51\underline{5}625+9.76\underline{5}625 &amp; = c^2. \text{ Squaring maintains 4 sigfigs}</mrow>
+                <mrow>14.28\underline{1}25 &amp; = c^2. \text{ Adding precise to 1000ths}</mrow>
+                <mrow>\sqrt{14.28\underline{1}25} &amp; = c. \text{ Root maintains 5 sigfigs}</mrow>
+                <mrow>3.779\underline{0}5 &amp; \approx c.</mrow>
                 <mrow>3.7791 &amp; \approx c.</mrow>
             </md>
-            The third rectangle has area <m>3.7791 \cdot 10.250 \approx 38.735775 \approx 38.736</m>.  The total area is <m>2(3.320)+21.78+32.03+38.736 \approx 99.186 \approx 99.19</m>.</p>
+            The third rectangle has area <m>3.779\underline{0}5 \cdot 10.25\underline{0} \approx 38.73\underline{5}2625</m>.  The total area is <m>2(3.3\underline{2}03125)+21.7\underline{8}125+32.0\underline{3}125+38.73\underline{5}2625 \approx 99.1\underline{8}83875 \approx 99.19</m>.</p>
         </task>
         <task>
             <p>What is the volume of the triangular prism in <xref ref="figure-exercise-prism-triangular-right" />?</p>
@@ -134,23 +134,21 @@
         <image source="images/cylinder_exercise" width="30%" />
         <p>The lateral surface area is
         <md>
-            <mrow>2\pi(3.907)(5.666) &amp; \approx </mrow>
-            <mrow>2(3.142)(3.907)(5.666) &amp; \approx 139.1092976</mrow>
-            <mrow> &amp; \approx 139.1</mrow>
+            <mrow>2\pi(3.90\underline{7})(5.66\underline{6}) &amp; \approx </mrow>
+            <mrow>2(3.1415\underline{9})(3.90\underline{7})(5.66\underline{6}) &amp; \approx 139.\underline{0}911452.</mrow>
         </md>
-        We use <m>\pi</m> rounded to 3 decimal places to have the same number of significant digits as the measurements.</p>
+        We must approximate <m>\pi</m> precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.</p>
         <p>The area of the top and bottom are both
         <md>
-            <mrow>\pi(3.907)^2 &amp; \approx </mrow>
-            <mrow>(3.142)(3.907)^2 &amp; \approx 47.96152716</mrow>
-            <mrow> &amp; \approx 47.96.</mrow>
+            <mrow>\pi(3.90\underline{7})^2 &amp; \approx </mrow>
+            <mrow>(3.1415\underline{9})(3.90\underline{7})^2 &amp; \approx 47.9\underline{5}526865.</mrow>
         </md>
-        Thus the total surface area is <me>2(47.96)+139.1 \approx 235.02 \approx 235.0.</me></p>
+        Thus the total surface area is <me>2(47.9\underline{5}526865)+139.\underline{0}911452 \approx 235.\underline{0}016825 \approx 235.0.</me></p>
         <p>The volume is
             <md>
-                <mrow>V &amp; = \pi(3.907)^2(5.324)</mrow>
-                <mrow> &amp; \approx (3.142)(3.907)^2(5.324)</mrow>
-                <mrow> &amp; \approx 255.3471706</mrow>
+                <mrow>V &amp; = \pi(3.90\underline{7})^2(5.32\underline{4})</mrow>
+                <mrow> &amp; \approx (3.1415\underline{9})(3.90\underline{7})^2(5.32\underline{4})</mrow>
+                <mrow> &amp; \approx 255.\underline{3}138503</mrow>
                 <mrow> &amp; \approx 255.3</mrow>
             </md>
         </p>
@@ -411,8 +409,8 @@
         </md>
         Now we can calculate the volume of the muffin tin.
         <md>
-            <mrow>V &amp; = \frac{1}{3}(3.3)(78+160+\sqrt{(78)(160)}) \text{ Product maintains 2 sigfigs}</mrow>
-            <mrow> &amp; = \frac{1}{3}(3.3)(78+160+\sqrt{12480}) \text{ Root maintains 2 sigfigs}</mrow>
+            <mrow>V &amp; = \frac{1}{3}\left(3.3)(78+160+\sqrt{(78)(160)}\right) \text{ Product maintains 2 sigfigs}</mrow>
+            <mrow> &amp; = \frac{1}{3}(3.3)\left(78+160+\sqrt{12480}\right) \text{ Root maintains 2 sigfigs}</mrow>
             <mrow> &amp; \approx \frac{1}{3}(3.3)(78+160+111.7139) \text{ Root maintains 2 sigfigs}</mrow>
             <mrow> &amp; \approx \frac{1}{3}(3.3)(349.7139) \text{ Product maintains 2 sigfigs}</mrow>
             <mrow> &amp; = 384.6853</mrow>
@@ -461,16 +459,16 @@
         <md>
             <mrow>s &amp; = \frac{1}{2}(5+5+3)</mrow>
             <mrow> &amp; = \frac{13}{2}</mrow>
-            <mrow> &amp; = 6.5</mrow>
-            <mrow>TA &amp; = \sqrt{6.5(6.5-3)(6.5-5)^2}</mrow>
-            <mrow> &amp; = \sqrt{6.5(3.5)(1.5)^2}</mrow>
-            <mrow> &amp; = \sqrt{51.1875}</mrow>
+            <mrow> &amp; = 6+\frac{1}{2}</mrow>
+            <mrow>TA &amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(6+\frac{1}{2}-3\right)\left(6+\frac{1}{2}-5\right)^2}</mrow>
+            <mrow> &amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(3+\frac{1}{2}\right)\left(1+\frac{1}{2}\right)^2}</mrow>
+            <mrow> &amp; = \sqrt{51+\frac{3}{16}}</mrow>
             <mrow> &amp; \approx 7.1545</mrow>
-            <mrow> &amp; \approx 7.2</mrow>
-        </md> We round to the tenths as being the closest unit to an 1/8th inch.</p>
-        <p>For the hole we know the diameter so we use the area formula <m>\frac{\pi}{4}d^2</m>. This hole has area <me>\frac{\pi}{4}(1)^2 = \frac{3.14}{4} \approx 0.785</me> The area of the front triangle is <m>7.2-0.785 = 6.415 \approx 6.4</m>.</p>
+            <mrow> &amp; \approx 7+\frac{1}{8}</mrow>
+        </md> To round we notice that 0.1545 is closer to <m>1/8=0.125</m> than it is to <m>2/8=0.25</m>.</p>
+        <p>For the hole we know the diameter so we use the area formula <m>\frac{\pi}{4}d^2</m>. This hole has area <me>\frac{\pi}{4}(1)^2 = \frac{3.14159}{4} \approx 0.7853975</me> The area of the front triangle is <m>7.125-0.7853975 \approx 6.3396025 \approx 6+\frac{3}{8}</m>.</p>
         <p>The bottom rectangle has area <m>3 \cdot 10 = 30</m> square inches. The two sides both have area <m>5 \cdot 10 = 50</m> square inches.</p>
-        <p>Thus the total area is <me>7.2+6.4+2(50)+30 = 143.6</me>.</p>
+        <p>Thus the total area is <me>7.1545+6.3396025+2(50)+30 \approx 143.4960525 \approx 143+\frac{1}{2}</me>. We round to 1/2 because 0.4960525 is closer to <m>1/2=4/8</m> than to <m>3/8</m>.</p>
     </example>
 
     <example xml:id="example-apply-geometry-ice-cream">
@@ -479,36 +477,33 @@
             <image source="images/cone-sphere" width="30%" />
         </introduction>
         <task>
-            <statement><p>What is the volume of the ice cream?</p></statement>
-            <solution><p>First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is <m>2 \; \frac{3}{8} = 2.375</m> inches. The radius then is half of that or <m>1 \; \frac{3}{16} = 1.1875</m>.</p>
+            <statement><p>What is the volume of the ice cream? Round final results to the nearest 10th.</p></statement>
+            <solution><p>First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is <m>2 \; \frac{3}{8} = 2.375</m> inches. The radius then is half of that or <m>1 \; \frac{3}{16} = 1.1875</m>. We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.</p>
             <p>The volume of the cone is
             <md>
                 <mrow>V_c &amp; = \frac{\pi}{3} (1.1875)^2 (7)</mrow>
-                <mrow> &amp; = \frac{3.1415}{3} (1.1875)^2 (7)</mrow>
-                <mrow> &amp; \approx 10.33668</mrow>
-                <mrow> &amp;  \approx 10.3</mrow>
+                <mrow> &amp; = \frac{3.14159}{3} (1.1875)^2 (7)</mrow>
+                <mrow> &amp; \approx 10.33697647.</mrow>
             </md>.
             The volume of the half sphere is
             <md>
                 <mrow>V_s &amp; = \frac{1}{2} \cdot \frac{4}{3} \pi (1.1875)^3</mrow>
-                <mrow> &amp; = \frac{2}{3}(3.1416)(1.1875)^3</mrow>
-                <mrow> &amp; \approx 3.50719961</mrow>
-                <mrow> &amp; =  \approx 3.5.</mrow>
+                <mrow> &amp; = \frac{2}{3}(3.14159)(1.1875)^3</mrow>
+                <mrow> &amp; \approx 3.507188445.</mrow>
             </md>
-            Thus the total volume of the ice cream is <m>10.3+3.5=13.8</m>.</p></solution>
+            Thus the total volume of the ice cream is <m>10.33697647+3.507188445 \approx 13.84416492 \approx 13.8</m>.</p></solution>
         </task>
         <task>
             <statement><p>What is the surface area of the ice cream? Note the greater the area the faster it melts.</p></statement>
             <solution><p>This is a right circular cone with a half sphere on top. The surface area of the cone is
             <md>
                 <mrow>A_c &amp; = \pi(1.1875)\sqrt{6^2+(1.1875)^2}</mrow>
-                <mrow> &amp; = (3.1416)(1.1875)\sqrt{6^2+(1.1875)^2}</mrow>
-                <mrow> &amp; \approx (3.1416)(1.1875)\sqrt{37.410156}</mrow>
-                <mrow> &amp; \approx (3.1416) (1.1875) (6.116384)</mrow>
-                <mrow> &amp; \approx 22.818089</mrow>
-                <mrow> &amp; \approx 22.8</mrow>
+                <mrow> &amp; = (3.14159)(1.1875)\sqrt{6^2+(1.1875)^2}</mrow>
+                <mrow> &amp; \approx (3.14159)(1.1875)\sqrt{37.410156}</mrow>
+                <mrow> &amp; \approx (3.14159) (1.1875) (6.116384)</mrow>
+                <mrow> &amp; \approx 22.81801626.</mrow>
             </md>
-            The surface area of the half sphere is <m>\frac{1}{2} \cdot 4 \pi (1.1875)^2 \approx 8.86029375 \approx 8.9</m>. Thus the total surface area of the ice cream is <m>22.8+8.9=31.7</m>.</p></solution>
+            The surface area of the half sphere is <m>\frac{1}{2} \cdot 4 \pi (1.1875)^2 \approx 8.860265547</m>. Thus the total surface area of the ice cream is <m>22.81801626+8.860265547 \approx 31.67828181 \approx 31.7</m> cubic inches.</p></solution>
         </task>
     </example>
 
