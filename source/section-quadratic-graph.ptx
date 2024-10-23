@@ -1,192 +1,251 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <section xml:id="section-quadratic-graph" >
-<title>Transformations of Quadratics</title>
+<title>Graphs of Quadratics</title>
 
 <introduction>
 
-<p>We have considered the nature of quadratic data and solving quadratic expressions. Now we will look at special properties of quadratics.</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Solve linear, rational, quadratic, and exponential equations and formulas (skill)</li>
+            <li>Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+        </ul>
+    </p>
+
+    <p>This section will introduce the graph (shape) of quadratic equations, illustrate all the variations that are possible, and demonstrate how these can be used to answer questions.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-quadratic-properties">
-	<title>Properties of Quadratics</title>
+    <title>Properties of Quadratics</title>
 
-	<p>First we will graph the most basic quadratic <m>y=x^2</m>. We will use this to compare all the variations that can be produced.</p>
+    <p>First we will graph the most basic quadratic equation <m>y=x^2</m>. This will show us the basic shape and properties. Later examples will show us the variations and how to control them.</p>
 
-	<example xml:id="example-graph-parabola">
-		<statement>
-			<p>First we complete this table</p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>x^2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>(-2)^2</m></cell><cell right="medium"><m>=4</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>(-1)^2</m></cell><cell right="medium"><m>=1</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>0^2</m></cell><cell right="medium"><m>=0</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>1^2</m></cell><cell right="medium"><m>=1</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2^2</m></cell><cell right="medium"><m>=4</m></cell></row>
-			</tabular>
-			<p>Next we graph these points and sketch the graph through them.</p>
-			<image source="images/parabola-graph" width="50%" />
-		</statement>
-	</example>
+    <example xml:id="example-graph-parabola">
+        <statement>
+            <p>To discover the shape we will graph following the steps shown first in <xref ref="subsection-analyze-using-graphs" />. First we complete this table of values. We must choose the x values randomly for now.</p>
+            <tabular top="medium">
+                <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>x^2</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>(-2)^2</m></cell><cell right="medium"><m>=4</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>(-1)^2</m></cell><cell right="medium"><m>=1</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>0^2</m></cell><cell right="medium"><m>=0</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>1^2</m></cell><cell right="medium"><m>=1</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2^2</m></cell><cell right="medium"><m>=4</m></cell></row>
+            </tabular>
+            <p>Next we graph these points and sketch the graph through them.</p>
+            <image source="images/parabola-graph" width="50%" />
+        </statement>
+    </example>
 
-	<p>Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the <term>vertex</term>. It is at (0,0) for this parabola.</p>
-	<p>Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the <term>line of symmetry</term>. In this case that is the vertical line <m>x=0</m>.</p>
+    <p>The graph of a quadratic is known as a <term>parabola</term>. Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the <term>vertex</term>. It is at (0,0) for this parabola.</p>
 
-	<example xml:id="example-graph-parabola-general">
-		<statement>
-			<p>We will graph <m>y=2(x-1)^2-4</m>. First we complete this table</p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>2(x-1)^2-4</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2(-2-1)^2-4</m></cell><cell right="medium"><m>=14</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2(-1-1)^2-4</m></cell><cell right="medium"><m>=4</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>2(0-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>2(1-1)^2-4</m></cell><cell right="medium"><m>=-4</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2(2-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
-			</tabular>
-			<p>Next we graph these points and sketch the graph through them.</p>
-			<image source="images/parabola-graph2" width="50%" />
-			<p>Notice that this time the vertex is at <m>(1,-4)</m>. The line of symmetry is <m>x=1</m>.</p>
-		</statement>
-	</example>
+    <p>Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the <term>line of symmetry</term>. In this case that is the vertical line <m>x=0</m>.</p>
+
+    <p>The following example combines three modifications of the basic quadratic. We will graph it, notice the differences, and then use an activity to understand how each part of the equation produces a particular change in the graph.</p>
+
+    <example xml:id="example-graph-parabola-general">
+        <statement>
+            <p>We will graph <m>y=2(x-1)^2-4</m>. First we complete this table</p>
+            <tabular top="medium">
+                <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>2(x-1)^2-4</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2(-2-1)^2-4</m></cell><cell right="medium"><m>=14</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2(-1-1)^2-4</m></cell><cell right="medium"><m>=4</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>2(0-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>2(1-1)^2-4</m></cell><cell right="medium"><m>=-4</m></cell></row>
+                <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2(2-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
+            </tabular>
+            <p>Next we graph these points and sketch the graph through them.</p>
+            <image source="images/parabola-graph2" width="50%" />
+            <p>Notice that this time the vertex is at <m>(1,-4)</m>. The line of symmetry is <m>x=1</m>.</p>
+        </statement>
+    </example>
+
+    <p>The following activity is a set of experiments to understand how each part of the parabola equation works. It is designed to help you understand by seeing the results in calculations. Do these exercises by hand. While you can look up the meaning of each equation part, memorizing them will be harder (and your ability to use them in later chapters reduced) if you do not see how each transformation is caused by the arithmetic.</p>
+
+    <activity xml:id="activity-parabola-parameter">
+        <title>Discovering Parabola Parameters</title>
+
+        <task xml:id="exercise-quadratic-vertical-scale">
+            <introduction><p>In this exercise we will check on the effect of multiplying a quadratic by a scalar (number).</p></introduction>
+            <task><p>Complete the table of points below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>2x^2</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>2(-2)^2=8</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>2x^2</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+
+        <task xml:id="exercise-quadratic-vertical-scale2">
+            <introduction><p>In this exercise we will continue to check on the effect of multiplying a quadratic by a scalar (number).</p></introduction>
+            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>\frac{1}{2}x^2</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>\frac{1}{2}(-2)^2=2</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>\frac{1}{2}x^2</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+
+        <task xml:id="exercise-quadratic-horizontal-shift">
+            <introduction><p>In this exercise we will check on the effect of adding inside the square.</p></introduction>
+            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>(x-1)^2</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2-1)^2=9</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>(x-1)^2</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+
+        <task xml:id="exercise-quadratic-horizontal-shift2">
+            <introduction><p>In this exercise we will continue to check on the effect of adding inside the square.</p></introduction>
+            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>(x+1)^2</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2+1)^2=1</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>(x+1)^2</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+
+        <task xml:id="exercise-quadratic-vertical-shift">
+            <introduction><p>In this exercise we will check on the effect of adding outside the square.</p></introduction>
+            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>x^2-1</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2)^2-1=3</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>x^2-1</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+
+        <task xml:id="exercise-quadratic-vertical-shift2">
+            <introduction><p>In this exercise we will continue to check on the effect of adding outside the square.</p></introduction>
+            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>x^2+1</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2)^2+1=5</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>x^2+1</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+
+        <task xml:id="exercise-quadratic-reflect">
+            <introduction><p>In this exercise we will check on the effect of multiplying a quadratic by a negative.</p></introduction>
+            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>-x^2</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>-(-2)^2=-4</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>-x^2</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+    </activity>
+
+    <example xml:id="example-graph-general-parabola">
+        <p>Graph the parabola <m>y=\frac{1}{3}(x+3)^2+2</m> by identifying the vertex and one other point.</p>
+        <p>From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is <m>(x-[-3])^+2</m>.</p>
+        <p>The second point can be any point. <m>x=0</m> is convenient. <m>y=\frac{1}{3}(0+3)^2+2 = \frac{1}{3} \cdot 9+2 = 3+2 = 5</m>.</p>
+        <p>Because the center (axis of symmetry) is <m>x=-3</m>, we want to plot a portion of the curve left and right of that value. <m>x</m> from -6 to 0 (3 left to 3 right) will be convenient.</p>
+        <p>We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.</p>
+        <image source="images/parabola_general" width="30%" />
+    </example>
+
+    <exercise>
+        <myopenmath problem="809298" />
+    </exercise>
 
 </subsection>
 
-<subsection xml:id="subsection-quadratic-transformation">
-	<title>Transformations</title>
+<subsection xml:id="subsection-quadratic-application">
+    <title>Applications</title>
 
-	<exercise xml:id="exercise-quadratic-vertical-scale">
-		<introduction><p>In this exercise we will check on the effect of multiplying a quadratic by a scalar (number).</p></introduction>
-		<task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>2x^2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>2(-2)^2=8</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-			</tabular>
-		</task>
-		<task><p>Graph these points. Compare the graph to the graph in <xref ref="example-graph-parabola" /></p></task>
-	</exercise>
+    <p>Now that we understand what each part of the equation of a parabola tells us, we can use that to interpret quadratic models and answer some questions using a quadratic model.</p>
 
-	<exercise xml:id="exercise-quadratic-vertical-scale2">
-		<introduction><p>In this exercise we will continue to check on the effect of multiplying a quadratic by a scalar (number).</p></introduction>
-		<task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>\frac{1}{2}x^2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>\frac{1}{2}(-2)^2=2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-			</tabular>
-		</task>
-		<task><p>Graph these points. Compare the graph to the graph in <xref ref="example-graph-parabola" /></p></task>
-	</exercise>
+    <example xml:id="example-interpret-parabola-lift">
+        <p>The lift equation is a parabola. Note, only the right side of the parabola is part of the model, because negative speeds do not apply.</p>
+        <p>The lift equation has <m>h=0</m> and <m>k=0</m>. This makes sense because there should be zero lift when there is zero speed. If <m>k \gt 0</m> then there would be lift at zero speed. If <m>h \gt 0</m> there would be no lift until that speed.</p>
+        <p>The coefficients, <m>\frac{1}{2}\rho S C_L</m>, make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.</p>
+        <p>For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).</p>
+        <image source="images/compare_lift_curves" width="30%" />
+    </example>
 
-	<exercise xml:id="exercise-quadratic-horizontal-shift">
-		<introduction><p>In this exercise we will check on the effect of adding inside the square.</p></introduction>
-		<task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>(x-1)^2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2-1)^2=9</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-			</tabular>
-		</task>
-		<task><p>Graph these points. Compare the graph to the graph in <xref ref="example-graph-parabola" /></p></task>
-	</exercise>
+    <example xml:id="example-interpret-parabola-load-factor">
+        <p>The maximum load factor can be written as <me>n_{max} = \left(\frac{V}{V_S}\right)^2 = \frac{1}{V_S^2} V^2.</me> This is a parabola.</p>
+        <p>This equation has <m>h=0</m> and <m>k=0</m>. Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is <m>V=V_S</m> which gives us 1 G. That is the normal state of flight is 1 G (the one produced by gravity). If <m>k \gt 0</m> the model would indicate more than 1 G produced by gravity. <m>h \ne 0</m> would indicate this occuring at some other speed.</p>
+        <p>The coefficient (<m>1/V_S^2</m>) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's.</p>
+        <p>For example if the stall speed is 41 nm/hr, then 1 G occurs at 41 nm/hr and 2 G's occurs at <m>V=41\sqrt{2} \approx 58</m> nm/hr. To increase the maximum load factor requires an increase of <m>58-41=17</m> nm/hr. However if the stall speed were 63 nm/hr then 1 G occurs at 63 nm/hr and 2 G's occurs at <m>V=63\sqrt{2} \approx 89</m> nm/hr. To increase the maximum load factor required an increase of <m>89-63=26</m> nm/hr. The higher stall speed implies a greater (<m>22 \gt 16</m>) increase in speed.</p>
+        <image source="images/compare_load_factor_curves" width="30%" />
+    </example>
 
-	<exercise xml:id="exercise-quadratic-horizontal-shift2">
-		<introduction><p>In this exercise we will continue to check on the effect of adding inside the square.</p></introduction>
-		<task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>(x+1)^2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2+1)^2=1</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-			</tabular>
-		</task>
-		<task><p>Graph these points. Compare the graph to the graph in <xref ref="example-graph-parabola" /></p></task>
-	</exercise>
+    <p>The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.</p>
 
-	<exercise xml:id="exercise-quadratic-vertical-shift">
-		<introduction><p>In this exercise we will check on the effect of adding outside the square.</p></introduction>
-		<task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>x^2-1</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2)^2-1=3</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-			</tabular>
-		</task>
-		<task><p>Graph these points. Compare the graph to the graph in <xref ref="example-graph-parabola" /></p></task>
-	</exercise>
-
-	<exercise xml:id="exercise-quadratic-vertical-shift2">
-		<introduction><p>In this exercise we will continue to check on the effect of adding outside the square.</p></introduction>
-		<task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>x^2+1</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>(-2)^2+1=5</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-			</tabular>
-		</task>
-		<task><p>Graph these points. Compare the graph to the graph in <xref ref="example-graph-parabola" /></p></task>
-	</exercise>
-
-	<exercise xml:id="exercise-quadratic-reflect">
-		<introduction><p>In this exercise we will check on the effect of multiplying a quadratic by a negative.</p></introduction>
-		<task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-			<tabular top="medium">
-				<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>-x^2</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>-(-2)^2=-4</m></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-				<row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-			</tabular>
-		</task>
-		<task><p>Graph these points. Compare the graph to the graph in <xref ref="example-graph-parabola" /></p></task>
-	</exercise>
-
-</subsection>
-
-<subsection xml:id="subsection-quadratic-change-form">
-	<title>Forms</title>
-
-	<p>We have solved quadratics using the (standard) form <m>ax^2+bx+c=0</m> and graphed parabolas using the form <m>a(x-h)^2+k</m>. From the form we used for graphing we can easily identify the vertex. With some effort it is possible to find the vertex from the standard form. We will look at a method that does not require using more algebra than we have practiced here.</p>
-
-	<example xml:id="example-quadratic-standard-vertex">
-		<statement><p>Find the vertex of <m>y=2x^2-11x+12</m>.</p></statement>
-		<solution><p>Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to <m>2x^2-11x+12 = 0</m>.
-			<md>
-				<mrow>x &amp; = \frac{-(-11) \pm \sqrt{(-11)^2-4(2)(12)}}{2(2)}</mrow>
-				<mrow> &amp; = \frac{11 \pm \sqrt{121-96}}{4}</mrow>
-				<mrow> &amp; = \frac{11 \pm \sqrt{25}}{4}</mrow>
-				<mrow> &amp; = \frac{11 \pm 5}{4}</mrow>
-				<mrow> &amp; = 4, 3/2.</mrow>
-			</md>
-		To find what is half way in between we average these two values. 
-			<md>
-				<mrow>x &amp; = \frac{4+3/2}{2}</mrow>
-				<mrow> &amp; = \frac{8/2+3/2}{2}</mrow>
-				<mrow> &amp; = 11/4</mrow>
-			</md>
-		Thus the x-coordinate of the vertex is 11/4. To find the y-coordinate we substitute the x value into the quadratic.
-			<me>2(11/4)^2-11(11/4)+12 = -25/8.</me></p>
-		</solution>
-	</example>
+    <example xml:id="example-quadratic-standard-vertex">
+        <p>Find the vertex of <m>y=2x^2-11x+12</m>. All numbers are exact.</p>
+        <p>Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to <m>2x^2-11x+12 = 0</m>.
+            <md>
+                <mrow>x &amp; = \frac{-(-11) \pm \sqrt{(-11)^2-4(2)(12)}}{2(2)}</mrow>
+                <mrow> &amp; = \frac{11 \pm \sqrt{121-96}}{4}</mrow>
+                <mrow> &amp; = \frac{11 \pm \sqrt{25}}{4}</mrow>
+                <mrow> &amp; = \frac{11 \pm 5}{4}</mrow>
+                <mrow> &amp; = 4, 3/2.</mrow>
+            </md>
+        To find what is half way in between we average these two values.
+            <md>
+                <mrow>x &amp; = \frac{4+3/2}{2}</mrow>
+                <mrow> &amp; = \frac{8/2+3/2}{2}</mrow>
+                <mrow> &amp; = 11/4</mrow>
+            </md>
+        Thus the x-coordinate of the vertex is 11/4. To find the y-coordinate we substitute the x value into the quadratic.
+            <me>2(11/4)^2-11(11/4)+12 = -25/8.</me></p>
+    </example>
 
 </subsection>
 

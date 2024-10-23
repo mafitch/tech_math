@@ -98,7 +98,7 @@
 
     <example xml:id="example-quadratic-solve-load-factor">
         <statement>
-            <p>Consider <xref ref="model-load-factor" /> What velocity will produce a load factor of <m>n=2</m> if the stall speed <m>v_s=54</m>?</p>
+            <p>Consider <xref ref="model-load-factor" /> What velocity will produce a maximum load factor of <m>n_{max}=2</m> if the stall speed is <m>v_s=54</m>?</p>
             <p>Note that 2 is an exact number, and 54 is a measurement.</p>
         </statement>
         <solution>
@@ -111,7 +111,8 @@
                 <mrow>54\sqrt{2} \amp = v.</mrow>
                 <mrow>76.36753235 \amp \approx v.</mrow>
                 <mrow>76 \amp = \approx.</mrow>
-            </md></p>
+            </md>
+            The aircraft would have to be travelling at 76 nm/hour to be able to experience 2 G's in a maximum performance maneuver.</p>
             <p>Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.</p>
         </solution>
     </example>

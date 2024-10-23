@@ -64,12 +64,13 @@
     <fact xml:id="model-load-factor">
         <title>Load Factor</title>
         <statement>
-            <p>The load factor imposed on an aircraft is <me>n=\left(\frac{v}{v_s}\right)^2</me> where
+            <p>The maximum load factor on an aircraft is <me>n_{max}=\left(\frac{v}{v_s}\right)^2</me> where
             <ul>
                 <li><m>n</m> is the load factor,</li>
                 <li><m>v</m> is the velocity, and</li>
                 <li><m>v_s</m> is the stall speed.</li>
             </ul></p>
+            <p>Load factor is a measure of the force exerted on the aircraft by a maneuver. Maximum load factor is the greatest load factor an aircraft would experience if at the given speed, the aircraft executed a maximum performance maneuver.</p>
             <p>Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression <q>pulling g's</q> refers to experiencing a load factor greater than one.</p>
         </statement>
     </fact>
