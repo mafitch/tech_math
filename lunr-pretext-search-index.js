@@ -5947,7 +5947,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Quadratics",
-  "body": " Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Read and interpret models (critical thinking)    In we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.  One of comparing different rates is to enable us to enable us to provide more specific statements than slow or fast. Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept Identify rates as linear, quadratic, exponential, or other.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.   Algebraic Notation for Quadratics   Example  Form  Description    y=ax^2+bx+c,  Standard    ,  Factored    ,  Nice     For this class the form we will see the most is where has some meaning in each model.  When reading models quadratics may look a little different. shows examples of equations that are quadratic and some that are not (but might look like it).   Quadratic and Non-quadratic   Quadratic Non-quadratic           Quadratic Models  Now that we know how to recognize models (equations) as quadratic, we will present a few.   Load Factor   The load factor imposed on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.     Kinetic Energy   The kinetic energy of an object in motion, we will consider flight of gliders, is where  is the mass (think weight) of the object  is the velocity of the object.       Inversely Quadratic Relations  has as an example that is not quadratic. Instead varies inversely with the square of . While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.   Quadratic Relation     1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6      Inversely Quadratic Relation     1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200     In the second differences are all 6, so that is quadratic. In contrast in the second differences are all different.   Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.     "
+  "body": " Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Read and interpret models (critical thinking)    In we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.  One of comparing different rates is to enable us to enable us to provide more specific statements than slow or fast. Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept Identify rates as linear, quadratic, exponential, or other.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.   Algebraic Notation for Quadratics   Example  Form  Description    y=ax^2+bx+c,  Standard    ,  Factored    ,  Nice     For this class the form we will see the most is where has some meaning in each model.  When reading models quadratics may look a little different. shows examples of equations that are quadratic and some that are not (but might look like it).   Quadratic and Non-quadratic   Quadratic Non-quadratic           Quadratic Models  Now that we know how to recognize models (equations) as quadratic, we will present a few.   Load Factor   The maximum load factor on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is a measure of the force exerted on the aircraft by a maneuver. Maximum load factor is the greatest load factor an aircraft would experience if at the given speed, the aircraft executed a maximum performance maneuver.  Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.     Kinetic Energy   The kinetic energy of an object in motion, we will consider flight of gliders, is where  is the mass (think weight) of the object  is the velocity of the object.       Inversely Quadratic Relations  has as an example that is not quadratic. Instead varies inversely with the square of . While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.   Quadratic Relation     1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6      Inversely Quadratic Relation     1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200     In the second differences are all 6, so that is quadratic. In contrast in the second differences are all different.   Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.     "
 },
 {
   "id": "subsection-quadratic-forms-2",
@@ -5983,7 +5983,7 @@ var ptx_lunr_docs = [
   "type": "Fact",
   "number": "5.1.3",
   "title": "Load Factor.",
-  "body": " Load Factor   The load factor imposed on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.   "
+  "body": " Load Factor   The maximum load factor on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is a measure of the force exerted on the aircraft by a maneuver. Maximum load factor is the greatest load factor an aircraft would experience if at the given speed, the aircraft executed a maximum performance maneuver.  Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.   "
 },
 {
   "id": "model-kinetic-energy",
@@ -6028,7 +6028,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Solving Quadratics",
-  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.  Rounding to two decimal places was an arbitrary choice because this is not an application.    Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ).      Consider What velocity will produce a load factor of if the stall speed ?  Note that 2 is an exact number, and 54 is a measurement.     Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Find all solutions to .  We note that , , .      Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Parabolic Arc Approximation  Application  Application  Change of Area  Change of Area   "
+  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.  Rounding to two decimal places was an arbitrary choice because this is not an application.    Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ).      Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Find all solutions to .  We note that , , .      Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Parabolic Arc Approximation  Application  Application  Change of Area  Change of Area   "
 },
 {
   "id": "example-solve-quadratic-inversion",
@@ -6073,7 +6073,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.2.5",
   "title": "",
-  "body": "  Consider What velocity will produce a load factor of if the stall speed ?  Note that 2 is an exact number, and 54 is a measurement.     Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.   "
+  "body": "  Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.   "
 },
 {
   "id": "example-solve-quadratic-formula",
@@ -6225,8 +6225,8 @@ var ptx_lunr_docs = [
   "url": "section-quadratic-graph.html",
   "type": "Section",
   "number": "5.4",
-  "title": "Transformations of Quadratics",
-  "body": " Transformations of Quadratics   We have considered the nature of quadratic data and solving quadratic expressions. Now we will look at special properties of quadratics.    Properties of Quadratics  First we will graph the most basic quadratic . We will use this to compare all the variations that can be produced.    First we complete this table               Next we graph these points and sketch the graph through them.     Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the vertex . It is at (0,0) for this parabola.  Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the line of symmetry . In this case that is the vertical line .    We will graph . First we complete this table               Next we graph these points and sketch the graph through them.   Notice that this time the vertex is at . The line of symmetry is .      Transformations  In this exercise we will check on the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in  In this exercise we will continue to check on the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in  In this exercise we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in  In this exercise we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in  In this exercise we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in  In this exercise we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in  In this exercise we will check on the effect of multiplying a quadratic by a negative. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in    Forms  We have solved quadratics using the (standard) form and graphed parabolas using the form . From the form we used for graphing we can easily identify the vertex. With some effort it is possible to find the vertex from the standard form. We will look at a method that does not require using more algebra than we have practiced here.   Find the vertex of .  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to . To find what is half way in between we average these two values. Thus the x-coordinate of the vertex is 11\/4. To find the y-coordinate we substitute the x value into the quadratic.      Contextless Graphing  Contextless Graphing  Contextless Graphing  Contextless Graphing  Contextless Graphing  Read Graph  Read Graph  Read Graph  Read Graph  Read Graph  Write Equation  Write Equation  Write Equation  In Context   "
+  "title": "Graphs of Quadratics",
+  "body": " Graphs of Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section will introduce the graph (shape) of quadratic equations, illustrate all the variations that are possible, and demonstrate how these can be used to answer questions.    Properties of Quadratics  First we will graph the most basic quadratic equation . This will show us the basic shape and properties. Later examples will show us the variations and how to control them.    To discover the shape we will graph following the steps shown first in . First we complete this table of values. We must choose the x values randomly for now.               Next we graph these points and sketch the graph through them.     The graph of a quadratic is known as a parabola . Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the vertex . It is at (0,0) for this parabola.  Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the line of symmetry . In this case that is the vertical line .  The following example combines three modifications of the basic quadratic. We will graph it, notice the differences, and then use an activity to understand how each part of the equation produces a particular change in the graph.    We will graph . First we complete this table               Next we graph these points and sketch the graph through them.   Notice that this time the vertex is at . The line of symmetry is .    The following activity is a set of experiments to understand how each part of the parabola equation works. It is designed to help you understand by seeing the results in calculations. Do these exercises by hand. While you can look up the meaning of each equation part, memorizing them will be harder (and your ability to use them in later chapters reduced) if you do not see how each transformation is caused by the arithmetic.   Discovering Parabola Parameters  In this exercise we will check on the effect of multiplying a quadratic by a scalar (number). Complete the table of points below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will continue to check on the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will check on the effect of multiplying a quadratic by a negative. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.    Graph the parabola by identifying the vertex and one other point.  From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is .  The second point can be any point. is convenient. .  Because the center (axis of symmetry) is , we want to plot a portion of the curve left and right of that value. from -6 to 0 (3 left to 3 right) will be convenient.  We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.       Applications  Now that we understand what each part of the equation of a parabola tells us, we can use that to interpret quadratic models and answer some questions using a quadratic model.   The lift equation is a parabola. Note, only the right side of the parabola is part of the model, because negative speeds do not apply.  The lift equation has and . This makes sense because there should be zero lift when there is zero speed. If then there would be lift at zero speed. If there would be no lift until that speed.  The coefficients, , make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.  For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).     The maximum load factor can be written as This is a parabola.  This equation has and . Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is which gives us 1 G. That is the normal state of flight is 1 G (the one produced by gravity). If the model would indicate more than 1 G produced by gravity. would indicate this occuring at some other speed.  The coefficient ( ) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's.  For example if the stall speed is 41 nm\/hr, then 1 G occurs at 41 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor requires an increase of nm\/hr. However if the stall speed were 63 nm\/hr then 1 G occurs at 63 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor required an increase of nm\/hr. The higher stall speed implies a greater ( ) increase in speed.    The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.   Find the vertex of . All numbers are exact.  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to . To find what is half way in between we average these two values. Thus the x-coordinate of the vertex is 11\/4. To find the y-coordinate we substitute the x value into the quadratic.     Contextless Graphing  Contextless Graphing  Contextless Graphing  Contextless Graphing  Contextless Graphing  Read Graph  Read Graph  Read Graph  Read Graph  Read Graph  Write Equation  Write Equation  Write Equation  In Context   "
 },
 {
   "id": "example-graph-parabola",
@@ -6235,7 +6235,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.4.1",
   "title": "",
-  "body": "  First we complete this table               Next we graph these points and sketch the graph through them.    "
+  "body": "  To discover the shape we will graph following the steps shown first in . First we complete this table of values. We must choose the x values randomly for now.               Next we graph these points and sketch the graph through them.    "
 },
 {
   "id": "subsection-quadratic-properties-4",
@@ -6244,7 +6244,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "vertex "
+  "body": "parabola vertex "
 },
 {
   "id": "subsection-quadratic-properties-5",
@@ -6265,200 +6265,182 @@ var ptx_lunr_docs = [
   "body": "  We will graph . First we complete this table               Next we graph these points and sketch the graph through them.   Notice that this time the vertex is at . The line of symmetry is .   "
 },
 {
-  "id": "exercise-quadratic-vertical-scale",
+  "id": "activity-parabola-parameter",
   "level": "2",
-  "url": "section-quadratic-graph.html#exercise-quadratic-vertical-scale",
-  "type": "Checkpoint",
-  "number": "5.4.3",
-  "title": "",
-  "body": "In this exercise we will check on the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in "
+  "url": "section-quadratic-graph.html#activity-parabola-parameter",
+  "type": "Activity",
+  "number": "8",
+  "title": "Discovering Parabola Parameters.",
+  "body": " Discovering Parabola Parameters  In this exercise we will check on the effect of multiplying a quadratic by a scalar (number). Complete the table of points below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will continue to check on the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this exercise we will check on the effect of multiplying a quadratic by a negative. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  "
 },
 {
-  "id": "exercise-quadratic-vertical-scale2",
+  "id": "example-graph-general-parabola",
   "level": "2",
-  "url": "section-quadratic-graph.html#exercise-quadratic-vertical-scale2",
+  "url": "section-quadratic-graph.html#example-graph-general-parabola",
+  "type": "Example",
+  "number": "5.4.3",
+  "title": "",
+  "body": " Graph the parabola by identifying the vertex and one other point.  From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is .  The second point can be any point. is convenient. .  Because the center (axis of symmetry) is , we want to plot a portion of the curve left and right of that value. from -6 to 0 (3 left to 3 right) will be convenient.  We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.   "
+},
+{
+  "id": "subsection-quadratic-properties-11",
+  "level": "2",
+  "url": "section-quadratic-graph.html#subsection-quadratic-properties-11",
   "type": "Checkpoint",
   "number": "5.4.4",
   "title": "",
-  "body": "In this exercise we will continue to check on the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in "
+  "body": ""
 },
 {
-  "id": "exercise-quadratic-horizontal-shift",
+  "id": "example-interpret-parabola-lift",
   "level": "2",
-  "url": "section-quadratic-graph.html#exercise-quadratic-horizontal-shift",
-  "type": "Checkpoint",
+  "url": "section-quadratic-graph.html#example-interpret-parabola-lift",
+  "type": "Example",
   "number": "5.4.5",
   "title": "",
-  "body": "In this exercise we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in "
+  "body": " The lift equation is a parabola. Note, only the right side of the parabola is part of the model, because negative speeds do not apply.  The lift equation has and . This makes sense because there should be zero lift when there is zero speed. If then there would be lift at zero speed. If there would be no lift until that speed.  The coefficients, , make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.  For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).   "
 },
 {
-  "id": "exercise-quadratic-horizontal-shift2",
+  "id": "example-interpret-parabola-load-factor",
   "level": "2",
-  "url": "section-quadratic-graph.html#exercise-quadratic-horizontal-shift2",
-  "type": "Checkpoint",
+  "url": "section-quadratic-graph.html#example-interpret-parabola-load-factor",
+  "type": "Example",
   "number": "5.4.6",
   "title": "",
-  "body": "In this exercise we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in "
-},
-{
-  "id": "exercise-quadratic-vertical-shift",
-  "level": "2",
-  "url": "section-quadratic-graph.html#exercise-quadratic-vertical-shift",
-  "type": "Checkpoint",
-  "number": "5.4.7",
-  "title": "",
-  "body": "In this exercise we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in "
-},
-{
-  "id": "exercise-quadratic-vertical-shift2",
-  "level": "2",
-  "url": "section-quadratic-graph.html#exercise-quadratic-vertical-shift2",
-  "type": "Checkpoint",
-  "number": "5.4.8",
-  "title": "",
-  "body": "In this exercise we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in "
-},
-{
-  "id": "exercise-quadratic-reflect",
-  "level": "2",
-  "url": "section-quadratic-graph.html#exercise-quadratic-reflect",
-  "type": "Checkpoint",
-  "number": "5.4.9",
-  "title": "",
-  "body": "In this exercise we will check on the effect of multiplying a quadratic by a negative. Complete the table below. Compare the results to the table in              Graph these points. Compare the graph to the graph in "
+  "body": " The maximum load factor can be written as This is a parabola.  This equation has and . Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is which gives us 1 G. That is the normal state of flight is 1 G (the one produced by gravity). If the model would indicate more than 1 G produced by gravity. would indicate this occuring at some other speed.  The coefficient ( ) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's.  For example if the stall speed is 41 nm\/hr, then 1 G occurs at 41 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor requires an increase of nm\/hr. However if the stall speed were 63 nm\/hr then 1 G occurs at 63 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor required an increase of nm\/hr. The higher stall speed implies a greater ( ) increase in speed.   "
 },
 {
   "id": "example-quadratic-standard-vertex",
   "level": "2",
   "url": "section-quadratic-graph.html#example-quadratic-standard-vertex",
   "type": "Example",
-  "number": "5.4.10",
+  "number": "5.4.7",
   "title": "",
-  "body": " Find the vertex of .  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to . To find what is half way in between we average these two values. Thus the x-coordinate of the vertex is 11\/4. To find the y-coordinate we substitute the x value into the quadratic.   "
+  "body": " Find the vertex of . All numbers are exact.  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to . To find what is half way in between we average these two values. Thus the x-coordinate of the vertex is 11\/4. To find the y-coordinate we substitute the x value into the quadratic.  "
 },
 {
-  "id": "section-quadratic-graph-6-1",
+  "id": "section-quadratic-graph-5-1",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-1",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-1",
   "type": "Exercise",
-  "number": "5.4.4.1",
+  "number": "5.4.3.1",
   "title": "Contextless Graphing.",
   "body": "Contextless Graphing "
 },
 {
-  "id": "section-quadratic-graph-6-2",
+  "id": "section-quadratic-graph-5-2",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-2",
   "type": "Exercise",
-  "number": "5.4.4.2",
+  "number": "5.4.3.2",
   "title": "Contextless Graphing.",
   "body": "Contextless Graphing "
 },
 {
-  "id": "section-quadratic-graph-6-3",
+  "id": "section-quadratic-graph-5-3",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-3",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-3",
   "type": "Exercise",
-  "number": "5.4.4.3",
+  "number": "5.4.3.3",
   "title": "Contextless Graphing.",
   "body": "Contextless Graphing "
 },
 {
-  "id": "section-quadratic-graph-6-4",
+  "id": "section-quadratic-graph-5-4",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-4",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-4",
   "type": "Exercise",
-  "number": "5.4.4.4",
+  "number": "5.4.3.4",
   "title": "Contextless Graphing.",
   "body": "Contextless Graphing "
 },
 {
-  "id": "section-quadratic-graph-6-5",
+  "id": "section-quadratic-graph-5-5",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-5",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-5",
   "type": "Exercise",
-  "number": "5.4.4.5",
+  "number": "5.4.3.5",
   "title": "Contextless Graphing.",
   "body": "Contextless Graphing "
 },
 {
-  "id": "section-quadratic-graph-6-6",
+  "id": "section-quadratic-graph-5-6",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-6",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-6",
   "type": "Exercise",
-  "number": "5.4.4.6",
+  "number": "5.4.3.6",
   "title": "Read Graph.",
   "body": "Read Graph "
 },
 {
-  "id": "section-quadratic-graph-6-7",
+  "id": "section-quadratic-graph-5-7",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-7",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-7",
   "type": "Exercise",
-  "number": "5.4.4.7",
+  "number": "5.4.3.7",
   "title": "Read Graph.",
   "body": "Read Graph "
 },
 {
-  "id": "section-quadratic-graph-6-8",
+  "id": "section-quadratic-graph-5-8",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-8",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-8",
   "type": "Exercise",
-  "number": "5.4.4.8",
+  "number": "5.4.3.8",
   "title": "Read Graph.",
   "body": "Read Graph "
 },
 {
-  "id": "section-quadratic-graph-6-9",
+  "id": "section-quadratic-graph-5-9",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-9",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-9",
   "type": "Exercise",
-  "number": "5.4.4.9",
+  "number": "5.4.3.9",
   "title": "Read Graph.",
   "body": "Read Graph "
 },
 {
-  "id": "section-quadratic-graph-6-10",
+  "id": "section-quadratic-graph-5-10",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-10",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-10",
   "type": "Exercise",
-  "number": "5.4.4.10",
+  "number": "5.4.3.10",
   "title": "Read Graph.",
   "body": "Read Graph "
 },
 {
-  "id": "section-quadratic-graph-6-11",
+  "id": "section-quadratic-graph-5-11",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-11",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-11",
   "type": "Exercise",
-  "number": "5.4.4.11",
+  "number": "5.4.3.11",
   "title": "Write Equation.",
   "body": "Write Equation "
 },
 {
-  "id": "section-quadratic-graph-6-12",
+  "id": "section-quadratic-graph-5-12",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-12",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-12",
   "type": "Exercise",
-  "number": "5.4.4.12",
+  "number": "5.4.3.12",
   "title": "Write Equation.",
   "body": "Write Equation "
 },
 {
-  "id": "section-quadratic-graph-6-13",
+  "id": "section-quadratic-graph-5-13",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-13",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-13",
   "type": "Exercise",
-  "number": "5.4.4.13",
+  "number": "5.4.3.13",
   "title": "Write Equation.",
   "body": "Write Equation "
 },
 {
-  "id": "section-quadratic-graph-6-14",
+  "id": "section-quadratic-graph-5-14",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-6-14",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-14",
   "type": "Exercise",
-  "number": "5.4.4.14",
+  "number": "5.4.3.14",
   "title": "In Context.",
   "body": "In Context "
 },
@@ -7709,7 +7691,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-activity-tod.html#project-time-of-death",
   "type": "Project",
-  "number": "8",
+  "number": "9",
   "title": "Estimating Time of Death.",
   "body": " Estimating Time of Death   The purpose of this project is to practice reading a mathematical model, using it to calculate a result, and interpreting its features. This model involves an exponential relation.  If a person is believed to have died within a day or so of the body’s discovery, it’s possible to estimate the time of death using body temperatures. Isaac Newton’s idea was that since hot things cool much faster than cool things, the rate of cooling is more or less proportional to the temperature of the object, resulting in an exponential decay model.   Newton's Law of Cooling  The temperature at a time of a cooling object follows the function . is the ambient (or room) temperature. and are constants that depend on the object.   Suppose a forensics technician arrived at a murder scene and recorded the temperature of the surroundings as well as the body. The technician decides it is fair to assume that the room temperature has been holding steady at about 68 . A thermometer was placed in the liver of the corpse and the following table of values was recorded.   Time and Temperature   Actual Time Minutes Elapsed ( ) Temperature, , of the Body (°F)  2:00 pm 0 85.90  2:20 pm 20 85.17  2:40 pm 40 84.47  3:00 pm 60 83.78    The key to estimating time of death is to estimate , , , and in .   Recall that the technician thinks the room temp was 68 . By substituting this number and the first recording (0, 85.9) into the Cooling Equation, find and .  Once you know and , substitute some other data point into the equation so that is the only variable. Solve the resulting equation and round to 6 decimal places. Show your work. Remember the exponential must be isolated before you take the natural log of both sides.  Note: the number is called the cooling (or warming) constant. If an object cools, should be negative. Mathematically, looking at the equation, why should k be negative?  Using the numbers you found for , , and , write the equation for the temperature at any time .   Draw a graph of the temperature function . Completing the table of values may help you graph.     -300  -100  100  300  500  700  900     The graph of has a horizontal asymptote. What is the height of this asymptote and what does it tell you about the way corpses cool?  Notice that this equation deviates from reality if the -value goes too far negative. Generally speaking, (no numbers required), at what point does the model no longer work? What in reality gives us an indication that we’ve taken it too far?  Assuming that the temperature of the person at the time of death (TOD) was 98.6 , set up a TOD equation using the values of , , and you’ve calculated. Then, solve the equation using the same logarithm method you used to solve for .  Write your answer as a time, not just as minutes. Recall that when , the time is 2:00 PM.  When a forensic expert determines time of death, they often have additional information besides body temperature. Suppose a coroner finds that the person who was murdered had an infection that probably raised the core body temperature to around 102 . Using the same cooling constant, ambient room temperature, and temperature data as in and , make a new estimate for the time of death.  Again, write your answer as a time, not just as minutes.  "
 },
@@ -7799,7 +7781,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#activity-angle-side-relation",
   "type": "Activity",
-  "number": "9",
+  "number": "10",
   "title": "",
   "body": " The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?  "
 },
@@ -8582,7 +8564,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-graphs.html#activity-discover-big-angles",
   "type": "Activity",
-  "number": "10",
+  "number": "11",
   "title": "",
   "body": "  Use the the illustration in to see how angles are measured and how the trig functions act on larger angles. Find each of the following.   Angles of measure and What is the sine value for both points? Compare the x coordinates of these two points. Where is the triangle created by the angle ?  Angles of measure and What is the sine value for both points? Compare the sine values for these two points. Where is the triangle created by the angle ?  Angles of measure and Compare the sine values for these two points. Where is the triangle created by the angle ? Note the angle displayed at the origin for : why does it not match the slider angle?  Angles of measure and Where are the triangles for these two points? Move the slider from to . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.  "
 },
@@ -8852,7 +8834,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-activity-trig-error.html#project-trig-error",
   "type": "Project",
-  "number": "11",
+  "number": "12",
   "title": "Select the Best Time of Day.",
   "body": " Select the Best Time of Day   In we learned to indirectly measure height of an object from the length of its shadow and angle of elevation. Here we consider the effects of the angle of elevation on the precision of our result.   Suppose the shadow of a tree is measured to be 73 ft. If the the angle of elevation of the sun from the end of the shadow is , what is the height of the tree.  We will consider the impact of the sun's angle of elevation on the calculation. For this section suppose the tree is exactly 73 ft tall. Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? As the angle of elevation grows from toward does the length of the shadow increase directly or inversely? Is it linear? Note the angle of elevation of the sun grows from morning until (high) noon and then decreases again. At what time of day would it be easiest to measure the length of the shadow in order to estimate the height of the tree?  We will consider the effect of error in measurement of the angle of elevation of the sun on our calculation of the height of the tree. Suppose the shadow's length is 73 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 51 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 34 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 20 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 6 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? How much effect on the estimated height of the tree can error in measurement of the angle have? Does the error change as the angle of elevation increases?  We will consider the effect of error in measurement of the length of the shadow on our calculation of the height of the tree. Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 72 ft? 74 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 50 ft? 52 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 33 ft? 35 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 19 ft? 21 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 5 ft? 7 ft? At what angle of elevation does the difference in shadow length make the greatest difference? What does this suggest about when we should measure the shadow?  "
 }

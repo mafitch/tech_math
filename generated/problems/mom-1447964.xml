@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1447964">
 <statement>
-<p>A cheesecake recipe calls for 150 g of eggs and 750 g of cream cheese. If you currently have 300 g of eggs and 1739 g of cream cheese, determine which ingredient is the limiting one (will use all of it) and the amount of each you will use.</p>
+<p>A cheesecake recipe calls for 150 g of eggs and 750 g of cream cheese. If you currently have 350 g of eggs and 1739 g of cream cheese, determine which ingredient is the limiting one (will use all of it) and the amount of each you will use.</p>
 <p>Limiting ingredient: </p>
-<p><ol style="list-style-type:upper-alpha"><li>cream cheese</li> 
-<li>eggs</li> 
+<p><ol style="list-style-type:upper-alpha"><li>eggs</li> 
+<li>cream cheese</li> 
 </ol></p>
 <p>Eggs: <fillin characters="6" /> g  Cream cheese: <fillin characters="6" /> g</p>
 
 </statement>
 <solution>
-<p><ul><li>B: eggs</li><li>300</li><li>8695</li></ul></p><p>To determine which ingredient limits us, we compare the ratios <m>\displaystyle\frac{{300}}{{1739}}={0.17251293847039}</m> to the recipe's ratio of <m>\displaystyle\frac{{1}}{{5}}={0.2}</m>. Because the ratio is less than 0.2, we know that the eggs is the limiting ingredient.</p>
-<p>Now we setup the proportion <m>\displaystyle\frac{{5}}{{1}}=\frac{{C}}{{300}}</m></p>
-<p>Solving gives us 8695 g of cream cheese</p>
+<p><ul><li>B: cream cheese</li><li>348</li><li>1739</li></ul></p><p>To determine which ingredient limits us, we compare the ratios <m>\displaystyle\frac{{350}}{{1739}}={0.20126509488212}</m> to the recipe's ratio of <m>\displaystyle\frac{{1}}{{5}}={0.2}</m>. Because the ratio is greater than 0.2, we know that the cream cheese is the limiting ingredient.</p>
+<p>Now we setup the proportion <m>\displaystyle\frac{{1}}{{5}}=\frac{{E}}{{1739}}</m></p>
+<p>Solving gives us 348 g of eggs</p>
 </solution>
 </myopenmath>
 
