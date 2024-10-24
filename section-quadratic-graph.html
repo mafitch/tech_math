@@ -191,7 +191,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-roots.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-quadratic.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chapter-exponential.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-roots.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-quadratic.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-activity-discover-integral.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
 \newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
 \newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
 \newcommand{\lt}{&lt;}
@@ -431,6 +431,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-5" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-discover-integral.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Project: Approximation of Sums</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -841,7 +842,7 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.4.3</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-graph-general-parabola-1">Graph the parabola <span class="process-math">\(y=\frac{1}{3}(x+3)^2+2\)</span> by identifying the vertex and one other point.</div>
-<div class="para" id="example-graph-general-parabola-2">From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is <span class="process-math">\((x-[-3])^+2\text{.}\)</span>
+<div class="para" id="example-graph-general-parabola-2">From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is <span class="process-math">\((x-[-3])^2+[2]\text{.}\)</span>
 </div>
 <div class="para" id="example-graph-general-parabola-3">The second point can be any point. <span class="process-math">\(x=0\)</span> is convenient. <span class="process-math">\(y=\frac{1}{3}(0+3)^2+2 = \frac{1}{3} \cdot 9+2 = 3+2 = 5\text{.}\)</span>
 </div>
@@ -882,32 +883,116 @@ n_{max} = \left(\frac{V}{V_S}\right)^2 = \frac{1}{V_S^2} V^2.
 </h4>
 <div class="para" id="example-quadratic-standard-vertex-1">Find the vertex of <span class="process-math">\(y=2x^2-11x+12\text{.}\)</span> All numbers are exact.</div>
 <div class="para logical" id="example-quadratic-standard-vertex-2">
-<div class="para">Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to <span class="process-math">\(2x^2-11x+12 = 0\text{.}\)</span>
-</div>
+<div class="para">Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to <span class="process-math">\(2x^2-11x+12 = 0\text{.}\)</span> We can solve this using the quadratic formula.</div>
 <div class="displaymath process-math" id="example-quadratic-standard-vertex-2-2">
 \begin{align*}
 x &amp; = \frac{-(-11) \pm \sqrt{(-11)^2-4(2)(12)}}{2(2)}\\
 &amp; = \frac{11 \pm \sqrt{121-96}}{4}\\
 &amp; = \frac{11 \pm \sqrt{25}}{4}\\
 &amp; = \frac{11 \pm 5}{4}\\
-&amp; = 4, 3/2.
+&amp; = 4, 1.5
 \end{align*}
 </div>
 <div class="para">To find what is half way in between we average these two values.</div>
 <div class="displaymath process-math" id="example-quadratic-standard-vertex-2-3">
 \begin{align*}
-x &amp; = \frac{4+3/2}{2}\\
-&amp; = \frac{8/2+3/2}{2}\\
-&amp; = 11/4
+x &amp; = \frac{4+1.5}{2}\\
+&amp; = \frac{5.5}{2}\\
+&amp; = 2.75.
 \end{align*}
 </div>
-<div class="para">Thus the x-coordinate of the vertex is 11/4. To find the y-coordinate we substitute the x value into the quadratic.</div>
+<div class="para">Thus the x-coordinate of the vertex is 2.75. To find the y-coordinate we substitute the x value into the quadratic.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-2(11/4)^2-11(11/4)+12 = -25/8.
+2(2.75)^2-11(2.75)+12 = -3.125.
 \end{equation*}
 </div>
-</div></article></section><section class="exercises" id="section-quadratic-graph-5"><h3 class="heading hide-type">
+</div></article><section class="paragraphs" id="subsection-quadratic-application-7"><h4 class="heading"><span class="title">Simplified Effect of Gravity.</span></h4>
+<div class="para" id="subsection-quadratic-application-7-2">A model of motion due to gravity is beyond the scope of this course, but we can understand a connection to quadratics. Gravity is a force that accelerates objects toward each other. The strength of earth’s gravity at the surface is approximately <span class="quantity">9.80665 <sup>m</sup>⁄<sub>s<sup>2</sup></sub></span>. Be aware that this value actually varies a little by location and decreases with altitude, but those effects are not needed for any problems in this book.</div>
+<div class="para" id="subsection-quadratic-application-7-3">Notice that gravity is an acceleration (i.e., m/s is a velocity and this is (m/s)/s meaning a change in velocity) and as a result the time portion is squared. This means accleration due to gravity is quadratic with respect to time.</div>
+<div class="para" id="subsection-quadratic-application-7-4">For objects that are dropped, we can figure out both their speed and their height can be determined.</div>
+<article class="example example-like" id="example-gravity-change-velocity"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.4.8</span><span class="period">.</span><span class="space"> </span><span class="title">Gravity’s Effect on Velocity.</span>
+</h5>
+<div class="para" id="example-gravity-change-velocity-2">If we drop a ball from 1.0 meters above the surface, it will start with a velocity of 0 m/s. Acceleration due to gravity is (9.8 m/s)/s which means after one second the ball will be travelling down at 9.8 m/s. After another second (2 seconds total) it would increase (accelerate) another 9.8 m/s so its velocity would be 18.6 m/s.</div>
+<div class="para logical" id="example-gravity-change-velocity-3">
+<div class="para">We can write an equation for the velocity after <span class="process-math">\(t\)</span> seconds. Notice that the change in velocity is a constant, so the change in velocity is a linear equation. The rate (slope) is <span class="quantity">9.80665 <sup>m</sup>⁄<sub>s<sup>2</sup></sub></span>. The shift is the initial velocity (0 m/s in this case).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v = 0 \; \frac{\text{ m}}{\text{s}} + \frac{9/8 \text{ m}/\text{s}}{\text{s}}(t \text{ s})
+\end{equation*}
+</div>
+</div></article><div class="para" id="subsection-quadratic-application-7-6">Calculating the exact height of an object falling due to gravity requires mathematics beyond this textbook. A little more information can be found in <code class="code-inline tex2jax_ignore">[provisional cross-reference: section-activity-gravity-integration]</code>. The following example illustrates calculations using a provided simplification.</div>
+<article class="example example-like" id="example-gravity-change-position"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.4.9</span><span class="period">.</span><span class="space"> </span><span class="title">Falling Due to Gravity.</span>
+</h5>
+<div class="introduction" id="example-gravity-change-position-2"><div class="para logical" id="example-gravity-change-position-2-1">
+<div class="para">Suppose the height of an object falling due to gravity is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+h=-4.9t^2+1.0.
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="example-gravity-change-position-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="example-gravity-change-position-3-1">Determine when the object strikes the ground. The ground is at height 0.</div>
+<div class="para logical" id="example-gravity-change-position-3-2">
+<div class="para">We can find this by solving the following equation.</div>
+<div class="displaymath process-math" id="example-gravity-change-position-3-2-1">
+\begin{align*}
+-4.9t^2+1.0 &amp; = 0.\\
+-4.9t^2 &amp; = -1.0.\\
+t^2 &amp; = \frac{-1.0}{-4.9}.\\
+t^2 &amp; \approx 0.2040816327.\\
+t &amp; \approx \sqrt{0.2040816327}.\\
+t &amp; \approx 0.4517539515\\
+t &amp; \approx 0.45
+\end{align*}
+</div>
+<div class="para">It will take 0.45 seconds for the object to reach the ground.</div>
+</div></article><article class="task exercise-like" id="example-gravity-change-position-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="example-gravity-change-position-4-1">Determine the height from which it was dropped.</div>
+<div class="para" id="example-gravity-change-position-4-2">Because the object is dropped, the heighest point is when it is dropped which is time <span class="process-math">\(t=0\text{.}\)</span> Thus the height from which it was dropped is <span class="process-math">\(-4.9(0)+1.0=1.0\)</span> meters.</div></article></article><article class="example example-like" id="example-gravity-change-position-thrown"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.4.10</span><span class="period">.</span><span class="space"> </span><span class="title">Gravity’s Effect on a Thrown Object.</span>
+</h5>
+<div class="introduction" id="example-gravity-change-position-thrown-2"><div class="para logical" id="example-gravity-change-position-thrown-2-1">
+<div class="para">Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+h=-4.9t^2+5.1t+1.2.
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="example-gravity-change-position-thrown-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="example-gravity-change-position-thrown-3-1">Determine when the object strikes the ground. The ground is at height 0.</div>
+<div class="para logical" id="example-gravity-change-position-thrown-3-2">
+<div class="para">We can find this by solving the <span class="process-math">\(-4.9t^2+5.1t+1.2=0\text{.}\)</span> To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths.</div>
+<div class="displaymath process-math" id="example-gravity-change-position-thrown-3-2-2">
+\begin{align*}
+t &amp; = \frac{-(5.1) \pm \sqrt{(5.1)^2-4(-4.9)(1.2)}}{2(-4.9)}\\
+&amp; = \frac{-5.1 \pm \sqrt{26.01+23.52}}{-9.8} \text{ Products maintains 2 sigfigs}\\
+&amp; = \frac{-5.1 \pm \sqrt{49.53}}{-9.8} \text{ Sum maintains to units}\\
+&amp; \approx \frac{-5.1 \pm 7.037755324}{-9.8} \text{ Root maintains 2 sigfigs}\\
+&amp; \approx \frac{1.937755324}{-9.8}, \frac{-12.137755324}{-9.8} \text{ Sum maintains to 10ths}\\
+&amp; \approx -0.1977301351, 1.238546461 \text{ Division maintains 2 sigfigs}\\
+&amp; \approx -0.20, 1.2
+\end{align*}
+</div>
+<div class="para">The negative time does not make sense, so <span class="process-math">\(t \approx 1.2\)</span> seconds is when the object will reach the ground.</div>
+</div></article><article class="task exercise-like" id="example-gravity-change-position-thrown-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="example-gravity-change-position-thrown-4-1">Determine the maximum height the object reached.</div>
+<div class="para" id="example-gravity-change-position-thrown-4-2">This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in <a href="section-quadratic-graph.html#example-quadratic-standard-vertex" class="xref" data-knowl="./knowl/xref/example-quadratic-standard-vertex.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 5.4.7">Example 5.4.7</a>.</div>
+<div class="para logical" id="example-gravity-change-position-thrown-4-3">
+<div class="para">We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to find the vertex. The time at which the maximum height occurs is <span class="process-math">\(\frac{-0.1977301351+1.238546461}{2} \approx 0.520408163 \approx 0.52\text{.}\)</span> The height at that time is</div>
+<div class="displaymath process-math" id="example-gravity-change-position-thrown-4-3-2">
+\begin{align*}
+-4.9(0.520408163)^2+5.1(0.520408163)+1.2 &amp; \approx \text{ Producs maintain 2 sigfigs}\\
+-1.327040815+2.654081631+1.2 &amp; \approx \text{ Sum maintains to 10ths}\\
+2.527040816 &amp; \approx 2.5
+\end{align*}
+</div>
+<div class="para">The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.</div>
+</div></article></article></section></section><section class="exercises" id="section-quadratic-graph-5"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">5.4.3</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="section-quadratic-graph-5-1"><h4 class="heading">
@@ -954,7 +1039,7 @@ x &amp; = \frac{4+3/2}{2}\\
 </h4>
 <div id="momsection-quadratic-graph-5-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-quadratic-graph-5-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2544&amp;frame_id=momsection-quadratic-graph-5-14-2"></iframe></div></article></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="section-roots.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="chapter-exponential.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="section-roots.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-activity-discover-integral.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
