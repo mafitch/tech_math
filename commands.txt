@@ -13,6 +13,7 @@ pretext generate webwork
 
 pretext generate youtube
 
+copy next from example: non-breaking space
 Regexp: Preview question [0-9] Part [0-9] of [0-9]
 Regexp: grep "1[0-9][1-9]\%" generated/problems/*
 

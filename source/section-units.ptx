@@ -170,7 +170,7 @@
             <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^3}</m></cell><cell right="medium">milli (m)</cell></row>
             <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^6}</m></cell><cell right="medium">micro (<m>\mu</m>)</cell></row>
             <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^9}</m></cell><cell right="medium">nano (n)</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^12}</m></cell><cell right="medium">pico (p)</cell></row>
+            <row bottom="medium" left="medium"><cell right="medium"><m>1/{10^{12}}</m></cell><cell right="medium">pico (p)</cell></row>
         </tabular>
     </table>
 
@@ -191,16 +191,14 @@
     <p>Review each of these examples to see how to convert from one SI unit to another.</p>
 
     <example xml:id="example-si-down1">
-        <statement><p>How many centimeters is 3.8 meters?</p></statement>
-        <solution>
-            <p>From <xref ref="table-metric-sizes" /> we know <m>10^2=100</m> centimeters is 1 meter, that is, <m>\frac{100 \text{ cm}}{1 \text{ m}}</m>. This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. <me>3.8 \text{ m} \cdot \frac{100 \text{ cm}}{\text{m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.</me> Note, because centi is a power of ten (<m>10^2</m>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</p>
-            <p>Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).</p>
-        </solution>
+        <p>How many centimeters is 3.8 meters?</p>
+        <p>From <xref ref="table-metric-sizes" /> we know <m>10^2=100</m> centimeters is 1 meter, that is, <m>\frac{100 \text{ cm}}{1 \text{ m}}</m>. This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. <me>3.8 \text{ m} \cdot \frac{100 \text{ cm}}{\text{m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.</me> Note, because centi is a power of ten (<m>10^2</m>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</p>
+        <p>Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).</p>
     </example>
 
     <example xml:id="example-si-down2">
-        <statement><p>How many kilotons is 2.3 megatons?</p></statement>
-        <solution><p>We know one kiloton is <m>10^3</m> tons and one megaton is <m>10^6</m> tons. These are three powers apart (<m>6-3=3</m>), which means we shift the decimal position three places. Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</p></solution>
+        <p>How many kilotons is 2.3 megatons?</p>
+        <p>We know one kiloton is <m>10^3</m> tons and one megaton is <m>10^6</m> tons. These are three powers apart (<m>6-3=3</m>), which means we shift the decimal position three places. Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</p>
     </example>
 
     <example xml:id="example-si-up">

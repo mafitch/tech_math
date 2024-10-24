@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-discover-integral" >
+<title>Project: Approximation of Sums</title>
+
+<project xml:id="project-discover-integral">
+    <title>Approximate Height of a Dropped Object</title>
+
+    <introduction>
+        <p>Using the acceleration due to gravity, <quantity> <mag>9.80665</mag> <unit base="meter" /> <per base="second" exp="2"/> </quantity>, we can calculate the velocity at any time. However, we can only approximate its position, because the velocity is constantly changing. This activity demonstrates a method of approximation that is used in many problems including calculating areas (e.g., calculating the amount of asphalt needed for a driveway with curved sides). This activity also illustrates how approximations depend on choices we make.</p>
+    </introduction>
+
+    <task>
+        <p>Review the process shown here.</p>
+        <p>Suppose a ball is dropped from a height of 60.0 meters. We will approximate its height above ground by calculating its approximate position each second. For example, after 1 second the ball will have accelerated from 0 m/s to 9.8 m/s. If we pretend that it was travelling 9.8 m/s the whole time, then we estimate it will be 9.8 m lower than it began. This is a height of <m>60.0-9.8=50.2</m>. A second later the velocity will have increased 9.8 m/s so it will be <m>9.8+9.8=19.6</m> m/s. If we pretend that it was travelling 19.6 m/s the whole time, then we estimate it will be 19.6 m lower than it began. This is a height of <m>50.2-19.6=30.6</m>. Another second later (third second) the velocity will have increased by 9.8 m/s so it will be <m>19.6+9.8=29.4</m>. If we pretend that it was travelling 29.4 m/s the whole time, then we estimate it will be 29.4 m lower than it began. This is a height of <m>30.6-29.4=1.2</m>. With only 1.2 meters left and a velocity much greater than 1.2, we know it will reach the ground in less than one more second.</p>
+        <p>The table below contains these results.</p>
+        <tabular top="medium">
+            <row left="medium" bottom="medium">
+                <cell right="medium">Time</cell>
+                <cell right="medium">Velocity</cell>
+                <cell right="medium">Distance Traveled</cell>
+                <cell right="medium">Height</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">0</cell>
+                <cell right="medium">0</cell>
+                <cell right="medium">0</cell>
+                <cell right="medium">60.0</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">1</cell>
+                <cell right="medium">9.8</cell>
+                <cell right="medium">9.8</cell>
+                <cell right="medium">50.2</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">2</cell>
+                <cell right="medium">19.6</cell>
+                <cell right="medium">19.6</cell>
+                <cell right="medium">30.6</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">3</cell>
+                <cell right="medium">29.4</cell>
+                <cell right="medium">29.4</cell>
+                <cell right="medium">1.2</cell>
+            </row>
+        </tabular>
+    </task>
+
+    <task>
+        <p>Repeat this exercise using half second intervals instead of one second intervals. Remember that in a half second the acceleration will be <m>9.8/2 = 4.9</m> m/s. In the first half second the ball will fall <m>0.5 \text{ s} \cdot 4.9 \; \frac{\text{m}}{\text{s}} = 2.45 \text{ m}</m>. In the second half second the velocity would be 9.8 m/s so it would drop <m>0.5 \text{ s} \cdot 9.8 \; \frac{\text{m}}{\text{s}} = 2.45 \text{ m}</m>. The first two entries are completed for you. Add more rows if you need to.</p>
+        <tabular top="medium">
+            <row left="medium" bottom="medium">
+                <cell right="medium">Time</cell>
+                <cell right="medium">Velocity</cell>
+                <cell right="medium">Distance Traveled</cell>
+                <cell right="medium">Height</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">0</cell>
+                <cell right="medium">0</cell>
+                <cell right="medium">0</cell>
+                <cell right="medium">60.0</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">0.5</cell>
+                <cell right="medium">4.9</cell>
+                <cell right="medium">2.45</cell>
+                <cell right="medium">57.55</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">1.0</cell>
+                <cell right="medium">9.8</cell>
+                <cell right="medium">4.9</cell>
+                <cell right="medium">52.65</cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">1.5</cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">2.0</cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">2.5</cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell right="medium">3.0</cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+            </row>
+        </tabular>
+    </task>
+    <task>
+        <introduction><p>The end result of this task will be a third table calculated in 1/4 second intervals.</p></introduction>
+        <task><p>What is the acceleration in 1/4 second? Recall it is 9.8 m/s which was 4.9 m/half second.</p></task>
+        <task><p>Fill out a table in 1/4 second intervals.</p></task>
+    </task>
+    <task>
+        <introduction><p>Notice that in the first table (1 second intervals), we estimated after one second the height would be 50.2 m. In the second table (1/2 second intervals), we estimated after one second the height would be 52.65 m.</p></introduction>
+        <task><p>Find other times in which the 3 tables have different estimates.</p></task>
+        <task><p>Are the estimates in one table always less than or greater than those in the other tables?</p></task>
+        <task><p>Explain why these estimates are different.</p></task>
+        <task><p>Which estimate do you think is most accurate?</p></task>
+    </task>
+
+</project>
+
+</section>
