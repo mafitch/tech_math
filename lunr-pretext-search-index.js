@@ -6028,7 +6028,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Solving Quadratics",
-  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.  Rounding to two decimal places was an arbitrary choice because this is not an application.    Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ).      Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Find all solutions to .  We note that , , .      Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Parabolic Arc Approximation  Application  Application  Change of Area  Change of Area   "
+  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.  Rounding to two decimal places was an arbitrary choice because this is not an application.    Find all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ).      Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Find all solutions to .  We note that , , .       Use these contextless problems to practice using the quadratic formula.        Answer these questions which involve a quadratic model. Select rounding that is appropriate or as directed.           "
 },
 {
   "id": "example-solve-quadratic-inversion",
@@ -6094,85 +6094,103 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-1",
+  "id": "section-quadratic-solve-5-1-2",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-2",
   "type": "Exercise",
   "number": "5.2.3.1",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-2",
+  "id": "section-quadratic-solve-5-1-3",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-3",
   "type": "Exercise",
   "number": "5.2.3.2",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-3",
+  "id": "section-quadratic-solve-5-1-4",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-3",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-4",
   "type": "Exercise",
   "number": "5.2.3.3",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-4",
+  "id": "section-quadratic-solve-5-1-5",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-4",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-5",
   "type": "Exercise",
   "number": "5.2.3.4",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-5",
+  "id": "section-quadratic-solve-5-2-2",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-5",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-2",
   "type": "Exercise",
   "number": "5.2.3.5",
-  "title": "Parabolic Arc Approximation.",
-  "body": "Parabolic Arc Approximation "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-6",
+  "id": "section-quadratic-solve-5-2-3",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-6",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-3",
   "type": "Exercise",
   "number": "5.2.3.6",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-7",
+  "id": "section-quadratic-solve-5-2-4",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-7",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-4",
   "type": "Exercise",
   "number": "5.2.3.7",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-8",
+  "id": "section-quadratic-solve-5-2-5",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-8",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-5",
   "type": "Exercise",
   "number": "5.2.3.8",
-  "title": "Change of Area.",
-  "body": "Change of Area "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-9",
+  "id": "section-quadratic-solve-5-2-6",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-9",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-6",
   "type": "Exercise",
   "number": "5.2.3.9",
-  "title": "Change of Area.",
-  "body": "Change of Area "
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-solve-5-2-7",
+  "level": "2",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-7",
+  "type": "Exercise",
+  "number": "5.2.3.10",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-solve-5-2-8",
+  "level": "2",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-8",
+  "type": "Exercise",
+  "number": "5.2.3.11",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-roots",
