@@ -262,7 +262,7 @@
             <p>We can write an equation for the velocity after <m>t</m> seconds. Notice that the change in velocity is a constant, so the change in velocity is a linear equation. The rate (slope) is <quantity> <mag>9.80665</mag> <unit base="meter" /> <per base="second" exp="2"/> </quantity>. The shift is the initial velocity (0 m/s in this case). <me>v = 0 \; \frac{\text{ m}}{\text{s}} + \frac{9/8 \text{ m}/\text{s}}{\text{s}}(t \text{ s})</me></p>
         </example>
 
-        <p>Calculating the exact height of an object falling due to gravity requires mathematics beyond this textbook. A little more information can be found in <xref provisional="section-activity-gravity-integration" />. The following example illustrates calculations using a provided simplification.</p>
+        <p>Calculating the exact height of an object falling due to gravity requires mathematics beyond this textbook. A little more information can be found in <xref ref="section-activity-discover-integral" />. The following example illustrates calculations using a provided simplification.</p>
 
         <example xml:id="example-gravity-change-position">
             <title>Falling Due to Gravity</title>
@@ -313,7 +313,7 @@
                 <p>This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in <xref ref="example-quadratic-standard-vertex" />.</p>
                 <p>We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to find the vertex. The time at which the maximum height occurs is <m>\frac{-0.1977301351+1.238546461}{2} \approx 0.520408163 \approx 0.52</m>. The height at that time is
                 <md>
-                    <mrow>-4.9(0.520408163)^2+5.1(0.520408163)+1.2 &amp; \approx \text{ Producs maintain 2 sigfigs}</mrow>
+                    <mrow>-4.9(0.520408163)^2+5.1(0.520408163)+1.2 &amp; \approx \text{ Products maintain 2 sigfigs}</mrow>
                     <mrow>-1.327040815+2.654081631+1.2 &amp; \approx \text{ Sum maintains to 10ths}</mrow>
                     <mrow>2.527040816 &amp; \approx 2.5</mrow>
                 </md>

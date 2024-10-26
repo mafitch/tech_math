@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle{8}{x}-{2}{y}={16}</m> </p>
+<p><m>\displaystyle{2}{x}-{5}{y}=-{16}</m> </p>
 <p>
-  <m>\displaystyle{2}{x}+{6}{y}={56}</m></p>
+  <m>\displaystyle{7}{x}+{8}{y}=-{5}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({4},{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle{8}{x}+-{2}{y}={16}</m></p>
-<p><m>\displaystyle{8}{x}={16}-{\left(-{2}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{16}-{\left(-{2}{y}\right)}}}{{8}}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{3},{2}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{2}{x}+-{5}{y}=-{16}</m></p>
+<p><m>\displaystyle{2}{x}=-{16}-{\left(-{5}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{16}-{\left(-{5}{y}\right)}}}{{2}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{2}{\left(\frac{{{16}-{\left(-{2}{y}\right)}}}{{8}}\right)}+{6}{y}={56}</m></p>
-<p><m>\displaystyle\frac{{2}}{{8}}\cdot{\left({16}\right)}-\frac{{2}}{{8}}{\left(-{2}\right)}{y}+{6}{y}={56}</m></p>
-<p><m>\displaystyle{4}-{\left({0.5}\right)}{y}+{6}{y}={56}</m></p>
-<p><m>\displaystyle{0.5}{y}+{\left({6}\right)}{y}={56}-{4}</m></p>
-<p><m>\displaystyle{0.5}{y}+{\left({6}\right)}{y}={52}</m></p>
-<p><m>\displaystyle{\left({0.5}+{\left({6}\right)}\right)}{y}={52}</m></p>
-<p><m>\displaystyle{6.5}{y}={52}</m></p>
-<p><m>\displaystyle{y}=\frac{{52}}{{6.5}}</m></p>
-<p><m>\displaystyle{y}={8}</m></p>
+<p><m>\displaystyle{7}{\left(\frac{{-{16}-{\left(-{5}{y}\right)}}}{{2}}\right)}+{8}{y}=-{5}</m></p>
+<p><m>\displaystyle\frac{{7}}{{2}}\cdot{\left(-{16}\right)}-\frac{{7}}{{2}}{\left(-{5}\right)}{y}+{8}{y}=-{5}</m></p>
+<p><m>\displaystyle-{56}-{\left({17.5}\right)}{y}+{8}{y}=-{5}</m></p>
+<p><m>\displaystyle{17.5}{y}+{\left({8}\right)}{y}=-{5}--{56}</m></p>
+<p><m>\displaystyle{17.5}{y}+{\left({8}\right)}{y}={51}</m></p>
+<p><m>\displaystyle{\left({17.5}+{\left({8}\right)}\right)}{y}={51}</m></p>
+<p><m>\displaystyle{25.5}{y}={51}</m></p>
+<p><m>\displaystyle{y}=\frac{{51}}{{25.5}}</m></p>
+<p><m>\displaystyle{y}={2}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{8}{x}+-{2}{\left({8}\right)}={16}</m></p>
-<p><m>\displaystyle{8}{x}+{\left(-{16}\right)}={16}</m></p>
-<p><m>\displaystyle{8}{x}={16}-{\left(-{16}\right)}</m></p>
-<p><m>\displaystyle{8}{x}={32}</m></p>
-<p><m>\displaystyle{x}=\frac{{32}}{{8}}</m></p>
-<p><m>\displaystyle{x}={4}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({4},{8}\right)}</m>.</p>
+<p><m>\displaystyle{2}{x}+-{5}{\left({2}\right)}=-{16}</m></p>
+<p><m>\displaystyle{2}{x}+{\left(-{10}\right)}=-{16}</m></p>
+<p><m>\displaystyle{2}{x}=-{16}-{\left(-{10}\right)}</m></p>
+<p><m>\displaystyle{2}{x}=-{6}</m></p>
+<p><m>\displaystyle{x}=-\frac{{6}}{{2}}</m></p>
+<p><m>\displaystyle{x}=-{3}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{3},{2}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
