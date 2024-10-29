@@ -6514,7 +6514,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Exponential Relations",
-  "body": " Exponential Relations   In we learned different ways data can change. These included linear, quadratic, exponential and inverse versions of these. Here we will look at more details of exponential relations.  For exponential relations we know that the differences (additive rate) is a multiple of the value ( ) and that the percent increase is constant ( ). Now we will learn to work with these relations in applications.    Comparing Growth Rates  In colloquial speech exponential is used to mean very fast . We are using a much more specific definition. Here we will see why we think of exponential as very fast. We will do this by comparing how fast exponential relations grow relative to linear, quadratic, and one new relation.  Consider the linear, quadratic, and exponential relations in , , and respectively. Because the differences for a linear relation are always the same, eventually the values are bigger than the change (e.g., 5,8,11 are all bigger than 3). For both quadratic and exponential data the bigger they are the faster they grow. The growth is not the same however.  For the quadratic relation the first differences are getting bigger (at a constant rate), but eventually they are less than the value (e.g., 6,10,14 are less than 8,18, and 32 respectively) just like the linears. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic eventually.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Differences   3  3  3  3  3      Quadratic Relation    0  1  2  3  4  5    0  2  8  18  32  50   Differences   2  6  10  14  18      Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Differences   3  6  12  24  48     We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. has the ratios for a linear relation. Notice that . This inequality is true of the other ratios. The ratios are becoming smaller; indeed they appear to be approaching 1. In , the ratios for an exponential relation are constant. This also shows us that exponential relations grow faster than linear relations.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios            Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Ratios   2  2  2  2  2       Faster than Exponential  The previous section might suggest that exponential is the fastest relation. It is not. In are the ratios for a relation known as factorial. Interestingly, the ratios giving the percent increase are linear. This is vaguely like quadratic relations where their differences are linear. As quadratic relations are faster growing than linear relations, so factorial relations are faster growing than exponential relations.   Factorial Relation    0  1  2  3  4  5    1  1  2  6  24  120   Ratios   1  2  3  4  5       Applications  The bacteria lactobacilus acidophilus is known to grow exponentially in milk (part of making yogurt). Based on experiments a new generation of bacteria are formed every 70 minutes. For a while we can assume the original bacteria remain. Thus the population growth is as shown in . Note that at 70 minutes the model supposes all 4000 cells divide producing 4000 new cells. Thus the total population is . This repeats every 70 minutes. Because the cells split into two cells, the population doubles (multiply by 2).   Growth of Lactobacilus Acidophilus   Minutes  0  70  140  210  Population  4000  8000  16000  32000  Added   4000  8000  16000    We can express this model in mathematical notation. Let's walk through how was constructed. The initial amount (information we are given) is . After 70 minutes these double: . After 140 minutes they double a second time: . After 210 minutes they double a third time: .  Generally if we know the number of minutes , then dividing by 70 tells us how many times cells have divided in two. We want to multiply the initial amount (4000 in this case) by two (double the population) for each of these. This gives us .   A new cat video is posted and 12 people view it. Every 4 days after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.  We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is   The bacteria bacillus megaterium grows exponentially. It forms a new generation every 25 minutes. Write an equation to model this grows supposing there are 30 g bacteria at the beginning.  Note that in general these types of exponential growth models look like where is the current population (or count), is the initial population (or count), and is the rate at which the population grows (e.g., doubles, triples).  To write the model (equation) we need to know an initial amount and the rate of increase or decrease.    Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.    The initial population is . Because the rate is doubling, we know that . If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using . Note this means 200 gives doubling once ( ), and 400 gives doubling twice ( ).     We learned in that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.   Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . The model then is where is the number of years since he was hired. Entering the sixth year would mean five raises. His salary would be    If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Note, because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.    We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?  The end of seven years means there have been six raises. From the two data points we know Thus her annual percentage increase was 4%. The full model is where is time in years.     Interpretation of Exponentials  There is more than one way to interpret the base (e.g., the 7 in ). When it is an integer like 2 ( ) or 3 ( ) it tells us that the data is doubling or tripling. When the base looks like 1.053 ( ) it tells us the percent increase. In this example this represents a 5.3% increase. Recall from that a 3% decrease is represented by . In an exponential model this would look like . Generally interpreted as a percent the exponential model is   Suppose where is the number of years. What is the annual percent increase?  We know that so this is a 3.2% increase.    Suppose where is the number of years. What is the annual percent decrease?  We know that so this is a 12% decrease.    Suppose . Is this increase or decrease and what is the percent increase\/decrease?  Because this is a percent increase. Thus this is a 3% increase.   Even when the exponential model is expressed in terms of fractions, we can determine the percent increase or decrease.   In the exponential model what is the percent increase or decrease?  We convert the fraction to decimal: 1.40. Because it is bigger than one it is a percent increase. Note , so this is a 40% increase.    In the exponential model what is the percent increase or decrease?  We convert the fraction to decimal: 0.975. Because it is less than one it is a percent decrease. Note , so this is a 2.5% decrease.   A common base for exponentials in many scientific models is . We can work with this base using calculation devices which will have an button or an function.   What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? . Thus this is a percent increase of 2.02%.     In the model what is the percent increase or decrease (2 decimal places)?  It is a percent   Increase    Decrease   of             We calculate This is greater than one so it is a percent increase. The percent is 5.13          Calculate results for exponential relations.  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Faux Application  Application  Application  Application  Application  Application  Application  Application  Application  Application  Application    Graph exponential relations  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice   Contextless Practice  Contextless Practice  Interpreting (Contextless)  Interpreting (Contextless)  Interpreting (Contextless)  Interpreting (Contextless)    "
+  "body": " Exponential Relations   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented different rates at which data changes including linear, quadratic, and exponential. This section presents models that require exponentials and notation so we can perform calculations. The ability to solve equations with exponentials comes in .    Comparing Growth Rates  In colloquial speech exponential is used to mean very fast . In this text we are using a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster.  Consider the linear, quadratic, and exponential relations in , , and respectively. Linear data has the same differences (3 in the example below). In contrast the differences for quadratic and exponential data grow as the data grows. Their growth is not the same however. Quadratic differences grow at the same rate (2nd differences are linear, 4 in the example below). In contrast exponential differences grow faster as the data grows faster (indeed at the same rate).  Another way to look at this, is to note that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than 3 for the linear below, and 6,10,14 are less than 8,18, and 32 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic growth eventually.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Differences   3  3  3  3  3      Quadratic Relation    0  1  2  3  4  5    0  2  8  18  32  50   Differences   2  6  10  14  18      Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Differences   3  6  12  24  48     We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. and have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios   5\/2  8\/5  11\/8  14\/11  17\/14   Decimal   2.5  1.6  1.375  1.2727  1.2143      Quadratic Relation    1  2  3  4  5  6    2  8  18  32  50  72   Ratios   8\/2  18\/8  32\/18  50\/32  72\/50   Decimal   4  2.25  1.7778  1.5625  1.44      Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Ratios   2  2  2  2  2     The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. shows the ratios for a relation known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.   Factorial Relation    0  1  2  3  4  5    1  1  2  6  24  120   Ratios   1  2  3  4  5        Applications  This section presents some simple applications that introduce us to the nature of exponential relations and introduce us to how to write equations for exponential models. The next few examples are used to present the mathematics, they are not a complete presentation of the science.  Bacteria (any cells) grow by each cell dividing into two, completely functioning cells. The new cells eventually reproduce by dividing in half as well. This means that the population is doubling. Because each cell takes roughly the same amount of time to grow enough to be able to divide, the population will double again when that much time has elapsed. Because we are interested in the idea, we will not round in the next few examples.   The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.  Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be cells. These results are shown in .  If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times .  We could produce a table for any amount of time (e.g., every hour) and we would find that the population grows by the same multiple every time.    Growth of Lactobacillus Acidophilus   Minutes  0  70  140  210  Population  4000  8000  16000  32000  Increased by   4000  8000  16000     Growth of Lactobacillus Acidophilus   Minutes  0  35  70  105  140  Population  4000  5657  8000  11314  16000  Ratio   1.4142  1.4142  1.4142  1.4142    Having emphasized that exponential data grows by a fixed ratio (multiple) every time unit, we can now work toward mathematical notation.   First Exponential Model  To obtain a model (equation) we will review our calculations from the previous example and note a pattern in those calculations.  The initial amount (information we are given) is . After 70 minutes all of these split into two so the population is . After 140 minutes they have all split into two a second time so the population is . After 210 minutes they have split a third time increasing the population to . We repeatedly mutiply the initial amount by 2. This means we will have a power of 2 times the initial amount.  The number of 2's by which we multiply is determined by how many multiples of 70 minutes have expired. so we multiplied by . so we multiplied by . In general we multiply by two times.  Putting these together implies we want to multiply the initial amount (4000 in this case) by two (double the population) for each of multiple of 70. This gives us .    First Exponential Model Redux  Of course we cannot actually count the number of cells in a colony of bacteria. It is easier to measure by mass (units of grams). If the number of cells has doubled then the mass will have about doubled as well.  Suppose 3 grams of lactobacillus acidophilus is placed in milk. What is a model for the mass of bacteria if it doubles every 70 minutes?  From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us   Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1.   Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.  Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have grams. Note the 1\/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be . In general the amount left after years will be This could also be written as .   Exponential relations are not all doubling or cutting in half. The ratio can be anything. Going viral on the internet could be (but is not always) an exponential growth of views.   A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.  To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be views. The eighth day, there will be views. Each additional four days we multiply the result by 3.  Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple times.  To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is    We learned in that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.   Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . Thus after one year his salary will be . After two years his salary will be . This pattern will continue.  The model then is where is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be    If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.   In the previous example we rounded in the second step to 4 decimal places. Was this the right choice? We can test by trying the calculation with fewer decimal places. If we had rounded to 5 places, the last step would have been . If we had rounded to 6 places, the last step would have been . If we had rounded to 7 places, the last step would have been . Likewise testing 8 places would not change the amount. Thus any more than 6 places is not enough to change the result. However, was the 4 places result bad? The amounts between the roundings are different from each other but not by enough to impact anyone's life. Remember rounding is often about being practical: if the variation we round away has no impact, why bother with all the extra work?  Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but it requires a technique from .   We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?  The end of seven years means there have been six raises. From the two data points we know Thus her annual percentage increase was 4%. The full model is where is time in years.     Two Exponential Models  Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two models.   Exponential Growth (rate)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the doubling ( ), trebling ( ), or other increase. It is unitless.  is the amount of time (units typically days\/hours\/minutes)  is how long until the increase occurs (same units as )      Exponential Growth (percent)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the percent increase or decrease. It is unitless.  is the amount of time (units typically days\/hours\/minutes)     It is possible to convert from one form to the other. The following examples demonstrate using these models, determining the percent increase\/decrease, and converting between forms.   Suppose where is the number of years. What is the annual percent increase?  We know that so this is a 3.2% increase.   Before we can change that form into one that shows us how long until it doubles, we will need to learn another function. We will do this in .   Suppose where is the number of years. What is the annual percent decrease?  We know that so this is a 12% decrease.   Generally if the value is greater than one this is an increasing rate and if it is less than one it is a decreasing rate.   Suppose . Is this increase or decrease and what is the percent increase\/decrease?  Because this is a percent increase. Thus this is a 3% increase.   Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing that or in general   In the exponential model what is the percent increase or decrease? Note these numbers are measurements.  First, we use the algebra above to convert the form Because 1.4 is bigger than one it is a percent increase. Note , so this is a 40% increase.  For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).    In the exponential model what is the percent increase or decrease?   First, we use the algebra above to convert the form Because 0.97 is less than one it is a percent decrease. Note , so this is a 3% decrease.  We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.     A common base for exponentials in many scientific models is . We can work with this base using calculation devices which will have an button or an function.   What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? which we found using a device. Thus this is a percent increase of 2%.       Calculate results for exponential relations.  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Faux Application  Application  Application  Application  Application  Application  Application  Application  Application  Application  Application    Graph exponential relations  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice   Contextless Practice  Contextless Practice  Interpreting (Contextless)  Interpreting (Contextless)  Interpreting (Contextless)  Interpreting (Contextless)    "
 },
 {
   "id": "subsection-vary-fast-2",
@@ -6559,14 +6559,23 @@ var ptx_lunr_docs = [
   "type": "Table",
   "number": "6.1.4",
   "title": "Linear Relation",
-  "body": " Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios          "
+  "body": " Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios   5\/2  8\/5  11\/8  14\/11  17\/14   Decimal   2.5  1.6  1.375  1.2727  1.2143    "
+},
+{
+  "id": "table-ratios-quadratic",
+  "level": "2",
+  "url": "section-exponential.html#table-ratios-quadratic",
+  "type": "Table",
+  "number": "6.1.5",
+  "title": "Quadratic Relation",
+  "body": " Quadratic Relation    1  2  3  4  5  6    2  8  18  32  50  72   Ratios   8\/2  18\/8  32\/18  50\/32  72\/50   Decimal   4  2.25  1.7778  1.5625  1.44    "
 },
 {
   "id": "table-ratios-exponential2",
   "level": "2",
   "url": "section-exponential.html#table-ratios-exponential2",
   "type": "Table",
-  "number": "6.1.5",
+  "number": "6.1.6",
   "title": "Exponential Relation",
   "body": " Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Ratios   2  2  2  2  2    "
 },
@@ -6575,88 +6584,142 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-exponential.html#table-ratios-factorial",
   "type": "Table",
-  "number": "6.1.6",
+  "number": "6.1.7",
   "title": "Factorial Relation",
   "body": " Factorial Relation    0  1  2  3  4  5    1  1  2  6  24  120   Ratios   1  2  3  4  5    "
 },
 {
-  "id": "subsection-exponential-application-2",
+  "id": "subsection-vary-fast-14",
   "level": "2",
-  "url": "section-exponential.html#subsection-exponential-application-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "section-exponential.html#subsection-vary-fast-14",
+  "type": "Checkpoint",
+  "number": "6.1.8",
   "title": "",
-  "body": "lactobacilus acidophilus "
+  "body": ""
 },
 {
-  "id": "table-bacteria-growth1",
+  "id": "example-exponential-relation-lactobacillus",
   "level": "2",
-  "url": "section-exponential.html#table-bacteria-growth1",
+  "url": "section-exponential.html#example-exponential-relation-lactobacillus",
+  "type": "Example",
+  "number": "6.1.9",
+  "title": "",
+  "body": " The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.  Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be cells. These results are shown in .  If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times .  We could produce a table for any amount of time (e.g., every hour) and we would find that the population grows by the same multiple every time.  "
+},
+{
+  "id": "table-lactobacillus-growth1",
+  "level": "2",
+  "url": "section-exponential.html#table-lactobacillus-growth1",
   "type": "Table",
-  "number": "6.1.7",
-  "title": "Growth of <dfn class=\"terminology\">Lactobacilus Acidophilus<\/dfn>",
-  "body": " Growth of Lactobacilus Acidophilus   Minutes  0  70  140  210  Population  4000  8000  16000  32000  Added   4000  8000  16000   "
+  "number": "6.1.10",
+  "title": "Growth of <dfn class=\"terminology\">Lactobacillus Acidophilus<\/dfn>",
+  "body": " Growth of Lactobacillus Acidophilus   Minutes  0  70  140  210  Population  4000  8000  16000  32000  Increased by   4000  8000  16000   "
+},
+{
+  "id": "table-lactobacillus-growth2",
+  "level": "2",
+  "url": "section-exponential.html#table-lactobacillus-growth2",
+  "type": "Table",
+  "number": "6.1.11",
+  "title": "Growth of <dfn class=\"terminology\">Lactobacillus Acidophilus<\/dfn>",
+  "body": " Growth of Lactobacillus Acidophilus   Minutes  0  35  70  105  140  Population  4000  5657  8000  11314  16000  Ratio   1.4142  1.4142  1.4142  1.4142   "
+},
+{
+  "id": "example-exponential-model-lactobacillus",
+  "level": "2",
+  "url": "section-exponential.html#example-exponential-model-lactobacillus",
+  "type": "Example",
+  "number": "6.1.12",
+  "title": "First Exponential Model.",
+  "body": " First Exponential Model  To obtain a model (equation) we will review our calculations from the previous example and note a pattern in those calculations.  The initial amount (information we are given) is . After 70 minutes all of these split into two so the population is . After 140 minutes they have all split into two a second time so the population is . After 210 minutes they have split a third time increasing the population to . We repeatedly mutiply the initial amount by 2. This means we will have a power of 2 times the initial amount.  The number of 2's by which we multiply is determined by how many multiples of 70 minutes have expired. so we multiplied by . so we multiplied by . In general we multiply by two times.  Putting these together implies we want to multiply the initial amount (4000 in this case) by two (double the population) for each of multiple of 70. This gives us .  "
+},
+{
+  "id": "example-exponential-model-lactobacillus-gram",
+  "level": "2",
+  "url": "section-exponential.html#example-exponential-model-lactobacillus-gram",
+  "type": "Example",
+  "number": "6.1.13",
+  "title": "First Exponential Model Redux.",
+  "body": " First Exponential Model Redux  Of course we cannot actually count the number of cells in a colony of bacteria. It is easier to measure by mass (units of grams). If the number of cells has doubled then the mass will have about doubled as well.  Suppose 3 grams of lactobacillus acidophilus is placed in milk. What is a model for the mass of bacteria if it doubles every 70 minutes?  From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us  "
+},
+{
+  "id": "example-exponential-decay-barium",
+  "level": "2",
+  "url": "section-exponential.html#example-exponential-decay-barium",
+  "type": "Example",
+  "number": "6.1.14",
+  "title": "",
+  "body": " Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.  Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have grams. Note the 1\/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be . In general the amount left after years will be This could also be written as .  "
 },
 {
   "id": "example-exponential-cat-video",
   "level": "2",
   "url": "section-exponential.html#example-exponential-cat-video",
   "type": "Example",
-  "number": "6.1.8",
+  "number": "6.1.15",
   "title": "",
-  "body": " A new cat video is posted and 12 people view it. Every 4 days after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.  We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is  "
+  "body": " A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.  To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be views. The eighth day, there will be views. Each additional four days we multiply the result by 3.  Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple times.  To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is  "
 },
 {
   "id": "exercise-exponential-bacillus-megaterium",
   "level": "2",
   "url": "section-exponential.html#exercise-exponential-bacillus-megaterium",
   "type": "Checkpoint",
-  "number": "6.1.9",
+  "number": "6.1.16",
   "title": "",
-  "body": "The bacteria bacillus megaterium grows exponentially. It forms a new generation every 25 minutes. Write an equation to model this grows supposing there are 30 g bacteria at the beginning. "
-},
-{
-  "id": "example-exponential-hares",
-  "level": "2",
-  "url": "section-exponential.html#example-exponential-hares",
-  "type": "Example",
-  "number": "6.1.10",
-  "title": "",
-  "body": "  Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.    The initial population is . Because the rate is doubling, we know that . If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using . Note this means 200 gives doubling once ( ), and 400 gives doubling twice ( ).    "
+  "body": ""
 },
 {
   "id": "example-write-exponential-parameters",
   "level": "2",
   "url": "section-exponential.html#example-write-exponential-parameters",
   "type": "Example",
-  "number": "6.1.11",
+  "number": "6.1.17",
   "title": "",
-  "body": " Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . The model then is where is the number of years since he was hired. Entering the sixth year would mean five raises. His salary would be  "
+  "body": " Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . Thus after one year his salary will be . After two years his salary will be . This pattern will continue.  The model then is where is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be  "
 },
 {
   "id": "example-write-exponential-parameters-reverse",
   "level": "2",
   "url": "section-exponential.html#example-write-exponential-parameters-reverse",
   "type": "Example",
-  "number": "6.1.12",
+  "number": "6.1.18",
   "title": "",
-  "body": " If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Note, because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.  "
+  "body": " If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.  "
 },
 {
   "id": "example-write-exponential-parameters-one-pt",
   "level": "2",
   "url": "section-exponential.html#example-write-exponential-parameters-one-pt",
   "type": "Example",
-  "number": "6.1.13",
+  "number": "6.1.19",
   "title": "",
   "body": " We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?  The end of seven years means there have been six raises. From the two data points we know Thus her annual percentage increase was 4%. The full model is where is time in years.  "
+},
+{
+  "id": "model-exponential-rate",
+  "level": "2",
+  "url": "section-exponential.html#model-exponential-rate",
+  "type": "Fact",
+  "number": "6.1.20",
+  "title": "Exponential Growth (rate).",
+  "body": " Exponential Growth (rate)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the doubling ( ), trebling ( ), or other increase. It is unitless.  is the amount of time (units typically days\/hours\/minutes)  is how long until the increase occurs (same units as )    "
+},
+{
+  "id": "model-exponential-percent",
+  "level": "2",
+  "url": "section-exponential.html#model-exponential-percent",
+  "type": "Fact",
+  "number": "6.1.21",
+  "title": "Exponential Growth (percent).",
+  "body": " Exponential Growth (percent)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the percent increase or decrease. It is unitless.  is the amount of time (units typically days\/hours\/minutes)    "
 },
 {
   "id": "example-percent-increase-read",
   "level": "2",
   "url": "section-exponential.html#example-percent-increase-read",
   "type": "Example",
-  "number": "6.1.14",
+  "number": "6.1.22",
   "title": "",
   "body": " Suppose where is the number of years. What is the annual percent increase?  We know that so this is a 3.2% increase.  "
 },
@@ -6665,7 +6728,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-exponential.html#example-percent-decrease-read",
   "type": "Example",
-  "number": "6.1.15",
+  "number": "6.1.23",
   "title": "",
   "body": " Suppose where is the number of years. What is the annual percent decrease?  We know that so this is a 12% decrease.  "
 },
@@ -6674,7 +6737,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-exponential.html#example-percent-increase-decrease",
   "type": "Example",
-  "number": "6.1.16",
+  "number": "6.1.24",
   "title": "",
   "body": " Suppose . Is this increase or decrease and what is the percent increase\/decrease?  Because this is a percent increase. Thus this is a 3% increase.  "
 },
@@ -6683,295 +6746,304 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-exponential.html#example-convert-percent-increase",
   "type": "Example",
-  "number": "6.1.17",
+  "number": "6.1.25",
   "title": "",
-  "body": " In the exponential model what is the percent increase or decrease?  We convert the fraction to decimal: 1.40. Because it is bigger than one it is a percent increase. Note , so this is a 40% increase.  "
+  "body": " In the exponential model what is the percent increase or decrease? Note these numbers are measurements.  First, we use the algebra above to convert the form Because 1.4 is bigger than one it is a percent increase. Note , so this is a 40% increase.  For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).  "
 },
 {
   "id": "example-convert-percent-decrease",
   "level": "2",
   "url": "section-exponential.html#example-convert-percent-decrease",
   "type": "Example",
-  "number": "6.1.18",
+  "number": "6.1.26",
   "title": "",
-  "body": " In the exponential model what is the percent increase or decrease?  We convert the fraction to decimal: 0.975. Because it is less than one it is a percent decrease. Note , so this is a 2.5% decrease.  "
+  "body": " In the exponential model what is the percent increase or decrease?   First, we use the algebra above to convert the form Because 0.97 is less than one it is a percent decrease. Note , so this is a 3% decrease.  We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.   "
+},
+{
+  "id": "subsection-exponential-models-14",
+  "level": "2",
+  "url": "section-exponential.html#subsection-exponential-models-14",
+  "type": "Checkpoint",
+  "number": "6.1.27",
+  "title": "",
+  "body": ""
 },
 {
   "id": "example-convert-exp-percent",
   "level": "2",
   "url": "section-exponential.html#example-convert-exp-percent",
   "type": "Example",
-  "number": "6.1.19",
+  "number": "6.1.28",
   "title": "",
-  "body": " What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? . Thus this is a percent increase of 2.02%.  "
+  "body": " What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? which we found using a device. Thus this is a percent increase of 2%.  "
 },
 {
   "id": "exercise-exponential-percent-increase",
   "level": "2",
   "url": "section-exponential.html#exercise-exponential-percent-increase",
   "type": "Checkpoint",
-  "number": "6.1.20",
+  "number": "6.1.29",
   "title": "",
-  "body": "  In the model what is the percent increase or decrease (2 decimal places)?  It is a percent   Increase    Decrease   of             We calculate This is greater than one so it is a percent increase. The percent is 5.13      "
+  "body": ""
 },
 {
-  "id": "section-exponential-7-1-2",
+  "id": "section-exponential-6-1-2",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-2",
+  "url": "section-exponential.html#section-exponential-6-1-2",
   "type": "Exercise",
-  "number": "6.1.5.1",
+  "number": "6.1.4.1",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-1-3",
+  "id": "section-exponential-6-1-3",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-3",
+  "url": "section-exponential.html#section-exponential-6-1-3",
   "type": "Exercise",
-  "number": "6.1.5.2",
+  "number": "6.1.4.2",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-1-4",
+  "id": "section-exponential-6-1-4",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-4",
+  "url": "section-exponential.html#section-exponential-6-1-4",
   "type": "Exercise",
-  "number": "6.1.5.3",
+  "number": "6.1.4.3",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-1-5",
+  "id": "section-exponential-6-1-5",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-5",
+  "url": "section-exponential.html#section-exponential-6-1-5",
   "type": "Exercise",
-  "number": "6.1.5.4",
+  "number": "6.1.4.4",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-1-6",
+  "id": "section-exponential-6-1-6",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-6",
+  "url": "section-exponential.html#section-exponential-6-1-6",
   "type": "Exercise",
-  "number": "6.1.5.5",
+  "number": "6.1.4.5",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-1-7",
+  "id": "section-exponential-6-1-7",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-7",
+  "url": "section-exponential.html#section-exponential-6-1-7",
   "type": "Exercise",
-  "number": "6.1.5.6",
+  "number": "6.1.4.6",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-1-8",
+  "id": "section-exponential-6-1-8",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-8",
+  "url": "section-exponential.html#section-exponential-6-1-8",
   "type": "Exercise",
-  "number": "6.1.5.7",
+  "number": "6.1.4.7",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-1-9",
+  "id": "section-exponential-6-1-9",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-9",
+  "url": "section-exponential.html#section-exponential-6-1-9",
   "type": "Exercise",
-  "number": "6.1.5.8",
+  "number": "6.1.4.8",
   "title": "Faux Application.",
   "body": "Faux Application "
 },
 {
-  "id": "section-exponential-7-1-10",
+  "id": "section-exponential-6-1-10",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-10",
+  "url": "section-exponential.html#section-exponential-6-1-10",
   "type": "Exercise",
-  "number": "6.1.5.9",
+  "number": "6.1.4.9",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-11",
+  "id": "section-exponential-6-1-11",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-11",
+  "url": "section-exponential.html#section-exponential-6-1-11",
   "type": "Exercise",
-  "number": "6.1.5.10",
+  "number": "6.1.4.10",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-12",
+  "id": "section-exponential-6-1-12",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-12",
+  "url": "section-exponential.html#section-exponential-6-1-12",
   "type": "Exercise",
-  "number": "6.1.5.11",
+  "number": "6.1.4.11",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-13",
+  "id": "section-exponential-6-1-13",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-13",
+  "url": "section-exponential.html#section-exponential-6-1-13",
   "type": "Exercise",
-  "number": "6.1.5.12",
+  "number": "6.1.4.12",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-14",
+  "id": "section-exponential-6-1-14",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-14",
+  "url": "section-exponential.html#section-exponential-6-1-14",
   "type": "Exercise",
-  "number": "6.1.5.13",
+  "number": "6.1.4.13",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-15",
+  "id": "section-exponential-6-1-15",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-15",
+  "url": "section-exponential.html#section-exponential-6-1-15",
   "type": "Exercise",
-  "number": "6.1.5.14",
+  "number": "6.1.4.14",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-16",
+  "id": "section-exponential-6-1-16",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-16",
+  "url": "section-exponential.html#section-exponential-6-1-16",
   "type": "Exercise",
-  "number": "6.1.5.15",
+  "number": "6.1.4.15",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-17",
+  "id": "section-exponential-6-1-17",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-17",
+  "url": "section-exponential.html#section-exponential-6-1-17",
   "type": "Exercise",
-  "number": "6.1.5.16",
+  "number": "6.1.4.16",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-18",
+  "id": "section-exponential-6-1-18",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-18",
+  "url": "section-exponential.html#section-exponential-6-1-18",
   "type": "Exercise",
-  "number": "6.1.5.17",
+  "number": "6.1.4.17",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-1-19",
+  "id": "section-exponential-6-1-19",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-1-19",
+  "url": "section-exponential.html#section-exponential-6-1-19",
   "type": "Exercise",
-  "number": "6.1.5.18",
+  "number": "6.1.4.18",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-exponential-7-2-2",
+  "id": "section-exponential-6-2-2",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-2",
+  "url": "section-exponential.html#section-exponential-6-2-2",
   "type": "Exercise",
-  "number": "6.1.5.19",
+  "number": "6.1.4.19",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-2-3",
+  "id": "section-exponential-6-2-3",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-3",
+  "url": "section-exponential.html#section-exponential-6-2-3",
   "type": "Exercise",
-  "number": "6.1.5.20",
+  "number": "6.1.4.20",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-2-4",
+  "id": "section-exponential-6-2-4",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-4",
+  "url": "section-exponential.html#section-exponential-6-2-4",
   "type": "Exercise",
-  "number": "6.1.5.21",
+  "number": "6.1.4.21",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-2-5",
+  "id": "section-exponential-6-2-5",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-5",
+  "url": "section-exponential.html#section-exponential-6-2-5",
   "type": "Exercise",
-  "number": "6.1.5.22",
+  "number": "6.1.4.22",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-2-6",
+  "id": "section-exponential-6-2-6",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-6",
+  "url": "section-exponential.html#section-exponential-6-2-6",
   "type": "Exercise",
-  "number": "6.1.5.23",
+  "number": "6.1.4.23",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-2-7",
+  "id": "section-exponential-6-2-7",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-7",
+  "url": "section-exponential.html#section-exponential-6-2-7",
   "type": "Exercise",
-  "number": "6.1.5.24",
+  "number": "6.1.4.24",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-2-8",
+  "id": "section-exponential-6-2-8",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-8",
+  "url": "section-exponential.html#section-exponential-6-2-8",
   "type": "Exercise",
-  "number": "6.1.5.25",
+  "number": "6.1.4.25",
   "title": "Contextless Practice.",
   "body": "Contextless Practice "
 },
 {
-  "id": "section-exponential-7-2-9",
+  "id": "section-exponential-6-2-9",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-9",
+  "url": "section-exponential.html#section-exponential-6-2-9",
   "type": "Exercise",
-  "number": "6.1.5.26",
+  "number": "6.1.4.26",
   "title": "Interpreting (Contextless).",
   "body": "Interpreting (Contextless) "
 },
 {
-  "id": "section-exponential-7-2-10",
+  "id": "section-exponential-6-2-10",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-10",
+  "url": "section-exponential.html#section-exponential-6-2-10",
   "type": "Exercise",
-  "number": "6.1.5.27",
+  "number": "6.1.4.27",
   "title": "Interpreting (Contextless).",
   "body": "Interpreting (Contextless) "
 },
 {
-  "id": "section-exponential-7-2-11",
+  "id": "section-exponential-6-2-11",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-11",
+  "url": "section-exponential.html#section-exponential-6-2-11",
   "type": "Exercise",
-  "number": "6.1.5.28",
+  "number": "6.1.4.28",
   "title": "Interpreting (Contextless).",
   "body": "Interpreting (Contextless) "
 },
 {
-  "id": "section-exponential-7-2-12",
+  "id": "section-exponential-6-2-12",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-7-2-12",
+  "url": "section-exponential.html#section-exponential-6-2-12",
   "type": "Exercise",
-  "number": "6.1.5.29",
+  "number": "6.1.4.29",
   "title": "Interpreting (Contextless).",
   "body": "Interpreting (Contextless) "
 },
@@ -7765,7 +7837,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Ratios",
-  "body": " Trigonometric Ratios   In we learned about areas of triangles and a relationship between the three sides of a right triangle. In this and the next sections we will look at relationships between angles of the triangles and their sides.    Side and Angle Relationships  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No              There is also a relationship between the three angles of any triangle.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy     If two angles of a triangle are 60 and 40, what is the measure of the third angle?              Defining Trig Functions  Note that in a right triangle the other two angles have measure less than right angles. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.  For right triangles we have names for the sides. Consider the labels in The adjacent is the side touching the right angle that is also touching the angle with which we are working. The opposite is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in the adjacent side for has length 5 and the adjacent side for has length 3. Both the adjacent and opposite are known as legs of the triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology    Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in to see how changing either side length or angle affects the other.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios has an inherent limitation.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.   It is also possible to find the angle given the ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . The relationship between and will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for and probably not for . For those you use the button, that is, calculate the first then invert.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 7 and 10, what are the measures of the angles?  Angle opposite side length 7:  Angle opposite side length 10:                   Solving Triangles  Our goal now is to use partial information about a triangle to find the rest.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 4 and hypotenuse of length 11, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 4:  Angle opposite other leg:                         Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
+  "body": " Trigonometric Ratios   In we learned about areas of triangles and a relationship between the three sides of a right triangle. In this and the next sections we will look at relationships between angles of the triangles and their sides.    Side and Angle Relationships  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No              There is also a relationship between the three angles of any triangle.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy     If two angles of a triangle are 55 and 50, what is the measure of the third angle?              Defining Trig Functions  Note that in a right triangle the other two angles have measure less than right angles. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.  For right triangles we have names for the sides. Consider the labels in The adjacent is the side touching the right angle that is also touching the angle with which we are working. The opposite is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in the adjacent side for has length 5 and the adjacent side for has length 3. Both the adjacent and opposite are known as legs of the triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology    Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in to see how changing either side length or angle affects the other.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios has an inherent limitation.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.   It is also possible to find the angle given the ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . The relationship between and will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for and probably not for . For those you use the button, that is, calculate the first then invert.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 7 and 10, what are the measures of the angles?  Angle opposite side length 7:  Angle opposite side length 10:                   Solving Triangles  Our goal now is to use partial information about a triangle to find the rest.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 4 and hypotenuse of length 13, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 4:  Angle opposite other leg:                         Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
 },
 {
   "id": "exercise-pyth-find-hyp",
@@ -7819,7 +7891,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.6",
   "title": "",
-  "body": "  If two angles of a triangle are 60 and 40, what is the measure of the third angle?           "
+  "body": "  If two angles of a triangle are 55 and 50, what is the measure of the third angle?           "
 },
 {
   "id": "subsection-trig-ratios-defined-3",
@@ -7990,7 +8062,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.23",
   "title": "",
-  "body": "  If a triangle has a leg of length 4 and hypotenuse of length 11, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 4:  Angle opposite other leg:                     "
+  "body": "  If a triangle has a leg of length 4 and hypotenuse of length 13, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 4:  Angle opposite other leg:                     "
 },
 {
   "id": "section-trig-functions-6-1-2",
@@ -8350,7 +8422,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Non-Right Triangles",
-  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     A triangle has angles of measure and The side opposite angle has length 4. What is the length of the side opposite angle               Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     A triangle has sides of length  and What is the measure of the angle opposite the side of length               Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
+  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     A triangle has angles of measure and The side opposite angle has length 7. What is the length of the side opposite angle               Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     A triangle has sides of length  and What is the measure of the angle opposite the side of length               Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
 },
 {
   "id": "theorem-law-sines",
@@ -8395,7 +8467,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.3.5",
   "title": "",
-  "body": "  A triangle has angles of measure and The side opposite angle has length 4. What is the length of the side opposite angle            "
+  "body": "  A triangle has angles of measure and The side opposite angle has length 7. What is the length of the side opposite angle            "
 },
 {
   "id": "example-angle-side-side",

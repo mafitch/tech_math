@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.3.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -441,10 +441,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-6" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -587,13 +586,10 @@ c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}.\\
 </div></div></details></div></article></article><article class="exercise exercise-like" id="exercise-law-sines1"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.3.5</span><span class="period">.</span>
 </h4>
-<div id="webwork-13" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="13" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiY29udGV4dFRyaWdEZWdyZWVzLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIlRyaWdEZWdyZWVzIik7CiRhbmdsZUEgPSBDb21wdXRlKHJhbmRvbSgyMCw1MCw1KSk7CiRhbmdsZUIgPSBDb21wdXRlKHJhbmRvbSg1MCw4MCw1KSk7CiRhID0gQ29tcHV0ZShyYW5kb20oNCw3LDEpKTsKJGIgPSBDb21wdXRlKCJzaW4oJGFuZ2xlQikvc2luKCRhbmdsZUEpKiRhIik7CgpCRUdJTl9QR01MCkEgdHJpYW5nbGUgaGFzIGFuZ2xlcyBvZiBtZWFzdXJlIFtgQT1bJGFuZ2xlQV1gXSBhbmQgW2BCPVskYW5nbGVCXVx0ZXh0ey59YF0gVGhlIHNpZGUgb3Bwb3NpdGUgYW5nbGUgW2BBYF0gaGFzIGxlbmd0aCBbJGFdLiBXaGF0IGlzIHRoZSBsZW5ndGggb2YgdGhlIHNpZGUgb3Bwb3NpdGUgYW5nbGUgW2BCXHRleHR7P31gXSBbX117JGJ9ezV9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-13')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-13-1-1-1">A triangle has angles of measure <span class="process-math">\(A={35}\)</span> and <span class="process-math">\(B={70}\text{.}\)</span> The side opposite angle <span class="process-math">\(A\)</span> has length 4. What is the length of the side opposite angle <span class="process-math">\(B\text{?}\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
-</div>
-<div class="solutions"><details id="extracted-webwork-13-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-13-1-2-1"><span class="process-math">\(\frac{\sin\!\left(70\right)}{\sin\!\left(35\right)}\cdot 4\)</span></div></div></details></div>
-</div>
+<div id="webwork-12" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="12" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiY29udGV4dFRyaWdEZWdyZWVzLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIlRyaWdEZWdyZWVzIik7CiRhbmdsZUEgPSBDb21wdXRlKHJhbmRvbSgyMCw1MCw1KSk7CiRhbmdsZUIgPSBDb21wdXRlKHJhbmRvbSg1MCw4MCw1KSk7CiRhID0gQ29tcHV0ZShyYW5kb20oNCw3LDEpKTsKJGIgPSBDb21wdXRlKCJzaW4oJGFuZ2xlQikvc2luKCRhbmdsZUEpKiRhIik7CgpCRUdJTl9QR01MCkEgdHJpYW5nbGUgaGFzIGFuZ2xlcyBvZiBtZWFzdXJlIFtgQT1bJGFuZ2xlQV1gXSBhbmQgW2BCPVskYW5nbGVCXVx0ZXh0ey59YF0gVGhlIHNpZGUgb3Bwb3NpdGUgYW5nbGUgW2BBYF0gaGFzIGxlbmd0aCBbJGFdLiBXaGF0IGlzIHRoZSBsZW5ndGggb2YgdGhlIHNpZGUgb3Bwb3NpdGUgYW5nbGUgW2BCXHRleHR7P31gXSBbX117JGJ9ezV9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-12')">Activate</button></div>
+<div class="problem-contents"><div class="para" id="extracted-webwork-12-1-1-1">A triangle has angles of measure <span class="process-math">\(A={30}\)</span> and <span class="process-math">\(B={80}\text{.}\)</span> The side opposite angle <span class="process-math">\(A\)</span> has length 7. What is the length of the side opposite angle <span class="process-math">\(B\text{?}\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
+</div></div>
 </div></article></section><section class="subsection" id="subsection-ass-issue"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.3.2</span><span class="space"> </span><span class="title">Ambiguous Triangles</span>
 </h3>
@@ -712,13 +708,10 @@ c \amp \approx 4.51.
 </div></div></details></div></article><article class="exercise exercise-like" id="exercise-law-cosines1"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.3.11</span><span class="period">.</span>
 </h4>
-<div id="webwork-14" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="14" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiY29udGV4dFRyaWdEZWdyZWVzLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIlRyaWdEZWdyZWVzIik7CiRhbmdsZUEgPSBDb21wdXRlKHJhbmRvbSgyMCw1MCw1KSk7CiRhbmdsZUIgPSBDb21wdXRlKHJhbmRvbSg1NSw4MCw1KSk7CiRhbmdsZUMgPSAxODAtJGFuZ2xlQS0kYW5nbGVCOwokYSA9IENvbXB1dGUocmFuZG9tKDQsNywxKSk7CiRiID0gQ29tcHV0ZSgic2luKCRhbmdsZUIpL3NpbigkYW5nbGVBKSokYSIpOwokYyA9IENvbXB1dGUoInNpbigkYW5nbGVDKS9zaW4oJGFuZ2xlQSkqJGEiKTsKCkJFR0lOX1BHTUwKQSB0cmlhbmdsZSBoYXMgc2lkZXMgb2YgbGVuZ3RoIFtgYT1bJGFdXHRleHR7LH1gXSBbYGI9WyRiXVx0ZXh0eyx9YF0gYW5kIFtgYz1bJGNdXHRleHR7Ln1gXSBXaGF0IGlzIHRoZSBtZWFzdXJlIG9mIHRoZSBhbmdsZSBvcHBvc2l0ZSB0aGUgc2lkZSBvZiBsZW5ndGggW2BhXHRleHR7P31gXSBbX117JGFuZ2xlQX17NX0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-14')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-14-1-1-1">A triangle has sides of length <span class="process-math">\(a={6}\text{,}\)</span> <span class="process-math">\(b={9.05922}\text{,}\)</span> and <span class="process-math">\(c={10.4209}\text{.}\)</span> What is the measure of the angle opposite the side of length <span class="process-math">\(a\text{?}\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
-</div>
-<div class="solutions"><details id="extracted-webwork-14-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-14-1-2-1"><span class="process-math">\(35\)</span></div></div></details></div>
-</div>
+<div id="webwork-13" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="13" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiY29udGV4dFRyaWdEZWdyZWVzLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIlRyaWdEZWdyZWVzIik7CiRhbmdsZUEgPSBDb21wdXRlKHJhbmRvbSgyMCw1MCw1KSk7CiRhbmdsZUIgPSBDb21wdXRlKHJhbmRvbSg1NSw4MCw1KSk7CiRhbmdsZUMgPSAxODAtJGFuZ2xlQS0kYW5nbGVCOwokYSA9IENvbXB1dGUocmFuZG9tKDQsNywxKSk7CiRiID0gQ29tcHV0ZSgic2luKCRhbmdsZUIpL3NpbigkYW5nbGVBKSokYSIpOwokYyA9IENvbXB1dGUoInNpbigkYW5nbGVDKS9zaW4oJGFuZ2xlQSkqJGEiKTsKCkJFR0lOX1BHTUwKQSB0cmlhbmdsZSBoYXMgc2lkZXMgb2YgbGVuZ3RoIFtgYT1bJGFdXHRleHR7LH1gXSBbYGI9WyRiXVx0ZXh0eyx9YF0gYW5kIFtgYz1bJGNdXHRleHR7Ln1gXSBXaGF0IGlzIHRoZSBtZWFzdXJlIG9mIHRoZSBhbmdsZSBvcHBvc2l0ZSB0aGUgc2lkZSBvZiBsZW5ndGggW2BhXHRleHR7P31gXSBbX117JGFuZ2xlQX17NX0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-13')">Activate</button></div>
+<div class="problem-contents"><div class="para" id="extracted-webwork-13-1-1-1">A triangle has sides of length <span class="process-math">\(a={4}\text{,}\)</span> <span class="process-math">\(b={6.55322}\text{,}\)</span> and <span class="process-math">\(c={6.73616}\text{.}\)</span> What is the measure of the angle opposite the side of length <span class="process-math">\(a\text{?}\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
+</div></div>
 </div></article></section><section class="exercises" id="section-trig-laws-6"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">7.3.4</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>

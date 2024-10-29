@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.3.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -441,10 +441,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-6" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -581,45 +580,7 @@ A+B = 10.0.
 <article class="exercise exercise-like" id="example-cross-when"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-cross-when-1-1">Vasya’s initial pay was $62,347.23. She received $5,000 raises each year. Pyotr’s initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?</div>
-<div class="solutions">
-<details id="example-cross-when-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="example-cross-when-2-1">We could make a table.</div>
-<div class="tabular-box natural-width"><table class="tabular">
-<tr>
-<td class="l m b0 r0 l0 t0 lines">Year</td>
-<td class="l m b0 r0 l0 t0 lines">Vasya</td>
-<td class="l m b0 r0 l0 t0 lines">Pyotr</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">2012</td>
-<td class="l m b0 r0 l0 t0 lines">$62,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$67,242.33</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">2013</td>
-<td class="l m b0 r0 l0 t0 lines">$67,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$70,742.33</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">2014</td>
-<td class="l m b0 r0 l0 t0 lines">$72,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$74,242.33</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">2015</td>
-<td class="l m b0 r0 l0 t0 lines">$77,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$77,742.33</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines">2016</td>
-<td class="l m b0 r0 l0 t0 lines">$82,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$81,242.33</td>
-</tr>
-</table></div>
-<div class="para" id="example-cross-when-2-3">We see that is in 2016 that Vasya is first paid more.</div>
-</div></details><details id="example-cross-when-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-cross-when-3-1">We could note that Vasya’s raises are $1,500 more each year than Pyotr’s raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is <span class="process-math">\(67242.33-62347.23=4895.10\text{.}\)</span> Because she gains by 1500 each year it will take <span class="process-math">\(4895.10/1500 = 3.2634 \)</span> years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.</div></div></details>
-</div></article></section><section class="subsection" id="subsection-system-solving"><h3 class="heading hide-type">
+<div class="para" id="example-cross-when-1-1">Vasya’s initial pay was $62,347.23. She received $5,000 raises each year. Pyotr’s initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?</div></article></section><section class="subsection" id="subsection-system-solving"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="space"> </span><span class="title">Solving Linear Systems</span>
 </h3>
 <div class="para" id="subsection-system-solving-2">This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.</div>

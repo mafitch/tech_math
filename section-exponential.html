@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.3.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -441,10 +441,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-6" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -519,13 +518,25 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-exponential"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">6.1</span><span class="space"> </span><span class="title">Exponential Relations</span>
 </h2>
-<section class="introduction" id="section-exponential-2"><div class="para" id="section-exponential-2-1">In <a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> we learned different ways data can change. These included linear, quadratic, exponential and inverse versions of these. Here we will look at more details of exponential relations.</div>
-<div class="para" id="section-exponential-2-2">For exponential relations we know that the differences (additive rate) is a multiple of the value (<a href="section-rates.html#definition-exponential-relation" class="xref" data-knowl="./knowl/xref/definition-exponential-relation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.14: Exponential Relation">Definition 3.3.14</a>) and that the percent increase is constant (<a href="section-rates.html#definition-exponential-relation-quotient" class="xref" data-knowl="./knowl/xref/definition-exponential-relation-quotient.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.18: Exponential">Definition 3.3.18</a>). Now we will learn to work with these relations in applications.</div></section><section class="subsection" id="subsection-vary-fast"><h3 class="heading hide-type">
+<section class="introduction" id="section-exponential-2"><div class="para logical" id="section-exponential-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-exponential-2-1-1">
+<li id="section-exponential-2-1-1-1"><div class="para" id="p-derived-section-exponential-2-1-1-1">Read and use mathematical models in a technical document</div></li>
+<li id="section-exponential-2-1-1-2"><div class="para" id="p-derived-section-exponential-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-exponential-2-1-2">
+<li id="section-exponential-2-1-2-1"><div class="para" id="p-derived-section-exponential-2-1-2-1">Read and interpret models (critical thinking)</div></li>
+<li id="section-exponential-2-1-2-2"><div class="para" id="p-derived-section-exponential-2-1-2-2">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</div></li>
+</ul>
+</div>
+<div class="para" id="section-exponential-2-2">
+<a href="section-rates.html" class="internal" title="Section 3.3: Identifying Rates">Section 3.3</a> presented different rates at which data changes including linear, quadratic, and exponential. This section presents models that require exponentials and notation so we can perform calculations. The ability to solve equations with exponentials comes in <a href="section-log-solve.html" class="internal" title="Section 6.4: Solving Equations Using Logarithm">Section 6.4</a>.</div></section><section class="subsection" id="subsection-vary-fast"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.1</span><span class="space"> </span><span class="title">Comparing Growth Rates</span>
 </h3>
-<div class="para" id="subsection-vary-fast-2">In colloquial speech <dfn class="terminology">exponential</dfn> is used to mean “very fast”. We are using a much more specific definition. Here we will see why we think of exponential as very fast. We will do this by comparing how fast exponential relations grow relative to linear, quadratic, and one new relation.</div>
-<div class="para" id="subsection-vary-fast-3">Consider the linear, quadratic, and exponential relations in <a href="section-exponential.html#table-differences-linear" class="xref" data-knowl="./knowl/xref/table-differences-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.1: Linear Relation">Table 6.1.1</a>, <a href="section-exponential.html#table-differences-quadratic2" class="xref" data-knowl="./knowl/xref/table-differences-quadratic2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.2: Quadratic Relation">Table 6.1.2</a>, and <a href="section-exponential.html#table-differences-exponential2" class="xref" data-knowl="./knowl/xref/table-differences-exponential2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.3: Exponential Relation">Table 6.1.3</a> respectively. Because the differences for a linear relation are always the same, eventually the values are bigger than the change (e.g., 5,8,11 are all bigger than 3). For both quadratic and exponential data the bigger they are the faster they grow. The growth is not the same however.</div>
-<div class="para" id="subsection-vary-fast-4">For the quadratic relation the first differences are getting bigger (at a constant rate), but eventually they are less than the value (e.g., 6,10,14 are less than 8,18, and 32 respectively) just like the linears. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic eventually.</div>
+<div class="para" id="subsection-vary-fast-2">In colloquial speech <dfn class="terminology">exponential</dfn> is used to mean “very fast”. In this text we are using a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster.</div>
+<div class="para" id="subsection-vary-fast-3">Consider the linear, quadratic, and exponential relations in <a href="section-exponential.html#table-differences-linear" class="xref" data-knowl="./knowl/xref/table-differences-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.1: Linear Relation">Table 6.1.1</a>, <a href="section-exponential.html#table-differences-quadratic2" class="xref" data-knowl="./knowl/xref/table-differences-quadratic2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.2: Quadratic Relation">Table 6.1.2</a>, and <a href="section-exponential.html#table-differences-exponential2" class="xref" data-knowl="./knowl/xref/table-differences-exponential2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.3: Exponential Relation">Table 6.1.3</a> respectively. Linear data has the same differences (3 in the example below). In contrast the differences for quadratic and exponential data grow as the data grows. Their growth is not the same however. Quadratic differences grow at the same rate (2nd differences are linear, 4 in the example below). In contrast exponential differences grow faster as the data grows faster (indeed at the same rate).</div>
+<div class="para" id="subsection-vary-fast-4">Another way to look at this, is to note that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than 3 for the linear below, and 6,10,14 are less than 8,18, and 32 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic growth eventually.</div>
 <figure class="table table-like" id="table-differences-linear"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.1<span class="period">.</span></span><span class="space"> </span>Linear Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
@@ -610,7 +621,7 @@ eBookConfig.enable_chatcodes =  false;
 <td class="r m b2 r2 l0 t0 lines">24</td>
 <td class="r m b2 r2 l0 t0 lines">48</td>
 </tr>
-</table></div></figure><div class="para" id="subsection-vary-fast-8">We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. <a href="section-exponential.html#table-ratios-linear" class="xref" data-knowl="./knowl/xref/table-ratios-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.4: Linear Relation">Table 6.1.4</a> has the ratios for a linear relation. Notice that <span class="process-math">\(\frac{8}{5} &lt; \frac{5}{2}\text{.}\)</span> This inequality is true of the other ratios. The ratios are becoming smaller; indeed they appear to be approaching 1. In <a href="section-exponential.html#table-ratios-exponential2" class="xref" data-knowl="./knowl/xref/table-ratios-exponential2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.5: Exponential Relation">Table 6.1.5</a>, the ratios for an exponential relation are constant. This also shows us that exponential relations grow faster than linear relations.</div>
+</table></div></figure><div class="para" id="subsection-vary-fast-8">We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. <a href="section-exponential.html#table-ratios-linear" class="xref" data-knowl="./knowl/xref/table-ratios-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.4: Linear Relation">Table 6.1.4</a> and <a href="section-exponential.html#table-ratios-quadratic" class="xref" data-knowl="./knowl/xref/table-ratios-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.5: Quadratic Relation">Table 6.1.5</a> have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in <a href="section-exponential.html#table-ratios-exponential2" class="xref" data-knowl="./knowl/xref/table-ratios-exponential2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.6: Exponential Relation">Table 6.1.6</a> we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.</div>
 <figure class="table table-like" id="table-ratios-linear"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.4<span class="period">.</span></span><span class="space"> </span>Linear Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
@@ -633,13 +644,59 @@ eBookConfig.enable_chatcodes =  false;
 <tr>
 <td class="c m b2 r2 l2 t0 lines">Ratios</td>
 <td class="r m b2 r2 l0 t0 lines"></td>
-<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(5/2\)</span></td>
-<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(8/5\)</span></td>
-<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(11/8\)</span></td>
-<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(14/11\)</span></td>
-<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(17/14\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">5/2</td>
+<td class="r m b2 r2 l0 t0 lines">8/5</td>
+<td class="r m b2 r2 l0 t0 lines">11/8</td>
+<td class="r m b2 r2 l0 t0 lines">14/11</td>
+<td class="r m b2 r2 l0 t0 lines">17/14</td>
 </tr>
-</table></div></figure><figure class="table table-like" id="table-ratios-exponential2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.5<span class="period">.</span></span><span class="space"> </span>Exponential Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Decimal</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">2.5</td>
+<td class="r m b2 r2 l0 t0 lines">1.6</td>
+<td class="r m b2 r2 l0 t0 lines">1.375</td>
+<td class="r m b2 r2 l0 t0 lines">1.2727</td>
+<td class="r m b2 r2 l0 t0 lines">1.2143</td>
+</tr>
+</table></div></figure><figure class="table table-like" id="table-ratios-quadratic"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.5<span class="period">.</span></span><span class="space"> </span>Quadratic Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
+<td class="r m b2 r2 l0 t2 lines">1</td>
+<td class="r m b2 r2 l0 t2 lines">2</td>
+<td class="r m b2 r2 l0 t2 lines">3</td>
+<td class="r m b2 r2 l0 t2 lines">4</td>
+<td class="r m b2 r2 l0 t2 lines">5</td>
+<td class="r m b2 r2 l0 t2 lines">6</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(2n^2\)</span></td>
+<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l0 t0 lines">8</td>
+<td class="r m b2 r2 l0 t0 lines">18</td>
+<td class="r m b2 r2 l0 t0 lines">32</td>
+<td class="r m b2 r2 l0 t0 lines">50</td>
+<td class="r m b2 r2 l0 t0 lines">72</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Ratios</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">8/2</td>
+<td class="r m b2 r2 l0 t0 lines">18/8</td>
+<td class="r m b2 r2 l0 t0 lines">32/18</td>
+<td class="r m b2 r2 l0 t0 lines">50/32</td>
+<td class="r m b2 r2 l0 t0 lines">72/50</td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">Decimal</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">4</td>
+<td class="r m b2 r2 l0 t0 lines">2.25</td>
+<td class="r m b2 r2 l0 t0 lines">1.7778</td>
+<td class="r m b2 r2 l0 t0 lines">1.5625</td>
+<td class="r m b2 r2 l0 t0 lines">1.44</td>
+</tr>
+</table></div></figure><figure class="table table-like" id="table-ratios-exponential2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.6<span class="period">.</span></span><span class="space"> </span>Exponential Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
 <td class="r m b2 r2 l0 t2 lines">0</td>
@@ -667,11 +724,8 @@ eBookConfig.enable_chatcodes =  false;
 <td class="r m b2 r2 l0 t0 lines">2</td>
 <td class="r m b2 r2 l0 t0 lines">2</td>
 </tr>
-</table></div></figure></section><section class="subsection" id="subsection-even-faster"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.2</span><span class="space"> </span><span class="title">Faster than Exponential</span>
-</h3>
-<div class="para" id="subsection-even-faster-2">The previous section might suggest that exponential is the fastest relation. It is not. In <a href="section-exponential.html#table-ratios-factorial" class="xref" data-knowl="./knowl/xref/table-ratios-factorial.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.6: Factorial Relation">Table 6.1.6</a> are the ratios for a relation known as factorial. Interestingly, the ratios giving the percent increase are linear. This is vaguely like quadratic relations where their differences are linear. As quadratic relations are faster growing than linear relations, so factorial relations are faster growing than exponential relations.</div>
-<figure class="table table-like" id="table-ratios-factorial"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.6<span class="period">.</span></span><span class="space"> </span>Factorial Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</table></div></figure><div class="para" id="subsection-vary-fast-12">The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. <a href="section-exponential.html#table-ratios-factorial" class="xref" data-knowl="./knowl/xref/table-ratios-factorial.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.7: Factorial Relation">Table 6.1.7</a> shows the ratios for a relation known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.</div>
+<figure class="table table-like" id="table-ratios-factorial"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.7<span class="period">.</span></span><span class="space"> </span>Factorial Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b2 r2 l2 t2 lines"><span class="process-math">\(n\)</span></td>
 <td class="r m b2 r2 l0 t2 lines">0</td>
@@ -699,11 +753,22 @@ eBookConfig.enable_chatcodes =  false;
 <td class="r m b2 r2 l0 t0 lines">4</td>
 <td class="r m b2 r2 l0 t0 lines">5</td>
 </tr>
-</table></div></figure></section><section class="subsection" id="subsection-exponential-application"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.3</span><span class="space"> </span><span class="title">Applications</span>
+</table></div></figure><article class="exercise exercise-like" id="subsection-vary-fast-14"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.8</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-vary-fast-14-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-vary-fast-14-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1480186&amp;frame_id=momsubsection-vary-fast-14-1"></iframe></div></article></section><section class="subsection" id="subsection-exponential-application"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.2</span><span class="space"> </span><span class="title">Applications</span>
 </h3>
-<div class="para" id="subsection-exponential-application-2">The bacteria <dfn class="terminology">lactobacilus acidophilus</dfn> is known to grow exponentially in milk (part of making yogurt). Based on experiments a new generation of bacteria are formed every 70 minutes. For a while we can assume the original bacteria remain. Thus the population growth is as shown in <a href="section-exponential.html#table-bacteria-growth1" class="xref" data-knowl="./knowl/xref/table-bacteria-growth1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.7: Growth of Lactobacilus Acidophilus">Table 6.1.7</a>. Note that at 70 minutes the model supposes all 4000 cells divide producing 4000 new cells. Thus the total population is <span class="process-math">\(4000+4000=8000\text{.}\)</span> This repeats every 70 minutes. Because the cells split into two cells, the population doubles (multiply by 2).</div>
-<figure class="table table-like" id="table-bacteria-growth1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.7<span class="period">.</span></span><span class="space"> </span>Growth of <dfn class="terminology">Lactobacilus Acidophilus</dfn></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="subsection-exponential-application-2">This section presents some simple applications that introduce us to the nature of exponential relations and introduce us to how to write equations for exponential models. The next few examples are used to present the mathematics, they are not a complete presentation of the science.</div>
+<div class="para" id="subsection-exponential-application-3">Bacteria (any cells) grow by each cell dividing into two, completely functioning cells. The new cells eventually reproduce by dividing in half as well. This means that the population is doubling. Because each cell takes roughly the same amount of time to grow enough to be able to divide, the population will double again when that much time has elapsed. Because we are interested in the idea, we will not round in the next few examples.</div>
+<article class="example example-like" id="example-exponential-relation-lactobacillus"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-exponential-relation-lactobacillus-1">The bacteria <dfn class="terminology">lactobacillus acidophilus</dfn> is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.</div>
+<div class="para" id="example-exponential-relation-lactobacillus-2">Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be <span class="process-math">\(4000(2)=8000\)</span> cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be <span class="process-math">\(8000(2)=16000\)</span> cells. These results are shown in <a href="section-exponential.html#table-lactobacillus-growth1" class="xref" data-knowl="./knowl/xref/table-lactobacillus-growth1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.10: Growth of Lactobacillus Acidophilus">Table 6.1.10</a>.</div>
+<div class="para" id="example-exponential-relation-lactobacillus-3">If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct <a href="section-exponential.html#table-lactobacillus-growth2" class="xref" data-knowl="./knowl/xref/table-lactobacillus-growth2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.11: Growth of Lactobacillus Acidophilus">Table 6.1.11</a> which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times <span class="process-math">\(\sqrt{2} \approx 1.4142\text{.}\)</span>
+</div>
+<div class="para" id="example-exponential-relation-lactobacillus-4">We could produce a table for any amount of time (e.g., every hour) and we would find that the population grows by the same multiple every time.</div></article><figure class="table table-like" id="table-lactobacillus-growth1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.10<span class="period">.</span></span><span class="space"> </span>Growth of <dfn class="terminology">Lactobacillus Acidophilus</dfn></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b2 r2 l2 t2 lines">Minutes</td>
 <td class="l m b2 r2 l0 t2 lines">0</td>
@@ -719,79 +784,118 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b2 r2 l0 t0 lines">32000</td>
 </tr>
 <tr>
-<td class="l m b2 r2 l2 t0 lines">Added</td>
+<td class="l m b2 r2 l2 t0 lines">Increased by</td>
 <td class="r m b2 r2 l0 t0 lines"></td>
 <td class="r m b2 r2 l0 t0 lines">4000</td>
 <td class="r m b2 r2 l0 t0 lines">8000</td>
 <td class="r m b2 r2 l0 t0 lines">16000</td>
 </tr>
-</table></div></figure><div class="para" id="subsection-exponential-application-4">We can express this model in mathematical notation. Let’s walk through how <a href="section-exponential.html#table-bacteria-growth1" class="xref" data-knowl="./knowl/xref/table-bacteria-growth1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.7: Growth of Lactobacilus Acidophilus">Table 6.1.7</a> was constructed. The initial amount (information we are given) is <span class="process-math">\(P_0 = 4000\text{.}\)</span> After 70 minutes these double: <span class="process-math">\(P_1 = 4000(2) = 8000\text{.}\)</span> After 140 minutes they double a second time: <span class="process-math">\(P_2 = 4000(2)(2) = 16000\text{.}\)</span> After 210 minutes they double a third time: <span class="process-math">\(P_3 = 4000(2)(2)(2) = 32000\text{.}\)</span>
-</div>
-<div class="para" id="subsection-exponential-application-5">Generally if we know the number of minutes <span class="process-math">\(t\text{,}\)</span> then dividing by 70 tells us how many times cells have divided in two. We want to multiply the initial amount (4000 in this case) by two (double the population) for each of these. This gives us <span class="process-math">\(P = 4000 \cdot 2^{t/70}\text{.}\)</span>
-</div>
-<article class="example example-like" id="example-exponential-cat-video"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.8</span><span class="period">.</span>
+</table></div></figure><figure class="table table-like" id="table-lactobacillus-growth2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.11<span class="period">.</span></span><span class="space"> </span>Growth of <dfn class="terminology">Lactobacillus Acidophilus</dfn></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Minutes</td>
+<td class="l m b2 r2 l0 t2 lines">0</td>
+<td class="l m b2 r2 l0 t2 lines">35</td>
+<td class="l m b2 r2 l0 t2 lines">70</td>
+<td class="l m b2 r2 l0 t2 lines">105</td>
+<td class="l m b2 r2 l0 t2 lines">140</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Population</td>
+<td class="l m b2 r2 l0 t0 lines">4000</td>
+<td class="l m b2 r2 l0 t0 lines">5657</td>
+<td class="l m b2 r2 l0 t0 lines">8000</td>
+<td class="l m b2 r2 l0 t0 lines">11314</td>
+<td class="l m b2 r2 l0 t0 lines">16000</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Ratio</td>
+<td class="r m b2 r2 l0 t0 lines"></td>
+<td class="r m b2 r2 l0 t0 lines">1.4142</td>
+<td class="r m b2 r2 l0 t0 lines">1.4142</td>
+<td class="r m b2 r2 l0 t0 lines">1.4142</td>
+<td class="r m b2 r2 l0 t0 lines">1.4142</td>
+</tr>
+</table></div></figure><div class="para" id="subsection-exponential-application-7">Having emphasized that exponential data grows by a fixed ratio (multiple) every time unit, we can now work toward mathematical notation.</div>
+<article class="example example-like" id="example-exponential-model-lactobacillus"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.12</span><span class="period">.</span><span class="space"> </span><span class="title">First Exponential Model.</span>
 </h4>
-<div class="para" id="example-exponential-cat-video-1-1">A new cat video is posted and 12 people view it. Every 4 days after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.</div>
-<div class="solutions"><details id="example-exponential-cat-video-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-exponential-cat-video-2-1">
-<div class="para">We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is</div>
+<div class="para" id="example-exponential-model-lactobacillus-2">To obtain a model (equation) we will review our calculations from the previous example and note a pattern in those calculations.</div>
+<div class="para" id="example-exponential-model-lactobacillus-3">The initial amount (information we are given) is <span class="process-math">\(P_0 = 4000\text{.}\)</span> After 70 minutes all of  these split into two so the population is <span class="process-math">\(P_{70} = 4000(2) = 8000\text{.}\)</span> After 140 minutes they have all split into two a second time so the population is <span class="process-math">\(P_{140} = 4000(2)(2) = 16000\text{.}\)</span> After 210 minutes they have split a third time increasing the population to <span class="process-math">\(P_{210} = 4000(2)(2)(2) = 32000\text{.}\)</span> We repeatedly mutiply the initial amount by 2. This means we will have a power of 2 times the initial amount.</div>
+<div class="para" id="example-exponential-model-lactobacillus-4">The number of 2’s by which we multiply is determined by how many multiples of 70 minutes have expired. <span class="process-math">\(140/70 = 2\)</span> so we multiplied by <span class="process-math">\(2^2\text{.}\)</span> <span class="process-math">\(210/70=3\)</span> so we multiplied by <span class="process-math">\(2^3\text{.}\)</span> In general we multiply by two <span class="process-math">\(t/70\)</span> times.</div>
+<div class="para logical" id="example-exponential-model-lactobacillus-5">
+<div class="para">Putting these together implies we want to multiply the initial amount (4000 in this case) by two (double the population) for each of multiple of 70. This gives us</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P = 4000 \cdot 2^{t/70}\text{.}
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-exponential-model-lactobacillus-gram"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.13</span><span class="period">.</span><span class="space"> </span><span class="title">First Exponential Model Redux.</span>
+</h4>
+<div class="para" id="example-exponential-model-lactobacillus-gram-2">Of course we cannot actually count the number of cells in a colony of bacteria. It is easier to measure by mass (units of grams). If the number of cells has doubled then the mass will have about doubled as well.</div>
+<div class="para" id="example-exponential-model-lactobacillus-gram-3">Suppose 3 grams of lactobacillus acidophilus is placed in milk. What is a model for the mass of bacteria if it doubles every 70 minutes?</div>
+<div class="para logical" id="example-exponential-model-lactobacillus-gram-4">
+<div class="para">From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = 3(2^{t/70}).
+\end{equation*}
+</div>
+</div></article><div class="para" id="subsection-exponential-application-10">Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1.</div>
+<article class="example example-like" id="example-exponential-decay-barium"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-exponential-decay-barium-1">Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.</div>
+<div class="para logical" id="example-exponential-decay-barium-2">
+<div class="para">Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have <span class="process-math">\(7.000 \cdot \frac{1}{2} = 3.500\)</span> grams. Note the 1/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be <span class="process-math">\(7.000 \cdot \left(\frac{1}{2}\right)^2 = 1.750\text{.}\)</span> In general the amount left after <span class="process-math">\(t\)</span> years will be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = 7.000\left(\frac{1}{2}\right)^{t/10.551}.
+\end{equation*}
+</div>
+<div class="para">This could also be written as <span class="process-math">\(A = 7.000 \cdot 2^{-t/10.551}\text{.}\)</span>
+</div>
+</div></article><div class="para" id="subsection-exponential-application-12">Exponential relations are not all doubling or cutting in half. The ratio can be anything. Going viral on the internet could be (but is not always) an exponential growth of views.</div>
+<article class="example example-like" id="example-exponential-cat-video"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-exponential-cat-video-1">A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.</div>
+<div class="para" id="example-exponential-cat-video-2">To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be <span class="process-math">\(12(3)=36\)</span> views. The eighth day, there will be <span class="process-math">\(12(3)(3)=108\)</span> views. Each additional four days we multiply the result by 3.</div>
+<div class="para" id="example-exponential-cat-video-3">Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple <span class="process-math">\(24/4=6\)</span> times.</div>
+<div class="para logical" id="example-exponential-cat-video-4">
+<div class="para">To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is</div>
 <div class="displaymath process-math">
 \begin{equation*}
 v = 12(3^{d/4})
 \end{equation*}
 </div>
-</div></div></details></div></article><article class="exercise exercise-like" id="exercise-exponential-bacillus-megaterium"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.9</span><span class="period">.</span>
+</div></article><article class="exercise exercise-like" id="exercise-exponential-bacillus-megaterium"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.16</span><span class="period">.</span>
 </h4>
-<div class="para" id="exercise-exponential-bacillus-megaterium-1-1">The bacteria <dfn class="terminology">bacillus megaterium</dfn> grows exponentially. It forms a new generation every 25 minutes. Write an equation to model this grows supposing there are 30 g bacteria at the beginning.</div>
-<div class="solutions"><details id="exercise-exponential-bacillus-megaterium-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="exercise-exponential-bacillus-megaterium-2-1"><div class="displaymath process-math">
-\begin{equation*}
-b = 30(2^{t/25})
-\end{equation*}
-</div></div></div></details></div></article><div class="para logical" id="subsection-exponential-application-8">
-<div class="para">Note that in general these types of exponential growth models look like</div>
-<div class="displaymath process-math">
-\begin{equation*}
-P = P_0 (r^t)
-\end{equation*}
-</div>
-<div class="para">where <span class="process-math">\(P\)</span> is the current population (or count), <span class="process-math">\(P_0\)</span> is the initial population (or count), and <span class="process-math">\(r\)</span> is the rate at which the population grows (e.g., doubles, triples).</div>
-</div>
-<div class="para" id="subsection-exponential-application-9">To write the model (equation) we need to know an initial amount and the rate of increase or decrease.</div>
-<article class="example example-like" id="example-exponential-hares"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.10</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-exponential-hares-1-1">Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.</div>
-<div class="solutions"><details id="example-exponential-hares-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-exponential-hares-2-1">
-<div class="para">The initial population is <span class="process-math">\(P_0=320\text{.}\)</span> Because the rate is doubling, we know that <span class="process-math">\(r=2\text{.}\)</span> If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using <span class="process-math">\(t/200\text{.}\)</span> Note this means 200 gives doubling once (<span class="process-math">\(200/200=1\)</span>), and 400 gives doubling twice (<span class="process-math">\(400/200=2\)</span>).</div>
-<div class="displaymath process-math">
-\begin{equation*}
-P=320(2^{t/200})
-\end{equation*}
-</div>
-</div></div></details></div></article><div class="para" id="subsection-exponential-application-11">We learned in <a href="section-rates.html#subsection-quotients" class="internal" title="Subsection 3.3.2: Quotients">Subsection 3.3.2</a> that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.</div>
+<div id="momexercise-exponential-bacillus-megaterium-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-exponential-bacillus-megaterium-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1480013&amp;frame_id=momexercise-exponential-bacillus-megaterium-1"></iframe></div></article><div class="para" id="subsection-exponential-application-15">We learned in <a href="section-rates.html#subsection-quotients" class="internal" title="Subsection 3.3.2: Quotients">Subsection 3.3.2</a> that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.</div>
 <article class="example example-like" id="example-write-exponential-parameters"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.11</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.17</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-write-exponential-parameters-1-1">Tien’s initial salary was $52,429.33. He received a 5% raise each year. What should Tien’s salary be entering the sixth year?</div>
-<div class="solutions"><details id="example-write-exponential-parameters-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-write-exponential-parameters-2-1">
-<div class="para">Because the raise is a 5% increase, the percent is <span class="process-math">\(p=1.05\text{.}\)</span> The model then is</div>
+<div class="para" id="example-write-exponential-parameters-1">Tien’s initial salary was $52,429.33. He received a 5% raise each year. What should Tien’s salary be entering the sixth year?</div>
+<div class="para" id="example-write-exponential-parameters-2">Because the raise is a 5% increase, the percent is <span class="process-math">\(p=1.05\text{.}\)</span> Thus after one year his salary will be <span class="process-math">\(\$52,429.33(1.05)\text{.}\)</span> After two years his salary will be <span class="process-math">\(\$52,429.33(1.05)(1.05)\text{.}\)</span> This pattern will continue.</div>
+<div class="para logical" id="example-write-exponential-parameters-3">
+<div class="para">The model then is</div>
 <div class="displaymath process-math">
 \begin{equation*}
 S=\$52,429.33(1.05)^t
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(t\)</span> is the number of years since he was hired. Entering the sixth year would mean five raises. His salary would be</div>
+<div class="para">where <span class="process-math">\(t\)</span> is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be</div>
 <div class="displaymath process-math">
 \begin{equation*}
 S=\$52,429.33(1.05)^5 = \$66,914.59.
 \end{equation*}
 </div>
-</div></div></details></div></article><article class="example example-like" id="example-write-exponential-parameters-reverse"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.12</span><span class="period">.</span>
+</div></article><article class="example example-like" id="example-write-exponential-parameters-reverse"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.18</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-write-exponential-parameters-reverse-1-1">If Moses’ salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?</div>
-<div class="solutions"><details id="example-write-exponential-parameters-reverse-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-write-exponential-parameters-reverse-2-1">
+<div class="para" id="example-write-exponential-parameters-reverse-1">If Moses’ salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?</div>
+<div class="para logical" id="example-write-exponential-parameters-reverse-2">
 <div class="para">Because the raise is a 4% increase, the percent is <span class="process-math">\(p=1.04\text{.}\)</span> The model then is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -799,17 +903,19 @@ S=S_0(1.04)^t
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(t\)</span> is the number of years since he was hired, and <span class="process-math">\(S_0\)</span> is the initial salary. We can now solve for the initial salary.</div>
-<div class="displaymath process-math" id="example-write-exponential-parameters-reverse-2-1-5">
+<div class="displaymath process-math" id="example-write-exponential-parameters-reverse-2-5">
 \begin{align*}
 \$72,311.54 \amp = S_0(1.04)^6.\\
-\$72,311.54 \amp = S_0(1.2653).\\
-\frac{\$72,311.54}{1.2653} \amp = \frac{S_0(1.2653)}{1.2653}.\\
-\$57,149.72 \amp = S_0.
+\$72,311.54 \amp \approx S_0(1.2653).\\
+\frac{\$72,311.54}{1.2653} \amp \approx \frac{S_0(1.2653)}{1.2653}.\\
+\$57,149.72 \amp \approx S_0.
 \end{align*}
 </div>
-<div class="para">Note, because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.</div>
-</div></div></details></div></article><article class="example example-like" id="example-write-exponential-parameters-one-pt"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.13</span><span class="period">.</span>
+<div class="para">Because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.</div>
+</div></article><div class="para" id="subsection-exponential-application-18">In the previous example we rounded in the second step to 4 decimal places. Was this the right choice? We can test by trying the calculation with fewer decimal places. If we had rounded to 5 places, the last step would have been <span class="process-math">\(\frac{\$72,311.54}{1.26532} \approx \$57,148.82\text{.}\)</span> If we had rounded to 6 places, the last step would have been <span class="process-math">\(\frac{\$72,311.54}{1.265319} \approx \$57,148.86\text{.}\)</span> If we had rounded to 7 places, the last step would have been <span class="process-math">\(\frac{\$72,311.54}{1.265320} \approx \$57,148.86\text{.}\)</span> Likewise testing 8 places would not change the amount. Thus any more than 6 places is not enough to change the result. However, was the 4 places result bad? The amounts between the roundings are different from each other but not by enough to impact anyone’s life. Remember rounding is often about being practical: if the variation we round away has no impact, why bother with all the extra work?</div>
+<div class="para" id="subsection-exponential-application-19">Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but it requires a technique from <a href="section-roots.html" class="internal" title="Section 5.3: Roots">Section 5.3</a>.</div>
+<article class="example example-like" id="example-write-exponential-parameters-one-pt"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.19</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-write-exponential-parameters-one-pt-1-1">We will calculate the percent increase given initial and final salaries. If Raven’s initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?</div>
 <div class="solutions"><details id="example-write-exponential-parameters-one-pt-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-write-exponential-parameters-one-pt-2-1">
@@ -829,24 +935,62 @@ S = 53242.17(1.04)^t
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(t\)</span> is time in years.</div>
-</div></div></details></div></article></section><section class="subsection" id="subsection-exponential-interp"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.4</span><span class="space"> </span><span class="title">Interpretation of Exponentials</span>
+</div></div></details></div></article></section><section class="subsection" id="subsection-exponential-models"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.1.3</span><span class="space"> </span><span class="title">Two Exponential Models</span>
 </h3>
-<div class="para logical" id="subsection-exponential-interp-2">
-<div class="para">There is more than one way to interpret the base (e.g., the 7 in <span class="process-math">\(P=5(7^n)\)</span>). When it is an integer like 2 (<span class="process-math">\(P=5(2^n)\)</span>) or 3 (<span class="process-math">\(P=7(3^n)\)</span>) it tells us that the data is doubling or tripling. When the base looks like 1.053 (<span class="process-math">\(P=100(1.053)^n\)</span>) it tells us the percent increase. In this example this represents a 5.3% increase. Recall from <a href="section-percent.html#subsection-percent-increase" class="internal" title="Subsection 2.1.2: Percent Increase/Decrease">Subsection 2.1.2</a> that a 3% decrease is represented by <span class="process-math">\(100\%-3\%=97\%\text{.}\)</span> In an exponential model this would look like <span class="process-math">\(P=100(0.97)^n\text{.}\)</span> Generally interpreted as a percent the exponential model is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subsection-percent-increase.html">
+<div class="para" id="subsection-exponential-models-2">Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two models.</div>
+<article class="fact theorem-like" id="model-exponential-rate"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">6.1.20</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Growth (rate).</span>
+</h4>
+<div class="para logical" id="model-exponential-rate-2-1">
+<div class="para">An amount that is growing exponentially with respect to time is given by</div>
+<div class="displaymath process-math">
 \begin{equation*}
-P=P_0(r)^n=P_0(1 \pm p)^n.
+A = A_0\left( r^{t/d} \right)
 \end{equation*}
 </div>
-</div>
-<article class="example example-like" id="example-percent-increase-read"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.14</span><span class="period">.</span>
+<div class="para">where</div>
+<ul class="disc" id="model-exponential-rate-2-1-2">
+<li id="model-exponential-rate-2-1-2-1"><div class="para" id="p-derived-model-exponential-rate-2-1-2-1">
+<span class="process-math">\(A\)</span> is the final amount (units vary)</div></li>
+<li id="model-exponential-rate-2-1-2-2"><div class="para" id="p-derived-model-exponential-rate-2-1-2-2">
+<span class="process-math">\(A_0\)</span> is the initial amount (same units as <span class="process-math">\(A\)</span>)</div></li>
+<li id="model-exponential-rate-2-1-2-3"><div class="para" id="p-derived-model-exponential-rate-2-1-2-3">
+<span class="process-math">\(r\)</span> is the doubling (<span class="process-math">\(r=2\)</span>), trebling (<span class="process-math">\(r=3\)</span>), or other increase. It is unitless.</div></li>
+<li id="model-exponential-rate-2-1-2-4"><div class="para" id="p-derived-model-exponential-rate-2-1-2-4">
+<span class="process-math">\(t\)</span> is the amount of time (units typically days/hours/minutes)</div></li>
+<li id="model-exponential-rate-2-1-2-5"><div class="para" id="p-derived-model-exponential-rate-2-1-2-5">
+<span class="process-math">\(d\)</span> is how long until the increase occurs (same units as <span class="process-math">\(t\)</span>)</div></li>
+</ul>
+</div></article><article class="fact theorem-like" id="model-exponential-percent"><h4 class="heading">
+<span class="type">Fact</span><span class="space"> </span><span class="codenumber">6.1.21</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Growth (percent).</span>
 </h4>
-<div class="para" id="example-percent-increase-read-1-1">Suppose <span class="process-math">\(P=100(1.032)^t\)</span> where <span class="process-math">\(t\)</span> is the number of years. What is the annual percent increase?</div>
-<div class="solutions"><details id="example-percent-increase-read-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-percent-increase-read-2-1">
+<div class="para logical" id="model-exponential-percent-2-1">
+<div class="para">An amount that is growing exponentially with respect to time is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A = A_0\left(1+p \right)^t
+\end{equation*}
+</div>
+<div class="para">where</div>
+<ul class="disc" id="model-exponential-percent-2-1-2">
+<li id="model-exponential-percent-2-1-2-1"><div class="para" id="p-derived-model-exponential-percent-2-1-2-1">
+<span class="process-math">\(A\)</span> is the final amount (units vary)</div></li>
+<li id="model-exponential-percent-2-1-2-2"><div class="para" id="p-derived-model-exponential-percent-2-1-2-2">
+<span class="process-math">\(A_0\)</span> is the initial amount (same units as <span class="process-math">\(A\)</span>)</div></li>
+<li id="model-exponential-percent-2-1-2-3"><div class="para" id="p-derived-model-exponential-percent-2-1-2-3">
+<span class="process-math">\(p\)</span> is the percent increase or decrease. It is unitless.</div></li>
+<li id="model-exponential-percent-2-1-2-4"><div class="para" id="p-derived-model-exponential-percent-2-1-2-4">
+<span class="process-math">\(t\)</span> is the amount of time (units typically days/hours/minutes)</div></li>
+</ul>
+</div></article><div class="para" id="subsection-exponential-models-5">It is possible to convert from one form to the other. The following examples demonstrate using these models, determining the percent increase/decrease, and converting between forms.</div>
+<article class="example example-like" id="example-percent-increase-read"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.22</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-percent-increase-read-1">Suppose <span class="process-math">\(P=100(1.032)^t\)</span> where <span class="process-math">\(t\)</span> is the number of years. What is the annual percent increase?</div>
+<div class="para logical" id="example-percent-increase-read-2">
 <div class="para">We know that</div>
-<div class="displaymath process-math" id="example-percent-increase-read-2-1-1">
+<div class="displaymath process-math" id="example-percent-increase-read-2-1">
 \begin{align*}
 1.032 \amp = 1+p\\
 1.032-1 \amp = p\\
@@ -854,23 +998,24 @@ P=P_0(r)^n=P_0(1 \pm p)^n.
 \end{align*}
 </div>
 <div class="para">so this is a 3.2% increase.</div>
-</div></div></details></div></article><article class="example example-like" id="example-percent-decrease-read"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.15</span><span class="period">.</span>
+</div></article><div class="para" id="subsection-exponential-models-7">Before we can change that form into one that shows us how long until it doubles, we will need to learn another function. We will do this in <a href="section-log-solve.html" class="internal" title="Section 6.4: Solving Equations Using Logarithm">Section 6.4</a>.</div>
+<article class="example example-like" id="example-percent-decrease-read"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.23</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-percent-decrease-read-1-1">Suppose <span class="process-math">\(P=100(0.88)^t\)</span> where <span class="process-math">\(t\)</span> is the number of years. What is the annual percent decrease?</div>
-<div class="solutions"><details id="example-percent-decrease-read-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-percent-decrease-read-2-1">
+<div class="para" id="example-percent-decrease-read-1">Suppose <span class="process-math">\(P=100(0.88)^t\)</span> where <span class="process-math">\(t\)</span> is the number of years. What is the annual percent decrease?</div>
+<div class="para logical" id="example-percent-decrease-read-2">
 <div class="para">We know that</div>
-<div class="displaymath process-math" id="example-percent-decrease-read-2-1-1">
+<div class="displaymath process-math" id="example-percent-decrease-read-2-1">
 \begin{align*}
-0.88 \amp = 1-p\\
-0.88-1 \amp = -p\\
--0.12 \amp = -p\\
-0.12 \amp = p
+0.88 \amp = 1+p\\
+0.88-1 \amp = p\\
+-0.12 \amp = p
 \end{align*}
 </div>
 <div class="para">so this is a 12% decrease.</div>
-</div></div></details></div></article><article class="example example-like" id="example-percent-increase-decrease"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.16</span><span class="period">.</span>
+</div></article><div class="para" id="subsection-exponential-models-9">Generally if the value <span class="process-math">\(1+p\)</span> is greater than one this is an increasing rate and if it is less than one it is a decreasing rate.</div>
+<article class="example example-like" id="example-percent-increase-decrease"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.24</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-percent-increase-decrease-1-1">Suppose <span class="process-math">\(P=230(1.03)^t\text{.}\)</span> Is this increase or decrease and what is the percent increase/decrease?</div>
 <div class="solutions"><details id="example-percent-increase-decrease-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-percent-increase-decrease-2-1">
@@ -883,142 +1028,160 @@ P=P_0(r)^n=P_0(1 \pm p)^n.
 \end{align*}
 </div>
 <div class="para">Thus this is a 3% increase.</div>
-</div></div></details></div></article><div class="para" id="subsection-exponential-interp-6">Even when the exponential model is expressed in terms of fractions, we can determine the percent increase or decrease.</div>
+</div></div></details></div></article><div class="para logical" id="subsection-exponential-models-11">
+<div class="para">Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing that <span class="process-math">\(2^{t/3}=(2^3)^t=8^t\)</span> or in general</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B^{t/r}=(B^r)^t.
+\end{equation*}
+</div>
+</div>
 <article class="example example-like" id="example-convert-percent-increase"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.17</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.25</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-convert-percent-increase-1-1">In the exponential model <span class="process-math">\(P=342\left(\frac{7}{5}\right)^n\)</span> what is the percent increase or decrease?</div>
-<div class="solutions"><details id="example-convert-percent-increase-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-convert-percent-increase-2-1">We convert the fraction <span class="process-math">\(7/5\)</span> to decimal: 1.40. Because it is bigger than one it is a percent increase. Note <span class="process-math">\(1.40=1+0.40\text{,}\)</span> so this is a 40% increase.</div></div></details></div></article><article class="example example-like" id="example-convert-percent-decrease"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.18</span><span class="period">.</span>
+<div class="para" id="example-convert-percent-increase-1">In the exponential model <span class="process-math">\(P=342\left( 2 \right)^{t/2.06}\)</span> what is the percent increase or decrease? Note these numbers are measurements.</div>
+<div class="para logical" id="example-convert-percent-increase-2">
+<div class="para">First, we use the algebra above to convert the form</div>
+<div class="displaymath process-math" id="example-convert-percent-increase-2-1">
+\begin{align*}
+\left( 2 \right)^{t/2.06} &amp; = \\
+\left( 2^{\frac{1}{2.06}} \right)^t &amp; \approx 1.400009768^t\\
+&amp; \approx 1.40^t
+\end{align*}
+</div>
+<div class="para">Because 1.4 is bigger than one it is a percent increase. Note <span class="process-math">\(1.40=1+0.40\text{,}\)</span> so this is a 40% increase.</div>
+</div>
+<div class="para" id="example-convert-percent-increase-3">For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).</div></article><article class="example example-like" id="example-convert-percent-decrease"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.26</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-convert-percent-decrease-1-1">In the exponential model <span class="process-math">\(P=342\left(\frac{39}{40}\right)^n\)</span> what is the percent increase or decrease?</div>
-<div class="solutions"><details id="example-convert-percent-decrease-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-convert-percent-decrease-2-1">We convert the fraction <span class="process-math">\(39/40\)</span> to decimal: 0.975. Because it is less than one it is a percent decrease. Note <span class="process-math">\(1-0.975=0.025\text{,}\)</span> so this is a 2.5% decrease.</div></div></details></div></article><div class="para" id="subsection-exponential-interp-9">A common base for exponentials in many scientific models is <span class="process-math">\(e\text{.}\)</span> We can work with this base using calculation devices which will have an <span class="process-math">\(e^x\)</span> button or an <span class="process-math">\(\text{exp}(x)\)</span> function.</div>
+<div class="para" id="example-convert-percent-decrease-1-1">In the exponential model <span class="process-math">\(P=342\left( 2 \right)^{-t/27}\)</span> what is the percent increase or decrease?</div>
+<div class="solutions"><details id="example-convert-percent-decrease-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-convert-percent-decrease-2-1">
+<div class="para">First, we use the algebra above to convert the form</div>
+<div class="displaymath process-math" id="example-convert-percent-decrease-2-1-1">
+\begin{align*}
+\left( 2 \right)^{-t/27} &amp; = \\
+\left( 2^{\frac{-1}{27}} \right)^t &amp; = 0.9746546091^t\\
+&amp; \approx (0.97)^t
+\end{align*}
+</div>
+<div class="para">Because 0.97 is less than one it is a percent decrease. Note <span class="process-math">\(1-0.97=0.03\text{,}\)</span> so this is a 3% decrease.</div>
+</div>
+<div class="para" id="example-convert-percent-decrease-2-2">We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.</div>
+</div></details></div></article><article class="exercise exercise-like" id="subsection-exponential-models-14"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.27</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-exponential-models-14-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-exponential-models-14-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1480570&amp;frame_id=momsubsection-exponential-models-14-1"></iframe></div></article><div class="para" id="subsection-exponential-models-15">A common base for exponentials in many scientific models is <span class="process-math">\(e\text{.}\)</span> We can work with this base using calculation devices which will have an <span class="process-math">\(e^x\)</span> button or an <span class="process-math">\(\text{exp}(x)\)</span> function.</div>
 <article class="example example-like" id="example-convert-exp-percent"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.19</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.28</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-convert-exp-percent-1-1">What is the percent increase or decrease for the exponential model <span class="process-math">\(P=27e^{0.02t}\text{?}\)</span>
+<div class="para" id="example-convert-exp-percent-1">What is the percent increase or decrease for the exponential model <span class="process-math">\(P=27e^{0.0200t}\text{?}\)</span>
 </div>
-<div class="solutions"><details id="example-convert-exp-percent-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-convert-exp-percent-2-1">Just as with the fractions we convert to decimal. Note that we can also write the model <span class="process-math">\(P=27(e^{0.02})^t\text{.}\)</span> Do you see the difference? <span class="process-math">\(e^{0.02} \approx 1.0202\text{.}\)</span> Thus this is a percent increase of 2.02%.</div></div></details></div></article><article class="exercise exercise-like" id="exercise-exponential-percent-increase"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.20</span><span class="period">.</span>
+<div class="para" id="example-convert-exp-percent-2">Just as with the fractions we convert to decimal. Note that we can also write the model <span class="process-math">\(P=27(e^{0.0200})^t\text{.}\)</span> Do you see the difference? <span class="process-math">\(e^{0.0200} \approx 1.02\)</span> which we found using a device. Thus this is a percent increase of 2%.</div></article><article class="exercise exercise-like" id="exercise-exponential-percent-increase"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.1.29</span><span class="period">.</span>
 </h4>
-<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VyUmFkaW9CdXR0b25zLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTskZXhwcmVzc2lvbnMgPSBSYWRpb0J1dHRvbnMoWyJJbmNyZWFzZSIsIkRlY3JlYXNlIl0sIDApOwoKQkVHSU5fUEdNTApJbiB0aGUgbW9kZWwgW2BQPTE3M2VeezAuMDV0fWBdIHdoYXQgaXMgdGhlIHBlcmNlbnQgaW5jcmVhc2Ugb3IgZGVjcmVhc2UgKDIgZGVjaW1hbCBwbGFjZXMpPwoKSXQgaXMgYSBwZXJjZW50IFtfXXskZXhwcmVzc2lvbnN9ezV9IG9mIFtfXXsnNS4xMyd9ezR9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgY2FsY3VsYXRlIFtgZV57MC4wNX0gXGFwcHJveCAxLjA1MTI3MTA5Nlx0ZXh0ey59YF0gVGhpcyBpcyBncmVhdGVyIHRoYW4gb25lIHNvIGl0IGlzIGEgcGVyY2VudCBpbmNyZWFzZS4gVGhlIHBlcmNlbnQgaXMgNS4xMwoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-1-1-1-1">In the model <span class="process-math">\(P=173e^{0.05t}\)</span> what is the percent increase or decrease (2 decimal places)?</div> <div class="para logical" id="extracted-webwork-1-1-1-2">
-<div class="para">It is a percent</div>
-<ul class="circle" id="extracted-webwork-1-1-1-2-1">
-<li id="extracted-webwork-1-1-1-2-1-1"><div class="para" id="extracted-webwork-1-1-1-2-1-1-1">Increase</div></li>
-<li id="extracted-webwork-1-1-1-2-1-2"><div class="para" id="extracted-webwork-1-1-1-2-1-2-1">Decrease</div></li>
-</ul>
-<div class="para">of <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
-</div>
-</div>
-<div class="solutions">
-<details id="extracted-webwork-1-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-1-1-2-1"><span class="process-math">\(\text{Increase}\)</span></div></div></details><details id="extracted-webwork-1-1-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-1-1-3-1"><span class="process-math">\(5.13\)</span></div></div></details><details id="extracted-webwork-1-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="extracted-webwork-1-1-4-1">We calculate <span class="process-math">\(e^{0.05} \approx 1.051271096\text{.}\)</span> This is greater than one so it is a percent increase. The percent is 5.13</div></div></details>
-</div>
-</div>
-</div></article></section><section class="exercises" id="section-exponential-7"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">6.1.5</span><span class="space"> </span><span class="title">Exercises</span>
+<div id="momexercise-exponential-percent-increase-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-exponential-percent-increase-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1480536&amp;frame_id=momexercise-exponential-percent-increase-1"></iframe></div></article></section><section class="exercises" id="section-exponential-6"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">6.1.4</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
-<div class="exercisegroup" id="section-exponential-7-1">
+<div class="exercisegroup" id="section-exponential-6-1">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="section-exponential-7-1-1"><div class="para" id="section-exponential-7-1-1-1">Calculate results for exponential relations.</div></div>
+<div class="introduction" id="section-exponential-6-1-1"><div class="para" id="section-exponential-6-1-1-1">Calculate results for exponential relations.</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-exponential-7-1-2"><h5 class="heading">
+<article class="exercise exercise-like" id="section-exponential-6-1-2"><h5 class="heading">
 <span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-1-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-7-1-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-3"><h5 class="heading">
+<div id="momsection-exponential-6-1-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-6-1-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-3"><h5 class="heading">
 <span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-1-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-7-1-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-4"><h5 class="heading">
+<div id="momsection-exponential-6-1-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-6-1-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-4"><h5 class="heading">
 <span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-1-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-7-1-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-5"><h5 class="heading">
+<div id="momsection-exponential-6-1-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820203&amp;frame_id=momsection-exponential-6-1-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-5"><h5 class="heading">
 <span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-1-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-7-1-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-6"><h5 class="heading">
+<div id="momsection-exponential-6-1-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-6-1-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-6"><h5 class="heading">
 <span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-1-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-7-1-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-7"><h5 class="heading">
+<div id="momsection-exponential-6-1-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-6-1-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-7"><h5 class="heading">
 <span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-1-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-7-1-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-8"><h5 class="heading">
+<div id="momsection-exponential-6-1-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820234&amp;frame_id=momsection-exponential-6-1-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-8"><h5 class="heading">
 <span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-1-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=34501&amp;frame_id=momsection-exponential-7-1-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-9"><h5 class="heading">
+<div id="momsection-exponential-6-1-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=34501&amp;frame_id=momsection-exponential-6-1-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-9"><h5 class="heading">
 <span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Faux Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2639&amp;frame_id=momsection-exponential-7-1-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-10"><h5 class="heading">
+<div id="momsection-exponential-6-1-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2639&amp;frame_id=momsection-exponential-6-1-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-10"><h5 class="heading">
 <span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820197&amp;frame_id=momsection-exponential-7-1-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-11"><h5 class="heading">
+<div id="momsection-exponential-6-1-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=820197&amp;frame_id=momsection-exponential-6-1-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-11"><h5 class="heading">
 <span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2555&amp;frame_id=momsection-exponential-7-1-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-12"><h5 class="heading">
+<div id="momsection-exponential-6-1-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2555&amp;frame_id=momsection-exponential-6-1-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-12"><h5 class="heading">
 <span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=915429&amp;frame_id=momsection-exponential-7-1-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-13"><h5 class="heading">
+<div id="momsection-exponential-6-1-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=915429&amp;frame_id=momsection-exponential-6-1-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-13"><h5 class="heading">
 <span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3587&amp;frame_id=momsection-exponential-7-1-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-14"><h5 class="heading">
+<div id="momsection-exponential-6-1-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3587&amp;frame_id=momsection-exponential-6-1-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-14"><h5 class="heading">
 <span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2645&amp;frame_id=momsection-exponential-7-1-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-15"><h5 class="heading">
+<div id="momsection-exponential-6-1-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2645&amp;frame_id=momsection-exponential-6-1-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-15"><h5 class="heading">
 <span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2646&amp;frame_id=momsection-exponential-7-1-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-16"><h5 class="heading">
+<div id="momsection-exponential-6-1-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2646&amp;frame_id=momsection-exponential-6-1-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-16"><h5 class="heading">
 <span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=225121&amp;frame_id=momsection-exponential-7-1-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-17"><h5 class="heading">
+<div id="momsection-exponential-6-1-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=225121&amp;frame_id=momsection-exponential-6-1-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-17"><h5 class="heading">
 <span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=915440&amp;frame_id=momsection-exponential-7-1-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-18"><h5 class="heading">
+<div id="momsection-exponential-6-1-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=915440&amp;frame_id=momsection-exponential-6-1-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-18"><h5 class="heading">
 <span class="codenumber">17<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436228&amp;frame_id=momsection-exponential-7-1-18-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-1-19"><h5 class="heading">
+<div id="momsection-exponential-6-1-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436228&amp;frame_id=momsection-exponential-6-1-18-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-19"><h5 class="heading">
 <span class="codenumber">18<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-7-1-19-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-1-19-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436224&amp;frame_id=momsection-exponential-7-1-19-2"></iframe></div></article>
+<div id="momsection-exponential-6-1-19-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-19-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436224&amp;frame_id=momsection-exponential-6-1-19-2"></iframe></div></article>
 </div>
 </div>
-<div class="exercisegroup" id="section-exponential-7-2">
+<div class="exercisegroup" id="section-exponential-6-2">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="section-exponential-7-2-1"><div class="para" id="section-exponential-7-2-1-1">Graph exponential relations</div></div>
+<div class="introduction" id="section-exponential-6-2-1"><div class="para" id="section-exponential-6-2-1-1">Graph exponential relations</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-exponential-7-2-2"><h5 class="heading">
+<article class="exercise exercise-like" id="section-exponential-6-2-2"><h5 class="heading">
 <span class="codenumber">19<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-2-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1498&amp;frame_id=momsection-exponential-7-2-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-3"><h5 class="heading">
+<div id="momsection-exponential-6-2-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1498&amp;frame_id=momsection-exponential-6-2-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-3"><h5 class="heading">
 <span class="codenumber">20<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-2-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1762&amp;frame_id=momsection-exponential-7-2-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-4"><h5 class="heading">
+<div id="momsection-exponential-6-2-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1762&amp;frame_id=momsection-exponential-6-2-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-4"><h5 class="heading">
 <span class="codenumber">21<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-2-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3600&amp;frame_id=momsection-exponential-7-2-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-5"><h5 class="heading">
+<div id="momsection-exponential-6-2-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3600&amp;frame_id=momsection-exponential-6-2-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-5"><h5 class="heading">
 <span class="codenumber">22<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-2-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3606&amp;frame_id=momsection-exponential-7-2-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-6"><h5 class="heading">
+<div id="momsection-exponential-6-2-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3606&amp;frame_id=momsection-exponential-6-2-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-6"><h5 class="heading">
 <span class="codenumber">23<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-2-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3607&amp;frame_id=momsection-exponential-7-2-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-7"><h5 class="heading">
+<div id="momsection-exponential-6-2-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3607&amp;frame_id=momsection-exponential-6-2-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-7"><h5 class="heading">
 <span class="codenumber">24<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-2-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=99678&amp;frame_id=momsection-exponential-7-2-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-8"><h5 class="heading">
+<div id="momsection-exponential-6-2-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=99678&amp;frame_id=momsection-exponential-6-2-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-8"><h5 class="heading">
 <span class="codenumber">25<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
 </h5>
-<div id="momsection-exponential-7-2-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=114632&amp;frame_id=momsection-exponential-7-2-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-9"><h5 class="heading">
+<div id="momsection-exponential-6-2-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=114632&amp;frame_id=momsection-exponential-6-2-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-9"><h5 class="heading">
 <span class="codenumber">26<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
 </h5>
-<div id="momsection-exponential-7-2-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-7-2-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-10"><h5 class="heading">
+<div id="momsection-exponential-6-2-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-6-2-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-10"><h5 class="heading">
 <span class="codenumber">27<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
 </h5>
-<div id="momsection-exponential-7-2-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-7-2-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-11"><h5 class="heading">
+<div id="momsection-exponential-6-2-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-6-2-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-11"><h5 class="heading">
 <span class="codenumber">28<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
 </h5>
-<div id="momsection-exponential-7-2-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-7-2-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-7-2-12"><h5 class="heading">
+<div id="momsection-exponential-6-2-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-6-2-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-12"><h5 class="heading">
 <span class="codenumber">29<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
 </h5>
-<div id="momsection-exponential-7-2-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-7-2-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-7-2-12-2"></iframe></div></article>
+<div id="momsection-exponential-6-2-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-6-2-12-2"></iframe></div></article>
 </div>
 </div></section></section></div>
 <div class="ptx-content-footer">

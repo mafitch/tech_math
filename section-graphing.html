@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.3.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -441,10 +441,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-6" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -739,13 +738,8 @@ eBookConfig.enable_chatcodes =  false;
 </h4>
 <div class="introduction" id="exercise-read-bar-graph-1"><div class="para" id="exercise-read-bar-graph-1-1">Consider <a href="section-graphing.html#figure-salary-inflation" class="xref" data-knowl="./knowl/xref/figure-salary-inflation.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.23">Figure 3.2.23</a>. It contains Guido’s annual salary for each year listed. The second bar is the first year’s salary increased each year to match inflation. That is it shows what Guido’s salary would have been if his raises had exactly matched inflation.</div></div>
 <article class="task exercise-like" id="exercise-read-bar-graph-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="exercise-read-bar-graph-2-1-1">In which years did Guido receive a raise?</div>
-<div class="solutions"><details id="exercise-read-bar-graph-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="exercise-read-bar-graph-2-2-1">The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.</div></div></details></div></article><article class="task exercise-like" id="exercise-read-bar-graph-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="exercise-read-bar-graph-3-1-1">In which years did Guido’s salary appear to grow at least as much as inflation?</div>
-<div class="solutions"><details id="exercise-read-bar-graph-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="exercise-read-bar-graph-3-2-1">We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.</div>
-<div class="para" id="exercise-read-bar-graph-3-2-2">We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.</div>
-</div></details></div></article></article><figure class="figure figure-like" id="figure-salary-inflation"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/salary-inflation-comparison.svg" role="img" class="contained"></div>
+<div class="para" id="exercise-read-bar-graph-2-1-1">In which years did Guido receive a raise?</div></article><article class="task exercise-like" id="exercise-read-bar-graph-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exercise-read-bar-graph-3-1-1">In which years did Guido’s salary appear to grow at least as much as inflation?</div></article></article><figure class="figure figure-like" id="figure-salary-inflation"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/salary-inflation-comparison.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.23<span class="period">.</span></span><span class="space"> </span>Salary vs Inflation</figcaption></figure></section><section class="subsection" id="subsection-analyze-using-graphs"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="space"> </span><span class="title">Using Graphs to Analyze Models</span>
 </h3>

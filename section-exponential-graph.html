@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.3';
+eBookConfig.runestone_version = '7.3.3';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -441,10 +441,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-even-faster" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Faster than Exponential</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Applications</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-interp" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Interpretation of Exponentials</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-7" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-6" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section active">
@@ -603,7 +602,7 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.7</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-exponential-decrease1-1">
-<div class="para">In <a href="section-exponential.html#exercise-exponential-bacillus-megaterium" class="xref" data-knowl="./knowl/xref/exercise-exponential-bacillus-megaterium.html" data-reveal-label="Reveal" data-close-label="Close" title="Checkpoint 6.1.9">Checkpoint 6.1.9</a> we determined that the amount of bacteria was modeled by</div>
+<div class="para">In <a href="section-exponential.html#exercise-exponential-bacillus-megaterium" class="xref" data-knowl="./knowl/xref/exercise-exponential-bacillus-megaterium.html" data-reveal-label="Reveal" data-close-label="Close" title="Checkpoint 6.1.16">Checkpoint 6.1.16</a> we determined that the amount of bacteria was modeled by</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/exercise-exponential-bacillus-megaterium.html">
 \begin{equation*}
 b = 30(2^{t/25})\text{.}
@@ -655,7 +654,7 @@ b = 30(2^{t/25})\text{.}
 <div class="solutions"><details id="exponential-decrease-radioactive-decay-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="exponential-decrease-radioactive-decay-2-2-1">At time 0 we have <span class="process-math">\(13\bar{0}\)</span> g. At time 16.8 it will be half of the original which is <span class="process-math">\(65\)</span> g. At time 33.6 it will be reduced by half twice (<span class="process-math">\(33.6/18.8=2\)</span>). Thus there will be <span class="process-math">\(\frac{13\bar{0}}{2 \cdot 2} \approx 33\)</span> g. At time 50.4 it will be reduced by half three times (<span class="process-math">\(50.4/16.8=3\)</span>), so the amount remaining will be <span class="process-math">\(\frac{13\bar{0}}{2 \cdot 2 \cdot 2} \approx 17\)</span> g.</div></div></details></div></article><article class="task exercise-like" id="exponential-decrease-radioactive-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="exponential-decrease-radioactive-decay-3-1-1">Write a model for this decay.</div>
 <div class="solutions"><details id="exponential-decrease-radioactive-decay-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="exponential-decrease-radioactive-decay-3-2-1">
-<div class="para">We can use the process from <a href="section-exponential.html#subsection-exponential-application" class="internal" title="Subsection 6.1.3: Applications">Subsection 6.1.3</a>. The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is <span class="process-math">\(\frac{1}{2}\text{.}\)</span>
+<div class="para">We can use the process from <a href="section-exponential.html#subsection-exponential-application" class="internal" title="Subsection 6.1.2: Applications">Subsection 6.1.2</a>. The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is <span class="process-math">\(\frac{1}{2}\text{.}\)</span>
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subsection-exponential-application.html">
 \begin{equation*}
@@ -671,21 +670,11 @@ A = 13\bar{0}\left(\frac{1}{2}\right)^{t/16.8}
 </div></details></div></article></article><article class="exercise exercise-like" id="exercise-exponential-medicine-half-life"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.2.9</span><span class="period">.</span>
 </h4>
-<div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKQXRlbm9sb2wgaGFzIGEgaGFsZiBsaWZlIG9mIDYtNyBob3VycyBkZXBlbmRpbmcgb24gcGF0aWVudCBmYWN0b3JzLiBGb3IgdGhpcyBwcm9ibGVtIHVzZSBhIGhhbGYgbGlmZSBvZiA2IGhvdXJzLiBTdXBwb3NlIFZpY3RvciBpcyBwcmVzY3JpYmVkIFtgNVxiYXJ7MH1gXSBtZy9kYXkuIElmIFZpY3RvciB0YWtlcyBoaXMgZmlyc3QgNTAgbWcgcGlsbCBNb25kYXkgbW9ybmluZywgaG93IG11Y2ggaXMgc3RpbGwgaW4gaGlzIGJsb29kIFR1ZXNkYXkgbW9ybmluZyBhdCB0aGUgc2FtZSB0aW1lPyBbX117JzMnfXs0fQoKR3JhcGggdGhlIGFtb3VudCBvZiBhdGVub2xvbCBpbiBoaXMgYmxvb2QgZm9yIHRoZSBmaXJzdCBkYXkuCgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KQSBkYXkgaXMgMjQgaG91cnMgc28gdGhlcmUgYXJlIFtgMjQvNj00YF0gdGltZXMgdGhhdCB0aGUgYW1vdW50IG9mIHRoZSBkcnVnIGluIHRoZSBib2R5IHdpbGwgYmUgcmVkdWNlZCBieSBoYWxmLiBCZWNhdXNlIHRoZSBpbml0aWFsIGFtb3VudCB3YXMgW2A1XGJhcnswfWBdIG1nIHRoZSBhbW91bnQgdGhlIG5leHQgZGF5IGlzCgpbYGBgXGZyYWN7NTB9ezJeNH0gXGFwcHJveCAzYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
+<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKQXRlbm9sb2wgaGFzIGEgaGFsZiBsaWZlIG9mIDYtNyBob3VycyBkZXBlbmRpbmcgb24gcGF0aWVudCBmYWN0b3JzLiBGb3IgdGhpcyBwcm9ibGVtIHVzZSBhIGhhbGYgbGlmZSBvZiA2IGhvdXJzLiBTdXBwb3NlIFZpY3RvciBpcyBwcmVzY3JpYmVkIFtgNVxiYXJ7MH1gXSBtZy9kYXkuIElmIFZpY3RvciB0YWtlcyBoaXMgZmlyc3QgNTAgbWcgcGlsbCBNb25kYXkgbW9ybmluZywgaG93IG11Y2ggaXMgc3RpbGwgaW4gaGlzIGJsb29kIFR1ZXNkYXkgbW9ybmluZyBhdCB0aGUgc2FtZSB0aW1lPyBbX117JzMnfXs0fQoKR3JhcGggdGhlIGFtb3VudCBvZiBhdGVub2xvbCBpbiBoaXMgYmxvb2QgZm9yIHRoZSBmaXJzdCBkYXkuCgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KQSBkYXkgaXMgMjQgaG91cnMgc28gdGhlcmUgYXJlIFtgMjQvNj00YF0gdGltZXMgdGhhdCB0aGUgYW1vdW50IG9mIHRoZSBkcnVnIGluIHRoZSBib2R5IHdpbGwgYmUgcmVkdWNlZCBieSBoYWxmLiBCZWNhdXNlIHRoZSBpbml0aWFsIGFtb3VudCB3YXMgW2A1XGJhcnswfWBdIG1nIHRoZSBhbW91bnQgdGhlIG5leHQgZGF5IGlzCgpbYGBgXGZyYWN7NTB9ezJeNH0gXGFwcHJveCAzYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-2-1-1-1">Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6 hours. Suppose Victor is prescribed <span class="process-math">\(5\bar{0}\)</span> mg/day. If Victor takes his first 50 mg pill Monday morning, how much is still in his blood Tuesday morning at the same time? <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
-</div> <div class="para" id="extracted-webwork-2-1-1-2">Graph the amount of atenolol in his blood for the first day.</div>
-<div class="solutions">
-<details id="extracted-webwork-2-1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="extracted-webwork-2-1-2-1"><span class="process-math">\(3\)</span></div></div></details><details id="extracted-webwork-2-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="extracted-webwork-2-1-3-1">A day is 24 hours so there are <span class="process-math">\(24/6=4\)</span> times that the amount of the drug in the body will be reduced by half. Because the initial amount was <span class="process-math">\(5\bar{0}\)</span> mg the amount the next day is</div>
-<div class="para logical" id="extracted-webwork-2-1-3-2"><div class="displaymath process-math">
-\begin{equation*}
-\frac{50}{2^4} \approx 3
-\end{equation*}
-</div></div>
-</div></details>
-</div>
+<div class="para" id="extracted-webwork-1-1-1-1">Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6 hours. Suppose Victor is prescribed <span class="process-math">\(5\bar{0}\)</span> mg/day. If Victor takes his first 50 mg pill Monday morning, how much is still in his blood Tuesday morning at the same time? <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
+</div> <div class="para" id="extracted-webwork-1-1-1-2">Graph the amount of atenolol in his blood for the first day.</div>
 </div>
 </div></article><figure class="figure figure-like" id="figure-exponential-half-life"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/RMFb2FPw02o?&amp;modestbranding=1&amp;rel=0" id="figure-exponential-half-life-2"></iframe></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">6.2.10<span class="period">.</span></span><span class="space"> </span>Geometric Illustration of Half-Life</figcaption></figure></section><section class="subsection" id="subsection-exponential-transform"><h3 class="heading hide-type">
