@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{5}{x}-{9}{y}=-{42}</m> </p>
+<p><m>\displaystyle{8}{x}-{6}{y}={20}</m> </p>
 <p>
-  <m>\displaystyle{2}{x}-{7}{y}=-{15}</m></p>
+  <m>\displaystyle{x}+{7}{y}={49}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({3},{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{5}{x}+-{9}{y}=-{42}</m></p>
-<p><m>\displaystyle-{5}{x}=-{42}-{\left(-{9}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{42}-{\left(-{9}{y}\right)}}}{{-{{5}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left({7},{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{8}{x}+-{6}{y}={20}</m></p>
+<p><m>\displaystyle{8}{x}={20}-{\left(-{6}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{{20}-{\left(-{6}{y}\right)}}}{{8}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{2}{\left(\frac{{-{42}-{\left(-{9}{y}\right)}}}{{-{{5}}}}\right)}+-{7}{y}=-{15}</m></p>
-<p><m>\displaystyle\frac{{2}}{{-{{5}}}}\cdot{\left(-{42}\right)}-\frac{{2}}{{-{{5}}}}{\left(-{9}\right)}{y}+-{7}{y}=-{15}</m></p>
-<p><m>\displaystyle{16.8}-{\left(-{3.6}\right)}{y}+-{7}{y}=-{15}</m></p>
-<p><m>\displaystyle-{3.6}{y}+{\left(-{7}\right)}{y}=-{15}-{16.8}</m></p>
-<p><m>\displaystyle-{3.6}{y}+{\left(-{7}\right)}{y}=-{31.8}</m></p>
-<p><m>\displaystyle{\left(-{3.6}+{\left(-{7}\right)}\right)}{y}=-{31.8}</m></p>
-<p><m>\displaystyle-{10.6}{y}=-{31.8}</m></p>
-<p><m>\displaystyle{y}=-\frac{{31.8}}{{-{{10.6}}}}</m></p>
-<p><m>\displaystyle{y}={3}</m></p>
+<p><m>\displaystyle{1}{\left(\frac{{{20}-{\left(-{6}{y}\right)}}}{{8}}\right)}+{7}{y}={49}</m></p>
+<p><m>\displaystyle\frac{{1}}{{8}}\cdot{\left({20}\right)}-\frac{{1}}{{8}}{\left(-{6}\right)}{y}+{7}{y}={49}</m></p>
+<p><m>\displaystyle{2.5}-{\left({0.75}\right)}{y}+{7}{y}={49}</m></p>
+<p><m>\displaystyle{0.75}{y}+{\left({7}\right)}{y}={49}-{2.5}</m></p>
+<p><m>\displaystyle{0.75}{y}+{\left({7}\right)}{y}={46.5}</m></p>
+<p><m>\displaystyle{\left({0.75}+{\left({7}\right)}\right)}{y}={46.5}</m></p>
+<p><m>\displaystyle{7.75}{y}={46.5}</m></p>
+<p><m>\displaystyle{y}=\frac{{46.5}}{{7.75}}</m></p>
+<p><m>\displaystyle{y}={6}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{5}{x}+-{9}{\left({3}\right)}=-{42}</m></p>
-<p><m>\displaystyle-{5}{x}+{\left(-{27}\right)}=-{42}</m></p>
-<p><m>\displaystyle-{5}{x}=-{42}-{\left(-{27}\right)}</m></p>
-<p><m>\displaystyle-{5}{x}=-{15}</m></p>
-<p><m>\displaystyle{x}=-\frac{{15}}{{-{{5}}}}</m></p>
-<p><m>\displaystyle{x}={3}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({3},{3}\right)}</m>.</p>
+<p><m>\displaystyle{8}{x}+-{6}{\left({6}\right)}={20}</m></p>
+<p><m>\displaystyle{8}{x}+{\left(-{36}\right)}={20}</m></p>
+<p><m>\displaystyle{8}{x}={20}-{\left(-{36}\right)}</m></p>
+<p><m>\displaystyle{8}{x}={56}</m></p>
+<p><m>\displaystyle{x}=\frac{{56}}{{8}}</m></p>
+<p><m>\displaystyle{x}={7}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({7},{6}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

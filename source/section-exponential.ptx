@@ -133,9 +133,32 @@
         <title>Growth of <term>Lactobacillus Acidophilus</term></title>
 
         <tabular top="medium">
-            <row bottom="medium" left="medium"><cell right="medium">Minutes</cell> <cell halign="left" right="medium">0</cell> <cell halign="left" right="medium">70</cell> <cell halign="left" right="medium">140</cell> <cell halign="left" right="medium">210</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium">Population</cell> <cell right="medium">4000</cell> <cell right="medium">8000</cell> <cell right="medium">16000</cell> <cell right="medium">32000</cell></row>
-            <row bottom="medium" left="medium"><cell halign="left" right="medium">Increased by</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">4000</cell> <cell halign="right" right="medium">8000</cell> <cell halign="right" right="medium">16000</cell></row>
+            <col halign="left" width="20%" />
+            <col halign="right" width="10%" />
+            <col halign="right" width="10%" />
+            <col halign="right" width="10%" />
+            <col halign="right" width="10%" />
+            <row bottom="medium" left="medium">
+                <cell right="medium">Minutes</cell>
+                <cell right="medium">0</cell>
+                <cell right="medium">70</cell>
+                <cell right="medium">140</cell>
+                <cell right="medium">210</cell>
+            </row>
+            <row bottom="medium" left="medium">
+                <cell right="medium">Population</cell>
+                <cell right="medium">4000</cell>
+                <cell right="medium">8000</cell>
+                <cell right="medium">16000</cell>
+                <cell right="medium">32000</cell>
+            </row>
+            <row bottom="medium" left="medium">
+                <cell halign="left" right="medium">Increased by</cell>
+                <cell right="medium"></cell>
+                <cell right="medium">4000</cell>
+                <cell right="medium">8000</cell>
+                <cell right="medium">16000</cell>
+            </row>
         </tabular>
     </table>
 
@@ -143,9 +166,36 @@
         <title>Growth of <term>Lactobacillus Acidophilus</term></title>
 
         <tabular top="medium">
-            <row bottom="medium" left="medium"><cell right="medium">Minutes</cell> <cell halign="left" right="medium">0</cell> <cell halign="left" right="medium">35</cell> <cell halign="left" right="medium">70</cell> <cell halign="left" right="medium">105</cell> <cell halign="left" right="medium">140</cell></row>
-            <row bottom="medium" left="medium"><cell right="medium">Population</cell> <cell right="medium">4000</cell> <cell right="medium">5657</cell> <cell right="medium">8000</cell> <cell right="medium">11314</cell> <cell right="medium">16000</cell></row>
-            <row bottom="medium" left="medium"><cell halign="left" right="medium">Ratio</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">1.4142</cell> <cell halign="right" right="medium">1.4142</cell> <cell halign="right" right="medium">1.4142</cell> <cell halign="right" right="medium">1.4142</cell></row>
+            <col halign="left" width="15%" />
+            <col halign="right" width="8%" />
+            <col halign="right" width="8%" />
+            <col halign="right" width="8%" />
+            <col halign="right" width="8%" />
+            <col halign="right" width="8%" />
+            <row bottom="medium" left="medium">
+                <cell right="medium">Minutes</cell>
+                <cell right="medium">0</cell>
+                <cell right="medium">35</cell>
+                <cell right="medium">70</cell>
+                <cell right="medium">105</cell>
+                <cell right="medium">140</cell>
+            </row>
+            <row bottom="medium" left="medium">
+                <cell right="medium">Population</cell>
+                <cell right="medium">4000</cell>
+                <cell right="medium">5657</cell>
+                <cell right="medium">8000</cell>
+                <cell right="medium">11314</cell>
+                <cell right="medium">16000</cell>
+            </row>
+            <row bottom="medium" left="medium">
+                <cell halign="left" right="medium">Ratio</cell>
+                <cell right="medium"></cell>
+                <cell right="medium">1.4142</cell>
+                <cell right="medium">1.4142</cell>
+                <cell right="medium">1.4142</cell>
+                <cell right="medium">1.4142</cell>
+            </row>
         </tabular>
     </table>
 
@@ -173,7 +223,7 @@
         <p>From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us <me>A = 3(2^{t/70}).</me></p>
     </example>
 
-    <p>Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1.</p>
+    <p>Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1. One example is radioactive decay. Radioactive substances are not stable. The radiation they give off is the result of the atoms breaking down into other substances. This means that over time the amount of the radioactive substance decreases. It has been shown that this decrease is exponential. The rate of decay is expressed in <term>half-life</term>, the amount of time for the substance to be reduced by half.</p>
 
     <example xml:id="example-exponential-decay-barium">
         <p>Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.</p>
@@ -455,68 +505,8 @@
             <myopenmath problem="1436224" />
         </exercise>
 
-    </exercisegroup>
-
-    <exercisegroup>
-        <introduction><p>Graph exponential relations</p></introduction>
         <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="1498" />
-        </exercise>
-
-        <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="1762" />
-        </exercise>
-
-        <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="3600" />
-        </exercise>
-
-        <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="3606" />
-        </exercise>
-
-        <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="3607" />
-        </exercise>
-
-<!--        <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="34539" />
-        </exercise> -->
-
-        <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="99678" />
-        </exercise>
-
-        <exercise>
-            <title>Contextless Practice</title>
-            <myopenmath problem="114632" />
-        </exercise>
-
-        <exercise>
-            <title>Interpreting (Contextless)</title>
-            <myopenmath problem="1065268" />
-        </exercise>
-
-        <exercise>
-            <title>Interpreting (Contextless)</title>
-            <myopenmath problem="1065268" />
-        </exercise>
-
-        <exercise>
-            <title>Interpreting (Contextless)</title>
-            <myopenmath problem="1065277" />
-        </exercise>
-
-        <exercise>
-            <title>Interpreting (Contextless)</title>
-            <myopenmath problem="1065277" />
+            <myopenmath problem="1481358" />
         </exercise>
 
     </exercisegroup>
