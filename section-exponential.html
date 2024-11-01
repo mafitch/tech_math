@@ -129,15 +129,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.3.3';
+eBookConfig.runestone_version = '7.4.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runtime.740db250e511e1cc.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.8328b60515045466.bundle.js"></script><script src="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.9813637ef2f0e0ee.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.3.3/prefix-runestone.f64dcc3632d7a0c3.css">
+<script src="_static/prefix-runtime.00db6230172ad960.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.aa624e4071d017c3.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.51d479d87f8466bb.css">
 <style>
 #preface-student-4-1 { counter-set: preface-student-4-1 0; }
 #preface-student-4-1 > li::marker { content: ""counter(preface-student-4-1,decimal)"."; }
@@ -451,6 +451,8 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-ql" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Identifying Exponential Graphs</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential-graph.html#section-exponential-graph-6" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -771,17 +773,17 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-exponential-relation-lactobacillus-4">We could produce a table for any amount of time (e.g., every hour) and we would find that the population grows by the same multiple every time.</div></article><figure class="table table-like" id="table-lactobacillus-growth1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.10<span class="period">.</span></span><span class="space"> </span>Growth of <dfn class="terminology">Lactobacillus Acidophilus</dfn></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b2 r2 l2 t2 lines">Minutes</td>
-<td class="l m b2 r2 l0 t2 lines">0</td>
-<td class="l m b2 r2 l0 t2 lines">70</td>
-<td class="l m b2 r2 l0 t2 lines">140</td>
-<td class="l m b2 r2 l0 t2 lines">210</td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">70</td>
+<td class="r m b2 r2 l0 t2 lines">140</td>
+<td class="r m b2 r2 l0 t2 lines">210</td>
 </tr>
 <tr>
 <td class="l m b2 r2 l2 t0 lines">Population</td>
-<td class="l m b2 r2 l0 t0 lines">4000</td>
-<td class="l m b2 r2 l0 t0 lines">8000</td>
-<td class="l m b2 r2 l0 t0 lines">16000</td>
-<td class="l m b2 r2 l0 t0 lines">32000</td>
+<td class="r m b2 r2 l0 t0 lines">4000</td>
+<td class="r m b2 r2 l0 t0 lines">8000</td>
+<td class="r m b2 r2 l0 t0 lines">16000</td>
+<td class="r m b2 r2 l0 t0 lines">32000</td>
 </tr>
 <tr>
 <td class="l m b2 r2 l2 t0 lines">Increased by</td>
@@ -793,19 +795,19 @@ eBookConfig.enable_chatcodes =  false;
 </table></div></figure><figure class="table table-like" id="table-lactobacillus-growth2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.11<span class="period">.</span></span><span class="space"> </span>Growth of <dfn class="terminology">Lactobacillus Acidophilus</dfn></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b2 r2 l2 t2 lines">Minutes</td>
-<td class="l m b2 r2 l0 t2 lines">0</td>
-<td class="l m b2 r2 l0 t2 lines">35</td>
-<td class="l m b2 r2 l0 t2 lines">70</td>
-<td class="l m b2 r2 l0 t2 lines">105</td>
-<td class="l m b2 r2 l0 t2 lines">140</td>
+<td class="r m b2 r2 l0 t2 lines">0</td>
+<td class="r m b2 r2 l0 t2 lines">35</td>
+<td class="r m b2 r2 l0 t2 lines">70</td>
+<td class="r m b2 r2 l0 t2 lines">105</td>
+<td class="r m b2 r2 l0 t2 lines">140</td>
 </tr>
 <tr>
 <td class="l m b2 r2 l2 t0 lines">Population</td>
-<td class="l m b2 r2 l0 t0 lines">4000</td>
-<td class="l m b2 r2 l0 t0 lines">5657</td>
-<td class="l m b2 r2 l0 t0 lines">8000</td>
-<td class="l m b2 r2 l0 t0 lines">11314</td>
-<td class="l m b2 r2 l0 t0 lines">16000</td>
+<td class="r m b2 r2 l0 t0 lines">4000</td>
+<td class="r m b2 r2 l0 t0 lines">5657</td>
+<td class="r m b2 r2 l0 t0 lines">8000</td>
+<td class="r m b2 r2 l0 t0 lines">11314</td>
+<td class="r m b2 r2 l0 t0 lines">16000</td>
 </tr>
 <tr>
 <td class="l m b2 r2 l2 t0 lines">Ratio</td>
@@ -841,7 +843,7 @@ P = 4000 \cdot 2^{t/70}\text{.}
 A = 3(2^{t/70}).
 \end{equation*}
 </div>
-</div></article><div class="para" id="subsection-exponential-application-10">Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1.</div>
+</div></article><div class="para" id="subsection-exponential-application-10">Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1. One example is radioactive decay. Radioactive substances are not stable. The radiation they give off is the result of the atoms breaking down into other substances. This means that over time the amount of the radioactive substance decreases. It has been shown that this decrease is exponential. The rate of decay is expressed in <dfn class="terminology">half-life</dfn>, the amount of time for the substance to be reduced by half.</div>
 <article class="example example-like" id="example-exponential-decay-barium"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.14</span><span class="period">.</span>
 </h4>
@@ -1141,47 +1143,8 @@ B^{t/r}=(B^r)^t.
 <div id="momsection-exponential-6-1-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436228&amp;frame_id=momsection-exponential-6-1-18-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-19"><h5 class="heading">
 <span class="codenumber">18<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-exponential-6-1-19-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-19-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436224&amp;frame_id=momsection-exponential-6-1-19-2"></iframe></div></article>
-</div>
-</div>
-<div class="exercisegroup" id="section-exponential-6-2">
-<h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="section-exponential-6-2-1"><div class="para" id="section-exponential-6-2-1-1">Graph exponential relations</div></div>
-<div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-exponential-6-2-2"><h5 class="heading">
-<span class="codenumber">19<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
-</h5>
-<div id="momsection-exponential-6-2-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1498&amp;frame_id=momsection-exponential-6-2-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-3"><h5 class="heading">
-<span class="codenumber">20<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
-</h5>
-<div id="momsection-exponential-6-2-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1762&amp;frame_id=momsection-exponential-6-2-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-4"><h5 class="heading">
-<span class="codenumber">21<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
-</h5>
-<div id="momsection-exponential-6-2-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3600&amp;frame_id=momsection-exponential-6-2-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-5"><h5 class="heading">
-<span class="codenumber">22<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
-</h5>
-<div id="momsection-exponential-6-2-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3606&amp;frame_id=momsection-exponential-6-2-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-6"><h5 class="heading">
-<span class="codenumber">23<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
-</h5>
-<div id="momsection-exponential-6-2-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3607&amp;frame_id=momsection-exponential-6-2-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-7"><h5 class="heading">
-<span class="codenumber">24<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
-</h5>
-<div id="momsection-exponential-6-2-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=99678&amp;frame_id=momsection-exponential-6-2-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-8"><h5 class="heading">
-<span class="codenumber">25<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Practice.</span>
-</h5>
-<div id="momsection-exponential-6-2-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=114632&amp;frame_id=momsection-exponential-6-2-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-9"><h5 class="heading">
-<span class="codenumber">26<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
-</h5>
-<div id="momsection-exponential-6-2-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-6-2-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-10"><h5 class="heading">
-<span class="codenumber">27<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
-</h5>
-<div id="momsection-exponential-6-2-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065268&amp;frame_id=momsection-exponential-6-2-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-11"><h5 class="heading">
-<span class="codenumber">28<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
-</h5>
-<div id="momsection-exponential-6-2-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-6-2-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-2-12"><h5 class="heading">
-<span class="codenumber">29<span class="period">.</span></span><span class="space"> </span><span class="title">Interpreting (Contextless).</span>
-</h5>
-<div id="momsection-exponential-6-2-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-2-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1065277&amp;frame_id=momsection-exponential-6-2-12-2"></iframe></div></article>
+<div id="momsection-exponential-6-1-19-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-19-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1436224&amp;frame_id=momsection-exponential-6-1-19-2"></iframe></div></article><article class="exercise exercise-like" id="section-exponential-6-1-20"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div id="momsection-exponential-6-1-20-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-exponential-6-1-20-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1481358&amp;frame_id=momsection-exponential-6-1-20-1"></iframe></div></article>
 </div>
 </div></section></section></div>
 <div class="ptx-content-footer">

@@ -2,98 +2,7 @@
 <webwork-representations>
   <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-1" ww-id="webwork-1">
     <static seed="1">
-      <statement><p>Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6 hours. Suppose Victor is prescribed <m>5\bar{0}</m> mg/day. If Victor takes his first 50 mg pill Monday morning, how much is still in his blood Tuesday morning at the same time? <fillin name="AnSwEr0001" characters="4"/></p>
-<p>Graph the amount of atenolol in his blood for the first day.</p>
-</statement>
-      <answer>
-        <p>
-          <m>3</m>
-        </p>
-      </answer>
-      <solution><p>A day is 24 hours so there are <m>24/6=4</m> times that the amount of the drug in the body will be reduced by half. Because the initial amount was <m>5\bar{0}</m> mg the amount the next day is</p>
-<p><me>\frac{50}{2^4} \approx 3</me></p>
-</solution>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKQXRlbm9sb2wgaGFzIGEgaGFsZiBsaWZlIG9mIDYtNyBob3VycyBkZXBlbmRpbmcgb24gcGF0aWVudCBmYWN0b3JzLiBGb3IgdGhpcyBwcm9ibGVtIHVzZSBhIGhhbGYgbGlmZSBvZiA2IGhvdXJzLiBTdXBwb3NlIFZpY3RvciBpcyBwcmVzY3JpYmVkIFtgNVxiYXJ7MH1gXSBtZy9kYXkuIElmIFZpY3RvciB0YWtlcyBoaXMgZmlyc3QgNTAgbWcgcGlsbCBNb25kYXkgbW9ybmluZywgaG93IG11Y2ggaXMgc3RpbGwgaW4gaGlzIGJsb29kIFR1ZXNkYXkgbW9ybmluZyBhdCB0aGUgc2FtZSB0aW1lPyBbX117JzMnfXs0fQoKR3JhcGggdGhlIGFtb3VudCBvZiBhdGVub2xvbCBpbiBoaXMgYmxvb2QgZm9yIHRoZSBmaXJzdCBkYXkuCgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KQSBkYXkgaXMgMjQgaG91cnMgc28gdGhlcmUgYXJlIFtgMjQvNj00YF0gdGltZXMgdGhhdCB0aGUgYW1vdW50IG9mIHRoZSBkcnVnIGluIHRoZSBib2R5IHdpbGwgYmUgcmVkdWNlZCBieSBoYWxmLiBCZWNhdXNlIHRoZSBpbml0aWFsIGFtb3VudCB3YXMgW2A1XGJhcnswfWBdIG1nIHRoZSBhbW91bnQgdGhlIG5leHQgZGF5IGlzCgpbYGBgXGZyYWN7NTB9ezJeNH0gXGFwcHJveCAzYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:41-08:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(6.2.9)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context('Numeric');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6 hours. Suppose Victor is prescribed [`5\bar{0}`] mg/day. If Victor takes his first 50 mg pill Monday morning, how much is still in his blood Tuesday morning at the same time? [_]{'3'}{4}
-
-Graph the amount of atenolol in his blood for the first day.
-
-END_PGML
-
-############################################################
-# Solution
-############################################################
-
-BEGIN_PGML_SOLUTION
-A day is 24 hours so there are [`24/6=4`] times that the amount of the drug in the body will be reduced by half. Because the initial amount was [`5\bar{0}`] mg the amount the next day is
-
-[```\frac{50}{2^4} \approx 3```]
-
-END_PGML_SOLUTION
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
-    <static seed="2">
-      <statement><p>Using technology, calculate <m>\ln({3})=</m> <fillin name="AnSwEr0001" characters="12"/>.</p>
+      <statement><p>Using technology, calculate <m>\ln({2})=</m> <fillin name="AnSwEr0001" characters="12"/>.</p>
 <p>Precision should be at least four decimal places.</p>
 </statement>
       <answer>
@@ -106,7 +15,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:41-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -171,21 +80,21 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
-    <static seed="3">
-      <statement><p>Solve <m>{3}\log_{{2}}(x)={9}\text{.}</m> <fillin name="AnSwEr0001" characters="4"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2">
+      <statement><p>Solve <m>{2}\log_{{3}}(x)={10}\text{.}</m> <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>8</m>
+          <m>243</m>
         </p>
       </answer>
       <solution><p><me>\begin{aligned}
-{3}\log_{{2}}(x) \amp = {9}\\
-{3}\log_{{2}}(x)/{3} \amp = {9}/{3}\\
-\log_{{2}}(x) \amp = {3}\\
-{2}^{{3}} \amp = x\\
-{8} \amp = x
+{2}\log_{{3}}(x) \amp = {10}\\
+{2}\log_{{3}}(x)/{2} \amp = {10}/{2}\\
+\log_{{3}}(x) \amp = {5}\\
+{3}^{{5}} \amp = x\\
+{243} \amp = x
 \end{aligned}</me></p>
 </solution>
     </static>
@@ -193,7 +102,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:41-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -276,16 +185,16 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
-    <static seed="4">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3">
       <statement><p>Solve</p>
-<p><me>{3} = {7}\ln(x+{4})</me></p>
+<p><me>{3} = {2}\ln(x+{1})</me></p>
 <p><m>x=</m> <fillin name="AnSwEr0001" characters="12"/>.</p>
 <p>Precision should be at least four decimal places.</p>
 </statement>
       <answer>
         <p>
-          <m>-2.46494</m>
+          <m>3.48169</m>
         </p>
       </answer>
     </static>
@@ -293,7 +202,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:41-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -365,13 +274,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
-    <static seed="5">
-      <statement><p>If the two sides on the right angle have length <m>a={3}</m> and <m>b={5}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4">
+      <statement><p>If the two sides on the right angle have length <m>a={3}</m> and <m>b={6}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>5.83095</m>
+          <m>6.7082</m>
         </p>
       </answer>
     </static>
@@ -379,7 +288,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:41-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -442,9 +351,9 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
-    <static seed="6">
-      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={7}</m> and hypotenuse (side opposite the right angle) with length <m>c={6}\text{?}</m> <var form="buttons" name="AnSwEr0001">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5">
+      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={6}</m> and hypotenuse (side opposite the right angle) with length <m>c={5}\text{?}</m> <var form="buttons" name="AnSwEr0001">
 <li>
 <p>Yes</p>
 </li>
@@ -463,7 +372,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:41-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -527,13 +436,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
-    <static seed="7">
-      <statement><p>If two angles of a triangle are 55 and 50, what is the measure of the third angle? <fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6">
+      <statement><p>If two angles of a triangle are 50 and 30, what is the measure of the third angle? <fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>75</m>
+          <m>100</m>
         </p>
       </answer>
     </static>
@@ -541,7 +450,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:41-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -604,8 +513,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
-    <static seed="8">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7">
       <statement><p>If the leg lengths of a right triangle are 7 and 10, what are the measures of the angles?</p>
 <p>Angle opposite side length 7: <fillin name="AnSwEr0001" characters="3"/></p>
 <p>Angle opposite side length 10: <fillin name="AnSwEr0002" characters="3"/></p>
@@ -625,7 +534,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:42-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -694,15 +603,15 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
-    <static seed="9">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8">
       <statement><!-- PTX:WARNING: PGML wanted to center align here. -->
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-9-image-1"/>
-<p>For a right triangle if <m>\sin(\alpha)=\frac{{7}}{{13.8924}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-8-image-1"/>
+<p>For a right triangle if <m>\sin(\alpha)=\frac{{7}}{{10.6301}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>12</m>
+          <m>8</m>
         </p>
       </answer>
     </static>
@@ -710,7 +619,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:42-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -798,26 +707,26 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
-    <static seed="10">
-      <statement><p>If a triangle has a leg of length 4 and hypotenuse of length 13, what is the length of the other side and what are the measures of the angles?</p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9">
+      <statement><p>If a triangle has a leg of length 7 and hypotenuse of length 15, what is the length of the other side and what are the measures of the angles?</p>
 <p>Length of other leg: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Angle opposite side length 4: <fillin name="AnSwEr0002" characters="3"/></p>
+<p>Angle opposite side length 7: <fillin name="AnSwEr0002" characters="3"/></p>
 <p>Angle opposite other leg: <fillin name="AnSwEr0003" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>12.3693</m>
+          <m>13.2665</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\sin^{-1}\!\left(\frac{4}{13}\right)</m>
+          <m>\sin^{-1}\!\left(\frac{7}{15}\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\cos^{-1}\!\left(\frac{4}{13}\right)</m>
+          <m>\cos^{-1}\!\left(\frac{7}{15}\right)</m>
         </p>
       </answer>
     </static>
@@ -825,7 +734,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:42-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -897,8 +806,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
-    <static seed="11">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10">
       <statement><p>At a particular airport the angle of depression flown by aircraft following the PAPI (vertical guidance) is <m>3.05^\circ\text{.}</m> This leads to a point 1020 ft from the threshold of the runway. How high is the aircraft at the threshold? <fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
@@ -911,7 +820,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:42-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -971,13 +880,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
-    <static seed="12">
-      <statement><p>A triangle has angles of measure <m>A={30}</m> and <m>B={80}\text{.}</m> The side opposite angle <m>A</m> has length 7. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11">
+      <statement><p>A triangle has angles of measure <m>A={25}</m> and <m>B={60}\text{.}</m> The side opposite angle <m>A</m> has length 5. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>\frac{\sin\!\left(80\right)}{\sin\!\left(30\right)}\cdot 7</m>
+          <m>\frac{\sin\!\left(60\right)}{\sin\!\left(25\right)}\cdot 5</m>
         </p>
       </answer>
     </static>
@@ -985,7 +894,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:42-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1050,13 +959,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
-    <static seed="13">
-      <statement><p>A triangle has sides of length <m>a={4}\text{,}</m> <m>b={6.55322}\text{,}</m> and <m>c={6.73616}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12">
+      <statement><p>A triangle has sides of length <m>a={7}\text{,}</m> <m>b={13.7873}\text{,}</m> and <m>c={13.1557}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>35</m>
+          <m>30</m>
         </p>
       </answer>
     </static>
@@ -1064,7 +973,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:42-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1131,8 +1040,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-14" ww-id="webwork-14">
-    <static seed="14">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13">
       <statement><p>Consider a D which has frequency 293.66 Hz</p>
 <p>What is the period? <fillin name="AnSwEr0001" characters="10"/></p>
 <p>What is the wavelength? <fillin name="AnSwEr0002" characters="6"/></p>
@@ -1163,7 +1072,7 @@ T \amp \approx 0.0034053
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-10-29T11:17:42-08:00       
+###       on 2024-10-31T15:02:02-08:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

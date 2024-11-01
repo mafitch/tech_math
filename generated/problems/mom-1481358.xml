@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1481358">
+<statement>
+<p>Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6.2 hours. Suppose Victor is prescribed 25 mg/day. If Victor takes his first 25 mg dose on Monday morning, how much is expected in his blood Tuesday morning at the same time? <fillin characters="4" /> </p>
+
+</statement>
+<solution>
+<p><ul><li>1.7</li></ul></p><p>The half-life model is <m>\displaystyle{A}=\frac{{A}_{{0}}}{{{2}^{{\frac{{t}}{{h}}}}}}</m> where <m>\displaystyle{A}_{{0}}</m> is the initial amount, <m>\displaystyle{t}</m> is the time elapsed, and <m>\displaystyle{h}</m> is the half-life. In this case <m>\displaystyle{A}=\frac{{25}}{{{2}^{{\frac{{24}}{{6.2}}}}}}={1.7086873574353}\approx{1.7}</m>.</p>
+</solution>
+</myopenmath>
+
