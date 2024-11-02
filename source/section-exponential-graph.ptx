@@ -60,7 +60,7 @@
             <col halign="right" width="10%" />
             <row left="medium" bottom="medium">
                 <cell right="medium">Time</cell>
-                <cell colspan="3">Mass of Bacteria</cell>
+                <cell colspan="3" right="medium">Mass of Bacteria</cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>0</m></cell>
@@ -440,7 +440,7 @@
     <example xml:id="example-graph-exponential-complex">
         <p>Graph the model <m>7.000 \cdot 2^{-t/10.551}</m> from <xref ref="example-exponential-decay-barium" />. In order to match our examples above we can express the exponent as <m>7.000 \cdot 2^{-0.094778t}</m>. We simply calculated <m>1/10.551</m> and maintained 5 significant digits.</p>
         <p>First, we identify the changes from <m>y=2^x</m>. The 7.000 in front is a vertical stretch. The negative in the exponent is a reflection over the y-axis. The coefficient of the exponent is a horizontal stretch. We can make these changes in order of operation: horizontal stretch, reflection, vertical stretch. These are shown in the graph below. Graph A is the original. B shows the horizontal stretch. C shows the reflection. D adds the vertical stretch. The labels are located to show how one point is transformed by each step.</p>
-        <image source="images/exponential-barium-steps" />
+        <image source="images/exponential-barium-steps" width="50%" />
         <p>Looking at the final graph we can note that we really needed only three details to graph it. These are the asymptote (which remained unchanged from <m>y=0</m> here) and two points. One point tells us where to start and the other indicates how steep (because of the change between the two points).</p>
     </example>
 
@@ -449,7 +449,7 @@
     <example xml:id="example-graph-exponential-complex2">
         <p>Graph the equation <m>y=3\left( 2^{x-1} \right)+4</m>.</p>
         <p>First, we identify that this is a modified version of <m>y=2^x</m>. Next we identify the changes. The -1 is a horizontal shift. The 3 is a vertical stretch. The +4 is a vertical shift. We perform the changes in this order (following order of operations).These are shown in the graph below. Graph A is the original. B shows the horizontal shift. C shows the vertical stretch. D adds the vertical shift. The labels are located to show how one point is transformed by each step. Notice that the asymptote was moved up 4 units by the vertical shift as well.</p>
-        <image source="images/exponential-graph-steps" />
+        <image source="images/exponential-graph-steps" width="50%" />
         <p>Again, we could have sketched the asymptote knowing only the vertical shift would change it. Then we could plot points at <m>x=0,1</m>. The curve is then sketched down to the left (to approach the asymptote) and up to the right with steepness determined by the second point.</p>
     </example>
 
@@ -473,7 +473,7 @@
 
     <example xml:id="example-exponential-read-graph1">
         <p>The graph below is of the equation <m>y=b^{x-h}+k</m>. Determine the values of <m>b</m>, <m>h</m>, and <m>k</m>.</p>
-        <image source="images/exponential-graph-read1" />
+        <image source="images/exponential-graph-read1" width="50%" />
         <p>First, we notice by looking at the left side of the graph that the asymptote is at <m>y=1</m>. The asymptote is also the vertical shift, i.e., <m>k=1</m>.</p>
         <p>We know there will be a point one unit higher (<m>y=2</m>). This occurs at <m>x=3</m>. This is the horizontal shift <m>h=3</m>.</p>
         <p>Finally, we can look one unit to the right of this point (<m>x=4</m>). The y value there is <m>y=6</m>. This is <m>6-1=5</m> units above the asymptote. This is the base <m>b=5</m>.</p>
@@ -482,7 +482,7 @@
 
     <example xml:id="example-exponential-read-graph2">
         <p>The graph below is of the equation <m>y=b^{\pm (x-h)}+k</m>. Determine the values of <m>b</m>, the sign, <m>h</m>, and <m>k</m>.</p>
-        <image source="images/exponential-graph-read2" />
+        <image source="images/exponential-graph-read2" width="50%" />
         <p>First, we notice that the graph decreases to the right instead of the left. We know this is a reflection so it will be <m>-x</m>.</p>
         <p>Second, we notice by looking at the right side of the graph that the asymptote is at <m>y=4</m>. The asymptote is also the vertical shift, i.e., <m>k=4</m>.</p>
         <p>We know there will be a point one unit higher (<m>y=5</m>). This occurs at <m>x=2</m>. This is the horizontal shift <m>h=2</m>.</p>
@@ -499,36 +499,41 @@
 <subsection xml:id="subsection-exponential-ql">
     <title>Identifying Exponential Graphs</title>
 
-        <p>Our first examples are discrete data. One example is the number of views of a video per day. This can be 10 or 21 but never 21.3 (we are not considering the percent of a video viewed). <xref ref="figure-exponential-discrete-graph" /> contains a bar chart for exponential data.</p>
+    <p>When we look at data, which may not be labeled as linear, quadratic, or exponential, how can we quickly determine which one it is? Look at the four examples below and try to determine which growth rate each has. Note one graph is a growth rate we have not covered.</p>
 
-    <p>First, we ask ourselves how we can identify discrete exponential relations from a graph, and consider how we should make graphs so the distinction between exponential growth and other growth is clear.</p>
-
-    <exercise xml:id="exercise-compare-exponential-quadratic">
-        <introduction><p>Compare the exponential data in <xref ref="figure-exponential-discrete-graph" /> to the quadratic data in <xref ref="figure-quadratic-discrete-graph" />. We know that the exponential grows faster than the quadratic from <xref ref="subsection-vary-fast" />.</p></introduction>
-        <task>
-            <statement><p>What (if anything) makes it clear that the exponential data is growing faster?</p></statement>
-        </task>
-        <task>
-            <statement><p>What (if anything) hides the faster rate of growth of the exponential?</p></statement>
-        </task>
-    </exercise>
-
-    <p>We know that factorial data grows faster than exponential data. Repeat <xref ref="exercise-compare-exponential-quadratic" /> with the exponential and factorial graphs.</p>
-
-    <figure xml:id="figure-quadratic-discrete-graph">
-        <caption>Bar Chart of Quadratic Data</caption>
-        <image source="images/quadratic-discrete-graph" width="50%" />
+    <figure xml:id="figure-identify-rates-bar-graphs">
+        <caption>Identify the Rates of these Charts</caption>
+        <sidebyside>
+            <figure xml:id="figure-bar-graph-linear">
+                <caption>Bar Chart 1</caption>
+                <image source="images/bar-graph-linear" width="50%" />
+            </figure>
+            <figure xml:id="figure-bar-graph-exponential">
+                <caption>Bar Chart 2</caption>
+                <image source="images/bar-graph-exponential" width="50%" />
+            </figure>
+        </sidebyside>
+        <sidebyside>
+            <figure xml:id="figure-bar-graph-quadratic">
+                <caption>Bar Chart 3</caption>
+                <image source="images/bar-graph-quadratic" width="50%" />
+            </figure>
+            <figure xml:id="figure-bar-graph-cubic">
+                <caption>Bar Chart 4</caption>
+                <image source="images/bar-graph-cubic" width="50%" />
+            </figure>
+        </sidebyside>
     </figure>
 
-    <figure xml:id="figure-exponential-discrete-graph">
-        <caption>Bar Chart of Exponential Data</caption>
-        <image source="images/exponential-discrete-graph" width="50%" />
-    </figure>
+    <p>A linear relationship is defined by the differences between pairs of data points being the same. On bar graphs this means the difference in height between consecutive bars must be the same. If we compare the change from January to February to the change from November to December we see that  <xref first="figure-bar-graph-exponential" last="figure-bar-graph-cubic" /> they are vastly different (very small early and much larger later). For <xref ref="figure-bar-graph-linear" /> however, the increase between bar heights looks the same. If we wished, we could use a ruler to measure and convince ourselves. This appears to be linear.</p>
 
-    <figure xml:id="figure-factorial-discrete-graph">
-        <caption>Bar Chart of Factorial Data</caption>
-        <image source="images/factorial-discrete-graph" width="50%" />
-    </figure>
+    <p>An exponential relationship can be recognized by the ratio between pairs of data points being the same. This is hard to use on a bar graph, because it means the height of each bar is a multiple of the previous. For example each bar would be 2 or 3 times as high. This would be hard to identify if each bar is 2.3 times as high however. Rather we will use two, alternative traits.</p>
+
+    <p>We know that the graph of an exponential is nearly flat in one direction and very steep in the other. <xref ref="figure-bar-graph-quadratic" /> does not appear to flatten heading left. The bottom two graphs do have this flat appearance to the left. The other trait is that the differences of consecutive terms in an exponential relationship are the same scale as the entries. This means the change in height of consecutive bars should be on scale with the size of a bar. Consider September and October on <xref ref="figure-bar-graph-exponential" />. The change in height from September to October looks like the height of the September bar. In contrast the change in height from September to October in <xref ref="figure-bar-graph-cubic" /> is much less than the height of the September bar. Thus we can be convinced that the data in <xref ref="figure-bar-graph-exponential" /> is exponential and none of the others are.</p>
+
+    <p>We identify quadratic data by looking at the second differences. To do this on a bar graph would mean constructing a bar graph where each new bar's height is the change in height of consecutive bars on the original graph. Then we would look if this new bar graph was linear. This is not a reasonable task. We would be better off asking for the original data.</p>
+
+    <p>The two bar graphs on the right have different relationships: one is quadratic, the other is not. Both can be described in the same terms (e.g., change in heights is increasing). This is a warning to not make many assumptions about data from limited data or simple graphs.</p>
 
 </subsection>
 
