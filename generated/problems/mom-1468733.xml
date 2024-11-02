@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle-{4}{x}-{5}{y}={63}</m> </p>
+<p><m>\displaystyle-{x}-{7}{y}=-{10}</m> </p>
 <p>
-  <m>\displaystyle-{9}{x}-{2}{y}={77}</m></p>
+  <m>\displaystyle-{5}{x}+{3}{y}={26}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{7},-{7}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of --9. So we scale by <m>\displaystyle--\frac{{9}}{{-{{4}}}}</m>.</p>
-<p><m>\displaystyle-\frac{{-{9}}}{{-{{4}}}}{\left(-{4}{x}+-{5}{y}\right)}=-\frac{{-{9}}}{{-{{4}}}}{\left({63}\right)}</m></p>
-<p><m>\displaystyle-{\left(-{9}\right)}{x}+{11.25}{y}=-{141.75}</m></p>
-<p><m>\displaystyle-{9}{x}-{2}{y}={77}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{4},{2}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of --5. So we scale by <m>\displaystyle--\frac{{5}}{{-{{1}}}}</m>.</p>
+<p><m>\displaystyle-\frac{{-{5}}}{{-{{1}}}}{\left(-{1}{x}+-{7}{y}\right)}=-\frac{{-{5}}}{{-{{1}}}}{\left(-{10}\right)}</m></p>
+<p><m>\displaystyle-{\left(-{5}\right)}{x}+{35}{y}={50}</m></p>
+<p><m>\displaystyle-{5}{x}+{3}{y}={26}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{9.25}{y}=-{64.75}</m></p>
-<p><m>\displaystyle{y}=-\frac{{64.75}}{{9.25}}</m></p>
-<p><m>\displaystyle{y}=-{7}</m></p>
+<p><m>\displaystyle{38}{y}={76}</m></p>
+<p><m>\displaystyle{y}=\frac{{76}}{{38}}</m></p>
+<p><m>\displaystyle{y}={2}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{4}{x}+-{5}{\left(-{7}\right)}={63}</m></p>
-<p><m>\displaystyle-{4}{x}+{\left({35}\right)}={63}</m></p>
-<p><m>\displaystyle-{4}{x}={63}-{\left({35}\right)}</m></p>
-<p><m>\displaystyle-{4}{x}={28}</m></p>
-<p><m>\displaystyle{x}=\frac{{28}}{{-{{4}}}}</m></p>
-<p><m>\displaystyle{x}=-{7}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{7},-{7}\right)}</m>.</p>
+<p><m>\displaystyle-{1}{x}+-{7}{\left({2}\right)}=-{10}</m></p>
+<p><m>\displaystyle-{1}{x}+{\left(-{14}\right)}=-{10}</m></p>
+<p><m>\displaystyle-{1}{x}=-{10}-{\left(-{14}\right)}</m></p>
+<p><m>\displaystyle-{1}{x}={4}</m></p>
+<p><m>\displaystyle{x}=\frac{{4}}{{-{{1}}}}</m></p>
+<p><m>\displaystyle{x}=-{4}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{4},{2}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
