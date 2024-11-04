@@ -5,239 +5,400 @@
 
 <introduction>
 
-<p>Consider the two graphs in <xref ref="figure-logarithm-scale-example" />. Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left or the version on the right?</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Read and use mathematical models in a technical document</li>
+            <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Read and interpret models (critical thinking)</li>
+        </ul>
+    </p>
 
-<p>The graph on the left uses the typical (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label).</p>
+    <p>The previous two sections presented exponential models, and we answered some questions about applications using these models. In order to solve more problems involving exponential models we need the <term>logarithm</term> which is presented here. This section presents a definition of the logarithm as well as presenting how to graph them and one application. These latter will help us understand how it works.</p>
 
-<figure xml:id="figure-logarithm-scale-example">
-	<caption>Comparison of Scales</caption>
-
-	<sidebyside>
-		<image source="images/scale-normal" width="30%" />
-		<image source="images/scale-logarithm" width="30%" />
-	</sidebyside>
-</figure>
-
-<p>Logarithms were developed initially to manage data that is very large. They are effective for data that grows quickly. Measurement of acidity (pH) and volume (decibel) both use a logarithmic scale. Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. For example, a 10 degree temperature change feels like more of change if the initial temperature is <m>23^\circ</m> F than if it is <m>51^\circ</m> F.</p>
-
-<p>Logarithms also have a connection to drunk pigeons and a Scotsman's bones.</p>
+    <p>Historically logarithms also have a connection to drunk pigeons and a Scotsman's bones.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-logarithm-notation">
-	<title>Definition of Logarithm</title>
+    <title>Definition of Logarithm</title>
 
-	<p>The following definition is commonly used for algebraic uses of logarithms. Note that logarithms are defined here as the opposite of an exponential.</p>
+    <p>The following definition is commonly used when we are using logarithms to solve equations.</p>
 
-	<definition xml:id="definition-logarithm">
-		<title>Logarithm</title>
-		<statement><p><m>\log_a(x)=y</m> if and only if <m>a^y=x</m></p></statement>
-	</definition>
+    <definition xml:id="definition-logarithm">
+        <title>Logarithm</title>
+        <statement><p><m>\log_a(x)=y</m> if and only if <m>a^y=x</m></p></statement>
+    </definition>
 
-	<example xml:id="example-logarithm-exponential">
-		<introduction><p>Each of the following is a conversion between exponential and logarithmic notation.</p></introduction>
-		<task><statement><p><m>\log_2(8)=3</m> is the same as <m>2^3=8</m>.</p></statement></task>
-		<task><statement><p><m>\log_5(1/25)=-2</m> is the same as <m>5^{-2}=1/25</m>.</p></statement></task>
-		<task><statement><p><m>\log_{10}(\sqrt{10})=1/2</m> is the same as <m>10^{1/2}=\sqrt{10}</m>.</p></statement></task>
-	</example>
+    <p>This definition is simply that the logarithm is the opposite of an exponential in the same sort of way that a square root is the opposite of a square.</p>
 
-	<exercise xml:id="exercise-log-convert1">
-		<statement><p>Write <m>\log_2(16)=4</m> in exponential notation. Confirm that it is true.</p></statement>
-		<solution><p>Using <xref ref="definition-logarithm" /> we obtain <m>2^4=16</m>. By multiplying we confirm it is true.</p></solution>
-	</exercise>
+    <example xml:id="example-logarithm-exponential">
+        <introduction><p>Each of the following is a conversion between exponential and logarithmic notation.</p></introduction>
+        <task><statement><p><m>\log_2(8)=3</m> is the same as <m>2^3=8</m>.</p></statement></task>
+        <task><statement><p><m>\log_5(1/25)=-2</m> is the same as <m>5^{-2}=1/25</m>.</p></statement></task>
+        <task><statement><p><m>\log_{10}(\sqrt{10})=1/2</m> is the same as <m>10^{1/2}=\sqrt{10}</m>.</p></statement></task>
+    </example>
 
-	<exercise xml:id="exercise-exp-convert1">
-		<statement><p>Write <m>100^{3/2}=1000</m> in logarithm notation.</p></statement>
-		<solution><p>Using <xref ref="definition-logarithm" /> we obtain <m>\log_{100}(1000)=3/2</m>.</p></solution>
-	</exercise>
+    <exercise xml:id="exercise-log-convert1">
+        <myopenmath problem="1484038" />
+    </exercise>
+
+    <exercise xml:id="exercise-exp-convert1">
+        <myopenmath problem="1484055" />
+    </exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-logarithm-graph">
-	<title>Graphing Logarithms</title>
+    <title>Graphing Logarithms</title>
 
-	<p>Now we will use <xref ref="definition-logarithm" /> to analyze the shape of graphs of logarithms.</p>
+    <p>The purposes of this section are to become proficient with the defition through practice, and to understand the logarithm through practice and seeing its graph.</p>
 
-	<p>To practice we will graph <m>y=\log_2(x)</m>. As before we will begin by completing a table. First, consider <m>y=\log_2(2)</m>. This can be re-written as <m>2^y=2</m> which tells us that <m>y=1</m>. Second, consider <m>y=\log_2(4)</m>. This can be re-written as <m>2^y=4</m> which tells us that <m>y=2</m>. Because we re-write as <m>2^y=x</m> it is easiest if the <m>x</m> is a power of 2. For example <m>x=2^3=8</m>. This tells us that <m>\log_2(8)=3</m>.</p>
-	<p>Note that this last point shows us that the logarithm grows (vertically) forever. If we want the height to be 100, we select <m>x=2^{100}</m>.</p>
-	<p>This also shows us that the rate of growth is very slow. To increase one unit of height the input must double (because this is base 2).</p>
-	<p>Consider next the special case <m>y=\log_2(1)</m>. This can be re-written as <m>2^y=1</m> which tells us that <m>y=0</m>. This is the only place where a logarithm is zero.</p>
-	<p>Next we will plot points left of <m>x=1</m>. We start with fractions. For <m>y=\log_2(1/2)</m> we have <m>2^y=\frac{1}{2}</m>. This tells us that <m>y=-1</m> because negative exponents mean division. Similarly for <m>y=\log_2(1/4)</m> we have <m>2^y=\frac{1}{4}=\frac{1}{2^2}</m>,so <m>y=-2</m>.</p>
-	<p>Just as the curve grows, slowly forever as <m>x</m> increases, these examples show us that it grows forever downward as <m>x</m> approaches zero. Notice the y value doubled when we cut the input in half. This means the growth downward is very fast.</p>
+    <example xml:id="example-graph-log2">
+        <p>We will graph <m>y=\log_2(x)</m>. As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.</p>
+        <p>While we would normally pick values like <m>x=3</m> plug that in, producing <m>y=\log_2(3)</m>, and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is <m>2^y = x</m>.</p>
+        <tabular top="medium">
+            <col halign="right" right="medium" width="15%"  />
+            <col halign="center" width="15%"  />
+            <col halign="right" right="medium" width="15%"  />
+            <row left="medium" bottom="medium">
+                <cell><m>y</m></cell>
+                <cell colspan="2"><m>x=2^y</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>0</m></cell>
+                <cell><m>2^0=</m></cell>
+                <cell><m>1</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>1</m></cell>
+                <cell><m>2^1=</m></cell>
+                <cell><m>2</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>2</m></cell>
+                <cell><m>2^2=</m></cell>
+                <cell><m>4</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>3</m></cell>
+                <cell><m>2^3=</m></cell>
+                <cell><m>8</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>4</m></cell>
+                <cell><m>2^4=</m></cell>
+                <cell><m>16</m></cell>
+            </row>
+        </tabular>
+        <p>To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.</p>
+        <tabular top="medium">
+            <col halign="right" right="medium" width="15%"  />
+            <col halign="right" right="medium" width="15%"  />
+            <row left="medium" bottom="medium">
+                <cell><m>x</m></cell>
+                <cell><m>y=\log_2(x)</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>1</m></cell>
+                <cell><m>0</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>2</m></cell>
+                <cell><m>1</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>4</m></cell>
+                <cell><m>2</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>8</m></cell>
+                <cell><m>3</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>16</m></cell>
+                <cell><m>4</m></cell>
+            </row>
+        </tabular>
+        <p>Notice that as promised we do not have a point with <m>x=3</m>. This is because our method works only on values of <m>x</m> that are powers of 2.</p>
+        <p>To obtain points left of <m>(1,0)</m> we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.</p>
+        <tabular top="medium">
+            <col halign="right" right="medium" width="15%"  />
+            <col halign="center" width="15%"  />
+            <col halign="right" right="medium" width="15%"  />
+            <row left="medium" bottom="medium">
+                <cell><m>y</m></cell>
+                <cell colspan="2"><m>x=2^y</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>-1</m></cell>
+                <cell><m>2^{-1}=</m></cell>
+                <cell><m>1/2</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>-2</m></cell>
+                <cell><m>2^{-2}=</m></cell>
+                <cell><m>1/4</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>-3</m></cell>
+                <cell><m>2^{-3}=</m></cell>
+                <cell><m>1/8</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>-4</m></cell>
+                <cell><m>2^{-4}=</m></cell>
+                <cell><m>1/16</m></cell>
+            </row>
+        </tabular>
+        <p>Again we produce points on the graph of the logarithm by swapping the x and y coordinates.</p>
+        <tabular top="medium">
+            <col halign="right" right="medium" width="15%"  />
+            <col halign="right" right="medium" width="15%"  />
+            <row left="medium" bottom="medium">
+                <cell><m>x</m></cell>
+                <cell><m>y=\log_2(x)</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>1/2</m></cell>
+                <cell><m>-1</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>1/4</m></cell>
+                <cell><m>-2</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>1/8</m></cell>
+                <cell><m>-3</m></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>1/16</m></cell>
+                <cell><m>-4</m></cell>
+            </row>
+        </tabular>
+        <p>These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider <m>\log_2(-4) = y</m> means <m>2^y = -4</m>. However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.</p>
+        <p>The graph of <m>y=\log_2(x)</m> based on these points is below.</p>
+        <image source="images/graph-log2" width="50%" />
+    </example>
 
-	<table xml:id="table-log2-graph">
-		<title>Points for logarithm</title>
-		<tabular top="medium">
-			<row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>\log_2(x)</m></cell></row>
-			<row left="medium" bottom="medium" halign="right"><cell right="medium">1</cell><cell><m>\log_2(1)=</m></cell><cell right="medium">0</cell></row>
-			<row left="medium" bottom="medium" halign="right"><cell right="medium">2</cell><cell><m>\log_2(2)=</m></cell><cell right="medium">1</cell></row>
-			<row left="medium" bottom="medium" halign="right"><cell right="medium">4</cell><cell><m>\log_2(4)=</m></cell><cell right="medium">2</cell></row>
-			<row left="medium" bottom="medium" halign="right"><cell right="medium">8</cell><cell><m>\log_2(8)=</m></cell><cell right="medium">3</cell></row>
-			<row left="medium" bottom="medium" halign="right"><cell right="medium"><m>2^{10}</m></cell><cell><m>\log_2(2^{10})=</m></cell><cell right="medium">10</cell></row>
-			<row left="medium" bottom="medium" halign="right"><cell right="medium">1/2</cell><cell><m>\log_2(1/2)=</m></cell><cell right="medium">-1</cell></row>
-			<row left="medium" bottom="medium" halign="right"><cell right="medium">1/4</cell><cell><m>\log_2(1/4)=</m></cell><cell right="medium">-2</cell></row>
-		</tabular>
-	</table>
+    <exercise xml:id="exercise-graph-log3">
+        <p>Following the previous example construct a table for <m>x=3^y</m>, then use it to construct a table for <m>y=\log_3(x)</m>. Finally, graph this logarithm.</p>
+    </exercise>
 
-	<figure xml:id="figure-log2-graph">
-		<caption>Graph of <m>y=\log_2(x)</m></caption>
-		<image source="images/graph-log2" width="50%" />
-	</figure>
+    <p>Next we consider the shape of the graph and what it tells us about logarithms. The first question is how high the logarithm curve grows. To explain this question consider <xref ref="figure-level-or-not" /> below. As we look from left to right both curves are always increasing. Both curves increase by less as we go to the right. However, the lower (blue, dashed) curve levels off. That is it never increases above <m>y=1</m>. We want to know if the logarithm curve ever levels off.</p>
 
-	<p>There are two types of values we did not include in our graph example.</p>
+    <figure xml:id="figure-level-or-not" >
+        <caption>Graph of two always increasing curves</caption>
+        <image source="images/level-or-not" width="50%" />
+    </figure>
 
-	<example xml:id="example-log-domain-zero">
-		<statement><p>What is <m>y=\log_2(0)</m>?</p></statement>
-		<solution><p>First we re-write this log as an exponential. <m>2^y=0</m>. We know that no exponent will produce a zero, so there is no solution for this.</p></solution>
-	</example>
+    <example xml:id="example-log2-does-not-level">
+        <p>Consider the example <m>y=\log_2(x)</m>. We know from the table above that it grows above <m>y=1</m>. Consider whether it grows above <m>y=100</m>. This would mean <m>100 \lt 2^x</m>. We know it is easier to calculate this logarithm for powers of 2 so instead we consider <me>100 \lt 128 = 2^7</me>. Does it grow above <m>y=1000</m>. We can use <me>1000 \lt 1024 = 2^{10}.</me></p>
+        <p>By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., <m>3^x</m> and <m>29^x</m> increase forever as well).</p>
+        <p>In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.</p>
+    </example>
 
-	<exercise xml:id="exercise-log-domain-negative">
-		<statement><p>Re-write <m>\log_2(-4)=x</m> as an exponential. Can you find a number for <m>x</m> that makes this statement true?</p></statement>
-	</exercise>
+    <p>We claimed above that the two graphs in <xref ref="figure-level-or-not" /> increase more slowly as they continue to the right. The next example explains why this is true of the graph of a logarithm.</p>
+
+    <example xml:id="example-log2-increase-slows">
+        <p>Looking at the table of points for <m>y=\log_2(x)</m> in <xref ref="example-graph-log2" /> we note that the curve increased by 1 in height from <m>x=1</m> to <m>x=2</m>. The next increase of 1 in height is at <m>x=4</m>. The next one is at <m>x=8</m>. This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was <m>1, 1/2, 1/4</m>. This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.</p>
+    </example>
+
+    <p>The final trait of the graph of a logarithm to consider is what happens as the graph goes to the left. We have already established that it is not defined for negative x values. However, the graph does not have a starting point (first point on the left). The next example illustrates the asymptotic nature of the left part of the graph.</p>
+
+    <example xml:id="example-log2-asymptote">
+        <p>First consider the question, is there an x value such that <m>0=2^x</m>? We know that <m>2^0=1</m>. If we plug in negative values we obtain fractions, e.g., <m>2^{-3} = 1/2^3 = 1/8</m>. If we use a bigger negative number (e.g., -29) we end up with a smaller fraction (<m>2^{-29}=1/2^{29}</m>). No matter how far we go, 0 is never the result. Because of this <m>\log_2(0)</m> is not defined.</p>
+        <p>The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches <m>y=0</m>), so the logarithm curve has an asymptote to the left, namely <m>x=0</m>.</p>
+    </example>
+
+    <p>Putting these traits together we realize the graph of any logarithm can be determined by the vertical asymptote and two points. This matches exponential graphs. From the left most point we draw asymptotically toward the vertical asymptote. To the right we draw with a slight increase.</p>
+
+    <exercise>
+        <myopenmath problem="418041" />
+    </exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-logarithm-special">
-	<title>Special Logarithms</title>
+    <title>Special Logarithms</title>
 
-	<p>Some logarithms occur sufficiently frequently in applications that they have their own notation.</p>
+    <p>Some logarithms occur sufficiently frequently in applications that they have their own notation.</p>
 
-	<p>Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: <term>common logs</term>. This is written without the base. For example <m>\log(100)=2</m> is the same as <m>\log_{10}(100)=2</m>.</p>
+    <p>Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: <term>common logs</term>. This is written without the base. For example <m>\log(100)=2</m> is the same as <m>\log_{10}(100)=2</m>.</p>
 
-	<p>In science and from mathematics we need another log called the <term>natural logarithm</term>. This is written as <m>\ln(x)</m> (for logarithm natural). Natural logarithms are paired with the base <m>e</m>. So <m>\ln(5)=y</m> is the same as <m>e^y=5</m>. <m>e</m> is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious <m>e \approx 2.1718281828</m>.</p>
+    <p>In science and from mathematics we need another log called the <term>natural logarithm</term>. This is written as <m>\ln(x)</m> (for logarithm natural). Natural logarithms are paired with the base <m>e</m>. So <m>\ln(5)=y</m> is the same as <m>e^y=5</m>. <m>e</m> is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious <m>e \approx 2.1718281828</m>.</p>
 
-	<exercise xml:id="exercise-logarithm-natural-calculate">
-		<webwork>
-			<pg-code>
-				Context("LimitedNumeric");
-				Context()->flags->set(tolType=>absolute);
-				Context()->flags->set(tolType=>0.0001);
-				$a = Compute(random(2,9,1));
-			</pg-code>
-			<statement>
-				<p>Using technology, calculate <m>\ln(<var name="$a"/>)=</m> <var name="'2.0794'" width="12" />.</p>
-				<p>Precision should be at least four decimal places.</p>
-			</statement>
-		</webwork>
-	</exercise>
+    <exercise xml:id="exercise-logarithm-natural-calculate">
+<!--        <webwork>
+            <pg-code>
+                Context("LimitedNumeric");
+                Context()->flags->set(tolType=>absolute);
+                Context()->flags->set(tolType=>0.0001);
+                $a = Compute(random(2,9,1));
+            </pg-code>
+            <statement>
+                <p>Using technology, calculate <m>\ln(<var name="$a"/>)=</m> <var name="'2.0794'" width="12" />.</p>
+                <p>Precision should be at least four decimal places.</p>
+            </statement>
+        </webwork> -->
+        <myopenmath problem="1484287" />
+    </exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-log-scales">
+    <title>Logarithmic Scale</title>
+
+    <p>This section demonstrates how logarithms can be used to better analyze data. The technique is to modify how we graph, specifically how we label one axis.</p>
+
+    <p>Often the scales on the two axes are different. Consider the graph of <m>y=\log_2(x)</m> in <xref ref="example-graph-log2" /> above. The x-axis is labeled 0 to 16 and the y-axis is labeled - 4 to 4. That means the x-axis, though it takes up the same length of area as the y-axis represents 16 units to the y-axis' 8 units. We do this because many graphs would otherwise be too tall or too wide to fit.</p>
+
+    <p>What these graphs do require is that each tick mark represents the same number of units. For example on the graph of this log, every tick mark on the x-axis represents one unit (only half are labeled). On the y-axis every tick mark represents 1/2 unit (only half are labeled). Sometimes this requirement means it is hard to read a graph.</p>
+
+    <p>Consider the two graphs in <xref ref="figure-logarithm-scale-example" />. Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left (normal scale) or the version on the right (log scale)?</p>
+
+    <figure xml:id="figure-logarithm-scale-example">
+        <caption>Comparison of Scales</caption>
+
+        <sidebyside>
+            <figure xml:id="subfigure-normal-scale">
+                <caption>Normal Scale</caption>
+                <image source="images/scale-normal" width="30%" />
+            </figure>
+            <figure xml:id="subfigure-log-scale">
+                <caption>Log Scale</caption>
+                <image source="images/scale-logarithm" width="30%" />
+            </figure>
+        </sidebyside>
+    </figure>
+
+    <p>The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing <m>(x,\log(y))</m>.</p>
+
+    <p>When is this scale useful? Any time data is growing by a multiple rather. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. For example consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).</p>
+
+    <p>Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.</p>
+
+    <p>Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. That is, we perceive things based on how much of a multiple they are of current condition rather than how much is added. For example, a 10 degree temperature change feels like more of change if the initial temperature is <m>20^\circ</m> F (when it is half of the current value) than if it is <m>50^\circ</m> F (now only one fifth of the current value).</p>
 
 </subsection>
 
 <exercises>
-	<exercisegroup>
-		<introduction><p>Calculate using logarithms</p></introduction>
-	    <exercise>
-	        <title>Notation</title>
-	        <myopenmath problem="100176" />
-	    </exercise>
+    <exercisegroup>
+        <introduction><p>Calculate using logarithms</p></introduction>
+        <exercise>
+            <title>Notation</title>
+            <myopenmath problem="100176" />
+        </exercise>
 
-	    <exercise>
-	        <title>Notation</title>
-	        <myopenmath problem="100176" />
-	    </exercise>
+        <exercise>
+            <title>Notation</title>
+            <myopenmath problem="100176" />
+        </exercise>
 
-	    <exercise>
-	        <title>Notation</title>
-	        <myopenmath problem="100193" />
-	    </exercise>
+        <exercise>
+            <title>Notation</title>
+            <myopenmath problem="100193" />
+        </exercise>
 
-	    <exercise>
-	        <title>Notation</title>
-	        <myopenmath problem="100193" />
-	    </exercise>
+        <exercise>
+            <title>Notation</title>
+            <myopenmath problem="100193" />
+        </exercise>
 
-	    <exercise>
-	        <title>Notation</title>
-	        <myopenmath problem="1514" />
-	    </exercise>
+        <exercise>
+            <title>Notation</title>
+            <myopenmath problem="1514" />
+        </exercise>
 
-	    <exercise>
-	        <title>Evaluate</title>
-	        <myopenmath problem="8522" />
-	    </exercise>
+        <exercise>
+            <title>Evaluate</title>
+            <myopenmath problem="8522" />
+        </exercise>
 
-	    <exercise>
-	        <title>Evaluate</title>
-	        <myopenmath problem="35022" />
-	    </exercise>
+        <exercise>
+            <title>Evaluate</title>
+            <myopenmath problem="35022" />
+        </exercise>
 
-	    <exercise>
-	        <title>Notation</title>
-	        <myopenmath problem="72629" />
-	    </exercise>
+        <exercise>
+            <title>Notation</title>
+            <myopenmath problem="72629" />
+        </exercise>
 
-	    <exercise>
-	        <title>Notation</title>
-	        <myopenmath problem="15905" />
-	    </exercise>
+        <exercise>
+            <title>Notation</title>
+            <myopenmath problem="15905" />
+        </exercise>
 
-	    <exercise>
-	        <title>Solve</title>
-	        <myopenmath problem="392038" />
-	    </exercise>
+        <exercise>
+            <title>Solve</title>
+            <myopenmath problem="392038" />
+        </exercise>
 
-	    <exercise>
-	        <title>Solve</title>
-	        <myopenmath problem="728281" />
-	    </exercise>
+        <exercise>
+            <title>Solve</title>
+            <myopenmath problem="728281" />
+        </exercise>
 
-	    <exercise>
-	        <title>Solve</title>
-	        <myopenmath problem="2434" />
-	    </exercise>
+        <exercise>
+            <title>Solve</title>
+            <myopenmath problem="2434" />
+        </exercise>
 
-	    <exercise>
-	        <title>Solve</title>
-	        <myopenmath problem="2654" />
-	    </exercise>
+        <exercise>
+            <title>Solve</title>
+            <myopenmath problem="2654" />
+        </exercise>
 
-	    <exercise>
-	        <title>Solve</title>
-	        <myopenmath problem="100541" />
-	    </exercise>
+        <exercise>
+            <title>Solve</title>
+            <myopenmath problem="100541" />
+        </exercise>
 
-	    <exercise>
-	        <title>Solve</title>
-	        <myopenmath problem="2667" />
-	    </exercise>
+        <exercise>
+            <title>Solve</title>
+            <myopenmath problem="2667" />
+        </exercise>
 
-	    <exercise>
-	        <title>Solve</title>
-	        <myopenmath problem="2668" />
-	    </exercise>
+        <exercise>
+            <title>Solve</title>
+            <myopenmath problem="2668" />
+        </exercise>
 
-	    <exercise>
-	        <title>Application</title>
-	        <myopenmath problem="273794" />
-	    </exercise>
-	</exercisegroup>
-	<exercisegroup>
-		<introduction><p>Graph Logarithms</p></introduction>
-	    <exercise>
-	        <title>Graphs</title>
-	        <myopenmath problem="45602" />
-	    </exercise>
+        <exercise>
+            <title>Application</title>
+            <myopenmath problem="273794" />
+        </exercise>
+    </exercisegroup>
+    <exercisegroup>
+        <introduction><p>Graph Logarithms</p></introduction>
+        <exercise>
+            <title>Graphs</title>
+            <myopenmath problem="45602" />
+        </exercise>
 
-	    <exercise>
-	        <title>Graphs</title>
-	        <myopenmath problem="418041" />
-	    </exercise>
+        <exercise>
+            <title>Graphs</title>
+            <myopenmath problem="418041" />
+        </exercise>
 
-	    <exercise>
-	        <title>Graphs</title>
-	        <myopenmath problem="418054" />
-	    </exercise>
+        <exercise>
+            <title>Graphs</title>
+            <myopenmath problem="418054" />
+        </exercise>
 
-	    <exercise>
-	        <title>Graphs</title>
-	        <myopenmath problem="418064" />
-	    </exercise>
+        <exercise>
+            <title>Graphs</title>
+            <myopenmath problem="418064" />
+        </exercise>
 
-	    <exercise>
-	        <title>Graphs</title>
-	        <myopenmath problem="428652" />
-	    </exercise>
-	</exercisegroup>
+        <exercise>
+            <title>Graphs</title>
+            <myopenmath problem="428652" />
+        </exercise>
+    </exercisegroup>
 </exercises>
 
 </section>
