@@ -7225,23 +7225,23 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Logarithm Properties",
-  "body": " Logarithm Properties   Consider the two graphs in . Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left or the version on the right?  The graph on the left uses the typical (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label).   Comparison of Scales       Logarithms were developed initially to manage data that is very large. They are effective for data that grows quickly. Measurement of acidity (pH) and volume (decibel) both use a logarithmic scale. Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. For example, a 10 degree temperature change feels like more of change if the initial temperature is F than if it is F.  Logarithms also have a connection to drunk pigeons and a Scotsman's bones.    Definition of Logarithm  The following definition is commonly used for algebraic uses of logarithms. Note that logarithms are defined here as the opposite of an exponential.   Logarithm  if and only if    Each of the following is a conversion between exponential and logarithmic notation.  is the same as .  is the same as .  is the same as .   Write in exponential notation. Confirm that it is true. Using we obtain . By multiplying we confirm it is true.  Write in logarithm notation. Using we obtain .    Graphing Logarithms  Now we will use to analyze the shape of graphs of logarithms.  To practice we will graph . As before we will begin by completing a table. First, consider . This can be re-written as which tells us that . Second, consider . This can be re-written as which tells us that . Because we re-write as it is easiest if the is a power of 2. For example . This tells us that .  Note that this last point shows us that the logarithm grows (vertically) forever. If we want the height to be 100, we select .  This also shows us that the rate of growth is very slow. To increase one unit of height the input must double (because this is base 2).  Consider next the special case . This can be re-written as which tells us that . This is the only place where a logarithm is zero.  Next we will plot points left of . We start with fractions. For we have . This tells us that because negative exponents mean division. Similarly for we have ,so .  Just as the curve grows, slowly forever as increases, these examples show us that it grows forever downward as approaches zero. Notice the y value doubled when we cut the input in half. This means the growth downward is very fast.   Points for logarithm    1 0  2 1  4 2  8 3  10  1\/2 -1  1\/4 -2     Graph of    There are two types of values we did not include in our graph example.   What is ?  First we re-write this log as an exponential. . We know that no exponent will produce a zero, so there is no solution for this.   Re-write as an exponential. Can you find a number for that makes this statement true?    Special Logarithms  Some logarithms occur sufficiently frequently in applications that they have their own notation.  Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: common logs . This is written without the base. For example is the same as .  In science and from mathematics we need another log called the natural logarithm . This is written as (for logarithm natural). Natural logarithms are paired with the base . So is the same as . is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious .    Using technology, calculate  .  Precision should be at least four decimal places.               Calculate using logarithms  Notation  Notation  Notation  Notation  Notation  Evaluate  Evaluate  Notation  Notation  Solve  Solve  Solve  Solve  Solve  Solve  Solve  Application    Graph Logarithms  Graphs  Graphs  Graphs  Graphs  Graphs    "
+  "body": " Logarithm Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)    The previous two sections presented exponential models, and we answered some questions about applications using these models. In order to solve more problems involving exponential models we need the logarithm which is presented here. This section presents a definition of the logarithm as well as presenting how to graph them and one application. These latter will help us understand how it works.  Historically logarithms also have a connection to drunk pigeons and a Scotsman's bones.    Definition of Logarithm  The following definition is commonly used when we are using logarithms to solve equations.   Logarithm  if and only if   This definition is simply that the logarithm is the opposite of an exponential in the same sort of way that a square root is the opposite of a square.   Each of the following is a conversion between exponential and logarithmic notation.  is the same as .  is the same as .  is the same as .       Graphing Logarithms  The purposes of this section are to become proficient with the defition through practice, and to understand the logarithm through practice and seeing its graph.   We will graph . As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.  While we would normally pick values like plug that in, producing , and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is .                                    To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.                              Notice that as promised we do not have a point with . This is because our method works only on values of that are powers of 2.  To obtain points left of we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.                               Again we produce points on the graph of the logarithm by swapping the x and y coordinates.                          These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider means . However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.  The graph of based on these points is below.    Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm.  Next we consider the shape of the graph and what it tells us about logarithms. The first question is how high the logarithm curve grows. To explain this question consider below. As we look from left to right both curves are always increasing. Both curves increase by less as we go to the right. However, the lower (blue, dashed) curve levels off. That is it never increases above . We want to know if the logarithm curve ever levels off.   Graph of two always increasing curves     Consider the example . We know from the table above that it grows above . Consider whether it grows above . This would mean . We know it is easier to calculate this logarithm for powers of 2 so instead we consider . Does it grow above . We can use  By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., and increase forever as well).  In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.   We claimed above that the two graphs in increase more slowly as they continue to the right. The next example explains why this is true of the graph of a logarithm.   Looking at the table of points for in we note that the curve increased by 1 in height from to . The next increase of 1 in height is at . The next one is at . This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was . This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.   The final trait of the graph of a logarithm to consider is what happens as the graph goes to the left. We have already established that it is not defined for negative x values. However, the graph does not have a starting point (first point on the left). The next example illustrates the asymptotic nature of the left part of the graph.   First consider the question, is there an x value such that ? We know that . If we plug in negative values we obtain fractions, e.g., . If we use a bigger negative number (e.g., -29) we end up with a smaller fraction ( ). No matter how far we go, 0 is never the result. Because of this is not defined.  The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches ), so the logarithm curve has an asymptote to the left, namely .   Putting these traits together we realize the graph of any logarithm can be determined by the vertical asymptote and two points. This matches exponential graphs. From the left most point we draw asymptotically toward the vertical asymptote. To the right we draw with a slight increase.     Special Logarithms  Some logarithms occur sufficiently frequently in applications that they have their own notation.  Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: common logs . This is written without the base. For example is the same as .  In science and from mathematics we need another log called the natural logarithm . This is written as (for logarithm natural). Natural logarithms are paired with the base . So is the same as . is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious .     Logarithmic Scale  This section demonstrates how logarithms can be used to better analyze data. The technique is to modify how we graph, specifically how we label one axis.  Often the scales on the two axes are different. Consider the graph of in above. The x-axis is labeled 0 to 16 and the y-axis is labeled - 4 to 4. That means the x-axis, though it takes up the same length of area as the y-axis represents 16 units to the y-axis' 8 units. We do this because many graphs would otherwise be too tall or too wide to fit.  What these graphs do require is that each tick mark represents the same number of units. For example on the graph of this log, every tick mark on the x-axis represents one unit (only half are labeled). On the y-axis every tick mark represents 1\/2 unit (only half are labeled). Sometimes this requirement means it is hard to read a graph.  Consider the two graphs in . Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left (normal scale) or the version on the right (log scale)?   Comparison of Scales    Normal Scale     Log Scale      The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing .  When is this scale useful? Any time data is growing by a multiple rather. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. For example consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).  Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.  Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. That is, we perceive things based on how much of a multiple they are of current condition rather than how much is added. For example, a 10 degree temperature change feels like more of change if the initial temperature is F (when it is half of the current value) than if it is F (now only one fifth of the current value).     Calculate using logarithms  Notation  Notation  Notation  Notation  Notation  Evaluate  Evaluate  Notation  Notation  Solve  Solve  Solve  Solve  Solve  Solve  Solve  Application    Graph Logarithms  Graphs  Graphs  Graphs  Graphs  Graphs    "
 },
 {
-  "id": "figure-logarithm-scale-example",
+  "id": "section-logarithm-2-2",
   "level": "2",
-  "url": "section-logarithm.html#figure-logarithm-scale-example",
-  "type": "Figure",
-  "number": "6.3.1",
+  "url": "section-logarithm.html#section-logarithm-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": " Comparison of Scales      "
+  "body": "logarithm "
 },
 {
   "id": "definition-logarithm",
   "level": "2",
   "url": "section-logarithm.html#definition-logarithm",
   "type": "Definition",
-  "number": "6.3.2",
+  "number": "6.3.1",
   "title": "Logarithm.",
   "body": " Logarithm  if and only if  "
 },
@@ -7250,7 +7250,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-logarithm.html#example-logarithm-exponential",
   "type": "Example",
-  "number": "6.3.3",
+  "number": "6.3.2",
   "title": "",
   "body": " Each of the following is a conversion between exponential and logarithmic notation.  is the same as .  is the same as .  is the same as .  "
 },
@@ -7259,54 +7259,81 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-logarithm.html#exercise-log-convert1",
   "type": "Checkpoint",
-  "number": "6.3.4",
+  "number": "6.3.3",
   "title": "",
-  "body": "Write in exponential notation. Confirm that it is true. Using we obtain . By multiplying we confirm it is true. "
+  "body": ""
 },
 {
   "id": "exercise-exp-convert1",
   "level": "2",
   "url": "section-logarithm.html#exercise-exp-convert1",
   "type": "Checkpoint",
+  "number": "6.3.4",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "example-graph-log2",
+  "level": "2",
+  "url": "section-logarithm.html#example-graph-log2",
+  "type": "Example",
   "number": "6.3.5",
   "title": "",
-  "body": "Write in logarithm notation. Using we obtain . "
+  "body": " We will graph . As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.  While we would normally pick values like plug that in, producing , and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is .                                    To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.                              Notice that as promised we do not have a point with . This is because our method works only on values of that are powers of 2.  To obtain points left of we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.                               Again we produce points on the graph of the logarithm by swapping the x and y coordinates.                          These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider means . However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.  The graph of based on these points is below.   "
 },
 {
-  "id": "table-log2-graph",
+  "id": "exercise-graph-log3",
   "level": "2",
-  "url": "section-logarithm.html#table-log2-graph",
-  "type": "Table",
+  "url": "section-logarithm.html#exercise-graph-log3",
+  "type": "Checkpoint",
   "number": "6.3.6",
-  "title": "Points for logarithm",
-  "body": " Points for logarithm    1 0  2 1  4 2  8 3  10  1\/2 -1  1\/4 -2   "
+  "title": "",
+  "body": "Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm. "
 },
 {
-  "id": "figure-log2-graph",
+  "id": "figure-level-or-not",
   "level": "2",
-  "url": "section-logarithm.html#figure-log2-graph",
+  "url": "section-logarithm.html#figure-level-or-not",
   "type": "Figure",
   "number": "6.3.7",
   "title": "",
-  "body": " Graph of   "
+  "body": " Graph of two always increasing curves   "
 },
 {
-  "id": "example-log-domain-zero",
+  "id": "example-log2-does-not-level",
   "level": "2",
-  "url": "section-logarithm.html#example-log-domain-zero",
+  "url": "section-logarithm.html#example-log2-does-not-level",
   "type": "Example",
   "number": "6.3.8",
   "title": "",
-  "body": " What is ?  First we re-write this log as an exponential. . We know that no exponent will produce a zero, so there is no solution for this.  "
+  "body": " Consider the example . We know from the table above that it grows above . Consider whether it grows above . This would mean . We know it is easier to calculate this logarithm for powers of 2 so instead we consider . Does it grow above . We can use  By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., and increase forever as well).  In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.  "
 },
 {
-  "id": "exercise-log-domain-negative",
+  "id": "example-log2-increase-slows",
   "level": "2",
-  "url": "section-logarithm.html#exercise-log-domain-negative",
-  "type": "Checkpoint",
+  "url": "section-logarithm.html#example-log2-increase-slows",
+  "type": "Example",
   "number": "6.3.9",
   "title": "",
-  "body": "Re-write as an exponential. Can you find a number for that makes this statement true? "
+  "body": " Looking at the table of points for in we note that the curve increased by 1 in height from to . The next increase of 1 in height is at . The next one is at . This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was . This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.  "
+},
+{
+  "id": "example-log2-asymptote",
+  "level": "2",
+  "url": "section-logarithm.html#example-log2-asymptote",
+  "type": "Example",
+  "number": "6.3.10",
+  "title": "",
+  "body": " First consider the question, is there an x value such that ? We know that . If we plug in negative values we obtain fractions, e.g., . If we use a bigger negative number (e.g., -29) we end up with a smaller fraction ( ). No matter how far we go, 0 is never the result. Because of this is not defined.  The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches ), so the logarithm curve has an asymptote to the left, namely .  "
+},
+{
+  "id": "subsection-logarithm-graph-13",
+  "level": "2",
+  "url": "section-logarithm.html#subsection-logarithm-graph-13",
+  "type": "Checkpoint",
+  "number": "6.3.11",
+  "title": "",
+  "body": ""
 },
 {
   "id": "subsection-logarithm-special-3",
@@ -7331,205 +7358,214 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-logarithm.html#exercise-logarithm-natural-calculate",
   "type": "Checkpoint",
-  "number": "6.3.10",
+  "number": "6.3.12",
   "title": "",
-  "body": "  Using technology, calculate  .  Precision should be at least four decimal places.           "
+  "body": ""
 },
 {
-  "id": "section-logarithm-6-1-2",
+  "id": "figure-logarithm-scale-example",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-2",
+  "url": "section-logarithm.html#figure-logarithm-scale-example",
+  "type": "Figure",
+  "number": "6.3.13",
+  "title": "",
+  "body": " Comparison of Scales    Normal Scale     Log Scale     "
+},
+{
+  "id": "section-logarithm-7-1-2",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-1-2",
   "type": "Exercise",
-  "number": "6.3.4.1",
+  "number": "6.3.5.1",
   "title": "Notation.",
   "body": "Notation "
 },
 {
-  "id": "section-logarithm-6-1-3",
+  "id": "section-logarithm-7-1-3",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-3",
+  "url": "section-logarithm.html#section-logarithm-7-1-3",
   "type": "Exercise",
-  "number": "6.3.4.2",
+  "number": "6.3.5.2",
   "title": "Notation.",
   "body": "Notation "
 },
 {
-  "id": "section-logarithm-6-1-4",
+  "id": "section-logarithm-7-1-4",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-4",
+  "url": "section-logarithm.html#section-logarithm-7-1-4",
   "type": "Exercise",
-  "number": "6.3.4.3",
+  "number": "6.3.5.3",
   "title": "Notation.",
   "body": "Notation "
 },
 {
-  "id": "section-logarithm-6-1-5",
+  "id": "section-logarithm-7-1-5",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-5",
+  "url": "section-logarithm.html#section-logarithm-7-1-5",
   "type": "Exercise",
-  "number": "6.3.4.4",
+  "number": "6.3.5.4",
   "title": "Notation.",
   "body": "Notation "
 },
 {
-  "id": "section-logarithm-6-1-6",
+  "id": "section-logarithm-7-1-6",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-6",
+  "url": "section-logarithm.html#section-logarithm-7-1-6",
   "type": "Exercise",
-  "number": "6.3.4.5",
+  "number": "6.3.5.5",
   "title": "Notation.",
   "body": "Notation "
 },
 {
-  "id": "section-logarithm-6-1-7",
+  "id": "section-logarithm-7-1-7",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-7",
+  "url": "section-logarithm.html#section-logarithm-7-1-7",
   "type": "Exercise",
-  "number": "6.3.4.6",
+  "number": "6.3.5.6",
   "title": "Evaluate.",
   "body": "Evaluate "
 },
 {
-  "id": "section-logarithm-6-1-8",
+  "id": "section-logarithm-7-1-8",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-8",
+  "url": "section-logarithm.html#section-logarithm-7-1-8",
   "type": "Exercise",
-  "number": "6.3.4.7",
+  "number": "6.3.5.7",
   "title": "Evaluate.",
   "body": "Evaluate "
 },
 {
-  "id": "section-logarithm-6-1-9",
+  "id": "section-logarithm-7-1-9",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-9",
+  "url": "section-logarithm.html#section-logarithm-7-1-9",
   "type": "Exercise",
-  "number": "6.3.4.8",
+  "number": "6.3.5.8",
   "title": "Notation.",
   "body": "Notation "
 },
 {
-  "id": "section-logarithm-6-1-10",
+  "id": "section-logarithm-7-1-10",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-10",
+  "url": "section-logarithm.html#section-logarithm-7-1-10",
   "type": "Exercise",
-  "number": "6.3.4.9",
+  "number": "6.3.5.9",
   "title": "Notation.",
   "body": "Notation "
 },
 {
-  "id": "section-logarithm-6-1-11",
+  "id": "section-logarithm-7-1-11",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-11",
+  "url": "section-logarithm.html#section-logarithm-7-1-11",
   "type": "Exercise",
-  "number": "6.3.4.10",
+  "number": "6.3.5.10",
   "title": "Solve.",
   "body": "Solve "
 },
 {
-  "id": "section-logarithm-6-1-12",
+  "id": "section-logarithm-7-1-12",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-12",
+  "url": "section-logarithm.html#section-logarithm-7-1-12",
   "type": "Exercise",
-  "number": "6.3.4.11",
+  "number": "6.3.5.11",
   "title": "Solve.",
   "body": "Solve "
 },
 {
-  "id": "section-logarithm-6-1-13",
+  "id": "section-logarithm-7-1-13",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-13",
+  "url": "section-logarithm.html#section-logarithm-7-1-13",
   "type": "Exercise",
-  "number": "6.3.4.12",
+  "number": "6.3.5.12",
   "title": "Solve.",
   "body": "Solve "
 },
 {
-  "id": "section-logarithm-6-1-14",
+  "id": "section-logarithm-7-1-14",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-14",
+  "url": "section-logarithm.html#section-logarithm-7-1-14",
   "type": "Exercise",
-  "number": "6.3.4.13",
+  "number": "6.3.5.13",
   "title": "Solve.",
   "body": "Solve "
 },
 {
-  "id": "section-logarithm-6-1-15",
+  "id": "section-logarithm-7-1-15",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-15",
+  "url": "section-logarithm.html#section-logarithm-7-1-15",
   "type": "Exercise",
-  "number": "6.3.4.14",
+  "number": "6.3.5.14",
   "title": "Solve.",
   "body": "Solve "
 },
 {
-  "id": "section-logarithm-6-1-16",
+  "id": "section-logarithm-7-1-16",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-16",
+  "url": "section-logarithm.html#section-logarithm-7-1-16",
   "type": "Exercise",
-  "number": "6.3.4.15",
+  "number": "6.3.5.15",
   "title": "Solve.",
   "body": "Solve "
 },
 {
-  "id": "section-logarithm-6-1-17",
+  "id": "section-logarithm-7-1-17",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-17",
+  "url": "section-logarithm.html#section-logarithm-7-1-17",
   "type": "Exercise",
-  "number": "6.3.4.16",
+  "number": "6.3.5.16",
   "title": "Solve.",
   "body": "Solve "
 },
 {
-  "id": "section-logarithm-6-1-18",
+  "id": "section-logarithm-7-1-18",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-1-18",
+  "url": "section-logarithm.html#section-logarithm-7-1-18",
   "type": "Exercise",
-  "number": "6.3.4.17",
+  "number": "6.3.5.17",
   "title": "Application.",
   "body": "Application "
 },
 {
-  "id": "section-logarithm-6-2-2",
+  "id": "section-logarithm-7-2-2",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-2-2",
+  "url": "section-logarithm.html#section-logarithm-7-2-2",
   "type": "Exercise",
-  "number": "6.3.4.18",
+  "number": "6.3.5.18",
   "title": "Graphs.",
   "body": "Graphs "
 },
 {
-  "id": "section-logarithm-6-2-3",
+  "id": "section-logarithm-7-2-3",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-2-3",
+  "url": "section-logarithm.html#section-logarithm-7-2-3",
   "type": "Exercise",
-  "number": "6.3.4.19",
+  "number": "6.3.5.19",
   "title": "Graphs.",
   "body": "Graphs "
 },
 {
-  "id": "section-logarithm-6-2-4",
+  "id": "section-logarithm-7-2-4",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-2-4",
+  "url": "section-logarithm.html#section-logarithm-7-2-4",
   "type": "Exercise",
-  "number": "6.3.4.20",
+  "number": "6.3.5.20",
   "title": "Graphs.",
   "body": "Graphs "
 },
 {
-  "id": "section-logarithm-6-2-5",
+  "id": "section-logarithm-7-2-5",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-2-5",
+  "url": "section-logarithm.html#section-logarithm-7-2-5",
   "type": "Exercise",
-  "number": "6.3.4.21",
+  "number": "6.3.5.21",
   "title": "Graphs.",
   "body": "Graphs "
 },
 {
-  "id": "section-logarithm-6-2-6",
+  "id": "section-logarithm-7-2-6",
   "level": "2",
-  "url": "section-logarithm.html#section-logarithm-6-2-6",
+  "url": "section-logarithm.html#section-logarithm-7-2-6",
   "type": "Exercise",
-  "number": "6.3.4.22",
+  "number": "6.3.5.22",
   "title": "Graphs.",
   "body": "Graphs "
 },
@@ -7891,7 +7927,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Ratios",
-  "body": " Trigonometric Ratios   In we learned about areas of triangles and a relationship between the three sides of a right triangle. In this and the next sections we will look at relationships between angles of the triangles and their sides.    Side and Angle Relationships  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No              There is also a relationship between the three angles of any triangle.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy     If two angles of a triangle are 50 and 30, what is the measure of the third angle?              Defining Trig Functions  Note that in a right triangle the other two angles have measure less than right angles. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.  For right triangles we have names for the sides. Consider the labels in The adjacent is the side touching the right angle that is also touching the angle with which we are working. The opposite is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in the adjacent side for has length 5 and the adjacent side for has length 3. Both the adjacent and opposite are known as legs of the triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology    Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in to see how changing either side length or angle affects the other.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios has an inherent limitation.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.   It is also possible to find the angle given the ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . The relationship between and will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for and probably not for . For those you use the button, that is, calculate the first then invert.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 7 and 10, what are the measures of the angles?  Angle opposite side length 7:  Angle opposite side length 10:                   Solving Triangles  Our goal now is to use partial information about a triangle to find the rest.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 7 and hypotenuse of length 15, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 7:  Angle opposite other leg:                         Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
+  "body": " Trigonometric Ratios   In we learned about areas of triangles and a relationship between the three sides of a right triangle. In this and the next sections we will look at relationships between angles of the triangles and their sides.    Side and Angle Relationships  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No              There is also a relationship between the three angles of any triangle.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy     If two angles of a triangle are 45 and 40, what is the measure of the third angle?              Defining Trig Functions  Note that in a right triangle the other two angles have measure less than right angles. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.  For right triangles we have names for the sides. Consider the labels in The adjacent is the side touching the right angle that is also touching the angle with which we are working. The opposite is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in the adjacent side for has length 5 and the adjacent side for has length 3. Both the adjacent and opposite are known as legs of the triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology    Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in to see how changing either side length or angle affects the other.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios has an inherent limitation.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.   It is also possible to find the angle given the ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . The relationship between and will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for and probably not for . For those you use the button, that is, calculate the first then invert.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 6 and 9, what are the measures of the angles?  Angle opposite side length 6:  Angle opposite side length 9:                   Solving Triangles  Our goal now is to use partial information about a triangle to find the rest.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 7 and hypotenuse of length 11, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 7:  Angle opposite other leg:                         Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
 },
 {
   "id": "exercise-pyth-find-hyp",
@@ -7945,7 +7981,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.6",
   "title": "",
-  "body": "  If two angles of a triangle are 50 and 30, what is the measure of the third angle?           "
+  "body": "  If two angles of a triangle are 45 and 40, what is the measure of the third angle?           "
 },
 {
   "id": "subsection-trig-ratios-defined-3",
@@ -8053,7 +8089,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.16",
   "title": "",
-  "body": "  If the leg lengths of a right triangle are 7 and 10, what are the measures of the angles?  Angle opposite side length 7:  Angle opposite side length 10:                "
+  "body": "  If the leg lengths of a right triangle are 6 and 9, what are the measures of the angles?  Angle opposite side length 6:  Angle opposite side length 9:                "
 },
 {
   "id": "figure-triangle-generic-labels",
@@ -8116,7 +8152,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.23",
   "title": "",
-  "body": "  If a triangle has a leg of length 7 and hypotenuse of length 15, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 7:  Angle opposite other leg:                     "
+  "body": "  If a triangle has a leg of length 7 and hypotenuse of length 11, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 7:  Angle opposite other leg:                     "
 },
 {
   "id": "section-trig-functions-6-1-2",
@@ -8476,7 +8512,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Non-Right Triangles",
-  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     A triangle has angles of measure and The side opposite angle has length 5. What is the length of the side opposite angle               Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     A triangle has sides of length  and What is the measure of the angle opposite the side of length               Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
+  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     A triangle has angles of measure and The side opposite angle has length 7. What is the length of the side opposite angle               Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     A triangle has sides of length  and What is the measure of the angle opposite the side of length               Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
 },
 {
   "id": "theorem-law-sines",
@@ -8521,7 +8557,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.3.5",
   "title": "",
-  "body": "  A triangle has angles of measure and The side opposite angle has length 5. What is the length of the side opposite angle            "
+  "body": "  A triangle has angles of measure and The side opposite angle has length 7. What is the length of the side opposite angle            "
 },
 {
   "id": "example-angle-side-side",

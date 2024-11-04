@@ -461,7 +461,8 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-6" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-log-scales" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Logarithmic Scale</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-7" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -520,24 +521,28 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:pf="https://prefigure.org" class="section" id="section-logarithm"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">6.3</span><span class="space"> </span><span class="title">Logarithm Properties</span>
 </h2>
-<section class="introduction" id="section-logarithm-2"><div class="para" id="section-logarithm-2-1">Consider the two graphs in <a href="section-logarithm.html#figure-logarithm-scale-example" class="xref" data-knowl="./knowl/xref/figure-logarithm-scale-example.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.3.1">Figure 6.3.1</a>. Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left or the version on the right?</div>
-<div class="para" id="section-logarithm-2-2">The graph on the left uses the typical (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label).</div>
-<figure class="figure figure-like" id="figure-logarithm-scale-example"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel top" style="width:50%;"><img src="external/images/scale-normal.svg" role="img" class="contained"></div>
-<div class="sbspanel top" style="width:50%;"><img src="external/images/scale-logarithm.svg" role="img" class="contained"></div>
-</div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">6.3.1<span class="period">.</span></span><span class="space"> </span>Comparison of Scales</figcaption></figure><div class="para" id="section-logarithm-2-4">Logarithms were developed initially to manage data that is very large. They are effective for data that grows quickly. Measurement of acidity (pH) and volume (decibel) both use a logarithmic scale. Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. For example, a 10 degree temperature change feels like more of change if the initial temperature is <span class="process-math">\(23^\circ\)</span> F than if it is <span class="process-math">\(51^\circ\)</span> F.</div>
-<div class="para" id="section-logarithm-2-5">Logarithms also have a connection to drunk pigeons and a Scotsman’s bones.</div></section><section class="subsection" id="subsection-logarithm-notation"><h3 class="heading hide-type">
+<section class="introduction" id="section-logarithm-2"><div class="para logical" id="section-logarithm-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-logarithm-2-1-1">
+<li id="section-logarithm-2-1-1-1"><div class="para" id="p-derived-section-logarithm-2-1-1-1">Read and use mathematical models in a technical document</div></li>
+<li id="section-logarithm-2-1-1-2"><div class="para" id="p-derived-section-logarithm-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-logarithm-2-1-2"><li id="section-logarithm-2-1-2-1"><div class="para" id="p-derived-section-logarithm-2-1-2-1">Read and interpret models (critical thinking)</div></li></ul>
+</div>
+<div class="para" id="section-logarithm-2-2">The previous two sections presented exponential models, and we answered some questions about applications using these models. In order to solve more problems involving exponential models we need the <dfn class="terminology">logarithm</dfn> which is presented here. This section presents a definition of the logarithm as well as presenting how to graph them and one application. These latter will help us understand how it works.</div>
+<div class="para" id="section-logarithm-2-3">Historically logarithms also have a connection to drunk pigeons and a Scotsman’s bones.</div></section><section class="subsection" id="subsection-logarithm-notation"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.3.1</span><span class="space"> </span><span class="title">Definition of Logarithm</span>
 </h3>
-<div class="para" id="subsection-logarithm-notation-2">The following definition is commonly used for algebraic uses of logarithms. Note that logarithms are defined here as the opposite of an exponential.</div>
+<div class="para" id="subsection-logarithm-notation-2">The following definition is commonly used when we are using logarithms to solve equations.</div>
 <article class="definition definition-like" id="definition-logarithm"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">6.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Logarithm.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">6.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Logarithm.</span>
 </h4>
 <div class="para" id="definition-logarithm-2-1">
 <span class="process-math">\(\log_a(x)=y\)</span> if and only if <span class="process-math">\(a^y=x\)</span>
-</div></article><article class="example example-like" id="example-logarithm-exponential"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.3</span><span class="period">.</span>
+</div></article><div class="para" id="subsection-logarithm-notation-4">This definition is simply that the logarithm is the opposite of an exponential in the same sort of way that a square root is the opposite of a square.</div>
+<article class="example example-like" id="example-logarithm-exponential"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.2</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="example-logarithm-exponential-1"><div class="para" id="example-logarithm-exponential-1-1">Each of the following is a conversion between exponential and logarithmic notation.</div></div>
 <article class="task exercise-like" id="example-logarithm-exponential-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -550,75 +555,170 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-logarithm-exponential-4-1-1">
 <span class="process-math">\(\log_{10}(\sqrt{10})=1/2\)</span> is the same as <span class="process-math">\(10^{1/2}=\sqrt{10}\text{.}\)</span>
 </div></article></article><article class="exercise exercise-like" id="exercise-log-convert1"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.3</span><span class="period">.</span>
+</h4>
+<div id="momexercise-log-convert1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-log-convert1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1484038&amp;frame_id=momexercise-log-convert1-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-exp-convert1"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="exercise-log-convert1-1-1">Write <span class="process-math">\(\log_2(16)=4\)</span> in exponential notation. Confirm that it is true.</div></article><article class="exercise exercise-like" id="exercise-exp-convert1"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.5</span><span class="period">.</span>
-</h4>
-<div class="para" id="exercise-exp-convert1-1-1">Write <span class="process-math">\(100^{3/2}=1000\)</span> in logarithm notation.</div></article></section><section class="subsection" id="subsection-logarithm-graph"><h3 class="heading hide-type">
+<div id="momexercise-exp-convert1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-exp-convert1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1484055&amp;frame_id=momexercise-exp-convert1-1"></iframe></div></article></section><section class="subsection" id="subsection-logarithm-graph"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.3.2</span><span class="space"> </span><span class="title">Graphing Logarithms</span>
 </h3>
-<div class="para" id="subsection-logarithm-graph-2">Now we will use <a href="section-logarithm.html#definition-logarithm" class="xref" data-knowl="./knowl/xref/definition-logarithm.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 6.3.2: Logarithm">Definition 6.3.2</a> to analyze the shape of graphs of logarithms.</div>
-<div class="para" id="subsection-logarithm-graph-3">To practice we will graph <span class="process-math">\(y=\log_2(x)\text{.}\)</span> As before we will begin by completing a table. First, consider <span class="process-math">\(y=\log_2(2)\text{.}\)</span> This can be re-written as <span class="process-math">\(2^y=2\)</span> which tells us that <span class="process-math">\(y=1\text{.}\)</span> Second, consider <span class="process-math">\(y=\log_2(4)\text{.}\)</span> This can be re-written as <span class="process-math">\(2^y=4\)</span> which tells us that <span class="process-math">\(y=2\text{.}\)</span> Because we re-write as <span class="process-math">\(2^y=x\)</span> it is easiest if the <span class="process-math">\(x\)</span> is a power of 2. For example <span class="process-math">\(x=2^3=8\text{.}\)</span> This tells us that <span class="process-math">\(\log_2(8)=3\text{.}\)</span>
+<div class="para" id="subsection-logarithm-graph-2">The purposes of this section are to become proficient with the defition through practice, and to understand the logarithm through practice and seeing its graph.</div>
+<article class="example example-like" id="example-graph-log2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-graph-log2-1">We will graph <span class="process-math">\(y=\log_2(x)\text{.}\)</span> As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.</div>
+<div class="para" id="example-graph-log2-2">While we would normally pick values like <span class="process-math">\(x=3\)</span> plug that in, producing <span class="process-math">\(y=\log_2(3)\text{,}\)</span> and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is <span class="process-math">\(2^y = x\text{.}\)</span>
 </div>
-<div class="para" id="subsection-logarithm-graph-4">Note that this last point shows us that the logarithm grows (vertically) forever. If we want the height to be 100, we select <span class="process-math">\(x=2^{100}\text{.}\)</span>
-</div>
-<div class="para" id="subsection-logarithm-graph-5">This also shows us that the rate of growth is very slow. To increase one unit of height the input must double (because this is base 2).</div>
-<div class="para" id="subsection-logarithm-graph-6">Consider next the special case <span class="process-math">\(y=\log_2(1)\text{.}\)</span> This can be re-written as <span class="process-math">\(2^y=1\)</span> which tells us that <span class="process-math">\(y=0\text{.}\)</span> This is the only place where a logarithm is zero.</div>
-<div class="para" id="subsection-logarithm-graph-7">Next we will plot points left of <span class="process-math">\(x=1\text{.}\)</span> We start with fractions. For <span class="process-math">\(y=\log_2(1/2)\)</span> we have <span class="process-math">\(2^y=\frac{1}{2}\text{.}\)</span> This tells us that <span class="process-math">\(y=-1\)</span> because negative exponents mean division. Similarly for <span class="process-math">\(y=\log_2(1/4)\)</span> we have <span class="process-math">\(2^y=\frac{1}{4}=\frac{1}{2^2}\text{,}\)</span>so <span class="process-math">\(y=-2\text{.}\)</span>
-</div>
-<div class="para" id="subsection-logarithm-graph-8">Just as the curve grows, slowly forever as <span class="process-math">\(x\)</span> increases, these examples show us that it grows forever downward as <span class="process-math">\(x\)</span> approaches zero. Notice the y value doubled when we cut the input in half. This means the growth downward is very fast.</div>
-<figure class="table table-like" id="table-log2-graph"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.3.6<span class="period">.</span></span><span class="space"> </span>Points for logarithm</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="c m b2 r2 l2 t2 lines"><span class="process-math">\(x\)</span></td>
-<td class="c m b2 r2 l0 t2 lines" colspan="2"><span class="process-math">\(\log_2(x)\)</span></td>
+<td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b2 r2 l0 t2 lines" colspan="2"><span class="process-math">\(x=2^y\)</span></td>
 </tr>
 <tr>
-<td class="r m b2 r2 l2 t0 lines">1</td>
-<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\log_2(1)=\)</span></td>
-<td class="r m b2 r2 l0 t0 lines">0</td>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^0=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(1\)</span></td>
 </tr>
 <tr>
-<td class="r m b2 r2 l2 t0 lines">2</td>
-<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\log_2(2)=\)</span></td>
-<td class="r m b2 r2 l0 t0 lines">1</td>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^1=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(2\)</span></td>
 </tr>
 <tr>
-<td class="r m b2 r2 l2 t0 lines">4</td>
-<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\log_2(4)=\)</span></td>
-<td class="r m b2 r2 l0 t0 lines">2</td>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^2=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(4\)</span></td>
 </tr>
 <tr>
-<td class="r m b2 r2 l2 t0 lines">8</td>
-<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\log_2(8)=\)</span></td>
-<td class="r m b2 r2 l0 t0 lines">3</td>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^3=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(8\)</span></td>
 </tr>
 <tr>
-<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(2^{10}\)</span></td>
-<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\log_2(2^{10})=\)</span></td>
-<td class="r m b2 r2 l0 t0 lines">10</td>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^4=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(16\)</span></td>
+</tr>
+</table></div>
+<div class="para" id="example-graph-log2-4">To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(x\)</span></td>
+<td class="r m b2 r2 l0 t2 lines"><span class="process-math">\(y=\log_2(x)\)</span></td>
 </tr>
 <tr>
-<td class="r m b2 r2 l2 t0 lines">1/2</td>
-<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\log_2(1/2)=\)</span></td>
-<td class="r m b2 r2 l0 t0 lines">-1</td>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(0\)</span></td>
 </tr>
 <tr>
-<td class="r m b2 r2 l2 t0 lines">1/4</td>
-<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\log_2(1/4)=\)</span></td>
-<td class="r m b2 r2 l0 t0 lines">-2</td>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(1\)</span></td>
 </tr>
-</table></div></figure><figure class="figure figure-like" id="figure-log2-graph"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/graph-log2.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">6.3.7<span class="period">.</span></span><span class="space"> </span>Graph of <span class="process-math">\(y=\log_2(x)\)</span></figcaption></figure><div class="para" id="subsection-logarithm-graph-11">There are two types of values we did not include in our graph example.</div>
-<article class="example example-like" id="example-log-domain-zero"><h4 class="heading">
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(8\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(16\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+</tr>
+</table></div>
+<div class="para" id="example-graph-log2-6">Notice that as promised we do not have a point with <span class="process-math">\(x=3\text{.}\)</span> This is because our method works only on values of <span class="process-math">\(x\)</span> that are powers of 2.</div>
+<div class="para" id="example-graph-log2-7">To obtain points left of <span class="process-math">\((1,0)\)</span> we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b2 r2 l0 t2 lines" colspan="2"><span class="process-math">\(x=2^y\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^{-1}=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(1/2\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^{-2}=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(1/4\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^{-3}=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(1/8\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(-4\)</span></td>
+<td class="c m b2 r0 l0 t0 lines"><span class="process-math">\(2^{-4}=\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(1/16\)</span></td>
+</tr>
+</table></div>
+<div class="para" id="example-graph-log2-9">Again we produce points on the graph of the logarithm by swapping the x and y coordinates.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b2 r2 l2 t2 lines"><span class="process-math">\(x\)</span></td>
+<td class="r m b2 r2 l0 t2 lines"><span class="process-math">\(y=\log_2(x)\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(1/2\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(1/4\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(-2\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(1/8\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(-3\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r2 l2 t0 lines"><span class="process-math">\(1/16\)</span></td>
+<td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(-4\)</span></td>
+</tr>
+</table></div>
+<div class="para" id="example-graph-log2-11">These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider <span class="process-math">\(\log_2(-4) = y\)</span> means <span class="process-math">\(2^y = -4\text{.}\)</span> However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.</div>
+<div class="para" id="example-graph-log2-12">The graph of <span class="process-math">\(y=\log_2(x)\)</span> based on these points is below.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/graph-log2.svg" role="img" class="contained"></div></article><article class="exercise exercise-like" id="exercise-graph-log3"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="exercise-graph-log3-1">Following the previous example construct a table for <span class="process-math">\(x=3^y\text{,}\)</span> then use it to construct a table for <span class="process-math">\(y=\log_3(x)\text{.}\)</span> Finally, graph this logarithm.</div></article><div class="para" id="subsection-logarithm-graph-5">Next we consider the shape of the graph and what it tells us about logarithms. The first question is how high the logarithm curve grows. To explain this question consider <a href="section-logarithm.html#figure-level-or-not" class="xref" data-knowl="./knowl/xref/figure-level-or-not.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.3.7">Figure 6.3.7</a> below. As we look from left to right both curves are always increasing. Both curves increase by less as we go to the right. However, the lower (blue, dashed) curve levels off. That is it never increases above <span class="process-math">\(y=1\text{.}\)</span> We want to know if the logarithm curve ever levels off.</div>
+<figure class="figure figure-like" id="figure-level-or-not"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/level-or-not.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">6.3.7<span class="period">.</span></span><span class="space"> </span>Graph of two always increasing curves</figcaption></figure><article class="example example-like" id="example-log2-does-not-level"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-log-domain-zero-1-1">What is <span class="process-math">\(y=\log_2(0)\text{?}\)</span>
+<div class="para logical" id="example-log2-does-not-level-1">
+<div class="para">Consider the example <span class="process-math">\(y=\log_2(x)\text{.}\)</span> We know from the table above that it grows above <span class="process-math">\(y=1\text{.}\)</span> Consider whether it grows above <span class="process-math">\(y=100\text{.}\)</span> This would mean <span class="process-math">\(100 \lt 2^x\text{.}\)</span> We know it is easier to calculate this logarithm for powers of 2 so instead we consider</div>
+<div class="displaymath process-math">
+\begin{equation*}
+100 \lt 128 = 2^7\text{.}
+\end{equation*}
 </div>
-<div class="solutions"><details id="example-log-domain-zero-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-log-domain-zero-2-1">First we re-write this log as an exponential. <span class="process-math">\(2^y=0\text{.}\)</span> We know that no exponent will produce a zero, so there is no solution for this.</div></div></details></div></article><article class="exercise exercise-like" id="exercise-log-domain-negative"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.9</span><span class="period">.</span>
+<div class="para">Does it grow above <span class="process-math">\(y=1000\text{.}\)</span> We can use</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1000 \lt 1024 = 2^{10}.
+\end{equation*}
+</div>
+</div>
+<div class="para" id="example-log2-does-not-level-2">By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., <span class="process-math">\(3^x\)</span> and <span class="process-math">\(29^x\)</span> increase forever as well).</div>
+<div class="para" id="example-log2-does-not-level-3">In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.</div></article><div class="para" id="subsection-logarithm-graph-8">We claimed above that the two graphs in <a href="section-logarithm.html#figure-level-or-not" class="xref" data-knowl="./knowl/xref/figure-level-or-not.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.3.7">Figure 6.3.7</a> increase more slowly as they continue to the right. The next example explains why this is true of the graph of a logarithm.</div>
+<article class="example example-like" id="example-log2-increase-slows"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="exercise-log-domain-negative-1-1">Re-write <span class="process-math">\(\log_2(-4)=x\)</span> as an exponential. Can you find a number for <span class="process-math">\(x\)</span> that makes this statement true?</div></article></section><section class="subsection" id="subsection-logarithm-special"><h3 class="heading hide-type">
+<div class="para" id="example-log2-increase-slows-1">Looking at the table of points for <span class="process-math">\(y=\log_2(x)\)</span> in <a href="section-logarithm.html#example-graph-log2" class="xref" data-knowl="./knowl/xref/example-graph-log2.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.3.5">Example 6.3.5</a> we note that the curve increased by 1 in height from <span class="process-math">\(x=1\)</span> to <span class="process-math">\(x=2\text{.}\)</span> The next increase of 1 in height is at <span class="process-math">\(x=4\text{.}\)</span> The next one is at <span class="process-math">\(x=8\text{.}\)</span> This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was <span class="process-math">\(1, 1/2, 1/4\text{.}\)</span> This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.</div></article><div class="para" id="subsection-logarithm-graph-10">The final trait of the graph of a logarithm to consider is what happens as the graph goes to the left. We have already established that it is not defined for negative x values. However, the graph does not have a starting point (first point on the left). The next example illustrates the asymptotic nature of the left part of the graph.</div>
+<article class="example example-like" id="example-log2-asymptote"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-log2-asymptote-1">First consider the question, is there an x value such that <span class="process-math">\(0=2^x\text{?}\)</span> We know that <span class="process-math">\(2^0=1\text{.}\)</span> If we plug in negative values we obtain fractions, e.g., <span class="process-math">\(2^{-3} = 1/2^3 = 1/8\text{.}\)</span> If we use a bigger negative number (e.g., -29) we end up with a smaller fraction (<span class="process-math">\(2^{-29}=1/2^{29}\)</span>). No matter how far we go, 0 is never the result. Because of this <span class="process-math">\(\log_2(0)\)</span> is not defined.</div>
+<div class="para" id="example-log2-asymptote-2">The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches <span class="process-math">\(y=0\)</span>), so the logarithm curve has an asymptote to the left, namely <span class="process-math">\(x=0\text{.}\)</span>
+</div></article><div class="para" id="subsection-logarithm-graph-12">Putting these traits together we realize the graph of any logarithm can be determined by the vertical asymptote and two points. This matches exponential graphs. From the left most point we draw asymptotically toward the vertical asymptote. To the right we draw with a slight increase.</div>
+<article class="exercise exercise-like" id="subsection-logarithm-graph-13"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.11</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-logarithm-graph-13-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-logarithm-graph-13-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=418041&amp;frame_id=momsubsection-logarithm-graph-13-1"></iframe></div></article></section><section class="subsection" id="subsection-logarithm-special"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.3.3</span><span class="space"> </span><span class="title">Special Logarithms</span>
 </h3>
 <div class="para" id="subsection-logarithm-special-2">Some logarithms occur sufficiently frequently in applications that they have their own notation.</div>
@@ -627,94 +727,104 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsection-logarithm-special-4">In science and from mathematics we need another log called the <dfn class="terminology">natural logarithm</dfn>. This is written as <span class="process-math">\(\ln(x)\)</span> (for logarithm natural). Natural logarithms are paired with the base <span class="process-math">\(e\text{.}\)</span> So <span class="process-math">\(\ln(5)=y\)</span> is the same as <span class="process-math">\(e^y=5\text{.}\)</span> <span class="process-math">\(e\)</span> is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious <span class="process-math">\(e \approx 2.1718281828\text{.}\)</span>
 </div>
 <article class="exercise exercise-like" id="exercise-logarithm-natural-calculate"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.10</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.3.12</span><span class="period">.</span>
 </h4>
-<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CkNvbnRleHQoKS0+ZmxhZ3MtPnNldCh0b2xUeXBlPT5hYnNvbHV0ZSk7CkNvbnRleHQoKS0+ZmxhZ3MtPnNldCh0b2xUeXBlPT4wLjAwMDEpOwokYSA9IENvbXB1dGUocmFuZG9tKDIsOSwxKSk7CgpCRUdJTl9QR01MClVzaW5nIHRlY2hub2xvZ3ksIGNhbGN1bGF0ZSBbYFxsbihbJGFdKT1gXSBbX117JzIuMDc5NCd9ezEyfS4KClByZWNpc2lvbiBzaG91bGQgYmUgYXQgbGVhc3QgZm91ciBkZWNpbWFsIHBsYWNlcy4KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-1-1-1-1">Using technology, calculate <span class="process-math">\(\ln({2})=\)</span> <span class="fillin underline" role="img" aria-label="12-character blank" style="width: 5.454545454545454em;"></span>.</div> <div class="para" id="extracted-webwork-1-1-1-2">Precision should be at least four decimal places.</div>
-</div>
-</div></article></section><section class="exercises" id="section-logarithm-6"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">6.3.4</span><span class="space"> </span><span class="title">Exercises</span>
+<div id="momexercise-logarithm-natural-calculate-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-logarithm-natural-calculate-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1484287&amp;frame_id=momexercise-logarithm-natural-calculate-1"></iframe></div></article></section><section class="subsection" id="subsection-log-scales"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.3.4</span><span class="space"> </span><span class="title">Logarithmic Scale</span>
 </h3>
-<div class="exercisegroup" id="section-logarithm-6-1">
+<div class="para" id="subsection-log-scales-2">This section demonstrates how logarithms can be used to better analyze data. The technique is to modify how we graph, specifically how we label one axis.</div>
+<div class="para" id="subsection-log-scales-3">Often the scales on the two axes are different. Consider the graph of <span class="process-math">\(y=\log_2(x)\)</span> in <a href="section-logarithm.html#example-graph-log2" class="xref" data-knowl="./knowl/xref/example-graph-log2.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.3.5">Example 6.3.5</a> above. The x-axis is labeled 0 to 16 and the y-axis is labeled - 4 to 4. That means the x-axis, though it takes up the same length of area as the y-axis represents 16 units to the y-axis’ 8 units. We do this because many graphs would otherwise be too tall or too wide to fit.</div>
+<div class="para" id="subsection-log-scales-4">What these graphs do require is that each tick mark represents the same number of units. For example on the graph of this log, every tick mark on the x-axis represents one unit (only half are labeled). On the y-axis every tick mark represents 1/2 unit (only half are labeled). Sometimes this requirement means it is hard to read a graph.</div>
+<div class="para" id="subsection-log-scales-5">Consider the two graphs in <a href="section-logarithm.html#figure-logarithm-scale-example" class="xref" data-knowl="./knowl/xref/figure-logarithm-scale-example.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.3.13">Figure 6.3.13</a>. Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left (normal scale) or the version on the right (log scale)?</div>
+<figure class="figure figure-like" id="figure-logarithm-scale-example"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="subfigure-normal-scale"><img src="external/images/scale-normal.svg" role="img" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Normal Scale</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="subfigure-log-scale"><img src="external/images/scale-logarithm.svg" role="img" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Log Scale</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">6.3.13<span class="period">.</span></span><span class="space"> </span>Comparison of Scales</figcaption></figure><div class="para" id="subsection-log-scales-7">The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing <span class="process-math">\((x,\log(y))\text{.}\)</span>
+</div>
+<div class="para" id="subsection-log-scales-8">When is this scale useful? Any time data is growing by a multiple rather. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. For example consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).</div>
+<div class="para" id="subsection-log-scales-9">Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.</div>
+<div class="para" id="subsection-log-scales-10">Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. That is, we perceive things based on how much of a multiple they are of current condition rather than how much is added. For example, a 10 degree temperature change feels like more of change if the initial temperature is <span class="process-math">\(20^\circ\)</span> F (when it is half of the current value) than if it is <span class="process-math">\(50^\circ\)</span> F (now only one fifth of the current value).</div></section><section class="exercises" id="section-logarithm-7"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">6.3.5</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<div class="exercisegroup" id="section-logarithm-7-1">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="section-logarithm-6-1-1"><div class="para" id="section-logarithm-6-1-1-1">Calculate using logarithms</div></div>
+<div class="introduction" id="section-logarithm-7-1-1"><div class="para" id="section-logarithm-7-1-1-1">Calculate using logarithms</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-logarithm-6-1-2"><h5 class="heading">
+<article class="exercise exercise-like" id="section-logarithm-7-1-2"><h5 class="heading">
 <span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Notation.</span>
 </h5>
-<div id="momsection-logarithm-6-1-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100176&amp;frame_id=momsection-logarithm-6-1-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-3"><h5 class="heading">
+<div id="momsection-logarithm-7-1-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100176&amp;frame_id=momsection-logarithm-7-1-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-3"><h5 class="heading">
 <span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Notation.</span>
 </h5>
-<div id="momsection-logarithm-6-1-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100176&amp;frame_id=momsection-logarithm-6-1-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-4"><h5 class="heading">
+<div id="momsection-logarithm-7-1-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100176&amp;frame_id=momsection-logarithm-7-1-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-4"><h5 class="heading">
 <span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Notation.</span>
 </h5>
-<div id="momsection-logarithm-6-1-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100193&amp;frame_id=momsection-logarithm-6-1-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-5"><h5 class="heading">
+<div id="momsection-logarithm-7-1-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100193&amp;frame_id=momsection-logarithm-7-1-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-5"><h5 class="heading">
 <span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Notation.</span>
 </h5>
-<div id="momsection-logarithm-6-1-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100193&amp;frame_id=momsection-logarithm-6-1-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-6"><h5 class="heading">
+<div id="momsection-logarithm-7-1-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100193&amp;frame_id=momsection-logarithm-7-1-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-6"><h5 class="heading">
 <span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Notation.</span>
 </h5>
-<div id="momsection-logarithm-6-1-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1514&amp;frame_id=momsection-logarithm-6-1-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-7"><h5 class="heading">
+<div id="momsection-logarithm-7-1-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1514&amp;frame_id=momsection-logarithm-7-1-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-7"><h5 class="heading">
 <span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Evaluate.</span>
 </h5>
-<div id="momsection-logarithm-6-1-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8522&amp;frame_id=momsection-logarithm-6-1-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-8"><h5 class="heading">
+<div id="momsection-logarithm-7-1-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8522&amp;frame_id=momsection-logarithm-7-1-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-8"><h5 class="heading">
 <span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Evaluate.</span>
 </h5>
-<div id="momsection-logarithm-6-1-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=35022&amp;frame_id=momsection-logarithm-6-1-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-9"><h5 class="heading">
+<div id="momsection-logarithm-7-1-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=35022&amp;frame_id=momsection-logarithm-7-1-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-9"><h5 class="heading">
 <span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Notation.</span>
 </h5>
-<div id="momsection-logarithm-6-1-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=72629&amp;frame_id=momsection-logarithm-6-1-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-10"><h5 class="heading">
+<div id="momsection-logarithm-7-1-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=72629&amp;frame_id=momsection-logarithm-7-1-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-10"><h5 class="heading">
 <span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Notation.</span>
 </h5>
-<div id="momsection-logarithm-6-1-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=15905&amp;frame_id=momsection-logarithm-6-1-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-11"><h5 class="heading">
+<div id="momsection-logarithm-7-1-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=15905&amp;frame_id=momsection-logarithm-7-1-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-11"><h5 class="heading">
 <span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
 </h5>
-<div id="momsection-logarithm-6-1-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=392038&amp;frame_id=momsection-logarithm-6-1-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-12"><h5 class="heading">
+<div id="momsection-logarithm-7-1-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=392038&amp;frame_id=momsection-logarithm-7-1-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-12"><h5 class="heading">
 <span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
 </h5>
-<div id="momsection-logarithm-6-1-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=728281&amp;frame_id=momsection-logarithm-6-1-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-13"><h5 class="heading">
+<div id="momsection-logarithm-7-1-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=728281&amp;frame_id=momsection-logarithm-7-1-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-13"><h5 class="heading">
 <span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
 </h5>
-<div id="momsection-logarithm-6-1-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2434&amp;frame_id=momsection-logarithm-6-1-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-14"><h5 class="heading">
+<div id="momsection-logarithm-7-1-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2434&amp;frame_id=momsection-logarithm-7-1-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-14"><h5 class="heading">
 <span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
 </h5>
-<div id="momsection-logarithm-6-1-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2654&amp;frame_id=momsection-logarithm-6-1-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-15"><h5 class="heading">
+<div id="momsection-logarithm-7-1-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2654&amp;frame_id=momsection-logarithm-7-1-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-15"><h5 class="heading">
 <span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
 </h5>
-<div id="momsection-logarithm-6-1-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100541&amp;frame_id=momsection-logarithm-6-1-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-16"><h5 class="heading">
+<div id="momsection-logarithm-7-1-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=100541&amp;frame_id=momsection-logarithm-7-1-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-16"><h5 class="heading">
 <span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
 </h5>
-<div id="momsection-logarithm-6-1-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2667&amp;frame_id=momsection-logarithm-6-1-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-17"><h5 class="heading">
+<div id="momsection-logarithm-7-1-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2667&amp;frame_id=momsection-logarithm-7-1-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-17"><h5 class="heading">
 <span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Solve.</span>
 </h5>
-<div id="momsection-logarithm-6-1-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2668&amp;frame_id=momsection-logarithm-6-1-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-1-18"><h5 class="heading">
+<div id="momsection-logarithm-7-1-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2668&amp;frame_id=momsection-logarithm-7-1-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-1-18"><h5 class="heading">
 <span class="codenumber">17<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h5>
-<div id="momsection-logarithm-6-1-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-1-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=273794&amp;frame_id=momsection-logarithm-6-1-18-2"></iframe></div></article>
+<div id="momsection-logarithm-7-1-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-1-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=273794&amp;frame_id=momsection-logarithm-7-1-18-2"></iframe></div></article>
 </div>
 </div>
-<div class="exercisegroup" id="section-logarithm-6-2">
+<div class="exercisegroup" id="section-logarithm-7-2">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="section-logarithm-6-2-1"><div class="para" id="section-logarithm-6-2-1-1">Graph Logarithms</div></div>
+<div class="introduction" id="section-logarithm-7-2-1"><div class="para" id="section-logarithm-7-2-1-1">Graph Logarithms</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-logarithm-6-2-2"><h5 class="heading">
+<article class="exercise exercise-like" id="section-logarithm-7-2-2"><h5 class="heading">
 <span class="codenumber">18<span class="period">.</span></span><span class="space"> </span><span class="title">Graphs.</span>
 </h5>
-<div id="momsection-logarithm-6-2-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-2-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=45602&amp;frame_id=momsection-logarithm-6-2-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-2-3"><h5 class="heading">
+<div id="momsection-logarithm-7-2-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-2-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=45602&amp;frame_id=momsection-logarithm-7-2-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-2-3"><h5 class="heading">
 <span class="codenumber">19<span class="period">.</span></span><span class="space"> </span><span class="title">Graphs.</span>
 </h5>
-<div id="momsection-logarithm-6-2-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-2-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=418041&amp;frame_id=momsection-logarithm-6-2-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-2-4"><h5 class="heading">
+<div id="momsection-logarithm-7-2-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-2-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=418041&amp;frame_id=momsection-logarithm-7-2-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-2-4"><h5 class="heading">
 <span class="codenumber">20<span class="period">.</span></span><span class="space"> </span><span class="title">Graphs.</span>
 </h5>
-<div id="momsection-logarithm-6-2-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-2-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=418054&amp;frame_id=momsection-logarithm-6-2-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-2-5"><h5 class="heading">
+<div id="momsection-logarithm-7-2-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-2-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=418054&amp;frame_id=momsection-logarithm-7-2-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-2-5"><h5 class="heading">
 <span class="codenumber">21<span class="period">.</span></span><span class="space"> </span><span class="title">Graphs.</span>
 </h5>
-<div id="momsection-logarithm-6-2-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-2-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=418064&amp;frame_id=momsection-logarithm-6-2-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-6-2-6"><h5 class="heading">
+<div id="momsection-logarithm-7-2-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-2-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=418064&amp;frame_id=momsection-logarithm-7-2-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-logarithm-7-2-6"><h5 class="heading">
 <span class="codenumber">22<span class="period">.</span></span><span class="space"> </span><span class="title">Graphs.</span>
 </h5>
-<div id="momsection-logarithm-6-2-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-6-2-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=428652&amp;frame_id=momsection-logarithm-6-2-6-2"></iframe></div></article>
+<div id="momsection-logarithm-7-2-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-logarithm-7-2-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=428652&amp;frame_id=momsection-logarithm-7-2-6-2"></iframe></div></article>
 </div>
 </div></section></section></div>
 <div class="ptx-content-footer">
