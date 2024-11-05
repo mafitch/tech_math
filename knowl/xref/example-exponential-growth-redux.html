@@ -12,29 +12,33 @@
 </head>
 <body class="ignore-math">
 <article class="example example-like"><h4 class="heading">
-<span class="type">Example</span><span xmlns:pf="https://prefigure.org" class="space"> </span><span class="codenumber">6.4.12</span><span xmlns:pf="https://prefigure.org" class="period">.</span>
+<span class="type">Example</span><span xmlns:pf="https://prefigure.org" class="space"> </span><span class="codenumber">6.4.11</span><span xmlns:pf="https://prefigure.org" class="period">.</span>
 </h4>
-<div xmlns:pf="https://prefigure.org" class="para">In <a href="section-exponential.html#subsection-exponential-application" class="internal" title="Subsection 6.1.2: Applications">Subsection 6.1.2</a> we produced the model <span class="process-math">\(P=4000 \cdot 2^{t/70}\text{.}\)</span> Here we will redo this problem using the model <span class="process-math">\(P=P_0 e^{kt}\text{.}\)</span>
-</div> <div xmlns:pf="https://prefigure.org" class="para">The bacteria <dfn class="terminology">lactobacilus acidophilus</dfn> doubles in population every 70 minutes. If the initial population was 4000 bacteria, what would the population be after 24 hours?</div>
-<div class="solutions"><details xmlns:pf="https://prefigure.org" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical">
-<div class="para">First we calculate the constant <span class="process-math">\(k\)</span> in the model.</div>
+<div xmlns:pf="https://prefigure.org" class="para">In <a href="section-exponential.html#example-exponential-model-lactobacillus-gram" class="xref" data-knowl="./knowl/xref/example-exponential-model-lactobacillus-gram.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.1.13: First Exponential Model Redux">Example 6.1.13</a> we produced the model <span class="process-math">\(P=3.0 \cdot 2^{t/7\bar{0}}\text{.}\)</span> Here we will redo this problem using the model <span class="process-math">\(P=P_0 e^{kt}\text{.}\)</span>
+</div>
+<div xmlns:pf="https://prefigure.org" class="para">The bacteria <dfn class="terminology">lactobacilus acidophilus</dfn> doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?</div>
+<div xmlns:pf="https://prefigure.org" class="para logical">
+<div class="para">To use this model we must first calculate the constant <span class="process-math">\(k\text{.}\)</span> We know the amount doubles every 70 minutes, so we can start with the following.</div>
 <div class="displaymath process-math">
 \begin{align*}
-8000 &amp; = 4000e^{70 k}\\
-\frac{8000}{4000} &amp; = e^{70k}\\
-2 &amp; = e^{70k}\\
-\ln(2) &amp; = 70k\\
-\frac{\ln(2)}{70} &amp; = k\\
-k &amp; \approx 0.009902
+6.0 &amp; = 3.0e^{7\bar{0} k}\\
+\frac{6.0}{3.0} &amp; = e^{7\bar{0}k}\\
+2.0 &amp; = e^{7\bar{0}k}\\
+\ln(2.0) &amp; = 7\bar{0}k\\
+\frac{\ln(2.0)}{7\bar{0}} &amp; = k\\
+k &amp; \approx 0.009902\\
+&amp; \approx 0.0099.
 \end{align*}
 </div>
 <div class="para">Using this value we can now calculate the value after 24 hours. Note 24 hours is <span class="process-math">\(24 \cdot 60 = 1440\)</span> minutes.</div>
 <div class="displaymath process-math">
 \begin{align*}
-P &amp; = 4000e^{(1440)(0.009902)}\\
-&amp; \approx 6.232 \times 10^9
+P &amp; = 3.0e^{(144\bar{0})(0.0099)}\\
+&amp; \approx 4.674533843 \times 10^6\\
+&amp; \approx 4.7 \times 10^6
 \end{align*}
 </div>
-</div></div></details></div></article><span class="incontext"><a class="internal" href="section-log-solve.html#example-exponential-growth-redux">in-context</a></span>
+</div>
+<div xmlns:pf="https://prefigure.org" class="para">This is <span class="process-math">\(4.7 \times 10^3 \approx 47,000\)</span> kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.</div></article><span class="incontext"><a class="internal" href="section-log-solve.html#example-exponential-growth-redux">in-context</a></span>
 </body>
 </html>

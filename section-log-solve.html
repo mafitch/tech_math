@@ -468,9 +468,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Evaluating and Solving with Logs</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-logarithm-property-power" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Additional Logarithm Property</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solving-exponentials" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Solving Equations with Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Solving Equations with Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials and Logarithms</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-log-solve.html#section-log-solve-6" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
@@ -521,12 +521,114 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:pf="https://prefigure.org" class="section" id="section-log-solve"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">6.4</span><span class="space"> </span><span class="title">Solving Equations Using Logarithm</span>
 </h2>
-<section class="introduction" id="section-log-solve-2"><div class="para" id="section-log-solve-2-1">We can evaluate expressions with exponentials and logarithms using devices. We can also solve equations involving logarithmic and exponential expressions. We will use both the definition of logarithm and the relationship between logarithmic and exponential expressions.</div></section><section class="subsection" id="subsection-solve-logs"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.4.1</span><span class="space"> </span><span class="title">Evaluating and Solving with Logs</span>
+<section class="introduction" id="section-log-solve-2"><div class="para logical" id="section-log-solve-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-log-solve-2-1-1">
+<li id="section-log-solve-2-1-1-1"><div class="para" id="p-derived-section-log-solve-2-1-1-1">Read and use mathematical models in a technical document</div></li>
+<li id="section-log-solve-2-1-1-2"><div class="para" id="p-derived-section-log-solve-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-log-solve-2-1-2">
+<li id="section-log-solve-2-1-2-1"><div class="para" id="p-derived-section-log-solve-2-1-2-1">Solve linear, rational, quadratic, and exponential equations and formulas (skill)</div></li>
+<li id="section-log-solve-2-1-2-2"><div class="para" id="p-derived-section-log-solve-2-1-2-2">Read and interpret models (critical thinking)</div></li>
+<li id="section-log-solve-2-1-2-3"><div class="para" id="p-derived-section-log-solve-2-1-2-3">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</div></li>
+</ul>
+</div>
+<div class="para" id="section-log-solve-2-2">This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.</div></section><section class="subsection" id="subsection-solving-exponentials"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.4.1</span><span class="space"> </span><span class="title">Solving Equations with Exponentials</span>
 </h3>
-<div class="para" id="subsection-solve-logs-2">First, we will use <a href="section-logarithm.html#definition-logarithm" class="xref" data-knowl="./knowl/xref/definition-logarithm.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 6.3.1: Logarithm">Definition 6.3.1</a> to solve logarithmic equations.</div>
-<article class="example example-like" id="example-log-solve-basic"><h4 class="heading">
+<div class="para" id="subsection-solving-exponentials-2">The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.</div>
+<article class="example example-like" id="example-solve-exponential-algebra1"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-exponential-algebra1-1">Solve <span class="process-math">\(6.0 = 10^{\frac{3}{2}(x+10.7)}\text{.}\)</span>
+</div>
+<div class="para logical" id="example-solve-exponential-algebra1-2">
+<div class="para">Order of operations dictates the following</div>
+<div class="displaymath process-math" id="example-solve-exponential-algebra1-2-1">
+\begin{align*}
+6.0 &amp; = 10^{\frac{3}{2}(x+10.7)}.\\
+\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). &amp; \text{ log to undo exponential}\\
+\log(6.0) &amp; = \frac{3}{2}(x+10.7).\\
+\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo }\frac{3}{2} \cdot\\
+\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo }+10.7 \cdot\\
+-10.181 &amp; \approx x.
+\end{align*}
+</div>
+</div>
+<div class="para" id="example-solve-exponential-algebra1-3">Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.</div></article><article class="example example-like" id="example-solve-exponential-algebra2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-exponential-algebra2-1">Solve <span class="process-math">\(13 = 2+3e^{x-1}\text{.}\)</span>
+</div>
+<div class="para logical" id="example-solve-exponential-algebra2-2">
+<div class="para">Order of operations dictates the following</div>
+<div class="displaymath process-math" id="example-solve-exponential-algebra2-2-1">
+\begin{align*}
+13 &amp; = 2+3e^{x-1}.\\
+11 &amp; = 3e^{x-1}. \text{ Subtract to undo }+2\\
+\frac{11}{3} &amp; = e^{x-1} &amp; \text{ Divide to undo }3 \cdot\\
+\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right). &amp; \text{ log to undo exponential}\\
+\ln\left(\frac{11}{3}\right) &amp; = x-1.\\
+\ln\left(\frac{11}{3}\right)+1 &amp; = x. &amp; \text{ Add to undo }-1\\
+2.299 &amp; \approx x.
+\end{align*}
+</div>
+</div>
+<div class="para" id="example-solve-exponential-algebra2-3">Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.</div></article><article class="exercise exercise-like" id="subsection-solving-exponentials-5"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.4.3</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-solving-exponentials-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-solving-exponentials-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1484890&amp;frame_id=momsubsection-solving-exponentials-5-1"></iframe></div></article><div class="para" id="subsection-solving-exponentials-6">The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).</div>
+<article class="example example-like" id="example-solve-exponential-no-button"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-exponential-no-button-1">Solve <span class="process-math">\(5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)\text{.}\)</span>
+</div>
+<div class="para logical" id="example-solve-exponential-no-button-2">
+<div class="para">Because the exponential is base 2, we will use a log base 2.</div>
+<div class="displaymath process-math" id="example-solve-exponential-no-button-2-1">
+\begin{align*}
+5.0 &amp; = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right).\\
+5.0/3.0 &amp; = 2^{\frac{t}{7\bar{0}}}.\\
+\log_2(5.0/3.0) &amp; = \log_2\left(2^{\frac{t}{7\bar{0}}}\right).\\
+\log_2(5.0/3.0) &amp; = \frac{t}{7\bar{0}}.\\
+7\bar{0}\log_2(5.0/3.0) &amp; = t.
+\end{align*}
+</div>
+</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/F5wY2KRtFuQ?&amp;modestbranding=1&amp;rel=0" id="video-example-solve-exponential2"></iframe></div></article><div class="para logical" id="subsection-solving-exponentials-8">
+<div class="para">Your calculator likely does not have a button for calculating <span class="process-math">\(\log_2(x)\text{.}\)</span> We can use a property of all logarithms to solve this equation with the natural log. In general</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_b(a^p) = p \log_b(a)\text{.}
+\end{equation*}
+</div>
+</div>
+<article class="example example-like" id="example-solve-exponential-ln"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-solve-exponential-ln-1">Solve <span class="process-math">\(5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)\text{.}\)</span>
+</div>
+<div class="para logical" id="example-solve-exponential-ln-2"><div class="displaymath process-math" id="example-solve-exponential-ln-2-1">
+\begin{align*}
+5.0 &amp; = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right).\\
+5.0/3.0 &amp; = 2^{\frac{t}{7\bar{0}}}.\\
+\ln(5.0/3.0) &amp; = \ln\left(2^{\frac{t}{7\bar{0}}}\right).\\
+\ln(5.0/3.0) &amp; = \frac{t}{7\bar{0}} \cdot \ln(2).\\
+\frac{7\bar{0}\ln(5.0/3.0)}{\ln(2)} &amp; = t.\\
+51.58759159 &amp; \approx t\\
+52 &amp; \approx t
+\end{align*}
+</div></div>
+<div class="para" id="example-solve-exponential-ln-3">Your calculator does have a button for <span class="process-math">\(\ln(x)\text{.}\)</span> Note this implies that <span class="process-math">\(\log_2(5.0/3.0) = \frac{\ln(5.0/3.0)}{\ln(2)}\text{.}\)</span> This relationship works for logs of any base.</div></article><article class="exercise exercise-like" id="subsection-solving-exponentials-10"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.4.6</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-solving-exponentials-10-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-solving-exponentials-10-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1484969&amp;frame_id=momsubsection-solving-exponentials-10-1"></iframe></div></article></section><section class="subsection" id="subsection-solve-logs"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.4.2</span><span class="space"> </span><span class="title">Solving Equations with Logarithms</span>
+</h3>
+<div class="para" id="subsection-solve-logs-2">As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.</div>
+<article class="example example-like" id="example-log-solve-basic"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.7</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-log-solve-basic-1">
 <div class="para">Solve</div>
@@ -543,131 +645,29 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="para">which tells us that <span class="process-math">\(x=9\text{.}\)</span>
 </div>
-</div></article><article class="example example-like" id="example-log-solve-medium"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.2</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="example-log-solve-medium-1">
-<div class="para">Solve</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\log_2(x+5)=7\text{.}
-\end{equation*}
-</div>
-<div class="para">We can re-write this as</div>
-<div class="displaymath process-math" id="example-log-solve-medium-1-2">
-\begin{align*}
-2^7 \amp = x+5.\\
-128 \amp = x+5.\\
-123 \amp = x.
-\end{align*}
-</div>
-</div>
-<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/fNrmpAfH47A?&amp;modestbranding=1&amp;rel=0" id="video-example-log-solve"></iframe></div></article><article class="exercise exercise-like" id="exercise-log-solve"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.4.3</span><span class="period">.</span>
-</h4>
-<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7ClRFWFQoTU9ERVMoUFRYPT4nJyxIVE1MPT4nPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+XChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpPC9kaXY+JykpOwpDb250ZXh0KCJMaW1pdGVkTnVtZXJpYyIpOwokayA9IENvbXB1dGUocmFuZG9tKDIsNSwxKSk7CiRiID0gQ29tcHV0ZShyYW5kb20oMiw1LDEpKTsKJGogPSBDb21wdXRlKHJhbmRvbSgzLDcsMSkpOwokYyA9ICRrKiRqOwokYW5zID0gJGIqKiRqOwoKQkVHSU5fUEdNTApTb2x2ZSBbYFska11cbG9nX3tbJGJdfSh4KT1bJGNdXHRleHR7Ln1gXSBbX117JGFuc317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRrXVxsb2dfe1skYl19KHgpIFxhbXAgPSBbJGNdXFwKWyRrXVxsb2dfe1skYl19KHgpL1ska10gXGFtcCA9IFskY10vWyRrXVxcClxsb2dfe1skYl19KHgpIFxhbXAgPSBbJGpdXFwKWyRiXV57WyRqXX0gXGFtcCA9IHhcXApbJGFuc10gXGFtcCA9IHgKXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
-<div class="problem-contents"><div class="para" id="extracted-webwork-1-1-1-1">Solve <span class="process-math">\({2}\log_{{5}}(x)={6}\text{.}\)</span> <span class="fillin underline" role="img" aria-label="4-character blank" style="width: 1.818181818181818em;"></span>
-</div></div>
-</div></article></section><section class="subsection" id="subsection-logarithm-property-power"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.4.2</span><span class="space"> </span><span class="title">Additional Logarithm Property</span>
-</h3>
-<div class="para" id="subsection-logarithm-property-power-2">We need one more property of logarithms to solve some equations.</div>
-<article class="example example-like" id="example-log-power-property"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.4</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-log-power-property-1-1">Evaluate <span class="process-math">\(\log(10^7)\)</span>
-</div>
-<div class="solutions"><details id="example-log-power-property-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-log-power-property-2-1">
-<span class="process-math">\(\log(10^7)=7 \log(10) = 7\)</span> because <span class="process-math">\(\log(10)\)</span> is the same as <span class="process-math">\(10^x=10\)</span> so <span class="process-math">\(x=1\text{.}\)</span>
-</div></div></details></div></article><div class="para logical" id="subsection-logarithm-property-power-4">
-<div class="para">In general the property is</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\log_b(a^p) = p \log_b(a)\text{.}
-\end{equation*}
-</div>
-<div class="para">We can use this property to solve equations involving exponentials.</div>
-</div>
-<article class="example example-like" id="example-solve-exponential"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.5</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-solve-exponential-1-1">Solve <span class="process-math">\(5 = 2^x\text{.}\)</span>
-</div>
-<div class="solutions"><details id="example-solve-exponential-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="example-solve-exponential-2-1">
-<div class="para">Because the exponential is base 2, we will use a log base 2.</div>
-<div class="displaymath process-math" id="example-solve-exponential-2-1-1">
-\begin{align*}
-5 &amp; = 2^x.\\
-\log_2(5) &amp; = \log_2(2^x).\\
-\log_2(5) &amp; = x\log_2(2).\\
-\log_2(5) &amp; = x \cdot 1.\\
-\log_2(5) &amp; = x.
-\end{align*}
-</div>
-<div class="para">Note those last three steps will always be the same, so we often jump from the second step to the last.</div>
-</div>
-<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/F5wY2KRtFuQ?&amp;modestbranding=1&amp;rel=0" id="video-example-solve-exponential2"></iframe></div>
-</div></details></div></article><div class="para" id="subsection-logarithm-property-power-6">Your calculator likely does not have a button for calculating <span class="process-math">\(\log_2(x)\text{.}\)</span> The property we used does not depend on using that log however.</div>
-<article class="example example-like" id="example-solve-exponential-ln"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.6</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-solve-exponential-ln-1-1">Solve <span class="process-math">\(5 = 2^x\text{.}\)</span>
-</div>
-<div class="solutions"><details id="example-solve-exponential-ln-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-solve-exponential-ln-2-1">
-<div class="para">Because the exponential is base 2, we will use a log base 2.</div>
-<div class="displaymath process-math" id="example-solve-exponential-ln-2-1-1">
-\begin{align*}
-5 &amp; = 2^x.\\
-\ln(5) &amp; = \ln(2^x).\\
-\ln(5) &amp; = x\ln(2).\\
-\frac{\ln(5)}{\ln(2)} &amp; = \frac{x\ln(2)}{\ln(2)}.\\
-\frac{\ln(5)}{\ln(2)} &amp; = x.
-\end{align*}
-</div>
-<div class="para">Your calculator does have a button for <span class="process-math">\(\ln(x)\text{.}\)</span> Note this implies that <span class="process-math">\(\log_2(5) = \frac{\ln(5)}{\ln(2)}\text{.}\)</span> This relationship always works.</div>
-</div></div></details></div></article><article class="example example-like" id="example-solve-exponetial-algebra"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.7</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-solve-exponetial-algebra-1-1">Solve <span class="process-math">\(13 = 2+3e^{x-1}\text{.}\)</span>
-</div>
-<div class="solutions"><details id="example-solve-exponetial-algebra-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-solve-exponetial-algebra-2-1">
-<div class="para">Order of operations dictates the following</div>
-<div class="displaymath process-math" id="example-solve-exponetial-algebra-2-1-1">
-\begin{align*}
-13 &amp; = 2+3e^{x-1}.\\
-11 &amp; = 3e^{x-1}.\\
-\frac{11}{3} &amp; = e^{x-1}\\
-\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right).\\
-\ln\left(\frac{11}{3}\right) &amp; = x-1.\\
-\ln\left(\frac{11}{3}\right)+1 &amp; = x.\\
-2.299 &amp; \approx x.
-\end{align*}
-</div>
-</div></div></details></div></article><div class="para" id="subsection-logarithm-property-power-9">We can use the relationship between exponentials and logarithms to solve logarithmic equations as well.</div>
-<article class="example example-like" id="example-log-solve1"><h4 class="heading">
+</div></article><article class="example example-like" id="example-log-solve1"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-log-solve1-1-1">Solve <span class="process-math">\(14 = 12+\log(5x)\text{.}\)</span>
+<div class="para" id="example-log-solve1-1">Solve <span class="process-math">\(14 = 12+\log(5x)\text{.}\)</span>
 </div>
-<div class="solutions"><details id="example-log-solve1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-log-solve1-2-1">
+<div class="para logical" id="example-log-solve1-2">
 <div class="para">First we combine the terms outside the logarithm, the we re-write that as an exponential.</div>
-<div class="displaymath process-math" id="example-log-solve1-2-1-1">
+<div class="displaymath process-math" id="example-log-solve1-2-1">
 \begin{align*}
 14 &amp; = 12+\log(5x)\\
 2 &amp; = \log(5x)\\
 10^2 &amp; = 5x\\
 100 &amp; = 5x\\
-20 &amp; \approx x
+20 &amp; = x
 \end{align*}
 </div>
-</div></div></details></div></article><article class="example example-like" id="example-log-solve2"><h4 class="heading">
+</div></article><article class="example example-like" id="example-log-solve2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-log-solve2-1-1">Solve <span class="process-math">\(7 = \ln(3x+2)\text{.}\)</span>
 </div>
-<div class="solutions"><details id="example-log-solve2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-log-solve2-2-1">
+<div class="solutions"><details id="example-log-solve2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="example-log-solve2-2-1">
 <div class="para">We re-write this as an exponential.</div>
 <div class="displaymath process-math" id="example-log-solve2-2-1-1">
 \begin{align*}
@@ -678,98 +678,94 @@ e^7-2 &amp; = 3x\\
 365 &amp; \approx x
 \end{align*}
 </div>
-</div></div></details></div></article><article class="exercise exercise-like" id="exercise-log-solve-no-context"><h4 class="heading">
+</div>
+<div class="para" id="example-log-solve2-2-2">We choose arbitrarily to round to units, because there is no context.</div>
+</div></details></div></article><article class="exercise exercise-like" id="exercise-log-solve-no-context"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.4.10</span><span class="period">.</span>
 </h4>
-<div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CkNvbnRleHQoKS0+ZmxhZ3MtPnNldCh0b2xUeXBlPT5hYnNvbHV0ZSk7CkNvbnRleHQoKS0+ZmxhZ3MtPnNldCh0b2xUeXBlPT4wLjAwMDEpOwokcCA9IENvbXB1dGUocmFuZG9tKDIsNSwxKSk7CiRjID0gQ29tcHV0ZShyYW5kb20oMiw5LDEpKTsKJHMgPSBDb21wdXRlKHJhbmRvbSgxLDksMSkpOwokYW5zID0gZSoqKCRwLyRjKS0kczsKCkJFR0lOX1BHTUwKU29sdmUKCltgYGBbJHBdID0gWyRjXVxsbih4K1skc10pYGBgXQoKW2B4PWBdIFtfXXskYW5zfXsxMn0uCgpQcmVjaXNpb24gc2hvdWxkIGJlIGF0IGxlYXN0IGZvdXIgZGVjaW1hbCBwbGFjZXMuCgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-2-1-1-1">Solve</div> <div class="para logical" id="extracted-webwork-2-1-1-2"><div class="displaymath process-math">
-\begin{equation*}
-{2} = {5}\ln(x+{6})
-\end{equation*}
-</div></div> <div class="para" id="extracted-webwork-2-1-1-3">
-<span class="process-math">\(x=\)</span> <span class="fillin underline" role="img" aria-label="12-character blank" style="width: 5.454545454545454em;"></span>.</div> <div class="para" id="extracted-webwork-2-1-1-4">Precision should be at least four decimal places.</div>
-</div>
-</div></article></section><section class="subsection" id="subsection-exponential-applications"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.4.3</span><span class="space"> </span><span class="title">Applications with Exponentials</span>
+<div id="momexercise-log-solve-no-context-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-log-solve-no-context-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1485008&amp;frame_id=momexercise-log-solve-no-context-1"></iframe></div></article></section><section class="subsection" id="subsection-exponential-applications"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.4.3</span><span class="space"> </span><span class="title">Applications with Exponentials and Logarithms</span>
 </h3>
-<article class="example example-like" id="example-exponential-decay"><h4 class="heading">
+<article class="example example-like" id="example-exponential-growth-redux"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.11</span><span class="period">.</span>
 </h4>
+<div class="para" id="example-exponential-growth-redux-1">In <a href="section-exponential.html#example-exponential-model-lactobacillus-gram" class="xref" data-knowl="./knowl/xref/example-exponential-model-lactobacillus-gram.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.1.13: First Exponential Model Redux">Example 6.1.13</a> we produced the model <span class="process-math">\(P=3.0 \cdot 2^{t/7\bar{0}}\text{.}\)</span> Here we will redo this problem using the model <span class="process-math">\(P=P_0 e^{kt}\text{.}\)</span>
+</div>
+<div class="para" id="example-exponential-growth-redux-2">The bacteria <dfn class="terminology">lactobacilus acidophilus</dfn> doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?</div>
+<div class="para logical" id="example-exponential-growth-redux-3">
+<div class="para">To use this model we must first calculate the constant <span class="process-math">\(k\text{.}\)</span> We know the amount doubles every 70 minutes, so we can start with the following.</div>
+<div class="displaymath process-math" id="example-exponential-growth-redux-3-2">
+\begin{align*}
+6.0 &amp; = 3.0e^{7\bar{0} k}\\
+\frac{6.0}{3.0} &amp; = e^{7\bar{0}k}\\
+2.0 &amp; = e^{7\bar{0}k}\\
+\ln(2.0) &amp; = 7\bar{0}k\\
+\frac{\ln(2.0)}{7\bar{0}} &amp; = k\\
+k &amp; \approx 0.009902\\
+&amp; \approx 0.0099.
+\end{align*}
+</div>
+<div class="para">Using this value we can now calculate the value after 24 hours. Note 24 hours is <span class="process-math">\(24 \cdot 60 = 1440\)</span> minutes.</div>
+<div class="displaymath process-math" id="example-exponential-growth-redux-3-4">
+\begin{align*}
+P &amp; = 3.0e^{(144\bar{0})(0.0099)}\\
+&amp; \approx 4.674533843 \times 10^6\\
+&amp; \approx 4.7 \times 10^6
+\end{align*}
+</div>
+</div>
+<div class="para" id="example-exponential-growth-redux-4">This is <span class="process-math">\(4.7 \times 10^3 \approx 47,000\)</span> kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.</div></article><article class="example example-like" id="example-exponential-decay"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.12</span><span class="period">.</span>
+</h4>
 <div class="introduction" id="example-exponential-decay-1"><div class="para logical" id="example-exponential-decay-1-1">
-<div class="para">Plutonium-241 has a half-life of 14.4 years. This means if you start with 10g of Pu-241 in 14.4 years there will be only 5g of Pu-241. Generally, this can be modeled by</div>
+<div class="para">Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by</div>
 <div class="displaymath process-math">
 \begin{equation*}
 P=P_0 e^{kt}\text{.}
 \end{equation*}
 </div>
 <div class="para">
-<span class="process-math">\(P_0\)</span> is the initial amount of material. <span class="process-math">\(k\)</span> is a constant that indicates how fast the material decays. <span class="process-math">\(P\)</span> is the amount left after <span class="process-math">\(t\)</span> units of time.</div>
+<span class="process-math">\(P_0\)</span> is the initial amount of material. <span class="process-math">\(P\)</span> is the amount left after <span class="process-math">\(t\)</span> units of time. <span class="process-math">\(k\)</span> is a constant that is derives from the speed how fast the material decays.</div>
 </div></div>
 <article class="task exercise-like" id="example-exponential-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-exponential-decay-2-1-1">Write the model for Plutonium-241.</div>
 <div class="solutions"><details id="example-exponential-decay-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-exponential-decay-2-2-1">
-<div class="para">We must first find <span class="process-math">\(k\text{.}\)</span> We can use <a href="section-log-solve.html#example-solve-exponetial-algebra" class="xref" data-knowl="./knowl/xref/example-solve-exponetial-algebra.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.7">Example 6.4.7</a>.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-solve-exponetial-algebra.html" id="example-exponential-decay-2-2-1-3">
+<div class="para">We must first find <span class="process-math">\(k\text{.}\)</span> We can use <a href="section-log-solve.html#example-solve-exponential-algebra1" class="xref" data-knowl="./knowl/xref/example-solve-exponential-algebra1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.1">Example 6.4.1</a> as an example.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-solve-exponential-algebra1.html" id="example-exponential-decay-2-2-1-3">
 \begin{align*}
-5 &amp; = 10 e^{k(14.4)}\\
-\frac{1}{2} &amp; = e^{k(14.4)}\\
-\ln\left(\frac{1}{2}\right) &amp; = \ln\left(e^{k(14.4)}\right)\\
-\ln\left(\frac{1}{2}\right) &amp; = k(14.4).\\
-\frac{1}{14.4}\ln\left(\frac{1}{2}\right) &amp; = k\\
--0.0481 &amp; \approx k.
+5.0 &amp; = 10.0 e^{k(14.4)}\\
+\frac{1}{2.0} &amp; = e^{k(14.4)}\\
+\ln\left(\frac{1}{2.0}\right) &amp; = \ln\left(e^{k(14.4)}\right)\\
+\ln\left(\frac{1}{2.0}\right) &amp; = k(14.4).\\
+\frac{1}{14.4}\ln\left(\frac{1}{2.0}\right) &amp; = k\\
+-0.04813522 &amp; \approx k.\\
+-0.048 &amp; \approx k.
 \end{align*}
 </div>
 <div class="para">Thus the model is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-solve-exponetial-algebra.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-solve-exponential-algebra1.html">
 \begin{equation*}
-P = P_0 e^{-0.0481t}\text{.}
+P = P_0 e^{-0.048t}\text{.}
 \end{equation*}
 </div>
 </div></div></details></div></article><article class="task exercise-like" id="example-exponential-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-exponential-decay-3-1-1">If a lab has 12g of Pu-241, how much will be left in 6 years?</div>
+<div class="para" id="example-exponential-decay-3-1-1">If a lab has 12.0g of Pu-241, how much will be left in 6 years?</div>
 <div class="solutions"><details id="example-exponential-decay-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-exponential-decay-3-2-1">
 <div class="para">We use the model from the previous step.</div>
 <div class="displaymath process-math" id="example-exponential-decay-3-2-1-1">
 \begin{align*}
-P &amp; = 12e^{-0.0481(6)}\\
-&amp; = 8.99.
+P &amp; = 12.0e^{-0.048(6)}\\
+&amp; \approx 8.997139\\
+&amp; \approx 9.0.
 \end{align*}
 </div>
-</div></div></details></div></article></article><article class="example example-like" id="example-exponential-growth-redux"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.12</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-exponential-growth-redux-1-1">In <a href="section-exponential.html#subsection-exponential-application" class="internal" title="Subsection 6.1.2: Applications">Subsection 6.1.2</a> we produced the model <span class="process-math">\(P=4000 \cdot 2^{t/70}\text{.}\)</span> Here we will redo this problem using the model <span class="process-math">\(P=P_0 e^{kt}\text{.}\)</span>
-</div> <div class="para" id="example-exponential-growth-redux-1-2">The bacteria <dfn class="terminology">lactobacilus acidophilus</dfn> doubles in population every 70 minutes. If the initial population was 4000 bacteria, what would the population be after 24 hours?</div>
-<div class="solutions"><details id="example-exponential-growth-redux-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-exponential-growth-redux-2-1">
-<div class="para">First we calculate the constant <span class="process-math">\(k\)</span> in the model.</div>
-<div class="displaymath process-math" id="example-exponential-growth-redux-2-1-2">
-\begin{align*}
-8000 &amp; = 4000e^{70 k}\\
-\frac{8000}{4000} &amp; = e^{70k}\\
-2 &amp; = e^{70k}\\
-\ln(2) &amp; = 70k\\
-\frac{\ln(2)}{70} &amp; = k\\
-k &amp; \approx 0.009902
-\end{align*}
-</div>
-<div class="para">Using this value we can now calculate the value after 24 hours. Note 24 hours is <span class="process-math">\(24 \cdot 60 = 1440\)</span> minutes.</div>
-<div class="displaymath process-math" id="example-exponential-growth-redux-2-1-4">
-\begin{align*}
-P &amp; = 4000e^{(1440)(0.009902)}\\
-&amp; \approx 6.232 \times 10^9
-\end{align*}
-</div>
-</div></div></details></div></article><div class="para" id="subsection-exponential-applications-4">Note, that the example in <a href="section-exponential.html#subsection-exponential-application" class="internal" title="Subsection 6.1.2: Applications">Subsection 6.1.2</a> and <a href="section-log-solve.html#example-exponential-growth-redux" class="xref" data-knowl="./knowl/xref/example-exponential-growth-redux.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.12">Example 6.4.12</a> imply that <span class="process-math">\(4000 \cdot 2^{t/70} = 4000 e^{(0.009902)t}\text{.}\)</span> Generally, we can write <span class="process-math">\(2^x = e^{kx}\)</span> or <span class="process-math">\(3^x = e^{kx}\)</span> or similar for value of <span class="process-math">\(k\text{.}\)</span>
-</div>
+</div></div></details></div></article></article><div class="para" id="subsection-exponential-applications-4">Note, that the example in <a href="section-exponential.html#example-exponential-model-lactobacillus-gram" class="xref" data-knowl="./knowl/xref/example-exponential-model-lactobacillus-gram.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.1.13: First Exponential Model Redux">Example 6.1.13</a> and <a href="section-log-solve.html#example-exponential-growth-redux" class="xref" data-knowl="./knowl/xref/example-exponential-growth-redux.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.11">Example 6.4.11</a> imply that <span class="process-math">\(3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}\text{.}\)</span> In particular we can convert the power of 2 to a power of e. More generally, we can write <span class="process-math">\(2^x = e^{kx}\)</span> or <span class="process-math">\(3^x = e^{kx}\)</span> or similar for some value of <span class="process-math">\(k\text{.}\)</span> The next example shows how we can perform this conversion.</div>
 <article class="example example-like" id="example-convert-exponential-e"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-convert-exponential-e-1-1">Write <span class="process-math">\(2^x\)</span> as <span class="process-math">\(e^{kx}\text{.}\)</span>
-</div>
-<div class="solutions"><details id="example-convert-exponential-e-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-convert-exponential-e-2-1">
-<div class="displaymath process-math" id="example-convert-exponential-e-2-1-1">
+<div class="para" id="example-convert-exponential-e-1">Write <span class="process-math">\(2^x\)</span> as <span class="process-math">\(e^{kx}\text{.}\)</span> Numbers are exact.</div>
+<div class="para logical" id="example-convert-exponential-e-2">
+<div class="displaymath process-math" id="example-convert-exponential-e-2-1">
 \begin{align*}
 2^x &amp; = e^{kx}.\\
 \ln(2^x) &amp; = \ln(e^{kx}).\\
@@ -781,65 +777,69 @@ x \ln(2) &amp; = kx.\\
 </div>
 <div class="para">Thus <span class="process-math">\(2^x = e^{x \ln(2)}\text{.}\)</span>
 </div>
-</div></div></details></div></article><article class="example example-like" id="example-pH"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.14</span><span class="period">.</span>
+</div></article><article class="definition definition-like" id="definition-ph"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">6.4.14</span><span class="period">.</span><span class="space"> </span><span class="title">pH (percent hydrogen).</span>
 </h4>
-<div class="introduction" id="example-pH-1"><div class="para logical" id="example-pH-1-1">
-<div class="para">Acidity is measured in pH (percent hydrogen). It uses a logarithmic scale.</div>
+<div class="para logical" id="definition-ph-2-1">
+<div class="para">Acidity is measured in pH (percent hydrogen). The calculation is</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \text{pH} = -\log(H_3O^+)
 \end{equation*}
 </div>
 <div class="para">where <span class="process-math">\(H_3O^+\)</span> is the concentration of hydronium ions per mole. This is obtained experimentally.</div>
-</div></div>
-<article class="task exercise-like" id="example-pH-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-pH-2-1-1">Hydrochloric acid has a concentration of 0.0025. Find its pH.</div>
-<div class="solutions"><details id="example-pH-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-pH-2-2-1"><div class="displaymath process-math" id="example-pH-2-2-1-1">
+</div></article><article class="example example-like" id="example-pH"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.15</span><span class="period">.</span>
+</h4>
+<article class="task exercise-like" id="example-pH-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="example-pH-1-1">Hydrochloric acid has a concentration of 0.0025. Find its pH.</div>
+<div class="para logical" id="example-pH-1-2"><div class="displaymath process-math" id="example-pH-1-2-1">
 \begin{align*}
 \text{pH} &amp; = -\log(0.0025)\\
-&amp; \approx 2.60.
+&amp; \approx 2.6.
 \end{align*}
-</div></div></div></details></div></article><article class="task exercise-like" id="example-pH-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-pH-3-1-1">Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.</div>
-<div class="solutions"><details id="example-pH-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-pH-3-2-1">
+</div></div></article><article class="task exercise-like" id="example-pH-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="example-pH-2-1">Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.</div>
+<div class="para logical" id="example-pH-2-2">
 <div class="para">We setup the pH calculation and solve using <a href="section-log-solve.html#example-log-solve2" class="xref" data-knowl="./knowl/xref/example-log-solve2.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.9">Example 6.4.9</a>.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-log-solve2.html" id="example-pH-3-2-1-2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-log-solve2.html" id="example-pH-2-2-2">
 \begin{align*}
 5.3 &amp; = -\log(c)\\
 -5.3 &amp; = \log(c)\\
 10^{-5.3} &amp; = 10^{\log(c)}\\
 10^{-5.3} &amp; = c\\
-5.01 \times 10^{-6} &amp; \approx c
+5.0 \times 10^{-6} &amp; \approx c
 \end{align*}
 </div>
-</div></div></details></div></article></article><article class="example example-like" id="example-moment-magnitude"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.15</span><span class="period">.</span>
+</div></article></article><article class="definition definition-like" id="definition-moment-magnitude"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">6.4.16</span><span class="period">.</span><span class="space"> </span><span class="title">Moment Magnitude.</span>
 </h4>
-<div class="introduction" id="example-moment-magnitude-1"><div class="para logical" id="example-moment-magnitude-1-1">
+<div class="para logical" id="definition-moment-magnitude-2">
 <div class="para">Larger earthquakes today are measured and reported using the <dfn class="terminology">moment magnitude</dfn> scale. This is calculated via</div>
 <div class="displaymath process-math">
 \begin{equation*}
 M_w = \frac{2}{3}\log(M_0)-10.7
 \end{equation*}
 </div>
-<div class="para">where <span class="process-math">\(M_0\)</span> is the seismic moment in Newtons per meter (a measure of energy).</div>
-</div></div>
-<article class="task exercise-like" id="example-moment-magnitude-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-moment-magnitude-2-1-1">Based on seismic readings <span class="process-math">\(M_0 = 7.2 \times 10^{22}\text{.}\)</span> What was the moment magnitude?</div>
-<div class="solutions"><details id="example-moment-magnitude-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-moment-magnitude-2-2-1">
+<div class="para">where <span class="process-math">\(M_w\)</span> is the moment magnitude, and <span class="process-math">\(M_0\)</span> is the seismic moment in Newtons per meter (a measure of energy).</div>
+</div></article><article class="example example-like" id="example-moment-magnitude"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.17</span><span class="period">.</span>
+</h4>
+<article class="task exercise-like" id="example-moment-magnitude-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="example-moment-magnitude-1-1-1">Based on seismic readings <span class="process-math">\(M_0 = 7.2 \times 10^{22}\text{.}\)</span> What was the moment magnitude?</div>
+<div class="solutions"><details id="example-moment-magnitude-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-moment-magnitude-1-2-1">
 <div class="para">Using the formula we obtain</div>
-<div class="displaymath process-math" id="example-moment-magnitude-2-2-1-1">
+<div class="displaymath process-math" id="example-moment-magnitude-1-2-1-1">
 \begin{align*}
 M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})\\
 &amp; \approx 4.5
 \end{align*}
 </div>
-</div></div></details></div></article><article class="task exercise-like" id="example-moment-magnitude-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-moment-magnitude-3-1-1">What was the seismic moment for an earthquake with magnitude 7.1?</div>
-<div class="solutions"><details id="example-moment-magnitude-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-moment-magnitude-3-2-1">
+</div></div></details></div></article><article class="task exercise-like" id="example-moment-magnitude-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="example-moment-magnitude-2-1-1">What was the seismic moment for an earthquake with magnitude 7.1?</div>
+<div class="solutions"><details id="example-moment-magnitude-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-moment-magnitude-2-2-1">
 <div class="para">We setup the calculation and solve using <a href="section-log-solve.html#example-log-solve2" class="xref" data-knowl="./knowl/xref/example-log-solve2.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.9">Example 6.4.9</a>.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-log-solve2.html" id="example-moment-magnitude-3-2-1-2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-log-solve2.html" id="example-moment-magnitude-2-2-1-2">
 \begin{align*}
 7.1 &amp; = \frac{2}{3}\log(M_0)-10.7\\
 17.8 &amp; = \frac{2}{3}\log(M_0)\\
