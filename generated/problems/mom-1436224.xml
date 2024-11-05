@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1436224">
 <statement>
-<p>Initially, there were 640 ants in a population, and it increases by 15<percent/> every 6 days.</p>
+<p>Initially, there were 710 bees in a population, and it decreases by 12<percent/> every 3 days.</p>
 <p><ul>
-  <li><p>What will be the population at <m>\displaystyle{t}={4}</m> days? <lbracket/>Round your answer to the nearest whole number.<rbracket/></p>
+  <li><p>What will be the population at <m>\displaystyle{t}={10}</m> days? <lbracket/>Round your answer to the nearest whole number.<rbracket/></p>
 <p>
     Answer: <fillin characters="5" />   </p></li>
-  <li><p>Write a formula for the population of ants as a function of <m>\displaystyle{t}</m>. </p>
+  <li><p>Write a formula for the population of bees as a function of <m>\displaystyle{t}</m>. </p>
 <p>
     Answer: <m>\displaystyle{P}{\left({t}\right)}=</m><fillin characters="20" />  
 </p></li>
@@ -14,7 +14,7 @@
 
 </statement>
 <solution>
-<p><ul><li>702</li><li><m>\displaystyle{640}\cdot{\left({1.15}\right)}^{{\frac{{t}}{{6}}}}</m></li></ul></p>
+<p><ul><li>464</li><li><m>\displaystyle{710}\cdot{\left({0.88}\right)}^{{\frac{{t}}{{3}}}}</m></li></ul></p>
 </solution>
 </myopenmath>
 

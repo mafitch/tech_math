@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle{x}-{2}{y}=-{15}</m> </p>
+<p><m>\displaystyle-{5}{x}-{3}{y}={1}</m> </p>
 <p>
-  <m>\displaystyle{3}{x}-{y}={0}</m></p>
+  <m>\displaystyle{4}{x}+{9}{y}={19}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({3},{9}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of -3. So we scale by <m>\displaystyle-\frac{{3}}{{1}}</m>.</p>
-<p><m>\displaystyle-\frac{{{3}}}{{1}}{\left({1}{x}+-{2}{y}\right)}=-\frac{{{3}}}{{1}}{\left(-{15}\right)}</m></p>
-<p><m>\displaystyle-{\left({3}\right)}{x}+{6}{y}={45}</m></p>
-<p><m>\displaystyle{3}{x}-{y}={0}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{2},{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of -4. So we scale by <m>\displaystyle-\frac{{4}}{{-{{5}}}}</m>.</p>
+<p><m>\displaystyle-\frac{{{4}}}{{-{{5}}}}{\left(-{5}{x}+-{3}{y}\right)}=-\frac{{{4}}}{{-{{5}}}}{\left({1}\right)}</m></p>
+<p><m>\displaystyle-{\left({4}\right)}{x}+-{2.4}{y}={0.8}</m></p>
+<p><m>\displaystyle{4}{x}+{9}{y}={19}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{5}{y}={45}</m></p>
-<p><m>\displaystyle{y}=\frac{{45}}{{5}}</m></p>
-<p><m>\displaystyle{y}={9}</m></p>
+<p><m>\displaystyle{6.6}{y}={19.8}</m></p>
+<p><m>\displaystyle{y}=\frac{{19.8}}{{6.6}}</m></p>
+<p><m>\displaystyle{y}={3}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{1}{x}+-{2}{\left({9}\right)}=-{15}</m></p>
-<p><m>\displaystyle{1}{x}+{\left(-{18}\right)}=-{15}</m></p>
-<p><m>\displaystyle{1}{x}=-{15}-{\left(-{18}\right)}</m></p>
-<p><m>\displaystyle{1}{x}={3}</m></p>
-<p><m>\displaystyle{x}=\frac{{3}}{{1}}</m></p>
-<p><m>\displaystyle{x}={3}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({3},{9}\right)}</m>.</p>
+<p><m>\displaystyle-{5}{x}+-{3}{\left({3}\right)}={1}</m></p>
+<p><m>\displaystyle-{5}{x}+{\left(-{9}\right)}={1}</m></p>
+<p><m>\displaystyle-{5}{x}={1}-{\left(-{9}\right)}</m></p>
+<p><m>\displaystyle-{5}{x}={10}</m></p>
+<p><m>\displaystyle{x}=\frac{{10}}{{-{{5}}}}</m></p>
+<p><m>\displaystyle{x}=-{2}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{2},{3}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

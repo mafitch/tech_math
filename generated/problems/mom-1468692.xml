@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{5}{x}+{2}{y}=-{42}</m> </p>
+<p><m>\displaystyle-{8}{x}-{6}{y}=-{46}</m> </p>
 <p>
-  <m>\displaystyle-{9}{x}-{6}{y}=-{18}</m></p>
+  <m>\displaystyle-{8}{x}-{2}{y}=-{26}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({6},-{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{5}{x}+{2}{y}=-{42}</m></p>
-<p><m>\displaystyle-{5}{x}=-{42}-{\left({2}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{42}-{\left({2}{y}\right)}}}{{-{{5}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left({2},{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle-{8}{x}+-{6}{y}=-{46}</m></p>
+<p><m>\displaystyle-{8}{x}=-{46}-{\left(-{6}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{46}-{\left(-{6}{y}\right)}}}{{-{{8}}}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle-{9}{\left(\frac{{-{42}-{\left({2}{y}\right)}}}{{-{{5}}}}\right)}+-{6}{y}=-{18}</m></p>
-<p><m>\displaystyle-\frac{{9}}{{-{{5}}}}\cdot{\left(-{42}\right)}--\frac{{9}}{{-{{5}}}}{\left({2}\right)}{y}+-{6}{y}=-{18}</m></p>
-<p><m>\displaystyle-{75.6}-{\left(-{3.6}\right)}{y}+-{6}{y}=-{18}</m></p>
-<p><m>\displaystyle-{3.6}{y}+{\left(-{6}\right)}{y}=-{18}--{75.6}</m></p>
-<p><m>\displaystyle-{3.6}{y}+{\left(-{6}\right)}{y}={57.6}</m></p>
-<p><m>\displaystyle{\left(-{3.6}+{\left(-{6}\right)}\right)}{y}={57.6}</m></p>
-<p><m>\displaystyle-{9.6}{y}={57.6}</m></p>
-<p><m>\displaystyle{y}=\frac{{57.6}}{{-{{9.6}}}}</m></p>
-<p><m>\displaystyle{y}=-{6}</m></p>
+<p><m>\displaystyle-{8}{\left(\frac{{-{46}-{\left(-{6}{y}\right)}}}{{-{{8}}}}\right)}+-{2}{y}=-{26}</m></p>
+<p><m>\displaystyle-\frac{{8}}{{-{{8}}}}\cdot{\left(-{46}\right)}--\frac{{8}}{{-{{8}}}}{\left(-{6}\right)}{y}+-{2}{y}=-{26}</m></p>
+<p><m>\displaystyle-{46}-{\left({6}\right)}{y}+-{2}{y}=-{26}</m></p>
+<p><m>\displaystyle{6}{y}+{\left(-{2}\right)}{y}=-{26}--{46}</m></p>
+<p><m>\displaystyle{6}{y}+{\left(-{2}\right)}{y}={20}</m></p>
+<p><m>\displaystyle{\left({6}+{\left(-{2}\right)}\right)}{y}={20}</m></p>
+<p><m>\displaystyle{4}{y}={20}</m></p>
+<p><m>\displaystyle{y}=\frac{{20}}{{4}}</m></p>
+<p><m>\displaystyle{y}={5}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{5}{x}+{2}{\left(-{6}\right)}=-{42}</m></p>
-<p><m>\displaystyle-{5}{x}+{\left(-{12}\right)}=-{42}</m></p>
-<p><m>\displaystyle-{5}{x}=-{42}-{\left(-{12}\right)}</m></p>
-<p><m>\displaystyle-{5}{x}=-{30}</m></p>
-<p><m>\displaystyle{x}=-\frac{{30}}{{-{{5}}}}</m></p>
-<p><m>\displaystyle{x}={6}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({6},-{6}\right)}</m>.</p>
+<p><m>\displaystyle-{8}{x}+-{6}{\left({5}\right)}=-{46}</m></p>
+<p><m>\displaystyle-{8}{x}+{\left(-{30}\right)}=-{46}</m></p>
+<p><m>\displaystyle-{8}{x}=-{46}-{\left(-{30}\right)}</m></p>
+<p><m>\displaystyle-{8}{x}=-{16}</m></p>
+<p><m>\displaystyle{x}=-\frac{{16}}{{-{{8}}}}</m></p>
+<p><m>\displaystyle{x}={2}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({2},{5}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

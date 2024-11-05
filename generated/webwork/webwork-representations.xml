@@ -2,205 +2,11 @@
 <webwork-representations>
   <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-1" ww-id="webwork-1">
     <static seed="1">
-      <statement><p>Solve <m>{2}\log_{{5}}(x)={6}\text{.}</m> <fillin name="AnSwEr0001" characters="4"/></p>
+      <statement><p>If the two sides on the right angle have length <m>a={1}</m> and <m>b={4}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>125</m>
-        </p>
-      </answer>
-      <solution><p><me>\begin{aligned}
-{2}\log_{{5}}(x) \amp = {6}\\
-{2}\log_{{5}}(x)/{2} \amp = {6}/{2}\\
-\log_{{5}}(x) \amp = {3}\\
-{5}^{{3}} \amp = x\\
-{125} \amp = x
-\end{aligned}</me></p>
-</solution>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7ClRFWFQoTU9ERVMoUFRYPT4nJyxIVE1MPT4nPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+XChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpPC9kaXY+JykpOwpDb250ZXh0KCJMaW1pdGVkTnVtZXJpYyIpOwokayA9IENvbXB1dGUocmFuZG9tKDIsNSwxKSk7CiRiID0gQ29tcHV0ZShyYW5kb20oMiw1LDEpKTsKJGogPSBDb21wdXRlKHJhbmRvbSgzLDcsMSkpOwokYyA9ICRrKiRqOwokYW5zID0gJGIqKiRqOwoKQkVHSU5fUEdNTApTb2x2ZSBbYFska11cbG9nX3tbJGJdfSh4KT1bJGNdXHRleHR7Ln1gXSBbX117JGFuc317NH0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRrXVxsb2dfe1skYl19KHgpIFxhbXAgPSBbJGNdXFwKWyRrXVxsb2dfe1skYl19KHgpL1ska10gXGFtcCA9IFskY10vWyRrXVxcClxsb2dfe1skYl19KHgpIFxhbXAgPSBbJGpdXFwKWyRiXV57WyRqXX0gXGFtcCA9IHhcXApbJGFuc10gXGFtcCA9IHgKXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(6.4.3)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("LimitedNumeric");
-$k = Compute(random(2,5,1));
-$b = Compute(random(2,5,1));
-$j = Compute(random(3,7,1));
-$c = $k*$j;
-$ans = $b**$j;
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Solve [`[$k]\log_{[$b]}(x)=[$c]\text{.}`] [_]{$ans}{4}
-
-END_PGML
-
-############################################################
-# Solution
-############################################################
-
-BEGIN_PGML_SOLUTION
-
-[```\newcommand{\amp}{&}
-\begin{aligned}
-[$k]\log_{[$b]}(x) \amp = [$c]\\
-[$k]\log_{[$b]}(x)/[$k] \amp = [$c]/[$k]\\
-\log_{[$b]}(x) \amp = [$j]\\
-[$b]^{[$j]} \amp = x\\
-[$ans] \amp = x
-\end{aligned}
-```]
-
-END_PGML_SOLUTION
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
-    <static seed="2">
-      <statement><p>Solve</p>
-<p><me>{2} = {5}\ln(x+{6})</me></p>
-<p><m>x=</m> <fillin name="AnSwEr0001" characters="12"/>.</p>
-<p>Precision should be at least four decimal places.</p>
-</statement>
-      <answer>
-        <p>
-          <m>-4.50818</m>
-        </p>
-      </answer>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CkNvbnRleHQoKS0+ZmxhZ3MtPnNldCh0b2xUeXBlPT5hYnNvbHV0ZSk7CkNvbnRleHQoKS0+ZmxhZ3MtPnNldCh0b2xUeXBlPT4wLjAwMDEpOwokcCA9IENvbXB1dGUocmFuZG9tKDIsNSwxKSk7CiRjID0gQ29tcHV0ZShyYW5kb20oMiw5LDEpKTsKJHMgPSBDb21wdXRlKHJhbmRvbSgxLDksMSkpOwokYW5zID0gZSoqKCRwLyRjKS0kczsKCkJFR0lOX1BHTUwKU29sdmUKCltgYGBbJHBdID0gWyRjXVxsbih4K1skc10pYGBgXQoKW2B4PWBdIFtfXXskYW5zfXsxMn0uCgpQcmVjaXNpb24gc2hvdWxkIGJlIGF0IGxlYXN0IGZvdXIgZGVjaW1hbCBwbGFjZXMuCgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(6.4.10)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("LimitedNumeric");
-Context()->flags->set(tolType=>absolute);
-Context()->flags->set(tolType=>0.0001);
-$p = Compute(random(2,5,1));
-$c = Compute(random(2,9,1));
-$s = Compute(random(1,9,1));
-$ans = e**($p/$c)-$s;
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Solve
-
-[```[$p] = [$c]\ln(x+[$s])```]
-
-[`x=`] [_]{$ans}{12}.
-
-Precision should be at least four decimal places.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
-    <static seed="3">
-      <statement><p>If the two sides on the right angle have length <m>a={2}</m> and <m>b={3}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>3.60555</m>
+          <m>4.12311</m>
         </p>
       </answer>
     </static>
@@ -208,7 +14,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -271,9 +77,9 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
-    <static seed="4">
-      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={6}</m> and hypotenuse (side opposite the right angle) with length <m>c={5}\text{?}</m> <var form="buttons" name="AnSwEr0001">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2">
+      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={4}</m> and hypotenuse (side opposite the right angle) with length <m>c={3}\text{?}</m> <var form="buttons" name="AnSwEr0001">
 <li>
 <p>Yes</p>
 </li>
@@ -292,7 +98,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -356,13 +162,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
-    <static seed="5">
-      <statement><p>If two angles of a triangle are 45 and 40, what is the measure of the third angle? <fillin name="AnSwEr0001" characters="3"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3">
+      <statement><p>If two angles of a triangle are 40 and 30, what is the measure of the third angle? <fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>95</m>
+          <m>110</m>
         </p>
       </answer>
     </static>
@@ -370,7 +176,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -433,20 +239,20 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
-    <static seed="6">
-      <statement><p>If the leg lengths of a right triangle are 6 and 9, what are the measures of the angles?</p>
-<p>Angle opposite side length 6: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Angle opposite side length 9: <fillin name="AnSwEr0002" characters="3"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4">
+      <statement><p>If the leg lengths of a right triangle are 5 and 8, what are the measures of the angles?</p>
+<p>Angle opposite side length 5: <fillin name="AnSwEr0001" characters="3"/></p>
+<p>Angle opposite side length 8: <fillin name="AnSwEr0002" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>\tan^{-1}\!\left(\frac{6}{9}\right)</m>
+          <m>\tan^{-1}\!\left(\frac{5}{8}\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\tan^{-1}\!\left(\frac{9}{6}\right)</m>
+          <m>\tan^{-1}\!\left(\frac{8}{5}\right)</m>
         </p>
       </answer>
     </static>
@@ -454,7 +260,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -523,15 +329,15 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
-    <static seed="7">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5">
       <statement><!-- PTX:WARNING: PGML wanted to center align here. -->
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-7-image-1"/>
-<p>For a right triangle if <m>\sin(\alpha)=\frac{{6}}{{12.53}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-5-image-1"/>
+<p>For a right triangle if <m>\sin(\alpha)=\frac{{5}}{{10.2956}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
-          <m>11</m>
+          <m>9</m>
         </p>
       </answer>
     </static>
@@ -539,7 +345,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -627,26 +433,26 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
-    <static seed="8">
-      <statement><p>If a triangle has a leg of length 7 and hypotenuse of length 11, what is the length of the other side and what are the measures of the angles?</p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6">
+      <statement><p>If a triangle has a leg of length 6 and hypotenuse of length 9, what is the length of the other side and what are the measures of the angles?</p>
 <p>Length of other leg: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Angle opposite side length 7: <fillin name="AnSwEr0002" characters="3"/></p>
+<p>Angle opposite side length 6: <fillin name="AnSwEr0002" characters="3"/></p>
 <p>Angle opposite other leg: <fillin name="AnSwEr0003" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>8.48528</m>
+          <m>6.7082</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\sin^{-1}\!\left(\frac{7}{11}\right)</m>
+          <m>\sin^{-1}\!\left(\frac{6}{9}\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\cos^{-1}\!\left(\frac{7}{11}\right)</m>
+          <m>\cos^{-1}\!\left(\frac{6}{9}\right)</m>
         </p>
       </answer>
     </static>
@@ -654,7 +460,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -726,8 +532,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
-    <static seed="9">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7">
       <statement><p>At a particular airport the angle of depression flown by aircraft following the PAPI (vertical guidance) is <m>3.05^\circ\text{.}</m> This leads to a point 1020 ft from the threshold of the runway. How high is the aircraft at the threshold? <fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
@@ -740,7 +546,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -800,13 +606,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
-    <static seed="10">
-      <statement><p>A triangle has angles of measure <m>A={20}</m> and <m>B={70}\text{.}</m> The side opposite angle <m>A</m> has length 7. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8">
+      <statement><p>A triangle has angles of measure <m>A={50}</m> and <m>B={60}\text{.}</m> The side opposite angle <m>A</m> has length 4. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>\frac{\sin\!\left(70\right)}{\sin\!\left(20\right)}\cdot 7</m>
+          <m>\frac{\sin\!\left(60\right)}{\sin\!\left(50\right)}\cdot 4</m>
         </p>
       </answer>
     </static>
@@ -814,7 +620,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -879,13 +685,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
-    <static seed="11">
-      <statement><p>A triangle has sides of length <m>a={5}\text{,}</m> <m>b={10.246}\text{,}</m> and <m>c={11.786}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9">
+      <statement><p>A triangle has sides of length <m>a={6}\text{,}</m> <m>b={7.71345}\text{,}</m> and <m>c={6}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>25</m>
+          <m>50</m>
         </p>
       </answer>
     </static>
@@ -893,7 +699,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -960,8 +766,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
-    <static seed="12">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10">
       <statement><p>Consider a D which has frequency 293.66 Hz</p>
 <p>What is the period? <fillin name="AnSwEr0001" characters="10"/></p>
 <p>What is the wavelength? <fillin name="AnSwEr0002" characters="6"/></p>
@@ -992,7 +798,7 @@ T \amp \approx 0.0034053
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-04T11:25:49-09:00       
+###       on 2024-11-05T13:57:23-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

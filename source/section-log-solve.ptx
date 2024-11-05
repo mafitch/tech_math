@@ -5,373 +5,406 @@
 
 <introduction>
 
-<p>We can evaluate expressions with exponentials and logarithms using devices. We can also solve equations involving logarithmic and exponential expressions. We will use both the definition of logarithm and the relationship between logarithmic and exponential expressions.</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Read and use mathematical models in a technical document</li>
+            <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Solve linear, rational, quadratic, and exponential equations and formulas (skill)</li>
+            <li>Read and interpret models (critical thinking)</li>
+            <li>Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+        </ul>
+    </p>
+
+    <p>This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.</p>
 
 </introduction>
 
-<subsection xml:id="subsection-solve-logs">
-	<title>Evaluating and Solving with Logs</title>
+<subsection xml:id="subsection-solving-exponentials">
+    <title>Solving Equations with Exponentials</title>
 
-	<p>First, we will use <xref ref="definition-logarithm" /> to solve logarithmic equations.</p>
+    <p>The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.</p>
 
-	<example xml:id="example-log-solve-basic">
-		<p>Solve <me>\log_3(x)=2</me>. We can re-write this as <me>3^2=x</me> which tells us that <m>x=9</m>.</p>
-	</example>
+    <example xml:id="example-solve-exponential-algebra1">
+        <p>Solve <m>6.0 = 10^{\frac{3}{2}(x+10.7)}</m>.</p>
+        <p>Order of operations dictates the following
+        <md>
+            <mrow>6.0 &amp; = 10^{\frac{3}{2}(x+10.7)}.</mrow>
+            <mrow>\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). &amp; \text{ log to undo exponential}</mrow>
+            <mrow>\log(6.0) &amp; = \frac{3}{2}(x+10.7).</mrow>
+            <mrow>\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo }\frac{3}{2} \cdot</mrow>
+            <mrow>\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo }+10.7 \cdot</mrow>
+            <mrow>-10.181 &amp; \approx x.</mrow>
+        </md></p>
+        <p>Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.</p>
+    </example>
 
-	<example xml:id="example-log-solve-medium">
-		<p>Solve <me>\log_2(x+5)=7</me>. We can re-write this as 
-		<md>
-			<mrow>2^7 \amp = x+5.</mrow>
-			<mrow>128 \amp = x+5.</mrow>
-			<mrow>123 \amp = x.</mrow>
-		</md></p>
-		<video youtube="fNrmpAfH47A" xml:id="video-example-log-solve" />
-	</example>
+    <example xml:id="example-solve-exponential-algebra2">
+        <p>Solve <m>13 = 2+3e^{x-1}</m>.</p>
+        <p>Order of operations dictates the following
+        <md>
+            <mrow>13 &amp; = 2+3e^{x-1}.</mrow>
+            <mrow>11 &amp; = 3e^{x-1}. \text{ Subtract to undo }+2</mrow>
+            <mrow>\frac{11}{3} &amp; = e^{x-1} &amp; \text{ Divide to undo }3 \cdot</mrow>
+            <mrow>\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right). &amp; \text{ log to undo exponential}</mrow>
+            <mrow>\ln\left(\frac{11}{3}\right) &amp; = x-1.</mrow>
+            <mrow>\ln\left(\frac{11}{3}\right)+1 &amp; = x. &amp; \text{ Add to undo }-1</mrow>
+            <mrow>2.299 &amp; \approx x.</mrow>
+        </md></p>
+        <p>Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.</p>
+    </example>
 
-	<exercise xml:id="exercise-log-solve">
-		<webwork>
-			<pg-code>
-				Context("LimitedNumeric");
-				$k = Compute(random(2,5,1));
-				$b = Compute(random(2,5,1));
-				$j = Compute(random(3,7,1));
-				$c = $k*$j;
-				$ans = $b**$j;
-			</pg-code>
-			<statement>
-				<p>Solve <m><var name="$k"/>\log_{<var name="$b"/>}(x)=<var name="$c"/></m>. <var name="$ans" width="4" /></p>
-			</statement>
-			<solution>
-				<p><md>
-					<mrow><var name="$k"/>\log_{<var name="$b"/>}(x) \amp = <var name="$c"/></mrow>
-					<mrow><var name="$k"/>\log_{<var name="$b"/>}(x)/<var name="$k"/> \amp = <var name="$c"/>/<var name="$k"/></mrow>
-					<mrow>\log_{<var name="$b"/>}(x) \amp = <var name="$j"/></mrow>
-					<mrow><var name="$b"/>^{<var name="$j"/>} \amp = x</mrow>
-					<mrow><var name="$ans"/> \amp = x</mrow>
-				</md></p>
-			</solution>
-	    </webwork>
-	</exercise>
+    <exercise>
+        <myopenmath problem="1484890" />
+    </exercise>
+
+    <p>The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).</p>
+
+    <example xml:id="example-solve-exponential-no-button">
+        <p>Solve <m>5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)</m>.</p>
+        <p>Because the exponential is base 2, we will use a log base 2.
+        <md>
+            <mrow>5.0 &amp; = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right).</mrow>
+            <mrow>5.0/3.0 &amp; = 2^{\frac{t}{7\bar{0}}}.</mrow>
+            <mrow>\log_2(5.0/3.0) &amp; = \log_2\left(2^{\frac{t}{7\bar{0}}}\right).</mrow>
+            <mrow>\log_2(5.0/3.0) &amp; = \frac{t}{7\bar{0}}.</mrow>
+            <mrow>7\bar{0}\log_2(5.0/3.0) &amp; = t.</mrow>
+        </md></p>
+        <video youtube="F5wY2KRtFuQ" xml:id="video-example-solve-exponential2" />
+    </example>
+
+    <p>Your calculator likely does not have a button for calculating <m>\log_2(x)</m>. We can use a property of all logarithms to solve this equation with the natural log. In general <me>\log_b(a^p) = p \log_b(a)</me>.</p>
+
+    <example xml:id="example-solve-exponential-ln">
+        <p>Solve <m>5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)</m>.</p>
+        <p><md>
+            <mrow>5.0 &amp; = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right).</mrow>
+            <mrow>5.0/3.0 &amp; = 2^{\frac{t}{7\bar{0}}}.</mrow>
+            <mrow>\ln(5.0/3.0) &amp; = \ln\left(2^{\frac{t}{7\bar{0}}}\right).</mrow>
+            <mrow>\ln(5.0/3.0) &amp; = \frac{t}{7\bar{0}} \cdot \ln(2).</mrow>
+            <mrow>\frac{7\bar{0}\ln(5.0/3.0)}{\ln(2)} &amp; = t.</mrow>
+            <mrow>51.58759159 &amp; \approx t</mrow>
+            <mrow>52 &amp; \approx t</mrow>
+        </md></p>
+        <p>Your calculator does have a button for <m>\ln(x)</m>. Note this implies that <m>\log_2(5.0/3.0) = \frac{\ln(5.0/3.0)}{\ln(2)}</m>. This relationship works for logs of any base.</p>
+    </example>
+
+    <exercise>
+        <myopenmath problem="1484969" />
+    </exercise>
 
 </subsection>
 
-<subsection xml:id="subsection-logarithm-property-power">
-	<title>Additional Logarithm Property</title>
+<subsection xml:id="subsection-solve-logs">
+    <title>Solving Equations with Logarithms</title>
 
-	<p>We need one more property of logarithms to solve some equations.</p>
+    <p>As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.</p>
 
-	<example xml:id="example-log-power-property">
-		<statement><p>Evaluate <m>\log(10^7)</m></p></statement>
-		<solution><p><m>\log(10^7)=7 \log(10) = 7</m> because <m>\log(10)</m> is the same as <m>10^x=10</m> so <m>x=1</m>.</p></solution>
-	</example>
+    <example xml:id="example-log-solve-basic">
+        <p>Solve <me>\log_3(x)=2</me>. We can re-write this as <me>3^2=x</me> which tells us that <m>x=9</m>.</p>
+    </example>
 
-	<p>In general the property is <me>\log_b(a^p) = p \log_b(a)</me>. We can use this property to solve equations involving exponentials.</p>
+    <example xml:id="example-log-solve1">
+        <p>Solve <m>14 = 12+\log(5x)</m>.</p>
+        <p>First we combine the terms outside the logarithm, the we re-write that as an exponential.
+            <md>
+                <mrow>14 &amp; = 12+\log(5x)</mrow>
+                <mrow>2 &amp; = \log(5x)</mrow>
+                <mrow>10^2 &amp; = 5x</mrow>
+                <mrow>100 &amp; = 5x</mrow>
+                <mrow>20 &amp; = x</mrow>
+            </md>
+        </p>
+    </example>
 
-	<example xml:id="example-solve-exponential">
-		<statement><p>Solve <m>5 = 2^x</m>.</p></statement>
-		<solution><p>Because the exponential is base 2, we will use a log base 2.
-		<md>
-			<mrow>5 &amp; = 2^x.</mrow>
-			<mrow>\log_2(5) &amp; = \log_2(2^x).</mrow>
-			<mrow>\log_2(5) &amp; = x\log_2(2).</mrow>
-			<mrow>\log_2(5) &amp; = x \cdot 1.</mrow>
-			<mrow>\log_2(5) &amp; = x.</mrow>
-		</md>
-		Note those last three steps will always be the same, so we often jump from the second step to the last.</p>
-		<video youtube="F5wY2KRtFuQ" xml:id="video-example-solve-exponential2" /></solution>
-	</example>
+    <example xml:id="example-log-solve2">
+        <statement><p>Solve <m>7 = \ln(3x+2)</m>.</p></statement>
+        <solution>
+            <p>We re-write this as an exponential.
+            <md>
+                <mrow>7 &amp; = \ln(3x+2)</mrow>
+                <mrow>e^7 &amp; = 3x+2</mrow>
+                <mrow>e^7-2 &amp; = 3x</mrow>
+                <mrow>\frac{1}{3}(e^7-2) &amp; = x</mrow>
+                <mrow>365 &amp; \approx x</mrow>
+            </md></p>
+            <p>We choose arbitrarily to round to units, because there is no context.</p>
+        </solution>
+    </example>
 
-	<p>Your calculator likely does not have a button for calculating <m>\log_2(x)</m>. The property we used does not depend on using that log however.</p>
+<!--    <exercise xml:id="exercise-log-solve">
+        <webwork>
+            <pg-code>
+                Context("LimitedNumeric");
+                $k = Compute(random(2,5,1));
+                $b = Compute(random(2,5,1));
+                $j = Compute(random(3,7,1));
+                $c = $k*$j;
+                $ans = $b**$j;
+            </pg-code>
+            <statement>
+                <p>Solve <m><var name="$k"/>\log_{<var name="$b"/>}(x)=<var name="$c"/></m>. <var name="$ans" width="4" /></p>
+            </statement>
+            <solution>
+                <p><md>
+                    <mrow><var name="$k"/>\log_{<var name="$b"/>}(x) \amp = <var name="$c"/></mrow>
+                    <mrow><var name="$k"/>\log_{<var name="$b"/>}(x)/<var name="$k"/> \amp = <var name="$c"/>/<var name="$k"/></mrow>
+                    <mrow>\log_{<var name="$b"/>}(x) \amp = <var name="$j"/></mrow>
+                    <mrow><var name="$b"/>^{<var name="$j"/>} \amp = x</mrow>
+                    <mrow><var name="$ans"/> \amp = x</mrow>
+                </md></p>
+            </solution>
+        </webwork>
+    </exercise> -->
 
-	<example xml:id="example-solve-exponential-ln">
-		<statement><p>Solve <m>5 = 2^x</m>.</p></statement>
-		<solution><p>Because the exponential is base 2, we will use a log base 2.
-		<md>
-			<mrow>5 &amp; = 2^x.</mrow>
-			<mrow>\ln(5) &amp; = \ln(2^x).</mrow>
-			<mrow>\ln(5) &amp; = x\ln(2).</mrow>
-			<mrow>\frac{\ln(5)}{\ln(2)} &amp; = \frac{x\ln(2)}{\ln(2)}.</mrow>
-			<mrow>\frac{\ln(5)}{\ln(2)} &amp; = x.</mrow>
-		</md>
-		Your calculator does have a button for <m>\ln(x)</m>. Note this implies that <m>\log_2(5) = \frac{\ln(5)}{\ln(2)}</m>. This relationship always works.</p>
-		</solution>
-	</example>
-
-	<example xml:id="example-solve-exponetial-algebra">
-		<statement><p>Solve <m>13 = 2+3e^{x-1}</m>.</p></statement>
-		<solution><p>Order of operations dictates the following
-		<md>
-			<mrow>13 &amp; = 2+3e^{x-1}.</mrow>
-			<mrow>11 &amp; = 3e^{x-1}.</mrow>
-			<mrow>\frac{11}{3} &amp; = e^{x-1}</mrow>
-			<mrow>\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right).</mrow>
-			<mrow>\ln\left(\frac{11}{3}\right) &amp; = x-1.</mrow>
-			<mrow>\ln\left(\frac{11}{3}\right)+1 &amp; = x.</mrow>
-			<mrow>2.299 &amp; \approx x.</mrow>
-		</md></p></solution>
-	</example>
-
-	<p>We can use the relationship between exponentials and logarithms to solve logarithmic equations as well.</p>
-
-	<example xml:id="example-log-solve1">
-		<statement><p>Solve <m>14 = 12+\log(5x)</m>.</p></statement>
-		<solution><p>First we combine the terms outside the logarithm, the we re-write that as an exponential.
-			<md>
-				<mrow>14 &amp; = 12+\log(5x)</mrow>
-				<mrow>2 &amp; = \log(5x)</mrow>
-				<mrow>10^2 &amp; = 5x</mrow>
-				<mrow>100 &amp; = 5x</mrow>
-				<mrow>20 &amp; \approx x</mrow>
-			</md>
-		</p></solution>
-	</example>
-
-	<example xml:id="example-log-solve2">
-		<statement><p>Solve <m>7 = \ln(3x+2)</m>.</p></statement>
-		<solution><p>We re-write this as an exponential.
-			<md>
-				<mrow>7 &amp; = \ln(3x+2)</mrow>
-				<mrow>e^7 &amp; = 3x+2</mrow>
-				<mrow>e^7-2 &amp; = 3x</mrow>
-				<mrow>\frac{1}{3}(e^7-2) &amp; = x</mrow>
-				<mrow>365 &amp; \approx x</mrow>
-			</md>
-		</p></solution>
-	</example>
-
-	<exercise xml:id="exercise-log-solve-no-context">
-		<webwork>
-			<pg-code>
-				Context("LimitedNumeric");
-				Context()->flags->set(tolType=>absolute);
-				Context()->flags->set(tolType=>0.0001);
-				$p = Compute(random(2,5,1));
-				$c = Compute(random(2,9,1));
-				$s = Compute(random(1,9,1));
-				$ans = e**($p/$c)-$s;
-			</pg-code>
-			<statement>
-				<p>Solve <me><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</me> <m>x=</m> <var name="$ans" width="12" />.</p>
-				<p>Precision should be at least four decimal places.</p>
-			</statement>
-		</webwork>
-	</exercise>
+    <exercise xml:id="exercise-log-solve-no-context">
+<!--        <webwork>
+            <pg-code>
+                Context("LimitedNumeric");
+                Context()->flags->set(tolType=>absolute);
+                Context()->flags->set(tolType=>0.0001);
+                $p = Compute(random(2,5,1));
+                $c = Compute(random(2,9,1));
+                $s = Compute(random(1,9,1));
+                $ans = e**($p/$c)-$s;
+            </pg-code>
+            <statement>
+                <p>Solve <me><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</me> <m>x=</m> <var name="$ans" width="12" />.</p>
+                <p>Precision should be at least four decimal places.</p>
+            </statement>
+        </webwork> -->
+        <myopenmath problem="1485008" />
+    </exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-exponential-applications">
-	<title>Applications with Exponentials</title>
+    <title>Applications with Exponentials and Logarithms</title>
 
-	<example xml:id="example-exponential-decay">
-		<introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10g of Pu-241 in 14.4 years there will be only 5g of Pu-241. Generally, this can be modeled by <me>P=P_0 e^{kt}</me>. <m>P_0</m> is the initial amount of material. <m>k</m> is a constant that indicates how fast the material decays. <m>P</m> is the amount left after <m>t</m> units of time.</p></introduction>
-		<task>
-			<statement><p>Write the model for Plutonium-241.</p></statement>
-			<solution><p>We must first find <m>k</m>. We can use <xref ref="example-solve-exponetial-algebra" />.
-			<md>
-				<mrow>5 &amp; = 10 e^{k(14.4)}</mrow>
-				<mrow>\frac{1}{2} &amp; = e^{k(14.4)}</mrow>
-				<mrow>\ln\left(\frac{1}{2}\right) &amp; = \ln\left(e^{k(14.4)}\right)</mrow>
-				<mrow>\ln\left(\frac{1}{2}\right) &amp; = k(14.4).</mrow>
-				<mrow>\frac{1}{14.4}\ln\left(\frac{1}{2}\right) &amp; = k</mrow>
-				<mrow>-0.0481 &amp; \approx k.</mrow>
-			</md>
-			Thus the model is <me>P = P_0 e^{-0.0481t}</me>.</p></solution>
-		</task>
-		<task>
-			<statement><p>If a lab has 12g of Pu-241, how much will be left in 6 years?</p></statement>
-			<solution><p>We use the model from the previous step.
-			<md>
-				<mrow>P &amp; = 12e^{-0.0481(6)}</mrow>
-				<mrow> &amp; = 8.99.</mrow>
-			</md></p></solution>
-		</task>
-	</example>
+    <example xml:id="example-exponential-growth-redux">
+        <p>In <xref ref="example-exponential-model-lactobacillus-gram" /> we produced the model <m>P=3.0 \cdot 2^{t/7\bar{0}}</m>. Here we will redo this problem using the model <m>P=P_0 e^{kt}</m>.</p>
+        <p>The bacteria <term>lactobacilus acidophilus</term> doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?</p>
+        <p>To use this model we must first calculate the constant <m>k</m>. We know the amount doubles every 70 minutes, so we can start with the following.
+        <md>
+            <mrow>6.0 &amp; = 3.0e^{7\bar{0} k}</mrow>
+            <mrow>\frac{6.0}{3.0} &amp; = e^{7\bar{0}k}</mrow>
+            <mrow>2.0 &amp; = e^{7\bar{0}k}</mrow>
+            <mrow>\ln(2.0) &amp; = 7\bar{0}k</mrow>
+            <mrow>\frac{\ln(2.0)}{7\bar{0}} &amp; = k</mrow>
+            <mrow>k &amp; \approx 0.009902</mrow>
+            <mrow> &amp; \approx 0.0099.</mrow>
+        </md>
+        Using this value we can now calculate the value after 24 hours. Note 24 hours is <m>24 \cdot 60 = 1440</m> minutes.
+        <md>
+            <mrow>P &amp; = 3.0e^{(144\bar{0})(0.0099)}</mrow>
+            <mrow> &amp; \approx 4.674533843 \times 10^6</mrow>
+            <mrow> &amp; \approx 4.7 \times 10^6</mrow>
+        </md></p>
+        <p>This is <m>4.7 \times 10^3 \approx 47,000</m> kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.</p>
+    </example>
 
-	<example xml:id="example-exponential-growth-redux">
-		<statement><p>In <xref ref="subsection-exponential-application" /> we produced the model <m>P=4000 \cdot 2^{t/70}</m>. Here we will redo this problem using the model <m>P=P_0 e^{kt}</m>.</p>
-		<p>The bacteria <term>lactobacilus acidophilus</term> doubles in population every 70 minutes. If the initial population was 4000 bacteria, what would the population be after 24 hours?</p></statement>
-		<solution><p>First we calculate the constant <m>k</m> in the model.
-		<md>
-			<mrow>8000 &amp; = 4000e^{70 k}</mrow>
-			<mrow>\frac{8000}{4000} &amp; = e^{70k}</mrow>
-			<mrow>2 &amp; = e^{70k}</mrow>
-			<mrow>\ln(2) &amp; = 70k</mrow>
-			<mrow>\frac{\ln(2)}{70} &amp; = k</mrow>
-			<mrow>k &amp; \approx 0.009902</mrow>
-		</md>
-		Using this value we can now calculate the value after 24 hours. Note 24 hours is <m>24 \cdot 60 = 1440</m> minutes.
-		<md>
-			<mrow>P &amp; = 4000e^{(1440)(0.009902)}</mrow>
-			<mrow> &amp; \approx 6.232 \times 10^9</mrow>
-		</md></p>
-		</solution>
-	</example>
+    <example xml:id="example-exponential-decay">
+        <introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by <me>P=P_0 e^{kt}</me>. <m>P_0</m> is the initial amount of material. <m>P</m> is the amount left after <m>t</m> units of time. <m>k</m> is a constant that is derives from the speed how fast the material decays. </p></introduction>
+        <task>
+            <statement><p>Write the model for Plutonium-241.</p></statement>
+            <solution><p>We must first find <m>k</m>. We can use <xref ref="example-solve-exponential-algebra1" /> as an example.
+            <md>
+                <mrow>5.0 &amp; = 10.0 e^{k(14.4)}</mrow>
+                <mrow>\frac{1}{2.0} &amp; = e^{k(14.4)}</mrow>
+                <mrow>\ln\left(\frac{1}{2.0}\right) &amp; = \ln\left(e^{k(14.4)}\right)</mrow>
+                <mrow>\ln\left(\frac{1}{2.0}\right) &amp; = k(14.4).</mrow>
+                <mrow>\frac{1}{14.4}\ln\left(\frac{1}{2.0}\right) &amp; = k</mrow>
+                <mrow>-0.04813522 &amp; \approx k.</mrow>
+                <mrow>-0.048 &amp; \approx k.</mrow>
+            </md>
+            Thus the model is <me>P = P_0 e^{-0.048t}</me>.</p></solution>
+        </task>
+        <task>
+            <statement><p>If a lab has 12.0g of Pu-241, how much will be left in 6 years?</p></statement>
+            <solution>
+                <p>We use the model from the previous step.
+                <md>
+                    <mrow>P &amp; = 12.0e^{-0.048(6)}</mrow>
+                    <mrow> &amp; \approx 8.997139</mrow>
+                    <mrow> &amp; \approx 9.0.</mrow>
+                </md></p>
+            </solution>
+        </task>
+    </example>
 
-	<p>Note, that the example in <xref ref="subsection-exponential-application" /> and <xref ref="example-exponential-growth-redux" /> imply that <m>4000 \cdot 2^{t/70} = 4000 e^{(0.009902)t}</m>. Generally, we can write <m>2^x = e^{kx}</m> or <m>3^x = e^{kx}</m> or similar for value of <m>k</m>.</p>
+    <p>Note, that the example in <xref ref="example-exponential-model-lactobacillus-gram" /> and <xref ref="example-exponential-growth-redux" /> imply that <m>3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}</m>. In particular we can convert the power of 2 to a power of e. More generally, we can write <m>2^x = e^{kx}</m> or <m>3^x = e^{kx}</m> or similar for some value of <m>k</m>. The next example shows how we can perform this conversion.</p>
 
-	<example xml:id="example-convert-exponential-e">
-		<statement><p>Write <m>2^x</m> as <m>e^{kx}</m>.</p></statement>
-		<solution><p>
-			<md>
-				<mrow>2^x &amp; = e^{kx}.</mrow>
-				<mrow>\ln(2^x) &amp; = \ln(e^{kx}).</mrow>
-				<mrow>x \ln(2) &amp; = (kx)\ln(e).</mrow>
-				<mrow>x \ln(2) &amp; = kx.</mrow>
-				<mrow>\frac{x \ln(2)}{x} &amp; = \frac{kx}{x}.</mrow>
-				<mrow>\ln(2) &amp; = k</mrow>
-			</md>
-			Thus <m>2^x = e^{x \ln(2)}</m>.</p>
-		</solution>
-	</example>
+    <example xml:id="example-convert-exponential-e">
+        <p>Write <m>2^x</m> as <m>e^{kx}</m>. Numbers are exact.</p>
+        <p><md>
+                <mrow>2^x &amp; = e^{kx}.</mrow>
+                <mrow>\ln(2^x) &amp; = \ln(e^{kx}).</mrow>
+                <mrow>x \ln(2) &amp; = (kx)\ln(e).</mrow>
+                <mrow>x \ln(2) &amp; = kx.</mrow>
+                <mrow>\frac{x \ln(2)}{x} &amp; = \frac{kx}{x}.</mrow>
+                <mrow>\ln(2) &amp; = k</mrow>
+        </md>
+        Thus <m>2^x = e^{x \ln(2)}</m>.</p>
+    </example>
 
-	<example xml:id="example-pH">
-		<introduction><p>Acidity is measured in pH (percent hydrogen). It uses a logarithmic scale. <me>\text{pH} = -\log(H_3O^+)</me> where <m>H_3O^+</m> is the concentration of hydronium ions per mole. This is obtained experimentally.</p></introduction>
-		<task>
-			<statement><p>Hydrochloric acid has a concentration of 0.0025. Find its pH.</p></statement>
-			<solution><p>
-				<md>
-					<mrow>\text{pH} &amp; = -\log(0.0025)</mrow>
-					<mrow> &amp; \approx 2.60.</mrow>
-				</md>
-			</p></solution>
-		</task>
-		<task>
-			<statement><p>Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.</p></statement>
-			<solution><p>We setup the pH calculation and solve using <xref ref="example-log-solve2" />.
-				<md>
-					<mrow>5.3 &amp; = -\log(c)</mrow>
-					<mrow>-5.3 &amp; = \log(c)</mrow>
-					<mrow>10^{-5.3} &amp; = 10^{\log(c)}</mrow>
-					<mrow>10^{-5.3} &amp; = c</mrow>
-					<mrow>5.01 \times 10^{-6} &amp; \approx c</mrow>
-				</md>
-			</p></solution>
-		</task>
-	</example>
+    <definition xml:id="definition-ph">
+        <title>pH (percent hydrogen)</title>
+        <statement>
+            <p>Acidity is measured in pH (percent hydrogen). The calculation is <me>\text{pH} = -\log(H_3O^+)</me> where <m>H_3O^+</m> is the concentration of hydronium ions per mole. This is obtained experimentally.</p>
+        </statement>
+    </definition>
 
-	<example xml:id="example-moment-magnitude">
-		<introduction><p>Larger earthquakes today are measured and reported using the <term>moment magnitude</term> scale. This is calculated via <me>M_w = \frac{2}{3}\log(M_0)-10.7</me> where <m>M_0</m> is the seismic moment in Newtons per meter (a measure of energy).</p></introduction>
-		<task>
-			<statement><p>Based on seismic readings <m>M_0 = 7.2 \times 10^{22}</m>. What was the moment magnitude?</p></statement>
-			<solution><p>Using the formula we obtain
-			<md>
-				<mrow>M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})</mrow>
-				<mrow> &amp; \approx 4.5</mrow>
-			</md></p></solution>
-		</task>
-		<task>
-			<statement><p>What was the seismic moment for an earthquake with magnitude 7.1?</p></statement>
-			<solution><p>We setup the calculation and solve using <xref ref="example-log-solve2" />.
-			<md>
-				<mrow>7.1 &amp; = \frac{2}{3}\log(M_0)-10.7</mrow>
-				<mrow>17.8 &amp; = \frac{2}{3}\log(M_0)</mrow>
-				<mrow>26.7 &amp; = \log(M_0)</mrow>
-				<mrow>10^{26.7} &amp; = 10^{\log(M_0)}</mrow>
-				<mrow>5.01 \times 10^{26} &amp; \approx M_0</mrow>
-			</md></p></solution>
-		</task>
-	</example>
+    <example xml:id="example-pH">
+        <task>
+            <p>Hydrochloric acid has a concentration of 0.0025. Find its pH.</p>
+            <p><md>
+                    <mrow>\text{pH} &amp; = -\log(0.0025)</mrow>
+                    <mrow> &amp; \approx 2.6.</mrow>
+            </md></p>
+        </task>
+        <task>
+            <p>Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.</p>
+            <p>We setup the pH calculation and solve using <xref ref="example-log-solve2" />.
+                <md>
+                    <mrow>5.3 &amp; = -\log(c)</mrow>
+                    <mrow>-5.3 &amp; = \log(c)</mrow>
+                    <mrow>10^{-5.3} &amp; = 10^{\log(c)}</mrow>
+                    <mrow>10^{-5.3} &amp; = c</mrow>
+                    <mrow>5.0 \times 10^{-6} &amp; \approx c</mrow>
+                </md>
+            </p>
+        </task>
+    </example>
+
+    <definition xml:id="definition-moment-magnitude">
+        <title>Moment Magnitude</title>
+        <p>Larger earthquakes today are measured and reported using the <term>moment magnitude</term> scale. This is calculated via <me>M_w = \frac{2}{3}\log(M_0)-10.7</me> where <m>M_w</m> is the moment magnitude, and <m>M_0</m> is the seismic moment in Newtons per meter (a measure of energy).</p>
+    </definition>
+
+    <example xml:id="example-moment-magnitude">
+        <task>
+            <statement><p>Based on seismic readings <m>M_0 = 7.2 \times 10^{22}</m>. What was the moment magnitude?</p></statement>
+            <solution><p>Using the formula we obtain
+            <md>
+                <mrow>M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})</mrow>
+                <mrow> &amp; \approx 4.5</mrow>
+            </md></p></solution>
+        </task>
+        <task>
+            <statement><p>What was the seismic moment for an earthquake with magnitude 7.1?</p></statement>
+            <solution><p>We setup the calculation and solve using <xref ref="example-log-solve2" />.
+            <md>
+                <mrow>7.1 &amp; = \frac{2}{3}\log(M_0)-10.7</mrow>
+                <mrow>17.8 &amp; = \frac{2}{3}\log(M_0)</mrow>
+                <mrow>26.7 &amp; = \log(M_0)</mrow>
+                <mrow>10^{26.7} &amp; = 10^{\log(M_0)}</mrow>
+                <mrow>5.01 \times 10^{26} &amp; \approx M_0</mrow>
+            </md></p></solution>
+        </task>
+    </example>
 
 </subsection>
 
 <exercises>
-	<exercisegroup>
-		<introduction><p>Solve equations with logarithms and exponentials</p></introduction>
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="1539" />
-	    </exercise>
+    <exercisegroup>
+        <introduction><p>Solve equations with logarithms and exponentials</p></introduction>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="1539" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="1549" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="1549" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="1552" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="1552" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="1554" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="1554" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="1541" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="1541" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="8516" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="8516" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="64235" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="64235" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="64252" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="64252" />
+        </exercise>
 
-	    <exercise>
-	        <title>Contextless</title>
-	        <myopenmath problem="38430" />
-	    </exercise>
-	</exercisegroup>
-	<exercisegroup>
-		<introduction><p>Use logarithms and exponentials to work with applications.</p></introduction>
-	    <exercise>
-	        <myopenmath problem="1585" />
-	    </exercise>
+        <exercise>
+            <title>Contextless</title>
+            <myopenmath problem="38430" />
+        </exercise>
+    </exercisegroup>
+    <exercisegroup>
+        <introduction><p>Use logarithms and exponentials to work with applications.</p></introduction>
+        <exercise>
+            <myopenmath problem="1585" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="1499" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="1499" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="1767" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="1767" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="5787" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="5787" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="5788" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="5788" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="6591" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="6591" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="1054132" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="1054132" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="1566" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="1566" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="1565" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="1565" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="15892" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="15892" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="1064879" />
-	    </exercise>
+        <exercise>
+            <myopenmath problem="1064879" />
+        </exercise>
 
-	    <exercise>
-	        <myopenmath problem="127542" />
-	    </exercise>
-	</exercisegroup>
+        <exercise>
+            <myopenmath problem="127542" />
+        </exercise>
+    </exercisegroup>
 </exercises>
 
 </section>
