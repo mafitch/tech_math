@@ -5542,7 +5542,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Geometric Reasoning 3D",
-  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to find those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume     Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.   Various Prisms              Prisms      Shape  Surface Area  Volume    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.   What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.    Calculate the surface area and volume    Right Triangular Prism     Non-Right Triangular Prism       Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         The 2 is an exact number. If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.   What are the total surface area and volume of this slanted cylinder?   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume    sum of surfaces      The 1\/3 is an exact number.   What is the surface area of this pyramid? This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .    Find the volume of this rectangular pyramid.   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).  We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume    What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.   Cone      Shape  Lateral Surface Area  Volume    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. The 1\/3 in the volume calculation is an exact number. For the full surface area we add the area of the circle at the bottom of the cone.   Calculate the total surface area and the volume of this cone.   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly. is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base. The 1\/2 and 1\/3 are exact numbers.   What is the surface area of the frustrum of the pyramid in ? The perimeter of the lower base (triangle) is (3 is an exact number here so precision is not changed). The perimeter of the upper base (triangle) is . To calculate the area of the two bases we will need Heron's formula. The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The 1\/3 is an exact number. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.   For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area. To round we notice that 0.1545 is closer to than it is to .  For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round to 1\/2 because 0.4960525 is closer to than to .     An ice cream cone has the dimensions shown below.    What is the volume of the ice cream? Round final results to the nearest 10th. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is Thus the total volume of the ice cream is .  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is The surface area of the half sphere is . Thus the total surface area of the ice cream is cubic inches.     Volume Application  Volume Application   Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
+  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to find those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume     Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.   Various Prisms              Prisms      Shape  Surface Area  Volume    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.   What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.    Calculate the surface area and volume    Right Triangular Prism     Non-Right Triangular Prism       Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         The 2 is an exact number. If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.   What are the total surface area and volume of this slanted cylinder?   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume    sum of surfaces      The 1\/3 is an exact number.   What is the surface area of this pyramid? This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .    Find the volume of this rectangular pyramid.   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).  We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume    What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.   Cone      Shape  Lateral Surface Area  Volume    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. The 1\/3 in the volume calculation is an exact number. For the full surface area we add the area of the circle at the bottom of the cone.   Calculate the total surface area and the volume of this cone.   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly. is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base. The 1\/2 and 1\/3 are exact numbers.   What is the surface area of the frustrum of the pyramid in ? The perimeter of the lower base (triangle) is (3 is an exact number here so precision is not changed). The perimeter of the upper base (triangle) is . To calculate the area of the two bases we will need Heron's formula. The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The 1\/3 is an exact number. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.   For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).     An ice cream cone has the dimensions shown below.    What is the volume of the ice cream? Round final results to the nearest 10th. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is Thus the total volume of the ice cream is .  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is The surface area of the half sphere is . Thus the total surface area of the ice cream is cubic inches.     Volume Application  Volume Application   Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
 },
 {
   "id": "subsection-geometric-properties-3d-4",
@@ -5803,7 +5803,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.26",
   "title": "",
-  "body": " What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area. To round we notice that 0.1545 is closer to than it is to .  For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round to 1\/2 because 0.4960525 is closer to than to .  "
+  "body": " What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).  "
 },
 {
   "id": "example-apply-geometry-ice-cream",
@@ -7576,7 +7576,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.4",
   "title": "Solving Equations Using Logarithm",
-  "body": " Solving Equations Using Logarithm   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.    Solving Equations with Exponentials  The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.   Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).   Solve .  Because the exponential is base 2, we will use a log base 2.    Your calculator likely does not have a button for calculating . We can use a property of all logarithms to solve this equation with the natural log. In general .   Solve .   Your calculator does have a button for . Note this implies that . This relationship works for logs of any base.      Solving Equations with Logarithms  As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.   Solve . We can re-write this as which tells us that .    Solve .  First we combine the terms outside the logarithm, the we re-write that as an exponential.     Solve .   We re-write this as an exponential.  We choose arbitrarily to round to units, because there is no context.        Applications with Exponentials and Logarithms   In we produced the model . Here we will redo this problem using the model .  The bacteria lactobacilus acidophilus doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?  To use this model we must first calculate the constant . We know the amount doubles every 70 minutes, so we can start with the following. Using this value we can now calculate the value after 24 hours. Note 24 hours is minutes.  This is kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.    Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.  Write the model for Plutonium-241. We must first find . We can use as an example. Thus the model is .  If a lab has 12.0g of Pu-241, how much will be left in 6 years?  We use the model from the previous step.    Note, that the example in and imply that . In particular we can convert the power of 2 to a power of e. More generally, we can write or or similar for some value of . The next example shows how we can perform this conversion.   Write as . Numbers are exact.  Thus .    pH (percent hydrogen)   Acidity is measured in pH (percent hydrogen). The calculation is where is the concentration of hydronium ions per mole. This is obtained experimentally.     Hydrochloric acid has a concentration of 0.0025. Find its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .     Moment Magnitude  Larger earthquakes today are measured and reported using the moment magnitude scale. This is calculated via where is the moment magnitude, and is the seismic moment in Newtons per meter (a measure of energy).    Based on seismic readings . What was the moment magnitude? Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .      Solve equations with logarithms and exponentials  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless    Use logarithms and exponentials to work with applications.                "
+  "body": " Solving Equations Using Logarithm   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.    Solving Equations with Exponentials  The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.   Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).   Solve .  Because the exponential is base 2, we will use a log base 2.    Your calculator likely does not have a button for calculating . We can use a property of all logarithms to solve this equation with the natural log. In general .   Solve .   Your calculator does have a button for . Note this implies that . This relationship works for logs of any base.      Solving Equations with Logarithms  As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.   Solve . We can re-write this as which tells us that .    Solve .  First we combine the terms outside the logarithm, the we re-write that as an exponential.     Solve .   We re-write this as an exponential.  We choose arbitrarily to round to units, because there is no context.        Applications with Exponentials and Logarithms   In we produced the model . Here we will redo this problem using the model .  The bacteria lactobacilus acidophilus doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?  To use this model we must first calculate the constant . We know the amount doubles every 70 minutes, so we can start with the following. Using this value we can now calculate the value after 24 hours. Note 24 hours is minutes.  This is kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.    Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.  Write the model for Plutonium-241. We must first find . We can use as an example. Thus the model is .  If a lab has 12.0g of Pu-241, how much will be left in 6 years?  We use the model from the previous step.    Note, that the example in and imply that . In particular we can convert the power of 2 to a power of e. More generally, we can write or or similar for some value of . The next example shows how we can perform this conversion.   Write as . Numbers are exact.  Thus .    pH (percent hydrogen)   Acidity is measured in pH (percent hydrogen). The calculation is where is the concentration of hydronium ions per mole. This is obtained experimentally.     A solution of hydrochloric acid has a concentration of 0.0025. Find its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .    What is the purpose behind defining pH using a log? What does it do, that simply giving the concentration of does not? The next example illustrates what the use of a log adds.   Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).    What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .   We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is times as strong. The log scale gives us growth as a ratio.   Moment Magnitude  Larger earthquakes today are measured and reported using the moment magnitude scale. This is calculated via where is the moment magnitude, and is the seismic moment in Newtons per meter (a measure of energy).    Based on seismic readings . What was the moment magnitude? Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .   Just as with pH, the moment magnitude seismic scale enables us to compare how much stronger one earthquake is than another. The 2\/3 means that a change of 1 is not 10 times as strong but a different ratio. Can you figure out what that ratio is?     Solve equations with logarithms and exponentials  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless    Use logarithms and exponentials to work with applications.                "
 },
 {
   "id": "example-solve-exponential-algebra1",
@@ -7711,14 +7711,23 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.4.15",
   "title": "",
-  "body": " Hydrochloric acid has a concentration of 0.0025. Find its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .   "
+  "body": " A solution of hydrochloric acid has a concentration of 0.0025. Find its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .   "
+},
+{
+  "id": "example-ph-log",
+  "level": "2",
+  "url": "section-log-solve.html#example-ph-log",
+  "type": "Example",
+  "number": "6.4.16",
+  "title": "",
+  "body": " Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).    What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .  "
 },
 {
   "id": "definition-moment-magnitude",
   "level": "2",
   "url": "section-log-solve.html#definition-moment-magnitude",
   "type": "Definition",
-  "number": "6.4.16",
+  "number": "6.4.17",
   "title": "Moment Magnitude.",
   "body": " Moment Magnitude  Larger earthquakes today are measured and reported using the moment magnitude scale. This is calculated via where is the moment magnitude, and is the seismic moment in Newtons per meter (a measure of energy).  "
 },
@@ -7727,7 +7736,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#example-moment-magnitude",
   "type": "Example",
-  "number": "6.4.17",
+  "number": "6.4.18",
   "title": "",
   "body": " Based on seismic readings . What was the moment magnitude? Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .  "
 },
@@ -7945,32 +7954,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Ratios",
-  "body": " Trigonometric Ratios   In we learned about areas of triangles and a relationship between the three sides of a right triangle. In this and the next sections we will look at relationships between angles of the triangles and their sides.    Side and Angle Relationships  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from three, random side lengths.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No              There is also a relationship between the three angles of any triangle.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy     If two angles of a triangle are 40 and 30, what is the measure of the third angle?              Defining Trig Functions  Note that in a right triangle the other two angles have measure less than right angles. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.  For right triangles we have names for the sides. Consider the labels in The adjacent is the side touching the right angle that is also touching the angle with which we are working. The opposite is the side touching the right angle not touching the angle with which we are working. Note these names are relative to the angle we are considering. That is in the adjacent side for has length 5 and the adjacent side for has length 3. Both the adjacent and opposite are known as legs of the triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology    Similar to this restriction on the lengths of the three sides, there are restrictions on the ratio of side lengths given the measure of the angles. Use the activity in to see how changing either side length or angle affects the other.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    Because the ratios are dependent solely on the angle it is reasonable to name and use them. The trigonometric functions (names for the ratios) are in   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios has an inherent limitation.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.   It is also possible to find the angle given the ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . The relationship between and will not be used in this chapter. Be careful to read the full context of any problem. Your calculator does not have a button for and probably not for . For those you use the button, that is, calculate the first then invert.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 5 and 8, what are the measures of the angles?  Angle opposite side length 5:  Angle opposite side length 8:                   Solving Triangles  Our goal now is to use partial information about a triangle to find the rest.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 6 and hypotenuse of length 9, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 6:  Angle opposite other leg:                         Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
-},
-{
-  "id": "exercise-pyth-find-hyp",
-  "level": "2",
-  "url": "section-trig-functions.html#exercise-pyth-find-hyp",
-  "type": "Checkpoint",
-  "number": "7.1.1",
-  "title": "",
-  "body": "  If the two sides on the right angle have length and what is the length of the hypotenuse?           "
-},
-{
-  "id": "exercise-triangle-inequality1",
-  "level": "2",
-  "url": "section-trig-functions.html#exercise-triangle-inequality1",
-  "type": "Checkpoint",
-  "number": "7.1.2",
-  "title": "",
-  "body": "  Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No             "
+  "body": " Trigonometric Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    presented areas of triangles and a relationship between the three sides of a right triangle. This section and the following ones present relationships between angles of triangles and the lengths of their sides.    Angle Relationships in Triangles  The states a relationship between the side lengths of all right triangles. There is also a relationship between the three angles of all (not just right) triangles.   The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy    Note that in a right triangle the other two angles have measure less than a right angle. This is a result of . Consider that so the remaining two angles have a sum that adds to implying both are smaller.    Defining Trig Functions  This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.  For right triangles we have names for the sides. Consider the labels in . These names are relative to whichever of the two non-right angles we are working. In this case it is the one labeled . The adjacent is the side that connects the angle and the right angle. The opposite is the side touching the right angle but not touching the angle ( ). Both the adjacent and opposite sides are known as legs of the right triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology     Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.   The trigonometric functions are defined here as ratios of side lengths. These are listed below.   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus   Defining the trigonometric functions via ratios implies something about triangle side lengths. Namely, if one side grows the others must grow by the same amount.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).    Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths.?  If is the angle across from 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , we will call it . Putting these together gives us the following. The last line is included to see how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .   Another way to look at this is to consider similar triangles ( ). If two triangles are similar, the ratios of their sides are the same. Trig functions are ratios of side lengths of right triangles, so if two right triangles have the same angles (are similar) they also have the same values for the trig functions.  The following activity illustrates how the three main trigonometric functions relate to angles. It connects trig function values to geometric reasons.   The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles      Inverse Trigonometric Functions  The trigonometric functions presented above provide a side ratio given an angle. It is also possible to find the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Trig Inverse Trig       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . As a result that notation will not be used in this text.   What is the measure of both non-right angles in ?  We can use the arcsine function. .  We can use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.     If the leg lengths of a right triangle are 4 and 7, what are the measures of the angles?  Angle opposite side length 4:  Angle opposite side length 7:                   Solving Triangles  Now that we have defined trigonometric functions, we can use them to analyze triangles. Our goal now is to use partial information about a triangle to find the rest of the side lengths and\/or angles.   Right Triangle with Labels     If and the hypotenuse has length 13, what is the length of the adjacent side?  Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.     If and the opposite side for has length 14.00, what are the lengths of the other sides?    Sine is opposite over hypotenuse so, we can setup a proportion. The hypotenuse has length 50.00. The adjacent has length 48.00.        For a right triangle if what is the length of the adjacent?             For a right triangle if , what are the two, non-right angles?  We can use for angle . This is . For the second angle we have three options. First we can use the angle sum.  Another option is to recognize that 12\/13 is adjacent over hypotenuse for the third angle. Thus it is given by .  It is also possible to use the third side. We know from that the third side length is 5. Thus the angle is given by .  We can select a favorite method in cases like these.     For a right triangle with angle and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.    Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse. The hypotenuse has length 9.13. Next we calculate the length of the adjacent. The adjacent has length 5.86. Finally, we know that two of the angles are and , so the third angle has measure .      If a triangle has a leg of length 5 and hypotenuse of length 9, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 5:  Angle opposite other leg:                        Limitations on Triangle Side Lengths  The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from any three, random side lengths.  Play (geogebra) with side lengths and see how hypotenuse length changes. Ask (2nd exercise below). Ask what the limitation on hypotenuse is.    If the two sides on the right angle have length and what is the length of the hypotenuse?              Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No                 Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
 },
 {
   "id": "theorem-triangle-angle-sum",
   "level": "2",
   "url": "section-trig-functions.html#theorem-triangle-angle-sum",
   "type": "Theorem",
-  "number": "7.1.3",
+  "number": "7.1.1",
   "title": "",
   "body": " The sum of the angles of any triangle is .  "
 },
@@ -7979,7 +7970,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#example-angle-sum2",
   "type": "Example",
-  "number": "7.1.4",
+  "number": "7.1.2",
   "title": "",
   "body": " If two angles of a triangle are and what is the other angle?  The third angle must satisfy  "
 },
@@ -7988,7 +7979,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#example-angle-sum1",
   "type": "Example",
-  "number": "7.1.5",
+  "number": "7.1.3",
   "title": "",
   "body": " If one angle of a right triangle is what is the other angle?  We know one angle is (right angle) and another is . Thus the third angle must satisfy  "
 },
@@ -7997,9 +7988,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#exercise-triangle-angle-sum",
   "type": "Checkpoint",
-  "number": "7.1.6",
+  "number": "7.1.4",
   "title": "",
-  "body": "  If two angles of a triangle are 40 and 30, what is the measure of the third angle?           "
+  "body": ""
 },
 {
   "id": "subsection-trig-ratios-defined-3",
@@ -8015,9 +8006,63 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#figure-triangle-side-names",
   "type": "Figure",
-  "number": "7.1.7",
+  "number": "7.1.5",
   "title": "",
   "body": " Right Triangle Terminology   "
+},
+{
+  "id": "example-right-triangle-side-names",
+  "level": "2",
+  "url": "section-trig-functions.html#example-right-triangle-side-names",
+  "type": "Example",
+  "number": "7.1.6",
+  "title": "",
+  "body": " Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.  "
+},
+{
+  "id": "table-trig-functions",
+  "level": "2",
+  "url": "section-trig-functions.html#table-trig-functions",
+  "type": "Table",
+  "number": "7.1.7",
+  "title": "Trig Functions as Ratios",
+  "body": " Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent   "
+},
+{
+  "id": "figure-trig-function-read",
+  "level": "2",
+  "url": "section-trig-functions.html#figure-trig-function-read",
+  "type": "Figure",
+  "number": "7.1.8",
+  "title": "",
+  "body": " Right Triangle with Side Lengths   "
+},
+{
+  "id": "example-trig-function-read",
+  "level": "2",
+  "url": "section-trig-functions.html#example-trig-function-read",
+  "type": "Example",
+  "number": "7.1.9",
+  "title": "",
+  "body": " Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus  "
+},
+{
+  "id": "example-trig-ratio-scale1",
+  "level": "2",
+  "url": "section-trig-functions.html#example-trig-ratio-scale1",
+  "type": "Example",
+  "number": "7.1.10",
+  "title": "",
+  "body": " Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  "
+},
+{
+  "id": "example-trig-ratio-scale2",
+  "level": "2",
+  "url": "section-trig-functions.html#example-trig-ratio-scale2",
+  "type": "Example",
+  "number": "7.1.11",
+  "title": "",
+  "body": " Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths.?  If is the angle across from 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , we will call it . Putting these together gives us the following. The last line is included to see how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .  "
 },
 {
   "id": "activity-angle-side-relation",
@@ -8033,45 +8078,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#figure-trig-truth",
   "type": "Figure",
-  "number": "7.1.8",
-  "title": "",
-  "body": " Sides vs Angles   "
-},
-{
-  "id": "table-trig-functions",
-  "level": "2",
-  "url": "section-trig-functions.html#table-trig-functions",
-  "type": "Table",
-  "number": "7.1.9",
-  "title": "Trig Functions as Ratios",
-  "body": " Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent   "
-},
-{
-  "id": "figure-trig-function-read",
-  "level": "2",
-  "url": "section-trig-functions.html#figure-trig-function-read",
-  "type": "Figure",
-  "number": "7.1.10",
-  "title": "",
-  "body": " Right Triangle with Side Lengths   "
-},
-{
-  "id": "example-trig-function-read",
-  "level": "2",
-  "url": "section-trig-functions.html#example-trig-function-read",
-  "type": "Example",
-  "number": "7.1.11",
-  "title": "",
-  "body": " Given the side lengths in what are each of the following trig ratios?  From the perspective of , the side of length 3 is opposite. The hypotenuse has length . Thus  From the perspective of , the side of length 5 is adjacent. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the side of length 5 is opposite. The hypotenuse has length . Thus  "
-},
-{
-  "id": "example-trig-ratio-scale",
-  "level": "2",
-  "url": "section-trig-functions.html#example-trig-ratio-scale",
-  "type": "Example",
   "number": "7.1.12",
   "title": "",
-  "body": " Consider a right triangle with side lengths 8, 15, and 17. If is the angle across from 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).  Trigonometric functions are ratios which implies that they do not contain information about scale.  "
+  "body": " Sides vs Angles   "
 },
 {
   "id": "table-arctrig-names",
@@ -8107,7 +8116,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.16",
   "title": "",
-  "body": "  If the leg lengths of a right triangle are 5 and 8, what are the measures of the angles?  Angle opposite side length 5:  Angle opposite side length 8:                "
+  "body": "  If the leg lengths of a right triangle are 4 and 7, what are the measures of the angles?  Angle opposite side length 4:  Angle opposite side length 7:                "
 },
 {
   "id": "figure-triangle-generic-labels",
@@ -8170,158 +8179,176 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.23",
   "title": "",
-  "body": "  If a triangle has a leg of length 6 and hypotenuse of length 9, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 6:  Angle opposite other leg:                     "
+  "body": "  If a triangle has a leg of length 5 and hypotenuse of length 9, what is the length of the other side and what are the measures of the angles?  Length of other leg:  Angle opposite side length 5:  Angle opposite other leg:                     "
 },
 {
-  "id": "section-trig-functions-6-1-2",
+  "id": "exercise-pyth-find-hyp",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-1-2",
+  "url": "section-trig-functions.html#exercise-pyth-find-hyp",
+  "type": "Checkpoint",
+  "number": "7.1.24",
+  "title": "",
+  "body": "  If the two sides on the right angle have length and what is the length of the hypotenuse?           "
+},
+{
+  "id": "exercise-triangle-inequality1",
+  "level": "2",
+  "url": "section-trig-functions.html#exercise-triangle-inequality1",
+  "type": "Checkpoint",
+  "number": "7.1.25",
+  "title": "",
+  "body": "  Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No             "
+},
+{
+  "id": "section-trig-functions-8-1-2",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-1-2",
   "type": "Exercise",
-  "number": "7.1.4.1",
+  "number": "7.1.6.1",
   "title": "Triangle Side Length.",
   "body": "Triangle Side Length "
 },
 {
-  "id": "section-trig-functions-6-1-3",
+  "id": "section-trig-functions-8-1-3",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-1-3",
+  "url": "section-trig-functions.html#section-trig-functions-8-1-3",
   "type": "Exercise",
-  "number": "7.1.4.2",
+  "number": "7.1.6.2",
   "title": "Triangle Side Length.",
   "body": "Triangle Side Length "
 },
 {
-  "id": "section-trig-functions-6-1-4",
+  "id": "section-trig-functions-8-1-4",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-1-4",
+  "url": "section-trig-functions.html#section-trig-functions-8-1-4",
   "type": "Exercise",
-  "number": "7.1.4.3",
+  "number": "7.1.6.3",
   "title": "Triangle Angles.",
   "body": "Triangle Angles "
 },
 {
-  "id": "section-trig-functions-6-1-5",
+  "id": "section-trig-functions-8-1-5",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-1-5",
+  "url": "section-trig-functions.html#section-trig-functions-8-1-5",
   "type": "Exercise",
-  "number": "7.1.4.4",
+  "number": "7.1.6.4",
   "title": "Triangle Angles.",
   "body": "Triangle Angles "
 },
 {
-  "id": "section-trig-functions-6-2-2",
+  "id": "section-trig-functions-8-2-2",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-2-2",
+  "url": "section-trig-functions.html#section-trig-functions-8-2-2",
   "type": "Exercise",
-  "number": "7.1.4.5",
+  "number": "7.1.6.5",
   "title": "Right Triangle Side Names.",
   "body": "Right Triangle Side Names "
 },
 {
-  "id": "section-trig-functions-6-2-3",
+  "id": "section-trig-functions-8-2-3",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-2-3",
+  "url": "section-trig-functions.html#section-trig-functions-8-2-3",
   "type": "Exercise",
-  "number": "7.1.4.6",
+  "number": "7.1.6.6",
   "title": "Trig Function Definitions.",
   "body": "Trig Function Definitions "
 },
 {
-  "id": "section-trig-functions-6-2-4",
+  "id": "section-trig-functions-8-2-4",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-2-4",
+  "url": "section-trig-functions.html#section-trig-functions-8-2-4",
   "type": "Exercise",
-  "number": "7.1.4.7",
+  "number": "7.1.6.7",
   "title": "Trig Function Value.",
   "body": "Trig Function Value "
 },
 {
-  "id": "section-trig-functions-6-2-5",
+  "id": "section-trig-functions-8-2-5",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-2-5",
+  "url": "section-trig-functions.html#section-trig-functions-8-2-5",
   "type": "Exercise",
-  "number": "7.1.4.8",
+  "number": "7.1.6.8",
   "title": "Trig Function Value.",
   "body": "Trig Function Value "
 },
 {
-  "id": "section-trig-functions-6-3-2",
+  "id": "section-trig-functions-8-3-2",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-2",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-2",
   "type": "Exercise",
-  "number": "7.1.4.9",
+  "number": "7.1.6.9",
   "title": "Find a side length.",
   "body": "Find a side length "
 },
 {
-  "id": "section-trig-functions-6-3-3",
+  "id": "section-trig-functions-8-3-3",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-3",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-3",
   "type": "Exercise",
-  "number": "7.1.4.10",
+  "number": "7.1.6.10",
   "title": "Find a side length.",
   "body": "Find a side length "
 },
 {
-  "id": "section-trig-functions-6-3-4",
+  "id": "section-trig-functions-8-3-4",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-4",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-4",
   "type": "Exercise",
-  "number": "7.1.4.11",
+  "number": "7.1.6.11",
   "title": "Find a side length.",
   "body": "Find a side length "
 },
 {
-  "id": "section-trig-functions-6-3-5",
+  "id": "section-trig-functions-8-3-5",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-5",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-5",
   "type": "Exercise",
-  "number": "7.1.4.12",
+  "number": "7.1.6.12",
   "title": "Find a side length.",
   "body": "Find a side length "
 },
 {
-  "id": "section-trig-functions-6-3-6",
+  "id": "section-trig-functions-8-3-6",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-6",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-6",
   "type": "Exercise",
-  "number": "7.1.4.13",
+  "number": "7.1.6.13",
   "title": "Find a side length.",
   "body": "Find a side length "
 },
 {
-  "id": "section-trig-functions-6-3-7",
+  "id": "section-trig-functions-8-3-7",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-7",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-7",
   "type": "Exercise",
-  "number": "7.1.4.14",
+  "number": "7.1.6.14",
   "title": "Find a side length.",
   "body": "Find a side length "
 },
 {
-  "id": "section-trig-functions-6-3-8",
+  "id": "section-trig-functions-8-3-8",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-8",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-8",
   "type": "Exercise",
-  "number": "7.1.4.15",
+  "number": "7.1.6.15",
   "title": "Find angles and side lengths.",
   "body": "Find angles and side lengths "
 },
 {
-  "id": "section-trig-functions-6-3-9",
+  "id": "section-trig-functions-8-3-9",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-9",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-9",
   "type": "Exercise",
-  "number": "7.1.4.16",
+  "number": "7.1.6.16",
   "title": "Find angles and side lengths.",
   "body": "Find angles and side lengths "
 },
 {
-  "id": "section-trig-functions-6-3-10",
+  "id": "section-trig-functions-8-3-10",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-6-3-10",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-10",
   "type": "Exercise",
-  "number": "7.1.4.17",
+  "number": "7.1.6.17",
   "title": "Find angles and side lengths.",
   "body": "Find angles and side lengths "
 },
@@ -8530,7 +8557,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Non-Right Triangles",
-  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     A triangle has angles of measure and The side opposite angle has length 4. What is the length of the side opposite angle               Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     A triangle has sides of length  and What is the measure of the angle opposite the side of length               Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
+  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     A triangle has angles of measure and The side opposite angle has length 6. What is the length of the side opposite angle               Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     A triangle has sides of length  and What is the measure of the angle opposite the side of length               Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
 },
 {
   "id": "theorem-law-sines",
@@ -8575,7 +8602,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.3.5",
   "title": "",
-  "body": "  A triangle has angles of measure and The side opposite angle has length 4. What is the length of the side opposite angle            "
+  "body": "  A triangle has angles of measure and The side opposite angle has length 6. What is the length of the side opposite angle            "
 },
 {
   "id": "example-angle-side-side",

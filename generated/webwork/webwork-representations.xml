@@ -2,257 +2,18 @@
 <webwork-representations>
   <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-1" ww-id="webwork-1">
     <static seed="1">
-      <statement><p>If the two sides on the right angle have length <m>a={1}</m> and <m>b={4}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
+      <statement><p>If the leg lengths of a right triangle are 4 and 7, what are the measures of the angles?</p>
+<p>Angle opposite side length 4: <fillin name="AnSwEr0001" characters="3"/></p>
+<p>Angle opposite side length 7: <fillin name="AnSwEr0002" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>4.12311</m>
-        </p>
-      </answer>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMSw1LDEpKTsKJGIgPSBDb21wdXRlKCRhK3JhbmRvbSgxLDMsMSkpOwokYyA9IENvbXB1dGUoc3FydCgkYSoqMiskYioqMikpOwoKQkVHSU5fUEdNTApJZiB0aGUgdHdvIHNpZGVzIG9uIHRoZSByaWdodCBhbmdsZSBoYXZlIGxlbmd0aCBbYGE9WyRhXWBdIGFuZCBbYGI9WyRiXVx0ZXh0eyx9YF0gd2hhdCBpcyB0aGUgbGVuZ3RoIG9mIHRoZSBoeXBvdGVudXNlPyBbYGM9YF1bX117JGN9ezN9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(7.1.1)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("LimitedNumeric");
-$a = Compute(random(1,5,1));
-$b = Compute($a+random(1,3,1));
-$c = Compute(sqrt($a**2+$b**2));
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-If the two sides on the right angle have length [`a=[$a]`] and [`b=[$b]\text{,}`] what is the length of the hypotenuse? [`c=`][_]{$c}{3}
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
-    <static seed="2">
-      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={4}</m> and hypotenuse (side opposite the right angle) with length <m>c={3}\text{?}</m> <var form="buttons" name="AnSwEr0001">
-<li>
-<p>Yes</p>
-</li>
-<li>
-<p>No</p>
-</li>
-</var></p>
-</statement>
-      <answer>
-        <p>
-          <m>\text{No}</m>
-        </p>
-      </answer>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VyUmFkaW9CdXR0b25zLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMyw5LDEpKTsKJGMgPSBDb21wdXRlKCRhLTEpOwokZXhwcmVzc2lvbnMgPSBSYWRpb0J1dHRvbnMoWyJZZXMiLCJObyJdLCAxKTsKCkJFR0lOX1BHTUwKQ2FuIGEgdHJpYW5nbGUgaGF2ZSBvbmUgbGVnIChzaWRlIG5leHQgdG8gcmlnaHQgYW5nbGUpIG9mIGxlbmd0aCBbYGE9WyRhXWBdIGFuZCBoeXBvdGVudXNlIChzaWRlIG9wcG9zaXRlIHRoZSByaWdodCBhbmdsZSkgd2l0aCBsZW5ndGggW2BjPVskY11cdGV4dHs/fWBdIFtfXXskZXhwcmVzc2lvbnN9ezV9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(7.1.2)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "parserRadioButtons.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("LimitedNumeric");
-$a = Compute(random(3,9,1));
-$c = Compute($a-1);
-$expressions = RadioButtons(["Yes","No"], 1);
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Can a triangle have one leg (side next to right angle) of length [`a=[$a]`] and hypotenuse (side opposite the right angle) with length [`c=[$c]\text{?}`] [_]{$expressions}{5}
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
-    <static seed="3">
-      <statement><p>If two angles of a triangle are 40 and 30, what is the measure of the third angle? <fillin name="AnSwEr0001" characters="3"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>110</m>
-        </p>
-      </answer>
-    </static>
-    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMzAsNjAsNSkpOwokYiA9IENvbXB1dGUocmFuZG9tKDMwLDYwLDUpKTsKJGMgPSAxODAtJGEtJGI7CgpCRUdJTl9QR01MCklmIHR3byBhbmdsZXMgb2YgYSB0cmlhbmdsZSBhcmUgWyRhXSBhbmQgWyRiXSwgd2hhdCBpcyB0aGUgbWVhc3VyZSBvZiB0aGUgdGhpcmQgYW5nbGU/IFtfXXskY317M30KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(7.1.6)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("LimitedNumeric");
-$a = Compute(random(30,60,5));
-$b = Compute(random(30,60,5));
-$c = 180-$a-$b;
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-If two angles of a triangle are [$a] and [$b], what is the measure of the third angle? [_]{$c}{3}
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
-    <static seed="4">
-      <statement><p>If the leg lengths of a right triangle are 5 and 8, what are the measures of the angles?</p>
-<p>Angle opposite side length 5: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Angle opposite side length 8: <fillin name="AnSwEr0002" characters="3"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>\tan^{-1}\!\left(\frac{5}{8}\right)</m>
+          <m>\tan^{-1}\!\left(\frac{4}{7}\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\tan^{-1}\!\left(\frac{8}{5}\right)</m>
+          <m>\tan^{-1}\!\left(\frac{7}{4}\right)</m>
         </p>
       </answer>
     </static>
@@ -260,7 +21,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
+###       on 2024-11-06T14:24:24-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -329,11 +90,11 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
-    <static seed="5">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2">
       <statement><!-- PTX:WARNING: PGML wanted to center align here. -->
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-5-image-1"/>
-<p>For a right triangle if <m>\sin(\alpha)=\frac{{5}}{{10.2956}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" width="50%" pi:generated="webwork/images/webwork-2-image-1"/>
+<p>For a right triangle if <m>\sin(\alpha)=\frac{{4}}{{9.84886}}\text{,}</m> what is the length of the adjacent? <fillin name="AnSwEr0001" characters="4"/></p>
 </statement>
       <answer>
         <p>
@@ -345,7 +106,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
+###       on 2024-11-06T14:24:24-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -433,26 +194,26 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
-    <static seed="6">
-      <statement><p>If a triangle has a leg of length 6 and hypotenuse of length 9, what is the length of the other side and what are the measures of the angles?</p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3">
+      <statement><p>If a triangle has a leg of length 5 and hypotenuse of length 9, what is the length of the other side and what are the measures of the angles?</p>
 <p>Length of other leg: <fillin name="AnSwEr0001" characters="3"/></p>
-<p>Angle opposite side length 6: <fillin name="AnSwEr0002" characters="3"/></p>
+<p>Angle opposite side length 5: <fillin name="AnSwEr0002" characters="3"/></p>
 <p>Angle opposite other leg: <fillin name="AnSwEr0003" characters="3"/></p>
 </statement>
       <answer>
         <p>
-          <m>6.7082</m>
+          <m>7.48331</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\sin^{-1}\!\left(\frac{6}{9}\right)</m>
+          <m>\sin^{-1}\!\left(\frac{5}{9}\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\cos^{-1}\!\left(\frac{6}{9}\right)</m>
+          <m>\cos^{-1}\!\left(\frac{5}{9}\right)</m>
         </p>
       </answer>
     </static>
@@ -460,7 +221,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
+###       on 2024-11-06T14:24:24-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -532,8 +293,170 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
-    <static seed="7">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4">
+      <statement><p>If the two sides on the right angle have length <m>a={3}</m> and <m>b={6}\text{,}</m> what is the length of the hypotenuse? <m>c=</m><fillin name="AnSwEr0001" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6.7082</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMSw1LDEpKTsKJGIgPSBDb21wdXRlKCRhK3JhbmRvbSgxLDMsMSkpOwokYyA9IENvbXB1dGUoc3FydCgkYSoqMiskYioqMikpOwoKQkVHSU5fUEdNTApJZiB0aGUgdHdvIHNpZGVzIG9uIHRoZSByaWdodCBhbmdsZSBoYXZlIGxlbmd0aCBbYGE9WyRhXWBdIGFuZCBbYGI9WyRiXVx0ZXh0eyx9YF0gd2hhdCBpcyB0aGUgbGVuZ3RoIG9mIHRoZSBoeXBvdGVudXNlPyBbYGM9YF1bX117JGN9ezN9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2024-11-06T14:24:24-09:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.1.24)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(1,5,1));
+$b = Compute($a+random(1,3,1));
+$c = Compute(sqrt($a**2+$b**2));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+If the two sides on the right angle have length [`a=[$a]`] and [`b=[$b]\text{,}`] what is the length of the hypotenuse? [`c=`][_]{$c}{3}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5">
+      <statement><p>Can a triangle have one leg (side next to right angle) of length <m>a={6}</m> and hypotenuse (side opposite the right angle) with length <m>c={5}\text{?}</m> <var form="buttons" name="AnSwEr0001">
+<li>
+<p>Yes</p>
+</li>
+<li>
+<p>No</p>
+</li>
+</var></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{No}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VyUmFkaW9CdXR0b25zLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMyw5LDEpKTsKJGMgPSBDb21wdXRlKCRhLTEpOwokZXhwcmVzc2lvbnMgPSBSYWRpb0J1dHRvbnMoWyJZZXMiLCJObyJdLCAxKTsKCkJFR0lOX1BHTUwKQ2FuIGEgdHJpYW5nbGUgaGF2ZSBvbmUgbGVnIChzaWRlIG5leHQgdG8gcmlnaHQgYW5nbGUpIG9mIGxlbmd0aCBbYGE9WyRhXWBdIGFuZCBoeXBvdGVudXNlIChzaWRlIG9wcG9zaXRlIHRoZSByaWdodCBhbmdsZSkgd2l0aCBsZW5ndGggW2BjPVskY11cdGV4dHs/fWBdIFtfXXskZXhwcmVzc2lvbnN9ezV9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" domain="https://webwork.uaa.alaska.edu" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2024-11-06T14:24:24-09:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(7.1.25)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(3,9,1));
+$c = Compute($a-1);
+$expressions = RadioButtons(["Yes","No"], 1);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Can a triangle have one leg (side next to right angle) of length [`a=[$a]`] and hypotenuse (side opposite the right angle) with length [`c=[$c]\text{?}`] [_]{$expressions}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6">
       <statement><p>At a particular airport the angle of depression flown by aircraft following the PAPI (vertical guidance) is <m>3.05^\circ\text{.}</m> This leads to a point 1020 ft from the threshold of the runway. How high is the aircraft at the threshold? <fillin name="AnSwEr0001" characters="3"/></p>
 </statement>
       <answer>
@@ -546,7 +469,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
+###       on 2024-11-06T14:24:24-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -606,13 +529,13 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
-    <static seed="8">
-      <statement><p>A triangle has angles of measure <m>A={50}</m> and <m>B={60}\text{.}</m> The side opposite angle <m>A</m> has length 4. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7">
+      <statement><p>A triangle has angles of measure <m>A={45}</m> and <m>B={70}\text{.}</m> The side opposite angle <m>A</m> has length 6. What is the length of the side opposite angle <m>B\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
-          <m>\frac{\sin\!\left(60\right)}{\sin\!\left(50\right)}\cdot 4</m>
+          <m>\frac{\sin\!\left(70\right)}{\sin\!\left(45\right)}\cdot 6</m>
         </p>
       </answer>
     </static>
@@ -620,7 +543,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
+###       on 2024-11-06T14:24:24-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -685,9 +608,9 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
-    <static seed="9">
-      <statement><p>A triangle has sides of length <m>a={6}\text{,}</m> <m>b={7.71345}\text{,}</m> and <m>c={6}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8">
+      <statement><p>A triangle has sides of length <m>a={4}\text{,}</m> <m>b={4.52206}\text{,}</m> and <m>c={4.90673}\text{.}</m> What is the measure of the angle opposite the side of length <m>a\text{?}</m> <fillin name="AnSwEr0001" characters="5"/></p>
 </statement>
       <answer>
         <p>
@@ -699,7 +622,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
+###       on 2024-11-06T14:24:24-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -766,8 +689,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
-    <static seed="10">
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9">
       <statement><p>Consider a D which has frequency 293.66 Hz</p>
 <p>What is the period? <fillin name="AnSwEr0001" characters="10"/></p>
 <p>What is the wavelength? <fillin name="AnSwEr0002" characters="6"/></p>
@@ -798,7 +721,7 @@ T \amp \approx 0.0034053
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2024-11-05T13:57:23-09:00       
+###       on 2024-11-06T14:24:24-09:00       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

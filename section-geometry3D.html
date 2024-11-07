@@ -483,10 +483,12 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-side-and-angle-relations" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Side and Angle Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-angle-sum" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Angle Relationships in Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-6" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-inverse-trig" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-limitations-triangle-sides" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Limitations on Triangle Side Lengths</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-8" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -985,15 +987,12 @@ h &amp; = \sqrt{33.5537} \text{ Root maintains 3 sigfigs}\\
 \begin{align*}
 s &amp; = \frac{1}{2}(5+5+3)\\
 &amp; = \frac{13}{2}\\
-&amp; = 6+\frac{1}{2}\\
-TA &amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(6+\frac{1}{2}-3\right)\left(6+\frac{1}{2}-5\right)^2}\\
-&amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(3+\frac{1}{2}\right)\left(1+\frac{1}{2}\right)^2}\\
-&amp; = \sqrt{51+\frac{3}{16}}\\
-&amp; \approx 7.1545\\
-&amp; \approx 7+\frac{1}{8}
+&amp; = 6.5\\
+TA &amp; = \sqrt{\left(6.5\right)\left(6.5-3\right)\left(6.5-5\right)^2}\\
+&amp; = \sqrt{\left(6.5\right)\left(3.5\right)\left(1.5\right)^2}\\
+&amp; = \sqrt{51.1875}\\
+&amp; \approx 7.1545
 \end{align*}
-</div>
-<div class="para">To round we notice that 0.1545 is closer to <span class="process-math">\(1/8=0.125\)</span> than it is to <span class="process-math">\(2/8=0.25\text{.}\)</span>
 </div>
 </div>
 <div class="para logical" id="exercise-apply-geometry-birdhouse-5">
@@ -1003,7 +1002,7 @@ TA &amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(6+\frac{1}{2}-3\right)\left(6+\
 \frac{\pi}{4}(1)^2 = \frac{3.14159}{4} \approx 0.7853975
 \end{equation*}
 </div>
-<div class="para">The area of the front triangle is <span class="process-math">\(7.125-0.7853975 \approx 6.3396025 \approx 6+\frac{3}{8}\text{.}\)</span>
+<div class="para">The area of the front triangle is <span class="process-math">\(7.125-0.7853975 \approx 6.3396025\text{.}\)</span>
 </div>
 </div>
 <div class="para" id="exercise-apply-geometry-birdhouse-6">The bottom rectangle has area <span class="process-math">\(3 \cdot 10 = 30\)</span> square inches. The two sides both have area <span class="process-math">\(5 \cdot 10 = 50\)</span> square inches.</div>
@@ -1011,11 +1010,10 @@ TA &amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(6+\frac{1}{2}-3\right)\left(6+\
 <div class="para">Thus the total area is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-7.1545+6.3396025+2(50)+30 \approx 143.4960525 \approx 143+\frac{1}{2}\text{.}
+7.1545+6.3396025+2(50)+30 \approx 143.4960525 \approx 143.5\text{.}
 \end{equation*}
 </div>
-<div class="para">We round to 1/2 because 0.4960525 is closer to <span class="process-math">\(1/2=4/8\)</span> than to <span class="process-math">\(3/8\text{.}\)</span>
-</div>
+<div class="para">We round up because this is the safer estimate (better to have a little more than not enough for construction).</div>
 </div></article><article class="example example-like" id="example-apply-geometry-ice-cream"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.27</span><span class="period">.</span>
 </h4>
@@ -1098,7 +1096,7 @@ A_c &amp; = \pi(1.1875)\sqrt{6^2+(1.1875)^2}\\
 <div id="momsection-geometry3D-5-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-geometry3D-5-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=204370&amp;frame_id=momsection-geometry3D-5-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-geometry3D-5-12"><h4 class="heading">
 <span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless Volume.</span>
 </h4>
-<div id="momsection-geometry3D-5-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-geometry3D-5-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=260637&amp;frame_id=momsection-geometry3D-5-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-geometry3D-5-13"><h4 class="heading">
+<div id="momsection-geometry3D-5-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-geometry3D-5-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1485662&amp;frame_id=momsection-geometry3D-5-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-geometry3D-5-13"><h4 class="heading">
 <span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Volume Application.</span>
 </h4>
 <div id="momsection-geometry3D-5-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-geometry3D-5-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=901781&amp;frame_id=momsection-geometry3D-5-13-2"></iframe></div></article></section></section></div>

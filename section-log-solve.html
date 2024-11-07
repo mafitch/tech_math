@@ -483,10 +483,12 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-side-and-angle-relations" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Side and Angle Relationships</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-angle-sum" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Angle Relationships in Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-6" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-inverse-trig" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-limitations-triangle-sides" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Limitations on Triangle Side Lengths</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-8" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -548,7 +550,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="displaymath process-math" id="example-solve-exponential-algebra1-2-1">
 \begin{align*}
 6.0 &amp; = 10^{\frac{3}{2}(x+10.7)}.\\
-\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). &amp; \text{ log to undo exponential}\\
+\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). \text{ log to undo exponential}\\
 \log(6.0) &amp; = \frac{3}{2}(x+10.7).\\
 \frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo }\frac{3}{2} \cdot\\
 \frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo }+10.7 \cdot\\
@@ -792,7 +794,7 @@ x \ln(2) &amp; = kx.\\
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.15</span><span class="period">.</span>
 </h4>
 <article class="task exercise-like" id="example-pH-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-pH-1-1">Hydrochloric acid has a concentration of 0.0025. Find its pH.</div>
+<div class="para" id="example-pH-1-1">A solution of hydrochloric acid has a concentration of 0.0025. Find its pH.</div>
 <div class="para logical" id="example-pH-1-2"><div class="displaymath process-math" id="example-pH-1-2-1">
 \begin{align*}
 \text{pH} &amp; = -\log(0.0025)\\
@@ -811,8 +813,33 @@ x \ln(2) &amp; = kx.\\
 5.0 \times 10^{-6} &amp; \approx c
 \end{align*}
 </div>
-</div></article></article><article class="definition definition-like" id="definition-moment-magnitude"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">6.4.16</span><span class="period">.</span><span class="space"> </span><span class="title">Moment Magnitude.</span>
+</div></article></article><div class="para" id="subsection-exponential-applications-8">What is the purpose behind defining pH using a log? What does it do, that simply giving the concentration of <span class="process-math">\(H_3O^+\)</span> does not? The next example illustrates what the use of a log adds.</div>
+<article class="example example-like" id="example-ph-log"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.16</span><span class="period">.</span>
+</h4>
+<article class="task exercise-like" id="example-ph-log-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="example-ph-log-1-1-1">Calculate the concentration of <span class="process-math">\(H_3O^+\)</span> for pH levels of 5, 6, 7 (all within the range of human sweat).</div>
+<div class="solutions"><details id="example-ph-log-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-ph-log-1-2-1"><div class="displaymath process-math" id="example-ph-log-1-2-1-1">
+\begin{align*}
+5 &amp; = -\log(c_5).\\
+10^{-5} &amp; = c_5.\\
+6 &amp; = -\log(c_6).\\
+10^{-6} &amp; = c_6.\\
+7 &amp; = -\log(c_7).\\
+10^{-7} &amp; = c_7.
+\end{align*}
+</div></div></div></details></div></article><article class="task exercise-like" id="example-ph-log-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="example-ph-log-2-1-1">What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios <span class="process-math">\(c_5/c_6\text{,}\)</span> <span class="process-math">\(c_6/c_7\text{,}\)</span> and <span class="process-math">\(c_5/c_7\text{.}\)</span>
+</div>
+<div class="solutions"><details id="example-ph-log-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-ph-log-2-2-1"><div class="displaymath process-math" id="example-ph-log-2-2-1-1">
+\begin{align*}
+\frac{c_5}{c_6} &amp; \frac{10^{-5}}{10^{-6}} = 10.\\
+\frac{c_6}{c_7} &amp; \frac{10^{-6}}{10^{-7}} = 10.\\
+\frac{c_5}{c_7} &amp; \frac{10^{-5}}{10^{-7}} = 100.
+\end{align*}
+</div></div></div></details></div></article></article><div class="para" id="subsection-exponential-applications-10">We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is <span class="process-math">\(10^2=100\)</span> times as strong. The log scale gives us growth as a ratio.</div>
+<article class="definition definition-like" id="definition-moment-magnitude"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">6.4.17</span><span class="period">.</span><span class="space"> </span><span class="title">Moment Magnitude.</span>
 </h4>
 <div class="para logical" id="definition-moment-magnitude-2">
 <div class="para">Larger earthquakes today are measured and reported using the <dfn class="terminology">moment magnitude</dfn> scale. This is calculated via</div>
@@ -823,7 +850,7 @@ M_w = \frac{2}{3}\log(M_0)-10.7
 </div>
 <div class="para">where <span class="process-math">\(M_w\)</span> is the moment magnitude, and <span class="process-math">\(M_0\)</span> is the seismic moment in Newtons per meter (a measure of energy).</div>
 </div></article><article class="example example-like" id="example-moment-magnitude"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.17</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.18</span><span class="period">.</span>
 </h4>
 <article class="task exercise-like" id="example-moment-magnitude-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-moment-magnitude-1-1-1">Based on seismic readings <span class="process-math">\(M_0 = 7.2 \times 10^{22}\text{.}\)</span> What was the moment magnitude?</div>
@@ -848,7 +875,7 @@ M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})\\
 5.01 \times 10^{26} &amp; \approx M_0
 \end{align*}
 </div>
-</div></div></details></div></article></article></section><section class="exercises" id="section-log-solve-6"><h3 class="heading hide-type">
+</div></div></details></div></article></article><div class="para" id="subsection-exponential-applications-13">Just as with pH, the moment magnitude seismic scale enables us to compare how much stronger one earthquake is than another. The 2/3 means that a change of 1 is not  10 times as strong but a different ratio. Can you figure out what that ratio is?</div></section><section class="exercises" id="section-log-solve-6"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">6.4.4</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <div class="exercisegroup" id="section-log-solve-6-1">
