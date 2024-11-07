@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1767">
 <statement>
 <p>
-A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={400}{e}^{{{0.2}{t}}}</m>.  Estimate when the population will exceed 1722.</p>
+A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={1000}{e}^{{{0.13}{t}}}</m>.  Estimate when the population will exceed 2153.</p>
 <p>
 <em>t</em>= <fillin characters="20" />   </p>
 <p>
@@ -10,17 +10,17 @@ Give your answer accurate to one decimal place.
 </p>
 </statement>
 <solution>
-<p><ul><li>7.2988856893985</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={400}{e}^{{{0.2}{t}}}</m></p>
+<p><ul><li>5.8989401414017</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={1000}{e}^{{{0.13}{t}}}</m></p>
 <p>
-<m>\displaystyle{1722}={400}{e}^{{{0.2}{t}}}</m></p>
+<m>\displaystyle{2153}={1000}{e}^{{{0.13}{t}}}</m></p>
 <p>
-<m>\displaystyle\frac{{1722}}{{400}}={e}^{{{0.2}{t}}}</m></p>
+<m>\displaystyle\frac{{2153}}{{1000}}={e}^{{{0.13}{t}}}</m></p>
 <p>
-<m>\displaystyle{\ln{{\left(\frac{{1722}}{{400}}\right)}}}={0.2}{t}</m></p>
+<m>\displaystyle{\ln{{\left(\frac{{2153}}{{1000}}\right)}}}={0.13}{t}</m></p>
 <p>
-<m>\displaystyle\frac{{\ln{{\left(\frac{{1722}}{{400}}\right)}}}}{{0.2}}={t}</m></p>
+<m>\displaystyle\frac{{\ln{{\left(\frac{{2153}}{{1000}}\right)}}}}{{0.13}}={t}</m></p>
 <p>
-<m>\displaystyle{t}={7.2988856893985}</m></p>
+<m>\displaystyle{t}={5.8989401414017}</m></p>
 </solution>
 </myopenmath>
 

@@ -32,7 +32,7 @@
         <p>Order of operations dictates the following
         <md>
             <mrow>6.0 &amp; = 10^{\frac{3}{2}(x+10.7)}.</mrow>
-            <mrow>\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). &amp; \text{ log to undo exponential}</mrow>
+            <mrow>\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). \text{ log to undo exponential}</mrow>
             <mrow>\log(6.0) &amp; = \frac{3}{2}(x+10.7).</mrow>
             <mrow>\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo }\frac{3}{2} \cdot</mrow>
             <mrow>\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo }+10.7 \cdot</mrow>
@@ -258,7 +258,7 @@
 
     <example xml:id="example-pH">
         <task>
-            <p>Hydrochloric acid has a concentration of 0.0025. Find its pH.</p>
+            <p>A solution of hydrochloric acid has a concentration of 0.0025. Find its pH.</p>
             <p><md>
                     <mrow>\text{pH} &amp; = -\log(0.0025)</mrow>
                     <mrow> &amp; \approx 2.6.</mrow>
@@ -277,6 +277,34 @@
             </p>
         </task>
     </example>
+
+    <p>What is the purpose behind defining pH using a log? What does it do, that simply giving the concentration of <m>H_3O^+</m> does not? The next example illustrates what the use of a log adds.</p>
+
+    <example xml:id="example-ph-log">
+        <task>
+            <statement><p>Calculate the concentration of <m>H_3O^+</m> for pH levels of 5, 6, 7 (all within the range of human sweat).</p></statement>
+            <solution><p>
+                <md>
+                    <mrow>5 &amp; = -\log(c_5).</mrow>
+                    <mrow>10^{-5} &amp; = c_5.</mrow>
+                    <mrow>6 &amp; = -\log(c_6).</mrow>
+                    <mrow>10^{-6} &amp; = c_6.</mrow>
+                    <mrow>7 &amp; = -\log(c_7).</mrow>
+                    <mrow>10^{-7} &amp; = c_7.</mrow>
+                </md>
+            </p></solution>
+        </task>
+        <task>
+            <statement><p>What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios <m>c_5/c_6</m>, <m>c_6/c_7</m>, and <m>c_5/c_7</m>.</p></statement>
+            <solution><p><md>
+                <mrow>\frac{c_5}{c_6} &amp; \frac{10^{-5}}{10^{-6}} = 10.</mrow>
+                <mrow>\frac{c_6}{c_7} &amp; \frac{10^{-6}}{10^{-7}} = 10.</mrow>
+                <mrow>\frac{c_5}{c_7} &amp; \frac{10^{-5}}{10^{-7}} = 100.</mrow>
+            </md></p></solution>
+        </task>
+    </example>
+
+    <p>We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is <m>10^2=100</m> times as strong. The log scale gives us growth as a ratio.</p>
 
     <definition xml:id="definition-moment-magnitude">
         <title>Moment Magnitude</title>
@@ -304,6 +332,8 @@
             </md></p></solution>
         </task>
     </example>
+
+    <p>Just as with pH, the moment magnitude seismic scale enables us to compare how much stronger one earthquake is than another. The 2/3 means that a change of 1 is not  10 times as strong but a different ratio. Can you figure out what that ratio is?</p>
 
 </subsection>
 

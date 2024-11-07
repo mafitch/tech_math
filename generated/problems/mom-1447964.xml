@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1447964">
 <statement>
-<p>A cheesecake recipe calls for 150 g of eggs and 750 g of cream cheese. If you currently have 250 g of eggs and 1512 g of cream cheese, determine which ingredient is the limiting one (will use all of it) and the amount of each you will use.</p>
+<p>A cheesecake recipe calls for 150 g of eggs and 750 g of cream cheese. If you currently have 300 g of eggs and 1512 g of cream cheese, determine which ingredient is the limiting one (will use all of it) and the amount of each you will use.</p>
 <p>Limiting ingredient: </p>
-<p><ol style="list-style-type:upper-alpha"><li>eggs</li> 
-<li>cream cheese</li> 
+<p><ol style="list-style-type:upper-alpha"><li>cream cheese</li> 
+<li>eggs</li> 
 </ol></p>
 <p>Eggs: <fillin characters="6" /> g  Cream cheese: <fillin characters="6" /> g</p>
 
 </statement>
 <solution>
-<p><ul><li>A: eggs</li><li>250</li><li>7560</li></ul></p><p>To determine which ingredient limits us, we compare the ratios <m>\displaystyle\frac{{250}}{{1512}}={0.16534391534392}</m> to the recipe's ratio of <m>\displaystyle\frac{{1}}{{5}}={0.2}</m>. Because the ratio is less than 0.2, we know that the eggs is the limiting ingredient.</p>
-<p>Now we setup the proportion <m>\displaystyle\frac{{5}}{{1}}=\frac{{C}}{{250}}</m></p>
+<p><ul><li>B: eggs</li><li>300</li><li>7560</li></ul></p><p>To determine which ingredient limits us, we compare the ratios <m>\displaystyle\frac{{300}}{{1512}}={0.1984126984127}</m> to the recipe's ratio of <m>\displaystyle\frac{{1}}{{5}}={0.2}</m>. Because the ratio is less than 0.2, we know that the eggs is the limiting ingredient.</p>
+<p>Now we setup the proportion <m>\displaystyle\frac{{5}}{{1}}=\frac{{C}}{{300}}</m></p>
 <p>Solving gives us 7560 g of cream cheese</p>
 </solution>
 </myopenmath>

@@ -459,16 +459,15 @@
         <md>
             <mrow>s &amp; = \frac{1}{2}(5+5+3)</mrow>
             <mrow> &amp; = \frac{13}{2}</mrow>
-            <mrow> &amp; = 6+\frac{1}{2}</mrow>
-            <mrow>TA &amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(6+\frac{1}{2}-3\right)\left(6+\frac{1}{2}-5\right)^2}</mrow>
-            <mrow> &amp; = \sqrt{\left(6+\frac{1}{2}\right)\left(3+\frac{1}{2}\right)\left(1+\frac{1}{2}\right)^2}</mrow>
-            <mrow> &amp; = \sqrt{51+\frac{3}{16}}</mrow>
+            <mrow> &amp; = 6.5</mrow>
+            <mrow>TA &amp; = \sqrt{\left(6.5\right)\left(6.5-3\right)\left(6.5-5\right)^2}</mrow>
+            <mrow> &amp; = \sqrt{\left(6.5\right)\left(3.5\right)\left(1.5\right)^2}</mrow>
+            <mrow> &amp; = \sqrt{51.1875}</mrow>
             <mrow> &amp; \approx 7.1545</mrow>
-            <mrow> &amp; \approx 7+\frac{1}{8}</mrow>
-        </md> To round we notice that 0.1545 is closer to <m>1/8=0.125</m> than it is to <m>2/8=0.25</m>.</p>
-        <p>For the hole we know the diameter so we use the area formula <m>\frac{\pi}{4}d^2</m>. This hole has area <me>\frac{\pi}{4}(1)^2 = \frac{3.14159}{4} \approx 0.7853975</me> The area of the front triangle is <m>7.125-0.7853975 \approx 6.3396025 \approx 6+\frac{3}{8}</m>.</p>
+        </md> </p>
+        <p>For the hole we know the diameter so we use the area formula <m>\frac{\pi}{4}d^2</m>. This hole has area <me>\frac{\pi}{4}(1)^2 = \frac{3.14159}{4} \approx 0.7853975</me> The area of the front triangle is <m>7.125-0.7853975 \approx 6.3396025</m>.</p>
         <p>The bottom rectangle has area <m>3 \cdot 10 = 30</m> square inches. The two sides both have area <m>5 \cdot 10 = 50</m> square inches.</p>
-        <p>Thus the total area is <me>7.1545+6.3396025+2(50)+30 \approx 143.4960525 \approx 143+\frac{1}{2}</me>. We round to 1/2 because 0.4960525 is closer to <m>1/2=4/8</m> than to <m>3/8</m>.</p>
+        <p>Thus the total area is <me>7.1545+6.3396025+2(50)+30 \approx 143.4960525 \approx 143.5</me>. We round up because this is the safer estimate (better to have a little more than not enough for construction).</p>
     </example>
 
     <example xml:id="example-apply-geometry-ice-cream">
@@ -567,7 +566,7 @@
 
     <exercise>
         <title>Contextless Volume</title>
-        <myopenmath problem="260637" />
+        <myopenmath problem="1485662" />
     </exercise>
 
     <exercise>
