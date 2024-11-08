@@ -28,3 +28,33 @@
                 <p>For a right triangle if <m>\sin(\alpha)=\frac{<var name="$a" />}{<var name="$c" />}</m>, what is the length of the adjacent? <var name="$b" width="4" /></p>
             </statement>
         </webwork> -->
+
+
+    <exercise xml:id="exercise-pyth-find-hyp">
+        <webwork>
+            <pg-code>
+                Context("LimitedNumeric");
+                $a = Compute(random(1,5,1));
+                $b = Compute($a+random(1,3,1));
+                $c = Compute(sqrt($a**2+$b**2));
+            </pg-code>
+            <statement>
+                <p>If the two sides on the right angle have length <m>a=<var name="$a"/></m> and <m>b=<var name="$b"/></m>, what is the length of the hypotenuse? <m>c=</m><var name="$c" width="3"/></p>
+            </statement>
+        </webwork>
+    </exercise>
+
+    <exercise xml:id="exercise-triangle-inequality1">
+        <webwork>
+            <pg-code>
+                Context("LimitedNumeric");
+                $a = Compute(random(3,9,1));
+                $c = Compute($a-1);
+                $expressions = RadioButtons(["Yes","No"], 1);
+            </pg-code>
+            <statement>
+                <p>Can a triangle have one leg (side next to right angle) of length <m>a=<var name="$a"/></m> and hypotenuse (side opposite the right angle) with length <m>c=<var name="$c"/></m>? <var name="$expressions" form="buttons"/></p>
+            </statement>
+        </webwork>
+    </exercise>
+

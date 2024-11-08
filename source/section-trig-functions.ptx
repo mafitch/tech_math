@@ -122,51 +122,6 @@
         </task>
     </example>
 
-    <p>Defining the trigonometric functions via ratios implies something about triangle side lengths. Namely, if one side grows the others must grow by the same amount.</p>
-
-    <example xml:id="example-trig-ratio-scale1">
-        <p>Consider a right triangle with side lengths 8, 15, and 17. If <m>A</m> is the angle across (opposite) from the side of length 8, then <m>\sin(A)=\frac{8}{17}</m>.</p>
-        <p>Next consider a right triangle with side lengths 16, 30, and 34. If <m>A^\prime</m> is the angle across from 16, then <m>\sin(A^\prime)=\frac{16}{34}=\frac{8}{17}</m>. This is the same ratio as the previous triangle although the triangle is larger (double in each side length).</p>
-    </example>
-
-    <example xml:id="example-trig-ratio-scale2">
-        <p>Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?</p>
-        <p>If <m>A</m> is the angle across (opposite) from the side of length 8 in the original triangle, then <m>\sin(A)=\frac{8}{17}</m>. Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as <m>A</m>, call it <m>A^\prime</m>. Putting these together gives us the following.
-        <md>
-            <mrow>\sin(A) &amp; = \sin(A^\prime).</mrow>
-            <mrow>\frac{8}{17} &amp; = \frac{40}{h}.</mrow>
-            <mrow>h &amp; = \frac{40 \cdot 17}{8}</mrow>
-            <mrow> &amp; = 85</mrow>
-            <mrow> &amp; = 17 \cdot 5.</mrow>
-        </md> The last line is included to see how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length <m>15 \cdot 5 = 75</m>.</p>
-    </example>
-
-    <p>Another way to look at this is to consider similar triangles (<xref ref="subsection-proportion-similar" />). If two triangles are similar, the ratios of their sides are the same. Trig functions are ratios of side lengths of right triangles, so if two right triangles have the same angles (are similar) they also have the same values for the trig functions.</p>
-
-    <p>The following activity illustrates how the three main trigonometric functions relate to angles. It connects trig function values to geometric reasons.</p>
-
-    <activity xml:id="activity-angle-side-relation">
-        <introduction><p>The following steps show us that it makes sense to define ratios of side lengths of right triangles. Use the activity in <xref ref="figure-trig-truth"/></p></introduction>
-        <task xml:id="activity-angle-side-opposite"><p>Use the slider for <m>\alpha</m> to increase the angle from <m>0^\circ</m> to <m>90^\circ</m>. As the angle increases what does the length of the opposite side (j) do?</p></task>
-        <task xml:id="activity-angle-side-adjacent"><p>Use the slider for <m>\alpha</m> to increase the angle from <m>0^\circ</m> to <m>90^\circ</m>. As the angle increases what does the length of the adjacent side (j) do?</p></task>
-        <task><p>Note that the hypotenuse does not change in this example. Based on your result in <xref ref="activity-angle-side-opposite" />, as the angle <m>\alpha</m> increases what will the ratio of opposite to hypotenuse (j/g) do?</p></task>
-        <task><p>Note that the hypotenuse does not change in this example. Based on your result in <xref ref="activity-angle-side-adjacent" />, as the angle <m>\alpha</m> increases what will the ratio of adjacent to hypotenuse (i/g) do?</p></task>
-        <task><p>Based on your result in <xref ref="activity-angle-side-opposite" /> and <xref ref="activity-angle-side-adjacent" />, as the angle <m>\alpha</m> increases what will the ratio of opposite to adjacent (j/i) do?</p></task>
-    </activity>
-
-    <figure xml:id="figure-trig-truth">
-        <caption>Sides vs Angles</caption>
-        <interactive platform="geogebra" width="85%" aspect="4:3" preview="images/TriangleSideRatios.png">
-            <slate xml:id="sideratios" surface="geogebra" material="nzb5gsa2" aspect="4:3">
-                setCoordSystem(-0.5, 5, -1, 7);
-                enableShiftDragZoom(true);
-            </slate>
-            <instructions>
-                <p>Use the slider to adjust the angle and see how the side lengths and their ratio change.</p>
-            </instructions>
-         </interactive>
-    </figure>
-
 </subsection>
 
 <subsection xml:id="subsection-inverse-trig">
@@ -346,37 +301,76 @@
 <subsection xml:id="subsection-limitations-triangle-sides">
     <title>Limitations on Triangle Side Lengths</title>
 
+    <p>We should always check that results of calculations make sense. This section presents limitations on triangles we can use for these reality checks.</p>
+
+    <p>It is possible to define the trigonometric functions as ratios of sides, because there is a connection between how big an angle is, and how big the side across from it must be. The following activity illustrates how the three main trigonometric functions change as the angle increases or decreases because of this connection between angle measure and length of sides.</p>
+
+    <activity xml:id="activity-angle-side-relation">
+        <introduction><p>This activity has two steps. First notice the relationship between the how big an angle is and how long the side opposite that angle is. Second notice how the trig functions change as a result of this first fact.  Use the activity in <xref ref="figure-trig-truth"/></p></introduction>
+        <task xml:id="activity-angle-side-opposite"><p>Use the slider for <m>\alpha</m> to increase the angle from <m>0^\circ</m> to <m>90^\circ</m>. As the angle increases what does the length of the opposite side (j) do?</p></task>
+        <task xml:id="activity-angle-side-adjacent"><p>Use the slider for <m>\alpha</m> to increase the angle from <m>0^\circ</m> to <m>90^\circ</m>. As the angle increases what does the length of the adjacent side (j) do?</p></task>
+        <task><p>Note that the hypotenuse does not change in this example. Based on your result in <xref ref="activity-angle-side-opposite" />, as the angle <m>\alpha</m> increases what will the ratio of opposite to hypotenuse (j/g) do?</p></task>
+        <task><p>Note that the hypotenuse does not change in this example. Based on your result in <xref ref="activity-angle-side-adjacent" />, as the angle <m>\alpha</m> increases what will the ratio of adjacent to hypotenuse (i/g) do?</p></task>
+        <task><p>Based on your result in <xref ref="activity-angle-side-opposite" /> and <xref ref="activity-angle-side-adjacent" />, as the angle <m>\alpha</m> increases what will the ratio of opposite to adjacent (j/i) do?</p></task>
+    </activity>
+
+    <figure xml:id="figure-trig-truth">
+        <caption>Sides vs Angles</caption>
+        <interactive platform="geogebra" width="85%" aspect="4:3" preview="images/TriangleSideRatios.png">
+            <slate xml:id="sideratios" surface="geogebra" material="nzb5gsa2" aspect="4:3">
+                setCoordSystem(-0.5, 5, -1, 7);
+                enableShiftDragZoom(true);
+            </slate>
+            <instructions>
+                <p>Use the slider to adjust the angle and see how the side lengths and their ratio change.</p>
+            </instructions>
+         </interactive>
+    </figure>
+
+    <p>While angle size and triangle side length is connected, we can always scale a triangle (e.g., make it twice as large) without changing the angles and hence not changing the trig function values. This is why the trig functions are defined as ratios: the scale is divided out.</p>
+
+    <p>Another way to look at this is to recall similar triangles (<xref ref="subsection-proportion-similar" />). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.</p>
+
+    <example xml:id="example-trig-ratio-scale1">
+        <p>Consider a right triangle with side lengths 8, 15, and 17. If <m>A</m> is the angle across (opposite) from the side of length 8, then <m>\sin(A)=\frac{8}{17}</m>.</p>
+        <p>Next consider a right triangle with side lengths 16, 30, and 34. If <m>A^\prime</m> is the angle across from 16, then <m>\sin(A^\prime)=\frac{16}{34}=\frac{8}{17}</m>. This is the same ratio as the previous triangle although the triangle is larger (double in each side length).</p>
+    </example>
+
+    <example xml:id="example-trig-ratio-scale2">
+        <p>Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?</p>
+        <p>If <m>A</m> is the angle across (opposite) from the side of length 8 in the original triangle, then <m>\sin(A)=\frac{8}{17}</m>. Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as <m>A</m>, call it <m>A^\prime</m>. Putting these together gives us the following.
+        <md>
+            <mrow>\sin(A) &amp; = \sin(A^\prime).</mrow>
+            <mrow>\frac{8}{17} &amp; = \frac{40}{h}.</mrow>
+            <mrow>h &amp; = \frac{40 \cdot 17}{8}</mrow>
+            <mrow> &amp; = 85</mrow>
+            <mrow> &amp; = 17 \cdot 5.</mrow>
+        </md> The last line is included to see how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length <m>15 \cdot 5 = 75</m>.</p>
+    </example>
+
     <p>The <xref ref="theorem-pythagorean" /> tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.</p>
 
-    <p>Play (geogebra) with side lengths and see how hypotenuse length changes. Ask (2nd exercise below). Ask what the limitation on hypotenuse is.</p>
-
-    <exercise xml:id="exercise-pyth-find-hyp">
-        <webwork>
-            <pg-code>
-                Context("LimitedNumeric");
-                $a = Compute(random(1,5,1));
-                $b = Compute($a+random(1,3,1));
-                $c = Compute(sqrt($a**2+$b**2));
-            </pg-code>
-            <statement>
-                <p>If the two sides on the right angle have length <m>a=<var name="$a"/></m> and <m>b=<var name="$b"/></m>, what is the length of the hypotenuse? <m>c=</m><var name="$c" width="3"/></p>
-            </statement>
-        </webwork>
-    </exercise>
-
-    <exercise xml:id="exercise-triangle-inequality1">
-        <webwork>
-            <pg-code>
-                Context("LimitedNumeric");
-                $a = Compute(random(3,9,1));
-                $c = Compute($a-1);
-                $expressions = RadioButtons(["Yes","No"], 1);
-            </pg-code>
-            <statement>
-                <p>Can a triangle have one leg (side next to right angle) of length <m>a=<var name="$a"/></m> and hypotenuse (side opposite the right angle) with length <m>c=<var name="$c"/></m>? <var name="$expressions" form="buttons"/></p>
-            </statement>
-        </webwork>
-    </exercise>
+    <activity xml:id="activity-discover-minimum-hyp-length">
+        <title>Considering the Shortest Hypotenuse</title>
+        <introduction>
+            <p>By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.</p>
+        </introduction>
+        <task>
+            <p>For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?</p>
+        </task>
+        <task>
+            <p>For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?</p>
+        </task>
+        <task>
+            <p>For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?</p>
+        </task>
+        <task>
+            <p>For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?</p>
+        </task>
+        <task>
+            <p>For a right triangle with the longest leg of length 4, how small can the hypotenuse become?</p>
+        </task>
+    </activity>
 
 </subsection>
 
