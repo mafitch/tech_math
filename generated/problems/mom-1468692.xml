@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle{6}{x}+{y}=-{51}</m> </p>
+<p><m>\displaystyle{7}{x}-{y}=-{37}</m> </p>
 <p>
-  <m>\displaystyle-{4}{x}-{y}={35}</m></p>
+  <m>\displaystyle-{9}{x}+{5}{y}={29}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{8},-{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle{6}{x}+{1}{y}=-{51}</m></p>
-<p><m>\displaystyle{6}{x}=-{51}-{\left({1}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{51}-{\left({1}{y}\right)}}}{{6}}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{6},-{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{7}{x}+-{1}{y}=-{37}</m></p>
+<p><m>\displaystyle{7}{x}=-{37}-{\left(-{1}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{37}-{\left(-{1}{y}\right)}}}{{7}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle-{4}{\left(\frac{{-{51}-{\left({1}{y}\right)}}}{{6}}\right)}+-{1}{y}={35}</m></p>
-<p><m>\displaystyle-\frac{{4}}{{6}}\cdot{\left(-{51}\right)}--\frac{{4}}{{6}}{\left({1}\right)}{y}+-{1}{y}={35}</m></p>
-<p><m>\displaystyle{34}-{\left({0.66666666666667}\right)}{y}+-{1}{y}={35}</m></p>
-<p><m>\displaystyle{0.66666666666667}{y}+{\left(-{1}\right)}{y}={35}-{34}</m></p>
-<p><m>\displaystyle{0.66666666666667}{y}+{\left(-{1}\right)}{y}={1}</m></p>
-<p><m>\displaystyle{\left({0.66666666666667}+{\left(-{1}\right)}\right)}{y}={1}</m></p>
-<p><m>\displaystyle-{0.33333333333333}{y}={1}</m></p>
-<p><m>\displaystyle{y}=\frac{{1}}{{-{{0.33333333333333}}}}</m></p>
-<p><m>\displaystyle{y}=-{3}</m></p>
+<p><m>\displaystyle-{9}{\left(\frac{{-{37}-{\left(-{1}{y}\right)}}}{{7}}\right)}+{5}{y}={29}</m></p>
+<p><m>\displaystyle-\frac{{9}}{{7}}\cdot{\left(-{37}\right)}--\frac{{9}}{{7}}{\left(-{1}\right)}{y}+{5}{y}={29}</m></p>
+<p><m>\displaystyle{47.571428571429}-{\left(-{1.2857142857143}\right)}{y}+{5}{y}={29}</m></p>
+<p><m>\displaystyle-{1.2857142857143}{y}+{\left({5}\right)}{y}={29}-{47.571428571429}</m></p>
+<p><m>\displaystyle-{1.2857142857143}{y}+{\left({5}\right)}{y}=-{18.571428571429}</m></p>
+<p><m>\displaystyle{\left(-{1.2857142857143}+{\left({5}\right)}\right)}{y}=-{18.571428571429}</m></p>
+<p><m>\displaystyle{3.7142857142857}{y}=-{18.571428571429}</m></p>
+<p><m>\displaystyle{y}=-\frac{{18.571428571429}}{{3.7142857142857}}</m></p>
+<p><m>\displaystyle{y}=-{5}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{6}{x}+{1}{\left(-{3}\right)}=-{51}</m></p>
-<p><m>\displaystyle{6}{x}+{\left(-{3}\right)}=-{51}</m></p>
-<p><m>\displaystyle{6}{x}=-{51}-{\left(-{3}\right)}</m></p>
-<p><m>\displaystyle{6}{x}=-{48}</m></p>
-<p><m>\displaystyle{x}=-\frac{{48}}{{6}}</m></p>
-<p><m>\displaystyle{x}=-{8}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{8},-{3}\right)}</m>.</p>
+<p><m>\displaystyle{7}{x}+-{1}{\left(-{5}\right)}=-{37}</m></p>
+<p><m>\displaystyle{7}{x}+{\left({5}\right)}=-{37}</m></p>
+<p><m>\displaystyle{7}{x}=-{37}-{\left({5}\right)}</m></p>
+<p><m>\displaystyle{7}{x}=-{42}</m></p>
+<p><m>\displaystyle{x}=-\frac{{42}}{{7}}</m></p>
+<p><m>\displaystyle{x}=-{6}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{6},-{5}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
