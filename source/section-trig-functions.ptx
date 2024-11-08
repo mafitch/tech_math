@@ -33,17 +33,17 @@
         <p>If two angles of a triangle are <m>40^\circ</m> and <m>70^\circ</m> what is the other angle?</p>
         <p>The third angle must satisfy
         <md>
-            <mrow>40+70+\theta &amp; = 180.</mrow>
-            <mrow>\theta &amp; = 70.</mrow>
+            <mrow>40^\circ+70^\circ+\theta &amp; = 180^\circ.</mrow>
+            <mrow>\theta &amp; = 70^\circ.</mrow>
         </md></p>
      </example>
 
      <example xml:id="example-angle-sum1">
         <statement><p>If one angle of a right triangle is <m>55^\circ</m> what is the other angle?</p></statement>
-        <solution><p>We know one angle is <m>90^\circ</m> (right angle) and another is <m>55^\circ</m>. Thus the third angle must satisfy
+        <solution><p>We know the measure of one angle is <m>90^\circ</m> (right angle) and the measure of another angle is <m>55^\circ</m>. Thus the third angle must satisfy
         <md>
-            <mrow>90+55+\theta &amp; = 180.</mrow>
-            <mrow>\theta &amp; = 35.</mrow>
+            <mrow>90^\circ+55^\circ+\theta &amp; = 180^\circ.</mrow>
+            <mrow>\theta &amp; = 35^\circ.</mrow>
         </md></p></solution>
      </example>
 
@@ -62,7 +62,7 @@
         <myopenmath problem="1485717" />
     </exercise>
 
-    <p>Note that in a right triangle the other two angles have measure less than a right angle. This is a result of <xref ref="theorem-triangle-angle-sum"/>. Consider that <m>180^\circ-90^\circ=90^\circ</m> so the remaining two angles have a sum that adds to <m>90^\circ</m> implying both are smaller.</p>
+    <p>For a right triangle each of the other two angles have measure less than a right angle. This is a result of <xref ref="theorem-triangle-angle-sum"/>. Consider that <m>180^\circ-90^\circ=90^\circ</m> so the remaining two angles have a sum that adds to <m>90^\circ</m>. This implies both are smaller.</p>
 
 </subsection>
 
@@ -71,7 +71,7 @@
 
     <p>This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.</p>
 
-    <p>For right triangles we have names for the sides. Consider the labels in <xref ref="figure-triangle-side-names" />. These names are relative to whichever of the two non-right angles we are working. In this case it is the one labeled <m>\alpha</m>. The <term>adjacent</term> is the side that connects the angle <m>\alpha</m> and the right angle. The <term>opposite</term> is the side touching the right angle but not touching the angle (<m>\alpha</m>). Both the adjacent and opposite sides are known as <term>legs</term> of the right triangle. The <term>hypotenuse</term> is opposite the right angle (the one side not touching it).</p>
+    <p>For right triangles we have names for the sides. Consider the labels in <xref ref="figure-triangle-side-names" />. These names are relative to the particular non-right angles with which we are working. In this case it is the one labeled <m>\alpha</m>. The <term>adjacent</term> is the side that connects the angle <m>\alpha</m> and the right angle. The <term>opposite</term> is the side touching the right angle but not touching the angle (<m>\alpha</m>). Both the adjacent and opposite sides are known as <term>legs</term> of the right triangle. The <term>hypotenuse</term> is opposite the right angle (the one side not touching it).</p>
 
     <figure xml:id="figure-triangle-side-names">
         <caption>Right Triangle Terminology</caption>
@@ -83,7 +83,7 @@
         <p>With respect to the angle <m>\theta</m> the adjacent side is the one with length 3, and the opposite side is the one with length 5. </p>
     </example>
 
-    <p>The trigonometric functions are defined here as ratios of side lengths. These are listed below.</p>
+    <p>The trigonometric functions are defined below as ratios of side lengths. We will use only the first three in this text.</p>
 
     <table xml:id="table-trig-functions">
         <title>Trig Functions as Ratios</title>
@@ -106,11 +106,11 @@
         <introduction><p>Given the side lengths in <xref ref="figure-trig-function-read" /> what are each of the following trig ratios?</p></introduction>
         <task>
             <p><m>\sin(\alpha)=</m></p>
-            <p>From the perspective of <m>\alpha</m>, the side of length 3 is opposite. The hypotenuse has length <m>\sqrt{34}</m>. Thus <me>\sin(\alpha) = \frac{3}{\sqrt{34}}</me></p>
+            <p>From the perspective of <m>\alpha</m>, the opposite side has length 3. The hypotenuse has length <m>\sqrt{34}</m>. Thus <me>\sin(\alpha) = \frac{3}{\sqrt{34}}</me></p>
         </task>
         <task>
             <p><m>\cos(\alpha)=</m></p>
-            <p>From the perspective of <m>\alpha</m>, the side of length 5 is adjacent. The hypotenuse has length <m>\sqrt{34}</m>. Thus <me>\cos(\alpha) = \frac{5}{\sqrt{34}}</me></p>
+            <p>From the perspective of <m>\alpha</m>, the adjacent side has length 5. The hypotenuse has length <m>\sqrt{34}</m>. Thus <me>\cos(\alpha) = \frac{5}{\sqrt{34}}</me></p>
         </task>
         <task>
             <p><m>\sec(\alpha)=</m></p>
@@ -118,20 +118,20 @@
         </task>
         <task>
             <p><m>\sin(\theta)=</m></p>
-            <p>From the perspective of <m>\theta</m>, the side of length 5 is opposite. The hypotenuse has length <m>\sqrt{34}</m>. Thus <me>\sin(\theta) = \frac{5}{\sqrt{34}}</me></p>
+            <p>From the perspective of <m>\theta</m>, the opposite side has length 5. The hypotenuse has length <m>\sqrt{34}</m>. Thus <me>\sin(\theta) = \frac{5}{\sqrt{34}}</me></p>
         </task>
     </example>
 
     <p>Defining the trigonometric functions via ratios implies something about triangle side lengths. Namely, if one side grows the others must grow by the same amount.</p>
 
     <example xml:id="example-trig-ratio-scale1">
-        <p>Consider a right triangle with side lengths 8, 15, and 17. If <m>A</m> is the angle across from 8, then <m>\sin(A)=\frac{8}{17}</m>.</p>
-        <p>Next consider a right triangle with side lengths 16, 30, and 34. If <m>A</m> is the angle across from 16, then <m>\sin(A)=\frac{16}{34}=\frac{8}{17}</m>. This is the same ratio as the previous triangle although the triangle is larger (double in each side length).</p>
+        <p>Consider a right triangle with side lengths 8, 15, and 17. If <m>A</m> is the angle across (opposite) from the side of length 8, then <m>\sin(A)=\frac{8}{17}</m>.</p>
+        <p>Next consider a right triangle with side lengths 16, 30, and 34. If <m>A^\prime</m> is the angle across from 16, then <m>\sin(A^\prime)=\frac{16}{34}=\frac{8}{17}</m>. This is the same ratio as the previous triangle although the triangle is larger (double in each side length).</p>
     </example>
 
     <example xml:id="example-trig-ratio-scale2">
-        <p>Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths.?</p>
-        <p>If <m>A</m> is the angle across from 8 in the original triangle, then <m>\sin(A)=\frac{8}{17}</m>. Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as <m>A</m>, we will call it <m>A^\prime</m>. Putting these together gives us the following.
+        <p>Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?</p>
+        <p>If <m>A</m> is the angle across (opposite) from the side of length 8 in the original triangle, then <m>\sin(A)=\frac{8}{17}</m>. Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as <m>A</m>, call it <m>A^\prime</m>. Putting these together gives us the following.
         <md>
             <mrow>\sin(A) &amp; = \sin(A^\prime).</mrow>
             <mrow>\frac{8}{17} &amp; = \frac{40}{h}.</mrow>
@@ -213,7 +213,7 @@
     </example>
 
     <exercise xml:id="exercise-arctrig">
-        <webwork>
+<!--        <webwork>
             <pg-code>
                 Context("TrigDegrees");
                 $a = Compute(random(4,7,1));
@@ -226,7 +226,8 @@
                 <p>Angle opposite side length <var name="$a"/>: <var name="$angleA" width="3" /></p>
                 <p>Angle opposite side length <var name="$b"/>: <var name="$angleB" width="3" /></p>
             </statement>
-        </webwork>
+        </webwork> -->
+        <myopenmath problem="1486437" />
     </exercise>
 
 </subsection>
@@ -234,7 +235,7 @@
 <subsection xml:id="subsection-solving-triangles">
     <title>Solving Triangles</title>
 
-    <p>Now that we have defined trigonometric functions, we can use them to analyze triangles. Our goal now is to use partial information about a triangle to find the rest of the side lengths and/or angles.</p>
+    <p>Now that we have defined trigonometric functions, we can use them to analyze triangles. The goal is to find the all of the side lengths and/or angles given only some of them.</p>
 
     <figure xml:id="figure-triangle-generic-labels">
         <caption>Right Triangle with Labels</caption>
@@ -242,42 +243,60 @@
     </figure>
 
     <example xml:id="example-triangle-solve1">
-        <statement><p>If <m>\sin \alpha = \frac{12}{13}</m> and the hypotenuse has length 13, what is the length of the adjacent side?</p></statement>
-        <solution><p>Sine is opposite over hypotenuse. Because we know the hypotenuse is 13 this ratio tells us the opposite is 12. Now we are looking for the length of the adjacent.
+        <p>A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the angles?</p>
+        <p>We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.
         <md>
             <mrow>12^2+b^2 &amp; = 13^2.</mrow>
             <mrow>b^2 &amp; = 13^2-12^2.</mrow>
             <mrow>b^2 &amp; = 25.</mrow>
             <mrow>b &amp; = 5.</mrow>
-        </md></p></solution>
+        </md></p>
+        <p>For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle. <me>\arcsin\left(\frac{12}{13}\right) \approx 67^\circ.</me></p>
+        <p>For the angle opposite the side of length 5, we can use the angle sum theorem
+            <md>
+                <mrow>90^\circ+67^\circ+B &amp; \approx 180^\circ.</mrow>
+                <mrow>B &amp; \approx 180^\circ-90^\circ-67^\circ.</mrow>
+                <mrow>B &amp; \approx 23^\circ.</mrow>
+            </md>
+        The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.</p>
     </example>
 
     <example xml:id="example-triangle-solve2">
-        <statement>
-            <p>If <m>\sin \alpha = 0.2800</m> and the opposite side for <m>\alpha</m> has length 14.00, what are the lengths of the other sides?</p>
-        </statement>
-        <solution>
-            <p>Sine is opposite over hypotenuse so, we can setup a proportion.
-            <md>
-                <mrow>\frac{14.00}{h} \amp = 0.2800.</mrow>
-                <mrow>14.00 \amp = h \cdot 0.2800. \amp \text{ clearing the denominator}</mrow>
-                <mrow>\frac{14.00}{0.2800} \amp = h.</mrow>
-                <mrow>50.00 \amp = h.</mrow>
-            </md>
-            The hypotenuse has length 50.00.
-            <md>
-                <mrow>14.00^2+b^2 \amp = 50.00^2.</mrow>
-                <mrow>b^2 \amp = 50.00^2-14.00^2.</mrow>
-                <mrow>b^2 \amp = 2304.</mrow>
-                <mrow>\sqrt{b^2} \amp = \sqrt{2304}.</mrow>
-                <mrow>b \amp = 48.00.</mrow>
-            </md>
-            The adjacent has length 48.00.</p>
-        </solution>
+        <introduction>
+            <p>A right triangle has legs of length 14 and 48.</p>
+        </introduction>
+        <task>
+            <statement>
+                <p>What is the length of the other side?</p>
+            </statement>
+            <solution>
+                <p>The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.
+                <md>
+                    <mrow>c^2 &amp; = 14^2+48^2</mrow>
+                    <mrow> &amp; 2500.</mrow>
+                    <mrow>c &amp; = \sqrt{2500}</mrow>
+                    <mrow> &amp; = 50.</mrow>
+                </md></p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>What are the measures of the angles?</p>
+            </statement>
+            <solution>
+                <p>For the angle opposite the side of length 14, we can use <me>\arctan\left( \frac{14}{48} \right) \approx 16^\circ.</me> We choose to use the inverse tangent (as opposed to inverse sine) because the given information was the legs.</p>
+                <p>For the other angle we can use the angle sum theorem.
+                <md>
+                    <mrow>90^\circ+16^\circ+B &amp; \approx 180^\circ.</mrow>
+                    <mrow>B &amp; \approx 180^\circ-90^\circ-16^\circ.</mrow>
+                    <mrow>B &amp; \approx 74^\circ.</mrow>
+                </md></p>
+            </solution>
+        </task>
     </example>
 
-    <exercise xml:id="exercise-trig-pythagorean1">
-        <webwork>
+    <exercise xml:id="exercise-trig-solve1">
+<!--        <webwork>
             <pg-code>
                 $a = Compute(random(3,7,1)); # length of the adjacent
                 $b = Compute(random(7,12,1)); # length of opposite
@@ -306,49 +325,34 @@
                 </image>
                 <p>For a right triangle if <m>\sin(\alpha)=\frac{<var name="$a" />}{<var name="$c" />}</m>, what is the length of the adjacent? <var name="$b" width="4" /></p>
             </statement>
-        </webwork>
+        </webwork> -->
+        <myopenmath problem="1057071" />
     </exercise>
 
-    <example xml:id="example-triangle-solve3">
-        <statement><p>For a right triangle if <m>\sin \alpha = \frac{12}{13}</m>, what are the two, non-right angles?</p></statement>
-        <solution><p>We can use <m>\arcsin(12/13)</m> for angle <m>\alpha</m>. This is <m>\arcsin(12/13) \approx 67^\circ</m>. For the second angle we have three options. First we can use the angle sum.
-        <md>
-            <mrow>90+67+\theta &amp; = 180.</mrow>
-            <mrow>\theta &amp; = 23.</mrow>
-        </md></p>
-        <p>Another option is to recognize that 12/13 is adjacent over hypotenuse for the third angle. Thus it is given by <m>\arccos(12/13) \approx 23</m>.</p>
-        <p>It is also possible to use the third side. We know from <xref ref="example-triangle-solve1" /> that the third side length is 5. Thus the angle is given by <m>\arcsin(5/13) \approx 23</m>.</p>
-        <p>We can select a favorite method in cases like these.</p></solution>
-    </example>
-
     <example xml:id="example-triangle-solve4">
-        <statement>
-            <p>For a right triangle with angle <m>\alpha=50^\circ</m> and opposite side length 7, what are the other side lengths and angles? All numbers given are exact.</p>
-        </statement>
-        <solution>
-            <p>Because sine is opposite over hypotenuse and we know both the angle and opposite, we can calculate the hypotenuse.
-            <md>
-                <mrow>\sin(50^\circ) \amp \approx 0.766.</mrow>
-                <mrow>\frac{7}{h} \amp \approx 0.766.</mrow>
-                <mrow>7 \amp \approx h \cdot 0.766. \amp \text{ clearing the denominator}</mrow>
-                <mrow>\frac{7}{0.766} \amp \approx h.</mrow>
-                <mrow>9.13 \amp \approx h.</mrow>
-            </md>
-            The hypotenuse has length 9.13. Next we calculate the length of the adjacent.
-            <md>
-                <mrow>7^2+b^2 \amp = 9.13^2.</mrow>
-                <mrow>b^2 \amp = 9.13^2-7^2.</mrow>
-                <mrow>b^2 \amp = 34.3569.</mrow>
-                <mrow>\sqrt{b^2} \amp = \sqrt{34.3569}.</mrow>
-                <mrow>b \amp \approx 5.86.</mrow>
-            </md>
-            The adjacent has length 5.86. Finally, we know that two of the angles are <m>90^\circ</m> and <m>50^\circ</m>, so the third angle has measure <m>180^\circ-90^\circ-50^\circ = 40^\circ</m>.
-            </p>
-        </solution>
+        <p>For a right triangle with angle <m>\alpha=50^\circ</m> and opposite side length 7, what are the other side lengths and angles?</p>
+        <p>First, we know that two of the angles are <m>90^\circ</m> and <m>50^\circ</m>, so the third angle has measure <m>180^\circ-90^\circ-50^\circ = 40^\circ</m>.</p>
+        <p>To calculate the length of the hypotenuse recall that <m>sin(\alpha)=\frac{\text{opposite}}{\text{hypotenuse}}</m>. We know the angle and the length of the opposite.
+        <md>
+            <mrow>\sin(50^\circ) \amp \approx 0.76604444.</mrow>
+            <mrow>\frac{7}{h} \amp \approx 0.76604444.</mrow>
+            <mrow>7 \amp \approx h \cdot 0.76604444. \amp \text{ clearing the denominator}</mrow>
+            <mrow>\frac{7}{0.76604444} \amp \approx h.</mrow>
+            <mrow>h \amp \approx 9.1378510.</mrow>
+        </md>
+        The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent.
+        <md>
+            <mrow>7^2+b^2 \amp = 9.1378510^2.</mrow>
+            <mrow>b^2 \amp = 9.1378510^2-7^2.</mrow>
+            <mrow>b^2 \amp = 34.500321.</mrow>
+            <mrow>\sqrt{b^2} \amp = \sqrt{34.500321}.</mrow>
+            <mrow>b \amp \approx 5.8736974.</mrow>
+        </md>
+        The adjacent has length 5.87.</p>
     </example>
 
     <exercise xml:id="exercise-triangle-solve5">
-        <webwork>
+<!--        <webwork>
             <pg-code>
                 Context("TrigDegrees");
                 $a = Compute(random(4,7,1));
@@ -363,7 +367,8 @@
                 <p>Angle opposite side length <var name="$a"/>: <var name="$angleA" width="3" /></p>
                 <p>Angle opposite other leg: <var name="$angleB" width="3" /></p>
             </statement>
-        </webwork>
+        </webwork> -->
+        <myopenmath problem="1057112" />
     </exercise>
 
 </subsection>
@@ -371,7 +376,7 @@
 <subsection xml:id="subsection-limitations-triangle-sides">
     <title>Limitations on Triangle Side Lengths</title>
 
-    <p>The <xref ref="theorem-pythagorean" /> tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means a right triangle cannot be assembled from any three, random side lengths.</p>
+    <p>The <xref ref="theorem-pythagorean" /> tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.</p>
 
     <p>Play (geogebra) with side lengths and see how hypotenuse length changes. Ask (2nd exercise below). Ask what the limitation on hypotenuse is.</p>
 
