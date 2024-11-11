@@ -495,7 +495,8 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="section-trig-applications1.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Using Trig Functions</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-applications1.html#subsection-trig-function-application" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Calculating lengths using trig functions</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-applications1.html#section-trig-applications1-4" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-applications1.html#subsection-trig-function-angles" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Calculating angles using trig functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-applications1.html#section-trig-applications1-5" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -523,114 +524,195 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:pf="https://prefigure.org" class="section" id="section-trig-applications1"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">7.2</span><span class="space"> </span><span class="title">Using Trig Functions</span>
 </h2>
-<section class="introduction" id="section-trig-applications1-2"><div class="para" id="section-trig-applications1-2-1">In problems where we identify a right triangle, we know or need an angle, and we know or need sides, we can use trigonometric functions to calculate what we need.</div></section><section class="subsection" id="subsection-trig-function-application"><h3 class="heading hide-type">
+<section class="introduction" id="section-trig-applications1-2"><div class="para logical" id="section-trig-applications1-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-trig-applications1-2-1-1">
+<li id="section-trig-applications1-2-1-1-1"><div class="para" id="p-derived-section-trig-applications1-2-1-1-1">Read and use mathematical models in a technical document</div></li>
+<li id="section-trig-applications1-2-1-1-2"><div class="para" id="p-derived-section-trig-applications1-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-trig-applications1-2-1-2">
+<li id="section-trig-applications1-2-1-2-1"><div class="para" id="p-derived-section-trig-applications1-2-1-2-1">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</div></li>
+<li id="section-trig-applications1-2-1-2-2"><div class="para" id="p-derived-section-trig-applications1-2-1-2-2">Analyze right triangles (skill)</div></li>
+</ul>
+</div>
+<div class="para" id="section-trig-applications1-2-2">This section demonstrates identifying right triangles in applications and applying trigonometric functions to calculate desired information.</div></section><section class="subsection" id="subsection-trig-function-application"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.2.1</span><span class="space"> </span><span class="title">Calculating lengths using trig functions</span>
 </h3>
-<article class="definition definition-like" id="definitin-angle-elevation"><h4 class="heading">
+<div class="para" id="subsection-trig-function-application-2">This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.</div>
+<div class="para" id="subsection-trig-function-application-3">First, we define terminology we need to describe the applications.</div>
+<article class="definition definition-like" id="definition-angle-elevation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Angle of Elevation.</span>
 </h4>
-<div class="para" id="definitin-angle-elevation-2-1">The <dfn class="terminology">angle of elevation</dfn> of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).</div></article><article class="definition definition-like" id="definitin-angle-depression"><h4 class="heading">
+<div class="para" id="definition-angle-elevation-2-1">The <dfn class="terminology">angle of elevation</dfn> of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).</div></article><article class="definition definition-like" id="definition-angle-depression"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Angle of Depression.</span>
 </h4>
-<div class="para" id="definitin-angle-depression-2-1">The <dfn class="terminology">angle of depression</dfn> of an object or observation is the angle measured from level down to the object (or line of sight).</div></article><article class="example example-like" id="example-apply-ladder-height"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.3</span><span class="period">.</span>
+<div class="para" id="definition-angle-depression-2-1">The <dfn class="terminology">angle of depression</dfn> of an object or observation is the angle measured from level down to the object (or line of sight).</div></article><figure class="figure figure-like" id="figure-view-angle-illustration"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/view_angle_definitions.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.2.3<span class="period">.</span></span><span class="space"> </span>Illustrations of Angles of Elevation and Depression</figcaption></figure><article class="example example-like" id="example-apply-ladder-height"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-apply-ladder-height-1-1">For safety reasons the optimal angle of elevation of a ladder is <span class="process-math">\(75^\circ\text{.}\)</span> If the ladder is 16’ long, at what height will the top of the ladder be resting against a wall?</div>
-<div class="solutions"><details id="example-apply-ladder-height-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="example-apply-ladder-height-2-1">First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle, the length of the hypotenuse, and we want the length opposite the angle, we want to use the sine function.</div>
-<div class="para logical" id="example-apply-ladder-height-2-2">
-<div class="displaymath process-math" id="example-apply-ladder-height-2-2-1">
+<div class="para" id="example-apply-ladder-height-1">For safety reasons the optimal angle of elevation of a ladder is <span class="process-math">\(75^\circ\text{.}\)</span> If the ladder is 16’ long, at what height will the top of the ladder be resting against a wall?</div>
+<div class="para" id="example-apply-ladder-height-2">First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle (75° angle of elevation from the ground), the length of the hypotenuse (length of the ladder), and we want the length side opposite the angle (height along the wall), we want to use the sine function.</div>
+<div class="para logical" id="example-apply-ladder-height-3">
+<div class="displaymath process-math" id="example-apply-ladder-height-3-1">
 \begin{align*}
 \sin(75^\circ) &amp; = \frac{B}{16}\\
 16\sin(75^\circ) &amp; = B\\
 15.45 &amp; \approx B
 \end{align*}
 </div>
-<div class="para">Thus the optimal distance to place the base of the ladder is 15.5 feet from the wall.</div>
-</div>
-</div></details></div></article><article class="example example-like" id="example-apply-measure-height"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.4</span><span class="period">.</span>
+<div class="para">Thus the top of the ladder is 15.5 feet up the wall. We rounded to tenths, because measuring a hundredth of a foot is impractical. A half foot (6″) is easy to measure.</div>
+</div></article><article class="example example-like" id="example-apply-ladder-distance"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-apply-measure-height-1-1">The shadow of a tree is measured to be 103 ft (measured from the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be <span class="process-math">\(63^\circ\text{.}\)</span> How tall is the tree?</div>
+<div class="para" id="example-apply-ladder-distance-1">We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.</div>
+<div class="para logical" id="example-apply-ladder-distance-2">
+<div class="displaymath process-math" id="example-apply-ladder-distance-2-1">
+\begin{align*}
+\cos(75^\circ) &amp; = \frac{A}{16}\\
+16\cos(75^\circ) &amp; = A\\
+4.14 &amp; \approx A
+\end{align*}
+</div>
+<div class="para">Thus we place the ladder a little more than 4 feet from the wall.</div>
+</div>
+<div class="para" id="example-apply-ladder-distance-3">If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.</div>
+<div class="para logical" id="example-apply-ladder-distance-4">
+<div class="displaymath process-math" id="example-apply-ladder-distance-4-1">
+\begin{align*}
+A^2+15.45^2 &amp; = 16^2.\\
+A^2 &amp; = 16^2-15.45^2.\\
+A^2 &amp; = 256-238.7025.\\
+A^2 &amp; = 17.2975.\\
+A &amp; = \sqrt{17.2975}\\
+&amp; \approx 4.1590\\
+&amp; \approx 4.16
+\end{align*}
+</div>
+<div class="para">This is quite close to the previous solution, specifically the difference is too small to effect ladder placement.</div>
+</div></article><article class="example example-like" id="example-apply-measure-height"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-apply-measure-height-1-1">This use of trigonometry has been around for millenia being used to measure the heights of tall objects.</div> <div class="para" id="example-apply-measure-height-1-2">The shadow of a tree is measured to be 103 ft (measured from the  base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63°. How tall is the tree?</div>
 <div class="solutions"><details id="example-apply-measure-height-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-apply-measure-height-2-1">
-<div class="para">This forms a right triangle with angle <span class="process-math">\(63^\circ\text{,}\)</span> adjacent length 103 ft, and we want the length of the opposite leg.</div>
+<div class="para">This forms a right triangle with angle <span class="process-math">\(63^\circ\text{,}\)</span> and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function.</div>
 <div class="displaymath process-math" id="example-apply-measure-height-2-1-2">
 \begin{align*}
 \tan(63^\circ) &amp; = \frac{H}{103}.\\
 103\tan(63^\circ) &amp; = H.\\
+202.15 &amp; = H.\\
 2\bar{0}0 &amp; \approx H.
 \end{align*}
 </div>
-<div class="para">The tree is approximately 200 feet high.</div>
+<div class="para">The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.</div>
 </div></div></details></div></article><article class="example example-like" id="example-apply-runway-tch"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.5</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-apply-runway-tch-1-1">Aircraft typically fly a <span class="process-math">\(3^\circ\)</span> angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.</div>
 <div class="solutions"><details id="example-apply-runway-tch-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-apply-runway-tch-2-1">
-<div class="para">This is a right triangle with adjacent leg length 1020 ft and angle <span class="process-math">\(3^\circ\text{.}\)</span> The length of the opposite is the height at the threshold.</div>
+<div class="para">This is a right triangle with adjacent leg length 1020 ft and angle 3°. The length of the opposite is the height at the threshold.</div>
 <div class="displaymath process-math" id="example-apply-runway-tch-2-1-2">
 \begin{align*}
 \tan(3^\circ) &amp; = \frac{T}{1020}.\\
 1020\tan(3^\circ) &amp; = T.\\
-53 &amp; \approx \frac{T}{1020}.
+53.4559 &amp; \approx T.\\
+53 &amp; \approx T.
 \end{align*}
 </div>
+<div class="para">We round to the nearest foot, because aircraft cannot be controlled precisely enough for inches to matter.</div>
 </div></div></details></div></article><article class="exercise exercise-like" id="exercise-apply-runway-tch"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.2.6</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.2.8</span><span class="period">.</span>
 </h4>
-<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMSw1LDEpKTsKJGIgPSBDb21wdXRlKCRhK3JhbmRvbSgxLDMsMSkpOwokYyA9IENvbXB1dGUoc3FydCgkYSoqMiskYioqMikpOwoKQkVHSU5fUEdNTApJZiB0aGUgdHdvIHNpZGVzIG9uIHRoZSByaWdodCBhbmdsZSBoYXZlIGxlbmd0aCBbYGE9WyRhXWBdIGFuZCBbYGI9WyRiXVx0ZXh0eyx9YF0gd2hhdCBpcyB0aGUgbGVuZ3RoIG9mIHRoZSBoeXBvdGVudXNlPyBbYGM9YF1bX117JGN9ezN9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
-<div class="problem-contents"><div class="para" id="extracted-webwork-1-1-1-1">If the two sides on the right angle have length <span class="process-math">\(a={1}\)</span> and <span class="process-math">\(b={4}\text{,}\)</span> what is the length of the hypotenuse? <span class="process-math">\(c=\)</span><span class="fillin underline" role="img" aria-label="3-character blank" style="width: 1.363636363636364em;"></span>
-</div></div>
-</div></article></section><section class="exercises" id="section-trig-applications1-4"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">7.2.2</span><span class="space"> </span><span class="title">Exercises</span>
+<div id="momexercise-apply-runway-tch-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-apply-runway-tch-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1488910&amp;frame_id=momexercise-apply-runway-tch-1"></iframe></div></article></section><section class="subsection" id="subsection-trig-function-angles"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.2.2</span><span class="space"> </span><span class="title">Calculating angles using trig functions</span>
 </h3>
-<article class="exercise exercise-like" id="section-trig-applications1-4-1"><h4 class="heading">
+<div class="para" id="subsection-trig-function-angles-2">This section demonstrates using applications in which we desire to calculate the angles when we know the side lengths of a right triangle.</div>
+<article class="example example-like" id="example-calculate-angle-sun"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-calculate-angle-sun-1">If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is <span class="process-math">\(12\bar{0}\)</span> mm long, what is the angle of elevation of the sun?</div>
+<div class="para logical" id="example-calculate-angle-sun-2">
+<div class="para">The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle.</div>
+<div class="displaymath process-math" id="example-calculate-angle-sun-2-1">
+\begin{align*}
+\tan(\theta) &amp; = \frac{89}{12\bar{0}}.\\
+\theta &amp; = \arctan\left( \frac{89}{12\bar{0}} \right)\\
+&amp; \approx \arctan(0.7416666667)\\
+&amp; \approx 36.56309587\\
+&amp; \approx 37^\circ
+\end{align*}
+</div>
+<div class="para">Significant digits rounding is used because these are from measurements.</div>
+</div></article><article class="example example-like" id="example-aircraft-descent-angle"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-aircraft-descent-angle-1">An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent?</div>
+<div class="para" id="example-aircraft-descent-angle-2">First, we will need to convert 22 nm to feet. The units in <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> suggest we can multiply <span class="process-math">\(\frac{6076 \text{ ft}}{1 \text{ nm}} \cdot 22 \text{ nm} = 133672\text{.}\)</span>
+</div>
+<div class="para logical" id="example-aircraft-descent-angle-3">
+<div class="para">The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000−9,000 = 4,000. Because we know the lengths of both legs, we can use the inverse tangent function to calculate the angle.</div>
+<div class="displaymath process-math" id="example-aircraft-descent-angle-3-2">
+\begin{align*}
+\tan(\theta) &amp; = \frac{4000}{133672}.\\
+\theta &amp; = \arctan\left( \frac{4000}{133672} \right)\\
+&amp; \approx \arctan(0.02992399)\\
+&amp; \approx 1.71400703\\
+&amp; \approx 2^\circ
+\end{align*}
+</div>
+<div class="para">We round to units, because aircraft instruments will not show anything more precise.</div>
+</div></article><article class="exercise exercise-like" id="subsection-trig-function-angles-5"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.2.11</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-trig-function-angles-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-trig-function-angles-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1489024&amp;frame_id=momsubsection-trig-function-angles-5-1"></iframe></div></article></section><section class="exercises" id="section-trig-applications1-5"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">7.2.3</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="section-trig-applications1-5-1"><h4 class="heading">
 <span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057317&amp;frame_id=momsection-trig-applications1-4-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-2"><h4 class="heading">
+<div id="momsection-trig-applications1-5-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057317&amp;frame_id=momsection-trig-applications1-5-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-2"><h4 class="heading">
 <span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057318&amp;frame_id=momsection-trig-applications1-4-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-3"><h4 class="heading">
+<div id="momsection-trig-applications1-5-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057318&amp;frame_id=momsection-trig-applications1-5-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-3"><h4 class="heading">
 <span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057327&amp;frame_id=momsection-trig-applications1-4-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-4"><h4 class="heading">
+<div id="momsection-trig-applications1-5-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057327&amp;frame_id=momsection-trig-applications1-5-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-4"><h4 class="heading">
 <span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057330&amp;frame_id=momsection-trig-applications1-4-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-5"><h4 class="heading">
+<div id="momsection-trig-applications1-5-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057330&amp;frame_id=momsection-trig-applications1-5-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-5"><h4 class="heading">
 <span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057329&amp;frame_id=momsection-trig-applications1-4-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-6"><h4 class="heading">
+<div id="momsection-trig-applications1-5-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057329&amp;frame_id=momsection-trig-applications1-5-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-6"><h4 class="heading">
 <span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057332&amp;frame_id=momsection-trig-applications1-4-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-7"><h4 class="heading">
+<div id="momsection-trig-applications1-5-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057332&amp;frame_id=momsection-trig-applications1-5-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-7"><h4 class="heading">
 <span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=127096&amp;frame_id=momsection-trig-applications1-4-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-8"><h4 class="heading">
+<div id="momsection-trig-applications1-5-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=127096&amp;frame_id=momsection-trig-applications1-5-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-8"><h4 class="heading">
 <span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057354&amp;frame_id=momsection-trig-applications1-4-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-9"><h4 class="heading">
+<div id="momsection-trig-applications1-5-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057354&amp;frame_id=momsection-trig-applications1-5-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-9"><h4 class="heading">
 <span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057358&amp;frame_id=momsection-trig-applications1-4-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-10"><h4 class="heading">
+<div id="momsection-trig-applications1-5-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057358&amp;frame_id=momsection-trig-applications1-5-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-10"><h4 class="heading">
 <span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=929531&amp;frame_id=momsection-trig-applications1-4-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-11"><h4 class="heading">
+<div id="momsection-trig-applications1-5-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=929531&amp;frame_id=momsection-trig-applications1-5-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-11"><h4 class="heading">
 <span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=929530&amp;frame_id=momsection-trig-applications1-4-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-12"><h4 class="heading">
+<div id="momsection-trig-applications1-5-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=929530&amp;frame_id=momsection-trig-applications1-5-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-12"><h4 class="heading">
 <span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057360&amp;frame_id=momsection-trig-applications1-4-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-13"><h4 class="heading">
+<div id="momsection-trig-applications1-5-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057360&amp;frame_id=momsection-trig-applications1-5-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-13"><h4 class="heading">
 <span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057361&amp;frame_id=momsection-trig-applications1-4-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-14"><h4 class="heading">
+<div id="momsection-trig-applications1-5-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057361&amp;frame_id=momsection-trig-applications1-5-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-14"><h4 class="heading">
 <span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057363&amp;frame_id=momsection-trig-applications1-4-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-4-15"><h4 class="heading">
+<div id="momsection-trig-applications1-5-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057363&amp;frame_id=momsection-trig-applications1-5-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-applications1-5-15"><h4 class="heading">
 <span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Trig Application.</span>
 </h4>
-<div id="momsection-trig-applications1-4-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-4-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057364&amp;frame_id=momsection-trig-applications1-4-15-2"></iframe></div></article></section></section></div>
+<div id="momsection-trig-applications1-5-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-applications1-5-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1057364&amp;frame_id=momsection-trig-applications1-5-15-2"></iframe></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="section-trig-functions.html" title="Previous"><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-trig-laws.html" title="Next"><span class="name">Next</span><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

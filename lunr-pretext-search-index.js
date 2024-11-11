@@ -5542,7 +5542,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Geometric Reasoning 3D",
-  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to find those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume     Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.   Various Prisms              Prisms      Shape  Surface Area  Volume    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.   What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.    Calculate the surface area and volume    Right Triangular Prism     Non-Right Triangular Prism       Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         The 2 is an exact number. If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.   What are the total surface area and volume of this slanted cylinder?   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume    sum of surfaces      The 1\/3 is an exact number.   What is the surface area of this pyramid? This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .    Find the volume of this rectangular pyramid.   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).  We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume    What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.   Cone      Shape  Lateral Surface Area  Volume    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. The 1\/3 in the volume calculation is an exact number. For the full surface area we add the area of the circle at the bottom of the cone.   Calculate the total surface area and the volume of this cone.   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly. is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base. The 1\/2 and 1\/3 are exact numbers.   What is the surface area of the frustrum of the pyramid in ? The perimeter of the lower base (triangle) is (3 is an exact number here so precision is not changed). The perimeter of the upper base (triangle) is . To calculate the area of the two bases we will need Heron's formula. The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The 1\/3 is an exact number. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.   For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).     An ice cream cone has the dimensions shown below.    What is the volume of the ice cream? Round final results to the nearest 10th. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is Thus the total volume of the ice cream is .  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is The surface area of the half sphere is . Thus the total surface area of the ice cream is cubic inches.     Volume Application  Volume Application   Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
+  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to find those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume     Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.   Various Prisms              Prisms      Shape  Surface Area  Volume    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.   What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.    Calculate the surface area and volume    Right Triangular Prism     Non-Right Triangular Prism       Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         The 2 is an exact number. If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.   What are the total surface area and volume of this slanted cylinder?   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume    sum of surfaces      The 1\/3 is an exact number.   What is the surface area of this pyramid? This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .    Find the volume of this rectangular pyramid.   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).  We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume    What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.   Cone      Shape  Lateral Surface Area  Volume    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. The 1\/3 in the volume calculation is an exact number. For the full surface area we add the area of the circle at the bottom of the cone.   Calculate the total surface area and the volume of this cone.   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly. is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base. The 1\/2 and 1\/3 are exact numbers.   What is the surface area of the frustrum of the pyramid in ? The perimeter of the lower base (triangle) is (3 is an exact number here so precision is not changed). The perimeter of the upper base (triangle) is . To calculate the area of the two bases we will need Heron's formula. The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The 1\/3 is an exact number. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.   For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).     An ice cream cone has the dimensions shown below.    What is the volume of the ice cream? Round final results to the nearest 10th. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is Thus the total volume of the ice cream is .  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is The surface area of the half sphere is . Thus the total surface area of the ice cream is cubic inches.     Volume Application  Volume Application    Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
 },
 {
   "id": "subsection-geometric-properties-3d-4",
@@ -5847,8 +5847,8 @@ var ptx_lunr_docs = [
   "url": "section-geometry3D.html#section-geometry3D-5-4",
   "type": "Exercise",
   "number": "4.2.3.4",
-  "title": "Contextless Volume.",
-  "body": "Contextless Volume "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-geometry3D-5-5",
@@ -5856,8 +5856,8 @@ var ptx_lunr_docs = [
   "url": "section-geometry3D.html#section-geometry3D-5-5",
   "type": "Exercise",
   "number": "4.2.3.5",
-  "title": "Contextless Composite Volume.",
-  "body": "Contextless Composite Volume "
+  "title": "Contextless Volume.",
+  "body": "Contextless Volume "
 },
 {
   "id": "section-geometry3D-5-6",
@@ -5883,8 +5883,8 @@ var ptx_lunr_docs = [
   "url": "section-geometry3D.html#section-geometry3D-5-8",
   "type": "Exercise",
   "number": "4.2.3.8",
-  "title": "Contextless Volume.",
-  "body": "Contextless Volume "
+  "title": "Contextless Composite Volume.",
+  "body": "Contextless Composite Volume "
 },
 {
   "id": "section-geometry3D-5-9",
@@ -5892,8 +5892,8 @@ var ptx_lunr_docs = [
   "url": "section-geometry3D.html#section-geometry3D-5-9",
   "type": "Exercise",
   "number": "4.2.3.9",
-  "title": "Volume Application.",
-  "body": "Volume Application "
+  "title": "Contextless Volume.",
+  "body": "Contextless Volume "
 },
 {
   "id": "section-geometry3D-5-10",
@@ -5919,8 +5919,8 @@ var ptx_lunr_docs = [
   "url": "section-geometry3D.html#section-geometry3D-5-12",
   "type": "Exercise",
   "number": "4.2.3.12",
-  "title": "Contextless Volume.",
-  "body": "Contextless Volume "
+  "title": "Volume Application.",
+  "body": "Volume Application "
 },
 {
   "id": "section-geometry3D-5-13",
@@ -5928,6 +5928,15 @@ var ptx_lunr_docs = [
   "url": "section-geometry3D.html#section-geometry3D-5-13",
   "type": "Exercise",
   "number": "4.2.3.13",
+  "title": "Contextless Volume.",
+  "body": "Contextless Volume "
+},
+{
+  "id": "section-geometry3D-5-14",
+  "level": "2",
+  "url": "section-geometry3D.html#section-geometry3D-5-14",
+  "type": "Exercise",
+  "number": "4.2.3.14",
   "title": "Volume Application.",
   "body": "Volume Application "
 },
@@ -8341,194 +8350,239 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Using Trig Functions",
-  "body": " Using Trig Functions   In problems where we identify a right triangle, we know or need an angle, and we know or need sides, we can use trigonometric functions to calculate what we need.    Calculating lengths using trig functions   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    For safety reasons the optimal angle of elevation of a ladder is . If the ladder is 16' long, at what height will the top of the ladder be resting against a wall?   First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle, the length of the hypotenuse, and we want the length opposite the angle, we want to use the sine function.  Thus the optimal distance to place the base of the ladder is 15.5 feet from the wall.     The shadow of a tree is measured to be 103 ft (measured from the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be . How tall is the tree?  This forms a right triangle with angle , adjacent length 103 ft, and we want the length of the opposite leg. The tree is approximately 200 feet high.    Aircraft typically fly a angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.  This is a right triangle with adjacent leg length 1020 ft and angle . The length of the opposite is the height at the threshold.     If the two sides on the right angle have length and what is the length of the hypotenuse?              Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application   "
+  "body": " Using Trig Functions   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)    This section demonstrates identifying right triangles in applications and applying trigonometric functions to calculate desired information.    Calculating lengths using trig functions  This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.  First, we define terminology we need to describe the applications.   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    Illustrations of Angles of Elevation and Depression     For safety reasons the optimal angle of elevation of a ladder is . If the ladder is 16' long, at what height will the top of the ladder be resting against a wall?  First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle (75 angle of elevation from the ground), the length of the hypotenuse (length of the ladder), and we want the length side opposite the angle (height along the wall), we want to use the sine function.  Thus the top of the ladder is 15.5 feet up the wall. We rounded to tenths, because measuring a hundredth of a foot is impractical. A half foot (6 ) is easy to measure.    We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function. p> Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement.     This use of trigonometry has been around for millenia being used to measure the heights of tall objects.  The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree?    This forms a right triangle with angle , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.     Aircraft typically fly a angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold. We round to the nearest foot, because aircraft cannot be controlled precisely enough for inches to matter.      Calculating angles using trig functions  This section demonstrates using applications in which we desire to calculate the angles when we know the side lengths of a right triangle.   If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun?  The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. Significant digits rounding is used because these are from measurements.    An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent?  First, we will need to convert 22 nm to feet. The units in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000. Because we know the lengths of both legs, we can use the inverse tangent function to calculate the angle. We round to units, because aircraft instruments will not show anything more precise.      Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application   "
 },
 {
-  "id": "definitin-angle-elevation",
+  "id": "definition-angle-elevation",
   "level": "2",
-  "url": "section-trig-applications1.html#definitin-angle-elevation",
+  "url": "section-trig-applications1.html#definition-angle-elevation",
   "type": "Definition",
   "number": "7.2.1",
   "title": "Angle of Elevation.",
   "body": " Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).  "
 },
 {
-  "id": "definitin-angle-depression",
+  "id": "definition-angle-depression",
   "level": "2",
-  "url": "section-trig-applications1.html#definitin-angle-depression",
+  "url": "section-trig-applications1.html#definition-angle-depression",
   "type": "Definition",
   "number": "7.2.2",
   "title": "Angle of Depression.",
   "body": " Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).  "
 },
 {
+  "id": "figure-view-angle-illustration",
+  "level": "2",
+  "url": "section-trig-applications1.html#figure-view-angle-illustration",
+  "type": "Figure",
+  "number": "7.2.3",
+  "title": "",
+  "body": " Illustrations of Angles of Elevation and Depression   "
+},
+{
   "id": "example-apply-ladder-height",
   "level": "2",
   "url": "section-trig-applications1.html#example-apply-ladder-height",
   "type": "Example",
-  "number": "7.2.3",
+  "number": "7.2.4",
   "title": "",
-  "body": " For safety reasons the optimal angle of elevation of a ladder is . If the ladder is 16' long, at what height will the top of the ladder be resting against a wall?   First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle, the length of the hypotenuse, and we want the length opposite the angle, we want to use the sine function.  Thus the optimal distance to place the base of the ladder is 15.5 feet from the wall.   "
+  "body": " For safety reasons the optimal angle of elevation of a ladder is . If the ladder is 16' long, at what height will the top of the ladder be resting against a wall?  First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle (75 angle of elevation from the ground), the length of the hypotenuse (length of the ladder), and we want the length side opposite the angle (height along the wall), we want to use the sine function.  Thus the top of the ladder is 15.5 feet up the wall. We rounded to tenths, because measuring a hundredth of a foot is impractical. A half foot (6 ) is easy to measure.  "
+},
+{
+  "id": "example-apply-ladder-distance",
+  "level": "2",
+  "url": "section-trig-applications1.html#example-apply-ladder-distance",
+  "type": "Example",
+  "number": "7.2.5",
+  "title": "",
+  "body": " We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function. p> Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement.  "
 },
 {
   "id": "example-apply-measure-height",
   "level": "2",
   "url": "section-trig-applications1.html#example-apply-measure-height",
   "type": "Example",
-  "number": "7.2.4",
+  "number": "7.2.6",
   "title": "",
-  "body": " The shadow of a tree is measured to be 103 ft (measured from the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be . How tall is the tree?  This forms a right triangle with angle , adjacent length 103 ft, and we want the length of the opposite leg. The tree is approximately 200 feet high.  "
+  "body": "  This use of trigonometry has been around for millenia being used to measure the heights of tall objects.  The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree?    This forms a right triangle with angle , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.   "
 },
 {
   "id": "example-apply-runway-tch",
   "level": "2",
   "url": "section-trig-applications1.html#example-apply-runway-tch",
   "type": "Example",
-  "number": "7.2.5",
+  "number": "7.2.7",
   "title": "",
-  "body": " Aircraft typically fly a angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.  This is a right triangle with adjacent leg length 1020 ft and angle . The length of the opposite is the height at the threshold.  "
+  "body": " Aircraft typically fly a angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold. We round to the nearest foot, because aircraft cannot be controlled precisely enough for inches to matter.  "
 },
 {
   "id": "exercise-apply-runway-tch",
   "level": "2",
   "url": "section-trig-applications1.html#exercise-apply-runway-tch",
   "type": "Checkpoint",
-  "number": "7.2.6",
+  "number": "7.2.8",
   "title": "",
-  "body": "  If the two sides on the right angle have length and what is the length of the hypotenuse?           "
+  "body": ""
 },
 {
-  "id": "section-trig-applications1-4-1",
+  "id": "example-calculate-angle-sun",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-1",
+  "url": "section-trig-applications1.html#example-calculate-angle-sun",
+  "type": "Example",
+  "number": "7.2.9",
+  "title": "",
+  "body": " If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun?  The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. Significant digits rounding is used because these are from measurements.  "
+},
+{
+  "id": "example-aircraft-descent-angle",
+  "level": "2",
+  "url": "section-trig-applications1.html#example-aircraft-descent-angle",
+  "type": "Example",
+  "number": "7.2.10",
+  "title": "",
+  "body": " An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent?  First, we will need to convert 22 nm to feet. The units in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000. Because we know the lengths of both legs, we can use the inverse tangent function to calculate the angle. We round to units, because aircraft instruments will not show anything more precise.  "
+},
+{
+  "id": "subsection-trig-function-angles-5",
+  "level": "2",
+  "url": "section-trig-applications1.html#subsection-trig-function-angles-5",
+  "type": "Checkpoint",
+  "number": "7.2.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-applications1-5-1",
+  "level": "2",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-1",
   "type": "Exercise",
-  "number": "7.2.2.1",
+  "number": "7.2.3.1",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-2",
+  "id": "section-trig-applications1-5-2",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-2",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-2",
   "type": "Exercise",
-  "number": "7.2.2.2",
+  "number": "7.2.3.2",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-3",
+  "id": "section-trig-applications1-5-3",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-3",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-3",
   "type": "Exercise",
-  "number": "7.2.2.3",
+  "number": "7.2.3.3",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-4",
+  "id": "section-trig-applications1-5-4",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-4",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-4",
   "type": "Exercise",
-  "number": "7.2.2.4",
+  "number": "7.2.3.4",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-5",
+  "id": "section-trig-applications1-5-5",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-5",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-5",
   "type": "Exercise",
-  "number": "7.2.2.5",
+  "number": "7.2.3.5",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-6",
+  "id": "section-trig-applications1-5-6",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-6",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-6",
   "type": "Exercise",
-  "number": "7.2.2.6",
+  "number": "7.2.3.6",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-7",
+  "id": "section-trig-applications1-5-7",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-7",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-7",
   "type": "Exercise",
-  "number": "7.2.2.7",
+  "number": "7.2.3.7",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-8",
+  "id": "section-trig-applications1-5-8",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-8",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-8",
   "type": "Exercise",
-  "number": "7.2.2.8",
+  "number": "7.2.3.8",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-9",
+  "id": "section-trig-applications1-5-9",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-9",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-9",
   "type": "Exercise",
-  "number": "7.2.2.9",
+  "number": "7.2.3.9",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-10",
+  "id": "section-trig-applications1-5-10",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-10",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-10",
   "type": "Exercise",
-  "number": "7.2.2.10",
+  "number": "7.2.3.10",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-11",
+  "id": "section-trig-applications1-5-11",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-11",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-11",
   "type": "Exercise",
-  "number": "7.2.2.11",
+  "number": "7.2.3.11",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-12",
+  "id": "section-trig-applications1-5-12",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-12",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-12",
   "type": "Exercise",
-  "number": "7.2.2.12",
+  "number": "7.2.3.12",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-13",
+  "id": "section-trig-applications1-5-13",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-13",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-13",
   "type": "Exercise",
-  "number": "7.2.2.13",
+  "number": "7.2.3.13",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-14",
+  "id": "section-trig-applications1-5-14",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-14",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-14",
   "type": "Exercise",
-  "number": "7.2.2.14",
+  "number": "7.2.3.14",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-4-15",
+  "id": "section-trig-applications1-5-15",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-4-15",
+  "url": "section-trig-applications1.html#section-trig-applications1-5-15",
   "type": "Exercise",
-  "number": "7.2.2.15",
+  "number": "7.2.3.15",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
@@ -8539,7 +8593,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Non-Right Triangles",
-  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No                Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     At a particular airport the angle of depression flown by aircraft following the PAPI (vertical guidance) is This leads to a point 1020 ft from the threshold of the runway. How high is the aircraft at the threshold?              Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
+  "body": " Non-Right Triangles   In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.  Note the one relationship that did not require a right angle is the angle sum property .    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle that is which is opposite a side of length 6. It has another angle that is .  What is the length of the side opposite the angle? According to the law of sines   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . The side length can be calculated using the law of sines.     A triangle has an angle of measure . The side opposite it is length 5. The other two sides are length 6.74 and 7.66.  What is the measure of the angle opposite the side of length 6.74? We can use the law of sines.   What is the measure of the angle opposite the side of length 7.66? We can now use the angle sum fact. so .     A triangle has angles of measure and The side opposite angle has length 4. What is the length of the side opposite angle               Ambiguous Triangles  We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?  We can try to use the law of sines. Using the angle sum fact we learn the other angle is or . We use the law of sines again to find the length of the final side. This gives us a triangle with angles: ; and with side lengths: 4, 5, and 5.41.  Note , that is, If we use as the second angle, the third angle is or . Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.    Two Possible Triangles         Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again. Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. so .    A triangle has side lengths 5 and 7 and the angle between them is . What are the length of the other side and the measures of the other angles?  We can use the Law of Cosines because we know and . Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the angle sum theorem to calculate the final angle. so .     A triangle has sides of length  and What is the measure of the angle opposite the side of length               Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
 },
 {
   "id": "theorem-law-sines",
@@ -8584,7 +8638,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.3.5",
   "title": "",
-  "body": "  Can a triangle have one leg (side next to right angle) of length and hypotenuse (side opposite the right angle) with length    Yes    No             "
+  "body": "  A triangle has angles of measure and The side opposite angle has length 4. What is the length of the side opposite angle            "
 },
 {
   "id": "example-angle-side-side",
@@ -8638,7 +8692,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.3.11",
   "title": "",
-  "body": "  At a particular airport the angle of depression flown by aircraft following the PAPI (vertical guidance) is This leads to a point 1020 ft from the threshold of the runway. How high is the aircraft at the threshold?           "
+  "body": "  A triangle has sides of length  and What is the measure of the angle opposite the side of length            "
 },
 {
   "id": "section-trig-laws-6-1",
@@ -8809,7 +8863,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Sine Wave Properties",
-  "body": " Sine Wave Properties   We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of their graphs which have direct application.    Beyond Triangles  In triangles every angle had to be less than because the sum of the angles of a triangle are only . However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use to explore this idea.    Use the the illustration in to see how angles are measured and how the trig functions act on larger angles. Find each of the following.   Angles of measure and What is the sine value for both points? Compare the x coordinates of these two points. Where is the triangle created by the angle ?  Angles of measure and What is the sine value for both points? Compare the sine values for these two points. Where is the triangle created by the angle ?  Angles of measure and Compare the sine values for these two points. Where is the triangle created by the angle ? Note the angle displayed at the origin for : why does it not match the slider angle?  Angles of measure and Where are the triangles for these two points? Move the slider from to . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles    We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine      Properties of Sine Waves   Graph of Sine    Notice that the graph of sine is a wave that repeats. The piece that repeats is called a cycle . In the default graph this is from to as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .    Sometimes instead of measuring how long a single cycle is units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of waves (periods) that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown in   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second we can invert the measure.   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has frequency 261.63 Hz?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).    A local AM radio station broadcasts at Hz. Note radio wave move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle      A triangle has angles of measure and The side opposite angle has length 5. What is the length of the side opposite angle              Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is     Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. Here we will learn to change the amplitude and the frequency of sine waves.   Amplitude and Wavelength    Use to answer the following. Note the amplitude of the unmodified graph is 1. If you set , that is graph what is the amplitude? If you set , that is graph what is the amplitude? How could you obtain an amplitude of 1\/2?  Use to answer the following. Note the wavelength of the unmodified graph is 2. If you set , that is graph what is the wavelength? If you set , that is graph what is the wavelength? How could you obtain a wavelength of 4?    Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Contextless  Application  Contextless   "
+  "body": " Sine Wave Properties   We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of their graphs which have direct application.    Beyond Triangles  In triangles every angle had to be less than because the sum of the angles of a triangle are only . However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use to explore this idea.    Use the the illustration in to see how angles are measured and how the trig functions act on larger angles. Find each of the following.   Angles of measure and What is the sine value for both points? Compare the x coordinates of these two points. Where is the triangle created by the angle ?  Angles of measure and What is the sine value for both points? Compare the sine values for these two points. Where is the triangle created by the angle ?  Angles of measure and Compare the sine values for these two points. Where is the triangle created by the angle ? Note the angle displayed at the origin for : why does it not match the slider angle?  Angles of measure and Where are the triangles for these two points? Move the slider from to . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles    We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine      Properties of Sine Waves   Graph of Sine    Notice that the graph of sine is a wave that repeats. The piece that repeats is called a cycle . In the default graph this is from to as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .    Sometimes instead of measuring how long a single cycle is units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of waves (periods) that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown in   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second we can invert the measure.   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has frequency 261.63 Hz?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).    A local AM radio station broadcasts at Hz. Note radio wave move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle      Consider a D which has frequency 293.66 Hz  What is the period?  What is the wavelength?             Because we know the frequency we can directly calculate the period.   For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).         Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is     Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. Here we will learn to change the amplitude and the frequency of sine waves.   Amplitude and Wavelength    Use to answer the following. Note the amplitude of the unmodified graph is 1. If you set , that is graph what is the amplitude? If you set , that is graph what is the amplitude? How could you obtain an amplitude of 1\/2?  Use to answer the following. Note the wavelength of the unmodified graph is 2. If you set , that is graph what is the wavelength? If you set , that is graph what is the wavelength? How could you obtain a wavelength of 4?    Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Contextless  Application  Contextless   "
 },
 {
   "id": "activity-discover-big-angles",
@@ -8935,7 +8989,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.4.11",
   "title": "",
-  "body": "  A triangle has angles of measure and The side opposite angle has length 5. What is the length of the side opposite angle            "
+  "body": "  Consider a D which has frequency 293.66 Hz  What is the period?  What is the wavelength?             Because we know the frequency we can directly calculate the period.   For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).       "
 },
 {
   "id": "definition-amplitude",

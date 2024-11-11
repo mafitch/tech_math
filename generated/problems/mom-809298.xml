@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="809298">
 <statement>
-<p>Graph the parabola <m>\displaystyle{y}={4}{\left({x}-{2}\right)}^{{2}}+{1}</m></p>
+<p>Graph the parabola <m>\displaystyle{y}={2}{\left({x}-{2}\right)}^{{2}}-{3}</m></p>
 <p>The vertex is <fillin characters="7" />  </p>
-<image width="52%"  pi:generated="problems/images/6797c69517fa4472a301f09e84ecda98.png" />
+<image width="52%"  pi:generated="problems/images/00b5906d5006a059d7cf558f7c548965.png" />
 
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({2},{1}\right)}</m></li><li><image width="52%"  pi:generated="problems/images/1c764cd501fc8efda37578199a0f7793.png" />
-</li></ul></p><p>The form of a parabola is <m>\displaystyle{y}={a}{\left({x}-{h}\right)}^{{2}}+{k}</m>. Because this parabola is <m>\displaystyle{y}={4}{\left({x}-{2}\right)}^{{2}}+{1}</m>, which can be written <m>\displaystyle{y}={4}{\left({x}-{\left({2}\right)}\right)}^{{2}}+{\left({1}\right)}</m> we know the following.</p>
-<p><m>\displaystyle{h}={2}</m>, <m>\displaystyle{k}={1}</m>. Thus the vertex is <m>\displaystyle{\left({2},{1}\right)}</m>.</p>
+<p><ul><li><m>\displaystyle{\left({2},-{3}\right)}</m></li><li><image width="52%"  pi:generated="problems/images/b5ea55f52cb09378091ecf75cb898852.png" />
+</li></ul></p><p>The form of a parabola is <m>\displaystyle{y}={a}{\left({x}-{h}\right)}^{{2}}+{k}</m>. Because this parabola is <m>\displaystyle{y}={2}{\left({x}-{2}\right)}^{{2}}-{3}</m>, which can be written <m>\displaystyle{y}={2}{\left({x}-{\left({2}\right)}\right)}^{{2}}+{\left(-{3}\right)}</m> we know the following.</p>
+<p><m>\displaystyle{h}={2}</m>, <m>\displaystyle{k}=-{3}</m>. Thus the vertex is <m>\displaystyle{\left({2},-{3}\right)}</m>.</p>
 <p>To graph the parabola we can use the vertex and another convenient point. One convenient point is at <m>\displaystyle{x}={2}+{1}={3}</m>.</p>
-<p><m>\displaystyle{y}={4}{\left({3}-{\left({2}\right)}\right)}^{{2}}+{\left({1}\right)}</m></p>
-<p><m>\displaystyle={4}{\left({1}\right)}^{{2}}+{\left({1}\right)}</m></p>
-<p><m>\displaystyle={4}+{\left({1}\right)}</m></p>
-<p><m>\displaystyle={5}</m>.</p>
-<p>We use <m>\displaystyle{\left({3},{5}\right)}</m>.</p>
+<p><m>\displaystyle{y}={2}{\left({3}-{\left({2}\right)}\right)}^{{2}}+{\left(-{3}\right)}</m></p>
+<p><m>\displaystyle={2}{\left({1}\right)}^{{2}}+{\left(-{3}\right)}</m></p>
+<p><m>\displaystyle={2}+{\left(-{3}\right)}</m></p>
+<p><m>\displaystyle=-{1}</m>.</p>
+<p>We use <m>\displaystyle{\left({3},-{1}\right)}</m>.</p>
 </solution>
 </myopenmath>
 
