@@ -43,8 +43,10 @@
         <image source="images/view_angle_definitions" width="50%" />
     </figure>
 
+    <p>For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and/or the hypotenuse are in the application. Then we can setup an equation using a trigonometric function, and use it to calculate something.</p>
+
     <example xml:id="example-apply-ladder-height">
-        <p>For safety reasons the optimal angle of elevation of a ladder is <m>75^\circ</m>. If the ladder is 16' long, at what height will the top of the ladder be resting against a wall?</p>
+        <p>For safety reasons the optimal angle of elevation of a ladder is 75<degree/>. If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall?</p>
         <p>First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle (75<degree/> angle of elevation from the ground), the length of the hypotenuse (length of the ladder), and we want the length side opposite the angle (height along the wall), we want to use the sine function.</p>
         <p><md>
             <mrow>\sin(75^\circ) &amp; = \frac{B}{16}</mrow>
@@ -62,10 +64,10 @@
         </md> Thus we place the ladder a little more than 4 feet from the wall.</p>
         <p>If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.</p>
         <p><md>
-            <mrow>A^2+15.45^2 &amp; = 16^2.</mrow>
-            <mrow>A^2 &amp; = 16^2-15.45^2.</mrow>
-            <mrow>A^2 &amp; = 256-238.7025.</mrow>
-            <mrow>A^2 &amp; = 17.2975.</mrow>
+            <mrow>A^2+15.45^2 &amp; = 16^2</mrow>
+            <mrow>A^2 &amp; = 16^2-15.45^2</mrow>
+            <mrow>A^2 &amp; = 256-238.7025</mrow>
+            <mrow>A^2 &amp; = 17.2975</mrow>
             <mrow>A &amp; = \sqrt{17.2975}</mrow>
             <mrow> &amp; \approx 4.1590</mrow>
             <mrow> &amp; \approx 4.16</mrow>
@@ -73,29 +75,25 @@
     </example>
 
      <example xml:id="example-apply-measure-height">
-        <statement>
-            <p>This use of trigonometry has been around for millenia being used to measure the heights of tall objects.</p>
-            <p>The shadow of a tree is measured to be 103 ft (measured from the  base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63<degree/>. How tall is the tree?</p>
-        </statement>
-        <solution>
-            <p>This forms a right triangle with angle <m>63^\circ</m>, and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function.
-            <md>
-                <mrow>\tan(63^\circ) &amp; = \frac{H}{103}.</mrow>
-                <mrow>103\tan(63^\circ) &amp; = H.</mrow>
-                <mrow>202.15 &amp; = H.</mrow>
-                <mrow>2\bar{0}0 &amp; \approx H.</mrow>
-            </md> The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.</p>
-        </solution>
+        <p>This use of trigonometry has been around for millenia being used to measure the heights of tall objects.</p>
+        <p>The shadow of a tree is measured to be 103 ft (measured from the  base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63<degree/>. How tall is the tree?</p>
+        <p>This forms a right triangle with angle 63<degree/>, and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function.
+        <md>
+            <mrow>\tan(63^\circ) &amp; = \frac{H}{103}</mrow>
+            <mrow>103\tan(63^\circ) &amp; = H</mrow>
+            <mrow>202.15 &amp; = H</mrow>
+            <mrow>2\bar{0}0 &amp; \approx H</mrow>
+        </md> The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.</p>
      </example>
 
      <example xml:id="example-apply-runway-tch">
-        <statement><p>Aircraft typically fly a <m>3^\circ</m> angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.</p></statement>
+        <statement><p>Aircraft typically fly a 3<degree/> angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.</p></statement>
         <solution><p>This is a right triangle with adjacent leg length 1020 ft and angle 3<degree/>. The length of the opposite is the height at the threshold.
         <md>
-            <mrow>\tan(3^\circ) &amp; = \frac{T}{1020}.</mrow>
-            <mrow>1020\tan(3^\circ) &amp; = T.</mrow>
-            <mrow>53.4559 &amp; \approx T.</mrow>
-            <mrow>53 &amp; \approx T.</mrow>
+            <mrow>\tan(3^\circ) &amp; = \frac{T}{1020}</mrow>
+            <mrow>1020\tan(3^\circ) &amp; = T</mrow>
+            <mrow>53.4559 &amp; \approx T</mrow>
+            <mrow>53 &amp; \approx T</mrow>
         </md> We round to the nearest foot, because aircraft cannot be controlled precisely enough for inches to matter.</p></solution>
      </example>
 
@@ -124,21 +122,21 @@
                 <mrow> &amp; \approx \arctan(0.7416666667)</mrow>
                 <mrow> &amp; \approx 36.56309587</mrow>
                 <mrow> &amp; \approx 37^\circ</mrow>
-            </md>
+            </md>.
         Significant digits rounding is used because these are from measurements.</p>
     </example>
 
     <example xml:id="example-aircraft-descent-angle">
         <p>An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent?</p>
-        <p>First, we will need to convert 22 nm to feet. The units in <xref ref="table-customary-convert"/> suggest we can multiply <m>\frac{6076 \text{ ft}}{1 \text{ nm}} \cdot 22 \text{ nm} = 133672</m>.</p>
-        <p>The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000<minus/>9,000 = 4,000. Because we know the lengths of both legs, we can use the inverse tangent function to calculate the angle.
+        <p>First, we will need to convert 22 nm to feet. The units in <xref ref="table-customary-convert"/> suggest we can multiply <m>\frac{6076 \text{ ft}}{1 \text{ nm}} \cdot 22 \text{ nm} = 133672 \text{ ft}</m>.</p>
+        <p>The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000<minus/>9,000 = 4,000 ft. Because we know the lengths of both legs, we can use the inverse tangent function to calculate the angle.
             <md>
                 <mrow>\tan(\theta) &amp; = \frac{4000}{133672}.</mrow>
                 <mrow>\theta &amp; = \arctan\left( \frac{4000}{133672} \right)</mrow>
                 <mrow> &amp; \approx \arctan(0.02992399)</mrow>
                 <mrow> &amp; \approx 1.71400703</mrow>
                 <mrow> &amp; \approx 2^\circ</mrow>
-            </md>
+            </md>.
             We round to units, because aircraft instruments will not show anything more precise.</p>
     </example>
 

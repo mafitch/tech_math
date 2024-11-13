@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{6}{x}-{6}{y}={0}</m> </p>
+<p><m>\displaystyle{2}{x}+{7}{y}={47}</m> </p>
 <p>
-  <m>\displaystyle-{3}{x}+{5}{y}={16}</m></p>
+  <m>\displaystyle-{6}{x}-{2}{y}={30}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{2},{2}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{6}{x}+-{6}{y}={0}</m></p>
-<p><m>\displaystyle-{6}{x}={0}-{\left(-{6}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{0}-{\left(-{6}{y}\right)}}}{{-{{6}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{8},{9}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{2}{x}+{7}{y}={47}</m></p>
+<p><m>\displaystyle{2}{x}={47}-{\left({7}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{{47}-{\left({7}{y}\right)}}}{{2}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle-{3}{\left(\frac{{{0}-{\left(-{6}{y}\right)}}}{{-{{6}}}}\right)}+{5}{y}={16}</m></p>
-<p><m>\displaystyle-\frac{{3}}{{-{{6}}}}\cdot{\left({0}\right)}--\frac{{3}}{{-{{6}}}}{\left(-{6}\right)}{y}+{5}{y}={16}</m></p>
-<p><m>\displaystyle{0}-{\left({3}\right)}{y}+{5}{y}={16}</m></p>
-<p><m>\displaystyle{3}{y}+{\left({5}\right)}{y}={16}-{0}</m></p>
-<p><m>\displaystyle{3}{y}+{\left({5}\right)}{y}={16}</m></p>
-<p><m>\displaystyle{\left({3}+{\left({5}\right)}\right)}{y}={16}</m></p>
-<p><m>\displaystyle{8}{y}={16}</m></p>
-<p><m>\displaystyle{y}=\frac{{16}}{{8}}</m></p>
-<p><m>\displaystyle{y}={2}</m></p>
+<p><m>\displaystyle-{6}{\left(\frac{{{47}-{\left({7}{y}\right)}}}{{2}}\right)}+-{2}{y}={30}</m></p>
+<p><m>\displaystyle-\frac{{6}}{{2}}\cdot{\left({47}\right)}--\frac{{6}}{{2}}{\left({7}\right)}{y}+-{2}{y}={30}</m></p>
+<p><m>\displaystyle-{141}-{\left({21}\right)}{y}+-{2}{y}={30}</m></p>
+<p><m>\displaystyle{21}{y}+{\left(-{2}\right)}{y}={30}--{141}</m></p>
+<p><m>\displaystyle{21}{y}+{\left(-{2}\right)}{y}={171}</m></p>
+<p><m>\displaystyle{\left({21}+{\left(-{2}\right)}\right)}{y}={171}</m></p>
+<p><m>\displaystyle{19}{y}={171}</m></p>
+<p><m>\displaystyle{y}=\frac{{171}}{{19}}</m></p>
+<p><m>\displaystyle{y}={9}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{6}{x}+-{6}{\left({2}\right)}={0}</m></p>
-<p><m>\displaystyle-{6}{x}+{\left(-{12}\right)}={0}</m></p>
-<p><m>\displaystyle-{6}{x}={0}-{\left(-{12}\right)}</m></p>
-<p><m>\displaystyle-{6}{x}={12}</m></p>
-<p><m>\displaystyle{x}=\frac{{12}}{{-{{6}}}}</m></p>
-<p><m>\displaystyle{x}=-{2}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{2},{2}\right)}</m>.</p>
+<p><m>\displaystyle{2}{x}+{7}{\left({9}\right)}={47}</m></p>
+<p><m>\displaystyle{2}{x}+{\left({63}\right)}={47}</m></p>
+<p><m>\displaystyle{2}{x}={47}-{\left({63}\right)}</m></p>
+<p><m>\displaystyle{2}{x}=-{16}</m></p>
+<p><m>\displaystyle{x}=-\frac{{16}}{{2}}</m></p>
+<p><m>\displaystyle{x}=-{8}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{8},{9}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

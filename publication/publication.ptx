@@ -4,9 +4,9 @@
   <!-- Set where external assets and generated assets will be   -->
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
-	<source>
-		<directories external="../external" generated="../generated" />
-	</source>
+  <source>
+    <directories external="../external" generated="../generated" />
+  </source>
 
   <numbering>
     <projects level="0"/>
@@ -20,13 +20,13 @@
 <!--  <webwork server="http://aholiab.uaa.alaska.edu" /> -->
   <webwork server="https://webwork.uaa.alaska.edu" />
 
-	<html>
-<!--		<baseurl href="http://www.math.uaa.alaska.edu/\~afmaf/classes/math104/materials/" /> -->
+  <html>
+<!--    <baseurl href="http://www.math.uaa.alaska.edu/\~afmaf/classes/math104/materials/" /> -->
 <!--    <baseurl href="http://mital.uaa.alaska.edu/" /> -->
-    <baseurl href="http://aholiab.uaa.alaska.edu/mital/" />
-		<knowl example="no"/>
-		<knowl exercise-inline="no"/>
-	</html>
+    <baseurl href="https://mafitch.github.io/tech_math/" />
+    <knowl example="no"/>
+    <knowl exercise-inline="no"/>
+  </html>
 
     <!-- LaTeX specific options: set @print="yes" to get pdf set up   -->
     <!-- for printing; set @sides="two" if the printing woudl be two- -->

@@ -5,299 +5,425 @@
 
 <introduction>
 
-<p>In <xref ref="section-trig-functions" /> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Read and use mathematical models in a technical document</li>
+            <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+            <li>Analyze non-right triangles (skill)</li>
+        </ul>
+    </p>
 
-<p>Note the one relationship that did not require a right angle is the angle sum property <xref ref="theorem-triangle-angle-sum" />.</p>
+    <p>In <xref ref="section-trig-functions" /> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.</p>
+
+    <p>The one relationship that did not require a right angle is the <xref ref="theorem-triangle-angle-sum" text="title" /> Theorem.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-law-sines">
-	<title>Law of Sines</title>
+    <title>Law of Sines</title>
 
-	<p>In <xref ref="figure-trig-truth" /> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.</p>
+    <p>In <xref ref="section-trig-functions" /> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.</p>
 
-	<theorem xml:id="theorem-law-sines">
-		<title>Law of Sines</title>
-		<p>For a triangle with angles and sides as labeled in <xref ref="figure-triangle-labeled" />, <me> \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.</me> </p>
-	</theorem>
+    <theorem xml:id="theorem-law-sines">
+        <title>Law of Sines</title>
+        <p>For a triangle with angles and sides as labeled in <xref ref="figure-triangle-labeled" />, <me> \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.</me> </p>
+    </theorem>
 
-	<figure xml:id="figure-triangle-labeled">
-		<caption>Labeled Triangle</caption>
-		<image source="images/triangle-labeled" width="50%" />
-	</figure>
+    <figure xml:id="figure-triangle-labeled">
+        <caption>Labeled Triangle</caption>
+        <image source="images/triangle-labeled" width="50%" />
+    </figure>
 
-	<example xml:id="example-law-sines-simple1">
-		<introduction><p>A triangle has an angle that is <m>50^\circ</m> which is opposite a side of length 6. It has another angle that is <m>45^\circ</m>.</p></introduction>
-		<task>
-			<statement><p>What is the length of the side opposite the <m>45^\circ</m> angle?</p></statement>
-			<solution><p>According to the law of sines
-				<md>
-					<mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}.</mrow>
-					<mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \text{ Clearing the denominators}</mrow>
-					<mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}.</mrow>
-					<mrow> \amp \approx 5.54.</mrow>
-				</md>
-			</p></solution>
-		</task>
-		<task>
-			<statement><p>What is the third angle and the length of the side opposite it?</p></statement>
-			<solution><p>We can use the angle sum fact to calculate the third angle. <m>50+45+\alpha=180</m> so <m>\alpha=85</m>. The side length can be calculated using the law of sines.
-			<md>
-					<mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}.</mrow>
-					<mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \text{ Clearing the denominators}</mrow>
-					<mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}.</mrow>
-					<mrow> \amp \approx 7.80.</mrow>
-				</md>
-			</p></solution>
-		</task>
-	</example>
+    <example xml:id="example-law-sines-simple1">
+        <introduction><p>A triangle has an angle with measure <m>50^\circ</m> which is opposite a side of length 6. The triangle has another angle with measure <m>45^\circ</m>.</p>
+        <p>Rounding in this example is arbitrarily chosen to be two decimal places.</p></introduction>
+        <task>
+            <p>What is the length of the side opposite the <m>45^\circ</m> angle?</p>
+            <p>Because we know two angles and a side opposite one of them we can use the law of sines.
+                <md>
+                    <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}.</mrow>
+                    <mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \text{ Clearing the denominators}</mrow>
+                    <mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}.</mrow>
+                    <mrow> \amp \approx 5.54.</mrow>
+                </md>
+            </p>
+        </task>
+        <task>
+            <p>What is the third angle and the length of the side opposite it?</p>
+            <p>We can use the angle sum fact to calculate the third angle. <m>50^\circ+45^\circ+\alpha=180^\circ</m> so <m>\alpha=85^\circ</m>. As in the previous step we know an angle, the side opposite it, and another angle so we can use the law of sines.
+            <md>
+                <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}.</mrow>
+                <mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \text{ Clearing the denominators}</mrow>
+                <mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}</mrow>
+                <mrow> \amp \approx 7.80.</mrow>
+            </md></p>
+        </task>
+        <conclusion>
+            <p>If you recall previous geometry this was known as Angle-Angle-Side.</p>
+        </conclusion>
+    </example>
 
-	<example xml:id="example-law-sines-simple2">
-		<introduction><p>A triangle has an angle of measure <m>40^\circ</m>. The side opposite it is length 5. The other two sides are length 6.74 and 7.66.</p></introduction>
-		<task>
-			<statement><p>What is the measure of the angle opposite the side of length 6.74?</p></statement>
-			<solution><p>We can use the law of sines.
-				<md>
-					<mrow>\frac{\sin(40^\circ)}{5} \amp = \frac{\sin(B)}{6.74}.</mrow>
-					<mrow>6.75 \sin(40^\circ) \amp = 5\sin(B). \amp \text{ Clearing the denominators}</mrow>
-					<mrow>\frac{6.75 \sin(40^\circ)}{5} \amp = \sin(B)</mrow>
-					<mrow>\arcsin\left(\frac{6.75 \sin(40^\circ)}{5}\right) \amp = B.</mrow>
-					<mrow>60.20 \approx B.</mrow>
-				</md>
-			</p></solution>
-		</task>
-		<task>
-			<statement><p>What is the measure of the angle opposite the side of length 7.66?</p></statement>
-			<solution><p>We can now use the angle sum fact. <m>40+60.20+\alpha=180</m> so <m>\alpha \approx 79.80</m>.</p></solution>
-		</task>
-	</example>
+    <example xml:id="example-law-sines-simple2">
+        <p>A triangle has two angles with measure <m>40^\circ</m> and <m>60.20^\circ</m>. The side between these two angles has length 7.66.</p>
+        <p>What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.</p>
+        <p>The third angle mesaure is the easiest to calculate, because we can use the angle sum theorem. <m>40^\circ+60.20^\circ+\alpha=180^\circ</m>. Thus <m>\alpha = 79.80^\circ</m>.</p>
+        <p>Now we know an angle (<m>\alpha</m>) and the length of the side opposite it (7.66). This enables us to use the law of sines to calculate the other two side lengths.</p>
+        <p><md>
+            <mrow>\frac{\sin(40^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}.</mrow>
+            <mrow>\frac{a}{\sin(40^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \text{ Proportion true both ways.}</mrow>
+            <mrow>a &amp; = \frac{7.66\sin(40^\circ)}{\sin(79.80^\circ)}</mrow>
+            <mrow> &amp; \approx 5.00281961</mrow>
+            <mrow> &amp; \approx 5.00</mrow>
+        </md>.</p>
+        <p>We calculate the third side the same way.
+        <md>
+            <mrow>\frac{\sin(60.20^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}.</mrow>
+            <mrow>\frac{a}{\sin(60.20^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \text{ Proportion true both ways.}</mrow>
+            <mrow>a &amp; = \frac{7.66\sin(60.20^\circ)}{\sin(79.80^\circ)}</mrow>
+            <mrow> &amp; \approx 6.75382345</mrow>
+            <mrow> &amp; \approx 6.75</mrow>
+        </md>.</p>
+        <p>If you recall previous geometry this was known as Angle-Side-Angle.</p>
+    </example>
 
-	<exercise xml:id="exercise-law-sines1">
-		<webwork>
-			<pg-code>
-				Context("TrigDegrees");
-				$angleA = Compute(random(20,50,5));
-				$angleB = Compute(random(50,80,5));
-				$a = Compute(random(4,7,1));
-				$b = Compute("sin($angleB)/sin($angleA)*$a");
-			</pg-code>
-			<statement>
-				<p>A triangle has angles of measure <m>A=<var name="$angleA"/></m> and <m>B=<var name="$angleB"/></m>. The side opposite angle <m>A</m> has length <var name="$a"/>. What is the length of the side opposite angle <m>B</m>? <var name="$b" width="5" /></p>
-			</statement>
-		</webwork>
-	</exercise>
+    <exercise xml:id="exercise-law-sines1">
+<!--        <webwork>
+            <pg-code>
+                Context("TrigDegrees");
+                $angleA = Compute(random(20,50,5));
+                $angleB = Compute(random(50,80,5));
+                $a = Compute(random(4,7,1));
+                $b = Compute("sin($angleB)/sin($angleA)*$a");
+            </pg-code>
+            <statement>
+                <p>A triangle has angles of measure <m>A=<var name="$angleA"/></m> and <m>B=<var name="$angleB"/></m>. The side opposite angle <m>A</m> has length <var name="$a"/>. What is the length of the side opposite angle <m>B</m>? <var name="$b" width="5" /></p>
+            </statement>
+        </webwork> -->
+        <myopenmath problem="1489519" />
+    </exercise>
+
+    <p>The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.</p>
+
+    <figure xml:id="figure-angle-opposite-side">
+        <caption>Experiment to Demonstrate the Angle/Opposite Side Relationship</caption>
+            <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/AngleSideRelationship.png">
+            <slate xml:id="geogebra-angle-opposite-side" surface="geogebra" material="dd8yafqv" aspect="4:3">
+                    setCoordSystem(-4, 4, 0, 3);
+                    enableShiftDragZoom(false);
+            </slate>
+            <instructions>
+                <p>Use the slider to change the angle. Observe how the length of the side opposite the angle changes length.</p>
+                <p>You can drag the slider or click on it and use the arrow keys.</p>
+            </instructions>
+        </interactive>
+    </figure>
+
+    <activity xml:id="activity-angle-side-relationship">
+        <introduction>
+            <p>Use the illustration above to answer the questions below.</p>
+        </introduction>
+        <task>
+            <p>Use the slider to set the angle to about 10<degree/>.</p>
+            <p>Watch what happens to the length of the opposite side as you increase the angle to 170<degree/>?</p>
+        </task>
+        <task>
+            <p>Recall the <xref ref="theorem-triangle-angle-sum" /> relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?</p>
+            <p>What must be happening to each of the other two angles?</p>
+        </task>
+        <task>
+            <p>In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step.</p>
+            <p>Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger/smaller/unrelated to the angle opposite a shorter side.</p>
+        </task>
+    </activity>
 
 </subsection>
 
 <subsection xml:id="subsection-ass-issue">
-	<title>Ambiguous Triangles</title>
+    <title>Ambiguous Triangles</title>
 
-	<p>We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.</p>
+    <p>Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.</p>
 
-	<example xml:id="example-angle-side-side">
-		<p>A triangle has an angle of measure <m>45^\circ</m> and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?</p>
-		<p>We can try to use the law of sines.
-			<md>
-				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(\theta)}{5}.</mrow>
-				<mrow>5 \cdot \frac{\sin(45^\circ)}{4} \amp = \sin(\theta).</mrow>
-				<mrow>\arcsin\left( \frac{5}{4}\sin(45^\circ) \right) \amp = \theta.</mrow>
-				<mrow>62.11^\circ \amp \approx \theta.</mrow>
-			</md>
-		Using the angle sum fact we learn the other angle is <m>45+62.11+\alpha = 180</m> or <m>\alpha \approx 72.89^\circ</m>. We use the law of sines again to find the length of the final side.
-			<md>
-				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(72.89^\circ)}{c}.</mrow>
-				<mrow>c \sin(45^\circ) \amp = 4\sin(72.89^\circ).</mrow>
-				<mrow>c \amp = 4 \frac{\sin(72.89^\circ)}{\sin(45^\circ)}.</mrow>
-				<mrow>c \amp \approx 5.41.</mrow>
-			</md>
-		This gives us a triangle with angles: <m>45^\circ, 62.11^\circ, 72.89^\circ</m>; and with side lengths: 4, 5, and 5.41.
-		</p>
-		<p>Note <m>\sin(117.89^\circ)=\sin(62.11^\circ)</m>, that is,  If we use <m>117.89^\circ</m> as the second angle, the third angle is <m>45+117.89+\alpha = 180</m> or <m>\alpha \approx 17.11^\circ</m>.
-			<md>
-				<mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(17.11^\circ)}{c}.</mrow>
-				<mrow>c \sin(45^\circ) \amp = 4\sin(17.11^\circ).</mrow>
-				<mrow>c \amp = 4 \frac{\sin(17.11^\circ)}{\sin(45^\circ)}.</mrow>
-				<mrow>c \amp \approx 1.66.</mrow>
-			</md>
-		Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <xref ref="figure-ass-two-cases" />. This indicates an ambiguity if what we know is this particular information.</p>
-	</example>
+    <example xml:id="example-angle-side-side">
+        <p>A triangle has an angle of measure <m>45^\circ</m> and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?</p>
+        <p>We can try to use the law of sines.
+            <md>
+                <mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(\theta)}{5}.</mrow>
+                <mrow>5 \cdot \frac{\sin(45^\circ)}{4} \amp = \sin(\theta).</mrow>
+                <mrow>\arcsin\left( \frac{5}{4}\sin(45^\circ) \right) \amp = \theta.</mrow>
+                <mrow>62.11^\circ \amp \approx \theta.</mrow>
+            </md>
+        Using the angle sum fact we learn the other angle is <m>45^\circ+62.11^\circ+\alpha = 180^\circ</m> or <m>\alpha \approx 72.89^\circ</m>. We use the law of sines again to find the length of the final side.
+            <md>
+                <mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(72.89^\circ)}{c}.</mrow>
+                <mrow>\frac{4}{\sin(45^\circ)} \amp = \frac{c}{\sin(72.89^\circ)}.</mrow>
+                <mrow>c \amp = 4 \frac{\sin(72.89^\circ)}{\sin(45^\circ)}.</mrow>
+                <mrow>c \amp \approx 5.41.</mrow>
+            </md>
+        This gives us a triangle with angles: 45<degree/>, 62.11<degree/>, and 72.89<degree/>; and with side lengths: 4, 5, and 5.41.</p>
+        <p>However, <m>\sin(117.89^\circ)=\sin(62.11^\circ)</m>, that is, <m>\arcsin\arcsin\left( \frac{5}{4}\sin(45^\circ) \right)</m> had multiple possible angles. We will repeat the calulcations above using <m>117.89^\circ</m> as the second angle. The third angle is <m>45^\circ+117.89^\circ+\alpha = 180^\circ</m> or <m>\alpha \approx 17.11^\circ</m>.
+            <md>
+                <mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(17.11^\circ)}{c}.</mrow>
+                <mrow>c \sin(45^\circ) \amp = 4\sin(17.11^\circ).</mrow>
+                <mrow>c \amp = 4 \frac{\sin(17.11^\circ)}{\sin(45^\circ)}.</mrow>
+                <mrow>c \amp \approx 1.66.</mrow>
+            </md></p>
+        <p>Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <xref ref="figure-ass-two-cases" />. This indicates an ambiguity if what we know is this particular information.</p>
+        <p>If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.</p>
+    </example>
 
-	<figure xml:id="figure-ass-two-cases">
-		<caption>Two Possible Triangles</caption>
-		<sidebyside>
-			<image source="images/ASS_triangle1" width="45%" />
-			<image source="images/ASS_triangle2" width="45%" />
-		</sidebyside>
-	</figure>
+    <figure xml:id="figure-ass-two-cases">
+        <caption>Two Possible Triangles</caption>
+        <sidebyside>
+            <image source="images/ASS_triangle1" width="45%" />
+            <image source="images/ASS_triangle2" width="45%" />
+        </sidebyside>
+    </figure>
+
+    <p>When using the law of sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.</p>
 
 </subsection>
 
 <subsection xml:id="subsection-law-cosines">
-	<title>Law of Cosines</title>
+    <title>Law of Cosines</title>
 
-	<p>For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.</p>
+    <p>For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.</p>
 
-	<theorem xml:id="theorem-law-cosines">
-		<title>Law of Cosines</title>
+    <theorem xml:id="theorem-law-cosines">
+        <title>Law of Cosines</title>
 
-		<statement><p>For any triangle with side lengths <m>a,b,c</m> and angle <m>C</m> which is opposite the side with length <m>c</m>
-		<me>c^2 = a^2+b^2-2ab\cos(C)</me>.</p></statement>
-	</theorem>
+        <statement><p>For any triangle with side lengths <m>a,b,c</m> and angle <m>C</m> which is opposite the side with length <m>c</m>
+        <me>c^2 = a^2+b^2-2ab\cos(C)</me>.</p></statement>
+    </theorem>
 
-	<example xml:id="example-law-cosines-sss">
-		<statement><p>A triangle has sides of lengths 4, 5.39, and 6.13. What are the  angles?</p></statement>
-		<solution><p>We can use the Law of Cosines.
-			<md>
-				<mrow>4^2 \amp = 5.39^2+6.13^2-2(5.39)(6.13)\cos(A).</mrow>
-				<mrow>-50.63 \amp = -66.08 \cos(A).</mrow>
-				<mrow>\frac{-50.63}{-66.08} \amp = \cos(A).</mrow>
-				<mrow>0.7662 \amp = \cos(A).</mrow>
-				<mrow>\arccos(0.7662) \amp = A.</mrow>
-				<mrow>39.99^\circ \amp \approx A.</mrow>
-			</md>
-		With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again.
-			<md>
-				<mrow>5.39^2 \amp = 4^2+6.13^2-2(4)(6.13)\cos(B).</mrow>
-				<mrow>-24.52 \amp = -49.04\cos(B).</mrow>
-				<mrow>0.5 \amp = \cos(B).</mrow>
-				<mrow>\arccos(0.5) \amp = B.</mrow>
-				<mrow>60^\circ \amp = B.</mrow>
-			</md>
-		Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. <m>39.99+60+C=180</m> so <m>C = 80.01</m>.</p></solution>
-	</example>
+    <example xml:id="example-law-cosines-sss">
+        <p>A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the  angles?</p>
+        <p>We can use the Law of Cosines.
+            <md>
+                <mrow>4^2 \amp = 5.39^2+6.13^2-2(5.39)(6.13)\cos(A).</mrow>
+                <mrow>16 \amp = 29.0521+37.5769-66.0814\cos(A).</mrow>
+                <mrow>-50.629 \amp = -66.0814 \cos(A).</mrow>
+                <mrow>\frac{-50.629}{-66.0814} \amp = \cos(A).</mrow>
+                <mrow>0.76616113 \amp \approx \cos(A).</mrow>
+                <mrow>\arccos(0.76616113) \amp \approx A.</mrow>
+                <mrow>39.98959796^\circ \amp \approx A.</mrow>
+                <mrow>40.0^\circ \amp \approx A.</mrow>
+            </md>
+        With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again.
+            <md>
+                <mrow>5.39^2 \amp = 4^2+6.13^2-2(4)(6.13)\cos(B).</mrow>
+                <mrow>29.0521 \amp = 16+37.5769-49.04\cos(B).</mrow>
+                <mrow>-24.5248 \amp = -49.04\cos(B).</mrow>
+                <mrow>0.50009788 \amp \approx \cos(B).</mrow>
+                <mrow>\arccos(0.50009788) \amp \approx B.</mrow>
+                <mrow>59.99352413^\circ \amp \approx B.</mrow>
+                <mrow>60^\circ \amp \approx B.</mrow>
+            </md>
+        Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. <m>40.0^\circ+60^\circ+C=180^\circ</m> so <m>C = 80.00^\circ</m>.</p>
+        <p>If you recall previous geometry this was known as Side-Side-Side.</p>
+    </example>
 
-	<example xml:id="example-law-cosine-asa">
-		<statement><p>A triangle has side lengths 5 and 7 and the angle between them is <m>40^\circ</m>. What are the length of the other side and the measures of the other angles?</p></statement>
-		<solution><p>
-			We can use the Law of Cosines because we know <m>a,b</m> and <m>C</m>.
-			<md>
-				<mrow>c^2 \amp = 5^2+7^2-2(5)(7)\cos(40^\circ)</mrow>
-				<mrow>c^2 \amp \approx 20.38.</mrow>
-				<mrow>\sqrt{c^2} \amp \approx \sqrt{20.38}.</mrow>
-				<mrow>c \amp \approx 4.51.</mrow>
-			</md>
-			Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles.
-			<md>
-				<mrow>\frac{\sin(40^\circ)}{4.51} \amp = \frac{\sin(A)}{5}.</mrow>
-				<mrow>5 \cdot \frac{\sin(40^\circ)}{4.51} \amp = 5 \cdot \frac{\sin(A)}{5}.</mrow>
-				<mrow>0.7126 \amp = \sin(A).</mrow>
-				<mrow>\arcsin(0.7126) \amp = A.</mrow>
-				<mrow>45.45 \amp \approx A.</mrow>
-			</md>
-			Finally we can use the angle sum theorem to calculate the final angle.
-			<m>40+45.45+B = 180</m> so <m>B=94.55</m>.
-		</p></solution>
-	</example>
+    <example xml:id="example-law-cosine-sas">
+        <p>A triangle has sides with lengths 5 and 7 and the angle between them is 40<degree/>. What are the length of the other side and the measures of the other angles?</p>
+        <p>Because we have two sides (<m>a,b</m>) and the angle between them (<m>C</m>) we can use the Law of Cosines.
+            <md>
+                <mrow>c^2 \amp = 5^2+7^2-2(5)(7)\cos(40^\circ)</mrow>
+                <mrow>c^2 \amp \approx 20.37688900.</mrow>
+                <mrow>\sqrt{c^2} \amp \approx \sqrt{20.37688900}.</mrow>
+                <mrow>c \amp \approx 4.514076761</mrow>
+                <mrow> \amp \approx 4.51.</mrow>
+            </md>
+            Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles.
+            <md>
+                <mrow>\frac{\sin(40^\circ)}{4.514076761} \amp = \frac{\sin(A)}{5}.</mrow>
+                <mrow>0.71198126 \amp = \sin(A).</mrow>
+                <mrow>\arcsin(0.71198126) \amp = A.</mrow>
+                <mrow>45.39634537 \amp \approx A.</mrow>
+                <mrow>45.4 \amp \approx A.</mrow>
+            </md>
+            Finally we can use the angle sum theorem to calculate the final angle.
+            <m>40^\circ+45.4^\circ+B = 180^\circ</m> so <m>B=94.6^\circ</m>.
+        </p>
+        <p>If you recall previous geometry this was known as Side-Angle-Side.</p>
+    </example>
 
-	<exercise xml:id="exercise-law-cosines1">
-		<webwork>
-			<pg-code>
-				Context("TrigDegrees");
-				$angleA = Compute(random(20,50,5));
-				$angleB = Compute(random(55,80,5));
-				$angleC = 180-$angleA-$angleB;
-				$a = Compute(random(4,7,1));
-				$b = Compute("sin($angleB)/sin($angleA)*$a");
-				$c = Compute("sin($angleC)/sin($angleA)*$a");
-			</pg-code>
-			<statement>
-				<p>A triangle has sides of length <m>a=<var name="$a"/></m>, <m>b=<var name="$b"/></m>, and <m>c=<var name="$c"/></m>. What is the measure of the angle opposite the side of length <m>a</m>? <var name="$angleA" width="5" /></p>
-			</statement>
-		</webwork>
-	</exercise>
+    <exercise xml:id="exercise-law-cosines1">
+<!--        <webwork>
+            <pg-code>
+                Context("TrigDegrees");
+                $angleA = Compute(random(20,50,5));
+                $angleB = Compute(random(55,80,5));
+                $angleC = 180-$angleA-$angleB;
+                $a = Compute(random(4,7,1));
+                $b = Compute("sin($angleB)/sin($angleA)*$a");
+                $c = Compute("sin($angleC)/sin($angleA)*$a");
+            </pg-code>
+            <statement>
+                <p>A triangle has sides of length <m>a=<var name="$a"/></m>, <m>b=<var name="$b"/></m>, and <m>c=<var name="$c"/></m>. What is the measure of the angle opposite the side of length <m>a</m>? <var name="$angleA" width="5" /></p>
+            </statement>
+        </webwork> -->
+        <myopenmath problem="1489664" />
+    </exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-trig-law-applications">
+    <title>Using Trigonometric Laws in Applications</title>
+
+    <p>When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.</p>
+
+    <example xml:id="example-flight-distance">
+        <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from the start of this maneuver?</p>
+        <p>First, it helps to sketch an image.</p>
+        <image source="images/sailboat-course" width="50%" />
+        <p>In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).</p>
+        <p>We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300<degree/> and ended up at 245<degree/> then we turned left <m>300^\circ-245^\circ = 55^\circ</m>.</p>
+        <p>Now we can apply the Law of Cosines.
+            <md>
+                <mrow>c^2 &amp; = 3341^2+4051^2-2(3341)(4051)\cos(55^\circ)</mrow>
+                <mrow> &amp; = 27572882 - 27068782\cos(55^\circ)</mrow>
+                <mrow> &amp; \approx 27572882 - 15526015.51</mrow>
+                <mrow> &amp; \approx 12046866.49.</mrow>
+                <mrow>c &amp; \approx \sqrt{12046866.49}</mrow>
+                <mrow> &amp; \approx 3470.859618</mrow>
+                <mrow> &amp; \approx 3471.</mrow>
+            </md>
+        Thus the sailboat ended up 3471 ft from its starting point.</p>
+    </example>
+
+    <example xml:id="example-object-height">
+        <p>Two observers who are 2.3 miles apart on the ground at the same altitude record the angle at which they saw a passing aircraft at the same time. The observer at point A recorded an angle of 56<degree/> from horizontal. The observer at point B recorded an angle of 87<degree/> from horizontal. How high above ground was the aircraft?</p>
+        <p>First, it helps to sketch an image.</p>
+        <image source="images/aircraft-height" width="50%" />
+        <p>In our sketch we see multiple triangles including some right triangles. There is non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we can apply the law of sines to find the other side lengths. However, none of these is the desired altitude.</p>
+        <p>There is also a right triangle with side from A to C and the other leg is the altitude we are seeking (labeled <m>h</m>). It shares a side with the previous triangle, so if we find that side length we are closer to the answer.</p>
+        <p>Because we have angle-side-angle information, we will use the Law of Sines. We want to know the length of the side across from the angle at B. However, the angle we were given is the other side of the triangle. We must apply another fact: the angle of a line is 180<degree/>. Thus <m>34.20^\circ+B = 180^\circ</m> or <m>B = 145.80^\circ</m>.</p>
+        <p>To setup the Law of Sines using this angle we need the angle across from the side of known length. That angle is not labeled. We can use the Triangle Angle Sum theorem to calculate its measure. <m>8.00^\circ+145.80^\circ+P = 180^\circ</m> So, the angle at the aircraft is <m>P = 26.2^\circ</m>.</p>
+        <p>Now we can apply the Law of Sines.
+            <md>
+                <mrow>\frac{\sin(145.80^\circ)}{c} &amp; = \frac{\sin(26.2^\circ)}{2.3 \text{ mi}}.</mrow>
+                <mrow>\frac{c}{\sin(145.80^\circ)} &amp; = \frac{2.3 \text{ mi}}{\sin(26.2^\circ)}.</mrow>
+                <mrow>c &amp; = \frac{(2.3 \text{ mi})\sin(145.80^\circ)}{\sin(26.2^\circ)}</mrow>
+                <mrow> &amp; \approx 2.92814186</mrow>
+                <mrow> &amp; \approx 2.9.</mrow>
+            </md>
+        </p>
+        <p>We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. However, we know only part of the length of the other leg. If we knew the angle at the top of the right triangle (at the aircraft), we could set up the Law of Sines again. Again the triangle angle sum will give us that angle. <m>8.00^\circ+P^\prime+90^\circ=180^\circ</m> because this is a right triangle. Thus <m>P^\prime=82.00^\circ</m>. Now we can use the Law of Sines to calculate the length of the complete bottom side.
+            <md>
+                <mrow>\frac{\sin(82.00^\circ)}{AC} &amp; = \frac{\sin(90^\circ)}{2.92814186 \text{ mi}}.</mrow>
+                <mrow>\frac{AC}{\sin(82.00^\circ)} &amp; = \frac{2.92814186}{\sin(90^\circ)}.</mrow>
+                <mrow>AC &amp; = \frac{(2.92814186 \text{ mi})\sin(82.00^\circ)}{\sin(90^\circ)}</mrow>
+                <mrow> &amp; \approx 2.89964538</mrow>
+                <mrow> &amp; \approx 2.9.</mrow>
+            </md>
+        Notice that due to rounding and the very small angle (8<degree/>) this leg is indistinguishably shorter than the hypotenuse.</p>
+        <p>Finally, we can use the Pythagorean Theorem to calculate the altitude.
+            <md>
+                <mrow>h^2+(2.89964538)^2 &amp; \approx (2.92814186)^2.</mrow>
+                <mrow>h^2+8.40794333 &amp; \approx 8.574014752.</mrow>
+                <mrow>h^2 &amp; \approx 0.16607142.</mrow>
+                <mrow>h &amp; \approx \sqrt{0.16607142}</mrow>
+                <mrow> &amp; \approx 0.40751862</mrow>
+                <mrow> &amp; \approx 0.41.</mrow>
+            </md>
+        This is in miles. It will be easier to interpret in feet. The conversion ratio in <xref ref="table-customary-convert" /> suggests we can multiply <me>(0.40751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2151.6983 \text{ ft} \approx 2200 \text{ ft}</me>.</p>
+    </example>
 
 </subsection>
 
 <exercises>
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="835745" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="835745" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="835746" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="835746" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="835748" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="835748" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="835748" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="835748" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="835748" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="835748" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="8477" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="8477" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="8478" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="8478" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="8479" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="8479" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="14432" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="14432" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="4413" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="4413" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="835751" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="835751" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="1059257" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="1059257" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="4323" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="4323" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="4324" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="4324" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="4424" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="4424" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="840203" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="840203" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="835757" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="835757" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="4430" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="4430" />
+    </exercise>
 
 </exercises>
 
