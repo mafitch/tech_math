@@ -12,7 +12,7 @@
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta xmlns:pf="https://prefigure.org" property="og:type" content="book">
-<meta xmlns:pf="https://prefigure.org" property="og:image" content="http://aholiab.uaa.alaska.edu/mital/external/images/UAA_GG.png">
+<meta xmlns:pf="https://prefigure.org" property="og:image" content="https://mafitch.github.io/tech_math/external/images/UAA_GG.png">
 <meta xmlns:pf="https://prefigure.org" property="book:title" content="Mathematics in Trades and Life">
 <meta xmlns:pf="https://prefigure.org" property="book:author" content="Mark Fitch">
 <meta xmlns:pf="https://prefigure.org" property="book:author" content="Megan Ossiander-Gobeille">
@@ -505,7 +505,8 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-6" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-trig-law-applications" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Using Trigonometric Laws in Applications</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-7" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -524,11 +525,23 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:pf="https://prefigure.org" class="section" id="section-trig-laws"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">7.3</span><span class="space"> </span><span class="title">Non-Right Triangles</span>
 </h2>
-<section class="introduction" id="section-trig-laws-2"><div class="para" id="section-trig-laws-2-1">In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. Here we learn some relationships that do not require any angle to be a right angle.</div>
-<div class="para" id="section-trig-laws-2-2">Note the one relationship that did not require a right angle is the angle sum property <a href="section-trig-functions.html#theorem-triangle-angle-sum" class="xref" data-knowl="./knowl/xref/theorem-triangle-angle-sum.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.1.1">Theorem 7.1.1</a>.</div></section><section class="subsection" id="subsection-law-sines"><h3 class="heading hide-type">
+<section class="introduction" id="section-trig-laws-2"><div class="para logical" id="section-trig-laws-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-trig-laws-2-1-1">
+<li id="section-trig-laws-2-1-1-1"><div class="para" id="p-derived-section-trig-laws-2-1-1-1">Read and use mathematical models in a technical document</div></li>
+<li id="section-trig-laws-2-1-1-2"><div class="para" id="p-derived-section-trig-laws-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-trig-laws-2-1-2">
+<li id="section-trig-laws-2-1-2-1"><div class="para" id="p-derived-section-trig-laws-2-1-2-1">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</div></li>
+<li id="section-trig-laws-2-1-2-2"><div class="para" id="p-derived-section-trig-laws-2-1-2-2">Analyze non-right triangles (skill)</div></li>
+</ul>
+</div>
+<div class="para" id="section-trig-laws-2-2">In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.</div>
+<div class="para" id="section-trig-laws-2-3">The one relationship that did not require a right angle is the <a href="section-trig-functions.html#theorem-triangle-angle-sum" class="xref" data-knowl="./knowl/xref/theorem-triangle-angle-sum.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.1.1: Triangle Angle Sum">Triangle Angle Sum</a> Theorem.</div></section><section class="subsection" id="subsection-law-sines"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.3.1</span><span class="space"> </span><span class="title">Law of Sines</span>
 </h3>
-<div class="para" id="subsection-law-sines-2">In <a href="section-trig-functions.html#figure-trig-truth" class="xref" data-knowl="./knowl/xref/figure-trig-truth.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.1.20">Figure 7.1.20</a> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between an angle of a triangle and the side opposite it. Note that this property is a proportion.</div>
+<div class="para" id="subsection-law-sines-2">In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.</div>
 <article class="theorem theorem-like" id="theorem-law-sines"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Law of Sines.</span>
 </h4>
@@ -543,13 +556,16 @@ eBookConfig.enable_chatcodes =  false;
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.3.2<span class="period">.</span></span><span class="space"> </span>Labeled Triangle</figcaption></figure><article class="example example-like" id="example-law-sines-simple1"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.3</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="example-law-sines-simple1-1"><div class="para" id="example-law-sines-simple1-1-1">A triangle has an angle that is <span class="process-math">\(50^\circ\)</span> which is opposite a side of length 6. It has another angle that is <span class="process-math">\(45^\circ\text{.}\)</span>
-</div></div>
+<div class="introduction" id="example-law-sines-simple1-1">
+<div class="para" id="example-law-sines-simple1-1-1">A triangle has an angle with measure <span class="process-math">\(50^\circ\)</span> which is opposite a side of length 6. The triangle has another angle with measure <span class="process-math">\(45^\circ\text{.}\)</span>
+</div>
+<div class="para" id="example-law-sines-simple1-1-2">Rounding in this example is arbitrarily chosen to be two decimal places.</div>
+</div>
 <article class="task exercise-like" id="example-law-sines-simple1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-law-sines-simple1-2-1-1">What is the length of the side opposite the <span class="process-math">\(45^\circ\)</span> angle?</div>
-<div class="solutions"><details id="example-law-sines-simple1-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-law-sines-simple1-2-2-1">
-<div class="para">According to the law of sines</div>
-<div class="displaymath process-math" id="example-law-sines-simple1-2-2-1-1">
+<div class="para" id="example-law-sines-simple1-2-1">What is the length of the side opposite the <span class="process-math">\(45^\circ\)</span> angle?</div>
+<div class="para logical" id="example-law-sines-simple1-2-2">
+<div class="para">Because we know two angles and a side opposite one of them we can use the law of sines.</div>
+<div class="displaymath process-math" id="example-law-sines-simple1-2-2-1">
 \begin{align*}
 \frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}.\\
 b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \text{ Clearing the denominators}\\
@@ -557,51 +573,71 @@ b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}.\\
 \amp \approx 5.54.
 \end{align*}
 </div>
-</div></div></details></div></article><article class="task exercise-like" id="example-law-sines-simple1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-law-sines-simple1-3-1-1">What is the third angle and the length of the side opposite it?</div>
-<div class="solutions"><details id="example-law-sines-simple1-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-law-sines-simple1-3-2-1">
-<div class="para">We can use the angle sum fact to calculate the third angle. <span class="process-math">\(50+45+\alpha=180\)</span> so <span class="process-math">\(\alpha=85\text{.}\)</span> The side length can be calculated using the law of sines.</div>
-<div class="displaymath process-math" id="example-law-sines-simple1-3-2-1-3">
+</div></article><article class="task exercise-like" id="example-law-sines-simple1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="example-law-sines-simple1-3-1">What is the third angle and the length of the side opposite it?</div>
+<div class="para logical" id="example-law-sines-simple1-3-2">
+<div class="para">We can use the angle sum fact to calculate the third angle. <span class="process-math">\(50^\circ+45^\circ+\alpha=180^\circ\)</span> so <span class="process-math">\(\alpha=85^\circ\text{.}\)</span> As in the previous step we know an angle, the side opposite it, and another angle so we can use the law of sines.</div>
+<div class="displaymath process-math" id="example-law-sines-simple1-3-2-3">
 \begin{align*}
 \frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}.\\
 c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \text{ Clearing the denominators}\\
-c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}.\\
+c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}\\
 \amp \approx 7.80.
 \end{align*}
 </div>
-</div></div></details></div></article></article><article class="example example-like" id="example-law-sines-simple2"><h4 class="heading">
+</div></article><div class="conclusion" id="example-law-sines-simple1-4"><div class="para" id="example-law-sines-simple1-4-1">If you recall previous geometry this was known as Angle-Angle-Side.</div></div></article><article class="example example-like" id="example-law-sines-simple2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.4</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="example-law-sines-simple2-1"><div class="para" id="example-law-sines-simple2-1-1">A triangle has an angle of measure <span class="process-math">\(40^\circ\text{.}\)</span> The side opposite it is length 5. The other two sides are length 6.74 and 7.66.</div></div>
-<article class="task exercise-like" id="example-law-sines-simple2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-law-sines-simple2-2-1-1">What is the measure of the angle opposite the side of length 6.74?</div>
-<div class="solutions"><details id="example-law-sines-simple2-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-law-sines-simple2-2-2-1">
-<div class="para">We can use the law of sines.</div>
-<div class="displaymath process-math" id="example-law-sines-simple2-2-2-1-1">
+<div class="para" id="example-law-sines-simple2-1">A triangle has two angles with measure <span class="process-math">\(40^\circ\)</span> and <span class="process-math">\(60.20^\circ\text{.}\)</span> The side between these two angles has length 7.66.</div>
+<div class="para" id="example-law-sines-simple2-2">What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.</div>
+<div class="para" id="example-law-sines-simple2-3">The third angle mesaure is the easiest to calculate, because we can use the angle sum theorem. <span class="process-math">\(40^\circ+60.20^\circ+\alpha=180^\circ\text{.}\)</span> Thus <span class="process-math">\(\alpha = 79.80^\circ\text{.}\)</span>
+</div>
+<div class="para" id="example-law-sines-simple2-4">Now we know an angle (<span class="process-math">\(\alpha\)</span>) and the length of the side opposite it (7.66). This enables us to use the law of sines to calculate the other two side lengths.</div>
+<div class="para logical" id="example-law-sines-simple2-5"><div class="displaymath process-math" id="example-law-sines-simple2-5-1">
 \begin{align*}
-\frac{\sin(40^\circ)}{5} \amp = \frac{\sin(B)}{6.74}.\\
-6.75 \sin(40^\circ) \amp = 5\sin(B). \amp \text{ Clearing the denominators}\\
-\frac{6.75 \sin(40^\circ)}{5} \amp = \sin(B)\\
-\arcsin\left(\frac{6.75 \sin(40^\circ)}{5}\right) \amp = B.\\
-60.20 \approx B.
+\frac{\sin(40^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}.\\
+\frac{a}{\sin(40^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \text{ Proportion true both ways.}\\
+a &amp; = \frac{7.66\sin(40^\circ)}{\sin(79.80^\circ)}\\
+&amp; \approx 5.00281961\\
+&amp; \approx 5.00\text{.}
+\end{align*}
+</div></div>
+<div class="para logical" id="example-law-sines-simple2-6">
+<div class="para">We calculate the third side the same way.</div>
+<div class="displaymath process-math" id="example-law-sines-simple2-6-1">
+\begin{align*}
+\frac{\sin(60.20^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}.\\
+\frac{a}{\sin(60.20^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \text{ Proportion true both ways.}\\
+a &amp; = \frac{7.66\sin(60.20^\circ)}{\sin(79.80^\circ)}\\
+&amp; \approx 6.75382345\\
+&amp; \approx 6.75\text{.}
 \end{align*}
 </div>
-</div></div></details></div></article><article class="task exercise-like" id="example-law-sines-simple2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-law-sines-simple2-3-1-1">What is the measure of the angle opposite the side of length 7.66?</div>
-<div class="solutions"><details id="example-law-sines-simple2-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-law-sines-simple2-3-2-1">We can now use the angle sum fact. <span class="process-math">\(40+60.20+\alpha=180\)</span> so <span class="process-math">\(\alpha \approx 79.80\text{.}\)</span>
-</div></div></details></div></article></article><article class="exercise exercise-like" id="exercise-law-sines1"><h4 class="heading">
+</div>
+<div class="para" id="example-law-sines-simple2-7">If you recall previous geometry this was known as Angle-Side-Angle.</div></article><article class="exercise exercise-like" id="exercise-law-sines1"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.3.5</span><span class="period">.</span>
 </h4>
-<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiY29udGV4dFRyaWdEZWdyZWVzLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIlRyaWdEZWdyZWVzIik7CiRhbmdsZUEgPSBDb21wdXRlKHJhbmRvbSgyMCw1MCw1KSk7CiRhbmdsZUIgPSBDb21wdXRlKHJhbmRvbSg1MCw4MCw1KSk7CiRhID0gQ29tcHV0ZShyYW5kb20oNCw3LDEpKTsKJGIgPSBDb21wdXRlKCJzaW4oJGFuZ2xlQikvc2luKCRhbmdsZUEpKiRhIik7CgpCRUdJTl9QR01MCkEgdHJpYW5nbGUgaGFzIGFuZ2xlcyBvZiBtZWFzdXJlIFtgQT1bJGFuZ2xlQV1gXSBhbmQgW2BCPVskYW5nbGVCXVx0ZXh0ey59YF0gVGhlIHNpZGUgb3Bwb3NpdGUgYW5nbGUgW2BBYF0gaGFzIGxlbmd0aCBbJGFdLiBXaGF0IGlzIHRoZSBsZW5ndGggb2YgdGhlIHNpZGUgb3Bwb3NpdGUgYW5nbGUgW2BCXHRleHR7P31gXSBbX117JGJ9ezV9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
-<div class="problem-contents"><div class="para" id="extracted-webwork-1-1-1-1">A triangle has angles of measure <span class="process-math">\(A={20}\)</span> and <span class="process-math">\(B={75}\text{.}\)</span> The side opposite angle <span class="process-math">\(A\)</span> has length 4. What is the length of the side opposite angle <span class="process-math">\(B\text{?}\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
-</div></div>
-</div></article></section><section class="subsection" id="subsection-ass-issue"><h3 class="heading hide-type">
+<div id="momexercise-law-sines1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-law-sines1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1489519&amp;frame_id=momexercise-law-sines1-1"></iframe></div></article><div class="para" id="subsection-law-sines-8">The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.</div>
+<figure class="figure figure-like" id="figure-angle-opposite-side"><iframe id="figure-angle-opposite-side-2" width="600" height="450" src="figure-angle-opposite-side-2-if.html"></iframe><div class="instructions"><details id="figure-angle-opposite-side-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content">
+<div class="para" id="figure-angle-opposite-side-2-2-1">Use the slider to change the angle. Observe how the length of the side opposite the angle changes length.</div>
+<div class="para" id="figure-angle-opposite-side-2-2-2">You can drag the slider or click on it and use the arrow keys.</div>
+</div></details></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.3.6<span class="period">.</span></span><span class="space"> </span>Experiment to Demonstrate the Angle/Opposite Side Relationship</figcaption></figure><article class="activity project-like" id="activity-angle-side-relationship"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">13</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="activity-angle-side-relationship-1"><div class="para" id="activity-angle-side-relationship-1-1">Use the illustration above to answer the questions below.</div></div>
+<article class="task exercise-like" id="activity-angle-side-relationship-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="activity-angle-side-relationship-2-1">Use the slider to set the angle to about 10°.</div>
+<div class="para" id="activity-angle-side-relationship-2-2">Watch what happens to the length of the opposite side as you increase the angle to 170°?</div></article><article class="task exercise-like" id="activity-angle-side-relationship-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="activity-angle-side-relationship-3-1">Recall the <a href="section-trig-functions.html#theorem-triangle-angle-sum" class="xref" data-knowl="./knowl/xref/theorem-triangle-angle-sum.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.1.1: Triangle Angle Sum">Theorem 7.1.1</a> relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?</div>
+<div class="para" id="activity-angle-side-relationship-3-2">What must be happening to each of the other two angles?</div></article><article class="task exercise-like" id="activity-angle-side-relationship-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="activity-angle-side-relationship-4-1">In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step.</div>
+<div class="para" id="activity-angle-side-relationship-4-2">Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger/smaller/unrelated to the angle opposite a shorter side.</div></article></article></section><section class="subsection" id="subsection-ass-issue"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.3.2</span><span class="space"> </span><span class="title">Ambiguous Triangles</span>
 </h3>
-<div class="para" id="subsection-ass-issue-2">We have calculated angles and side lengths given partial information about a triangle. Here we look at one case we cannot resolve without additional information.</div>
+<div class="para" id="subsection-ass-issue-2">Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.</div>
 <article class="example example-like" id="example-angle-side-side"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.6</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-angle-side-side-1">A triangle has an angle of measure <span class="process-math">\(45^\circ\)</span> and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?</div>
 <div class="para logical" id="example-angle-side-side-2">
@@ -614,21 +650,21 @@ c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}.\\
 62.11^\circ \amp \approx \theta.
 \end{align*}
 </div>
-<div class="para">Using the angle sum fact we learn the other angle is <span class="process-math">\(45+62.11+\alpha = 180\)</span> or <span class="process-math">\(\alpha \approx 72.89^\circ\text{.}\)</span> We use the law of sines again to find the length of the final side.</div>
+<div class="para">Using the angle sum fact we learn the other angle is <span class="process-math">\(45^\circ+62.11^\circ+\alpha = 180^\circ\)</span> or <span class="process-math">\(\alpha \approx 72.89^\circ\text{.}\)</span> We use the law of sines again to find the length of the final side.</div>
 <div class="displaymath process-math" id="example-angle-side-side-2-4">
 \begin{align*}
 \frac{\sin(45^\circ)}{4} \amp = \frac{\sin(72.89^\circ)}{c}.\\
-c \sin(45^\circ) \amp = 4\sin(72.89^\circ).\\
+\frac{4}{\sin(45^\circ)} \amp = \frac{c}{\sin(72.89^\circ)}.\\
 c \amp = 4 \frac{\sin(72.89^\circ)}{\sin(45^\circ)}.\\
 c \amp \approx 5.41.
 \end{align*}
 </div>
-<div class="para">This gives us a triangle with angles: <span class="process-math">\(45^\circ, 62.11^\circ, 72.89^\circ\text{;}\)</span> and with side lengths: 4, 5, and 5.41.</div>
+<div class="para">This gives us a triangle with angles: 45°, 62.11°, and 72.89°; and with side lengths: 4, 5, and 5.41.</div>
 </div>
 <div class="para logical" id="example-angle-side-side-3">
-<div class="para">Note <span class="process-math">\(\sin(117.89^\circ)=\sin(62.11^\circ)\text{,}\)</span> that is,  If we use <span class="process-math">\(117.89^\circ\)</span> as the second angle, the third angle is <span class="process-math">\(45+117.89+\alpha = 180\)</span> or <span class="process-math">\(\alpha \approx 17.11^\circ\text{.}\)</span>
+<div class="para">However, <span class="process-math">\(\sin(117.89^\circ)=\sin(62.11^\circ)\text{,}\)</span> that is, <span class="process-math">\(\arcsin\arcsin\left( \frac{5}{4}\sin(45^\circ) \right)\)</span> had multiple possible angles. We will repeat the calulcations above using <span class="process-math">\(117.89^\circ\)</span> as the second angle. The third angle is <span class="process-math">\(45^\circ+117.89^\circ+\alpha = 180^\circ\)</span> or <span class="process-math">\(\alpha \approx 17.11^\circ\text{.}\)</span>
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-ass-two-cases.html" id="example-angle-side-side-3-5">
+<div class="displaymath process-math" id="example-angle-side-side-3-6">
 \begin{align*}
 \frac{\sin(45^\circ)}{4} \amp = \frac{\sin(17.11^\circ)}{c}.\\
 c \sin(45^\circ) \amp = 4\sin(17.11^\circ).\\
@@ -636,17 +672,18 @@ c \amp = 4 \frac{\sin(17.11^\circ)}{\sin(45^\circ)}.\\
 c \amp \approx 1.66.
 \end{align*}
 </div>
-<div class="para">Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <a href="section-trig-laws.html#figure-ass-two-cases" class="xref" data-knowl="./knowl/xref/figure-ass-two-cases.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.3.7">Figure 7.3.7</a>. This indicates an ambiguity if what we know is this particular information.</div>
-</div></article><figure class="figure figure-like" id="figure-ass-two-cases"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+</div>
+<div class="para" id="example-angle-side-side-4">Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <a href="section-trig-laws.html#figure-ass-two-cases" class="xref" data-knowl="./knowl/xref/figure-ass-two-cases.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.3.8">Figure 7.3.8</a>. This indicates an ambiguity if what we know is this particular information.</div>
+<div class="para" id="example-angle-side-side-5">If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.</div></article><figure class="figure figure-like" id="figure-ass-two-cases"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;"><img src="external/images/ASS_triangle1.svg" role="img" class="contained"></div>
 <div class="sbspanel top" style="width:50%;"><img src="external/images/ASS_triangle2.svg" role="img" class="contained"></div>
 </div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.3.7<span class="period">.</span></span><span class="space"> </span>Two Possible Triangles</figcaption></figure></section><section class="subsection" id="subsection-law-cosines"><h3 class="heading hide-type">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.3.8<span class="period">.</span></span><span class="space"> </span>Two Possible Triangles</figcaption></figure><div class="para" id="subsection-ass-issue-5">When using the law of sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.</div></section><section class="subsection" id="subsection-law-cosines"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.3.3</span><span class="space"> </span><span class="title">Law of Cosines</span>
 </h3>
-<div class="para" id="subsection-law-cosines-2">For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified.</div>
+<div class="para" id="subsection-law-cosines-2">For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.</div>
 <article class="theorem theorem-like" id="theorem-law-cosines"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.3.8</span><span class="period">.</span><span class="space"> </span><span class="title">Law of Cosines.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.3.9</span><span class="period">.</span><span class="space"> </span><span class="title">Law of Cosines.</span>
 </h4>
 <div class="para logical" id="theorem-law-cosines-2-1">
 <div class="para">For any triangle with side lengths <span class="process-math">\(a,b,c\)</span> and angle <span class="process-math">\(C\)</span> which is opposite the side with length <span class="process-math">\(c\)</span>
@@ -657,125 +694,209 @@ c^2 = a^2+b^2-2ab\cos(C)\text{.}
 \end{equation*}
 </div>
 </div></article><article class="example example-like" id="example-law-cosines-sss"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.9</span><span class="period">.</span>
-</h4>
-<div class="para" id="example-law-cosines-sss-1-1">A triangle has sides of lengths 4, 5.39, and 6.13. What are the  angles?</div>
-<div class="solutions"><details id="example-law-cosines-sss-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-law-cosines-sss-2-1">
-<div class="para">We can use the Law of Cosines.</div>
-<div class="displaymath process-math" id="example-law-cosines-sss-2-1-1">
-\begin{align*}
-4^2 \amp = 5.39^2+6.13^2-2(5.39)(6.13)\cos(A).\\
--50.63 \amp = -66.08 \cos(A).\\
-\frac{-50.63}{-66.08} \amp = \cos(A).\\
-0.7662 \amp = \cos(A).\\
-\arccos(0.7662) \amp = A.\\
-39.99^\circ \amp \approx A.
-\end{align*}
-</div>
-<div class="para">With an angle, we can now use the Law of Sines, but for practice we will use Law of Cosines again.</div>
-<div class="displaymath process-math" id="example-law-cosines-sss-2-1-2">
-\begin{align*}
-5.39^2 \amp = 4^2+6.13^2-2(4)(6.13)\cos(B).\\
--24.52 \amp = -49.04\cos(B).\\
-0.5 \amp = \cos(B).\\
-\arccos(0.5) \amp = B.\\
-60^\circ \amp = B.
-\end{align*}
-</div>
-<div class="para">Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. <span class="process-math">\(39.99+60+C=180\)</span> so <span class="process-math">\(C = 80.01\text{.}\)</span>
-</div>
-</div></div></details></div></article><article class="example example-like" id="example-law-cosine-asa"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-law-cosine-asa-1-1">A triangle has side lengths 5 and 7 and the angle between them is <span class="process-math">\(40^\circ\text{.}\)</span> What are the length of the other side and the measures of the other angles?</div>
-<div class="solutions"><details id="example-law-cosine-asa-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-law-cosine-asa-2-1">
-<div class="para">We can use the Law of Cosines because we know <span class="process-math">\(a,b\)</span> and <span class="process-math">\(C\text{.}\)</span>
+<div class="para" id="example-law-cosines-sss-1">A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the  angles?</div>
+<div class="para logical" id="example-law-cosines-sss-2">
+<div class="para">We can use the Law of Cosines.</div>
+<div class="displaymath process-math" id="example-law-cosines-sss-2-1">
+\begin{align*}
+4^2 \amp = 5.39^2+6.13^2-2(5.39)(6.13)\cos(A).\\
+16 \amp = 29.0521+37.5769-66.0814\cos(A).\\
+-50.629 \amp = -66.0814 \cos(A).\\
+\frac{-50.629}{-66.0814} \amp = \cos(A).\\
+0.76616113 \amp \approx \cos(A).\\
+\arccos(0.76616113) \amp \approx A.\\
+39.98959796^\circ \amp \approx A.\\
+40.0^\circ \amp \approx A.
+\end{align*}
 </div>
-<div class="displaymath process-math" id="example-law-cosine-asa-2-1-3">
+<div class="para">With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again.</div>
+<div class="displaymath process-math" id="example-law-cosines-sss-2-2">
+\begin{align*}
+5.39^2 \amp = 4^2+6.13^2-2(4)(6.13)\cos(B).\\
+29.0521 \amp = 16+37.5769-49.04\cos(B).\\
+-24.5248 \amp = -49.04\cos(B).\\
+0.50009788 \amp \approx \cos(B).\\
+\arccos(0.50009788) \amp \approx B.\\
+59.99352413^\circ \amp \approx B.\\
+60^\circ \amp \approx B.
+\end{align*}
+</div>
+<div class="para">Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. <span class="process-math">\(40.0^\circ+60^\circ+C=180^\circ\)</span> so <span class="process-math">\(C = 80.00^\circ\text{.}\)</span>
+</div>
+</div>
+<div class="para" id="example-law-cosines-sss-3">If you recall previous geometry this was known as Side-Side-Side.</div></article><article class="example example-like" id="example-law-cosine-sas"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-law-cosine-sas-1">A triangle has sides with lengths 5 and 7 and the angle between them is 40°. What are the length of the other side and the measures of the other angles?</div>
+<div class="para logical" id="example-law-cosine-sas-2">
+<div class="para">Because we have two sides (<span class="process-math">\(a,b\)</span>) and the angle between them (<span class="process-math">\(C\)</span>) we can use the Law of Cosines.</div>
+<div class="displaymath process-math" id="example-law-cosine-sas-2-3">
 \begin{align*}
 c^2 \amp = 5^2+7^2-2(5)(7)\cos(40^\circ)\\
-c^2 \amp \approx 20.38.\\
-\sqrt{c^2} \amp \approx \sqrt{20.38}.\\
-c \amp \approx 4.51.
+c^2 \amp \approx 20.37688900.\\
+\sqrt{c^2} \amp \approx \sqrt{20.37688900}.\\
+c \amp \approx 4.514076761\\
+\amp \approx 4.51.
 \end{align*}
 </div>
 <div class="para">Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles.</div>
-<div class="displaymath process-math" id="example-law-cosine-asa-2-1-4">
+<div class="displaymath process-math" id="example-law-cosine-sas-2-4">
 \begin{align*}
-\frac{\sin(40^\circ)}{4.51} \amp = \frac{\sin(A)}{5}.\\
-5 \cdot \frac{\sin(40^\circ)}{4.51} \amp = 5 \cdot \frac{\sin(A)}{5}.\\
-0.7126 \amp = \sin(A).\\
-\arcsin(0.7126) \amp = A.\\
-45.45 \amp \approx A.
+\frac{\sin(40^\circ)}{4.514076761} \amp = \frac{\sin(A)}{5}.\\
+0.71198126 \amp = \sin(A).\\
+\arcsin(0.71198126) \amp = A.\\
+45.39634537 \amp \approx A.\\
+45.4 \amp \approx A.
 \end{align*}
 </div>
-<div class="para">Finally we can use the angle sum theorem to calculate the final angle. <span class="process-math">\(40+45.45+B = 180\)</span> so <span class="process-math">\(B=94.55\text{.}\)</span>
+<div class="para">Finally we can use the angle sum theorem to calculate the final angle. <span class="process-math">\(40^\circ+45.4^\circ+B = 180^\circ\)</span> so <span class="process-math">\(B=94.6^\circ\text{.}\)</span>
 </div>
-</div></div></details></div></article><article class="exercise exercise-like" id="exercise-law-cosines1"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.3.11</span><span class="period">.</span>
+</div>
+<div class="para" id="example-law-cosine-sas-3">If you recall previous geometry this was known as Side-Angle-Side.</div></article><article class="exercise exercise-like" id="exercise-law-cosines1"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.3.12</span><span class="period">.</span>
 </h4>
-<div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiY29udGV4dFRyaWdEZWdyZWVzLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIlRyaWdEZWdyZWVzIik7CiRhbmdsZUEgPSBDb21wdXRlKHJhbmRvbSgyMCw1MCw1KSk7CiRhbmdsZUIgPSBDb21wdXRlKHJhbmRvbSg1NSw4MCw1KSk7CiRhbmdsZUMgPSAxODAtJGFuZ2xlQS0kYW5nbGVCOwokYSA9IENvbXB1dGUocmFuZG9tKDQsNywxKSk7CiRiID0gQ29tcHV0ZSgic2luKCRhbmdsZUIpL3NpbigkYW5nbGVBKSokYSIpOwokYyA9IENvbXB1dGUoInNpbigkYW5nbGVDKS9zaW4oJGFuZ2xlQSkqJGEiKTsKCkJFR0lOX1BHTUwKQSB0cmlhbmdsZSBoYXMgc2lkZXMgb2YgbGVuZ3RoIFtgYT1bJGFdXHRleHR7LH1gXSBbYGI9WyRiXVx0ZXh0eyx9YF0gYW5kIFtgYz1bJGNdXHRleHR7Ln1gXSBXaGF0IGlzIHRoZSBtZWFzdXJlIG9mIHRoZSBhbmdsZSBvcHBvc2l0ZSB0aGUgc2lkZSBvZiBsZW5ndGggW2BhXHRleHR7P31gXSBbX117JGFuZ2xlQX17NX0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
-<div class="problem-contents"><div class="para" id="extracted-webwork-2-1-1-1">A triangle has sides of length <span class="process-math">\(a={6}\text{,}\)</span> <span class="process-math">\(b={12.867}\text{,}\)</span> and <span class="process-math">\(c={14.1972}\text{.}\)</span> What is the measure of the angle opposite the side of length <span class="process-math">\(a\text{?}\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
-</div></div>
-</div></article></section><section class="exercises" id="section-trig-laws-6"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">7.3.4</span><span class="space"> </span><span class="title">Exercises</span>
+<div id="momexercise-law-cosines1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-law-cosines1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1489664&amp;frame_id=momexercise-law-cosines1-1"></iframe></div></article></section><section class="subsection" id="subsection-trig-law-applications"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.3.4</span><span class="space"> </span><span class="title">Using Trigonometric Laws in Applications</span>
 </h3>
-<article class="exercise exercise-like" id="section-trig-laws-6-1"><h4 class="heading">
+<div class="para" id="subsection-trig-law-applications-2">When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.</div>
+<article class="example example-like" id="example-flight-distance"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-flight-distance-1">A sailboat sails 3341 ft at heading 300° then turns to heading 245° and sails 4051 ft. How far is the sailbot from the start of this maneuver?</div>
+<div class="para" id="example-flight-distance-2">First, it helps to sketch an image.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/sailboat-course.svg" role="img" class="contained"></div>
+<div class="para" id="example-flight-distance-4">In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).</div>
+<div class="para" id="example-flight-distance-5">We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300° and ended up at 245° then we turned left <span class="process-math">\(300^\circ-245^\circ = 55^\circ\text{.}\)</span>
+</div>
+<div class="para logical" id="example-flight-distance-6">
+<div class="para">Now we can apply the Law of Cosines.</div>
+<div class="displaymath process-math" id="example-flight-distance-6-1">
+\begin{align*}
+c^2 &amp; = 3341^2+4051^2-2(3341)(4051)\cos(55^\circ)\\
+&amp; = 27572882 - 27068782\cos(55^\circ)\\
+&amp; \approx 27572882 - 15526015.51\\
+&amp; \approx 12046866.49.\\
+c &amp; \approx \sqrt{12046866.49}\\
+&amp; \approx 3470.859618\\
+&amp; \approx 3471.
+\end{align*}
+</div>
+<div class="para">Thus the sailboat ended up 3471 ft from its starting point.</div>
+</div></article><article class="example example-like" id="example-object-height"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.3.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-object-height-1">Two observers who are 2.3 miles apart on the ground at the same altitude record the angle at which they saw a passing aircraft at the same time. The observer at point A recorded an angle of 56° from horizontal. The observer at point B recorded an angle of 87° from horizontal. How high above ground was the aircraft?</div>
+<div class="para" id="example-object-height-2">First, it helps to sketch an image.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/aircraft-height.svg" role="img" class="contained"></div>
+<div class="para" id="example-object-height-4">In our sketch we see multiple triangles including some right triangles. There is non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we can apply the law of sines to find the other side lengths. However, none of these is the desired altitude.</div>
+<div class="para" id="example-object-height-5">There is also a right triangle with side from A to C and the other leg is the altitude we are seeking (labeled <span class="process-math">\(h\)</span>). It shares a side with the previous triangle, so if we find that side length we are closer to the answer.</div>
+<div class="para" id="example-object-height-6">Because we have angle-side-angle information, we will use the Law of Sines. We want to know the length of the side across from the angle at B. However, the angle we were given is the other side of the triangle. We must apply another fact: the angle of a line is 180°. Thus <span class="process-math">\(34.20^\circ+B = 180^\circ\)</span> or <span class="process-math">\(B = 145.80^\circ\text{.}\)</span>
+</div>
+<div class="para" id="example-object-height-7">To setup the Law of Sines using this angle we need the angle across from the side of known length. That angle is not labeled. We can use the Triangle Angle Sum theorem to calculate its measure. <span class="process-math">\(8.00^\circ+145.80^\circ+P = 180^\circ\)</span> So, the angle at the aircraft is <span class="process-math">\(P = 26.2^\circ\text{.}\)</span>
+</div>
+<div class="para logical" id="example-object-height-8">
+<div class="para">Now we can apply the Law of Sines.</div>
+<div class="displaymath process-math" id="example-object-height-8-1">
+\begin{align*}
+\frac{\sin(145.80^\circ)}{c} &amp; = \frac{\sin(26.2^\circ)}{2.3 \text{ mi}}.\\
+\frac{c}{\sin(145.80^\circ)} &amp; = \frac{2.3 \text{ mi}}{\sin(26.2^\circ)}.\\
+c &amp; = \frac{(2.3 \text{ mi})\sin(145.80^\circ)}{\sin(26.2^\circ)}\\
+&amp; \approx 2.92814186\\
+&amp; \approx 2.9.
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-object-height-9">
+<div class="para">We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. However, we know only part of the length of the other leg. If we knew the angle at the top of the right triangle (at the aircraft), we could set up the Law of Sines again. Again the triangle angle sum will give us that angle. <span class="process-math">\(8.00^\circ+P^\prime+90^\circ=180^\circ\)</span> because this is a right triangle. Thus <span class="process-math">\(P^\prime=82.00^\circ\text{.}\)</span> Now we can use the Law of Sines to calculate the length of the complete bottom side.</div>
+<div class="displaymath process-math" id="example-object-height-9-3">
+\begin{align*}
+\frac{\sin(82.00^\circ)}{AC} &amp; = \frac{\sin(90^\circ)}{2.92814186 \text{ mi}}.\\
+\frac{AC}{\sin(82.00^\circ)} &amp; = \frac{2.92814186}{\sin(90^\circ)}.\\
+AC &amp; = \frac{(2.92814186 \text{ mi})\sin(82.00^\circ)}{\sin(90^\circ)}\\
+&amp; \approx 2.89964538\\
+&amp; \approx 2.9.
+\end{align*}
+</div>
+<div class="para">Notice that due to rounding and the very small angle (8°) this leg is indistinguishably shorter than the hypotenuse.</div>
+</div>
+<div class="para logical" id="example-object-height-10">
+<div class="para">Finally, we can use the Pythagorean Theorem to calculate the altitude.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html" id="example-object-height-10-1">
+\begin{align*}
+h^2+(2.89964538)^2 &amp; \approx (2.92814186)^2.\\
+h^2+8.40794333 &amp; \approx 8.574014752.\\
+h^2 &amp; \approx 0.16607142.\\
+h &amp; \approx \sqrt{0.16607142}\\
+&amp; \approx 0.40751862\\
+&amp; \approx 0.41.
+\end{align*}
+</div>
+<div class="para">This is in miles. It will be easier to interpret in feet. The conversion ratio in <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> suggests we can multiply</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html">
+\begin{equation*}
+(0.40751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2151.6983 \text{ ft} \approx 2200 \text{ ft}\text{.}
+\end{equation*}
+</div>
+</div></article></section><section class="exercises" id="section-trig-laws-7"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">7.3.5</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="section-trig-laws-7-1"><h4 class="heading">
 <span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835745&amp;frame_id=momsection-trig-laws-6-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-2"><h4 class="heading">
+<div id="momsection-trig-laws-7-1-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835745&amp;frame_id=momsection-trig-laws-7-1-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2"><h4 class="heading">
 <span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835746&amp;frame_id=momsection-trig-laws-6-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-3"><h4 class="heading">
+<div id="momsection-trig-laws-7-2-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835746&amp;frame_id=momsection-trig-laws-7-2-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-3"><h4 class="heading">
 <span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-6-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-4"><h4 class="heading">
+<div id="momsection-trig-laws-7-3-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-3-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-3-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-4"><h4 class="heading">
 <span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-6-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-5"><h4 class="heading">
+<div id="momsection-trig-laws-7-4-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-4-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-4-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-5"><h4 class="heading">
 <span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-6-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-6"><h4 class="heading">
+<div id="momsection-trig-laws-7-5-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-5-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-5-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-6"><h4 class="heading">
 <span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8477&amp;frame_id=momsection-trig-laws-6-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-7"><h4 class="heading">
+<div id="momsection-trig-laws-7-6-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-6-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8477&amp;frame_id=momsection-trig-laws-7-6-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-7"><h4 class="heading">
 <span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8478&amp;frame_id=momsection-trig-laws-6-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-8"><h4 class="heading">
+<div id="momsection-trig-laws-7-7-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-7-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8478&amp;frame_id=momsection-trig-laws-7-7-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-8"><h4 class="heading">
 <span class="codenumber">8<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8479&amp;frame_id=momsection-trig-laws-6-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-9"><h4 class="heading">
+<div id="momsection-trig-laws-7-8-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-8-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8479&amp;frame_id=momsection-trig-laws-7-8-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-9"><h4 class="heading">
 <span class="codenumber">9<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=14432&amp;frame_id=momsection-trig-laws-6-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-10"><h4 class="heading">
+<div id="momsection-trig-laws-7-9-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-9-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=14432&amp;frame_id=momsection-trig-laws-7-9-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-10"><h4 class="heading">
 <span class="codenumber">10<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4413&amp;frame_id=momsection-trig-laws-6-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-11"><h4 class="heading">
+<div id="momsection-trig-laws-7-10-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-10-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4413&amp;frame_id=momsection-trig-laws-7-10-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-11"><h4 class="heading">
 <span class="codenumber">11<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835751&amp;frame_id=momsection-trig-laws-6-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-12"><h4 class="heading">
+<div id="momsection-trig-laws-7-11-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-11-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835751&amp;frame_id=momsection-trig-laws-7-11-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-12"><h4 class="heading">
 <span class="codenumber">12<span class="period">.</span></span><span class="space"> </span><span class="title">Contextless.</span>
 </h4>
-<div id="momsection-trig-laws-6-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1059257&amp;frame_id=momsection-trig-laws-6-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-13"><h4 class="heading">
+<div id="momsection-trig-laws-7-12-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-12-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1059257&amp;frame_id=momsection-trig-laws-7-12-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-13"><h4 class="heading">
 <span class="codenumber">13<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4323&amp;frame_id=momsection-trig-laws-6-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-14"><h4 class="heading">
+<div id="momsection-trig-laws-7-13-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-13-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4323&amp;frame_id=momsection-trig-laws-7-13-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-14"><h4 class="heading">
 <span class="codenumber">14<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4324&amp;frame_id=momsection-trig-laws-6-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-15"><h4 class="heading">
+<div id="momsection-trig-laws-7-14-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-14-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4324&amp;frame_id=momsection-trig-laws-7-14-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-15"><h4 class="heading">
 <span class="codenumber">15<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4424&amp;frame_id=momsection-trig-laws-6-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-16"><h4 class="heading">
+<div id="momsection-trig-laws-7-15-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-15-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4424&amp;frame_id=momsection-trig-laws-7-15-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-16"><h4 class="heading">
 <span class="codenumber">16<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=840203&amp;frame_id=momsection-trig-laws-6-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-17"><h4 class="heading">
+<div id="momsection-trig-laws-7-16-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-16-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=840203&amp;frame_id=momsection-trig-laws-7-16-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-17"><h4 class="heading">
 <span class="codenumber">17<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835757&amp;frame_id=momsection-trig-laws-6-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-6-18"><h4 class="heading">
+<div id="momsection-trig-laws-7-17-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-17-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835757&amp;frame_id=momsection-trig-laws-7-17-2"></iframe></div></article><article class="exercise exercise-like" id="section-trig-laws-7-18"><h4 class="heading">
 <span class="codenumber">18<span class="period">.</span></span><span class="space"> </span><span class="title">Application.</span>
 </h4>
-<div id="momsection-trig-laws-6-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-6-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4430&amp;frame_id=momsection-trig-laws-6-18-2"></iframe></div></article></section></section></div>
+<div id="momsection-trig-laws-7-18-2wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-18-2" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4430&amp;frame_id=momsection-trig-laws-7-18-2"></iframe></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="section-trig-applications1.html" title="Previous"><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-trig-graphs.html" title="Next"><span class="name">Next</span><span xmlns:pf="https://prefigure.org" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
