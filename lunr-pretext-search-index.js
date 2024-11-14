@@ -8899,7 +8899,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Sine Wave Properties",
-  "body": " Sine Wave Properties   We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of their graphs which have direct application.    Beyond Triangles  In triangles every angle had to be less than because the sum of the angles of a triangle are only . However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use to explore this idea.    Use the the illustration in to see how angles are measured and how the trig functions act on larger angles. Find each of the following.   Angles of measure and What is the sine value for both points? Compare the x coordinates of these two points. Where is the triangle created by the angle ?  Angles of measure and What is the sine value for both points? Compare the sine values for these two points. Where is the triangle created by the angle ?  Angles of measure and Compare the sine values for these two points. Where is the triangle created by the angle ? Note the angle displayed at the origin for : why does it not match the slider angle?  Angles of measure and Where are the triangles for these two points? Move the slider from to . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles    We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine      Properties of Sine Waves   Graph of Sine    Notice that the graph of sine is a wave that repeats. The piece that repeats is called a cycle . In the default graph this is from to as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .    Sometimes instead of measuring how long a single cycle is units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of waves (periods) that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown in   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second we can invert the measure.   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has frequency 261.63 Hz?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).    A local AM radio station broadcasts at Hz. Note radio wave move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle      Consider a D which has frequency 293.66 Hz  What is the period?  What is the wavelength?             Because we know the frequency we can directly calculate the period.   For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).         Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is     Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. Here we will learn to change the amplitude and the frequency of sine waves.   Amplitude and Wavelength    Use to answer the following. Note the amplitude of the unmodified graph is 1. If you set , that is graph what is the amplitude? If you set , that is graph what is the amplitude? How could you obtain an amplitude of 1\/2?  Use to answer the following. Note the wavelength of the unmodified graph is 2. If you set , that is graph what is the wavelength? If you set , that is graph what is the wavelength? How could you obtain a wavelength of 4?    Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Contextless  Application  Contextless   "
+  "body": " Sine Wave Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Identify properties of sine and cosine functions (skill)    We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.    Beyond Triangles  This section illustrates how trigonometric functions can be defined on angles greater than 180 . In triangles every angle had to be less than 180 because the sum of the angles of a triangle are only 180 . However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180 when we are driving. Use to explore this idea.    Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles     We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine    Now we know what the graph of the sine function looks like and why it looks that way.    Properties of Sine Waves   Graph of Sine    From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a cycle . In the default graph this is from 0 to 360 as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .   The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength, and the bottom two sine curves have the same wavelength which is different from the one on top. We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.  The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.   Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of .   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has a frequency of 261.63 Hz?  Because we know the frequency we can directly calculate the period. We round using significant digits because these are scientific measurements.  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.    A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle     Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.   Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is   In applications the wavelength, period\/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.   Identifying Sine Wave Properties    Sine Wave     Another Sine Wave       Consider the sine wave in . The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.      Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.   This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?    This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?    Amplitude and Wavelength      Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Contextless  Application  Contextless   "
 },
 {
   "id": "activity-discover-big-angles",
@@ -8908,7 +8908,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "14",
   "title": "",
-  "body": "  Use the the illustration in to see how angles are measured and how the trig functions act on larger angles. Find each of the following.   Angles of measure and What is the sine value for both points? Compare the x coordinates of these two points. Where is the triangle created by the angle ?  Angles of measure and What is the sine value for both points? Compare the sine values for these two points. Where is the triangle created by the angle ?  Angles of measure and Compare the sine values for these two points. Where is the triangle created by the angle ? Note the angle displayed at the origin for : why does it not match the slider angle?  Angles of measure and Where are the triangles for these two points? Move the slider from to . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.  "
+  "body": "  Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.  "
 },
 {
   "id": "figure-angle-repeat",
@@ -8920,11 +8920,20 @@ var ptx_lunr_docs = [
   "body": " Bigger Angles   "
 },
 {
+  "id": "subsection-angles-5",
+  "level": "2",
+  "url": "section-trig-graphs.html#subsection-angles-5",
+  "type": "Checkpoint",
+  "number": "7.4.2",
+  "title": "",
+  "body": ""
+},
+{
   "id": "figure-graph-sine",
   "level": "2",
   "url": "section-trig-graphs.html#figure-graph-sine",
   "type": "Figure",
-  "number": "7.4.2",
+  "number": "7.4.3",
   "title": "",
   "body": " Produce Graph of Sine   "
 },
@@ -8933,7 +8942,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-graphs.html#figure-graph-sine-long",
   "type": "Figure",
-  "number": "7.4.3",
+  "number": "7.4.4",
   "title": "",
   "body": " Graph of Sine   "
 },
@@ -8951,7 +8960,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-graphs.html#definition-period",
   "type": "Definition",
-  "number": "7.4.4",
+  "number": "7.4.5",
   "title": "Period.",
   "body": " Period  The length of a cycle measured in time is called the period .  "
 },
@@ -8960,14 +8969,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-graphs.html#definition-wavelength",
   "type": "Definition",
-  "number": "7.4.5",
+  "number": "7.4.6",
   "title": "Wavelength.",
   "body": " Wavelength  The length of a cycle measured in distance is called the wavelength .  "
 },
 {
-  "id": "subsection-wave-properties-8",
+  "id": "subsection-wave-properties-10",
   "level": "2",
-  "url": "section-trig-graphs.html#subsection-wave-properties-8",
+  "url": "section-trig-graphs.html#subsection-wave-properties-10",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -8978,16 +8987,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-graphs.html#definition-frequency",
   "type": "Definition",
-  "number": "7.4.6",
+  "number": "7.4.7",
   "title": "Frequency.",
-  "body": " Frequency  The number of waves (periods) that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.  "
+  "body": " Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.  "
 },
 {
   "id": "table-period-frequency",
   "level": "2",
   "url": "section-trig-graphs.html#table-period-frequency",
   "type": "Table",
-  "number": "7.4.7",
+  "number": "7.4.8",
   "title": "Period and Frequency are Inverses",
   "body": " Period and Frequency are Inverses   Period Frequency    "
 },
@@ -8996,43 +9005,43 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-graphs.html#example-period-frequency",
   "type": "Example",
-  "number": "7.4.8",
+  "number": "7.4.9",
   "title": "",
-  "body": " If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second we can invert the measure.  "
+  "body": " If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).  "
 },
 {
   "id": "example-wave-length-sound",
   "level": "2",
   "url": "section-trig-graphs.html#example-wave-length-sound",
   "type": "Example",
-  "number": "7.4.9",
+  "number": "7.4.10",
   "title": "",
-  "body": " What are the period and wavelength of middle C which has frequency 261.63 Hz?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).  "
+  "body": " What are the period and wavelength of middle C which has a frequency of 261.63 Hz?  Because we know the frequency we can directly calculate the period. We round using significant digits because these are scientific measurements.  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.  "
 },
 {
   "id": "example-wave-length-radio",
   "level": "2",
   "url": "section-trig-graphs.html#example-wave-length-radio",
   "type": "Example",
-  "number": "7.4.10",
+  "number": "7.4.11",
   "title": "",
-  "body": " A local AM radio station broadcasts at Hz. Note radio wave move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle   "
+  "body": " A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle   "
 },
 {
   "id": "exercise-wave-length-sound",
   "level": "2",
   "url": "section-trig-graphs.html#exercise-wave-length-sound",
   "type": "Checkpoint",
-  "number": "7.4.11",
+  "number": "7.4.12",
   "title": "",
-  "body": "  Consider a D which has frequency 293.66 Hz  What is the period?  What is the wavelength?             Because we know the frequency we can directly calculate the period.   For the wavelength we need to recall the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).       "
+  "body": ""
 },
 {
   "id": "definition-amplitude",
   "level": "2",
   "url": "section-trig-graphs.html#definition-amplitude",
   "type": "Definition",
-  "number": "7.4.12",
+  "number": "7.4.13",
   "title": "Amplitude.",
   "body": " Amplitude  The height of the wave (from center to top) is called the amplitude .  "
 },
@@ -9041,36 +9050,63 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-graphs.html#example-sine-properties",
   "type": "Example",
-  "number": "7.4.13",
+  "number": "7.4.14",
   "title": "",
   "body": "  The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is  "
+},
+{
+  "id": "figure-sine-curve-properties",
+  "level": "2",
+  "url": "section-trig-graphs.html#figure-sine-curve-properties",
+  "type": "Figure",
+  "number": "7.4.15",
+  "title": "",
+  "body": " Identifying Sine Wave Properties    Sine Wave     Another Sine Wave     "
+},
+{
+  "id": "example-identify-sine-traits",
+  "level": "2",
+  "url": "section-trig-graphs.html#example-identify-sine-traits",
+  "type": "Example",
+  "number": "7.4.16",
+  "title": "",
+  "body": " Consider the sine wave in . The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.  "
+},
+{
+  "id": "subsection-wave-properties-25",
+  "level": "2",
+  "url": "section-trig-graphs.html#subsection-wave-properties-25",
+  "type": "Checkpoint",
+  "number": "7.4.17",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "activity-amplitude",
+  "level": "2",
+  "url": "section-trig-graphs.html#activity-amplitude",
+  "type": "Activity",
+  "number": "15",
+  "title": "",
+  "body": " This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?  "
+},
+{
+  "id": "activity-wavelength",
+  "level": "2",
+  "url": "section-trig-graphs.html#activity-wavelength",
+  "type": "Activity",
+  "number": "16",
+  "title": "",
+  "body": " This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?  "
 },
 {
   "id": "figure-sine-transform",
   "level": "2",
   "url": "section-trig-graphs.html#figure-sine-transform",
   "type": "Figure",
-  "number": "7.4.14",
+  "number": "7.4.18",
   "title": "",
   "body": " Amplitude and Wavelength   "
-},
-{
-  "id": "exercise-amplitude",
-  "level": "2",
-  "url": "section-trig-graphs.html#exercise-amplitude",
-  "type": "Checkpoint",
-  "number": "7.4.15",
-  "title": "",
-  "body": "Use to answer the following. Note the amplitude of the unmodified graph is 1. If you set , that is graph what is the amplitude? If you set , that is graph what is the amplitude? How could you obtain an amplitude of 1\/2? "
-},
-{
-  "id": "exercise-wavelength",
-  "level": "2",
-  "url": "section-trig-graphs.html#exercise-wavelength",
-  "type": "Checkpoint",
-  "number": "7.4.16",
-  "title": "",
-  "body": "Use to answer the following. Note the wavelength of the unmodified graph is 2. If you set , that is graph what is the wavelength? If you set , that is graph what is the wavelength? How could you obtain a wavelength of 4? "
 },
 {
   "id": "section-trig-graphs-6-1",
@@ -9176,7 +9212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-activity-trig-error.html#project-trig-error",
   "type": "Project",
-  "number": "15",
+  "number": "17",
   "title": "Select the Best Time of Day.",
   "body": " Select the Best Time of Day   In we learned to indirectly measure height of an object from the length of its shadow and angle of elevation. Here we consider the effects of the angle of elevation on the precision of our result.   Suppose the shadow of a tree is measured to be 73 ft. If the the angle of elevation of the sun from the end of the shadow is , what is the height of the tree.  We will consider the impact of the sun's angle of elevation on the calculation. For this section suppose the tree is exactly 73 ft tall. Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? As the angle of elevation grows from toward does the length of the shadow increase directly or inversely? Is it linear? Note the angle of elevation of the sun grows from morning until (high) noon and then decreases again. At what time of day would it be easiest to measure the length of the shadow in order to estimate the height of the tree?  We will consider the effect of error in measurement of the angle of elevation of the sun on our calculation of the height of the tree. Suppose the shadow's length is 73 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 51 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 34 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 20 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 6 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? How much effect on the estimated height of the tree can error in measurement of the angle have? Does the error change as the angle of elevation increases?  We will consider the effect of error in measurement of the length of the shadow on our calculation of the height of the tree. Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 72 ft? 74 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 50 ft? 52 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 33 ft? 35 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 19 ft? 21 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 5 ft? 7 ft? At what angle of elevation does the difference in shadow length make the greatest difference? What does this suggest about when we should measure the shadow?  "
 }

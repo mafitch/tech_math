@@ -43,24 +43,7 @@ window.MathJax = {
   },
   "options": {
     "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math",
-    "renderActions": {
-      "findScript": [
-        10,
-        function (doc) {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
-                var display = !!node.type.match(/; *mode=display/);
-                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                var text = document.createTextNode('');
-                node.parentNode.replaceChild(text, node);
-                math.start = {node: text, delim: '', n: 0};
-                math.end = {node: text, delim: '', n: 0};
-                doc.math.push(math);
-            });
-        },
-        ""
-      ]
-    }
+    "processHtmlClass": "process-math"
   },
   "chtml": {
     "scale": 0.98,
@@ -88,7 +71,7 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork.uaa.alaska.edu/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
 <script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link xmlns:pf="https://prefigure.org" rel="preconnect" href="https://fonts.googleapis.com">
 <link xmlns:pf="https://prefigure.org" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -525,105 +508,113 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:pf="https://prefigure.org" class="section" id="section-trig-graphs"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">7.4</span><span class="space"> </span><span class="title">Sine Wave Properties</span>
 </h2>
-<section class="introduction" id="section-trig-graphs-2"><div class="para" id="section-trig-graphs-2-1">We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of their graphs which have direct application.</div></section><section class="subsection" id="subsection-angles"><h3 class="heading hide-type">
+<section class="introduction" id="section-trig-graphs-2"><div class="para logical" id="section-trig-graphs-2-1">
+<div class="para">This section addresses the following topics.</div>
+<ul class="disc" id="section-trig-graphs-2-1-1">
+<li id="section-trig-graphs-2-1-1-1"><div class="para" id="p-derived-section-trig-graphs-2-1-1-1">Read and use mathematical models in a technical document</div></li>
+<li id="section-trig-graphs-2-1-1-2"><div class="para" id="p-derived-section-trig-graphs-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div></li>
+</ul>
+<div class="para">This section covers the following mathematical concepts.</div>
+<ul class="disc" id="section-trig-graphs-2-1-2">
+<li id="section-trig-graphs-2-1-2-1"><div class="para" id="p-derived-section-trig-graphs-2-1-2-1">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</div></li>
+<li id="section-trig-graphs-2-1-2-2"><div class="para" id="p-derived-section-trig-graphs-2-1-2-2">Identify properties of sine and cosine functions (skill)</div></li>
+</ul>
+</div>
+<div class="para" id="section-trig-graphs-2-2">We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.</div></section><section class="subsection" id="subsection-angles"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.4.1</span><span class="space"> </span><span class="title">Beyond Triangles</span>
 </h3>
-<div class="para" id="subsection-angles-2">In triangles every angle had to be less than <span class="process-math">\(180^\circ\)</span> because the sum of the angles of a triangle are only <span class="process-math">\(180^\circ\text{.}\)</span> However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use <a href="section-trig-graphs.html#activity-discover-big-angles" class="xref" data-knowl="./knowl/xref/activity-discover-big-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 14">Activity 14</a> to explore this idea.</div>
+<div class="para" id="subsection-angles-2">This section illustrates how trigonometric functions can be defined on angles greater than 180°. In triangles every angle had to be less than 180° because the sum of the angles of a triangle are only 180°. However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180° when we are driving. Use <a href="section-trig-graphs.html#activity-discover-big-angles" class="xref" data-knowl="./knowl/xref/activity-discover-big-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 14">Activity 14</a> to explore this idea.</div>
 <article class="activity project-like" id="activity-discover-big-angles"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">14</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="activity-discover-big-angles-1"><div class="para" id="activity-discover-big-angles-1-1">Use the the illustration in <a href="section-trig-graphs.html#figure-angle-repeat" class="xref" data-knowl="./knowl/xref/figure-angle-repeat.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.1">Figure 7.4.1</a> to see how angles are measured and how the trig functions act on larger angles. Find each of the following.</div></div>
+<div class="introduction" id="activity-discover-big-angles-1"><div class="para" id="activity-discover-big-angles-1-1">Use the the illustration in <a href="section-trig-graphs.html#figure-angle-repeat" class="xref" data-knowl="./knowl/xref/figure-angle-repeat.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.1">Figure 7.4.1</a> to see how angles, including those bigger than 180°, are measured and how the trig functions act on these angles.</div></div>
 <article class="task exercise-like" id="activity-discover-big-angles-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="introduction" id="activity-discover-big-angles-2-1"><div class="para" id="activity-discover-big-angles-2-1-1">Angles of measure <span class="process-math">\(30^\circ\)</span> and <span class="process-math">\(210^\circ\)</span>
-</div></div>
+<div class="introduction" id="activity-discover-big-angles-2-1"><div class="para" id="activity-discover-big-angles-2-1-1">Angles of measure 30° and 210°</div></div>
 <article class="task exercise-like" id="activity-discover-big-angles-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="activity-discover-big-angles-2-2-1">What is the sine value for both points?</div></article><article class="task exercise-like" id="activity-discover-big-angles-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="activity-discover-big-angles-2-3-1">Compare the x coordinates of these two points.</div></article><article class="task exercise-like" id="activity-discover-big-angles-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="activity-discover-big-angles-2-4-1">Where is the triangle created by the angle <span class="process-math">\(210^\circ\text{?}\)</span>
-</div></article></article><article class="task exercise-like" id="activity-discover-big-angles-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="introduction" id="activity-discover-big-angles-3-1"><div class="para" id="activity-discover-big-angles-3-1-1">Angles of measure <span class="process-math">\(45^\circ\)</span> and <span class="process-math">\(315^\circ\)</span>
-</div></div>
+<div class="para" id="activity-discover-big-angles-2-2-1">What is the sine value for both angles?</div></article><article class="task exercise-like" id="activity-discover-big-angles-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="activity-discover-big-angles-2-3-1">Compare the x coordinates of these two points on the sine graph.</div></article><article class="task exercise-like" id="activity-discover-big-angles-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="activity-discover-big-angles-2-4-1">Where is the triangle created by the angle 210°?</div></article></article><article class="task exercise-like" id="activity-discover-big-angles-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="activity-discover-big-angles-3-1"><div class="para" id="activity-discover-big-angles-3-1-1">Angles of measure 45° and 315°</div></div>
 <article class="task exercise-like" id="activity-discover-big-angles-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="activity-discover-big-angles-3-2-1">What is the sine value for both points?</div></article><article class="task exercise-like" id="activity-discover-big-angles-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="activity-discover-big-angles-3-3-1">Compare the sine values for these two points.</div></article><article class="task exercise-like" id="activity-discover-big-angles-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="activity-discover-big-angles-3-4-1">Where is the triangle created by the angle <span class="process-math">\(315^\circ\text{?}\)</span>
-</div></article></article><article class="task exercise-like" id="activity-discover-big-angles-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="introduction" id="activity-discover-big-angles-4-1"><div class="para" id="activity-discover-big-angles-4-1-1">Angles of measure <span class="process-math">\(45^\circ\)</span> and <span class="process-math">\(405^\circ\)</span>
-</div></div>
+<div class="para" id="activity-discover-big-angles-3-2-1">Compare the sine values for these two points.</div></article><article class="task exercise-like" id="activity-discover-big-angles-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="activity-discover-big-angles-3-3-1">Where is the triangle created by the angle 315°?</div></article></article><article class="task exercise-like" id="activity-discover-big-angles-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="introduction" id="activity-discover-big-angles-4-1"><div class="para" id="activity-discover-big-angles-4-1-1">Angles of measure 45° and 405°</div></div>
 <article class="task exercise-like" id="activity-discover-big-angles-4-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="activity-discover-big-angles-4-2-1">Compare the sine values for these two points.</div></article><article class="task exercise-like" id="activity-discover-big-angles-4-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="activity-discover-big-angles-4-3-1">Where is the triangle created by the angle <span class="process-math">\(315^\circ\text{?}\)</span>
-</div></article><article class="task exercise-like" id="activity-discover-big-angles-4-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="activity-discover-big-angles-4-4-1">Note the angle displayed at the origin for <span class="process-math">\(405^\circ\text{:}\)</span> why does it not match the slider angle?</div></article></article><article class="task exercise-like" id="activity-discover-big-angles-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="introduction" id="activity-discover-big-angles-5-1"><div class="para" id="activity-discover-big-angles-5-1-1">Angles of measure <span class="process-math">\(-45^\circ\)</span> and <span class="process-math">\(315^\circ\)</span>
-</div></div>
+<div class="para" id="activity-discover-big-angles-4-2-1">Compare the sine values for these two angles.</div></article><article class="task exercise-like" id="activity-discover-big-angles-4-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="activity-discover-big-angles-4-3-1">Where is the triangle created by the angle 405°?</div></article><article class="task exercise-like" id="activity-discover-big-angles-4-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="activity-discover-big-angles-4-4-1">Note the angle displayed at the origin for 405°: why does it not match the slider angle?</div></article></article><article class="task exercise-like" id="activity-discover-big-angles-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="introduction" id="activity-discover-big-angles-5-1"><div class="para" id="activity-discover-big-angles-5-1-1">Angles of measure -45° and 315°</div></div>
 <article class="task exercise-like" id="activity-discover-big-angles-5-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
 <div class="para" id="activity-discover-big-angles-5-2-1">Where are the triangles for these two points?</div></article><article class="task exercise-like" id="activity-discover-big-angles-5-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="activity-discover-big-angles-5-3-1">Move the slider from <span class="process-math">\(0^\circ\)</span> to <span class="process-math">\(-45^\circ\text{.}\)</span> Which direction does the point move?</div></article><article class="task exercise-like" id="activity-discover-big-angles-5-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="activity-discover-big-angles-5-3-1">Move the slider from 0° to -45°. Which direction does the point move?</div></article><article class="task exercise-like" id="activity-discover-big-angles-5-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
 <div class="para" id="activity-discover-big-angles-5-4-1">Note the angle displayed at the origin: explain why it is reasonable.</div></article></article></article><figure class="figure figure-like" id="figure-angle-repeat"><iframe id="figure-angle-repeat-2" width="600" height="450" src="figure-angle-repeat-2-if.html"></iframe><div class="instructions"><details id="figure-angle-repeat-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content">
 <div class="para" id="figure-angle-repeat-2-2-1">Use the slider to change the angle. Observe how the angle is drawn and how the sine and cosine values change.</div>
 <div class="para" id="figure-angle-repeat-2-2-2">You can drag the slider or click on it and use the arrow keys.</div>
 </div></details></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.1<span class="period">.</span></span><span class="space"> </span>Bigger Angles</figcaption></figure><div class="para" id="subsection-angles-5">We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In <a href="section-trig-graphs.html#figure-graph-sine" class="xref" data-knowl="./knowl/xref/figure-graph-sine.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.2">Figure 7.4.2</a> drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in <a href="section-trig-graphs.html#figure-graph-sine-long" class="xref" data-knowl="./knowl/xref/figure-graph-sine-long.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.3">Figure 7.4.3</a>.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.1<span class="period">.</span></span><span class="space"> </span>Bigger Angles</figcaption></figure><article class="exercise exercise-like" id="subsection-angles-5"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.4.2</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-angles-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-angles-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1490308&amp;frame_id=momsubsection-angles-5-1"></iframe></div></article><div class="para" id="subsection-angles-6">We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In <a href="section-trig-graphs.html#figure-graph-sine" class="xref" data-knowl="./knowl/xref/figure-graph-sine.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.3">Figure 7.4.3</a> drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in <a href="section-trig-graphs.html#figure-graph-sine-long" class="xref" data-knowl="./knowl/xref/figure-graph-sine-long.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.4">Figure 7.4.4</a>.</div>
 <figure class="figure figure-like" id="figure-graph-sine"><iframe id="figure-graph-sine-2" width="600" height="450" src="figure-graph-sine-2-if.html"></iframe><div class="instructions"><details id="figure-graph-sine-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content"><div class="para" id="figure-graph-sine-2-2-1">Use the slider to change the angle and produce the graph of sine. Observe how points on the graph corresponde to heights on the triangle.</div></div></details></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.2<span class="period">.</span></span><span class="space"> </span>Produce Graph of Sine</figcaption></figure></section><section class="subsection" id="subsection-wave-properties"><h3 class="heading hide-type">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.3<span class="period">.</span></span><span class="space"> </span>Produce Graph of Sine</figcaption></figure><div class="para" id="subsection-angles-8">Now we know what the graph of the sine function looks like and why it looks that way.</div></section><section class="subsection" id="subsection-wave-properties"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.4.2</span><span class="space"> </span><span class="title">Properties of Sine Waves</span>
 </h3>
 <figure class="figure figure-like" id="figure-graph-sine-long"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/sine-graph-long.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.3<span class="period">.</span></span><span class="space"> </span>Graph of Sine</figcaption></figure><div class="para" id="subsection-wave-properties-3">Notice that the graph of sine is a wave that repeats. The piece that repeats is called a <dfn class="terminology">cycle</dfn>. In the default graph this is from <span class="process-math">\(0^\circ\)</span> to <span class="process-math">\(360^\circ\)</span> as shown in <a href="section-trig-graphs.html#figure-graph-sine" class="xref" data-knowl="./knowl/xref/figure-graph-sine.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.2">Figure 7.4.2</a>.</div>
-<div class="para" id="subsection-wave-properties-4">The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.4<span class="period">.</span></span><span class="space"> </span>Graph of Sine</figcaption></figure><div class="para" id="subsection-wave-properties-3">From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a <dfn class="terminology">cycle</dfn>. In the default graph this is from 0° to 360° as shown in <a href="section-trig-graphs.html#figure-graph-sine" class="xref" data-knowl="./knowl/xref/figure-graph-sine.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.3">Figure 7.4.3</a>.</div>
+<div class="para" id="subsection-wave-properties-4">The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.</div>
 <article class="definition definition-like" id="definition-period"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.4</span><span class="period">.</span><span class="space"> </span><span class="title">Period.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.5</span><span class="period">.</span><span class="space"> </span><span class="title">Period.</span>
 </h4>
 <div class="para" id="definition-period-2-1">The length of a cycle measured in time is called the <dfn class="terminology">period</dfn>.</div></article><article class="definition definition-like" id="definition-wavelength"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.5</span><span class="period">.</span><span class="space"> </span><span class="title">Wavelength.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">Wavelength.</span>
 </h4>
-<div class="para" id="definition-wavelength-2-1">The length of a cycle measured in distance is called the <dfn class="terminology">wavelength</dfn>.</div></article><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/fvPx-Ecbx1I?&amp;modestbranding=1&amp;rel=0" id="video-wave-period-wavelength"></iframe></div>
-<div class="para" id="subsection-wave-properties-8">Sometimes instead of measuring how long a single cycle is units of time, we measure how many cycles occur in a fixed unit of time. This is called <dfn class="terminology">frequency</dfn>.</div>
+<div class="para" id="definition-wavelength-2-1">The length of a cycle measured in distance is called the <dfn class="terminology">wavelength</dfn>.</div></article><div class="para" id="subsection-wave-properties-7">The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength, and the bottom two sine curves have the same wavelength which is different from the one on top. We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.</div>
+<div class="para" id="subsection-wave-properties-8">The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.</div>
+<div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/fvPx-Ecbx1I?&amp;modestbranding=1&amp;rel=0" id="video-wave-period-wavelength"></iframe></div>
+<div class="para" id="subsection-wave-properties-10">Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called <dfn class="terminology">frequency</dfn>.</div>
 <article class="definition definition-like" id="definition-frequency"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">Frequency.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.7</span><span class="period">.</span><span class="space"> </span><span class="title">Frequency.</span>
 </h4>
-<div class="para" id="definition-frequency-2-1">The number of waves (periods) that occur per second is called the <dfn class="terminology">frequency</dfn>. This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.</div></article><div class="para" id="subsection-wave-properties-10">Note that frequency is the inverse of the period as shown in <a href="section-trig-graphs.html#table-period-frequency" class="xref" data-knowl="./knowl/xref/table-period-frequency.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 7.4.7: Period and Frequency are Inverses">Table 7.4.7</a>
+<div class="para" id="definition-frequency-2-1">The number of cycles that occur per second is called the <dfn class="terminology">frequency</dfn>. This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.</div></article><div class="para" id="subsection-wave-properties-12">Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of <span class="process-math">\(1/2\text{.}\)</span>
 </div>
-<figure class="table table-like" id="table-period-frequency"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">7.4.7<span class="period">.</span></span><span class="space"> </span>Period and Frequency are Inverses</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<figure class="table table-like" id="table-period-frequency"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">7.4.8<span class="period">.</span></span><span class="space"> </span>Period and Frequency are Inverses</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b2 r2 l2 t2 lines">Period</td>
 <td class="l m b2 r2 l0 t2 lines">Frequency</td>
 </tr>
 <tr>
-<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(\frac{1\text{ cycle}}{n\text{ seconds}}\)</span></td>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(\frac{n\text{ seconds}}{1\text{ cycle}}\)</span></td>
 <td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(\frac{n\text{ cycles}}{1\text{ second}}\)</span></td>
 </tr>
 </table></div></figure><article class="example example-like" id="example-period-frequency"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.8</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-period-frequency-1-1">If a wave has a period of <span class="process-math">\(1/3\)</span> seconds, what is its frequency?</div>
-<div class="solutions">
-<details id="example-period-frequency-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-period-frequency-2-1">
+<div class="para" id="example-period-frequency-1">If a wave has a period of <span class="process-math">\(1/3\)</span> seconds, what is its frequency?</div>
+<div class="para logical" id="example-period-frequency-2">
 <div class="para">We can see how many <span class="process-math">\(1/3\)</span> of a second there are in one second. That is</div>
-<div class="displaymath process-math" id="example-period-frequency-2-1-2">
+<div class="displaymath process-math" id="example-period-frequency-2-2">
 \begin{align*}
 f \cdot \frac{1}{3} \amp = 1\\
 f \amp = 3
 \end{align*}
 </div>
 <div class="para">The frequency is 3.</div>
-</div></div></details><details id="example-period-frequency-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-period-frequency-3-1">
+</div>
+<div class="para logical" id="example-period-frequency-3">
 <div class="para">We can consider this a conversion of units. If the period is</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{1/3 \text{ seconds}}{\text{cycle}}
 \end{equation*}
 </div>
-<div class="para">and frequency is in cycles per second we can invert the measure.</div>
-<div class="displaymath process-math" id="example-period-frequency-3-1-2">
+<div class="para">and frequency is in cycles per second what we want is to remove the 1/3 from the denominator (turn it into 1).</div>
+<div class="displaymath process-math" id="example-period-frequency-3-2">
 \begin{align*}
 \frac{\text{cycles}}{1/3 \text{ seconds}} \amp = \\
 \frac{\text{cycles}}{1/3 \text{ seconds}} \cdot \frac{3}{3} \amp = \frac{3 \text{ cycles}}{\text{ second}}
 \end{align*}
 </div>
-</div></div></details>
-</div></article><div class="para logical" id="subsection-wave-properties-13">
+</div></article><div class="para logical" id="subsection-wave-properties-15">
 <div class="para">Generally, if the period is <span class="process-math">\(T\)</span> then the frequency is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -632,41 +623,41 @@ f=\frac{1}{T}.
 </div>
 </div>
 <article class="example example-like" id="example-wave-length-sound"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.9</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-wave-length-sound-1-1">What are the period and wavelength of middle C which has frequency 261.63 Hz?</div>
-<div class="solutions"><details id="example-wave-length-sound-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="example-wave-length-sound-2-1">
+<div class="para" id="example-wave-length-sound-1">What are the period and wavelength of middle C which has a frequency of 261.63 Hz?</div>
+<div class="para logical" id="example-wave-length-sound-2">
 <div class="para">Because we know the frequency we can directly calculate the period.</div>
-<div class="displaymath process-math" id="example-wave-length-sound-2-1-1">
+<div class="displaymath process-math" id="example-wave-length-sound-2-1">
 \begin{align*}
 261.63 \amp = \frac{1}{T}\\
 T \cdot 261.63 \amp = T \cdot \frac{1}{T}\\
 \frac{T \cdot 261.63}{261.33} \amp = \frac{1}{261.33}\\
 T \amp = \frac{1}{261.63}\\
-T \amp \approx 0.0038222
+\amp \approx 0.003822191645\\
+\amp \approx 0.0038222
 \end{align*}
 </div>
+<div class="para">We round using significant digits because these are scientific measurements.</div>
 </div>
-<div class="para logical" id="example-wave-length-sound-2-2">
-<div class="para">For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle).</div>
+<div class="para logical" id="example-wave-length-sound-3">
+<div class="para">For the wavelength we need to know that the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.266 \frac{\text{feet}}{\text{cycle}}.
 \end{equation*}
 </div>
-</div>
-</div></details></div></article><article class="example example-like" id="example-wave-length-radio"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.10</span><span class="period">.</span>
+</div></article><article class="example example-like" id="example-wave-length-radio"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-wave-length-radio-1-1">A local AM radio station broadcasts at <span class="process-math">\(750.0\)</span> Hz. Note radio wave move at the speed of light which is approximately <span class="process-math">\(2.9979 \times 10^8\)</span> meters per second. What are the period and wavelength of this radio signal?</div>
+<div class="para" id="example-wave-length-radio-1-1">A local AM radio station broadcasts at <span class="process-math">\(750.0\)</span> Hz. Note radio waves move at the speed of light which is approximately <span class="process-math">\(2.9979 \times 10^8\)</span> meters per second. What are the period and wavelength of this radio signal?</div>
 <div class="solutions"><details id="example-wave-length-radio-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="example-wave-length-radio-2-1">
 <div class="para">Because we know the frequency we can directly calculate the period.</div>
 <div class="displaymath process-math" id="example-wave-length-radio-2-1-1">
 \begin{align*}
 T \amp = \frac{1}{750.0}\\
-T \amp \approx 0.00133
+\amp \approx 0.00133
 \end{align*}
 </div>
 </div>
@@ -679,20 +670,14 @@ T \amp \approx 0.00133
 </div>
 </div>
 </div></details></div></article><article class="exercise exercise-like" id="exercise-wave-length-sound"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.4.11</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.4.12</span><span class="period">.</span>
 </h4>
-<div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork.uaa.alaska.edu" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7ClRFWFQoTU9ERVMoUFRYPT4nJyxIVE1MPT4nPGRpdiBzdHlsZT0iZGlzcGxheTpub25lOyI+XChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpPC9kaXY+JykpOwpDb250ZXh0KCdOdW1lcmljJyk7CgpCRUdJTl9QR01MCkNvbnNpZGVyIGEgRCB3aGljaCBoYXMgZnJlcXVlbmN5IDI5My42NiBIegoKV2hhdCBpcyB0aGUgcGVyaW9kPyBbX117MC4wMDM0MDUzfXsxMH0KCldoYXQgaXMgdGhlIHdhdmVsZW5ndGg/IFtfXXszLjgwMH17Nn0KCgpFTkRfUEdNTAoKQkVHSU5fUEdNTF9TT0xVVElPTgpCZWNhdXNlIHdlIGtub3cgdGhlIGZyZXF1ZW5jeSB3ZSBjYW4gZGlyZWN0bHkgY2FsY3VsYXRlIHRoZSBwZXJpb2QuCgpbYGBgXGJlZ2lue2FsaWduZWR9CjI5My42NiBcYW1wID0gXGZyYWN7MX17VH1cXApUIFxjZG90IDI5My42NiBcYW1wID0gVCBcY2RvdCBcZnJhY3sxfXtUfVxcClxmcmFje1QgXGNkb3QgMjkzLjY2fXsyOTMuNjZ9IFxhbXAgPSBcZnJhY3sxfXsyOTMuNjZ9XFwKVCBcYW1wID0gXGZyYWN7MX17MjkzLjY2fVxcClQgXGFtcCBcYXBwcm94IDAuMDAzNDA1MwpcZW5ke2FsaWduZWR9CmBgYF0KCgoKRm9yIHRoZSB3YXZlbGVuZ3RoIHdlIG5lZWQgdG8gcmVjYWxsIHRoZSBzcGVlZCBvZiBzb3VuZCBpcyAxMTE2IGZlZXQvc2Vjb25kLiBOb3cgd2UgY2FuIHVzZSB0aGUgZmFjdCB0aGF0IEh6IGlzIGN5Y2xlcyBwZXIgc2Vjb25kIHRvIGNvbnZlcnQgZnJlcXVlbmN5IChjeWNsZXMgcGVyIHNlY29uZCkgdG8gd2F2ZWxlbmd0aCAoZmVldCBwZXIgY3ljbGUpLgoKW2BgYFxmcmFje1x0ZXh0e3NlY29uZH19ezI5My42NiBcdGV4dHsgY3ljbGVzfX0gXGNkb3QgXGZyYWN7MTExNiBcdGV4dHsgZmVldH19e1x0ZXh0e3NlY29uZH19IFxhcHByb3ggMy44MDAgXGZyYWN7XHRleHR7ZmVldH19e1x0ZXh0e2N5Y2xlfX0uYGBgXQoKCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="extracted-webwork-1-1-1-1">Consider a D which has frequency 293.66 Hz</div> <div class="para" id="extracted-webwork-1-1-1-2">What is the period? <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
-</div> <div class="para" id="extracted-webwork-1-1-1-3">What is the wavelength? <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
-</div>
-</div>
-</div></article><article class="definition definition-like" id="definition-amplitude"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.12</span><span class="period">.</span><span class="space"> </span><span class="title">Amplitude.</span>
+<div id="momexercise-wave-length-sound-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-wave-length-sound-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1490351&amp;frame_id=momexercise-wave-length-sound-1"></iframe></div></article><div class="para" id="subsection-wave-properties-19">Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.</div>
+<article class="definition definition-like" id="definition-amplitude"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.4.13</span><span class="period">.</span><span class="space"> </span><span class="title">Amplitude.</span>
 </h4>
 <div class="para" id="definition-amplitude-2-1">The height of the wave (from center to top) is called the <dfn class="terminology">amplitude</dfn>.</div></article><article class="example example-like" id="example-sine-properties"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.13</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.14</span><span class="period">.</span>
 </h4>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/sine-property-example.svg" role="img" class="contained"></div>
 <div class="para logical" id="example-sine-properties-2">
@@ -702,26 +687,40 @@ T \amp \approx 0.00133
 f=\frac{1}{180} \approx 0.0056
 \end{equation*}
 </div>
-</div></article></section><section class="subsection" id="subsection-sine-graphs"><h3 class="heading hide-type">
+</div></article><div class="para" id="subsection-wave-properties-22">In applications the wavelength, period/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.</div>
+<figure class="figure figure-like" id="figure-sine-curve-properties"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="subfigure-sine-wave-properties1"><img src="external/images/sine-curve1.svg" role="img" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Sine Wave</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="subfigure-sine-wave-properties2"><img src="external/images/sine-curve2.svg" role="img" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Another Sine Wave</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.15<span class="period">.</span></span><span class="space"> </span>Identifying Sine Wave Properties</figcaption></figure><article class="example example-like" id="example-identify-sine-traits"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-identify-sine-traits-1">Consider the sine wave in <a href="section-trig-graphs.html#subfigure-sine-wave-properties1" class="xref" data-knowl="./knowl/xref/subfigure-sine-wave-properties1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.15.(a)">Figure 7.4.15.(a)</a>. The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.</div>
+<div class="para" id="example-identify-sine-traits-2">The period is 1/3, because a full cycle ends at 1/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.</div>
+<div class="para" id="example-identify-sine-traits-3">Switch to the sine wave in <a href="section-trig-graphs.html#subfigure-sine-wave-properties2" class="xref" data-knowl="./knowl/xref/subfigure-sine-wave-properties2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.15.(b)">Figure 7.4.15.(b)</a>. The amplitude is 3 because the wave reaches a max of 3 and a min of -3.</div>
+<div class="para" id="example-identify-sine-traits-4">The period is 4, because a full cycle ends at 4. The frequency is 1/4, because the cycle is only 1/4 complete by 1.</div></article><article class="exercise exercise-like" id="subsection-wave-properties-25"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.4.17</span><span class="period">.</span>
+</h4>
+<div id="momsubsection-wave-properties-25-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-wave-properties-25-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1490613&amp;frame_id=momsubsection-wave-properties-25-1"></iframe></div></article></section><section class="subsection" id="subsection-sine-graphs"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.4.3</span><span class="space"> </span><span class="title">Transformations of Sine</span>
 </h3>
-<div class="para" id="subsection-sine-graphs-2">In <a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal" title="Subsection 5.4.1: Properties of Quadratics">Subsection 5.4.1</a> and <a href="section-exponential-graph.html#subsection-exponential-transform" class="internal" title="Subsection 6.2.2: Transforming Exponential Functions">Subsection 6.2.2</a> we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. Here we will learn to change the amplitude and the frequency of sine waves.</div>
-<figure class="figure figure-like" id="figure-sine-transform"><iframe id="figure-sine-transform-2" width="600" height="450" src="figure-sine-transform-2-if.html"></iframe><div class="instructions"><details id="figure-sine-transform-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content"><div class="para" id="figure-sine-transform-2-2-1">Use the sliders to see how multiplying inside and outside sine affects the curve.</div></div></details></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.14<span class="period">.</span></span><span class="space"> </span>Amplitude and Wavelength</figcaption></figure><article class="exercise exercise-like" id="exercise-amplitude"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.4.15</span><span class="period">.</span>
+<div class="para" id="subsection-sine-graphs-2">In <a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal" title="Subsection 5.4.1: Properties of Quadratics">Subsection 5.4.1</a> and <a href="section-exponential-graph.html#subsection-exponential-transform" class="internal" title="Subsection 6.2.2: Transforming Exponential Functions">Subsection 6.2.2</a> we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.</div>
+<article class="activity project-like" id="activity-amplitude"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">15</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="exercise-amplitude-1"><div class="para" id="exercise-amplitude-1-1">Use <a href="section-trig-graphs.html#figure-sine-transform" class="xref" data-knowl="./knowl/xref/figure-sine-transform.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.14">Figure 7.4.14</a> to answer the following. Note the amplitude of the unmodified graph is 1.</div></div>
-<article class="task exercise-like" id="exercise-amplitude-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="exercise-amplitude-2-1">If you set <span class="process-math">\(a=2\text{,}\)</span> that is graph <span class="process-math">\(2\sin(\pi x)\)</span> what is the amplitude?</div></article><article class="task exercise-like" id="exercise-amplitude-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="exercise-amplitude-3-1">If you set <span class="process-math">\(a=3\text{,}\)</span> that is graph <span class="process-math">\(3\sin(\pi x)\)</span> what is the amplitude?</div></article><article class="task exercise-like" id="exercise-amplitude-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="exercise-amplitude-4-1">How could you obtain an amplitude of 1/2?</div></article></article><article class="exercise exercise-like" id="exercise-wavelength"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.4.16</span><span class="period">.</span>
+<div class="introduction" id="activity-amplitude-1"><div class="para" id="activity-amplitude-1-1">This activity demonstrates how the sine function is modified to change amplitude. Use <a href="section-trig-graphs.html#figure-sine-transform" class="xref" data-knowl="./knowl/xref/figure-sine-transform.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.18">Figure 7.4.18</a> to answer the following. Note the amplitude of the unmodified graph is 1.</div></div>
+<article class="task exercise-like" id="activity-amplitude-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="activity-amplitude-2-1">If you set <span class="process-math">\(a=2\text{,}\)</span> that is graph <span class="process-math">\(2\sin(\pi x)\)</span> what is the amplitude?</div></article><article class="task exercise-like" id="activity-amplitude-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="activity-amplitude-3-1">If you set <span class="process-math">\(a=3\text{,}\)</span> that is graph <span class="process-math">\(3\sin(\pi x)\)</span> what is the amplitude?</div></article><article class="task exercise-like" id="activity-amplitude-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="activity-amplitude-4-1">How could you obtain an amplitude of 1/2?</div></article></article><article class="activity project-like" id="activity-wavelength"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">16</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="exercise-wavelength-1"><div class="para" id="exercise-wavelength-1-1">Use <a href="section-trig-graphs.html#figure-sine-transform" class="xref" data-knowl="./knowl/xref/figure-sine-transform.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.14">Figure 7.4.14</a> to answer the following. Note the wavelength of the unmodified graph is 2.</div></div>
-<article class="task exercise-like" id="exercise-wavelength-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="exercise-wavelength-2-1">If you set <span class="process-math">\(f=2\text{,}\)</span> that is graph <span class="process-math">\(\sin(2 \pi x)\)</span> what is the wavelength?</div></article><article class="task exercise-like" id="exercise-wavelength-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="exercise-wavelength-3-1">If you set <span class="process-math">\(f=3\text{,}\)</span> that is graph <span class="process-math">\(\sin(3 \pi x)\)</span> what is the wavelength?</div></article><article class="task exercise-like" id="exercise-wavelength-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="exercise-wavelength-4-1">How could you obtain a wavelength of 4?</div></article></article></section><section class="exercises" id="section-trig-graphs-6"><h3 class="heading hide-type">
+<div class="introduction" id="activity-wavelength-1"><div class="para" id="activity-wavelength-1-1">This activity demonstrates how the sine function is modified to change wavelength. Use <a href="section-trig-graphs.html#figure-sine-transform" class="xref" data-knowl="./knowl/xref/figure-sine-transform.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.18">Figure 7.4.18</a> to answer the following. Note the wavelength of the unmodified graph is 2.</div></div>
+<article class="task exercise-like" id="activity-wavelength-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="activity-wavelength-2-1">If you set <span class="process-math">\(f=2\text{,}\)</span> that is graph <span class="process-math">\(\sin(2 \pi x)\)</span> what is the wavelength?</div></article><article class="task exercise-like" id="activity-wavelength-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="activity-wavelength-3-1">If you set <span class="process-math">\(f=3\text{,}\)</span> that is graph <span class="process-math">\(\sin(3 \pi x)\)</span> what is the wavelength?</div></article><article class="task exercise-like" id="activity-wavelength-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="activity-wavelength-4-1">How could you obtain a wavelength of 4?</div></article></article><figure class="figure figure-like" id="figure-sine-transform"><iframe id="figure-sine-transform-2" width="600" height="450" src="figure-sine-transform-2-if.html"></iframe><div class="instructions"><details id="figure-sine-transform-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content"><div class="para" id="figure-sine-transform-2-2-1">Use the sliders to see how multiplying inside and outside sine affects the curve.</div></div></details></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.4.18<span class="period">.</span></span><span class="space"> </span>Amplitude and Wavelength</figcaption></figure></section><section class="exercises" id="section-trig-graphs-6"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">7.4.4</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="section-trig-graphs-6-1"><h4 class="heading">
