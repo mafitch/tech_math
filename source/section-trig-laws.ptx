@@ -112,7 +112,7 @@
         <caption>Experiment to Demonstrate the Angle/Opposite Side Relationship</caption>
             <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/AngleSideRelationship.png">
             <slate xml:id="geogebra-angle-opposite-side" surface="geogebra" material="dd8yafqv" aspect="4:3">
-                    setCoordSystem(-4, 4, 0, 3);
+                    setCoordSystem(-3, 4, 0, 4);
                     enableShiftDragZoom(false);
             </slate>
             <instructions>
@@ -278,7 +278,7 @@
     <example xml:id="example-flight-distance">
         <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from the start of this maneuver?</p>
         <p>First, it helps to sketch an image.</p>
-        <image source="images/sailboat-course" width="50%" />
+        <image source="images/sailboat-course" width="40%" />
         <p>In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).</p>
         <p>We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300<degree/> and ended up at 245<degree/> then we turned left <m>300^\circ-245^\circ = 55^\circ</m>.</p>
         <p>Now we can apply the Law of Cosines.
@@ -295,38 +295,28 @@
     </example>
 
     <example xml:id="example-object-height">
-        <p>Two observers who are 2.3 miles apart on the ground at the same altitude record the angle at which they saw a passing aircraft at the same time. The observer at point A recorded an angle of 56<degree/> from horizontal. The observer at point B recorded an angle of 87<degree/> from horizontal. How high above ground was the aircraft?</p>
+        <p>Two observers who are 2.3 miles apart on the ground at the same altitude record the angle at which they saw a passing aircraft at the same time. The observer at point A recorded an angle of 8.00<degree/> from horizontal. The observer at point B recorded an angle of 34.20<degree/> from horizontal. How high above ground was the aircraft?</p>
         <p>First, it helps to sketch an image.</p>
-        <image source="images/aircraft-height" width="50%" />
-        <p>In our sketch we see multiple triangles including some right triangles. There is non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we can apply the law of sines to find the other side lengths. However, none of these is the desired altitude.</p>
-        <p>There is also a right triangle with side from A to C and the other leg is the altitude we are seeking (labeled <m>h</m>). It shares a side with the previous triangle, so if we find that side length we are closer to the answer.</p>
-        <p>Because we have angle-side-angle information, we will use the Law of Sines. We want to know the length of the side across from the angle at B. However, the angle we were given is the other side of the triangle. We must apply another fact: the angle of a line is 180<degree/>. Thus <m>34.20^\circ+B = 180^\circ</m> or <m>B = 145.80^\circ</m>.</p>
-        <p>To setup the Law of Sines using this angle we need the angle across from the side of known length. That angle is not labeled. We can use the Triangle Angle Sum theorem to calculate its measure. <m>8.00^\circ+145.80^\circ+P = 180^\circ</m> So, the angle at the aircraft is <m>P = 26.2^\circ</m>.</p>
+        <image source="images/aircraft-height" width="75%" />
+        <p>How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.</p>
+        <p>In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20<degree/> and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.</p>
+        <p>That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular <me>\frac{\sin(P)}{2.3}=\frac{\sin(8.00^\circ)}{c}</me></p>
+        <p>To calculate the angle at the plane (labeled <m>P</m> above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is <m>180^\circ-34.20^\circ = 145.80^\circ = B</m>. Now, b <m>8.00^\circ+145.80^\circ+P = 180^\circ</m> So, the angle at the aircraft is <m>P = 26.2^\circ</m>.</p>
         <p>Now we can apply the Law of Sines.
             <md>
-                <mrow>\frac{\sin(145.80^\circ)}{c} &amp; = \frac{\sin(26.2^\circ)}{2.3 \text{ mi}}.</mrow>
-                <mrow>\frac{c}{\sin(145.80^\circ)} &amp; = \frac{2.3 \text{ mi}}{\sin(26.2^\circ)}.</mrow>
-                <mrow>c &amp; = \frac{(2.3 \text{ mi})\sin(145.80^\circ)}{\sin(26.2^\circ)}</mrow>
-                <mrow> &amp; \approx 2.92814186</mrow>
-                <mrow> &amp; \approx 2.9.</mrow>
+                <mrow>\frac{\sin(8.00^\circ)}{c} &amp; = \frac{\sin(26.2^\circ)}{2.3 \text{ mi}}.</mrow>
+                <mrow>\frac{c}{\sin(8.00^\circ)} &amp; = \frac{2.3 \text{ mi}}{\sin(26.2^\circ)}.</mrow>
+                <mrow>c &amp; = \frac{(2.3 \text{ mi})\sin(8.00^\circ)}{\sin(26.2^\circ)}</mrow>
+                <mrow> &amp; \approx 0.72501447</mrow>
+                <mrow> &amp; \approx 0.73.</mrow>
             </md>
         </p>
-        <p>We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. However, we know only part of the length of the other leg. If we knew the angle at the top of the right triangle (at the aircraft), we could set up the Law of Sines again. Again the triangle angle sum will give us that angle. <m>8.00^\circ+P^\prime+90^\circ=180^\circ</m> because this is a right triangle. Thus <m>P^\prime=82.00^\circ</m>. Now we can use the Law of Sines to calculate the length of the complete bottom side.
+        <p>We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height.
             <md>
-                <mrow>\frac{\sin(82.00^\circ)}{AC} &amp; = \frac{\sin(90^\circ)}{2.92814186 \text{ mi}}.</mrow>
-                <mrow>\frac{AC}{\sin(82.00^\circ)} &amp; = \frac{2.92814186}{\sin(90^\circ)}.</mrow>
-                <mrow>AC &amp; = \frac{(2.92814186 \text{ mi})\sin(82.00^\circ)}{\sin(90^\circ)}</mrow>
-                <mrow> &amp; \approx 2.89964538</mrow>
-                <mrow> &amp; \approx 2.9.</mrow>
-            </md>
-        Notice that due to rounding and the very small angle (8<degree/>) this leg is indistinguishably shorter than the hypotenuse.</p>
-        <p>Finally, we can use the Pythagorean Theorem to calculate the altitude.
-            <md>
-                <mrow>h^2+(2.89964538)^2 &amp; \approx (2.92814186)^2.</mrow>
-                <mrow>h^2+8.40794333 &amp; \approx 8.574014752.</mrow>
-                <mrow>h^2 &amp; \approx 0.16607142.</mrow>
-                <mrow>h &amp; \approx \sqrt{0.16607142}</mrow>
-                <mrow> &amp; \approx 0.40751862</mrow>
+                <mrow>\frac{\sin(34.20^\circ)}{h} &amp; = \frac{\sin(90^\circ)}{0.72501447 \text{ mi}}.</mrow>
+                <mrow>\frac{h}{\sin(34.20^\circ)} &amp; = \frac{0.72501447 \text{ mi}}{\sin(90^\circ)}.</mrow>
+                <mrow>h &amp; = \frac{(0.72501447 \text{ mi})\sin(34.20^\circ)}{\sin(90^\circ)}</mrow>
+                <mrow> &amp; \approx 0.4075185828</mrow>
                 <mrow> &amp; \approx 0.41.</mrow>
             </md>
         This is in miles. It will be easier to interpret in feet. The conversion ratio in <xref ref="table-customary-convert" /> suggests we can multiply <me>(0.40751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2151.6983 \text{ ft} \approx 2200 \text{ ft}</me>.</p>
