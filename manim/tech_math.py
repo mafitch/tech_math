@@ -109,10 +109,10 @@ class period_wavelength(Scene):
         axis4.shift(4*RIGHT+1.7*DOWN)
 
         # add labels
-        text1 = Text("Period 2, Wavelength 2",font_size=16).next_to(axis1,DOWN)
-        text2 = Text("Period 4, Wavelength 2",font_size=16).next_to(axis2,DOWN)
-        text3 = Text("Period 2, Wavelength 1",font_size=16).next_to(axis3,DOWN)
-        text4 = Text("Period 4, Wavelength 1",font_size=16).next_to(axis4,DOWN)
+        text1 = Text("Period 1, Wavelength 2",font_size=16).next_to(axis1,DOWN)
+        text2 = Text("Period 2, Wavelength 2",font_size=16).next_to(axis2,DOWN)
+        text3 = Text("Period 1, Wavelength 1",font_size=16).next_to(axis3,DOWN)
+        text4 = Text("Period 2, Wavelength 1",font_size=16).next_to(axis4,DOWN)
         self.add(axis1,axis2,axis3,axis4,text1,text2,text3,text4)
 
         # create four waves with different periods and wavelengths
@@ -120,7 +120,7 @@ class period_wavelength(Scene):
         graph2 = axis2.plot(lambda x: np.sin(PI*x), x_range=[0,2],color=GREEN)
         graph3 = axis3.plot(lambda x: np.sin(2*PI*x), x_range=[0,2],color=GREEN)
         graph4 = axis4.plot(lambda x: np.sin(2*PI*x), x_range=[0,2],color=GREEN)
-        self.play(Create(graph1,run_time=2),Create(graph2,run_time=4),Create(graph3,run_time=2),Create(graph4,run_time=4))
+        self.play(Create(graph1,run_time=1),Create(graph2,run_time=2),Create(graph3,run_time=2),Create(graph4,run_time=4))
 
         self.wait(0.07)
         time.remove_updater(timer_display)
