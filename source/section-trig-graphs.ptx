@@ -5,271 +5,323 @@
 
 <introduction>
 
-<p>We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of their graphs which have direct application.</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Read and use mathematical models in a technical document</li>
+            <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+            <li>Identify properties of sine and cosine functions (skill)</li>
+        </ul>
+    </p>
+
+    <p>We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.</p>
 
 </introduction>
 
 <subsection xml:id="subsection-angles">
-	<title>Beyond Triangles</title>
+    <title>Beyond Triangles</title>
 
-	<p>In triangles every angle had to be less than <m>180^\circ</m> because the sum of the angles of a triangle are only <m>180^\circ</m>. However, in many applications rather than measuring angles on objects we are measuring how far or how many times around something has moved. Use <xref ref="activity-discover-big-angles" /> to explore this idea.</p>
+    <p>This section illustrates how trigonometric functions can be defined on angles greater than 180<degree/>. In triangles every angle had to be less than 180<degree/> because the sum of the angles of a triangle are only 180<degree/>. However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180<degree/> when we are driving. Use <xref ref="activity-discover-big-angles" /> to explore this idea.</p>
 
-	<activity xml:id="activity-discover-big-angles">
-		<introduction>
-			<p>Use the the illustration in <xref ref="figure-angle-repeat" /> to see how angles are measured and how the trig functions act on larger angles. Find each of the following.</p>
-		</introduction>
-		<task>
-			<introduction><p>Angles of measure <m>30^\circ</m> and <m>210^\circ</m></p></introduction>
-			<task><p>What is the sine value for both points?</p></task>
-			<task><p>Compare the x coordinates of these two points.</p></task>
-			<task><p>Where is the triangle created by the angle <m>210^\circ</m>?</p></task>
-		</task>
-		<task>
-			<introduction><p>Angles of measure <m>45^\circ</m> and <m>315^\circ</m></p></introduction>
-			<task><p>What is the sine value for both points?</p></task>
-			<task><p>Compare the sine values for these two points.</p></task>
-			<task><p>Where is the triangle created by the angle <m>315^\circ</m>?</p></task>
-		</task>
-		<task>
-			<introduction><p>Angles of measure <m>45^\circ</m> and <m>405^\circ</m></p></introduction>
-			<task><p>Compare the sine values for these two points.</p></task>
-			<task><p>Where is the triangle created by the angle <m>315^\circ</m>?</p></task>
-			<task><p>Note the angle displayed at the origin for <m>405^\circ</m>: why does it not match the slider angle?</p></task>
-		</task>
-		<task>
-			<introduction><p>Angles of measure <m>-45^\circ</m> and <m>315^\circ</m></p></introduction>
-			<task><p>Where are the triangles for these two points?</p></task>
-			<task><p>Move the slider from <m>0^\circ</m> to <m>-45^\circ</m>. Which direction does the point move?</p></task>
-			<task><p>Note the angle displayed at the origin: explain why it is reasonable.</p></task>
-		</task>
-	</activity>
+    <activity xml:id="activity-discover-big-angles">
+        <introduction>
+            <p>Use the the illustration in <xref ref="figure-angle-repeat" /> to see how angles, including those bigger than 180<degree/>, are measured and how the trig functions act on these angles.</p>
+        </introduction>
+        <task>
+            <introduction><p>Angles of measure 30<degree/> and 210<degree/></p></introduction>
+            <task><p>What is the sine value for both angles?</p></task>
+            <task><p>Compare the x coordinates of these two points on the sine graph.</p></task>
+            <task><p>Where is the triangle created by the angle 210<degree/>?</p></task>
+        </task>
+        <task>
+            <introduction><p>Angles of measure 45<degree/> and 315<degree/></p></introduction>
+            <task><p>Compare the sine values for these two points.</p></task>
+            <task><p>Where is the triangle created by the angle 315<degree/>?</p></task>
+        </task>
+        <task>
+            <introduction><p>Angles of measure 45<degree/> and 405<degree/></p></introduction>
+            <task><p>Compare the sine values for these two angles.</p></task>
+            <task><p>Where is the triangle created by the angle 405<degree/>?</p></task>
+            <task><p>Note the angle displayed at the origin for 405<degree/>: why does it not match the slider angle?</p></task>
+        </task>
+        <task>
+            <introduction><p>Angles of measure -45<degree/> and 315<degree/></p></introduction>
+            <task><p>Where are the triangles for these two points?</p></task>
+            <task><p>Move the slider from 0<degree/> to -45<degree/>. Which direction does the point move?</p></task>
+            <task><p>Note the angle displayed at the origin: explain why it is reasonable.</p></task>
+        </task>
+    </activity>
 
-	<figure xml:id="figure-angle-repeat">
-		<caption>Bigger Angles</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Angles.png">
-	        <slate xml:id="geogebra-angle-repeat" surface="geogebra" material="a4kkmwdt" aspect="4:3">
-	                setCoordSystem(-1.1, 1.1, -1.1, 1.1);
-	                enableShiftDragZoom(false);
-	        </slate>
-	    	<instructions>
-	        	<p>Use the slider to change the angle. Observe how the angle is drawn and how the sine and cosine values change.</p>
-	        	<p>You can drag the slider or click on it and use the arrow keys.</p>
-	        </instructions>
-	    </interactive>
-	</figure>
+    <figure xml:id="figure-angle-repeat">
+        <caption>Bigger Angles</caption>
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/Angles.png">
+            <slate xml:id="geogebra-angle-repeat" surface="geogebra" material="a4kkmwdt" aspect="4:3">
+                    setCoordSystem(-1.1, 1.1, -1.1, 1.1);
+                    enableShiftDragZoom(false);
+            </slate>
+            <instructions>
+                <p>Use the slider to change the angle. Observe how the angle is drawn and how the sine and cosine values change.</p>
+                <p>You can drag the slider or click on it and use the arrow keys.</p>
+            </instructions>
+        </interactive>
+    </figure>
 
-	<p>We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In <xref ref="figure-graph-sine" /> drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in <xref ref="figure-graph-sine-long" />. </p>
+    <exercise>
+        <myopenmath problem="1490308" />
+    </exercise>
 
-	<figure xml:id="figure-graph-sine">
-		<caption>Produce Graph of Sine</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/GraphSine.png">
-	        <slate xml:id="geogebra-graph-sine" surface="geogebra" material="rmsv9eh8" aspect="4:3">
-	                setCoordSystem(-1, 10, -1.1, 1.1);
-	                enableShiftDragZoom(false);
-	        </slate>
-	    	<instructions>
-	        	<p>Use the slider to change the angle and produce the graph of sine. Observe how points on the graph corresponde to heights on the triangle.</p>
-	        </instructions>
-	    </interactive>
-	</figure>
+    <p>We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In <xref ref="figure-graph-sine" /> drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in <xref ref="figure-graph-sine-long" />. </p>
+
+    <figure xml:id="figure-graph-sine">
+        <caption>Produce Graph of Sine</caption>
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/GraphSine.png">
+            <slate xml:id="geogebra-graph-sine" surface="geogebra" material="rmsv9eh8" aspect="4:3">
+                    setCoordSystem(-1, 10, -1.1, 1.1);
+                    enableShiftDragZoom(false);
+            </slate>
+            <instructions>
+                <p>Use the slider to change the angle and produce the graph of sine. Observe how points on the graph corresponde to heights on the triangle.</p>
+            </instructions>
+        </interactive>
+    </figure>
+
+    <p>Now we know what the graph of the sine function looks like and why it looks that way.</p>
 
 </subsection>
 
 <subsection xml:id="subsection-wave-properties">
-	<title>Properties of Sine Waves</title>
+    <title>Properties of Sine Waves</title>
 
-	<figure xml:id="figure-graph-sine-long">
-		<caption>Graph of Sine</caption>
-		<image source="images/sine-graph-long" width="50%" />
-	</figure>
+    <figure xml:id="figure-graph-sine-long">
+        <caption>Graph of Sine</caption>
+        <image source="images/sine-graph-long" width="50%" />
+    </figure>
 
-	<p>Notice that the graph of sine is a wave that repeats. The piece that repeats is called a <term>cycle</term>. In the default graph this is from <m>0^\circ</m> to <m>360^\circ</m> as shown in <xref ref="figure-graph-sine" />.</p>
+    <p>From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a <term>cycle</term>. In the default graph this is from 0<degree/> to 360<degree/> as shown in <xref ref="figure-graph-sine" />.</p>
 
-	<p>The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently.</p>
+    <p>The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.</p>
 
-	<definition xml:id="definition-period">
-		<title>Period</title>
-		<statement><p>The length of a cycle measured in time is called the <term>period</term>.</p></statement>
-	</definition>
+    <definition xml:id="definition-period">
+        <title>Period</title>
+        <statement><p>The length of a cycle measured in time is called the <term>period</term>.</p></statement>
+    </definition>
 
-	<definition xml:id="definition-wavelength">
-		<title>Wavelength</title>
-		<statement><p>The length of a cycle measured in distance is called the <term>wavelength</term>.</p></statement>
-	</definition>
+    <definition xml:id="definition-wavelength">
+        <title>Wavelength</title>
+        <statement><p>The length of a cycle measured in distance is called the <term>wavelength</term>.</p></statement>
+    </definition>
 
-	<video youtube="fvPx-Ecbx1I" xml:id="video-wave-period-wavelength" />
+    <p>The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength, and the bottom two sine curves have the same wavelength which is different from the one on top. We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.</p>
 
-	<p>Sometimes instead of measuring how long a single cycle is units of time, we measure how many cycles occur in a fixed unit of time. This is called <term>frequency</term>.</p>
+    <p>The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.</p>
 
-	<definition xml:id="definition-frequency">
-		<title>Frequency</title>
-		<statement><p>The number of waves (periods) that occur per second is called the <term>frequency</term>. This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.</p></statement>
-	</definition>
+    <video youtube="fvPx-Ecbx1I" xml:id="video-wave-period-wavelength" />
 
-	<p>Note that frequency is the inverse of the period as shown in <xref ref="table-period-frequency" /></p>
+    <p>Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called <term>frequency</term>.</p>
 
-	<table xml:id="table-period-frequency">
-		<title>Period and Frequency are Inverses</title>
-		<tabular top="medium">
-			<row left="medium" bottom="medium"><cell right="medium">Period</cell><cell right="medium">Frequency</cell></row>
-			<row left="medium" bottom="medium"><cell right="medium"><m>\frac{1\text{ cycle}}{n\text{ seconds}}</m></cell><cell right="medium"><m>\frac{n\text{ cycles}}{1\text{ second}}</m></cell></row>
-		</tabular>
-	</table>
+    <definition xml:id="definition-frequency">
+        <title>Frequency</title>
+        <statement><p>The number of cycles that occur per second is called the <term>frequency</term>. This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.</p></statement>
+    </definition>
 
-	<example xml:id="example-period-frequency">
-		<statement><p>If a wave has a period of <m>1/3</m> seconds, what is its frequency?</p></statement>
-		<solution><p>We can see how many <m>1/3</m> of a second there are in one second. That is
-		<md>
-			<mrow>f \cdot \frac{1}{3} \amp = 1</mrow>
-			<mrow>f \amp = 3</mrow>
-		</md> The frequency is 3.</p></solution>
-		<solution><p>We can consider this a conversion of units. If the period is <me>\frac{1/3 \text{ seconds}}{\text{cycle}}</me> and frequency is in cycles per second we can invert the measure.
-		<md>
-			<mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \amp = </mrow>
-			<mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \cdot \frac{3}{3} \amp = \frac{3 \text{ cycles}}{\text{ second}}</mrow>
-		</md></p></solution>
-	</example>
+    <p>Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of <m>1/2</m>.</p>
 
-	<p>Generally, if the period is <m>T</m> then the frequency is <me>f=\frac{1}{T}.</me></p>
+    <table xml:id="table-period-frequency">
+        <title>Period and Frequency are Inverses</title>
+        <tabular top="medium">
+            <row left="medium" bottom="medium"><cell right="medium">Period</cell><cell right="medium">Frequency</cell></row>
+            <row left="medium" bottom="medium"><cell right="medium"><m>\frac{n\text{ seconds}}{1\text{ cycle}}</m></cell><cell right="medium"><m>\frac{n\text{ cycles}}{1\text{ second}}</m></cell></row>
+        </tabular>
+    </table>
 
-	<example xml:id="example-wave-length-sound">
-		<statement><p>What are the period and wavelength of middle C which has frequency 261.63 Hz?</p></statement>
-		<solution><p>Because we know the frequency we can directly calculate the period.
-		<md>
-			<mrow>261.63 \amp = \frac{1}{T}</mrow>
-			<mrow>T \cdot 261.63 \amp = T \cdot \frac{1}{T}</mrow>
-			<mrow>\frac{T \cdot 261.63}{261.33} \amp = \frac{1}{261.33}</mrow>
-			<mrow>T \amp = \frac{1}{261.63}</mrow>
-			<mrow>T \amp \approx 0.0038222</mrow>
-		</md></p>
-		<p>For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
-	</example>
+    <example xml:id="example-period-frequency">
+        <p>If a wave has a period of <m>1/3</m> seconds, what is its frequency?</p>
+        <p>We can see how many <m>1/3</m> of a second there are in one second. That is
+        <md>
+            <mrow>f \cdot \frac{1}{3} \amp = 1</mrow>
+            <mrow>f \amp = 3</mrow>
+        </md> The frequency is 3.</p>
+        <p>We can consider this a conversion of units. If the period is <me>\frac{1/3 \text{ seconds}}{\text{cycle}}</me> and frequency is in cycles per second what we want is to remove the 1/3 from the denominator (turn it into 1).
+        <md>
+            <mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \amp = </mrow>
+            <mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \cdot \frac{3}{3} \amp = \frac{3 \text{ cycles}}{\text{ second}}</mrow>
+        </md></p>
+    </example>
 
-	<example xml:id="example-wave-length-radio">
-		<statement><p>A local AM radio station broadcasts at <m>750.0</m> Hz. Note radio wave move at the speed of light which is approximately <m>2.9979 \times 10^8</m> meters per second. What are the period and wavelength of this radio signal?</p></statement>
-		<solution><p>Because we know the frequency we can directly calculate the period.
-		<md>
-			<mrow>T \amp = \frac{1}{750.0}</mrow>
-			<mrow>T \amp \approx 0.00133</mrow>
-		</md></p>
-		<p>For the wavelength we need to convert units from seconds per cycle to meters per cycle <me>\frac{\text{second}}{750.0} \text{ cycles} \cdot \frac{2.9979 \times 10^8 \text{ m}}{\text{s}} \approx 3.997 \times 10^5 \frac{\text{feet}}{\text{cycle}}.</me></p>
-		</solution>
-	</example>
+    <p>Generally, if the period is <m>T</m> then the frequency is <me>f=\frac{1}{T}.</me></p>
 
-	<exercise xml:id="exercise-wave-length-sound">
-		<webwork>
-			<statement>
-				<p>Consider a D which has frequency 293.66 Hz</p>
-				<p>What is the period? <var name="0.0034053" width="10" /></p>
-				<p>What is the wavelength? <var name="3.800" width="6" /></p>
-			</statement>
-			<solution><p>Because we know the frequency we can directly calculate the period.
-			<md>
-				<mrow>293.66 \amp = \frac{1}{T}</mrow>
-				<mrow>T \cdot 293.66 \amp = T \cdot \frac{1}{T}</mrow>
-				<mrow>\frac{T \cdot 293.66}{293.66} \amp = \frac{1}{293.66}</mrow>
-				<mrow>T \amp = \frac{1}{293.66}</mrow>
-				<mrow>T \amp \approx 0.0034053</mrow>
-			</md></p>
-			<p>For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{293.66 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 3.800 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
-		</webwork>
-	</exercise>
+    <example xml:id="example-wave-length-sound">
+        <p>What are the period and wavelength of middle C which has a frequency of 261.63 Hz?</p>
+        <p>Because we know the frequency we can directly calculate the period.
+        <md>
+            <mrow>261.63 \amp = \frac{1}{T}</mrow>
+            <mrow>T \cdot 261.63 \amp = T \cdot \frac{1}{T}</mrow>
+            <mrow>\frac{T \cdot 261.63}{261.33} \amp = \frac{1}{261.33}</mrow>
+            <mrow>T \amp = \frac{1}{261.63}</mrow>
+            <mrow> \amp \approx 0.003822191645</mrow>
+            <mrow> \amp \approx 0.0038222</mrow>
+        </md> We round using significant digits because these are scientific measurements.</p>
+        <p>For the wavelength we need to know that the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows. <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</me></p>
+    </example>
 
-	<definition xml:id="definition-amplitude">
-		<title>Amplitude</title>
-		<statement><p>The height of the wave (from center to top) is called the <term>amplitude</term>.</p></statement>
-	</definition>
+    <example xml:id="example-wave-length-radio">
+        <statement><p>A local AM radio station broadcasts at <m>750.0</m> Hz. Note radio waves move at the speed of light which is approximately <m>2.9979 \times 10^8</m> meters per second. What are the period and wavelength of this radio signal?</p></statement>
+        <solution><p>Because we know the frequency we can directly calculate the period.
+        <md>
+            <mrow>T \amp = \frac{1}{750.0}</mrow>
+            <mrow> \amp \approx 0.00133</mrow>
+        </md></p>
+        <p>For the wavelength we need to convert units from seconds per cycle to meters per cycle <me>\frac{\text{second}}{750.0} \text{ cycles} \cdot \frac{2.9979 \times 10^8 \text{ m}}{\text{s}} \approx 3.997 \times 10^5 \frac{\text{feet}}{\text{cycle}}.</me></p>
+        </solution>
+    </example>
 
-	<example xml:id="example-sine-properties">
-		<image source="images/sine-property-example" width="50%" />
-		<p>The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is <me>f=\frac{1}{180} \approx 0.0056</me></p>
-	</example>
+    <exercise xml:id="exercise-wave-length-sound">
+<!--        <webwork>
+            <statement>
+                <p>Consider a D which has frequency 293.66 Hz</p>
+                <p>What is the period? <var name="0.0034053" width="10" /></p>
+                <p>What is the wavelength? <var name="3.800" width="6" /></p>
+            </statement>
+            <solution><p>Because we know the frequency we can directly calculate the period.
+            <md>
+                <mrow>293.66 \amp = \frac{1}{T}</mrow>
+                <mrow>T \cdot 293.66 \amp = T \cdot \frac{1}{T}</mrow>
+                <mrow>\frac{T \cdot 293.66}{293.66} \amp = \frac{1}{293.66}</mrow>
+                <mrow>T \amp = \frac{1}{293.66}</mrow>
+                <mrow>T \amp \approx 0.0034053</mrow>
+            </md></p>
+            <p>For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{293.66 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 3.800 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
+        </webwork> -->
+        <myopenmath problem="1490351" />
+    </exercise>
+
+    <p>Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.</p>
+
+    <definition xml:id="definition-amplitude">
+        <title>Amplitude</title>
+        <statement><p>The height of the wave (from center to top) is called the <term>amplitude</term>.</p></statement>
+    </definition>
+
+    <example xml:id="example-sine-properties">
+        <image source="images/sine-property-example" width="50%" />
+        <p>The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is <me>f=\frac{1}{180} \approx 0.0056</me></p>
+    </example>
+
+    <p>In applications the wavelength, period/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.</p>
+
+    <figure xml:id="figure-sine-curve-properties">
+        <caption>Identifying Sine Wave Properties</caption>
+        <sidebyside>
+            <figure xml:id="subfigure-sine-wave-properties1">
+                <caption>Sine Wave</caption>
+                <image source="images/sine-curve1" />
+            </figure>
+            <figure xml:id="subfigure-sine-wave-properties2">
+                <caption>Another Sine Wave</caption>
+                <image source="images/sine-curve2" />
+            </figure>
+        </sidebyside>
+    </figure>
+
+    <example xml:id="example-identify-sine-traits">
+        <p>Consider the sine wave in <xref ref="subfigure-sine-wave-properties1" />. The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.</p>
+        <p>The period is 1/3, because a full cycle ends at 1/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.</p>
+        <p>Switch to the sine wave in <xref ref="subfigure-sine-wave-properties2" />. The amplitude is 3 because the wave reaches a max of 3 and a min of -3.</p>
+        <p>The period is 4, because a full cycle ends at 4. The frequency is 1/4, because the cycle is only 1/4 complete by 1.</p>
+    </example>
+
+    <exercise>
+        <myopenmath problem="1490613" />
+    </exercise>
 
 </subsection>
 
 <subsection xml:id="subsection-sine-graphs">
-	<title>Transformations of Sine</title>
+    <title>Transformations of Sine</title>
 
-	<p>In <xref ref="subsection-quadratic-properties" /> and <xref ref="subsection-exponential-transform" /> we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. Here we will learn to change the amplitude and the frequency of sine waves.</p>
+    <p>In <xref ref="subsection-quadratic-properties" /> and <xref ref="subsection-exponential-transform" /> we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.</p>
 
-	<figure xml:id="figure-sine-transform">
-		<caption>Amplitude and Wavelength</caption>
-	    <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/SineAmplitudeFrequency.png">
-	        <slate xml:id="geogebra-sine-transform" surface="geogebra" material="rdfba54j" aspect="4:3">
-	                setCoordSystem(-0.1, 5, -5.1, 5.1);
-	        </slate>
-	    	<instructions>
-	        	<p>Use the sliders to see how multiplying inside and outside sine affects the curve.</p>
-	        </instructions>
-	    </interactive>
-	</figure>
+    <activity xml:id="activity-amplitude">
+        <introduction><p>This activity demonstrates how the sine function is modified to change amplitude. Use <xref ref="figure-sine-transform" /> to answer the following. Note the amplitude of the unmodified graph is 1.</p></introduction>
+        <task><p>If you set <m>a=2</m>, that is graph <m>2\sin(\pi x)</m> what is the amplitude?</p></task>
+        <task><p>If you set <m>a=3</m>, that is graph <m>3\sin(\pi x)</m> what is the amplitude?</p></task>
+        <task><p>How could you obtain an amplitude of 1/2?</p></task>
+    </activity>
 
-	<exercise xml:id="exercise-amplitude">
-		<introduction><p>Use <xref ref="figure-sine-transform" /> to answer the following. Note the amplitude of the unmodified graph is 1.</p></introduction>
-		<task><p>If you set <m>a=2</m>, that is graph <m>2\sin(\pi x)</m> what is the amplitude?</p></task>
-		<task><p>If you set <m>a=3</m>, that is graph <m>3\sin(\pi x)</m> what is the amplitude?</p></task>
-		<task><p>How could you obtain an amplitude of 1/2?</p></task>
-	</exercise>
+    <activity xml:id="activity-wavelength">
+        <introduction><p>This activity demonstrates how the sine function is modified to change wavelength. Use <xref ref="figure-sine-transform" /> to answer the following. Note the wavelength of the unmodified graph is 2.</p></introduction>
+        <task><p>If you set <m>f=2</m>, that is graph <m>\sin(2 \pi x)</m> what is the wavelength?</p></task>
+        <task><p>If you set <m>f=3</m>, that is graph <m>\sin(3 \pi x)</m> what is the wavelength?</p></task>
+        <task><p>How could you obtain a wavelength of 4?</p></task>
+    </activity>
 
-	<exercise xml:id="exercise-wavelength">
-		<introduction><p>Use <xref ref="figure-sine-transform" /> to answer the following. Note the wavelength of the unmodified graph is 2.</p></introduction>
-		<task><p>If you set <m>f=2</m>, that is graph <m>\sin(2 \pi x)</m> what is the wavelength?</p></task>
-		<task><p>If you set <m>f=3</m>, that is graph <m>\sin(3 \pi x)</m> what is the wavelength?</p></task>
-		<task><p>How could you obtain a wavelength of 4?</p></task>
-	</exercise>
+    <figure xml:id="figure-sine-transform">
+        <caption>Amplitude and Wavelength</caption>
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/SineAmplitudeFrequency.png">
+            <slate xml:id="geogebra-sine-transform" surface="geogebra" material="rdfba54j" aspect="4:3">
+                    setCoordSystem(-0.1, 5, -5.1, 5.1);
+            </slate>
+            <instructions>
+                <p>Use the sliders to see how multiplying inside and outside sine affects the curve.</p>
+            </instructions>
+        </interactive>
+    </figure>
 
 </subsection>
 
 <exercises>
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="838267" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="838267" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="838267" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="838267" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="837886" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="837886" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="837889" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="837889" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="837897" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="837897" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="1411552" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="1411552" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="838272" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="838272" />
+    </exercise>
 
 <exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="838276" />
-	</exercise>
+        <title>Contextless</title>
+        <myopenmath problem="838276" />
+    </exercise>
 
-	<exercise>
-	    <title>Application</title>
-	    <myopenmath problem="50914" />
-	</exercise>
+    <exercise>
+        <title>Application</title>
+        <myopenmath problem="50914" />
+    </exercise>
 
-	<exercise>
-	    <title>Contextless</title>
-	    <myopenmath problem="4495" />
-	</exercise>
+    <exercise>
+        <title>Contextless</title>
+        <myopenmath problem="4495" />
+    </exercise>
 
 </exercises>
 
