@@ -63,7 +63,7 @@
         <myopenmath problem="1485717" />
     </exercise>
 
-    <p>For a right triangle each of the other two angles have measure less than a right angle. This is a result of <xref ref="theorem-triangle-angle-sum"/>. Consider that <m>180^\circ-90^\circ=90^\circ</m> so the remaining two angles have a sum that adds to <m>90^\circ</m>. This implies both are smaller.</p>
+    <p>For a right triangle each of the other two angles have measure less than a right angle. This is a result of the <xref ref="theorem-triangle-angle-sum" text="title" /> theorem. <m>180^\circ-90^\circ=90^\circ</m> so the remaining two angles have a sum that adds to <m>90^\circ</m>. This implies both non-right angles are smaller than a right angle.</p>
 
 </subsection>
 
@@ -134,7 +134,7 @@
         <title>Inverse Trigonometric Functions</title>
 
         <tabular top="medium">
-            <row left="medium" bottom="medium"><cell right="medium">Trig</cell><cell colspan="2" right="medium">Inverse Trig</cell></row>
+            <row left="medium" bottom="medium"><cell right="medium">Function</cell><cell colspan="2" right="medium">Inverse Function</cell></row>
             <row left="medium" bottom="medium"><cell right="medium"><m>\sin \alpha = r</m></cell><cell right="medium"><m>\arcsin r = \alpha</m></cell><cell right="medium"><m>\sin^{-1} r = \alpha</m></cell></row>
             <row left="medium" bottom="medium"><cell right="medium"><m>\cos \alpha = r</m></cell><cell right="medium"><m>\arccos r = \alpha</m></cell><cell right="medium"><m>\cos^{-1} r = \alpha</m></cell></row>
             <row left="medium" bottom="medium"><cell right="medium"><m>\tan \alpha = r</m></cell><cell right="medium"><m>\arctan r = \alpha</m></cell><cell right="medium"><m>\tan^{-1} r = \alpha</m></cell></row>
@@ -144,9 +144,9 @@
     <p>Note the notation <m>\sin^{-1} x</m> shows up on calculator keys and in many books. It is unfortunately easy to confuse with <m>(\sin x)^{-1} = \frac{1}{\sin x} = \csc x</m>. As a result that notation will not be used in this text.</p>
 
     <example xml:id="example-angle-from-inverse-trig">
-        <p>What is the measure of both non-right angles in <xref ref="figure-trig-function-read" />?</p>
+        <p>What is the measure of both non-right angles in <xref ref="figure-trig-function-read" />? Use technology to calculate.</p>
         <p>We can use the arcsine function. <me>\alpha = \arcsin(3/\sqrt{34}) \approx 31^\circ</me>. <me>\theta = \arcsin(5/\sqrt{34}) \approx 59^\circ</me></p>
-        <p>We can use the arccosine function. <me>\alpha = \arccos(5/\sqrt{34}) \approx 31^\circ</me>. <me>\theta = \arccos(3/\sqrt{34}) \approx 59^\circ</me></p>
+        <p>We can also use the arccosine function. <me>\alpha = \arccos(5/\sqrt{34}) \approx 31^\circ</me>. <me>\theta = \arccos(3/\sqrt{34}) \approx 59^\circ</me></p>
     </example>
 
     <example xml:id="example-side-plus-inverse-trig">
@@ -199,7 +199,7 @@
     </figure>
 
     <example xml:id="example-triangle-solve1">
-        <p>A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the angles?</p>
+        <p>A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?</p>
         <p>We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.
         <md>
             <mrow>12^2+b^2 &amp; = 13^2.</mrow>
@@ -208,7 +208,7 @@
             <mrow>b &amp; = 5.</mrow>
         </md></p>
         <p>For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle. <me>\arcsin\left(\frac{12}{13}\right) \approx 67^\circ.</me></p>
-        <p>For the angle opposite the side of length 5, we can use the angle sum theorem
+        <p>For the angle opposite the side of length 5, we can now use the angle sum theorem.
             <md>
                 <mrow>90^\circ+67^\circ+B &amp; \approx 180^\circ.</mrow>
                 <mrow>B &amp; \approx 180^\circ-90^\circ-67^\circ.</mrow>
@@ -229,7 +229,7 @@
                 <p>The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.
                 <md>
                     <mrow>c^2 &amp; = 14^2+48^2</mrow>
-                    <mrow> &amp; 2500.</mrow>
+                    <mrow> &amp; = 2500.</mrow>
                     <mrow>c &amp; = \sqrt{2500}</mrow>
                     <mrow> &amp; = 50.</mrow>
                 </md></p>
@@ -240,7 +240,7 @@
                 <p>What are the measures of the angles?</p>
             </statement>
             <solution>
-                <p>For the angle opposite the side of length 14, we can use <me>\arctan\left( \frac{14}{48} \right) \approx 16^\circ.</me> We choose to use the inverse tangent (as opposed to inverse sine) because the given information was the legs.</p>
+                <p>For the angle opposite the side of length 14 because we know the lengths of both legs, we can use <me>\arctan\left( \frac{14}{48} \right) \approx 16^\circ.</me> We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.</p>
                 <p>For the other angle we can use the angle sum theorem.
                 <md>
                     <mrow>90^\circ+16^\circ+B &amp; \approx 180^\circ.</mrow>
@@ -256,13 +256,13 @@
     </exercise>
 
     <example xml:id="example-triangle-solve4">
-        <p>For a right triangle with angle <m>\alpha=50^\circ</m> and opposite side length 7, what are the other side lengths and angles?</p>
+        <p>For a right triangle with angle <m>\alpha=50^\circ</m> and corresponding opposite side of length 7, what are the other side lengths and angles?</p>
         <p>First, we know that two of the angles are <m>90^\circ</m> and <m>50^\circ</m>, so the third angle has measure <m>180^\circ-90^\circ-50^\circ = 40^\circ</m>.</p>
         <p>To calculate the length of the hypotenuse recall that <m>sin(\alpha)=\frac{\text{opposite}}{\text{hypotenuse}}</m>. We know the angle and the length of the opposite.
         <md>
-            <mrow>\sin(50^\circ) \amp \approx 0.76604444.</mrow>
-            <mrow>\frac{7}{h} \amp \approx 0.76604444.</mrow>
-            <mrow>7 \amp \approx h \cdot 0.76604444. \amp \text{ clearing the denominator}</mrow>
+            <mrow>\sin(50^\circ) \amp \approx 0.76604444. \text{ Use a device to approximate.}</mrow>
+            <mrow>\frac{7}{h} \amp \approx 0.76604444. \text{ Write the ratio.}</mrow>
+            <mrow>7 \amp \approx h \cdot 0.76604444. \amp \text{ Clear the denominator.}</mrow>
             <mrow>\frac{7}{0.76604444} \amp \approx h.</mrow>
             <mrow>h \amp \approx 9.1378510.</mrow>
         </md>
@@ -275,6 +275,7 @@
             <mrow>b \amp \approx 5.8736974.</mrow>
         </md>
         The adjacent has length 5.87.</p>
+        <p>Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.</p>
     </example>
 
     <exercise xml:id="exercise-triangle-solve5">
@@ -333,23 +334,23 @@
     <p>Another way to look at this is to recall similar triangles (<xref ref="subsection-proportion-similar" />). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.</p>
 
     <example xml:id="example-trig-ratio-scale1">
-        <p>Consider a right triangle with side lengths 8, 15, and 17. If <m>A</m> is the angle across (opposite) from the side of length 8, then <m>\sin(A)=\frac{8}{17}</m>.</p>
+        <p>Consider a right triangle with side lengths 8, 15, and 17. If <m>A</m> is the angle opposite from the side of length 8, then <m>\sin(A)=\frac{8}{17}</m>.</p>
         <p>Next consider a right triangle with side lengths 16, 30, and 34. If <m>A^\prime</m> is the angle across from 16, then <m>\sin(A^\prime)=\frac{16}{34}=\frac{8}{17}</m>. This is the same ratio as the previous triangle although the triangle is larger (double in each side length).</p>
     </example>
 
     <example xml:id="example-trig-ratio-scale2">
         <p>Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?</p>
-        <p>If <m>A</m> is the angle across (opposite) from the side of length 8 in the original triangle, then <m>\sin(A)=\frac{8}{17}</m>. Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as <m>A</m>, call it <m>A^\prime</m>. Putting these together gives us the following.
+        <p>If <m>A</m> is the angle opposite from the side of length 8 in the original triangle, then <m>\sin(A)=\frac{8}{17}</m>. Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as <m>A</m>, call it <m>A^\prime</m>. Putting these together gives us the following.
         <md>
             <mrow>\sin(A) &amp; = \sin(A^\prime).</mrow>
             <mrow>\frac{8}{17} &amp; = \frac{40}{h}.</mrow>
             <mrow>h &amp; = \frac{40 \cdot 17}{8}</mrow>
             <mrow> &amp; = 85</mrow>
             <mrow> &amp; = 17 \cdot 5.</mrow>
-        </md> The last line is included to see how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length <m>15 \cdot 5 = 75</m>.</p>
+        </md> The last line is included to show how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length <m>15 \cdot 5 = 75</m>.</p>
     </example>
 
-    <p>The <xref ref="theorem-pythagorean" /> tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.</p>
+    <p>The <xref ref="theorem-pythagorean" text="title" /> tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.</p>
 
     <activity xml:id="activity-discover-minimum-hyp-length">
         <title>Considering the Shortest Hypotenuse</title>

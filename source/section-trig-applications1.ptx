@@ -43,11 +43,13 @@
         <image source="images/view_angle_definitions" width="50%" />
     </figure>
 
-    <p>For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and/or the hypotenuse are in the application. Then we can setup an equation using a trigonometric function, and use it to calculate something.</p>
+    <p>For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.</p>
 
     <example xml:id="example-apply-ladder-height">
         <p>For safety reasons the optimal angle of elevation of a ladder is 75<degree/>. If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall?</p>
-        <p>First, we notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Because we know an angle (75<degree/> angle of elevation from the ground), the length of the hypotenuse (length of the ladder), and we want the length side opposite the angle (height along the wall), we want to use the sine function.</p>
+        <p>First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.</p>
+        <image source="images/ladder_sketch" width="30%" />
+        <p>We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75<degree/> angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.</p>
         <p><md>
             <mrow>\sin(75^\circ) &amp; = \frac{B}{16}</mrow>
             <mrow>16\sin(75^\circ) &amp; = B</mrow>
@@ -71,11 +73,13 @@
             <mrow>A &amp; = \sqrt{17.2975}</mrow>
             <mrow> &amp; \approx 4.1590</mrow>
             <mrow> &amp; \approx 4.16</mrow>
-        </md> This is quite close to the previous solution, specifically the difference is too small to effect ladder placement.</p>
+        </md> This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.</p>
     </example>
 
      <example xml:id="example-apply-measure-height">
-        <p>This use of trigonometry has been around for millenia being used to measure the heights of tall objects.</p>
+        <p>Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.</p>
+        <p>We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.</p>
+        <image source="images/tree-shadow" width="25%" />
         <p>The shadow of a tree is measured to be 103 ft (measured from the  base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63<degree/>. How tall is the tree?</p>
         <p>This forms a right triangle with angle 63<degree/>, and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function.
         <md>
@@ -87,7 +91,7 @@
      </example>
 
      <example xml:id="example-apply-runway-tch">
-        <statement><p>Aircraft typically fly a 3<degree/> angle of depression to a point 1020 ft from the start of the runway. How high would the plane be when it crosses the runway.</p></statement>
+        <statement><p>Aircraft typically fly a 3<degree/> angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold?</p></statement>
         <solution><p>This is a right triangle with adjacent leg length 1020 ft and angle 3<degree/>. The length of the opposite is the height at the threshold.
         <md>
             <mrow>\tan(3^\circ) &amp; = \frac{T}{1020}</mrow>
@@ -111,11 +115,12 @@
 <subsection xml:id="subsection-trig-function-angles">
     <title>Calculating angles using trig functions</title>
 
-    <p>This section demonstrates using applications in which we desire to calculate the angles when we know the side lengths of a right triangle.</p>
+    <p>This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.</p>
 
     <example xml:id="example-calculate-angle-sun">
         <p>If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is <m>12\bar{0}</m> mm long, what is the angle of elevation of the sun?</p>
-        <p>The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle.
+        <image source="images/sundial-sun-angle" width="30%" />
+        <p>The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite.
             <md>
                 <mrow>\tan(\theta) &amp; = \frac{89}{12\bar{0}}.</mrow>
                 <mrow>\theta &amp; = \arctan\left( \frac{89}{12\bar{0}} \right)</mrow>
@@ -128,8 +133,8 @@
 
     <example xml:id="example-aircraft-descent-angle">
         <p>An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent?</p>
-        <p>First, we will need to convert 22 nm to feet. The units in <xref ref="table-customary-convert"/> suggest we can multiply <m>\frac{6076 \text{ ft}}{1 \text{ nm}} \cdot 22 \text{ nm} = 133672 \text{ ft}</m>.</p>
-        <p>The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000<minus/>9,000 = 4,000 ft. Because we know the lengths of both legs, we can use the inverse tangent function to calculate the angle.
+        <p>First, we will need to convert 22 nm to feet. The unit conversions in <xref ref="table-customary-convert"/> suggest we can multiply <m>\frac{6076 \text{ ft}}{1 \text{ nm}} \cdot 22 \text{ nm} = 133672 \text{ ft}</m>.</p>
+        <p>The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000<minus/>9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side.
             <md>
                 <mrow>\tan(\theta) &amp; = \frac{4000}{133672}.</mrow>
                 <mrow>\theta &amp; = \arctan\left( \frac{4000}{133672} \right)</mrow>

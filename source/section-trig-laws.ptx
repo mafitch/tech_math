@@ -45,49 +45,49 @@
             <p>What is the length of the side opposite the <m>45^\circ</m> angle?</p>
             <p>Because we know two angles and a side opposite one of them we can use the law of sines.
                 <md>
-                    <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}.</mrow>
-                    <mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \text{ Clearing the denominators}</mrow>
-                    <mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}.</mrow>
+                    <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}. \amp \text{Set up Law of Sines}</mrow>
+                    <mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \text{ Clear the denominators}</mrow>
+                    <mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}. \amp \text{Divide to solve for }b</mrow>
                     <mrow> \amp \approx 5.54.</mrow>
                 </md>
             </p>
         </task>
         <task>
             <p>What is the third angle and the length of the side opposite it?</p>
-            <p>We can use the angle sum fact to calculate the third angle. <m>50^\circ+45^\circ+\alpha=180^\circ</m> so <m>\alpha=85^\circ</m>. As in the previous step we know an angle, the side opposite it, and another angle so we can use the law of sines.
+            <p>We can use the angle sum fact to calculate the third angle. <m>50^\circ+45^\circ+\alpha=180^\circ</m> so <m>\alpha=85^\circ</m>. As in the previous step we know an angle (50<degree/>), the side opposite it (6), and another angle (85<degree/>) so we can use the Law of Sines.
             <md>
-                <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}.</mrow>
-                <mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \text{ Clearing the denominators}</mrow>
-                <mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)}</mrow>
+                <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}. \amp \text{Set up the Law of Sines}</mrow>
+                <mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \text{ Clear the denominators}</mrow>
+                <mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)} \amp \text{Divide to solve for }c</mrow>
                 <mrow> \amp \approx 7.80.</mrow>
             </md></p>
         </task>
         <conclusion>
-            <p>If you recall previous geometry this was known as Angle-Angle-Side.</p>
+            <p>For triangle congruency this was known as Angle-Angle-Side.</p>
         </conclusion>
     </example>
 
     <example xml:id="example-law-sines-simple2">
-        <p>A triangle has two angles with measure <m>40^\circ</m> and <m>60.20^\circ</m>. The side between these two angles has length 7.66.</p>
+        <p>A triangle has two angles with measure 40<degree/> and 60.20<degree/>. The side between these two angles has length 7.66.</p>
         <p>What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.</p>
-        <p>The third angle mesaure is the easiest to calculate, because we can use the angle sum theorem. <m>40^\circ+60.20^\circ+\alpha=180^\circ</m>. Thus <m>\alpha = 79.80^\circ</m>.</p>
-        <p>Now we know an angle (<m>\alpha</m>) and the length of the side opposite it (7.66). This enables us to use the law of sines to calculate the other two side lengths.</p>
+        <p>The third angle measure is the easiest to calculate, because we can use the angle sum theorem. <m>40^\circ+60.20^\circ+\alpha=180^\circ</m>. Thus <m>\alpha = 79.80^\circ</m>.</p>
+        <p>Now we know an angle (<m>\alpha</m>) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.</p>
         <p><md>
-            <mrow>\frac{\sin(40^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}.</mrow>
-            <mrow>\frac{a}{\sin(40^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \text{ Proportion true both ways.}</mrow>
-            <mrow>a &amp; = \frac{7.66\sin(40^\circ)}{\sin(79.80^\circ)}</mrow>
+            <mrow>\frac{\sin(40^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}. \amp \text{Set up Law of Sines}</mrow>
+            <mrow>\frac{a}{\sin(40^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \amp \text{ Proportion true both ways.}</mrow>
+            <mrow>a &amp; = \frac{7.66\sin(40^\circ)}{\sin(79.80^\circ)} \amp \text{Multiply to solve.}</mrow>
             <mrow> &amp; \approx 5.00281961</mrow>
             <mrow> &amp; \approx 5.00</mrow>
         </md>.</p>
         <p>We calculate the third side the same way.
         <md>
             <mrow>\frac{\sin(60.20^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}.</mrow>
-            <mrow>\frac{a}{\sin(60.20^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \text{ Proportion true both ways.}</mrow>
+            <mrow>\frac{a}{\sin(60.20^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}.</mrow>
             <mrow>a &amp; = \frac{7.66\sin(60.20^\circ)}{\sin(79.80^\circ)}</mrow>
             <mrow> &amp; \approx 6.75382345</mrow>
             <mrow> &amp; \approx 6.75</mrow>
         </md>.</p>
-        <p>If you recall previous geometry this was known as Angle-Side-Angle.</p>
+        <p>If you recall triangle geometry this was known as Angle-Side-Angle.</p>
     </example>
 
     <exercise xml:id="exercise-law-sines1">
@@ -112,7 +112,7 @@
         <caption>Experiment to Demonstrate the Angle/Opposite Side Relationship</caption>
             <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/AngleSideRelationship.png">
             <slate xml:id="geogebra-angle-opposite-side" surface="geogebra" material="dd8yafqv" aspect="4:3">
-                    setCoordSystem(-3, 4, 0, 4);
+                    setCoordSystem(-3, 5, 0, 4);
                     enableShiftDragZoom(false);
             </slate>
             <instructions>
@@ -128,10 +128,10 @@
         </introduction>
         <task>
             <p>Use the slider to set the angle to about 10<degree/>.</p>
-            <p>Watch what happens to the length of the opposite side as you increase the angle to 170<degree/>?</p>
+            <p>What happens to the length of the opposite side as you increase the angle to 170<degree/>?</p>
         </task>
         <task>
-            <p>Recall the <xref ref="theorem-triangle-angle-sum" /> relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?</p>
+            <p>Recall the <xref ref="theorem-triangle-angle-sum" text="title" /> relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?</p>
             <p>What must be happening to each of the other two angles?</p>
         </task>
         <task>
@@ -148,15 +148,15 @@
     <p>Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.</p>
 
     <example xml:id="example-angle-side-side">
-        <p>A triangle has an angle of measure <m>45^\circ</m> and the side opposite it is length 4. Another side is length 5. What are the other angles and side lengths?</p>
-        <p>We can try to use the law of sines.
+        <p>A triangle has an angle of measure <m>45^\circ</m> and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?</p>
+        <p>We can try to use the Law of Sines.
             <md>
                 <mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(\theta)}{5}.</mrow>
                 <mrow>5 \cdot \frac{\sin(45^\circ)}{4} \amp = \sin(\theta).</mrow>
                 <mrow>\arcsin\left( \frac{5}{4}\sin(45^\circ) \right) \amp = \theta.</mrow>
                 <mrow>62.11^\circ \amp \approx \theta.</mrow>
             </md>
-        Using the angle sum fact we learn the other angle is <m>45^\circ+62.11^\circ+\alpha = 180^\circ</m> or <m>\alpha \approx 72.89^\circ</m>. We use the law of sines again to find the length of the final side.
+        Using the triangle angle sum theorem we learn the other angle measure. <m>45^\circ+62.11^\circ+\alpha = 180^\circ</m> or <m>\alpha \approx 72.89^\circ</m>. We use the Law of Sines again to find the length of the final side.
             <md>
                 <mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(72.89^\circ)}{c}.</mrow>
                 <mrow>\frac{4}{\sin(45^\circ)} \amp = \frac{c}{\sin(72.89^\circ)}.</mrow>
@@ -164,7 +164,7 @@
                 <mrow>c \amp \approx 5.41.</mrow>
             </md>
         This gives us a triangle with angles: 45<degree/>, 62.11<degree/>, and 72.89<degree/>; and with side lengths: 4, 5, and 5.41.</p>
-        <p>However, <m>\sin(117.89^\circ)=\sin(62.11^\circ)</m>, that is, <m>\arcsin\arcsin\left( \frac{5}{4}\sin(45^\circ) \right)</m> had multiple possible angles. We will repeat the calulcations above using <m>117.89^\circ</m> as the second angle. The third angle is <m>45^\circ+117.89^\circ+\alpha = 180^\circ</m> or <m>\alpha \approx 17.11^\circ</m>.
+        <p>However, <m>\sin(117.89^\circ)=\sin(62.11^\circ)</m>, that is, <m>\arcsin\left( \frac{5}{4}\sin(45^\circ) \right)</m> had multiple possible angles. We will repeat the calulcations above using <m>117.89^\circ</m> as the second angle. The third angle is <m>45^\circ+117.89^\circ+\alpha = 180^\circ</m> or <m>\alpha \approx 17.11^\circ</m>.
             <md>
                 <mrow>\frac{\sin(45^\circ)}{4} \amp = \frac{\sin(17.11^\circ)}{c}.</mrow>
                 <mrow>c \sin(45^\circ) \amp = 4\sin(17.11^\circ).</mrow>
@@ -183,7 +183,7 @@
         </sidebyside>
     </figure>
 
-    <p>When using the law of sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.</p>
+    <p>When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.</p>
 
 </subsection>
 
@@ -222,8 +222,8 @@
                 <mrow>59.99352413^\circ \amp \approx B.</mrow>
                 <mrow>60^\circ \amp \approx B.</mrow>
             </md>
-        Knowing two of the angles we can use the angle sum fact to calculate the third angle measure. <m>40.0^\circ+60^\circ+C=180^\circ</m> so <m>C = 80.00^\circ</m>.</p>
-        <p>If you recall previous geometry this was known as Side-Side-Side.</p>
+        Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. <m>40.0^\circ+60^\circ+C=180^\circ</m> so <m>C = 80.00^\circ</m>.</p>
+        <p>For triangle congruency this was known as Side-Side-Side.</p>
     </example>
 
     <example xml:id="example-law-cosine-sas">
@@ -244,10 +244,10 @@
                 <mrow>45.39634537 \amp \approx A.</mrow>
                 <mrow>45.4 \amp \approx A.</mrow>
             </md>
-            Finally we can use the angle sum theorem to calculate the final angle.
+            Finally we can use the triangle angle sum theorem to calculate the final angle.
             <m>40^\circ+45.4^\circ+B = 180^\circ</m> so <m>B=94.6^\circ</m>.
         </p>
-        <p>If you recall previous geometry this was known as Side-Angle-Side.</p>
+        <p>For triangle congruency this was known as Side-Angle-Side.</p>
     </example>
 
     <exercise xml:id="exercise-law-cosines1">
@@ -276,7 +276,7 @@
     <p>When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.</p>
 
     <example xml:id="example-flight-distance">
-        <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from the start of this maneuver?</p>
+        <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from its starting position?</p>
         <p>First, it helps to sketch an image.</p>
         <image source="images/sailboat-course" width="40%" />
         <p>In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).</p>
@@ -295,7 +295,7 @@
     </example>
 
     <example xml:id="example-object-height">
-        <p>Two observers who are 2.3 miles apart on the ground at the same altitude record the angle at which they saw a passing aircraft at the same time. The observer at point A recorded an angle of 8.00<degree/> from horizontal. The observer at point B recorded an angle of 34.20<degree/> from horizontal. How high above ground was the aircraft?</p>
+        <p>Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00<degree/> from horizontal. The observer at point B recorded an angle of 34.20<degree/> from horizontal. How high above ground was the aircraft?</p>
         <p>First, it helps to sketch an image.</p>
         <image source="images/aircraft-height" width="75%" />
         <p>How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.</p>
