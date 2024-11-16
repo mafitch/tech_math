@@ -47,10 +47,15 @@
             <col width="30%" />
             <col width="20%" />
             <col width="20%" />
-            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Perimeter</p></cell> <cell right="minor"><p>Area</p></cell> </row>
+            <row left="minor" bottom="minor">
+                <cell right="minor"><p>Shape</p></cell>
+                <cell right="minor"><p>Perimeter</p></cell>
+                <cell right="minor"><p>Area</p></cell>
+            </row>
             <row valign="middle" left="minor" bottom="minor">
-                <cell halign="center" right="minor"><image width="100%" source="images/parallelogram" /></cell>
-                <cell right="minor"><m>2(a+b)</m></cell> <cell right="minor"><m>h_1 a</m></cell>
+                <cell halign="center" right="minor"><p><image width="100%" source="images/parallelogram" /></p></cell>
+                <cell right="minor"><m>2(a+b)</m></cell>
+                <cell right="minor"><m>h_1 a</m></cell>
             </row>
         </tabular>
     </table>
@@ -88,8 +93,16 @@
             <col width="30%" />
             <col width="20%" />
             <col width="20%" />
-            <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Perimeter</p></cell> <cell right="minor"><p>Area</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/trapezoid" /></p></cell> <cell right="minor"><m>a_1+b_1+a_2+b_2</m></cell> <cell right="minor"><m>\frac{h}{2}(a_1+a_2)</m></cell> </row>
+            <row left="minor" bottom="minor">
+                <cell right="minor"><p>Shape</p></cell>
+                <cell right="minor"><p>Perimeter</p></cell>
+                <cell right="minor"><p>Area</p></cell>
+            </row>
+            <row valign="middle" left="minor" bottom="minor">
+                <cell halign="center" right="minor"><p><image width="100%" source="images/trapezoid" /></p></cell>
+                <cell right="minor"><m>a_1+b_1+a_2+b_2</m></cell>
+                <cell right="minor"><m>\frac{h}{2}(a_1+a_2)</m></cell>
+            </row>
         </tabular>
     </table>
 
