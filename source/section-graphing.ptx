@@ -13,7 +13,7 @@
         This section covers the following mathematical concepts.
         <ul>
             <li>Identify rates as linear, quadratic, exponential, or other (critical thinking)</li>
-            <li>Identify data varrying directly or indirectly (critical thinking)</li>
+            <li>Identify data varying directly or indirectly (critical thinking)</li>
         </ul>
     </p>
 
@@ -26,7 +26,7 @@
 
     <p>This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.</p>
 
-    <p>Tables are useful if we have a limited number of entries, and the data can be indexed by two traits. The two traits become headers for the rows and columns. Note by limited number of entries we mean that the table can be easily used. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.</p>
+    <p>Tables are useful if we have a limited number of entries, and the data can be organized by two traits. If there are too many entries, the table may be too large to efficiently use. The two traits become headers for the rows and columns. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.</p>
 
     <table xml:id="table-table-stall">
         <title>Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS</title>
@@ -39,7 +39,7 @@
         </tabular>
     </table>
 
-    <p>We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity note that stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.</p>
+    <p>We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity, stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.</p>
 
     <example xml:id="example-table-read-direct">
         <p>What is the stall speed in a 30<degree/> bank angle with flaps up?</p>
@@ -87,7 +87,7 @@
         <p>What is the stall speed with 10<degree/> bank angle with flaps in the Up setting?</p>
         <p>The nearest entries in the table are 0<degree/> and 30<degree/>. We need to figure out what percent 10 is between 0 and 30. We can use that to find the matching number between the table entries (48 and 52). Percent is part/whole which in this case is <me>\frac{10}{30-0} = \frac{10}{30} = \frac{1}{3}</me>. We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.</p>
         <p>We want the speed that is 1/3 of the way between 48 and 52. Again we treat this as a percent problem. We want percent times the whole to calculate the part. <me>\frac{1}{3} \cdot (52-48) = \frac{4}{3}.</me> This result is how far above 48, so the speed is <me>48+4/3 \approx 49.3 \approx 50.</me> We round up for safety.</p>
-        <p>Because there are only 4 knots between the entries, it hardly seems worthwhile to do all this work, especially because we round up for safety. There are times however, when this process is useful.</p>
+        <p>Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.</p>
     </example>
 
     <exercise xml:id="exercise-table-read-indirect">
@@ -107,14 +107,14 @@
 <subsection xml:id="subsection-reading-curve-graphs">
     <title>Reading Graphs</title>
 
-    <p>This section illustrates how some data can be represented in graphs and how to read data from a graph including some comparisons of graphs.</p>
+    <p>This section illustrates how some data can be represented in graphs and how to read data from a graph, including some comparisons of graphs.</p>
 
-    <p>Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and read the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.</p>
+    <p>Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and reading the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.</p>
 
     <example xml:id="example-read-graph-glide">
-        <p>If the plane with maximum engine out glide represented in <xref ref="figure-maximum-glide" /> is 2400 ft above the ground how many nautical miles can it glide forward?</p>
+        <p><xref ref="figure-maximum-glide" /> presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles can it glide forward?</p>
         <p>First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. Note, no line is labeled 2400, but we do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.</p>
-        <p>Counting we find 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent <m>2000/10=200</m> ft.</p>
+        <p>We need to know how much each line represents. We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent <m>2000/10=200</m> ft.</p>
         <p>Because <m>2400=2000+2(200)</m> we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.</p>
         <p>We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent <m>2/10=0.2</m> nm.</p>
         <p>The glide distance for 2400 ft is therefore <m>4-2(0.2)=3.8</m> nm. We subtracted here because it is before 4.</p>
@@ -134,7 +134,7 @@
         <myopenmath problem="1457191" />
     </exercise>
 
-    <p>When we look at any table, graph, or figure we should ask ourselves why various choices were made. We may need to ask someone with related knowledge for an explanation.</p>
+    <p>When we look at any table, graph, or figure, we should ask ourselves why various choices were made in the construction of the table, graph, or figure. We may need to ask someone with related knowledge for explanations of those decisions.</p>
 
     <example xml:id="example-critical-graph-glide">
         <p>Consider <xref ref="figure-maximum-glide" />. The input we use is <q>Height Above Ground (ft)</q>. Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?</p>
@@ -151,7 +151,7 @@
     <example xml:id="example-read-graph-temp-dewpoint">
         <p><xref ref="figure-temp-dewpoint" /> has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.</p>
         <p>What are the temperature and dewpoint at the 700 millibar level?</p>
-        <p>We follow the 700 mb line over to the dewpoint (green, dashed) line. It is not quite halfway between -20<degree/> C and 0<degree/>. We estimate -7<degree/> C. Continuing across the 700 mb line to the temperature (red, solid) line we find it a little closer to 0<degree/>. We estimate the temperature is 5<degree/> C.</p>
+        <p>We follow the 700 mb line over to the dewpoint (green, dashed) line. It is a little less than  halfway between -20<degree/> C and 0<degree/> (closer to 0<degree/>). We estimate -7<degree/> C. Continuing across the 700 mb line to the temperature (red, solid) line we find it a little closer to 0<degree/>. We estimate the temperature is 5<degree/> C.</p>
     </example>
 
     <figure xml:id="figure-temp-dewpoint">
@@ -162,7 +162,7 @@
     <p>Note some charts like <xref ref="figure-temp-dewpoint" /> are not meant to convey specific numbers but rather to show trends.</p>
 
     <example xml:id="example-read-graph-clouds-form">
-        <p>Notice that while the temperature (red, solid line) wiggles around, it trends down as the pressure decreases. That is temperature decreases as altitude increases. We expect this, because it is farther from the ground which heats the air.</p>
+        <p>Notice that while the temperature (red, solid line) wiggles around, it trends down as the pressure decreases. That is, it shows temperature generally decreasing as altitude increases. We expect this, because it is farther from the ground which heats the air. The increase above 300 millibars level is the result of other factors which you can research at <url href="https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere" visual="noaa.gov/jetstream/atmosphere/layers-of-atmosphere" />.</p>
         <p>Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in <xref ref="figure-temp-dewpoint" /> three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.</p>
     </example>
 
@@ -183,8 +183,8 @@
     <example xml:id="example-graphing-bar1">
         <title>Increasing Income</title>
 
-        <p>When Vasya was hired in 2017 she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.</p>
-        <p>To represent this data we first need to calculate her salary each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an <term>iterative</term> process. <xref ref="table-salary-vasya" /> contains the results. Notice a table is a good means to represent discrete data.</p>
+        <p>When Vasya was hired in 2017, she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.</p>
+        <p>To represent this data we first need to calculate her salary for each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an <term>iterative</term> process. <xref ref="table-salary-vasya" /> contains the results. A table is an effective means to represent discrete data like this.</p>
         <p>We will represent her salary over time using the bar graph in <xref ref="figure-read-graph-bar" />. Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.</p>
         <p>Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might the graph be changed to make information easier to find?</p>
     </example>
