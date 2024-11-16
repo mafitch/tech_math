@@ -308,7 +308,9 @@
 
     <definition xml:id="definition-moment-magnitude">
         <title>Moment Magnitude</title>
-        <p>Larger earthquakes today are measured and reported using the <term>moment magnitude</term> scale. This is calculated via <me>M_w = \frac{2}{3}\log(M_0)-10.7</me> where <m>M_w</m> is the moment magnitude, and <m>M_0</m> is the seismic moment in Newtons per meter (a measure of energy).</p>
+        <statement>
+            <p>Larger earthquakes today are measured and reported using the <term>moment magnitude</term> scale. This is calculated via <me>M_w = \frac{2}{3}\log(M_0)-10.7</me> where <m>M_w</m> is the moment magnitude, and <m>M_0</m> is the seismic moment in Newtons per meter (a measure of energy).</p>
+        </statement>
     </definition>
 
     <example xml:id="example-moment-magnitude">
