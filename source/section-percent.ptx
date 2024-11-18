@@ -5,392 +5,385 @@
 
 <introduction>
 
-	<p>This section addresses the following topics.
-		<ul>
-			<li>Interpret data in various formats and analyze mathematical models</li>
-			<li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
-		</ul>
-		This section covers the following mathematical concepts.
-		<ul>
-			<li>Calculate Percentages (skill)</li>
-			<li>Understand and interpret percentages (critical thinking)</li>
-		</ul>
-	</p>
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+            <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Calculate Percentages (skill)</li>
+            <li>Understand and interpret percentages (critical thinking)</li>
+        </ul>
+    </p>
 
-	<p>Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.</p>
-	<p>We will learn how to calculate a percent (<xref ref="subsection-percent-examples" />, <xref ref="proportions-calculate-percent" />), how to convert between percents and the numbers (also <xref ref="subsection-percent-examples" />, <xref ref="proportions-calculate-percent" />), how to describe growth in terms of percents (<xref ref="subsection-percent-increase" />,  <xref ref="proportions-interpret-percent" />), and how to recognize what a percent does and cannot tell us (<xref ref="subsection-percent-limitation" />, <xref ref="proportions-interpret-percent" />).</p>
+    <p>Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.</p>
+    <p>We will learn how to calculate a percent (<xref ref="subsection-percent-examples" />, <xref ref="proportions-calculate-percent" />), how to convert between percents and the numbers (also <xref ref="subsection-percent-examples" />, <xref ref="proportions-calculate-percent" />), how to describe growth in terms of percents (<xref ref="subsection-percent-increase" />,  <xref ref="proportions-interpret-percent" />), and how to recognize what a percent does and cannot tell us (<xref ref="subsection-percent-limitation" />, <xref ref="proportions-interpret-percent" />).</p>
 
 </introduction>
 
 <subsection xml:id="subsection-percent-examples">
-	<title>Calculating Percents</title>
+    <title>Calculating Percents</title>
 
-	<definition xml:id="definition-percent">
-		<title>Percent</title>
-		<statement><p>A <term>percent</term> is a ratio of part of something to the whole of that thing that is written as parts per hundred.</p></statement>
-	</definition>
+    <definition xml:id="definition-percent">
+        <title>Percent</title>
+        <statement><p>A <term>percent</term> is a ratio of part of something to the whole of that thing that is written as parts per hundred.</p></statement>
+    </definition>
 
-	<example xml:id="example-percent-female">
-		<title>Calculate a Percent</title>
-		<statement>
-			<p>In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as <me>\frac{\text{part}}{\text{whole}} = \frac{21}{34} \approx 0.6176</me>. This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.</p>
-			<p>Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information we would most likely round to 62%. This would convey the same meaning because the difference between 61.76% and 62% for 34 people is less than one person.</p>
-		</statement>
-	</example>
+    <example xml:id="example-percent-female">
+        <title>Calculate a Percent</title>
+        <statement>
+            <p>In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as <me>\frac{\text{part}}{\text{whole}} = \frac{21}{34} \approx 0.6176</me>. This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.</p>
+            <p>Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.</p>
+        </statement>
+    </example>
 
-	<video youtube="gA7tQzn72lg" xml:id="video-example-percent-use-definition" />
+    <video youtube="gA7tQzn72lg" xml:id="video-example-percent-use-definition" />
 
-	<p>Generally, we calculate a percent by <me>100 \times \frac{\text{part}}{\text{whole}}. </me> </p>
+    <p>Generally, we calculate a percent by <me>100 \times \frac{\text{part}}{\text{whole}}. </me> </p>
 
-	<example xml:id="example-percent-male">
-		<statement><p>In the class there are 34 students. Of them 13 are male. The percent is calculated as <me> 100 \times \frac{13}{34} = 100 \times 0.3824 = 38.24\%.</me></p></statement>
-	</example>
+    <example xml:id="example-percent-male">
+        <statement><p>In the class there are 34 students. Of them 13 are male. The percent is calculated as <me> 100 \times \frac{13}{34} = 100 \times 0.3824 = 38.24\%.</me></p></statement>
+    </example>
 
-	<p>Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.</p>
+    <p>Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.</p>
 
-	<exercise xml:id="exercise-percent-part-whole">
-<!--		<webwork>
-			<statement>
-				<p>In another class there are 78 students and 44 are female. What percent of the students are female? <var name="'56'" width="4" /></p>
-			</statement>
-			<solution>
-				<p>A percent is the ratio of part (44 female) to whole (78 total). So this is <m>\frac{44}{78} \approx 0.56</m>. This is 56 hundreths, so it is 56%</p>
-			</solution>
-	    </webwork> -->
-	    <myopenmath problem="1436418" />
-	</exercise>
+    <exercise xml:id="exercise-percent-part-whole">
+<!--        <webwork>
+            <statement>
+                <p>In another class there are 78 students and 44 are female. What percent of the students are female? <var name="'56'" width="4" /></p>
+            </statement>
+            <solution>
+                <p>A percent is the ratio of part (44 female) to whole (78 total). So this is <m>\frac{44}{78} \approx 0.56</m>. This is 56 hundreths, so it is 56%</p>
+            </solution>
+        </webwork> -->
+        <myopenmath problem="1436418" />
+    </exercise>
 
-	<p>Note in the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.</p>
+    <p>In the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.</p>
 
-	<p>Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.</p>
+    <p>Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.</p>
 
-	<example xml:id="example-percent-calculate-part">
-		<statement><p>In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?</p></statement>
-		<solution>
-			<p>We use the same setup as before, but we don't know the part yet.
-			<md>
-				<mrow>100 \cdot \frac{P}{22} &amp; = 18\%</mrow>
-				<mrow>\frac{P}{22} &amp; = \frac{18}{100}</mrow>
-				<mrow>P &amp; = 22 \cdot \frac{18}{100}</mrow>
-				<mrow> &amp; \approx 3.96.</mrow>
-			</md></p>
-			<p>Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that
-			<md>
-				<mrow>\frac{\text{part}}{\text{whole}} &amp; = </mrow>
-				<mrow>\frac{4}{22} &amp; = 0.18\overline{18}</mrow>
-				<mrow> &amp; \approx 18.18\%</mrow>
-			</md>
-			This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.</p>
-		</solution>
-		<solution><p>We know that a percent is a number out of 100, so we can skip a step from the previous example.
-			<md>
-				<mrow>\frac{P}{22} &amp; = 0.18</mrow>
-				<mrow>P &amp; = 22 \cdot 0.18</mrow>
-				<mrow>P &amp; = 3.96</mrow>
-			</md></p>
-		</solution>
-	</example>
+    <example xml:id="example-percent-calculate-part">
+        <p>In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?</p>
+        <p>We use the same setup as before, but we do not know the part yet.
+        <md>
+            <mrow>100 \cdot \frac{P}{22} &amp; = 18\%</mrow>
+            <mrow>\frac{P}{22} &amp; = \frac{18}{100}</mrow>
+            <mrow>P &amp; = 22 \cdot \frac{18}{100}</mrow>
+            <mrow> &amp; \approx 3.96.</mrow>
+        </md></p>
+        <p>Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that
+        <md>
+            <mrow>\frac{\text{part}}{\text{whole}} &amp; = </mrow>
+            <mrow>\frac{4}{22} &amp; = 0.18181818</mrow>
+            <mrow> &amp; \approx 18.18\%</mrow>
+        </md>
+        This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.</p>
+        <p>We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.
+            <md>
+                <mrow>\frac{P}{22} &amp; = 0.18</mrow>
+                <mrow>P &amp; = 22 \cdot 0.18</mrow>
+                <mrow>P &amp; = 3.96</mrow>
+            </md></p>
+    </example>
 
-	<video youtube="032A8A0mlPg" xml:id="video-example-percent-part-from-percent" />
+    <video youtube="032A8A0mlPg" xml:id="video-example-percent-part-from-percent" />
 
-	<exercise xml:id="exercise-percent-calculate-simple">
-<!--		<webwork>
-			<statement>
-				<p>There are 32 students in a class. Below are percents for each racial group tracked. Calculate the number of students in each group.</p>
-				<tabular>
-					<row><cell>Group</cell> <cell>Percent</cell> <cell>Number</cell></row>
-					<row><cell>Alaska Native</cell> <cell>6.25%</cell> <cell><var name="'2'" width="4" /></cell></row>
-					<row><cell>Asian</cell> <cell>12.5%</cell> <cell><var name="'4'" width="4" /></cell></row>
-					<row><cell>Black</cell> <cell>6.25%</cell> <cell><var name="'2'" width="4" /></cell></row>
-					<row><cell>White</cell> <cell>71.88%</cell> <cell><var name="'23'" width="4" /></cell></row>
-					<row><cell>Other</cell> <cell>9.38%</cell> <cell><var name="'3'" width="4" /></cell></row>
-				</tabular>
-			</statement>
-			<solution>
-				<p>In this class there are <m>0.0625 \cdot 32 = 2</m> Alaska Native students; <m>0.125 \cdot 32 = 4</m> Asian students; 2 Black students (same percent as Alaska Native); <m>0.7188 \cdot 23 \approx 23.0016</m> or 23 White students; and <m>0.0938 \cdot 32 \approx 3.0016</m> or 3 students who declared as other.</p>
-			</solution>
-	    </webwork> -->
-	    <myopenmath problem="1437339" />
-	</exercise>
+    <exercise xml:id="exercise-percent-calculate-simple">
+<!--        <webwork>
+            <statement>
+                <p>There are 32 students in a class. Below are percents for each racial group tracked. Calculate the number of students in each group.</p>
+                <tabular>
+                    <row><cell>Group</cell> <cell>Percent</cell> <cell>Number</cell></row>
+                    <row><cell>Alaska Native</cell> <cell>6.25%</cell> <cell><var name="'2'" width="4" /></cell></row>
+                    <row><cell>Asian</cell> <cell>12.5%</cell> <cell><var name="'4'" width="4" /></cell></row>
+                    <row><cell>Black</cell> <cell>6.25%</cell> <cell><var name="'2'" width="4" /></cell></row>
+                    <row><cell>White</cell> <cell>71.88%</cell> <cell><var name="'23'" width="4" /></cell></row>
+                    <row><cell>Other</cell> <cell>9.38%</cell> <cell><var name="'3'" width="4" /></cell></row>
+                </tabular>
+            </statement>
+            <solution>
+                <p>In this class there are <m>0.0625 \cdot 32 = 2</m> Alaska Native students; <m>0.125 \cdot 32 = 4</m> Asian students; 2 Black students (same percent as Alaska Native); <m>0.7188 \cdot 23 \approx 23.0016</m> or 23 White students; and <m>0.0938 \cdot 32 \approx 3.0016</m> or 3 students who declared as other.</p>
+            </solution>
+        </webwork> -->
+        <myopenmath problem="1437339" />
+    </exercise>
 
-	<p>Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.</p>
+    <p>Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.</p>
 
-	<example xml:id="example-percent-calculate-whole">
-		<statement><p>In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?</p></statement>
-		<solution><p>Again we use the same setup, but we don't yet know the whole.
-			<md>
-				<mrow>\frac{\text{part}}{\text{whole}} &amp; = \text{percent}.</mrow>
-				<mrow>\frac{2}{W} &amp; = 0.0625.</mrow>
-				<mrow>2 &amp; = 0.0625 \cdot W.</mrow>
-				<mrow>\frac{2}{0.0625} &amp; = W.</mrow>
-				<mrow>32 &amp; = W.</mrow>
-			</md></p>
-		</solution>
-	</example>
+    <example xml:id="example-percent-calculate-whole">
+        <p>In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?</p>
+        <p>Again we use the same setup, but we don't yet know the whole.
+            <md>
+                <mrow>\frac{\text{part}}{\text{whole}} &amp; = \text{percent}.</mrow>
+                <mrow>\frac{2}{W} &amp; = 0.0625.</mrow>
+                <mrow>2 &amp; = 0.0625 \cdot W.</mrow>
+                <mrow>\frac{2}{0.0625} &amp; = W.</mrow>
+                <mrow>32 &amp; = W.</mrow>
+            </md></p>
+    </example>
 
-	<example xml:id="example-use-example-percent">
-		<title>How to Use an Example: Percents</title>
-		<p>Consider the following question.</p>
-		<p>If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?</p>
-		<p>Because we see <q>2%</q> we recognize this as a percent problem. Without more information we can begin writing our steps. In <xref ref="example-percent-calculate-whole" /> the first step is writing the definition of percent.
-		<me>\frac{\text{part}}{\text{whole}} = \text{percent}</me>
-		In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2, and we know that in a calculation we write the percent as a decimal. Thus our next step is
-		<me>\frac{\text{part}}{\text{whole}} = \frac{2}{100}</me>
-		In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the <q>entire</q> book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable.
-		<me>\frac{18}{\text{whole}} = \frac{2}{100}</me>
-		Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example, we apply our algebra skills. For convenience we will write <m>W</m> instead of <q>whole</q>.
-		<md>
-			<mrow>\frac{18}{W} &amp; = \frac{2}{100}</mrow>
-			<mrow>\frac{18}{W}W &amp; = \frac{2}{100}W</mrow>
-			<mrow>18 &amp; = \frac{2}{100}W</mrow>
-			<mrow>\frac{100}{2} \cdot 18 &amp; =  \frac{100}{2} \cdot \frac{2}{100}W</mrow>
-			<mrow>900 &amp; = W</mrow>
-		</md>
-		Thus we know the entire book has 900 pages.</p>
-	</example>
+    <example xml:id="example-use-example-percent">
+        <title>How to Use an Example: Percents</title>
+        <p>Consider the following question.</p>
+        <p>If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?</p>
+        <p>Because we see <q>2%</q> we recognize this as a percent problem. Without more information we can begin writing our steps. In <xref ref="example-percent-calculate-whole" /> the first step is writing the definition of percent.
+        <me>\frac{\text{part}}{\text{whole}} = \text{percent}</me>
+        In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2, and we know that in a calculation we write the percent as a decimal. Thus our next step is
+        <me>\frac{\text{part}}{\text{whole}} = \frac{2}{100}</me>
+        In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the <q>entire</q> book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable.
+        <me>\frac{18}{\text{whole}} = \frac{2}{100}</me>
+        Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example, we apply our algebra skills. For convenience we will write <m>W</m> instead of <q>whole</q>.
+        <md>
+            <mrow>\frac{18}{W} &amp; = \frac{2}{100}</mrow>
+            <mrow>\frac{18}{W}W &amp; = \frac{2}{100}W</mrow>
+            <mrow>18 &amp; = \frac{2}{100}W</mrow>
+            <mrow>\frac{100}{2} \cdot 18 &amp; =  \frac{100}{2} \cdot \frac{2}{100}W</mrow>
+            <mrow>900 &amp; = W</mrow>
+        </md>
+        Thus we know the entire book has 900 pages.</p>
+    </example>
 
-	<video youtube="53ff6cvt2iU" xml:id="video-example-percent-use-example" />
+    <video youtube="53ff6cvt2iU" xml:id="video-example-percent-use-example" />
 
-	<p>In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.</p>
+    <p>In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.</p>
 
-	<exercise xml:id="exercise-percent-solution">
-<!--		<webwork>
-			<statement>
-				<p>Find the number of millilitres of alcohol needed to prepare 150 mL of solution that is 5% alcohol. <var name="'7.5'" width="4" /></p>
-			</statement>
-			<solution>
-				<p>We need to know what 5% of 150 mL is: <m>0.05 \cdot 150 = 7.5</m>.</p>
-			</solution>
-		</webwork> -->
-		<myopenmath problem="1436592" />
-	</exercise>
+    <exercise xml:id="exercise-percent-solution">
+<!--        <webwork>
+            <statement>
+                <p>Find the number of millilitres of alcohol needed to prepare 150 mL of solution that is 5% alcohol. <var name="'7.5'" width="4" /></p>
+            </statement>
+            <solution>
+                <p>We need to know what 5% of 150 mL is: <m>0.05 \cdot 150 = 7.5</m>.</p>
+            </solution>
+        </webwork> -->
+        <myopenmath problem="1436592" />
+    </exercise>
 
-	<p>This video covers the topics above.</p>
+    <p>This video covers the topics above.</p>
 
-	<video start="159" youtube="P2KOjsVlaKI" xml:id="video-example-percent-calculate-whole" />
+    <video start="159" youtube="P2KOjsVlaKI" xml:id="video-example-percent-calculate-whole" />
 
 </subsection>
 
 <subsection xml:id="subsection-percent-increase">
-	<title>Percent Increase/Decrease</title>
+    <title>Percent Increase/Decrease</title>
 
-	<p>A common use of percents is to indicate how much something has increased (or decreased) from one time to the next.</p>
+    <p>A common use of percents is to indicate how much something has increased (or decreased) from one time to the next.</p>
 
-	<example xml:id="example-percent-increase1">
-		<statement><p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22.
-			<me>100 \times \frac{12}{22} = 55\% </me></p>
-		</statement>
-	</example>
+    <example xml:id="example-percent-increase1">
+        <statement><p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.</p>
+        <p>This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22.
+            <me>100 \times \frac{12}{22} \approx 54.545454 \approx 55\% </me>.</p>
+        </statement>
+    </example>
 
-	<p>We say that the class size had a <term>percent increase</term> of 55%. Note this says the <term>increase</term> was 55% of the previous <term>whole</term>.</p>
+    <p>We say that the class size had a <term>percent increase</term> of 55%. Note this says the <term>increase</term> was 55% of the previous <term>whole</term>.</p>
 
-	<p>We can think of this in another way.</p>
+    <p>We can think of this in another way.</p>
 
-	<example xml:id="example-percent-increase2">
-		<statement>
-			<p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class.</p>
-			<p>We calculate the percentage the fall class size is with respect to the spring class size. <me> 100 \times \frac{34}{22} = 155\% </me> </p>
-			<p>Because the fall class size (in the role of <q>part</q>) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.</p>
-			<p>Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.</p>
-		</statement>
-	</example>
+    <example xml:id="example-percent-increase2">
+        <statement>
+            <p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?</p>
+            <p>We calculate the percentage the fall class size is with respect to the spring class size. <me> 100 \times \frac{34}{22} = 155\% </me>. </p>
+            <p>Because the fall class size (in the role of <q>part</q>) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.</p>
+            <p>Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.</p>
+            <image source="images/percent_increase" width="50%" />
+        </statement>
+    </example>
 
-	<exercise xml:id="exercise-percent-increase">
-<!---		<webwork>
-			<statement>
-				<p>What is the percent increase if enrollment in a class was 57 in spring and 81 in the following fall? <var name="'42'" width="4" /></p>
-			</statement>
-			<solution>
-				<p>The ratio is <m>\frac{81}{57} \approx 1.42</m>. Because 81 is greater than 57 this is a percent increase. The increase is 42%.</p>
-			</solution>
-	    </webwork> -->
-		<myopenmath problem="1437364" />
-	</exercise>
+    <exercise xml:id="exercise-percent-increase">
+<!---       <webwork>
+            <statement>
+                <p>What is the percent increase if enrollment in a class was 57 in spring and 81 in the following fall? <var name="'42'" width="4" /></p>
+            </statement>
+            <solution>
+                <p>The ratio is <m>\frac{81}{57} \approx 1.42</m>. Because 81 is greater than 57 this is a percent increase. The increase is 42%.</p>
+            </solution>
+        </webwork> -->
+        <myopenmath problem="1437364" />
+    </exercise>
 
-	<example xml:id="example-percent-increase-or-decrease">
-		<statement>
-				<p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring?</p>
-		</statement>
-		<solution>
-			<p>Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. <m>78-38=40</m>. Thus the percent decrease is <me>100 \cdot \frac{40}{78} = 51\%</me>.</p>
-		</solution>
-		<solution>
-			<p>As with the percent increase we can start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is <m>100 \cdot \frac{38}{78} \approx 0.49</m>. Because the new enrollment <em>is</em> 49% of the previous enrollment the decrease is 100%-49%=51%.</p>
-		</solution>
-	</example>
+    <example xml:id="example-percent-increase-or-decrease">
+        <p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.</p>
+        <p>Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. <m>78-38=40</m>. Thus the percent decrease is <me>100 \cdot \frac{40}{78} \approx 0.51282051 \approx 51\%</me>.</p>
+        <p>As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is <m>100 \cdot \frac{38}{78} \approx 0.48717949 \approx 0.49</m>. Because the new enrollment <em>is</em> 49% of the previous enrollment the decrease is 100%-49%=51%.</p>
+            <image source="images/percent_decrease" width="50%" />
+    </example>
 
-	<exercise xml:id="exercise-percent-decrease">
-<!--		<webwork>
-			<statement>
-				<p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in spring? <var name="'51'" width="4" /></p>
-			</statement>
-			<solution>
-				<p>The ratio is <m>\frac{38}{78} \approx 0.49</m>. Because 38 is greater than 78 this is a percent decrease. Because the new <em>is</em> 49% of the previous the decrease is 100%-49%=51%.</p>
-			</solution>
-	    </webwork> -->
-	    <myopenmath problem="1437459" />
-	</exercise>
+    <exercise xml:id="exercise-percent-decrease">
+<!--        <webwork>
+            <statement>
+                <p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in spring? <var name="'51'" width="4" /></p>
+            </statement>
+            <solution>
+                <p>The ratio is <m>\frac{38}{78} \approx 0.49</m>. Because 38 is greater than 78 this is a percent decrease. Because the new <em>is</em> 49% of the previous the decrease is 100%-49%=51%.</p>
+            </solution>
+        </webwork> -->
+        <myopenmath problem="1437459" />
+    </exercise>
 
-	<p>This video covers percent increase topics.</p>
-	<video youtube="P2KOjsVlaKI" xml:id="video-example-percent-increase" />
+    <p>This video covers percent increase topics.</p>
+    <video youtube="P2KOjsVlaKI" xml:id="video-example-percent-increase" />
 
 </subsection>
 
 <subsection xml:id="subsection-percent-limitation">
-	<title>Limitations</title>
+    <title>Limitations</title>
 
-	<p>We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.</p>
+    <p>We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.</p>
 
-	<example xml:id="example-percent-limitation">
-		<statement><p>Which of the following do you suppose represents a greater reduction in students?</p>
-		<tabular>
-			<row><cell>Percent reduction</cell> <cell>Total</cell></row>
-			<row><cell>18%</cell> <cell>495</cell></row>
-			<row><cell>1.85%</cell> <cell>54</cell></row>
-			<row><cell>60%</cell> <cell>5</cell></row>
-		</tabular>
-		</statement>
-		<solution>
-			<tabular>
-			<row><cell>Percent reduction</cell> <cell>Total</cell>  <cell>Number reduced</cell></row>
-			<row><cell>18%</cell> <cell>495</cell> <cell>90</cell></row>
-			<row><cell>1.85%</cell> <cell>54</cell> <cell>1</cell></row>
-			<row><cell>60%</cell> <cell>5</cell> <cell>3</cell></row>
-			</tabular>
-			<p>The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.</p>
-			<p>Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?</p>
-		</solution>
+    <example xml:id="example-percent-limitation">
+        <statement><p>Which of the following do you suppose represents a greater reduction in students?</p>
+        <tabular>
+            <row><cell>Percent reduction</cell> <cell>Total</cell></row>
+            <row><cell>18%</cell> <cell>495</cell></row>
+            <row><cell>1.85%</cell> <cell>54</cell></row>
+            <row><cell>60%</cell> <cell>5</cell></row>
+        </tabular>
+        </statement>
+        <solution>
+            <tabular>
+            <row><cell>Percent reduction</cell> <cell>Total</cell>  <cell>Number reduced</cell></row>
+            <row><cell>18%</cell> <cell>495</cell> <cell>90</cell></row>
+            <row><cell>1.85%</cell> <cell>54</cell> <cell>1</cell></row>
+            <row><cell>60%</cell> <cell>5</cell> <cell>3</cell></row>
+            </tabular>
+            <p>The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.</p>
+            <p>Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?</p>
+        </solution>
 
-	</example>
+    </example>
 
-	<p>While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.</p>
+    <p>While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.</p>
 
-	<example xml:id="example-percent-exceeds-100">
-		<p><xref ref="table-example-percent-more-100"/> contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.</p>
-		<p>When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.</p>
-	</example>
+    <example xml:id="example-percent-exceeds-100">
+        <p><xref ref="table-example-percent-more-100"/> contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.</p>
+        <p>When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.</p>
+    </example>
 
-	<table xml:id="table-example-percent-more-100">
-		<title>Declared Race in Alaska</title>
-		<tabular>
-			<row><cell>Race</cell> <cell>Percent</cell></row>
-			<row><cell>Alaska Native/Native American</cell> <cell>21.9%</cell></row>
-			<row><cell>Native Hawaiian/Pacific Islander</cell> <cell>2.5%</cell></row>
-			<row><cell>Asian</cell> <cell>8.4%</cell></row>
-			<row><cell>Black</cell> <cell>40.8%</cell></row>
-			<row><cell>White</cell> <cell>70.4%</cell></row>
-			<row><cell>Other</cell> <cell>5.4%</cell></row>
-		</tabular>
-	</table>
+    <table xml:id="table-example-percent-more-100">
+        <title>Declared Race in Alaska</title>
+        <tabular>
+            <row><cell>Race</cell> <cell>Percent</cell></row>
+            <row><cell>Alaska Native/Native American</cell> <cell>21.9%</cell></row>
+            <row><cell>Native Hawaiian/Pacific Islander</cell> <cell>2.5%</cell></row>
+            <row><cell>Asian</cell> <cell>8.4%</cell></row>
+            <row><cell>Black</cell> <cell>40.8%</cell></row>
+            <row><cell>White</cell> <cell>70.4%</cell></row>
+            <row><cell>Other</cell> <cell>5.4%</cell></row>
+        </tabular>
+    </table>
 
 </subsection>
 
 <exercises>
-	<exercisegroup>
-		<introduction><p>Questions about the definition, terminology, and notation.</p></introduction>
+    <exercisegroup>
+        <introduction><p>Questions about the definition, terminology, and notation.</p></introduction>
 
-	    <exercise>
-	        <title>Decimal to Percentage</title>
-	        <myopenmath problem="865549" />
-	    </exercise>
+        <exercise>
+            <title>Decimal to Percentage</title>
+            <myopenmath problem="865549" />
+        </exercise>
 
-	    <exercise>
-	        <title>Fraction to Percentage</title>
-	        <myopenmath problem="865561" />
-	    </exercise>
+        <exercise>
+            <title>Fraction to Percentage</title>
+            <myopenmath problem="865561" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percent of Whole</title>
-	        <myopenmath problem="17624" />
-	    </exercise>
+        <exercise>
+            <title>Percent of Whole</title>
+            <myopenmath problem="17624" />
+        </exercise>
 
-	</exercisegroup>
+    </exercisegroup>
 
-	<exercisegroup>
-		<introduction><p>Use percentages in various settings.</p></introduction>
+    <exercisegroup>
+        <introduction><p>Use percentages in various settings.</p></introduction>
 
-	    <exercise>
-	        <title>Application of Percent</title>
-	        <myopenmath problem="865583" />
-	    </exercise>
+        <exercise>
+            <title>Application of Percent</title>
+            <myopenmath problem="865583" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percent of Whole</title>
-	        <myopenmath problem="372563" />
-	    </exercise>
+        <exercise>
+            <title>Percent of Whole</title>
+            <myopenmath problem="372563" />
+        </exercise>
 
-	    <exercise>
-	        <title>Use Percent to Calculate Total</title>
-	        <myopenmath problem="841" />
-	    </exercise>
+        <exercise>
+            <title>Use Percent to Calculate Total</title>
+            <myopenmath problem="841" />
+        </exercise>
 
-	    <exercise>
-	        <title>Calculate Original from Percent</title>
-	        <myopenmath problem="54686" />
-	    </exercise>
+        <exercise>
+            <title>Calculate Original from Percent</title>
+            <myopenmath problem="54686" />
+        </exercise>
 
-	    <exercise>
-	        <title>Calculate Whole from Part and Percent</title>
-	        <myopenmath problem="865646" />
-	    </exercise>
+        <exercise>
+            <title>Calculate Whole from Part and Percent</title>
+            <myopenmath problem="865646" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percent Decrease</title>
-	        <myopenmath problem="430713" />
-	    </exercise>
+        <exercise>
+            <title>Percent Decrease</title>
+            <myopenmath problem="430713" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percents as Fractions</title>
-	        <myopenmath problem="782181" />
-	    </exercise>
+        <exercise>
+            <title>Percents as Fractions</title>
+            <myopenmath problem="782181" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percents as Fractions</title>
-	        <myopenmath problem="782182" />
-	    </exercise>
+        <exercise>
+            <title>Percents as Fractions</title>
+            <myopenmath problem="782182" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percents as Fractions</title>
-	        <myopenmath problem="869293" />
-	    </exercise>
+        <exercise>
+            <title>Percents as Fractions</title>
+            <myopenmath problem="869293" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percents as Fractions</title>
-	        <myopenmath problem="612034" />
-	    </exercise>
+        <exercise>
+            <title>Percents as Fractions</title>
+            <myopenmath problem="612034" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percents as Fractions</title>
-	        <myopenmath problem="612063" />
-	    </exercise>
+        <exercise>
+            <title>Percents as Fractions</title>
+            <myopenmath problem="612063" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percents as Fractions</title>
-	        <myopenmath problem="612069" />
-	    </exercise>
+        <exercise>
+            <title>Percents as Fractions</title>
+            <myopenmath problem="612069" />
+        </exercise>
 
-	    <exercise>
-	        <title>Repeated Percents</title>
-	        <myopenmath problem="834" />
-	    </exercise>
+        <exercise>
+            <title>Repeated Percents</title>
+            <myopenmath problem="834" />
+        </exercise>
 
-	    <exercise>
-	        <title>Percent Increase or Decrease</title>
-	        <myopenmath problem="965" />
-	    </exercise>
+        <exercise>
+            <title>Percent Increase or Decrease</title>
+            <myopenmath problem="965" />
+        </exercise>
 
-	</exercisegroup>
+    </exercisegroup>
 
-	<exercisegroup>
-		<introduction>
-			<p>Add problems asking students if the total should be 100% or greater.</p>
-			<p>Add problems asking students which percent and which amount are larger.</p>
-		</introduction>
-	    <exercise>
-	        <title>Dummy entry</title>
-	        <myopenmath problem="965" />
-	    </exercise>
-	</exercisegroup>
+    <exercisegroup>
+        <introduction>
+            <p>Add problems asking students if the total should be 100% or greater.</p>
+            <p>Add problems asking students which percent and which amount are larger.</p>
+        </introduction>
+        <exercise>
+            <title>Dummy entry</title>
+            <myopenmath problem="965" />
+        </exercise>
+    </exercisegroup>
 
 </exercises>
 

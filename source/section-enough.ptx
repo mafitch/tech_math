@@ -18,6 +18,7 @@
     </p>
 
     <p>While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.</p>
+
     <p>First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.</p>
 </introduction>
 
@@ -40,7 +41,7 @@
         <p>Note, <m>\pi</m> is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.</p>
     </example>
 
-    <p>Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and all such tools have a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.</p>
+    <p>Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and our use of all such tools has a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.</p>
 
     <definition xml:id="definition-error">
         <title>Error</title>
@@ -86,7 +87,7 @@
 <subsection xml:id="subsection-enough-sigfigs">
     <title>Significant Figures</title>
 
-    <p>It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation <m>\pi \approx \frac{22}{7}</m> <xref ref="example-accuracy-number" />) makes no sense, because it is only accurate to the hundreds position (i.e., 3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in most of the problems for the rest of the course.</p>
+    <p>It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation <m>\pi \approx \frac{22}{7}</m> <xref ref="example-accuracy-number" />) makes no sense, because it is only accurate to the hundreds position (i.e., 3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in many of the problems involving data from measurments for the rest of the text.</p>
 
     <p>When writing down measurements we need a way to indicate how precise the measurement is. <term>Significant digits</term>, also called <term>significant figures</term> or simply <q>sig figs</q>, are a way to do this.</p>
 
@@ -96,6 +97,7 @@
             <li>Zeros between non-zeros are significant.</li>
             <li>Any zeros written to the right of the decimal point are significant.</li>
             <li>If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.</li>
+            <li>If the zero to the left of the decimal is significant, the decimal point may be used with no digits to the right (the bar is an easier to read choice however)</li>
             <li>For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.</li>
         </ol>
     We can summarize these rules as: write only digits that you mean, and if it is ambiguous, clarify.</p>
@@ -110,6 +112,7 @@
                 <li><m>10267</m></li>
                 <li><m>1.2400</m></li>
                 <li><m>7201\bar{0}</m></li>
+                <li><m>53010.</m></li>
                 <li><m>2834100</m></li>
                 <li><m>0.0010527</m></li>
             </ul>
@@ -133,14 +136,14 @@
     <p>We also need rules for arithmetic with significant digits. These are based on two principles
     <ul>
         <li>A result of arithmetic cannot be more precise than the least precise measurement.</li>
-        <li>The number of significant digits cannot increase.</li>
+        <li>Arithmetic does not increase accuracy.</li>
     </ul></p>
 
-    <p>For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left, last significant digit.</p>
+    <p>For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left of the last significant digits.</p>
 
     <example xml:id="example-sigfig-subtract">
         <title>Subtraction with Significant Digits</title>
-        <p><m>11050-723=10330</m>. This is because the last significant digit of <m>11050</m> is the 10's position (with the 5 in it) whereas the last significant digit of <m>723</m> is the 1's position (with the 3 in it). We do not know the 1's position of 11050, so we cannot know the 1's position in the result.</p>
+        <p><m>11050-723 \approx 10330</m>. This is because the last significant digit of <m>11050</m> is the 10's position (with the 5 in it) whereas the last significant digit of <m>723</m> is the 1's position (with the 3 in it). We do not know the 1's position of 11050, so we cannot know the 1's position in the result.</p>
     </example>
 
     <example xml:id="example-sigfig-add">
@@ -148,7 +151,7 @@
         <p><m>311+8310+202200 \approx 210800</m>. This is because the farthest left, last significant digit is in the 100's position in 202200. The extra precision of the other two numbers is not useful.</p>
     </example>
 
-    <p>The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious an explanation of why this rule works is in this video.</p>
+    <p>The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious, an explanation of why this rule works is in this video.</p>
 
     <video youtube="kxnjKrjXOH4" xml:id="video-example-sigfig-add" />
 
@@ -168,19 +171,19 @@
         <myopenmath problem="1444299" />
     </exercise>
 
-    <p>For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of the input numbers.</p>
+    <p>For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of signficant digits of the input numbers.</p>
 
     <example xml:id="example-sigfig-divide">
         <title>Division with Significant Digits</title>
-        <p><m>11050/722=15.3</m>. This is because <m>722</m> has only 3 significant digits.</p>
+        <p><m>11050/722 \approx 15.3</m>. This is because <m>722</m> has only 3 significant digits.</p>
     </example>
 
     <example xml:id="example-sigfig-multiply">
         <title>Multiplication with Significant Digits</title>
-        <p><m>17 \times 14\bar{0} \times 3.178= 7600</m>. This is because <m>17</m> has only two significant digits.</p>
+        <p><m>17 \times 14\bar{0} \times 3.178 \approx 7600</m>. This is because <m>17</m> has only two significant digits.</p>
     </example>
 
-    <p>The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious an explanation of why this rule works is in this video.</p>
+    <p>The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious, an explanation of why this rule works is in this video.</p>
 
     <video youtube="oQ48Agi4TfI" xml:id="video-example-sigfig-multiply" />
 
@@ -193,8 +196,8 @@
             <mrow>C &amp; = \frac{5}{9}(F-32)</mrow>
             <mrow>C &amp; = \frac{5}{9}(44.7-32)</mrow>
             <mrow> &amp; = \frac{5}{9}(12.7) &amp; \text{ Tenths place is last sigfig}</mrow>
-            <mrow> &amp; \approx 7.055555</mrow>
-            <mrow> &amp; \approx 7.06 &amp; \text{Only 3 sigfigs}</mrow>
+            <mrow> &amp; \approx 7.055555 &amp; 12.7 \text{ has 3 sigfigs}</mrow>
+            <mrow> &amp; \approx 7.06 &amp; \text{Round to 3 sigfigs}</mrow>
         </md>
         In the subtraction step the 32 is exact so the precision is determined by solely 44.7 (tenths place). In the multipication step the 5/9 is exact so the precision is determined by the 12.7 (three significant digits).</p>
     </example>
@@ -215,30 +218,30 @@
 
     <p>The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.</p>
 
-    <p>This example also illustrates a way you might keep track of which digits are significant in each step. The rightmost (smallest place value) digit that is significant is underlined. This is not a mathematical notation, but rather a convenient way to track the significant digits.</p>
+    <p>This example also illustrates tracking significant digits and illustrates a way you might keep track of which digits are significant in each step. The rightmost (smallest place value) digit that is significant is underlined. This is not a mathematical notation, but rather a convenient way to track the significant digits.</p>
 
     <example xml:id="example-sigfig-multi1">
         <title>Multi-Step Arithmetic with Significant Digits</title>
 
         <p>Consider <me>11,728+39(17.9+1.23).</me>
         <md>
-            <mrow>11,72\underline{}8+3\underline{9}(17.\underline{9}+1.2\underline{3}) &amp; =</mrow>
-            <mrow>11,72\underline{}8+3\underline{9}(19.\underline{1}3) &amp; =</mrow>
+            <mrow>11,72\underline{8}+3\underline{9}(17.\underline{9}+1.2\underline{3}) &amp; =</mrow>
+            <mrow>11,72\underline{8}+3\underline{9}(19.\underline{1}3) &amp; =</mrow>
             <mrow>11,72\underline{8}+7\underline{4}6.07 &amp; = 12,4\underline{7}4.07</mrow>
             <mrow> &amp; \approx 12,470.</mrow>
         </md></p>
 
-        <p>By order of operations we first calculate <m>17.9+1.23 = 19.13</m> . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate <m>39 \cdot 19.13 = 746.07</m>. This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is <m>11,728+746.07=12,474.07</m>. 11,728 is significant to the one's place but the 746.07 is only significant to the 10's place. This means the final result is rounded to the 10's place so <m>11,728+39(17.9+1.23) \approx 12,470.</m></p>
+        <p>By order of operations we first calculate <m>17.9+1.23 = 19.13</m> . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate <m>39 \cdot 19.13 = 746.07</m>. This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is <m>11,728+746.07=12,474.07</m>. 11,728 is significant to the one's place but the 746.07 is significant only to the 10's place. This means the final result is rounded to the 10's place so <m>11,728+39(17.9+1.23) \approx 12,470.</m></p>
     </example>
 
     <example xml:id="example-sigfig-multi2">
-        <p>Calculate <me>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4).</me> Note the <m>1/2</m> is an exact number here. The rest are measurements in centimeters.
+        <p>Calculate <me>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4).</me> The <m>1/2</m> is an exact number here. The rest are measurements in centimeters.
         <md>
             <mrow>2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(2\underline{1}-\underline{5}-\underline{4}) &amp; =</mrow>
             <mrow>2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(1\underline{2}) &amp; = \text{ all numbers are precise to the ones position}</mrow>
             <mrow>\underline{1}89 - \underline{5}4 &amp; = \text{ only one significant digit remains in both numbers because 9 has only one}</mrow>
             <mrow>\underline{1}35 &amp; \approx \text{ 189 was precise to only the hundreds position}</mrow>
-            <mrow>100. &amp; \text{So we round to the hundreds.}</mrow>
+            <mrow>100. &amp; &amp; \text{So we round to the hundreds.}</mrow>
         </md></p>
         <p>When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been
             <me>20.5 \cdot 8.5 - \frac{1}{2}8.5(20.5-4.5-3.5) = 121.125.</me>
@@ -274,11 +277,11 @@
 
     <p>Note in this example reality requires us to round up to the nearest integer. We round to an integer because we cannot purchase fractional cartons of eggs. We had to round up, because rounding down would leave us with insufficient eggs (and we are hungry).</p>
 
-    <p>Suppose you have a bank account containing $11410 that accrues 1.65% interest. The bank calculates the payment should be <m>\$11410 \cdot 0.0165 = \$188.265</m>. The bank will pay you $188.26. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.</p>
+    <p>Suppose you have a bank account containing $11,410 that accrues 1.65% interest. The bank calculates the payment should be <m>\$11,410 \cdot 0.0165 = \$188.265</m>. The bank will pay you $188.26. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.</p>
 
     <p>For removal of detail consider reporting the population of a country. We might report the population as over 9 million rather than 9,904,607. There are multiple motivations for this rounding. Note the population is likely changing multiple times per day, so more precision in the number does not equal more accuracy. Also, because of the scale (millions) the detail about how many ones, tens, hundred, and thousands looses meaning.</p>
 
-    <p>When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 and $80,290.11 is unlikely to change a decision. The applicant will ask about the exact salary after deciding the position is a good fit. A common usage of removing detail is when we care about the scale of things rather than the count.</p>
+    <p>When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 to $80,290.11 is unlikely to change a decision. The applicant will ask about the exact salary after deciding the position is a good fit. A common usage of removing detail is when we care about the scale of things rather than the count.</p>
 
     <p>Rounding to control error is the use of significant digits.</p>
 
@@ -344,13 +347,13 @@
         <p>First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <m>50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 in</m>. This will require laying <m>\frac{600 \text{ in}}{20 \text{ in}} = 30</m> tiles across.</p>
         <p>Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <m>38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 \text{ in}</m>. This will require laying <m>\frac{456 \text{ in}}{20 \text{ in}} = 22.8</m> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</p>
         <p>Finally we can count the number of tiles which is <m>30 \times 23 = 690</m> tiles.</p>
-        <p>If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up.</p>
+        <p>If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up. Knowledge from carpet installation is required to determine this rounding.</p>
     </example>
 
     <example xml:id="example-rounding-distribute-cookies">
         <p>Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?</p>
-        <p>There are <m>3 \cdot 12 = 36</m> cookies. Each person can have <m>36/7 \approx 5.1</m> cookies. Because cutting cookies into pieces is typically a bad idea, we must round this down to 5 cookies per person.</p>
-        <p>Curious minds want to know what happens with the rest of the cookies. Notice there will be <m>7 \cdot 5 = 35</m> cookies given away leaving just one cookie for the baker to enjoy.</p>
+        <p>There are <m>3 \cdot 12 = 36</m> cookies. Each person can have <m>36/7 \approx 5.1</m> cookies. Because cutting cookies into pieces is how the cookie crumbles, we must round this down to 5 cookies per person.</p>
+        <p>Curious minds want to know what happens with the rest of the cookies. Notice there will be <m>7 \cdot 5 = 35</m> cookies given away leaving just one cookie which the baker can enjoy.</p>
     </example>
 
 </subsection>
@@ -372,7 +375,7 @@
 
     <example xml:id="example-greatest-error2">
         <statement><p>What is the greatest possible error if 9.31 was rounded to the nearest hundredth?</p></statement>
-        <solution><p>The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 5 one thousdandths.</p></solution>
+        <solution><p>The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 5 one thousandths.</p></solution>
     </example>
 
     <example xml:id="example-greatest-error-up">
@@ -380,7 +383,7 @@
         <solution><p>223 could have been rounded up from 222.1. But it could also have been rounded up from 222.01 or anything else. Thus the greatest possible error is less than 1 (<m>223-222=1</m>).</p></solution>
     </example>
 
-    <p>Notice we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object isn't exactly on one of the lines, you will choose the closest one. The closest one requires rounding.</p>
+    <p>Notice we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object is not exactly on one of the lines, you will choose the closest one. Moving to the closest one is rounding.</p>
 
     <exercise xml:id="exercise-greatest-error1">
 <!--        <webwork>

@@ -13,10 +13,14 @@ Copyright 2020 Megan Ossiander-Gobeille and Mark Fitch
 
     <!-- this is the default, but supresses a warning -->
     <cross-references text="type-global" />
-    <math-package latex-name="cancel" mathjax-name="cancel" />
-    <latex-image-preamble>
+
+    <rename element="fact">Model</rename>
+    <!-- for Webworks: no longer needed -->
+<!--    <latex-image-preamble>
         \usepackage{tikz}
-    </latex-image-preamble>
+    </latex-image-preamble> -->
+    <!-- for pretty cancellation -->
+    <math-package latex-name="cancel" mathjax-name="cancel" />
     <macros>
     %  cancelhighlight (draw attention to when a factor is canceled)
     %  Usage: \frac{(x+1)\cancelhighlight{(x+2)}{\cancelhighlight{(x+2)}}}

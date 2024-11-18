@@ -32,26 +32,26 @@
 
     <example xml:id="example-proportion-cheesecake-double">
         <title>Cheesecake Groceries: Double</title>
-        <p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. We will determine how many grams of eggs we need if we double the recipe. This means everything will be in ratio of 2/1.</p>
-        <p>The proportion is based on the original recipe and the doubled recipe: that is every ingredient will be doubled. We must perform the calculation for eggs and cream cheese separately. We want the ratio of number of eggs in the doubled recipe to the number of eggs in the original recipe to be 2/1. Thus <me>\frac{2}{1} = \frac{E \text{ g}}{15\bar{0} \text{ g}}.</me> Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable).
+        <p>A particular cheesecake recipe calls for <m>150</m> g of eggs and <m>1500</m> g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?</p>
+        <p>This means everything will be in ratio of 2 (needed)/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2/1. Thus <me>\frac{2}{1} = \frac{E \text{ g}}{150 \text{ g}}.</me> Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable).
         <md>
-            <mrow>\frac{2}{1} &amp; = \frac{E \text{ g}}{15\bar{0} \text{ g}}.</mrow>
-            <mrow>\frac{2}{1} \cdot 150 \text{ g} &amp; = \frac{E \text{ g}}{15\bar{0} \text{ g}} \cdot 150 \text{ g}. \text{ Eliminating the denominator.}</mrow>
-            <mrow>\frac{2}{1} \cdot 15\bar{0} \text{ g} &amp; = E</mrow>
-            <mrow>30\bar{0} \text{ g} &amp; = E \text{ of eggs}.</mrow>
-        </md></p>
-        <p>Because we are using measurements in grams (mass/weight), we used significant figures for rounding. In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs, it might be more or less than we need which will mess up the food. Also note the 2 and 1 are exact numbers.</p>
+            <mrow>\frac{2}{1} &amp; = \frac{E \text{ g}}{150 \text{ g}}.</mrow>
+            <mrow>\frac{2}{1} \cdot 150 \text{ g} &amp; = \frac{E \text{ g}}{150 \text{ g}} \cdot 150 \text{ g}. \text{ Eliminating the denominator.}</mrow>
+            <mrow>\frac{2}{1} \cdot 150 \text{ g} &amp; = E</mrow>
+            <mrow>300 \text{ g} &amp; = E \text{ of eggs}.</mrow>
+        </md> Because scales are accurate to a gram, we do not need to round.</p>
+        <p>In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs, it might be more or less than we need which will mess up the food.</p>
     </example>
 
     <p>This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.</p>
 
     <example xml:id="example-proportion-non-integer-scale">
-        <p>Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for <m>30\overline{0}</m> g of flour, how much flour does he need for the 6 dozen cookies?</p>
+        <p>Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for <m>300</m> g of flour, how much flour does he need for the 6 dozen cookies?</p>
         <p>First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is <m>6/4 = 3/2</m>. Thus to determine the amount of flour needed we setup the proportion
         <md>
-            <mrow>\frac{3}{2} &amp; = \frac{F \text{ g}}{30\overline{0} \text{ g}}</mrow>
-            <mrow>\frac{3}{2} \cdot 30\overline{0} \text{ g} &amp; = \frac{F \text{ g}}{30\overline{0} \text{ g}} 30\overline{0} \text{ g}</mrow>
-            <mrow>45\overline{0} \text{ g} &amp; = F</mrow>
+            <mrow>\frac{3}{2} &amp; = \frac{F \text{ g}}{300 \text{ g}}</mrow>
+            <mrow>\frac{3}{2} \cdot 300 \text{ g} &amp; = \frac{F \text{ g}}{300 \text{ g}} 300 \text{ g}</mrow>
+            <mrow>450 \text{ g} &amp; = F</mrow>
         </md></p>
     </example>
 
@@ -59,12 +59,13 @@
 
     <example xml:id="example-proportion-cheesecake-scale">
         <title>Cheesecake Groceries: Unknown</title>
-        <p>For a particular cheesecake recipe there is <m>15\bar{0}</m> g of eggs and <m>150\bar{0}</m> g of cream cheese. If we have <m>35\bar{0}</m> g of egg how much cream cheese do we need? We know that the egg to cream cheese ratio must be 150/1500. We notice <m>150/1500 = 1/10</m>. This means we need to solve <me>\frac{1}{10} = \frac{35\bar{0} \text{ g}}{C \text{ g}}.</me></p>
+        <p>A particular cheesecake recipe calls for <m>150</m> g of eggs and <m>1500</m> g of cream cheese. If we have <m>350</m> g of egg how much cream cheese do we need?</p>
+        <p>We know that the egg to cream cheese ratio must be 150/1500. We notice <m>150/1500 = 1/10</m>. This means we need to solve <me>\frac{1}{10} = \frac{350 \text{ g}}{C \text{ g}}.</me></p>
         <p>Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write
         <md>
-            <mrow>\frac{10}{1} &amp; = \frac{C \text{ g}}{35\bar{0} \text{ g}}.</mrow>
+            <mrow>\frac{10}{1} &amp; = \frac{C \text{ g}}{350 \text{ g}}.</mrow>
             <mrow>\frac{10}{1} \cdot 350 \text{ g} &amp; = \frac{C \text{ g}}{350 \text{ g}} \cdot 350 \text{ g}.</mrow>
-            <mrow>35\bar{0}0 \text{ g} &amp; = C \text{ of cream cheese}.</mrow>
+            <mrow>3500 \text{ g} &amp; = C \text{ of cream cheese}.</mrow>
         </md></p>
     </example>
 
@@ -73,19 +74,18 @@
     <example xml:id="example-ratio-airspeed-solve">
         <title>Proportion: Solving</title>
         <p>According to the airplane flight manual a Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
-        <p>How long will it take to travel 236 nm?</p>
+        <p>How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).</p>
         <p>Because cruise speed is a fixed ratio we can write
             <md>
                 <mrow>\frac{110 \text{ nm}}{\text{hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
                 <mrow>t \text{ hours} \cdot \frac{110 \text{ nm}}{1 \text{ hour}} \amp = t \text{ hours} \cdot \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
-                <mrow>t \cdot 110 \text{ nm} \amp = 236 \text{ nm}. \amp \text{ Clearing the denominators.}</mrow>
+                <mrow>t \cdot 110 \text{ nm} \amp = 236 \text{ nm}. \text{ Clearing the denominators.}</mrow>
                 <mrow>\frac{t \cdot 110 \text{ nm}}{110 \text{ nm}}  \amp = \frac{236 \text{ nm}}{110 \text{ nm}}.</mrow>
                 <mrow>t \amp = \frac{236}{110}</mrow>
                 <mrow> \amp \approx 2.14545</mrow>
                 <mrow> \amp \approx 2.1 \text{ hours}.</mrow>
             </md>
         </p>
-        <p>The result is rounded to the tenths position by tradition in aviation.</p>
     </example>
 
     <exercise xml:id="exercise-ratio-climb">
@@ -115,20 +115,20 @@
     <p>When we experience math in the wild, problems do not come labeled with solving methods. We must recognize the math and apply our knowledge appropriately. The next example illustrates identifying ratios (proportions) more than once when answering a question.</p>
 
     <example xml:id="example-proportion-three-in-one">
-        <p>Suppose a Diamond DA-20 climbs at the rate of <m>\frac{550 \text{ feet}}{1.0 \text{ minute}}</m> and is traveling <m>\frac{72.8 \text{ nm}}{\text{hour}}</m> across the ground during this climb. How far forward does the plane fly during a climb of 3500 feet?</p>
-        <p>Because we are told how far the plane climbs, we must use the rate of climb ratio first. As before we can calculate how long it will take to climb. <me>3500 \text{ ft} \cdot \frac{1 \text{ min}}{550 \text{ ft}} = 6.4 \text{ min}</me>.</p>
-        <p>Now that we know how long the plane flies during this climb, we can use that time with the ground speed ratio to calculate how far foward it flies. However, first we must convert the speed to feet per minute or the time to hours. We use conversions from <xref ref="table-customary-convert" />. <me>\frac{72.8 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \approx \frac{7370 \text{ ft}}{\text{min}}</me></p>
+        <p>Suppose a Diamond DA-20 climbs at the rate of <m>\frac{550 \text{ feet}}{1.0 \text{ minute}}</m> and is traveling <m>\frac{72.8 \text{ nm}}{\text{hour}}</m> across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.</p>
+        <p>Because we are told how far the plane climbs, we must use the rate of climb ratio first. As before we can calculate how long it will take to climb. <me>3500 \text{ ft} \cdot \frac{1 \text{ min}}{550 \text{ ft}} \approx 6.36363636 \text{ min}</me>.</p>
+        <p>Now that we know how long the plane flies during this climb, we can use that time with the ground speed ratio to calculate how far foward it flies. However, we must first convert the speed to feet per minute or the time to hours. We use conversions from <xref ref="table-customary-convert" />. <me>\frac{72.8 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \approx \frac{7372.213333 \text{ ft}}{\text{min}}</me></p>
         <p>Finally we can use this rate and the time of climb to calculate the desired distance.
             <md>
-                <mrow>\frac{7370 \text{ ft}}{\text{min}} &amp; = \frac{s \text{ ft}}{6.4 \text{ min}}</mrow>
-                <mrow>\frac{7370 \text{ ft}}{\text{min}} \cdot (6.4 \text{ min}) &amp; = \frac{s \text{ ft}}{6.4 \text{ min}} \cdot (6.4 \text{ min})</mrow>
-                <mrow>47000 \approx s \text{ ft}</mrow>
-            </md>
-        If desired, we can convert this to nautical miles which is <me>(47000 \text{ ft}) \cdot \frac{1 \text{nm}}{6076 \text{ ft}} = 7.8 \text{ nm}</me></p>
+                <mrow>\frac{7372.213333 \text{ ft}}{\text{min}} &amp; = \frac{s \text{ ft}}{6.36363636 \text{ min}}</mrow>
+                <mrow>\frac{7372.213333 \text{ ft}}{\text{min}} \cdot (6.36363636 \text{ min}) &amp; = \frac{s \text{ ft}}{6.36363636 \text{ min}} \cdot (6.36363636 \text{ min})</mrow>
+                <mrow>46914.08482 \approx s \text{ ft}</mrow>
+            </md>.
+        Now we convert this to nautical miles. <me>(46914.08482 \text{ ft}) \cdot \frac{1 \text{ nm}}{6076 \text{ ft}} \approx 7.72121212 \text{ nm} \approx 7.7 \text{ nm}</me></p>
     </example>
 
     <example xml:id="example-proportion-constraints">
-        <p>A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram.</p>
+        <p>A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.</p>
         <p>The ingredients must remain in the ratio <m>\frac{340 \text{ g buttermilk}}{150 \text{ g flour}} = \frac{34 \text{ g buttermilk}}{15 \text{ g flour}}</m>. We can select either ingredient and see how much the ratio tells us we need of the other ingredient.</p>
         <p>Suppose we use all 465 g of flour. Then we can setup the proportion
             <md>
@@ -287,8 +287,8 @@
                     <mrow>\frac{5.5 \text{ ft}}{8 \text{ ft}} \cdot (38 \text{ ft}) \amp = \frac{h}{38 \text{ ft}} \cdot (38 \text{ ft}).</mrow>
                     <mrow>26.125 \text{ ft} \amp = h.</mrow>
                 </md>
-            If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches. <me> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</me> Thus the height to that point on the light is 26 ft and 2 in.</p>
-            <p>Note we use this type of measurement because it is simpler. We can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).</p>
+            If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches. <me> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</me> Thus the height to that point on the light is approximately 26 ft and 2 in.</p>
+            <p>We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).</p>
         </example>
 
     </subsubsection>
