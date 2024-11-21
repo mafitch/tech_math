@@ -32,6 +32,13 @@
         <image source="images/perimeter_area" />
     </figure>
 
+    <paragraphs>
+        <title>Rounding</title>
+
+        <p>How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.</p>
+
+    </paragraphs>
+
     <definition xml:id="definition-parallelogram">
         <title>Parallelogram</title>
 
@@ -60,7 +67,7 @@
         </tabular>
     </table>
 
-    <p>The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with <m>a+b+a+b = a+a+b+b = 2a+2b = 2(a+b)</m>. This means the 2 is an exact number.</p>
+    <p>The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with <m>a+b+a+b = a+a+b+b = 2a+2b = 2(a+b)</m>.</p>
 
     <example xml:id="example-parallelogram-area">
         <p>What are the perimeter and area of this parallelogram?</p>
@@ -73,7 +80,7 @@
         <p>What are the perimeter and area of this parallelogram?</p>
         <image source="images/rectangle_area" width="30%" />
         <p>The perimeter is the sum of the side lengths which in this case is <me>2(18.1+28.2) = 92.8.</me></p>
-        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. Because this is a rectangle a side length can be used as the height. <me>\text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510.</me> Significant digits rounding is used, because side lengths are measurements.</p>
+        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. Because this is a rectangle a side length can be used as the height. <me>\text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510</me>.</p>
     </example>
 
     <exercise>
@@ -112,7 +119,7 @@
         <p>What are the perimeter and area of this trapezoid?</p>
         <image source="images/trapezoid_area" width="30%" />
         <p>The perimeter of this trapezoid is the sum of the four side lengths <me>4.05+1.76+3.04+5.00 = 13.85</me>.</p>
-        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1.</me> Significant digits rounding is used, because side lengths are measurements.</p>
+        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1</me>.</p>
     </example>
 
     <p>Note the following is also a trapezoid and the formulae still apply.</p>
@@ -146,13 +153,13 @@
         </tabular>
     </table>
 
-    <p>Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <xref ref="figure-exercise-triangle-area" />. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side. The <m>1/2</m> in the area formula is an exact number.</p>
+    <p>Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <xref ref="figure-exercise-triangle-area" />. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</p>
 
     <example xml:id="example-triangle-area1">
         <p>What are the perimeter and area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p>
         <p>The perimeter of the triangle on the left is <me>5.98+10.9+8.19 = 25.07 \approx 25.1.</me> The perimeter of the triangle on the right is <me>5.98+2.87+8.19 = 17.04 \approx 17.0.</me></p>
-        <p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.90 \cdot 4.43 = 24.1435 \approx 24.1.</me></p>
-        <p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.35705 \approx 6.36</me></p>
+        <p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.90 \cdot 4.43 = 24.\underline{1}435 \approx 24.1.</me></p>
+        <p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.3\underline{5}705 \approx 6.36</me></p>
     </example>
 
     <figure xml:id="figure-exercise-triangle-area">
@@ -186,12 +193,13 @@
         <p>Consider the triangle in <xref ref="subfigure-triangle-area2" />. Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle (<m>c</m> in the formula).
         <md>
             <mrow>4.43^2+b^2 \amp = 5.98^2.</mrow>
-            <mrow>19.6+b^2 \amp = 35.8.</mrow>
-            <mrow>b^2 \amp = 16.2.</mrow>
-            <mrow>\sqrt{b^2} \amp = \sqrt{16.2}.</mrow>
-            <mrow>b \amp \approx 4.06.</mrow>
+            <mrow>19.\underline{6}249+b^2 \amp = 35.\underline{7}604.</mrow>
+            <mrow>b^2 \amp = 16.\underline{1}355.</mrow>
+            <mrow>\sqrt{b^2} \amp = \sqrt{16.\underline{1}355}.</mrow>
+            <mrow>b \amp \approx 4.0\underline{1}690179</mrow>
+            <mrow> \amp \approx 4.02.</mrow>
         </md>
-        We use significant figures rounding because side lengths are measurements.</p>
+        </p>
     </example>
 
     <example xml:id="example-not-right-triangle">
@@ -199,11 +207,12 @@
         <md>
             <mrow>a^2+b^2 &amp; =</mrow>
             <mrow>5.98^2 + 8.19^2 &amp; = </mrow>
-            <mrow>35.8 + 67.1 &amp; = 102.9.</mrow>
-            <mrow>c^2 &amp; = 102.9.</mrow>
-            <mrow>c &amp; = \sqrt{102.9}</mrow>
-            <mrow> &amp; = 10.1.</mrow>
-        </md>
+            <mrow>35.7604 + 67.0761 &amp; = 102.8365.</mrow>
+            <mrow>c^2 &amp; = 102.8365.</mrow>
+            <mrow>c &amp; = \sqrt{102.8365}</mrow>
+            <mrow> &amp; \approx 10.14083330</mrow>
+            <mrow> &amp; \approx 10.1</mrow>
+        </md>.
         Because <m>10.1 \ne 10.9</m> this is not a right triangle, but it appears to be close.</p>
     </example>
 
@@ -220,18 +229,32 @@
         <statement><p>The area of a triangle can be calculated using the three sides. <me>A = \sqrt{s(s-a)(s-b)(s-c)}</me> where <m>s=\frac{1}{2}(a+b+c)</m>.</p></statement>
     </theorem>
 
-    <p>The <m>1/2</m> in Heron's formula is an exact number.</p>
+    <example xml:id="example-heron-formula-integers">
+        <p>Calculate the area of a triangle with side lengths 4, 5, and 7.</p>
+        <p>According to Heron's formula
+            <md>
+                <mrow>s &amp; = \frac{1}{2}(4+5+7)</mrow>
+                <mrow> &amp; = 8.</mrow>
+                <mrow>\text{Area} &amp; = \sqrt{8(8-4)(8-5)(8-7)}</mrow>
+                <mrow> &amp; = \sqrt{96}</mrow>
+                <mrow> &amp; \approx 9.79795897</mrow>
+                <mrow> &amp; \approx 9.8</mrow>
+            </md>.
+        Rounding to one decimal place here is an arbitrary choice for this example.</p>
+    </example>
+
+    <p>The next example illustrates tracking significant digits while using Heron's formula to calculate area.</p>
 
     <example xml:id="example-heron-triangle">
         <p>Calculate the area of the triangles in <xref ref="figure-exercise-triangle-area" />.</p>
         <p>According to Heron's formula for the triangle in <xref ref="subfigure-triangle-area1" />
             <md>
                 <mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90) \text{ Each term is precise to the 100ths (2 places)}</mrow>
-                <mrow> &amp; = 12.535. \text{ Addition maintains to the 100ths (4 sigfigs)}</mrow>
-                <mrow>\text{Area} &amp; \approx \sqrt{12.535(12.535-5.98)(12.535-8.19)(12.535-10.90)} \text{ Terms precise to 100ths, 3 sigfigs}</mrow>
-                <mrow> &amp; \approx \sqrt{12.535(6.555)(4.345)(1.635)} \text{ Product maintains 3 sigfigs}</mrow>
-                <mrow> &amp; \approx \sqrt{583.7199977} \text{ Root maintains 3 sigfigs}</mrow>
-                <mrow> &amp; \approx 24.16</mrow>
+                <mrow> &amp; = 12.5\underline{3}5. \text{ Addition maintains to the 100ths (4 sigfigs)}</mrow>
+                <mrow>\text{Area} &amp; \approx \sqrt{12.5\underline{3}5(12.5\underline{3}5-5.98)(12.5\underline{3}5-8.19)(12.5\underline{3}5-10.90)} \text{ Terms precise to 100ths, 3 sigfigs}</mrow>
+                <mrow> &amp; \approx \sqrt{12.5\underline{3}5(6.5\underline{5}5)(4.3\underline{4}5)(1.6\underline{3}5)} \text{ Product maintains 3 sigfigs}</mrow>
+                <mrow> &amp; \approx \sqrt{58\underline{3}.7199977} \text{ Root maintains 3 sigfigs}</mrow>
+                <mrow> &amp; \approx 24.\underline{1}6</mrow>
                 <mrow> &amp; \approx 24.2.</mrow>
             </md>
         </p>
@@ -241,12 +264,11 @@
                 <mrow> &amp; \approx 8.52. \text{ Sum maintains to the 100ths}</mrow>
                 <mrow>\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} \text{ Sums maintain to the 100ths}</mrow>
                 <mrow> &amp; \approx \sqrt{8.52(2.54)(0.33)(5.65)} \text{ Smallest factor has 2 sigfigs}</mrow>
-                <mrow> &amp; \approx \sqrt{40.34927160} \text{ Root maintains 2 sigfigs}</mrow>
-                <mrow> &amp; \approx 6.35210765</mrow>
+                <mrow> &amp; \approx \sqrt{4\underline{0}.34927160} \text{ Root maintains 2 sigfigs}</mrow>
+                <mrow> &amp; \approx 6.\underline{3}5210765</mrow>
                 <mrow> &amp; \approx 6.4.</mrow>
             </md>
         </p>
-        <p>We use significant digits rounding because the side lengths are measurements.</p>
     </example>
 
     <p>Notice that the results from Heron's formula are slightly different from the results using the <m>\frac{1}{2}bh</m> formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.</p>
@@ -268,23 +290,23 @@
         </tabular>
     </table>
 
-    <p>The 2 and 4 in the formulae are exact numbers. When performing calculations with <m>\pi</m> we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.</p>
+    <p>When performing calculations with <m>\pi</m> we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.</p>
 
     <example xml:id="example-circle-properties">
         <p>For a circle with radius 7.31 what are the perimeter and area?</p>
         <p>The perimeter, given in <xref ref="figure-circle-properties" />, is <m>2\pi r</m>. For radius 7.31
         <md>
             <mrow>\text{perimeter} &amp; = 2\pi (7.31)</mrow>
-            <mrow> &amp; \approx 2(3.14)(7.31)</mrow>
-            <mrow> &amp; = 45.9068.</mrow>
+            <mrow> &amp; \approx 2(3.14159)(7.31)</mrow>
+            <mrow> &amp; = 45.\underline{9}300458.</mrow>
             <mrow> &amp; \approx 45.9.</mrow>
         </md>
         We need to approximate <m>\pi</m> to at least as many significant digits as the others numbers to avoid reducing precision. We could use more.</p>
         <p>The area, given in <xref ref="figure-circle-properties" />, is <m>\pi r^2</m>. For radius 7.31
         <md>
             <mrow>\text{area} &amp; = \pi (7.31)^2</mrow>
-            <mrow> &amp; = (3.14)(7.31)^2</mrow>
-            <mrow> &amp; \approx 167.789354.</mrow>
+            <mrow> &amp; = (3.14159)(7.31)^2</mrow>
+            <mrow> &amp; \approx 16\underline{7}.8743174.</mrow>
             <mrow> &amp; \approx 168.</mrow>
         </md></p>
     </example>
@@ -294,15 +316,16 @@
         <p>The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: <m>\pi d</m>.
         <md>
             <mrow>\text{perimeter} &amp; = \frac{1}{2}\pi (11.7)+11.7</mrow>
-            <mrow> &amp; \frac{1}{2}(3.14)(11.7)+11.7</mrow>
-            <mrow> &amp; = 30.069</mrow>
-            <mrow> &amp; \approx 30.1.</mrow>
-        </md></p>
+            <mrow> &amp; = \frac{1}{2}(3.14159)(11.7)+11.7</mrow>
+            <mrow> &amp; = 18.\underline{3}783015 + 11.7</mrow>
+            <mrow> &amp; = 30.\underline{0}783015</mrow>
+            <mrow> &amp; \approx 30.1</mrow>
+        </md>.</p>
         <p>The area is simply half of the usual area.
         <md>
             <mrow>\text{area} &amp; = \frac{1}{2}\pi (11.7)^2</mrow>
-            <mrow> &amp; = \frac{1}{2}(3.14) (11.7)^2</mrow>
-            <mrow> &amp; \approx 214.9173.</mrow>
+            <mrow> &amp; = \frac{1}{2}(3.14159) (11.7)^2</mrow>
+            <mrow> &amp; \approx 21\underline{5}.0261276.</mrow>
             <mrow> &amp; \approx 215.</mrow>
         </md></p>
     </example>
@@ -325,7 +348,7 @@
             <p>Find the area of this wall given the dimensions given in feet.</p>
             <image source="images/HouseWall" width="30%" />
             <p>First we notice that we can describe the wall as a rectangle with a triangle on top of it.</p>
-            <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \cdot 24.0 \text{ ft} = 168 \text{ ft}^2</m>.</p>
+            <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \times 24.0 \text{ ft} = 168 \text{ ft}^2</m>.</p>
             <p>The top is a triangle with two sides of length 13.0 and one of length 24.0. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
             <md>
                 <mrow>s &amp; = \frac{1}{2}(13.0+13.0+24.0)</mrow>
@@ -356,16 +379,16 @@
 
     <example xml:id="example-geometry2d-floor-plan">
         <p>Calculate the square footage of the combined living room and hallway.</p>
-        <image source="images/floor_plan_1" width="40%" />
+        <image source="images/floor_plan_1" width="55%" />
         <p>This layout is rectangular. The living room is a rectange with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.</p>
         <p>To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.</p>
         <p>The living room height is <m>12 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 10 \text{ in} = 154 \text{ in}</m>. The width is <m>15 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 7 \text{ in} = 187 \text{ in}</m>. The area is <m>(154 \text{ in})(187 \text{ in}) = 28798 \text{ in}^2</m>.</p>
         <p>The hallway height is <m>3 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 1 \text{ in} = 37 \text{ in}</m>. The width is <m>11 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 1 \text{ in} = 122 \text{ in}</m>. The area is <m>(37 \text{ in})(122 \text{ in}) = 4514 \text{ in}^2</m>.</p>
-        <p>The total floor surface is <m>28798 \text{ in}^2+4514 \text{ in}^2=33312 \text{ in}^2</m>. We can now convert that back to feet. <me>33312 \text{ in}^2 \cdot \left( \frac{1 \text{ ft}}{12 \text{ in}} \right)^2 = \frac{33312}{144} \text{ ft}^2 \approx 231.333 \text{ ft}^2 \approx 230 \text{ ft}^2.</me></p>
-        <p>We use significant digits rounding because these are measurements. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like <m>3 \text{ ft} 1 \text{in} \approx 3.0833 \text{ ft}</m>. The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. This is why it was easier to convert to inches than to decimal feet.</p>
+        <p>The total floor surface is <m>28798 \text{ in}^2+4514 \text{ in}^2=33312 \text{ in}^2</m>. We can now convert that back to feet. <me>33312 \text{ in}^2 \cdot \left( \frac{1 \text{ ft}}{12 \text{ in}} \right)^2 = \frac{33312}{144} \text{ ft}^2 \approx 231.333 \text{ ft}^2 \approx 231 \text{ ft}^2.</me></p>
+        <p>We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like <m>3 \text{ ft } 1 \text{in} \approx 3.0833 \text{ ft}</m>. The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.</p>
     </example>
 
-    <p>The following example requires geometric thinking, but does not require any formulae. Especially important is the type of rounding which is determined by physical constraints.</p>
+    <p>The following example requires geometric thinking, but does not require any formula. Especially important is the type of rounding which is determined by physical constraints.</p>
 
     <example xml:id="example-geometry-abacus">
         <introduction>
@@ -377,7 +400,7 @@
                 <p>What is the total number of feet of lumber (2x4) needed?</p>
             </statement>
             <solution>
-                <p>There are two boards of length 60.0 inches and three boards of length 27.0 inches. The total length is <me>2 \cdot 60.0\text{ in} + 3 \cdot 27.0\text{ in} = 12\bar{0}\text{ in}</me>. We convert this to feet using a ratio. <me>120. \text{ in} \cdot \frac{1 \text{ ft}}{12 \; \text{in}} = 10.0 \text{ ft}</me></p>
+                <p>There are two boards of length 60 inches and three boards of length 27 inches. The total length is <me>2 \cdot 60\text{ in} + 3 \cdot 27.0\text{ in} = 120\text{ in}</me>. We convert this to feet using a ratio. <me>120 \text{ in} \cdot \frac{1 \text{ ft}}{12 \; \text{in}} = 10 \text{ ft}</me></p>
             </solution>
         </task>
         <task>
@@ -385,7 +408,7 @@
                 <p>If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?</p>
             </statement>
             <solution>
-                <p>If a 60.0 inch section is cut from a 96.0 inch board, we have <m>96.0\text{ in}-60.0\text{ in}=36.0\text{ in}</m> left. This is long enough for one of the 27.0 inch segments but not more. Thus two boards will cover all but the last 27.0 inch segment. We need 3, 96.0 inch boards.</p>
+                <p>If a 60 inch section is cut from a 96 inch board, we have <m>96\text{ in}-60\text{ in}=36\text{ in}</m> left. This is long enough for one of the 27 inch segments but not more. Thus two boards will cover all but the last 27 inch segment. We need three (3), 96 inch boards.</p>
             </solution>
         </task>
         <task>
@@ -395,28 +418,29 @@
             <solution>
                 <p>Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are
                     <md>
-                        <mrow>60.0\text{ in} \cdot 3.5\text{ in} \amp = 210\text{ in}^2,</mrow>
-                        <mrow>60.0\text{ in} \cdot 1.5\text{ in} \amp = 9\bar{0}\text{ in}^2,</mrow>
-                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp \approx 5.25\text{ in}^2.</mrow>
-                    </md> This is <m>5+\frac{1}{4}</m>.
+                        <mrow>60\text{ in} \cdot 3.5\text{ in} \amp = 210\text{ in}^2,</mrow>
+                        <mrow>60\text{ in} \cdot 1.5\text{ in} \amp = 90\text{ in}^2,</mrow>
+                        <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp = 5.25\text{ in}^2.</mrow>
+                    </md>
                 For the short segments these are
                     <md>
-                        <mrow>27.0\text{ in} \cdot 3.5\text{ in} \amp \approx 95\text{ in}^2,</mrow>
-                        <mrow>27.0\text{ in} \cdot 1.5\text{ in} \amp \approx 41\text{ in}^2,</mrow>
+                        <mrow>27\text{ in} \cdot 3.5\text{ in} \amp = 94.5\text{ in}^2,</mrow>
+                        <mrow>27\text{ in} \cdot 1.5\text{ in} \amp = 40.5\text{ in}^2,</mrow>
                         <mrow>1.5\text{ in} \cdot 3.5\text{ in} \amp = 5.25\text{ in}^2.</mrow>
                     </md>
                 Thus the total area is
                     <md>
-                        <mrow>2(2)(210\text{ in}^2)+2(2)(9\bar{0}\text{ in}^2)+2(2)(5.25\text{ in}^2)</mrow>
-                        <mrow>+3(2)(95\text{ in}^2)+3(2)(41\text{ in}^2)+3(2)(5.25\text{ in}^2) \amp = </mrow>
-                        <mrow>810+360+21+570+246+31.5\text{ in}^2 \amp = 2038.5\text{ in}^2</mrow>
+                        <mrow>2(2)(210\text{ in}^2)+2(2)(90\text{ in}^2)+2(2)(5.25\text{ in}^2)</mrow>
+                        <mrow>+3(2)(94.5\text{ in}^2)+3(2)(40.5\text{ in}^2)+3(2)(5.25\text{ in}^2) \amp = </mrow>
+                        <mrow>810+360+21+567+246+31.5\text{ in}^2 \amp = 2035.5\text{ in}^2</mrow>
                     </md>
-                No rounding is necessary because measurments were accurate to 1/8th inch, and a half inch is a multiple of an 1/8th inch.</p>
+                </p>
                 <p>Finally we convert this to square feet using the method of <xref ref="example-convert-square-units" />.
                 <md>
-                    <mrow>2038.5\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = </mrow>
-                    <mrow>\frac{2038.5}{12^2} \text{ ft}^2 &amp; = 14.15625 \text{ ft}^2.</mrow>
-                </md> We would need paint to cover 15 square feet to have at least enough.</p>
+                    <mrow>2035.5\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = </mrow>
+                    <mrow>\frac{2035.5}{12^2} \text{ ft}^2 &amp; \approx 14.13541667 \text{ ft}^2.</mrow>
+                    <mrow> &amp; \approx 15</mrow>
+                </md>. We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.</p>
             </solution>
         </task>
         <task>
@@ -424,7 +448,7 @@
                 <p>What is the area that is hidden, that is, cannot be seen after assembling?</p>
             </statement>
             <solution>
-                <p>This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <m>3.5\text{ in} \cdot 1.5\text{ in} \approx 5.3\text{ in}^2</m>. The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <m>12 \cdot 5.3\text{ in}^2 \approx 64\text{ in}^2</m>.</p>
+                <p>This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <m>3.5\text{ in} \cdot 1.5\text{ in} = 5.25\text{ in}^2</m>. The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <m>12 \cdot 5.25\text{ in}^2 \approx 63\text{ in}^2</m>.</p>
             </solution>
         </task>
     </example>

@@ -71,7 +71,9 @@
         <title>Rate of a Square Root</title>
 
         <tabular>
-            <row><cell><m>n</m></cell> <cell><m>\sqrt{n}</m></cell> </row>
+            <col halign="center" right="medium" width="25%" />
+            <col halign="right" width="15%" />
+            <row bottom="medium"><cell><m>n</m></cell> <cell><m>\sqrt{n}</m></cell> </row>
             <row><cell><m>1^2=1</m></cell> <cell><m>1</m></cell> </row>
             <row><cell><m>2^2=4</m></cell> <cell><m>2</m></cell> </row>
             <row><cell><m>3^2=9</m></cell> <cell><m>3</m></cell> </row>

@@ -214,7 +214,7 @@
         <p>The lift equation has <m>h=0</m> and <m>k=0</m>. This makes sense because there should be zero lift when there is zero speed. If <m>k \gt 0</m> then there would be lift at zero speed. If <m>h \gt 0</m> there would be no lift until that speed.</p>
         <p>The coefficients, <m>\frac{1}{2}\rho S C_L</m>, make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.</p>
         <p>For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).</p>
-        <image source="images/compare_lift_curves" width="30%" />
+        <image source="images/compare_lift_curves" width="50%" />
     </example>
 
     <example xml:id="example-interpret-parabola-load-factor">
@@ -222,7 +222,7 @@
         <p>This equation has <m>h=0</m> and <m>k=0</m>. Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is <m>V=V_S</m> which gives us 1 G. That is the normal state of flight is 1 G (the one produced by gravity). If <m>k \gt 0</m> the model would indicate more than 1 G produced by gravity. <m>h \ne 0</m> would indicate this occuring at some other speed.</p>
         <p>The coefficient (<m>1/V_S^2</m>) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's.</p>
         <p>For example if the stall speed is 41 nm/hr, then 1 G occurs at 41 nm/hr and 2 G's occurs at <m>V=41\sqrt{2} \approx 58</m> nm/hr. To increase the maximum load factor requires an increase of <m>58-41=17</m> nm/hr. However if the stall speed were 63 nm/hr then 1 G occurs at 63 nm/hr and 2 G's occurs at <m>V=63\sqrt{2} \approx 89</m> nm/hr. To increase the maximum load factor required an increase of <m>89-63=26</m> nm/hr. The higher stall speed implies a greater (<m>22 \gt 16</m>) increase in speed.</p>
-        <image source="images/compare_load_factor_curves" width="30%" />
+        <image source="images/compare_load_factor_curves" width="50%" />
     </example>
 
     <p>The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.</p>
@@ -276,9 +276,9 @@
                         <mrow>-4.9t^2+1.0 &amp; = 0.</mrow>
                         <mrow>-4.9t^2 &amp; = -1.0.</mrow>
                         <mrow>t^2 &amp; = \frac{-1.0}{-4.9}.</mrow>
-                        <mrow>t^2 &amp; \approx 0.2040816327.</mrow>
-                        <mrow>t &amp; \approx \sqrt{0.2040816327}.</mrow>
-                        <mrow>t &amp; \approx 0.4517539515</mrow>
+                        <mrow>t^2 &amp; \approx 0.2\underline{0}40816327.</mrow>
+                        <mrow>t &amp; \approx \sqrt{0.2\underline{0}40816327}.</mrow>
+                        <mrow>t &amp; \approx 0.4\underline{5}17539515</mrow>
                         <mrow>t &amp; \approx 0.45</mrow>
                     </md>
                 It will take 0.45 seconds for the object to reach the ground.</p>
@@ -299,11 +299,11 @@
                 <p>We can find this by solving the <m>-4.9t^2+5.1t+1.2=0</m>. To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths.
                     <md>
                         <mrow>t &amp; = \frac{-(5.1) \pm \sqrt{(5.1)^2-4(-4.9)(1.2)}}{2(-4.9)}</mrow>
-                        <mrow> &amp; = \frac{-5.1 \pm \sqrt{26.01+23.52}}{-9.8} \text{ Products maintains 2 sigfigs}</mrow>
-                        <mrow> &amp; = \frac{-5.1 \pm \sqrt{49.53}}{-9.8} \text{ Sum maintains to units}</mrow>
-                        <mrow> &amp; \approx \frac{-5.1 \pm 7.037755324}{-9.8} \text{ Root maintains 2 sigfigs}</mrow>
-                        <mrow> &amp; \approx \frac{1.937755324}{-9.8}, \frac{-12.137755324}{-9.8} \text{ Sum maintains to 10ths}</mrow>
-                        <mrow> &amp; \approx -0.1977301351, 1.238546461 \text{ Division maintains 2 sigfigs}</mrow>
+                        <mrow> &amp; = \frac{-5.1 \pm \sqrt{2\underline{6}.01+2\underline{3}.52}}{-9.8} \text{ Products maintains 2 sigfigs}</mrow>
+                        <mrow> &amp; = \frac{-5.1 \pm \sqrt{4\underline{9}.53}}{-9.8} \text{ Sum maintains to units}</mrow>
+                        <mrow> &amp; \approx \frac{-5.1 \pm 7.\underline{0}37755324}{-9.8} \text{ Root maintains 2 sigfigs}</mrow>
+                        <mrow> &amp; \approx \frac{1.\underline{9}37755324}{-9.8}, \frac{-12.\underline{1}37755324}{-9.8} \text{ Sum maintains to 10ths}</mrow>
+                        <mrow> &amp; \approx -0.1\underline{9}77301351, 1.\underline{2}38546461 \text{ Division maintains 2 sigfigs}</mrow>
                         <mrow> &amp; \approx -0.20, 1.2</mrow>
                     </md>
                 The negative time does not make sense, so <m>t \approx 1.2</m> seconds is when the object will reach the ground.</p>
@@ -311,11 +311,11 @@
             <task>
                 <p>Determine the maximum height the object reached.</p>
                 <p>This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in <xref ref="example-quadratic-standard-vertex" />.</p>
-                <p>We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to find the vertex. The time at which the maximum height occurs is <m>\frac{-0.1977301351+1.238546461}{2} \approx 0.520408163 \approx 0.52</m>. The height at that time is
+                <p>We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to find the vertex. The time at which the maximum height occurs is <me>\frac{-0.1\underline{9}77301351+1.\underline{2}38546461}{2} \approx 0.5\underline{2}0408163 \approx 0.52</me>. The height at that time is
                 <md>
-                    <mrow>-4.9(0.520408163)^2+5.1(0.520408163)+1.2 &amp; \approx \text{ Products maintain 2 sigfigs}</mrow>
-                    <mrow>-1.327040815+2.654081631+1.2 &amp; \approx \text{ Sum maintains to 10ths}</mrow>
-                    <mrow>2.527040816 &amp; \approx 2.5</mrow>
+                    <mrow>-4.9(0.5\underline{2}0408163)^2+5.1(0.5\underline{2}0408163)+1.2 &amp; \approx \text{ Products maintain 2 sigfigs}</mrow>
+                    <mrow>-1.\underline{3}27040815+2.\underline{6}54081631+1.2 &amp; \approx \text{ Sum maintains to 10ths}</mrow>
+                    <mrow>2.\underline{5}27040816 &amp; \approx 2.5</mrow>
                 </md>
                 The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.</p>
             </task>

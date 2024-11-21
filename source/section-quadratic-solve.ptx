@@ -39,7 +39,6 @@
             </md>
         </p>
         <p>Notice that we end up with two results. The <m>\pm</m> results from squaring eliminating a negative. That is, <m>(2)^2=4</m> and <m>(-2)^2=4</m>. So <m>\sqrt{4}</m> could be either 2 or -2.</p>
-        <p>Rounding to two decimal places was an arbitrary choice because this is not an application.</p>
     </example>
 
     <example xml:id="example-solve-quadratic-inversion2">
@@ -84,15 +83,16 @@
         <p>We start by filling in the information we know in the equation.
         <md>
             <mrow>3500. \amp = \frac{1}{2}(0.002309)(174.0)(0.5001)v^2.</mrow>
-            <mrow>3500. \amp \approx 0.1005v^2.</mrow>
-            <mrow>\frac{3500.}{0.1005} \amp \approx v^2.</mrow>
-            <mrow>34830 \amp \approx v^2.</mrow>
-            <mrow>\sqrt{34830} \amp \approx \sqrt{v^2}.</mrow>
-            <mrow>186.6 \amp \approx v.</mrow>
+            <mrow>3500. \amp \approx 0.100\underline{4}615883v^2.</mrow>
+            <mrow>\frac{3500.}{0.100\underline{4}615883} \amp \approx v^2.</mrow>
+            <mrow>348\underline{3}9.18639 \amp \approx v^2.</mrow>
+            <mrow>\sqrt{348\underline{3}9.18639} \amp \approx \sqrt{v^2}.</mrow>
+            <mrow>186.\underline{6}525821 \amp \approx v.</mrow>
+            <mrow>186.7 \amp \approx v.</mrow>
         </md></p>
         <p>We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.</p>
         <p>Note the units for velocity are feet per second. Now we need to convert units (like <xref ref="example-convert-speed" />).
-        <me>\frac{186.6 \; \text{ft}}{\text{s}} \cdot \frac{\text{mi}}{6076 \; \text{ft}} \cdot \frac{3600 \; \text{s}}{\text{hr}} \approx 110.5595787 \frac{\text{mi}}{\text{hr}} \approx 110.6 \frac{\text{mi}}{\text{hr}}</me>
+        <me>\frac{186.\underline{6}525821 \; \text{ft}}{\text{s}} \cdot \frac{\text{mi}}{6076 \; \text{ft}} \cdot \frac{3600 \; \text{s}}{\text{hr}} \approx 110.\underline{5}907333 \frac{\text{mi}}{\text{hr}} \approx 110.6 \frac{\text{mi}}{\text{hr}}</me>.
         </p>
     </example>
 
@@ -109,8 +109,8 @@
                 <mrow>\sqrt{2} \amp = \frac{v}{54}.</mrow>
                 <mrow>54\sqrt{2} \amp = 54\frac{v}{54}.</mrow>
                 <mrow>54\sqrt{2} \amp = v.</mrow>
-                <mrow>76.36753235 \amp \approx v.</mrow>
-                <mrow>76 \amp = \approx.</mrow>
+                <mrow>7\underline{6}.36753235 \amp \approx v.</mrow>
+                <mrow>76 \amp \approx v.</mrow>
             </md>
             The aircraft would have to be travelling at 76 nm/hour to be able to experience 2 G's in a maximum performance maneuver.</p>
             <p>Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.</p>

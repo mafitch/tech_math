@@ -34,6 +34,13 @@
         <image source="images/popcorn_cone" width="30%" />
     </figure>
 
+    <paragraphs>
+        <title>Rounding</title>
+
+        <p>How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.</p>
+
+    </paragraphs>
+
     <definition xml:id="definition-prism">
         <title>Prism</title>
 
@@ -127,7 +134,7 @@
         </tabular>
     </table>
 
-    <p>The 2 is an exact number. If the cylinder is not slanted then <m>s=h</m>. Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
+    <p>If the cylinder is not slanted then <m>s=h</m>. Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles. The surface area of the side a cylinder can be imagined to be the result of peeling off the surface which results in a rectangle.</p>
 
     <example xml:id="example-cylinder-properties">
         <p>What are the total surface area and volume of this slanted cylinder?</p>
@@ -175,13 +182,13 @@
         <md>
             <mrow>A &amp; = \frac{1}{2}(4\pi(12.9167)^2) \text{ Squaring mainatains 6 sigfigs}</mrow>
             <mrow> &amp; \approx \frac{1}{2}(4(3.14159)(12.9167)^2) \text{ Approximate to 6 sigfigs}</mrow>
-            <mrow> &amp; \approx 1048.292907 \text{ Product maintains 6 sigfigs}</mrow>
+            <mrow> &amp; \approx 1048.2\underline{9}2907 \text{ Product maintains 6 sigfigs}</mrow>
             <mrow> &amp; \approx 1048.29</mrow>
         </md>
         <md>
             <mrow>V &amp; = \frac{1}{2}\left(\frac{4}{3}\pi(12.9167)^3 \right)</mrow>
             <mrow> &amp; \approx \frac{1}{2}\left(\frac{4}{3}(3.14159)(12.9167)^3 \right)</mrow>
-            <mrow> &amp; \approx 4513.494997</mrow>
+            <mrow> &amp; \approx 4513.4\underline{9}4997</mrow>
             <mrow> &amp; \approx 4513.49</mrow>
         </md></p>
     </example>
@@ -198,8 +205,6 @@
         </tabular>
     </table>
 
-    <p>The 1/3 is an exact number.</p>
-
     <example xml:id="example-pyramid-calculuate">
         <task>
             <p>What is the surface area of this pyramid?</p>
@@ -211,8 +216,8 @@
                     <mrow> &amp; = 4.1623. \text{ All numbers precise to 4 decimal places}. </mrow>
                     <mrow>A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)} \text{ Subtraction maintains 4 decimal places}</mrow>
                     <mrow> &amp; = \sqrt{(4.1623)(1.0000)(1.0000)(2.1623)} \text{ Product will have 5 sigfigs}</mrow>
-                    <mrow> &amp; = \sqrt{9.00014129} \text{ Root will maintain 5 sigfigs}</mrow>
-                    <mrow> &amp; = 3.000023548</mrow>
+                    <mrow> &amp; = \sqrt{9.000\underline{1}4129} \text{ Root will maintain 5 sigfigs}</mrow>
+                    <mrow> &amp; = 3.000\underline{0}23548</mrow>
                     <mrow> &amp; = 3.0000.</mrow>
                 </md>
             The area of the base is <m>2.0000 \cdot 2.0000 = 4.0000</m>. Thus the surface area is <m>4.0000+4(3.0000)=16.0000</m>.</p>
@@ -231,23 +236,23 @@
         <image source="images/pyramid-exercise-no-height-labeled" width="30%" />
         <p><md>
             <mrow>\left(\frac{5.31}{2}\right)^2+\left(\frac{3.17}{2}\right)^2 &amp; = c^2.</mrow>
-            <mrow>7.049025+2.512225 &amp; = c^2. \text{ Square maintains 3 sigfigs}</mrow>
-            <mrow>9.56125 &amp; = c^2. \text{ Addition maintains precision to 2 places}</mrow>
-            <mrow>\sqrt{9.56125} &amp; = c. \text{ Root maintains 3 sigfigs}</mrow>
-            <mrow>3.0921271 &amp; \approx c.</mrow>
+            <mrow>7.0\underline{4}9025+2.5\underline{1}2225 &amp; = c^2. \text{ Square maintains 3 sigfigs}</mrow>
+            <mrow>9.5\underline{6}125 &amp; = c^2. \text{ Addition maintains precision to 2 places}</mrow>
+            <mrow>\sqrt{9.5\underline{6}125} &amp; = c. \text{ Root maintains 3 sigfigs}</mrow>
+            <mrow>3.0\underline{9}21271 &amp; \approx c.</mrow>
             <mrow>3.09 &amp; \approx c.</mrow>
         </md>
         Next, we can use this length and the given side length to calculate the height.
         <md>
-            <mrow>3.09^2 + h^2 &amp; = 9.72^2.</mrow>
-            <mrow>9.5481 + h^2 &amp; = 94.4784. \text{ Square maintains 3 sigfigs}</mrow>
-            <mrow>h^2 &amp; = 94.4784-9.5481. \text{94.4784 precise to only one place} </mrow>
-            <mrow>h^2 &amp; = 84.9303. \text{ Subtraction maintains precision to only one place}</mrow>
-            <mrow>h &amp; = \sqrt{84.9303}. \text{ Root maintains 3 sigfigs}</mrow>
-            <mrow>h &amp; \approx 9.215763</mrow>
+            <mrow>3.0\underline{9}21271^2 + h^2 &amp; = 9.72^2.</mrow>
+            <mrow>9.5\underline{6}125 + h^2 &amp; = 94.\underline{4}784. \text{ Square maintains 3 sigfigs}</mrow>
+            <mrow>h^2 &amp; = 94.\underline{4}784-9.5\underline{6}125. </mrow>
+            <mrow>h^2 &amp; = 84.\underline{9}1715. \text{ Subtraction maintains precision to only one place}</mrow>
+            <mrow>h &amp; = \sqrt{84.\underline{9}1715}. \text{ Root maintains 3 sigfigs}</mrow>
+            <mrow>h &amp; \approx 9.2\underline{1}505019</mrow>
             <mrow>h &amp; \approx 9.22.</mrow>
         </md></p>
-        <p>Finally we can calculate the volume. The base has area <m>5.31 \cdot 3.17 = 16.8327 \approx 16.8</m>. This pyramid has volume <me>V = \frac{1}{3}(16.8)(9.22) = 51.632 \approx 51.6.</me></p>
+        <p>Finally we can calculate the volume. The base has area <m>5.31 \cdot 3.17 = 16.\underline{8}327 \approx 16.8</m>. This pyramid has volume <me>V = \frac{1}{3}(16.\underline{8}327)(9.2\underline{1}505019) \approx 51.\underline{7}0472510 \approx 51.7</me>.</p>
     </example>
 
     <exercise xml:id="exercise-pyramid-rectangular">
@@ -270,7 +275,7 @@
         </tabular>
     </table>
 
-    <p>The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. The 1/3 in the volume calculation is an exact number. For the full surface area we add the area of the circle at the bottom of the cone.</p>
+    <p>The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. For the full surface area we add the area of the circle at the bottom of the cone.</p>
 
     <example xml:id="example-cone-need-height">
         <p>Calculate the total surface area and the volume of this cone.</p>
@@ -278,32 +283,33 @@
         <p>The surface area can be calculated directly. The lateral surface area is
         <md>
             <mrow>LA &amp; = \pi r s</mrow>
-            <mrow> &amp; \approx (3.1415)(5.7332)(18.1231) \text{ Minimum 5 sigfigs}</mrow>
-            <mrow> &amp; \approx 326.4123958</mrow>
-            <mrow> &amp; \approx 326.41</mrow>
+            <mrow> &amp; \approx (3.14159)(5.7332)(18.1231) \text{ Minimum 5 sigfigs}</mrow>
+            <mrow> &amp; \approx 326.4\underline{2}17471</mrow>
+            <mrow> &amp; \approx 326.42</mrow>
         </md>
         The area of the top circle is
         <md>
             <mrow>TA &amp; = \pi r^2</mrow>
-            <mrow> &amp; = (3.1415)(5.7332)^2 \text{ Minimum 5 sigfigs}</mrow>
-            <mrow> &amp; \approx 103.2597926</mrow>
+            <mrow> &amp; \approx (3.14159)(5.7332)^2 \text{ Minimum 5 sigfigs}</mrow>
+            <mrow> &amp; \approx 103.2\underline{6}27509</mrow>
             <mrow> &amp; \approx 103.26</mrow>
         </md>
-        The total area therefore is <m>A = 326.41+103.26 = 429.67</m>.</p>
+        The total area therefore is <m>A = 326.4\underline{2}17471+103.2\underline{6}27509 \approx 429.6\underline{8}44980 \approx 429.68</m>.</p>
         <p>To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means
         <md>
-            <mrow>h^2+5.7332^2 &amp; = 18.1231^2 \text{ Squaring maintains 5-6 sigfigs}</mrow>
-            <mrow>h^2 + 32.8695224 &amp; \approx 328.4467536 \text{ Precise to 3 places}</mrow>
-            <mrow>h^2 &amp; \approx 328.4467536 - 32.8695224</mrow>
-            <mrow>h^2 &amp; \approx 295.5771714</mrow>
-            <mrow>h &amp; \approx 17.1924 \text{ Root preserves 6 sigfigs}</mrow>
+            <mrow>h^2+5.7332^2 &amp; = 18.1231^2 \text{ Squaring maintains sigfigs}</mrow>
+            <mrow>h^2 + 32.86\underline{9}5224 &amp; \approx 328.44\underline{6}7536 \text{ Precise to 3 places}</mrow>
+            <mrow>h^2 &amp; \approx 328.44\underline{6}7536 - 32.86\underline{9}5224</mrow>
+            <mrow>h^2 &amp; \approx 295.57\underline{7}1714</mrow>
+            <mrow>h &amp; \approx 17.192\underline{3}5794 \text{ Root preserves 6 sigfigs}</mrow>
+            <mrow> &amp; \approx 17.1924.</mrow>
         </md></p>
         <p>Having calculated the height we can calculate the volume
         <md>
             <mrow>V &amp; = \frac{\pi}{3}r^2 h</mrow>
-            <mrow> &amp; = \frac{3.1415}{3}(5.7332)^2(17.1924)</mrow>
-            <mrow> &amp; \approx 591.7612198</mrow>
-            <mrow> &amp; \approx 591.76</mrow>
+            <mrow> &amp; \approx \frac{3.14159}{3}(5.7332)^2(17.192\underline{3}5794)</mrow>
+            <mrow> &amp; \approx 591.7\underline{7}67250</mrow>
+            <mrow> &amp; \approx 591.78</mrow>
         </md></p>
     </example>
 
@@ -321,7 +327,7 @@
         </tabular>
     </table>
 
-    <p><m>P_1</m> is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. <m>P_2</m> is calculated similarly. <m>B_1</m> is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). <m>B_2</m> is the area of the upper base. The 1/2 and 1/3 are exact numbers.</p>
+    <p><m>P_1</m> is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. <m>P_2</m> is calculated similarly. <m>B_1</m> is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). <m>B_2</m> is the area of the upper base.</p>
 
     <example xml:id="example-pyramid-frustrum">
         <task>
@@ -331,34 +337,34 @@
                 <mrow>s_1 &amp; = 10.500.</mrow>
                 <mrow>A_1 &amp; = \sqrt{10.500(10.500-3.500)^3}</mrow>
                 <mrow> &amp; = \sqrt{10.500(7.000)^3}</mrow>
-                <mrow> &amp; = \sqrt{3601.5}</mrow>
-                <mrow> &amp; \approx 60.0124987</mrow>
+                <mrow> &amp; = \sqrt{360\underline{1}.5}</mrow>
+                <mrow> &amp; \approx 60.0\underline{1}24987</mrow>
                 <mrow> &amp; \approx 60.01.</mrow>
                 <mrow>s_2 &amp; = 6.600.</mrow>
                 <mrow>A_2 &amp; = \sqrt{6.600(6.600-2.200)^3}</mrow>
                 <mrow> &amp; = \sqrt{6.600(4.400)^3}</mrow>
-                <mrow> &amp; = \sqrt{562.2144}</mrow>
-                <mrow> &amp; \approx 23.71106071</mrow>
+                <mrow> &amp; = \sqrt{562.\underline{2}144}</mrow>
+                <mrow> &amp; \approx 23.7\underline{1}106071</mrow>
                 <mrow> &amp; \approx 23.71.</mrow>
             </md>
             The three sides are rhombi. The area of one of them is
             <md>
                 <mrow>A &amp; = \frac{1}{2}(2.422)(3.500+2.200)</mrow>
                 <mrow> &amp; = \frac{1}{2}(2.422)(5.700) \text{ Remains precise to 3 places}</mrow>
-                <mrow> &amp; = 6.9027 \text{ Maintains 4 sigfigs}</mrow>
+                <mrow> &amp; = 6.90\underline{2}7 \text{ Maintains 4 sigfigs}</mrow>
                 <mrow> &amp; \approx 6.903.</mrow>
             </md>
-            Thus the surface area of the entire shape is <m>60.01+23.71+3(6.903) = 104.429 \approx 104.4</m>.</p>
+            Thus the surface area of the entire shape is <m>60.0\underline{1}24987+23.7\underline{1}106071+3(6.90\underline{2}7) \approx 104.4\underline{3}16594 \approx 104.43</m>.</p>
         </task>
         <task>
             <p>What is the volume of the frustrum of a pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p>
             <p>We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values
                 <md>
                     <mrow>V &amp; = \frac{1}{3}(2.333)(60.01+23.71+\sqrt{(60.01)(23.71)}) \text{ Product maintains 4 sigfigs}</mrow>
-                    <mrow> &amp; = \frac{1}{3}(2.333)(60.01+23.71+\sqrt{1422.8371}) \text{ Root maintains 4 sigfigs}</mrow>
-                    <mrow> &amp; = \frac{1}{3}(2.333)(60.01+23.71+37.72051299) \text{ All terms precise to 2 places}</mrow>
-                    <mrow> &amp; = \frac{1}{3}(2.333)(121.440513) \text{ Product maintains 4 sigfigs}</mrow>
-                    <mrow> &amp; = 94.44023895</mrow>
+                    <mrow> &amp; = \frac{1}{3}(2.333)(60.01+23.71+\sqrt{142\underline{2}.8371}) \text{ Root maintains 4 sigfigs}</mrow>
+                    <mrow> &amp; = \frac{1}{3}(2.333)(60.01+23.71+37.7\underline{2}051299) \text{ All terms precise to 2 places}</mrow>
+                    <mrow> &amp; = \frac{1}{3}(2.333)(121.4\underline{4}0513) \text{ Product maintains 4 sigfigs}</mrow>
+                    <mrow> &amp; = 94.4\underline{4}023895</mrow>
                     <mrow> &amp; \approx 94.44.</mrow>
                 </md>
             </p>
@@ -382,7 +388,7 @@
         </tabular>
     </table>
 
-    <p>The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The 1/3 is an exact number. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.</p>
+    <p>The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.</p>
 
     <example xml:id="example-cone-frustrum-muffin-tin">
         <p>What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).</p>
@@ -390,30 +396,30 @@
         <p>The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top).
         <md>
             <mrow>LA &amp; = \pi s(r_1+r_2)</mrow>
-            <mrow> &amp; = (3.1)(3.6)(5.0+7.2) \text{ Sum maintains 1 place precision}</mrow>
-            <mrow> &amp; = (3.1)(3.6)(12.2) \text{ Product maintains 2 sigfigs}</mrow>
-            <mrow> &amp; = 136.152</mrow>
+            <mrow> &amp; \approx (3.14159)(3.6)(5.0+7.2) \text{ Sum maintains 1 place precision}</mrow>
+            <mrow> &amp; \approx (3.14159)(3.6)(12.2) \text{ Product maintains 2 sigfigs}</mrow>
+            <mrow> &amp; \approx 1\underline{3}7.9786328</mrow>
             <mrow> &amp; \approx 140.</mrow>
             <mrow>BA &amp; = \pi r^2</mrow>
-            <mrow> &amp; = (3.1)(5.0)^2</mrow>
-            <mrow> &amp; = 77.5</mrow>
-            <mrow> &amp; = 78.</mrow>
+            <mrow> &amp; \approx (3.14159)(5.0)^2</mrow>
+            <mrow> &amp; \approx 7\underline{8}.53975</mrow>
+            <mrow> &amp; \approx 79.</mrow>
         </md>
-        The total surface area is <m>140+78=218 \approx 220</m> cm squared.</p>
+        The total surface area is <m>1\underline{3}7.9786328+7\underline{8}.53975 \approx 2\underline{1}6.5183828 \approx 220</m> cm squared.</p>
         <p>The volume requires calculating the area of the top surface as well.
         <md>
             <mrow>TA &amp; = \pi r^2</mrow>
-            <mrow> &amp; = (3.1)(7.2)^2</mrow>
-            <mrow> &amp; = 160.704</mrow>
+            <mrow> &amp; \approx (3.14159)(7.2)^2</mrow>
+            <mrow> &amp; \approx 1\underline{6}2.8600256</mrow>
             <mrow> &amp; \approx 160.</mrow>
         </md>
         Now we can calculate the volume of the muffin tin.
         <md>
             <mrow>V &amp; = \frac{1}{3}\left(3.3)(78+160+\sqrt{(78)(160)}\right) \text{ Product maintains 2 sigfigs}</mrow>
-            <mrow> &amp; = \frac{1}{3}(3.3)\left(78+160+\sqrt{12480}\right) \text{ Root maintains 2 sigfigs}</mrow>
-            <mrow> &amp; \approx \frac{1}{3}(3.3)(78+160+111.7139) \text{ Root maintains 2 sigfigs}</mrow>
-            <mrow> &amp; \approx \frac{1}{3}(3.3)(349.7139) \text{ Product maintains 2 sigfigs}</mrow>
-            <mrow> &amp; = 384.6853</mrow>
+            <mrow> &amp; = \frac{1}{3}(3.3)\left(78+160+\sqrt{1\underline{2}480}\right) \text{ Root maintains 2 sigfigs}</mrow>
+            <mrow> &amp; \approx \frac{1}{3}(3.3)(78+160+1\underline{1}1.7139) \text{ Root maintains 2 sigfigs}</mrow>
+            <mrow> &amp; \approx \frac{1}{3}(3.3)(3\underline{4}9.7139) \text{ Product maintains 2 sigfigs}</mrow>
+            <mrow> &amp; = 3\underline{8}4.6853</mrow>
             <mrow> &amp; = 380</mrow>
         </md>
         The volume is 380 square centimeters.</p>
@@ -425,11 +431,11 @@
         <p>Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length <m>7.32-5.44=1.88</m>. We can use the Pythagorean theorem to calculate the height.
         <md>
             <mrow>h^2+1.88^2 &amp; = 6.09^2. \text{ Square maintains 3 sigfigs}</mrow>
-            <mrow>h^2+3.5344 &amp; = 37.0881.</mrow>
-            <mrow>h^2 &amp; = 37.0881-3.5344. \text{ Subtraction precise to 1 place}</mrow>
-            <mrow>h^2 &amp; = 33.5537.</mrow>
-            <mrow>h &amp; = \sqrt{33.5537} \text{ Root maintains 3 sigfigs}</mrow>
-            <mrow> &amp; \approx 5.79255567</mrow>
+            <mrow>h^2+3.5\underline{3}44 &amp; = 37.\underline{0}881.</mrow>
+            <mrow>h^2 &amp; = 37.\underline{0}881-3.5\underline{3}44. \text{ Subtraction precise to 1 place}</mrow>
+            <mrow>h^2 &amp; = 33.\underline{5}537.</mrow>
+            <mrow>h &amp; = \sqrt{33.\underline{5}537} \text{ Root maintains 3 sigfigs}</mrow>
+            <mrow> &amp; \approx 5.7\underline{9}255567</mrow>
             <mrow> &amp; \approx 5.79.</mrow>
         </md></p>
     </example>
@@ -454,7 +460,7 @@
     <example xml:id="exercise-apply-geometry-birdhouse">
         <p>What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1/8 inch.</p>
         <image source="images/birdhouse" width="30%" />
-        <p>First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object we will use 2D formulae for the area.</p>
+        <p>First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.</p>
         <p>Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.
         <md>
             <mrow>s &amp; = \frac{1}{2}(5+5+3)</mrow>
@@ -465,9 +471,9 @@
             <mrow> &amp; = \sqrt{51.1875}</mrow>
             <mrow> &amp; \approx 7.1545</mrow>
         </md> </p>
-        <p>For the hole we know the diameter so we use the area formula <m>\frac{\pi}{4}d^2</m>. This hole has area <me>\frac{\pi}{4}(1)^2 = \frac{3.14159}{4} \approx 0.7853975</me> The area of the front triangle is <m>7.125-0.7853975 \approx 6.3396025</m>.</p>
+        <p>For the hole we know the diameter so we use the area formula <m>\frac{\pi}{4}d^2</m>. This hole has area <me>\frac{\pi}{4}(1)^2 \approx \frac{3.14159}{4} \approx 0.7853975</me> The area of the front triangle is <m>7.1545-0.7853975 \approx 6.3691025</m>.</p>
         <p>The bottom rectangle has area <m>3 \cdot 10 = 30</m> square inches. The two sides both have area <m>5 \cdot 10 = 50</m> square inches.</p>
-        <p>Thus the total area is <me>7.1545+6.3396025+2(50)+30 \approx 143.4960525 \approx 143.5</me>. We round up because this is the safer estimate (better to have a little more than not enough for construction).</p>
+        <p>Thus the total area is <me>7.1545+6.3396025+2(50)+30 \approx 143.5236025 \approx 143.6</me>. We round up because this is the safer estimate (better to have a little more than not enough for construction).</p>
     </example>
 
     <example xml:id="example-apply-geometry-ice-cream">
@@ -476,33 +482,33 @@
             <image source="images/cone-sphere" width="30%" />
         </introduction>
         <task>
-            <statement><p>What is the volume of the ice cream? Round final results to the nearest 10th.</p></statement>
+            <statement><p>What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units.</p></statement>
             <solution><p>First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is <m>2 \; \frac{3}{8} = 2.375</m> inches. The radius then is half of that or <m>1 \; \frac{3}{16} = 1.1875</m>. We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.</p>
             <p>The volume of the cone is
             <md>
                 <mrow>V_c &amp; = \frac{\pi}{3} (1.1875)^2 (7)</mrow>
-                <mrow> &amp; = \frac{3.14159}{3} (1.1875)^2 (7)</mrow>
+                <mrow> &amp; \approx \frac{3.14159}{3} (1.1875)^2 (7)</mrow>
                 <mrow> &amp; \approx 10.33697647.</mrow>
             </md>.
             The volume of the half sphere is
             <md>
                 <mrow>V_s &amp; = \frac{1}{2} \cdot \frac{4}{3} \pi (1.1875)^3</mrow>
-                <mrow> &amp; = \frac{2}{3}(3.14159)(1.1875)^3</mrow>
+                <mrow> &amp; \approx \frac{2}{3}(3.14159)(1.1875)^3</mrow>
                 <mrow> &amp; \approx 3.507188445.</mrow>
             </md>
-            Thus the total volume of the ice cream is <m>10.33697647+3.507188445 \approx 13.84416492 \approx 13.8</m>.</p></solution>
+            Thus the total volume of the ice cream is <m>10.33697647+3.507188445 \approx 13.84416492 \approx 14</m> cubic inches.</p></solution>
         </task>
         <task>
             <statement><p>What is the surface area of the ice cream? Note the greater the area the faster it melts.</p></statement>
             <solution><p>This is a right circular cone with a half sphere on top. The surface area of the cone is
             <md>
                 <mrow>A_c &amp; = \pi(1.1875)\sqrt{6^2+(1.1875)^2}</mrow>
-                <mrow> &amp; = (3.14159)(1.1875)\sqrt{6^2+(1.1875)^2}</mrow>
+                <mrow> &amp; \approx (3.14159)(1.1875)\sqrt{6^2+(1.1875)^2}</mrow>
                 <mrow> &amp; \approx (3.14159)(1.1875)\sqrt{37.410156}</mrow>
                 <mrow> &amp; \approx (3.14159) (1.1875) (6.116384)</mrow>
                 <mrow> &amp; \approx 22.81801626.</mrow>
             </md>
-            The surface area of the half sphere is <m>\frac{1}{2} \cdot 4 \pi (1.1875)^2 \approx 8.860265547</m>. Thus the total surface area of the ice cream is <m>22.81801626+8.860265547 \approx 31.67828181 \approx 31.7</m> cubic inches.</p></solution>
+            The surface area of the half sphere is <m>\frac{1}{2} \cdot 4 \pi (1.1875)^2 \approx 8.860265547</m>. Thus the total surface area of the ice cream is <m>22.81801626+8.860265547 \approx 31.67828181 \approx 32</m> square inches.</p></solution>
         </task>
     </example>
 
