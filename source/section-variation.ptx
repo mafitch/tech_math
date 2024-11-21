@@ -111,8 +111,11 @@
 
         <p>Review the data in the table below. First, notice that <m>a</m> decreases as <m>n</m> increases which means <m>a</m> varies inversely with <m>n</m>. Second, note that the data is exponential with a ratio of <m>1/2</m>. All exponential models that are decreasing have this property. </p>
         <tabular>
-            <row><cell><m>n</m></cell> <cell><m>a=\frac{1}{2^n}</m></cell> <cell>Ratio</cell> </row>
-            <row><cell>1</cell> <cell>1/2</cell> </row>
+            <col halign="center" right="medium" width="10%" />
+            <col halign="center" right="medium" width="20%" />
+            <col halign="center" width="15%" />
+            <row bottom="medium"><cell><m>n</m></cell> <cell><m>a=\frac{1}{2^n}</m></cell> <cell>Ratio</cell> </row>
+            <row><cell>1</cell> <cell>1/2</cell> <cell></cell> </row>
             <row><cell>2</cell> <cell>1/4</cell> <cell>1/2</cell> </row>
             <row><cell>3</cell> <cell>1/8</cell> <cell>1/2</cell> </row>
             <row><cell>4</cell> <cell>1/16</cell> <cell>1/2</cell> </row>
@@ -139,22 +142,21 @@
     </fact>
 
     <example xml:id="pressure-footprint">
-        <p>Walking on snow (or mud) is difficult because our feet tend to puncture the snow. We can use snowshoes to avoid this problem. The reduction in pressure is the reason snowshoes work.</p>
+        <p>Walking on snow (or mud) is difficult because our feet tend to puncture the snow. We can use snowshoes to avoid this problem. The reduction in pressure is the reason snowshoes work. This is a science model with measurements, we will round using significant digits.</p>
         <p>Suppose Guido weighs 172 lbs. Each foot has an area of <quantity><mag>22</mag><unit base="inch" exp="2" /></quantity>. The pressure he exerts on the snow is
         <md>
             <mrow>P &amp; = \frac{172 \text{ lbs}}{2 \cdot 22 \text{ in}^2}</mrow>
             <mrow> &amp; = \frac{172 \text{ lbs}}{44 \text{ in}^2}</mrow>
-            <mrow> &amp; = 3.9 \text{ lbs}/\text{in}^2</mrow>
-            <mrow> &amp; = 3.9 \text{psi}.</mrow>
+            <mrow> &amp; \approx 3.909090 \text{ lbs}/\text{in}^2</mrow>
+            <mrow> &amp; \approx 3.9 \text{ psi}.</mrow>
         </md>
         If he wears snowshoes that have a surface area of <quantity><mag>144</mag><unit base="inch" exp="2" /></quantity>, what is the pressure?
         <md>
             <mrow>P &amp; = \frac{172 \text{ lbs}}{2 \cdot 144 \text{ in}^2}</mrow>
             <mrow> &amp; = \frac{172 \text{ lbs}}{288 \text{ in}^2}</mrow>
-            <mrow> &amp; = 1.19 \text{ lbs}/\text{in}^2</mrow>
-            <mrow> &amp; = 1.19 \text{psi}.</mrow>
-        </md>
-        Note because this is a science model, we use significant digits for rounding.</p>
+            <mrow> &amp; \approx 0.597222 \text{ lbs}/\text{in}^2</mrow>
+            <mrow> &amp; \approx 0.60 \text{ psi}.</mrow>
+        </md></p>
     </example>
 
     <p>The next example illustrates how we can construct another model when we are interested in only some of the variables.</p>
@@ -171,13 +173,13 @@
     </fact>
 
     <example xml:id="example-hydraulic-calculate">
-        <p>If the left piston has area <m>16 \text{ cm}^2</m>, and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <m>25 \text{ cm}^2</m>?</p>
+        <p>If the left piston has area <m>16 \text{ cm}^2</m>, and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <m>25 \text{ cm}^2</m>? This is a science model with measurements; we will round using significant digits.</p>
         <p>Notice this is a proportion problem. We can use the relationship
             <md>
-                <mrow>\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{25 \text{ cm}^2}{F_2}.</mrow>
-                <mrow>(16 \text{ cm}^2)F_2 \amp = (25 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}</mrow>
-                <mrow>\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(25 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. </mrow>
-                <mrow>F_2 \amp \approx 7.8 \text{ N}.</mrow>
+                <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \amp = \frac{F_2}{25 \text{ cm}^2}.</mrow>
+                <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \cdot (25 \text{ cm}^2) \amp = F_2.</mrow>
+                <mrow>7.8125 \amp = F_2.</mrow>
+                <mrow>7.8 \text{ N} \amp \approx F_2.</mrow>
             </md></p>
     </example>
 
@@ -187,10 +189,10 @@
         <statement><p>If the second piston's area is changed from <m>25 \text{ cm}^2</m> to <m>36 \text{ cm}^2</m>, what is the increase or decrease in force?</p></statement>
         <solution><p>First we setup the same problem as in <xref ref="example-hydraulic-calculate" />
             <md>
-                <mrow>\frac{16 \text{ cm}^2}{5.0 \text{ N}} \amp = \frac{36 \text{ cm}^2}{F_2}.</mrow>
-                <mrow>(16 \text{ cm}^2)F_2 \amp = (36 \text{ cm}^2)(5.0 \text{ N}). \amp \text{ Eliminating the denominators.}</mrow>
-                <mrow>\frac{(16 \text{ cm}^2)F_2}{(16 \text{ cm}^2)} \amp = \frac{(36 \text{ cm}^2)(5.0 \text{ N})}{(16 \text{ cm}^2)}. </mrow>
-                <mrow>F_2 \amp \approx 11 \text{ N}.</mrow>
+                <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \amp = \frac{F_2}{36 \text{ cm}^2}.</mrow>
+                <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \cdot (36 \text{ cm}^2) \amp = F_2.</mrow>
+                <mrow>11.25 \amp = F_2.</mrow>
+                <mrow>11 \text{ N} \amp \approx F_2.</mrow>
             </md></p>
             <p>The piston is larger and the force is also larger. Thus we know that force and area vary directly. Note the equation also shows us that they increase linearly, because all terms are linear. In particular <m>F_2 = A_2 \left(\frac{F_1}{A_1}\right)</m> is in the form of a line with ratio <m>F_1/A_1</m> and no shift.</p>
         </solution>
@@ -211,14 +213,14 @@
             <p>We can write
             <md>
                 <mrow>I_1 R_1 \amp = I_2 R_2</mrow>
-                <mrow>(3 \text{ amps})(8 \Omega) \amp I_2(6 \Omega)</mrow>
-                <mrow>\frac{(3 \text{ amps})(8 \Omega)}{6 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}</mrow>
+                <mrow>(3 \text{ amps})(8 \Omega) \amp = I_2(6 \Omega)</mrow>
+                <mrow>\frac{(3 \text{ amps})(8 \Omega)}{6 \Omega} \amp = I_2</mrow>
                 <mrow>4 \text{ amps} \amp = I_2.</mrow>
             </md>
             The second case can be written
             <md>
-                <mrow>(3 \text{ amps})(8 \Omega) \amp I_2(4 \Omega)</mrow>
-                <mrow>\frac{(3 \text{ amps})(8 \Omega)}{4 \Omega} \amp I_2 \amp \text{ Eliminating the denominator on the right}</mrow>
+                <mrow>(3 \text{ amps})(8 \Omega) \amp = I_2(4 \Omega)</mrow>
+                <mrow>\frac{(3 \text{ amps})(8 \Omega)}{4 \Omega} \amp = I_2</mrow>
                 <mrow>6 \text{ amps} \amp = I_2.</mrow>
             </md></p>
             <p>Notice as the resistance decreased, the current increased. Current varies inversely with resistance.</p>

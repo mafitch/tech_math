@@ -38,16 +38,16 @@
     </fact>
 
     <example xml:id="example-rational-calculate-number-teeth">
-        <p>Suppose we know the outer diameter (17/8") and pitch diameter (2") needed for a gear. What are the steps to solve for the number of teeth?</p>
-        <p>Using the model we obtain
+        <p>Suppose we know the outer diameter (17/8") and pitch diameter (2") needed for a gear. What are the steps to solve for the number of teeth? The number of teeth must end up an integer (half a gear tooth is just a broken gear). Thus there will be no rounding. If the calculation gives a non-integer result, we must change something in the design.</p>
+        <p>Converting <m>17/8=2.125</m> and using the model we obtain
             <md>
                 <mrow>D_p &amp; = \frac{D_o N}{N+2}.</mrow>
                 <mrow>2 \text{ in} &amp; = \frac{2.125 \text{ in} \cdot N}{N+2}.</mrow>
-                <mrow>2 \text{ in} \cdot (N+2) &amp; = \frac{2.125 \text{ in} \cdot N}{N+2} \cdot (N+2) &amp; \text{ Clear the denominator}.</mrow>
+                <mrow>2 \text{ in} \cdot (N+2) &amp; = \frac{2.125 \text{ in} \cdot N}{N+2} \cdot (N+2) &amp; &amp; \text{Clear the denominator}.</mrow>
                 <mrow>2 \text{ in} \cdot N + 4 \text{ in} &amp; = 2.125 \text{ in} \cdot N</mrow>
-                <mrow>-(2 \text{ in} \cdot N) +2 \text{ in} \cdot N + 4 \text{ in} &amp; = -(2 \text{ in} \cdot N) + 2.125 \text{ in} \cdot N &amp; \text{ Collect on one side.}</mrow>
+                <mrow>-(2 \text{ in} \cdot N) +2 \text{ in} \cdot N + 4 \text{ in} &amp; = -(2 \text{ in} \cdot N) + 2.125 \text{ in} \cdot N &amp; &amp; \text{Collect on one side.}</mrow>
                 <mrow>4 \text{ in} &amp; = 0.125 \text{ in} \cdot N</mrow>
-                <mrow>\frac{4 \text{ in}}{0.125 \text{ in}} &amp; = \frac{0.125 \text{ in} \cdot N}{0.125 \text{ in}} &amp; \text{Divide to solve}</mrow>
+                <mrow>\frac{4 \text{ in}}{0.125 \text{ in}} &amp; = \frac{0.125 \text{ in} \cdot N}{0.125 \text{ in}} &amp; &amp; \text{Divide to solve}</mrow>
                 <mrow>32 &amp; = N.</mrow>
             </md>
         Thus this gear will have 32 teeth (total).</p>
@@ -78,22 +78,19 @@
     <p>A problem with similar algebra is the <xref ref="model-ideal-gas-law" /> when we are solving for temperature. The next example illustrates the necessary algebra.</p>
 
     <example xml:id="example-rational-gas-law-temperature">
-        <p>Suppose the conditions for a tire are <m>P_1=3\bar{0}</m> psi at a temperature of <m>T=52^\circ</m> F. At what temperature will the pressure drop below the safe value of 28 psi?</p>
+        <p>Suppose the conditions for a tire are <m>P_1=3\bar{0}</m> psi at a temperature of <m>T=52^\circ</m> F. At what temperature will the pressure drop below the safe value of 28 psi? Because our gauges are not more accurate we will round to units.</p>
         <p>We can use the ideal gas law version below. Note that the volume does not change (the tire size does not change).
             <md>
-                <mrow>\frac{P_1 V_1}{T_1+46\bar{0}^\circ} &amp; = \frac{P_2 V_2}{T_2+46\bar{0}^\circ}</mrow>
-                <mrow>\frac{3\bar{0} \text{ psi} V_1}{52^\circ+46\bar{0}^\circ} &amp; = \frac{28 \text{ psi} V_1}{T_2+46\bar{0}^\circ}</mrow>
-                <mrow>\frac{3\bar{0} \text{ psi} V_1}{512^\circ} \cdot \frac{1}{V_1} &amp; = \frac{28 \text{ psi} V_1}{T_2+46\bar{0}^\circ} \cdot \frac{1}{V_1}</mrow>
-                <mrow>\frac{3\bar{0} \text{ psi}}{512^\circ} &amp; = \frac{28 \text{ psi}}{T_2+46\bar{0}^\circ}</mrow>
-                <mrow>\frac{3\bar{0} \text{ psi}}{512^\circ} &amp; = \frac{28 \text{ psi}}{T_2+46\bar{0}^\circ}</mrow>
-                <mrow>\frac{3\bar{0} \text{ psi}}{512^\circ} \cdot (T_2+46\bar{0}^\circ) &amp; = \frac{28 \text{ psi}}{T_2+46\bar{0}} \cdot (T_2+46\bar{0}^\circ)</mrow>
-                <mrow>\frac{3\bar{0} \text{ psi}}{512^\circ} \cdot (T_2+46\bar{0}^\circ) &amp; = 28 \text{ psi}</mrow>
-                <mrow>(0.05859375 \text{ psi}/(1^\circ))(T_2+46\bar{0}^\circ) &amp; = 28 \text{ psi}</mrow>
-                <mrow>(0.05859375 \text{ psi}/(1^\circ))T_2+26.953125 \text{ psi} &amp; = 28 \text{ psi}</mrow>
-                <mrow>(0.05859375 \text{ psi}/(1^\circ))T_2+26.953125 -26.953125 \text{ psi} &amp; = 28-26.953125 \text{ psi}</mrow>
-                <mrow>(0.05859375 \text{ psi}/(1^\circ))T_2 &amp; = 1.046875 \text{ psi} </mrow>
-                <mrow>\frac{(0.05859375 \text{ psi}/(1^\circ))T_2}{(0.05859375 \text{ psi}/(1^\circ)} &amp; = \frac{1.046875 \text{ psi}}{0.05859375 \text{ psi}/(1^\circ)} </mrow>
-                <mrow>T_2 &amp; = 17.8666666^\circ.</mrow>
+                <mrow>\frac{P_1 V_1}{T_1+460^\circ} &amp; = \frac{P_2 V_2}{T_2+460^\circ}</mrow>
+                <mrow>\frac{(30 \text{ psi}) V_1}{52^\circ+460^\circ} &amp; = \frac{(28 \text{ psi}) V_1}{T_2+460^\circ} &amp; &amp; \text{Because the volume does not change}</mrow>
+                <mrow>\frac{(30 \text{ psi}) V_1}{512^\circ} \cdot \frac{1}{V_1} &amp; = \frac{(28 \text{ psi}) V_1}{T_2+460^\circ} \cdot \frac{1}{V_1}</mrow>
+                <mrow>\frac{30 \text{ psi}}{512^\circ} &amp; = \frac{28 \text{ psi}}{T_2+460^\circ}</mrow>
+                <mrow>\frac{512^\circ}{30 \text{ psi}} &amp; = \frac{T_2+460^\circ}{28 \text{ psi}}</mrow>
+                <mrow>\frac{512^\circ}{30 \text{ psi}} \cdot (28 \text{ psi}) &amp; = T_2+460^\circ</mrow>
+                <mrow>477.866667^\circ &amp; \approx T_2+460^\circ</mrow>
+                <mrow>477.866667^\circ-460^\circ &amp; = T_2</mrow>
+                <mrow>17.8666666^\circ &amp; \approx T_2.</mrow>
+                <mrow>18^\circ &amp; \approx T_2.</mrow>
             </md>
         </p>
     </example>
@@ -122,11 +119,11 @@
         <p><md>
             <mrow>\frac{1}{R} &amp; = \frac{1}{R_1} + \frac{1}{R_2}. </mrow>
             <mrow>\frac{1}{R} &amp; = \frac{1}{4} + \frac{1}{12}. </mrow>
-            <mrow>\frac{1}{R} &amp; = \frac{3}{3} \cdot \frac{1}{4} + \frac{1}{12}. </mrow>
+            <mrow>\frac{1}{R} &amp; = \frac{3}{3} \cdot \frac{1}{4} + \frac{1}{12}. \text{ Common denominator}</mrow>
             <mrow>\frac{1}{R} &amp; = \frac{3}{12} + \frac{1}{12}. </mrow>
             <mrow>\frac{1}{R} &amp; = \frac{4}{12} </mrow>
             <mrow> &amp; = \frac{1}{3}.</mrow>
-            <mrow>\frac{1}{R} \cdot 3R &amp; = \frac{1}{3} \cdot 3R </mrow>
+            <mrow>\frac{1}{R} \cdot 3R &amp; = \frac{1}{3} \cdot 3R \text{ Clear both denominators}</mrow>
             <mrow>3 &amp; = R. </mrow>
         </md> Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., <sq>cross multiplication</sq>).</p>
     </example>
@@ -135,18 +132,18 @@
         <title>Parallel Resistance Solving</title>
 
         <p>In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.</p>
-        <p>If we need a 5.0 Ohm resistance and have an 8.0 Ohm resistor already, what do we add as the second resistor? Due to common accuracy of resistor measurement we can use two significant digits.</p>
+        <p>If we need a 5 Ohm resistance and have an 8 Ohm resistor already, what do we add as the second resistor? Resistor measurements are commonly accurate to <plusminus/>5%. For this problem that allows us to round to units. This is because 5% of 5 is much less than one.</p>
         <p><md>
             <mrow>\frac{1}{R} &amp; = \frac{1}{R_1} + \frac{1}{R_2}. </mrow>
-            <mrow>\frac{1}{5.0} &amp; = \frac{1}{8.0} + \frac{1}{R_2}. </mrow>
-            <mrow>\frac{1}{5.0} - \frac{1}{8.0} &amp; = \frac{1}{R_2}. </mrow>
-            <mrow>\frac{8.0}{8.0} \cdot \frac{1}{5.0} - \frac{5.0}{5.0} \cdot \frac{1}{8.0} &amp; = \frac{1}{R_2}. </mrow>
-            <mrow>\frac{8.0}{4\bar{0}} - \frac{5}{4\bar{0}} &amp; = \frac{1}{R_2}. </mrow>
-            <mrow>\frac{3.0}{4\bar{0}} &amp; = \frac{1}{R_2}. </mrow>
-            <mrow>R_2 \cdot \frac{4\bar{0}}{3.0} \cdot \frac{3.0}{4\bar{0}} &amp; = R_2 \cdot \frac{4\bar{0}}{3.0} \cdot \frac{1}{R_2}. </mrow>
-            <mrow>R_2 &amp; = \frac{4\bar{0}}{3.0} </mrow>
+            <mrow>\frac{1}{5} &amp; = \frac{1}{8} + \frac{1}{R_2}. </mrow>
+            <mrow>\frac{1}{5} - \frac{1}{8} &amp; = \frac{1}{R_2}. </mrow>
+            <mrow>0.2 - 0.125 &amp; = \frac{1}{R_2}</mrow>
+            <mrow>0.075 &amp; = \frac{1}{R_2}</mrow>
+            <mrow>0.075 R_2 &amp; = 1 </mrow>
+            <mrow>R_2 &amp; = \frac{1}{0.075} </mrow>
+            <mrow> &amp; \approx 13.333333</mrow>
             <mrow> &amp; \approx 13.</mrow>
-        </md> Note the need for a common denominator in the fourth line. The final step is once again clearing of denominators (i.e., <sq>cross multiplication</sq>).</p>
+        </md> </p>
     </example>
 
     <figure xml:id="figure-video-parallel-resistance">
@@ -181,21 +178,22 @@
     <example xml:id="example-joint-work1">
         <title>Joint Work: Draining Basement</title>
 
-        <p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4.0 hours, whereas the other pump can do the job in only 3.0 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p>
-        <p>The question is how to find the speed of the combined pumps. Adding a pump would increase the speed; we want to find a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4.0 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3.0 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
+        <p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p>
+        <p>The question is how to find the speed of the combined pumps. Adding a pump would increase the speed; we want to find a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
         <md>
-            <mrow>\frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = &amp; \text{ Obtain a common denominator}</mrow>
-            <mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = &amp; \text{ Scaling accomplishes this}</mrow>
-            <mrow>\frac{3 \text{ basement}}{12.0 \text{ hours}} + \frac{4 \text{ basement}}{12.0 \text{ hours}} &amp; = \frac{7 \text{ basement}}{12.0 \text{ hours}}</mrow>
-        </md>. Notice in the last line that we have converted the rates from being the same number of basements to the same number of hours. We converted rates to a form that was easier to use.</p>
-        <p>The next step is to use this rate to determine how long it takes to empty one basement. This means scaling this rate from 7 basements per 12 hours to 1 basement per N hours which is a proportion.
+            <mrow>\frac{1 \text{ basement}}{4 \text{ hours}} + \frac{1 \text{ basement}}{3 \text{ hours}} &amp; = \text{ Need a common denominator}</mrow>
+            <mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3 \text{ hours}} &amp; = \text{ Scaling accomplishes this}</mrow>
+            <mrow>\frac{3 \text{ basement}}{12 \text{ hours}} + \frac{4 \text{ basement}}{12 \text{ hours}} &amp; = \frac{7 \text{ basement}}{12 \text{ hours}}</mrow>
+        </md>. We did not convert to decimal notation, because we will be setting up a proportion, so we want the rate in fraction form.</p>
+        <p>The next step is to use this rate to determine how long it takes to empty one basement. This is setting up a proportion.
             <md>
-                <mrow>\frac{7 \text{ basement}}{12.0 \text{ hours}} &amp; = \frac{1 \text{ basement}}{N \text{ hours}}.</mrow>
-                <mrow>\frac{12.0 \text{ hours}}{7 \text{ basement}} &amp; = \frac{N \text{ hours}}{1 \text{ basement}}. &amp; \text{ Upsidedown ratios are still equal.}</mrow>
-                <mrow>\frac{12.0 \text{ hours}}{7 \text{ basement}} \cdot (1 \text{ basement}) &amp; = \frac{N \text{ hours}}{1 \text{ basement}} \cdot (1 \text{ basement}). </mrow>
+                <mrow>\frac{7 \text{ basement}}{12 \text{ hours}} &amp; = \frac{1 \text{ basement}}{N \text{ hours}}.</mrow>
+                <mrow>\frac{12 \text{ hours}}{7 \text{ basement}} &amp; = \frac{N \text{ hours}}{1 \text{ basement}}.</mrow>
+                <mrow>\frac{12 \text{ hours}}{7 \text{ basement}} \cdot (1 \text{ basement}) &amp; = \frac{N \text{ hours}}{1 \text{ basement}} \cdot (1 \text{ basement}). </mrow>
                 <mrow>1.714285714 \text{ hours} &amp; \approx N.</mrow>
-            </md> Given this is in hours it makes sense to round to the hundreds (a little less than a minute). Because it is how long it will take it makes sense to round up. We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).</p>
-        <p>Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.72 \text{ hours}}</me>. Thus if both pumps are working it will take 1.72 hours drain the basement.</p>
+                <mrow>1.72 \text{ hours} &amp; \approx N.</mrow>
+            </md> Given this is in hours it makes sense to round to the hundreds (a little less than a minute). Because it is how long it will take it makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).</p>
+        <p>Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12 \text{ hours}} = \frac{1 \text{ basement}}{1.72 \text{ hours}}</me>. Thus if both pumps are working it will take 1.72 hours drain the basement.</p>
         <p>The increase in speed, results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).</p>
     </example>
 
@@ -205,18 +203,19 @@
         <p>Because the question asks us to determine combined speed, we recognize this as a <q>joint work</q> problem. Looking at <xref ref="example-joint-work1" /> we see that the first step was to write down the two rates. <m>\frac{1 \text{ room}}{11 \text{ minutes}}</m> and <m>\frac{1 \text{ room}}{13 \text{ minutes}}</m>.</p>
         <p>After writing the rates, we realize we need to add the rates.
             <md>
-                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}}+\frac{1 \text{ room}}{13 \text{ minutes}} &amp; = &amp; \text{common denominator needed} </mrow>
-                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}} \cdot \frac{13}{13} +\frac{1 \text{ room}}{13 \text{ minutes}} \cdot \frac{11}{11} &amp; = &amp; \text{this scales the rates}</mrow>
-                <mrow>\frac{13 \text{ rooms}}{143 \text{ minutes}}+\frac{11 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{24 \text{room}}{143 \text{ minutes}}.</mrow>
+                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}}+\frac{1 \text{ room}}{13 \text{ minutes}} &amp; = \text{Need a common denominator} </mrow>
+                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}} \cdot \frac{13}{13} +\frac{1 \text{ room}}{13 \text{ minutes}} \cdot \frac{11}{11} &amp; = \text{this scales the rates}</mrow>
+                <mrow>\frac{13 \text{ rooms}}{143 \text{ minutes}}+\frac{11 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{24 \text{ rooms}}{143 \text{ minutes}}.</mrow>
             </md></p>
         <p>After calculating the rate, the next step was setting up the proportion. In this case we want to find the time to clean 27 rooms.
             <md>
-                <mrow>\frac{24 \text{room}}{143 \text{ minutes}} &amp; = \frac{27 \text{ rooms}}{N \text{ minutes}}.</mrow>
+                <mrow>\frac{24 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{27 \text{ rooms}}{N \text{ minutes}}.</mrow>
                 <mrow>\frac{143 \text{ minutes}}{24 \text{room}} &amp; = \frac{N \text{ minutes}}{27 \text{ rooms}}.</mrow>
                 <mrow>\frac{143 \text{ minutes}}{24 \text{ rooms}} \cdot (27 \text{ rooms}) &amp; = \frac{N \text{ minutes}}{27 \text{ rooms}} \cdot (27 \text{ rooms}).</mrow>
                 <mrow>140.875 \text{ minutes} &amp; = N.</mrow>
+                <mrow>141 \text{ minutes} &amp; \approx N.</mrow>
             </md>
-        Because this is about the time required to complete a task it makes sense to round up to 141 minutes.</p>
+        Because this is about the time required to complete a task it makes sense to round up.</p>
     </example>
 
     <exercise>
@@ -236,5 +235,67 @@
     </exercise>
 
 </subsection>
+
+<exercises>
+    <exercise>
+        <myopenmath problem="897571" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="1330593" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="791975" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="897575" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="791998" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="897580" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="897602" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="898915" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="898918" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="898924" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="793783" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="793787" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="793792" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="793803" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="880475" />
+    </exercise>
+</exercises>
 
 </section>

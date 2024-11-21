@@ -79,14 +79,14 @@
         <title>Interpolation in a Table</title>
         <p>What is the stall speed in a 15<degree/> bank angle with flaps in the Approach setting?</p>
         <p>First, we note that there is no column for 15<degree/> bank angle. However we have 0<degree/> and 30<degree/>. 15<degree/> is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.</p>
-        <p>The two stall speeds are 43 and 46. The number in between (the average) is <m>(43+46)/2=44.5</m>. When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</p>
+        <p>The two stall speeds are 43 and 46. The number in between (the average) is <m>(43+46)/2=44.5</m>. Airspeed is reported only to units, so we must round to units. For stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</p>
     </example>
 
     <example xml:id="example-table-read-interpolate-third">
         <p>When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.</p>
         <p>What is the stall speed with 10<degree/> bank angle with flaps in the Up setting?</p>
         <p>The nearest entries in the table are 0<degree/> and 30<degree/>. We need to figure out what percent 10 is between 0 and 30. We can use that to find the matching number between the table entries (48 and 52). Percent is part/whole which in this case is <me>\frac{10}{30-0} = \frac{10}{30} = \frac{1}{3}</me>. We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.</p>
-        <p>We want the speed that is 1/3 of the way between 48 and 52. Again we treat this as a percent problem. We want percent times the whole to calculate the part. <me>\frac{1}{3} \cdot (52-48) = \frac{4}{3}.</me> This result is how far above 48, so the speed is <me>48+4/3 \approx 49.3 \approx 50.</me> We round up for safety.</p>
+        <p>We want the speed that is 1/3 of the way between 48 and 52. Again we treat this as a percent problem. We want percent times the whole to calculate the part. <me>\frac{1}{3} \cdot (52-48) = \frac{4}{3}.</me> This result is how far above 48, so the speed is <me>48+4/3 \approx 49.3 \approx 50.</me> Again we round up for safety.</p>
         <p>Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.</p>
     </example>
 
@@ -353,7 +353,7 @@
 
     <p>We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines if we have the equation and presents analyzing linear models based on their graphs.</p>
 
-    <p>As described in <xref ref="subsection-present-linear"/> a linear equation (model) has two parts: <m>\frac{a}{b}</m> and <m>+c</m>. First, we address the role of the ratio in the graph.</p>
+    <p>As described in <xref ref="subsection-present-linear"/> a linear equation (model) has two parts: the ratio (slope, rate) <m>m</m> and the shift <m>+b</m>. First, we address the role of the ratio in the graph.</p>
 
     <definition xml:id="definition-slope">
         <title>Slope</title>
@@ -370,18 +370,18 @@
         <title>Calculate Slope</title>
 
         <statement><p>The graph in <xref ref="figure-graph-slope" /> is linear. We will calculate the slope twice.</p></statement>
-        <solution><p>First, we will use the points <m>(400\bar{0},25.92)</m> and <m>(200\bar{0},27.92)</m>.
+        <solution><p>First, we will use the points <m>(4000,25.92)</m> and <m>(2000,27.92)</m>.
             <md>
-                <mrow>\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{25.92-27.92}{400\bar{0}-200\bar{0}}</mrow>
-                <mrow> &amp; = \frac{-2.00}{200\bar{0}}</mrow>
-                <mrow> &amp; = -\frac{1.00}{100\bar{0}}.</mrow>
+                <mrow>\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{25.92-27.92 \text{ inHg}}{4000-2000 \text{ ft}}</mrow>
+                <mrow> &amp; = \frac{-2.00 \text{ inHg}}{2000 \text{ ft}}</mrow>
+                <mrow> &amp; = -\frac{1.00 \text{ inHg}}{1000 \text{ ft}}.</mrow>
             </md>
             This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of <m>100\bar{0}</m> feet above mean sea level.</p></solution>
-        <solution><p>We will use the points <m>(800\bar{0},21.92)</m> and <m>(400\bar{0},25.92)</m>.
+        <solution><p>We will use the points <m>(8000,21.92)</m> and <m>(4000,25.92)</m>.
             <md>
-                <mrow>\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{21.92-25.92}{800\bar{0}-400\bar{0}}</mrow>
-                <mrow> &amp; = \frac{-4.00}{400\bar{0}}</mrow>
-                <mrow> &amp; = -\frac{1.00}{100\bar{0}}.</mrow>
+                <mrow>\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{21.92-25.92 \text{ inHg}}{8000-4000 \text{ ft}}</mrow>
+                <mrow> &amp; = \frac{-4.00 \text{ inHg}}{4000 \text{ ft}}</mrow>
+                <mrow> &amp; = -\frac{1.00 \text{ inHg}}{1000 \text{ ft}}.</mrow>
             </md>
             As expected this is the same slope, because on a line the rate of change (slope) is constant.</p></solution>
     </example>
@@ -391,7 +391,7 @@
         <image source="images/line-slope" />
     </figure>
 
-    <p>To write the equation for a line we need the shift <m>+c</m> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>c</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m> because in the linear form <m>y=mx+c</m> we have <m>y=m \cdot 0 + c = c</m>, so the <m>y</m> coordinate at <m>x=0</m> is the shift.</p>
+    <p>To write the equation for a line we need the shift <m>+b</m> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m> because in the linear form <m>y=mx+b</m> we have <m>y=m \cdot 0 + b = b</m>, so the <m>y</m> coordinate at <m>x=0</m> is the shift which is why it is often called the y-intercept.</p>
 
     <example xml:id="example-calculate-shift">
         <title>Calculate Shift</title>
@@ -400,13 +400,13 @@
             <p>The graph in <xref ref="figure-graph-slope" /> is linear. We will calculate the shift.</p></statement>
         <solution>
             <p>The shift can be read when <m>x=0</m>. That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.</p>
-            <p>We will use <m>(200\bar{0},27.92)</m> to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up
+            <p>We will use <m>(2000,27.92)</m> to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up
                 <md>
-                    <mrow>\frac{1.00 \text{ inHg}}{100\bar{0} \text{ ft}} &amp; = \frac{d \text{ inHg}}{200\bar{0} \text{ ft}}.</mrow>
-                    <mrow>\frac{1.00 \text{ inHg}}{100\bar{0} \text{ ft}} \cdot 200\bar{0} \text{ ft} &amp; = \frac{d \text{ inHg}}{200\bar{0} \text{ ft}} \cdot 200\bar{0} \text{ ft}.</mrow>
+                    <mrow>\frac{1.00 \text{ inHg}}{1000 \text{ ft}} &amp; = \frac{d \text{ inHg}}{2000 \text{ ft}}.</mrow>
+                    <mrow>\frac{1.00 \text{ inHg}}{1000 \text{ ft}} \cdot 200\bar{0} \text{ ft} &amp; = \frac{d \text{ inHg}}{2000 \text{ ft}} \cdot 2000 \text{ ft}.</mrow>
                     <mrow>2.00 \text{ inHg} &amp; = d.</mrow>
                 </md>
-            Thus the pressure should increase by 2.00 inHg giving us <m>P=27.92+2=29.92</m>. Thus the point is <m>(0.00, 29.92)</m> and the shift is <m>c=29.92</m>.</p>
+            Thus the pressure should increase by 2.00 inHg giving us <m>P=27.92+2.00=29.92</m>. Thus the point is <m>(0.00, 29.92)</m> and the shift is <m>b=29.92</m>.</p>
             <p>Combining this shift with the slope from the example above the model is <me>P=29.92-\frac{1}{1000}A.</me>
             <ul>
                 <li><m>P</m> is the pressure at altitude <m>A</m>.</li>

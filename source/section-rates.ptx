@@ -27,16 +27,16 @@
     <table xml:id="table-differences-exponential-tien" >
         <title>Tien's Salary</title>
 
-        <tabular>
-            <row><cell>Year</cell> <cell>Salary</cell> <cell>Difference</cell> </row>
-            <row><cell>2017</cell> <cell>$52,429.33</cell> <cell></cell> </row>
-            <row><cell>2018</cell> <cell>$55,050.80</cell> <cell>$55,050.80-$52,429.33=$2,621.47</cell> </row>
-            <row><cell>2019</cell> <cell>$57,803.34</cell> <cell>$57,803.34-$55,050.80=$2,752.54</cell> </row>
-            <row><cell>2020</cell> <cell>$60,693.50</cell> <cell>$60,693.50-$57,803.34=$2,890.17</cell> </row>
-            <row><cell>2021</cell> <cell>$63,728.18</cell> <cell>$63,728.18-$60,693.50=$3,034.68</cell> </row>
-            <row><cell>2022</cell> <cell>$66,914.59</cell> <cell>$66,914.59-$63,728.18=$3,186.41</cell> </row>
-            <row><cell>2023</cell> <cell>$70,260.32</cell> <cell>$70,260.32-$66,914.59=$3,345.73</cell> </row>
-            <row><cell>2024</cell> <cell>$73,773.33</cell> <cell>$73,773.33-$70,260.32=$3,513.02</cell> </row>
+        <tabular top="medium">
+            <row left="medium" bottom="medium"><cell right="medium">Year</cell> <cell right="medium">Salary</cell> <cell right="medium">Difference</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2017</cell> <cell right="medium">$52,429.33</cell> <cell right="medium"></cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2018</cell> <cell right="medium">$55,050.80</cell> <cell right="medium">$55,050.80-$52,429.33=$2,621.47</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2019</cell> <cell right="medium">$57,803.34</cell> <cell right="medium">$57,803.34-$55,050.80=$2,752.54</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2020</cell> <cell right="medium">$60,693.50</cell> <cell right="medium">$60,693.50-$57,803.34=$2,890.17</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2021</cell> <cell right="medium">$63,728.18</cell> <cell right="medium">$63,728.18-$60,693.50=$3,034.68</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2022</cell> <cell right="medium">$66,914.59</cell> <cell right="medium">$66,914.59-$63,728.18=$3,186.41</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2023</cell> <cell right="medium">$70,260.32</cell> <cell right="medium">$70,260.32-$66,914.59=$3,345.73</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2024</cell> <cell right="medium">$73,773.33</cell> <cell right="medium">$73,773.33-$70,260.32=$3,513.02</cell> </row>
         </tabular>
     </table>
 
@@ -52,25 +52,25 @@
 
     <table xml:id="table-differences-lines2a">
         <title>Atmospheric Pressure Differences (2000 ft intervals)</title>
-        <tabular>
-            <row><cell>Altitude (ft MSL)</cell> <cell>Expected Pressure (inHg)</cell> <cell>Difference</cell> </row>
-            <row><cell>0</cell> <cell>29.92</cell> <cell></cell> </row>
-            <row><cell>2000</cell> <cell>27.92</cell> <cell>27.92-29.92=-2.00</cell> </row>
-            <row><cell>4000</cell> <cell>25.92</cell> <cell>25.92-27.92=-2.00</cell> </row>
-            <row><cell>6000</cell> <cell>23.92</cell> <cell>23.92-25.92=-2.00</cell> </row>
-            <row><cell>8000</cell> <cell>21.92</cell> <cell>21.92-23.92=-2.00</cell> </row>
+        <tabular top="medium">
+            <row left="medium" bottom="medium"><cell right="medium">Altitude (ft MSL)</cell> <cell right="medium">Expected Pressure (inHg)</cell> <cell right="medium">Difference</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">0</cell> <cell right="medium">29.92</cell> <cell right="medium"></cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2000</cell> <cell right="medium">27.92</cell> <cell right="medium">27.92-29.92=-2.00</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">4000</cell> <cell right="medium">25.92</cell> <cell right="medium">25.92-27.92=-2.00</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">6000</cell> <cell right="medium">23.92</cell> <cell right="medium">23.92-25.92=-2.00</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">8000</cell> <cell right="medium">21.92</cell> <cell right="medium">21.92-23.92=-2.00</cell> </row>
         </tabular>
     </table>
 
     <table xml:id="table-differences-lines2b">
         <title>Atmospheric Pressure Differences (1000 ft intervals)</title>
-        <tabular>
-            <row><cell>Altitude (ft MSL)</cell> <cell>Expected Pressure (inHg)</cell> <cell>Difference</cell> </row>
-            <row><cell>0</cell> <cell>29.92</cell> <cell></cell> </row>
-            <row><cell>1000</cell> <cell>28.92</cell> <cell>28.92-29.92=-1.00</cell> </row>
-            <row><cell>2000</cell> <cell>27.92</cell> <cell>27.92-28.92=-1.00</cell> </row>
-            <row><cell>3000</cell> <cell>26.92</cell> <cell>26.92-27.92=-1.00</cell> </row>
-            <row><cell>4000</cell> <cell>25.92</cell> <cell>25.92-26.92=-1.00</cell> </row>
+        <tabular top="medium">
+            <row left="medium" bottom="medium"><cell right="medium">Altitude (ft MSL)</cell> <cell right="medium">Expected Pressure (inHg)</cell> <cell right="medium">Difference</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">0</cell> <cell right="medium">29.92</cell> <cell right="medium"></cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">1000</cell> <cell right="medium">28.92</cell> <cell right="medium">28.92-29.92=-1.00</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2000</cell> <cell right="medium">27.92</cell> <cell right="medium">27.92-28.92=-1.00</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">3000</cell> <cell right="medium">26.92</cell> <cell right="medium">26.92-27.92=-1.00</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">4000</cell> <cell right="medium">25.92</cell> <cell right="medium">25.92-26.92=-1.00</cell> </row>
         </tabular>
     </table>
 
@@ -84,12 +84,12 @@
     <table xml:id="table-line-differences">
         <title>Differences for Lines</title>
         <tabular>
-            <row><cell><m>x</m></cell> <cell><m>y</m></cell> <cell>Difference</cell></row>
-            <row><cell><m>0</m></cell> <cell><m>2</m></cell> <cell></cell></row>
-            <row><cell><m>1</m></cell> <cell><m>5</m></cell> <cell>5-2=3</cell></row>
-            <row><cell><m>2</m></cell> <cell><m>8</m></cell> <cell>8-5=3</cell></row>
-            <row><cell><m>3</m></cell> <cell><m>11</m></cell> <cell>11-8=3</cell></row>
-            <row><cell><m>4</m></cell> <cell><m>14</m></cell> <cell>14-11=3</cell></row>
+            <row bottom="medium"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>y</m></cell> <cell>Difference</cell></row>
+            <row><cell right="medium"><m>0</m></cell> <cell right="medium"><m>2</m></cell> <cell></cell></row>
+            <row><cell right="medium"><m>1</m></cell> <cell right="medium"><m>5</m></cell> <cell>5-2=3</cell></row>
+            <row><cell right="medium"><m>2</m></cell> <cell right="medium"><m>8</m></cell> <cell>8-5=3</cell></row>
+            <row><cell right="medium"><m>3</m></cell> <cell right="medium"><m>11</m></cell> <cell>11-8=3</cell></row>
+            <row><cell right="medium"><m>4</m></cell> <cell right="medium"><m>14</m></cell> <cell>14-11=3</cell></row>
         </tabular>
     </table>
 
@@ -108,13 +108,13 @@
         <title>Quadratic Data</title>
 
         <tabular>
-            <row><cell><m>n</m></cell> <cell><m>n^2</m></cell> <cell>1st difference</cell> <cell>2nd difference</cell> </row>
-            <row><cell>1</cell> <cell>1</cell> </row>
-            <row><cell>2</cell> <cell>4</cell> <cell>4-1=3</cell> </row>
-            <row><cell>3</cell> <cell>9</cell> <cell>9-4=5</cell> <cell>5-3=2</cell> </row>
-            <row><cell>4</cell> <cell>16</cell> <cell>16-9=7</cell> <cell>7-5=2</cell> </row>
-            <row><cell>5</cell> <cell>25</cell> <cell>25-16=9</cell> <cell>9-7=2</cell> </row>
-            <row><cell>6</cell> <cell>36</cell> <cell>36-25=11</cell> <cell>11-9=2</cell> </row>
+            <row bottom="medium"><cell right="medium"><m>n</m></cell> <cell right="medium"><m>n^2</m></cell> <cell right="medium">1st difference</cell> <cell>2nd difference</cell> </row>
+            <row><cell right="medium">1</cell> <cell right="medium">1</cell> <cell right="medium"></cell> <cell></cell> </row>
+            <row><cell right="medium">2</cell> <cell right="medium">4</cell> <cell right="medium">4-1=3</cell> <cell></cell> </row>
+            <row><cell right="medium">3</cell> <cell right="medium">9</cell> <cell right="medium">9-4=5</cell> <cell>5-3=2</cell> </row>
+            <row><cell right="medium">4</cell> <cell right="medium">16</cell> <cell right="medium">16-9=7</cell> <cell>7-5=2</cell> </row>
+            <row><cell right="medium">5</cell> <cell right="medium">25</cell> <cell right="medium">25-16=9</cell> <cell>9-7=2</cell> </row>
+            <row><cell right="medium">6</cell> <cell right="medium">36</cell> <cell right="medium">36-25=11</cell> <cell>11-9=2</cell> </row>
         </tabular>
     </table>
 
@@ -133,13 +133,13 @@
         <title>Exponential Data</title>
 
         <tabular>
-            <row><cell><m>n</m></cell> <cell><m>2^n</m></cell> <cell>Difference</cell> </row>
-            <row><cell>1</cell> <cell>2</cell> </row>
-            <row><cell>2</cell> <cell>4</cell> <cell>4-2=2</cell> </row>
-            <row><cell>3</cell> <cell>8</cell> <cell>8-4=4</cell> </row>
-            <row><cell>4</cell> <cell>16</cell> <cell>16-8=8</cell> </row>
-            <row><cell>5</cell> <cell>32</cell> <cell>32-16=16</cell> </row>
-            <row><cell>6</cell> <cell>64</cell> <cell>64-32=32</cell> </row>
+            <row bottom="medium"><cell right="medium"><m>n</m></cell> <cell right="medium"><m>2^n</m></cell> <cell>Difference</cell> </row>
+            <row><cell right="medium">1</cell> <cell right="medium">2</cell> </row>
+            <row><cell right="medium">2</cell> <cell right="medium">4</cell> <cell>4-2=2</cell> </row>
+            <row><cell right="medium">3</cell> <cell right="medium">8</cell> <cell>8-4=4</cell> </row>
+            <row><cell right="medium">4</cell> <cell right="medium">16</cell> <cell>16-8=8</cell> </row>
+            <row><cell right="medium">5</cell> <cell right="medium">32</cell> <cell>32-16=16</cell> </row>
+            <row><cell right="medium">6</cell> <cell right="medium">64</cell> <cell>64-32=32</cell> </row>
         </tabular>
     </table>
 
@@ -158,13 +158,13 @@
         <title>Exponential Data with Scale</title>
 
         <tabular>
-            <row><cell><m>n</m></cell> <cell><m>3^n</m></cell> <cell>Difference</cell> </row>
-            <row><cell>1</cell> <cell>3</cell> </row>
-            <row><cell>2</cell> <cell>9</cell> <cell>9-3=6</cell> </row>
-            <row><cell>3</cell> <cell>27</cell> <cell>27-9=18</cell> </row>
-            <row><cell>4</cell> <cell>81</cell> <cell>81-27=54</cell> </row>
-            <row><cell>5</cell> <cell>243</cell> <cell>243-81=162</cell> </row>
-            <row><cell>6</cell> <cell>729</cell> <cell>729-243=486</cell> </row>
+            <row bottom="medium"><cell right="medium"><m>n</m></cell> <cell right="medium"><m>3^n</m></cell> <cell>Difference</cell> </row>
+            <row><cell right="medium">1</cell> <cell right="medium">3</cell> </row>
+            <row><cell right="medium">2</cell> <cell right="medium">9</cell> <cell>9-3=6</cell> </row>
+            <row><cell right="medium">3</cell> <cell right="medium">27</cell> <cell>27-9=18</cell> </row>
+            <row><cell right="medium">4</cell> <cell right="medium">81</cell> <cell>81-27=54</cell> </row>
+            <row><cell right="medium">5</cell> <cell right="medium">243</cell> <cell>243-81=162</cell> </row>
+            <row><cell right="medium">6</cell> <cell right="medium">729</cell> <cell>729-243=486</cell> </row>
         </tabular>
     </table>
 
@@ -190,24 +190,24 @@
     <table xml:id="table-vary-exp-tien" >
         <title>Percent Increase for Tien</title>
 
-        <tabular>
-            <row><cell>Year</cell> <cell>Ratio</cell> <cell></cell> <cell>Increase</cell> </row>
-            <row><cell>2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell>=1.05</cell> <cell>5%</cell> </row>
-            <row><cell>2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell>=1.05</cell><cell>5%</cell> </row>
-            <row><cell>2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell>=1.05</cell><cell>5%</cell> </row>
-            <row><cell>2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell>=1.05</cell><cell>5%</cell> </row>
+        <tabular top="medium">
+            <row left="medium" bottom="medium"><cell right="medium">Year</cell> <cell>Ratio</cell> <cell right="medium"></cell> <cell right="medium">Increase</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2018</cell> <cell>$55,050.80/$52,429.33</cell> <cell right="medium">=1.05</cell> <cell right="medium">5%</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2019</cell> <cell>$57,803.34/$55,050.80</cell> <cell right="medium">=1.05</cell><cell right="medium">5%</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2020</cell> <cell>$60,693.50/$57,803.34</cell> <cell right="medium">=1.05</cell><cell right="medium">5%</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2021</cell> <cell>$63,728.18/$60,693.50</cell> <cell right="medium">=1.05</cell><cell right="medium">5%</cell> </row>
         </tabular>
     </table>
 
     <table xml:id="table-vary-exp-vasya" >
         <title>Percent Increase for Vasya</title>
 
-        <tabular>
-            <row><cell>Year</cell> <cell>Ratio</cell> <cell></cell> <cell>Increase</cell> </row>
-            <row><cell>2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell>=1.08</cell><cell>8%</cell>  </row>
-            <row><cell>2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell>=1.07</cell> <cell>7%</cell> </row>
-            <row><cell>2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell>=1.07</cell> <cell>7%</cell> </row>
-            <row><cell>2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell>=1.06</cell> <cell>6%</cell> </row>
+        <tabular top="medium">
+            <row left="medium" bottom="medium"><cell right="medium">Year</cell> <cell>Ratio</cell> <cell right="medium"></cell> <cell right="medium">Increase</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2018</cell> <cell>$67,347.23/$62,347.23</cell> <cell right="medium">=1.08</cell><cell right="medium">8%</cell>  </row>
+            <row left="medium" bottom="medium"><cell right="medium">2019</cell> <cell>$72,347.23/$67,347.23</cell> <cell right="medium">=1.07</cell> <cell right="medium">7%</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2020</cell> <cell>$77,347.23/$72,347.23</cell> <cell right="medium">=1.07</cell> <cell right="medium">7%</cell> </row>
+            <row left="medium" bottom="medium"><cell right="medium">2021</cell> <cell>$82,347.23/$77,347.23</cell> <cell right="medium">=1.06</cell> <cell right="medium">6%</cell> </row>
         </tabular>
     </table>
 
@@ -219,16 +219,16 @@
     <example xml:id="example-vary-exponential-caffeine">
         <p>The table below gives an amount of caffeine in the blood stream. This data is exponential with a ratio of 0.87. This ratio means there is a 13% decrease per hour of caffeine in the blood stream per hour in this example. This is in contrast to the previous example which was an increasing exponential.</p>
         <tabular>
-            <row><cell>Hour</cell> <cell>Caffeine</cell> <cell>Ratio</cell> </row>
-            <row><cell>0</cell> <cell>95 mg</cell> <cell></cell> </row>
-            <row><cell>1</cell> <cell>83 mg</cell> <cell><m>83/95 \approx 0.87</m></cell> </row>
-            <row><cell>2</cell> <cell>72 mg</cell> <cell><m>72/83 \approx 0.87</m></cell> </row>
-            <row><cell>3</cell> <cell>63 mg</cell> <cell><m>63/72 \approx 0.87</m></cell> </row>
-            <row><cell>4</cell> <cell>55 mg</cell> <cell><m>55/63 \approx 0.87</m></cell> </row>
-            <row><cell>5</cell> <cell>48 mg</cell> <cell><m>48/55 \approx 0.87</m></cell> </row>
-            <row><cell>6</cell> <cell>41 mg</cell> <cell><m>41/48 \approx 0.87</m></cell> </row>
-            <row><cell>7</cell> <cell>36 mg</cell> <cell><m>36/41 \approx 0.87</m></cell> </row>
-            <row><cell>8</cell> <cell>31 mg</cell> <cell><m>31/41 \approx 0.87</m></cell> </row>
+            <row bottom="medium"><cell right="medium">Hour</cell> <cell right="medium">Caffeine</cell> <cell>Ratio</cell> </row>
+            <row><cell right="medium">0</cell> <cell right="medium">95 mg</cell> <cell></cell> </row>
+            <row><cell right="medium">1</cell> <cell right="medium">83 mg</cell> <cell><m>83/95 \approx 0.87</m></cell> </row>
+            <row><cell right="medium">2</cell> <cell right="medium">72 mg</cell> <cell><m>72/83 \approx 0.87</m></cell> </row>
+            <row><cell right="medium">3</cell> <cell right="medium">63 mg</cell> <cell><m>63/72 \approx 0.87</m></cell> </row>
+            <row><cell right="medium">4</cell> <cell right="medium">55 mg</cell> <cell><m>55/63 \approx 0.87</m></cell> </row>
+            <row><cell right="medium">5</cell> <cell right="medium">48 mg</cell> <cell><m>48/55 \approx 0.87</m></cell> </row>
+            <row><cell right="medium">6</cell> <cell right="medium">41 mg</cell> <cell><m>41/48 \approx 0.87</m></cell> </row>
+            <row><cell right="medium">7</cell> <cell right="medium">36 mg</cell> <cell><m>36/41 \approx 0.87</m></cell> </row>
+            <row><cell right="medium">8</cell> <cell right="medium">31 mg</cell> <cell><m>31/41 \approx 0.87</m></cell> </row>
         </tabular>
     </example>
 
@@ -237,14 +237,17 @@
     <table xml:id="table-ratios-exponential">
         <title>Exponential Data 2 Ways</title>
 
-        <tabular top="medium">
-            <row bottom="medium" left="medium"><cell>Data</cell> <cell>Difference</cell> <cell right="medium">Ratio</cell> </row>
-            <row bottom="medium" left="medium"><cell><m>\frac{20}{3}</m></cell> <cell></cell> <cell right="medium"></cell> </row>
-            <row bottom="medium" left="medium"><cell><m>\frac{80}{9}</m></cell> <cell><m>\frac{20}{9}=\frac{1}{3} \cdot \frac{20}{3}</m></cell> <cell right="medium"><m>\frac{4}{3} \approx 1.33</m></cell> </row>
-            <row bottom="medium" left="medium"><cell><m>\frac{320}{27}</m></cell> <cell><m>\frac{80}{27}=\frac{1}{3} \cdot \frac{80}{9}</m></cell> <cell right="medium"><m>\frac{4}{3} \approx 1.33</m></cell> </row>
-            <row bottom="medium" left="medium"><cell><m>\frac{1280}{81}</m></cell> <cell><m>\frac{320}{81}=\frac{1}{3} \cdot \frac{320}{27}</m></cell> <cell right="medium"><m>\frac{4}{3} \approx 1.33</m></cell> </row>
-            <row bottom="medium" left="medium"><cell><m>\frac{5120}{243}</m></cell> <cell><m>\frac{1280}{243}=\frac{1}{3} \cdot \frac{1280}{81}</m></cell> <cell right="medium"><m>\frac{4}{3} \approx 1.33</m></cell> </row>
-            <row bottom="medium" left="medium"><cell><m>\frac{20480}{729}</m></cell> <cell><m>\frac{5120}{729}=\frac{1}{3} \cdot \frac{5120}{243}</m></cell> <cell right="medium"><m>\frac{4}{3} \approx 1.33</m></cell> </row>
+        <tabular top="medium" left="medium">
+            <col halign="center" width="10%" />
+            <col halign="center" width="40%" />
+            <col halign="center" right="medium" width="30%" />
+            <row bottom="medium" left="medium"><cell>Data</cell> <cell>Difference</cell> <cell>Ratio</cell> </row>
+            <row bottom="medium" left="medium"><cell><m>\frac{20}{3}</m></cell> <cell></cell> <cell></cell> </row>
+            <row bottom="medium" left="medium"><cell><m>\frac{80}{9}</m></cell> <cell><m>\frac{20}{9}=\frac{1}{3} \cdot \frac{20}{3}</m></cell> <cell><m>\frac{4}{3} \approx 1.33</m></cell> </row>
+            <row bottom="medium" left="medium"><cell><m>\frac{320}{27}</m></cell> <cell><m>\frac{80}{27}=\frac{1}{3} \cdot \frac{80}{9}</m></cell> <cell><m>\frac{4}{3} \approx 1.33</m></cell> </row>
+            <row bottom="medium" left="medium"><cell><m>\frac{1280}{81}</m></cell> <cell><m>\frac{320}{81}=\frac{1}{3} \cdot \frac{320}{27}</m></cell> <cell><m>\frac{4}{3} \approx 1.33</m></cell> </row>
+            <row bottom="medium" left="medium"><cell><m>\frac{5120}{243}</m></cell> <cell><m>\frac{1280}{243}=\frac{1}{3} \cdot \frac{1280}{81}</m></cell> <cell><m>\frac{4}{3} \approx 1.33</m></cell> </row>
+            <row bottom="medium" left="medium"><cell><m>\frac{20480}{729}</m></cell> <cell><m>\frac{5120}{729}=\frac{1}{3} \cdot \frac{5120}{243}</m></cell> <cell><m>\frac{4}{3} \approx 1.33</m></cell> </row>
         </tabular>
     </table>
 

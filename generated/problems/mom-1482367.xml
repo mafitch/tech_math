@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1482367">
 <statement>
-<p>Graph the equation <m>\displaystyle{y}={2}{\left({5}^{{{x}+{4}}}\right)}+{3}</m>. You will select a point on the asymptote (only y coordinate matters); then you select two points on the exponential.</p>
+<p>Graph the equation <m>\displaystyle{y}={3}{\left({4}^{{{x}-{4}}}\right)}+{5}</m>. You will select a point on the asymptote (only y coordinate matters); then you select two points on the exponential.</p>
 <image width="68%"  pi:generated="problems/images/4417d16f7425d0375a4358313c7b909a.png" />
 
 
 </statement>
 <solution>
-<p><ul><li><image width="68%"  pi:generated="problems/images/9e79eb7eec3e41f46c3eb6b1f313952e.png" />
-</li></ul></p><p>Because <m>\displaystyle{y}={2}{\left({5}^{{{x}+{4}}}\right)}+{3}</m> has <m>\displaystyle+{3}</m> at the end, the asymptote is at <m>\displaystyle{y}={3}</m>.</p>
-<p>One convenient point is where <m>\displaystyle{x}+{4}={0}</m> which is <m>\displaystyle{x}=-{4}</m>. Here <m>\displaystyle{y}={5}</m>.</p>
-<p>A second convenient point is one right of -4, which is <m>\displaystyle{x}=-{3}</m>. Here <m>\displaystyle{y}={13}</m></p>
+<p><ul><li><image width="68%"  pi:generated="problems/images/213a22239101b839ff0d82577e3296b4.png" />
+</li></ul></p><p>Because <m>\displaystyle{y}={3}{\left({4}^{{{x}-{4}}}\right)}+{5}</m> has <m>\displaystyle+{5}</m> at the end, the asymptote is at <m>\displaystyle{y}={5}</m>.</p>
+<p>One convenient point is where <m>\displaystyle{x}-{4}={0}</m> which is <m>\displaystyle{x}={4}</m>. Here <m>\displaystyle{y}={8}</m>.</p>
+<p>A second convenient point is one right of 4, which is <m>\displaystyle{x}={5}</m>. Here <m>\displaystyle{y}={17}</m></p>
 </solution>
 </myopenmath>
 
