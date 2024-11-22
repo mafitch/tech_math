@@ -285,10 +285,11 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Terminology</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Dilution</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dosage</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-medical-rounding" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Rounding in Medical Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Terminology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dilution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Dosage</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-7" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-falseposition.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Project: False Position</span></a></div></li>
@@ -341,6 +342,7 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Rates</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rational.html#section-rational-5" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -587,7 +589,7 @@ eBookConfig.enable_chatcodes =  false;
 </h4>
 <div class="para" id="example-table-read-interpolate-2">What is the stall speed in a 15° bank angle with flaps in the Approach setting?</div>
 <div class="para" id="example-table-read-interpolate-3">First, we note that there is no column for 15° bank angle. However we have 0° and 30°. 15° is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.</div>
-<div class="para" id="example-table-read-interpolate-4">The two stall speeds are 43 and 46. The number in between (the average) is <span class="process-math">\((43+46)/2=44.5\text{.}\)</span> When considering stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</div></article><article class="example example-like" id="example-table-read-interpolate-third"><h4 class="heading">
+<div class="para" id="example-table-read-interpolate-4">The two stall speeds are 43 and 46. The number in between (the average) is <span class="process-math">\((43+46)/2=44.5\text{.}\)</span> Airspeed is reported only to units, so we must round to units. For stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</div></article><article class="example example-like" id="example-table-read-interpolate-third"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-table-read-interpolate-third-1">When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.</div>
@@ -614,7 +616,7 @@ eBookConfig.enable_chatcodes =  false;
 48+4/3 \approx 49.3 \approx 50.
 \end{equation*}
 </div>
-<div class="para">We round up for safety.</div>
+<div class="para">Again we round up for safety.</div>
 </div>
 <div class="para" id="example-table-read-interpolate-third-5">Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.</div></article><article class="exercise exercise-like" id="exercise-table-read-indirect"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.8</span><span class="period">.</span>
@@ -834,7 +836,7 @@ P \cdot V = k \cdot T
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="space"> </span><span class="title">Graphing Lines</span>
 </h3>
 <div class="para" id="subsection-linear-notation-2">We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines if we have the equation and presents analyzing linear models based on their graphs.</div>
-<div class="para" id="subsection-linear-notation-3">As described in <a href="section-linear.html#subsection-present-linear" class="internal" title="Subsection 3.1.1: Linear Models">Subsection 3.1.1</a> a linear equation (model) has two parts: <span class="process-math">\(\frac{a}{b}\)</span> and <span class="process-math">\(+c\text{.}\)</span> First, we address the role of the ratio in the graph.</div>
+<div class="para" id="subsection-linear-notation-3">As described in <a href="section-linear.html#subsection-present-linear" class="internal" title="Subsection 3.1.1: Linear Models">Subsection 3.1.1</a> a linear equation (model) has two parts: the ratio (slope, rate) <span class="process-math">\(m\)</span> and the shift <span class="process-math">\(+b\text{.}\)</span> First, we address the role of the ratio in the graph.</div>
 <article class="definition definition-like" id="definition-slope"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.30</span><span class="period">.</span><span class="space"> </span><span class="title">Slope.</span>
 </h4>
@@ -862,30 +864,30 @@ m=\frac{\text{rise}}{\text{run}}=\frac{y_2-y_1}{x_2-x_1}
 <div class="para" id="example-calculate-slope-2-1">The graph in <a href="section-graphing.html#figure-graph-slope" class="xref" data-knowl="./knowl/xref/figure-graph-slope.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.32">Figure 3.2.32</a> is linear. We will calculate the slope twice.</div>
 <div class="solutions">
 <details id="example-calculate-slope-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-calculate-slope-3-1">
-<div class="para">First, we will use the points <span class="process-math">\((400\bar{0},25.92)\)</span> and <span class="process-math">\((200\bar{0},27.92)\text{.}\)</span>
+<div class="para">First, we will use the points <span class="process-math">\((4000,25.92)\)</span> and <span class="process-math">\((2000,27.92)\text{.}\)</span>
 </div>
 <div class="displaymath process-math" id="example-calculate-slope-3-1-3">
 \begin{align*}
-\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{25.92-27.92}{400\bar{0}-200\bar{0}}\\
-&amp; = \frac{-2.00}{200\bar{0}}\\
-&amp; = -\frac{1.00}{100\bar{0}}.
+\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{25.92-27.92 \text{ inHg}}{4000-2000 \text{ ft}}\\
+&amp; = \frac{-2.00 \text{ inHg}}{2000 \text{ ft}}\\
+&amp; = -\frac{1.00 \text{ inHg}}{1000 \text{ ft}}.
 \end{align*}
 </div>
 <div class="para">This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of <span class="process-math">\(100\bar{0}\)</span> feet above mean sea level.</div>
 </div></div></details><details id="example-calculate-slope-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-calculate-slope-4-1">
-<div class="para">We will use the points <span class="process-math">\((800\bar{0},21.92)\)</span> and <span class="process-math">\((400\bar{0},25.92)\text{.}\)</span>
+<div class="para">We will use the points <span class="process-math">\((8000,21.92)\)</span> and <span class="process-math">\((4000,25.92)\text{.}\)</span>
 </div>
 <div class="displaymath process-math" id="example-calculate-slope-4-1-3">
 \begin{align*}
-\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{21.92-25.92}{800\bar{0}-400\bar{0}}\\
-&amp; = \frac{-4.00}{400\bar{0}}\\
-&amp; = -\frac{1.00}{100\bar{0}}.
+\frac{y_2-y_1}{x_2-x_1} &amp; = \frac{21.92-25.92 \text{ inHg}}{8000-4000 \text{ ft}}\\
+&amp; = \frac{-4.00 \text{ inHg}}{4000 \text{ ft}}\\
+&amp; = -\frac{1.00 \text{ inHg}}{1000 \text{ ft}}.
 \end{align*}
 </div>
 <div class="para">As expected this is the same slope, because on a line the rate of change (slope) is constant.</div>
 </div></div></details>
 </div></article><figure class="figure figure-like" id="figure-graph-slope"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/line-slope.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.32<span class="period">.</span></span><span class="space"> </span>Calculating Slope</figcaption></figure><div class="para" id="subsection-linear-notation-9">To write the equation for a line we need the shift <span class="process-math">\(+c\)</span> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <span class="process-math">\(c\)</span> controls this shift. It is typically easiest to read this shift at <span class="process-math">\(x=0\)</span> because in the linear form <span class="process-math">\(y=mx+c\)</span> we have <span class="process-math">\(y=m \cdot 0 + c = c\text{,}\)</span> so the <span class="process-math">\(y\)</span> coordinate at <span class="process-math">\(x=0\)</span> is the shift.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.32<span class="period">.</span></span><span class="space"> </span>Calculating Slope</figcaption></figure><div class="para" id="subsection-linear-notation-9">To write the equation for a line we need the shift <span class="process-math">\(+b\)</span> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <span class="process-math">\(b\)</span> controls this shift. It is typically easiest to read this shift at <span class="process-math">\(x=0\)</span> because in the linear form <span class="process-math">\(y=mx+b\)</span> we have <span class="process-math">\(y=m \cdot 0 + b = b\text{,}\)</span> so the <span class="process-math">\(y\)</span> coordinate at <span class="process-math">\(x=0\)</span> is the shift which is why it is often called the y-intercept.</div>
 <article class="example example-like" id="example-calculate-shift"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.33</span><span class="period">.</span><span class="space"> </span><span class="title">Calculate Shift.</span>
 </h4>
@@ -893,15 +895,15 @@ m=\frac{\text{rise}}{\text{run}}=\frac{y_2-y_1}{x_2-x_1}
 <div class="solutions"><details id="example-calculate-shift-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="example-calculate-shift-3-1">The shift can be read when <span class="process-math">\(x=0\text{.}\)</span> That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.</div>
 <div class="para logical" id="example-calculate-shift-3-2">
-<div class="para">We will use <span class="process-math">\((200\bar{0},27.92)\)</span> to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up</div>
+<div class="para">We will use <span class="process-math">\((2000,27.92)\)</span> to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up</div>
 <div class="displaymath process-math" id="example-calculate-shift-3-2-2">
 \begin{align*}
-\frac{1.00 \text{ inHg}}{100\bar{0} \text{ ft}} &amp; = \frac{d \text{ inHg}}{200\bar{0} \text{ ft}}.\\
-\frac{1.00 \text{ inHg}}{100\bar{0} \text{ ft}} \cdot 200\bar{0} \text{ ft} &amp; = \frac{d \text{ inHg}}{200\bar{0} \text{ ft}} \cdot 200\bar{0} \text{ ft}.\\
+\frac{1.00 \text{ inHg}}{1000 \text{ ft}} &amp; = \frac{d \text{ inHg}}{2000 \text{ ft}}.\\
+\frac{1.00 \text{ inHg}}{1000 \text{ ft}} \cdot 200\bar{0} \text{ ft} &amp; = \frac{d \text{ inHg}}{2000 \text{ ft}} \cdot 2000 \text{ ft}.\\
 2.00 \text{ inHg} &amp; = d.
 \end{align*}
 </div>
-<div class="para">Thus the pressure should increase by 2.00 inHg giving us <span class="process-math">\(P=27.92+2=29.92\text{.}\)</span> Thus the point is <span class="process-math">\((0.00, 29.92)\)</span> and the shift is <span class="process-math">\(c=29.92\text{.}\)</span>
+<div class="para">Thus the pressure should increase by 2.00 inHg giving us <span class="process-math">\(P=27.92+2.00=29.92\text{.}\)</span> Thus the point is <span class="process-math">\((0.00, 29.92)\)</span> and the shift is <span class="process-math">\(b=29.92\text{.}\)</span>
 </div>
 </div>
 <div class="para logical" id="example-calculate-shift-3-3">
