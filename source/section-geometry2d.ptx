@@ -29,7 +29,7 @@
     <figure xml:id="figure-illustrate-perimeter-area">
         <caption>Complex Shape with Perimeter and Area</caption>
 
-        <image source="images/perimeter_area" />
+        <image source="images/perimeter_area" width="70%" />
     </figure>
 
     <paragraphs>
@@ -231,6 +231,7 @@
 
     <example xml:id="example-heron-formula-integers">
         <p>Calculate the area of a triangle with side lengths 4, 5, and 7.</p>
+        <image source="images/triangle_heron1" width="50%" />
         <p>According to Heron's formula
             <md>
                 <mrow>s &amp; = \frac{1}{2}(4+5+7)</mrow>

@@ -90,6 +90,8 @@
         </md> The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.</p>
      </example>
 
+     <p>Just as in <xref ref="paragraph-sigfig-square-root" text="title" /> and <xref ref="paragraph-sigfig-exponential" text="title" /> trigonometric functions and their inverses can be calculated to preserve the same number of significant digits.</p>
+
      <example xml:id="example-apply-runway-tch">
         <statement><p>Aircraft typically fly a 3<degree/> angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold?</p></statement>
         <solution><p>This is a right triangle with adjacent leg length 1020 ft and angle 3<degree/>. The length of the opposite is the height at the threshold.

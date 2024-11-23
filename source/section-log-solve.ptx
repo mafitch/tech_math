@@ -34,8 +34,9 @@
             <mrow>6.0 &amp; = 10^{\frac{3}{2}(x+10.7)}.</mrow>
             <mrow>\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). \text{ log to undo exponential}</mrow>
             <mrow>\log(6.0) &amp; = \frac{3}{2}(x+10.7).</mrow>
-            <mrow>\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo }\frac{3}{2} \cdot</mrow>
-            <mrow>\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo }+10.7 \cdot</mrow>
+            <mrow>\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo multiplying by }\frac{3}{2}</mrow>
+            <mrow>\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo adding } 10.7</mrow>
+            <mrow>-10.18123250 &amp; \approx x.</mrow>
             <mrow>-10.181 &amp; \approx x.</mrow>
         </md></p>
         <p>Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.</p>
@@ -47,10 +48,11 @@
         <md>
             <mrow>13 &amp; = 2+3e^{x-1}.</mrow>
             <mrow>11 &amp; = 3e^{x-1}. \text{ Subtract to undo }+2</mrow>
-            <mrow>\frac{11}{3} &amp; = e^{x-1} &amp; \text{ Divide to undo }3 \cdot</mrow>
-            <mrow>\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right). &amp; \text{ log to undo exponential}</mrow>
+            <mrow>\frac{11}{3} &amp; = e^{x-1} \text{ Divide to undo }3 \cdot</mrow>
+            <mrow>\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right). \text{ log to undo exponential}</mrow>
             <mrow>\ln\left(\frac{11}{3}\right) &amp; = x-1.</mrow>
-            <mrow>\ln\left(\frac{11}{3}\right)+1 &amp; = x. &amp; \text{ Add to undo }-1</mrow>
+            <mrow>\ln\left(\frac{11}{3}\right)+1 &amp; = x. \text{ Add to undo }-1</mrow>
+            <mrow>2.299282984 &amp; \approx x.</mrow>
             <mrow>2.299 &amp; \approx x.</mrow>
         </md></p>
         <p>Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.</p>
@@ -78,7 +80,7 @@
     <p>Your calculator likely does not have a button for calculating <m>\log_2(x)</m>. We can use a property of all logarithms to solve this equation with the natural log. In general <me>\log_b(a^p) = p \log_b(a)</me>.</p>
 
     <example xml:id="example-solve-exponential-ln">
-        <p>Solve <m>5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)</m>.</p>
+        <p>Solve <m>5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)</m>. Round to units.</p>
         <p><md>
             <mrow>5.0 &amp; = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right).</mrow>
             <mrow>5.0/3.0 &amp; = 2^{\frac{t}{7\bar{0}}}.</mrow>
@@ -120,7 +122,7 @@
     </example>
 
     <example xml:id="example-log-solve2">
-        <statement><p>Solve <m>7 = \ln(3x+2)</m>.</p></statement>
+        <statement><p>Solve <m>7 = \ln(3x+2)</m>. Round to units.</p></statement>
         <solution>
             <p>We re-write this as an exponential.
             <md>
@@ -130,7 +132,6 @@
                 <mrow>\frac{1}{3}(e^7-2) &amp; = x</mrow>
                 <mrow>365 &amp; \approx x</mrow>
             </md></p>
-            <p>We choose arbitrarily to round to units, because there is no context.</p>
         </solution>
     </example>
 
@@ -297,9 +298,9 @@
         <task>
             <statement><p>What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios <m>c_5/c_6</m>, <m>c_6/c_7</m>, and <m>c_5/c_7</m>.</p></statement>
             <solution><p><md>
-                <mrow>\frac{c_5}{c_6} &amp; \frac{10^{-5}}{10^{-6}} = 10.</mrow>
-                <mrow>\frac{c_6}{c_7} &amp; \frac{10^{-6}}{10^{-7}} = 10.</mrow>
-                <mrow>\frac{c_5}{c_7} &amp; \frac{10^{-5}}{10^{-7}} = 100.</mrow>
+                <mrow>\frac{c_5}{c_6} &amp; =\frac{10^{-5}}{10^{-6}} = 10.</mrow>
+                <mrow>\frac{c_6}{c_7} &amp; =\frac{10^{-6}}{10^{-7}} = 10.</mrow>
+                <mrow>\frac{c_5}{c_7} &amp; =\frac{10^{-5}}{10^{-7}} = 100.</mrow>
             </md></p></solution>
         </task>
     </example>
@@ -315,10 +316,11 @@
 
     <example xml:id="example-moment-magnitude">
         <task>
-            <statement><p>Based on seismic readings <m>M_0 = 7.2 \times 10^{22}</m>. What was the moment magnitude?</p></statement>
+            <statement><p>Based on seismic readings <m>M_0 = 7.2 \times 10^{22}</m>. What was the moment magnitude? These are rounded to one decimal place.</p></statement>
             <solution><p>Using the formula we obtain
             <md>
-                <mrow>M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})</mrow>
+                <mrow>M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})-10.7</mrow>
+                <mrow> &amp; \approx 4.53822167</mrow>
                 <mrow> &amp; \approx 4.5</mrow>
             </md></p></solution>
         </task>
@@ -330,6 +332,8 @@
                 <mrow>17.8 &amp; = \frac{2}{3}\log(M_0)</mrow>
                 <mrow>26.7 &amp; = \log(M_0)</mrow>
                 <mrow>10^{26.7} &amp; = 10^{\log(M_0)}</mrow>
+                <mrow>10^{26.7} &amp; = M_0</mrow>
+                <mrow>5.011872336 \times 10^{26} &amp; \approx M_0</mrow>
                 <mrow>5.01 \times 10^{26} &amp; \approx M_0</mrow>
             </md></p></solution>
         </task>

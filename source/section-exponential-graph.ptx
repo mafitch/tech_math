@@ -106,7 +106,7 @@
         </introduction>
         <task>
             <p>How much is left at times 16.8, 33.6, and 50.4 minutes?</p>
-            <p>At time 0 we have <m>13\bar{0}</m> g. At time 16.8 it will be half of the original which is <m>65.0</m> g. The 1/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again (<m>33.6 = 18.8 \cdot 2</m>, 2nd half-life). Thus there will be <m>\frac{65.0}{2} \approx 32.5</m> g. At time 50.4 it will be reduced by half a third  time (<m>50.4 = 16.8 \cdot 3</m>), so the amount remaining will be <m>\frac{32.5}{2} \approx 16.3</m> g.</p>
+            <p>At time 0 we have <m>13\bar{0}</m> g. At time 16.8 it will be half of the original which is <m>65.0</m> g. The 1/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again (<m>33.6 = 18.8 \cdot 2</m>, 2nd half-life). Thus there will be <m>\frac{65.0}{2} = 32.5</m> g. At time 50.4 it will be reduced by half a third  time (<m>50.4 = 16.8 \cdot 3</m>), so the amount remaining will be <m>\frac{32.5}{2} = 16.25 \approx 16.3</m> g.</p>
         </task>
         <task>
             <p>Write a model for this decay.</p>
@@ -435,7 +435,7 @@
         <p>We ended up with the same y values, but they occurred spread out over a wider area. Multiplying  stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).</p>
     </example>
 
-    <p>Now that we know how each piece affects the result we can put them all together. The first two examples start by using each of these individually and end with a shorter method. The third example illustrates using the shorter method that we typically use.</p>
+    <p>Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is <me>y=A \cdot 2^{B(x-h)}+k</me> where <m>h</m> and <m>k</m> represent the horizontal and vertical shifts respectively. <m>A</m> and <m>B</m> represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.</p>
 
     <example xml:id="example-graph-exponential-complex">
         <p>Graph the model <m>7.000 \cdot 2^{-t/10.551}</m> from <xref ref="example-exponential-decay-barium" />. In order to match our examples above we can express the exponent as <m>7.000 \cdot 2^{-0.094778t}</m>. We simply calculated <m>1/10.551</m> and maintained 5 significant digits.</p>

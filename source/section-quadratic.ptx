@@ -78,13 +78,53 @@
     <fact xml:id="model-kinetic-energy">
         <title>Kinetic Energy</title>
         <statement>
-            <p>The kinetic energy of an object in motion, we will consider flight of gliders, is <me>E = \frac{1}{2}m v^2</me> where
+            <p>The kinetic energy of an object in motion is given by <me>E = \frac{1}{2}m v^2</me> where
             <ul>
-                <li><m>m</m> is the mass (think weight) of the object</li>
-                <li><m>v</m> is the velocity of the object.</li>
+                <li><m>E</m> is the energy (in foot pounds or Joules)</li>
+                <li><m>m</m> is the mass (think weight) of the object (in pound mass or grams)</li>
+                <li><m>v</m> is the velocity of the object (in feet or meters per second).</li>
             </ul></p>
         </statement>
     </fact>
+
+    <example xml:id="example-quadratic-load-factor">
+        <p>What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias, 105 kias? How many g's does it increase between those two speeds? Round to one decimal place.</p>
+        <p>We use the formula
+            <md>
+                <mrow>n_{max} &amp; = \left(\frac{95}{54}\right)^2</mrow>
+                <mrow> &amp; \approx (1.759259259)^2</mrow>
+                <mrow> &amp; \approx 3.094993140</mrow>
+                <mrow> &amp; \approx 3.1.</mrow>
+            </md>
+        </p>
+        <p><md>
+                <mrow>n_{max} &amp; = \left(\frac{105}{54}\right)^2</mrow>
+                <mrow> &amp; \approx (1.9444444449)^2</mrow>
+                <mrow> &amp; \approx 3.780864196</mrow>
+                <mrow> &amp; \approx 3.8.</mrow>
+            </md>
+        </p>
+        <p>The increase of 10 kias increased the g's by <m>3.8-3.1=0.7</m>.</p>
+    </example>
+
+    <example xml:id="example-quadratic-kinetic-energy">
+        <p>What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.</p>
+        <p>First, we need to convert the speeds to feet per second. <xref ref="table-customary-convert" /> suggests we can multiply.
+        <md>
+            <mrow>\frac{34 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{\text{hr}}{3600 \text{ sec}} \approx 5\underline{7}.38444444.</mrow>
+            <mrow>\frac{54 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{\text{hr}}{3600 \text{ sec}} \approx 9\underline{1}.14.</mrow>
+        </md></p>
+        <p>Now, we can calculate the kinetic energy.
+            <md>
+                <mrow>E_{34} &amp; = \frac{1}{2}(1323 \text{ lbs})\left(\frac{5\underline{7}.38444444 \text{ ft}}{\text{sec}} \right)^2</mrow>
+                <mrow> &amp; \approx 2.\underline{1}78302608 \times 10^6</mrow>
+                <mrow> &amp; \approx 2.2 \times 10^6.</mrow>
+                <mrow>E_{54} &amp; = \frac{1}{2}(1323 \text{ lbs})\left(\frac{9\underline{1}.14 \text{ ft}}{\text{sec}} \right)^2</mrow>
+                <mrow> &amp; \approx 5.\underline{4}94749485 \times 10^6</mrow>
+                <mrow> &amp; \approx 5.5 \times 10^6.</mrow>
+            </md>
+            The increase was <m>5.5 \times 10^6 - 2.2 \times 10^3=3.3 \times 10^3</m> foot pounds.</p>
+    </example>
 
 </subsection>
 
@@ -145,11 +185,11 @@
 
     <example xml:id="example-gravity-earth-moon">
         <p>What force does the earth exert on the moon? The mass of the earth is approximately <m>5.97219 \times 10^{24}</m> kg, and the mass of the moon is approximately <m>7.34767 \times 10^{22}</m> kg. The average distance between the earth and moon is 382,500 km.</p>
-        <p>Using the model
+        <p>We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is <m>382,500 \text{ km} \cdot \frac{1000 \text{ m}}{\text{km}} = 382,500,000 \text{ m}</m>. Using the model
             <md>
-                <mrow>F &amp; = (6.6743 \times 10^{-11}) \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2} \left(\frac{(5.97219 \times 10^{24} \text{ kg})(7.34767 \times 10^{22} \text{ kg})}{382500^2} \right)</mrow>
-                <mrow> &amp; \approx 2.001824977 \times 10^{26}</mrow>
-                <mrow> &amp; \approx 2.002 \times 10^{26}</mrow>
+                <mrow>F &amp; = (6.6743 \times 10^{-11}) \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2} \left(\frac{(5.97219 \times 10^{24} \text{ kg})(7.34767 \times 10^{22} \text{ kg})}{(382500000 \text{ km})^2} \right)</mrow>
+                <mrow> &amp; \approx 2.001824977 \times 10^{20}</mrow>
+                <mrow> &amp; \approx 2.002 \times 10^{20}</mrow>
             </md>
         </p>
     </example>
