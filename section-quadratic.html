@@ -618,7 +618,7 @@ n_{max}=\left(\frac{v}{v_s}\right)^2
 <span class="type">Model</span><span class="space"> </span><span class="codenumber">5.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Kinetic Energy.</span>
 </h4>
 <div class="para logical" id="model-kinetic-energy-2-1">
-<div class="para">The kinetic energy of an object in motion, we will consider flight of gliders, is</div>
+<div class="para">The kinetic energy of an object in motion is given by</div>
 <div class="displaymath process-math">
 \begin{equation*}
 E = \frac{1}{2}m v^2
@@ -627,16 +627,68 @@ E = \frac{1}{2}m v^2
 <div class="para">where</div>
 <ul class="disc" id="model-kinetic-energy-2-1-2">
 <li id="model-kinetic-energy-2-1-2-1"><div class="para" id="p-derived-model-kinetic-energy-2-1-2-1">
-<span class="process-math">\(m\)</span> is the mass (think weight) of the object</div></li>
+<span class="process-math">\(E\)</span> is the energy (in foot pounds or Joules)</div></li>
 <li id="model-kinetic-energy-2-1-2-2"><div class="para" id="p-derived-model-kinetic-energy-2-1-2-2">
-<span class="process-math">\(v\)</span> is the velocity of the object.</div></li>
+<span class="process-math">\(m\)</span> is the mass (think weight) of the object (in pound mass or grams)</div></li>
+<li id="model-kinetic-energy-2-1-2-3"><div class="para" id="p-derived-model-kinetic-energy-2-1-2-3">
+<span class="process-math">\(v\)</span> is the velocity of the object (in feet or meters per second).</div></li>
 </ul>
+</div></article><article class="example example-like" id="example-quadratic-load-factor"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-quadratic-load-factor-1">What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias, 105 kias? How many g’s does it increase between those two speeds? Round to one decimal place.</div>
+<div class="para logical" id="example-quadratic-load-factor-2">
+<div class="para">We use the formula</div>
+<div class="displaymath process-math" id="example-quadratic-load-factor-2-1">
+\begin{align*}
+n_{max} &amp; = \left(\frac{95}{54}\right)^2\\
+&amp; \approx (1.759259259)^2\\
+&amp; \approx 3.094993140\\
+&amp; \approx 3.1.
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="example-quadratic-load-factor-3"><div class="displaymath process-math" id="example-quadratic-load-factor-3-1">
+\begin{align*}
+n_{max} &amp; = \left(\frac{105}{54}\right)^2\\
+&amp; \approx (1.9444444449)^2\\
+&amp; \approx 3.780864196\\
+&amp; \approx 3.8.
+\end{align*}
+</div></div>
+<div class="para" id="example-quadratic-load-factor-4">The increase of 10 kias increased the g’s by <span class="process-math">\(3.8-3.1=0.7\text{.}\)</span>
+</div></article><article class="example example-like" id="example-quadratic-kinetic-energy"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.1.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-quadratic-kinetic-energy-1">What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.</div>
+<div class="para logical" id="example-quadratic-kinetic-energy-2">
+<div class="para">First, we need to convert the speeds to feet per second. <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> suggests we can multiply.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html" id="example-quadratic-kinetic-energy-2-2">
+\begin{gather*}
+\frac{34 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{\text{hr}}{3600 \text{ sec}} \approx 5\underline{7}.38444444.\\
+\frac{54 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{\text{hr}}{3600 \text{ sec}} \approx 9\underline{1}.14.
+\end{gather*}
+</div>
+</div>
+<div class="para logical" id="example-quadratic-kinetic-energy-3">
+<div class="para">Now, we can calculate the kinetic energy.</div>
+<div class="displaymath process-math" id="example-quadratic-kinetic-energy-3-1">
+\begin{align*}
+E_{34} &amp; = \frac{1}{2}(1323 \text{ lbs})\left(\frac{5\underline{7}.38444444 \text{ ft}}{\text{sec}} \right)^2\\
+&amp; \approx 2.\underline{1}78302608 \times 10^6\\
+&amp; \approx 2.2 \times 10^6.\\
+E_{54} &amp; = \frac{1}{2}(1323 \text{ lbs})\left(\frac{9\underline{1}.14 \text{ ft}}{\text{sec}} \right)^2\\
+&amp; \approx 5.\underline{4}94749485 \times 10^6\\
+&amp; \approx 5.5 \times 10^6.
+\end{align*}
+</div>
+<div class="para">The increase was <span class="process-math">\(5.5 \times 10^6 - 2.2 \times 10^3=3.3 \times 10^3\)</span> foot pounds.</div>
 </div></article></section><section class="subsection" id="subsection-inverse-square"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="space"> </span><span class="title">Inversely Quadratic Relations</span>
 </h3>
 <div class="para" id="subsection-inverse-square-2">
 <a href="section-quadratic.html#table-quadratic-appearance" class="xref" data-knowl="./knowl/xref/table-quadratic-appearance.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 5.1.2: Quadratic and Non-quadratic">Table 5.1.2</a> has <span class="process-math">\(y=17/x^2\)</span> as an example that is not quadratic. Instead <span class="process-math">\(y\)</span> varies inversely with the square of <span class="process-math">\(x\text{.}\)</span> While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.</div>
-<figure class="table table-like" id="table-square-is-quadratic"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">5.1.5<span class="period">.</span></span><span class="space"> </span>Quadratic Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<figure class="table table-like" id="table-square-is-quadratic"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">5.1.7<span class="period">.</span></span><span class="space"> </span>Quadratic Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(x\)</span></td>
 <td class="r m b2 r2 l0 t0 lines"><span class="process-math">\(3x^2\)</span></td>
@@ -679,7 +731,7 @@ E = \frac{1}{2}m v^2
 <td class="r m b0 r2 l0 t0 lines">33</td>
 <td class="r m b0 r0 l0 t0 lines">6</td>
 </tr>
-</table></div></figure><figure class="table table-like" id="table-inverse-square-is-not-quadratic"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">5.1.6<span class="period">.</span></span><span class="space"> </span>Inversely Quadratic Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</table></div></figure><figure class="table table-like" id="table-inverse-square-is-not-quadratic"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">5.1.8<span class="period">.</span></span><span class="space"> </span>Inversely Quadratic Relation</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(x\)</span></td>
 <td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(\frac{3}{x^2}\)</span></td>
@@ -722,9 +774,9 @@ E = \frac{1}{2}m v^2
 <td class="c m b0 r2 l0 t0 lines">-11/300</td>
 <td class="c m b0 r0 l0 t0 lines">37/1200</td>
 </tr>
-</table></div></figure><div class="para" id="subsection-inverse-square-5">In <a href="section-quadratic.html#table-square-is-quadratic" class="xref" data-knowl="./knowl/xref/table-square-is-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 5.1.5: Quadratic Relation">Table 5.1.5</a> the second differences are all 6, so that is quadratic. In contrast in <a href="section-quadratic.html#table-inverse-square-is-not-quadratic" class="xref" data-knowl="./knowl/xref/table-inverse-square-is-not-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 5.1.6: Inversely Quadratic Relation">Table 5.1.6</a> the second differences are all different.</div>
+</table></div></figure><div class="para" id="subsection-inverse-square-5">In <a href="section-quadratic.html#table-square-is-quadratic" class="xref" data-knowl="./knowl/xref/table-square-is-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 5.1.7: Quadratic Relation">Table 5.1.7</a> the second differences are all 6, so that is quadratic. In contrast in <a href="section-quadratic.html#table-inverse-square-is-not-quadratic" class="xref" data-knowl="./knowl/xref/table-inverse-square-is-not-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 5.1.8: Inversely Quadratic Relation">Table 5.1.8</a> the second differences are all different.</div>
 <article class="fact theorem-like" id="model-gravity"><h4 class="heading">
-<span class="type">Model</span><span class="space"> </span><span class="codenumber">5.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Gravitational Attraction.</span>
+<span class="type">Model</span><span class="space"> </span><span class="codenumber">5.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Gravitational Attraction.</span>
 </h4>
 <div class="para logical" id="model-gravity-2-1">
 <div class="para">Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is</div>
@@ -745,16 +797,16 @@ F = G \cdot \frac{m_1 m_2}{r^2}
 <span class="process-math">\(r\)</span> is the distance between the two objects in meters</div></li>
 </ul>
 </div> <div class="para" id="model-gravity-2-2">The gravitational constant is <span class="process-math">\(G=6.6743 \times 10^{-11} \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2}\text{.}\)</span> The constant has not been determined to any greater precision.</div></article><article class="example example-like" id="example-gravity-earth-moon"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.1.8</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.1.10</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-gravity-earth-moon-1">What force does the earth exert on the moon? The mass of the earth is approximately <span class="process-math">\(5.97219 \times 10^{24}\)</span> kg, and the mass of the moon is approximately <span class="process-math">\(7.34767 \times 10^{22}\)</span> kg. The average distance between the earth and moon is 382,500 km.</div>
 <div class="para logical" id="example-gravity-earth-moon-2">
-<div class="para">Using the model</div>
-<div class="displaymath process-math" id="example-gravity-earth-moon-2-1">
+<div class="para">We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is <span class="process-math">\(382,500 \text{ km} \cdot \frac{1000 \text{ m}}{\text{km}} = 382,500,000 \text{ m}\text{.}\)</span> Using the model</div>
+<div class="displaymath process-math" id="example-gravity-earth-moon-2-2">
 \begin{align*}
-F &amp; = (6.6743 \times 10^{-11}) \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2} \left(\frac{(5.97219 \times 10^{24} \text{ kg})(7.34767 \times 10^{22} \text{ kg})}{382500^2} \right)\\
-&amp; \approx 2.001824977 \times 10^{26}\\
-&amp; \approx 2.002 \times 10^{26}
+F &amp; = (6.6743 \times 10^{-11}) \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2} \left(\frac{(5.97219 \times 10^{24} \text{ kg})(7.34767 \times 10^{22} \text{ kg})}{(382500000 \text{ km})^2} \right)\\
+&amp; \approx 2.001824977 \times 10^{20}\\
+&amp; \approx 2.002 \times 10^{20}
 \end{align*}
 </div>
 </div></article></section></section></div>

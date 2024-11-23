@@ -644,7 +644,7 @@ b = 30(2^{t/25})\text{.}
 <div class="introduction" id="exponential-decrease-radioactive-decay-1"><div class="para" id="exponential-decrease-radioactive-decay-1-1">Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with <span class="process-math">\(13\bar{0}\)</span> g of uranium-242.</div></div>
 <article class="task exercise-like" id="exponential-decrease-radioactive-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="exponential-decrease-radioactive-decay-2-1">How much is left at times 16.8, 33.6, and 50.4 minutes?</div>
-<div class="para" id="exponential-decrease-radioactive-decay-2-2">At time 0 we have <span class="process-math">\(13\bar{0}\)</span> g. At time 16.8 it will be half of the original which is <span class="process-math">\(65.0\)</span> g. The 1/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again (<span class="process-math">\(33.6 = 18.8 \cdot 2\text{,}\)</span> 2nd half-life). Thus there will be <span class="process-math">\(\frac{65.0}{2} \approx 32.5\)</span> g. At time 50.4 it will be reduced by half a third  time (<span class="process-math">\(50.4 = 16.8 \cdot 3\)</span>), so the amount remaining will be <span class="process-math">\(\frac{32.5}{2} \approx 16.3\)</span> g.</div></article><article class="task exercise-like" id="exponential-decrease-radioactive-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exponential-decrease-radioactive-decay-2-2">At time 0 we have <span class="process-math">\(13\bar{0}\)</span> g. At time 16.8 it will be half of the original which is <span class="process-math">\(65.0\)</span> g. The 1/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again (<span class="process-math">\(33.6 = 18.8 \cdot 2\text{,}\)</span> 2nd half-life). Thus there will be <span class="process-math">\(\frac{65.0}{2} = 32.5\)</span> g. At time 50.4 it will be reduced by half a third  time (<span class="process-math">\(50.4 = 16.8 \cdot 3\)</span>), so the amount remaining will be <span class="process-math">\(\frac{32.5}{2} = 16.25 \approx 16.3\)</span> g.</div></article><article class="task exercise-like" id="exponential-decrease-radioactive-decay-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="exponential-decrease-radioactive-decay-3-1">Write a model for this decay.</div>
 <div class="para logical" id="exponential-decrease-radioactive-decay-3-2">
 <div class="para">We can use the process from <a href="section-exponential.html#subsection-exponential-application" class="internal" title="Subsection 6.1.2: Applications">Subsection 6.1.2</a>. The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is <span class="process-math">\(\frac{1}{2}\text{.}\)</span>
@@ -955,7 +955,15 @@ A = 13\bar{0}\left(\frac{1}{2}\right)^{t/16.8}
 </tr>
 </table></div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/exponential-stretch-horizontal.svg" role="img" class="contained"></div>
-<div class="para" id="example-exponential-stretch-horizontal-5">We ended up with the same y values, but they occurred spread out over a wider area. Multiplying  stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).</div></article><div class="para" id="subsection-exponential-transform-7">Now that we know how each piece affects the result we can put them all together. The first two examples start by using each of these individually and end with a shorter method. The third example illustrates using the shorter method that we typically use.</div>
+<div class="para" id="example-exponential-stretch-horizontal-5">We ended up with the same y values, but they occurred spread out over a wider area. Multiplying  stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).</div></article><div class="para logical" id="subsection-exponential-transform-7">
+<div class="para">Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y=A \cdot 2^{B(x-h)}+k
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(h\)</span> and <span class="process-math">\(k\)</span> represent the horizontal and vertical shifts respectively. <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.</div>
+</div>
 <article class="example example-like" id="example-graph-exponential-complex"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.9</span><span class="period">.</span>
 </h4>

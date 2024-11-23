@@ -540,8 +540,9 @@ eBookConfig.enable_chatcodes =  false;
 6.0 &amp; = 10^{\frac{3}{2}(x+10.7)}.\\
 \log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). \text{ log to undo exponential}\\
 \log(6.0) &amp; = \frac{3}{2}(x+10.7).\\
-\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo }\frac{3}{2} \cdot\\
-\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo }+10.7 \cdot\\
+\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo multiplying by }\frac{3}{2}\\
+\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo adding } 10.7\\
+-10.18123250 &amp; \approx x.\\
 -10.181 &amp; \approx x.
 \end{align*}
 </div>
@@ -557,10 +558,11 @@ eBookConfig.enable_chatcodes =  false;
 \begin{align*}
 13 &amp; = 2+3e^{x-1}.\\
 11 &amp; = 3e^{x-1}. \text{ Subtract to undo }+2\\
-\frac{11}{3} &amp; = e^{x-1} &amp; \text{ Divide to undo }3 \cdot\\
-\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right). &amp; \text{ log to undo exponential}\\
+\frac{11}{3} &amp; = e^{x-1} \text{ Divide to undo }3 \cdot\\
+\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right). \text{ log to undo exponential}\\
 \ln\left(\frac{11}{3}\right) &amp; = x-1.\\
-\ln\left(\frac{11}{3}\right)+1 &amp; = x. &amp; \text{ Add to undo }-1\\
+\ln\left(\frac{11}{3}\right)+1 &amp; = x. \text{ Add to undo }-1\\
+2.299282984 &amp; \approx x.\\
 2.299 &amp; \approx x.
 \end{align*}
 </div>
@@ -597,8 +599,7 @@ eBookConfig.enable_chatcodes =  false;
 <article class="example example-like" id="example-solve-exponential-ln"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-solve-exponential-ln-1">Solve <span class="process-math">\(5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)\text{.}\)</span>
-</div>
+<div class="para" id="example-solve-exponential-ln-1">Solve <span class="process-math">\(5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)\text{.}\)</span> Round to units.</div>
 <div class="para logical" id="example-solve-exponential-ln-2"><div class="displaymath process-math" id="example-solve-exponential-ln-2-1">
 \begin{align*}
 5.0 &amp; = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right).\\
@@ -654,10 +655,8 @@ eBookConfig.enable_chatcodes =  false;
 </div></article><article class="example example-like" id="example-log-solve2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-log-solve2-1-1">Solve <span class="process-math">\(7 = \ln(3x+2)\text{.}\)</span>
-</div>
-<div class="solutions"><details id="example-log-solve2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para logical" id="example-log-solve2-2-1">
+<div class="para" id="example-log-solve2-1-1">Solve <span class="process-math">\(7 = \ln(3x+2)\text{.}\)</span> Round to units.</div>
+<div class="solutions"><details id="example-log-solve2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-log-solve2-2-1">
 <div class="para">We re-write this as an exponential.</div>
 <div class="displaymath process-math" id="example-log-solve2-2-1-1">
 \begin{align*}
@@ -668,9 +667,7 @@ e^7-2 &amp; = 3x\\
 365 &amp; \approx x
 \end{align*}
 </div>
-</div>
-<div class="para" id="example-log-solve2-2-2">We choose arbitrarily to round to units, because there is no context.</div>
-</div></details></div></article><article class="exercise exercise-like" id="exercise-log-solve-no-context"><h4 class="heading">
+</div></div></details></div></article><article class="exercise exercise-like" id="exercise-log-solve-no-context"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.4.10</span><span class="period">.</span>
 </h4>
 <div id="momexercise-log-solve-no-context-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-log-solve-no-context-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1485008&amp;frame_id=momexercise-log-solve-no-context-1"></iframe></div></article></section><section class="subsection" id="subsection-exponential-applications"><h3 class="heading hide-type">
@@ -821,9 +818,9 @@ x \ln(2) &amp; = kx.\\
 </div>
 <div class="solutions"><details id="example-ph-log-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-ph-log-2-2-1"><div class="displaymath process-math" id="example-ph-log-2-2-1-1">
 \begin{align*}
-\frac{c_5}{c_6} &amp; \frac{10^{-5}}{10^{-6}} = 10.\\
-\frac{c_6}{c_7} &amp; \frac{10^{-6}}{10^{-7}} = 10.\\
-\frac{c_5}{c_7} &amp; \frac{10^{-5}}{10^{-7}} = 100.
+\frac{c_5}{c_6} &amp; =\frac{10^{-5}}{10^{-6}} = 10.\\
+\frac{c_6}{c_7} &amp; =\frac{10^{-6}}{10^{-7}} = 10.\\
+\frac{c_5}{c_7} &amp; =\frac{10^{-5}}{10^{-7}} = 100.
 \end{align*}
 </div></div></div></details></div></article></article><div class="para" id="subsection-exponential-applications-10">We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is <span class="process-math">\(10^2=100\)</span> times as strong. The log scale gives us growth as a ratio.</div>
 <article class="definition definition-like" id="definition-moment-magnitude"><h4 class="heading">
@@ -841,12 +838,13 @@ M_w = \frac{2}{3}\log(M_0)-10.7
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.18</span><span class="period">.</span>
 </h4>
 <article class="task exercise-like" id="example-moment-magnitude-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-moment-magnitude-1-1-1">Based on seismic readings <span class="process-math">\(M_0 = 7.2 \times 10^{22}\text{.}\)</span> What was the moment magnitude?</div>
+<div class="para" id="example-moment-magnitude-1-1-1">Based on seismic readings <span class="process-math">\(M_0 = 7.2 \times 10^{22}\text{.}\)</span> What was the moment magnitude? These are rounded to one decimal place.</div>
 <div class="solutions"><details id="example-moment-magnitude-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-moment-magnitude-1-2-1">
 <div class="para">Using the formula we obtain</div>
 <div class="displaymath process-math" id="example-moment-magnitude-1-2-1-1">
 \begin{align*}
-M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})\\
+M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})-10.7\\
+&amp; \approx 4.53822167\\
 &amp; \approx 4.5
 \end{align*}
 </div>
@@ -860,6 +858,8 @@ M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})\\
 17.8 &amp; = \frac{2}{3}\log(M_0)\\
 26.7 &amp; = \log(M_0)\\
 10^{26.7} &amp; = 10^{\log(M_0)}\\
+10^{26.7} &amp; = M_0\\
+5.011872336 \times 10^{26} &amp; \approx M_0\\
 5.01 \times 10^{26} &amp; \approx M_0
 \end{align*}
 </div>
