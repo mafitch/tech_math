@@ -8143,7 +8143,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Ratios",
-  "body": " Trigonometric Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    presented areas of triangles and a relationship between the three sides of a right triangle. This section and the following ones present relationships between angles of triangles and the lengths of their sides.    Angle Relationships in Triangles  The states a relationship between the side lengths of all right triangles. There is also a relationship between the three angles of all (not just right) triangles.   Triangle Angle Sum  The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know the measure of one angle is (right angle) and the measure of another angle is . Thus the third angle must satisfy    For a right triangle each of the other two angles have measure less than a right angle. This is a result of the theorem. so the remaining two angles have a sum that adds to . This implies both non-right angles are smaller than a right angle.    Defining Trig Functions  This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.  For right triangles we have names for the sides. Consider the labels in . These names are relative to the particular non-right angles with which we are working. In this case it is the one labeled . The adjacent is the side that connects the angle and the right angle. The opposite is the side touching the right angle but not touching the angle ( ). Both the adjacent and opposite sides are known as legs of the right triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology     Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.   The trigonometric functions are defined below as ratios of side lengths. We will use only the first three in this text.   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus  From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus     Inverse Trigonometric Functions  The trigonometric functions presented above provide a side ratio given an angle. It is also possible to find the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Function Inverse Function       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . As a result that notation will not be used in this text.   What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.      Solving Triangles  Now that we have defined trigonometric functions, we can use them to analyze triangles. The goal is to find the all of the side lengths and\/or angles given only some of them.   Right Triangle with Labels     A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.     A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.      For a right triangle with angle and corresponding opposite side of length 7, what are the other side lengths and angles?  First, we know that two of the angles are and , so the third angle has measure .  To calculate the length of the hypotenuse recall that . We know the angle and the length of the opposite. The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent. The adjacent has length 5.87.  Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.      Limitations on Triangle Side Lengths  We should always check that results of calculations make sense. This section presents limitations on triangles we can use for these reality checks.  It is possible to define the trigonometric functions as ratios of sides, because there is a connection between how big an angle is, and how big the side across from it must be. The following activity illustrates how the three main trigonometric functions change as the angle increases or decreases because of this connection between angle measure and length of sides.   This activity has two steps. First notice the relationship between the how big an angle is and how long the side opposite that angle is. Second notice how the trig functions change as a result of this first fact. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    While angle size and triangle side length is connected, we can always scale a triangle (e.g., make it twice as large) without changing the angles and hence not changing the trig function values. This is why the trig functions are defined as ratios: the scale is divided out.  Another way to look at this is to recall similar triangles ( ). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle opposite from the side of length 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).    Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?  If is the angle opposite from the side of length 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , call it . Putting these together gives us the following. The last line is included to show how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .   The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.   Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.   For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?  For a right triangle with the longest leg of length 4, how small can the hypotenuse become?      Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    "
+  "body": " Trigonometric Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    presented areas of triangles and a relationship between the three sides of a right triangle. This section and the following ones present relationships between angles of triangles and the lengths of their sides.    Angle Relationships in Triangles  The states a relationship between the side lengths of all right triangles. There is also a relationship between the three angles of all (not just right) triangles.   Triangle Angle Sum  The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know the measure of one angle is (right angle) and the measure of another angle is . Thus the third angle must satisfy    For a right triangle each of the other two angles have measure less than a right angle. This is a result of the theorem. so the remaining two angles have a sum that adds to . This implies both non-right angles are smaller than a right angle.    Defining Trig Functions  This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.  For right triangles we have names for the sides. Consider the labels in . These names are relative to the particular non-right angles with which we are working. In this case it is the one labeled . The adjacent is the side that connects the angle and the right angle. The opposite is the side touching the right angle but not touching the angle ( ). Both the adjacent and opposite sides are known as legs of the right triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology     Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.   The trigonometric functions are defined below as ratios of side lengths. We will use only the first three in this text.   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus  From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus     Solving Triangles  Now that we have defined trigonometric functions, we can use them to analyze triangles. The goal is to calculate all of the side lengths and\/or angles given only some of them.   For a right triangle with angle and corresponding opposite side of length 7, what are the other side lengths and angles?  First, we know that two of the angles are and , so the third angle has measure .  To calculate the length of the hypotenuse recall that . We know the angle and the length of the opposite. The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent. The adjacent has length 5.87.  Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.      Calculating lengths using trig functions  This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.  First, we define terminology we need to describe the applications.   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    Illustrations of Angles of Elevation and Depression    For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and\/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.   For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall? We can measure a tenth of a foot but not very easily measure a hundredth of a foot, especially for placing a ladder.  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall.    We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.    Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.  This forms a right triangle with angle 63 , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high.   Just as in and trigonometric functions and their inverses can be calculated to preserve the same number of significant digits.   Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold? Round to the nearest foot, because aircraft cannot be controlled sufficiently precisely for greater precision to matter here.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold.       Limitations on Triangle Side Lengths  We should always check that results of calculations make sense. This section presents limitations on triangles we can use for these reality checks.  It is possible to define the trigonometric functions as ratios of sides, because there is a connection between how big an angle is, and how big the side across from it must be. The following activity illustrates how the three main trigonometric functions change as the angle increases or decreases because of this connection between angle measure and length of sides.   This activity has two steps. First notice the relationship between the how big an angle is and how long the side opposite that angle is. Second notice how the trig functions change as a result of this first fact. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    While angle size and triangle side length is connected, we can always scale a triangle (e.g., make it twice as large) without changing the angles and hence not changing the trig function values. This is why the trig functions are defined as ratios: the scale is divided out.  Another way to look at this is to recall similar triangles ( ). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle opposite from the side of length 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).    Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?  If is the angle opposite from the side of length 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , call it . Putting these together gives us the following. The last line is included to show how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .   The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.   Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.   For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?  For a right triangle with the longest leg of length 4, how small can the hypotenuse become?      Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length    Identify a triangle in each problem then select an appropriate trigonometric function to answer these application questions.                "
 },
 {
   "id": "theorem-triangle-angle-sum",
@@ -8236,83 +8236,11 @@ var ptx_lunr_docs = [
   "body": " Given the side lengths in what are each of the following trig ratios?  From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus  From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus  "
 },
 {
-  "id": "table-arctrig-names",
-  "level": "2",
-  "url": "section-trig-functions.html#table-arctrig-names",
-  "type": "Table",
-  "number": "7.1.10",
-  "title": "Inverse Trigonometric Functions",
-  "body": " Inverse Trigonometric Functions   Function Inverse Function      "
-},
-{
-  "id": "example-angle-from-inverse-trig",
-  "level": "2",
-  "url": "section-trig-functions.html#example-angle-from-inverse-trig",
-  "type": "Example",
-  "number": "7.1.11",
-  "title": "",
-  "body": " What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .  "
-},
-{
-  "id": "example-side-plus-inverse-trig",
-  "level": "2",
-  "url": "section-trig-functions.html#example-side-plus-inverse-trig",
-  "type": "Example",
-  "number": "7.1.12",
-  "title": "",
-  "body": " A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.  "
-},
-{
-  "id": "exercise-arctrig",
-  "level": "2",
-  "url": "section-trig-functions.html#exercise-arctrig",
-  "type": "Checkpoint",
-  "number": "7.1.13",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "figure-triangle-generic-labels",
-  "level": "2",
-  "url": "section-trig-functions.html#figure-triangle-generic-labels",
-  "type": "Figure",
-  "number": "7.1.14",
-  "title": "",
-  "body": " Right Triangle with Labels   "
-},
-{
-  "id": "example-triangle-solve1",
-  "level": "2",
-  "url": "section-trig-functions.html#example-triangle-solve1",
-  "type": "Example",
-  "number": "7.1.15",
-  "title": "",
-  "body": " A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.  "
-},
-{
-  "id": "example-triangle-solve2",
-  "level": "2",
-  "url": "section-trig-functions.html#example-triangle-solve2",
-  "type": "Example",
-  "number": "7.1.16",
-  "title": "",
-  "body": "  A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.   "
-},
-{
-  "id": "exercise-trig-solve1",
-  "level": "2",
-  "url": "section-trig-functions.html#exercise-trig-solve1",
-  "type": "Checkpoint",
-  "number": "7.1.17",
-  "title": "",
-  "body": ""
-},
-{
   "id": "example-triangle-solve4",
   "level": "2",
   "url": "section-trig-functions.html#example-triangle-solve4",
   "type": "Example",
-  "number": "7.1.18",
+  "number": "7.1.10",
   "title": "",
   "body": " For a right triangle with angle and corresponding opposite side of length 7, what are the other side lengths and angles?  First, we know that two of the angles are and , so the third angle has measure .  To calculate the length of the hypotenuse recall that . We know the angle and the length of the opposite. The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent. The adjacent has length 5.87.  Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.  "
 },
@@ -8320,6 +8248,78 @@ var ptx_lunr_docs = [
   "id": "exercise-triangle-solve5",
   "level": "2",
   "url": "section-trig-functions.html#exercise-triangle-solve5",
+  "type": "Checkpoint",
+  "number": "7.1.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "definition-angle-elevation",
+  "level": "2",
+  "url": "section-trig-functions.html#definition-angle-elevation",
+  "type": "Definition",
+  "number": "7.1.12",
+  "title": "Angle of Elevation.",
+  "body": " Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).  "
+},
+{
+  "id": "definition-angle-depression",
+  "level": "2",
+  "url": "section-trig-functions.html#definition-angle-depression",
+  "type": "Definition",
+  "number": "7.1.13",
+  "title": "Angle of Depression.",
+  "body": " Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).  "
+},
+{
+  "id": "figure-view-angle-illustration",
+  "level": "2",
+  "url": "section-trig-functions.html#figure-view-angle-illustration",
+  "type": "Figure",
+  "number": "7.1.14",
+  "title": "",
+  "body": " Illustrations of Angles of Elevation and Depression   "
+},
+{
+  "id": "example-apply-ladder-height",
+  "level": "2",
+  "url": "section-trig-functions.html#example-apply-ladder-height",
+  "type": "Example",
+  "number": "7.1.15",
+  "title": "",
+  "body": " For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall? We can measure a tenth of a foot but not very easily measure a hundredth of a foot, especially for placing a ladder.  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall.  "
+},
+{
+  "id": "example-apply-ladder-distance",
+  "level": "2",
+  "url": "section-trig-functions.html#example-apply-ladder-distance",
+  "type": "Example",
+  "number": "7.1.16",
+  "title": "",
+  "body": " We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.  "
+},
+{
+  "id": "example-apply-measure-height",
+  "level": "2",
+  "url": "section-trig-functions.html#example-apply-measure-height",
+  "type": "Example",
+  "number": "7.1.17",
+  "title": "",
+  "body": " Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.  This forms a right triangle with angle 63 , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high.  "
+},
+{
+  "id": "example-apply-runway-tch",
+  "level": "2",
+  "url": "section-trig-functions.html#example-apply-runway-tch",
+  "type": "Example",
+  "number": "7.1.18",
+  "title": "",
+  "body": " Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold? Round to the nearest foot, because aircraft cannot be controlled sufficiently precisely for greater precision to matter here.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold.   "
+},
+{
+  "id": "exercise-apply-runway-tch",
+  "level": "2",
+  "url": "section-trig-functions.html#exercise-apply-runway-tch",
   "type": "Checkpoint",
   "number": "7.1.19",
   "title": "",
@@ -8497,272 +8497,263 @@ var ptx_lunr_docs = [
   "body": "Find a side length "
 },
 {
-  "id": "section-trig-functions-8-3-8",
+  "id": "section-trig-functions-8-4-2",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-8-3-8",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-2",
   "type": "Exercise",
   "number": "7.1.6.15",
-  "title": "Find angles and side lengths.",
-  "body": "Find angles and side lengths "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-functions-8-3-9",
+  "id": "section-trig-functions-8-4-3",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-8-3-9",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-3",
   "type": "Exercise",
   "number": "7.1.6.16",
-  "title": "Find angles and side lengths.",
-  "body": "Find angles and side lengths "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-functions-8-3-10",
+  "id": "section-trig-functions-8-4-4",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-8-3-10",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-4",
   "type": "Exercise",
   "number": "7.1.6.17",
-  "title": "Find angles and side lengths.",
-  "body": "Find angles and side lengths "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-applications1",
+  "id": "section-trig-functions-8-4-5",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-5",
+  "type": "Exercise",
+  "number": "7.1.6.18",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-6",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-6",
+  "type": "Exercise",
+  "number": "7.1.6.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-7",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-7",
+  "type": "Exercise",
+  "number": "7.1.6.20",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-8",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-8",
+  "type": "Exercise",
+  "number": "7.1.6.21",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-9",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-9",
+  "type": "Exercise",
+  "number": "7.1.6.22",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-10",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-10",
+  "type": "Exercise",
+  "number": "7.1.6.23",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-11",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-11",
+  "type": "Exercise",
+  "number": "7.1.6.24",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-12",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-12",
+  "type": "Exercise",
+  "number": "7.1.6.25",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-13",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-13",
+  "type": "Exercise",
+  "number": "7.1.6.26",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-inverse-trig",
   "level": "1",
-  "url": "section-trig-applications1.html",
+  "url": "section-inverse-trig.html",
   "type": "Section",
   "number": "7.2",
-  "title": "Using Trig Functions",
-  "body": " Using Trig Functions   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)    This section demonstrates identifying right triangles in applications and applying trigonometric functions to calculate desired information.    Calculating lengths using trig functions  This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.  First, we define terminology we need to describe the applications.   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    Illustrations of Angles of Elevation and Depression    For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and\/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.   For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall?  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall. We rounded to tenths, because measuring a hundredth of a foot is impractical. A half foot (6 ) is easy to measure.    We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.    Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree?  This forms a right triangle with angle 63 , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.   Just as in and trigonometric functions and their inverses can be calculated to preserve the same number of significant digits.   Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold?  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold. We round to the nearest foot, because aircraft cannot be controlled precisely enough for inches to matter.      Calculating angles using trig functions  This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.   If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun?   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. . Significant digits rounding is used because these are from measurements.    An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent?  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. . We round to units, because aircraft instruments will not show anything more precise.      Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application  Trig Application   "
+  "title": "Inverse Trigonometric Relationships",
+  "body": " Inverse Trigonometric Relationships   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    The previous section presented relationships between side lengths and angles and presented solving problems where we know an angle. This section presents examples where we have side lengths and desire to know an angle.    Inverse Trigonometric Functions  The trigonometric functions presented above provide a side ratio given an angle. It is also possible to find the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Function Inverse Function       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . As a result that notation will not be used in this text.   What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles. The roles of adjacent and opposite switch for the two angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.      Solving Triangles  With inverse trigonometric functions we can calculate all side lengths and all angles starting with just side lengths.   A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.     A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.       Calculating angles using trig functions  This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.   If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. . Significant digits rounding is used because these are from measurements.    An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent? Round to units, because aircraft instruments are not more precise.  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. .       Calculate side lengths and angles using trigonometric functions.  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    Use inverse trigonometric functions to answer these questions.  Trig Application  Trig Application  Trig Application    "
 },
 {
-  "id": "definition-angle-elevation",
+  "id": "table-arctrig-names",
   "level": "2",
-  "url": "section-trig-applications1.html#definition-angle-elevation",
-  "type": "Definition",
+  "url": "section-inverse-trig.html#table-arctrig-names",
+  "type": "Table",
   "number": "7.2.1",
-  "title": "Angle of Elevation.",
-  "body": " Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).  "
+  "title": "Inverse Trigonometric Functions",
+  "body": " Inverse Trigonometric Functions   Function Inverse Function      "
 },
 {
-  "id": "definition-angle-depression",
+  "id": "example-angle-from-inverse-trig",
   "level": "2",
-  "url": "section-trig-applications1.html#definition-angle-depression",
-  "type": "Definition",
+  "url": "section-inverse-trig.html#example-angle-from-inverse-trig",
+  "type": "Example",
   "number": "7.2.2",
-  "title": "Angle of Depression.",
-  "body": " Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).  "
+  "title": "",
+  "body": " What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .  "
 },
 {
-  "id": "figure-view-angle-illustration",
+  "id": "example-side-plus-inverse-trig",
   "level": "2",
-  "url": "section-trig-applications1.html#figure-view-angle-illustration",
-  "type": "Figure",
+  "url": "section-inverse-trig.html#example-side-plus-inverse-trig",
+  "type": "Example",
   "number": "7.2.3",
   "title": "",
-  "body": " Illustrations of Angles of Elevation and Depression   "
+  "body": " A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles. The roles of adjacent and opposite switch for the two angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.  "
 },
 {
-  "id": "example-apply-ladder-height",
+  "id": "exercise-arctrig",
   "level": "2",
-  "url": "section-trig-applications1.html#example-apply-ladder-height",
-  "type": "Example",
+  "url": "section-inverse-trig.html#exercise-arctrig",
+  "type": "Checkpoint",
   "number": "7.2.4",
   "title": "",
-  "body": " For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall?  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall. We rounded to tenths, because measuring a hundredth of a foot is impractical. A half foot (6 ) is easy to measure.  "
+  "body": ""
 },
 {
-  "id": "example-apply-ladder-distance",
+  "id": "example-triangle-solve1",
   "level": "2",
-  "url": "section-trig-applications1.html#example-apply-ladder-distance",
+  "url": "section-inverse-trig.html#example-triangle-solve1",
   "type": "Example",
   "number": "7.2.5",
   "title": "",
-  "body": " We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.  "
+  "body": " A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.  "
 },
 {
-  "id": "example-apply-measure-height",
+  "id": "example-triangle-solve2",
   "level": "2",
-  "url": "section-trig-applications1.html#example-apply-measure-height",
+  "url": "section-inverse-trig.html#example-triangle-solve2",
   "type": "Example",
   "number": "7.2.6",
   "title": "",
-  "body": " Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree?  This forms a right triangle with angle 63 , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high. We round using significant digits because this was based on measurements. We do not want to claim a precision about the height which is not valid.  "
+  "body": "  A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.   "
 },
 {
-  "id": "example-apply-runway-tch",
+  "id": "exercise-trig-solve1",
   "level": "2",
-  "url": "section-trig-applications1.html#example-apply-runway-tch",
-  "type": "Example",
-  "number": "7.2.7",
-  "title": "",
-  "body": " Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold?  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold. We round to the nearest foot, because aircraft cannot be controlled precisely enough for inches to matter.  "
-},
-{
-  "id": "exercise-apply-runway-tch",
-  "level": "2",
-  "url": "section-trig-applications1.html#exercise-apply-runway-tch",
+  "url": "section-inverse-trig.html#exercise-trig-solve1",
   "type": "Checkpoint",
-  "number": "7.2.8",
+  "number": "7.2.7",
   "title": "",
   "body": ""
 },
 {
   "id": "example-calculate-angle-sun",
   "level": "2",
-  "url": "section-trig-applications1.html#example-calculate-angle-sun",
+  "url": "section-inverse-trig.html#example-calculate-angle-sun",
   "type": "Example",
-  "number": "7.2.9",
+  "number": "7.2.8",
   "title": "",
-  "body": " If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun?   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. . Significant digits rounding is used because these are from measurements.  "
+  "body": " If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. . Significant digits rounding is used because these are from measurements.  "
 },
 {
   "id": "example-aircraft-descent-angle",
   "level": "2",
-  "url": "section-trig-applications1.html#example-aircraft-descent-angle",
+  "url": "section-inverse-trig.html#example-aircraft-descent-angle",
   "type": "Example",
-  "number": "7.2.10",
+  "number": "7.2.9",
   "title": "",
-  "body": " An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent?  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. . We round to units, because aircraft instruments will not show anything more precise.  "
+  "body": " An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent? Round to units, because aircraft instruments are not more precise.  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. .  "
 },
 {
   "id": "subsection-trig-function-angles-5",
   "level": "2",
-  "url": "section-trig-applications1.html#subsection-trig-function-angles-5",
+  "url": "section-inverse-trig.html#subsection-trig-function-angles-5",
   "type": "Checkpoint",
-  "number": "7.2.11",
+  "number": "7.2.10",
   "title": "",
   "body": ""
 },
 {
-  "id": "section-trig-applications1-5-1",
+  "id": "section-inverse-trig-6-1-2",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-1",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-1-2",
   "type": "Exercise",
-  "number": "7.2.3.1",
+  "number": "7.2.4.1",
+  "title": "Find angles and side lengths.",
+  "body": "Find angles and side lengths "
+},
+{
+  "id": "section-inverse-trig-6-1-3",
+  "level": "2",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-1-3",
+  "type": "Exercise",
+  "number": "7.2.4.2",
+  "title": "Find angles and side lengths.",
+  "body": "Find angles and side lengths "
+},
+{
+  "id": "section-inverse-trig-6-1-4",
+  "level": "2",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-1-4",
+  "type": "Exercise",
+  "number": "7.2.4.3",
+  "title": "Find angles and side lengths.",
+  "body": "Find angles and side lengths "
+},
+{
+  "id": "section-inverse-trig-6-2-2",
+  "level": "2",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-2-2",
+  "type": "Exercise",
+  "number": "7.2.4.4",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-5-2",
+  "id": "section-inverse-trig-6-2-3",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-2",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-2-3",
   "type": "Exercise",
-  "number": "7.2.3.2",
+  "number": "7.2.4.5",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
 {
-  "id": "section-trig-applications1-5-3",
+  "id": "section-inverse-trig-6-2-4",
   "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-3",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-2-4",
   "type": "Exercise",
-  "number": "7.2.3.3",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-4",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-4",
-  "type": "Exercise",
-  "number": "7.2.3.4",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-5",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-5",
-  "type": "Exercise",
-  "number": "7.2.3.5",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-6",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-6",
-  "type": "Exercise",
-  "number": "7.2.3.6",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-7",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-7",
-  "type": "Exercise",
-  "number": "7.2.3.7",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-8",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-8",
-  "type": "Exercise",
-  "number": "7.2.3.8",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-9",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-9",
-  "type": "Exercise",
-  "number": "7.2.3.9",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-10",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-10",
-  "type": "Exercise",
-  "number": "7.2.3.10",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-11",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-11",
-  "type": "Exercise",
-  "number": "7.2.3.11",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-12",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-12",
-  "type": "Exercise",
-  "number": "7.2.3.12",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-13",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-13",
-  "type": "Exercise",
-  "number": "7.2.3.13",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-14",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-14",
-  "type": "Exercise",
-  "number": "7.2.3.14",
-  "title": "Trig Application.",
-  "body": "Trig Application "
-},
-{
-  "id": "section-trig-applications1-5-15",
-  "level": "2",
-  "url": "section-trig-applications1.html#section-trig-applications1-5-15",
-  "type": "Exercise",
-  "number": "7.2.3.15",
+  "number": "7.2.4.6",
   "title": "Trig Application.",
   "body": "Trig Application "
 },
@@ -8773,7 +8764,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Non-Right Triangles",
-  "body": " Non-Right Triangles   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze non-right triangles (skill)    In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.  The one relationship that did not require a right angle is the Theorem.    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.  What is the length of the side opposite the angle? Because we know two angles and a side opposite one of them we can use the law of sines.   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.   For triangle congruency this was known as Angle-Angle-Side.     A triangle has two angles with measure 40 and 60.20 . The side between these two angles has length 7.66.  What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.  The third angle measure is the easiest to calculate, because we can use the angle sum theorem. . Thus .  Now we know an angle ( ) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.  .  We calculate the third side the same way. .  If you recall triangle geometry this was known as Angle-Side-Angle.    The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.   Experiment to Demonstrate the Angle\/Opposite Side Relationship      Use the illustration above to answer the questions below.   Use the slider to set the angle to about 10 . What happens to the length of the opposite side as you increase the angle to 170 ?  Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles? What must be happening to each of the other two angles?  In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step. Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.     Ambiguous Triangles  Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?  We can try to use the Law of Sines. Using the triangle angle sum theorem we learn the other angle measure. or . We use the Law of Sines again to find the length of the final side. This gives us a triangle with angles: 45 , 62.11 , and 72.89 ; and with side lengths: 4, 5, and 5.41.  However, , that is, had multiple possible angles. We will repeat the calulcations above using as the second angle. The third angle is or .  Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.  If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.    Two Possible Triangles       When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.    Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again. Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. so .  For triangle congruency this was known as Side-Side-Side.    A triangle has sides with lengths 5 and 7 and the angle between them is 40 . What are the length of the other side and the measures of the other angles?  Because we have two sides ( ) and the angle between them ( ) we can use the Law of Cosines. Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the triangle angle sum theorem to calculate the final angle. so .  For triangle congruency this was known as Side-Angle-Side.      Using Trigonometric Laws in Applications  When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.   A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position?  First, it helps to sketch an image.   In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).  We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.    Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00 from horizontal. The observer at point B recorded an angle of 34.20 from horizontal. How high above ground was the aircraft?  First, it helps to sketch an image.   How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.  In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20 and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.  That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular  To calculate the angle at the plane (labeled above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is . Now, b So, the angle at the aircraft is .  Now we can apply the Law of Sines.   We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height. This is in miles. It will be easier to interpret in feet. The conversion ratio in suggests we can multiply .     Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
+  "body": " Non-Right Triangles   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze non-right triangles (skill)    In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.  The one relationship that did not require a right angle is the Theorem.    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.  What is the length of the side opposite the angle? Because we know two angles and a side opposite one of them we can use the law of sines.   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.   For triangle congruency this was known as Angle-Angle-Side.     A triangle has two angles with measure 40 and 60.20 . The side between these two angles has length 7.66.  What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.  The third angle measure is the easiest to calculate, because we can use the angle sum theorem. . Thus .  Now we know an angle ( ) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.  .  We calculate the third side the same way. .  If you recall triangle geometry this was known as Angle-Side-Angle.    The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.   Experiment to Demonstrate the Angle\/Opposite Side Relationship      Use the illustration above to answer the questions below.   Use the slider to set the angle to about 10 . What happens to the length of the opposite side as you increase the angle to 170 ?  Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles? What must be happening to each of the other two angles?  In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step. Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.     Ambiguous Triangles  Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?  We can try to use the Law of Sines. Using the triangle angle sum theorem we learn the other angle measure. or . We use the Law of Sines again to find the length of the final side. This gives us a triangle with angles: 45 , 62.11 , and 72.89 ; and with side lengths: 4, 5, and 5.41.  However, , that is, had multiple possible angles. We will repeat the calulcations above using as the second angle. The third angle is or .  Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.  If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.    Two Possible Triangles       When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.    Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again. Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. so .  For triangle congruency this was known as Side-Side-Side.    A triangle has sides with lengths 5 and 7 and the angle between them is 40 . What are the length of the other side and the measures of the other angles?  Because we have two sides ( ) and the angle between them ( ) we can use the Law of Cosines. Now that we know a side and the angle opposite it, we can use the Law of Sines to find the remaining two angles. Finally we can use the triangle angle sum theorem to calculate the final angle. so .  For triangle congruency this was known as Side-Angle-Side.      Using Trigonometric Laws in Applications  When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.   A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.  First, it helps to sketch an image.   In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).  We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.    Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00 from horizontal. The observer at point B recorded an angle of 34.20 from horizontal. How high above ground was the aircraft?  First, it helps to sketch an image.   How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.  In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20 and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.  That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular  To calculate the angle at the plane (labeled above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is . Now, b So, the angle at the aircraft is .  Now we can apply the Law of Sines.   We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height. This is in miles. It will be easier to interpret in feet. The conversion ratio in suggests we can multiply .     Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
 },
 {
   "id": "theorem-law-sines",
@@ -8899,7 +8890,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "7.3.13",
   "title": "",
-  "body": " A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position?  First, it helps to sketch an image.   In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).  We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.  "
+  "body": " A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.  First, it helps to sketch an image.   In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).  We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.  "
 },
 {
   "id": "example-object-height",
@@ -9079,7 +9070,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Sine Wave Properties",
-  "body": " Sine Wave Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Identify properties of sine and cosine functions (skill)    We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.    Beyond Triangles  This section illustrates how trigonometric functions can be defined on angles greater than 180 . In triangles every angle had to be less than 180 because the sum of the angles of a triangle are only 180 . However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180 when we are driving. Use to explore this idea.    Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles     We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine    Now we know what the graph of the sine function looks like and why it looks that way.    Properties of Sine Waves   Graph of Sine    From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a cycle . In the default graph this is from 0 to 360 as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .   The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength (2), and the bottom two sine curves have the same wavelength (1). We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.  The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.   Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of .   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has a frequency of 261.63 Hz?  Because we know the frequency we can directly calculate the period. We round using significant digits because these are scientific measurements.  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.    A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle     Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.   Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is   In applications the wavelength, period\/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.   Identifying Sine Wave Properties    Sine Wave     Another Sine Wave       Consider the sine wave in . The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.      Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.   This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?    This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?    Amplitude and Wavelength      Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Contextless  Application  Contextless   "
+  "body": " Sine Wave Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Identify properties of sine and cosine functions (skill)    We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.    Beyond Triangles  This section illustrates how trigonometric functions can be defined on angles greater than 180 . In triangles every angle had to be less than 180 because the sum of the angles of a triangle are only 180 . However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180 when we are driving. Use to explore this idea.    Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles     We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine    Now we know what the graph of the sine function looks like and why it looks that way.    Properties of Sine Waves   Graph of Sine    From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a cycle . In the default graph this is from 0 to 360 as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .   The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength (2), and the bottom two sine curves have the same wavelength (1). We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.  The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.   Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of .   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.  Because we know the frequency we can directly calculate the period. .  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.    A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle     Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.   Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is   In applications the wavelength, period\/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.   Identifying Sine Wave Properties    Sine Wave     Another Sine Wave       Consider the sine wave in . The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.      Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.   This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?    This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?    Amplitude and Wavelength      Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Contextless  Application  Contextless   "
 },
 {
   "id": "activity-discover-big-angles",
@@ -9196,7 +9187,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "7.4.10",
   "title": "",
-  "body": " What are the period and wavelength of middle C which has a frequency of 261.63 Hz?  Because we know the frequency we can directly calculate the period. We round using significant digits because these are scientific measurements.  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.  "
+  "body": " What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.  Because we know the frequency we can directly calculate the period. .  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.  "
 },
 {
   "id": "example-wave-length-radio",
