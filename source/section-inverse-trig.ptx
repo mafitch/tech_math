@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-inverse-trig" >
+<title>Inverse Trigonometric Relationships</title>
+
+<introduction>
+
+    <p>This section addresses the following topics.
+        <ul>
+            <li>Interpret data in various formats and analyze mathematical models</li>
+            <li>Read and use mathematical models in a technical document</li>
+            <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
+        </ul>
+        This section covers the following mathematical concepts.
+        <ul>
+            <li>Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</li>
+            <li>Analyze right triangles (skill)</li>
+            <li>Identify properties of sine and cosine functions (skill)</li>
+        </ul>
+    </p>
+
+    <p>The previous section presented relationships between side lengths and angles and presented solving problems where we know an angle. This section presents examples where we have side lengths and desire to know an angle.</p>
+
+</introduction>
+
+<subsection xml:id="subsection-inverse-trig">
+    <title>Inverse Trigonometric Functions</title>
+
+    <p>The trigonometric functions presented above provide a side ratio given an angle. It is also possible to find the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in <xref ref="table-arctrig-names" />.</p>
+
+    <table xml:id="table-arctrig-names">
+        <title>Inverse Trigonometric Functions</title>
+
+        <tabular top="medium">
+            <row left="medium" bottom="medium"><cell right="medium">Function</cell><cell colspan="2" right="medium">Inverse Function</cell></row>
+            <row left="medium" bottom="medium"><cell right="medium"><m>\sin \alpha = r</m></cell><cell right="medium"><m>\arcsin r = \alpha</m></cell><cell right="medium"><m>\sin^{-1} r = \alpha</m></cell></row>
+            <row left="medium" bottom="medium"><cell right="medium"><m>\cos \alpha = r</m></cell><cell right="medium"><m>\arccos r = \alpha</m></cell><cell right="medium"><m>\cos^{-1} r = \alpha</m></cell></row>
+            <row left="medium" bottom="medium"><cell right="medium"><m>\tan \alpha = r</m></cell><cell right="medium"><m>\arctan r = \alpha</m></cell><cell right="medium"><m>\tan^{-1} r = \alpha</m></cell></row>
+        </tabular>
+    </table>
+
+    <p>Note the notation <m>\sin^{-1} x</m> shows up on calculator keys and in many books. It is unfortunately easy to confuse with <m>(\sin x)^{-1} = \frac{1}{\sin x} = \csc x</m>. As a result that notation will not be used in this text.</p>
+
+    <example xml:id="example-angle-from-inverse-trig">
+        <p>What is the measure of both non-right angles in <xref ref="figure-trig-function-read" />? Use technology to calculate.</p>
+        <p>We can use the arcsine function. <me>\alpha = \arcsin(3/\sqrt{34}) \approx 31^\circ</me>. <me>\theta = \arcsin(5/\sqrt{34}) \approx 59^\circ</me></p>
+        <p>We can also use the arccosine function. <me>\alpha = \arccos(5/\sqrt{34}) \approx 31^\circ</me>. <me>\theta = \arccos(3/\sqrt{34}) \approx 59^\circ</me></p>
+    </example>
+
+    <example xml:id="example-side-plus-inverse-trig">
+        <statement><p>A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?</p></statement>
+        <solution><p>Because we have the two legs, we can use the arctangent function to calculate the angles. The roles of adjacent and opposite switch for the two angles.
+        <md>
+            <mrow>\arctan\left(\frac{4}{8}\right) \amp \approx 26.57.</mrow>
+            <mrow>\arctan\left(\frac{8}{4}\right) \amp \approx 63.43.</mrow>
+        </md></p></solution>
+        <solution><p>Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.
+        <md>
+            <mrow>4^2+8^2 \amp = c^2.</mrow>
+            <mrow>80 \amp = c^2.</mrow>
+            <mrow>8.944 \amp \approx c.</mrow>
+        </md>
+        <md>
+            <mrow>\arcsin\left(\frac{4}{8.944}\right) \amp \approx 26.57.</mrow>
+            <mrow>\arcsin\left(\frac{8}{8.944}\right) \amp \approx 63.44.</mrow>
+        </md> Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.</p></solution>
+    </example>
+
+    <exercise xml:id="exercise-arctrig">
+<!--        <webwork>
+            <pg-code>
+                Context("TrigDegrees");
+                $a = Compute(random(4,7,1));
+                $b = $a+3;
+                $angleA = Compute("arctan($a/$b)");
+                $angleB = Compute("arctan($b/$a)");
+            </pg-code>
+            <statement>
+                <p>If the leg lengths of a right triangle are <var name="$a"/> and <var name="$b"/>, what are the measures of the angles?</p>
+                <p>Angle opposite side length <var name="$a"/>: <var name="$angleA" width="3" /></p>
+                <p>Angle opposite side length <var name="$b"/>: <var name="$angleB" width="3" /></p>
+            </statement>
+        </webwork> -->
+        <myopenmath problem="1486437" />
+    </exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-solving-triangles2">
+    <title>Solving Triangles</title>
+
+    <p>With inverse trigonometric functions we can calculate all side lengths and all angles starting with just side lengths.</p>
+
+    <example xml:id="example-triangle-solve1">
+        <p>A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?</p>
+        <p>We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.
+        <md>
+            <mrow>12^2+b^2 &amp; = 13^2.</mrow>
+            <mrow>b^2 &amp; = 13^2-12^2.</mrow>
+            <mrow>b^2 &amp; = 25.</mrow>
+            <mrow>b &amp; = 5.</mrow>
+        </md></p>
+        <p>For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle. <me>\arcsin\left(\frac{12}{13}\right) \approx 67^\circ.</me></p>
+        <p>For the angle opposite the side of length 5, we can now use the angle sum theorem.
+            <md>
+                <mrow>90^\circ+67^\circ+B &amp; \approx 180^\circ.</mrow>
+                <mrow>B &amp; \approx 180^\circ-90^\circ-67^\circ.</mrow>
+                <mrow>B &amp; \approx 23^\circ.</mrow>
+            </md>
+        The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.</p>
+    </example>
+
+    <example xml:id="example-triangle-solve2">
+        <introduction>
+            <p>A right triangle has legs of length 14 and 48.</p>
+        </introduction>
+        <task>
+            <statement>
+                <p>What is the length of the other side?</p>
+            </statement>
+            <solution>
+                <p>The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.
+                <md>
+                    <mrow>c^2 &amp; = 14^2+48^2</mrow>
+                    <mrow> &amp; = 2500.</mrow>
+                    <mrow>c &amp; = \sqrt{2500}</mrow>
+                    <mrow> &amp; = 50.</mrow>
+                </md></p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>What are the measures of the angles?</p>
+            </statement>
+            <solution>
+                <p>For the angle opposite the side of length 14 because we know the lengths of both legs, we can use <me>\arctan\left( \frac{14}{48} \right) \approx 16^\circ.</me> We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.</p>
+                <p>For the other angle we can use the angle sum theorem.
+                <md>
+                    <mrow>90^\circ+16^\circ+B &amp; \approx 180^\circ.</mrow>
+                    <mrow>B &amp; \approx 180^\circ-90^\circ-16^\circ.</mrow>
+                    <mrow>B &amp; \approx 74^\circ.</mrow>
+                </md></p>
+            </solution>
+        </task>
+    </example>
+
+    <exercise xml:id="exercise-trig-solve1">
+        <myopenmath problem="1057071" />
+    </exercise>
+
+</subsection>
+
+<subsection xml:id="subsection-trig-function-angles">
+    <title>Calculating angles using trig functions</title>
+
+    <p>This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.</p>
+
+    <example xml:id="example-calculate-angle-sun">
+        <p>If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is <m>12\bar{0}</m> mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.</p>
+        <image source="images/sundial-sun-angle" width="30%" />
+        <p>The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite.
+            <md>
+                <mrow>\tan(\theta) &amp; = \frac{89}{12\bar{0}}.</mrow>
+                <mrow>\theta &amp; = \arctan\left( \frac{89}{12\bar{0}} \right)</mrow>
+                <mrow> &amp; \approx \arctan(0.7\underline{4}16666667)</mrow>
+                <mrow> &amp; \approx 3\underline{6}.56309587</mrow>
+                <mrow> &amp; \approx 37^\circ</mrow>
+            </md>.
+        Significant digits rounding is used because these are from measurements.</p>
+    </example>
+
+    <example xml:id="example-aircraft-descent-angle">
+        <p>An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent? Round to units, because aircraft instruments are not more precise.</p>
+        <p>First, we will need to convert 22 nm to feet. The unit conversions in <xref ref="table-customary-convert"/> suggest we can multiply <m>\frac{6076 \text{ ft}}{1 \text{ nm}} \cdot 22 \text{ nm} = 133672 \text{ ft}</m>.</p>
+        <p>The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000<minus/>9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side.
+            <md>
+                <mrow>\tan(\theta) &amp; = \frac{4000}{133672}.</mrow>
+                <mrow>\theta &amp; = \arctan\left( \frac{4000}{133672} \right)</mrow>
+                <mrow> &amp; \approx \arctan(0.02992399)</mrow>
+                <mrow> &amp; \approx 1.71400703</mrow>
+                <mrow> &amp; \approx 2^\circ</mrow>
+            </md>.
+        </p>
+    </example>
+
+    <exercise>
+        <myopenmath problem="1489024" />
+    </exercise>
+
+</subsection>
+
+<exercises>
+    <exercisegroup>
+        <introduction><p>Calculate side lengths and angles using trigonometric functions.</p></introduction>
+
+        <exercise>
+            <title>Find angles and side lengths</title>
+            <myopenmath problem="1057071" />
+        </exercise>
+
+        <exercise>
+            <title>Find angles and side lengths</title>
+            <myopenmath problem="1057110" />
+        </exercise>
+
+        <exercise>
+            <title>Find angles and side lengths</title>
+            <myopenmath problem="1057112" />
+        </exercise>
+    </exercisegroup>
+
+    <exercisegroup>
+        <introduction><p>Use inverse trigonometric functions to answer these questions.</p></introduction>
+
+        <exercise>
+            <title>Trig Application</title>
+            <myopenmath problem="929531" />
+        </exercise>
+
+        <exercise>
+            <title>Trig Application</title>
+            <myopenmath problem="1057360" />
+        </exercise>
+
+        <exercise>
+            <title>Trig Application</title>
+            <myopenmath problem="1057363" />
+        </exercise>
+    </exercisegroup>
+
+</exercises>
+
+</section>

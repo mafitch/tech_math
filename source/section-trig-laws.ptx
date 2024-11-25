@@ -220,9 +220,9 @@
                 <mrow>0.50009788 \amp \approx \cos(B).</mrow>
                 <mrow>\arccos(0.50009788) \amp \approx B.</mrow>
                 <mrow>59.99352413^\circ \amp \approx B.</mrow>
-                <mrow>60^\circ \amp \approx B.</mrow>
+                <mrow>60.0^\circ \amp \approx B.</mrow>
             </md>
-        Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. <m>40.0^\circ+60^\circ+C=180^\circ</m> so <m>C = 80.00^\circ</m>.</p>
+        Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. <m>40.0^\circ+60.0^\circ+C=180^\circ</m> so <m>C = 80.0^\circ</m>.</p>
         <p>For triangle congruency this was known as Side-Side-Side.</p>
     </example>
 
@@ -241,8 +241,8 @@
                 <mrow>\frac{\sin(40^\circ)}{4.514076761} \amp = \frac{\sin(A)}{5}.</mrow>
                 <mrow>0.71198126 \amp = \sin(A).</mrow>
                 <mrow>\arcsin(0.71198126) \amp = A.</mrow>
-                <mrow>45.39634537 \amp \approx A.</mrow>
-                <mrow>45.4 \amp \approx A.</mrow>
+                <mrow>45.39634537^\circ \amp \approx A.</mrow>
+                <mrow>45.4^\circ \amp \approx A.</mrow>
             </md>
             Finally we can use the triangle angle sum theorem to calculate the final angle.
             <m>40^\circ+45.4^\circ+B = 180^\circ</m> so <m>B=94.6^\circ</m>.
@@ -276,7 +276,7 @@
     <p>When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.</p>
 
     <example xml:id="example-flight-distance">
-        <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from its starting position?</p>
+        <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.</p>
         <p>First, it helps to sketch an image.</p>
         <image source="images/sailboat-course" width="40%" />
         <p>In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).</p>
@@ -301,25 +301,25 @@
         <p>How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.</p>
         <p>In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20<degree/> and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.</p>
         <p>That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular <me>\frac{\sin(P)}{2.3}=\frac{\sin(8.00^\circ)}{c}</me></p>
-        <p>To calculate the angle at the plane (labeled <m>P</m> above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is <m>180^\circ-34.20^\circ = 145.80^\circ = B</m>. Now, b <m>8.00^\circ+145.80^\circ+P = 180^\circ</m> So, the angle at the aircraft is <m>P = 26.2^\circ</m>.</p>
+        <p>To calculate the angle at the plane (labeled <m>P</m> above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is <m>180^\circ-34.20^\circ = 145.80^\circ = B</m>. Now, b <m>8.00^\circ+145.80^\circ+P = 180^\circ</m> So, the angle at the aircraft is <m>P = 26.20^\circ</m>.</p>
         <p>Now we can apply the Law of Sines.
             <md>
-                <mrow>\frac{\sin(8.00^\circ)}{c} &amp; = \frac{\sin(26.2^\circ)}{2.3 \text{ mi}}.</mrow>
-                <mrow>\frac{c}{\sin(8.00^\circ)} &amp; = \frac{2.3 \text{ mi}}{\sin(26.2^\circ)}.</mrow>
-                <mrow>c &amp; = \frac{(2.3 \text{ mi})\sin(8.00^\circ)}{\sin(26.2^\circ)}</mrow>
-                <mrow> &amp; \approx 0.72501447</mrow>
+                <mrow>\frac{\sin(8.00^\circ)}{c} &amp; = \frac{\sin(26.20^\circ)}{2.3 \text{ mi}}.</mrow>
+                <mrow>\frac{c}{\sin(8.00^\circ)} &amp; = \frac{2.3 \text{ mi}}{\sin(26.20^\circ)}.</mrow>
+                <mrow>c &amp; = \frac{(2.3 \text{ mi})\sin(8.00^\circ)}{\sin(26.20^\circ)}</mrow>
+                <mrow> &amp; \approx 0.7\underline{2}501447</mrow>
                 <mrow> &amp; \approx 0.73.</mrow>
             </md>
         </p>
         <p>We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height.
             <md>
-                <mrow>\frac{\sin(34.20^\circ)}{h} &amp; = \frac{\sin(90^\circ)}{0.72501447 \text{ mi}}.</mrow>
-                <mrow>\frac{h}{\sin(34.20^\circ)} &amp; = \frac{0.72501447 \text{ mi}}{\sin(90^\circ)}.</mrow>
-                <mrow>h &amp; = \frac{(0.72501447 \text{ mi})\sin(34.20^\circ)}{\sin(90^\circ)}</mrow>
-                <mrow> &amp; \approx 0.4075185828</mrow>
+                <mrow>\frac{\sin(34.20^\circ)}{h} &amp; = \frac{\sin(90^\circ)}{0.7\underline{2}501447 \text{ mi}}.</mrow>
+                <mrow>\frac{h}{\sin(34.20^\circ)} &amp; = \frac{0.7\underline{2}501447 \text{ mi}}{\sin(90^\circ)}.</mrow>
+                <mrow>h &amp; = \frac{(0.7\underline{2}501447 \text{ mi})\sin(34.20^\circ)}{\sin(90^\circ)}</mrow>
+                <mrow> &amp; \approx 0.4\underline{0}75185828</mrow>
                 <mrow> &amp; \approx 0.41.</mrow>
             </md>
-        This is in miles. It will be easier to interpret in feet. The conversion ratio in <xref ref="table-customary-convert" /> suggests we can multiply <me>(0.40751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2151.6983 \text{ ft} \approx 2200 \text{ ft}</me>.</p>
+        This is in miles. It will be easier to interpret in feet. The conversion ratio in <xref ref="table-customary-convert" /> suggests we can multiply <me>(0.4\underline{0}751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2\underline{1}51.6983 \text{ ft} \approx 2200 \text{ ft}</me>.</p>
     </example>
 
 </subsection>

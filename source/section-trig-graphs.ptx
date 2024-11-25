@@ -154,17 +154,17 @@
     <p>Generally, if the period is <m>T</m> then the frequency is <me>f=\frac{1}{T}.</me></p>
 
     <example xml:id="example-wave-length-sound">
-        <p>What are the period and wavelength of middle C which has a frequency of 261.63 Hz?</p>
+        <p>What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.</p>
         <p>Because we know the frequency we can directly calculate the period.
         <md>
             <mrow>261.63 \amp = \frac{1}{T}</mrow>
             <mrow>T \cdot 261.63 \amp = T \cdot \frac{1}{T}</mrow>
             <mrow>\frac{T \cdot 261.63}{261.33} \amp = \frac{1}{261.33}</mrow>
             <mrow>T \amp = \frac{1}{261.63}</mrow>
-            <mrow> \amp \approx 0.003822191645</mrow>
+            <mrow> \amp \approx 0.003822\underline{1}91645</mrow>
             <mrow> \amp \approx 0.0038222</mrow>
-        </md> We round using significant digits because these are scientific measurements.</p>
-        <p>For the wavelength we need to know that the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows. <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</me></p>
+        </md>.</p>
+        <p>For the wavelength we need to know that the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows. <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.265\underline{5}65875 \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</me></p>
     </example>
 
     <example xml:id="example-wave-length-radio">
@@ -172,9 +172,10 @@
         <solution><p>Because we know the frequency we can directly calculate the period.
         <md>
             <mrow>T \amp = \frac{1}{750.0}</mrow>
+            <mrow> \amp \approx 0.00133\underline{3}333333</mrow>
             <mrow> \amp \approx 0.00133</mrow>
         </md></p>
-        <p>For the wavelength we need to convert units from seconds per cycle to meters per cycle <me>\frac{\text{second}}{750.0} \text{ cycles} \cdot \frac{2.9979 \times 10^8 \text{ m}}{\text{s}} \approx 3.997 \times 10^5 \frac{\text{feet}}{\text{cycle}}.</me></p>
+        <p>For the wavelength we need to convert units from seconds per cycle to meters per cycle <me>\frac{1 \text{ s}}{750.0 \text{ cycles}} \cdot \frac{2.9979 \times 10^8 \text{ m}}{\text{s}} \approx 399\underline{7}20 \frac{\text{feet}}{\text{cycle}} \approx 399700 \frac{\text{m}}{\text{cycle}}.</me></p>
         </solution>
     </example>
 
