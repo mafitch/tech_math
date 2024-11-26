@@ -560,9 +560,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="displaymath process-math" id="example-prism-surface-area-1-2-4">
 \begin{align*}
 (2.12\underline{5})^2+(3.12\underline{5})^2 &amp; = c^2.\\
-4.51\underline{5}625+9.76\underline{5}625 &amp; = c^2. \text{ Squaring maintains 4 sigfigs}\\
-14.28\underline{1}25 &amp; = c^2. \text{ Adding precise to 1000ths}\\
-\sqrt{14.28\underline{1}25} &amp; = c. \text{ Root maintains 5 sigfigs}\\
+4.51\underline{5}625+9.76\underline{5}625 &amp; = c^2. &amp; &amp; \text{ Squaring maintains 4 sigfigs}\\
+14.28\underline{1}25 &amp; = c^2. &amp; &amp; \text{ Adding precise to 1000ths}\\
+\sqrt{14.28\underline{1}25} &amp; = c. &amp; &amp; \text{ Root maintains 5 sigfigs}\\
 3.779\underline{0}5 &amp; \approx c.\\
 3.7791 &amp; \approx c.
 \end{align*}
@@ -692,7 +692,10 @@ V &amp; = \frac{1}{2}\left(\frac{4}{3}\pi(12.9167)^3 \right)\\
 \begin{align*}
 s &amp; = \frac{1}{2}(2.0000+3.1623+3.1623)\\
 &amp; = 4.1623. \text{ All numbers precise to 4 decimal places}. \\
-A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)} \text{ Subtraction maintains 4 decimal places}\\
+A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)}\\
+\end{align*}
+<div class="para intertext">Subtraction maintains 4 decimal places</div>
+\begin{align*}
 &amp; = \sqrt{(4.1623)(1.0000)(1.0000)(2.1623)} \text{ Product will have 5 sigfigs}\\
 &amp; = \sqrt{9.000\underline{1}4129} \text{ Root will maintain 5 sigfigs}\\
 &amp; = 3.000\underline{0}23548\\
@@ -716,9 +719,9 @@ A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)} \text{ Subtraction maintains 4 
 <div class="displaymath process-math" id="example-pyramid-minimal-parameters-6-1">
 \begin{align*}
 \left(\frac{5.31}{2}\right)^2+\left(\frac{3.17}{2}\right)^2 &amp; = c^2.\\
-7.0\underline{4}9025+2.5\underline{1}2225 &amp; = c^2. \text{ Square maintains 3 sigfigs}\\
-9.5\underline{6}125 &amp; = c^2. \text{ Addition maintains precision to 2 places}\\
-\sqrt{9.5\underline{6}125} &amp; = c. \text{ Root maintains 3 sigfigs}\\
+7.0\underline{4}9025+2.5\underline{1}2225 &amp; = c^2. &amp; &amp; \text{ Square maintains 3 sigfigs}\\
+9.5\underline{6}125 &amp; = c^2. &amp; &amp; \text{ Addition maintains precision to 2 places}\\
+\sqrt{9.5\underline{6}125} &amp; = c. &amp; &amp; \text{ Root maintains 3 sigfigs}\\
 3.0\underline{9}21271 &amp; \approx c.\\
 3.09 &amp; \approx c.
 \end{align*}
@@ -727,10 +730,13 @@ A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)} \text{ Subtraction maintains 4 
 <div class="displaymath process-math" id="example-pyramid-minimal-parameters-6-2">
 \begin{align*}
 3.0\underline{9}21271^2 + h^2 &amp; = 9.72^2.\\
-9.5\underline{6}125 + h^2 &amp; = 94.\underline{4}784. \text{ Square maintains 3 sigfigs}\\
+9.5\underline{6}125 + h^2 &amp; = 94.\underline{4}784. &amp; &amp; \text{ Square maintains 3 sigfigs}\\
 h^2 &amp; = 94.\underline{4}784-9.5\underline{6}125. \\
-h^2 &amp; = 84.\underline{9}1715. \text{ Subtraction maintains precision to only one place}\\
-h &amp; = \sqrt{84.\underline{9}1715}. \text{ Root maintains 3 sigfigs}\\
+h^2 &amp; = 84.\underline{9}1715.\\
+\end{align*}
+<div class="para intertext">Subtraction maintains precision to only one place</div>
+\begin{align*}
+h &amp; = \sqrt{84.\underline{9}1715}. &amp; &amp; \text{ Root maintains 3 sigfigs}\\
 h &amp; \approx 9.2\underline{1}505019\\
 h &amp; \approx 9.22.
 \end{align*}
@@ -1021,7 +1027,7 @@ TA &amp; = \sqrt{\left(6.5\right)\left(6.5-3\right)\left(6.5-5\right)^2}\\
 \begin{align*}
 V_c &amp; = \frac{\pi}{3} (1.1875)^2 (7)\\
 &amp; \approx \frac{3.14159}{3} (1.1875)^2 (7)\\
-&amp; \approx 10.33697647.\text{.}
+&amp; \approx 10.33697647\text{.}
 \end{align*}
 </div>
 <div class="para">The volume of the half sphere is</div>
@@ -1029,7 +1035,7 @@ V_c &amp; = \frac{\pi}{3} (1.1875)^2 (7)\\
 \begin{align*}
 V_s &amp; = \frac{1}{2} \cdot \frac{4}{3} \pi (1.1875)^3\\
 &amp; \approx \frac{2}{3}(3.14159)(1.1875)^3\\
-&amp; \approx 3.507188445.
+&amp; \approx 3.507188445\text{.}
 \end{align*}
 </div>
 <div class="para">Thus the total volume of the ice cream is <span class="process-math">\(10.33697647+3.507188445 \approx 13.84416492 \approx 14\)</span> cubic inches.</div>
@@ -1044,7 +1050,7 @@ A_c &amp; = \pi(1.1875)\sqrt{6^2+(1.1875)^2}\\
 &amp; \approx (3.14159)(1.1875)\sqrt{6^2+(1.1875)^2}\\
 &amp; \approx (3.14159)(1.1875)\sqrt{37.410156}\\
 &amp; \approx (3.14159) (1.1875) (6.116384)\\
-&amp; \approx 22.81801626.
+&amp; \approx 22.81801626\text{.}
 \end{align*}
 </div>
 <div class="para">The surface area of the half sphere is <span class="process-math">\(\frac{1}{2} \cdot 4 \pi (1.1875)^2 \approx 8.860265547\text{.}\)</span> Thus the total surface area of the ice cream is <span class="process-math">\(22.81801626+8.860265547 \approx 31.67828181 \approx 32\)</span> square inches.</div>

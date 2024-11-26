@@ -539,10 +539,14 @@ eBookConfig.enable_chatcodes =  false;
 <div class="displaymath process-math" id="example-solve-exponential-algebra1-2-1">
 \begin{align*}
 6.0 &amp; = 10^{\frac{3}{2}(x+10.7)}.\\
-\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right). \text{ log to undo exponential}\\
+\end{align*}
+<div class="para intertext">Use a log to undo an exponential.</div>
+\begin{align*}
+\log(6.0) &amp; = \log\left(10^{\frac{3}{2}(x+10.7)}\right).\\
 \log(6.0) &amp; = \frac{3}{2}(x+10.7).\\
-\frac{2}{3}\log(6.0) &amp; = x+10.7. \text{ Multiplication to undo multiplying by }\frac{3}{2}\\
-\frac{2}{3}\log(6.0)-10.7 &amp; = x. \text{ Subtraction to undo adding } 10.7\\
+\frac{2}{3}\log(6.0) &amp; = x+10.7.\\
+0.51876750 &amp; \approx x+10.7.\\
+0.51876750-10.7 &amp; = x.\\
 -10.18123250 &amp; \approx x.\\
 -10.181 &amp; \approx x.
 \end{align*}
@@ -558,12 +562,16 @@ eBookConfig.enable_chatcodes =  false;
 <div class="displaymath process-math" id="example-solve-exponential-algebra2-2-1">
 \begin{align*}
 13 &amp; = 2+3e^{x-1}.\\
-11 &amp; = 3e^{x-1}. \text{ Subtract to undo }+2\\
-\frac{11}{3} &amp; = e^{x-1} \text{ Divide to undo }3 \cdot\\
-\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right). \text{ log to undo exponential}\\
+11 &amp; = 3e^{x-1}.\\
+\frac{11}{3} &amp; = e^{x-1}\\
+\end{align*}
+<div class="para intertext">Use a ln to undo an exponential.</div>
+\begin{align*}
+\ln\left(\frac{11}{3}\right) &amp; = \ln\left(e^{x-1}\right).\\
 \ln\left(\frac{11}{3}\right) &amp; = x-1.\\
-\ln\left(\frac{11}{3}\right)+1 &amp; = x. \text{ Add to undo }-1\\
-2.299282984 &amp; \approx x.\\
+1.29928298 &amp; = x-1.\\
+1.29928298+1 &amp; = x.\\
+2.29928298 &amp; \approx x.\\
 2.299 &amp; \approx x.
 \end{align*}
 </div>
@@ -648,6 +656,9 @@ eBookConfig.enable_chatcodes =  false;
 \begin{align*}
 14 &amp; = 12+\log(5x)\\
 2 &amp; = \log(5x)\\
+\end{align*}
+<div class="para intertext">Re-write the logarithm as an exponential.</div>
+\begin{align*}
 10^2 &amp; = 5x\\
 100 &amp; = 5x\\
 20 &amp; = x
@@ -684,13 +695,14 @@ e^7-2 &amp; = 3x\\
 <div class="para">To use this model we must first calculate the constant <span class="process-math">\(k\text{.}\)</span> We know the amount doubles every 70 minutes, so we can start with the following.</div>
 <div class="displaymath process-math" id="example-exponential-growth-redux-3-2">
 \begin{align*}
-6.0 &amp; = 3.0e^{7\bar{0} k}\\
-\frac{6.0}{3.0} &amp; = e^{7\bar{0}k}\\
-2.0 &amp; = e^{7\bar{0}k}\\
-\ln(2.0) &amp; = 7\bar{0}k\\
-\frac{\ln(2.0)}{7\bar{0}} &amp; = k\\
-k &amp; \approx 0.009902\\
-&amp; \approx 0.0099.
+6.0 &amp; = 3.0e^{7\bar{0} k}.\\
+\frac{6.0}{3.0} &amp; = e^{7\bar{0}k}.\\
+2.0 &amp; = e^{7\bar{0}k}.\\
+\ln(2.0) &amp; = \ln\left(e^{7\bar{0}k}\right).\\
+\ln(2.0) &amp; = 7\bar{0}k.\\
+\frac{\ln(2.0)}{7\bar{0}} &amp; = k.\\
+k &amp; \approx 0.009902.\\
+&amp; \approx 0.0099\text{.}
 \end{align*}
 </div>
 <div class="para">Using this value we can now calculate the value after 24 hours. Note 24 hours is <span class="process-math">\(24 \cdot 60 = 1440\)</span> minutes.</div>
@@ -858,7 +870,6 @@ M_w &amp; = \frac{2}{3}\log(7.2 \times 10^{22})-10.7\\
 7.1 &amp; = \frac{2}{3}\log(M_0)-10.7\\
 17.8 &amp; = \frac{2}{3}\log(M_0)\\
 26.7 &amp; = \log(M_0)\\
-10^{26.7} &amp; = 10^{\log(M_0)}\\
 10^{26.7} &amp; = M_0\\
 5.011872336 \times 10^{26} &amp; \approx M_0\\
 5.01 \times 10^{26} &amp; \approx M_0
