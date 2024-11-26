@@ -644,9 +644,9 @@ eBookConfig.enable_chatcodes =  false;
 \begin{align*}
 C &amp; = \frac{5}{9}(F-32)\\
 C &amp; = \frac{5}{9}(44.7-32)\\
-&amp; = \frac{5}{9}(12.7) &amp; \text{ Tenths place is last sigfig}\\
-&amp; \approx 7.055555 &amp; 12.7 \text{ has 3 sigfigs}\\
-&amp; \approx 7.06 &amp; \text{Round to 3 sigfigs}
+&amp; = \frac{5}{9}(12.7) \text{ Maintains precisions to tenths place}\\
+&amp; \approx 7.055555 \text{ Maintains 3 sigfigs}\\
+&amp; \approx 7.06 \text{ So, round to 3 sigfigs}
 \end{align*}
 </div>
 <div class="para">In the subtraction step the 32 is exact so the precision is determined by solely 44.7 (tenths place). In the multipication step the 5/9 is exact so the precision is determined by the 12.7 (three significant digits).</div>
@@ -659,11 +659,7 @@ C &amp; = \frac{5}{9}(44.7-32)\\
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.19</span><span class="period">.</span><span class="space"> </span><span class="title">Multi-Step Arithmetic with Significant Digits.</span>
 </h4>
 <div class="para logical" id="example-sigfig-multi1-2">
-<div class="para">Consider</div>
-<div class="displaymath process-math">
-\begin{equation*}
-11,728+39(17.9+1.23).
-\end{equation*}
+<div class="para">Evaluate <span class="process-math">\(11,728+39(17.9+1.23)\text{.}\)</span>
 </div>
 <div class="displaymath process-math" id="example-sigfig-multi1-2-2">
 \begin{align*}
@@ -689,10 +685,10 @@ C &amp; = \frac{5}{9}(44.7-32)\\
 <div class="displaymath process-math" id="example-sigfig-multi2-1-3">
 \begin{align*}
 2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(2\underline{1}-\underline{5}-\underline{4}) &amp; =\\
-2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(1\underline{2}) &amp; = \text{ all numbers are precise to the ones position}\\
-\underline{1}89 - \underline{5}4 &amp; = \text{ only one significant digit remains in both numbers because 9 has only one}\\
-\underline{1}35 &amp; \approx \text{ 189 was precise to only the hundreds position}\\
-100. &amp; &amp; \text{So we round to the hundreds.}
+2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(1\underline{2}) &amp; = \text{ Subtraction maintains precision to units}\\
+\underline{1}89 - \underline{5}4 &amp; = \text{ Multiplication maintains only 1 sigfig}\\
+\underline{1}35 &amp; \approx \text{ Subtraction maintains only to hundreds}\\
+100. \text{ So we round to the hundreds.}
 \end{align*}
 </div>
 </div>

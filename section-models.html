@@ -666,10 +666,11 @@ PV = nRT
 <div class="para">Suppose the initial conditions are <span class="process-math">\(P_1=101.3 \text{ Pa}\text{,}\)</span> <span class="process-math">\(V_1=0.125 \text{ m}^3\text{,}\)</span> and <span class="process-math">\(T_1=10.2^\circ \text{ C}\text{.}\)</span> Also <span class="process-math">\(V_2=0.125 \text{ m}^3\)</span> and <span class="process-math">\(T_2=50.7^\circ \text{ C}\text{.}\)</span> Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding.</div>
 <div class="displaymath process-math" id="example-formula-gas-law-1-6">
 \begin{align*}
-\frac{101.3 \cdot 0.125}{10.2+273} \amp = \frac{P_2 \cdot 0.125}{50.7+273}\\
-\frac{12.\underline{6}625}{283.\underline{2}} \amp = \frac{P_2 \cdot 0.125}{323.\underline{7}}\\
-0.044\underline{7}122 \amp \approx 0.00038\underline{6}160 P_2\\
-\frac{0.044\underline{7}122}{0.00038\underline{6}160} \amp \approx \frac{0.00038\underline{6}160 P_2}{0.00038\underline{6}160}\\
+\frac{101.3 \cdot 0.125}{10.2+273} \amp = \frac{P_2 \cdot 0.125}{50.7+273} \text{ Addition maintains precision to tenths}\\
+\frac{101.3 \cdot 0.125}{10.2+273} \amp = \frac{P_2 \cdot 0.125}{323.\underline{7}} \text{ Multiplication maintains 3 sigfigs}\\
+\frac{12.\underline{6}625}{283.\underline{2}} \amp = \frac{P_2 \cdot 0.125}{323.\underline{7}} \text{ Division maintains 3 sigfigs}\\
+0.044\underline{7}122 \amp \approx 0.00038\underline{6}160 P_2 \text{ Divide to isolate } P_2\\
+\frac{0.044\underline{7}122}{0.00038\underline{6}160} \amp \approx \frac{0.00038\underline{6}160 P_2}{0.00038\underline{6}160} \text{ Division maintains 3 sigfigs}\\
 11\underline{5}.786721 \amp \approx P_2\\
 116 \amp \approx P_2\text{.}
 \end{align*}
@@ -705,10 +706,10 @@ PV = nRT
 <div class="para logical" id="example-model-solve-lift-cl-2"><div class="displaymath process-math" id="example-model-solve-lift-cl-2-1">
 \begin{align*}
 L &amp; = \frac{1}{2}\rho s C_L v^2\\
-239\bar{0} &amp; = \frac{1}{2}(0.001869)(165)C_L(91.1)^2. &amp; \text{Perform arithmetic.}\\
-239\bar{0} &amp; = 12\underline{7}9.675938 C_L.\\
-\frac{239\bar{0}}{12\underline{7}9.675938} &amp; = \frac{12\underline{7}9.675938 C_L}{12\underline{7}9.675938} &amp; \text{ undo multiplication}.\\
-1.8\underline{6}7660342 &amp; = C_L.\\
+239\bar{0} &amp; = \frac{1}{2}(0.001869)(165)C_L(91.1)^2. \text{ Multiply.}\\
+239\bar{0} &amp; \approx 12\underline{7}9.675938 C_L. \text{ Multiplication maintains 3 sigfigs}\\
+\frac{239\bar{0}}{12\underline{7}9.675938} &amp; \approx \frac{12\underline{7}9.675938 C_L}{12\underline{7}9.675938} \text{ Divide to isolate } C_L.\\
+1.8\underline{6}7660342 &amp; \approx C_L. \text{ Division maintains 3 sigfigs}\\
 1.87 &amp; \approx C_L.
 \end{align*}
 </div></div></article><div class="para" id="subsection-models-solving-one-5">The desired value from the model may be in a denominator. We can solve for this using multiplication and division.</div>
@@ -722,20 +723,20 @@ L &amp; = \frac{1}{2}\rho s C_L v^2\\
 \frac{P_1 V_1}{T_1+273} = \frac{P_2 V_2}{T_2+273}.
 \end{equation*}
 </div>
-<div class="para">Suppose we know the initial conditions (<span class="process-math">\(P_1=1.00\)</span> atm, <span class="process-math">\(V_1=1.35 \text{ ft}^3\text{,}\)</span> <span class="process-math">\(T_1=51.2^\circ\)</span> F) and also <span class="process-math">\(P_2=1.00\)</span> atm and <span class="process-math">\(V_2=1.39 \text{ ft}^3\text{.}\)</span> What must the new temperature (<span class="process-math">\(T_2\)</span>) be? This is a science model with measurements so we will use significant digits rounding.</div>
+<div class="para">Suppose we know the initial conditions (<span class="process-math">\(P_1=1.00\)</span> atm, <span class="process-math">\(V_1=1.35 \text{ ft}^3\text{,}\)</span> <span class="process-math">\(T_1=51.2^\circ\)</span> F) and also <span class="process-math">\(P_2=1.00\)</span> atm and <span class="process-math">\(V_2=1.39 \text{ ft}^3\text{.}\)</span> What must the new temperature (<span class="process-math">\(T_2\)</span>) be? This is a science model with measurements, so we will use significant digits rounding.</div>
 </div>
 <div class="para logical" id="example-model-solve-gas-temp-2"><div class="displaymath process-math" id="example-model-solve-gas-temp-2-1">
 \begin{align*}
 \frac{1.00 \cdot 1.35}{51.2+273} &amp; = \frac{1.00 \cdot 1.39}{T_2+273}. \text{ Perform arithmetic}\\
 \frac{1.3\underline{5}}{324.\underline{2}} &amp; = \frac{1.3\underline{9}}{T_2+273}. \text{ More arithmetic}\\
-0.0041\underline{6}4096237 &amp; = \frac{1.3\underline{9}}{T_2+273}. \text{ Multiply to move } T_2 \text{ out of denominator.}\\
-0.0041\underline{6}4096237(T_2+273) &amp; = \frac{1.3\underline{9}}{T_2+273}(T_2+273).\\
-0.0041\underline{6}4096237(T_2+273) &amp; = 1.3\underline{9}.  \text{ Divide to undo multiplication.}\\
-\frac{0.0041\underline{6}4096237(T_2+273)}{0.0041\underline{6}4096237} &amp; = \frac{1.3\underline{9}}{0.0041\underline{6}4096237}.\\
-T_2+273 &amp; = 33\underline{3}.8059259.  \text{ Subtract to undo addition.}\\
-T_2+273-273 &amp; = 33\underline{3}.8059259-273.\\
-T_2 &amp; = 6\underline{0}.8059259.\\
-T_2 &amp; = 61.
+0.0041\underline{6}40962 &amp; \approx \frac{1.3\underline{9}}{T_2+273}. \text{ Multiply to move } T_2 \text{ out of denominator.}\\
+0.0041\underline{6}40962(T_2+273) &amp; \approx \frac{1.3\underline{9}}{T_2+273}(T_2+273).\\
+0.0041\underline{6}40962(T_2+273) &amp; \approx 1.3\underline{9}.  \text{ Divide to undo multiplication.}\\
+\frac{0.0041\underline{6}40962(T_2+273)}{0.0041\underline{6}40962} &amp; \approx \frac{1.3\underline{9}}{0.0041\underline{6}40962}. \text{ Division maintains 3 sigfigs}\\
+T_2+273 &amp; \approx 33\underline{3}.80593.  \text{ Subtract to undo addition.}\\
+T_2+273-273 &amp; \approx 33\underline{3}.8059259-273.\\
+T_2 &amp; \approx 6\underline{0}.80593. \text{ Subtraction maintains precision to units}\\
+T_2 &amp; \approx 61.
 \end{align*}
 </div></div>
 <div class="para" id="example-model-solve-gas-temp-3">Note we use significant digits for rounding because this is a science model.</div></article><div class="para" id="subsection-models-solving-one-7">The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.</div>
