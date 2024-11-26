@@ -25,7 +25,7 @@
     <p>The first method is for very simple quadratics of the form <m>ax^2+c=0.</m> Notice that there is no linear term in <m>x</m>. This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.</p>
 
     <example xml:id="example-solve-quadratic-inversion">
-        <p>Find all solutions to <m>10-21x^2=0</m>. Round solutions to 2 decimal places.</p>
+        <p>Identify all solutions to <m>10-21x^2=0</m>. Round solutions to 2 decimal places.</p>
         <p>We can solve this by undoing each operation.
             <md>
                 <mrow>10-21x^2 \amp = 0. &amp; &amp; \text{Subtract to isolate} x</mrow>
@@ -42,7 +42,7 @@
     </example>
 
     <example xml:id="example-solve-quadratic-inversion2">
-        <statement><p>Find all solutions to <m>7(x-3)^2-4=0</m>. Round solutions to 2 decimal places.</p></statement>
+        <statement><p>Identify all solutions to <m>7(x-3)^2-4=0</m>. Round solutions to 2 decimal places.</p></statement>
         <solution><p>We can solve this by undoing each operation.
             <md>
                 <mrow>7(x-3)^2-4 \amp = 0.</mrow>
@@ -60,7 +60,7 @@
     <exercise xml:id="exercise-quadratic-inversion">
 <!--        <webwork>
             <statement>
-                <p>Find the solutions to <m>6(x-2)^2-24=0</m>.</p>
+                <p>Identify the solutions to <m>6(x-2)^2-24=0</m>.</p>
                 <p>Largest solution: <var name="'4'" width="4" /></p>
                 <p>Smallest solution: <var name="'0'" width="4" /></p>
             </statement>
@@ -135,7 +135,7 @@
     <p>When the quadratic has more than a square term, e.g., <m>11x^2+32x-3=0</m> we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For <m>ax^2+bx+c=0</m> the solutions are given by <me>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.</me></p>
 
     <example xml:id="example-solve-quadratic-formula">
-        <p>Find all solutions to <m>11x^2+32x-3=0</m>.</p>
+        <p>Identify all solutions to <m>11x^2+32x-3=0</m>.</p>
         <p>We note that <m>a=11</m>, <m>b=32</m>, <m>c=-3</m>.
         <md>
             <mrow>x &amp; = \frac{-32 \pm \sqrt{(32)^2-4(11)(-3)}}{2(11)}</mrow>
@@ -149,7 +149,7 @@
     <exercise xml:id="exercise-quadratic-formula">
 <!--        <webwork>
             <statement>
-                <p>Find the solutions to <m>8x^2-30x+25=0</m>.</p>
+                <p>Identify the solutions to <m>8x^2-30x+25=0</m>.</p>
                 <p>Largest solution: <var name="'5/2'" width="4" /></p>
                 <p>Smallest solution: <var name="'5/4'" width="4" /></p>
             </statement>

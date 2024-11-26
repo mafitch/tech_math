@@ -165,7 +165,7 @@
     </exercise>
 
     <exercise xml:id="exercise-rational-parallel-resistors-thought">
-        <statement><p>If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, can we find a second resistor to make this work? Explain.</p></statement>
+        <statement><p>If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain.</p></statement>
     </exercise>
 
 </subsection>
@@ -179,7 +179,7 @@
         <title>Joint Work: Draining Basement</title>
 
         <p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p>
-        <p>The question is how to find the speed of the combined pumps. Adding a pump would increase the speed; we want to find a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
+        <p>The question is how to calculate the speed of the combined pumps. Adding a pump would increase the speed; we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
         <md>
             <mrow>\frac{1 \text{ basement}}{4 \text{ hours}} + \frac{1 \text{ basement}}{3 \text{ hours}} &amp; = \text{ Need a common denominator}</mrow>
             <mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3 \text{ hours}} &amp; = \text{ Scaling accomplishes this}</mrow>
@@ -207,7 +207,7 @@
                 <mrow>\frac{1 \text{ room}}{11 \text{ minutes}} \cdot \frac{13}{13} +\frac{1 \text{ room}}{13 \text{ minutes}} \cdot \frac{11}{11} &amp; = \text{this scales the rates}</mrow>
                 <mrow>\frac{13 \text{ rooms}}{143 \text{ minutes}}+\frac{11 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{24 \text{ rooms}}{143 \text{ minutes}}.</mrow>
             </md></p>
-        <p>After calculating the rate, the next step was setting up the proportion. In this case we want to find the time to clean 27 rooms.
+        <p>After calculating the rate, the next step was setting up the proportion. In this case we want to calculate the time to clean 27 rooms.
             <md>
                 <mrow>\frac{24 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{27 \text{ rooms}}{N \text{ minutes}}.</mrow>
                 <mrow>\frac{143 \text{ minutes}}{24 \text{room}} &amp; = \frac{N \text{ minutes}}{27 \text{ rooms}}.</mrow>

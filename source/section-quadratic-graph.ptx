@@ -229,7 +229,7 @@
     <p>The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.</p>
 
     <example xml:id="example-quadratic-standard-vertex">
-        <p>Find the vertex of <m>y=2x^2-11x+12</m>. All numbers are exact.</p>
+        <p>Determine the coordinates of the vertex of <m>y=2x^2-11x+12</m>. All numbers are exact.</p>
         <p>Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to <m>2x^2-11x+12 = 0</m>. We can solve this using the quadratic formula.
             <md>
                 <mrow>x &amp; = \frac{-(-11) \pm \sqrt{(-11)^2-4(2)(12)}}{2(2)}</mrow>
@@ -238,13 +238,13 @@
                 <mrow> &amp; = \frac{11 \pm 5}{4}</mrow>
                 <mrow> &amp; = 4, 1.5</mrow>
             </md>
-        To find what is half way in between we average these two values.
+        To calculate what is half way in between we average these two values.
             <md>
                 <mrow>x &amp; = \frac{4+1.5}{2}</mrow>
                 <mrow> &amp; = \frac{5.5}{2}</mrow>
                 <mrow> &amp; = 2.75.</mrow>
             </md>
-        Thus the x-coordinate of the vertex is 2.75. To find the y-coordinate we substitute the x value into the quadratic.
+        Thus the x-coordinate of the vertex is 2.75. To calculate the y-coordinate we substitute the x value into the quadratic.
             <me>2(2.75)^2-11(2.75)+12 = -3.125.</me></p>
     </example>
 
@@ -272,7 +272,7 @@
             </introduction>
             <task>
                 <p>Determine when the object strikes the ground. The ground is at height 0.</p>
-                <p>We can find this by solving the following equation.
+                <p>We can determine this by solving the following equation.
                     <md>
                         <mrow>-4.9t^2+1.0 &amp; = 0.</mrow>
                         <mrow>-4.9t^2 &amp; = -1.0.</mrow>
@@ -297,7 +297,7 @@
             </introduction>
             <task>
                 <p>Determine when the object strikes the ground. The ground is at height 0.</p>
-                <p>We can find this by solving the <m>-4.9t^2+5.1t+1.2=0</m>. To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths.
+                <p>We can determine this by solving the <m>-4.9t^2+5.1t+1.2=0</m>. To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths.
                     <md>
                         <mrow>t &amp; = \frac{-(5.1) \pm \sqrt{(5.1)^2-4(-4.9)(1.2)}}{2(-4.9)}</mrow>
                         <mrow> &amp; = \frac{-5.1 \pm \sqrt{2\underline{6}.01+2\underline{3}.52}}{-9.8} \text{ Products maintains 2 sigfigs}</mrow>
@@ -312,7 +312,7 @@
             <task>
                 <p>Determine the maximum height the object reached.</p>
                 <p>This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in <xref ref="example-quadratic-standard-vertex" />.</p>
-                <p>We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to find the vertex. The time at which the maximum height occurs is <me>\frac{-0.1\underline{9}77301351+1.\underline{2}38546461}{2} \approx 0.5\underline{2}0408163 \approx 0.52</me>. The height at that time is
+                <p>We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is <me>\frac{-0.1\underline{9}77301351+1.\underline{2}38546461}{2} \approx 0.5\underline{2}0408163 \approx 0.52</me>. The height at that time is
                 <md>
                     <mrow>-4.9(0.5\underline{2}0408163)^2+5.1(0.5\underline{2}0408163)+1.2 &amp; \approx \text{ Products maintain 2 sigfigs}</mrow>
                     <mrow>-1.\underline{3}27040815+2.\underline{6}54081631+1.2 &amp; \approx \text{ Sum maintains to 10ths}</mrow>

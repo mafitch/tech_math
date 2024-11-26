@@ -216,7 +216,7 @@
         <introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by <me>P=P_0 e^{kt}</me>. <m>P_0</m> is the initial amount of material. <m>P</m> is the amount left after <m>t</m> units of time. <m>k</m> is a constant that is derives from the speed how fast the material decays. </p></introduction>
         <task>
             <statement><p>Write the model for Plutonium-241.</p></statement>
-            <solution><p>We must first find <m>k</m>. We can use <xref ref="example-solve-exponential-algebra1" /> as an example.
+            <solution><p>We must first calculate <m>k</m>. We can use <xref ref="example-solve-exponential-algebra1" /> as an example.
             <md>
                 <mrow>5.0 &amp; = 10.0 e^{k(14.4)}</mrow>
                 <mrow>\frac{1}{2.0} &amp; = e^{k(14.4)}</mrow>
@@ -265,7 +265,7 @@
 
     <example xml:id="example-pH">
         <task>
-            <p>A solution of hydrochloric acid has a concentration of 0.0025. Find its pH.</p>
+            <p>A solution of hydrochloric acid has a concentration of 0.0025. Calculate its pH.</p>
             <p><md>
                     <mrow>\text{pH} &amp; = -\log(0.0025)</mrow>
                     <mrow> &amp; \approx 2.6.</mrow>
