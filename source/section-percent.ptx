@@ -68,10 +68,11 @@
         <p>In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?</p>
         <p>We use the same setup as before, but we do not know the part yet.
         <md>
-            <mrow>100 \cdot \frac{P}{22} &amp; = 18\%</mrow>
-            <mrow>\frac{P}{22} &amp; = \frac{18}{100}</mrow>
-            <mrow>P &amp; = 22 \cdot \frac{18}{100}</mrow>
-            <mrow> &amp; \approx 3.96.</mrow>
+            <mrow>100 \cdot \frac{P}{22} &amp; = 18\% \text{ Divide to isolate } P</mrow>
+            <mrow>\frac{P}{22} &amp; = \frac{18}{100} \text{ Multiply to isolate } P</mrow>
+            <mrow>\frac{P}{22} &amp; = 0.18</mrow>
+            <mrow>P &amp; = 22 \cdot 0.18</mrow>
+            <mrow> &amp; = 3.96.</mrow>
         </md></p>
         <p>Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that
         <md>
@@ -118,7 +119,9 @@
             <md>
                 <mrow>\frac{\text{part}}{\text{whole}} &amp; = \text{percent}.</mrow>
                 <mrow>\frac{2}{W} &amp; = 0.0625.</mrow>
+                <mrow>\frac{2}{W} \cdot W &amp; = 0.0625 \cdot W. \text{ Move } W \text{ out of the denominator}</mrow>
                 <mrow>2 &amp; = 0.0625 \cdot W.</mrow>
+                <mrow>\frac{2}{0.0625} &amp; = \frac{0.0625 \cdot W}{0.0625}. \text{ Divide to isolate } W</mrow>
                 <mrow>\frac{2}{0.0625} &amp; = W.</mrow>
                 <mrow>32 &amp; = W.</mrow>
             </md></p>
