@@ -112,14 +112,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.5';
+eBookConfig.runestone_version = '7.4.7';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.a28db57f2b9be365.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.0143ee6c5ca7e162.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<script src="_static/prefix-runtime.92e98c7360cdb150.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.2e9039c7e9bfc458.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.82759e13f7f711fa.css">
 <style>
 #preface-student-6-1 { counter-set: preface-student-6-1 0; }
@@ -578,34 +578,34 @@ A+B = 10.0.
 <div class="para" id="example-cross-when-2">We could make a table.</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
-<td class="l m b0 r0 l0 t0 lines">Year</td>
-<td class="l m b0 r0 l0 t0 lines">Vasya</td>
-<td class="l m b0 r0 l0 t0 lines">Pyotr</td>
+<td class="l m b2 r2 l2 t2 lines">Year</td>
+<td class="l m b2 r2 l0 t2 lines">Vasya</td>
+<td class="l m b2 r2 l0 t2 lines">Pyotr</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2012</td>
-<td class="l m b0 r0 l0 t0 lines">$62,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$67,242.33</td>
+<td class="l m b2 r2 l2 t0 lines">2012</td>
+<td class="l m b2 r2 l0 t0 lines">$62,347.23</td>
+<td class="l m b2 r2 l0 t0 lines">$67,242.33</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2013</td>
-<td class="l m b0 r0 l0 t0 lines">$67,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$70,742.33</td>
+<td class="l m b2 r2 l2 t0 lines">2013</td>
+<td class="l m b2 r2 l0 t0 lines">$67,347.23</td>
+<td class="l m b2 r2 l0 t0 lines">$70,742.33</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2014</td>
-<td class="l m b0 r0 l0 t0 lines">$72,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$74,242.33</td>
+<td class="l m b2 r2 l2 t0 lines">2014</td>
+<td class="l m b2 r2 l0 t0 lines">$72,347.23</td>
+<td class="l m b2 r2 l0 t0 lines">$74,242.33</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2015</td>
-<td class="l m b0 r0 l0 t0 lines">$77,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$77,742.33</td>
+<td class="l m b2 r2 l2 t0 lines">2015</td>
+<td class="l m b2 r2 l0 t0 lines">$77,347.23</td>
+<td class="l m b2 r2 l0 t0 lines">$77,742.33</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">2016</td>
-<td class="l m b0 r0 l0 t0 lines">$82,347.23</td>
-<td class="l m b0 r0 l0 t0 lines">$81,242.33</td>
+<td class="l m b2 r2 l2 t0 lines">2016</td>
+<td class="l m b2 r2 l0 t0 lines">$82,347.23</td>
+<td class="l m b2 r2 l0 t0 lines">$81,242.33</td>
 </tr>
 </table></div>
 <div class="para" id="example-cross-when-4">We see that is in 2016 that Vasya is first paid more.</div>
@@ -629,16 +629,24 @@ A+B &amp; = 10.0.\\
 <div class="para">Notice we can solve the first equation for <span class="process-math">\(B\text{,}\)</span> then substitute it into the second. The result is a single equation with only one variable. We already know how to solve that one.</div>
 <div class="displaymath process-math" id="example-dual-mixture-solve-2-2">
 \begin{align*}
-B &amp; = 10.0-A.\\
-(0.91)A+(0.75)(10.0-A) &amp; = 8.5.\\
-(0.91)A+7.5-(0.75)A &amp; = 8.5.\\
+A+B &amp; = 10.0.\\
+B &amp; = 10.0-A.
+\end{align*}
+</div>
+<div class="displaymath process-math" id="example-dual-mixture-solve-2-3">
+\begin{align*}
+(0.91)A+(0.75)B &amp; = 8.5.\\
+(0.91)A+(0.75)(10.0-A) &amp; = 8.5. &amp; &amp; \text{Substitute B from above}\\
+(0.91)A+7.5-(0.75)A &amp; = 8.5. &amp; &amp; \text{Distribute}\\
+(0.91)A-(0.75)A &amp; = 8.5-7.5.\\
+(0.91-0.75)A &amp; = 1.0.\\
 (0.16)A &amp; = 1.0.\\
 A &amp; = \frac{1.0}{0.16}\\
 &amp; = 6.25.
 \end{align*}
 </div>
 <div class="para">Now that we know that <span class="process-math">\(A = 6.25\)</span> we can substitute that into <span class="process-math">\(A+B=10.0.\)</span> This gives us</div>
-<div class="displaymath process-math" id="example-dual-mixture-solve-2-5">
+<div class="displaymath process-math" id="example-dual-mixture-solve-2-6">
 \begin{align*}
 A+B &amp; = 10.0.\\
 6.25+B &amp; = 10.0.\\
@@ -669,14 +677,18 @@ A+B &amp; = 10.0.\\
 </div>
 </div>
 <div class="para logical" id="example-dual-mixture-eliminate-2">
-<div class="para">In the second line below notice how we modify the first equation to partially match the second one.</div>
+<div class="para">In the second line below notice how we modify the first equation to partially match the second one by scaling it.</div>
 <div class="displaymath process-math" id="example-dual-mixture-eliminate-2-1">
 \begin{align*}
-A+B &amp; = 10.0.\\
--(0.91)(A+B) &amp; = -(0.91)10.0.\\
--(0.91)A-(0.91)B &amp; = -9.1.\\
-(0.91)A+(0.75)B &amp; = 8.5.\\
--(0.16)B &amp; = -0.6.\\
+A+B &amp; = 10.0. &amp; &amp; \text{Original equation 1}\\
+-(0.91)(A+B) &amp; = -(0.91)10.0. &amp; &amp; \text{Scale to match 2nd equation}\\
+-(0.91)A-(0.91)B &amp; = -9.1. &amp; &amp; \text{Distribute}\\
+\end{align*}
+<div class="para intertext">Now add the two equations.</div>
+\begin{align*}
+-(0.91)A-(0.91)B &amp; = -9.1. &amp; &amp; \text{Scaled equation 1}\\
+(0.91)A+(0.75)B &amp; = 8.5. &amp; &amp; \text{Original equation 2}\\
+-(0.16)B &amp; = -0.6. &amp; &amp; \text{Result of adding previous 2 lines}\\
 B &amp; = \frac{-0.6}{-0.16}\\
 &amp; = 3.75.
 \end{align*}

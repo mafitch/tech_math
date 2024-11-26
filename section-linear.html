@@ -112,14 +112,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.5';
+eBookConfig.runestone_version = '7.4.7';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.a28db57f2b9be365.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.0143ee6c5ca7e162.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<script src="_static/prefix-runtime.92e98c7360cdb150.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.2e9039c7e9bfc458.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.82759e13f7f711fa.css">
 <style>
 #preface-student-6-1 { counter-set: preface-student-6-1 0; }
@@ -749,10 +749,10 @@ s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C\text{.}
 </h4>
 <div class="para" id="example-linear-model-pressure-drop-1">At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). To produce a model for pressure decrease we will start by calculating the pressure for a couple specific cases.</div>
 <div class="para" id="example-linear-model-pressure-drop-2">If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?</div>
-<div class="para" id="example-linear-model-pressure-drop-3">The pressure drop is a ratio <span class="process-math">\(\frac{1 \text{ inHg}}{1000 \text{ ft}}\text{.}\)</span> The units suggest we can multiply <span class="process-math">\(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}\text{.}\)</span> This is the drop in pressure. To calculate the resulting pressure we need <span class="process-math">\(29.76 \text{ inHg} - 4.5^\circ \text{ inHg} = 25.26 \text{ inHg}\text{.}\)</span> We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <span class="process-math">\(T = 29.76-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). \)</span>
+<div class="para" id="example-linear-model-pressure-drop-3">The pressure drop is a ratio <span class="process-math">\(\frac{1 \text{ inHg}}{1000 \text{ ft}}\text{.}\)</span> The units suggest we can multiply <span class="process-math">\(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}\text{.}\)</span> This is the drop in pressure. To calculate the resulting pressure we need <span class="process-math">\(29.76 \text{ inHg} - 4.5^\circ \text{ inHg} = 25.26 \text{ inHg}\text{.}\)</span> We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <span class="process-math">\(T = 29.76 \text{ inHg}-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). \)</span>
 </div>
 <div class="para" id="example-linear-model-pressure-drop-4">If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?</div>
-<div class="para" id="example-linear-model-pressure-drop-5">The pressure drop is a ratio <span class="process-math">\(\frac{1 \text{ inHg}}{1000 \text{ ft}}\text{.}\)</span> The units suggest we can multiply <span class="process-math">\(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}\text{.}\)</span> This is the drop in pressure. To calculate the resulting pressure we need <span class="process-math">\(30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}\text{.}\)</span> Written as one calculation this is <span class="process-math">\(P = 30.02-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). \)</span>
+<div class="para" id="example-linear-model-pressure-drop-5">The pressure drop is a ratio <span class="process-math">\(\frac{1 \text{ inHg}}{1000 \text{ ft}}\text{.}\)</span> The units suggest we can multiply <span class="process-math">\(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}\text{.}\)</span> This is the drop in pressure. To calculate the resulting pressure we need <span class="process-math">\(30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}\text{.}\)</span> Written as one calculation this is <span class="process-math">\(P = 30.02 \text{ inHg}-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). \)</span>
 </div>
 <div class="para logical" id="example-linear-model-pressure-drop-6">
 <div class="para">Notice we could do this same calculation for any altitude. So in general we can write</div>
@@ -827,21 +827,22 @@ x &amp; = -1.
 <div class="displaymath process-math" id="example-solve-linear-combine-2-1">
 \begin{align*}
 17-4y &amp; = 5+2y.\\
--5+17-4y &amp; = -5+5+2y. &amp; \text{Undo }+5\text{ by subtracting.}\\
+-5+17-4y &amp; = -5+5+2y. &amp; &amp; \text{Collect constants on one side.}\\
 12-4y &amp; = 2y.\\
-12-4y+4y &amp; = 2y+4y. &amp; \text{Bring terms with variable to the same side.}\\
-12 &amp; = (2+4)y. &amp; \text{ Factoring leaves only one variable.}\\
+12-4y+4y &amp; = 2y+4y. &amp; &amp; \text{Collect the variable on the other side.}\\
+12 &amp; = 2y+4y.\\
+12 &amp; = (2+4)y. &amp; &amp; \text{Factoring reduces to one instance of the variable.}\\
 12 &amp; = 6y.\\
-\frac{12}{6} &amp; = \frac{6y}{6}. &amp; \text{Undo multiplication with division.}\\
+\frac{12}{6} &amp; = \frac{6y}{6}. &amp; &amp; \text{Arithmetic to isolate } y\\
 2 &amp; = y.
 \end{align*}
 </div>
-<div class="para">Notice we had to combine like terms (factor and add).</div>
+<div class="para">Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).</div>
 </div></article><article class="exercise exercise-like" id="exercise-solve-linear-combine"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
 </h4>
 <div id="momexercise-solve-linear-combine-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-solve-linear-combine-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1454026&amp;frame_id=momexercise-solve-linear-combine-1"></iframe></div></article><div class="para" id="subsection-solve-invert-9">Another linear equation is <span class="process-math">\(\frac{x}{3}+\frac{x}{4}=\frac{7}{12}\text{.}\)</span> How would you solve it?</div>
-<div class="para" id="subsection-solve-invert-10">We can solve this the same as in <a href="section-linear.html#example-solve-linear-combine" class="xref" data-knowl="./knowl/xref/example-solve-linear-combine.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.10">Example 3.1.10</a> but there is another technique as well which is shown below.</div>
+<div class="para" id="subsection-solve-invert-10">We can solve this the same as in <a href="section-linear.html#example-solve-linear-combine" class="xref" data-knowl="./knowl/xref/example-solve-linear-combine.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.10">Example 3.1.10</a> but because there are factions as coefficients we will use another technique.</div>
 <article class="example example-like" id="example-solve-linear-clear"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
 </h4>
@@ -851,13 +852,13 @@ x &amp; = -1.
 <div class="displaymath process-math" id="example-solve-linear-clear-2-1">
 \begin{align*}
 \frac{x}{5}+\frac{2x}{7} &amp; = \frac{34}{35}.\\
-5 \cdot \left(\frac{x}{5}+\frac{2x}{7}\right) &amp; = 5 \cdot \frac{34}{35}.\\
-\frac{5x}{5}+\frac{10x}{7} &amp; = 5 \cdot \frac{34}{35}.\\
+5 \cdot \left(\frac{x}{5}+\frac{2x}{7}\right) &amp; = 5 \cdot \frac{34}{35}. &amp; &amp; \text{Eliminate a denominator}\\
+\frac{5x}{5}+\frac{10x}{7} &amp; = 5 \cdot \frac{34}{35}. &amp; &amp; \text{Distribute}\\
 x+\frac{10x}{7} &amp; = \frac{34}{7}.\\
-7 \cdot \left(x+\frac{10x}{7}\right) &amp; = 7 \cdot \frac{34}{7}.\\
-7x+\frac{7 \cdot 10x}{7} &amp; = 7 \cdot \frac{34}{7}.\\
+7 \cdot \left(x+\frac{10x}{7}\right) &amp; = 7 \cdot \frac{34}{7}. &amp; &amp; \text{Eliminate the other denominator}\\
+7x+\frac{7 \cdot 10x}{7} &amp; = 7 \cdot \frac{34}{7}. &amp; &amp; \text{Distribute}\\
 7x+10x &amp; = 34.\\
-(7+10)x &amp; = 34.\\
+(7+10)x &amp; = 34. &amp; &amp; \text{Factor}\\
 17x &amp; = 34.\\
 \frac{17x}{17} &amp; = \frac{34}{17}.\\
 x &amp; = 2.
@@ -868,7 +869,7 @@ x &amp; = 2.
 <article class="example example-like" id="example-solve-temperature-drop"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-solve-temperature-drop-1">Given the temperature model in <a href="section-linear.html#model-temperature-altitude-fahrenheit" class="xref" data-knowl="./knowl/xref/model-temperature-altitude-fahrenheit.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraphs: Model of Temperature Change with Altitude">Model of Temperature Change with Altitude</a> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing.</div>
+<div class="para" id="example-solve-temperature-drop-1">Given the temperature model in <a href="section-linear.html#model-temperature-altitude-fahrenheit" class="xref" data-knowl="./knowl/xref/model-temperature-altitude-fahrenheit.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraphs: Model of Temperature Change with Altitude">Model of Temperature Change with Altitude</a> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.</div>
 <div class="para logical" id="example-solve-temperature-drop-2">
 <div class="para">In this case the model is <span class="process-math">\(T_A = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A\text{.}\)</span> We know <span class="process-math">\(T_A=32^\circ\)</span> and we want to calculate <span class="process-math">\(A\text{,}\)</span> the altitude in feet.</div>
 <div class="displaymath process-math" id="example-solve-temperature-drop-2-4">
@@ -881,7 +882,6 @@ x &amp; = 2.
 9430 \text{ ft} &amp; \approx A.
 \end{align*}
 </div>
-<div class="para">We round to the tens position because that is the precision shown by many altimeters.</div>
 </div></article><article class="example example-like" id="example-solve-time-altitude"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
 </h4>
@@ -934,8 +934,9 @@ x &amp; = 2.
 <div class="para logical" id="example-solve-linear-hidden-2"><div class="displaymath process-math" id="example-solve-linear-hidden-2-1">
 \begin{align*}
 \frac{11}{x}+2 &amp; = \frac{18}{x}-5.\\
-x \cdot \left(\frac{11}{x}+2\right) &amp; = x \cdot \left(\frac{18}{x}-5\right).\\
-11+2x &amp; = 18-5x.\\
+x \cdot \left(\frac{11}{x}+2\right) &amp; = x \cdot \left(\frac{18}{x}-5\right). &amp; &amp; \text{Clearing the denominators}\\
+\frac{11x}{x}+2x &amp; = \frac{18x}{x}-5x. &amp; &amp; \text{Distribute. }\\
+11+2x &amp; = 18-5x. &amp; &amp; \text{Now it appears linear.}\\
 -11+11+2x &amp; = -11+18-5x.\\
 2x &amp; = 7-5x.\\
 2x+5x &amp; = 7-5x+5x.\\

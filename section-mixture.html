@@ -112,14 +112,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.4.5';
+eBookConfig.runestone_version = '7.4.7';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.a28db57f2b9be365.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.0143ee6c5ca7e162.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
+<script src="_static/prefix-runtime.92e98c7360cdb150.bundle.js"></script><script src="_static/prefix-347.8328b60515045466.bundle.js"></script><script src="_static/prefix-runestone.2e9039c7e9bfc458.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-347.f9add1ca35d5ad93.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.82759e13f7f711fa.css">
 <style>
 #preface-student-6-1 { counter-set: preface-student-6-1 0; }
@@ -548,19 +548,19 @@ P &amp; = 33 \text{ g}+40 \text{ g}\\
 </div></article><article class="example example-like" id="example-percent-mixture-steel"><h5 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.2</span><span class="period">.</span>
 </h5>
-<div class="para" id="example-percent-mixture-steel-1">Suppose we have 11.3 lbs of 4140 steel which is a type of steel containing 40% carbon and 9.2 lbs of 4150 steel which contains 50% carbon. If we melt and mix these two metals, what is the resulting percent carbon? Round to two decimal places.</div>
+<div class="para" id="example-percent-mixture-steel-1">Suppose we have 11.3 lbs of 4140 steel which is a type of steel containing 40% carbon and 9.2 lbs of 4150 steel which contains 50% carbon. If we melt and mix these two metals, what is the resulting percent carbon? Round the final percent to two decimal places.</div>
 <div class="para" id="example-percent-mixture-steel-2">To calculate a percent we need the amount of the part and the total amount. We can calculate the total directly: <span class="process-math">\(T=11.3 \text{ lbs}+9.2 \text{ lbs}=20.5 \text{ lbs}\text{.}\)</span> Note we know we can add these because both represented total amounts and they have the same units (g).</div>
 <div class="para logical" id="example-percent-mixture-steel-3">
 <div class="para">To calculate the part we need to know how much (rather than what percent) carbon was obtained from the two metals. We can calculate that from the given percents and amounts.</div>
 <div class="displaymath process-math" id="example-percent-mixture-steel-3-1">
 \begin{align*}
-11.3 \text{ lbs} \cdot 0.40 &amp; \approx 4.5 \text{ lbs}.\\
+11.3 \text{ lbs} \cdot 0.40 &amp; \approx 4.52 \text{ lbs}.\\
 9.2 \text{ lbs} \cdot 0.50 &amp; = 4.6 \text{ lbs}.\\
-P &amp; = 4.5 \text{ lbs}+4.6 \text{ lbs}\\
-&amp; = 9.1 \text{ lbs}.
+P &amp; = 4.52 \text{ lbs}+4.6 \text{ lbs}\\
+&amp; = 9.12 \text{ lbs}.
 \end{align*}
 </div>
-<div class="para">Thus the percent of carbon in the resulting metal is <span class="process-math">\(P/T = \frac{9.1 \text{ lbs}}{20.5 \text{ lbs}} \approx 0.44390244 \approx 44.39\%\text{.}\)</span>
+<div class="para">Thus the percent of carbon in the resulting metal is <span class="process-math">\(P/T = \frac{9.12 \text{ lbs}}{20.5 \text{ lbs}} \approx 0.44487805 \approx 44.49\%\text{.}\)</span>
 </div>
 </div></article><article class="exercise exercise-like" id="exercise-percent-mixture"><h5 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.2.3</span><span class="period">.</span>
@@ -578,7 +578,7 @@ P &amp; = 4.5 \text{ lbs}+4.6 \text{ lbs}\\
 <div class="para">The percent alcohol is the amount of alcohol (part) divided by the total volume (whole). Only the original solution has alcohol so based on the meaning of percent the volume of alchol is <span class="process-math">\(0.910(16.0 \text{ oz}) = 14.\underline{5}6 \text{ oz}\text{.}\)</span> We are adding 4.00 oz total to the solution, thus the total volume is <span class="process-math">\(16.0 \text{ oz}+4.00 \text{ oz} = 20.0 \text{ oz}\)</span> oz. The final percent alcohol is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\frac{14.\underline{5}6 \text{ oz}}{20.0 \text{ oz}}=0.728
+\frac{14.\underline{5}6 \text{ oz}}{20.0 \text{ oz}}=0.72\underline{8}
 \end{equation*}
 </div>
 <div class="para">or 72.8%.</div>
@@ -595,19 +595,19 @@ P &amp; = 4.5 \text{ lbs}+4.6 \text{ lbs}\\
 </h4>
 <div class="para" id="example-calculate-dilute-2">If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to get (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.</div>
 <div class="para" id="example-calculate-dilute-3">How much solution total does this produce? Be aware it will not necessarily be 25.0 oz.</div>
-<div class="para" id="example-calculate-dilute-4">This is a percent problem with the total alcohol unchanged and adding only some amount <span class="process-math">\(w\)</span> of water. We need <span class="process-math">\(w\)</span> to be such that <span class="process-math">\(\frac{A}{16.0+w}=0.550\)</span> where <span class="process-math">\(A\)</span> is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.</div>
+<div class="para" id="example-calculate-dilute-4">This is a percent problem with the total alcohol unchanged and adding only some amount <span class="process-math">\(w\)</span> of water. Because the result is specified as a percent we need <span class="process-math">\(w\)</span> to be such that <span class="process-math">\(\frac{\text{part}}{\text{whole}} = \frac{A}{16.0+w}=0.550\)</span> where <span class="process-math">\(A\)</span> is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.</div>
 <div class="para logical" id="example-calculate-dilute-5">
-<div class="para">The amount of alcohol is <span class="process-math">\((0.910)16.0 \text{ oz} = 14.56 \text{ oz}\)</span>). Thus we setup</div>
+<div class="para">Because all of the alcohol comes from the initial solution, the amount of alcohol is <span class="process-math">\((0.910)16.0 \text{ oz} = 14.56 \text{ oz}\text{.}\)</span> Thus we setup</div>
 <div class="displaymath process-math" id="example-calculate-dilute-5-2">
 \begin{align*}
 \frac{(0.910)16.0 \text{ oz}}{16.0 \text{ oz}+w \text{ oz}} &amp; = 0.550.\\
-\frac{14.\underline{5}6 \text{ oz}}{16.0 \text{ oz}+w \text{ oz}} &amp; = 0.550 \text{ Multiply}\\
-14.\underline{5}6 \text{ oz} &amp; = 0.550(16.0 \text{ oz}+w \text{ oz}) \text{ Undo division}\\
+\frac{14.\underline{5}6 \text{ oz}}{16.0 \text{ oz}+w \text{ oz}} &amp; = 0.550 \text{ Multiply to move } w \text{ out of the denominator}\\
+14.\underline{5}6 \text{ oz} &amp; = 0.550(16.0 \text{ oz}+w \text{ oz}) \text{ Distribute}\\
 14.\underline{5}6 \text{ oz} &amp; = (0.550)16.0 \text{ oz}+(0.550)w \text{ oz} \text{ Multiply}\\
-14.\underline{5}6 \text{ oz} &amp; = 8.80 \text{ oz}+(0.550)w \text{ oz} \text{ Undo addition}\\
-5.\underline{7}6 \text{ oz} &amp; = (0.550)w \text{ oz} \text{ Undo multiplication}\\
-\frac{5.\underline{7}6 \text{ oz}}{0.550} &amp; = w \text{ oz}\\
-1\underline{0}.47272727 \text{ oz} &amp; = w\\
+14.\underline{5}6 \text{ oz} &amp; = 8.80 \text{ oz}+(0.550)w \text{ oz} \text{ Subtract to isolate } w\\
+5.\underline{7}6 \text{ oz} &amp; = (0.550)w \text{ oz} \text{ Divide to isolate } w\\
+\frac{5.\underline{7}6 \text{ oz}}{0.550} &amp; = w\\
+1\underline{0}.47272727 \text{ oz} &amp; \approx w\\
 10 \text{ oz} &amp; \approx w
 \end{align*}
 </div>
