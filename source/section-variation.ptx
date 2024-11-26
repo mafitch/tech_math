@@ -32,10 +32,10 @@
         <p>Consider <m>\rho</m> the density of air. If the other parameters remain constant (only density changes), then the model looks like
         <md>
             <mrow>L &amp; = \frac{1}{2}\rho s C_L v^2</mrow>
-            <mrow> &amp; = \left( \frac{1}{2} s C_L v^2 \right)\rho </mrow>
+            <mrow> &amp; = \left( \frac{1}{2} s C_L v^2 \right)\rho</mrow>
             <mrow> &amp; = k \rho.</mrow>
         </md>
-        We can see that lift (<m>L</m>) changes linearly with respect to air density (<m>\rho</m>).</p>
+        All we used is commutativity of multiplication. We can see that lift (<m>L</m>) changes linearly with respect to air density (<m>\rho</m>).</p>
         <p>Consider <m>s</m> the surface area of the airfoil (wing or propeller). If the other parameters remain constant (only surface area changes), then the model looks like
         <md>
             <mrow>L &amp; = \frac{1}{2}\rho s C_L v^2</mrow>
@@ -67,8 +67,8 @@
         <p>First consider the impact temperature (<m>T</m>) has on pressure (<m>P</m>). If the other parameters remain constant, then the model looks like
         <md>
             <mrow>PV &amp; = nRT.</mrow>
-            <mrow>P &amp; = \frac{nRT}{V}.</mrow>
-            <mrow>P &amp; = \frac{nR}{V}T.</mrow>
+            <mrow>P &amp; = \frac{nRT}{V}. &amp; &amp; \text{Divide to isolate } P</mrow>
+            <mrow>P &amp; = \frac{nR}{V}T. &amp; &amp; \text{Use commutativity}</mrow>
             <mrow>P &amp; = kT.</mrow>
         </md> Pressure (<m>P</m>) grows linearly with respect to temperature.</p>
         <p>Notice that we can write that last equation at <m>\frac{1}{k}P = T</m> which means we can also make the reverse statement: temperature increases linearly with pressure.</p>

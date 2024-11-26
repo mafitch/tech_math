@@ -73,13 +73,16 @@
     <example xml:id="example-cross-when">
         <p>Vasya's initial pay was $62,347.23. She received $5,000 raises each year. Pyotr's initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?</p>
         <p>We could make a table.</p>
-            <tabular>
-                <row><cell>Year</cell> <cell>Vasya</cell> <cell>Pyotr</cell> </row>
-                <row><cell>2012</cell> <cell>$62,347.23</cell> <cell>$67,242.33</cell> </row>
-                <row><cell>2013</cell> <cell>$67,347.23</cell> <cell>$70,742.33</cell> </row>
-                <row><cell>2014</cell> <cell>$72,347.23</cell> <cell>$74,242.33</cell> </row>
-                <row><cell>2015</cell> <cell>$77,347.23</cell> <cell>$77,742.33</cell> </row>
-                <row><cell>2016</cell> <cell>$82,347.23</cell> <cell>$81,242.33</cell> </row>
+            <tabular top="medium" left="medium">
+                <col right="medium" width="15%" />
+                <col right="medium" width="25%" />
+                <col right="medium" width="25%" />
+                <row bottom="medium"><cell>Year</cell> <cell>Vasya</cell> <cell>Pyotr</cell> </row>
+                <row bottom="medium"><cell>2012</cell> <cell>$62,347.23</cell> <cell>$67,242.33</cell> </row>
+                <row bottom="medium"><cell>2013</cell> <cell>$67,347.23</cell> <cell>$70,742.33</cell> </row>
+                <row bottom="medium"><cell>2014</cell> <cell>$72,347.23</cell> <cell>$74,242.33</cell> </row>
+                <row bottom="medium"><cell>2015</cell> <cell>$77,347.23</cell> <cell>$77,742.33</cell> </row>
+                <row bottom="medium"><cell>2016</cell> <cell>$82,347.23</cell> <cell>$81,242.33</cell> </row>
             </tabular>
             <p>We see that is in 2016 that Vasya is first paid more.</p>
         <p>Alternatively we could note that Vasya's raises are $1,500 more each year than Pyotr's raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is <m>67242.33-62347.23=4895.10</m>. Because she gains by 1500 each year it will take <m>4895.10/1500 = 3.2634 </m> years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.</p>
@@ -101,9 +104,15 @@
         </p>
         <p>Notice we can solve the first equation for <m>B</m>, then substitute it into the second. The result is a single equation with only one variable. We already know how to solve that one.
         <md>
+            <mrow>A+B &amp; = 10.0.</mrow>
             <mrow>B &amp; = 10.0-A.</mrow>
-            <mrow>(0.91)A+(0.75)(10.0-A) &amp; = 8.5.</mrow>
-            <mrow>(0.91)A+7.5-(0.75)A &amp; = 8.5.</mrow>
+        </md>
+        <md>
+            <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
+            <mrow>(0.91)A+(0.75)(10.0-A) &amp; = 8.5. &amp; &amp; \text{Substitute B from above}</mrow>
+            <mrow>(0.91)A+7.5-(0.75)A &amp; = 8.5. &amp; &amp; \text{Distribute}</mrow>
+            <mrow>(0.91)A-(0.75)A &amp; = 8.5-7.5.</mrow>
+            <mrow>(0.91-0.75)A &amp; = 1.0.</mrow>
             <mrow>(0.16)A &amp; = 1.0.</mrow>
             <mrow>A &amp; = \frac{1.0}{0.16}</mrow>
             <mrow> &amp; = 6.25.</mrow>
@@ -130,13 +139,15 @@
             <mrow>A+B &amp; = 10.0.</mrow>
             <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
         </md></p>
-        <p>In the second line below notice how we modify the first equation to partially match the second one.
+        <p>In the second line below notice how we modify the first equation to partially match the second one by scaling it.
         <md>
-            <mrow>A+B &amp; = 10.0.</mrow>
-            <mrow>-(0.91)(A+B) &amp; = -(0.91)10.0.</mrow>
-            <mrow>-(0.91)A-(0.91)B &amp; = -9.1.</mrow>
-            <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
-            <mrow>-(0.16)B &amp; = -0.6.</mrow>
+            <mrow>A+B &amp; = 10.0. &amp; &amp; \text{Original equation 1}</mrow>
+            <mrow>-(0.91)(A+B) &amp; = -(0.91)10.0. &amp; &amp; \text{Scale to match 2nd equation}</mrow>
+            <mrow>-(0.91)A-(0.91)B &amp; = -9.1. &amp; &amp; \text{Distribute}</mrow>
+            <intertext>Now add the two equations.</intertext>
+            <mrow>-(0.91)A-(0.91)B &amp; = -9.1. &amp; &amp; \text{Scaled equation 1}</mrow>
+            <mrow>(0.91)A+(0.75)B &amp; = 8.5. &amp; &amp; \text{Original equation 2}</mrow>
+            <mrow>-(0.16)B &amp; = -0.6. &amp; &amp; \text{Result of adding previous 2 lines}</mrow>
             <mrow>B &amp; = \frac{-0.6}{-0.16}</mrow>
             <mrow> &amp; = 3.75.</mrow>
         </md>

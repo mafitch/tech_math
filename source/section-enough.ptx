@@ -238,10 +238,9 @@
         <p>Calculate <me>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4).</me> The <m>1/2</m> is an exact number here. The rest are measurements in centimeters.
         <md>
             <mrow>2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(2\underline{1}-\underline{5}-\underline{4}) &amp; =</mrow>
-            <mrow>2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(1\underline{2}) &amp; = \text{ Subtraction maintains precision to units}</mrow>
-            <mrow>\underline{1}89 - \underline{5}4 &amp; = \text{ Multiplication maintains only 1 sigfig}</mrow>
-            <mrow>\underline{1}35 &amp; \approx \text{ Subtraction maintains only to hundreds}</mrow>
-            <mrow>100. \text{ So we round to the hundreds.}</mrow>
+            <mrow>2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(1\underline{2}) &amp; = &amp; &amp; \text{ Subtraction maintains precision to units}</mrow>
+            <mrow>\underline{1}89 - \underline{5}4 &amp; = &amp; &amp; \text{ Multiplication maintains only 1 sigfig}</mrow>
+            <mrow>\underline{1}35 &amp; \approx 100 &amp; &amp; \text{ Subtraction maintains only to hundreds}</mrow>
         </md></p>
         <p>When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been
             <me>20.5 \cdot 8.5 - \frac{1}{2}8.5(20.5-4.5-3.5) = 121.125.</me>
@@ -344,7 +343,7 @@
 
     <example xml:id="example-rounding-carpet-tiles">
         <p>Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20<dblprime/>. If a room is 50 feet by 38 feet, how many carpet square do we need?</p>
-        <p>First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <m>50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 in</m>. This will require laying <m>\frac{600 \text{ in}}{20 \text{ in}} = 30</m> tiles across.</p>
+        <p>First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <m>50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 \text{ in}</m>. This will require laying <m>\frac{600 \text{ in}}{20 \text{ in}} = 30</m> tiles across.</p>
         <p>Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <m>38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 \text{ in}</m>. This will require laying <m>\frac{456 \text{ in}}{20 \text{ in}} = 22.8</m> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</p>
         <p>Finally we can count the number of tiles which is <m>30 \times 23 = 690</m> tiles.</p>
         <p>If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up. Knowledge from carpet installation is required to determine this rounding.</p>

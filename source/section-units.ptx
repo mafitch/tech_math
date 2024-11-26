@@ -259,7 +259,7 @@
         <statement><p>How many inches is 15 centimeters?</p></statement>
         <solution>
             <p>From <xref ref="table-si-to-customary" /> we know each centimeter is 0.393701 inches; this means there is <me>\frac{0.393701 \text{ in}}{1 \text{ cm}}</me>. The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out.
-            <me>15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} = 5.905515 \approx 5.9 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
+            <me>15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} = 5.905515 \text{ in} \approx 5.9 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
         </solution>
     </example>
 
@@ -267,7 +267,7 @@
         <statement><p>How many inches is 1 meter?</p></statement>
         <solution>
             <p>From <xref ref="table-si-to-customary" /> we know each meter is 3.28084 feet. From <xref ref="table-customary-convert" /> that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet.
-            <me>1 \text{ m} \cdot \frac{3.28084 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 39.37008 \approx 39 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
+            <me>1 \text{ m} \cdot \frac{3.28084 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 39.37008 \text{ in} \approx 39 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
         </solution>
     </example>
 

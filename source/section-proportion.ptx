@@ -36,8 +36,9 @@
         <p>This means everything will be in ratio of 2 (needed)/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2/1. Thus <me>\frac{2}{1} = \frac{E \text{ g}}{150 \text{ g}}.</me> Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable).
         <md>
             <mrow>\frac{2}{1} &amp; = \frac{E \text{ g}}{150 \text{ g}}.</mrow>
-            <mrow>\frac{2}{1} \cdot 150 \text{ g} &amp; = \frac{E \text{ g}}{150 \text{ g}} \cdot 150 \text{ g}. \text{ Eliminating the denominator.}</mrow>
-            <mrow>\frac{2}{1} \cdot 150 \text{ g} &amp; = E</mrow>
+            <mrow>2 &amp; = \frac{E \text{ g}}{150 \text{ g}}.</mrow>
+            <mrow>2 \cdot 150 \text{ g} &amp; = \frac{E \text{ g}}{150 \text{ g}} \cdot 150 \text{ g}. \text{ Multiply to isolate } E</mrow>
+            <mrow>2 \cdot 150 \text{ g} &amp; = E</mrow>
             <mrow>300 \text{ g} &amp; = E \text{ of eggs}.</mrow>
         </md> Because scales are accurate to a gram, we do not need to round.</p>
         <p>In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs, it might be more or less than we need which will mess up the food.</p>
@@ -78,12 +79,11 @@
         <p>Because cruise speed is a fixed ratio we can write
             <md>
                 <mrow>\frac{110 \text{ nm}}{\text{hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
-                <mrow>t \text{ hours} \cdot \frac{110 \text{ nm}}{1 \text{ hour}} \amp = t \text{ hours} \cdot \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
-                <mrow>t \cdot 110 \text{ nm} \amp = 236 \text{ nm}. \text{ Clearing the denominators.}</mrow>
-                <mrow>\frac{t \cdot 110 \text{ nm}}{110 \text{ nm}}  \amp = \frac{236 \text{ nm}}{110 \text{ nm}}.</mrow>
-                <mrow>t \amp = \frac{236}{110}</mrow>
-                <mrow> \amp \approx 2.14545</mrow>
-                <mrow> \amp \approx 2.1 \text{ hours}.</mrow>
+                <mrow>\frac{\text{hour}}{110 \text{ nm}} \amp = \frac{t \text{ hours}}{236 \text{ nm}}. \text{ Inverse is still true.}</mrow>
+                <mrow>\frac{\text{hour}}{110 \text{ nm}}(236 \text{ nm}) \amp = \frac{t \text{ hours}}{236 \text{ nm}}(236 \text{ nm}). \text{ Multiply to isolate } t</mrow>
+                <mrow>\frac{236}{110} \text{ hours} \amp = t</mrow>
+                <mrow>2.14545 \text{ hours} \amp \approx t</mrow>
+                <mrow>2.1 \text{ hours} \amp \approx t.</mrow>
             </md>
         </p>
     </example>
@@ -238,7 +238,7 @@
             <md>
                 <mrow>\frac{\overline{DE}}{\overline{AB}} &amp; = \frac{\overline{DF}}{\overline{CA}}</mrow>
                 <mrow>\frac{2.000}{1.000} &amp; = \frac{\overline{DF}}{1.732}.</mrow>
-                <mrow>\frac{2.000}{1.000} \cdot 1.732 &amp; = \frac{\overline{DF}}{1.732} \cdot 1.732. \amp \text{ Clearing the denominators.}</mrow>
+                <mrow>\frac{2.000}{1.000} \cdot 1.732 &amp; = \frac{\overline{DF}}{1.732} \cdot 1.732. \amp \text{ Multiply to isolate } \overline{DF}</mrow>
                 <mrow>3.464 &amp; = \overline{DF}.</mrow>
             </md>We can calculate the length of the third side in the same way.
             <md>

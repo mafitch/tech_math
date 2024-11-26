@@ -189,9 +189,9 @@
     <example xml:id="example-linear-model-pressure-drop">
         <p>At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). To produce a model for pressure decrease we will start by calculating the pressure for a couple specific cases.</p>
         <p>If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?</p>
-        <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>29.76 \text{ inHg} - 4.5^\circ \text{ inHg} = 25.26 \text{ inHg}</m>. We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <m>T = 29.76-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
+        <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>29.76 \text{ inHg} - 4.5^\circ \text{ inHg} = 25.26 \text{ inHg}</m>. We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <m>T = 29.76 \text{ inHg}-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
         <p>If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?</p>
-        <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}</m>. Written as one calculation this is <m>P = 30.02-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
+        <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}</m>. Written as one calculation this is <m>P = 30.02 \text{ inHg}-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
         <p>Notice we could do this same calculation for any altitude. So in general we can write <me>P_A = P_G-\left(A \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </me> <m>P_A</m> is the pressure at the specified altitude. <m>P_G</m> is the pressure at ground level. <m>A</m> is the altitude above ground level. This is a linear equation with a ratio of (-1/1000) which is the drop in pressure with altitude, and a shift of <m>P_G</m>, which is the pressure on the ground.</p>
     </example>
 
@@ -259,15 +259,16 @@
         <p>Solve <m>17-4y = 5+2y</m>.</p>
         <p><md>
             <mrow>17-4y &amp; = 5+2y.</mrow>
-            <mrow>-5+17-4y &amp; = -5+5+2y. &amp; \text{Undo }+5\text{ by subtracting.}</mrow>
+            <mrow>-5+17-4y &amp; = -5+5+2y. &amp; &amp; \text{Collect constants on one side.}</mrow>
             <mrow>12-4y &amp; = 2y.</mrow>
-            <mrow>12-4y+4y &amp; = 2y+4y. &amp; \text{Bring terms with variable to the same side.}</mrow>
-            <mrow>12 &amp; = (2+4)y. &amp; \text{ Factoring leaves only one variable.}</mrow>
+            <mrow>12-4y+4y &amp; = 2y+4y. &amp; &amp; \text{Collect the variable on the other side.}</mrow>
+            <mrow>12 &amp; = 2y+4y.</mrow>
+            <mrow>12 &amp; = (2+4)y. &amp; &amp; \text{Factoring reduces to one instance of the variable.}</mrow>
             <mrow>12 &amp; = 6y.</mrow>
-            <mrow>\frac{12}{6} &amp; = \frac{6y}{6}. &amp; \text{Undo multiplication with division.}</mrow>
+            <mrow>\frac{12}{6} &amp; = \frac{6y}{6}. &amp; &amp; \text{Arithmetic to isolate } y</mrow>
             <mrow>2 &amp; = y.</mrow>
         </md>
-        Notice we had to combine like terms (factor and add).</p>
+        Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).</p>
     </example>
 
     <exercise xml:id="exercise-solve-linear-combine">
@@ -299,30 +300,30 @@
     </exercise>
 
     <p>Another linear equation is <m>\frac{x}{3}+\frac{x}{4}=\frac{7}{12}</m>. How would you solve it?</p>
-    <p>We can solve this the same as in <xref ref="example-solve-linear-combine"  /> but there is another technique as well which is shown below.</p>
+    <p>We can solve this the same as in <xref ref="example-solve-linear-combine"  /> but because there are factions as coefficients we will use another technique.</p>
 
     <example xml:id="example-solve-linear-clear">
         <p>Solve <m>\frac{x}{5}+\frac{2x}{7}=\frac{34}{35}</m></p>
         <p><md>
             <mrow>\frac{x}{5}+\frac{2x}{7} &amp; = \frac{34}{35}.</mrow>
-            <mrow>5 \cdot \left(\frac{x}{5}+\frac{2x}{7}\right) &amp; = 5 \cdot \frac{34}{35}.</mrow>
-            <mrow>\frac{5x}{5}+\frac{10x}{7} &amp; = 5 \cdot \frac{34}{35}.</mrow>
+            <mrow>5 \cdot \left(\frac{x}{5}+\frac{2x}{7}\right) &amp; = 5 \cdot \frac{34}{35}. &amp; &amp; \text{Eliminate a denominator}</mrow>
+            <mrow>\frac{5x}{5}+\frac{10x}{7} &amp; = 5 \cdot \frac{34}{35}. &amp; &amp; \text{Distribute}</mrow>
             <mrow>x+\frac{10x}{7} &amp; = \frac{34}{7}.</mrow>
-            <mrow>7 \cdot \left(x+\frac{10x}{7}\right) &amp; = 7 \cdot \frac{34}{7}.</mrow>
-            <mrow>7x+\frac{7 \cdot 10x}{7} &amp; = 7 \cdot \frac{34}{7}.</mrow>
+            <mrow>7 \cdot \left(x+\frac{10x}{7}\right) &amp; = 7 \cdot \frac{34}{7}. &amp; &amp; \text{Eliminate the other denominator}</mrow>
+            <mrow>7x+\frac{7 \cdot 10x}{7} &amp; = 7 \cdot \frac{34}{7}. &amp; &amp; \text{Distribute}</mrow>
             <mrow>7x+10x &amp; = 34.</mrow>
-            <mrow>(7+10)x &amp; = 34.</mrow>
+            <mrow>(7+10)x &amp; = 34. &amp; &amp; \text{Factor}</mrow>
             <mrow>17x &amp; = 34.</mrow>
             <mrow>\frac{17x}{17} &amp; = \frac{34}{17}.</mrow>
             <mrow>x &amp; = 2.</mrow>
-            </md>
+        </md>
         This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.</p>
     </example>
 
     <p>Now that we have practiced solving linear equations, we can use this skill with the models.</p>
 
     <example xml:id="example-solve-temperature-drop">
-        <p>Given the temperature model in <xref ref="model-temperature-altitude-fahrenheit" text="title" /> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing.</p>
+        <p>Given the temperature model in <xref ref="model-temperature-altitude-fahrenheit" text="title" /> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.</p>
         <p>In this case the model is <m>T_A = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A</m>. We know <m>T_A=32^\circ</m> and we want to calculate <m>A</m>, the altitude in feet.
         <md>
             <mrow>32^\circ &amp; = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A</mrow>
@@ -331,8 +332,7 @@
             <mrow>-\frac{1000 \text{ ft}}{3.5^\circ} ( -33^\circ) &amp; = -\frac{1000 \text{ ft}}{3.5^\circ} \left( -\frac{3.5^\circ}{1000 \text{ ft}}A \right)</mrow>
             <mrow>9428.571428 \text{ ft} &amp; = A.</mrow>
             <mrow>9430 \text{ ft} &amp; \approx A.</mrow>
-        </md>
-        We round to the tens position because that is the precision shown by many altimeters.</p>
+        </md></p>
     </example>
 
     <example xml:id="example-solve-time-altitude">
@@ -378,8 +378,9 @@
         <p>Solve <m>\frac{11}{x}+2 = \frac{18}{x}-5</m>.</p>
         <p><md>
             <mrow>\frac{11}{x}+2 &amp; = \frac{18}{x}-5.</mrow>
-            <mrow>x \cdot \left(\frac{11}{x}+2\right) &amp; = x \cdot \left(\frac{18}{x}-5\right).</mrow>
-            <mrow>11+2x &amp; = 18-5x.</mrow>
+            <mrow>x \cdot \left(\frac{11}{x}+2\right) &amp; = x \cdot \left(\frac{18}{x}-5\right). &amp; &amp; \text{Clearing the denominators}</mrow>
+            <mrow>\frac{11x}{x}+2x &amp; = \frac{18x}{x}-5x. &amp; &amp; \text{Distribute. }</mrow>
+            <mrow>11+2x &amp; = 18-5x. &amp; &amp; \text{Now it appears linear.}</mrow>
             <mrow>-11+11+2x &amp; = -11+18-5x.</mrow>
             <mrow>2x &amp; = 7-5x.</mrow>
             <mrow>2x+5x &amp; = 7-5x+5x.</mrow>

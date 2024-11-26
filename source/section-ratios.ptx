@@ -64,7 +64,9 @@
     <table xml:id="table-ratio-airspeed1">
         <title>Airspeed and Distance</title>
         <tabular>
-            <row><cell>Time</cell><cell>Distance</cell></row>
+            <col right="medium" width="15%" />
+            <col halign="right" width="15%" />
+            <row bottom="medium"><cell>Time</cell><cell>Distance</cell></row>
             <row><cell>0.1 hour</cell><cell>11 nm</cell></row>
             <row><cell>0.2 hour</cell><cell>22 nm</cell></row>
             <row><cell>0.3 hour</cell><cell>33 nm</cell></row>

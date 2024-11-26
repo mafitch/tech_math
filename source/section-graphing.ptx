@@ -284,7 +284,9 @@
         <p>A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle, that is, there is a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If a portion of the model is 1.72 inches then means the part on the actual shuttle is <m>1.72 \cdot 144 = 247.68</m> inches. In general <m>A = 144M</m> where <m>M</m> is the size on the model and <m>A</m> is the size on the actual shuttle.</p>
         <p>To represent this scale conversion as a graph we will generate a table like <xref ref="table-salary-vasya"/> then we will use that to plot the graph.</p>
         <tabular>
-            <row><cell>Model</cell> <cell>Full Size</cell> </row>
+            <col halign="center" right="medium" width="15%" />
+            <col halign="center" width="15%" />
+            <row bottom="medium"><cell>Model</cell> <cell>Full Size</cell> </row>
             <row><cell>1.0</cell> <cell>144</cell> </row>
             <row><cell>1.5</cell> <cell>216</cell> </row>
             <row><cell>2.0</cell> <cell>288</cell> </row>
@@ -321,7 +323,9 @@
         </md>
         Because we are interested in the effect of resistance on current we will pick a fixed voltage: <m>V=12</m> V. Thus our equation is <m>I = \frac{12}{R}</m>.</p>
         <tabular>
-            <row><cell>Resistance</cell> <cell>Current</cell> </row>
+            <col halign="center" right="medium" width="15%" />
+            <col halign="center" width="15%" />
+            <row bottom="medium"><cell>Resistance</cell> <cell>Current</cell> </row>
             <row><cell>1.0</cell> <cell>12</cell> </row>
             <row><cell>4.0</cell> <cell>3.0</cell> </row>
             <row><cell>8.0</cell> <cell>1.5</cell> </row>
@@ -400,14 +404,14 @@
             <p>The graph in <xref ref="figure-graph-slope" /> is linear. We will calculate the shift.</p></statement>
         <solution>
             <p>The shift can be read when <m>x=0</m>. That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.</p>
-            <p>We will use <m>(2000,27.92)</m> to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up
+            <p>We will use <m>(2000 \text{ ft},27.92 \text{ inHg})</m> to find the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up
                 <md>
                     <mrow>\frac{1.00 \text{ inHg}}{1000 \text{ ft}} &amp; = \frac{d \text{ inHg}}{2000 \text{ ft}}.</mrow>
                     <mrow>\frac{1.00 \text{ inHg}}{1000 \text{ ft}} \cdot 200\bar{0} \text{ ft} &amp; = \frac{d \text{ inHg}}{2000 \text{ ft}} \cdot 2000 \text{ ft}.</mrow>
                     <mrow>2.00 \text{ inHg} &amp; = d.</mrow>
                 </md>
-            Thus the pressure should increase by 2.00 inHg giving us <m>P=27.92+2.00=29.92</m>. Thus the point is <m>(0.00, 29.92)</m> and the shift is <m>b=29.92</m>.</p>
-            <p>Combining this shift with the slope from the example above the model is <me>P=29.92-\frac{1}{1000}A.</me>
+            Thus the pressure should increase by 2.00 inHg giving us <m>P=27.92 \text{ inHg}+2.00 \text{ inHg}=29.92 \text{ inHg}</m>. Thus the point is <m>(0.00 \text{ ft}, 29.92 \text{ inHg})</m> and the shift is <m>b=29.92 \text{ inHg}</m>.</p>
+            <p>Combining this shift with the slope from the example above the model is <me>P=29.92 \text{ inHg}-\frac{1 \text{ inHg}}{1000 \text{ ft}}A.</me>
             <ul>
                 <li><m>P</m> is the pressure at altitude <m>A</m>.</li>
                 <li>29.92 is the initial pressure.</li>

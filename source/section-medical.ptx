@@ -150,19 +150,18 @@
     <p>This first example shows how to produce a solution with a desired dilution factor.</p>
 
     <example xml:id="example-make-dilution-factor">
-        <p>How much diluent do we need to add to produce a solution containing 3.0 mL of concentrated chloroform that will have a dilution factor of <m>5\bar{0}</m>?</p>
-        <p>The dilution factor is the ratio of the total to the substance. We want that to equal <m>5\bar{0}</m>, so we can write the proportion <me>\frac{\text{total}}{\text{solute}}=\frac{5\bar{0}}{1}.</me></p>
+        <p>How much diluent do we need to add to produce a solution containing 3.0 mL of concentrated chloroform that will have a dilution factor of <m>50</m>? Because this is in a medical context, we will round to one milliliter.</p>
+        <p>The dilution factor is the ratio of the total to the substance. We want that to equal <m>50</m>, so we can write the proportion <me>\frac{\text{total}}{\text{solute}}=\frac{50}{1}.</me></p>
         <p>We are not given the total volume, but the total is the volume of the solute plus the volume of the diluent. We do know the volume of solute (3.0 mL), and the volume of diluent is what we want to calculate. We can call the volume of diluent <m>D</m>. The volume of the solution is <m>3.0+D</m> where <m>D</m> is the volume of diluent to add.</p>
         <p>Because we are starting with 3.0 mL of concentrated chloroform (no dilution) our proportion is
         <md>
-            <mrow>\frac{3.0+D}{3.0} \amp = \frac{5\bar{0}}{1.0}.</mrow>
-            <mrow>3.0 \cdot \frac{3.0+D}{3.0} \amp = 3.0 \cdot \frac{5\bar{0}}{1.0}.</mrow>
-            <mrow>3.0+D \amp = 1\underline{5}0.</mrow>
-            <mrow>-3.0+3.0+D \amp = -3.0+1\underline{5}0.</mrow>
-            <mrow>D \amp = 147</mrow>
-            <mrow> \amp \approx 150.</mrow>
+            <mrow>\frac{3.0+D}{3.0} \amp = \frac{50}{1.0}.</mrow>
+            <mrow>3.0 \cdot \frac{3.0+D}{3.0} \amp = 3.0 \cdot \frac{50}{1.0}. \text{ Multiply to isolate } D</mrow>
+            <mrow>3.0+D \amp = 150.</mrow>
+            <mrow>-3.0+3.0+D \amp = -3.0+150. \text{ Subtract to isolate } D</mrow>
+            <mrow>D \amp = 147.</mrow>
         </md>
-        So we need 150 mL of diluent. Notice once we had the proportion set up we needed only use algebra.</p>
+        So we need 147 mL of diluent. Notice once we had the proportion set up we needed only algebra.</p>
     </example>
 
     <p>This example shows us how to apply a dilution ratio (dilute our solution). We can calculate the resulting dilution factor afterward.</p>
@@ -181,14 +180,14 @@
         <p>The serum was then diluted to 1/10 and retested. The machine gave a result of 70 mg/dL. What was the initial concentration?</p>
         <p>Note that the ratio is milligrams to decilitres (weight to volume). In these types of problems the amount of substance is so small that it does not affect the volume.</p>
         <p>Before we jump into an equation, let's try an experiment. That's right, in math we do not have to know what to do when we start. We will try something, learn from it, and maybe revise our approach based on what we learned.</p>
-        <p>This is a dilution problem which means we can setup the proportion <me>\frac{\text{solute mg}}{\text{diluent dL}}=\frac{7\bar{0} \text{ mg}}{\text{dL}}.</me></p>
+        <p>This is a dilution problem which means we can setup the proportion <me>\frac{\text{solute mg}}{\text{diluent dL}}=\frac{70 \text{ mg}}{\text{dL}}.</me></p>
         <p>We are trying to find the amount of blood sugar in the sample, so the solute portion is unknown. We also do not have the size of sample taken. We will experiment to see how this affects the problem.</p>
         <p>Suppose we take 1 dL of the original serum. Because the blood sample is so small, we can calculate as if all the volume is the diluent. That is we started with 1 dL and added more to dilute. To dilute to a ratio of 1/10 we need to add <m>10-1=9</m> dL of diluent. No blood glucose was added thus the concentration is changed only by the diluent. Thus the concentration proportion is now
             <md>
-                <mrow>\frac{C+0 \text{ mg}}{1+9 \text{ dL}} \amp = \frac{7\bar{0} \text{ mg}}{\text{dL}}</mrow>
-                <mrow>\frac{C \text{ mg}}{10 \text{ dL}} \amp = \frac{7\bar{0} \text{ mg}}{\text{dL}}</mrow>
-                <mrow>C \text{ mg} \amp = \frac{7\bar{0} \text{ mg}}{\text{dL}}(1\bar{0} \text{ dL})</mrow>
-                <mrow>C \amp = 7\bar{0}0 \text{ mg}.</mrow>
+                <mrow>\frac{C+0 \text{ mg}}{1+9 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}</mrow>
+                <mrow>\frac{C \text{ mg}}{10 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}</mrow>
+                <mrow>C \text{ mg} \amp = \frac{70 \text{ mg}}{\text{dL}}(10 \text{ dL})</mrow>
+                <mrow>C \amp = 700 \text{ mg}.</mrow>
             </md>
         Did this result depend on our selecting 1 dL of the original serum? If we are uncertain we can try the problem again and select 2 dL of the original serum. To figure out the total amount of which 2 is 1/10, we can treat this like <xref ref="example-ratio-volume" />
             <md>
@@ -198,11 +197,11 @@
         This means we need <m>20-2=18</m> dL of diluent to have the desired dilution ratio. Also we will have twice as much of the blood glucose.
             <md>
                 <mrow>\frac{2C+0 \text{ mg}}{2+18 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}</mrow>
-                <mrow>\frac{2C \text{ mg}}{2\bar{0} \text{ dL}} \amp = \frac{7\bar{0} \text{ mg}}{\text{dL}}</mrow>
-                <mrow>2C \text{ mg} \amp = \frac{7\bar{0} \text{ mg}}{\text{dL}}(2\bar{0} \text{ dL})</mrow>
+                <mrow>\frac{2C \text{ mg}}{20 \text{ dL}} \amp = \frac{70 \text{ mg}}{\text{dL}}</mrow>
+                <mrow>2C \text{ mg} \amp = \frac{70 \text{ mg}}{\text{dL}}(20 \text{ dL})</mrow>
                 <mrow>2C \text{ mg} \amp = 1400 \text{ mg}</mrow>
                 <mrow>\frac{2C \text{ mg}}{2} \amp = \frac{1400 \text{ mg}}{2}</mrow>
-                <mrow>C \amp = 7\bar{0}0 \text{ mg}</mrow>
+                <mrow>C \amp = 700 \text{ mg}</mrow>
             </md>
         The result is the same. This makes sense, because we are setting up a proportion, and ratios do not depend on the amount.</p>
         <p>We can be confident that the original serum sample had a blood glucose level of 700 mg/dL.</p>
@@ -238,7 +237,7 @@
             <me>\frac{10 \text{ mL acyl chloride}}{600 \text{ mL diluent}} = \frac{1}{60}.</me>
             Now we can determine what the resulting dilution ratio after diluting twice (1/2 and then 1/3).
             <md>
-                <mrow>\frac{1}{10} \cdot F \amp = \frac{1}{60} \amp \text{ Undo division}</mrow>
+                <mrow>\frac{1}{10} \cdot F \amp = \frac{1}{60}</mrow>
                 <mrow>10 \cdot \frac{1}{10} \cdot F \amp = 10 \cdot \frac{1}{60}.</mrow>
                 <mrow>F \amp = \frac{1}{6}.</mrow>
             </md></p>
@@ -261,7 +260,7 @@
         <p>This can be solved as a proportion because are asked for an amount that matches a ratio (concentration) which is 100 IU/mL. Because we are solving for a number of mL, we will write the proportion as
             <md>
                 <mrow>\frac{\text{mL}}{100 \text{ IU}} \amp = \frac{v \text{ mL}}{2 \text{ IU}}</mrow>
-                <mrow>\frac{\text{mL}}{100 \text{ IU}} \cdot (2 \text{ IU}) \amp = \frac{v \text{ mL}}{2 \text{ IU}} \cdot (2 \text{ IU}) \amp \text{ multiply to isolate the variable}</mrow>
+                <mrow>\frac{\text{mL}}{100 \text{ IU}} \cdot (2 \text{ IU}) \amp = \frac{v \text{ mL}}{2 \text{ IU}} \cdot (2 \text{ IU})</mrow>
                 <mrow>\frac{2 \text{ mL}}{100} \amp = v \text{ mL}</mrow>
                 <mrow>\frac{1}{50} \text{ mL} \amp = v.</mrow>
                 <mrow>0.02 \text{ mL} \amp = v.</mrow>
