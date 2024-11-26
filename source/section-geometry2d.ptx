@@ -252,7 +252,8 @@
             <md>
                 <mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90) \text{ Each term is precise to the 100ths (2 places)}</mrow>
                 <mrow> &amp; = 12.5\underline{3}5. \text{ Addition maintains to the 100ths (4 sigfigs)}</mrow>
-                <mrow>\text{Area} &amp; \approx \sqrt{12.5\underline{3}5(12.5\underline{3}5-5.98)(12.5\underline{3}5-8.19)(12.5\underline{3}5-10.90)} \text{ Terms precise to 100ths, 3 sigfigs}</mrow>
+                <mrow>\text{Area} &amp; \approx \sqrt{12.5\underline{3}5(12.5\underline{3}5-5.98)(12.5\underline{3}5-8.19)(12.5\underline{3}5-10.90)}</mrow>
+                <intertext>Terms precise to 100ths, 3 sigfigs</intertext>
                 <mrow> &amp; \approx \sqrt{12.5\underline{3}5(6.5\underline{5}5)(4.3\underline{4}5)(1.6\underline{3}5)} \text{ Product maintains 3 sigfigs}</mrow>
                 <mrow> &amp; \approx \sqrt{58\underline{3}.7199977} \text{ Root maintains 3 sigfigs}</mrow>
                 <mrow> &amp; \approx 24.\underline{1}6</mrow>
@@ -263,7 +264,8 @@
             <md>
                 <mrow>s &amp; = \frac{1}{2}(5.98+8.19+2.87) \text{ Each term precise to 100ths}</mrow>
                 <mrow> &amp; \approx 8.52. \text{ Sum maintains to the 100ths}</mrow>
-                <mrow>\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)} \text{ Sums maintain to the 100ths}</mrow>
+                <mrow>\text{Area} &amp; \approx \sqrt{8.52(8.52-5.98)(8.52-8.19)(8.52-2.87)}</mrow>
+                <intertext>Sums maintain to the 100ths</intertext>
                 <mrow> &amp; \approx \sqrt{8.52(2.54)(0.33)(5.65)} \text{ Smallest factor has 2 sigfigs}</mrow>
                 <mrow> &amp; \approx \sqrt{4\underline{0}.34927160} \text{ Root maintains 2 sigfigs}</mrow>
                 <mrow> &amp; \approx 6.\underline{3}5210765</mrow>
@@ -401,7 +403,7 @@
                 <p>What is the total number of feet of lumber (2x4) needed?</p>
             </statement>
             <solution>
-                <p>There are two boards of length 60 inches and three boards of length 27 inches. The total length is <me>2 \cdot 60\text{ in} + 3 \cdot 27.0\text{ in} = 120\text{ in}</me>. We convert this to feet using a ratio. <me>120 \text{ in} \cdot \frac{1 \text{ ft}}{12 \; \text{in}} = 10 \text{ ft}</me></p>
+                <p>There are two boards of length 60 inches and three boards of length 27 inches. The total length is <me>2 (60\text{ in}) + 3(27.0\text{ in}) = 120\text{ in}</me>. We convert this to feet using a ratio. <me>120 \text{ in} \cdot \frac{1 \text{ ft}}{12 \; \text{in}} = 10 \text{ ft}</me></p>
             </solution>
         </task>
         <task>
@@ -439,7 +441,8 @@
                 <p>Finally we convert this to square feet using the method of <xref ref="example-convert-square-units" />.
                 <md>
                     <mrow>2035.5\text{ in}^2 \cdot \left(\frac{1 \text{ ft}}{12 \text{ in}}\right)^2 &amp; = </mrow>
-                    <mrow>\frac{2035.5}{12^2} \text{ ft}^2 &amp; \approx 14.13541667 \text{ ft}^2.</mrow>
+                    <mrow>\frac{2035.5\text{ in}^2}{12^2 \text{ in}^2} \text{ ft}^2 &amp; = </mrow>
+                    <mrow>\frac{2035.5}{144} \text{ ft}^2 &amp; \approx 14.13541667 \text{ ft}^2.</mrow>
                     <mrow> &amp; \approx 15</mrow>
                 </md>. We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.</p>
             </solution>

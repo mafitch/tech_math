@@ -45,9 +45,9 @@
             <p>What is the length of the side opposite the <m>45^\circ</m> angle?</p>
             <p>Because we know two angles and a side opposite one of them we can use the law of sines.
                 <md>
-                    <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}. \amp \text{Set up Law of Sines}</mrow>
-                    <mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \text{ Clear the denominators}</mrow>
-                    <mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}. \amp \text{Divide to solve for }b</mrow>
+                    <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}. \amp \amp \text{Set up Law of Sines}</mrow>
+                    <mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \amp \text{ Clear the denominators}</mrow>
+                    <mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}. \amp \amp \text{Divide to solve for }b</mrow>
                     <mrow> \amp \approx 5.54.</mrow>
                 </md>
             </p>
@@ -56,9 +56,9 @@
             <p>What is the third angle and the length of the side opposite it?</p>
             <p>We can use the angle sum fact to calculate the third angle. <m>50^\circ+45^\circ+\alpha=180^\circ</m> so <m>\alpha=85^\circ</m>. As in the previous step we know an angle (50<degree/>), the side opposite it (6), and another angle (85<degree/>) so we can use the Law of Sines.
             <md>
-                <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}. \amp \text{Set up the Law of Sines}</mrow>
-                <mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \text{ Clear the denominators}</mrow>
-                <mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)} \amp \text{Divide to solve for }c</mrow>
+                <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}. \amp \amp \text{Set up the Law of Sines}</mrow>
+                <mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \amp \text{ Clear the denominators}</mrow>
+                <mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)} \amp \amp \text{Divide to solve for }c</mrow>
                 <mrow> \amp \approx 7.80.</mrow>
             </md></p>
         </task>
@@ -73,9 +73,9 @@
         <p>The third angle measure is the easiest to calculate, because we can use the angle sum theorem. <m>40^\circ+60.20^\circ+\alpha=180^\circ</m>. Thus <m>\alpha = 79.80^\circ</m>.</p>
         <p>Now we know an angle (<m>\alpha</m>) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.</p>
         <p><md>
-            <mrow>\frac{\sin(40^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}. \amp \text{Set up Law of Sines}</mrow>
-            <mrow>\frac{a}{\sin(40^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \amp \text{ Proportion true both ways.}</mrow>
-            <mrow>a &amp; = \frac{7.66\sin(40^\circ)}{\sin(79.80^\circ)} \amp \text{Multiply to solve.}</mrow>
+            <mrow>\frac{\sin(40^\circ)}{a} &amp; = \frac{\sin(79.80^\circ)}{7.66}. \amp \amp \text{Set up Law of Sines}</mrow>
+            <mrow>\frac{a}{\sin(40^\circ)} &amp; = \frac{7.66}{\sin(79.80^\circ)}. \amp \amp \text{ Proportion true both ways}</mrow>
+            <mrow>a &amp; = \frac{7.66\sin(40^\circ)}{\sin(79.80^\circ)} \amp \amp \text{Multiply to solve}</mrow>
             <mrow> &amp; \approx 5.00281961</mrow>
             <mrow> &amp; \approx 5.00</mrow>
         </md>.</p>
@@ -307,18 +307,18 @@
                 <mrow>\frac{\sin(8.00^\circ)}{c} &amp; = \frac{\sin(26.20^\circ)}{2.3 \text{ mi}}.</mrow>
                 <mrow>\frac{c}{\sin(8.00^\circ)} &amp; = \frac{2.3 \text{ mi}}{\sin(26.20^\circ)}.</mrow>
                 <mrow>c &amp; = \frac{(2.3 \text{ mi})\sin(8.00^\circ)}{\sin(26.20^\circ)}</mrow>
-                <mrow> &amp; \approx 0.7\underline{2}501447</mrow>
-                <mrow> &amp; \approx 0.73.</mrow>
-            </md>
+                <mrow> &amp; \approx 0.7\underline{2}501447 \text{ mi}</mrow>
+                <mrow> &amp; \approx 0.73 \text{ mi}</mrow>
+            </md>.
         </p>
         <p>We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height.
             <md>
                 <mrow>\frac{\sin(34.20^\circ)}{h} &amp; = \frac{\sin(90^\circ)}{0.7\underline{2}501447 \text{ mi}}.</mrow>
                 <mrow>\frac{h}{\sin(34.20^\circ)} &amp; = \frac{0.7\underline{2}501447 \text{ mi}}{\sin(90^\circ)}.</mrow>
                 <mrow>h &amp; = \frac{(0.7\underline{2}501447 \text{ mi})\sin(34.20^\circ)}{\sin(90^\circ)}</mrow>
-                <mrow> &amp; \approx 0.4\underline{0}75185828</mrow>
-                <mrow> &amp; \approx 0.41.</mrow>
-            </md>
+                <mrow> &amp; \approx 0.4\underline{0}75185828 \text{ mi}</mrow>
+                <mrow> &amp; \approx 0.41 \text{ mi}</mrow>
+            </md>.
         This is in miles. It will be easier to interpret in feet. The conversion ratio in <xref ref="table-customary-convert" /> suggests we can multiply <me>(0.4\underline{0}751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2\underline{1}51.6983 \text{ ft} \approx 2200 \text{ ft}</me>.</p>
     </example>
 

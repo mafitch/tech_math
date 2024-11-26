@@ -138,9 +138,9 @@
         <p>First, we know that two of the angles are <m>90^\circ</m> and <m>50^\circ</m>, so the third angle has measure <m>180^\circ-90^\circ-50^\circ = 40^\circ</m>.</p>
         <p>To calculate the length of the hypotenuse recall that <m>sin(\alpha)=\frac{\text{opposite}}{\text{hypotenuse}}</m>. We know the angle and the length of the opposite.
         <md>
-            <mrow>\sin(50^\circ) \amp \approx 0.76604444. \text{ Use a device to approximate.}</mrow>
-            <mrow>\frac{7}{h} \amp \approx 0.76604444. \text{ Write the ratio.}</mrow>
-            <mrow>7 \amp \approx h \cdot 0.76604444. \text{ Clear the denominator.}</mrow>
+            <mrow>\sin(50^\circ) \amp \approx 0.76604444. &amp; &amp; \text{ Use a device to approximate.}</mrow>
+            <mrow>\frac{7}{h} \amp \approx 0.76604444. &amp; &amp; \text{ Write the ratio.}</mrow>
+            <mrow>7 \amp \approx h \cdot 0.76604444. &amp; &amp; \text{ Clear the denominator.}</mrow>
             <mrow>\frac{7}{0.76604444} \amp \approx h.</mrow>
             <mrow>h \amp \approx 9.1378510.</mrow>
         </md>
@@ -242,7 +242,7 @@
         <md>
             <mrow>\tan(63^\circ) &amp; = \frac{H}{103}</mrow>
             <mrow>103\tan(63^\circ) &amp; = H</mrow>
-            <mrow>2\underline{0}2.15 &amp; = H</mrow>
+            <mrow>2\underline{0}2.15 &amp; \approx H</mrow>
             <mrow>2\bar{0}0 &amp; \approx H</mrow>
         </md> The tree is approximately 200 feet high.</p>
      </example>

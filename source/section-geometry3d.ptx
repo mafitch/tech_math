@@ -84,9 +84,9 @@
             <p>The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area <m>\frac{1}{2} \cdot 2.12\underline{5} \cdot 3.12\underline{5} = 3.3\underline{2}03125</m>. The rectangle areas are <m>2.12\underline{5} \cdot 10.25\underline{0} = 21.7\underline{8}125</m> and <m>3.12\underline{5} \cdot 10.25\underline{0} = 32.0\underline{3}125</m>. For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem.
             <md>
                 <mrow>(2.12\underline{5})^2+(3.12\underline{5})^2 &amp; = c^2.</mrow>
-                <mrow>4.51\underline{5}625+9.76\underline{5}625 &amp; = c^2. \text{ Squaring maintains 4 sigfigs}</mrow>
-                <mrow>14.28\underline{1}25 &amp; = c^2. \text{ Adding precise to 1000ths}</mrow>
-                <mrow>\sqrt{14.28\underline{1}25} &amp; = c. \text{ Root maintains 5 sigfigs}</mrow>
+                <mrow>4.51\underline{5}625+9.76\underline{5}625 &amp; = c^2. &amp; &amp; \text{ Squaring maintains 4 sigfigs}</mrow>
+                <mrow>14.28\underline{1}25 &amp; = c^2. &amp; &amp; \text{ Adding precise to 1000ths}</mrow>
+                <mrow>\sqrt{14.28\underline{1}25} &amp; = c. &amp; &amp; \text{ Root maintains 5 sigfigs}</mrow>
                 <mrow>3.779\underline{0}5 &amp; \approx c.</mrow>
                 <mrow>3.7791 &amp; \approx c.</mrow>
             </md>
@@ -107,7 +107,7 @@
         <sidebyside>
             <figure xml:id="figure-exercise-prism-triangular-right">
                 <caption>Right Triangular Prism</caption>
-                <image source="images/triangular_prism_exercise" width="30%" />
+                <image source="images/triangular_prism_exercise" width="15%" />
             </figure>
             <figure xml:id="figure-exercise-prism-triangular-slant">
                 <caption>Non-Right Triangular Prism</caption>
@@ -214,7 +214,8 @@
                 <md>
                     <mrow>s &amp; = \frac{1}{2}(2.0000+3.1623+3.1623)</mrow>
                     <mrow> &amp; = 4.1623. \text{ All numbers precise to 4 decimal places}. </mrow>
-                    <mrow>A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)} \text{ Subtraction maintains 4 decimal places}</mrow>
+                    <mrow>A &amp; = \sqrt{s(s-3.1623)(s-3.1623)(s-2.0000)}</mrow>
+                    <intertext>Subtraction maintains 4 decimal places</intertext>
                     <mrow> &amp; = \sqrt{(4.1623)(1.0000)(1.0000)(2.1623)} \text{ Product will have 5 sigfigs}</mrow>
                     <mrow> &amp; = \sqrt{9.000\underline{1}4129} \text{ Root will maintain 5 sigfigs}</mrow>
                     <mrow> &amp; = 3.000\underline{0}23548</mrow>
@@ -236,19 +237,20 @@
         <image source="images/pyramid-exercise-no-height-labeled" width="30%" />
         <p><md>
             <mrow>\left(\frac{5.31}{2}\right)^2+\left(\frac{3.17}{2}\right)^2 &amp; = c^2.</mrow>
-            <mrow>7.0\underline{4}9025+2.5\underline{1}2225 &amp; = c^2. \text{ Square maintains 3 sigfigs}</mrow>
-            <mrow>9.5\underline{6}125 &amp; = c^2. \text{ Addition maintains precision to 2 places}</mrow>
-            <mrow>\sqrt{9.5\underline{6}125} &amp; = c. \text{ Root maintains 3 sigfigs}</mrow>
+            <mrow>7.0\underline{4}9025+2.5\underline{1}2225 &amp; = c^2. &amp; &amp; \text{ Square maintains 3 sigfigs}</mrow>
+            <mrow>9.5\underline{6}125 &amp; = c^2. &amp; &amp; \text{ Addition maintains precision to 2 places}</mrow>
+            <mrow>\sqrt{9.5\underline{6}125} &amp; = c. &amp; &amp; \text{ Root maintains 3 sigfigs}</mrow>
             <mrow>3.0\underline{9}21271 &amp; \approx c.</mrow>
             <mrow>3.09 &amp; \approx c.</mrow>
         </md>
         Next, we can use this length and the given side length to calculate the height.
         <md>
             <mrow>3.0\underline{9}21271^2 + h^2 &amp; = 9.72^2.</mrow>
-            <mrow>9.5\underline{6}125 + h^2 &amp; = 94.\underline{4}784. \text{ Square maintains 3 sigfigs}</mrow>
+            <mrow>9.5\underline{6}125 + h^2 &amp; = 94.\underline{4}784. &amp; &amp; \text{ Square maintains 3 sigfigs}</mrow>
             <mrow>h^2 &amp; = 94.\underline{4}784-9.5\underline{6}125. </mrow>
-            <mrow>h^2 &amp; = 84.\underline{9}1715. \text{ Subtraction maintains precision to only one place}</mrow>
-            <mrow>h &amp; = \sqrt{84.\underline{9}1715}. \text{ Root maintains 3 sigfigs}</mrow>
+            <mrow>h^2 &amp; = 84.\underline{9}1715.</mrow>
+            <intertext>Subtraction maintains precision to only one place</intertext>
+            <mrow>h &amp; = \sqrt{84.\underline{9}1715}. &amp; &amp; \text{ Root maintains 3 sigfigs}</mrow>
             <mrow>h &amp; \approx 9.2\underline{1}505019</mrow>
             <mrow>h &amp; \approx 9.22.</mrow>
         </md></p>
@@ -488,14 +490,14 @@
             <md>
                 <mrow>V_c &amp; = \frac{\pi}{3} (1.1875)^2 (7)</mrow>
                 <mrow> &amp; \approx \frac{3.14159}{3} (1.1875)^2 (7)</mrow>
-                <mrow> &amp; \approx 10.33697647.</mrow>
+                <mrow> &amp; \approx 10.33697647</mrow>
             </md>.
             The volume of the half sphere is
             <md>
                 <mrow>V_s &amp; = \frac{1}{2} \cdot \frac{4}{3} \pi (1.1875)^3</mrow>
                 <mrow> &amp; \approx \frac{2}{3}(3.14159)(1.1875)^3</mrow>
-                <mrow> &amp; \approx 3.507188445.</mrow>
-            </md>
+                <mrow> &amp; \approx 3.507188445</mrow>
+            </md>.
             Thus the total volume of the ice cream is <m>10.33697647+3.507188445 \approx 13.84416492 \approx 14</m> cubic inches.</p></solution>
         </task>
         <task>
@@ -506,8 +508,8 @@
                 <mrow> &amp; \approx (3.14159)(1.1875)\sqrt{6^2+(1.1875)^2}</mrow>
                 <mrow> &amp; \approx (3.14159)(1.1875)\sqrt{37.410156}</mrow>
                 <mrow> &amp; \approx (3.14159) (1.1875) (6.116384)</mrow>
-                <mrow> &amp; \approx 22.81801626.</mrow>
-            </md>
+                <mrow> &amp; \approx 22.81801626</mrow>
+            </md>.
             The surface area of the half sphere is <m>\frac{1}{2} \cdot 4 \pi (1.1875)^2 \approx 8.860265547</m>. Thus the total surface area of the ice cream is <m>22.81801626+8.860265547 \approx 31.67828181 \approx 32</m> square inches.</p></solution>
         </task>
     </example>

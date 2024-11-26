@@ -187,9 +187,9 @@
         <p>What force does the earth exert on the moon? The mass of the earth is approximately <m>5.97219 \times 10^{24}</m> kg, and the mass of the moon is approximately <m>7.34767 \times 10^{22}</m> kg. The average distance between the earth and moon is 382,500 km.</p>
         <p>We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is <m>382,500 \text{ km} \cdot \frac{1000 \text{ m}}{\text{km}} = 382,500,000 \text{ m}</m>. Using the model
             <md>
-                <mrow>F &amp; = (6.6743 \times 10^{-11}) \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2} \left(\frac{(5.97219 \times 10^{24} \text{ kg})(7.34767 \times 10^{22} \text{ kg})}{(382500000 \text{ km})^2} \right)</mrow>
-                <mrow> &amp; \approx 2.001824977 \times 10^{20}</mrow>
-                <mrow> &amp; \approx 2.002 \times 10^{20}</mrow>
+                <mrow>F &amp; = (6.6743 \times 10^{-11}) \frac{\text{m}^3}{\text{kg} \cdot \text{s}^2} \left(\frac{(5.97219 \times 10^{24} \text{ kg})(7.34767 \times 10^{22} \text{ kg})}{(382500000 \text{ m})^2} \right)</mrow>
+                <mrow> &amp; \approx 2.001824977 \times 10^{20} \frac{\text{m}\text{ kg}}{\text{s}^2}</mrow>
+                <mrow> &amp; \approx 2.002 \times 10^{20} \text{N}</mrow>
             </md>
         </p>
     </example>

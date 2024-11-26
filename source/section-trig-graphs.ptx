@@ -157,11 +157,12 @@
         <p>What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.</p>
         <p>Because we know the frequency we can directly calculate the period.
         <md>
-            <mrow>261.63 \amp = \frac{1}{T}</mrow>
-            <mrow>T \cdot 261.63 \amp = T \cdot \frac{1}{T}</mrow>
-            <mrow>\frac{T \cdot 261.63}{261.33} \amp = \frac{1}{261.33}</mrow>
+            <mrow>261.63 \amp = \frac{1}{T}.</mrow>
+            <mrow>261.63 \cdot T \amp = \frac{1}{T} \cdot T.</mrow>
+            <mrow>261.63T \amp = 1.</mrow>
+            <mrow>\frac{T \cdot 261.63}{261.33} \amp = \frac{1}{261.33}.</mrow>
             <mrow>T \amp = \frac{1}{261.63}</mrow>
-            <mrow> \amp \approx 0.003822\underline{1}91645</mrow>
+            <mrow> \amp \approx 0.003822\underline{1}916</mrow>
             <mrow> \amp \approx 0.0038222</mrow>
         </md>.</p>
         <p>For the wavelength we need to know that the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows. <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.265\underline{5}65875 \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</me></p>
