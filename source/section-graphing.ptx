@@ -148,6 +148,30 @@
 
     <p>Graphs can be from raw data which may appear random. We still read these graphs the same way.</p>
 
+    <p>For the following example we need to define a <term>percentile</term>. A percentile indicates a level such that, that percent of cases is less. For example if the 75th percentile is 88, means that 75% of the cases are less than 88. It is a way of indicating how much of a population is included at that level.</p>
+
+    <figure xml:id="figure-stature-percentiles-male">
+        <caption>Expected Stature of Males from 2 to 20 Years</caption>
+        <image source="images/StaturePercentileUSmale" width="50%" />
+    </figure>
+
+    <example xml:id="example-read-graph-stature-percentiles">
+        <p>The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at <url href="https://www.cdc.gov/growthcharts/" visual="cdc.gov/growthcharts/" />. What height in centimeters is the 50th percentile for 11 year old males?</p>
+        <p>To read an approximate value from this figure, we can draw a vertical line from 11 on the x-axis (half way between 10 and 12) up to the middle (blue) curve. From that point we can draw a horizontal line across to the y-axis. This is about one quarter of the way between 140 and 160, so we estimate this is 145 cm (see <xref ref="example-table-read-interpolate-third" /> for a reminder on how to estimate this).</p>
+        <image source="images/StaturePercentileUSmale-read50" width="50%" />
+        <p>How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.</p>
+        <p>For 2 year olds it appears to range from 80 to 95 cm (about 3/4 of the way up). This is a spread of <m>95-80=15</m> cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of <m>190-165=35</m> cm. Thus the spread increases over time. The ratio is <m>35/15 = 7/3 \approx 2.3</m>. For the percent increase we calculate <m>\frac{35}{15} \approx 2.33333333</m> The percent increase is <m>2.33333333-1.00000000=1.33333333</m> or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.</p>
+    </example>
+
+    <p>In addition to reading specific values from these graphs, we should always ask ourselves why the diagram was designed as it was.</p>
+
+    <example xml:id="example-read-graph-stature-percentiles-why">
+        <p>When we look at the stature percentiles figure we should ask ourselves questions like the following.</p>
+        <p>Why is it for males only? The CDC provides separate data for females. On average females in the U.S. are shorter than males. Thus separate figures are needed. Note, to answer this we needed to see rest of the CDC data (cannot be read from the figure above).</p>
+        <p>Why does it begin at 2 years? The CDC provides separate data for 0-2 years. This is from the WHO rather than the CDC. An explanation is on their website.</p>
+        <p>Why does the data end at 20 years? Notice that the percentile curves level off toward 20 years old. This simply represents that full, adult height has been reached. The curves should remain the same until age brings shrinking.</p>
+    </example>
+
     <example xml:id="example-read-graph-temp-dewpoint">
         <p><xref ref="figure-temp-dewpoint" /> has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.</p>
         <p>What are the temperature and dewpoint at the 700 millibar level?</p>
