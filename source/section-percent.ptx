@@ -10,6 +10,7 @@
             <li>Interpret data in various formats and analyze mathematical models</li>
             <li>Communicate results in mathematical notation and in language appropriate to the technical field</li>
         </ul>
+
         This section covers the following mathematical concepts.
         <ul>
             <li>Calculate Percentages (skill)</li>
@@ -226,6 +227,22 @@
         </webwork> -->
         <myopenmath problem="1437459" />
     </exercise>
+
+    <p>The following example starts with the percent increase information, and determines the original amount.</p>
+
+    <example xml:id="example-original-from-increase">
+        <p>This year's sales were 103% of last year's sales. If total sales this year were $576,211, how much were last year's sales?</p>
+        <p>We can use the usual part/whole definition. It is important to place our information in the correct locations. The amount we are given (this year) is the part; we want to calculate the whole.
+            <md>
+                <mrow>\frac{\$576211}{W} &amp; = 1.03.</mrow>
+                <mrow>\$576211 &amp; = 1.03W. \text{ Clear the denominator}</mrow>
+                <mrow>\frac{\$576211}{1.03} &amp; = W. \text{ Divide to undo multiplication}</mrow>
+                <mrow>\$559428.1553 &amp; = W.</mrow>
+                <mrow>\$559,428.16 &amp; = W.</mrow>
+            </md>
+        </p>
+        <p>If we want to know what amount constituted the 3% increase of the previous year we can now calculate that as the difference. $576,211<minus/>$559,428.16=$16,782.84. We can confirm it is 3% by dividing <m>\frac{\$16782.84}{\$559428.16} \approx 0.029999991</m> or 3% rounded. Notice we needed to compare to the previous year's amount which was not given.</p>
+    </example>
 
     <p>This video covers percent increase topics.</p>
     <video youtube="P2KOjsVlaKI" xml:id="video-example-percent-increase" />

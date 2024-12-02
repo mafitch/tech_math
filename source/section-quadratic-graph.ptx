@@ -70,7 +70,7 @@
         <title>Discovering Parabola Parameters</title>
 
         <task xml:id="exercise-quadratic-vertical-scale">
-            <introduction><p>In this exercise we will check on the effect of multiplying a quadratic by a scalar (number).</p></introduction>
+            <introduction><p>In this task we will check the effect of multiplying a quadratic by a scalar (number).</p></introduction>
             <task><p>Complete the table of points below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
                 <tabular top="medium">
                     <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>2x^2</m></cell></row>
@@ -87,7 +87,7 @@
         </task>
 
         <task xml:id="exercise-quadratic-vertical-scale2">
-            <introduction><p>In this exercise we will continue to check on the effect of multiplying a quadratic by a scalar (number).</p></introduction>
+            <introduction><p>In this task we will continue to check the effect of multiplying a quadratic by a scalar (number).</p></introduction>
             <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
                 <tabular top="medium">
                     <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>\frac{1}{2}x^2</m></cell></row>
@@ -103,8 +103,25 @@
             <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
         </task>
 
+        <task xml:id="exercise-quadratic-reflect">
+            <introduction><p>In this task we will check on the effect of multiplying a quadratic by a negative scalar.</p></introduction>
+            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
+                <tabular top="medium">
+                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>-x^2</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>-(-2)^2=-4</m></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
+                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
+                </tabular>
+            </task>
+            <task><p>Graph these points.</p></task>
+            <task><p>Compare the entries in the <m>-x^2</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
+            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
+        </task>
+
         <task xml:id="exercise-quadratic-horizontal-shift">
-            <introduction><p>In this exercise we will check on the effect of adding inside the square.</p></introduction>
+            <introduction><p>In this task we will check on the effect of adding inside the square.</p></introduction>
             <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
                 <tabular top="medium">
                     <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>(x-1)^2</m></cell></row>
@@ -121,7 +138,7 @@
         </task>
 
         <task xml:id="exercise-quadratic-horizontal-shift2">
-            <introduction><p>In this exercise we will continue to check on the effect of adding inside the square.</p></introduction>
+            <introduction><p>In this task we will continue to check on the effect of adding inside the square.</p></introduction>
             <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
                 <tabular top="medium">
                     <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>(x+1)^2</m></cell></row>
@@ -138,7 +155,7 @@
         </task>
 
         <task xml:id="exercise-quadratic-vertical-shift">
-            <introduction><p>In this exercise we will check on the effect of adding outside the square.</p></introduction>
+            <introduction><p>In this task we will check on the effect of adding outside the square.</p></introduction>
             <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
                 <tabular top="medium">
                     <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>x^2-1</m></cell></row>
@@ -155,7 +172,7 @@
         </task>
 
         <task xml:id="exercise-quadratic-vertical-shift2">
-            <introduction><p>In this exercise we will continue to check on the effect of adding outside the square.</p></introduction>
+            <introduction><p>In this task we will continue to check on the effect of adding outside the square.</p></introduction>
             <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
                 <tabular top="medium">
                     <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>x^2+1</m></cell></row>
@@ -168,23 +185,6 @@
             </task>
             <task><p>Graph these points.</p></task>
             <task><p>Compare the entries in the <m>x^2+1</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
-            <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
-        </task>
-
-        <task xml:id="exercise-quadratic-reflect">
-            <introduction><p>In this exercise we will check on the effect of multiplying a quadratic by a negative.</p></introduction>
-            <task><p>Complete the table below. Compare the results to the table in <xref ref="example-graph-parabola" /></p>
-                <tabular top="medium">
-                    <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell> <cell right="medium"><m>-x^2</m></cell></row>
-                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell right="medium"><m>-(-2)^2=-4</m></cell></row>
-                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell right="medium"></cell></row>
-                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell right="medium"></cell></row>
-                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell right="medium"></cell></row>
-                    <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell right="medium"></cell></row>
-                </tabular>
-            </task>
-            <task><p>Graph these points.</p></task>
-            <task><p>Compare the entries in the <m>-x^2</m> column to the entries in the <m>x^2</m> in <xref ref="example-graph-parabola" />. Describe how they changed.</p></task>
             <task><p>Compare this graph to the graph in <xref ref="example-graph-parabola" />. Describe how the graph changed.</p></task>
         </task>
     </activity>
@@ -202,7 +202,7 @@
         <myopenmath problem="809298" />
     </exercise>
 
-    <p>Recall that lines can all be expressed in the form <m>y=mx+b</m> where <m>m</m>, the slope, defines steepness, and <m>b</m> represents a shift. Based on the work above we now know that all quadratics (parabolas) can be written as <me>y=a(x-h)^2+k</me> where <m>a</m> indicates how steeply the parabola rises, and <m>h</m> and <m>k</m> indicate horizontal and vertical shifts of the parabola. The shifts are also the location of the vertex which we used in the examples above. In applications these parameters can have meaning.</p>
+    <p>Recall that lines can all be expressed in the form <m>y=mx+b</m> where <m>m</m>, the slope, defines steepness, and <m>b</m> represents a shift. Based on the work above we now know that all quadratics (parabolas) can be written as <me>y=a(x-h)^2+k</me> where <m>a</m> indicates how steeply the parabola rises, and <m>h</m> and <m>k</m> indicate horizontal and vertical shifts of the parabola. The shifts are also the location of the vertex. In the example above we used the shifts to identify the coordinate of the vertex. In applications the shift parameters can have meaning.</p>
 </subsection>
 
 <subsection xml:id="subsection-quadratic-application">
@@ -220,8 +220,8 @@
 
     <example xml:id="example-interpret-parabola-load-factor">
         <p>The maximum load factor can be written as <me>n_{max} = \left(\frac{V}{V_S}\right)^2 = \frac{1}{V_S^2} V^2.</me> This is a parabola.</p>
-        <p>This equation has <m>h=0</m> and <m>k=0</m>. Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is <m>V=V_S</m> which gives us 1 G. That is the normal state of flight is 1 G (the one produced by gravity). If <m>k \gt 0</m> the model would indicate more than 1 G produced by gravity. <m>h \ne 0</m> would indicate this occuring at some other speed.</p>
-        <p>The coefficient (<m>1/V_S^2</m>) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's.</p>
+        <p>This equation has <m>h=0</m> and <m>k=0</m>. Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is <m>V=V_S</m> which gives us 1 G. That is, the normal state of flight is 1 G (the one produced by earth's gravity). If <m>k \gt 0</m> the model would indicate more than 1 G produced by gravity. <m>h \ne 0</m> would indicate this occuring at some other speed.</p>
+        <p>The coefficient (<m>1/V_S^2</m>) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's than it does to move from 2 G's to 3 G's.</p>
         <p>For example if the stall speed is 41 nm/hr, then 1 G occurs at 41 nm/hr and 2 G's occurs at <m>V=41\sqrt{2} \approx 58</m> nm/hr. To increase the maximum load factor requires an increase of <m>58-41=17</m> nm/hr. However if the stall speed were 63 nm/hr then 1 G occurs at 63 nm/hr and 2 G's occurs at <m>V=63\sqrt{2} \approx 89</m> nm/hr. To increase the maximum load factor required an increase of <m>89-63=26</m> nm/hr. The higher stall speed implies a greater (<m>22 \gt 16</m>) increase in speed.</p>
         <image source="images/compare_load_factor_curves" width="50%" />
     </example>
@@ -230,7 +230,7 @@
 
     <example xml:id="example-quadratic-standard-vertex">
         <p>Determine the coordinates of the vertex of <m>y=2x^2-11x+12</m>. All numbers are exact.</p>
-        <p>Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between the solutions to <m>2x^2-11x+12 = 0</m>. We can solve this using the quadratic formula.
+        <p>Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between two points with <m>y=0</m>, that is half way between the solutions to <m>2x^2-11x+12 = 0</m>. We can solve this using the quadratic formula.
             <md>
                 <mrow>x &amp; = \frac{-(-11) \pm \sqrt{(-11)^2-4(2)(12)}}{2(2)}</mrow>
                 <mrow> &amp; = \frac{11 \pm \sqrt{121-96}}{4}</mrow>

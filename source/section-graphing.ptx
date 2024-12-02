@@ -152,13 +152,13 @@
 
     <figure xml:id="figure-stature-percentiles-male">
         <caption>Expected Stature of Males from 2 to 20 Years</caption>
-        <image source="images/StaturePercentileUSmale" width="50%" />
+        <image source="images/StaturePercentilesUSmale" width="50%" />
     </figure>
 
     <example xml:id="example-read-graph-stature-percentiles">
         <p>The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at <url href="https://www.cdc.gov/growthcharts/" visual="cdc.gov/growthcharts/" />. What height in centimeters is the 50th percentile for 11 year old males?</p>
         <p>To read an approximate value from this figure, we can draw a vertical line from 11 on the x-axis (half way between 10 and 12) up to the middle (blue) curve. From that point we can draw a horizontal line across to the y-axis. This is about one quarter of the way between 140 and 160, so we estimate this is 145 cm (see <xref ref="example-table-read-interpolate-third" /> for a reminder on how to estimate this).</p>
-        <image source="images/StaturePercentileUSmale-read50" width="50%" />
+        <image source="images/StaturePercentilesUSmale-read50" width="50%" />
         <p>How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.</p>
         <p>For 2 year olds it appears to range from 80 to 95 cm (about 3/4 of the way up). This is a spread of <m>95-80=15</m> cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of <m>190-165=35</m> cm. Thus the spread increases over time. The ratio is <m>35/15 = 7/3 \approx 2.3</m>. For the percent increase we calculate <m>\frac{35}{15} \approx 2.33333333</m> The percent increase is <m>2.33333333-1.00000000=1.33333333</m> or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.</p>
     </example>
