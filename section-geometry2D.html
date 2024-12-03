@@ -960,12 +960,31 @@ s &amp; = \frac{1}{2}(13.0+13.0+24.0)\\
 \end{equation*}
 </div>
 </div>
-<div class="para" id="example-geometry2d-floor-plan-8">We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like <span class="process-math">\(3 \text{ ft } 1 \text{in} \approx 3.0833 \text{ ft}\text{.}\)</span> The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.</div></article><div class="para" id="subsection-geometry-applied-6">The following example requires geometric thinking, but does not require any formula. Especially important is the type of rounding which is determined by physical constraints.</div>
-<article class="example example-like" id="example-geometry-abacus"><h4 class="heading">
+<div class="para" id="example-geometry2d-floor-plan-8">We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like <span class="process-math">\(3 \text{ ft } 1 \text{in} \approx 3.0833 \text{ ft}\text{.}\)</span> The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.</div></article><article class="example example-like" id="example-wall-subtract"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.32</span><span class="period">.</span>
 </h4>
+<div class="para" id="example-wall-subtract-1">Calculate the area to be painted on this wall with a circular window.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/wall_porthole.svg" role="img" class="contained"></div>
+<div class="para" id="example-wall-subtract-3">The wall consists of a rectangle with a triangle on top. The rectangle has width 12 ft and height 5 ft for an area of <span class="process-math">\((5 \text{ ft})(12 \text{ ft})=60 \text{ ft}^2\text{.}\)</span>
+</div>
+<div class="para" id="example-wall-subtract-4">We have the base of the triangle (12 ft), and we can calculate the height. The total wall height is 11 ft and the rectangular portion is 5 ft, so the triangle has height <span class="process-math">\((11 \text{ ft})-(5 \text{ ft})=6 \text{ ft}\text{.}\)</span> Thus the area is <span class="process-math">\(\frac{1}{2}(12 \text{ ft})(6 \text{ ft}) = 36 \text{ ft}^2\text{.}\)</span>
+</div>
+<div class="para" id="example-wall-subtract-5">The area of the circle is <span class="process-math">\(\pi\left( \frac{6 \text{ ft}}{2} \right)^2 \approx 28.27433389 \text{ ft}^2 \approx 28 \text{ ft}^2\text{.}\)</span>
+</div>
+<div class="para logical" id="example-wall-subtract-6">
+<div class="para">The total wall area is therefore</div>
+<div class="displaymath process-math">
+\begin{equation*}
+60 \text{ ft}^2 + 36 \text{ ft}^2 - 28.27433389 \text{ ft}^2 \approx 67.72566611 \text{ ft}^2 \approx 68 \text{ ft}^2\text{.}
+\end{equation*}
+</div>
+<div class="para">It is important to round up to have enough paint.</div>
+</div></article><div class="para" id="subsection-geometry-applied-7">The following example requires geometric thinking, but does not require any formula. Especially important is the type of rounding which is determined by physical constraints.</div>
+<article class="example example-like" id="example-geometry-abacus"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.33</span><span class="period">.</span>
+</h4>
 <div class="introduction" id="example-geometry-abacus-1">
-<div class="para" id="example-geometry-abacus-1-1">Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <a href="section-geometry2D.html#figure-apply-geometry-abacus" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-abacus.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.33">Figure 4.1.33</a> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.</div>
+<div class="para" id="example-geometry-abacus-1-1">Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in <a href="section-geometry2D.html#figure-apply-geometry-abacus" class="xref" data-knowl="./knowl/xref/figure-apply-geometry-abacus.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.34">Figure 4.1.34</a> Note the depth of each piece of wood is 3.5". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.</div>
 <div class="para" id="example-geometry-abacus-1-2">Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.</div>
 </div>
 <article class="task exercise-like" id="example-geometry-abacus-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -1030,24 +1049,24 @@ s &amp; = \frac{1}{2}(13.0+13.0+24.0)\\
 <div class="para" id="example-geometry-abacus-5-1-1">What is the area that is hidden, that is, cannot be seen after assembling?</div>
 <div class="solutions"><details id="example-geometry-abacus-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-geometry-abacus-5-2-1">This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape <span class="process-math">\(3.5\text{ in} \cdot 1.5\text{ in} = 5.25\text{ in}^2\text{.}\)</span> The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for <span class="process-math">\(12 \cdot 5.25\text{ in}^2 \approx 63\text{ in}^2\text{.}\)</span>
 </div></div></details></div></article></article><figure class="figure figure-like" id="figure-apply-geometry-abacus"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/images/abacus.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.33<span class="period">.</span></span><span class="space"> </span>Abacus</figcaption></figure><div class="para" id="subsection-geometry-applied-9">The following example also illustrates rounding according to physical constraints.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.34<span class="period">.</span></span><span class="space"> </span>Abacus</figcaption></figure><div class="para" id="subsection-geometry-applied-10">The following example also illustrates rounding according to physical constraints.</div>
 <article class="example example-like" id="example-carpet-squares"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.34</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.35</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-carpet-squares-1">We are purchasing carpet squares to carpet a rectangular room that is 15.5 ft by 19.0 ft. These carpet squares are 18 in by 18 in. A box contains 10 squares. How many boxes of carpet squares do we need purchase? This image shows four carpet squares together.</div>
 <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/carpet_square_fixed.svg" role="img" class="contained"></div>
 <div class="para" id="example-carpet-squares-3">We need to know how many square across and down the room. For the number of squares across we can divide the width of the room (15.5 ft) by the width of a carpet square (18 in). This requires matching units, so <span class="process-math">\(15.5 \text{ ft} \cdot \frac{12 \text{ in}}{\text{ft}} = 186 \text{ in}\)</span> Thus the number of squares across is <span class="process-math">\(\frac{186}{18} = 10.333\text{.}\)</span> This means the final square will be a third of a square in width. While it might seem efficient to reuse the rest of that carpet square in the rows above, we cannot because the pattern would not continue correctly. Thus we simply round up to 11 squares across.</div>
 <div class="para" id="example-carpet-squares-4">Next we calculate the number of squares down. <span class="process-math">\(19.0 \text{ ft} \cdot \frac{12 \text{ in}}{\text{ft}} = 228 \text{ in}\text{.}\)</span> Thus the number of squares down is <span class="process-math">\(\frac{228}{18} = 12.666\text{.}\)</span> Again to have enough squares we must round up to 13 squares down.</div>
 <div class="para" id="example-carpet-squares-5">Thus the total number of carpet squares needed is <span class="process-math">\(11 \cdot 13 = 143\text{.}\)</span> Because each box has 10 squares each, we need <span class="process-math">\(\frac{143}{10} = 14.3\)</span> boxes. To have enough we need 15 boxes. In practice we would likely buy at least one extra box in case there are problems.</div></article><article class="example example-like" id="example-carpet-square-failure"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.35</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.36</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-carpet-square-failure-1">At first the following might seem to be a reasonable way to solve this problem. First, calculate the total square inches of floor. Using the conversion to inches from above <span class="process-math">\(186 \cdot 228 = 42408\)</span> square inches of floor.</div>
 <div class="para" id="example-carpet-square-failure-2">Next we can divide by the number of square inches each carpet squares covers to count the number of squares. Each square covers <span class="process-math">\(18^2 = 324\)</span> square inches. Thus we calculate that we need <span class="process-math">\(\frac{42408}{324} = 130.888\)</span> carpet squares.</div>
 <div class="para" id="example-carpet-square-failure-3">This is substantially fewer than the 143 we calculated previously. The reason is this calculation assumes we can use each of the partial squares somewhere else in the room. This is true when the pattern does not need to match, but not in this case.</div>
-<div class="para" id="example-carpet-square-failure-4">Now you may understand why such repeating patterns are avoided in most carpets.</div></article><article class="exercise exercise-like" id="subsection-geometry-applied-12"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.36</span><span class="period">.</span>
+<div class="para" id="example-carpet-square-failure-4">Now you may understand why such repeating patterns are avoided in most carpets.</div></article><article class="exercise exercise-like" id="subsection-geometry-applied-13"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.37</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-geometry-applied-12-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometry-applied-12-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1472156&amp;frame_id=momsubsection-geometry-applied-12-1"></iframe></div></article></section><section class="exercises" id="section-geometry2D-5"><h3 class="heading hide-type">
+<div id="momsubsection-geometry-applied-13-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometry-applied-13-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1472156&amp;frame_id=momsubsection-geometry-applied-13-1"></iframe></div></article></section><section class="exercises" id="section-geometry2D-5"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="section-geometry2D-5-1"><h4 class="heading">
