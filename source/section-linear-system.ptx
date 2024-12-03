@@ -40,7 +40,7 @@
 <subsection xml:id="subsection-crossing-lines">
     <title>Crossing Lines</title>
 
-    <p>This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) their should be a solution. The next section provides the method for solving.</p>
+    <p>This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) there should be a solution. The next section provides the method for solving.</p>
 
     <p>Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.</p>
 
@@ -151,16 +151,14 @@
             <mrow>B &amp; = \frac{-0.6}{-0.16}</mrow>
             <mrow> &amp; = 3.75.</mrow>
         </md>
-        In the fifth line we added the two equations. Because they had opposite coefficients for <m>A</m>, that variable was eliminated leaving us with just <m>B</m>. This can always be done with systems of linear equations.</p>
+        In the fifth line we added the two equations. Because they had opposite coefficients for <m>A</m>, that variable was eliminated, leaving us with just <m>B</m>. This can always be done with systems of linear equations.</p>
         <p>We finish solving this system the same way as the previous example, by substituting the value of <m>B</m> back into the first equation.
         <md>
             <mrow>A+B &amp; = 10.0.</mrow>
-            <mrow>A+3.75 &amp; \approx 10.0.</mrow>
-            <mrow>A &amp; \approx 6.25.</mrow>
+            <mrow>A+3.75 &amp; = 10.0.</mrow>
+            <mrow>A &amp; = 6.25.</mrow>
         </md></p>
     </example>
-
-    <p>Notice that we ended up with slightly different solutions in <xref ref="example-dual-mixture-solve" /> and <xref ref="example-dual-mixture-eliminate" />. This is not the result of differences in the methods. Rather it is the result of rounding and it is a result of our choice of variable to solve first. These slightly different results are a reminder to be careful when rounding is involved. If the difference between these results makes a difference in our lives, then we need to measure more precisely.</p>
 
     <exercise xml:id="exercise-linear-system-integers">
 <!--        <webwork>

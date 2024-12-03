@@ -25,6 +25,11 @@
 
     <p>In previous sections many of the models involving rational (fractional) expressions could be set up so we solved for a variable in the numerator. In this section we look at multiple examples in which we must solve for a variable in the denominator.</p>
 
+    <figure xml:id="figure-gear-measurements">
+        <caption>Gear Measurements</caption>
+        <image source="images/gear_measurements" width="60%" />
+    </figure>
+
     <fact xml:id="model-gear-teeth">
         <title>Gear Design</title>
         <statement>
@@ -33,7 +38,7 @@
                 <li><m>N</m> is the total number of teeth</li>
                 <li><m>D_o</m> the diameter of the outside of the gear, and</li>
                 <li><m>D_p</m> is the pitch diameter.</li>
-            </ul> Note pitch diameter is the diameter of a circle such that this where this gear meets the other gear.</p>
+            </ul> Outer diameter is the diameter of a circle that contains the tips of the teeth. Pitch diameter is the diameter of a circle such that this gear touches the other gear at this distance. It is illustrated as the dashed circles in the figure above.</p>
         </statement>
     </fact>
 
@@ -181,9 +186,10 @@
         <p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p>
         <p>The question is how to calculate the speed of the combined pumps. Adding a pump would increase the speed; we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
         <md>
-            <mrow>\frac{1 \text{ basement}}{4 \text{ hours}} + \frac{1 \text{ basement}}{3 \text{ hours}} &amp; = \text{ Need a common denominator}</mrow>
-            <mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3 \text{ hours}} &amp; = \text{ Scaling accomplishes this}</mrow>
-            <mrow>\frac{3 \text{ basement}}{12 \text{ hours}} + \frac{4 \text{ basement}}{12 \text{ hours}} &amp; = \frac{7 \text{ basement}}{12 \text{ hours}}</mrow>
+            <mrow>\text{Joint Rate} &amp; = \frac{1 \text{ basement}}{4 \text{ hours}} + \frac{1 \text{ basement}}{3 \text{ hours}} \text{ Need a common denominator}</mrow>
+            <mrow> &amp; =\frac{3}{3} \cdot \frac{1 \text{ basement}}{4 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3 \text{ hours}} \text{ Scaling accomplishes this}</mrow>
+            <mrow> &amp; =\frac{3 \text{ basement}}{12 \text{ hours}} + \frac{4 \text{ basement}}{12 \text{ hours}}</mrow>
+            <mrow> &amp; = \frac{7 \text{ basement}}{12 \text{ hours}}</mrow>
         </md>. We did not convert to decimal notation, because we will be setting up a proportion, so we want the rate in fraction form.</p>
         <p>The next step is to use this rate to determine how long it takes to empty one basement. This is setting up a proportion.
             <md>
@@ -192,9 +198,9 @@
                 <mrow>\frac{12 \text{ hours}}{7 \text{ basement}} \cdot (1 \text{ basement}) &amp; = \frac{N \text{ hours}}{1 \text{ basement}} \cdot (1 \text{ basement}). </mrow>
                 <mrow>1.714285714 \text{ hours} &amp; \approx N.</mrow>
                 <mrow>1.72 \text{ hours} &amp; \approx N.</mrow>
-            </md> Given this is in hours it makes sense to round to the hundreds (a little less than a minute). Because it is how long it will take it makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).</p>
+            </md> Given this is in hours it makes sense to round to the hundredths (a little less than a minute). It also makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).</p>
         <p>Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12 \text{ hours}} = \frac{1 \text{ basement}}{1.72 \text{ hours}}</me>. Thus if both pumps are working it will take 1.72 hours drain the basement.</p>
-        <p>The increase in speed, results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).</p>
+        <p>The increase in speed results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).</p>
     </example>
 
     <example xml:id="example-use-example-joint-work">
@@ -203,11 +209,12 @@
         <p>Because the question asks us to determine combined speed, we recognize this as a <q>joint work</q> problem. Looking at <xref ref="example-joint-work1" /> we see that the first step was to write down the two rates. <m>\frac{1 \text{ room}}{11 \text{ minutes}}</m> and <m>\frac{1 \text{ room}}{13 \text{ minutes}}</m>.</p>
         <p>After writing the rates, we realize we need to add the rates.
             <md>
-                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}}+\frac{1 \text{ room}}{13 \text{ minutes}} &amp; = \text{Need a common denominator} </mrow>
-                <mrow>\frac{1 \text{ room}}{11 \text{ minutes}} \cdot \frac{13}{13} +\frac{1 \text{ room}}{13 \text{ minutes}} \cdot \frac{11}{11} &amp; = \text{this scales the rates}</mrow>
-                <mrow>\frac{13 \text{ rooms}}{143 \text{ minutes}}+\frac{11 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{24 \text{ rooms}}{143 \text{ minutes}}.</mrow>
+                <mrow>\text{Joint Rate} &amp; = \frac{1 \text{ room}}{11 \text{ minutes}}+\frac{1 \text{ room}}{13 \text{ minutes}} \text{Need a common denominator} </mrow>
+                <mrow> &amp; =\frac{1 \text{ room}}{11 \text{ minutes}} \cdot \frac{13}{13} +\frac{1 \text{ room}}{13 \text{ minutes}} \cdot \frac{11}{11} \text{this scales the rates}</mrow>
+                <mrow> &amp; =\frac{13 \text{ rooms}}{143 \text{ minutes}}+\frac{11 \text{ rooms}}{143 \text{ minutes}}</mrow>
+                <mrow> &amp; = \frac{24 \text{ rooms}}{143 \text{ minutes}}.</mrow>
             </md></p>
-        <p>After calculating the rate, the next step was setting up the proportion. In this case we want to calculate the time to clean 27 rooms.
+        <p>After calculating the rate, the next step is setting up the proportion. In this case we want to calculate the time to clean 27 rooms.
             <md>
                 <mrow>\frac{24 \text{ rooms}}{143 \text{ minutes}} &amp; = \frac{27 \text{ rooms}}{N \text{ minutes}}.</mrow>
                 <mrow>\frac{143 \text{ minutes}}{24 \text{room}} &amp; = \frac{N \text{ minutes}}{27 \text{ rooms}}.</mrow>

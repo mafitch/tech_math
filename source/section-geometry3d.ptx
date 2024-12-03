@@ -516,6 +516,27 @@
         </task>
     </example>
 
+    <example xml:id="example-machined-cylinder">
+        <p>A part is produced by drilling a whole into a cylinder as shown below. If the weight of aluminum is <m>2.70 \text{g}/\text{cm}^3</m> what is the total weight of this part? These are precision measurements; round using significant digits.</p>
+        <image source="images/machined_cylinder" width="60%" />
+        <p>First, we calculate the volume of the cylinder. It has a radius of <m>1.20/2=0.60 \text{ cm}</m>. The volume is
+        <md>
+            <mrow>V_C &amp; = \pi(0.60 \text{ cm})^2(5.00 \text{ cm})</mrow>
+            <mrow> &amp; \approx 3.14159(0.60 \text{ cm})^2(5.00 \text{ cm})</mrow>
+            <mrow> &amp; \approx 5.654862 \text{ cm}^3</mrow>
+            <mrow> &amp; \approx 5.7 \text{ cm}^3</mrow>
+        </md>.</p>
+        <p>Next, we need to calculate the volume of the hole that is drilled out. That radius is given in mm, so we should convert to cm first. 4.76 mm is 0.476 cm, because there are 10 millimeters per centimeter. It has a radius of <m>0.476/2=0.238 \text{ cm}</m>. The volume is
+        <md>
+            <mrow>V_C &amp; = \pi(0.238 \text{ cm})^2(4.00 \text{ cm})</mrow>
+            <mrow> &amp; \approx 3.14159(0.238 \text{ cm})^2(4.00 \text{ cm})</mrow>
+            <mrow> &amp; \approx 0.7118088958 \text{ cm}^3</mrow>
+            <mrow> &amp; \approx 0.712 \text{ cm}^3</mrow>
+        </md>.</p>
+        <p>The total volum is <m>5.654862-0.7118088958 \approx 4.943053104 \approx 4.9</m>.</p>
+        <p>Finally, we can convert the volume to weight. The units suggest we can multiply, <me>4.943053104 \text{ cm}^3 \cdot \frac{2.70 \text{ g}}{\text{cm}^3} \approx 13.34624338 \text{ g} \approx 13 \text{ g}</me>.</p>
+    </example>
+
 </subsection>
 
 <exercises>
