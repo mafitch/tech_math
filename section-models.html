@@ -551,33 +551,34 @@ V = IR
 </div></article><article class="example example-like" id="example-formula-ohms-law"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-formula-ohms-law-1">Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage? These are measurements in a science model which means we will use significant digits rounding.</div>
-<div class="para logical" id="example-formula-ohms-law-2">
+<div class="para" id="example-formula-ohms-law-1">We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.</div>
+<div class="para" id="example-formula-ohms-law-2">Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?</div>
+<div class="para logical" id="example-formula-ohms-law-3">
 <div class="para">Using the model we can calculate</div>
 <div class="displaymath process-math">
 \begin{equation*}
 V = 3.0 \cdot 8.0 = 24.
 \end{equation*}
 </div>
-<div class="para">Thus in this system there must be 24 volts.</div>
+<div class="para">Thus in this system 24 volts is required.</div>
 </div>
-<div class="para logical" id="example-formula-ohms-law-3">
+<div class="para logical" id="example-formula-ohms-law-4">
 <div class="para">If the current is increased to 6.0 amps on the 8.0 ohm circuit, then</div>
 <div class="displaymath process-math">
 \begin{equation*}
 V = 6.0 \cdot 8.0 = 48.
 \end{equation*}
 </div>
-<div class="para">To double the amps, we would need to double the voltage.</div>
+<div class="para">This result tells us that to double the amps, doubling the voltage is required.</div>
 </div>
-<div class="para logical" id="example-formula-ohms-law-4">
+<div class="para logical" id="example-formula-ohms-law-5">
 <div class="para">Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate</div>
 <div class="displaymath process-math">
 \begin{equation*}
 V = 1.7 \cdot 6.0 = 10.2 \approx 10.
 \end{equation*}
 </div>
-<div class="para">Thus in this system there must be 10 volts.</div>
+<div class="para">Thus in this system 10 volts is required.</div>
 </div></article><article class="fact theorem-like" id="model-lift-equation"><h4 class="heading">
 <span class="type">Model</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Lift Equation.</span>
 </h4>
@@ -604,8 +605,8 @@ L = \frac{1}{2}\rho s C_L v^2
 </div></article><article class="example example-like" id="example-formula-lift"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-formula-lift-1-1">Suppose the air density is 0.002378 slugs per cubic feet, surface area is <span class="quantity">125 ft<sup>2</sup></span>, <span class="process-math">\(C_L=1.5617\text{,}\)</span> and velocity is <span class="quantity">84.4 <sup>ft</sup>⁄<sub>s</sub></span>. Calculate the lift. This is a science model with measurements, so we will use significant digits rounding.</div> <div class="para logical" id="example-formula-lift-1-2">
-<div class="displaymath process-math" id="example-formula-lift-1-2-1">
+<div class="para" id="example-formula-lift-1-1">We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.</div> <div class="para" id="example-formula-lift-1-2">Suppose the air density is 0.002378 slugs per cubic feet, surface area is <span class="quantity">125 ft<sup>2</sup></span>, <span class="process-math">\(C_L=1.5617\text{,}\)</span> and velocity is <span class="quantity">84.4 <sup>ft</sup>⁄<sub>s</sub></span>. Calculate the lift.</div> <div class="para logical" id="example-formula-lift-1-3">
+<div class="displaymath process-math" id="example-formula-lift-1-3-1">
 \begin{align*}
 L &amp; = \frac{1}{2} \cdot 0.002378 \cdot 125 \cdot 1.5617 \cdot 84.4^2\\
 &amp; \approx 16\underline{5}3.386439\\
@@ -613,15 +614,15 @@ L &amp; = \frac{1}{2} \cdot 0.002378 \cdot 125 \cdot 1.5617 \cdot 84.4^2\\
 \end{align*}
 </div>
 <div class="para">Under these circumstances this airfoil can lift 1650 lbs.</div>
-</div> <div class="para" id="example-formula-lift-1-3">If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher (hence lower air density).</div> <div class="para logical" id="example-formula-lift-1-4">
-<div class="displaymath process-math" id="example-formula-lift-1-4-1">
+</div> <div class="para" id="example-formula-lift-1-4">If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.</div> <div class="para logical" id="example-formula-lift-1-5">
+<div class="displaymath process-math" id="example-formula-lift-1-5-1">
 \begin{align*}
 L &amp; = \frac{1}{2} \cdot 0.001988 \cdot 125 \cdot 1.5617 \cdot 84.4^2\\
 &amp; 13\underline{8}2.225501\\
 &amp; \approx 1380\text{.}
 \end{align*}
 </div>
-<div class="para">Notice that without changing other factors (like velocity), it can lift (hold in the air) <span class="process-math">\(1650-1380=270\)</span> lbs less.</div>
+<div class="para">If nothing else is changed (like velocity), this airfoil can lift (hold in the air) <span class="process-math">\(1650-1380=270\)</span> lbs less.</div>
 </div></article><article class="fact theorem-like" id="model-ideal-gas-law"><h4 class="heading">
 <span class="type">Model</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Ideal Gas Law.</span>
 </h4>
@@ -659,7 +660,7 @@ PV = nRT
 <li id="model-ideal-gas-law-2-2-2-2"><div class="para" id="p-derived-model-ideal-gas-law-2-2-2-2">
 <span class="process-math">\(P_2\text{,}\)</span> <span class="process-math">\(V_2\text{,}\)</span> and <span class="process-math">\(T_2\)</span> are the pressure, volume, and temperature at another time.</div></li>
 </ul>
-</div> <div class="para" id="model-ideal-gas-law-2-3">Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant <span class="process-math">\(R\)</span> which is looked up in reference books.</div> <div class="para" id="model-ideal-gas-law-2-4">For rounding note 273 is an exact number because it is part of the definition of the Kelvin temperature scale.</div></article><article class="example example-like" id="example-formula-gas-law"><h4 class="heading">
+</div> <div class="para" id="model-ideal-gas-law-2-3">Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant <span class="process-math">\(R\)</span> which is looked up in reference books.</div> <div class="para" id="model-ideal-gas-law-2-4">For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.</div></article><article class="example example-like" id="example-formula-gas-law"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-formula-gas-law-1">

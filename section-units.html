@@ -725,29 +725,46 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-customary-convert-down1-1">How many quarts is 2.3 gallons?</div>
 <div class="para logical" id="example-customary-convert-down1-2">
 <div class="para">From <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> we know (or can look up) that each gallon is 4 quarts. This means we have <span class="process-math">\(\frac{4 \text{ quarts}}{1 \text{ gallon}}\text{.}\)</span> This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html">
-\begin{equation*}
-2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} = 9.2 \text{ quarts}
-\end{equation*}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html" id="example-customary-convert-down1-2-3">
+\begin{align*}
+2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} &amp; =\\
+\frac{2.3 \cancelhighlight{\text{ gallons}}}{1} \cdot \frac{4 \text{ quarts}}{\cancelhighlight{\text{gallon}}} &amp; =\\
+2.3 \cdot 4 \text{ quarts} &amp; =  9.2 \text{ quarts}
+\end{align*}
 </div>
+<div class="para">We can be confident we set up the conversion correctly because the only units left are quarts.</div>
 </div></article><div class="para" id="subsection-customary-9">Sometimes to convert units we need to convert more than once.</div>
 <article class="example example-like" id="example-customary-convert-down2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-customary-convert-down2-1">How many cups is 1.5 quarts?</div>
 <div class="para" id="example-customary-convert-down2-2">While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.</div>
-<div class="para" id="example-customary-convert-down2-3">
-<span class="process-math">\(1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} = 3.0 \text{ pints}\text{.}\)</span> Now we can convert the pints to cups. <span class="process-math">\(3.0 \text{ pints} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}\text{.}\)</span>
+<div class="para logical" id="example-customary-convert-down2-3">
+<div class="displaymath process-math" id="example-customary-convert-down2-3-1">
+\begin{align*}
+1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} &amp; =\\
+\frac{1.5 \cancelhighlight{\text{ quarts}}}{1} \cdot \frac{2 \text{ pints}}{\cancelhighlight{\text{quart}}} &amp; =\\
+1.5 \cdot 2 \text{ pints} &amp; = 3.0 \text{ pints}\text{.}
+\end{align*}
+</div>
+<div class="para">Now we can convert the pints to cups.</div>
+<div class="displaymath process-math" id="example-customary-convert-down2-3-2">
+\begin{align*}
+3.0 \text{ pints} \cdot \frac{2 \text{ cups}}{\text{pint}} &amp; =\\
+\frac{3.0 \cancelhighlight{\text{ pints}}}{1} \cdot \frac{2 \text{ cups}}{\cancelhighlight{\text{pint}}} &amp; =\\
+3.0 \cdot 2 \text{ cups} &amp; = 6.0 \text{ cups}\text{.}
+\end{align*}
+</div>
 </div>
 <div class="para logical" id="example-customary-convert-down2-4">
 <div class="para">When we know that we need multiple conversions we can calculate them all at once.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}
+1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}\text{.}
 \end{equation*}
 </div>
 </div>
-<div class="para" id="example-customary-convert-down2-5">When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (pints in this case) are divided out leaving us with only the desired unit.</div></article><div class="para" id="subsection-customary-11">Nothing restricts this process to two at a time.</div>
+<div class="para" id="example-customary-convert-down2-5">When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.</div></article><div class="para" id="subsection-customary-11">Nothing restricts this process to two at a time.</div>
 <article class="example example-like" id="example-customary-convert-down3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
 </h4>
@@ -875,10 +892,12 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-si-down1-1">How many centimeters is 3.8 meters?</div>
 <div class="para logical" id="example-si-down1-2">
 <div class="para">From <a href="section-units.html#table-metric-sizes" class="xref" data-knowl="./knowl/xref/table-metric-sizes.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.8: Metric Prefixes">Table 1.1.8</a> we know <span class="process-math">\(10^2=100\)</span> centimeters is 1 meter, that is, <span class="process-math">\(\frac{100 \text{ cm}}{1 \text{ m}}\text{.}\)</span> This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-metric-sizes.html">
-\begin{equation*}
-3.8 \text{ m} \cdot \frac{100 \text{ cm}}{\text{m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.
-\end{equation*}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-metric-sizes.html" id="example-si-down1-2-4">
+\begin{align*}
+3.8 \text{ m} \cdot \frac{100 \text{ cm}}{\text{m}} &amp; =\\
+\frac{3.8 \cancelhighlight{\text{ m}}}{1} \cdot \frac{100 \text{ cm}}{\cancelhighlight{\text{m}}} &amp; =\\
+3.8 \cdot 100 \text{ cm} &amp; = 380 \text{ cm}\text{.}
+\end{align*}
 </div>
 <div class="para">Note, because centi is a power of ten (<span class="process-math">\(10^2\)</span>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</div>
 </div>
@@ -886,7 +905,18 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-si-down2-1">How many kilotons is 2.3 megatons?</div>
-<div class="para" id="example-si-down2-2">We know one kiloton is <span class="process-math">\(10^3\)</span> tons and one megaton is <span class="process-math">\(10^6\)</span> tons. These are three powers apart (<span class="process-math">\(6-3=3\)</span>), which means we shift the decimal position three places. Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</div></article><article class="example example-like" id="example-si-up"><h4 class="heading">
+<div class="para logical" id="example-si-down2-2">
+<div class="para">We know one kiloton is <span class="process-math">\(10^3\)</span> tons and one megaton is <span class="process-math">\(10^6\)</span> tons. Because we have two units we can convert twice.</div>
+<div class="displaymath process-math" id="example-si-down2-2-3">
+\begin{align*}
+2.3 \text{ megatons} \cdot \frac{10^6 \text{ tons}}{\text{megatons}} \cdot \frac{\text{kilotons}}{10^3 \text{ tons}} &amp; =\\
+\frac{2.3 \cancelhighlight{\text{ megatons}}}{1} \cdot \frac{10^6 \secondcancelhighlight{\text{ tons}}}{\cancelhighlight{\text{megatons}}} \cdot \frac{\text{kilotons}}{10^3 \secondcancelhighlight{\text{ tons}}} &amp; = \\
+\frac{2.3 \cdot 10^6}{10^3} \text{ kilotons} &amp; =\\
+2.3 \cdot 10^3 \text{ kilotons} &amp; = 2,300 \text{ kilotons}\text{.}
+\end{align*}
+</div>
+</div>
+<div class="para" id="example-si-down2-3">Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart (<span class="process-math">\(6-3=3\)</span>), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</div></article><article class="example example-like" id="example-si-up"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-si-up-1-1">How many centiliters is 13.6 milliliters?</div>
@@ -999,7 +1029,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-to-si.html ./knowl/xref/section-enough.html">
 \begin{equation*}
-26.2 \text{ miles} \cdot \frac{1.60934 \text{ km}}{\text{mi}} = 42.164708 \approx 42.2 \text{ km}
+26.2 \text{ mi} \cdot \frac{1.60934 \text{ km}}{\text{mi}} = 42.164708 \text{ km} \approx 42.2 \text{ km}
 \end{equation*}
 </div>
 <div class="para">We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in <a href="section-enough.html" class="internal" title="Section 1.2: Accuracy and Precision">Section 1.2</a>.</div>
@@ -1063,11 +1093,13 @@ eBookConfig.enable_chatcodes =  false;
 </h4>
 <div class="para" id="example-convert-extra-units-1-1">How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.</div>
 <div class="solutions"><details id="example-convert-extra-units-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-convert-extra-units-2-1">
-<div class="para">We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} = \frac{1 \text{lb}}{64 \text{ tbs}} = 0.015625 \frac{\text{lbs}}{\text{tbs}}\text{.}
-\end{equation*}
+<div class="para">We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here.</div>
+<div class="displaymath process-math" id="example-convert-extra-units-2-1-1">
+\begin{align*}
+\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} &amp; =\\
+\frac{8 \text{ lbs}}{1 \cancelhighlight{\text{ gal}}} \cdot \frac{1 \cancelhighlight{\text{ gal}}}{4 \secondcancelhighlight{\text{ qts}}} \cdot \frac{1 \secondcancelhighlight{\text{ qt}}}{2 \cancelhighlight{\text{ pints}}} \cdot \frac{1 \cancelhighlight{\text{ pint}}}{2 \secondcancelhighlight{\text{ cups}}} \cdot \frac{1 \secondcancelhighlight{\text{ cup}}}{16 \cancelhighlight{\text{ oz}}} \cdot \frac{1 \cancelhighlight{\text{ oz}}}{2 \text{ tbs}} &amp; =\\
+\frac{8 \text{ lbs}}{4 \cdot 2 \cdot 2 \cdot 16 \cdot 2 \text{ tbs}} &amp; = 0.015625 \frac{\text{lbs}}{\text{tbs}}\text{.}
+\end{align*}
 </div>
 </div></div></details></div></article><article class="exercise exercise-like" id="checkpoint-convert-ratio-units"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.22</span><span class="period">.</span>
