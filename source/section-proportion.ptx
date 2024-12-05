@@ -39,18 +39,26 @@
         <md>
             <mrow>\frac{2}{1} &amp; = \frac{E \text{ g}}{150 \text{ g}}.</mrow>
             <mrow>2 &amp; = \frac{E \text{ g}}{150 \text{ g}}.</mrow>
-            <mrow>2 \cdot 150 \text{ g} &amp; = \frac{E \text{ g}}{150 \text{ g}} \cdot 150 \text{ g}. \text{ Multiply to isolate } E</mrow>
+            <mrow>2 \cdot (150 \text{ g}) &amp; = \frac{E \text{ g}}{150 \text{ g}} \cdot (150 \text{ g}). \text{ Multiply to isolate } E.</mrow>
+            <mrow>2 \cdot (150 \text{ g}) &amp; = \frac{E \text{ g}}{\cancelhighlight{150 \text{ g}}} \cdot \cancelhighlight{(150 \text{ g})}.</mrow>
             <mrow>2 \cdot 150 \text{ g} &amp; = E</mrow>
             <mrow>300 \text{ g} &amp; = E \text{ of eggs}.</mrow>
         </md> Because scales are accurate to a gram, we do not need to round.</p>
-        <p>In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs, it might be more or less than we need which will mess up the food.</p>
+        <p>We can perform the same calculation for the cream cheese.
+        <md>
+            <mrow>\frac{2}{1} &amp; = \frac{C \text{ g}}{1500 \text{ g}}.</mrow>
+            <mrow>\frac{2}{1} \cdot (1500 \text{ g}) &amp; = \frac{C \text{ g}}{1500 \text{ g}} \cdot (1500 \text{ g}).</mrow>
+            <mrow>2 \cdot 1500 \text{ g} &amp; = C.</mrow>
+            <mrow>3000 \text{ g} &amp; = C.</mrow>
+        </md></p>
+        <p>In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will in mess up the food.</p>
     </example>
 
     <p>This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.</p>
 
     <example xml:id="example-proportion-non-integer-scale">
         <p>Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for <m>300</m> g of flour, how much flour does he need for the 6 dozen cookies?</p>
-        <p>First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is <m>6/4 = 3/2</m>. Thus to determine the amount of flour needed we setup the proportion
+        <p>First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is <m>6/4 = 3/2</m>. Thus to determine the amount of flour needed we set up the proportion
         <md>
             <mrow>\frac{3}{2} &amp; = \frac{F \text{ g}}{300 \text{ g}}</mrow>
             <mrow>\frac{3}{2} \cdot 300 \text{ g} &amp; = \frac{F \text{ g}}{300 \text{ g}} 300 \text{ g}</mrow>
@@ -83,6 +91,7 @@
                 <mrow>\frac{110 \text{ nm}}{\text{hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
                 <mrow>\frac{\text{hour}}{110 \text{ nm}} \amp = \frac{t \text{ hours}}{236 \text{ nm}}. \text{ Inverse is still true.}</mrow>
                 <mrow>\frac{\text{hour}}{110 \text{ nm}}(236 \text{ nm}) \amp = \frac{t \text{ hours}}{236 \text{ nm}}(236 \text{ nm}). \text{ Multiply to isolate } t</mrow>
+                <mrow>\frac{\text{hour}}{110 \cancelhighlight{\text{ nm}}}(236 \cancelhighlight{\text{ nm}}) \amp = \frac{t \text{ hours}}{\cancelhighlight{236 \text{ nm}}}\cancelhighlight{(236 \text{ nm})}. \text{ Multiply to isolate } t</mrow>
                 <mrow>\frac{236}{110} \text{ hours} \amp = t</mrow>
                 <mrow>2.14545 \text{ hours} \amp \approx t</mrow>
                 <mrow>2.1 \text{ hours} \amp \approx t.</mrow>
@@ -118,34 +127,38 @@
 
     <example xml:id="example-proportion-three-in-one">
         <p>Suppose a Diamond DA-20 climbs at the rate of <m>\frac{550 \text{ feet}}{1.0 \text{ minute}}</m> and is traveling <m>\frac{72.8 \text{ nm}}{\text{hour}}</m> across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.</p>
-        <p>Looking at the information we are given only two of them match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. <me>3500 \text{ ft} \cdot \frac{1 \text{ min}}{550 \text{ ft}} \approx 6.36363636 \text{ min}</me>.</p>
-        <p>Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. We can use these to calculate how far foward it flies. However, we must first convert the speed to feet per minute or the time to hours. We use conversions from <xref ref="table-customary-convert" />. <me>\frac{72.8 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \approx \frac{7372.213333 \text{ ft}}{\text{min}}</me></p>
-        <p>Finally we can use this rate and the time of climb to calculate the desired distance.
+        <p>Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. <me>3500 \text{ ft} \cdot \frac{1 \text{ min}}{550 \text{ ft}} \approx 6.36363636 \text{ min}</me>.</p>
+        <p>Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from <xref ref="table-customary-convert" />. <me>\frac{72.8 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \approx \frac{7372.213333 \text{ ft}}{\text{min}}</me>.</p>
+        <p>Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance.
             <md>
                 <mrow>\frac{7372.213333 \text{ ft}}{\text{min}} &amp; = \frac{s \text{ ft}}{6.36363636 \text{ min}}</mrow>
                 <mrow>\frac{7372.213333 \text{ ft}}{\text{min}} \cdot (6.36363636 \text{ min}) &amp; = \frac{s \text{ ft}}{6.36363636 \text{ min}} \cdot (6.36363636 \text{ min})</mrow>
                 <mrow>46914.08482 \approx s \text{ ft}</mrow>
             </md>.
-        Now we convert this to nautical miles. <me>(46914.08482 \text{ ft}) \cdot \frac{1 \text{ nm}}{6076 \text{ ft}} \approx 7.72121212 \text{ nm} \approx 7.7 \text{ nm}</me></p>
+        Now we need to convert this result back to nautical miles. This is a unit conversion problem again. <me>(46914.08482 \text{ ft}) \cdot \frac{1 \text{ nm}}{6076 \text{ ft}} \approx 7.72121212 \text{ nm} \approx 7.7 \text{ nm}</me>.</p>
     </example>
 
     <example xml:id="example-proportion-constraints">
         <p>A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.</p>
         <p>The ingredients must remain in the ratio <m>\frac{340 \text{ g buttermilk}}{150 \text{ g flour}} = \frac{34 \text{ g buttermilk}}{15 \text{ g flour}}</m>. We can select either ingredient and see how much the ratio tells us we need of the other ingredient.</p>
-        <p>Suppose we use all 465 g of flour. Then we can setup the proportion
+        <p>Because we do not yet know which ingredient is limiting we will suppose we use all 465 g of flour. Then we can set up the proportion
             <md>
                 <mrow>\frac{34 \text{ g buttermilk}}{15 \text{ g flour}} &amp; = \frac{B \text{ g}}{465 \text{ g flour}}</mrow>
-                <mrow>\frac{34 \text{ g buttermilk}}{15 \text{ g flour}} \cdot (465 \text{ g flour}) &amp; = \frac{B \text{ g}}{465 \text{ g flour}} \cdot (465 \text{ g flour})</mrow>
-                <mrow>1054 \text{ g} &amp; = B.</mrow>
+                <mrow>\frac{34 \text{ g buttermilk}}{15 \cancelhighlight{\text{ g flour}}} \cdot (465 \cancelhighlight{\text{ g flour}}) &amp; = \frac{B \text{ g}}{\cancelhighlight{465 \text{ g flour}}} \cdot \cancelhighlight{(465 \text{ g flour})}</mrow>
+                <mrow>1054 \text{ g buttermilk} &amp; = B.</mrow>
             </md>
         Notice that this is more buttermilk than we have. That means the buttermilk is the limiting ingredient. We will be able to use all of the buttermilk, but only some of the flour. To determine how much we setup the proportion but this time solve for flour.</p>
-        <p>We will use all 918 g of buttermilk. Then we can setup the proportion
+        <p>We will use all 918 g of buttermilk. Then we can set up the proportion
             <md>
-                <mrow>\frac{15 \text{ g flour}}{34 \text{ g buttermilk}} &amp; = \frac{F \text{ g}}{918 \text{ g buttermilk}}</mrow>
-                <mrow>\frac{15 \text{ g flour}}{34 \text{ g buttermilk}} \cdot (918 \text{ g buttermilk}) &amp; = \frac{F \text{ g}}{918 \text{ g buttermilk}} \cdot (918 \text{ g buttermilk})</mrow>
+                <mrow>\frac{15 \text{ g flour}}{34 \text{ g buttermilk}} &amp; = \frac{F \text{ g}}{918 \text{ g buttermilk}}.</mrow>
+                <mrow>\frac{15 \text{ g flour}} {34 \cancelhighlight{\text{ g buttermilk}}} \cdot (918 \cancelhighlight{\text{ g buttermilk}}) &amp; = \frac{F \text{ g}}{\cancelhighlight{918 \text{ g buttermilk}}} \cdot \cancelhighlight{(918 \text{ g buttermilk})}.</mrow>
                 <mrow>405 \text{ g} &amp; = F.</mrow>
             </md>
         Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. Note we have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making <me>\frac{918 \text{ g}}{340 \text{ g}} = 2.7</me> times as much.</p>
+    </example>
+
+    <example xml:id="example-proportion-constraints-ratio">
+        <p>There is an alternate way to determine which ingredient limits our scaling up. We know the recipe calls for a buttermilk to flour ratio of <m>\frac{34}{15} \approx 2.266666667</m>. We can calculate the ratio of the ingredients we have on hand. <m>\frac{918}{465} \approx 1.974193548</m>. This is less than the required ratio, which means the numerator is too small. Thus we have too little buttermilk.  From here we can continue to calculate the usable amount of flour as in the previous solution.</p>
     </example>
 
     <exercise xml:id="exercise-proportion-max">

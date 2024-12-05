@@ -31,17 +31,24 @@
     <subsubsection xml:id="subsubsection-mix-solutions">
         <title>Mix Multiple Solutions</title>
 
+        <p>The first mixture problem we consider is calculating the result of mixing two, known solutions.</p>
+
         <example xml:id="example-percent-mixture-sugar">
-            <p>Suppose we have a container with a solution that is 22% sugar and the rest water and another container with a solution that is 16% sugar and the rest water. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent of sugar in the resulting solution? Round the percent to two decimal places.</p>
-            <p>To calculate a percent we need the amount of the part and the total amount. We can calculate the total directly: <m>T=150 \text{ g}+250 \text{ g}=400 \text{ g}</m>. Note we know we can add these because both represented total amounts and they have the same units (g).</p>
-            <p>To calculate the part we need to know how much (rather than what percent) sugar was obtained from the two solutions. We can calculate that from the given percents and amounts.
+            <p>Suppose we have a container with a solution of sugar water that is 22% sugar and another container with a solution of sugar water that is 16% sugar. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent of sugar in the resulting solution? Round the percent to two decimal places.</p>
+            <p>To calculate a percent we need the amount of the part and the amount of the whole. We are told the total amount of each solution we are using, so we can calculate the whole (total amount of resulting solution) directly. Because they have the same units we can add. <me>T=150 \text{ g}+250 \text{ g}=400 \text{ g}</me>.</p>
+            <p>We cannot simply add the amounts of sugar from each because we are told the percent rather than the amount. However, we know how to convert a percent and total amount to an amount of the part. We did this in <xref ref="example-percent-calculate-part" />.
                 <md>
-                    <mrow>150 \text{ g} \cdot 0.22 &amp; = 33 \text{ g}.</mrow>
-                    <mrow>250 \text{ g} \cdot 0.16 &amp; = 40 \text{ g}.</mrow>
+                    <mrow>S_1 &amp; = 150 \text{ g} \cdot 0.22</mrow>
+                    <mrow> &amp; = 33 \text{ g}</mrow>
+                    <mrow>S_2 &amp; = 250 \text{ g} \cdot 0.16</mrow>
+                    <mrow> &amp; = 40 \text{ g}</mrow>
+                </md>.
+                <md>
                     <mrow>P &amp; = 33 \text{ g}+40 \text{ g}</mrow>
-                    <mrow> &amp; = 73 \text{ g}.</mrow>
-                </md>
-            Thus the percent of sugar in the mixture is <m>P/T = \frac{73 \text{ g}}{400 \text{ g}} = 18.25\%</m>.</p>
+                    <mrow> &amp; = 73 \text{ g}</mrow>
+                </md>.
+            </p>
+            <p>Finally we can calculate the percent of sugar in the resulting mixture using the defintion of percent. The percent of sugar in the resulting mixture is <me>\frac{\text{Part}}{\text{Whole}} = \frac{73 \text{ g}}{400 \text{ g}} = 0.1825 = 18.25\%</me>.</p>
         </example>
 
         <example xml:id="example-percent-mixture-steel">
@@ -49,7 +56,7 @@
             <p>To calculate a percent we need the amount of the part and the total amount. We can calculate the total directly: <m>T=11.3 \text{ lbs}+9.2 \text{ lbs}=20.5 \text{ lbs}</m>. Note we know we can add these because both represented total amounts and they have the same units (g).</p>
             <p>To calculate the part we need to know how much (rather than what percent) carbon was obtained from the two metals. We can calculate that from the given percents and amounts.
                 <md>
-                    <mrow>11.3 \text{ lbs} \cdot 0.40 &amp; \approx 4.52 \text{ lbs}.</mrow>
+                    <mrow>11.3 \text{ lbs} \cdot 0.40 &amp; = 4.52 \text{ lbs}.</mrow>
                     <mrow>9.2 \text{ lbs} \cdot 0.50 &amp; = 4.6 \text{ lbs}.</mrow>
                     <mrow>P &amp; = 4.52 \text{ lbs}+4.6 \text{ lbs}</mrow>
                     <mrow> &amp; = 9.12 \text{ lbs}.</mrow>
@@ -76,13 +83,13 @@
 
         <p>This section presents a slight variation of the mixture calculation problem. In this case we are adding only water resulting in diluting the solution.</p>
 
-        <p>The next problem is producing a isopropyl alcohol with a lower concentration of alcohol than the original solution. We begin with 16.0 oz of a 91.0% isopropyl alcohol solution. The other ingredient is water.</p>
-
         <example xml:id="example-dilute-alcohol">
             <title>Dilute Alcohol</title>
 
-            <p>Suppose we begin with 16.0 oz of a 91.0% isopropyl alcohol and add 4.00 oz of water to this mixture. What will the percent alcohol of the resulting solution be? These are measurements, so we will round using significant digits.</p>
-            <p>The percent alcohol is the amount of alcohol (part) divided by the total volume (whole). Only the original solution has alcohol so based on the meaning of percent the volume of alchol is <m>0.910(16.0 \text{ oz}) = 14.\underline{5}6 \text{ oz}</m>. We are adding 4.00 oz total to the solution, thus the total volume is <m>16.0 \text{ oz}+4.00 \text{ oz} = 20.0 \text{ oz}</m> oz. The final percent alcohol is <me>\frac{14.\underline{5}6 \text{ oz}}{20.0 \text{ oz}}=0.72\underline{8}</me> or 72.8%.</p>
+            <p>91% isopropyl alcohol is not a good agtent for sanitzing because it evaporates so quickly that bacteria are not exposed long enough to die. As a result we want to dilute it before use. Suppose we begin with 16.0 oz of a 91.0% isopropyl alcohol and add 4.00 oz of water to this mixture. What will the percent alcohol of the resulting solution be? These are measurements, so we will round using significant digits.</p>
+            <p>We know we can calculate the percent alcohol by dividing the amount of alcohol (part) by the total amount. We also know that we are not increasing the amount of alcohol (adding only water), so we can use the original percent alcohol and original amount to calculate the amount of alcohol. <me>0.910(16.0 \text{ oz}) = 14.\underline{5}6 \text{ oz}</me>.</p>
+            <p>We are adding 4.00 oz total to the original solution, thus the volume of the resulting solution is <me>16.0 \text{ oz}+4.00 \text{ oz} = 20.0 \text{ oz}</me>.</p>
+            <p>Now that we know the part and the whole we can calculate the resulting percent alcohol. <me>\frac{14.\underline{5}6 \text{ oz}}{20.0 \text{ oz}}=0.72\underline{8} = 72.8\%</me>.</p>
         </example>
 
         <p>If we added more water would the percent alcohol be greater or less? If we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.</p>
@@ -102,23 +109,24 @@
 
     <example xml:id="example-calculate-dilute">
         <title>Calcluate Dilution</title>
-        <p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to get (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.</p>
-        <p>How much solution total does this produce? Be aware it will not necessarily be 25.0 oz.</p>
-        <p>This is a percent problem with the total alcohol unchanged and adding only some amount <m>w</m> of water. Because the result is specified as a percent we need <m>w</m> to be such that <m>\frac{\text{part}}{\text{whole}} = \frac{A}{16.0+w}=0.550</m> where <m>A</m> is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.</p>
-        <p>Because all of the alcohol comes from the initial solution, the amount of alcohol is <m>(0.910)16.0 \text{ oz} = 14.56 \text{ oz}</m>. Thus we setup
+        <p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to obtain (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.</p>
+        <p>The concentration (55.0%) is the primary goal here rather than the resulting amount (25.0 oz), because we need <q>at least</q> that amount: more is okay. As a result we will set up our calculation based on the desired percent alcohol.</p>
+        <p>This is a percent problem with the total alcohol unchanged and adding only some amount <m>w</m> of water. This matches the previous example, except that we are calculating the amount to add and know the resulting percent. However, we can write essentially the same equation. <m>\frac{\text{part}}{\text{whole}} = \frac{A}{16.0+w}=0.550</m> where <m>A</m> is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.</p>
+        <p>Because all of the alcohol comes from the initial solution, we can calculate the amount of alcohol in the same way as before. <m>(0.910)16.0 \text{ oz} = 14.56 \text{ oz}</m>. Thus we setup
             <md>
                 <mrow>\frac{(0.910)16.0 \text{ oz}}{16.0 \text{ oz}+w \text{ oz}} &amp; = 0.550.</mrow>
                 <mrow>\frac{14.\underline{5}6 \text{ oz}}{16.0 \text{ oz}+w \text{ oz}} &amp; = 0.550 \text{ Multiply to move } w \text{ out of the denominator}</mrow>
-                <mrow>14.\underline{5}6 \text{ oz} &amp; = 0.550(16.0 \text{ oz}+w \text{ oz}) \text{ Distribute}</mrow>
-                <mrow>14.\underline{5}6 \text{ oz} &amp; = (0.550)16.0 \text{ oz}+(0.550)w \text{ oz} \text{ Multiply}</mrow>
-                <mrow>14.\underline{5}6 \text{ oz} &amp; = 8.80 \text{ oz}+(0.550)w \text{ oz} \text{ Subtract to isolate } w</mrow>
-                <mrow>5.\underline{7}6 \text{ oz} &amp; = (0.550)w \text{ oz} \text{ Divide to isolate } w</mrow>
-                <mrow>\frac{5.\underline{7}6 \text{ oz}}{0.550} &amp; = w</mrow>
-                <mrow>1\underline{0}.47272727 \text{ oz} &amp; \approx w</mrow>
-                <mrow>10 \text{ oz} &amp; \approx w</mrow>
+                <mrow>14.\underline{5}6 \text{ oz} &amp; = 0.550(16.0 \text{ oz}+w \text{ oz}). \text{ Distribute}</mrow>
+                <mrow>14.\underline{5}6 \text{ oz} &amp; = (0.550)16.0 \text{ oz}+(0.550)w. \text{ oz}</mrow>
+                <mrow>14.\underline{5}6 \text{ oz} &amp; = 8.80 \text{ oz}+(0.550)w. \text{ oz} \text{ Subtract to isolate } w</mrow>
+                <mrow>5.\underline{7}6 \text{ oz} &amp; = (0.550)w \text{ oz}. \text{ Divide to isolate } w</mrow>
+                <mrow>\frac{5.\underline{7}6 \text{ oz}}{0.550} &amp; = w.</mrow>
+                <mrow>1\underline{0}.47272727 \text{ oz} &amp; \approx w.</mrow>
+                <mrow>10 \text{ oz} &amp; \approx w.</mrow>
             </md></p>
-        <p>We end up with <m>16 \text{ oz}+10 \text{ oz} = 27 \text{ oz}</m> of new solution. Because we have at least the 25 oz we need, and it is the correct concentration, we have achieved our goal. If we had added less water to get exactly 25 oz we would have had a more concentrated solution.</p>
-        <p>Also note that the percent alcohol is <m>\frac{0.910(16.0 \text{ oz})}{16.0 \text{ oz}+10 \text{ oz}}=0.56</m> or 56%.  This is not exactly 55% because of the rounding in the calculations.</p>
+        <p>This means that to obtain a solution with 55.0% alcohol, we need to add 10 oz of water.</p>
+        <p>We end up with <m>16 \text{ oz}+10 \text{ oz} = 27 \text{ oz}</m> of new solution. Because we have at least the 25 oz we need, and it is the correct concentration, we have achieved our goal. If we had added less water to get exactly 25 oz we would have had a more concentrated solution than desired.</p>
+        <p>Also note that the percent alcohol is <m>\frac{0.910(16.0 \text{ oz})}{16.0 \text{ oz}+10 \text{ oz}}=0.56</m> or 56%.  This is not exactly 55% because of the rounding in the calculations. If we needed it to be closer to 55%, we would need to be able to measure more precisely.</p>
     </example>
 
     <exercise xml:id="exercise-solve-dilution">

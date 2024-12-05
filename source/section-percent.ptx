@@ -70,23 +70,23 @@
         <p>We use the same setup as before, but we do not know the part yet.
         <md>
             <mrow>100 \cdot \frac{P}{22} &amp; = 18\% \text{ Divide to isolate } P</mrow>
-            <mrow>\frac{P}{22} &amp; = \frac{18}{100} \text{ Multiply to isolate } P</mrow>
-            <mrow>\frac{P}{22} &amp; = 0.18</mrow>
+            <mrow>\frac{P}{22} &amp; = \frac{18}{100}</mrow>
+            <mrow>\frac{P}{22} &amp; = 0.18 \text{ Multiply to isolate } P</mrow>
             <mrow>P &amp; = 22 \cdot 0.18</mrow>
             <mrow> &amp; = 3.96.</mrow>
         </md></p>
         <p>Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that
         <md>
-            <mrow>\frac{\text{part}}{\text{whole}} &amp; = </mrow>
-            <mrow>\frac{4}{22} &amp; = 0.18181818</mrow>
+            <mrow>100 \times \frac{\text{part}}{\text{whole}} &amp; = 100 \times \frac{4}{22}</mrow>
+            <mrow> &amp; = 100 \times 0.18181818</mrow>
             <mrow> &amp; \approx 18.18\%</mrow>
         </md>
         This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.</p>
         <p>We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.
             <md>
-                <mrow>\frac{P}{22} &amp; = 0.18</mrow>
-                <mrow>P &amp; = 22 \cdot 0.18</mrow>
-                <mrow>P &amp; = 3.96</mrow>
+                <mrow>\frac{P}{22} &amp; = 0.18.</mrow>
+                <mrow>P &amp; = 22 \cdot 0.18.</mrow>
+                <mrow>P &amp; = 3.96.</mrow>
             </md></p>
     </example>
 
@@ -116,7 +116,7 @@
 
     <example xml:id="example-percent-calculate-whole">
         <p>In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?</p>
-        <p>Again we use the same setup, but we don't yet know the whole.
+        <p>Again we use the same setup, but we do not yet know the whole.
             <md>
                 <mrow>\frac{\text{part}}{\text{whole}} &amp; = \text{percent}.</mrow>
                 <mrow>\frac{2}{W} &amp; = 0.0625.</mrow>
@@ -132,18 +132,18 @@
         <title>How to Use an Example: Percents</title>
         <p>Consider the following question.</p>
         <p>If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?</p>
-        <p>Because we see <q>2%</q> we recognize this as a percent problem. Without more information we can begin writing our steps. In <xref ref="example-percent-calculate-whole" /> the first step is writing the definition of percent.
+        <p>Because we see <q>2%</q> we recognize this as a percent problem. Without more information we can begin writing. In <xref ref="example-percent-calculate-whole" /> the first step is writing the definition of percent.
         <me>\frac{\text{part}}{\text{whole}} = \text{percent}</me>
-        In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2, and we know that in a calculation we write the percent as a decimal. Thus our next step is
-        <me>\frac{\text{part}}{\text{whole}} = \frac{2}{100}</me>
+        In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case <m>2\% = \frac{2}{100} = 0.02</m>. Thus the next step is
+        <me>\frac{\text{part}}{\text{whole}} = 0.02</me>
         In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the <q>entire</q> book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable.
-        <me>\frac{18}{\text{whole}} = \frac{2}{100}</me>
-        Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example, we apply our algebra skills. For convenience we will write <m>W</m> instead of <q>whole</q>.
+        <me>\frac{18}{W} = 0.02</me>
+        Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills.
         <md>
-            <mrow>\frac{18}{W} &amp; = \frac{2}{100}</mrow>
-            <mrow>\frac{18}{W}W &amp; = \frac{2}{100}W</mrow>
-            <mrow>18 &amp; = \frac{2}{100}W</mrow>
-            <mrow>\frac{100}{2} \cdot 18 &amp; =  \frac{100}{2} \cdot \frac{2}{100}W</mrow>
+            <mrow>\frac{18}{W} &amp; = 0.02</mrow>
+            <mrow>\frac{18}{W}W &amp; = 0.02W \text{ Multiply to move } W \text{ out of denominator}</mrow>
+            <mrow>18 &amp; = 0.02W</mrow>
+            <mrow>\frac{18}{0.02} &amp; =  \frac{0.02}{0.02}W \text{ Divide to isolate } W</mrow>
             <mrow>900 &amp; = W</mrow>
         </md>
         Thus we know the entire book has 900 pages.</p>
@@ -174,7 +174,7 @@
 <subsection xml:id="subsection-percent-increase">
     <title>Percent Increase/Decrease</title>
 
-    <p>A common use of percents is to indicate how much something has increased (or decreased) from one time to the next.</p>
+    <p>A common use of percents is to indicate how much something has increased (or decreased) from one time to the next. In these cases the part is the amount changed and the whole is the original amount.</p>
 
     <example xml:id="example-percent-increase1">
         <statement><p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.</p>
@@ -216,6 +216,8 @@
             <image source="images/percent_decrease" width="50%" />
     </example>
 
+    <p>For percent increase problems it may seem fastest to calculate new/old-100% whereas for percent decrease problems it may seem most effective to calculate (new-old)/old. The methods perform the same calculation, so you may choose the one with which you make the correct calculation the most frequently.</p>
+
     <exercise xml:id="exercise-percent-decrease">
 <!--        <webwork>
             <statement>
@@ -231,17 +233,17 @@
     <p>The following example starts with the percent increase information, and determines the original amount.</p>
 
     <example xml:id="example-original-from-increase">
-        <p>This year's sales were 103% of last year's sales. If total sales this year were $576,211, how much were last year's sales?</p>
-        <p>We can use the usual part/whole definition. It is important to place our information in the correct locations. The amount we are given (this year) is the part; we want to calculate the whole.
+        <p>This year's sales increased 3% over last year's sales. If total sales this year were $576,211, how much were last year's sales?</p>
+        <p>We can use the usual part/whole definition. It is important to place our information in the correct locations. We are given a percent increase, so we will want to calculate the percent. This is <m>100\%+3\%=103\% = 1.03</m>. The amount we are given (this year) is the part; we want to calculate the whole.
             <md>
                 <mrow>\frac{\$576211}{W} &amp; = 1.03.</mrow>
                 <mrow>\$576211 &amp; = 1.03W. \text{ Clear the denominator}</mrow>
-                <mrow>\frac{\$576211}{1.03} &amp; = W. \text{ Divide to undo multiplication}</mrow>
+                <mrow>\frac{\$576211}{1.03} &amp; = W. \text{ Divide to isolate } W</mrow>
                 <mrow>\$559428.1553 &amp; = W.</mrow>
                 <mrow>\$559,428.16 &amp; = W.</mrow>
             </md>
         </p>
-        <p>If we want to know what amount constituted the 3% increase of the previous year we can now calculate that as the difference. $576,211<minus/>$559,428.16=$16,782.84. We can confirm it is 3% by dividing <m>\frac{\$16782.84}{\$559428.16} \approx 0.029999991</m> or 3% rounded. Notice we needed to compare to the previous year's amount which was not given.</p>
+        <p>If we want to know what amount constituted the 3% increase of the previous year, we can now calculate that as the difference. $576,211<minus/>$559,428.16=$16,782.84. We can confirm it is 3% by dividing <m>\frac{\$16782.84}{\$559428.16} \approx 0.029999991</m> or 3% when rounded. Notice we needed to compare to the previous year's amount which was not given.</p>
     </example>
 
     <p>This video covers percent increase topics.</p>

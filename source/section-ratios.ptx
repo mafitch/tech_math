@@ -47,18 +47,24 @@
 
     <example xml:id="example-ratio-airspeed1">
         <title>Ratio: Airspeed</title>
-        <p>The Diamond DA-20 cruises at the rate (speed) of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>. Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?</p>
-        <p>The units suggest we can multiply these. <me>\frac{110 \text{ nm}}{1 \text{ hr}} \cdot 2.5 \text{ hr} = 275 \text{ nm}</me>. This works because we are multiplying by hours and dividing by hours which leaves us with nautical miles as desired.</p>
+        <p>According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>. Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?</p>
+        <p>We notice that the speed units (nautical miles per hour) match with the hours. If the speed and time are multiplied we will end up with a distance. Thus the units suggest we can multiply.
+            <md>
+                <mrow>\text{Distance} &amp; = \frac{110 \text{ nm}}{1 \text{ hr}} \cdot 2.5 \text{ hr}</mrow>
+                <mrow> &amp; = \frac{110 \text{ nm}}{1 \cancelhighlight{\text{ hr}}} \cdot \frac{2.5 \cancelhighlight{\text{ hr}}}{1}</mrow>
+                <mrow> &amp; = 110 \cdot 2.5 \text{ nm}</mrow>
+                <mrow> &amp; = 275 \text{ nm}</mrow>
+            </md>.</p>
     </example>
 
     <p>There is another approach to the same question.</p>
 
     <example xml:id="example-ratio-airspeed2">
         <title>Ratio: Airspeed by Table</title>
-        <p>The Diamond DA-20 cruises at the rate (speed) of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>. How far can the plane cruise in 2.5 hours?</p>
+        <p>According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>. How far can the plane cruise in 2.5 hours?</p>
         <p>Because this ratio remains the same during cruise we can break the problem down into pieces. Based on the ratio (speed) in the first hour the plane will fly 110 nm. In the second hour it will fly another 110 nm. In the last half hour it will fly half of the distance which is <m>110/2=55</m> nm. Thus in 2.5 hours it will fly <m>110+110+55=275</m> nm.</p>
         <p> Some manuals provide tables to make this method convenient. See <xref ref="table-ratio-airspeed1" /> for a table of this sort. How far can the DA-20 cruise in 2.7 hours? We need to write 2.7 as the sum of numbers in the table. One way is <m>2.7 = 2+0.5+0.2</m>. From the table we know it will fly 220 nm in 2 hours, 55 nm in an additional 0.5 hours, and 22 nm in the final 0.2 hours. Thus it will fly <m>220+55+22=297</m> nm.</p>
-        <p>While this method makes sense, it takes more time than simply multiplying.</p>
+        <p>While this method makes sense, it is less efficient than simply multiplying as in the previous example.</p>
     </example>
 
     <table xml:id="table-ratio-airspeed1">
@@ -80,7 +86,13 @@
 
     <example xml:id="example-ratio-volume">
         <statement><p>Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?</p></statement>
-        <solution><p>We can set this up like the calculation in <xref ref="example-ratio-airspeed1" />. In that example multiplied the ratio (nm/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal/min) by the number of minutes which will give us gallons. <me>\frac{11  \text{ gal}}{1 \text{ min}} \cdot 2.7 \text{ min} = 29.7 \text{ gal}</me>.</p></solution>
+        <solution><p>We can set this up like the calculation in <xref ref="example-ratio-airspeed1" />. In that example multiplied the ratio (nm/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal/min) by the number of minutes which will give us gallons.
+        <md>
+            <mrow>\text{Volume} &amp; = \frac{11  \text{ gal}}{1 \text{ min}} \cdot 2.7 \text{ min}</mrow>
+            <mrow>\text{Volume} &amp; = \frac{11  \text{ gal}}{1 \cancelhighlight{\text{ min}}} \cdot \frac{2.7 \cancelhighlight{\text{ min}}}{1}</mrow>
+            <mrow> &amp; = 11 \cdot 2.7 \text{ gal}</mrow>
+            <mrow> &amp; = 29.7 \text{ gal}</mrow>
+        </md>.</p></solution>
     </example>
 
     <example xml:id="example-ratio-apply-mercury">
