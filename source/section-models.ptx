@@ -40,10 +40,11 @@
     </fact>
 
     <example xml:id="example-formula-ohms-law">
-        <p>Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage? These are measurements in a science model which means we will use significant digits rounding.</p>
-        <p>Using the model we can calculate <me>V = 3.0 \cdot 8.0 = 24.</me> Thus in this system there must be 24 volts.</p>
-        <p>If the current is increased to 6.0 amps on the 8.0 ohm circuit, then <me>V = 6.0 \cdot 8.0 = 48.</me> To double the amps, we would need to double the voltage.</p>
-        <p>Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate <me>V = 1.7 \cdot 6.0 = 10.2 \approx 10.</me> Thus in this system there must be 10 volts.</p>
+        <p>We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.</p>
+        <p>Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?</p>
+        <p>Using the model we can calculate <me>V = 3.0 \cdot 8.0 = 24.</me> Thus in this system 24 volts is required.</p>
+        <p>If the current is increased to 6.0 amps on the 8.0 ohm circuit, then <me>V = 6.0 \cdot 8.0 = 48.</me> This result tells us that to double the amps, doubling the voltage is required.</p>
+        <p>Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate <me>V = 1.7 \cdot 6.0 = 10.2 \approx 10.</me> Thus in this system 10 volts is required.</p>
     </example>
 
     <fact xml:id="model-lift-equation">
@@ -63,18 +64,19 @@
 
     <example xml:id="example-formula-lift">
         <statement>
-            <p>Suppose the air density is 0.002378 slugs per cubic feet, surface area is <quantity><mag>125</mag><unit base="foot" exp="2" /></quantity>, <m>C_L=1.5617</m>, and velocity is <quantity><mag>84.4</mag><unit base="foot" /><per base="second" /></quantity>. Calculate the lift. This is a science model with measurements, so we will use significant digits rounding.</p>
+            <p>We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.</p>
+            <p>Suppose the air density is 0.002378 slugs per cubic feet, surface area is <quantity><mag>125</mag><unit base="foot" exp="2" /></quantity>, <m>C_L=1.5617</m>, and velocity is <quantity><mag>84.4</mag><unit base="foot" /><per base="second" /></quantity>. Calculate the lift.</p>
             <p> <md>
                 <mrow>L &amp; = \frac{1}{2} \cdot 0.002378 \cdot 125 \cdot 1.5617 \cdot 84.4^2</mrow>
                 <mrow> &amp; \approx 16\underline{5}3.386439</mrow>
                 <mrow> &amp; \approx 1650</mrow>
             </md>. Under these circumstances this airfoil can lift 1650 lbs.</p>
-            <p>If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher (hence lower air density). </p>
+            <p>If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.</p>
             <p> <md>
                 <mrow>L &amp; = \frac{1}{2} \cdot 0.001988 \cdot 125 \cdot 1.5617 \cdot 84.4^2</mrow>
                 <mrow> &amp; 13\underline{8}2.225501</mrow>
                 <mrow> &amp; \approx 1380</mrow>
-            </md>. Notice that without changing other factors (like velocity), it can lift (hold in the air) <m>1650-1380=270</m> lbs less.</p>
+            </md>. If nothing else is changed (like velocity), this airfoil can lift (hold in the air) <m>1650-1380=270</m> lbs less.</p>
         </statement>
     </example>
 
@@ -95,7 +97,7 @@
                 <li><m>P_2</m>, <m>V_2</m>, and <m>T_2</m> are the pressure, volume, and temperature at another time.</li>
             </ul></p>
             <p>Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant <m>R</m> which is looked up in reference books.</p>
-            <p>For rounding note 273 is an exact number because it is part of the definition of the Kelvin temperature scale.</p>
+            <p>For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.</p>
         </statement>
     </fact>
 

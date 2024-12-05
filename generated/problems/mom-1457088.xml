@@ -2,14 +2,14 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1457088">
 <statement>
 <table><tabular> <row><cell></cell><cell>0</cell><cell>30</cell><cell>45</cell><cell>60</cell></row><row><cell><em>Up</em></cell><cell>48</cell><cell>52</cell><cell>57</cell><cell>68</cell></row><row><cell><em>Approach</em></cell><cell>43</cell><cell>46</cell><cell>51</cell><cell>61</cell></row><row><cell><em>Landing</em></cell><cell>40</cell><cell>43</cell><cell>48</cell><cell>57</cell></row></tabular></table>
-<p>Based on the table, what is the stall speed in a 37.5 degree turn with flaps in the Approach position? <fillin characters="3" /></p>
+<p>Based on the table, what is the stall speed in a 15 degree turn with flaps in the Approach position? <fillin characters="3" /></p>
 <p>Flight safety requires rounding up stall speeds. As a result, round up to the nearest integer.</p>
 
 </statement>
 <solution>
-<p><ul><li>23</li></ul></p><p>First, we look in the top row (bank angles) to find the nearest values. Note that 37.5 is half way between 30 and 45.</p>
-<p>The entries in the Approach row for these two columns are 46 and 51.</p>
-<p>To interpolate we average <m>\displaystyle\frac{{{46}+{51}}}{{2}}={23}\approx{23}</m>. We round up to be safe.</p>
+<p><ul><li>22</li></ul></p><p>First, we look in the top row (bank angles) to find the nearest values. Note that 15 is half way between 0 and 30.</p>
+<p>The entries in the Approach row for these two columns are 43 and 46.</p>
+<p>To interpolate we average <m>\displaystyle\frac{{{43}+{46}}}{{2}}={21.5}\approx{22}</m>. We round up to be safe.</p>
 </solution>
 </myopenmath>
 

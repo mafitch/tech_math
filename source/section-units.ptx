@@ -102,7 +102,12 @@
     <example xml:id="example-customary-convert-down1">
         <p>How many quarts is 2.3 gallons?</p>
         <p>From <xref ref="table-customary-convert" /> we know (or can look up) that each gallon is 4 quarts. This means we have <m>\frac{4 \text{ quarts}}{1 \text{ gallon}}</m>. This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out.
-            <me>2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} = 9.2 \text{ quarts}</me></p>
+            <md>
+                <mrow>2.3 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} &amp; =</mrow>
+                <mrow>\frac{2.3 \cancelhighlight{\text{ gallons}}}{1} \cdot \frac{4 \text{ quarts}}{\cancelhighlight{\text{gallon}}} &amp; =</mrow>
+                <mrow>2.3 \cdot 4 \text{ quarts} &amp; =  9.2 \text{ quarts}</mrow>
+            </md>
+        We can be confident we set up the conversion correctly because the only units left are quarts.</p>
     </example>
 
     <p>Sometimes to convert units we need to convert more than once.</p>
@@ -110,9 +115,19 @@
     <example xml:id="example-customary-convert-down2">
         <p>How many cups is 1.5 quarts?</p>
         <p>While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.</p>
-        <p><m>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} = 3.0 \text{ pints}</m>. Now we can convert the pints to cups. <m>3.0 \text{ pints} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}</m>.</p>
-        <p>When we know that we need multiple conversions we can calculate them all at once. <me>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}</me></p>
-        <p>When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (pints in this case) are divided out leaving us with only the desired unit.</p>
+        <p><md>
+            <mrow>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} &amp; =</mrow>
+            <mrow>\frac{1.5 \cancelhighlight{\text{ quarts}}}{1} \cdot \frac{2 \text{ pints}}{\cancelhighlight{\text{quart}}} &amp; =</mrow>
+            <mrow>1.5 \cdot 2 \text{ pints} &amp; = 3.0 \text{ pints}</mrow>
+        </md>.
+        Now we can convert the pints to cups.
+        <md>
+            <mrow>3.0 \text{ pints} \cdot \frac{2 \text{ cups}}{\text{pint}} &amp; =</mrow>
+            <mrow>\frac{3.0 \cancelhighlight{\text{ pints}}}{1} \cdot \frac{2 \text{ cups}}{\cancelhighlight{\text{pint}}} &amp; =</mrow>
+            <mrow>3.0 \cdot 2 \text{ cups} &amp; = 6.0 \text{ cups}</mrow>
+        </md>.</p>
+        <p>When we know that we need multiple conversions we can calculate them all at once. <me>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}</me>.</p>
+        <p>When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.</p>
     </example>
 
     <p>Nothing restricts this process to two at a time.</p>
@@ -190,13 +205,25 @@
 
     <example xml:id="example-si-down1">
         <p>How many centimeters is 3.8 meters?</p>
-        <p>From <xref ref="table-metric-sizes" /> we know <m>10^2=100</m> centimeters is 1 meter, that is, <m>\frac{100 \text{ cm}}{1 \text{ m}}</m>. This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. <me>3.8 \text{ m} \cdot \frac{100 \text{ cm}}{\text{m}} = 3.8 \cdot 100 \text{ cm} = 380 \text{ cm}.</me> Note, because centi is a power of ten (<m>10^2</m>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</p>
+        <p>From <xref ref="table-metric-sizes" /> we know <m>10^2=100</m> centimeters is 1 meter, that is, <m>\frac{100 \text{ cm}}{1 \text{ m}}</m>. This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out.
+        <md>
+            <mrow>3.8 \text{ m} \cdot \frac{100 \text{ cm}}{\text{m}} &amp; =</mrow>
+            <mrow>\frac{3.8 \cancelhighlight{\text{ m}}}{1} \cdot \frac{100 \text{ cm}}{\cancelhighlight{\text{m}}} &amp; =</mrow>
+            <mrow>3.8 \cdot 100 \text{ cm} &amp; = 380 \text{ cm}</mrow>
+        </md>. Note, because centi is a power of ten (<m>10^2</m>) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.</p>
         <p>Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).</p>
     </example>
 
     <example xml:id="example-si-down2">
         <p>How many kilotons is 2.3 megatons?</p>
-        <p>We know one kiloton is <m>10^3</m> tons and one megaton is <m>10^6</m> tons. These are three powers apart (<m>6-3=3</m>), which means we shift the decimal position three places. Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</p>
+        <p>We know one kiloton is <m>10^3</m> tons and one megaton is <m>10^6</m> tons. Because we have two units we can convert twice.
+        <md>
+            <mrow>2.3 \text{ megatons} \cdot \frac{10^6 \text{ tons}}{\text{megatons}} \cdot \frac{\text{kilotons}}{10^3 \text{ tons}} &amp; =</mrow>
+            <mrow>\frac{2.3 \cancelhighlight{\text{ megatons}}}{1} \cdot \frac{10^6 \secondcancelhighlight{\text{ tons}}}{\cancelhighlight{\text{megatons}}} \cdot \frac{\text{kilotons}}{10^3 \secondcancelhighlight{\text{ tons}}} &amp; = </mrow>
+            <mrow>\frac{2.3 \cdot 10^6}{10^3} \text{ kilotons} &amp; =</mrow>
+            <mrow>2.3 \cdot 10^3 \text{ kilotons} &amp; = 2,300 \text{ kilotons}</mrow>
+        </md>.</p>
+        <p>Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart (<m>6-3=3</m>), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.</p>
     </example>
 
     <example xml:id="example-si-up">
@@ -250,7 +277,7 @@
         <statement><p>How many kilometers is 26.2 miles?</p></statement>
         <solution>
             <p>From <xref ref="table-customary-to-si" /> we know each mile is 1.60934 km; this means there is <me>\frac{1.60934 \text{ km}}{1 \text{ mi}}</me>. The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.
-            <me>26.2 \text{ miles} \cdot \frac{1.60934 \text{ km}}{\text{mi}} = 42.164708 \approx 42.2 \text{ km}</me>
+            <me>26.2 \text{ mi} \cdot \frac{1.60934 \text{ km}}{\text{mi}} = 42.164708 \text{ km} \approx 42.2 \text{ km}</me>
             We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in <xref ref="section-enough" />. </p>
         </solution>
     </example>
@@ -291,7 +318,12 @@
     <example xml:id="example-convert-extra-units">
         <statement><p>How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.</p></statement>
         <solution>
-            <p>We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. <me>\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} = \frac{1 \text{lb}}{64 \text{ tbs}} = 0.015625 \frac{\text{lbs}}{\text{tbs}}</me>.</p>
+            <p>We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here.
+            <md>
+                <mrow>\frac{8 \text{ lbs}}{1 \text{ gal}} \cdot \frac{1 \text{ gal}}{4 \text{ qts}} \cdot \frac{1 \text{ qt}}{2 \text{ pints}} \cdot \frac{1 \text{ pint}}{2 \text{ cups}} \cdot \frac{1 \text{ cup}}{16 \text{ oz}} \cdot \frac{1 \text{ oz}}{2 \text{ tbs}} &amp; =</mrow>
+                <mrow>\frac{8 \text{ lbs}}{1 \cancelhighlight{\text{ gal}}} \cdot \frac{1 \cancelhighlight{\text{ gal}}}{4 \secondcancelhighlight{\text{ qts}}} \cdot \frac{1 \secondcancelhighlight{\text{ qt}}}{2 \cancelhighlight{\text{ pints}}} \cdot \frac{1 \cancelhighlight{\text{ pint}}}{2 \secondcancelhighlight{\text{ cups}}} \cdot \frac{1 \secondcancelhighlight{\text{ cup}}}{16 \cancelhighlight{\text{ oz}}} \cdot \frac{1 \cancelhighlight{\text{ oz}}}{2 \text{ tbs}} &amp; =</mrow>
+                <mrow>\frac{8 \text{ lbs}}{4 \cdot 2 \cdot 2 \cdot 16 \cdot 2 \text{ tbs}} &amp; = 0.015625 \frac{\text{lbs}}{\text{tbs}}</mrow>
+            </md>.</p>
         </solution>
     </example>
 

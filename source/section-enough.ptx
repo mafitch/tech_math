@@ -143,12 +143,12 @@
 
     <example xml:id="example-sigfig-subtract">
         <title>Subtraction with Significant Digits</title>
-        <p><m>11050-723 \approx 10330</m>. This is because the last significant digit of <m>11050</m> is the 10's position (with the 5 in it) whereas the last significant digit of <m>723</m> is the 1's position (with the 3 in it). We do not know the 1's position of 11050, so we cannot know the 1's position in the result.</p>
+        <p><m>11050-723 = 10327 \approx 10330</m>. The last significant digit of 11050 is in the 10's position (the 5). The last significant digit of 723 is in the 1's (unit) position (the 3). Because 11050 is less precise than 723, the last significant digit of the result is in the 10's position. We do not know the 1's position of 11050, so we cannot know the 1's position in the result.</p>
     </example>
 
     <example xml:id="example-sigfig-add">
         <title>Addition with Significant Digits</title>
-        <p><m>311+8310+202200 \approx 210800</m>. This is because the farthest left, last significant digit is in the 100's position in 202200. The extra precision of the other two numbers is not useful.</p>
+        <p><m>311+8,310+202,200 = 210,821 \approx 210,800</m>. This is rounded to the hundreds position because the least (farthest left) significant digit of the three numbers is in the 100's position (in 202,200). The extra precision of the other two numbers is lost because we don't know to what they should be added.</p>
     </example>
 
     <p>The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious, an explanation of why this rule works is in this video.</p>
@@ -175,12 +175,12 @@
 
     <example xml:id="example-sigfig-divide">
         <title>Division with Significant Digits</title>
-        <p><m>11050/722 \approx 15.3</m>. This is because <m>722</m> has only 3 significant digits.</p>
+        <p><m>11050/722 \approx 15.30470914 \approx 15.3</m>. This is rounded to three (3) significant digits because <m>722</m> has only 3 significant digits. The fourth significant digit in 11050 (the 5) would be multiplied by the unknown digit after the 3 in 15.3, so we do not know what that would be.</p>
     </example>
 
     <example xml:id="example-sigfig-multiply">
         <title>Multiplication with Significant Digits</title>
-        <p><m>17 \times 14\bar{0} \times 3.178 \approx 7600</m>. This is because <m>17</m> has only two significant digits.</p>
+        <p><m>17 \times 14\bar{0} \times 3.178 = 7563.64 \approx 7600</m>. This is rounded to two (2) significant digits because <m>17</m> has only two significant digits. The extra precision of the other two numbers is lost.</p>
     </example>
 
     <p>The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious, an explanation of why this rule works is in this video.</p>
@@ -342,11 +342,11 @@
     <p>Next we need to consider when to use each type of rounding.</p>
 
     <example xml:id="example-rounding-carpet-tiles">
-        <p>Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20<dblprime/>. If a room is 50 feet by 38 feet, how many carpet square do we need?</p>
-        <p>First lets figure out how many tiles will go across the 50 feet. Note 50 feet is <m>50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 \text{ in}</m>. This will require laying <m>\frac{600 \text{ in}}{20 \text{ in}} = 30</m> tiles across.</p>
-        <p>Next, lets figure out how many tiles will go across the 38 feet. Note 38 feet is <m>38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 \text{ in}</m>. This will require laying <m>\frac{456 \text{ in}}{20 \text{ in}} = 22.8</m> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</p>
+        <p>Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20<dblprime/>. If a room is 50 feet by 38 feet, how many carpet squares do we need?</p>
+        <p>First lets figure out how many tiles will go across the 50 feet. Before we can we need to convert feet to inches, so we can compare the width of the room to the carpet square width. 50 feet is <m>50 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 600 \text{ in}</m>. We want to know how many 20 in tiles fit into 600 in. <m>\frac{600 \text{ in}}{20 \text{ in}} = 30</m> tiles across.  Notice that the units divide out which indicates we set this up correctly.</p>
+        <p>Next, lets figure out how many tiles will go across the 38 feet. 38 feet is <m>38 \text{ ft} \times \frac{12 \text{ in}}{\text{ft}} = 456 \text{ in}</m>. This will require laying <m>\frac{456 \text{ in}}{20 \text{ in}} = 22.8</m> tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).</p>
         <p>Finally we can count the number of tiles which is <m>30 \times 23 = 690</m> tiles.</p>
-        <p>If you are wondering why we do not use four of the 0.2 parts of a tile to fill a space, it is because that would look bad. Also, with so many seams it is more likely to pull up. Knowledge from carpet installation is required to determine this rounding.</p>
+        <p>Could we use the 0.2 part of a tile that results from cutting at the end in another row. That depends. Doing so will start the next row shifted by 0.2, so if the tiles need to be aligned due to their color/pattern this will not work. If the color is solid or designed to be offset, we can do this and save money. Knowledge from carpet installation is required to determine this rounding.</p>
     </example>
 
     <example xml:id="example-rounding-distribute-cookies">
@@ -362,27 +362,29 @@
 
     <p>We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.</p>
 
-    <p>Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, rounding will always have a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.</p>
+    <p>Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, this rounding will always result in a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.</p>
 
     <example xml:id="example-greatest-error">
         <p>What is the greatest possible error if 130 was rounded to the nearest 10?</p>
         <p>One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at <m>134-130=4</m>.</p>
         <p>The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at <m>130-125=5</m>.</p>
         <p>Thus the greatest possible error was 5 from the case that 125 was rounded up.</p>
-        <p>Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits don't change the rounding.</p>
+        <p>Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits do not change the rounding.</p>
     </example>
 
     <example xml:id="example-greatest-error2">
         <statement><p>What is the greatest possible error if 9.31 was rounded to the nearest hundredth?</p></statement>
-        <solution><p>The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 5 one thousandths.</p></solution>
+        <solution><p>The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 0.005 or 5 one thousandths.</p></solution>
     </example>
+
+    <p>To determine the greatest possible error, we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object is not exactly on one of the lines, you will choose the closest one (left or right). Moving to the closest one is rounding.</p>
+
+    <p>The next example calculates the greatest possible error from rounding up (as opposed to rounding).</p>
 
     <example xml:id="example-greatest-error-up">
-        <statement><p>What is the greatest possible error if 223 was rounded up to the nearest one?</p></statement>
+        <statement><p>What is the greatest possible error if 223 was rounded up to the nearest unit?</p></statement>
         <solution><p>223 could have been rounded up from 222.1. But it could also have been rounded up from 222.01 or anything else. Thus the greatest possible error is less than 1 (<m>223-222=1</m>).</p></solution>
     </example>
-
-    <p>Notice we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object is not exactly on one of the lines, you will choose the closest one. Moving to the closest one is rounding.</p>
 
     <exercise xml:id="exercise-greatest-error1">
 <!--        <webwork>
