@@ -581,7 +581,7 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Ratio: Airspeed.</span>
 </h4>
 <div class="para logical" id="example-ratio-airspeed1-2">
-<div class="para">The Diamond DA-20 cruises at the rate (speed) of</div>
+<div class="para">According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{110 \text{ nautical miles}}{1 \text{ hour}}\text{.}
@@ -590,19 +590,21 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?</div>
 </div>
 <div class="para logical" id="example-ratio-airspeed1-3">
-<div class="para">The units suggest we can multiply these.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{110 \text{ nm}}{1 \text{ hr}} \cdot 2.5 \text{ hr} = 275 \text{ nm}\text{.}
-\end{equation*}
+<div class="para">We notice that the speed units (nautical miles per hour) match with the hours. If the speed and time are multiplied we will end up with a distance. Thus the units suggest we can multiply.</div>
+<div class="displaymath process-math" id="example-ratio-airspeed1-3-1">
+\begin{align*}
+\text{Distance} &amp; = \frac{110 \text{ nm}}{1 \text{ hr}} \cdot 2.5 \text{ hr}\\
+&amp; = \frac{110 \text{ nm}}{1 \cancelhighlight{\text{ hr}}} \cdot \frac{2.5 \cancelhighlight{\text{ hr}}}{1}\\
+&amp; = 110 \cdot 2.5 \text{ nm}\\
+&amp; = 275 \text{ nm}\text{.}
+\end{align*}
 </div>
-<div class="para">This works because we are multiplying by hours and dividing by hours which leaves us with nautical miles as desired.</div>
 </div></article><div class="para" id="subsection-using-ratios-4">There is another approach to the same question.</div>
 <article class="example example-like" id="example-ratio-airspeed2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Ratio: Airspeed by Table.</span>
 </h4>
 <div class="para logical" id="example-ratio-airspeed2-2">
-<div class="para">The Diamond DA-20 cruises at the rate (speed) of</div>
+<div class="para">According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{110 \text{ nautical miles}}{1 \text{ hour}}\text{.}
@@ -612,7 +614,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="para" id="example-ratio-airspeed2-3">Because this ratio remains the same during cruise we can break the problem down into pieces. Based on the ratio (speed) in the first hour the plane will fly 110 nm. In the second hour it will fly another 110 nm. In the last half hour it will fly half of the distance which is <span class="process-math">\(110/2=55\)</span> nm. Thus in 2.5 hours it will fly <span class="process-math">\(110+110+55=275\)</span> nm.</div>
 <div class="para" id="example-ratio-airspeed2-4">Some manuals provide tables to make this method convenient. See <a href="section-ratios.html#table-ratio-airspeed1" class="xref" data-knowl="./knowl/xref/table-ratio-airspeed1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 2.3.6: Airspeed and Distance">Table 2.3.6</a> for a table of this sort. How far can the DA-20 cruise in 2.7 hours? We need to write 2.7 as the sum of numbers in the table. One way is <span class="process-math">\(2.7 = 2+0.5+0.2\text{.}\)</span> From the table we know it will fly 220 nm in 2 hours, 55 nm in an additional 0.5 hours, and 22 nm in the final 0.2 hours. Thus it will fly <span class="process-math">\(220+55+22=297\)</span> nm.</div>
-<div class="para" id="example-ratio-airspeed2-5">While this method makes sense, it takes more time than simply multiplying.</div></article><figure class="table table-like" id="table-ratio-airspeed1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.3.6<span class="period">.</span></span><span class="space"> </span>Airspeed and Distance</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="example-ratio-airspeed2-5">While this method makes sense, it is less efficient than simply multiplying as in the previous example.</div></article><figure class="table table-like" id="table-ratio-airspeed1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.3.6<span class="period">.</span></span><span class="space"> </span>Airspeed and Distance</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b2 r2 l0 t0 lines">Time</td>
 <td class="r m b2 r0 l0 t0 lines">Distance</td>
@@ -655,10 +657,13 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="example-ratio-volume-1-1">Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?</div>
 <div class="solutions"><details id="example-ratio-volume-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-ratio-volume-2-1">
 <div class="para">We can set this up like the calculation in <a href="section-ratios.html#example-ratio-airspeed1" class="xref" data-knowl="./knowl/xref/example-ratio-airspeed1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.3.4: Ratio: Airspeed">Example 2.3.4</a>. In that example multiplied the ratio (nm/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal/min) by the number of minutes which will give us gallons.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed1.html">
-\begin{equation*}
-\frac{11  \text{ gal}}{1 \text{ min}} \cdot 2.7 \text{ min} = 29.7 \text{ gal}\text{.}
-\end{equation*}
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed1.html" id="example-ratio-volume-2-1-2">
+\begin{align*}
+\text{Volume} &amp; = \frac{11  \text{ gal}}{1 \text{ min}} \cdot 2.7 \text{ min}\\
+\text{Volume} &amp; = \frac{11  \text{ gal}}{1 \cancelhighlight{\text{ min}}} \cdot \frac{2.7 \cancelhighlight{\text{ min}}}{1}\\
+&amp; = 11 \cdot 2.7 \text{ gal}\\
+&amp; = 29.7 \text{ gal}\text{.}
+\end{align*}
 </div>
 </div></div></details></div></article><article class="example example-like" id="example-ratio-apply-mercury"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.8</span><span class="period">.</span>
