@@ -210,7 +210,7 @@
             <statement><p>Two triangles are <term>similar</term> if and only if corresponding angles have the same measure.</p></statement>
         </definition>
 
-        <p>When triangles are similiar their corresponding side lengths are proportional. Two sides from the different triangles are <term>corresponding</term> if they are across from angles of the same measurement. This is illustrated in the following example.</p>
+        <p>Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.</p>
 
         <example xml:id="example-illustrate-similar-triangles">
             <image source="images/similar_triangles" />
@@ -218,7 +218,7 @@
             <p> <m>BC</m> is the side opposite the angle at <m>A</m> and <m>EF</m> is the side opposite the angle at <m>D</m>. Because <m>A</m> and <m>D</m> have the same measure, the sides opposite them are corresponding sides.</p>
             <p>Similarly <m>CA</m> is the side opposite the angle at <m>B</m> and <m>FD</m> is the side opposite the angle at <m>E</m>. Because <m>B</m> and <m>E</m> have the same measure, the sides opposite them are corresponding sides.</p>
             <p>What is the third pair of corresponding sides?</p>
-            <p>As a result the following ratios of sides are the same <me>\frac{AB}{DE}=\frac{BC}{EF}=\frac{CA}{FD}.</me> You can confirm this by dividing the lengths (<m>\frac{3.26}{2.51}=\frac{4.86}{3.73}=\frac{5.34}{4.1}</m>).</p>
+            <p>As a result of being similar the following ratios of sides are the same <me>\frac{AB}{DE}=\frac{BC}{EF}=\frac{CA}{FD}.</me> You can confirm this by dividing the lengths <m>\left( \frac{3.26}{2.51}=\frac{4.86}{3.73}=\frac{5.34}{4.1} \right)</m>.</p>
         </example>
 
         <p>From a single example we might think this was just a special case. To convince yourself use the following interactive example.</p>
@@ -290,19 +290,20 @@
     <subsubsection xml:id="subsubsection-similar-applied">
         <title>Similarity in Applications</title>
 
-        <p>Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context which has been used many time in history for indirect measurement.</p>
+        <p>Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.</p>
 
         <example xml:id="example-similar-measure-height">
             <image source="images/shadow_light_pole" />
             <p>A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?</p>
-            <p>In this image we have two (right) triangles that will be useful. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other triangle has a leg that is the entire bottom (length 8 ft plus 30 ft). The other leg is the height of the light. The angles of the two triangles are the same. Because they are both right triangles (we are supposing the light post is straight up and the person is standing straight up), the angles at the persons feet and the base of the light are the same. They share the angle on the left (between dashed line and ground). The third angle must match because the first two do.</p>
-            <p>Because these have the same angles, they are similar, and we can use the proportionality of corresponding side lengths. Before we do, we will convert the height of the person to decimal. Using a conversion from <xref ref="table-customary-convert" />, 5 ft 6 in is 5.5 ft.
+            <p>We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.</p>
+            <p>Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in <xref ref="theorem-triangle-angle-sum" />.</p>
+            <p>Because all the angles in these triangles are the same, the triangles are similar. We can use the proportionality of corresponding side lengths to calculate the height of the light. Before we do, we will convert the height of the person to decimal. Using a conversion from <xref ref="table-customary-convert" />, 5 ft 6 in is 5.5 ft. The proportion of corresponding sides is
                 <md>
                     <mrow>\frac{5.5 \text{ ft}}{8 \text{ ft}} \amp = \frac{h}{38 \text{ ft}}.</mrow>
                     <mrow>\frac{5.5 \text{ ft}}{8 \text{ ft}} \cdot (38 \text{ ft}) \amp = \frac{h}{38 \text{ ft}} \cdot (38 \text{ ft}).</mrow>
                     <mrow>26.125 \text{ ft} \amp = h.</mrow>
                 </md>
-            If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches. <me> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</me> Thus the height to that point on the light is approximately 26 ft and 2 in.</p>
+            If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. <me> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</me> Thus the height to that point on the light is approximately 26 ft and 2 in.</p>
             <p>We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).</p>
         </example>
 
