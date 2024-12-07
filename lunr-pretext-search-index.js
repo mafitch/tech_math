@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Units",
-  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.     Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.      Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .       Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .     Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.       Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units  Units   "
+  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.     Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.      Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .       Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .     Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.        Dimensional Analysis   Identify the correct units to make these work.        Converting Units   Convert the units as directed. Use the conversion tables () as needed.                    Quantitative Literacy   Use your knowledge of these items to decide on appropriate units.                    "
 },
 {
   "id": "table-units-of-measure",
@@ -262,301 +262,301 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-units-8-1",
+  "id": "section-units-8-1-3",
   "level": "2",
-  "url": "section-units.html#section-units-8-1",
+  "url": "section-units.html#section-units-8-1-3",
   "type": "Exercise",
   "number": "1.1.6.1",
-  "title": "Units.",
-  "body": "Units "
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-1-4",
+  "level": "2",
+  "url": "section-units.html#section-units-8-1-4",
+  "type": "Exercise",
+  "number": "1.1.6.2",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-2",
   "level": "2",
   "url": "section-units.html#section-units-8-2",
   "type": "Exercise",
-  "number": "1.1.6.2",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.3",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-units-8-3",
+  "id": "section-units-8-3-3",
   "level": "2",
-  "url": "section-units.html#section-units-8-3",
+  "url": "section-units.html#section-units-8-3-3",
   "type": "Exercise",
-  "number": "1.1.6.3",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.4",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-4",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-4",
+  "type": "Exercise",
+  "number": "1.1.6.5",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-5",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-5",
+  "type": "Exercise",
+  "number": "1.1.6.6",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-6",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-6",
+  "type": "Exercise",
+  "number": "1.1.6.7",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-7",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-7",
+  "type": "Exercise",
+  "number": "1.1.6.8",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-8",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-8",
+  "type": "Exercise",
+  "number": "1.1.6.9",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-9",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-9",
+  "type": "Exercise",
+  "number": "1.1.6.10",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-10",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-10",
+  "type": "Exercise",
+  "number": "1.1.6.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-11",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-11",
+  "type": "Exercise",
+  "number": "1.1.6.12",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-12",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-12",
+  "type": "Exercise",
+  "number": "1.1.6.13",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-13",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-13",
+  "type": "Exercise",
+  "number": "1.1.6.14",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-14",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-14",
+  "type": "Exercise",
+  "number": "1.1.6.15",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-15",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-15",
+  "type": "Exercise",
+  "number": "1.1.6.16",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-16",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-16",
+  "type": "Exercise",
+  "number": "1.1.6.17",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-4",
   "level": "2",
   "url": "section-units.html#section-units-8-4",
   "type": "Exercise",
-  "number": "1.1.6.4",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.18",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-units-8-5",
+  "id": "section-units-8-5-3",
   "level": "2",
-  "url": "section-units.html#section-units-8-5",
+  "url": "section-units.html#section-units-8-5-3",
   "type": "Exercise",
-  "number": "1.1.6.5",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-5-4",
+  "level": "2",
+  "url": "section-units.html#section-units-8-5-4",
+  "type": "Exercise",
+  "number": "1.1.6.20",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-5-5",
+  "level": "2",
+  "url": "section-units.html#section-units-8-5-5",
+  "type": "Exercise",
+  "number": "1.1.6.21",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-6",
   "level": "2",
   "url": "section-units.html#section-units-8-6",
   "type": "Exercise",
-  "number": "1.1.6.6",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.22",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-7",
   "level": "2",
   "url": "section-units.html#section-units-8-7",
   "type": "Exercise",
-  "number": "1.1.6.7",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.23",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-8",
   "level": "2",
   "url": "section-units.html#section-units-8-8",
   "type": "Exercise",
-  "number": "1.1.6.8",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.24",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-9",
   "level": "2",
   "url": "section-units.html#section-units-8-9",
   "type": "Exercise",
-  "number": "1.1.6.9",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.25",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-10",
   "level": "2",
   "url": "section-units.html#section-units-8-10",
   "type": "Exercise",
-  "number": "1.1.6.10",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.26",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-11",
   "level": "2",
   "url": "section-units.html#section-units-8-11",
   "type": "Exercise",
-  "number": "1.1.6.11",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.27",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-12",
   "level": "2",
   "url": "section-units.html#section-units-8-12",
   "type": "Exercise",
-  "number": "1.1.6.12",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.28",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-13",
   "level": "2",
   "url": "section-units.html#section-units-8-13",
   "type": "Exercise",
-  "number": "1.1.6.13",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.29",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-14",
   "level": "2",
   "url": "section-units.html#section-units-8-14",
   "type": "Exercise",
-  "number": "1.1.6.14",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.30",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-15",
   "level": "2",
   "url": "section-units.html#section-units-8-15",
   "type": "Exercise",
-  "number": "1.1.6.15",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.31",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-16",
   "level": "2",
   "url": "section-units.html#section-units-8-16",
   "type": "Exercise",
-  "number": "1.1.6.16",
-  "title": "Units.",
-  "body": "Units "
+  "number": "1.1.6.32",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-units-8-17",
   "level": "2",
   "url": "section-units.html#section-units-8-17",
   "type": "Exercise",
-  "number": "1.1.6.17",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-18",
-  "level": "2",
-  "url": "section-units.html#section-units-8-18",
-  "type": "Exercise",
-  "number": "1.1.6.18",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-19",
-  "level": "2",
-  "url": "section-units.html#section-units-8-19",
-  "type": "Exercise",
-  "number": "1.1.6.19",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-20",
-  "level": "2",
-  "url": "section-units.html#section-units-8-20",
-  "type": "Exercise",
-  "number": "1.1.6.20",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-21",
-  "level": "2",
-  "url": "section-units.html#section-units-8-21",
-  "type": "Exercise",
-  "number": "1.1.6.21",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-22",
-  "level": "2",
-  "url": "section-units.html#section-units-8-22",
-  "type": "Exercise",
-  "number": "1.1.6.22",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-23",
-  "level": "2",
-  "url": "section-units.html#section-units-8-23",
-  "type": "Exercise",
-  "number": "1.1.6.23",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-24",
-  "level": "2",
-  "url": "section-units.html#section-units-8-24",
-  "type": "Exercise",
-  "number": "1.1.6.24",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-25",
-  "level": "2",
-  "url": "section-units.html#section-units-8-25",
-  "type": "Exercise",
-  "number": "1.1.6.25",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-26",
-  "level": "2",
-  "url": "section-units.html#section-units-8-26",
-  "type": "Exercise",
-  "number": "1.1.6.26",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-27",
-  "level": "2",
-  "url": "section-units.html#section-units-8-27",
-  "type": "Exercise",
-  "number": "1.1.6.27",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-28",
-  "level": "2",
-  "url": "section-units.html#section-units-8-28",
-  "type": "Exercise",
-  "number": "1.1.6.28",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-29",
-  "level": "2",
-  "url": "section-units.html#section-units-8-29",
-  "type": "Exercise",
-  "number": "1.1.6.29",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-30",
-  "level": "2",
-  "url": "section-units.html#section-units-8-30",
-  "type": "Exercise",
-  "number": "1.1.6.30",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-31",
-  "level": "2",
-  "url": "section-units.html#section-units-8-31",
-  "type": "Exercise",
-  "number": "1.1.6.31",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-32",
-  "level": "2",
-  "url": "section-units.html#section-units-8-32",
-  "type": "Exercise",
-  "number": "1.1.6.32",
-  "title": "Units.",
-  "body": "Units "
-},
-{
-  "id": "section-units-8-33",
-  "level": "2",
-  "url": "section-units.html#section-units-8-33",
-  "type": "Exercise",
   "number": "1.1.6.33",
-  "title": "Units.",
-  "body": "Units "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-enough",
@@ -2140,7 +2140,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Proportions",
-  "body": " Proportions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    In some circumstances a ratio is fixed. By fixed ratio we mean that no matter which data points we select, we obtain a ratio with equal value. For example when we scale a recipe the ratio of flour to water must remain the same if we make one recipe or double it. These circumstances are called proportions . An example of a non-fixed ratio isa bobble head toy. The head has a different scale (ratio of toy head size to real head size) than the body does.  This section presents a variety of problems in which these arise and, indirectly, reviews the algebra needed to solve them.  Fixed ratios make sense in examples like conversion of units. For example 1 gallon is always 4 quarts. In contrast rates often change: your average speed may be 25 mph, but you must have driven slower and faster during that drive. For the ratios that do not change we can write equations and solve for properties.    Proportion Examples  Because a proportion means a ratio is fixed we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.   The first example shows a straight forward proportion with the simplest solving method. This is like solving a percent problem.   Cheesecake Groceries: Double  A particular cheesecake recipe calls for g of eggs and g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?  This means everything will be in ratio of 2 (needed)\/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2\/1. Thus Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable). Because scales are accurate to a gram, we do not need to round.  We can perform the same calculation for the cream cheese.  In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will in mess up the food.   This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.   Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for g of flour, how much flour does he need for the 6 dozen cookies?  First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is . Thus to determine the amount of flour needed we set up the proportion   The following example shows methods for handling proportions when the desired quantity (variable) ends up in the denominator.   Cheesecake Groceries: Unknown  A particular cheesecake recipe calls for g of eggs and g of cream cheese. If we have g of egg how much cream cheese do we need?  We know that the egg to cream cheese ratio must be 150\/1500. We notice . This means we need to solve  Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write   The following example shows an alternate way to solve for the desired quantity when it is in the denominator.   Proportion: Solving  According to the airplane flight manual a Diamond DA-20 cruises at the rate of .  How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).  Because cruise speed is a fixed ratio we can write       Multiple Proportions  When we experience math in the wild, problems do not come labeled with solving methods. We must recognize the math and apply our knowledge appropriately. The next example illustrates identifying ratios (proportions) more than once when answering a question.   Suppose a Diamond DA-20 climbs at the rate of and is traveling across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.  Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. .  Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from . .  Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance. . Now we need to convert this result back to nautical miles. This is a unit conversion problem again. .    A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.  The ingredients must remain in the ratio . We can select either ingredient and see how much the ratio tells us we need of the other ingredient.  Because we do not yet know which ingredient is limiting we will suppose we use all 465 g of flour. Then we can set up the proportion Notice that this is more buttermilk than we have. That means the buttermilk is the limiting ingredient. We will be able to use all of the buttermilk, but only some of the flour. To determine how much we setup the proportion but this time solve for flour.  We will use all 918 g of buttermilk. Then we can set up the proportion Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. Note we have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making times as much.    There is an alternate way to determine which ingredient limits our scaling up. We know the recipe calls for a buttermilk to flour ratio of . We can calculate the ratio of the ingredients we have on hand. . This is less than the required ratio, which means the numerator is too small. Thus we have too little buttermilk. From here we can continue to calculate the usable amount of flour as in the previous solution.      Similar polygons   This section presents a geometric fact which is expressed as proportions. This geometry can be used to solve for distances or lengths in some circumstances. First we define and illustrate the geometric fact.    Explaining Similar Triangles   Similar Triangles  Two triangles are similar if and only if corresponding angles have the same measure.   When triangles are similiar their corresponding side lengths are proportional. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. This is illustrated in the following example.    The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result the following ratios of sides are the same You can confirm this by dividing the lengths ( ).   From a single example we might think this was just a special case. To convince yourself use the following interactive example.   Similar Triangles      Calculating Using Similar Triangles  We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as .    Suppose triangle ABC has angles with the lengths of the sides opposite them . If triangle DEF also has angles it is similar. Suppose the length of the side opposite the angle at point F is .  First, we identify the corresponding sides. and are opposite angles so they are corresponding. and are opposite angles so they are corresponding. Finally, and are opposite angles so they are corresponding. This means  Because we know the ratio , we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving. We can calculate the length of the third side in the same way.       Similarity in Applications  Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context which has been used many time in history for indirect measurement.    A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  In this image we have two (right) triangles that will be useful. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other triangle has a leg that is the entire bottom (length 8 ft plus 30 ft). The other leg is the height of the light. The angles of the two triangles are the same. Because they are both right triangles (we are supposing the light post is straight up and the person is standing straight up), the angles at the persons feet and the base of the light are the same. They share the angle on the left (between dashed line and ground). The third angle must match because the first two do.  Because these have the same angles, they are similar, and we can use the proportionality of corresponding side lengths. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).     Similarity Beyond Triangles  Shapes other than triangles can be similar. For example there are similar rectangles and similar pentagons. To be similar they must have the same number of sides, corresponding angles must be the same, and corresponding sides must be in the same ratio. Note that just having the same angles is insufficient: any two rectangles have all the same angles (right angles) but not every pair is similar.   Similar Polygons  One way to define similar polygons that avoids the trap illustrated by rectangles is to break the shape down into triangles (e.g., a rectangle can be split into two triangles). Then we require that every such triangle has the same angles. Note how we break a shape down into triangles is not unique. Take two, non-similar rectangles and identify triangles that don't match.   One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1\/32 scale. This means that one inch on the model is 32 inches on the actual object.       Solve each of these proportions.         Identify a proportion in each application. Set it up, and solve for the requested value(s).               Use the property of side ratios for similar triangles to calculate the values requested.        Identify similar triangles in each application, then use the property of side ratios to calculate the requested value(s).         "
+  "body": " Proportions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    In some circumstances a ratio is fixed. By fixed ratio we mean that no matter which data points we select, we obtain a ratio with equal value. For example when we scale a recipe the ratio of flour to water must remain the same if we make one recipe or double it. These circumstances are called proportions . An example of a non-fixed ratio isa bobble head toy. The head has a different scale (ratio of toy head size to real head size) than the body does.  This section presents a variety of problems in which these arise and, indirectly, reviews the algebra needed to solve them.  Fixed ratios make sense in examples like conversion of units. For example 1 gallon is always 4 quarts. In contrast rates often change: your average speed may be 25 mph, but you must have driven slower and faster during that drive. For the ratios that do not change we can write equations and solve for properties.    Proportion Examples  Because a proportion means a ratio is fixed we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.   The first example shows a straight forward proportion with the simplest solving method. This is like solving a percent problem.   Cheesecake Groceries: Double  A particular cheesecake recipe calls for g of eggs and g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?  This means everything will be in ratio of 2 (needed)\/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2\/1. Thus Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable). Because scales are accurate to a gram, we do not need to round.  We can perform the same calculation for the cream cheese.  In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will in mess up the food.   This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.   Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for g of flour, how much flour does he need for the 6 dozen cookies?  First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is . Thus to determine the amount of flour needed we set up the proportion   The following example shows methods for handling proportions when the desired quantity (variable) ends up in the denominator.   Cheesecake Groceries: Unknown  A particular cheesecake recipe calls for g of eggs and g of cream cheese. If we have g of egg how much cream cheese do we need?  We know that the egg to cream cheese ratio must be 150\/1500. We notice . This means we need to solve  Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write   The following example shows an alternate way to solve for the desired quantity when it is in the denominator.   Proportion: Solving  According to the airplane flight manual a Diamond DA-20 cruises at the rate of .  How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).  Because cruise speed is a fixed ratio we can write       Multiple Proportions  When we experience math in the wild, problems do not come labeled with solving methods. We must recognize the math and apply our knowledge appropriately. The next example illustrates identifying ratios (proportions) more than once when answering a question.   Suppose a Diamond DA-20 climbs at the rate of and is traveling across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.  Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. .  Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from . .  Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance. . Now we need to convert this result back to nautical miles. This is a unit conversion problem again. .    A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.  The ingredients must remain in the ratio . We can select either ingredient and see how much the ratio tells us we need of the other ingredient.  Because we do not yet know which ingredient is limiting we will suppose we use all 465 g of flour. Then we can set up the proportion Notice that this is more buttermilk than we have. That means the buttermilk is the limiting ingredient. We will be able to use all of the buttermilk, but only some of the flour. To determine how much we setup the proportion but this time solve for flour.  We will use all 918 g of buttermilk. Then we can set up the proportion Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. Note we have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making times as much.    There is an alternate way to determine which ingredient limits our scaling up. We know the recipe calls for a buttermilk to flour ratio of . We can calculate the ratio of the ingredients we have on hand. . This is less than the required ratio, which means the numerator is too small. Thus we have too little buttermilk. From here we can continue to calculate the usable amount of flour as in the previous solution.      Similar polygons   This section presents a geometric fact which is expressed as proportions. This geometry can be used to solve for distances or lengths in some circumstances. First we define and illustrate the geometric fact.    Explaining Similar Triangles   Similar Triangles  Two triangles are similar if and only if corresponding angles have the same measure.   Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.    The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result of being similar the following ratios of sides are the same You can confirm this by dividing the lengths .   From a single example we might think this was just a special case. To convince yourself use the following interactive example.   Similar Triangles      Calculating Using Similar Triangles  We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as .    Suppose triangle ABC has angles with the lengths of the sides opposite them . If triangle DEF also has angles it is similar. Suppose the length of the side opposite the angle at point F is .  First, we identify the corresponding sides. and are opposite angles so they are corresponding. and are opposite angles so they are corresponding. Finally, and are opposite angles so they are corresponding. This means  Because we know the ratio , we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving. We can calculate the length of the third side in the same way.       Similarity in Applications  Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.    A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.  Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in .  Because all the angles in these triangles are the same, the triangles are similar. We can use the proportionality of corresponding side lengths to calculate the height of the light. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. The proportion of corresponding sides is If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).     Similarity Beyond Triangles  Shapes other than triangles can be similar. For example there are similar rectangles and similar pentagons. To be similar they must have the same number of sides, corresponding angles must be the same, and corresponding sides must be in the same ratio. Note that just having the same angles is insufficient: any two rectangles have all the same angles (right angles) but not every pair is similar.   Similar Polygons  One way to define similar polygons that avoids the trap illustrated by rectangles is to break the shape down into triangles (e.g., a rectangle can be split into two triangles). Then we require that every such triangle has the same angles. Note how we break a shape down into triangles is not unique. Take two, non-similar rectangles and identify triangles that don't match.   One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1\/32 scale. This means that one inch on the model is 32 inches on the actual object.       Solve each of these proportions.         Identify a proportion in each application. Set it up, and solve for the requested value(s).               Use the property of side ratios for similar triangles to calculate the values requested.        Identify similar triangles in each application, then use the property of side ratios to calculate the requested value(s).         "
 },
 {
   "id": "section-proportion-2-2",
@@ -2242,22 +2242,13 @@ var ptx_lunr_docs = [
   "body": " Similar Triangles  Two triangles are similar if and only if corresponding angles have the same measure.  "
 },
 {
-  "id": "subsubsection-similar-triangle-defined-3",
-  "level": "2",
-  "url": "section-proportion.html#subsubsection-similar-triangle-defined-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "corresponding "
-},
-{
   "id": "example-illustrate-similar-triangles",
   "level": "2",
   "url": "section-proportion.html#example-illustrate-similar-triangles",
   "type": "Example",
   "number": "2.4.11",
   "title": "",
-  "body": "  The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result the following ratios of sides are the same You can confirm this by dividing the lengths ( ).  "
+  "body": "  The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result of being similar the following ratios of sides are the same You can confirm this by dividing the lengths .  "
 },
 {
   "id": "figure-similar-triangle",
@@ -2293,7 +2284,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.4.15",
   "title": "",
-  "body": "  A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  In this image we have two (right) triangles that will be useful. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other triangle has a leg that is the entire bottom (length 8 ft plus 30 ft). The other leg is the height of the light. The angles of the two triangles are the same. Because they are both right triangles (we are supposing the light post is straight up and the person is standing straight up), the angles at the persons feet and the base of the light are the same. They share the angle on the left (between dashed line and ground). The third angle must match because the first two do.  Because these have the same angles, they are similar, and we can use the proportionality of corresponding side lengths. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).  "
+  "body": "  A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.  Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in .  Because all the angles in these triangles are the same, the triangles are similar. We can use the proportionality of corresponding side lengths to calculate the height of the light. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. The proportion of corresponding sides is If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).  "
 },
 {
   "id": "section-proportion-6-1-2",
