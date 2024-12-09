@@ -82,11 +82,13 @@
         <p>The two stall speeds are 43 and 46. The number in between (the average) is <m>(43+46)/2=44.5</m>. Airspeed is reported only to units, so we must round to units. For stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.</p>
     </example>
 
+    <p>When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.</p>
+
     <example xml:id="example-table-read-interpolate-third">
-        <p>When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.</p>
         <p>What is the stall speed with 10<degree/> bank angle with flaps in the Up setting?</p>
-        <p>The nearest entries in the table are 0<degree/> and 30<degree/>. We need to figure out what percent 10 is between 0 and 30. We can use that to calculate the matching number between the table entries (48 and 52). Percent is part/whole which in this case is <me>\frac{10}{30-0} = \frac{10}{30} = \frac{1}{3}</me>. We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.</p>
-        <p>We want the speed that is 1/3 of the way between 48 and 52. Again we treat this as a percent problem. We want percent times the whole to calculate the part. <me>\frac{1}{3} \cdot (52-48) = \frac{4}{3}.</me> This result is how far above 48, so the speed is <me>48+4/3 \approx 49.3 \approx 50.</me> Again we round up for safety.</p>
+        <p>The nearest entries in the table are 0<degree/> and 30<degree/>. We want to measure how far 10 is from the left (0); we can calculate that as a percent of the distance from 0 to 30. We can use the percent to calculate the matching number between the table entries (48 and 52).</p>
+        <p>Percent is part/whole which in this case is <me>\frac{10}{30-0} = \frac{10}{30} = \frac{1}{3}</me>. We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.</p>
+        <p>We want the speed that is 1/3 of the way from 48 to 52. Again we treat this as a percent problem. <me>\frac{1}{3} \cdot (52-48) = \frac{4}{3}.</me> This result is how far above 48, so the speed is <me>48+4/3 \approx 49.3 \approx 50</me>. Again we round up for safety.</p>
         <p>Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.</p>
     </example>
 
@@ -113,11 +115,11 @@
 
     <example xml:id="example-read-graph-glide">
         <p><xref ref="figure-maximum-glide" /> presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles can it glide forward?</p>
-        <p>First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. Note, no line is labeled 2400, but we do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.</p>
-        <p>We need to know how much each line represents. We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent <m>2000/10=200</m> ft.</p>
+        <p>First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. We notice that no line is labeled 2400. We do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.</p>
+        <p>We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent <m>2000/10=200</m> ft.</p>
         <p>Because <m>2400=2000+2(200)</m> we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.</p>
         <p>We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent <m>2/10=0.2</m> nm.</p>
-        <p>The glide distance for 2400 ft is therefore <m>4-2(0.2)=3.8</m> nm. We subtracted here because it is before 4.</p>
+        <p>The glide distance for 2400 ft is therefore <m>4-2(0.2)=3.6</m> nm. We subtracted here because it is before 4.</p>
     </example>
 
     <figure xml:id="figure-maximum-glide">
@@ -143,7 +145,7 @@
         <p>They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.</p>
         <p>They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.</p>
         <p>Why are the inputs labeled every 2000 and the inputs every 2?</p>
-        <p>This is purely space available. If we put in more labels they would overlap each other.</p>
+        <p>This is purely space available. If we put in more labels, the text for them would overlap.</p>
     </example>
 
     <p>Graphs can be from raw data which may appear random. We still read these graphs the same way.</p>
@@ -157,7 +159,7 @@
 
     <example xml:id="example-read-graph-stature-percentiles">
         <p>The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at <url href="https://www.cdc.gov/growthcharts/" visual="cdc.gov/growthcharts/" />. What height in centimeters is the 50th percentile for 11 year old males?</p>
-        <p>To read an approximate value from this figure, we can draw a vertical line from 11 on the x-axis (half way between 10 and 12) up to the middle (blue) curve. From that point we can draw a horizontal line across to the y-axis. This is about one quarter of the way between 140 and 160, so we estimate this is 145 cm (see <xref ref="example-table-read-interpolate-third" /> for a reminder on how to estimate this).</p>
+        <p>Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see <xref ref="example-table-read-interpolate-third" /> for a reminder on how to estimate this).</p>
         <image source="images/StaturePercentilesUSmale-read50" width="50%" />
         <p>How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.</p>
         <p>For 2 year olds it appears to range from 80 to 95 cm (about 3/4 of the way up). This is a spread of <m>95-80=15</m> cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of <m>190-165=35</m> cm. Thus the spread increases over time. The ratio is <m>35/15 = 7/3 \approx 2.3</m>. For the percent increase we calculate <m>\frac{35}{15} \approx 2.33333333</m> The percent increase is <m>2.33333333-1.00000000=1.33333333</m> or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.</p>
@@ -168,14 +170,14 @@
     <example xml:id="example-read-graph-stature-percentiles-why">
         <p>When we look at the stature percentiles figure we should ask ourselves questions like the following.</p>
         <p>Why is it for males only? The CDC provides separate data for females. On average females in the U.S. are shorter than males. Thus separate figures are needed. Note, to answer this we needed to see rest of the CDC data (cannot be read from the figure above).</p>
-        <p>Why does it begin at 2 years? The CDC provides separate data for 0-2 years. This is from the WHO rather than the CDC. An explanation is on their website.</p>
+        <p>Why does it begin at 2 years? The CDC provides separate data for 0-2 years. This is from the WHO rather than the CDC. An explanation is on the CDC website.</p>
         <p>Why does the data end at 20 years? Notice that the percentile curves level off toward 20 years old. This simply represents that full, adult height has been reached. The curves should remain the same until age brings shrinking.</p>
     </example>
 
     <example xml:id="example-read-graph-temp-dewpoint">
         <p><xref ref="figure-temp-dewpoint" /> has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.</p>
         <p>What are the temperature and dewpoint at the 700 millibar level?</p>
-        <p>We follow the 700 mb line over to the dewpoint (green, dashed) line. It is a little less than  halfway between -20<degree/> C and 0<degree/> (closer to 0<degree/>). We estimate -7<degree/> C. Continuing across the 700 mb line to the temperature (red, solid) line we notice it is a little closer to 0<degree/>. We estimate the temperature is 5<degree/> C.</p>
+        <p>We follow the 700 mb line over to the dewpoint (green, dashed) line then move straight down to the x-axis (temperature). This is a little less than  halfway between -20<degree/> C and 0<degree/> (closer to 0<degree/>). We estimate -7<degree/> C. For temperature we continue across the 700 mb line to the temperature (red, solid) line then move straight down to the x-axis. We notice it is a little closer to 0<degree/> than the dewpoint. We estimate the temperature is 5<degree/> C.</p>
     </example>
 
     <figure xml:id="figure-temp-dewpoint">
@@ -321,17 +323,17 @@
         <p>For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.</p>
     </example>
 
-    <example xml:id="example-analyze-scale-model">
-        <p>Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.</p>
-        <p>Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.</p>
-        <p>This graph is a line. We knew it would be because <m>A = 144M</m> is in the form of a line (as shown in <xref ref="subsection-present-linear" />).</p>
-    </example>
-
     <figure xml:id="figure-graphing-line1">
         <caption>Graph of Scale</caption>
 
         <image source="images/line-graph" />
     </figure>
+
+    <example xml:id="example-analyze-scale-model">
+        <p>Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.</p>
+        <p>Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.</p>
+        <p>This graph is a line. We knew it would be because <m>A = 144M</m> is in the form of a line (as shown in <xref ref="subsection-present-linear" />).</p>
+    </example>
 
     <p>The next example is a shape we have not yet encountered in this text.</p>
 
@@ -379,7 +381,7 @@
 <subsection xml:id="subsection-linear-notation">
     <title>Graphing Lines</title>
 
-    <p>We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines if we have the equation and presents analyzing linear models based on their graphs.</p>
+    <p>We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines when we have the equation, and presents analyzing linear models based on their graphs.</p>
 
     <p>As described in <xref ref="subsection-present-linear"/> a linear equation (model) has two parts: the ratio (slope, rate) <m>m</m> and the shift <m>+b</m>. First, we address the role of the ratio in the graph.</p>
 
@@ -390,7 +392,7 @@
         </statement>
     </definition>
 
-    <p>In <xref ref="example-scale-model" /> we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have <m>m=\frac{a}{b}=\frac{144}{1}</m> that is 144 is the change in y and and 1 is the change in x.</p>
+    <p>In <xref ref="example-scale-model" /> we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have <m>m=\frac{144}{1}</m> that is 144 is the change in y (real inches) and and 1 is the change in x (model inches).</p>
 
     <p>Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using <me>\frac{y_2-y_1}{x_2-x_1}</me>. The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.</p>
 
@@ -419,7 +421,7 @@
         <image source="images/line-slope" />
     </figure>
 
-    <p>To write the equation for a line we need the shift <m>+b</m> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m> because in the linear form <m>y=mx+b</m> we have <m>y=m \cdot 0 + b = b</m>, so the <m>y</m> coordinate at <m>x=0</m> is the shift which is why it is often called the y-intercept.</p>
+    <p>To write the equation for a line we need the shift <m>+b</m> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m>, because in the linear form <m>y=mx+b</m> we have <m>y=m \cdot 0 + b = b</m> The shift then is the <m>y</m> coordinate at <m>x=0</m> which is why it is often called the y-intercept.</p>
 
     <example xml:id="example-calculate-shift">
         <title>Calculate Shift</title>
@@ -462,6 +464,7 @@
 
 <exercises>
     <exercisegroup>
+        <title>Identify and Interpret Lines</title>
         <introduction><p>Answer these questions about interpreting data.</p></introduction>
 <!--        <exercise>
             <title>Identify Rate</title>

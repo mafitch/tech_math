@@ -47,7 +47,7 @@
 
         <p>Consider the model in <xref ref="example-calculate-slope" />. <xref ref="table-differences-lines2a" /> calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.</p>
         <p><xref ref="table-differences-lines2b" /> calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.</p>
-        <p>The differences we obtained do match. Consider <m>\frac{-2.00}{2000} = \frac{-1.00}{1000}</m>. When written as a ratio the differences are the same number.</p>
+        <p>The rates we obtained in both tables do match. Consider <m>\frac{-2.00}{2000} = \frac{-1.00}{1000}</m>.</p>
     </example>
 
     <table xml:id="table-differences-lines2a">
@@ -93,7 +93,7 @@
         </tabular>
     </table>
 
-    <p>Note we used this constant addition property when working with ratio problems like <xref ref="example-ratio-airspeed1" />. Relations defined by fixed ratios like these are linear.</p>
+    <p>Notice we used this constant addition property when working with ratio problems like <xref ref="example-ratio-airspeed1" />. Relations defined by fixed ratios like these are linear.</p>
 
     <p>For linear data consecutive differences are always the same. The next examples (<xref ref="example-differences-quadratic" /> to <xref ref="example-differences-exponential" />) illustrate known, non-linear data and how the differences for those look.</p>
 
@@ -101,7 +101,7 @@
         <title>Quadratic Data</title>
 
         <statement><p>Consider <xref ref="table-differences-quadratic" />. The first differences (what we calculated above) are not the same. Thus this data is not linear.</p>
-        <p>However, the first differences increase in a suspiciously simple pattern. Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all <term>quadratic</term> data.</p></statement>
+        <p>However, the first differences increase in a suspiciously simple pattern (odd numbers). Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all <term>quadratic</term> data.</p></statement>
     </example>
 
     <table xml:id="table-differences-quadratic">
@@ -126,7 +126,7 @@
     <example xml:id="example-differences-exponential">
         <title>Exponential Data</title>
 
-        <statement><p>Consider <xref ref="table-differences-exponential" />. The differences are not the same nor do they show the same pattern of quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.</p></statement>
+        <statement><p>Consider <xref ref="table-differences-exponential" />. The differences are not the same nor do they show the same pattern as quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.</p></statement>
     </example>
 
     <table xml:id="table-differences-exponential" >
@@ -149,7 +149,7 @@
         <title>Exponential Data Differences</title>
 
         <statement>
-            <p>Consider <xref ref="table-differences-exponential-scale" />. The differences are not exactly equal to the original numbers. However, notice that <m>6=2 \cdot 3</m> <m>18=2 \cdot 9</m>, and <m>54=2 \cdot 27</m>. The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.</p>
+            <p>Consider <xref ref="table-differences-exponential-scale" />. The differences are not exactly equal to the original numbers. However, notice that <m>6=2 \cdot 3</m>, <m>18=2 \cdot 9</m>, and <m>54=2 \cdot 27</m>. The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.</p>
             <p>Happily there is an easier way to determine that data is exponential shown in the next section.</p>
         </statement>
     </example>
@@ -217,7 +217,7 @@
     </definition>
 
     <example xml:id="example-vary-exponential-caffeine">
-        <p>The table below gives an amount of caffeine in the blood stream. This data is exponential with a ratio of 0.87. This ratio means there is a 13% decrease per hour of caffeine in the blood stream per hour in this example. This is in contrast to the previous example which was an increasing exponential.</p>
+        <p>The table below gives an amount of caffeine in the blood stream. This data is exponential with a ratio of 0.87. The ratio in this example means there is a 13% decrease per hour of caffeine in the blood stream. This is in contrast to the previous example which was an increasing exponential.</p>
         <tabular>
             <row bottom="medium"><cell right="medium">Hour</cell> <cell right="medium">Caffeine</cell> <cell>Ratio</cell> </row>
             <row><cell right="medium">0</cell> <cell right="medium">95 mg</cell> <cell></cell> </row>

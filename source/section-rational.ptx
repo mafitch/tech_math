@@ -44,12 +44,14 @@
 
     <example xml:id="example-rational-calculate-number-teeth">
         <p>Suppose we know the outer diameter (17/8") and pitch diameter (2") needed for a gear. What are the steps to solve for the number of teeth? The number of teeth must end up an integer (half a gear tooth is just a broken gear). Thus there will be no rounding. If the calculation gives a non-integer result, we must change something in the design.</p>
-        <p>Converting <m>17/8=2.125</m> and using the model we obtain
+        <p>First we convert the outer diameter to decimal: <m>17/8=2.125</m>. The model is
             <md>
                 <mrow>D_p &amp; = \frac{D_o N}{N+2}.</mrow>
                 <mrow>2 \text{ in} &amp; = \frac{(2.125 \text{ in})N}{N+2}.</mrow>
+                <intertext>First, we multiply to eliminate the fraction.</intertext>
                 <mrow>(2 \text{ in}) \cdot (N+2) &amp; = \frac{(2.125 \text{ in})N}{N+2} \cdot (N+2).</mrow>
                 <mrow>(2 \text{ in})N + (4 \text{ in}) &amp; = (2.125 \text{ in})N</mrow>
+                <intertext>Next, we need to collect N on one side.</intertext>
                 <mrow>-(2 \text{ in})N +(2 \text{ in})N + 4 \text{ in} &amp; = -(2 \text{ in})N + (2.125 \text{ in})N.</mrow>
                 <mrow>4 \text{ in} &amp; = (0.125 \text{ in})N</mrow>
                 <mrow>\frac{4 \text{ in}}{0.125 \text{ in}} &amp; = \frac{(0.125 \text{ in})N}{0.125 \text{ in}}.</mrow>
@@ -87,13 +89,15 @@
         <p>We can use the ideal gas law version below. Note that the volume does not change (the tire size does not change).
             <md>
                 <mrow>\frac{P_1 V_1}{T_1+460^\circ} &amp; = \frac{P_2 V_2}{T_2+460^\circ}</mrow>
-                <mrow>\frac{(30 \text{ psi}) V_1}{52^\circ+460^\circ} &amp; = \frac{(28 \text{ psi}) V_1}{T_2+460^\circ} &amp; &amp; \text{Because the volume does not change}</mrow>
+                <intertext>Because the volume does not change, <m>V_2=V_1</m>.</intertext>
+                <mrow>\frac{(30 \text{ psi}) V_1}{52^\circ+460^\circ} &amp; = \frac{(28 \text{ psi}) V_1}{T_2+460^\circ}</mrow>
                 <mrow>\frac{(30 \text{ psi}) V_1}{512^\circ} \cdot \frac{1}{V_1} &amp; = \frac{(28 \text{ psi}) V_1}{T_2+460^\circ} \cdot \frac{1}{V_1}</mrow>
                 <mrow>\frac{30 \text{ psi}}{512^\circ} &amp; = \frac{28 \text{ psi}}{T_2+460^\circ}</mrow>
+                <intertext>Recall a proportion works both directions.</intertext>
                 <mrow>\frac{512^\circ}{30 \text{ psi}} &amp; = \frac{T_2+460^\circ}{28 \text{ psi}}</mrow>
                 <mrow>\frac{512^\circ}{30 \text{ psi}} \cdot (28 \text{ psi}) &amp; = T_2+460^\circ</mrow>
                 <mrow>477.866667^\circ &amp; \approx T_2+460^\circ</mrow>
-                <mrow>477.866667^\circ-460^\circ &amp; = T_2</mrow>
+                <mrow>477.866667^\circ-460^\circ &amp; \approx T_2</mrow>
                 <mrow>17.8666666^\circ &amp; \approx T_2.</mrow>
                 <mrow>18^\circ &amp; \approx T_2.</mrow>
             </md>
@@ -184,7 +188,7 @@
         <title>Joint Work: Draining Basement</title>
 
         <p>A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?</p>
-        <p>The question is how to calculate the speed of the combined pumps. Adding a pump would increase the speed; we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
+        <p>The question is how to calculate the speed of the combined pumps. Adding a pump should increase the speed. Thus we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of <m>\frac{1 \text{ basement}}{4 \text{ hours}}</m> and the second pump operates at a rate of <m>\frac{1 \text{ basement}}{3 \text{ hours}}</m>. Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is
         <md>
             <mrow>\text{Joint Rate} &amp; = \frac{1 \text{ basement}}{4 \text{ hours}} + \frac{1 \text{ basement}}{3 \text{ hours}} \text{ Need a common denominator}</mrow>
             <mrow> &amp; =\frac{3}{3} \cdot \frac{1 \text{ basement}}{4 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3 \text{ hours}} \text{ Scaling accomplishes this}</mrow>

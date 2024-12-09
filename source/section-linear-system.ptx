@@ -15,7 +15,7 @@
         </ul>
     </p>
 
-    <p>In <xref ref="example-percent-mixture-sugar" /> we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions involving two or more constraints (equations) at the same time.</p>
+    <p>In <xref ref="example-percent-mixture-sugar" /> we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions like this involving two or more constraints (equations) at the same time.</p>
 
 </introduction>
 
@@ -24,7 +24,7 @@
 
     <p>This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.</p>
 
-    <p>In previous dilution problems we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.</p>
+    <p>In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.</p>
 
     <example xml:id="example-dual-mixture">
         <title>Combining Mixtures</title>
@@ -102,7 +102,7 @@
             <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
         </md>
         </p>
-        <p>Notice we can solve the first equation for <m>B</m>, then substitute it into the second. The result is a single equation with only one variable. We already know how to solve that one.
+        <p>Notice we can solve the first equation for <m>B</m>. If we do then we can substitute it into the second equation. The result will be a single equation with only one variable. We already know how to solve equations like that.
         <md>
             <mrow>A+B &amp; = 10.0.</mrow>
             <mrow>B &amp; = 10.0-A.</mrow>
@@ -139,7 +139,7 @@
             <mrow>A+B &amp; = 10.0.</mrow>
             <mrow>(0.91)A+(0.75)B &amp; = 8.5.</mrow>
         </md></p>
-        <p>In the second line below notice how we modify the first equation to partially match the second one by scaling it.
+        <p>In the second line below notice how we modify the first equation to partially match the second one.
         <md>
             <mrow>A+B &amp; = 10.0. &amp; &amp; \text{Original equation 1}</mrow>
             <mrow>-(0.91)(A+B) &amp; = -(0.91)10.0. &amp; &amp; \text{Scale to match 2nd equation}</mrow>

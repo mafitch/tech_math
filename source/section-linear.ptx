@@ -175,28 +175,28 @@
     <p>A linear model has a starting point (shift, <m>b</m>) and rate (ratio, <m>m</m>). We need to identify these and then write the linear model <me>y = mx+b</me> with these values. We should also label units and explain any parameters.</p>
 
     <example xml:id="example-linear-model-purchase">
-        <p>Consider rope that costs $0.93 per foot with a shipping charge of $7.64. To produce a model for the cost of each purchase we will start by trying a couple specific orders.</p>
-        <p>Suppose we are purchasing 20 feet of this rope. The cost for the 20 feet will be <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</m>, because each foot is $0.93. This is just like unit conversion: the units ($/ft and ft) suggest multiplying.</p>
+        <p>Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.</p>
+        <p>We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars/foot) suggest that we can multiply to calculate the cost. <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</m>.</p>
         <p>Notice this multiplication is also the same as using a ratio (proportion). We could setup <m>\frac{\$0.93}{1 \text{ft}} = \frac{C}{20 \text{ ft}}</m> When we solve this we end up with the same multiplication <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</m>.</p>
-        <p>Next we must add the shipping charge. Thus the final cost is <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$26.24</m>. Note there is no rounding because all numbers are exact (no measurements, so no signficant digits) and no fractions of a cent occurred.</p>
+        <p>Next we must add the shipping charge. Thus the final cost is <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$26.24</m>. Note there is no rounding because all numbers are exact and no fractions of a cent occurred.</p>
         <p>Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be <me>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</me>. Then we must add the shipping charge. Thus the final cost is <m>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$100.64</m>.</p>
-        <p>Notice we could do this with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as <me>s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C</me>.</p>
-        <p>Notice that this equation has a ratio (0.93/1), which is the cost per foot, but also has a shift (+7.64), which is the fixed shipping cost. Thus this is another linear equation.</p>
+        <p>We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as <me>s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C</me>.</p>
+        <p>This equation has a ratio ($0.93<solidus/>1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.</p>
     </example>
 
     <p>When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.</p>
 
     <example xml:id="example-linear-model-pressure-drop">
-        <p>At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). To produce a model for pressure decrease we will start by calculating the pressure for a couple specific cases.</p>
-        <p>If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?</p>
-        <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>29.76 \text{ inHg} - 4.5^\circ \text{ inHg} = 25.26 \text{ inHg}</m>. We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <m>T = 29.76 \text{ inHg}-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
+        <p>At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). We will produce a model for pressure at altitude.</p>
+        <p>As in the previous example, we will start by calculating some specific pressures (experiment). If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?</p>
+        <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>29.76 \text{ inHg} - 4.5 \text{ inHg} = 25.26 \text{ inHg}</m>. We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <m>T = 29.76 \text{ inHg}-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
         <p>If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?</p>
         <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}</m>. Written as one calculation this is <m>P = 30.02 \text{ inHg}-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
         <p>Notice we could do this same calculation for any altitude. So in general we can write <me>P_A = P_G-\left(A \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </me> <m>P_A</m> is the pressure at the specified altitude. <m>P_G</m> is the pressure at ground level. <m>A</m> is the altitude above ground level. This is a linear equation with a ratio of (-1/1000) which is the drop in pressure with altitude, and a shift of <m>P_G</m>, which is the pressure on the ground.</p>
     </example>
 
     <example xml:id="example-linear-model-temperature-conversion">
-        <p>We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Note that every 9 degrees F is only 5 degrees C, so to convert we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32<degree/> and Celsius starts at 0<degree/>. Notice we have a ratio and a shift, so this already looks like a linear model.</p>
+        <p>We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Every 9 degrees Fahrenheit is only 5 degrees Celsius, so to convert between them, we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32<degree/> and Celsius starts at 0<degree/>. Notice we have a ratio and a shift, so this already looks like a linear model.</p>
         <p>To begin with we will convert 52<degree/> F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).</p>
         <p>The first step is to determine how many degrees above freezing. Because 32<degree/> F is the freezing temperature of water, 52<degree/> F is <m>52^\circ-32^\circ=20^\circ</m> above freezing.</p>
         <p>The next step is to scale the degrees. The conversion ratio is <m>\frac{9^\circ \text{ F}}{5^\circ \text{ C}}</m>. Converting the 20<degree/> above freezing is now a unit conversion. The units suggest we can multiply <m>20^\circ \text{ F} \cdot \frac{5^\circ \text{ C}}{9^\circ \text{ F}} \approx 11^\circ \text{ C}</m>. Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11<degree/> C above the freezing point of water in Celsius.</p>
@@ -212,7 +212,7 @@
 <subsection xml:id="subsection-solve-invert">
     <title>Solving Linear Equations</title>
 
-    <p>The first section demonstrated using linear models to calculate values. However, sometimes we know the result and want to know the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.</p>
+    <p>The first section demonstrated using linear models to calculate values by plugging in the inputs. However, sometimes we know the result and want to calculate the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.</p>
 
     <p>Before reading farther solve the equation <m>5x-7=12</m>. What steps did you use? Why do they work? <xref ref="example-solve-linear-invert" /> is an example of solving another linear equation.</p>
 
@@ -225,7 +225,7 @@
             <mrow>\frac{-8x}{-8} &amp; = \frac{8}{-8}.</mrow>
             <mrow>x &amp; = -1.</mrow>
         </md>
-        Note we added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8).</p>
+        We added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8). These steps isolate the variable for which we are solving.</p>
     </example>
 
     <exercise xml:id="exercise-solve-linear-invert">
@@ -300,7 +300,7 @@
     </exercise>
 
     <p>Another linear equation is <m>\frac{x}{3}+\frac{x}{4}=\frac{7}{12}</m>. How would you solve it?</p>
-    <p>We can solve this the same as in <xref ref="example-solve-linear-combine"  /> but because there are factions as coefficients we will use another technique.</p>
+    <p>We can solve this the same as in <xref ref="example-solve-linear-combine"  /> but because there are factions as coefficients we will use an additional technique.</p>
 
     <example xml:id="example-solve-linear-clear">
         <p>Solve <m>\frac{x}{5}+\frac{2x}{7}=\frac{34}{35}</m></p>
@@ -346,7 +346,7 @@
             <mrow>7.028571429 \text{ min} &amp; = t.</mrow>
             <mrow>8 \text{ min} &amp; = t.</mrow>
         </md>
-        We round up as a safety margin: it is better to assume we need 8 minutes and be higher than to hope we can recognize 0.03 of a minute (not quite 2 seconds).</p>
+        We round up as a safety margin: it is better to assume we need 8 minutes and be higher, than to hope we can recognize 0.03 of a minute (not quite 2 seconds).</p>
     </example>
 
     <p>Use this Checkpoint to try solving a linear model.</p>

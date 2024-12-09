@@ -70,15 +70,15 @@
             <mrow>P &amp; = \frac{nRT}{V}. &amp; &amp; \text{Divide to isolate } P</mrow>
             <mrow>P &amp; = \frac{nR}{V}T. &amp; &amp; \text{Use commutativity}</mrow>
             <mrow>P &amp; = kT.</mrow>
-        </md> Pressure (<m>P</m>) grows linearly with respect to temperature.</p>
-        <p>Notice that we can write that last equation at <m>\frac{1}{k}P = T</m> which means we can also make the reverse statement: temperature increases linearly with pressure.</p>
+        </md> Pressure (<m>P</m>) grows linearly with respect to temperature (<m>T</m>).</p>
+        <p>Notice that we can write that last equation as <m>\frac{1}{k}P = T</m> which means we can also make the reverse statement: temperature increases linearly with pressure.</p>
         <p>Next consider the impact temperature (<m>T</m>) has on volume (<m>V</m>). If the other parameters remain constant, then the model looks like
         <md>
             <mrow>PV &amp; = nRT.</mrow>
             <mrow>V &amp; = \frac{nRT}{P}.</mrow>
             <mrow>V &amp; = \frac{nR}{P}T.</mrow>
             <mrow>V &amp; = kT.</mrow>
-        </md> Volume (<m>V</m>) also grows linearly with respect to temperature.</p>
+        </md> Volume (<m>V</m>) also grows linearly with respect to temperature (<m>T</m>).</p>
         <p>Finally consider the impact volume (<m>V</m>) has on pressure (<m>P</m>). If the other parameters remain constant, then the model looks like
         <md>
             <mrow>PV &amp; = nRT.</mrow>
@@ -104,7 +104,7 @@
 
     <p><xref ref="example-vary-ohm" /> illustrated a model  where the increase in one variable caused a decrease in the other. We used an experiment (plugging in numbers) to discover the inverse relationship.</p>
 
-    <p>If two quantities vary directly, the model may be  linear or quadratic. If two quantities vary inversely, the model may be neither linear nor quadratic. In contrast the next example illustrates two quantities can vary inversely, and the model is still exponential.</p>
+    <p>If two quantities vary directly, the model may be  linear, quadratic, or exponential. If two quantities vary inversely, the model may be neither linear nor quadratic. In contrast the next example illustrates two quantities can vary inversely, and the model is exponential.</p>
 
     <example xml:id="example-inverse-exponential">
         <title>Decreasing Exponential</title>
@@ -142,8 +142,9 @@
     </fact>
 
     <example xml:id="pressure-footprint">
-        <p>Walking on snow (or mud) is difficult because our feet tend to puncture the snow. We can use snowshoes to avoid this problem. The reduction in pressure is the reason snowshoes work. This is a science model with measurements, we will round using significant digits.</p>
-        <p>Suppose Guido weighs 172 lbs. Each foot has an area of <quantity><mag>22</mag><unit base="inch" exp="2" /></quantity>. The pressure he exerts on the snow is
+        <p>Walking on snow (or mud) is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight). This is a science model with measurements, so we will round using significant digits.</p>
+        <p>Determine the pressure Guido exerts on the snow without and with snow shoes. Suppose Guido weighs 172 lbs.</p>
+        <p>Without snowshoes each foot has an area of <quantity><mag>22</mag><unit base="inch" exp="2" /></quantity>. What is the pressure he exerts on the snow?
         <md>
             <mrow>P &amp; = \frac{172 \text{ lbs}}{2 \cdot 22 \text{ in}^2}</mrow>
             <mrow> &amp; = \frac{172 \text{ lbs}}{44 \text{ in}^2}</mrow>
@@ -173,8 +174,8 @@
     </fact>
 
     <example xml:id="example-hydraulic-calculate">
-        <p>If the left piston has area <m>16 \text{ cm}^2</m>, and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <m>25 \text{ cm}^2</m>? This is a science model with measurements; we will round using significant digits.</p>
-        <p>Notice this is a proportion problem. We can use the relationship
+        <p>If the left piston has area <m>16 \text{ cm}^2</m>, and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area <m>25 \text{ cm}^2</m>? This is a science model with measurements, so we will round using significant digits.</p>
+        <p>We notice this model is a proportion. We can use the relationship
             <md>
                 <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \amp = \frac{F_2}{25 \text{ cm}^2}.</mrow>
                 <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \cdot (25 \text{ cm}^2) \amp = F_2.</mrow>
@@ -187,25 +188,26 @@
 
     <example xml:id="example-hydraulic-piston-change">
         <statement><p>If the second piston's area is changed from <m>25 \text{ cm}^2</m> to <m>36 \text{ cm}^2</m>, what is the increase or decrease in force?</p></statement>
-        <solution><p>First we setup the same problem as in <xref ref="example-hydraulic-calculate" />
+        <solution>
+            <p>To determine if it increases or decreases we should calculate the result for the second piston size. We set up the same problem as above.
             <md>
                 <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \amp = \frac{F_2}{36 \text{ cm}^2}.</mrow>
                 <mrow>\frac{5.0 \text{ N}}{16 \text{ cm}^2} \cdot (36 \text{ cm}^2) \amp = F_2.</mrow>
                 <mrow>11.25 \amp = F_2.</mrow>
                 <mrow>11 \text{ N} \amp \approx F_2.</mrow>
             </md></p>
-            <p>The piston is larger and the force is also larger. Thus we know that force and area vary directly. Note the equation also shows us that they increase linearly, because all terms are linear. In particular <m>F_2 = A_2 \left(\frac{F_1}{A_1}\right)</m> is in the form of a line with ratio <m>F_1/A_1</m> and no shift.</p>
+            <p>The piston is larger and the force is also larger. Thus we know that force and area vary directly. The equation also shows us that they increase linearly, because all terms are linear. In particular <m>F_2 = A_2 \left(\frac{F_1}{A_1}\right)</m> is in the form of a line with ratio <m>F_1/A_1</m> and no shift.</p>
         </solution>
     </example>
 
-    <p><xref ref="model-ideal-gas-law" /> gives two forms of the ideal gas law. The second is produced from the first in the same way as the hydraulics model is produced from the pressure definition. To illustrate consider the case of the air/water mixture in a pressure cooker. First recall the ideal gas law <m>PV=nRT</m>. The pressure cooker changes the temperature of the gas, but the volume, number of molecules and gas constant do not change. Thus we have <m>P_1 V=nRT_1</m> and <m>P_2 V=nRT_2</m>. In both cases we can solve for the shared variables. Note
+    <p><xref ref="model-ideal-gas-law" /> gives two forms of the ideal gas law. The second is produced from the first in the same way as the hydraulics model is produced from the pressure definition. To illustrate consider the case of the air/water mixture in a pressure cooker. First recall the ideal gas law <m>PV=nRT</m>. The pressure cooker changes the temperature of the gas, but the volume, number of molecules and gas constant do not change. Thus we have <m>P_1 V=nRT_1</m> and <m>P_2 V=nRT_2</m>. In both cases we can solve for the shared variables.
     <md>
         <mrow>P_1 V &amp; = nRT_1</mrow>
         <mrow>P_1 V \cdot \frac{1}{VT_1} &amp; = nRT_1 \cdot \frac{1}{VT_1}</mrow>
         <mrow>\frac{P_1}{T_1} &amp; = \frac{nR}{V}</mrow>
     </md> Similarly <m>\frac{P_2}{T_2} = \frac{nR}{V}</m>. Because both expressions equal <m>nR/V</m> we can set them equal giving <m>\frac{P_1}{T_1} = \frac{P_2}{T_2}</m> which is the other model.</p>
 
-    <p>The example above produces a second form of the ideal gas law. This example produces a second form of Ohm's Law. In many applications the voltage is fixed. For example it might be 12V from a car battery. Thus if we are considering current and resistance in two places we have <m>V=I_1 R_1</m> and <m>V=I_2 R_2</m>. Because voltage is the same (same source of electricity) we have <m>I_1 R_1 = I_2 R_2</m>.</p>
+    <p>The example above produces a second form of the ideal gas law. The next example produces a second form of Ohm's Law. In many applications the voltage is fixed. For example it might be 12V from a car battery. Thus if we are considering current and resistance in two places we have <m>V=I_1 R_1</m> and <m>V=I_2 R_2</m>. Because voltage is the same (same source of electricity) we have <m>I_1 R_1 = I_2 R_2</m>.</p>
 
     <example xml:id="example-current-resistance">
         <statement><p>If the current is 3 amps when the resistance is 8 Ohms, what will the current be when the resistance is 6 Ohms? 4 Ohms?</p></statement>
