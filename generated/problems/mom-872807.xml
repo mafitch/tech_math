@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="872807">
 <statement>
-<p>You and your classmates create 23 abstract paintings to sell at the PTA auction to raise money for your school. In order to pay for the materials you bought to make the abstract paintings, you need to sell each of the abstract paintings for <dollar/>2.75. When transporting the abstract paintings to the auction, one of your parents accidentally drops two of the abstract paintings in the street and they are run over by a school bus. What is the new minimum price you need to set for the remaining abstract paintings in order to pay for the materials?</p>
-<p>Keep in mind that you do not want to collect less money than you paid for the materials. This may affect how you round your answer.
-  </p>
-<p>
-  <dollar/><fillin characters="20" /></p>
+<p>You and your classmates create 24 watercolor paintings to sell at the PTA auction to raise money for your school. In order to pay for the materials you bought to make the watercolor paintings, you need to sell each of the watercolor paintings for <dollar/>4.5. When transporting the watercolor paintings to the auction, one of your parents accidentally drops five of the watercolor paintings in the street and they are run over by a Alaska Railroad train. What is the new minimum price you need to set for the remaining watercolor paintings in order to pay for the materials?</p>
+<p>Keep in mind that you do not want to collect less money than you paid for the materials. This may affect how you round your answer. <dollar/><fillin characters="4" /></p>
+
 
 </statement>
 <solution>
-<p><ul><li>3.02</li></ul></p>
+<p><ul><li>5.69</li></ul></p><p>We need a new price that still covers the total cost. Total cost is <m>\displaystyle{24}{\left({4.5}\right)}={108}</m>. After the loss we will have <m>\displaystyle{24}-{5}={19}</m> items to sell. So we need the new price to satisfy <m>\displaystyle{19}{c}={108}</m>. That means we need <m>\displaystyle{c}=\frac{{108}}{{19}}={5.6842105263158}</m> and we will round to 5.69.</p>
 </solution>
 </myopenmath>
 

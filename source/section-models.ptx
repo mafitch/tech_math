@@ -242,169 +242,122 @@
 </subsection>
 
 <subsection xml:id="subsection-model-process">
-	<title>Process Overview</title>
+    <title>Process Overview</title>
 
     <p>Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.</p>
 
-	<p>Our first task is to read the problem to understand it.
-		<ul>
-			<li><p>Read the problem description a few times. 
-				<ul>
-					<li>If you can paraphrase it, you understand it enough.</li>
-					<li>Drawing a picture and labeling parts may help.</li>
-				</ul></p></li>
-			<li>Identify what we are asked to do.</li>
-			<li>Identify the information we are given. Note distinctions like measurements and rates.</li>
-			<li>Identify any units. These often help us set up a model.</li>
-			<li>Write everything! We do not model in our heads.</li>
-		</ul></p>
+    <p>Our first task is to read the problem to understand it.
+        <ul>
+            <li><p>Read the problem description a few times.
+                <ul>
+                    <li>If you can paraphrase it, you understand it enough.</li>
+                    <li>Drawing a picture and labeling parts may help.</li>
+                </ul></p></li>
+            <li>Identify what we are asked to do.</li>
+            <li>Identify the information we are given. Note distinctions like measurements and rates.</li>
+            <li>Identify any units. These often help us set up a model.</li>
+            <li>Write everything! We do not model in our heads.</li>
+        </ul></p>
 
-	<p>Next we write the mathematical model (equation or function).
-		<ul>
-			<li>Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).</li>
-			<li>Do not insert any numbers yet.</li>
-			<li>Do not do any calculations yet.</li>
-		</ul></p>
+    <p>Next we write the mathematical model (equation or function).
+        <ul>
+            <li>Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).</li>
+            <li>Do not insert any numbers yet.</li>
+            <li>Do not do any calculations yet.</li>
+        </ul></p>
 
-	<p>Now we will have a model that matches our situation and possibly some numbers to insert.
-		<ul>
-			<li>Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).</li>
-			<li>Solve for the desired value. Note it may help to do some calculations with the numbers first.</li>
-			<li>State your answer and use units appropriately.</li>
-		</ul></p>
+    <p>Now we will have a model that matches our situation and possibly some numbers to insert.
+        <ul>
+            <li>Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).</li>
+            <li>Solve for the desired value. Note it may help to do some calculations with the numbers first.</li>
+            <li>State your answer and use units appropriately.</li>
+        </ul></p>
 
-	<p>Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).</p>
+    <p>Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).</p>
 
-	<example xml:id="example-model-rental-truck">
-		<statement>
-			<p>You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.</p>
-			<image source="images/UHaul.png" />
-		</statement>
-		<solution>
-			<p>We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).</p>
-			<p>We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.</p>
-			<p>Our model is <m>C = \$39.95+\$0.79m</m> where <m>C</m> is the total cost and <m>m</m> is the number of miles.</p>
-			<p>We know the total cost, which will leaves <m>m</m> in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in <xref ref="section-linear" />
-			<md>
-				<mrow>\$81.03 &amp; = \$39.95+\$0.79m</mrow>
-				<mrow>-\$39.95+\$81.03 &amp; = -\$39.95+\$39.95+\$0.79m</mrow>
-				<mrow>\$41.08 &amp; = \$0.79m</mrow>
-				<mrow>\frac{\$41.08}{\$0.79} &amp; = \frac{\$0.79}{\$0.79}m</mrow>
-				<mrow>52 &amp; = m</mrow>
-			</md>. The charge is for 52 miles.</p>
-		</solution>
-	</example>
+    <example xml:id="example-model-rental-truck">
+        <statement>
+            <p>You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.</p>
+            <image source="images/UHaul.png" />
+        </statement>
+        <solution>
+            <p>We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).</p>
+            <p>We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.</p>
+            <p>Our model is <m>C = \$39.95+\$0.79m</m> where <m>C</m> is the total cost and <m>m</m> is the number of miles.</p>
+            <p>We know the total cost, which will leaves <m>m</m> in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in <xref ref="section-linear" />
+            <md>
+                <mrow>\$81.03 &amp; = \$39.95+\$0.79m</mrow>
+                <mrow>-\$39.95+\$81.03 &amp; = -\$39.95+\$39.95+\$0.79m</mrow>
+                <mrow>\$41.08 &amp; = \$0.79m</mrow>
+                <mrow>\frac{\$41.08}{\$0.79} &amp; = \frac{\$0.79}{\$0.79}m</mrow>
+                <mrow>52 &amp; = m</mrow>
+            </md>. The charge is for 52 miles.</p>
+        </solution>
+    </example>
 
-	<figure xml:id="figure-video-model-uhaul">
-		<caption>Using math modeling for rental truck</caption>
-		<video youtube="zjO5bwOt7Qk" xml:id="video-example-model-uhaul" />
-	</figure>
+    <figure xml:id="figure-video-model-uhaul">
+        <caption>Using math modeling for rental truck</caption>
+        <video youtube="zjO5bwOt7Qk" xml:id="video-example-model-uhaul" />
+    </figure>
 
 </subsection>
 
 <exercises>
     <exercise>
-        <title>Minimum Grade</title>
         <myopenmath problem="872801" />
     </exercise>
 
     <exercise>
-        <title>Triangle Properties</title>
-        <myopenmath problem="224736" />
-    </exercise>
-
-    <exercise>
-        <title>Bike Rental</title>
         <myopenmath problem="226411" />
     </exercise>
 
     <exercise>
-        <title>Pilot Training</title>
-        <myopenmath problem="464320" />
+        <myopenmath problem="1506446" />
     </exercise>
 
     <exercise>
-        <title>Thunder</title>
         <myopenmath problem="2001" />
     </exercise>
 
     <exercise>
-        <title>Speeding</title>
         <myopenmath problem="2019" />
     </exercise>
 
     <exercise>
-        <title>Area of Triangle</title>
         <myopenmath problem="872804" />
     </exercise>
 
     <exercise>
-        <title>Unit cost</title>
         <myopenmath problem="872807" />
     </exercise>
 
     <exercise>
-        <title>Paychecks</title>
-        <myopenmath problem="872841" />
-    </exercise>
-
-    <exercise>
-        <title>Mixture</title>
-        <myopenmath problem="872855" />
-    </exercise>
-
-    <exercise>
-        <title>Area of Rectangle</title>
-        <myopenmath problem="872850" />
-    </exercise>
-
-    <exercise>
-        <title>Shelving</title>
         <myopenmath problem="872769" />
     </exercise>
 
     <exercise>
-        <title>Fax Cost</title>
-        <myopenmath problem="2004" />
-    </exercise>
-
-    <exercise>
-        <title>Population Decrease</title>
         <myopenmath problem="2090" />
     </exercise>
 
     <exercise>
-        <title>Sales</title>
-        <myopenmath problem="2091" />
-    </exercise>
-
-    <exercise>
-        <title>Bookcase</title>
-        <myopenmath problem="2946" />
-    </exercise>
-
-    <exercise>
-        <title>Knitting</title>
         <myopenmath problem="3443" />
     </exercise>
 
     <exercise>
-        <title>Rental Cost</title>
         <myopenmath problem="3483" />
     </exercise>
 
+<!-- meaningless stuff follows -->
+
     <exercise>
-        <title>Mixture</title>
-        <myopenmath problem="883019" />
+        <myopenmath problem="224736" />
     </exercise>
 
     <exercise>
-        <title>Mixture</title>
-        <myopenmath problem="1016545" />
+        <myopenmath problem="2946" />
     </exercise>
 
     <exercise>
-        <title>Wire Cutting</title>
         <myopenmath problem="13819" />
     </exercise>
 </exercises>

@@ -465,7 +465,7 @@
         <p>What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1/8 inch.</p>
         <image source="images/birdhouse" width="30%" />
         <p>First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.</p>
-        <p>Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.
+        <p>For the triangles, we have edge lengths and not the height, because it is easier to measure the edges than the middle. For the area we will use Heron's formula.
         <md>
             <mrow>s &amp; = \frac{1}{2}(5+5+3)</mrow>
             <mrow> &amp; = \frac{13}{2}</mrow>
