@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1489664">
 <statement>
-<p>A triangle has sides with lengths <m>\displaystyle{a}={6.00}</m>, <m>\displaystyle{b}={7.36}</m>, and <m>\displaystyle{c}={6.78}</m>. Calculate all of the angles of this triangle.</p>
-<p>A=<fillin characters="4" /> (across from side of length <m>\displaystyle{a}={6.00}</m>)</p>
+<p>A triangle has sides with lengths <m>\displaystyle{a}={7.00}</m>, <m>\displaystyle{b}={8.59}</m>, and <m>\displaystyle{c}={7.91}</m>. Calculate all of the angles of this triangle.</p>
+<p>A=<fillin characters="4" /> (across from side of length <m>\displaystyle{a}={7.00}</m>)</p>
 <p>
-  B=<fillin characters="4" /> (across from side of length <m>\displaystyle{b}={7.36}</m>)</p>
+  B=<fillin characters="4" /> (across from side of length <m>\displaystyle{b}={8.59}</m>)</p>
 <p>
-  C=<fillin characters="4" /> (across from side of length <m>\displaystyle{c}={6.78}</m>)</p>
+  C=<fillin characters="4" /> (across from side of length <m>\displaystyle{c}={7.91}</m>)</p>
 <p>Round to two decimal places.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>50.01</li><li>70.02</li><li>57.09</li></ul></p><p>Because we have all three sides, we can use the law of cosines for the first angle.</p>
-<p><m>\displaystyle{6}^{{2}}={7.36}^{{2}}+{6.78}^{{2}}-{2}{\left({7.36}\right)}{\left({6.78}\right)}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{36}={54.1696}+{45.9684}-{99.8016}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle-{64.138}=-{99.8016}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{0.64265502757471}={\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{A}={50.009915670062}={50.01}</m>.</p>
+<p><ul><li>50</li><li>70.05</li><li>57.06</li></ul></p><p>Because we have all three sides, we can use the law of cosines for the first angle.</p>
+<p><m>\displaystyle{7}^{{2}}={8.59}^{{2}}+{7.91}^{{2}}-{2}{\left({8.59}\right)}{\left({7.91}\right)}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{49}={73.7881}+{62.5681}-{135.8938}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle-{87.3562}=-{135.8938}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{0.64282697223862}={\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{A}={49.997055840858}={50}</m>.</p>
 <p>For a second angle, we can use the shorter law of sines.</p>
-<p><m>\displaystyle\frac{{\sin{{\left({50.009915670062}\right)}}}}{{6.00}}=\frac{{\sin{{\left({B}\right)}}}}{{7.36}}</m></p>
-<p><m>\displaystyle-{0.31009376164396}={\sin{{\left({B}\right)}}}</m></p>
-<p><m>\displaystyle{B}={\arcsin{{\left(-{0.31009376164396}\right)}}}</m></p>
-<p><m>\displaystyle{B}={70.020951564616}\approx{70.02}</m></p>
+<p><m>\displaystyle\frac{{\sin{{\left({49.997055840858}\right)}}}}{{7.00}}=\frac{{\sin{{\left({B}\right)}}}}{{8.59}}</m></p>
+<p><m>\displaystyle-{0.32545635663556}={\sin{{\left({B}\right)}}}</m></p>
+<p><m>\displaystyle{B}={\arcsin{{\left(-{0.32545635663556}\right)}}}</m></p>
+<p><m>\displaystyle{B}={70.052468846631}\approx{70.05}</m></p>
 <p>The third angle we can calculate using the angle sum property.</p>
-<p><m>\displaystyle{50.009915670062}+{70.020951564616}+{C}={180}^{\circ}</m></p>
-<p><m>\displaystyle{C}={57.092847956343}\approx{57.09}</m></p>
+<p><m>\displaystyle{49.997055840858}+{70.052468846631}+{C}={180}^{\circ}</m></p>
+<p><m>\displaystyle{C}={57.057556083454}\approx{57.06}</m></p>
 
 </solution>
 </myopenmath>

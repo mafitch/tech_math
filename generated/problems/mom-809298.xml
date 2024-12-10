@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="809298">
 <statement>
-<p>Graph the parabola <m>\displaystyle{y}={6}{\left({x}+{3}\right)}^{{2}}+{2}</m></p>
+<p>Graph the parabola <m>\displaystyle{y}={6}{\left({x}+{2}\right)}^{{2}}-{1}</m></p>
 <p>The vertex is <fillin characters="7" />  </p>
-<image width="52%"  pi:generated="problems/images/3591692cf3d9256f1b4da47cf91f5e54.png" />
+<image width="52%"  pi:generated="problems/images/5de4c86bc11068a8e382b3b0cb71f281.png" />
 
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{3},{2}\right)}</m></li><li><image width="52%"  pi:generated="problems/images/3512fd40a70b353f3743dde5a41e1a12.png" />
-</li></ul></p><p>The form of a parabola is <m>\displaystyle{y}={a}{\left({x}-{h}\right)}^{{2}}+{k}</m>. Because this parabola is <m>\displaystyle{y}={6}{\left({x}+{3}\right)}^{{2}}+{2}</m>, which can be written <m>\displaystyle{y}={6}{\left({x}-{\left(-{3}\right)}\right)}^{{2}}+{\left({2}\right)}</m> we know the following.</p>
-<p><m>\displaystyle{h}=-{3}</m>, <m>\displaystyle{k}={2}</m>. Thus the vertex is <m>\displaystyle{\left(-{3},{2}\right)}</m>.</p>
-<p>To graph the parabola we can use the vertex and another convenient point. One convenient point is at <m>\displaystyle{x}=-{3}+{1}=-{2}</m>.</p>
-<p><m>\displaystyle{y}={6}{\left(-{2}-{\left(-{3}\right)}\right)}^{{2}}+{\left({2}\right)}</m></p>
-<p><m>\displaystyle={6}{\left({1}\right)}^{{2}}+{\left({2}\right)}</m></p>
-<p><m>\displaystyle={6}+{\left({2}\right)}</m></p>
-<p><m>\displaystyle={8}</m>.</p>
-<p>We use <m>\displaystyle{\left(-{2},{8}\right)}</m>.</p>
+<p><ul><li><m>\displaystyle{\left(-{2},-{1}\right)}</m></li><li><image width="52%"  pi:generated="problems/images/9f9e1b593026679149e8e8714cc317a1.png" />
+</li></ul></p><p>The form of a parabola is <m>\displaystyle{y}={a}{\left({x}-{h}\right)}^{{2}}+{k}</m>. Because this parabola is <m>\displaystyle{y}={6}{\left({x}+{2}\right)}^{{2}}-{1}</m>, which can be written <m>\displaystyle{y}={6}{\left({x}-{\left(-{2}\right)}\right)}^{{2}}+{\left(-{1}\right)}</m> we know the following.</p>
+<p><m>\displaystyle{h}=-{2}</m>, <m>\displaystyle{k}=-{1}</m>. Thus the vertex is <m>\displaystyle{\left(-{2},-{1}\right)}</m>.</p>
+<p>To graph the parabola we can use the vertex and another convenient point. One convenient point is at <m>\displaystyle{x}=-{2}+{1}=-{1}</m>.</p>
+<p><m>\displaystyle{y}={6}{\left(-{1}-{\left(-{2}\right)}\right)}^{{2}}+{\left(-{1}\right)}</m></p>
+<p><m>\displaystyle={6}{\left({1}\right)}^{{2}}+{\left(-{1}\right)}</m></p>
+<p><m>\displaystyle={6}+{\left(-{1}\right)}</m></p>
+<p><m>\displaystyle={5}</m>.</p>
+<p>We use <m>\displaystyle{\left(-{1},{5}\right)}</m>.</p>
 </solution>
 </myopenmath>
 

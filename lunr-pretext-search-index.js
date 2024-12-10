@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Units",
-  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.     Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.      Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .       Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .     Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.        Dimensional Analysis   Identify the correct units to make these work.        Converting Units   Convert the units as directed. Use the conversion tables () as needed.                    Quantitative Literacy   Use your knowledge of these items to decide on appropriate units.                    "
+  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.     Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.      Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .       Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .     Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.        Dimensional Analysis   Identify the correct units to make these work.        Converting Units   Convert the units as directed. Use the conversion tables () as needed.                       Quantitative Literacy   Use your knowledge of these items to decide on appropriate units.                    "
 },
 {
   "id": "table-units-of-measure",
@@ -415,11 +415,38 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
+  "id": "section-units-8-3-17",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-17",
+  "type": "Exercise",
+  "number": "1.1.6.18",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-18",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-18",
+  "type": "Exercise",
+  "number": "1.1.6.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-units-8-3-19",
+  "level": "2",
+  "url": "section-units.html#section-units-8-3-19",
+  "type": "Exercise",
+  "number": "1.1.6.20",
+  "title": "",
+  "body": ""
+},
+{
   "id": "section-units-8-4",
   "level": "2",
   "url": "section-units.html#section-units-8-4",
   "type": "Exercise",
-  "number": "1.1.6.18",
+  "number": "1.1.6.21",
   "title": "",
   "body": ""
 },
@@ -428,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-5-3",
   "type": "Exercise",
-  "number": "1.1.6.19",
+  "number": "1.1.6.22",
   "title": "",
   "body": ""
 },
@@ -437,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-5-4",
   "type": "Exercise",
-  "number": "1.1.6.20",
+  "number": "1.1.6.23",
   "title": "",
   "body": ""
 },
@@ -446,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-5-5",
   "type": "Exercise",
-  "number": "1.1.6.21",
+  "number": "1.1.6.24",
   "title": "",
   "body": ""
 },
@@ -455,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-6",
   "type": "Exercise",
-  "number": "1.1.6.22",
+  "number": "1.1.6.25",
   "title": "",
   "body": ""
 },
@@ -464,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-7",
   "type": "Exercise",
-  "number": "1.1.6.23",
+  "number": "1.1.6.26",
   "title": "",
   "body": ""
 },
@@ -473,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-8",
   "type": "Exercise",
-  "number": "1.1.6.24",
+  "number": "1.1.6.27",
   "title": "",
   "body": ""
 },
@@ -482,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-9",
   "type": "Exercise",
-  "number": "1.1.6.25",
+  "number": "1.1.6.28",
   "title": "",
   "body": ""
 },
@@ -491,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-10",
   "type": "Exercise",
-  "number": "1.1.6.26",
+  "number": "1.1.6.29",
   "title": "",
   "body": ""
 },
@@ -500,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-11",
   "type": "Exercise",
-  "number": "1.1.6.27",
+  "number": "1.1.6.30",
   "title": "",
   "body": ""
 },
@@ -509,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-12",
   "type": "Exercise",
-  "number": "1.1.6.28",
+  "number": "1.1.6.31",
   "title": "",
   "body": ""
 },
@@ -518,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-13",
   "type": "Exercise",
-  "number": "1.1.6.29",
+  "number": "1.1.6.32",
   "title": "",
   "body": ""
 },
@@ -527,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-14",
   "type": "Exercise",
-  "number": "1.1.6.30",
+  "number": "1.1.6.33",
   "title": "",
   "body": ""
 },
@@ -536,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-15",
   "type": "Exercise",
-  "number": "1.1.6.31",
+  "number": "1.1.6.34",
   "title": "",
   "body": ""
 },
@@ -545,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-16",
   "type": "Exercise",
-  "number": "1.1.6.32",
+  "number": "1.1.6.35",
   "title": "",
   "body": ""
 },
@@ -554,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-17",
   "type": "Exercise",
-  "number": "1.1.6.33",
+  "number": "1.1.6.36",
   "title": "",
   "body": ""
 },
@@ -565,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Accuracy and Precision",
-  "body": " Accuracy and Precision   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Rounding (skill)  Significant Figures (skill)  Determining appropriate rounding from context (critical thinking)    While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.  First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.    Explanation  When working with measurements, we care about the reasonableness of the results. Suppose four people measure the length of a piece of wood and come up with 1.235 m, 1.236 m, 1.237 m, and 1.234 m. We might conclude that we are confident it is 1.23 m long but we are not certain about the millimeters position. This leads to the concepts of accuracy and precision.   Accuracy  The accuracy of a measurement is how close the measurement is to the actual value.    If the board referenced above is actually 1.2364 m long then all four measurements are accurate to the second decimal place. The second measurement (1.236 m) is accurate to the third decimal place.    Note is an approximation for . Because to six decimals places (not rounded) is 3.141592, the approximation is accurate to only 2 decimal places (i.e., 3.14).  Note, is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.   Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and our use of all such tools has a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.   Error  The error of a measurement is the difference between the reported measurement and the actual value.    The number of people at an outdoor concert was 2453. If someone estimated that the number of people was 2500, then that estimate is accurate to 1000's place, but has an error of only .    Precision  The precision of a measurement is the size of the smallest unit in it.   Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean that number is close to the actual value of the measurement.   The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?  Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).  Because the response matches the actual value to 2 decimal places (the 100ths position), it is accurate to 2 decimal places.  Because , the error is 0.0015.    Introduction to Precision and Accuracy    How do we end up with parts of measurements which are not accurate? Consider the following.    When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3\/4 and less than 7\/8 . The right side of the shape appears to be less than half way between 3\/4 and 7\/8 . Because it appears to be closer to 3\/4 , we can state the width is 3\/4 . Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.  We know this measurement is accurate to the nearest 1\/8 , because the ruler has those marked and, in this case, we can be confident it is closer to the left side.  To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13\/16 or 1\/16 farther. Thus we can state that the shape is 3\/4 wide with an error that is less than 1\/16 .   While other tools for measurement can be more precise, every tool has a limit to its precision similar to this example. We should always be aware of the limitations of measurements when we use them.    Significant Figures  It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation  ) makes no sense, because it is only accurate to the hundreds position (i.e., 3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in many of the problems involving data from measurments for the rest of the text.  When writing down measurements we need a way to indicate how precise the measurement is. Significant digits , also called significant figures or simply sig figs , are a way to do this.  The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.  All non-zero digits are signficant.  Zeros between non-zeros are significant.  Any zeros written to the right of the decimal point are significant.  If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.  If the zero to the left of the decimal is significant, the decimal point may be used with no digits to the right (the bar is an easier to read choice however)  For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.  We can summarize these rules as: write only digits that you mean, and if it is ambiguous, clarify.  Significant digits apply to numbers resulting from measurements. That is, they apply when there is doubt about the accuracy of the number. These will be mixed with exact numbers (numbers with infinite precision). For example the 1\/2 in the area of a triangle ( ) is an exact number.   Writing Significant Digits  Each of these numbers is written with five (5) significant digits.            We also need rules for arithmetic with significant digits. These are based on two principles  A result of arithmetic cannot be more precise than the least precise measurement.  Arithmetic does not increase accuracy.   For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left of the last significant digits.   Subtraction with Significant Digits  . The last significant digit of 11050 is in the 10's position (the 5). The last significant digit of 723 is in the 1's (unit) position (the 3). Because 11050 is less precise than 723, the last significant digit of the result is in the 10's position. We do not know the 1's position of 11050, so we cannot know the 1's position in the result.    Addition with Significant Digits  . This is rounded to the hundreds position because the least (farthest left) significant digit of the three numbers is in the 100's position (in 202,200). The extra precision of the other two numbers is lost because we don't know to what they should be added.   The significant digits addition\/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with addition\/subtraction. For example suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems). The F (measured temperature) would have limited precision and therefore determine the precision of the result.   For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of signficant digits of the input numbers.   Division with Significant Digits  . This is rounded to three (3) significant digits because has only 3 significant digits. The fourth significant digit in 11050 (the 5) would be multiplied by the unknown digit after the 3 in 15.3, so we do not know what that would be.    Multiplication with Significant Digits  . This is rounded to two (2) significant digits because has only two significant digits. The extra precision of the other two numbers is lost.   The significant digit multiplication\/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with multiplication and division. The following example illustrates how we determine the resulting number of significant digits when exact numbers are mixed with measurements.   Suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems).  If we read the temperature as 44.7 F then the conversion is as follows. In the subtraction step the 32 is exact so the precision is determined by solely 44.7 (tenths place). In the multipication step the 5\/9 is exact so the precision is determined by the 12.7 (three significant digits).    The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.  This example also illustrates tracking significant digits and illustrates a way you might keep track of which digits are significant in each step. The rightmost (smallest place value) digit that is significant is underlined. This is not a mathematical notation, but rather a convenient way to track the significant digits.   Multi-Step Arithmetic with Significant Digits  Evaluate .  By order of operations we first calculate . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate . This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is . 11,728 is significant to the one's place but the 746.07 is significant only to the 10's place. This means the final result is rounded to the 10's place so    Calculate The is an exact number here. The rest are measurements in centimeters.  When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been If all the measurements were rounded down (e.g., 21 was rounded from 21.4), the the value could have been Using these two possibilities we see that the value could be anywhere from 121.125 to 146.64. The one hundred is the only digit about which we can be certain. That is why it is the only significant digit and why we eliminate (replace with zero) all the others.  If losing this much precision is a problem, then we need to obtain more precise measurements.   Significant digts communicates which digits are definitely meaningful. There are other motivations for rounding which lead to keeping more digits. This will be addressed in the next section.     Rounding  Significant digits uses rounding to remove non-useful precision. This section presents various motivations for rounding and types of rounding and motivations for each.   Reasons for Rounding   Reality Constraints For example we cannot buy partial packages or have fractional people  Remove Detail For example when describing the population of a nation  Control Error When used in significant digits    The reason for rounding determines how we do it. Consider the following reality constraints requiring rounding. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need cartons. Since we cannot purchase part of a carton, we must round 1.75 up to 2, and purchase 2 cartons.  Note in this example reality requires us to round up to the nearest integer. We round to an integer because we cannot purchase fractional cartons of eggs. We had to round up, because rounding down would leave us with insufficient eggs (and we are hungry).  Suppose you have a bank account containing $11,410 that accrues 1.65% interest. The bank calculates the payment should be . The bank will pay you $188.26. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.  For removal of detail consider reporting the population of a country. We might report the population as over 9 million rather than 9,904,607. There are multiple motivations for this rounding. Note the population is likely changing multiple times per day, so more precision in the number does not equal more accuracy. Also, because of the scale (millions) the detail about how many ones, tens, hundred, and thousands looses meaning.  When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 to $80,290.11 is unlikely to change a decision. The applicant will ask about the exact salary after deciding the position is a good fit. A common usage of removing detail is when we care about the scale of things rather than the count.  Rounding to control error is the use of significant digits.  Before considering context, we will practice rounding numbers. Note we can round to any digit. We can round up, down, or to the nearest number (what is meant by round if neither up nor down are specified). Context or instructions will specify which digit and which type of rounding.   Rounding Up\/Down  Round 72481 down to the nearest hundred. 72400 is rounding down: we leave the 4 (hundred position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest hundred. 72500 is rounding up: we increase the 4 to a 5 and truncate (turn to 0) all digits to the right. Note .  Round 72481 the nearest hundred. Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is which means rounding up results in a closer number. We could also recognize the need to round up by calculating and and noticing that (round up is closer).    Rounding Up\/Down  Round 72481 down to the nearest thousand. 72000 is rounding down: we leave the 2 (thousands position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest thousand. 73000 is rounding up: we increase the 2 to a 3 and truncate (turn to 0) all digits to the right. Note .  Round 72481 to the nearest thousand. Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is which makes it closer to go down. We could also recognize the need to round down by calculating and and noticing that .    Rounding to Different Precisions  Round 72321.83 to the specified precision.  Thousands: 72000  Ones:72322  Tenths: 72321.8      Next we need to consider when to use each type of rounding.   Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20 . If a room is 50 feet by 38 feet, how many carpet squares do we need?  First lets figure out how many tiles will go across the 50 feet. Before we can we need to convert feet to inches, so we can compare the width of the room to the carpet square width. 50 feet is . We want to know how many 20 in tiles fit into 600 in. tiles across. Notice that the units divide out which indicates we set this up correctly.  Next, lets figure out how many tiles will go across the 38 feet. 38 feet is . This will require laying tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).  Finally we can count the number of tiles which is tiles.  Could we use the 0.2 part of a tile that results from cutting at the end in another row. That depends. Doing so will start the next row shifted by 0.2, so if the tiles need to be aligned due to their color\/pattern this will not work. If the color is solid or designed to be offset, we can do this and save money. Knowledge from carpet installation is required to determine this rounding.    Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?  There are cookies. Each person can have cookies. Because cutting cookies into pieces is how the cookie crumbles, we must round this down to 5 cookies per person.  Curious minds want to know what happens with the rest of the cookies. Notice there will be cookies given away leaving just one cookie which the baker can enjoy.     Greatest Possible Error  We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.  Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, this rounding will always result in a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.   What is the greatest possible error if 130 was rounded to the nearest 10?  One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at .  The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at .  Thus the greatest possible error was 5 from the case that 125 was rounded up.  Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits do not change the rounding.    What is the greatest possible error if 9.31 was rounded to the nearest hundredth?  The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 0.005 or 5 one thousandths.   To determine the greatest possible error, we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object is not exactly on one of the lines, you will choose the closest one (left or right). Moving to the closest one is rounding.  The next example calculates the greatest possible error from rounding up (as opposed to rounding).   What is the greatest possible error if 223 was rounded up to the nearest unit?  223 could have been rounded up from 222.1. But it could also have been rounded up from 222.01 or anything else. Thus the greatest possible error is less than 1 ( ).       Significant Digits  Count Significant Digits  Count Significant Digits  Count Significant Digits  Count Significant Digits  Count Significant Digits  Significant Digits Arithmetic  Significant Digits Arithmetic  Significant Digits Arithmetic  Significant Digits Rounding  Greatest Error  Greatest Error  Greatest Error  Greatest Error   "
+  "body": " Accuracy and Precision   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Rounding (skill)  Significant Figures (skill)  Determining appropriate rounding from context (critical thinking)    While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.  First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.    Explanation  When working with measurements, we care about the reasonableness of the results. Suppose four people measure the length of a piece of wood and come up with 1.235 m, 1.236 m, 1.237 m, and 1.234 m. We might conclude that we are confident it is 1.23 m long but we are not certain about the millimeters position. This leads to the concepts of accuracy and precision.   Accuracy  The accuracy of a measurement is how close the measurement is to the actual value.    If the board referenced above is actually 1.2364 m long then all four measurements are accurate to the second decimal place. The second measurement (1.236 m) is accurate to the third decimal place.    Note is an approximation for . Because to six decimals places (not rounded) is 3.141592, the approximation is accurate to only 2 decimal places (i.e., 3.14).  Note, is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.   Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and our use of all such tools has a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.   Error  The error of a measurement is the difference between the reported measurement and the actual value.    The number of people at an outdoor concert was 2453. If someone estimated that the number of people was 2500, then that estimate is accurate to 1000's place, but has an error of only .    Precision  The precision of a measurement is the size of the smallest unit in it.   Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean that number is close to the actual value of the measurement.   The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?  Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).  Because the response matches the actual value to 2 decimal places (the 100ths position), it is accurate to 2 decimal places.  Because , the error is 0.0015.    Introduction to Precision and Accuracy    How do we end up with parts of measurements which are not accurate? Consider the following.    When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3\/4 and less than 7\/8 . The right side of the shape appears to be less than half way between 3\/4 and 7\/8 . Because it appears to be closer to 3\/4 , we can state the width is 3\/4 . Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.  We know this measurement is accurate to the nearest 1\/8 , because the ruler has those marked and, in this case, we can be confident it is closer to the left side.  To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13\/16 or 1\/16 farther. Thus we can state that the shape is 3\/4 wide with an error that is less than 1\/16 .   While other tools for measurement can be more precise, every tool has a limit to its precision similar to this example. We should always be aware of the limitations of measurements when we use them.    Significant Figures  It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation  ) makes no sense, because it is only accurate to the hundreds position (i.e., 3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in many of the problems involving data from measurments for the rest of the text.  When writing down measurements we need a way to indicate how precise the measurement is. Significant digits , also called significant figures or simply sig figs , are a way to do this.  The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.  All non-zero digits are signficant.  Zeros between non-zeros are significant.  Any zeros written to the right of the decimal point are significant.  If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.  If the zero to the left of the decimal is significant, the decimal point may be used with no digits to the right (the bar is an easier to read choice however)  For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.  We can summarize these rules as: write only digits that you mean, and if it is ambiguous, clarify.  Significant digits apply to numbers resulting from measurements. That is, they apply when there is doubt about the accuracy of the number. These will be mixed with exact numbers (numbers with infinite precision). For example the 1\/2 in the area of a triangle ( ) is an exact number.   Writing Significant Digits  Each of these numbers is written with five (5) significant digits.            We also need rules for arithmetic with significant digits. These are based on two principles  A result of arithmetic cannot be more precise than the least precise measurement.  Arithmetic does not increase accuracy.   For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left of the last significant digits.   Subtraction with Significant Digits  . The last significant digit of 11050 is in the 10's position (the 5). The last significant digit of 723 is in the 1's (unit) position (the 3). Because 11050 is less precise than 723, the last significant digit of the result is in the 10's position. We do not know the 1's position of 11050, so we cannot know the 1's position in the result.    Addition with Significant Digits  . This is rounded to the hundreds position because the least (farthest left) significant digit of the three numbers is in the 100's position (in 202,200). The extra precision of the other two numbers is lost because we don't know to what they should be added.   The significant digits addition\/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with addition\/subtraction. For example suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems). The F (measured temperature) would have limited precision and therefore determine the precision of the result.   For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of signficant digits of the input numbers.   Division with Significant Digits  . This is rounded to three (3) significant digits because has only 3 significant digits. The fourth significant digit in 11050 (the 5) would be multiplied by the unknown digit after the 3 in 15.3, so we do not know what that would be.    Multiplication with Significant Digits  . This is rounded to two (2) significant digits because has only two significant digits. The extra precision of the other two numbers is lost.   The significant digit multiplication\/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with multiplication and division. The following example illustrates how we determine the resulting number of significant digits when exact numbers are mixed with measurements.   Suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems).  If we read the temperature as 44.7 F then the conversion is as follows. In the subtraction step the 32 is exact so the precision is determined by solely 44.7 (tenths place). In the multipication step the 5\/9 is exact so the precision is determined by the 12.7 (three significant digits).    The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.  This example also illustrates tracking significant digits and illustrates a way you might keep track of which digits are significant in each step. The rightmost (smallest place value) digit that is significant is underlined. This is not a mathematical notation, but rather a convenient way to track the significant digits.   Multi-Step Arithmetic with Significant Digits  Evaluate .  By order of operations we first calculate . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate . This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is . 11,728 is significant to the one's place but the 746.07 is significant only to the 10's place. This means the final result is rounded to the 10's place so    Calculate The is an exact number here. The rest are measurements in centimeters.  When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been If all the measurements were rounded down (e.g., 21 was rounded from 21.4), the the value could have been Using these two possibilities we see that the value could be anywhere from 121.125 to 146.64. The one hundred is the only digit about which we can be certain. That is why it is the only significant digit and why we eliminate (replace with zero) all the others.  If losing this much precision is a problem, then we need to obtain more precise measurements.   Significant digts communicates which digits are definitely meaningful. There are other motivations for rounding which lead to keeping more digits. This will be addressed in the next section.     Rounding  Significant digits uses rounding to remove non-useful precision. This section presents various motivations for rounding and types of rounding and motivations for each.   Reasons for Rounding   Reality Constraints For example we cannot buy partial packages or have fractional people  Remove Detail For example when describing the population of a nation  Control Error When used in significant digits    The reason for rounding determines how we do it. Consider the following reality constraints requiring rounding. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need cartons. Since we cannot purchase part of a carton, we must round 1.75 up to 2, and purchase 2 cartons.  Note in this example reality requires us to round up to the nearest integer. We round to an integer because we cannot purchase fractional cartons of eggs. We had to round up, because rounding down would leave us with insufficient eggs (and we are hungry).  Suppose you have a bank account containing $11,410 that accrues 1.65% interest. The bank calculates the payment should be . The bank will pay you $188.26. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.  For removal of detail consider reporting the population of a country. We might report the population as over 9 million rather than 9,904,607. There are multiple motivations for this rounding. Note the population is likely changing multiple times per day, so more precision in the number does not equal more accuracy. Also, because of the scale (millions) the detail about how many ones, tens, hundred, and thousands looses meaning.  When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 to $80,290.11 is unlikely to change a decision. The applicant will ask about the exact salary after deciding the position is a good fit. A common usage of removing detail is when we care about the scale of things rather than the count.  Rounding to control error is the use of significant digits.  Before considering context, we will practice rounding numbers. Note we can round to any digit. We can round up, down, or to the nearest number (what is meant by round if neither up nor down are specified). Context or instructions will specify which digit and which type of rounding.   Rounding Up\/Down  Round 72481 down to the nearest hundred. 72400 is rounding down: we leave the 4 (hundred position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest hundred. 72500 is rounding up: we increase the 4 to a 5 and truncate (turn to 0) all digits to the right. Note .  Round 72481 the nearest hundred. Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is which means rounding up results in a closer number. We could also recognize the need to round up by calculating and and noticing that (round up is closer).    Rounding Up\/Down  Round 72481 down to the nearest thousand. 72000 is rounding down: we leave the 2 (thousands position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest thousand. 73000 is rounding up: we increase the 2 to a 3 and truncate (turn to 0) all digits to the right. Note .  Round 72481 to the nearest thousand. Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is which makes it closer to go down. We could also recognize the need to round down by calculating and and noticing that .    Rounding to Different Precisions  Round 72321.83 to the specified precision.  Thousands: 72000  Ones:72322  Tenths: 72321.8      Next we need to consider when to use each type of rounding.   Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20 . If a room is 50 feet by 38 feet, how many carpet squares do we need?  First lets figure out how many tiles will go across the 50 feet. Before we can we need to convert feet to inches, so we can compare the width of the room to the carpet square width. 50 feet is . We want to know how many 20 in tiles fit into 600 in. tiles across. Notice that the units divide out which indicates we set this up correctly.  Next, lets figure out how many tiles will go across the 38 feet. 38 feet is . This will require laying tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).  Finally we can count the number of tiles which is tiles.  Could we use the 0.2 part of a tile that results from cutting at the end in another row. That depends. Doing so will start the next row shifted by 0.2, so if the tiles need to be aligned due to their color\/pattern this will not work. If the color is solid or designed to be offset, we can do this and save money. Knowledge from carpet installation is required to determine this rounding.    Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?  There are cookies. Each person can have cookies. Because cutting cookies into pieces is how the cookie crumbles, we must round this down to 5 cookies per person.  Curious minds want to know what happens with the rest of the cookies. Notice there will be cookies given away leaving just one cookie which the baker can enjoy.     Greatest Possible Error  We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.  Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, this rounding will always result in a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.   What is the greatest possible error if 130 was rounded to the nearest 10?  One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at .  The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at .  Thus the greatest possible error was 5 from the case that 125 was rounded up.  Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits do not change the rounding.    What is the greatest possible error if 9.31 was rounded to the nearest hundredth?  The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 0.005 or 5 one thousandths.   To determine the greatest possible error, we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object is not exactly on one of the lines, you will choose the closest one (left or right). Moving to the closest one is rounding.  The next example calculates the greatest possible error from rounding up (as opposed to rounding).   What is the greatest possible error if 223 was rounded up to the nearest unit?  223 could have been rounded up from 222.1. But it could also have been rounded up from 222.01 or anything else. Thus the greatest possible error is less than 1 ( ).        Counting Significant Digits   Determine the number of significant digits using the standard notations.           Significant Digit Arithmetic   Perform the arithmetic indicated and write the result with the correct number of significant digits.         Greatest Possible Error   Determine the greatest possible error for each number or calculation.         "
 },
 {
   "id": "definition-accuracy",
@@ -874,130 +901,130 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-enough-7-1",
+  "id": "section-enough-7-1-3",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-1",
+  "url": "section-enough.html#section-enough-7-1-3",
   "type": "Exercise",
   "number": "1.2.5.1",
-  "title": "Significant Digits.",
-  "body": "Significant Digits "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-2",
+  "id": "section-enough-7-1-4",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-2",
+  "url": "section-enough.html#section-enough-7-1-4",
   "type": "Exercise",
   "number": "1.2.5.2",
-  "title": "Count Significant Digits.",
-  "body": "Count Significant Digits "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-3",
+  "id": "section-enough-7-1-5",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-3",
+  "url": "section-enough.html#section-enough-7-1-5",
   "type": "Exercise",
   "number": "1.2.5.3",
-  "title": "Count Significant Digits.",
-  "body": "Count Significant Digits "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-4",
+  "id": "section-enough-7-1-6",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-4",
+  "url": "section-enough.html#section-enough-7-1-6",
   "type": "Exercise",
   "number": "1.2.5.4",
-  "title": "Count Significant Digits.",
-  "body": "Count Significant Digits "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-5",
+  "id": "section-enough-7-1-7",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-5",
+  "url": "section-enough.html#section-enough-7-1-7",
   "type": "Exercise",
   "number": "1.2.5.5",
-  "title": "Count Significant Digits.",
-  "body": "Count Significant Digits "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-6",
+  "id": "section-enough-7-1-8",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-6",
+  "url": "section-enough.html#section-enough-7-1-8",
   "type": "Exercise",
   "number": "1.2.5.6",
-  "title": "Count Significant Digits.",
-  "body": "Count Significant Digits "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-7",
+  "id": "section-enough-7-2-3",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-7",
+  "url": "section-enough.html#section-enough-7-2-3",
   "type": "Exercise",
   "number": "1.2.5.7",
-  "title": "Significant Digits Arithmetic.",
-  "body": "Significant Digits Arithmetic "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-8",
+  "id": "section-enough-7-2-4",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-8",
+  "url": "section-enough.html#section-enough-7-2-4",
   "type": "Exercise",
   "number": "1.2.5.8",
-  "title": "Significant Digits Arithmetic.",
-  "body": "Significant Digits Arithmetic "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-9",
+  "id": "section-enough-7-2-5",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-9",
+  "url": "section-enough.html#section-enough-7-2-5",
   "type": "Exercise",
   "number": "1.2.5.9",
-  "title": "Significant Digits Arithmetic.",
-  "body": "Significant Digits Arithmetic "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-10",
+  "id": "section-enough-7-2-6",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-10",
+  "url": "section-enough.html#section-enough-7-2-6",
   "type": "Exercise",
   "number": "1.2.5.10",
-  "title": "Significant Digits Rounding.",
-  "body": "Significant Digits Rounding "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-11",
+  "id": "section-enough-7-3-3",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-11",
+  "url": "section-enough.html#section-enough-7-3-3",
   "type": "Exercise",
   "number": "1.2.5.11",
-  "title": "Greatest Error.",
-  "body": "Greatest Error "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-12",
+  "id": "section-enough-7-3-4",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-12",
+  "url": "section-enough.html#section-enough-7-3-4",
   "type": "Exercise",
   "number": "1.2.5.12",
-  "title": "Greatest Error.",
-  "body": "Greatest Error "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-13",
+  "id": "section-enough-7-3-5",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-13",
+  "url": "section-enough.html#section-enough-7-3-5",
   "type": "Exercise",
   "number": "1.2.5.13",
-  "title": "Greatest Error.",
-  "body": "Greatest Error "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-enough-7-14",
+  "id": "section-enough-7-3-6",
   "level": "2",
-  "url": "section-enough.html#section-enough-7-14",
+  "url": "section-enough.html#section-enough-7-3-6",
   "type": "Exercise",
   "number": "1.2.5.14",
-  "title": "Greatest Error.",
-  "body": "Greatest Error "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models",
@@ -1006,7 +1033,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Working with Applications",
-  "body": " Working with Applications   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear , rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.  This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.    Calculating Results using Models   Ohm's Law   Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage , measured in volts (V), is analagous to the amount of pressure to move the electrons. Current , measured in amperes (amps), is how much electricity is moving. Resistance measured in Ohms ( ), is, as it sounds, the resistance of a material to letting electricity flow.  The relationship is where  is voltage,  is current, and  is the resistance.      We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.  Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?  Using the model we can calculate Thus in this system 24 volts is required.  If the current is increased to 6.0 amps on the 8.0 ohm circuit, then This result tells us that to double the amps, doubling the voltage is required.  Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate Thus in this system 10 volts is required.    Lift Equation   Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.  The lift equation is where  is the lift in units of lbs or Newtons)  is air density in units of slugs per cubic feet or kilograms per cubic meter  surface area in units of square feet or square meters  is the coefficient of lift which is unitless  is velocity in units of feet per second or meters per second       We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.  Suppose the air density is 0.002378 slugs per cubic feet, surface area is 125 , , and velocity is 84.4 . Calculate the lift.   . Under these circumstances this airfoil can lift 1650 lbs.  If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.   . If nothing else is changed (like velocity), this airfoil can lift (hold in the air) lbs less.     Ideal Gas Law   The ideal gas law is a relationship between the volume, pressure, temperature, and number of molecules of an ideal gas. The relationship is where  is the pressure in units of atmospheres (atm) or Pascals (Pa)  is the volume in units of cubic feet or cubic meters  is the number of moles (number of molecules, see a chemistry text for details)  is a constant specific to each gas (e.g., oxygen and nitrogen have different ones) in units that match the other values  is the temperature in degrees Rankine or Kelvin (these are shifted versions of Fahrenheit and Celsius).   When the number of molecules remains fixed, such as in a closed container, this law can be used to produce the equation where  , , and are the initial pressure, volume, and temperature, and  , , and are the pressure, volume, and temperature at another time.   Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant which is looked up in reference books.  For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.     Suppose the initial conditions are , , and . Also and . Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding. .  If instead , then we have the following.        Calculating Results Requiring Solving  The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.  It does not matter if the value we desire is by itself, we can solve using arithmetic.   Recall the model for lift . Suppose we know the weight of the aircraft ( lbs), density of air ( ), wing surface area ( ), and velocity ( ). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.    The desired value from the model may be in a denominator. We can solve for this using multiplication and division.   Recall from that under simplifying assumptions Suppose we know the initial conditions ( atm, , F) and also atm and . What must the new temperature ( ) be? This is a science model with measurements, so we will use significant digits rounding.   Note we use significant digits for rounding because this is a science model.   The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.   Solve the equation for . Note, this model is explained in .     Solve the lift equation for .   Notice that the steps are the same algebra as if there were numbers. Also we could divide by and we are not concerned with the square as part of solving for .   Solve the lift equation for .    Process Overview  Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.  Our first task is to read the problem to understand it.  Read the problem description a few times.  If you can paraphrase it, you understand it enough.  Drawing a picture and labeling parts may help.   Identify what we are asked to do.  Identify the information we are given. Note distinctions like measurements and rates.  Identify any units. These often help us set up a model.  Write everything! We do not model in our heads.   Next we write the mathematical model (equation or function).  Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).  Do not insert any numbers yet.  Do not do any calculations yet.   Now we will have a model that matches our situation and possibly some numbers to insert.  Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).  Solve for the desired value. Note it may help to do some calculations with the numbers first.  State your answer and use units appropriately.   Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).    You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.     We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).  We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.  Our model is where is the total cost and is the number of miles.  We know the total cost, which will leaves in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in  . The charge is for 52 miles.     Using math modeling for rental truck      Minimum Grade  Triangle Properties  Bike Rental  Pilot Training  Thunder  Speeding  Area of Triangle  Unit cost  Paychecks  Mixture  Area of Rectangle  Shelving  Fax Cost  Population Decrease  Sales  Bookcase  Knitting  Rental Cost  Mixture  Mixture  Wire Cutting   "
+  "body": " Working with Applications   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear , rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.  This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.    Calculating Results using Models   Ohm's Law   Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage , measured in volts (V), is analagous to the amount of pressure to move the electrons. Current , measured in amperes (amps), is how much electricity is moving. Resistance measured in Ohms ( ), is, as it sounds, the resistance of a material to letting electricity flow.  The relationship is where  is voltage,  is current, and  is the resistance.      We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.  Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?  Using the model we can calculate Thus in this system 24 volts is required.  If the current is increased to 6.0 amps on the 8.0 ohm circuit, then This result tells us that to double the amps, doubling the voltage is required.  Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate Thus in this system 10 volts is required.    Lift Equation   Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.  The lift equation is where  is the lift in units of lbs or Newtons)  is air density in units of slugs per cubic feet or kilograms per cubic meter  surface area in units of square feet or square meters  is the coefficient of lift which is unitless  is velocity in units of feet per second or meters per second       We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.  Suppose the air density is 0.002378 slugs per cubic feet, surface area is 125 , , and velocity is 84.4 . Calculate the lift.   . Under these circumstances this airfoil can lift 1650 lbs.  If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.   . If nothing else is changed (like velocity), this airfoil can lift (hold in the air) lbs less.     Ideal Gas Law   The ideal gas law is a relationship between the volume, pressure, temperature, and number of molecules of an ideal gas. The relationship is where  is the pressure in units of atmospheres (atm) or Pascals (Pa)  is the volume in units of cubic feet or cubic meters  is the number of moles (number of molecules, see a chemistry text for details)  is a constant specific to each gas (e.g., oxygen and nitrogen have different ones) in units that match the other values  is the temperature in degrees Rankine or Kelvin (these are shifted versions of Fahrenheit and Celsius).   When the number of molecules remains fixed, such as in a closed container, this law can be used to produce the equation where  , , and are the initial pressure, volume, and temperature, and  , , and are the pressure, volume, and temperature at another time.   Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant which is looked up in reference books.  For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.     Suppose the initial conditions are , , and . Also and . Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding. .  If instead , then we have the following.        Calculating Results Requiring Solving  The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.  It does not matter if the value we desire is by itself, we can solve using arithmetic.   Recall the model for lift . Suppose we know the weight of the aircraft ( lbs), density of air ( ), wing surface area ( ), and velocity ( ). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.    The desired value from the model may be in a denominator. We can solve for this using multiplication and division.   Recall from that under simplifying assumptions Suppose we know the initial conditions ( atm, , F) and also atm and . What must the new temperature ( ) be? This is a science model with measurements, so we will use significant digits rounding.   Note we use significant digits for rounding because this is a science model.   The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.   Solve the equation for . Note, this model is explained in .     Solve the lift equation for .   Notice that the steps are the same algebra as if there were numbers. Also we could divide by and we are not concerned with the square as part of solving for .   Solve the lift equation for .    Process Overview  Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.  Our first task is to read the problem to understand it.  Read the problem description a few times.  If you can paraphrase it, you understand it enough.  Drawing a picture and labeling parts may help.   Identify what we are asked to do.  Identify the information we are given. Note distinctions like measurements and rates.  Identify any units. These often help us set up a model.  Write everything! We do not model in our heads.   Next we write the mathematical model (equation or function).  Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).  Do not insert any numbers yet.  Do not do any calculations yet.   Now we will have a model that matches our situation and possibly some numbers to insert.  Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).  Solve for the desired value. Note it may help to do some calculations with the numbers first.  State your answer and use units appropriately.   Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).    You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.     We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).  We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.  Our model is where is the total cost and is the number of miles.  We know the total cost, which will leaves in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in  . The charge is for 52 miles.     Using math modeling for rental truck                      "
 },
 {
   "id": "model-ohms-law",
@@ -1149,8 +1176,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-1",
   "type": "Exercise",
   "number": "1.3.4.1",
-  "title": "Minimum Grade.",
-  "body": "Minimum Grade "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-2",
@@ -1158,8 +1185,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-2",
   "type": "Exercise",
   "number": "1.3.4.2",
-  "title": "Triangle Properties.",
-  "body": "Triangle Properties "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-3",
@@ -1167,8 +1194,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-3",
   "type": "Exercise",
   "number": "1.3.4.3",
-  "title": "Bike Rental.",
-  "body": "Bike Rental "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-4",
@@ -1176,8 +1203,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-4",
   "type": "Exercise",
   "number": "1.3.4.4",
-  "title": "Pilot Training.",
-  "body": "Pilot Training "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-5",
@@ -1185,8 +1212,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-5",
   "type": "Exercise",
   "number": "1.3.4.5",
-  "title": "Thunder.",
-  "body": "Thunder "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-6",
@@ -1194,8 +1221,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-6",
   "type": "Exercise",
   "number": "1.3.4.6",
-  "title": "Speeding.",
-  "body": "Speeding "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-7",
@@ -1203,8 +1230,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-7",
   "type": "Exercise",
   "number": "1.3.4.7",
-  "title": "Area of Triangle.",
-  "body": "Area of Triangle "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-8",
@@ -1212,8 +1239,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-8",
   "type": "Exercise",
   "number": "1.3.4.8",
-  "title": "Unit cost.",
-  "body": "Unit cost "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-9",
@@ -1221,8 +1248,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-9",
   "type": "Exercise",
   "number": "1.3.4.9",
-  "title": "Paychecks.",
-  "body": "Paychecks "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-10",
@@ -1230,8 +1257,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-10",
   "type": "Exercise",
   "number": "1.3.4.10",
-  "title": "Mixture.",
-  "body": "Mixture "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-11",
@@ -1239,8 +1266,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-11",
   "type": "Exercise",
   "number": "1.3.4.11",
-  "title": "Area of Rectangle.",
-  "body": "Area of Rectangle "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-12",
@@ -1248,8 +1275,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-12",
   "type": "Exercise",
   "number": "1.3.4.12",
-  "title": "Shelving.",
-  "body": "Shelving "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-13",
@@ -1257,8 +1284,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-13",
   "type": "Exercise",
   "number": "1.3.4.13",
-  "title": "Fax Cost.",
-  "body": "Fax Cost "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-models-6-14",
@@ -1266,71 +1293,8 @@ var ptx_lunr_docs = [
   "url": "section-models.html#section-models-6-14",
   "type": "Exercise",
   "number": "1.3.4.14",
-  "title": "Population Decrease.",
-  "body": "Population Decrease "
-},
-{
-  "id": "section-models-6-15",
-  "level": "2",
-  "url": "section-models.html#section-models-6-15",
-  "type": "Exercise",
-  "number": "1.3.4.15",
-  "title": "Sales.",
-  "body": "Sales "
-},
-{
-  "id": "section-models-6-16",
-  "level": "2",
-  "url": "section-models.html#section-models-6-16",
-  "type": "Exercise",
-  "number": "1.3.4.16",
-  "title": "Bookcase.",
-  "body": "Bookcase "
-},
-{
-  "id": "section-models-6-17",
-  "level": "2",
-  "url": "section-models.html#section-models-6-17",
-  "type": "Exercise",
-  "number": "1.3.4.17",
-  "title": "Knitting.",
-  "body": "Knitting "
-},
-{
-  "id": "section-models-6-18",
-  "level": "2",
-  "url": "section-models.html#section-models-6-18",
-  "type": "Exercise",
-  "number": "1.3.4.18",
-  "title": "Rental Cost.",
-  "body": "Rental Cost "
-},
-{
-  "id": "section-models-6-19",
-  "level": "2",
-  "url": "section-models.html#section-models-6-19",
-  "type": "Exercise",
-  "number": "1.3.4.19",
-  "title": "Mixture.",
-  "body": "Mixture "
-},
-{
-  "id": "section-models-6-20",
-  "level": "2",
-  "url": "section-models.html#section-models-6-20",
-  "type": "Exercise",
-  "number": "1.3.4.20",
-  "title": "Mixture.",
-  "body": "Mixture "
-},
-{
-  "id": "section-models-6-21",
-  "level": "2",
-  "url": "section-models.html#section-models-6-21",
-  "type": "Exercise",
-  "number": "1.3.4.21",
-  "title": "Wire Cutting.",
-  "body": "Wire Cutting "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-activity-literal-formula",
@@ -1366,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Percents",
-  "body": " Percents   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.  We will learn how to calculate a percent ( , ), how to convert between percents and the numbers (also , ), how to describe growth in terms of percents ( , ), and how to recognize what a percent does and cannot tell us ( , ).    Calculating Percents   Percent  A percent is a ratio of part of something to the whole of that thing that is written as parts per hundred.    Calculate a Percent   In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as . This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.  Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.     Generally, we calculate a percent by    In the class there are 34 students. Of them 13 are male. The percent is calculated as   Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.   In the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.  Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.   In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?  We use the same setup as before, but we do not know the part yet.  Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.  We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.     Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.   In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?  Again we use the same setup, but we do not yet know the whole.    How to Use an Example: Percents  Consider the following question.  If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?  Because we see 2% we recognize this as a percent problem. Without more information we can begin writing. In the first step is writing the definition of percent. In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case . Thus the next step is In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the entire book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable. Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills. Thus we know the entire book has 900 pages.    In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.   This video covers the topics above.     Percent Increase\/Decrease  A common use of percents is to indicate how much something has increased (or decreased) from one time to the next. In these cases the part is the amount changed and the whole is the original amount.   In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.  This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22. .    We say that the class size had a percent increase of 55%. Note this says the increase was 55% of the previous whole .  We can think of this in another way.    In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?  We calculate the percentage the fall class size is with respect to the spring class size. .  Because the fall class size (in the role of part ) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.  Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.       What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.  Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. . Thus the percent decrease is .  As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is . Because the new enrollment is 49% of the previous enrollment the decrease is 100%-49%=51%.    For percent increase problems it may seem fastest to calculate new\/old-100% whereas for percent decrease problems it may seem most effective to calculate (new-old)\/old. The methods perform the same calculation, so you may choose the one with which you make the correct calculation the most frequently.   The following example starts with the percent increase information, and determines the original amount.   This year's sales increased 3% over last year's sales. If total sales this year were $576,211, how much were last year's sales?  We can use the usual part\/whole definition. It is important to place our information in the correct locations. We are given a percent increase, so we will want to calculate the percent. This is . The amount we are given (this year) is the part; we want to calculate the whole.   If we want to know what amount constituted the 3% increase of the previous year, we can now calculate that as the difference. $576,211 $559,428.16=$16,782.84. We can confirm it is 3% by dividing or 3% when rounded. Notice we needed to compare to the previous year's amount which was not given.   This video covers percent increase topics.     Limitations  We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.   Which of the following do you suppose represents a greater reduction in students?     Percent reduction  Total  18%  495  1.85%  54  60%  5         Percent reduction  Total  Number reduced  18%  495  90  1.85%  54  1  60%  5  3   The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.  Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?    While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.   contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.  When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.    Declared Race in Alaska     Race  Percent  Alaska Native\/Native American  21.9%  Native Hawaiian\/Pacific Islander  2.5%  Asian  8.4%  Black  40.8%  White  70.4%  Other  5.4%       Questions about the definition, terminology, and notation.  Decimal to Percentage  Fraction to Percentage  Percent of Whole    Use percentages in various settings.  Application of Percent  Percent of Whole  Use Percent to Calculate Total  Calculate Original from Percent  Calculate Whole from Part and Percent  Percent Decrease  Percents as Fractions  Percents as Fractions  Percents as Fractions  Percents as Fractions  Percents as Fractions  Percents as Fractions  Repeated Percents  Percent Increase or Decrease     Add problems asking students if the total should be 100% or greater.  Add problems asking students which percent and which amount are larger.   Dummy entry    "
+  "body": " Percents   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.  We will learn how to calculate a percent ( , ), how to convert between percents and the numbers (also , ), how to describe growth in terms of percents ( , ), and how to recognize what a percent does and cannot tell us ( , ).    Calculating Percents   Percent  A percent is a ratio of part of something to the whole of that thing that is written as parts per hundred.    Calculate a Percent   In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as . This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.  Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.     Generally, we calculate a percent by    In the class there are 34 students. Of them 13 are male. The percent is calculated as   Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.   In the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.  Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.   In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?  We use the same setup as before, but we do not know the part yet.  Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.  We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.     Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.   In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?  Again we use the same setup, but we do not yet know the whole.    How to Use an Example: Percents  Consider the following question.  If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?  Because we see 2% we recognize this as a percent problem. Without more information we can begin writing. In the first step is writing the definition of percent. In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case . Thus the next step is In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the entire book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable. Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills. Thus we know the entire book has 900 pages.    In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.   This video covers the topics above.     Percent Increase\/Decrease  A common use of percents is to indicate how much something has increased (or decreased) from one time to the next. In these cases the part is the amount changed and the whole is the original amount.   In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.  This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22. .    We say that the class size had a percent increase of 55%. Note this says the increase was 55% of the previous whole .  We can think of this in another way.    In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?  We calculate the percentage the fall class size is with respect to the spring class size. .  Because the fall class size (in the role of part ) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.  Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.       What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.  Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. . Thus the percent decrease is .  As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is . Because the new enrollment is 49% of the previous enrollment the decrease is 100%-49%=51%.    For percent increase problems it may seem fastest to calculate new\/old-100% whereas for percent decrease problems it may seem most effective to calculate (new-old)\/old. The methods perform the same calculation, so you may choose the one with which you make the correct calculation the most frequently.   The following example starts with the percent increase information, and determines the original amount.   This year's sales increased 3% over last year's sales. If total sales this year were $576,211, how much were last year's sales?  We can use the usual part\/whole definition. It is important to place our information in the correct locations. We are given a percent increase, so we will want to calculate the percent. This is . The amount we are given (this year) is the part; we want to calculate the whole.   If we want to know what amount constituted the 3% increase of the previous year, we can now calculate that as the difference. $576,211 $559,428.16=$16,782.84. We can confirm it is 3% by dividing or 3% when rounded. Notice we needed to compare to the previous year's amount which was not given.   This video covers percent increase topics.     Limitations  We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.   Which of the following do you suppose represents a greater reduction in students?     Percent reduction  Total  18%  495  1.85%  54  60%  5         Percent reduction  Total  Number reduced  18%  495  90  1.85%  54  1  60%  5  3   The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.  Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?    While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.   contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.  When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.    Declared Race in Alaska     Race  Percent  Alaska Native\/Native American  21.9%  Native Hawaiian\/Pacific Islander  2.5%  Asian  8.4%  Black  40.8%  White  70.4%  Other  5.4%       Questions about the definition, terminology, and notation.       Use percentages in various settings.                      Check your understanding of percents on these quantitative literacy questions.          "
 },
 {
   "id": "definition-percent",
@@ -1545,8 +1509,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-1-2",
   "type": "Exercise",
   "number": "2.1.4.1",
-  "title": "Decimal to Percentage.",
-  "body": "Decimal to Percentage "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-1-3",
@@ -1554,8 +1518,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-1-3",
   "type": "Exercise",
   "number": "2.1.4.2",
-  "title": "Fraction to Percentage.",
-  "body": "Fraction to Percentage "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-1-4",
@@ -1563,8 +1527,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-1-4",
   "type": "Exercise",
   "number": "2.1.4.3",
-  "title": "Percent of Whole.",
-  "body": "Percent of Whole "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-2",
@@ -1572,8 +1536,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-2",
   "type": "Exercise",
   "number": "2.1.4.4",
-  "title": "Application of Percent.",
-  "body": "Application of Percent "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-3",
@@ -1581,8 +1545,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-3",
   "type": "Exercise",
   "number": "2.1.4.5",
-  "title": "Percent of Whole.",
-  "body": "Percent of Whole "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-4",
@@ -1590,8 +1554,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-4",
   "type": "Exercise",
   "number": "2.1.4.6",
-  "title": "Use Percent to Calculate Total.",
-  "body": "Use Percent to Calculate Total "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-5",
@@ -1599,8 +1563,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-5",
   "type": "Exercise",
   "number": "2.1.4.7",
-  "title": "Calculate Original from Percent.",
-  "body": "Calculate Original from Percent "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-6",
@@ -1608,8 +1572,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-6",
   "type": "Exercise",
   "number": "2.1.4.8",
-  "title": "Calculate Whole from Part and Percent.",
-  "body": "Calculate Whole from Part and Percent "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-7",
@@ -1617,8 +1581,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-7",
   "type": "Exercise",
   "number": "2.1.4.9",
-  "title": "Percent Decrease.",
-  "body": "Percent Decrease "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-8",
@@ -1626,8 +1590,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-8",
   "type": "Exercise",
   "number": "2.1.4.10",
-  "title": "Percents as Fractions.",
-  "body": "Percents as Fractions "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-9",
@@ -1635,8 +1599,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-9",
   "type": "Exercise",
   "number": "2.1.4.11",
-  "title": "Percents as Fractions.",
-  "body": "Percents as Fractions "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-10",
@@ -1644,8 +1608,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-10",
   "type": "Exercise",
   "number": "2.1.4.12",
-  "title": "Percents as Fractions.",
-  "body": "Percents as Fractions "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-11",
@@ -1653,8 +1617,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-11",
   "type": "Exercise",
   "number": "2.1.4.13",
-  "title": "Percents as Fractions.",
-  "body": "Percents as Fractions "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-12",
@@ -1662,8 +1626,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-12",
   "type": "Exercise",
   "number": "2.1.4.14",
-  "title": "Percents as Fractions.",
-  "body": "Percents as Fractions "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-13",
@@ -1671,8 +1635,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-13",
   "type": "Exercise",
   "number": "2.1.4.15",
-  "title": "Percents as Fractions.",
-  "body": "Percents as Fractions "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-14",
@@ -1680,8 +1644,8 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-14",
   "type": "Exercise",
   "number": "2.1.4.16",
-  "title": "Repeated Percents.",
-  "body": "Repeated Percents "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-2-15",
@@ -1689,17 +1653,80 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-2-15",
   "type": "Exercise",
   "number": "2.1.4.17",
-  "title": "Percent Increase or Decrease.",
-  "body": "Percent Increase or Decrease "
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-2-16",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-2-16",
+  "type": "Exercise",
+  "number": "2.1.4.18",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-2-17",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-2-17",
+  "type": "Exercise",
+  "number": "2.1.4.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-2-18",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-2-18",
+  "type": "Exercise",
+  "number": "2.1.4.20",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-percent-6-3-2",
   "level": "2",
   "url": "section-percent.html#section-percent-6-3-2",
   "type": "Exercise",
-  "number": "2.1.4.18",
-  "title": "Dummy entry.",
-  "body": "Dummy entry "
+  "number": "2.1.4.21",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-3-3",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-3-3",
+  "type": "Exercise",
+  "number": "2.1.4.22",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-3-4",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-3-4",
+  "type": "Exercise",
+  "number": "2.1.4.23",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-3-5",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-3-5",
+  "type": "Exercise",
+  "number": "2.1.4.24",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-3-6",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-3-6",
+  "type": "Exercise",
+  "number": "2.1.4.25",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture",
@@ -1708,7 +1735,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Mixtures",
-  "body": " Mixtures   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    This section continues the topic of percents through a set of applications.  There are many situations where we desire to mix two or more substances together in precise ratio. These include mixing medicines in substances (like water) and mixing ingredients in a recipe. This section presents how to calculate the ratio of substances after mixing multiple solutions, and the reverse problem how to calculate the amount of each solution to mix for a desired ratio of substances.    Calculate the Result   In some circumstances we know the concentrations of substances in multiple solutions and how much of each has been combined. From this we can calculate the concentration of substances in the resulting solution.    Mix Multiple Solutions  The first mixture problem we consider is calculating the result of mixing two, known solutions.   Suppose we have a container with a solution of sugar water that is 22% sugar and another container with a solution of sugar water that is 16% sugar. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent of sugar in the resulting solution? Round the percent to two decimal places.  To calculate a percent we need the amount of the part and the amount of the whole. We are told the total amount of each solution we are using, so we can calculate the whole (total amount of resulting solution) directly. Because they have the same units we can add. .  We cannot simply add the amounts of sugar from each because we are told the percent rather than the amount. However, we know how to convert a percent and total amount to an amount of the part. We did this in . . .  Finally we can calculate the percent of sugar in the resulting mixture using the defintion of percent. The percent of sugar in the resulting mixture is .    Suppose we have 11.3 lbs of 4140 steel which is a type of steel containing 40% carbon and 9.2 lbs of 4150 steel which contains 50% carbon. If we melt and mix these two metals, what is the resulting percent carbon? Round the final percent to two decimal places.  To calculate a percent we need the amount of the part and the total amount. We can calculate the total directly: . Note we know we can add these because both represented total amounts and they have the same units (g).  To calculate the part we need to know how much (rather than what percent) carbon was obtained from the two metals. We can calculate that from the given percents and amounts. Thus the percent of carbon in the resulting metal is .      Dilute a Solution  This section presents a slight variation of the mixture calculation problem. In this case we are adding only water resulting in diluting the solution.   Dilute Alcohol  91% isopropyl alcohol is not a good agtent for sanitzing because it evaporates so quickly that bacteria are not exposed long enough to die. As a result we want to dilute it before use. Suppose we begin with 16.0 oz of a 91.0% isopropyl alcohol and add 4.00 oz of water to this mixture. What will the percent alcohol of the resulting solution be? These are measurements, so we will round using significant digits.  We know we can calculate the percent alcohol by dividing the amount of alcohol (part) by the total amount. We also know that we are not increasing the amount of alcohol (adding only water), so we can use the original percent alcohol and original amount to calculate the amount of alcohol. .  We are adding 4.00 oz total to the original solution, thus the volume of the resulting solution is .  Now that we know the part and the whole we can calculate the resulting percent alcohol. .   If we added more water would the percent alcohol be greater or less? If we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.      Producing a Desired Solution  In the previous section we calculated the result of mixing two solutions. In this section the goal is to figure out how much water to add to achieve a specific concentration. That is, the previous section calculated in this section we solve.   Calcluate Dilution  If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to obtain (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.  The concentration (55.0%) is the primary goal here rather than the resulting amount (25.0 oz), because we need at least that amount: more is okay. As a result we will set up our calculation based on the desired percent alcohol.  This is a percent problem with the total alcohol unchanged and adding only some amount of water. This matches the previous example, except that we are calculating the amount to add and know the resulting percent. However, we can write essentially the same equation. where is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.  Because all of the alcohol comes from the initial solution, we can calculate the amount of alcohol in the same way as before. . Thus we setup  This means that to obtain a solution with 55.0% alcohol, we need to add 10 oz of water.  We end up with of new solution. Because we have at least the 25 oz we need, and it is the correct concentration, we have achieved our goal. If we had added less water to get exactly 25 oz we would have had a more concentrated solution than desired.  Also note that the percent alcohol is or 56%. This is not exactly 55% because of the rounding in the calculations. If we needed it to be closer to 55%, we would need to be able to measure more precisely.       Mixture  Mixture  Medical Proportion  Medical Proportion  Medical Ratio  Medical Proportion  Percent Concentration  Dilution Ratio  Dilution Ratio  Dilution Ratio  Dilution Ratio   "
+  "body": " Mixtures   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    This section continues the topic of percents through a set of applications.  There are many situations where we desire to mix two or more substances together in precise ratio. These include mixing medicines in substances (like water) and mixing ingredients in a recipe. This section presents how to calculate the ratio of substances after mixing multiple solutions, and the reverse problem how to calculate the amount of each solution to mix for a desired ratio of substances.    Calculate the Result   In some circumstances we know the concentrations of substances in multiple solutions and how much of each has been combined. From this we can calculate the concentration of substances in the resulting solution.    Mix Multiple Solutions  The first mixture problem we consider is calculating the result of mixing two, known solutions.   Suppose we have a container with a solution of sugar water that is 22% sugar and another container with a solution of sugar water that is 16% sugar. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent of sugar in the resulting solution? Round the percent to two decimal places.  To calculate a percent we need the amount of the part and the amount of the whole. We are told the total amount of each solution we are using, so we can calculate the whole (total amount of resulting solution) directly. Because they have the same units we can add. .  We cannot simply add the amounts of sugar from each because we are told the percent rather than the amount. However, we know how to convert a percent and total amount to an amount of the part. We did this in . . .  Finally we can calculate the percent of sugar in the resulting mixture using the defintion of percent. The percent of sugar in the resulting mixture is .    Suppose we have 11.3 lbs of 4140 steel which is a type of steel containing 40% carbon and 9.2 lbs of 4150 steel which contains 50% carbon. If we melt and mix these two metals, what is the resulting percent carbon? Round the final percent to two decimal places.  To calculate a percent we need the amount of the part and the total amount. We can calculate the total directly: . Note we know we can add these because both represented total amounts and they have the same units (g).  To calculate the part we need to know how much (rather than what percent) carbon was obtained from the two metals. We can calculate that from the given percents and amounts. Thus the percent of carbon in the resulting metal is .      Dilute a Solution  This section presents a slight variation of the mixture calculation problem. In this case we are adding only water resulting in diluting the solution.   Dilute Alcohol  91% isopropyl alcohol is not a good agtent for sanitzing because it evaporates so quickly that bacteria are not exposed long enough to die. As a result we want to dilute it before use. Suppose we begin with 16.0 oz of a 91.0% isopropyl alcohol and add 4.00 oz of water to this mixture. What will the percent alcohol of the resulting solution be? These are measurements, so we will round using significant digits.  We know we can calculate the percent alcohol by dividing the amount of alcohol (part) by the total amount. We also know that we are not increasing the amount of alcohol (adding only water), so we can use the original percent alcohol and original amount to calculate the amount of alcohol. .  We are adding 4.00 oz total to the original solution, thus the volume of the resulting solution is .  Now that we know the part and the whole we can calculate the resulting percent alcohol. .   If we added more water would the percent alcohol be greater or less? If we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.      Producing a Desired Solution  In the previous section we calculated the result of mixing two solutions. In this section the goal is to figure out how much water to add to achieve a specific concentration. That is, the previous section calculated in this section we solve.   Calcluate Dilution  If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to obtain (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.  The concentration (55.0%) is the primary goal here rather than the resulting amount (25.0 oz), because we need at least that amount: more is okay. As a result we will set up our calculation based on the desired percent alcohol.  This is a percent problem with the total alcohol unchanged and adding only some amount of water. This matches the previous example, except that we are calculating the amount to add and know the resulting percent. However, we can write essentially the same equation. where is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.  Because all of the alcohol comes from the initial solution, we can calculate the amount of alcohol in the same way as before. . Thus we setup  This means that to obtain a solution with 55.0% alcohol, we need to add 10 oz of water.  We end up with of new solution. Because we have at least the 25 oz we need, and it is the correct concentration, we have achieved our goal. If we had added less water to get exactly 25 oz we would have had a more concentrated solution than desired.  Also note that the percent alcohol is or 56%. This is not exactly 55% because of the rounding in the calculations. If we needed it to be closer to 55%, we would need to be able to measure more precisely.                    "
 },
 {
   "id": "example-percent-mixture-sugar",
@@ -1779,8 +1806,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-1",
   "type": "Exercise",
   "number": "2.2.3.1",
-  "title": "Mixture.",
-  "body": "Mixture "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-2",
@@ -1788,8 +1815,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-2",
   "type": "Exercise",
   "number": "2.2.3.2",
-  "title": "Mixture.",
-  "body": "Mixture "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-3",
@@ -1797,8 +1824,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-3",
   "type": "Exercise",
   "number": "2.2.3.3",
-  "title": "Medical Proportion.",
-  "body": "Medical Proportion "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-4",
@@ -1806,8 +1833,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-4",
   "type": "Exercise",
   "number": "2.2.3.4",
-  "title": "Medical Proportion.",
-  "body": "Medical Proportion "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-5",
@@ -1815,8 +1842,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-5",
   "type": "Exercise",
   "number": "2.2.3.5",
-  "title": "Medical Ratio.",
-  "body": "Medical Ratio "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-6",
@@ -1824,8 +1851,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-6",
   "type": "Exercise",
   "number": "2.2.3.6",
-  "title": "Medical Proportion.",
-  "body": "Medical Proportion "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-7",
@@ -1833,8 +1860,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-7",
   "type": "Exercise",
   "number": "2.2.3.7",
-  "title": "Percent Concentration.",
-  "body": "Percent Concentration "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-8",
@@ -1842,8 +1869,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-8",
   "type": "Exercise",
   "number": "2.2.3.8",
-  "title": "Dilution Ratio.",
-  "body": "Dilution Ratio "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-9",
@@ -1851,8 +1878,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-9",
   "type": "Exercise",
   "number": "2.2.3.9",
-  "title": "Dilution Ratio.",
-  "body": "Dilution Ratio "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-10",
@@ -1860,8 +1887,8 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-10",
   "type": "Exercise",
   "number": "2.2.3.10",
-  "title": "Dilution Ratio.",
-  "body": "Dilution Ratio "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-mixture-5-11",
@@ -1869,8 +1896,17 @@ var ptx_lunr_docs = [
   "url": "section-mixture.html#section-mixture-5-11",
   "type": "Exercise",
   "number": "2.2.3.11",
-  "title": "Dilution Ratio.",
-  "body": "Dilution Ratio "
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-mixture-5-12",
+  "level": "2",
+  "url": "section-mixture.html#section-mixture-5-12",
+  "type": "Exercise",
+  "number": "2.2.3.12",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-ratios",
@@ -1879,7 +1915,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Ratios",
-  "body": " Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    A ratio expresses a fixed relationship between two quantities. This section illustrates using ratios to calculate amounts subject to a ratio and presents how to recognize what a ratio does and cannot tell us. Note, percents are simply ratios scaled to parts per 100, that is, what we know about percents is applicable here.    Example Ratios   Simple syrup consists of one cup of sugar and one cup of water which is heated until the sugar is disolved. There are multiple ratios that express this combination. , ratio of sugar to water by weight, ratio of sugar to simple syrup.  Each of these ratios indicates that there is a fixed amount of sugar relative to the water or resulting syrup. That is, is if we made simple syrup with 2 cups of sugar we would need 2 cups of water because by reducing fractions.    In a neighborhood there are 7 dogs and 12 cats. To express the relative number dogs and cats we can write the ratio  Note that . Because it is less than one the ratio tells us that there are fewer dogs than cats in this neighborhood.  We could also write to express the exact same relationship. Note that . Because it is greater than one the ratio tells us that there are more cats than dogs in the neighborhood (same result as above).    Rates are expressed as ratios. The following rates are all written as ratios.  Notice that these (and most rates) are expressed with the denominator being one. This makes it easier to calculate as will be seen below. Frequently we will skip writing the one in the denominator, e.g., .  Rates are not required to have a denominator of one and sometimes a different denominator is easier for calculation. For example     Using Ratios  Just like percents (which are ratios written in decimal form) if we know a ratio and one of the amounts we can calculate the other amount. The method is the same as with percents, namely multiplying the correct number or solving an equation.   Ratio: Airspeed  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?  We notice that the speed units (nautical miles per hour) match with the hours. If the speed and time are multiplied we will end up with a distance. Thus the units suggest we can multiply. .   There is another approach to the same question.   Ratio: Airspeed by Table  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . How far can the plane cruise in 2.5 hours?  Because this ratio remains the same during cruise we can break the problem down into pieces. Based on the ratio (speed) in the first hour the plane will fly 110 nm. In the second hour it will fly another 110 nm. In the last half hour it will fly half of the distance which is nm. Thus in 2.5 hours it will fly nm.  Some manuals provide tables to make this method convenient. See for a table of this sort. How far can the DA-20 cruise in 2.7 hours? We need to write 2.7 as the sum of numbers in the table. One way is . From the table we know it will fly 220 nm in 2 hours, 55 nm in an additional 0.5 hours, and 22 nm in the final 0.2 hours. Thus it will fly nm.  While this method makes sense, it is less efficient than simply multiplying as in the previous example.    Airspeed and Distance     Time Distance  0.1 hour 11 nm  0.2 hour 22 nm  0.3 hour 33 nm  0.4 hour 44 nm  0.5 hour 55 nm  1 hour 110 nm  2 hour 220 nm  3 hour 330 nm     Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?  We can set this up like the calculation in . In that example multiplied the ratio (nm\/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal\/min) by the number of minutes which will give us gallons. .    Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.0020 liters how much mercury is consumed?  We can use the ratio . We apply this ratio to the given volume of 0.0020 liters.     The method for ratios that have a number other than one in the denominator is the same.   A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of this saline solution? Your scale is precise to a gram. Round appropriately.  We can apply the given ratio (2.5 g\/240 mL) to the given amount (0.5 L). First it will be convenient to convert a half liter to milliliters. This is also a ratio problem. See for the conversion ratio. The units suggest that we can multiply the saline solution ratio by the desired volume. . We round to units, because we cannot measure more precisely.    At 90 nm\/hr a plane travels 3 nm\/2 min. How far will it travel in 6 minutes?  We can multiply the given ratio (nm\/hr) by the given amount (min) to calculate distance (nm).      Understanding Ratios  Like percents ratios tell us a relationship between two quantities but do not tell us how much. For example if a cookie recipe calls for 2 cups of milk for every 3 eggs, we do not know how many eggs are needed for a dozen cookies. We would also need to know either how many cups of milk per dozen or how many eggs per dozen.  Ratios may be based on rounded numbers. For example the unit convesion is convenient for quick calculations. However, which is a more accurate conversion rate. If we are trying to convert Tempo 30 (a speed limit of 30 kph) to mph this ratio is fine. If we are sending a satellite to another planet, we will need a more accurate conversion.  Rounding may occur to make the ratio easier to comprehend. For example according to an article by the U.S. Census Bureau 1 in 6 people in the U.S. was aged 65 and over. Because this ratio uses small numbers it is easy to understand. It is much easier to read and use than a more precise estimate of .                   Add some about interpreting ratios here.   "
+  "body": " Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    A ratio expresses a fixed relationship between two quantities. This section illustrates using ratios to calculate amounts subject to a ratio and presents how to recognize what a ratio does and cannot tell us. Note, percents are simply ratios scaled to parts per 100, that is, what we know about percents is applicable here.    Example Ratios   Simple syrup consists of one cup of sugar and one cup of water which is heated until the sugar is disolved. There are multiple ratios that express this combination. , ratio of sugar to water by weight, ratio of sugar to simple syrup.  Each of these ratios indicates that there is a fixed amount of sugar relative to the water or resulting syrup. That is, is if we made simple syrup with 2 cups of sugar we would need 2 cups of water because by reducing fractions.    In a neighborhood there are 7 dogs and 12 cats. To express the relative number dogs and cats we can write the ratio  Note that . Because it is less than one the ratio tells us that there are fewer dogs than cats in this neighborhood.  We could also write to express the exact same relationship. Note that . Because it is greater than one the ratio tells us that there are more cats than dogs in the neighborhood (same result as above).    Rates are expressed as ratios. The following rates are all written as ratios.  Notice that these (and most rates) are expressed with the denominator being one. This makes it easier to calculate as will be seen below. Frequently we will skip writing the one in the denominator, e.g., .  Rates are not required to have a denominator of one and sometimes a different denominator is easier for calculation. For example     Using Ratios  Just like percents (which are ratios written in decimal form) if we know a ratio and one of the amounts we can calculate the other amount. The method is the same as with percents, namely multiplying the correct number or solving an equation.   Ratio: Airspeed  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?  We notice that the speed units (nautical miles per hour) match with the hours. If the speed and time are multiplied we will end up with a distance. Thus the units suggest we can multiply. .   There is another approach to the same question.   Ratio: Airspeed by Table  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . How far can the plane cruise in 2.5 hours?  Because this ratio remains the same during cruise we can break the problem down into pieces. Based on the ratio (speed) in the first hour the plane will fly 110 nm. In the second hour it will fly another 110 nm. In the last half hour it will fly half of the distance which is nm. Thus in 2.5 hours it will fly nm.  Some manuals provide tables to make this method convenient. See for a table of this sort. How far can the DA-20 cruise in 2.7 hours? We need to write 2.7 as the sum of numbers in the table. One way is . From the table we know it will fly 220 nm in 2 hours, 55 nm in an additional 0.5 hours, and 22 nm in the final 0.2 hours. Thus it will fly nm.  While this method makes sense, it is less efficient than simply multiplying as in the previous example.    Airspeed and Distance     Time Distance  0.1 hour 11 nm  0.2 hour 22 nm  0.3 hour 33 nm  0.4 hour 44 nm  0.5 hour 55 nm  1 hour 110 nm  2 hour 220 nm  3 hour 330 nm     Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?  We can set this up like the calculation in . In that example multiplied the ratio (nm\/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal\/min) by the number of minutes which will give us gallons. .    Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.0020 liters how much mercury is consumed?  We can use the ratio . We apply this ratio to the given volume of 0.0020 liters.     The method for ratios that have a number other than one in the denominator is the same.   A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of this saline solution? Your scale is precise to a gram. Round appropriately.  We can apply the given ratio (2.5 g\/240 mL) to the given amount (0.5 L). First it will be convenient to convert a half liter to milliliters. This is also a ratio problem. See for the conversion ratio. The units suggest that we can multiply the saline solution ratio by the desired volume. . We round to units, because we cannot measure more precisely.    At 90 nm\/hr a plane travels 3 nm\/2 min. How far will it travel in 6 minutes?  We can multiply the given ratio (nm\/hr) by the given amount (min) to calculate distance (nm).      Understanding Ratios  Like percents ratios tell us a relationship between two quantities but do not tell us how much. For example if a cookie recipe calls for 2 cups of milk for every 3 eggs, we do not know how many eggs are needed for a dozen cookies. We would also need to know either how many cups of milk per dozen or how many eggs per dozen.  Ratios may be based on rounded numbers. For example the unit convesion is convenient for quick calculations. However, which is a more accurate conversion rate. If we are trying to convert Tempo 30 (a speed limit of 30 kph) to mph this ratio is fine. If we are sending a satellite to another planet, we will need a more accurate conversion.  Rounding may occur to make the ratio easier to comprehend. For example according to an article by the U.S. Census Bureau 1 in 6 people in the U.S. was aged 65 and over. Because this ratio uses small numbers it is easy to understand. It is much easier to read and use than a more precise estimate of .     Writing Ratios        Ratios in Contexts          Using Ratios in Contexts        Add some about interpreting ratios here.   "
 },
 {
   "id": "example-ratio-simple-syrup",
@@ -1990,29 +2026,137 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-ratios-6-1",
+  "id": "section-ratios-6-1-2",
   "level": "2",
-  "url": "section-ratios.html#section-ratios-6-1",
+  "url": "section-ratios.html#section-ratios-6-1-2",
   "type": "Exercise",
   "number": "2.3.4.1",
   "title": "",
   "body": ""
 },
 {
-  "id": "section-ratios-6-2",
+  "id": "section-ratios-6-1-3",
   "level": "2",
-  "url": "section-ratios.html#section-ratios-6-2",
+  "url": "section-ratios.html#section-ratios-6-1-3",
   "type": "Exercise",
   "number": "2.3.4.2",
   "title": "",
   "body": ""
 },
 {
-  "id": "section-ratios-6-3",
+  "id": "section-ratios-6-1-4",
   "level": "2",
-  "url": "section-ratios.html#section-ratios-6-3",
+  "url": "section-ratios.html#section-ratios-6-1-4",
   "type": "Exercise",
   "number": "2.3.4.3",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-1-5",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-1-5",
+  "type": "Exercise",
+  "number": "2.3.4.4",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-2-2",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-2-2",
+  "type": "Exercise",
+  "number": "2.3.4.5",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-2-3",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-2-3",
+  "type": "Exercise",
+  "number": "2.3.4.6",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-2-4",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-2-4",
+  "type": "Exercise",
+  "number": "2.3.4.7",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-2-5",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-2-5",
+  "type": "Exercise",
+  "number": "2.3.4.8",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-2-6",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-2-6",
+  "type": "Exercise",
+  "number": "2.3.4.9",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-2-7",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-2-7",
+  "type": "Exercise",
+  "number": "2.3.4.10",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-3-2",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-3-2",
+  "type": "Exercise",
+  "number": "2.3.4.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-3-3",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-3-3",
+  "type": "Exercise",
+  "number": "2.3.4.12",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-3-4",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-3-4",
+  "type": "Exercise",
+  "number": "2.3.4.13",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-3-5",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-3-5",
+  "type": "Exercise",
+  "number": "2.3.4.14",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-ratios-6-3-6",
+  "level": "2",
+  "url": "section-ratios.html#section-ratios-6-3-6",
+  "type": "Exercise",
+  "number": "2.3.4.15",
   "title": "",
   "body": ""
 },
@@ -2020,114 +2164,6 @@ var ptx_lunr_docs = [
   "id": "section-ratios-6-4",
   "level": "2",
   "url": "section-ratios.html#section-ratios-6-4",
-  "type": "Exercise",
-  "number": "2.3.4.4",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-5",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-5",
-  "type": "Exercise",
-  "number": "2.3.4.5",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-6",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-6",
-  "type": "Exercise",
-  "number": "2.3.4.6",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-7",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-7",
-  "type": "Exercise",
-  "number": "2.3.4.7",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-8",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-8",
-  "type": "Exercise",
-  "number": "2.3.4.8",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-9",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-9",
-  "type": "Exercise",
-  "number": "2.3.4.9",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-10",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-10",
-  "type": "Exercise",
-  "number": "2.3.4.10",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-11",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-11",
-  "type": "Exercise",
-  "number": "2.3.4.11",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-12",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-12",
-  "type": "Exercise",
-  "number": "2.3.4.12",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-13",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-13",
-  "type": "Exercise",
-  "number": "2.3.4.13",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-14",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-14",
-  "type": "Exercise",
-  "number": "2.3.4.14",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-15",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-15",
-  "type": "Exercise",
-  "number": "2.3.4.15",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-ratios-6-16",
-  "level": "2",
-  "url": "section-ratios.html#section-ratios-6-16",
   "type": "Exercise",
   "number": "2.3.4.16",
   "title": "",
@@ -5758,7 +5794,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Geometric Reasoning 3D",
-  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to determine those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.   Various Prisms              Prisms      Shape  Surface Area  Volume    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.   What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.    Calculate the surface area and volume    Right Triangular Prism     Non-Right Triangular Prism       Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles.  The formula for the area of the side of a cylinder looks like width ( ) times height ( ) which is the formula for area of a rectangle. Indeed if you think about a can (the type that contain paint, soup, or other substances) the label if peeled off is a rectangle. The height of that rectangle is the height of the can and the width of that rectangle is enough to wrap around the can.   What are the total surface area and volume of this slanted cylinder?   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume    sum of surfaces       What is the surface area of this pyramid? This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .    Calculate the volume of this rectangular pyramid.   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).  We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume .    What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.   Cone      Shape  Lateral Surface Area  Volume    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. For the full surface area we add the area of the circle at the bottom of the cone.   Calculate the total surface area and the volume of this cone.   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly. is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base.   What is the surface area of the frustrum of the pyramid in ? The perimeter of the lower base (triangle) is (3 is an exact number here so precision is not changed). The perimeter of the upper base (triangle) is . To calculate the area of the two bases we will need Heron's formula. The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.   For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).     An ice cream cone has the dimensions shown below.    What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is cubic inches.  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is square inches.    A part is produced by drilling a whole into a cylinder as shown below. If the weight of aluminum is what is the total weight of this part? These are precision measurements; round using significant digits.   First, we calculate the volume of the cylinder. It has a radius of . The volume is .  Next, we need to calculate the volume of the hole that is drilled out. That radius is given in mm, so we should convert to cm first. 4.76 mm is 0.476 cm, because there are 10 millimeters per centimeter. It has a radius of . The volume is .  The total volum is .  Finally, we can convert the volume to weight. The units suggest we can multiply, .     Volume Application  Volume Application    Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
+  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to determine those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. If the sides are rectangles, then it is called a right prism . Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.   Various Prisms              Prisms      Shape  Surface Area  Volume    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.   What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.    Calculate the surface area and volume    Right Triangular Prism     Non-Right Triangular Prism       Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume         If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles.  The formula for the area of the side of a cylinder looks like width ( ) times height ( ) which is the formula for area of a rectangle. Indeed if you think about a can (the type that contain paint, soup, or other substances) the label if peeled off is a rectangle. The height of that rectangle is the height of the can and the width of that rectangle is enough to wrap around the can.   What are the total surface area and volume of this slanted cylinder?   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume    sum of surfaces       What is the surface area of this pyramid? This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .    Calculate the volume of this rectangular pyramid.   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).  We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume .    What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.   Cone      Shape  Lateral Surface Area  Volume    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). The volume formula works for all cones. For the full surface area we add the area of the circle at the bottom of the cone.   Calculate the total surface area and the volume of this cone.   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly. is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base.   What is the surface area of the frustrum of the pyramid in ? The perimeter of the lower base (triangle) is (3 is an exact number here so precision is not changed). The perimeter of the upper base (triangle) is . To calculate the area of the two bases we will need Heron's formula. The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values     Calculate Area and Volume of this Frustrum     Frustrum of a Cone      Shape  Lateral Surface Area  Volume         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.   For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.  For the triangles, we have edge lengths and not the height, because it is easier to measure the edges than the middle. For the area we will use Heron's formula.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).     An ice cream cone has the dimensions shown below.    What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is cubic inches.  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is square inches.    A part is produced by drilling a whole into a cylinder as shown below. If the weight of aluminum is what is the total weight of this part? These are precision measurements; round using significant digits.   First, we calculate the volume of the cylinder. It has a radius of . The volume is .  Next, we need to calculate the volume of the hole that is drilled out. That radius is given in mm, so we should convert to cm first. 4.76 mm is 0.476 cm, because there are 10 millimeters per centimeter. It has a radius of . The volume is .  The total volum is .  Finally, we can convert the volume to weight. The units suggest we can multiply, .     Volume Application  Volume Application    Contextless Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Composite Volume  Contextless Volume  Volume Application  Volume Application  Volume Application  Contextless Volume  Volume Application   "
 },
 {
   "id": "subsection-geometric-properties-3d-4",
@@ -6019,7 +6055,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.26",
   "title": "",
-  "body": " What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.  Because we have edge lengths and not the height (it is easier to measure the edges than the middle), we will use Heron's formula for area.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).  "
+  "body": " What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.  For the triangles, we have edge lengths and not the height, because it is easier to measure the edges than the middle. For the area we will use Heron's formula.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).  "
 },
 {
   "id": "example-apply-geometry-ice-cream",
