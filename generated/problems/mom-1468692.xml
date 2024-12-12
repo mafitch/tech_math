@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{x}-{6}{y}={15}</m> </p>
+<p><m>\displaystyle{9}{x}+{y}={75}</m> </p>
 <p>
-  <m>\displaystyle{6}{x}-{3}{y}={66}</m></p>
+  <m>\displaystyle-{5}{x}+{9}{y}=-{99}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({9},-{4}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{1}{x}+-{6}{y}={15}</m></p>
-<p><m>\displaystyle-{1}{x}={15}-{\left(-{6}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{15}-{\left(-{6}{y}\right)}}}{{-{{1}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left({9},-{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{9}{x}+{1}{y}={75}</m></p>
+<p><m>\displaystyle{9}{x}={75}-{\left({1}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{{75}-{\left({1}{y}\right)}}}{{9}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{6}{\left(\frac{{{15}-{\left(-{6}{y}\right)}}}{{-{{1}}}}\right)}+-{3}{y}={66}</m></p>
-<p><m>\displaystyle\frac{{6}}{{-{{1}}}}\cdot{\left({15}\right)}-\frac{{6}}{{-{{1}}}}{\left(-{6}\right)}{y}+-{3}{y}={66}</m></p>
-<p><m>\displaystyle-{90}-{\left(-{36}\right)}{y}+-{3}{y}={66}</m></p>
-<p><m>\displaystyle-{36}{y}+{\left(-{3}\right)}{y}={66}--{90}</m></p>
-<p><m>\displaystyle-{36}{y}+{\left(-{3}\right)}{y}={156}</m></p>
-<p><m>\displaystyle{\left(-{36}+{\left(-{3}\right)}\right)}{y}={156}</m></p>
-<p><m>\displaystyle-{39}{y}={156}</m></p>
-<p><m>\displaystyle{y}=\frac{{156}}{{-{{39}}}}</m></p>
-<p><m>\displaystyle{y}=-{4}</m></p>
+<p><m>\displaystyle-{5}{\left(\frac{{{75}-{\left({1}{y}\right)}}}{{9}}\right)}+{9}{y}=-{99}</m></p>
+<p><m>\displaystyle-\frac{{5}}{{9}}\cdot{\left({75}\right)}--\frac{{5}}{{9}}{\left({1}\right)}{y}+{9}{y}=-{99}</m></p>
+<p><m>\displaystyle-{41.666666666667}-{\left({0.55555555555556}\right)}{y}+{9}{y}=-{99}</m></p>
+<p><m>\displaystyle{0.55555555555556}{y}+{\left({9}\right)}{y}=-{99}--{41.666666666667}</m></p>
+<p><m>\displaystyle{0.55555555555556}{y}+{\left({9}\right)}{y}=-{57.333333333333}</m></p>
+<p><m>\displaystyle{\left({0.55555555555556}+{\left({9}\right)}\right)}{y}=-{57.333333333333}</m></p>
+<p><m>\displaystyle{9.5555555555556}{y}=-{57.333333333333}</m></p>
+<p><m>\displaystyle{y}=-\frac{{57.333333333333}}{{9.5555555555556}}</m></p>
+<p><m>\displaystyle{y}=-{6}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{1}{x}+-{6}{\left(-{4}\right)}={15}</m></p>
-<p><m>\displaystyle-{1}{x}+{\left({24}\right)}={15}</m></p>
-<p><m>\displaystyle-{1}{x}={15}-{\left({24}\right)}</m></p>
-<p><m>\displaystyle-{1}{x}=-{9}</m></p>
-<p><m>\displaystyle{x}=-\frac{{9}}{{-{{1}}}}</m></p>
+<p><m>\displaystyle{9}{x}+{1}{\left(-{6}\right)}={75}</m></p>
+<p><m>\displaystyle{9}{x}+{\left(-{6}\right)}={75}</m></p>
+<p><m>\displaystyle{9}{x}={75}-{\left(-{6}\right)}</m></p>
+<p><m>\displaystyle{9}{x}={81}</m></p>
+<p><m>\displaystyle{x}=\frac{{81}}{{9}}</m></p>
 <p><m>\displaystyle{x}={9}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({9},-{4}\right)}</m>.</p>
+<p>Thus the answer is <m>\displaystyle{\left({9},-{6}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
