@@ -2,7 +2,13 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064821">
 <statement>
 <p>Identify which type of pattern each table is. Continue each pattern, filling in the missing rows.</p>
-<tabular> <row><cell><m>\displaystyle{x}</m></cell><cell><m>\displaystyle{y}</m></cell></row><row><cell>0</cell><cell>3</cell></row><row><cell>1</cell><cell>5</cell></row><row><cell>2</cell><cell>7</cell></row><row><cell>3</cell><cell>9</cell></row><row><cell>4</cell><cell><fillin characters="2" /></cell></row><row><cell>5</cell><cell><fillin characters="2" /></cell></row><row><cell>6</cell><cell>15</cell></row></tabular><p>
+<tabular> <row><cell><m>\displaystyle{x}</m></cell><cell><m>\displaystyle{y}</m></cell></row><row><cell>0</cell><cell>5</cell></row><row><cell>1</cell><cell>10</cell></row><row><cell>2</cell><cell>20</cell></row><row><cell>3</cell><cell>40</cell></row><row><cell>4</cell><cell><fillin characters="2" /></cell></row><row><cell>5</cell><cell><fillin characters="2" /></cell></row><row><cell>6</cell><cell>320</cell></row></tabular><p>
+ is: </p>
+<p><ol style="list-style-type:upper-alpha"><li>Linear</li> 
+<li>Exponential</li> 
+<li>Quadratic</li> 
+</ol></p>
+<tabular> <row><cell><m>\displaystyle{x}</m></cell><cell><m>\displaystyle{y}</m></cell></row><row><cell>0</cell><cell>8</cell></row><row><cell>1</cell><cell>11</cell></row><row><cell>2</cell><cell>14</cell></row><row><cell>3</cell><cell>17</cell></row><row><cell>4</cell><cell><fillin characters="2" /></cell></row><row><cell>5</cell><cell><fillin characters="2" /></cell></row><row><cell>6</cell><cell>26</cell></row></tabular><p>
  is: </p>
 <p><ol style="list-style-type:upper-alpha"><li>Linear</li> 
 <li>Exponential</li> 
@@ -14,17 +20,11 @@
 <li>Exponential</li> 
 <li>Quadratic</li> 
 </ol></p>
-<tabular> <row><cell><m>\displaystyle{x}</m></cell><cell><m>\displaystyle{y}</m></cell></row><row><cell>0</cell><cell>8</cell></row><row><cell>1</cell><cell>16</cell></row><row><cell>2</cell><cell>32</cell></row><row><cell>3</cell><cell>64</cell></row><row><cell>4</cell><cell><fillin characters="2" /></cell></row><row><cell>5</cell><cell><fillin characters="2" /></cell></row><row><cell>6</cell><cell>512</cell></row></tabular><p>
- is: </p>
-<p><ol style="list-style-type:upper-alpha"><li>Linear</li> 
-<li>Exponential</li> 
-<li>Quadratic</li> 
-</ol></p>
 
 
 </statement>
 <solution>
-<p><ul><li>A: Linear</li><li>C: Quadratic</li><li>B: Exponential</li><li>11</li><li>13</li><li>128</li><li>256</li><li>23</li><li>33</li></ul></p>
+<p><ul><li>B: Exponential</li><li>A: Linear</li><li>C: Quadratic</li><li>20</li><li>23</li><li>80</li><li>160</li><li>23</li><li>33</li></ul></p>
 </solution>
 </myopenmath>
 

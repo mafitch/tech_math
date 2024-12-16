@@ -126,6 +126,19 @@
             The increase was <m>5.5 \times 10^6 - 2.2 \times 10^3=3.3 \times 10^3</m> foot pounds.</p>
     </example>
 
+    <fact xml:id="model-total-energy">
+        <title>Potential Energy</title>
+        <statement>
+            <p>Potential energy of an object is given by <me>E=mgh</me> where
+            <ul>
+                <li><m>m</m> is the mass of the object (in pound mass or grams)</li>
+                <li><m>g</m> is the gravitational constant (in feet per seconds squared or meters per second squared)</li>
+                <li><m>h</m> is the height of the object (in feet or meters)</li>
+            </ul></p>
+            <p>Potential energy can be thought of as the energy that was expended to move the object higher that can be regained by letting gravity pull it back down. The height may be calculated as above ground level, or above sea level, or any other reference convenient for a question.</p>
+        </statement>
+    </fact>
+
 </subsection>
 
 <subsection xml:id="subsection-inverse-square" >
@@ -195,5 +208,23 @@
     </example>
 
 </subsection>
+
+<exercises>
+    <exercise>
+        <myopenmath problem="1507973" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="1508959" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="1508999" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="1509078" />
+    </exercise>
+</exercises>
 
 </section>
