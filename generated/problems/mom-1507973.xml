@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1507973">
+<statement>
+<p>Recall that the lift equation is <m>\displaystyle{L}=\frac{{1}}{{2}}\rho{s}{C}_{{L}}{v}^{{2}}</m>.</p>
+<p>Suppose <m>\displaystyle\rho={0.001725}</m>, <m>\displaystyle{s}={279}</m>, and <m>\displaystyle{C}_{{L}}={1.7}</m>. How much does the lift increase if velocity is increased from 33.2 nm/hr to 55.1 nm/hr? <fillin characters="20" /></p>
+
+
+</statement>
+<solution>
+<p><ul><li>2250</li></ul></p><p>The velocity units are in nautical miles per hour which does not match the other units. First, we need to convert.</p>
+<p>
+  <m>\displaystyle{v}_{{1}}={\left({33.2}\frac{\ \text{ nm}}{\text{hr}}\right)}\frac{{{6076}\ \text{ ft}}}{{\text{nm}}}\frac{{\text{hr}}}{{{3600}\ \text{ sec}}}={56.034222222222}</m>.</p>
+<p>
+  <m>\displaystyle{v}_{{2}}={\left({55.1}\frac{\ \text{ nm}}{\text{hr}}\right)}\frac{{{6076}\ \text{ ft}}}{{\text{nm}}}\frac{{\text{hr}}}{{{3600}\ \text{ sec}}}={92.996555555556}</m>.</p>
+<p>Now we can use the lift equation</p>
+<p>
+  <m>\displaystyle{L}_{{1}}=\frac{{1}}{{2}}{\left({0.001725}\right)}{\left({279}\right)}{\left({1.7}\right)}{\left({56.034222222222}^{{2}}\right)}={1284.4550916627}</m>.</p>
+<p>
+  <m>\displaystyle{L}_{{2}}=\frac{{1}}{{2}}{\left({0.001725}\right)}{\left({279}\right)}{\left({1.7}\right)}{\left({92.996555555556}^{{2}}\right)}={3537.9032722809}</m>.</p>
+<p>Thus an increase in 21.9 nm/hr results in an increase of <m>\displaystyle{3537.9032722809}-{1284.4550916627}={2253.4481806182}\approx{2250}</m> lbs.</p>
+</solution>
+</myopenmath>
+

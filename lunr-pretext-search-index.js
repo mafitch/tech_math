@@ -6244,7 +6244,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Quadratics",
-  "body": " Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Read and interpret models (critical thinking)    In we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.  One of comparing different rates is to enable us to enable us to provide more specific statements than slow or fast. Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept Identify rates as linear, quadratic, exponential, or other.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.   Algebraic Notation for Quadratics   Example  Form  Description    ,  Standard    ,  Factored    ,  Convenient     For this class the form we will see the most is where has some meaning in each model.  When reading models quadratics may look a little different. shows examples of equations that are quadratic and some that are not (but might look like it).   Quadratic and Non-quadratic   Quadratic Non-quadratic           Quadratic Models  Now that we know how to recognize models (equations) as quadratic, we will present a few.   Load Factor   The maximum load factor on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is a measure of the force exerted on the aircraft by a maneuver. Maximum load factor is the greatest load factor an aircraft would experience if at the given speed, the aircraft executed a maximum performance maneuver.  Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.     Kinetic Energy   The kinetic energy of an object in motion is given by where  is the energy (in foot pounds or Joules)  is the mass (think weight) of the object (in pound mass or grams)  is the velocity of the object (in feet or meters per second).      What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias, 105 kias? How many g's does it increase between those two speeds? Round to one decimal place.  We use the formula     The increase of 10 kias increased the g's by .    What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.  First, we need to convert the speeds to feet per second. suggests we can multiply.  Now, we can calculate the kinetic energy. The increase was foot pounds.     Inversely Quadratic Relations  has as an example that is not quadratic. Instead varies inversely with the square of . While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.   Quadratic Relation         1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6      Inversely Quadratic Relation         1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200     In the second differences are all 6, so that is quadratic. In contrast in the second differences are all different.   Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.     What force does the earth exert on the moon? The mass of the earth is approximately kg, and the mass of the moon is approximately kg. The average distance between the earth and moon is 382,500 km.  We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is . Using the model     "
+  "body": " Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Read and interpret models (critical thinking)    In we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.  One of comparing different rates is to enable us to enable us to provide more specific statements than slow or fast. Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept Identify rates as linear, quadratic, exponential, or other.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.   Algebraic Notation for Quadratics   Example  Form  Description    ,  Standard    ,  Factored    ,  Convenient     For this class the form we will see the most is where has some meaning in each model.  When reading models quadratics may look a little different. shows examples of equations that are quadratic and some that are not (but might look like it).   Quadratic and Non-quadratic   Quadratic Non-quadratic           Quadratic Models  Now that we know how to recognize models (equations) as quadratic, we will present a few.   Load Factor   The maximum load factor on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is a measure of the force exerted on the aircraft by a maneuver. Maximum load factor is the greatest load factor an aircraft would experience if at the given speed, the aircraft executed a maximum performance maneuver.  Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.     Kinetic Energy   The kinetic energy of an object in motion is given by where  is the energy (in foot pounds or Joules)  is the mass (think weight) of the object (in pound mass or grams)  is the velocity of the object (in feet or meters per second).      What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias, 105 kias? How many g's does it increase between those two speeds? Round to one decimal place.  We use the formula     The increase of 10 kias increased the g's by .    What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.  First, we need to convert the speeds to feet per second. suggests we can multiply.  Now, we can calculate the kinetic energy. The increase was foot pounds.    Potential Energy   Potential energy of an object is given by where  is the mass of the object (in pound mass or grams)  is the gravitational constant (in feet per seconds squared or meters per second squared)  is the height of the object (in feet or meters)   Potential energy can be thought of as the energy that was expended to move the object higher that can be regained by letting gravity pull it back down. The height may be calculated as above ground level, or above sea level, or any other reference convenient for a question.      Inversely Quadratic Relations  has as an example that is not quadratic. Instead varies inversely with the square of . While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.   Quadratic Relation         1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6      Inversely Quadratic Relation         1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200     In the second differences are all 6, so that is quadratic. In contrast in the second differences are all different.   Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.     What force does the earth exert on the moon? The mass of the earth is approximately kg, and the mass of the moon is approximately kg. The average distance between the earth and moon is 382,500 km.  We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is . Using the model           "
 },
 {
   "id": "subsection-quadratic-forms-2",
@@ -6310,11 +6310,20 @@ var ptx_lunr_docs = [
   "body": " What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.  First, we need to convert the speeds to feet per second. suggests we can multiply.  Now, we can calculate the kinetic energy. The increase was foot pounds.  "
 },
 {
+  "id": "model-total-energy",
+  "level": "2",
+  "url": "section-quadratic.html#model-total-energy",
+  "type": "Model",
+  "number": "5.1.7",
+  "title": "Potential Energy.",
+  "body": " Potential Energy   Potential energy of an object is given by where  is the mass of the object (in pound mass or grams)  is the gravitational constant (in feet per seconds squared or meters per second squared)  is the height of the object (in feet or meters)   Potential energy can be thought of as the energy that was expended to move the object higher that can be regained by letting gravity pull it back down. The height may be calculated as above ground level, or above sea level, or any other reference convenient for a question.   "
+},
+{
   "id": "table-square-is-quadratic",
   "level": "2",
   "url": "section-quadratic.html#table-square-is-quadratic",
   "type": "Table",
-  "number": "5.1.7",
+  "number": "5.1.8",
   "title": "Quadratic Relation",
   "body": " Quadratic Relation         1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6    "
 },
@@ -6323,7 +6332,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic.html#table-inverse-square-is-not-quadratic",
   "type": "Table",
-  "number": "5.1.8",
+  "number": "5.1.9",
   "title": "Inversely Quadratic Relation",
   "body": " Inversely Quadratic Relation         1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200    "
 },
@@ -6332,7 +6341,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic.html#model-gravity",
   "type": "Model",
-  "number": "5.1.9",
+  "number": "5.1.10",
   "title": "Gravitational Attraction.",
   "body": " Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.   "
 },
@@ -6341,9 +6350,45 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic.html#example-gravity-earth-moon",
   "type": "Example",
-  "number": "5.1.10",
+  "number": "5.1.11",
   "title": "",
   "body": " What force does the earth exert on the moon? The mass of the earth is approximately kg, and the mass of the moon is approximately kg. The average distance between the earth and moon is 382,500 km.  We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is . Using the model   "
+},
+{
+  "id": "section-quadratic-6-1",
+  "level": "2",
+  "url": "section-quadratic.html#section-quadratic-6-1",
+  "type": "Exercise",
+  "number": "5.1.4.1",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-6-2",
+  "level": "2",
+  "url": "section-quadratic.html#section-quadratic-6-2",
+  "type": "Exercise",
+  "number": "5.1.4.2",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-6-3",
+  "level": "2",
+  "url": "section-quadratic.html#section-quadratic-6-3",
+  "type": "Exercise",
+  "number": "5.1.4.3",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-6-4",
+  "level": "2",
+  "url": "section-quadratic.html#section-quadratic-6-4",
+  "type": "Exercise",
+  "number": "5.1.4.4",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-quadratic-solve",
@@ -6352,7 +6397,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Solving Quadratics",
-  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.    Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Significant Digits beyond Arithmetic  There are significant digits rules for addition\/subtraction and multiplication\/division. We can handle signficant digits with exponents, such as , because this can be interpreted as multiplication. In the case of .  For square roots we rely on mathematics we do not need to present here that indicates we can calculate the square root so that the number of significant digits is maintained. For example     Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ). .     Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Identify all solutions to .  We note that , , .       Use these contextless problems to practice using the quadratic formula.        Answer these questions which involve a quadratic model. Select rounding that is appropriate or as directed.           "
+  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.    Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Significant Digits beyond Arithmetic  There are significant digits rules for addition\/subtraction and multiplication\/division. We can handle signficant digits with exponents, such as , because this can be interpreted as multiplication. In the case of .  For square roots we rely on mathematics we do not need to present here that indicates we can calculate the square root so that the number of significant digits is maintained. For example     Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ). .     Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Identify all solutions to .  We note that , , .       Solving Quadratic Equations  Use these contextless problems to practice using the quadratic formula.        Quadratic Applications  Answer these questions which involve a quadratic model. Select rounding that is appropriate or as directed.         "
 },
 {
   "id": "example-solve-quadratic-inversion",
@@ -6418,20 +6463,11 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-1-2",
-  "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-2",
-  "type": "Exercise",
-  "number": "5.2.3.1",
-  "title": "",
-  "body": ""
-},
-{
   "id": "section-quadratic-solve-5-1-3",
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-3",
   "type": "Exercise",
-  "number": "5.2.3.2",
+  "number": "5.2.3.1",
   "title": "",
   "body": ""
 },
@@ -6440,7 +6476,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-4",
   "type": "Exercise",
-  "number": "5.2.3.3",
+  "number": "5.2.3.2",
   "title": "",
   "body": ""
 },
@@ -6449,16 +6485,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-5",
   "type": "Exercise",
-  "number": "5.2.3.4",
+  "number": "5.2.3.3",
   "title": "",
   "body": ""
 },
 {
-  "id": "section-quadratic-solve-5-2-2",
+  "id": "section-quadratic-solve-5-1-6",
   "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-2",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-1-6",
   "type": "Exercise",
-  "number": "5.2.3.5",
+  "number": "5.2.3.4",
   "title": "",
   "body": ""
 },
@@ -6467,7 +6503,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-3",
   "type": "Exercise",
-  "number": "5.2.3.6",
+  "number": "5.2.3.5",
   "title": "",
   "body": ""
 },
@@ -6476,7 +6512,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-4",
   "type": "Exercise",
-  "number": "5.2.3.7",
+  "number": "5.2.3.6",
   "title": "",
   "body": ""
 },
@@ -6485,7 +6521,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-5",
   "type": "Exercise",
-  "number": "5.2.3.8",
+  "number": "5.2.3.7",
   "title": "",
   "body": ""
 },
@@ -6494,7 +6530,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-6",
   "type": "Exercise",
-  "number": "5.2.3.9",
+  "number": "5.2.3.8",
   "title": "",
   "body": ""
 },
@@ -6503,16 +6539,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-7",
   "type": "Exercise",
-  "number": "5.2.3.10",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-quadratic-solve-5-2-8",
-  "level": "2",
-  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-8",
-  "type": "Exercise",
-  "number": "5.2.3.11",
+  "number": "5.2.3.9",
   "title": "",
   "body": ""
 },
@@ -6568,7 +6595,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Graphs of Quadratics",
-  "body": " Graphs of Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section will introduce the graph (shape) of quadratic equations, illustrate all the variations that are possible, and demonstrate how these can be used to answer questions.    Properties of Quadratics  First we will graph the most basic quadratic equation . This will show us the basic shape and properties. Later examples will show us the variations and how to control them.    To discover the shape we will graph following the steps shown first in . First we complete this table of values. We must choose the x values randomly for now.               Next we graph these points and sketch the graph through them.     The graph of a quadratic is known as a parabola . Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the vertex . It is at (0,0) for this parabola.  Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the line of symmetry . In this case that is the vertical line .  The following example combines three modifications of the basic quadratic. We will graph it, notice the differences, and then use an activity to understand how each part of the equation produces a particular change in the graph.    We will graph . First we complete this table               Next we graph these points and sketch the graph through them.   Notice that this time the vertex is at . The line of symmetry is .    The following activity is a set of experiments to understand how each part of the parabola equation works. It is designed to help you understand by seeing the results in calculations. Do these exercises by hand. While you can look up the meaning of each equation part, memorizing them will be harder (and your ability to use them in later chapters reduced) if you do not see how each transformation is caused by the arithmetic.   Discovering Parabola Parameters  In this task we will check the effect of multiplying a quadratic by a scalar (number). Complete the table of points below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of multiplying a quadratic by a negative scalar. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.    Graph the parabola by identifying the vertex and one other point.  From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is .  The second point can be any point. is convenient. .  Because the center (axis of symmetry) is , we want to plot a portion of the curve left and right of that value. from -6 to 0 (3 left to 3 right) will be convenient.  We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.     Recall that lines can all be expressed in the form where , the slope, defines steepness, and represents a shift. Based on the work above we now know that all quadratics (parabolas) can be written as where indicates how steeply the parabola rises, and and indicate horizontal and vertical shifts of the parabola. The shifts are also the location of the vertex. In the example above we used the shifts to identify the coordinate of the vertex. In applications the shift parameters can have meaning.    Applications  Now that we understand what each part of the equation of a parabola tells us, we can use that to interpret quadratic models and answer some questions using a quadratic model.   The lift equation is a parabola. Note, only the right side of the parabola is part of the model, because negative speeds do not apply.  The lift equation has and . This makes sense because there should be zero lift when there is zero speed. If then there would be lift at zero speed. If there would be no lift until that speed.  The coefficients, , make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.  For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).     The maximum load factor can be written as This is a parabola.  This equation has and . Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is which gives us 1 G. That is, the normal state of flight is 1 G (the one produced by earth's gravity). If the model would indicate more than 1 G produced by gravity. would indicate this occuring at some other speed.  The coefficient ( ) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's than it does to move from 2 G's to 3 G's.  For example if the stall speed is 41 nm\/hr, then 1 G occurs at 41 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor requires an increase of nm\/hr. However if the stall speed were 63 nm\/hr then 1 G occurs at 63 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor required an increase of nm\/hr. The higher stall speed implies a greater ( ) increase in speed.    The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.   Determine the coordinates of the vertex of . All numbers are exact.  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between two points with , that is half way between the solutions to . We can solve this using the quadratic formula. To calculate what is half way in between we average these two values. Thus the x-coordinate of the vertex is 2.75. To calculate the y-coordinate we substitute the x value into the quadratic.    Simplified Effect of Gravity  A model of motion due to gravity is beyond the scope of this course, but we can understand a connection to quadratics. Gravity is a force that accelerates objects toward each other. The strength of earth's gravity at the surface is approximately  9.80665    . Be aware that this value actually varies a little by location and decreases with altitude, but those effects are not needed for any problems in this book.  Notice that gravity is an acceleration (i.e., m\/s is a velocity and this is (m\/s)\/s meaning a change in velocity) and as a result the time portion is squared. This means accleration due to gravity is quadratic with respect to time.  For objects that are dropped, we can figure out both their speed and their height can be determined.   Gravity's Effect on Velocity  If we drop a ball from 1.0 meters above the surface, it will start with a velocity of 0 m\/s. Acceleration due to gravity is (9.8 m\/s)\/s which means after one second the ball will be travelling down at 9.8 m\/s. After another second (2 seconds total) it would increase (accelerate) another 9.8 m\/s so its velocity would be 18.6 m\/s.  We can write an equation for the velocity after seconds. Notice that the change in velocity is a constant, so the change in velocity is a linear equation. The rate (slope) is  9.80665    . The shift is the initial velocity (0 m\/s in this case).   Calculating the exact height of an object falling due to gravity requires mathematics beyond this textbook. A little more information can be found in . The following example illustrates calculations using a provided simplification.   Falling Due to Gravity   Suppose the height of an object falling due to gravity is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the following equation. It will take 0.45 seconds for the object to reach the ground.  Determine the height from which it was dropped. Because the object is dropped, the heighest point is when it is dropped which is time . Thus the height from which it was dropped is meters.    Gravity's Effect on a Thrown Object   Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the . To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths. The negative time does not make sense, so seconds is when the object will reach the ground.  Determine the maximum height the object reached. This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in . We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is . The height at that time is The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.      Contextless Graphing  Contextless Graphing  Contextless Graphing  Contextless Graphing  Contextless Graphing  Read Graph  Read Graph  Read Graph  Read Graph  Read Graph  Write Equation  Write Equation  Write Equation  In Context   "
+  "body": " Graphs of Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section will introduce the graph (shape) of quadratic equations, illustrate all the variations that are possible, and demonstrate how these can be used to answer questions.    Properties of Quadratics  First we will graph the most basic quadratic equation . This will show us the basic shape and properties. Later examples will show us the variations and how to control them.    To discover the shape we will graph following the steps shown first in . First we complete this table of values. We must choose the x values randomly for now.               Next we graph these points and sketch the graph through them.     The graph of a quadratic is known as a parabola . Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the vertex . It is at (0,0) for this parabola.  Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the line of symmetry . In this case that is the vertical line .  The following example combines three modifications of the basic quadratic. We will graph it, notice the differences, and then use an activity to understand how each part of the equation produces a particular change in the graph.    We will graph . First we complete this table               Next we graph these points and sketch the graph through them.   Notice that this time the vertex is at . The line of symmetry is .    The following activity is a set of experiments to understand how each part of the parabola equation works. It is designed to help you understand by seeing the results in calculations. Do these exercises by hand. While you can look up the meaning of each equation part, memorizing them will be harder (and your ability to use them in later chapters reduced) if you do not see how each transformation is caused by the arithmetic.   Discovering Parabola Parameters  In this task we will check the effect of multiplying a quadratic by a scalar (number). Complete the table of points below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of multiplying a quadratic by a negative scalar. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.    Graph the parabola by identifying the vertex and one other point.  From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is .  The second point can be any point. is convenient. .  Because the center (axis of symmetry) is , we want to plot a portion of the curve left and right of that value. from -6 to 0 (3 left to 3 right) will be convenient.  We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.     Recall that lines can all be expressed in the form where , the slope, defines steepness, and represents a shift. Based on the work above we now know that all quadratics (parabolas) can be written as where indicates how steeply the parabola rises, and and indicate horizontal and vertical shifts of the parabola. The shifts are also the location of the vertex. In the example above we used the shifts to identify the coordinate of the vertex. In applications the shift parameters can have meaning.    Applications  Now that we understand what each part of the equation of a parabola tells us, we can use that to interpret quadratic models and answer some questions using a quadratic model.   The lift equation is a parabola. Note, only the right side of the parabola is part of the model, because negative speeds do not apply.  The lift equation has and . This makes sense because there should be zero lift when there is zero speed. If then there would be lift at zero speed. If there would be no lift until that speed.  The coefficients, , make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.  For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).     The maximum load factor can be written as This is a parabola.  This equation has and . Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is which gives us 1 G. That is, the normal state of flight is 1 G (the one produced by earth's gravity). If the model would indicate more than 1 G produced by gravity. would indicate this occuring at some other speed.  The coefficient ( ) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's than it does to move from 2 G's to 3 G's.  For example if the stall speed is 41 nm\/hr, then 1 G occurs at 41 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor requires an increase of nm\/hr. However if the stall speed were 63 nm\/hr then 1 G occurs at 63 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor required an increase of nm\/hr. The higher stall speed implies a greater ( ) increase in speed.    The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.   Determine the coordinates of the vertex of . All numbers are exact.  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between two points with , that is half way between the solutions to . We can solve this using the quadratic formula. To calculate what is half way in between we average these two values. Thus the x-coordinate of the vertex is 2.75. To calculate the y-coordinate we substitute the x value into the quadratic.    Simplified Effect of Gravity  A model of motion due to gravity is beyond the scope of this course, but we can understand a connection to quadratics. Gravity is a force that accelerates objects toward each other. The strength of earth's gravity at the surface is approximately  9.80665    . Be aware that this value actually varies a little by location and decreases with altitude, but those effects are not needed for any problems in this book.  Notice that gravity is an acceleration (i.e., m\/s is a velocity and this is (m\/s)\/s meaning a change in velocity) and as a result the time portion is squared. This means accleration due to gravity is quadratic with respect to time.  For objects that are dropped, we can figure out both their speed and their height can be determined.   Gravity's Effect on Velocity  If we drop a ball from 1.0 meters above the surface, it will start with a velocity of 0 m\/s. Acceleration due to gravity is (9.8 m\/s)\/s which means after one second the ball will be travelling down at 9.8 m\/s. After another second (2 seconds total) it would increase (accelerate) another 9.8 m\/s so its velocity would be 18.6 m\/s.  We can write an equation for the velocity after seconds. Notice that the change in velocity is a constant, so the change in velocity is a linear equation. The rate (slope) is  9.80665    . The shift is the initial velocity (0 m\/s in this case).   Calculating the exact height of an object falling due to gravity requires mathematics beyond this textbook. A little more information can be found in . The following example illustrates calculations using a provided simplification.   Falling Due to Gravity   Suppose the height of an object falling due to gravity is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the following equation. It will take 0.45 seconds for the object to reach the ground.  Determine the height from which it was dropped. Because the object is dropped, the heighest point is when it is dropped which is time . Thus the height from which it was dropped is meters.    Gravity's Effect on a Thrown Object   Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the . To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths. The negative time does not make sense, so seconds is when the object will reach the ground.  Determine the maximum height the object reached. This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in . We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is . The height at that time is The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.       Graphing Quadratics   Graph each of these equations. Use your knowledge of translations and stretches.          Reading Quadratic Graphs   Use the provided graph to answer these questions about quadratics.          Write Equations for Quadratics   Write a quadratic equation to match the graph or information provided.       Quadratic Application   "
 },
 {
   "id": "example-graph-parabola",
@@ -6688,130 +6715,130 @@ var ptx_lunr_docs = [
   "body": " Gravity's Effect on a Thrown Object   Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the . To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths. The negative time does not make sense, so seconds is when the object will reach the ground.  Determine the maximum height the object reached. This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in . We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is . The height at that time is The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.  "
 },
 {
-  "id": "section-quadratic-graph-5-1",
+  "id": "section-quadratic-graph-5-1-3",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-1",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-1-3",
   "type": "Exercise",
   "number": "5.4.3.1",
-  "title": "Contextless Graphing.",
-  "body": "Contextless Graphing "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-graph-5-2",
+  "id": "section-quadratic-graph-5-1-4",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-1-4",
   "type": "Exercise",
   "number": "5.4.3.2",
-  "title": "Contextless Graphing.",
-  "body": "Contextless Graphing "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-quadratic-graph-5-3",
+  "id": "section-quadratic-graph-5-1-5",
   "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-3",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-1-5",
   "type": "Exercise",
   "number": "5.4.3.3",
-  "title": "Contextless Graphing.",
-  "body": "Contextless Graphing "
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-1-6",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-1-6",
+  "type": "Exercise",
+  "number": "5.4.3.4",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-1-7",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-1-7",
+  "type": "Exercise",
+  "number": "5.4.3.5",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-2-3",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-2-3",
+  "type": "Exercise",
+  "number": "5.4.3.6",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-2-4",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-2-4",
+  "type": "Exercise",
+  "number": "5.4.3.7",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-2-5",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-2-5",
+  "type": "Exercise",
+  "number": "5.4.3.8",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-2-6",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-2-6",
+  "type": "Exercise",
+  "number": "5.4.3.9",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-2-7",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-2-7",
+  "type": "Exercise",
+  "number": "5.4.3.10",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-3-3",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-3-3",
+  "type": "Exercise",
+  "number": "5.4.3.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-3-4",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-3-4",
+  "type": "Exercise",
+  "number": "5.4.3.12",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-quadratic-graph-5-3-5",
+  "level": "2",
+  "url": "section-quadratic-graph.html#section-quadratic-graph-5-3-5",
+  "type": "Exercise",
+  "number": "5.4.3.13",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-quadratic-graph-5-4",
   "level": "2",
   "url": "section-quadratic-graph.html#section-quadratic-graph-5-4",
   "type": "Exercise",
-  "number": "5.4.3.4",
-  "title": "Contextless Graphing.",
-  "body": "Contextless Graphing "
-},
-{
-  "id": "section-quadratic-graph-5-5",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-5",
-  "type": "Exercise",
-  "number": "5.4.3.5",
-  "title": "Contextless Graphing.",
-  "body": "Contextless Graphing "
-},
-{
-  "id": "section-quadratic-graph-5-6",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-6",
-  "type": "Exercise",
-  "number": "5.4.3.6",
-  "title": "Read Graph.",
-  "body": "Read Graph "
-},
-{
-  "id": "section-quadratic-graph-5-7",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-7",
-  "type": "Exercise",
-  "number": "5.4.3.7",
-  "title": "Read Graph.",
-  "body": "Read Graph "
-},
-{
-  "id": "section-quadratic-graph-5-8",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-8",
-  "type": "Exercise",
-  "number": "5.4.3.8",
-  "title": "Read Graph.",
-  "body": "Read Graph "
-},
-{
-  "id": "section-quadratic-graph-5-9",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-9",
-  "type": "Exercise",
-  "number": "5.4.3.9",
-  "title": "Read Graph.",
-  "body": "Read Graph "
-},
-{
-  "id": "section-quadratic-graph-5-10",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-10",
-  "type": "Exercise",
-  "number": "5.4.3.10",
-  "title": "Read Graph.",
-  "body": "Read Graph "
-},
-{
-  "id": "section-quadratic-graph-5-11",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-11",
-  "type": "Exercise",
-  "number": "5.4.3.11",
-  "title": "Write Equation.",
-  "body": "Write Equation "
-},
-{
-  "id": "section-quadratic-graph-5-12",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-12",
-  "type": "Exercise",
-  "number": "5.4.3.12",
-  "title": "Write Equation.",
-  "body": "Write Equation "
-},
-{
-  "id": "section-quadratic-graph-5-13",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-13",
-  "type": "Exercise",
-  "number": "5.4.3.13",
-  "title": "Write Equation.",
-  "body": "Write Equation "
-},
-{
-  "id": "section-quadratic-graph-5-14",
-  "level": "2",
-  "url": "section-quadratic-graph.html#section-quadratic-graph-5-14",
-  "type": "Exercise",
   "number": "5.4.3.14",
-  "title": "In Context.",
-  "body": "In Context "
+  "title": "Quadratic Application.",
+  "body": "Quadratic Application "
 },
 {
   "id": "section-activity-discover-integral",
