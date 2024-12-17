@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1458490">
 <statement>
-<p>Suppose that as dry air rose its temperature dropped in a linear fashion. The temperature was measured at 1000 ft MSL as <m>\displaystyle{20}^{\circ}</m> C and at 2000 ft MSL as <m>\displaystyle{22.2}^{\circ}</m> C.</p>
+<p>Suppose that as dry air rose its temperature dropped in a linear fashion. The temperature was measured at 1100 ft MSL as <m>\displaystyle{23}^{\circ}</m> C and at 2100 ft MSL as <m>\displaystyle{25}^{\circ}</m> C.</p>
 <p>What is the rate of change of temperature with respect to altitude? <fillin characters="20" />   </p>
 <p>Your response may be as a fraction such as 2/1000 or decimal such as 0.002</p>
 <p>What does this data imply about the temperature at 0 ft MSL? <fillin characters="20" /></p>
 
 </statement>
 <solution>
-<p><ul><li>-0.0022</li><li>17.8</li></ul></p><p>We want the ratio of temperature drop to altitude increase. <m>\displaystyle\frac{{{22.2}-{20}}}{{{2000}-{1000}}}=-{0.0022}</m></p>
-<p>Now that we know that ratio we can use a linear model to find the temperature at sea level. Because the temperature increases (we are going down not up) at a rate of -2.2 per 1000 ft the temperature will be expected to increase <m>\displaystyle{1000}{\left(-\frac{{2.2}}{{1000}}\right)}=-{2.2}</m>. That will result in a temperature of <m>\displaystyle{20}\pm{2.2}={17.8}</m>.</p>
+<p><ul><li>-0.002</li><li>20.8</li></ul></p><p>We want the ratio of temperature drop to altitude increase. <m>\displaystyle\frac{{{25}-{23}}}{{{2100}-{1100}}}=-{0.002}</m></p>
+<p>Now that we know that ratio we can use a linear model to find the temperature at sea level. Because the temperature increases (we are going down not up) at a rate of -2 per 1000 ft the temperature will be expected to increase <m>\displaystyle{1100}{\left(-\frac{{2}}{{1000}}\right)}=-{2.2}</m>. That will result in a temperature of <m>\displaystyle{23}\pm{2.2}={20.8}</m>.</p>
 </solution>
 </myopenmath>
 
