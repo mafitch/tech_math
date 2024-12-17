@@ -6865,7 +6865,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Exponential Relations",
-  "body": " Exponential Relations   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented different rates at which data changes including linear, quadratic, and exponential. This section presents models that require exponentials and notation so we can perform calculations. The ability to solve equations with exponentials comes in .    Comparing Growth Rates  In colloquial speech exponential is used to mean very fast . In this text we are using a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster.  Consider the linear, quadratic, and exponential relations in , , and respectively. Linear data has the same differences (3 in the example below). In contrast the differences for quadratic and exponential data grow as the data grows. Their growth is not the same however. Quadratic differences grow at the same rate (2nd differences are linear, 4 in the example below). In contrast exponential differences grow faster as the data grows faster (indeed at the same rate).  Another way to look at this, is to note that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than 3 for the linear below, and 6,10,14 are less than 8,18, and 32 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic growth eventually.   Linear Relation     0  1  2  3  4  5     2  5  8  11  14  17    Differences   3  3  3  3  3      Quadratic Relation     0  1  2  3  4  5     0  2  8  18  32  50    Differences   2  6  10  14  18      Exponential Relation     0  1  2  3  4  5     3  6  12  24  48  96    Differences   3  6  12  24  48     We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. and have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios   5\/2  8\/5  11\/8  14\/11  17\/14   Decimal   2.5  1.6  1.375  1.2727  1.2143      Quadratic Relation    1  2  3  4  5  6    2  8  18  32  50  72   Ratios   8\/2  18\/8  32\/18  50\/32  72\/50   Decimal   4  2.25  1.7778  1.5625  1.44      Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Ratios   2  2  2  2  2     The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. shows the ratios for a relation known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.   Factorial Relation    0  1  2  3  4  5    1  1  2  6  24  120   Ratios   1  2  3  4  5        Applications  This section presents some simple applications that introduce us to the nature of exponential relations and introduce us to how to write equations for exponential models. The next few examples are used to present the mathematics, they are not a complete presentation of the science.  Bacteria (any cells) grow by each cell dividing into two, completely functioning cells. The new cells eventually reproduce by dividing in half as well. This means that the population is doubling. Because each cell takes roughly the same amount of time to grow enough to be able to divide, the population will double again when that much time has elapsed. Because we are interested in the idea, we will not round in the next few examples.   The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.  Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be cells. These results are shown in .  If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times .  We could produce a table for any amount of time (e.g., every hour) and we would discover that the population grows by the same multiple every time.    Growth of Lactobacillus Acidophilus         Minutes  0  70  140  210    Population  4000  8000  16000  32000    Increased by   4000  8000  16000      Growth of Lactobacillus Acidophilus          Minutes  0  35  70  105  140    Population  4000  5657  8000  11314  16000    Ratio   1.4142  1.4142  1.4142  1.4142     Having emphasized that exponential data grows by a fixed ratio (multiple) every time unit, we can now work toward mathematical notation.   First Exponential Model  To obtain a model (equation) we will review our calculations from the previous example and note a pattern in those calculations.  The initial amount (information we are given) is . After 70 minutes all of these split into two so the population is . After 140 minutes they have all split into two a second time so the population is . After 210 minutes they have split a third time increasing the population to . We repeatedly mutiply the initial amount by 2. This means we will have a power of 2 times the initial amount.  The number of 2's by which we multiply is determined by how many multiples of 70 minutes have expired. so we multiplied by . so we multiplied by . In general we multiply by two times.  Putting these together implies we want to multiply the initial amount (4000 in this case) by two (double the population) for each of multiple of 70. This gives us .    First Exponential Model Redux  Of course we cannot actually count the number of cells in a colony of bacteria. It is easier to measure by mass (units of grams). If the number of cells has doubled then the mass will have about doubled as well.  Suppose 3 grams of lactobacillus acidophilus is placed in milk. What is a model for the mass of bacteria if it doubles every 70 minutes?  From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us   Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1. One example is radioactive decay. Radioactive substances are not stable. The radiation they give off is the result of the atoms breaking down into other substances. This means that over time the amount of the radioactive substance decreases. It has been shown that this decrease is exponential. The rate of decay is expressed in half-life , the amount of time for the substance to be reduced by half.   Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.  Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have grams. Note the 1\/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be . In general the amount left after years will be This could also be written as .   Exponential relations are not all doubling or cutting in half. The ratio can be anything. Going viral on the internet could be (but is not always) an exponential growth of views.   A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.  To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be views. The eighth day, there will be views. Each additional four days we multiply the result by 3.  Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple times.  To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is    We learned in that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.   Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . Thus after one year his salary will be . After two years his salary will be . This pattern will continue.  The model then is where is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be    If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.   In the previous example we rounded in the second step to 4 decimal places. Was this the right choice? We can test by trying the calculation with fewer decimal places. If we had rounded to 5 places, the last step would have been . If we had rounded to 6 places, the last step would have been . If we had rounded to 7 places, the last step would have been . Likewise testing 8 places would not change the amount. Thus any more than 6 places is not enough to change the result. However, was the 4 places result bad? The amounts between the roundings are different from each other but not by enough to impact anyone's life. Remember rounding is often about being practical: if the variation we round away has no impact, why bother with all the extra work?  Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but it requires a technique from .   We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?  The end of seven years means there have been six raises. From the two data points we know Thus her annual percentage increase was 4%. The full model is where is time in years.     Two Exponential Models  Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two models.   Exponential Growth (rate)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the doubling ( ), trebling ( ), or other increase. It is unitless.  is the amount of time (units typically days\/hours\/minutes)  is how long until the increase occurs (same units as )      Exponential Growth (percent)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the percent increase or decrease. It is unitless.  is the amount of time (units typically days\/hours\/minutes)     It is possible to convert from one form to the other. The following examples demonstrate using these models, determining the percent increase\/decrease, and converting between forms.   Suppose where is the number of years. What is the annual percent increase?  We know that so this is a 3.2% increase.   Before we can change that form into one that shows us how long until it doubles, we will need to learn another function. We will do this in .   Suppose where is the number of years. What is the annual percent decrease?  We know that so this is a 12% decrease.   Generally if the value is greater than one this is an increasing rate and if it is less than one it is a decreasing rate.   Suppose . Is this increase or decrease and what is the percent increase\/decrease?  Because this is a percent increase. Thus this is a 3% increase.   Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing that or in general   Significant Digits beyond Arithmetic  In we noted that a square root maintains the same number of significant digits. The same mathematics applies to exponential. For example, .    In the exponential model what is the percent increase or decrease? Note these numbers are measurements.  First, we use the algebra above to convert the form Because 1.4 is bigger than one it is a percent increase. Note , so this is a 40% increase.  For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).    In the exponential model what is the percent increase or decrease?   First, we use the algebra above to convert the form Because 0.97 is less than one it is a percent decrease. Note , so this is a 3% decrease.  We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.     A common base for exponentials in many scientific models is . We can work with this base using calculation devices which will have an button or an function.   What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? which we found using a device. Thus this is a percent increase of 2%.       Calculate results for exponential relations.  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Faux Application  Application  Application  Application  Application  Application  Application  Application  Application  Application  Application     "
+  "body": " Exponential Relations   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented different rates at which data changes including linear, quadratic, and exponential. This section presents models that require exponentials and notation so we can perform calculations. The ability to solve equations with exponentials comes in .    Comparing Growth Rates  In colloquial speech exponential is used to mean very fast . In this text we are using a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster.  Consider the linear, quadratic, and exponential relations in , , and respectively. Linear data has the same differences (3 in the example below). In contrast the differences for quadratic and exponential data grow as the data grows. Their growth is not the same however. Quadratic differences grow at the same rate (2nd differences are linear, 4 in the example below). In contrast exponential differences grow faster as the data grows faster (indeed at the same rate).  Another way to look at this, is to note that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than 3 for the linear below, and 6,10,14 are less than 8,18, and 32 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic growth eventually.   Linear Relation     0  1  2  3  4  5     2  5  8  11  14  17    Differences   3  3  3  3  3      Quadratic Relation     0  1  2  3  4  5     0  2  8  18  32  50    Differences   2  6  10  14  18      Exponential Relation     0  1  2  3  4  5     3  6  12  24  48  96    Differences   3  6  12  24  48     We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. and have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios   5\/2  8\/5  11\/8  14\/11  17\/14   Decimal   2.5  1.6  1.375  1.2727  1.2143      Quadratic Relation    1  2  3  4  5  6    2  8  18  32  50  72   Ratios   8\/2  18\/8  32\/18  50\/32  72\/50   Decimal   4  2.25  1.7778  1.5625  1.44      Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Ratios   2  2  2  2  2     The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. shows the ratios for a relation known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.   Factorial Relation    0  1  2  3  4  5    1  1  2  6  24  120   Ratios   1  2  3  4  5        Applications  This section presents some simple applications that introduce us to the nature of exponential relations and introduce us to how to write equations for exponential models. The next few examples are used to present the mathematics, they are not a complete presentation of the science.  Bacteria (any cells) grow by each cell dividing into two, completely functioning cells. The new cells eventually reproduce by dividing in half as well. This means that the population is doubling. Because each cell takes roughly the same amount of time to grow enough to be able to divide, the population will double again when that much time has elapsed. Because we are interested in the idea, we will not round in the next few examples.   The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.  Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be cells. These results are shown in .  If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times .  We could produce a table for any amount of time (e.g., every hour) and we would discover that the population grows by the same multiple every time.    Growth of Lactobacillus Acidophilus         Minutes  0  70  140  210    Population  4000  8000  16000  32000    Increased by   4000  8000  16000      Growth of Lactobacillus Acidophilus          Minutes  0  35  70  105  140    Population  4000  5657  8000  11314  16000    Ratio   1.4142  1.4142  1.4142  1.4142     Having emphasized that exponential data grows by a fixed ratio (multiple) every time unit, we can now work toward mathematical notation.   First Exponential Model  To obtain a model (equation) we will review our calculations from the previous example and note a pattern in those calculations.  The initial amount (information we are given) is . After 70 minutes all of these split into two so the population is . After 140 minutes they have all split into two a second time so the population is . After 210 minutes they have split a third time increasing the population to . We repeatedly mutiply the initial amount by 2. This means we will have a power of 2 times the initial amount.  The number of 2's by which we multiply is determined by how many multiples of 70 minutes have expired. so we multiplied by . so we multiplied by . In general we multiply by two times.  Putting these together implies we want to multiply the initial amount (4000 in this case) by two (double the population) for each of multiple of 70. This gives us .    First Exponential Model Redux  Of course we cannot actually count the number of cells in a colony of bacteria. It is easier to measure by mass (units of grams). If the number of cells has doubled then the mass will have about doubled as well.  Suppose 3 grams of lactobacillus acidophilus is placed in milk. What is a model for the mass of bacteria if it doubles every 70 minutes?  From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us   Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1. One example is radioactive decay. Radioactive substances are not stable. The radiation they give off is the result of the atoms breaking down into other substances. This means that over time the amount of the radioactive substance decreases. It has been shown that this decrease is exponential. The rate of decay is expressed in half-life , the amount of time for the substance to be reduced by half.   Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.  Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have grams. Note the 1\/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be . In general the amount left after years will be This could also be written as .   Exponential relations are not all doubling or cutting in half. The ratio can be anything. Going viral on the internet could be (but is not always) an exponential growth of views.   A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.  To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be views. The eighth day, there will be views. Each additional four days we multiply the result by 3.  Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple times.  To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is    We learned in that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.   Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . Thus after one year his salary will be . After two years his salary will be . This pattern will continue.  The model then is where is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be    If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.   In the previous example we rounded in the second step to 4 decimal places. Was this the right choice? We can test by trying the calculation with fewer decimal places. If we had rounded to 5 places, the last step would have been . If we had rounded to 6 places, the last step would have been . If we had rounded to 7 places, the last step would have been . Likewise testing 8 places would not change the amount. Thus any more than 6 places is not enough to change the result. However, was the 4 places result bad? The amounts between the roundings are different from each other but not by enough to impact anyone's life. Remember rounding is often about being practical: if the variation we round away has no impact, why bother with all the extra work?  Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but it requires a technique from .   We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?  The end of seven years means there have been six raises. From the two data points we know Thus her annual percentage increase was 4%. The full model is where is time in years.     Two Exponential Models  Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two models.   Exponential Growth (rate)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the doubling ( ), trebling ( ), or other increase. It is unitless.  is the amount of time (units typically days\/hours\/minutes)  is how long until the increase occurs (same units as )      Exponential Growth (percent)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the percent increase or decrease. It is unitless.  is the amount of time (units typically days\/hours\/minutes)     It is possible to convert from one form to the other. The following examples demonstrate using these models, determining the percent increase\/decrease, and converting between forms.   Suppose where is the number of years. What is the annual percent increase?  We know that so this is a 3.2% increase.   Before we can change that form into one that shows us how long until it doubles, we will need to learn another function. We will do this in .   Suppose where is the number of years. What is the annual percent decrease?  We know that so this is a 12% decrease.   Generally if the value is greater than one this is an increasing rate and if it is less than one it is a decreasing rate.   Suppose . Is this increase or decrease and what is the percent increase\/decrease?  Because this is a percent increase. Thus this is a 3% increase.   Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing that or in general   Significant Digits beyond Arithmetic  In we noted that a square root maintains the same number of significant digits. The same mathematics applies to exponential. For example, .    In the exponential model what is the percent increase or decrease? Note these numbers are measurements.  First, we use the algebra above to convert the form Because 1.4 is bigger than one it is a percent increase. Note , so this is a 40% increase.  For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).    In the exponential model what is the percent increase or decrease?   First, we use the algebra above to convert the form Because 0.97 is less than one it is a percent decrease. Note , so this is a 3% decrease.  We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.     A common base for exponentials in many scientific models is . We can work with this base using calculation devices which will have an button or an function.   What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? which we found using a device. Thus this is a percent increase of 2%.       Evaluating Exponential Functions   Evaluate these exponential functions.            Exponential Applications   Evaluate exponential functions as needed to answer these questions.                 "
 },
 {
   "id": "subsection-vary-fast-2",
@@ -7147,171 +7147,171 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-exponential-6-1-2",
-  "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-2",
-  "type": "Exercise",
-  "number": "6.1.4.1",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
-},
-{
   "id": "section-exponential-6-1-3",
   "level": "2",
   "url": "section-exponential.html#section-exponential-6-1-3",
   "type": "Exercise",
-  "number": "6.1.4.2",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "number": "6.1.4.1",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-exponential-6-1-4",
   "level": "2",
   "url": "section-exponential.html#section-exponential-6-1-4",
   "type": "Exercise",
-  "number": "6.1.4.3",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "number": "6.1.4.2",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-exponential-6-1-5",
   "level": "2",
   "url": "section-exponential.html#section-exponential-6-1-5",
   "type": "Exercise",
-  "number": "6.1.4.4",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "number": "6.1.4.3",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-exponential-6-1-6",
   "level": "2",
   "url": "section-exponential.html#section-exponential-6-1-6",
   "type": "Exercise",
-  "number": "6.1.4.5",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "number": "6.1.4.4",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-exponential-6-1-7",
   "level": "2",
   "url": "section-exponential.html#section-exponential-6-1-7",
   "type": "Exercise",
-  "number": "6.1.4.6",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "number": "6.1.4.5",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-exponential-6-1-8",
   "level": "2",
   "url": "section-exponential.html#section-exponential-6-1-8",
   "type": "Exercise",
-  "number": "6.1.4.7",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "number": "6.1.4.6",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-exponential-6-1-9",
   "level": "2",
   "url": "section-exponential.html#section-exponential-6-1-9",
   "type": "Exercise",
-  "number": "6.1.4.8",
-  "title": "Faux Application.",
-  "body": "Faux Application "
+  "number": "6.1.4.7",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-10",
+  "id": "section-exponential-6-2-3",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-10",
+  "url": "section-exponential.html#section-exponential-6-2-3",
+  "type": "Exercise",
+  "number": "6.1.4.8",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-exponential-6-2-4",
+  "level": "2",
+  "url": "section-exponential.html#section-exponential-6-2-4",
   "type": "Exercise",
   "number": "6.1.4.9",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-11",
+  "id": "section-exponential-6-2-5",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-11",
+  "url": "section-exponential.html#section-exponential-6-2-5",
   "type": "Exercise",
   "number": "6.1.4.10",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-12",
+  "id": "section-exponential-6-2-6",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-12",
+  "url": "section-exponential.html#section-exponential-6-2-6",
   "type": "Exercise",
   "number": "6.1.4.11",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-13",
+  "id": "section-exponential-6-2-7",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-13",
+  "url": "section-exponential.html#section-exponential-6-2-7",
   "type": "Exercise",
   "number": "6.1.4.12",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-14",
+  "id": "section-exponential-6-2-8",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-14",
+  "url": "section-exponential.html#section-exponential-6-2-8",
   "type": "Exercise",
   "number": "6.1.4.13",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-15",
+  "id": "section-exponential-6-2-9",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-15",
+  "url": "section-exponential.html#section-exponential-6-2-9",
   "type": "Exercise",
   "number": "6.1.4.14",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-16",
+  "id": "section-exponential-6-2-10",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-16",
+  "url": "section-exponential.html#section-exponential-6-2-10",
   "type": "Exercise",
   "number": "6.1.4.15",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-17",
+  "id": "section-exponential-6-2-11",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-17",
+  "url": "section-exponential.html#section-exponential-6-2-11",
   "type": "Exercise",
   "number": "6.1.4.16",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-18",
+  "id": "section-exponential-6-2-12",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-18",
+  "url": "section-exponential.html#section-exponential-6-2-12",
   "type": "Exercise",
   "number": "6.1.4.17",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-19",
+  "id": "section-exponential-6-2-13",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-19",
+  "url": "section-exponential.html#section-exponential-6-2-13",
   "type": "Exercise",
   "number": "6.1.4.18",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-6-1-20",
+  "id": "section-exponential-6-2-14",
   "level": "2",
-  "url": "section-exponential.html#section-exponential-6-1-20",
+  "url": "section-exponential.html#section-exponential-6-2-14",
   "type": "Exercise",
   "number": "6.1.4.19",
   "title": "",
@@ -7324,7 +7324,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "Graphs of Exponential Functions",
-  "body": " Graphs of Exponential Functions   This section addresses the following topics.  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    We have learned how to identify exponential data ( ) and have learned to work with some exponential applications ( ). This section presents the graph (shape) of exponentials and emphasizes two traits of exponential models.  Because devices can quickly produce accurate graphs for us, it is not the goal of this section to help you become proficiant at sketching graphs. Rather, it is the goal for you to be able to read a model, and recognize what different parts of the model imply, because you know what it would look like.    Shape of Exponentials  In order to understand the graph of an exponential function we are going to graph one that is not limited by interpretation or rounding.   Graph .  First we will generate a table of points with which to start.                       We can plot these points then sketch a curve smoothly through the points.   Starting at consider the curve as it extends to the right. We can use the analogy of walking up hill to understand this curve. At we are walking up hill so we are a little slower than on a flat surface. At the height has doubled but so also has the slope (remember the differences are a multiple of the height). Walking the next segment will be more strenuous. At the height has doubled again, so also has the steepness. Now it is too steep to walk. We will need to scramble or use climbing equipment. Generally an exponential curve becomes increasingly steep.  Starting back at again consider the curve as it extends to the left. We can see that we are walking downhill; we might pick up a little speed. At it continues downhill to the left but it is not enough to help us maintain a faster speed. At we can no longer see the downhill (too gentle) though we would notice it if we were on a bike or skateboard. Just as the curve becomes twice as high and also twice as steep as we move the to right, it becomes half as high and half as steep as we go to the left. The inability to see the downhill nature illustrates that the exponential to the left begins to look like a horizontal line.  Let's clarify that last statement. We notice that all values (left and right) are positive. So to the left the curve is going down, but it never crosses zero. It must therefore become increasingly close to zero. This is why it begins to look like a line namely . When one curve becomes increasingly like another we call that second curve (the line in this case) an asymptote .   This decrease to the left can be understood in contexts as well.   In we determined that the amount of bacteria was modeled by . Initially ( ) there are 30 g of bacteria. Now we will calculate how much bacteria there was before this initial measurement.        Time  Mass of Bacteria                                  We notice that the amount of bacteria decreases. More specifically we see that it is divided in half each time. This is just the reverse of it doubling each time as it grows.  We also notice that because each previous entry is half of the next, there is always some left. No matter how far back in time we go, there will always be some. This is part of all exponentials: rapid growth in one direction and an increasingly gentle decrease toward some amount (zero in this case) in the other direction.  The model measures the bacteria by weight in grams. This can always be cut in half. What reality constraint should we put on this model?   Not all exponential curves increase to the right and decrease to the left. Some reverse (mirror) this pattern. The following example uses radioactive decay as an example of this.    Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with g of uranium-242.   How much is left at times 16.8, 33.6, and 50.4 minutes? At time 0 we have g. At time 16.8 it will be half of the original which is g. The 1\/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again ( , 2nd half-life). Thus there will be g. At time 50.4 it will be reduced by half a third time ( ), so the amount remaining will be g.  Write a model for this decay. We can use the process from . The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is .  Graph this model. We can use the points from the first task and the method from to produce a graph. Notice the gentle decrease toward zero is to the right this time as opposed to the left in . That is because we are cutting in half each time instead of doubling.   The following video illustrates the connection between a fixed time (half-life) and decreasing by a ratio (1\/2).   Geometric Illustration of Half-Life      Transforming Exponential Functions  In we learned how to shift and stretch parabolas (graphs of quadratics). Those same transformations work on exponentials (and any other function). The following examples illustrate that the effects are the same.   Translate an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                Notice that every point is 3 units higher than the point in the original graph. We have moved the graph 3 units up.    Stretch an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                    Notice that every point is 3 times farther from the x-axis. This makes it 3 times steeper.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                                   Notice that every point end up on the other side of the y-axis. This is a reflection of the original curve.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the . Because this changes the x value, we will need a different set of inputs. Look at the result to understand why we selected them.                                                                              We ended up with the same y values, but they occurred spread out over a wider area. Multiplying stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).   Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is where and represent the horizontal and vertical shifts respectively. and represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.   Graph the model from . In order to match our examples above we can express the exponent as . We simply calculated and maintained 5 significant digits.  First, we identify the changes from . The 7.000 in front is a vertical stretch. The negative in the exponent is a reflection over the y-axis. The coefficient of the exponent is a horizontal stretch. We can make these changes in order of operation: horizontal stretch, reflection, vertical stretch. These are shown in the graph below. Graph A is the original. B shows the horizontal stretch. C shows the reflection. D adds the vertical stretch. The labels are located to show how one point is transformed by each step.   Looking at the final graph we can note that we really needed only three details to graph it. These are the asymptote (which remained unchanged from here) and two points. One point tells us where to start and the other indicates how steep (because of the change between the two points).   Before demonstrating graphing using the asymptote and two points, we graph an exponential with shifts as well.   Graph the equation .  First, we identify that this is a modified version of . Next we identify the changes. The -1 is a horizontal shift. The 3 is a vertical stretch. The +4 is a vertical shift. We perform the changes in this order (following order of operations).These are shown in the graph below. Graph A is the original. B shows the horizontal shift. C shows the vertical stretch. D adds the vertical shift. The labels are located to show how one point is transformed by each step. Notice that the asymptote was moved up 4 units by the vertical shift as well.   Again, we could have sketched the asymptote knowing only the vertical shift would change it. Then we could plot points at . The curve is then sketched down to the left (to approach the asymptote) and up to the right with steepness determined by the second point.   Now that we have practiced using the various transformations, we can look at how a graph can be produced from just two, particular points. First, we consider that ; no matter the base the zeroth power is 1. Thus the first of the two points has the x coordinate such that the base is raised to the zero power. Second, we know that the asymptote is one unit below this point. Once we locate this first point, we can sketch the asymptote.  Third, we note that , , . Thus the base can be determined by looking at the point with x coordinate one unit left\/right from the first point. In the following example we use these three ideas to identify the shifts and reflection.   Graph the equation .  First, we calculate the x value where . This is where or . This implies that the curve is shifted to the left (we start graphing two left of zero instead of at zero). At we calculate . We can plot this point.  Because the asymptote is always one unit lower than this point, we now know the asymptote is .  Because this is an increasing exponential (positive exponent), the next point we want is one unit to the right. . At this x value we calculate . Because we know the asymptote is at , we know this point is units above the asymptote. This matches the base of 3 (i.e., the 3 in ).  So from these two points, we can determine the asymptote, the base, and the vertical shift. This is enough for graphing. When you graph exponentials in exercises you will enter these two points, and the software will calculate the rest using these ideas.   Similar ideas enable us to use just two points if we have horizontal or vertical stretches, but the explanation is more complicated than is useful in this text. We should be aware that a vertical stretch means the asymptote is not one unit beneath the first point ( in the example above), because the stretch, stretches that distance. For example for the asymptote is at , the first, convenient point is at which gives . This is 3 above the asmyptote instead of just 1.   The following examples use these ideas in reverse as you will be expected to do. We read the base, vertical shift, and horizontal shift from a graph.   The graph below is of the equation . Determine the values of , , and .   First, we notice by looking at the left side of the graph that the asymptote is at . The asymptote is also the vertical shift, i.e., .  We know there will be a point one unit higher ( ). This occurs at . This is the horizontal shift .  Finally, we can look one unit to the right of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is    The graph below is of the equation . Determine the values of , the sign, , and .   First, we notice that the graph decreases to the right instead of the left. We know this is a reflection so it will be .  Second, we notice by looking at the right side of the graph that the asymptote is at . The asymptote is also the vertical shift, i.e., .  We know there will be a point one unit higher ( ). This occurs at . This is the horizontal shift .  Finally, we can look one unit to the left of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is        Identifying Exponential Graphs  When we look at data, which may not be labeled as linear, quadratic, or exponential, how can we quickly determine which one it is? Look at the four examples below and try to determine which growth rate each has. Note one graph is a growth rate we have not covered.   Identify the Rates of these Charts     Bar Chart 1     Bar Chart 2       Bar Chart 3     Bar Chart 4       A linear relationship is defined by the differences between pairs of data points being the same. On bar graphs this means the difference in height between consecutive bars must be the same. If we compare the change from January to February to the change from November to December we see that they are vastly different (very small early and much larger later). For however, the increase between bar heights looks the same. If we wished, we could use a ruler to measure and convince ourselves. This appears to be linear.  An exponential relationship can be recognized by the ratio between pairs of data points being the same. This is hard to use on a bar graph, because it means the height of each bar is a multiple of the previous. For example each bar would be 2 or 3 times as high. This would be hard to identify if each bar is 2.3 times as high however. Rather we will use two, alternative traits.  We know that the graph of an exponential is nearly flat in one direction and very steep in the other. does not appear to flatten heading left. The bottom two graphs do have this flat appearance to the left. The other trait is that the differences of consecutive terms in an exponential relationship are the same scale as the entries. This means the change in height of consecutive bars should be on scale with the size of a bar. Consider September and October on . The change in height from September to October looks like the height of the September bar. In contrast the change in height from September to October in is much less than the height of the September bar. Thus we can be convinced that the data in is exponential and none of the others are.  We identify quadratic data by looking at the second differences. To do this on a bar graph would mean constructing a bar graph where each new bar's height is the change in height of consecutive bars on the original graph. Then we would look if this new bar graph was linear. This is not a reasonable task. We would be better off asking for the original data.  The two bar graphs on the right have different relationships: one is quadratic, the other is not. Both can be described in the same terms (e.g., change in heights is increasing). This is a warning to not make many assumptions about data from limited data or simple graphs.    Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice  Contextless Practice   Contextless Practice  Contextless Practice  Interpreting (Contextless)  Interpreting (Contextless)  Interpreting (Contextless)  Interpreting (Contextless)   "
+  "body": " Graphs of Exponential Functions   This section addresses the following topics.  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    We have learned how to identify exponential data ( ) and have learned to work with some exponential applications ( ). This section presents the graph (shape) of exponentials and emphasizes two traits of exponential models.  Because devices can quickly produce accurate graphs for us, it is not the goal of this section to help you become proficiant at sketching graphs. Rather, it is the goal for you to be able to read a model, and recognize what different parts of the model imply, because you know what it would look like.    Shape of Exponentials  In order to understand the graph of an exponential function we are going to graph one that is not limited by interpretation or rounding.   Graph .  First we will generate a table of points with which to start.                       We can plot these points then sketch a curve smoothly through the points.   Starting at consider the curve as it extends to the right. We can use the analogy of walking up hill to understand this curve. At we are walking up hill so we are a little slower than on a flat surface. At the height has doubled but so also has the slope (remember the differences are a multiple of the height). Walking the next segment will be more strenuous. At the height has doubled again, so also has the steepness. Now it is too steep to walk. We will need to scramble or use climbing equipment. Generally an exponential curve becomes increasingly steep.  Starting back at again consider the curve as it extends to the left. We can see that we are walking downhill; we might pick up a little speed. At it continues downhill to the left but it is not enough to help us maintain a faster speed. At we can no longer see the downhill (too gentle) though we would notice it if we were on a bike or skateboard. Just as the curve becomes twice as high and also twice as steep as we move the to right, it becomes half as high and half as steep as we go to the left. The inability to see the downhill nature illustrates that the exponential to the left begins to look like a horizontal line.  Let's clarify that last statement. We notice that all values (left and right) are positive. So to the left the curve is going down, but it never crosses zero. It must therefore become increasingly close to zero. This is why it begins to look like a line namely . When one curve becomes increasingly like another we call that second curve (the line in this case) an asymptote .   This decrease to the left can be understood in contexts as well.   In we determined that the amount of bacteria was modeled by . Initially ( ) there are 30 g of bacteria. Now we will calculate how much bacteria there was before this initial measurement.        Time  Mass of Bacteria                                  We notice that the amount of bacteria decreases. More specifically we see that it is divided in half each time. This is just the reverse of it doubling each time as it grows.  We also notice that because each previous entry is half of the next, there is always some left. No matter how far back in time we go, there will always be some. This is part of all exponentials: rapid growth in one direction and an increasingly gentle decrease toward some amount (zero in this case) in the other direction.  The model measures the bacteria by weight in grams. This can always be cut in half. What reality constraint should we put on this model?   Not all exponential curves increase to the right and decrease to the left. Some reverse (mirror) this pattern. The following example uses radioactive decay as an example of this.    Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with g of uranium-242.   How much is left at times 16.8, 33.6, and 50.4 minutes? At time 0 we have g. At time 16.8 it will be half of the original which is g. The 1\/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again ( , 2nd half-life). Thus there will be g. At time 50.4 it will be reduced by half a third time ( ), so the amount remaining will be g.  Write a model for this decay. We can use the process from . The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is .  Graph this model. We can use the points from the first task and the method from to produce a graph. Notice the gentle decrease toward zero is to the right this time as opposed to the left in . That is because we are cutting in half each time instead of doubling.   The following video illustrates the connection between a fixed time (half-life) and decreasing by a ratio (1\/2).   Geometric Illustration of Half-Life      Transforming Exponential Functions  In we learned how to shift and stretch parabolas (graphs of quadratics). Those same transformations work on exponentials (and any other function). The following examples illustrate that the effects are the same.   Translate an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                Notice that every point is 3 units higher than the point in the original graph. We have moved the graph 3 units up.    Stretch an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                    Notice that every point is 3 times farther from the x-axis. This makes it 3 times steeper.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                                   Notice that every point end up on the other side of the y-axis. This is a reflection of the original curve.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the . Because this changes the x value, we will need a different set of inputs. Look at the result to understand why we selected them.                                                                              We ended up with the same y values, but they occurred spread out over a wider area. Multiplying stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).   Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is where and represent the horizontal and vertical shifts respectively. and represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.   Graph the model from . In order to match our examples above we can express the exponent as . We simply calculated and maintained 5 significant digits.  First, we identify the changes from . The 7.000 in front is a vertical stretch. The negative in the exponent is a reflection over the y-axis. The coefficient of the exponent is a horizontal stretch. We can make these changes in order of operation: horizontal stretch, reflection, vertical stretch. These are shown in the graph below. Graph A is the original. B shows the horizontal stretch. C shows the reflection. D adds the vertical stretch. The labels are located to show how one point is transformed by each step.   Looking at the final graph we can note that we really needed only three details to graph it. These are the asymptote (which remained unchanged from here) and two points. One point tells us where to start and the other indicates how steep (because of the change between the two points).   Before demonstrating graphing using the asymptote and two points, we graph an exponential with shifts as well.   Graph the equation .  First, we identify that this is a modified version of . Next we identify the changes. The -1 is a horizontal shift. The 3 is a vertical stretch. The +4 is a vertical shift. We perform the changes in this order (following order of operations).These are shown in the graph below. Graph A is the original. B shows the horizontal shift. C shows the vertical stretch. D adds the vertical shift. The labels are located to show how one point is transformed by each step. Notice that the asymptote was moved up 4 units by the vertical shift as well.   Again, we could have sketched the asymptote knowing only the vertical shift would change it. Then we could plot points at . The curve is then sketched down to the left (to approach the asymptote) and up to the right with steepness determined by the second point.   Now that we have practiced using the various transformations, we can look at how a graph can be produced from just two, particular points. First, we consider that ; no matter the base the zeroth power is 1. Thus the first of the two points has the x coordinate such that the base is raised to the zero power. Second, we know that the asymptote is one unit below this point. Once we locate this first point, we can sketch the asymptote.  Third, we note that , , . Thus the base can be determined by looking at the point with x coordinate one unit left\/right from the first point. In the following example we use these three ideas to identify the shifts and reflection.   Graph the equation .  First, we calculate the x value where . This is where or . This implies that the curve is shifted to the left (we start graphing two left of zero instead of at zero). At we calculate . We can plot this point.  Because the asymptote is always one unit lower than this point, we now know the asymptote is .  Because this is an increasing exponential (positive exponent), the next point we want is one unit to the right. . At this x value we calculate . Because we know the asymptote is at , we know this point is units above the asymptote. This matches the base of 3 (i.e., the 3 in ).  So from these two points, we can determine the asymptote, the base, and the vertical shift. This is enough for graphing. When you graph exponentials in exercises you will enter these two points, and the software will calculate the rest using these ideas.   Similar ideas enable us to use just two points if we have horizontal or vertical stretches, but the explanation is more complicated than is useful in this text. We should be aware that a vertical stretch means the asymptote is not one unit beneath the first point ( in the example above), because the stretch, stretches that distance. For example for the asymptote is at , the first, convenient point is at which gives . This is 3 above the asmyptote instead of just 1.   The following examples use these ideas in reverse as you will be expected to do. We read the base, vertical shift, and horizontal shift from a graph.   The graph below is of the equation . Determine the values of , , and .   First, we notice by looking at the left side of the graph that the asymptote is at . The asymptote is also the vertical shift, i.e., .  We know there will be a point one unit higher ( ). This occurs at . This is the horizontal shift .  Finally, we can look one unit to the right of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is    The graph below is of the equation . Determine the values of , the sign, , and .   First, we notice that the graph decreases to the right instead of the left. We know this is a reflection so it will be .  Second, we notice by looking at the right side of the graph that the asymptote is at . The asymptote is also the vertical shift, i.e., .  We know there will be a point one unit higher ( ). This occurs at . This is the horizontal shift .  Finally, we can look one unit to the left of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is        Identifying Exponential Graphs  When we look at data, which may not be labeled as linear, quadratic, or exponential, how can we quickly determine which one it is? Look at the four examples below and try to determine which growth rate each has. Note one graph is a growth rate we have not covered.   Identify the Rates of these Charts     Bar Chart 1     Bar Chart 2       Bar Chart 3     Bar Chart 4       A linear relationship is defined by the differences between pairs of data points being the same. On bar graphs this means the difference in height between consecutive bars must be the same. If we compare the change from January to February to the change from November to December we see that they are vastly different (very small early and much larger later). For however, the increase between bar heights looks the same. If we wished, we could use a ruler to measure and convince ourselves. This appears to be linear.  An exponential relationship can be recognized by the ratio between pairs of data points being the same. This is hard to use on a bar graph, because it means the height of each bar is a multiple of the previous. For example each bar would be 2 or 3 times as high. This would be hard to identify if each bar is 2.3 times as high however. Rather we will use two, alternative traits.  We know that the graph of an exponential is nearly flat in one direction and very steep in the other. does not appear to flatten heading left. The bottom two graphs do have this flat appearance to the left. The other trait is that the differences of consecutive terms in an exponential relationship are the same scale as the entries. This means the change in height of consecutive bars should be on scale with the size of a bar. Consider September and October on . The change in height from September to October looks like the height of the September bar. In contrast the change in height from September to October in is much less than the height of the September bar. Thus we can be convinced that the data in is exponential and none of the others are.  We identify quadratic data by looking at the second differences. To do this on a bar graph would mean constructing a bar graph where each new bar's height is the change in height of consecutive bars on the original graph. Then we would look if this new bar graph was linear. This is not a reasonable task. We would be better off asking for the original data.  The two bar graphs on the right have different relationships: one is quadratic, the other is not. Both can be described in the same terms (e.g., change in heights is increasing). This is a warning to not make many assumptions about data from limited data or simple graphs.     Identify the Exponential Function   Use the information provided to write an equation for each exponential function.         Graph the Exponential   Distinguish Growth and Decay   For each problem determine if it is a case of exponential growth or decay.           "
 },
 {
   "id": "example-graph-exponential-continous",
@@ -7462,103 +7462,112 @@ var ptx_lunr_docs = [
   "body": " Identify the Rates of these Charts     Bar Chart 1     Bar Chart 2       Bar Chart 3     Bar Chart 4      "
 },
 {
-  "id": "section-exponential-graph-6-1",
+  "id": "section-exponential-graph-6-1-3",
   "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-1",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-1-3",
   "type": "Exercise",
   "number": "6.2.4.1",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-exponential-graph-6-1-4",
+  "level": "2",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-1-4",
+  "type": "Exercise",
+  "number": "6.2.4.2",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-exponential-graph-6-1-5",
+  "level": "2",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-1-5",
+  "type": "Exercise",
+  "number": "6.2.4.3",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-exponential-graph-6-1-6",
+  "level": "2",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-1-6",
+  "type": "Exercise",
+  "number": "6.2.4.4",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-exponential-graph-6-1-7",
+  "level": "2",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-1-7",
+  "type": "Exercise",
+  "number": "6.2.4.5",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-exponential-graph-6-2",
   "level": "2",
   "url": "section-exponential-graph.html#section-exponential-graph-6-2",
   "type": "Exercise",
-  "number": "6.2.4.2",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
-},
-{
-  "id": "section-exponential-graph-6-3",
-  "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-3",
-  "type": "Exercise",
-  "number": "6.2.4.3",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
-},
-{
-  "id": "section-exponential-graph-6-4",
-  "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-4",
-  "type": "Exercise",
-  "number": "6.2.4.4",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
-},
-{
-  "id": "section-exponential-graph-6-5",
-  "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-5",
-  "type": "Exercise",
-  "number": "6.2.4.5",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
-},
-{
-  "id": "section-exponential-graph-6-6",
-  "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-6",
-  "type": "Exercise",
   "number": "6.2.4.6",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "title": "Graph the Exponential.",
+  "body": "Graph the Exponential "
 },
 {
-  "id": "section-exponential-graph-6-7",
+  "id": "section-exponential-graph-6-3-3",
   "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-7",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-3-3",
   "type": "Exercise",
   "number": "6.2.4.7",
-  "title": "Contextless Practice.",
-  "body": "Contextless Practice "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-graph-6-8",
+  "id": "section-exponential-graph-6-3-4",
   "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-8",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-3-4",
   "type": "Exercise",
   "number": "6.2.4.8",
-  "title": "Interpreting (Contextless).",
-  "body": "Interpreting (Contextless) "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-graph-6-9",
+  "id": "section-exponential-graph-6-3-5",
   "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-9",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-3-5",
   "type": "Exercise",
   "number": "6.2.4.9",
-  "title": "Interpreting (Contextless).",
-  "body": "Interpreting (Contextless) "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-graph-6-10",
+  "id": "section-exponential-graph-6-3-6",
   "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-10",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-3-6",
   "type": "Exercise",
   "number": "6.2.4.10",
-  "title": "Interpreting (Contextless).",
-  "body": "Interpreting (Contextless) "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-exponential-graph-6-11",
+  "id": "section-exponential-graph-6-3-7",
   "level": "2",
-  "url": "section-exponential-graph.html#section-exponential-graph-6-11",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-3-7",
   "type": "Exercise",
   "number": "6.2.4.11",
-  "title": "Interpreting (Contextless).",
-  "body": "Interpreting (Contextless) "
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-exponential-graph-6-3-8",
+  "level": "2",
+  "url": "section-exponential-graph.html#section-exponential-graph-6-3-8",
+  "type": "Exercise",
+  "number": "6.2.4.12",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm",
@@ -7567,7 +7576,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Logarithm Properties",
-  "body": " Logarithm Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)    The previous two sections presented exponential models, and we answered some questions about applications using these models. In order to solve more problems involving exponential models we need the logarithm which is presented here. This section presents a definition of the logarithm as well as presenting how to graph them and one application. These latter will help us understand how it works.  Historically logarithms also have a connection to drunk pigeons and a Scotsman's bones.    Definition of Logarithm  The following definition is commonly used when we are using logarithms to solve equations.   Logarithm  if and only if   This definition is simply that the logarithm is the opposite of an exponential in the same sort of way that a square root is the opposite of a square.   Each of the following is a conversion between exponential and logarithmic notation.  is the same as .  is the same as .  is the same as .       Graphing Logarithms  The purposes of this section are to become proficient with the defition through practice, and to understand the logarithm through practice and seeing its graph.   We will graph . As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.  While we would normally pick values like plug that in, producing , and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is .                                    To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.                              Notice that as promised we do not have a point with . This is because our method works only on values of that are powers of 2.  To obtain points left of we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.                               Again we produce points on the graph of the logarithm by swapping the x and y coordinates.                          These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider means . However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.  The graph of based on these points is below.    Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm.  Next we consider the shape of the graph and what it tells us about logarithms. The first question is how high the logarithm curve grows. To explain this question consider below. As we look from left to right both curves are always increasing. Both curves increase by less as we go to the right. However, the lower (blue, dashed) curve levels off. That is it never increases above . We want to know if the logarithm curve ever levels off.   Graph of two always increasing curves     Consider the example . We know from the table above that it grows above . Consider whether it grows above . This would mean . We know it is easier to calculate this logarithm for powers of 2 so instead we consider . Does it grow above . We can use  By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., and increase forever as well).  In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.   We claimed above that the two graphs in increase more slowly as they continue to the right. The next example explains why this is true of the graph of a logarithm.   Looking at the table of points for in we note that the curve increased by 1 in height from to . The next increase of 1 in height is at . The next one is at . This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was . This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.   The final trait of the graph of a logarithm to consider is what happens as the graph goes to the left. We have already established that it is not defined for negative x values. However, the graph does not have a starting point (first point on the left). The next example illustrates the asymptotic nature of the left part of the graph.   First consider the question, is there an x value such that ? We know that . If we plug in negative values we obtain fractions, e.g., . If we use a bigger negative number (e.g., -29) we end up with a smaller fraction ( ). No matter how far we go, 0 is never the result. Because of this is not defined.  The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches ), so the logarithm curve has an asymptote to the left, namely .   Putting these traits together we realize the graph of any logarithm can be determined by the vertical asymptote and two points. This matches exponential graphs. From the left most point we draw asymptotically toward the vertical asymptote. To the right we draw with a slight increase.     Special Logarithms  Some logarithms occur sufficiently frequently in applications that they have their own notation.  Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: common logs . This is written without the base. For example is the same as .  In science and from mathematics we need another log called the natural logarithm . This is written as (for logarithm natural). Natural logarithms are paired with the base . So is the same as . is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious .     Logarithmic Scale  This section demonstrates how logarithms can be used to better analyze data. The technique is to modify how we graph, specifically how we label one axis.  Often the scales on the two axes are different. Consider the graph of in above. The x-axis is labeled 0 to 16 and the y-axis is labeled - 4 to 4. That means the x-axis, though it takes up the same length of area as the y-axis represents 16 units to the y-axis' 8 units. We do this because many graphs would otherwise be too tall or too wide to fit.  What these graphs do require is that each tick mark represents the same number of units. For example on the graph of this log, every tick mark on the x-axis represents one unit (only half are labeled). On the y-axis every tick mark represents 1\/2 unit (only half are labeled). Sometimes this requirement means it is hard to read a graph.  Consider the two graphs in . Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left (normal scale) or the version on the right (log scale)?   Comparison of Scales    Normal Scale     Log Scale      The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing .  When is this scale useful? Any time data is growing by a multiple rather. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. For example consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).  Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.  Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. That is, we perceive things based on how much of a multiple they are of current condition rather than how much is added. For example, a 10 degree temperature change feels like more of change if the initial temperature is F (when it is half of the current value) than if it is F (now only one fifth of the current value).     Calculate using logarithms  Notation  Notation  Notation  Notation  Notation  Evaluate  Evaluate  Notation  Notation  Solve  Solve  Solve  Solve  Solve  Solve  Solve  Application    Graph Logarithms  Graphs  Graphs  Graphs  Graphs  Graphs    "
+  "body": " Logarithm Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)    The previous two sections presented exponential models, and we answered some questions about applications using these models. In order to solve more problems involving exponential models we need the logarithm which is presented here. This section presents a definition of the logarithm as well as presenting how to graph them and one application. These latter will help us understand how it works.  Historically logarithms also have a connection to drunk pigeons and a Scotsman's bones.    Definition of Logarithm  The following definition is commonly used when we are using logarithms to solve equations.   Logarithm  if and only if   This definition is simply that the logarithm is the opposite of an exponential in the same sort of way that a square root is the opposite of a square.   Each of the following is a conversion between exponential and logarithmic notation.  is the same as .  is the same as .  is the same as .       Graphing Logarithms  The purposes of this section are to become proficient with the defition through practice, and to understand the logarithm through practice and seeing its graph.   We will graph . As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.  While we would normally pick values like plug that in, producing , and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is .                                    To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.                              Notice that as promised we do not have a point with . This is because our method works only on values of that are powers of 2.  To obtain points left of we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.                               Again we produce points on the graph of the logarithm by swapping the x and y coordinates.                          These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider means . However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.  The graph of based on these points is below.    Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm.  Next we consider the shape of the graph and what it tells us about logarithms. The first question is how high the logarithm curve grows. To explain this question consider below. As we look from left to right both curves are always increasing. Both curves increase by less as we go to the right. However, the lower (blue, dashed) curve levels off. That is it never increases above . We want to know if the logarithm curve ever levels off.   Graph of two always increasing curves     Consider the example . We know from the table above that it grows above . Consider whether it grows above . This would mean . We know it is easier to calculate this logarithm for powers of 2 so instead we consider . Does it grow above . We can use  By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., and increase forever as well).  In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.   We claimed above that the two graphs in increase more slowly as they continue to the right. The next example explains why this is true of the graph of a logarithm.   Looking at the table of points for in we note that the curve increased by 1 in height from to . The next increase of 1 in height is at . The next one is at . This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was . This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.   The final trait of the graph of a logarithm to consider is what happens as the graph goes to the left. We have already established that it is not defined for negative x values. However, the graph does not have a starting point (first point on the left). The next example illustrates the asymptotic nature of the left part of the graph.   First consider the question, is there an x value such that ? We know that . If we plug in negative values we obtain fractions, e.g., . If we use a bigger negative number (e.g., -29) we end up with a smaller fraction ( ). No matter how far we go, 0 is never the result. Because of this is not defined.  The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches ), so the logarithm curve has an asymptote to the left, namely .   Putting these traits together we realize the graph of any logarithm can be determined by the vertical asymptote and two points. This matches exponential graphs. From the left most point we draw asymptotically toward the vertical asymptote. To the right we draw with a slight increase.     Special Logarithms  Some logarithms occur sufficiently frequently in applications that they have their own notation.  Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: common logs . This is written without the base. For example is the same as .  In science and from mathematics we need another log called the natural logarithm . This is written as (for logarithm natural). Natural logarithms are paired with the base . So is the same as . is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious .     Logarithmic Scale  This section demonstrates how logarithms can be used to better analyze data. The technique is to modify how we graph, specifically how we label one axis.  Often the scales on the two axes are different. Consider the graph of in above. The x-axis is labeled 0 to 16 and the y-axis is labeled - 4 to 4. That means the x-axis, though it takes up the same length of area as the y-axis represents 16 units to the y-axis' 8 units. We do this because many graphs would otherwise be too tall or too wide to fit.  What these graphs do require is that each tick mark represents the same number of units. For example on the graph of this log, every tick mark on the x-axis represents one unit (only half are labeled). On the y-axis every tick mark represents 1\/2 unit (only half are labeled). Sometimes this requirement means it is hard to read a graph.  Consider the two graphs in . Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left (normal scale) or the version on the right (log scale)?   Comparison of Scales    Normal Scale     Log Scale      The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing .  When is this scale useful? Any time data is growing by a multiple rather. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. For example consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).  Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.  Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. That is, we perceive things based on how much of a multiple they are of current condition rather than how much is added. For example, a 10 degree temperature change feels like more of change if the initial temperature is F (when it is half of the current value) than if it is F (now only one fifth of the current value).     Evaluate the Logarithms   Evaluate the logarithm using the definition or a device as directed.              Solve Logarithms   Use the definition of logarithm to solve each equation.           Application   Graph Logarithms   Graph Logarithms          "
 },
 {
   "id": "section-logarithm-2-2",
@@ -7714,202 +7723,202 @@ var ptx_lunr_docs = [
   "body": " Comparison of Scales    Normal Scale     Log Scale     "
 },
 {
-  "id": "section-logarithm-7-1-2",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-2",
-  "type": "Exercise",
-  "number": "6.3.5.1",
-  "title": "Notation.",
-  "body": "Notation "
-},
-{
   "id": "section-logarithm-7-1-3",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-3",
   "type": "Exercise",
-  "number": "6.3.5.2",
-  "title": "Notation.",
-  "body": "Notation "
+  "number": "6.3.5.1",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-4",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-4",
   "type": "Exercise",
-  "number": "6.3.5.3",
-  "title": "Notation.",
-  "body": "Notation "
+  "number": "6.3.5.2",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-5",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-5",
   "type": "Exercise",
-  "number": "6.3.5.4",
-  "title": "Notation.",
-  "body": "Notation "
+  "number": "6.3.5.3",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-6",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-6",
   "type": "Exercise",
-  "number": "6.3.5.5",
-  "title": "Notation.",
-  "body": "Notation "
+  "number": "6.3.5.4",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-7",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-7",
   "type": "Exercise",
-  "number": "6.3.5.6",
-  "title": "Evaluate.",
-  "body": "Evaluate "
+  "number": "6.3.5.5",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-8",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-8",
   "type": "Exercise",
-  "number": "6.3.5.7",
-  "title": "Evaluate.",
-  "body": "Evaluate "
+  "number": "6.3.5.6",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-9",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-9",
   "type": "Exercise",
-  "number": "6.3.5.8",
-  "title": "Notation.",
-  "body": "Notation "
+  "number": "6.3.5.7",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-10",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-10",
   "type": "Exercise",
-  "number": "6.3.5.9",
-  "title": "Notation.",
-  "body": "Notation "
+  "number": "6.3.5.8",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-1-11",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-1-11",
   "type": "Exercise",
-  "number": "6.3.5.10",
-  "title": "Solve.",
-  "body": "Solve "
-},
-{
-  "id": "section-logarithm-7-1-12",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-12",
-  "type": "Exercise",
-  "number": "6.3.5.11",
-  "title": "Solve.",
-  "body": "Solve "
-},
-{
-  "id": "section-logarithm-7-1-13",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-13",
-  "type": "Exercise",
-  "number": "6.3.5.12",
-  "title": "Solve.",
-  "body": "Solve "
-},
-{
-  "id": "section-logarithm-7-1-14",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-14",
-  "type": "Exercise",
-  "number": "6.3.5.13",
-  "title": "Solve.",
-  "body": "Solve "
-},
-{
-  "id": "section-logarithm-7-1-15",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-15",
-  "type": "Exercise",
-  "number": "6.3.5.14",
-  "title": "Solve.",
-  "body": "Solve "
-},
-{
-  "id": "section-logarithm-7-1-16",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-16",
-  "type": "Exercise",
-  "number": "6.3.5.15",
-  "title": "Solve.",
-  "body": "Solve "
-},
-{
-  "id": "section-logarithm-7-1-17",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-17",
-  "type": "Exercise",
-  "number": "6.3.5.16",
-  "title": "Solve.",
-  "body": "Solve "
-},
-{
-  "id": "section-logarithm-7-1-18",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-1-18",
-  "type": "Exercise",
-  "number": "6.3.5.17",
-  "title": "Application.",
-  "body": "Application "
-},
-{
-  "id": "section-logarithm-7-2-2",
-  "level": "2",
-  "url": "section-logarithm.html#section-logarithm-7-2-2",
-  "type": "Exercise",
-  "number": "6.3.5.18",
-  "title": "Graphs.",
-  "body": "Graphs "
+  "number": "6.3.5.9",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-2-3",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-2-3",
   "type": "Exercise",
-  "number": "6.3.5.19",
-  "title": "Graphs.",
-  "body": "Graphs "
+  "number": "6.3.5.10",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-2-4",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-2-4",
   "type": "Exercise",
-  "number": "6.3.5.20",
-  "title": "Graphs.",
-  "body": "Graphs "
+  "number": "6.3.5.11",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-2-5",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-2-5",
   "type": "Exercise",
-  "number": "6.3.5.21",
-  "title": "Graphs.",
-  "body": "Graphs "
+  "number": "6.3.5.12",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-logarithm-7-2-6",
   "level": "2",
   "url": "section-logarithm.html#section-logarithm-7-2-6",
   "type": "Exercise",
+  "number": "6.3.5.13",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-2-7",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-2-7",
+  "type": "Exercise",
+  "number": "6.3.5.14",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-2-8",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-2-8",
+  "type": "Exercise",
+  "number": "6.3.5.15",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-2-9",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-2-9",
+  "type": "Exercise",
+  "number": "6.3.5.16",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-3",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-3",
+  "type": "Exercise",
+  "number": "6.3.5.17",
+  "title": "Application.",
+  "body": "Application "
+},
+{
+  "id": "section-logarithm-7-4-3",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-4-3",
+  "type": "Exercise",
+  "number": "6.3.5.18",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-4-4",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-4-4",
+  "type": "Exercise",
+  "number": "6.3.5.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-4-5",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-4-5",
+  "type": "Exercise",
+  "number": "6.3.5.20",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-4-6",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-4-6",
+  "type": "Exercise",
+  "number": "6.3.5.21",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-logarithm-7-4-7",
+  "level": "2",
+  "url": "section-logarithm.html#section-logarithm-7-4-7",
+  "type": "Exercise",
   "number": "6.3.5.22",
-  "title": "Graphs.",
-  "body": "Graphs "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve",
@@ -7918,7 +7927,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.4",
   "title": "Solving Equations Using Logarithm",
-  "body": " Solving Equations Using Logarithm   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.    Solving Equations with Exponentials  The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.   Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).   Solve .  Because the exponential is base 2, we will use a log base 2.    Your calculator likely does not have a button for calculating . We can use a property of all logarithms to solve this equation with the natural log. In general .   Solve . Round to units.   Your calculator does have a button for . Note this implies that . This relationship works for logs of any base.      Solving Equations with Logarithms  As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.   Solve . We can re-write this as which tells us that .    Solve .  First we combine the terms outside the logarithm, the we re-write that as an exponential.     Solve . Round to units.   We re-write this as an exponential.        Applications with Exponentials and Logarithms   In we produced the model . Here we will redo this problem using the model .  The bacteria lactobacilus acidophilus doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?  To use this model we must first calculate the constant . We know the amount doubles every 70 minutes, so we can start with the following. . Using this value we can now calculate the value after 24 hours. Note 24 hours is minutes.  This is kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.    Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.  Write the model for Plutonium-241. We must first calculate . We can use as an example. Thus the model is .  If a lab has 12.0g of Pu-241, how much will be left in 6 years?  We use the model from the previous step.    Note, that the example in and imply that . In particular we can convert the power of 2 to a power of e. More generally, we can write or or similar for some value of . The next example shows how we can perform this conversion.   Write as . Numbers are exact.  Thus .    pH (percent hydrogen)   Acidity is measured in pH (percent hydrogen). The calculation is where is the concentration of hydronium ions per mole. This is obtained experimentally.     A solution of hydrochloric acid has a concentration of 0.0025. Calculate its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .    What is the purpose behind defining pH using a log? What does it do, that simply giving the concentration of does not? The next example illustrates what the use of a log adds.   Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).    What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .   We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is times as strong. The log scale gives us growth as a ratio.   Moment Magnitude   Larger earthquakes today are measured and reported using the moment magnitude scale. This is calculated via where is the moment magnitude, and is the seismic moment in Newtons per meter (a measure of energy).     Based on seismic readings . What was the moment magnitude? These are rounded to one decimal place. Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .   Just as with pH, the moment magnitude seismic scale enables us to compare how much stronger one earthquake is than another. The 2\/3 means that a change of 1 is not 10 times as strong but a different ratio. Can you figure out what that ratio is?     Solve equations with logarithms and exponentials  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless  Contextless    Use logarithms and exponentials to work with applications.                "
+  "body": " Solving Equations Using Logarithm   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.    Solving Equations with Exponentials  The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.   Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).   Solve .  Because the exponential is base 2, we will use a log base 2.    Your calculator likely does not have a button for calculating . We can use a property of all logarithms to solve this equation with the natural log. In general .   Solve . Round to units.   Your calculator does have a button for . Note this implies that . This relationship works for logs of any base.      Solving Equations with Logarithms  As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.   Solve . We can re-write this as which tells us that .    Solve .  First we combine the terms outside the logarithm, the we re-write that as an exponential.     Solve . Round to units.   We re-write this as an exponential.        Applications with Exponentials and Logarithms   In we produced the model . Here we will redo this problem using the model .  The bacteria lactobacilus acidophilus doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?  To use this model we must first calculate the constant . We know the amount doubles every 70 minutes, so we can start with the following. . Using this value we can now calculate the value after 24 hours. Note 24 hours is minutes.  This is kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.    Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.  Write the model for Plutonium-241. We must first calculate . We can use as an example. Thus the model is .  If a lab has 12.0g of Pu-241, how much will be left in 6 years?  We use the model from the previous step.    Note, that the example in and imply that . In particular we can convert the power of 2 to a power of e. More generally, we can write or or similar for some value of . The next example shows how we can perform this conversion.   Write as . Numbers are exact.  Thus .    pH (percent hydrogen)   Acidity is measured in pH (percent hydrogen). The calculation is where is the concentration of hydronium ions per mole. This is obtained experimentally.     A solution of hydrochloric acid has a concentration of 0.0025. Calculate its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .    What is the purpose behind defining pH using a log? What does it do, that simply giving the concentration of does not? The next example illustrates what the use of a log adds.   Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).    What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .   We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is times as strong. The log scale gives us growth as a ratio.   Moment Magnitude   Larger earthquakes today are measured and reported using the moment magnitude scale. This is calculated via where is the moment magnitude, and is the seismic moment in Newtons per meter (a measure of energy).     Based on seismic readings . What was the moment magnitude? These are rounded to one decimal place. Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .   Just as with pH, the moment magnitude seismic scale enables us to compare how much stronger one earthquake is than another. The 2\/3 means that a change of 1 is not 10 times as strong but a different ratio. Can you figure out what that ratio is?     Solve Exponential and Logarithmic Equations   Solve each equation using the definitions or devices as directed.              Applications   Use logarithms and exponentials to answer questions about these applications.                 "
 },
 {
   "id": "example-solve-exponential-algebra1",
@@ -8083,92 +8092,83 @@ var ptx_lunr_docs = [
   "body": " Based on seismic readings . What was the moment magnitude? These are rounded to one decimal place. Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .  "
 },
 {
-  "id": "section-log-solve-6-1-2",
-  "level": "2",
-  "url": "section-log-solve.html#section-log-solve-6-1-2",
-  "type": "Exercise",
-  "number": "6.4.4.1",
-  "title": "Contextless.",
-  "body": "Contextless "
-},
-{
   "id": "section-log-solve-6-1-3",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-3",
   "type": "Exercise",
-  "number": "6.4.4.2",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.1",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve-6-1-4",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-4",
   "type": "Exercise",
-  "number": "6.4.4.3",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.2",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve-6-1-5",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-5",
   "type": "Exercise",
-  "number": "6.4.4.4",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.3",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve-6-1-6",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-6",
   "type": "Exercise",
-  "number": "6.4.4.5",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.4",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve-6-1-7",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-7",
   "type": "Exercise",
-  "number": "6.4.4.6",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.5",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve-6-1-8",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-8",
   "type": "Exercise",
-  "number": "6.4.4.7",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.6",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve-6-1-9",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-9",
   "type": "Exercise",
-  "number": "6.4.4.8",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.7",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-log-solve-6-1-10",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-1-10",
   "type": "Exercise",
-  "number": "6.4.4.9",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "number": "6.4.4.8",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-log-solve-6-2-2",
+  "id": "section-log-solve-6-1-11",
   "level": "2",
-  "url": "section-log-solve.html#section-log-solve-6-2-2",
+  "url": "section-log-solve.html#section-log-solve-6-1-11",
   "type": "Exercise",
-  "number": "6.4.4.10",
+  "number": "6.4.4.9",
   "title": "",
   "body": ""
 },
@@ -8177,7 +8177,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-3",
   "type": "Exercise",
-  "number": "6.4.4.11",
+  "number": "6.4.4.10",
   "title": "",
   "body": ""
 },
@@ -8186,7 +8186,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-4",
   "type": "Exercise",
-  "number": "6.4.4.12",
+  "number": "6.4.4.11",
   "title": "",
   "body": ""
 },
@@ -8195,7 +8195,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-5",
   "type": "Exercise",
-  "number": "6.4.4.13",
+  "number": "6.4.4.12",
   "title": "",
   "body": ""
 },
@@ -8204,7 +8204,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-6",
   "type": "Exercise",
-  "number": "6.4.4.14",
+  "number": "6.4.4.13",
   "title": "",
   "body": ""
 },
@@ -8213,7 +8213,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-7",
   "type": "Exercise",
-  "number": "6.4.4.15",
+  "number": "6.4.4.14",
   "title": "",
   "body": ""
 },
@@ -8222,7 +8222,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-8",
   "type": "Exercise",
-  "number": "6.4.4.16",
+  "number": "6.4.4.15",
   "title": "",
   "body": ""
 },
@@ -8231,7 +8231,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-9",
   "type": "Exercise",
-  "number": "6.4.4.17",
+  "number": "6.4.4.16",
   "title": "",
   "body": ""
 },
@@ -8240,7 +8240,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-10",
   "type": "Exercise",
-  "number": "6.4.4.18",
+  "number": "6.4.4.17",
   "title": "",
   "body": ""
 },
@@ -8249,7 +8249,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-11",
   "type": "Exercise",
-  "number": "6.4.4.19",
+  "number": "6.4.4.18",
   "title": "",
   "body": ""
 },
@@ -8258,7 +8258,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-12",
   "type": "Exercise",
-  "number": "6.4.4.20",
+  "number": "6.4.4.19",
   "title": "",
   "body": ""
 },
@@ -8266,6 +8266,15 @@ var ptx_lunr_docs = [
   "id": "section-log-solve-6-2-13",
   "level": "2",
   "url": "section-log-solve.html#section-log-solve-6-2-13",
+  "type": "Exercise",
+  "number": "6.4.4.20",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-log-solve-6-2-14",
+  "level": "2",
+  "url": "section-log-solve.html#section-log-solve-6-2-14",
   "type": "Exercise",
   "number": "6.4.4.21",
   "title": "",
@@ -8296,7 +8305,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Ratios",
-  "body": " Trigonometric Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    presented areas of triangles and a relationship between the three sides of a right triangle. This section and the following ones present relationships between angles of triangles and the lengths of their sides.    Angle Relationships in Triangles  The states a relationship between the side lengths of all right triangles. There is also a relationship between the three angles of all (not just right) triangles.   Triangle Angle Sum  The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know the measure of one angle is (right angle) and the measure of another angle is . Thus the third angle must satisfy    For a right triangle each of the other two angles have measure less than a right angle. This is a result of the theorem. so the remaining two angles have a sum that adds to . This implies both non-right angles are smaller than a right angle.    Defining Trig Functions  This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.  For right triangles we have names for the sides. Consider the labels in . These names are relative to the particular non-right angles with which we are working. In this case it is the one labeled . The adjacent is the side that connects the angle and the right angle. The opposite is the side touching the right angle but not touching the angle ( ). Both the adjacent and opposite sides are known as legs of the right triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology     Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.   The trigonometric functions are defined below as ratios of side lengths. We will use only the first three in this text.   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus  From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus     Solving Triangles  Now that we have defined trigonometric functions, we can use them to analyze triangles. The goal is to calculate all of the side lengths and\/or angles given only some of them.   For a right triangle with angle and corresponding opposite side of length 7, what are the other side lengths and angles?  First, we know that two of the angles are and , so the third angle has measure .  To calculate the length of the hypotenuse recall that . We know the angle and the length of the opposite. The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent. The adjacent has length 5.87.  Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.      Calculating lengths using trig functions  This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.  First, we define terminology we need to describe the applications.   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    Illustrations of Angles of Elevation and Depression    For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and\/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.   For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall? We can measure a tenth of a foot but not very easily measure a hundredth of a foot, especially for placing a ladder.  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall.    We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.    Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.  This forms a right triangle with angle 63 , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high.   Just as in and trigonometric functions and their inverses can be calculated to preserve the same number of significant digits.   Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold? Round to the nearest foot, because aircraft cannot be controlled sufficiently precisely for greater precision to matter here.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold.       Limitations on Triangle Side Lengths  We should always check that results of calculations make sense. This section presents limitations on triangles we can use for these reality checks.  It is possible to define the trigonometric functions as ratios of sides, because there is a connection between how big an angle is, and how big the side across from it must be. The following activity illustrates how the three main trigonometric functions change as the angle increases or decreases because of this connection between angle measure and length of sides.   This activity has two steps. First notice the relationship between the how big an angle is and how long the side opposite that angle is. Second notice how the trig functions change as a result of this first fact. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    While angle size and triangle side length is connected, we can always scale a triangle (e.g., make it twice as large) without changing the angles and hence not changing the trig function values. This is why the trig functions are defined as ratios: the scale is divided out.  Another way to look at this is to recall similar triangles ( ). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle opposite from the side of length 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).    Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?  If is the angle opposite from the side of length 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , call it . Putting these together gives us the following. The last line is included to show how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .   The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.   Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.   For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?  For a right triangle with the longest leg of length 4, how small can the hypotenuse become?      Use the Pythagorean Theorem and angle sum fact to calculate side lengths and angles.  Triangle Side Length  Triangle Side Length  Triangle Angles  Triangle Angles    Use the ratio definitions of trigonometric functions to answer these.  Right Triangle Side Names  Trig Function Definitions  Trig Function Value  Trig Function Value    Calculate side lengths and angles using trigonometric functions.  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length  Find a side length    Identify a triangle in each problem then select an appropriate trigonometric function to answer these application questions.                "
+  "body": " Trigonometric Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    presented areas of triangles and a relationship between the three sides of a right triangle. This section and the following ones present relationships between angles of triangles and the lengths of their sides.    Angle Relationships in Triangles  The states a relationship between the side lengths of all right triangles. There is also a relationship between the three angles of all (not just right) triangles.   Triangle Angle Sum  The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know the measure of one angle is (right angle) and the measure of another angle is . Thus the third angle must satisfy    For a right triangle each of the other two angles have measure less than a right angle. This is a result of the theorem. so the remaining two angles have a sum that adds to . This implies both non-right angles are smaller than a right angle.    Defining Trig Functions  This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.  For right triangles we have names for the sides. Consider the labels in . These names are relative to the particular non-right angles with which we are working. In this case it is the one labeled . The adjacent is the side that connects the angle and the right angle. The opposite is the side touching the right angle but not touching the angle ( ). Both the adjacent and opposite sides are known as legs of the right triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology     Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.   The trigonometric functions are defined below as ratios of side lengths. We will use only the first three in this text.   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths     Given the side lengths in what are each of the following trig ratios?  From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus  From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus     Solving Triangles  Now that we have defined trigonometric functions, we can use them to analyze triangles. The goal is to calculate all of the side lengths and\/or angles given only some of them.   For a right triangle with angle and corresponding opposite side of length 7, what are the other side lengths and angles?  First, we know that two of the angles are and , so the third angle has measure .  To calculate the length of the hypotenuse recall that . We know the angle and the length of the opposite. The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent. The adjacent has length 5.87.  Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.      Calculating lengths using trig functions  This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.  First, we define terminology we need to describe the applications.   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    Illustrations of Angles of Elevation and Depression    For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and\/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.   For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall? We can measure a tenth of a foot but not very easily measure a hundredth of a foot, especially for placing a ladder.  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall.    We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.    Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The shadow of a tree is measured to be 103 ft (measured from the base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.  This forms a right triangle with angle 63 , and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high.   Just as in and trigonometric functions and their inverses can be calculated to preserve the same number of significant digits.   Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold? Round to the nearest foot, because aircraft cannot be controlled sufficiently precisely for greater precision to matter here.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold.       Limitations on Triangle Side Lengths  We should always check that results of calculations make sense. This section presents limitations on triangles we can use for these reality checks.  It is possible to define the trigonometric functions as ratios of sides, because there is a connection between how big an angle is, and how big the side across from it must be. The following activity illustrates how the three main trigonometric functions change as the angle increases or decreases because of this connection between angle measure and length of sides.   This activity has two steps. First notice the relationship between the how big an angle is and how long the side opposite that angle is. Second notice how the trig functions change as a result of this first fact. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    While angle size and triangle side length is connected, we can always scale a triangle (e.g., make it twice as large) without changing the angles and hence not changing the trig function values. This is why the trig functions are defined as ratios: the scale is divided out.  Another way to look at this is to recall similar triangles ( ). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle opposite from the side of length 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).    Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?  If is the angle opposite from the side of length 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , call it . Putting these together gives us the following. The last line is included to show how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .   The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.   Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.   For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?  For a right triangle with the longest leg of length 4, how small can the hypotenuse become?      Angle Sum and Pythagorean Theorem  Use the Pythagorean Theorem and angle sum fact to calculate requested information.        Trigonmetric Function Definition  Use the ratio definitions of trigonometric functions to answer these questions.        Solving Right Triangles  Calculate side lengths and angles using trigonometric functions.          Applications  Identify a triangle in each problem then select an appropriate trigonometric function to answer these application questions.                "
 },
 {
   "id": "theorem-triangle-angle-sum",
@@ -8524,137 +8533,128 @@ var ptx_lunr_docs = [
   "body": " Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.   For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?  For a right triangle with the longest leg of length 4, how small can the hypotenuse become?  "
 },
 {
-  "id": "section-trig-functions-8-1-2",
-  "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-8-1-2",
-  "type": "Exercise",
-  "number": "7.1.6.1",
-  "title": "Triangle Side Length.",
-  "body": "Triangle Side Length "
-},
-{
   "id": "section-trig-functions-8-1-3",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-1-3",
   "type": "Exercise",
-  "number": "7.1.6.2",
-  "title": "Triangle Side Length.",
-  "body": "Triangle Side Length "
+  "number": "7.1.6.1",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-1-4",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-1-4",
   "type": "Exercise",
-  "number": "7.1.6.3",
-  "title": "Triangle Angles.",
-  "body": "Triangle Angles "
+  "number": "7.1.6.2",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-1-5",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-1-5",
   "type": "Exercise",
-  "number": "7.1.6.4",
-  "title": "Triangle Angles.",
-  "body": "Triangle Angles "
+  "number": "7.1.6.3",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-functions-8-2-2",
+  "id": "section-trig-functions-8-1-6",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-8-2-2",
+  "url": "section-trig-functions.html#section-trig-functions-8-1-6",
   "type": "Exercise",
-  "number": "7.1.6.5",
-  "title": "Right Triangle Side Names.",
-  "body": "Right Triangle Side Names "
+  "number": "7.1.6.4",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-2-3",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-2-3",
   "type": "Exercise",
-  "number": "7.1.6.6",
-  "title": "Trig Function Definitions.",
-  "body": "Trig Function Definitions "
+  "number": "7.1.6.5",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-2-4",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-2-4",
   "type": "Exercise",
-  "number": "7.1.6.7",
-  "title": "Trig Function Value.",
-  "body": "Trig Function Value "
+  "number": "7.1.6.6",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-2-5",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-2-5",
   "type": "Exercise",
-  "number": "7.1.6.8",
-  "title": "Trig Function Value.",
-  "body": "Trig Function Value "
+  "number": "7.1.6.7",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-functions-8-3-2",
+  "id": "section-trig-functions-8-2-6",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-8-3-2",
+  "url": "section-trig-functions.html#section-trig-functions-8-2-6",
   "type": "Exercise",
-  "number": "7.1.6.9",
-  "title": "Find a side length.",
-  "body": "Find a side length "
+  "number": "7.1.6.8",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-3-3",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-3-3",
   "type": "Exercise",
-  "number": "7.1.6.10",
-  "title": "Find a side length.",
-  "body": "Find a side length "
+  "number": "7.1.6.9",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-3-4",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-3-4",
   "type": "Exercise",
-  "number": "7.1.6.11",
-  "title": "Find a side length.",
-  "body": "Find a side length "
+  "number": "7.1.6.10",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-3-5",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-3-5",
   "type": "Exercise",
-  "number": "7.1.6.12",
-  "title": "Find a side length.",
-  "body": "Find a side length "
+  "number": "7.1.6.11",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-3-6",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-3-6",
   "type": "Exercise",
-  "number": "7.1.6.13",
-  "title": "Find a side length.",
-  "body": "Find a side length "
+  "number": "7.1.6.12",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-functions-8-3-7",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-3-7",
   "type": "Exercise",
-  "number": "7.1.6.14",
-  "title": "Find a side length.",
-  "body": "Find a side length "
+  "number": "7.1.6.13",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-functions-8-4-2",
+  "id": "section-trig-functions-8-3-8",
   "level": "2",
-  "url": "section-trig-functions.html#section-trig-functions-8-4-2",
+  "url": "section-trig-functions.html#section-trig-functions-8-3-8",
   "type": "Exercise",
-  "number": "7.1.6.15",
+  "number": "7.1.6.14",
   "title": "",
   "body": ""
 },
@@ -8663,7 +8663,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-3",
   "type": "Exercise",
-  "number": "7.1.6.16",
+  "number": "7.1.6.15",
   "title": "",
   "body": ""
 },
@@ -8672,7 +8672,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-4",
   "type": "Exercise",
-  "number": "7.1.6.17",
+  "number": "7.1.6.16",
   "title": "",
   "body": ""
 },
@@ -8681,7 +8681,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-5",
   "type": "Exercise",
-  "number": "7.1.6.18",
+  "number": "7.1.6.17",
   "title": "",
   "body": ""
 },
@@ -8690,7 +8690,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-6",
   "type": "Exercise",
-  "number": "7.1.6.19",
+  "number": "7.1.6.18",
   "title": "",
   "body": ""
 },
@@ -8699,7 +8699,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-7",
   "type": "Exercise",
-  "number": "7.1.6.20",
+  "number": "7.1.6.19",
   "title": "",
   "body": ""
 },
@@ -8708,7 +8708,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-8",
   "type": "Exercise",
-  "number": "7.1.6.21",
+  "number": "7.1.6.20",
   "title": "",
   "body": ""
 },
@@ -8717,7 +8717,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-9",
   "type": "Exercise",
-  "number": "7.1.6.22",
+  "number": "7.1.6.21",
   "title": "",
   "body": ""
 },
@@ -8726,7 +8726,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-10",
   "type": "Exercise",
-  "number": "7.1.6.23",
+  "number": "7.1.6.22",
   "title": "",
   "body": ""
 },
@@ -8735,7 +8735,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-11",
   "type": "Exercise",
-  "number": "7.1.6.24",
+  "number": "7.1.6.23",
   "title": "",
   "body": ""
 },
@@ -8744,7 +8744,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-12",
   "type": "Exercise",
-  "number": "7.1.6.25",
+  "number": "7.1.6.24",
   "title": "",
   "body": ""
 },
@@ -8752,6 +8752,15 @@ var ptx_lunr_docs = [
   "id": "section-trig-functions-8-4-13",
   "level": "2",
   "url": "section-trig-functions.html#section-trig-functions-8-4-13",
+  "type": "Exercise",
+  "number": "7.1.6.25",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-trig-functions-8-4-14",
+  "level": "2",
+  "url": "section-trig-functions.html#section-trig-functions-8-4-14",
   "type": "Exercise",
   "number": "7.1.6.26",
   "title": "",
@@ -8764,7 +8773,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Inverse Trigonometric Relationships",
-  "body": " Inverse Trigonometric Relationships   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    The previous section presented relationships between side lengths and angles and presented solving problems where we know an angle. This section presents examples where we have side lengths and desire to know an angle.    Inverse Trigonometric Functions  The trigonometric functions presented above provide a side ratio given an angle. It is also possible to calculate the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Function Inverse Function       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . As a result that notation will not be used in this text.   What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles. The roles of adjacent and opposite switch for the two angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.      Solving Triangles  With inverse trigonometric functions we can calculate all side lengths and all angles starting with just side lengths.   A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.     A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.       Calculating angles using trig functions  This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.   If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. .    An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent? Round to units, because aircraft instruments are not more precise.  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. .       Calculate side lengths and angles using trigonometric functions.  Find angles and side lengths  Find angles and side lengths  Find angles and side lengths    Use inverse trigonometric functions to answer these questions.  Trig Application  Trig Application  Trig Application    "
+  "body": " Inverse Trigonometric Relationships   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    The previous section presented relationships between side lengths and angles and presented solving problems where we know an angle. This section presents examples where we have side lengths and desire to know an angle.    Inverse Trigonometric Functions  The trigonometric functions presented above provide a side ratio given an angle. It is also possible to calculate the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Function Inverse Function       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . As a result that notation will not be used in this text.   What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles. The roles of adjacent and opposite switch for the two angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.      Solving Triangles  With inverse trigonometric functions we can calculate all side lengths and all angles starting with just side lengths.   A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.     A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.       Calculating angles using trig functions  This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.   If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. .    An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent? Round to units, because aircraft instruments are not more precise.  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. .       Solving Triangles   Calculate side lengths and angles using trigonometric functions.        Applications   Use inverse trigonometric functions to answer these questions.        "
 },
 {
   "id": "table-arctrig-names",
@@ -8857,58 +8866,58 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-inverse-trig-6-1-2",
-  "level": "2",
-  "url": "section-inverse-trig.html#section-inverse-trig-6-1-2",
-  "type": "Exercise",
-  "number": "7.2.4.1",
-  "title": "Find angles and side lengths.",
-  "body": "Find angles and side lengths "
-},
-{
   "id": "section-inverse-trig-6-1-3",
   "level": "2",
   "url": "section-inverse-trig.html#section-inverse-trig-6-1-3",
   "type": "Exercise",
-  "number": "7.2.4.2",
-  "title": "Find angles and side lengths.",
-  "body": "Find angles and side lengths "
+  "number": "7.2.4.1",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-inverse-trig-6-1-4",
   "level": "2",
   "url": "section-inverse-trig.html#section-inverse-trig-6-1-4",
   "type": "Exercise",
-  "number": "7.2.4.3",
-  "title": "Find angles and side lengths.",
-  "body": "Find angles and side lengths "
+  "number": "7.2.4.2",
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-inverse-trig-6-2-2",
+  "id": "section-inverse-trig-6-1-5",
   "level": "2",
-  "url": "section-inverse-trig.html#section-inverse-trig-6-2-2",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-1-5",
   "type": "Exercise",
-  "number": "7.2.4.4",
-  "title": "Trig Application.",
-  "body": "Trig Application "
+  "number": "7.2.4.3",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-inverse-trig-6-2-3",
   "level": "2",
   "url": "section-inverse-trig.html#section-inverse-trig-6-2-3",
   "type": "Exercise",
-  "number": "7.2.4.5",
-  "title": "Trig Application.",
-  "body": "Trig Application "
+  "number": "7.2.4.4",
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-inverse-trig-6-2-4",
   "level": "2",
   "url": "section-inverse-trig.html#section-inverse-trig-6-2-4",
   "type": "Exercise",
+  "number": "7.2.4.5",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-inverse-trig-6-2-5",
+  "level": "2",
+  "url": "section-inverse-trig.html#section-inverse-trig-6-2-5",
+  "type": "Exercise",
   "number": "7.2.4.6",
-  "title": "Trig Application.",
-  "body": "Trig Application "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-laws",
@@ -8917,7 +8926,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Non-Right Triangles",
-  "body": " Non-Right Triangles   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze non-right triangles (skill)    In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.  The one relationship that did not require a right angle is the Theorem.    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.  What is the length of the side opposite the angle? Because we know two angles and a side opposite one of them we can use the law of sines.   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.   For triangle congruency this was known as Angle-Angle-Side.     A triangle has two angles with measure 40 and 60.20 . The side between these two angles has length 7.66.  What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.  The third angle measure is the easiest to calculate, because we can use the angle sum theorem. . Thus .  Now we know an angle ( ) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.  .  We calculate the third side the same way. .  If you recall triangle geometry this was known as Angle-Side-Angle.    The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.   Experiment to Demonstrate the Angle\/Opposite Side Relationship      Use the illustration above to answer the questions below.   Use the slider to set the angle to about 10 . What happens to the length of the opposite side as you increase the angle to 170 ?  Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles? What must be happening to each of the other two angles?  In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step. Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.     Ambiguous Triangles  Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?  We can try to use the Law of Sines. Using the triangle angle sum theorem we learn the other angle measure. or . We use the Law of Sines again to calculate the length of the final side. This gives us a triangle with angles: 45 , 62.11 , and 72.89 ; and with side lengths: 4, 5, and 5.41.  However, , that is, had multiple possible angles. We will repeat the calulcations above using as the second angle. The third angle is or .  Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.  If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.    Two Possible Triangles       When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.    Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again. Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. so .  For triangle congruency this was known as Side-Side-Side.    A triangle has sides with lengths 5 and 7 and the angle between them is 40 . What are the length of the other side and the measures of the other angles?  Because we have two sides ( ) and the angle between them ( ) we can use the Law of Cosines. Now that we know a side and the angle opposite it, we can use the Law of Sines to calculate the remaining two angles. Finally we can use the triangle angle sum theorem to calculate the final angle. so .  For triangle congruency this was known as Side-Angle-Side.      Using Trigonometric Laws in Applications  When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.   A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.  First, it helps to sketch an image.   In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).  We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.    Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00 from horizontal. The observer at point B recorded an angle of 34.20 from horizontal. How high above ground was the aircraft?  First, it helps to sketch an image.   How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.  In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20 and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.  That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular  To calculate the angle at the plane (labeled above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is . Now, b So, the angle at the aircraft is .  Now we can apply the Law of Sines. .  We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height. . This is in miles. It will be easier to interpret in feet. The conversion ratio in suggests we can multiply .     Contextless  Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Application  Contextless  Contextless  Contextless  Application  Application  Application  Application  Application  Application   "
+  "body": " Non-Right Triangles   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze non-right triangles (skill)    In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.  The one relationship that did not require a right angle is the Theorem.    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle     A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.  What is the length of the side opposite the angle? Because we know two angles and a side opposite one of them we can use the law of sines.   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.   For triangle congruency this was known as Angle-Angle-Side.     A triangle has two angles with measure 40 and 60.20 . The side between these two angles has length 7.66.  What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.  The third angle measure is the easiest to calculate, because we can use the angle sum theorem. . Thus .  Now we know an angle ( ) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.  .  We calculate the third side the same way. .  If you recall triangle geometry this was known as Angle-Side-Angle.    The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.   Experiment to Demonstrate the Angle\/Opposite Side Relationship      Use the illustration above to answer the questions below.   Use the slider to set the angle to about 10 . What happens to the length of the opposite side as you increase the angle to 170 ?  Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles? What must be happening to each of the other two angles?  In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step. Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.     Ambiguous Triangles  Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?  We can try to use the Law of Sines. Using the triangle angle sum theorem we learn the other angle measure. or . We use the Law of Sines again to calculate the length of the final side. This gives us a triangle with angles: 45 , 62.11 , and 72.89 ; and with side lengths: 4, 5, and 5.41.  However, , that is, had multiple possible angles. We will repeat the calulcations above using as the second angle. The third angle is or .  Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.  If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.    Two Possible Triangles       When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.    Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again. Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. so .  For triangle congruency this was known as Side-Side-Side.    A triangle has sides with lengths 5 and 7 and the angle between them is 40 . What are the length of the other side and the measures of the other angles?  Because we have two sides ( ) and the angle between them ( ) we can use the Law of Cosines. Now that we know a side and the angle opposite it, we can use the Law of Sines to calculate the remaining two angles. Finally we can use the triangle angle sum theorem to calculate the final angle. so .  For triangle congruency this was known as Side-Angle-Side.      Using Trigonometric Laws in Applications  When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.   A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.  First, it helps to sketch an image.   In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).  We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.    Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00 from horizontal. The observer at point B recorded an angle of 34.20 from horizontal. How high above ground was the aircraft?  First, it helps to sketch an image.   How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.  In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20 and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.  That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular  To calculate the angle at the plane (labeled above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is . Now, b So, the angle at the aircraft is .  Now we can apply the Law of Sines. .  We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height. . This is in miles. It will be easier to interpret in feet. The conversion ratio in suggests we can multiply .      Solving Triangles   Use the trigonometric laws to calculate side lengths and angles.             Applications   Identify triangles in these applications and use trigonometric laws to answer these questions.               "
 },
 {
   "id": "theorem-law-sines",
@@ -9055,166 +9064,166 @@ var ptx_lunr_docs = [
   "body": " Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00 from horizontal. The observer at point B recorded an angle of 34.20 from horizontal. How high above ground was the aircraft?  First, it helps to sketch an image.   How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.  In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20 and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.  That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular  To calculate the angle at the plane (labeled above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is . Now, b So, the angle at the aircraft is .  Now we can apply the Law of Sines. .  We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height. . This is in miles. It will be easier to interpret in feet. The conversion ratio in suggests we can multiply .  "
 },
 {
-  "id": "section-trig-laws-7-1",
+  "id": "section-trig-laws-7-1-3",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-1",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-3",
   "type": "Exercise",
   "number": "7.3.5.1",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-2",
+  "id": "section-trig-laws-7-1-4",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-2",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-4",
   "type": "Exercise",
   "number": "7.3.5.2",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-3",
+  "id": "section-trig-laws-7-1-5",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-3",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-5",
   "type": "Exercise",
   "number": "7.3.5.3",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-4",
+  "id": "section-trig-laws-7-1-6",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-4",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-6",
   "type": "Exercise",
   "number": "7.3.5.4",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-5",
+  "id": "section-trig-laws-7-1-7",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-5",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-7",
   "type": "Exercise",
   "number": "7.3.5.5",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-6",
+  "id": "section-trig-laws-7-1-8",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-6",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-8",
   "type": "Exercise",
   "number": "7.3.5.6",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-7",
+  "id": "section-trig-laws-7-1-9",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-7",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-9",
   "type": "Exercise",
   "number": "7.3.5.7",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-8",
+  "id": "section-trig-laws-7-1-10",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-8",
+  "url": "section-trig-laws.html#section-trig-laws-7-1-10",
   "type": "Exercise",
   "number": "7.3.5.8",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-9",
+  "id": "section-trig-laws-7-2-3",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-9",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-3",
   "type": "Exercise",
   "number": "7.3.5.9",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-10",
+  "id": "section-trig-laws-7-2-4",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-10",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-4",
   "type": "Exercise",
   "number": "7.3.5.10",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-11",
+  "id": "section-trig-laws-7-2-5",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-11",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-5",
   "type": "Exercise",
   "number": "7.3.5.11",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-12",
+  "id": "section-trig-laws-7-2-6",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-12",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-6",
   "type": "Exercise",
   "number": "7.3.5.12",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-13",
+  "id": "section-trig-laws-7-2-7",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-13",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-7",
   "type": "Exercise",
   "number": "7.3.5.13",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-14",
+  "id": "section-trig-laws-7-2-8",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-14",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-8",
   "type": "Exercise",
   "number": "7.3.5.14",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-15",
+  "id": "section-trig-laws-7-2-9",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-15",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-9",
   "type": "Exercise",
   "number": "7.3.5.15",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-16",
+  "id": "section-trig-laws-7-2-10",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-16",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-10",
   "type": "Exercise",
   "number": "7.3.5.16",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-17",
+  "id": "section-trig-laws-7-2-11",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-17",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-11",
   "type": "Exercise",
   "number": "7.3.5.17",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-laws-7-18",
+  "id": "section-trig-laws-7-2-12",
   "level": "2",
-  "url": "section-trig-laws.html#section-trig-laws-7-18",
+  "url": "section-trig-laws.html#section-trig-laws-7-2-12",
   "type": "Exercise",
   "number": "7.3.5.18",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-trig-graphs",
@@ -9223,7 +9232,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Sine Wave Properties",
-  "body": " Sine Wave Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Identify properties of sine and cosine functions (skill)    We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.    Beyond Triangles  This section illustrates how trigonometric functions can be defined on angles greater than 180 . In triangles every angle had to be less than 180 because the sum of the angles of a triangle are only 180 . However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180 when we are driving. Use to explore this idea.    Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles     We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine    Now we know what the graph of the sine function looks like and why it looks that way.    Properties of Sine Waves   Graph of Sine    From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a cycle . In the default graph this is from 0 to 360 as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .   The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength (2), and the bottom two sine curves have the same wavelength (1). We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.  The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.   Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of .   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.  Because we know the frequency we can directly calculate the period. .  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.    A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle     Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.   Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is   In applications the wavelength, period\/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.   Identifying Sine Wave Properties    Sine Wave     Another Sine Wave       Consider the sine wave in . The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.      Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.   This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?    This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?    Amplitude and Wavelength      Contextless  Contextless  Contextless  Contextless  Application  Application  Application  Contextless  Application  Contextless   "
+  "body": " Sine Wave Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Identify properties of sine and cosine functions (skill)    We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.    Beyond Triangles  This section illustrates how trigonometric functions can be defined on angles greater than 180 . In triangles every angle had to be less than 180 because the sum of the angles of a triangle are only 180 . However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180 when we are driving. Use to explore this idea.    Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles     We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine    Now we know what the graph of the sine function looks like and why it looks that way.    Properties of Sine Waves   Graph of Sine    From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a cycle . In the default graph this is from 0 to 360 as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .   The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength (2), and the bottom two sine curves have the same wavelength (1). We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.  The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.   Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of .   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.  Because we know the frequency we can directly calculate the period. .  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.    A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle     Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.   Amplitude  The height of the wave (from center to top) is called the amplitude .     The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is   In applications the wavelength, period\/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.   Identifying Sine Wave Properties    Sine Wave     Another Sine Wave       Consider the sine wave in . The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.      Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.   This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?    This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?    Amplitude and Wavelength       Frequency and Amplitude   Use the definitions of these properties to answer the questions.           Applications   Apply your knowledge of frequency and amplitude to answer these wave questions.         "
 },
 {
   "id": "activity-discover-big-angles",
@@ -9433,94 +9442,94 @@ var ptx_lunr_docs = [
   "body": " Amplitude and Wavelength   "
 },
 {
-  "id": "section-trig-graphs-6-1",
+  "id": "section-trig-graphs-6-1-3",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-1",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-1-3",
   "type": "Exercise",
   "number": "7.4.4.1",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-2",
+  "id": "section-trig-graphs-6-1-4",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-2",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-1-4",
   "type": "Exercise",
   "number": "7.4.4.2",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-3",
+  "id": "section-trig-graphs-6-1-5",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-3",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-1-5",
   "type": "Exercise",
   "number": "7.4.4.3",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-4",
+  "id": "section-trig-graphs-6-1-6",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-4",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-1-6",
   "type": "Exercise",
   "number": "7.4.4.4",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-5",
+  "id": "section-trig-graphs-6-1-7",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-5",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-1-7",
   "type": "Exercise",
   "number": "7.4.4.5",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-6",
+  "id": "section-trig-graphs-6-1-8",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-6",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-1-8",
   "type": "Exercise",
   "number": "7.4.4.6",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-7",
+  "id": "section-trig-graphs-6-2-3",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-7",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-2-3",
   "type": "Exercise",
   "number": "7.4.4.7",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-8",
+  "id": "section-trig-graphs-6-2-4",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-8",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-2-4",
   "type": "Exercise",
   "number": "7.4.4.8",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-9",
+  "id": "section-trig-graphs-6-2-5",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-9",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-2-5",
   "type": "Exercise",
   "number": "7.4.4.9",
-  "title": "Application.",
-  "body": "Application "
+  "title": "",
+  "body": ""
 },
 {
-  "id": "section-trig-graphs-6-10",
+  "id": "section-trig-graphs-6-2-6",
   "level": "2",
-  "url": "section-trig-graphs.html#section-trig-graphs-6-10",
+  "url": "section-trig-graphs.html#section-trig-graphs-6-2-6",
   "type": "Exercise",
   "number": "7.4.4.10",
-  "title": "Contextless.",
-  "body": "Contextless "
+  "title": "",
+  "body": ""
 },
 {
   "id": "section-activity-trig-error",
