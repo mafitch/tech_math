@@ -75,21 +75,8 @@ window.MathJax = {
 <script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
 <!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -163,7 +150,8 @@ eBookConfig.enable_chatcodes =  false;
 <h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
 <p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -174,7 +162,8 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-trig-laws.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-trig.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-activity-trig-error.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="section-trig-laws.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-trig.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-activity-trig-error.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
 \newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
 \newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
 \newcommand{\lt}{&lt;}
@@ -184,7 +173,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
@@ -380,6 +369,7 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cake.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Project: Unicorn Cake</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-watering-grass.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Project: Watering Grass</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -497,9 +487,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-7" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
@@ -528,9 +518,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="section-trig-graphs-2-2">We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.</div></section><section class="subsection" id="subsection-angles"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">7.4.1</span><span class="space"> </span><span class="title">Beyond Triangles</span>
 </h3>
-<div class="para" id="subsection-angles-2">This section illustrates how trigonometric functions can be defined on angles greater than 180°. In triangles every angle had to be less than 180° because the sum of the angles of a triangle are only 180°. However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180° when we are driving. Use <a href="section-trig-graphs.html#activity-discover-big-angles" class="xref" data-knowl="./knowl/xref/activity-discover-big-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 14">Activity 14</a> to explore this idea.</div>
+<div class="para" id="subsection-angles-2">This section illustrates how trigonometric functions can be defined on angles greater than 180°. In triangles every angle had to be less than 180° because the sum of the angles of a triangle are only 180°. However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180° when we are driving. Use <a href="section-trig-graphs.html#activity-discover-big-angles" class="xref" data-knowl="./knowl/xref/activity-discover-big-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 15">Activity 15</a> to explore this idea.</div>
 <article class="activity project-like" id="activity-discover-big-angles"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">14</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">15</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="activity-discover-big-angles-1"><div class="para" id="activity-discover-big-angles-1-1">Use the the illustration in <a href="section-trig-graphs.html#figure-angle-repeat" class="xref" data-knowl="./knowl/xref/figure-angle-repeat.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.1">Figure 7.4.1</a> to see how angles, including those bigger than 180°, are measured and how the trig functions act on these angles.</div></div>
 <article class="task exercise-like" id="activity-discover-big-angles-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -712,14 +702,14 @@ f=\frac{1}{180} \approx 0.0056
 </h3>
 <div class="para" id="subsection-sine-graphs-2">In <a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal" title="Subsection 5.4.1: Properties of Quadratics">Subsection 5.4.1</a> and <a href="section-exponential-graph.html#subsection-exponential-transform" class="internal" title="Subsection 6.2.2: Transforming Exponential Functions">Subsection 6.2.2</a> we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.</div>
 <article class="activity project-like" id="activity-amplitude"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">15</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">16</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="activity-amplitude-1"><div class="para" id="activity-amplitude-1-1">This activity demonstrates how the sine function is modified to change amplitude. Use <a href="section-trig-graphs.html#figure-sine-transform" class="xref" data-knowl="./knowl/xref/figure-sine-transform.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.18">Figure 7.4.18</a> to answer the following. Note the amplitude of the unmodified graph is 1.</div></div>
 <article class="task exercise-like" id="activity-amplitude-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="activity-amplitude-2-1">If you set <span class="process-math">\(a=2\text{,}\)</span> that is graph <span class="process-math">\(2\sin(\pi x)\)</span> what is the amplitude?</div></article><article class="task exercise-like" id="activity-amplitude-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="activity-amplitude-3-1">If you set <span class="process-math">\(a=3\text{,}\)</span> that is graph <span class="process-math">\(3\sin(\pi x)\)</span> what is the amplitude?</div></article><article class="task exercise-like" id="activity-amplitude-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="activity-amplitude-4-1">How could you obtain an amplitude of 1/2?</div></article></article><article class="activity project-like" id="activity-wavelength"><h4 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">16</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">17</span><span class="period">.</span>
 </h4>
 <div class="introduction" id="activity-wavelength-1"><div class="para" id="activity-wavelength-1-1">This activity demonstrates how the sine function is modified to change wavelength. Use <a href="section-trig-graphs.html#figure-sine-transform" class="xref" data-knowl="./knowl/xref/figure-sine-transform.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.4.18">Figure 7.4.18</a> to answer the following. Note the wavelength of the unmodified graph is 2.</div></div>
 <article class="task exercise-like" id="activity-wavelength-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -758,7 +748,7 @@ f=\frac{1}{180} \approx 0.0056
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
 </html>
