@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-watering-grass" >
+<title>Project: Watering Grass</title>
+
+<project xml:id="project-watering-grass">
+    <title>Watering Grass</title>
+
+    <introduction>
+        <p>Many common sprinklers water a circular area. Many lawns are much more rectangular. Placing the sprinklers to that they water enough of the lawn but not too much of the non-grass surfaces (such as driveways) requires thought. In this project we will consider three related questions.</p>
+    </introduction>
+
+    <task>
+        <introduction>
+            <p>Our first attempt to water the entire lawn will space the sprinklers so that there is no overlap. This will result in not watering some portions of the lawn.</p>
+        </introduction>
+        <task>
+            <p>The distance a sprinkler sprays can be set when it is installed. For this case to what distance (radius) should the sprinklers be set to produce this watering pattern?</p>
+            <p>The layout is illustrated in <xref ref="figure-sprinklers-rectangular-none" />.</p>
+        </task>
+        <task>
+            <p>What is the area that is not covered?</p>
+        </task>
+        <task>
+            <p>Sprinklers can be set to spray 360<degree/>, 180<degree/>, or 90<degree/>. For the layout in <xref ref="figure-sprinklers-half-none" />, what distance (radius) should the sprinklers be set to produce this watering pattern?</p>
+        </task>
+    </task>
+
+    <task>
+        <introduction>
+            <p>We next investigate how to modify the previous pattern to cover all the area. Use the lawn in <xref ref="figure-sprinklers-for-overlap" />.</p>
+        </introduction>
+        <task>
+            <p>Calculate the are covered by the circles and partial circles shown. The radius will be the same as in the first lawn.</p>
+        </task>
+        <task>
+            <p>If another sprinkler is placed at the center of the six unwatered areas (four pointed star-like shapes), to what radius should it be set to cover that whole area?</p>
+        </task>
+        <task>
+            <p>If we add these six sprinklers to the pattern, what is the total area of the lawn that is watered by more than one sprinkler?</p>
+        </task>
+        <task>
+            <p>What is the area of one of the overlap areas (the lens shaped regions).</p>
+        </task>
+        <task>
+            <p>What percent is the overlap area with respect to the total area of the lawn?</p>
+        </task>
+    </task>
+
+    <task>
+        <introduction>
+            <p>Now we consider an alternative overlapping pattern. Rather than add additional sprinklers to fill the gaps, we will move the sprinklers closer together so there are no gaps. This of course means we still need more sprinklers.</p>
+            <p>The pattern consists of four circles each touching a central point. From that point each circle's center is 45<degree/> from the next. The pattern is illustrated in <xref ref="figure-sprinklers-rectangular-overlap" />.</p>
+            <p>The main goal here is to calculate the area of the overlap.</p>
+        </introduction>
+        <task>
+            <p>First, we calculate the area of the wedge shown in <xref ref="figure-circle-with-wedge" />. The interior angle of this wedge is 90<degree/>. As a result this wedge is what part of the whole? Your answer should be something like 20/360 or 1/7.</p>
+        </task>
+        <task>
+            <p>As a result of the previous answer, and supposing the radius is 15.9, what is the area of the wedge?</p>
+        </task>
+        <task>
+            <p>The overlap area is based on the area that is the difference between the wedge and the triangle. We know the area of the wedge, so lets calculate the area of the triangle. If the radius is 15.9, what is the length of the third side? Remember this is a right triangle.</p>
+        </task>
+        <task>
+            <p>Using Heron's formula, calculate the area of the triangle.</p>
+        </task>
+        <task>
+            <p>Calculate the area of the half lens (difference between the wedge and the triangle). The overlap area is twice this area (two lens halves). Calculate this overlap area.</p>
+        </task>
+        <task>
+            <p>What is the total overlap area (all the lense and half lens shapes).</p>
+        </task>
+        <task>
+            <p>What percent of the total area is overlapped?</p>
+        </task>
+    </task>
+    <task>
+        <p>Which sprinkler pattern had a lower percent of overlap?</p>
+    </task>
+</project>
+
+    <figure xml:id="figure-sprinklers-rectangular-none">
+        <caption>Sprinklers in Rectangular Grid</caption>
+        <image source="images/lawn_nooverlap" width="80%">
+            <description><p>A rectangular lawn with size 60 by 90 feet. There are 6 circles in a 3 by 2 grid. They do not overlap.</p></description>
+        </image>
+    </figure>
+
+    <figure xml:id="figure-sprinklers-half-none">
+        <caption>Sprinklers in Half Circle Mode</caption>
+        <image source="images/lawn_nooverlap_half" width="80%">
+            <description><p>A rectangular lawn with size 90 by 108 feet. There are 6 circles in a 3 by 2 grid with an additional row of 3 half circles. Nothing overlaps.</p></description>
+        </image>
+    </figure>
+
+    <figure xml:id="figure-sprinklers-for-overlap">
+        <caption>Sprinklers Arrangement to Extend</caption>
+        <image source="images/lawn_for_overlap" width="80%">
+            <description><p>A rectangular lawn with size 60 by 90 feet. Along the top are a quarter circle, two half circles, and another quarter circle. Along the middle are a half circle, two full circles, and another half circle. The bottom like the top is a quarter circle, two half circles, and another quarter circle. Nothing overlaps.</p></description>
+        </image>
+    </figure>
+
+    <figure xml:id="figure-sprinklers-rectangular-overlap">
+        <caption>Sprinklers in Overlapping Rectangular Grid</caption>
+        <image source="images/lawn_overlap2" width="80%">
+            <description><p>A rectangular lawn with size 60 by 90 feet. There are overlapping circles covering most of the lawn. They are all the same size. Diagonally the circles are tangential. Side to side and up and down they overlap.</p></description>
+        </image>
+    </figure>
+
+    <figure xml:id="figure-circle-with-wedge">
+        <caption>Identify Overlap Area</caption>
+        <image source="images/circle_wedge" width="40%">
+            <description><p>A circle with a quarter wedge highlighted. The angle is a right angle.</p></description>
+        </image>
+    </figure>
+
+</section>
