@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064879">
 <statement>
-<p>The half-life of caffeine in the human body is about 5.7 hours. A cup of coffee has about 85 mg of caffeine.</p>
+<p>The half-life of caffeine in the human body is about 5.9 hours. A cup of coffee has about 110 mg of caffeine.</p>
 <p><ol>
   <li><p>Write an equation for the amount of caffeine in a person's body after drinking a cup of coffee? Let <m>\displaystyle{C}</m> be the milligrams of caffeine in the body after <m>\displaystyle{t}</m> hours. <fillin characters="20" />  
 </p></li>
@@ -11,36 +11,36 @@
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{C}={85}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m></li><li>about 25.19 mg</li><li>about 11.9 hours</li></ul></p><p><ol>
+<p><ul><li><m>\displaystyle{C}={110}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.9}}}}</m></li><li>about 33.98 mg</li><li>about 14.51 hours</li></ul></p><p><ol>
   <li><p>The general half-life equation is <m>\displaystyle{C}={C}_{{0}}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{{H}{L}}}}}</m>. </p>
 <p>
-    In this case <m>\displaystyle{C}={85}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m></p></li>
-  <li><p>In <m>\displaystyle{t}={10}</m> hours there will be <m>\displaystyle{C}={85}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{10}}{{5.7}}}}</m> mg. </p>
+    In this case <m>\displaystyle{C}={110}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.9}}}}</m></p></li>
+  <li><p>In <m>\displaystyle{t}={10}</m> hours there will be <m>\displaystyle{C}={110}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{10}}{{5.9}}}}</m> mg. </p>
 <p>
-    Starting with 85 mg of caffeine and a half-life of 5.7 hours, this person's system will have about 25.19 mg after 10 hours.</p></li>
-  <li><p>Here we have to solve the equation <m>\displaystyle{20}={85}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m>.</p>
+    Starting with 110 mg of caffeine and a half-life of 5.9 hours, this person's system will have about 33.98 mg after 10 hours.</p></li>
+  <li><p>Here we have to solve the equation <m>\displaystyle{20}={110}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.9}}}}</m>.</p>
 <p>
-    First, divide by 85. </p>
+    First, divide by 110. </p>
 <p>
-    <m>\displaystyle\frac{{20}}{{85}}={\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}</m> </p>
+    <m>\displaystyle\frac{{20}}{{110}}={\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.9}}}}</m> </p>
 <p>
     Then apply the <m>\displaystyle{\log}</m> to both sides. </p>
 <p>
-    <m>\displaystyle{\log{{\left(\frac{{20}}{{85}}\right)}}}={\log{{\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.7}}}}\right)}}}</m> </p>
+    <m>\displaystyle{\log{{\left(\frac{{20}}{{110}}\right)}}}={\log{{\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{5.9}}}}\right)}}}</m> </p>
 <p>
     Now bring the power down as a multiple of the right side. </p>
 <p>
-    <m>\displaystyle{\log{{\left(\frac{{20}}{{85}}\right)}}}=\frac{{t}}{{5.7}}\cdot{\log{{\left(\frac{{1}}{{2}}\right)}}}</m> </p>
+    <m>\displaystyle{\log{{\left(\frac{{20}}{{110}}\right)}}}=\frac{{t}}{{5.9}}\cdot{\log{{\left(\frac{{1}}{{2}}\right)}}}</m> </p>
 <p>
-    Multiply by 5.7. </p>
+    Multiply by 5.9. </p>
 <p>
-    <m>\displaystyle{5.7}\cdot{\log{{\left(\frac{{20}}{{85}}\right)}}}={t}\cdot{\log{{\left(\frac{{1}}{{2}}\right)}}}</m> </p>
+    <m>\displaystyle{5.9}\cdot{\log{{\left(\frac{{20}}{{110}}\right)}}}={t}\cdot{\log{{\left(\frac{{1}}{{2}}\right)}}}</m> </p>
 <p>
     Divide by <m>\displaystyle{\log{{\left(\frac{{1}}{{2}}\right)}}}</m>. </p>
 <p>
-    <m>\displaystyle{5.7}\cdot\frac{{\log{{\left(\frac{{20}}{{85}}\right)}}}}{{\log{{\left(\frac{{1}}{{2}}\right)}}}}={t}</m> </p>
+    <m>\displaystyle{5.9}\cdot\frac{{\log{{\left(\frac{{20}}{{110}}\right)}}}}{{\log{{\left(\frac{{1}}{{2}}\right)}}}}={t}</m> </p>
 <p>
-    Starting with 85 mg of caffeine and a half-life of 5.7 hours, there will be 20 mg remaining in this person's system after about 11.9 hours.</p></li>
+    Starting with 110 mg of caffeine and a half-life of 5.9 hours, there will be 20 mg remaining in this person's system after about 14.51 hours.</p></li>
 </ol></p>
 </solution>
 </myopenmath>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1464997">
 <statement>
-<p>If one shop can do 7 float changes in two days, and a second shop can do 10 float changes in three days, how long will it take the pair of shops to do 75 float changes? <fillin characters="4" /></p>
+<p>If one shop can do 5 float changes in two days, and a second shop can do 17 float changes in three days, how long will it take the pair of shops to do 55 float changes? <fillin characters="4" /></p>
 <p>If they start on Monday and work only weekdays, on what day of the week will they finish? </p>
 <p><ol style="list-style-type:upper-alpha"><li>Monday</li> 
 <li>Tuesday</li> 
@@ -13,16 +13,16 @@
 
 </statement>
 <solution>
-<p><ul><li>11</li><li>A: Monday</li></ul></p><p>First we need to add the rates to obtain the total rate.</p>
-<p><m>\displaystyle\frac{{7}}{{2}}+\frac{{10}}{{3}}=</m></p>
-<p><m>\displaystyle\frac{{{7}\cdot{3}}}{{{2}\cdot{3}}}+\frac{{{10}\cdot{2}}}{{{3}\cdot{2}}}=\frac{{41}}{{6}}</m></p>
+<p><ul><li>7</li><li>B: Tuesday</li></ul></p><p>First we need to add the rates to obtain the total rate.</p>
+<p><m>\displaystyle\frac{{5}}{{2}}+\frac{{17}}{{3}}=</m></p>
+<p><m>\displaystyle\frac{{{5}\cdot{3}}}{{{2}\cdot{3}}}+\frac{{{17}\cdot{2}}}{{{3}\cdot{2}}}=\frac{{49}}{{6}}</m></p>
 <p>Now we can setup the proportion to answer the question.</p>
-<p><m>\displaystyle\frac{{41}}{{6}}=\frac{{75}}{{N}}</m></p>
-<p><m>\displaystyle\frac{{6}}{{41}}=\frac{{N}}{{75}}</m></p>
-<p><m>\displaystyle\frac{{6}}{{41}}\cdot{75}={N}</m></p>
-<p><m>\displaystyle{10.975609756098}={N}</m></p>
-<p><m>\displaystyle{11}\approx{N}</m> to indicate on how many days work was done.</p>
-<p>11 days is 2 weeks and 1 additional days. Thus the final day will be Tuesday.</p>
+<p><m>\displaystyle\frac{{49}}{{6}}=\frac{{55}}{{N}}</m></p>
+<p><m>\displaystyle\frac{{6}}{{49}}=\frac{{N}}{{55}}</m></p>
+<p><m>\displaystyle\frac{{6}}{{49}}\cdot{55}={N}</m></p>
+<p><m>\displaystyle{6.734693877551}={N}</m></p>
+<p><m>\displaystyle{7}\approx{N}</m> to indicate on how many days work was done.</p>
+<p>7 days is 1 weeks and 2 additional days. Thus the final day will be Wednesday.</p>
 </solution>
 </myopenmath>
 
