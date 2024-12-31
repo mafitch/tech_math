@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{2}{x}+{y}=-{1}</m> </p>
+<p><m>\displaystyle{9}{x}-{8}{y}=-{136}</m> </p>
 <p>
-  <m>\displaystyle-{3}{x}+{9}{y}={36}</m></p>
+  <m>\displaystyle-{2}{x}+{5}{y}={56}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({3},{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{2}{x}+{1}{y}=-{1}</m></p>
-<p><m>\displaystyle-{2}{x}=-{1}-{\left({1}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{1}-{\left({1}{y}\right)}}}{{-{{2}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{8},{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{9}{x}+-{8}{y}=-{136}</m></p>
+<p><m>\displaystyle{9}{x}=-{136}-{\left(-{8}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{136}-{\left(-{8}{y}\right)}}}{{9}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle-{3}{\left(\frac{{-{1}-{\left({1}{y}\right)}}}{{-{{2}}}}\right)}+{9}{y}={36}</m></p>
-<p><m>\displaystyle-\frac{{3}}{{-{{2}}}}\cdot{\left(-{1}\right)}--\frac{{3}}{{-{{2}}}}{\left({1}\right)}{y}+{9}{y}={36}</m></p>
-<p><m>\displaystyle-{1.5}-{\left(-{1.5}\right)}{y}+{9}{y}={36}</m></p>
-<p><m>\displaystyle-{1.5}{y}+{\left({9}\right)}{y}={36}--{1.5}</m></p>
-<p><m>\displaystyle-{1.5}{y}+{\left({9}\right)}{y}={37.5}</m></p>
-<p><m>\displaystyle{\left(-{1.5}+{\left({9}\right)}\right)}{y}={37.5}</m></p>
-<p><m>\displaystyle{7.5}{y}={37.5}</m></p>
-<p><m>\displaystyle{y}=\frac{{37.5}}{{7.5}}</m></p>
-<p><m>\displaystyle{y}={5}</m></p>
+<p><m>\displaystyle-{2}{\left(\frac{{-{136}-{\left(-{8}{y}\right)}}}{{9}}\right)}+{5}{y}={56}</m></p>
+<p><m>\displaystyle-\frac{{2}}{{9}}\cdot{\left(-{136}\right)}--\frac{{2}}{{9}}{\left(-{8}\right)}{y}+{5}{y}={56}</m></p>
+<p><m>\displaystyle{30.222222222222}-{\left(-{1.7777777777778}\right)}{y}+{5}{y}={56}</m></p>
+<p><m>\displaystyle-{1.7777777777778}{y}+{\left({5}\right)}{y}={56}-{30.222222222222}</m></p>
+<p><m>\displaystyle-{1.7777777777778}{y}+{\left({5}\right)}{y}={25.777777777778}</m></p>
+<p><m>\displaystyle{\left(-{1.7777777777778}+{\left({5}\right)}\right)}{y}={25.777777777778}</m></p>
+<p><m>\displaystyle{3.2222222222222}{y}={25.777777777778}</m></p>
+<p><m>\displaystyle{y}=\frac{{25.777777777778}}{{3.2222222222222}}</m></p>
+<p><m>\displaystyle{y}={8}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{2}{x}+{1}{\left({5}\right)}=-{1}</m></p>
-<p><m>\displaystyle-{2}{x}+{\left({5}\right)}=-{1}</m></p>
-<p><m>\displaystyle-{2}{x}=-{1}-{\left({5}\right)}</m></p>
-<p><m>\displaystyle-{2}{x}=-{6}</m></p>
-<p><m>\displaystyle{x}=-\frac{{6}}{{-{{2}}}}</m></p>
-<p><m>\displaystyle{x}={3}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({3},{5}\right)}</m>.</p>
+<p><m>\displaystyle{9}{x}+-{8}{\left({8}\right)}=-{136}</m></p>
+<p><m>\displaystyle{9}{x}+{\left(-{64}\right)}=-{136}</m></p>
+<p><m>\displaystyle{9}{x}=-{136}-{\left(-{64}\right)}</m></p>
+<p><m>\displaystyle{9}{x}=-{72}</m></p>
+<p><m>\displaystyle{x}=-\frac{{72}}{{9}}</m></p>
+<p><m>\displaystyle{x}=-{8}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{8},{8}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

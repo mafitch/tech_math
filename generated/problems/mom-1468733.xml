@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle{4}{x}+{9}{y}={32}</m> </p>
+<p><m>\displaystyle{9}{x}+{3}{y}={60}</m> </p>
 <p>
-  <m>\displaystyle{x}+{4}{y}={15}</m></p>
+  <m>\displaystyle{7}{x}+{4}{y}={60}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{1},{4}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of -1. So we scale by <m>\displaystyle-\frac{{1}}{{4}}</m>.</p>
-<p><m>\displaystyle-\frac{{{1}}}{{4}}{\left({4}{x}+{9}{y}\right)}=-\frac{{{1}}}{{4}}{\left({32}\right)}</m></p>
-<p><m>\displaystyle-{\left({1}\right)}{x}+-{2.25}{y}=-{8}</m></p>
-<p><m>\displaystyle{x}+{4}{y}={15}</m></p>
+<p><ul><li><m>\displaystyle{\left({4},{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of -7. So we scale by <m>\displaystyle-\frac{{7}}{{9}}</m>.</p>
+<p><m>\displaystyle-\frac{{{7}}}{{9}}{\left({9}{x}+{3}{y}\right)}=-\frac{{{7}}}{{9}}{\left({60}\right)}</m></p>
+<p><m>\displaystyle-{\left({7}\right)}{x}+-{2.3333333333333}{y}=-{46.666666666667}</m></p>
+<p><m>\displaystyle{7}{x}+{4}{y}={60}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{1.75}{y}={7}</m></p>
-<p><m>\displaystyle{y}=\frac{{7}}{{1.75}}</m></p>
-<p><m>\displaystyle{y}={4}</m></p>
+<p><m>\displaystyle{1.6666666666667}{y}={13.333333333333}</m></p>
+<p><m>\displaystyle{y}=\frac{{13.333333333333}}{{1.6666666666667}}</m></p>
+<p><m>\displaystyle{y}={8}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{4}{x}+{9}{\left({4}\right)}={32}</m></p>
-<p><m>\displaystyle{4}{x}+{\left({36}\right)}={32}</m></p>
-<p><m>\displaystyle{4}{x}={32}-{\left({36}\right)}</m></p>
-<p><m>\displaystyle{4}{x}=-{4}</m></p>
-<p><m>\displaystyle{x}=-\frac{{4}}{{4}}</m></p>
-<p><m>\displaystyle{x}=-{1}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{1},{4}\right)}</m>.</p>
+<p><m>\displaystyle{9}{x}+{3}{\left({8}\right)}={60}</m></p>
+<p><m>\displaystyle{9}{x}+{\left({24}\right)}={60}</m></p>
+<p><m>\displaystyle{9}{x}={60}-{\left({24}\right)}</m></p>
+<p><m>\displaystyle{9}{x}={36}</m></p>
+<p><m>\displaystyle{x}=\frac{{36}}{{9}}</m></p>
+<p><m>\displaystyle{x}={4}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({4},{8}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1471317">
 <statement>
-<image width="33%"  pi:generated="problems/images/f381c8dc4799a80f7486b02a68713e31.png" />
+<image width="33%"  pi:generated="problems/images/2a4e78e979d6962fb4a5ca917203103c.png" />
 <p>What is the area of the triangle above? <fillin characters="6" /></p>
 <p>Side lengths are measurements.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>6.0</li></ul></p><p>Because we have side lengths but not angles or a height, we will use Heron's Formula.</p>
-<p>The semi-perimeter is <m>\displaystyle\frac{{1}}{{2}}{\left({6.97}+{5.70}+{2.30}\right)}={7.485}</m> which has 3 significant digits.</p>
-<p>The area is <m>\displaystyle\sqrt{{{7.485}{\left({7.485}-{6.97}\right)}{\left({7.485}-{5.70}\right)}{\left({7.485}-{2.30}\right)}}}={5.9730067762706}\approx{6}</m>.</p>
-<p>Each factor has at least 2 significant digits so the product does as well.</p>
+<p><ul><li>21.3</li></ul></p><p>Because we have side lengths but not angles or a height, we will use Heron's Formula.</p>
+<p>The semi-perimeter is <m>\displaystyle\frac{{1}}{{2}}{\left({6.32}+{8.35}+{6.88}\right)}={10.775}</m> which has 4 significant digits.</p>
+<p>The area is <m>\displaystyle\sqrt{{{10.775}{\left({10.775}-{6.32}\right)}{\left({10.775}-{8.35}\right)}{\left({10.775}-{6.88}\right)}}}={21.293257010363}\approx{21.3}</m>.</p>
+<p>Each factor has at least 3 significant digits so the product does as well.</p>
 </solution>
 </myopenmath>
 
