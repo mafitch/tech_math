@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="872855">
 <statement>
-<p>The radiator in a car is filled with a solution of 65<percent/> antifreeze and 35<percent/> water.  The manufacturer of the antifreeze suggests that for summer driving, optimal cooling of the engine is obtained with only 50<percent/> antifreeze.</p>
-<p>If the capacity of the radiator is 3.3 liters, how much coolant (in liters) must be drained and replaced with pure water to reduce the antifreeze concentration to 50<percent/>? Round to the nearest hundredth of a liter. <fillin characters="4" /> L</p>
+<p>The radiator in a car is filled with a solution of 75<percent/> antifreeze and 25<percent/> water.  The manufacturer of the antifreeze suggests that for summer driving, optimal cooling of the engine is obtained with only 50<percent/> antifreeze.</p>
+<p>If the capacity of the radiator is 3.4 liters, how much coolant (in liters) must be drained and replaced with pure water to reduce the antifreeze concentration to 50<percent/>? Round to the nearest hundredth of a liter. <fillin characters="4" /> L</p>
 
 
 </statement>
 <solution>
-<p><ul><li>0.76</li></ul></p><p>This is a percent problem. We know the percent that is originally antifreeze (65<percent/>) and the percent we want (50<percent/>). Let's call the amount to drain <m>\displaystyle{d}</m> (in liters). The amount of antifreeze after we drain is <m>\displaystyle{\left({0.65}\right)}{\left({3.3}-{d}\right)}</m>. This will be the same as the amount after we add water which is <m>\displaystyle{0.5}{\left({3.3}\right)}</m>. Thus we can solve <m>\displaystyle{\left({0.65}\right)}{\left({3.3}-{d}\right)}={0.5}{\left({3.3}\right)}</m>. The solution is <m>\displaystyle{d}={0.76153846153846}</m>. Rounding (because we can only measure so precisely) gives us 0.76 L.</p>
+<p><ul><li>1.13</li></ul></p><p>This is a percent problem. We know the percent that is originally antifreeze (75<percent/>) and the percent we want (50<percent/>). Let's call the amount to drain <m>\displaystyle{d}</m> (in liters). The amount of antifreeze after we drain is <m>\displaystyle{\left({0.75}\right)}{\left({3.4}-{d}\right)}</m>. This will be the same as the amount after we add water which is <m>\displaystyle{0.5}{\left({3.4}\right)}</m>. Thus we can solve <m>\displaystyle{\left({0.75}\right)}{\left({3.4}-{d}\right)}={0.5}{\left({3.4}\right)}</m>. The solution is <m>\displaystyle{d}={1.1333333333333}</m>. Rounding (because we can only measure so precisely) gives us 1.13 L.</p>
 </solution>
 </myopenmath>
 
