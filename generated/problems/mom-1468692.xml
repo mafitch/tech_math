@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{x}-{5}{y}={43}</m> </p>
+<p><m>\displaystyle-{9}{x}-{2}{y}=-{78}</m> </p>
 <p>
-  <m>\displaystyle-{5}{x}+{9}{y}=-{57}</m></p>
+  <m>\displaystyle{9}{x}-{8}{y}={48}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{3},-{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{1}{x}+-{5}{y}={43}</m></p>
-<p><m>\displaystyle-{1}{x}={43}-{\left(-{5}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{43}-{\left(-{5}{y}\right)}}}{{-{{1}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left({8},{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle-{9}{x}+-{2}{y}=-{78}</m></p>
+<p><m>\displaystyle-{9}{x}=-{78}-{\left(-{2}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{78}-{\left(-{2}{y}\right)}}}{{-{{9}}}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle-{5}{\left(\frac{{{43}-{\left(-{5}{y}\right)}}}{{-{{1}}}}\right)}+{9}{y}=-{57}</m></p>
-<p><m>\displaystyle-\frac{{5}}{{-{{1}}}}\cdot{\left({43}\right)}--\frac{{5}}{{-{{1}}}}{\left(-{5}\right)}{y}+{9}{y}=-{57}</m></p>
-<p><m>\displaystyle{215}-{\left({25}\right)}{y}+{9}{y}=-{57}</m></p>
-<p><m>\displaystyle{25}{y}+{\left({9}\right)}{y}=-{57}-{215}</m></p>
-<p><m>\displaystyle{25}{y}+{\left({9}\right)}{y}=-{272}</m></p>
-<p><m>\displaystyle{\left({25}+{\left({9}\right)}\right)}{y}=-{272}</m></p>
-<p><m>\displaystyle{34}{y}=-{272}</m></p>
-<p><m>\displaystyle{y}=-\frac{{272}}{{34}}</m></p>
-<p><m>\displaystyle{y}=-{8}</m></p>
+<p><m>\displaystyle{9}{\left(\frac{{-{78}-{\left(-{2}{y}\right)}}}{{-{{9}}}}\right)}+-{8}{y}={48}</m></p>
+<p><m>\displaystyle\frac{{9}}{{-{{9}}}}\cdot{\left(-{78}\right)}-\frac{{9}}{{-{{9}}}}{\left(-{2}\right)}{y}+-{8}{y}={48}</m></p>
+<p><m>\displaystyle{78}-{\left(-{2}\right)}{y}+-{8}{y}={48}</m></p>
+<p><m>\displaystyle-{2}{y}+{\left(-{8}\right)}{y}={48}-{78}</m></p>
+<p><m>\displaystyle-{2}{y}+{\left(-{8}\right)}{y}=-{30}</m></p>
+<p><m>\displaystyle{\left(-{2}+{\left(-{8}\right)}\right)}{y}=-{30}</m></p>
+<p><m>\displaystyle-{10}{y}=-{30}</m></p>
+<p><m>\displaystyle{y}=-\frac{{30}}{{-{{10}}}}</m></p>
+<p><m>\displaystyle{y}={3}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{1}{x}+-{5}{\left(-{8}\right)}={43}</m></p>
-<p><m>\displaystyle-{1}{x}+{\left({40}\right)}={43}</m></p>
-<p><m>\displaystyle-{1}{x}={43}-{\left({40}\right)}</m></p>
-<p><m>\displaystyle-{1}{x}={3}</m></p>
-<p><m>\displaystyle{x}=\frac{{3}}{{-{{1}}}}</m></p>
-<p><m>\displaystyle{x}=-{3}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{3},-{8}\right)}</m>.</p>
+<p><m>\displaystyle-{9}{x}+-{2}{\left({3}\right)}=-{78}</m></p>
+<p><m>\displaystyle-{9}{x}+{\left(-{6}\right)}=-{78}</m></p>
+<p><m>\displaystyle-{9}{x}=-{78}-{\left(-{6}\right)}</m></p>
+<p><m>\displaystyle-{9}{x}=-{72}</m></p>
+<p><m>\displaystyle{x}=-\frac{{72}}{{-{{9}}}}</m></p>
+<p><m>\displaystyle{x}={8}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({8},{3}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

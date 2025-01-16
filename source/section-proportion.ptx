@@ -213,7 +213,13 @@
         <p>Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.</p>
 
         <example xml:id="example-illustrate-similar-triangles">
-            <image source="images/similar_triangles" />
+            <image source="images/similar_triangles">
+                <shortdescription>Two triangles with matching angles and different side lengths.</shortdescription>
+                <description>
+                    <p>The triangle with vertices A, B, C has angle measure 64<degree/> at A, angle measure 80<degree/> at B, and angle measure 36<degree/> at C. Side AB has length 3.26; side BC has length 4.86, and side CA has length 5.34.</p>
+                    <p>The triangle with vertices D, E, F has angle measure 64<degree/> at D, angle measure 80<degree/> at E, and angle measure 36<degree/> at F. Side DE has length 2.51; side EF has length 3.73, and side FD has length 4.1.</p>
+                </description>
+            </image>
             <p>The triangles <m>\triangle ABC</m> and <m>\triangle DEF</m> are similar. Notice that the angles at <m>A</m> and <m>D</m> have the same measure (64<degree/>). The same is true of the angles at <m>B</m> and <m>E</m> (both 80<degree/>) and the angles at <m>C</m> and <m>F</m> (both 36<degree/>). These are the corresponding angles: A and D, B and E, and C and F.</p>
             <p> <m>BC</m> is the side opposite the angle at <m>A</m> and <m>EF</m> is the side opposite the angle at <m>D</m>. Because <m>A</m> and <m>D</m> have the same measure, the sides opposite them are corresponding sides.</p>
             <p>Similarly <m>CA</m> is the side opposite the angle at <m>B</m> and <m>FD</m> is the side opposite the angle at <m>E</m>. Because <m>B</m> and <m>E</m> have the same measure, the sides opposite them are corresponding sides.</p>
@@ -246,8 +252,10 @@
         <p>We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as <xref ref="example-ratio-airspeed-solve" />.</p>
 
         <example xml:id="example-similar-triangles">
-            <image source="images/similar_triangles_369" />
-            <p>Suppose triangle ABC has angles <m>90^\circ, 60^\circ, 30^\circ</m> with the lengths of the sides opposite them <m>2.000, 1.732, 1.000</m>. If triangle DEF also has angles <m>90^\circ, 60^\circ, 30^\circ</m> it is similar. Suppose the length of the side <m>DE</m> opposite the <m>30^\circ</m> angle at point F is <m>2.000</m>.</p>
+            <image source="images/similar_triangles_369">
+                <shortdescription>Two right triangles. Measurements are in the question.</shortdescription>
+            </image>
+            <p>Suppose triangle ABC has angles <m>90^\circ, 60^\circ, 30^\circ</m> with the lengths of the sides opposite them <m>2.000, 1.732, 1.000</m> respectively. If triangle DEF also has angles <m>90^\circ, 60^\circ, 30^\circ</m> it is similar. Suppose the length of the side <m>DE</m> opposite the <m>30^\circ</m> angle at point F is <m>2.000</m>.</p>
             <p>First, we identify the corresponding sides. <m>\overline{AB}</m> and <m>\overline{DE}</m> are opposite <m>30^\circ</m> angles so they are corresponding. <m>\overline{CA}</m> and <m>\overline{FD}</m> are opposite <m>60^\circ</m> angles so they are corresponding. Finally, <m>\overline{BC}</m> and <m>\overline{EF}</m> are opposite <m>90^\circ</m> angles so they are corresponding. This means <me>\frac{\overline{AB}}{\overline{DE}} = \frac{\overline{CA}}{\overline{FD}} = \frac{\overline{BC}}{\overline{EF}}.</me></p>
             <p>Because we know the ratio <m>\frac{\overline{AB}}{\overline{DE}}</m>, we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving.
             <md>
@@ -293,7 +301,9 @@
         <p>Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.</p>
 
         <example xml:id="example-similar-measure-height">
-            <image source="images/shadow_light_pole" />
+            <image source="images/shadow_light_pole">
+                <shortdescription>Stick figure person standing near a light pole. Measurements are in the question.</shortdescription>
+            </image>
             <p>A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?</p>
             <p>We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.</p>
             <p>Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in <xref ref="theorem-triangle-angle-sum" />.</p>

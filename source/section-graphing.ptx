@@ -124,7 +124,12 @@
 
     <figure xml:id="figure-maximum-glide">
         <caption>Graph Representing Maximum Engine Out Glide</caption>
-        <image source="images/MaximumGlide" width="80%" />
+        <image source="images/MaximumGlide" width="80%">
+            <shortdescription>Graph of line representing relationship between altitude and glide distance.</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled Glide Distance and ranges form 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).</p>
+            </description>
+        </image>
     </figure>
 
     <exercise xml:id="exercise-table-read-graph">
@@ -154,13 +159,26 @@
 
     <figure xml:id="figure-stature-percentiles-male">
         <caption>Expected Stature of Males from 2 to 20 Years</caption>
-        <image source="images/StaturePercentilesUSmale" width="50%" />
+        <image source="images/StaturePercentilesUSmale" width="70%">
+            <shortdescription>7 curves showing the expected height at a given age.</shortdescription>
+            <description>
+                <p>Request a manipulative to examine.</p>
+                <p>The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.</p>
+            </description>
+        </image>
     </figure>
 
     <example xml:id="example-read-graph-stature-percentiles">
         <p>The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at <url href="https://www.cdc.gov/growthcharts/" visual="cdc.gov/growthcharts/" />. What height in centimeters is the 50th percentile for 11 year old males?</p>
         <p>Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see <xref ref="example-table-read-interpolate-third" /> for a reminder on how to estimate this).</p>
-        <image source="images/StaturePercentilesUSmale-read50" width="50%" />
+        <image source="images/StaturePercentilesUSmale-read50" width="70%">
+            <shortdescription>7 curves showing the expected height at a given age and one labeled point.</shortdescription>
+            <description>
+                <p>Request a manipulative to examine.</p>
+                <p>The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.</p>
+                <p>A vertical line goes up from 11 years to the 50 percentile curve. From that point a horizontal line goes over to the vertical axis a little above 140 cm.</p>
+            </description>
+        </image>
         <p>How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.</p>
         <p>For 2 year olds it appears to range from 80 to 95 cm (about 3/4 of the way up). This is a spread of <m>95-80=15</m> cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of <m>190-165=35</m> cm. Thus the spread increases over time. The ratio is <m>35/15 = 7/3 \approx 2.3</m>. For the percent increase we calculate <m>\frac{35}{15} \approx 2.33333333</m> The percent increase is <m>2.33333333-1.00000000=1.33333333</m> or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.</p>
     </example>
@@ -182,7 +200,13 @@
 
     <figure xml:id="figure-temp-dewpoint">
         <caption>Graph of Temperature and Dewpoint</caption>
-        <image source="images/TempDewpointPANC" width="80%" />
+        <image source="images/TempDewpointPANC" width="80%">
+            <shortdescription>Partial radiosonde data showing temperature and dewpoint curves.</shortdescription>
+            <description>
+                <p>Request a manipulative to examine.</p>
+                <p>The horizontal axis is labeled Temperature and ranges from -100 to 20 degrees centigrade. The vertical axis is labeled pressure altitude and ranges from 1000 at the bottom to 0 at the top. There are two curves. One represents the temperature at that pressure and the other represents the dew point at that pressure.</p>
+            </description>
+        </image>
     </figure>
 
     <p>Note some charts like <xref ref="figure-temp-dewpoint" /> are not meant to convey specific numbers but rather to show trends.</p>
@@ -233,7 +257,9 @@
     <figure xml:id="figure-read-graph-bar" >
         <caption>Vasya's Salary</caption>
 
-        <image source="images/vasya-salary" />
+        <image source="images/vasya-salary">
+            <shortdescription>A bar graph of the data above.</shortdescription>
+        </image>
     </figure>
 
     <example xml:id="example-read-graph-bar-compare">
@@ -265,7 +291,13 @@
     <figure xml:id="figure-read-graph-compare" >
         <caption>Vasya's Salary</caption>
 
-        <image source="images/vasya-raise-comparison" />
+        <image source="images/vasya-raise-comparison">
+            <shortdescription>A bar graph showing the annual raise as a percent and the annual inflation rate as a percent from 2017 to 2023.</shortdescription>
+            <description>
+                <p>The horizontal access is labeled with years from 2017 to 2023. The vertic axis is labeled with percents from 0 to 9.</p>
+                <p>For 2017 the raise is about 8%, and inflation is below 2%. For 2018 The raise is above 7%, and inflation is above 2%. For 2019 the rais is below 7% and inflation is between 1% and 2%. For 2020 the raise is between 6% and 7%, and inflation is about 7%. For 2021 the raise is above 6%, and inflation is between 6% and 7%. For 2022 the raise is less than 6%, and inflation is more than 3%. For 2023 the raise is more than 5%, and inflation is bewteen 2% and 3%.</p>
+            </description>
+        </image>
     </figure>
 
     <exercise xml:id="exercise-read-bar-graph">
@@ -294,7 +326,13 @@
     <figure xml:id="figure-salary-inflation" >
         <caption>Salary vs Inflation</caption>
 
-        <image source="images/salary-inflation-comparison" />
+        <image source="images/salary-inflation-comparison">
+            <shortdescription>A bar graph showing Guido's salary each year and his 2017 salary adjusted for inflation each year.</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled with years from 2017 to 2024. The vertical axis is labeled from $0 to $90000.</p>
+                <p>For 2017 the actual and inflation adjusted salaries are the same height. For 2018 the actual salary bar is slightly higher than the inflation adjusted bar. For 2019 the actual salary bar is slightly higher than the inflation adjusted bar. For 2020 the inflation adjusted bar is slightly higher than the actual bar. For 2021 the inflation adjusted bar is slightly higher than the actual bar. For 2022 the inflation adjusted bar is multiple grid lines higher than the actual salary. For 2023 the inflation adjusted bar is multiple grid lines higher than the actual salary. For 2024 the inflation adjusted bar is multiple grid lines higher than the actual salary.</p>
+            </description>
+        </image>
     </figure>
 
 </subsection>
@@ -326,7 +364,12 @@
     <figure xml:id="figure-graphing-line1">
         <caption>Graph of Scale</caption>
 
-        <image source="images/line-graph" />
+        <image source="images/line-graph">
+            <shortdescription>A graph showing the data points from the table above.</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled model inch and ranges from 0 to 4. The vertical axis is labeled object inch and ranges from 0 to over 500. There is one point for each row in the table above. These are connected by a curve that appears flat.</p>
+            </description>
+        </image>
     </figure>
 
     <example xml:id="example-analyze-scale-model">
@@ -367,7 +410,12 @@
     <figure xml:id="figure-vary-ohm">
         <caption>Graph of Ohms Law</caption>
 
-        <image source="images/ohms-example" />
+        <image source="images/ohms-example" width="70%">
+            <shortdescription>A graph showing the data points from the Ohm's law table above.</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled resistance in ohms and ranges from 1 to 24. The vertical axis is labeled current in amps and ranges from 0 to over 12. There is one point for each row in the Ohm's law table above. These are connected by a curve that begins in the top left and heads down and right, leveling off as it goes right.</p>
+            </description>
+        </image>
     </figure>
 
     <exercise xml:id="exercise-graphing-continuous1">
@@ -418,7 +466,12 @@
 
     <figure xml:id="figure-graph-slope">
         <caption>Calculating Slope</caption>
-        <image source="images/line-slope" />
+        <image source="images/line-slope">
+            <shortdescription>The graph of a line through 3 points showing a relationship between altitude and pressure.</shortdescription>
+            <description>
+                <p>The horizontal exis is labeled altitude in feet mean sea level and ranges from 0 to 10000. The vertical axis is labeled pressure in inches of mercury and ranges from 19 to 30. Three points are labeled. They are (2000,27.92), (4000,25.92) and (8000,21.92). A line is drawn thru these points.</p>
+            </description>
+        </image>
     </figure>
 
     <p>To write the equation for a line we need the shift <m>+b</m> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m>, because in the linear form <m>y=mx+b</m> we have <m>y=m \cdot 0 + b = b</m> The shift then is the <m>y</m> coordinate at <m>x=0</m> which is why it is often called the y-intercept.</p>

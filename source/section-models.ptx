@@ -278,7 +278,10 @@
     <example xml:id="example-model-rental-truck">
         <statement>
             <p>You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.</p>
-            <image source="images/UHaul.png" />
+            <image source="images/UHaul.png">
+                <shortdescription>UHaul ad with pricing</shortdescription>
+                <description>Ad containing an image of the truck, truck size information, and pricing information. $39.95 plus $0.79 per mile.</description>
+            </image>
         </statement>
         <solution>
             <p>We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).</p>
