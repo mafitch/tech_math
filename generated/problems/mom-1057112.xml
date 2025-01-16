@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
-<image width="33%"  pi:generated="problems/images/14082957b6aa05a48615fccd31f6e462.png" /><p>
-Suppose a = 4 and A = 45 degrees. Calculate:</p>
+<image width="33%"  pi:generated="problems/images/666e548d38046cf6ec01226beeb5cb43.png" /><p>
+Suppose a = 12 and A = 25 degrees. Calculate:</p>
 <p>
 b = <fillin characters="20" /></p>
 <p>
@@ -14,28 +14,28 @@ Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>4.0</li><li>5.7</li><li>45.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>25.7</li><li>28.4</li><li>65.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({45}\right)}}}=\frac{{4}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({25}\right)}}}=\frac{{12}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{4}}{{\tan{{\left({45}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{12}}{{\tan{{\left({25}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{4}\approx{4}</m>.</p>
+  <m>\displaystyle{b}\approx{25.734083046115}\approx{25.7}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={4}^{{2}}+{4}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={12}^{{2}}+{25.734083046115}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={16}+{16}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={144}+{662.24303022433}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={32}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={806.24303022433}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{32}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{806.24303022433}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{5.6568542494924}\approx{5.7}</m>.</p>
+  <m>\displaystyle{c}\approx{28.39441899783}\approx{28.4}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{45}^{\circ}\approx{45}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{25}^{\circ}\approx{65}^{\circ}</m></p>
 
 </solution>
 </myopenmath>

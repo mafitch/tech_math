@@ -31,7 +31,7 @@
      inkscape:window-x="-8"
      inkscape:window-y="1342"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="svg1" />
   <defs
      id="defs1">
     <clipPath
@@ -65,15 +65,6 @@
   </defs>
   <g
      id="layer1">
-    <rect
-       x="1.6353985"
-       y="1.4062581"
-       width="133.87917"
-       height="133.61458"
-       fill="#ffffff"
-       id="rect2"
-       style="stroke-width:0.264583"
-       clip-path="url(#clipPath39)" />
     <path
        d="M 13.409357,14.503159 H 130.09061 M 13.409357,24.821909 H 130.09061 M 13.409357,35.405216 H 130.09061 M 13.409357,45.723966 H 130.09061 M 13.409357,56.307299 H 130.09061 M 13.409357,66.626049 H 130.09061 M 13.409357,77.209382 H 130.09061 M 13.409357,87.528132 H 130.09061 M 13.409357,97.846882 H 130.09061 M 13.409357,108.43022 H 130.09061"
        stroke="#d9d9d9"
@@ -305,7 +296,7 @@
        y="8.8145914"
        style="stroke-width:0.264583">Temperature and Dewpoint</text>
     <path
-       d="m 44.497898,129.99376 h 6.879167"
+       d="m 43.920019,132.61962 h 6.879167"
        stroke="#ff0000"
        stroke-width="0.529167"
        stroke-linecap="round"
@@ -321,11 +312,11 @@
        font-weight="400"
        font-size="3.175px"
        id="text27"
-       x="52.005184"
-       y="130.78751"
+       x="51.427303"
+       y="133.41336"
        style="stroke-width:0.264583">Temperature</text>
     <path
-       d="m 73.072898,129.99376 h 6.879166"
+       d="m 72.495019,132.61962 h 6.879166"
        stroke="#00b050"
        stroke-width="0.529167"
        stroke-linecap="round"
@@ -341,8 +332,27 @@
        font-weight="400"
        font-size="3.175px"
        id="text29"
-       x="80.579659"
-       y="130.78751"
+       x="80.001778"
+       y="133.41336"
        style="stroke-width:0.264583">Dew Point</text>
+    <text
+       fill="#595959"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.02708px"
+       id="text25-1"
+       x="61.679657"
+       y="127.12289"
+       style="font-size:3.175px;stroke-width:0.264583">Temperature(C)</text>
+    <text
+       fill="#595959"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="5.02708px"
+       id="text25-1-4"
+       x="-75.543076"
+       y="3.4761784"
+       style="font-size:3.175px;stroke-width:0.264583"
+       transform="rotate(-90)">Pressure (mb)</text>
   </g>
 </svg>
