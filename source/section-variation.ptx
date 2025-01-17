@@ -164,7 +164,12 @@
 
     <figure xml:id="figure-hydraulic-press">
         <caption>Hydraulic Press</caption>
-        <image source="images/hydraulic-press" width="60%"/>
+        <image source="images/hydraulic-press" width="60%">
+            <shortdescription>Hydraulic system with two pistons of different sizes.</shortdescription>
+            <description>
+                <p>A force pushes down on a small piston on the left. That piston creates pressure on the hydraulic fluid beneath it. Because the fluid is constrained by the cylinders and tank, that pressure is transfered to a larger piston on the right. This creates an upward force on that piston. The forces are <m>F_1, F_2</m> and the surface areas of the pistons are <m>A_1, A_2</m>.</p>
+            </description>
+        </image>
     </figure>
 
     <fact xml:id="model-hydraulic">

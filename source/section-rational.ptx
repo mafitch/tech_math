@@ -27,7 +27,12 @@
 
     <figure xml:id="figure-gear-measurements">
         <caption>Gear Measurements</caption>
-        <image source="images/gear_measurements" width="60%" />
+        <image source="images/gear_measurements" width="60%">
+            <shortdescription>Two gears with pitch diameter and outer diameter labeled.</shortdescription>
+            <description>
+                <p>Outer diameter is labeled as the length of a line going from the tip of one gear tooth to the tip of the gear tooth diametrically opposed. Pitch diameter is labeled as the length of a diameter of a circle drawn roughly half way between bottom and top of the gear teeth. That circle is rubbing against the matching circle of the second gear (as if these were toothless wheels).</p>
+            </description>
+        </image>
     </figure>
 
     <fact xml:id="model-gear-teeth">
@@ -116,7 +121,12 @@
 
     <figure xml:id="figure-parallel-resistance">
         <caption>Resistors in Parallel</caption>
-        <image source="images/resistors-parallel" width="60%" />
+        <image source="images/resistors-parallel" width="60%" >
+            <shortdescription>Diagram of a battery with two resistors in parallel.</shortdescription>
+            <description>
+                <p>From the positive side of the battery the circuit continues and then splits into a Y. On each branch of the Y is a resitor. From the farther side of both resitors the circuit continues and comes back together (reverse Y). From here the circuit returns to the negative side of the battery.</p>
+            </description>
+        </image>
     </figure>
 
     <p>The primary algebra technique required is to obtain common denominators.</p>

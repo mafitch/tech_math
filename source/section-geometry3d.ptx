@@ -31,7 +31,9 @@
     <figure xml:id="figure-illustrate-surface-volume">
         <caption>Complex Shape with Surface and Volume</caption>
 
-        <image source="images/popcorn_cone" width="30%" />
+        <image source="images/popcorn_cone" width="30%" >
+            <shortdescription>Roughly conical shape made from checkered paper</shortdescription>
+        </image>
     </figure>
 
     <paragraphs>
@@ -54,12 +56,20 @@
 
         <sbsgroup width="30%">
             <sidebyside>
-                <image source="images/triangular_prism" />
-                <image source="images/triangular_prism_non_right" />
+                <image source="images/triangular_prism" >
+                    <shortdescription>Right triangular prism built from a right triangle</shortdescription>
+                </image>
+                <image source="images/triangular_prism_non_right" >
+                    <shortdescription>Skewed triangular prism built from a right triangle</shortdescription>
+                </image>
             </sidebyside>
             <sidebyside>
-                <image source="images/trapezoidal_prism_right" />
-                <image source="images/trapezoidal_prism_non_right" />
+                <image source="images/trapezoidal_prism_right" >
+                    <shortdescription>Right rectangular prism built by extruding a rectangle backwards</shortdescription>
+                </image>
+                <image source="images/trapezoidal_prism_non_right" >
+                    <shortdescription>Skewed trapezoidal prism</shortdescription>
+                </image>
             </sidebyside>
         </sbsgroup>
     </figure>
@@ -72,7 +82,11 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/triangular_prism" /></p></cell> <cell right="minor"><p>sum of area of all sides</p></cell> <cell right="minor"><m>V = B h</m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/triangular_prism" >
+                    <shortdescription>Illustrative prism with no labels</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><p>sum of area of all sides</p></cell> <cell right="minor"><m>V = B h</m></cell> </row>
         </tabular>
     </table>
 
@@ -107,11 +121,21 @@
         <sidebyside>
             <figure xml:id="figure-exercise-prism-triangular-right">
                 <caption>Right Triangular Prism</caption>
-                <image source="images/triangular_prism_exercise" width="15%" />
+                <image source="images/triangular_prism_exercise" width="15%" >
+                    <shortdescription>Right triangular prism with sides lengths labeled</shortdescription>
+                    <description>
+                        <p>The base is a right triangle with leg lengths 2.125 and 3.125. It is a right prism with height 10.250.</p>
+                    </description>
+                </image>
             </figure>
             <figure xml:id="figure-exercise-prism-triangular-slant">
                 <caption>Non-Right Triangular Prism</caption>
-                <image source="images/triangular_prism_slant_exercise" width="30%" />
+                <image source="images/triangular_prism_slant_exercise" width="30%" >
+                    <shortdescription>Skewed triangular prism with the same measurements</shortdescription>
+                    <description>
+                        <p>The base is a right triangle with leg lengths 2.125 and 3.125. It is a skewed prism with height 10.250.</p>
+                    </description>
+                </image>
             </figure>
         </sidebyside>
     </figure>
@@ -130,17 +154,23 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cylinder" /></p></cell> <cell right="minor"><m>A=2\pi r \cdot s</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/cylinder" >
+                    <shortdescription>Skewed circular cylinder with labels</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><m>A=2\pi r \cdot s</m></cell> <cell right="minor"><m>V = \pi r^2 h</m></cell> </row>
         </tabular>
     </table>
 
-    <p>If the cylinder is not slanted then <m>s=h</m>. Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles.</p>
+    <p>The height (<m>h</m>) of the cylinder is the distance from the top disc down to the plane in which the bottom cylinder sits. It does not necessarily touch both discs (cylinder skewed so far the discs do not overlap). If the cylinder is not slanted then <m>s=h</m>. Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles to the lateral surface area.</p>
 
     <p>The formula for the area of the side of a cylinder looks like width (<m>2\pi r</m>) times height (<m>s</m>) which is the formula for area of a rectangle. Indeed if you think about a can (the type that contain paint, soup, or other substances) the label if peeled off is a rectangle. The height of that rectangle is the height of the can and the width of that rectangle is enough to wrap around the can.</p>
 
     <example xml:id="example-cylinder-properties">
         <p>What are the total surface area and volume of this slanted cylinder?</p>
-        <image source="images/cylinder_exercise" width="30%" />
+        <image source="images/cylinder_exercise" width="30%" >
+            <shortdescription>Skewed cylinder with raidus 3.907, height 5.324, and slant height 5.666</shortdescription>
+        </image>
         <p>The lateral surface area is
         <md>
             <mrow>2\pi(3.90\underline{7})(5.66\underline{6}) &amp; \approx </mrow>
@@ -171,7 +201,11 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/sphere" /></p></cell> <cell right="minor"><m>A=4\pi r^2</m></cell> <cell right="minor"><m>V = \frac{4}{3}\pi r^3 </m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/sphere" >
+                    <shortdescription>Sphere with radius labeled</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><m>A=4\pi r^2</m></cell> <cell right="minor"><m>V = \frac{4}{3}\pi r^3 </m></cell> </row>
         </tabular>
     </table>
 
@@ -179,7 +213,9 @@
 
     <example xml:id="example-sphere-properties">
         <p>What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.</p>
-        <image source="images/half_sphere_exercise" width="30%" />
+        <image source="images/half_sphere_exercise" width="30%" >
+            <shortdescription>Top half of a sphere with radius 12.9167</shortdescription>
+        </image>
         <p>Because this is a dome (half sphere) we divide the formula by 2.
         <md>
             <mrow>A &amp; = \frac{1}{2}(4\pi(12.9167)^2) \text{ Squaring maintains 6 sigfigs}</mrow>
@@ -203,14 +239,20 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid1" /></p></cell> <cell right="minor"><p>sum of surfaces</p></cell> <cell right="minor"><m>V = \frac{1}{3} B h </m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/pyramid1" >
+                    <shortdescription>Triangular pyramid with irregular sides</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><p>sum of surfaces</p></cell> <cell right="minor"><m>V = \frac{1}{3} B h </m></cell> </row>
         </tabular>
     </table>
 
     <example xml:id="example-pyramid-calculuate">
         <task>
             <p>What is the surface area of this pyramid?</p>
-            <image source="images/pyramid-triangular-exercise" width="30%" />
+            <image source="images/pyramid-triangular-exercise" width="30%" >
+                <shortdescription>Pyramid with square base with side length 2.0000, height 2.8284, and slant height 3.1623</shortdescription>
+            </image>
             <p>This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers.</p>
             <p>The area of one of the triangles can be found using Heron's formula.
                 <md>
@@ -233,10 +275,14 @@
 
     <example xml:id="example-pyramid-minimal-parameters">
         <p>Calculate the volume of this rectangular pyramid.</p>
-        <image source="images/pyramid-exercise-no-height" width="30%" />
-        <p>To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg, the segment on the bottom (center of base to corner drawn below) and the edge length of the pyramid (labeled).</p>
-        <p>We do not have the length of the segment on the base (center to corner). We do know that the highest point of this pyramid is above the middle of the base. Thus this segment goes from the middle (both directions) to the corner. The length we need can be caluclated using the Pythagorean theorem. Because the point is in the middle the lengths are half of the measurements labeled.</p>
-        <image source="images/pyramid-exercise-no-height-labeled" width="30%" />
+        <image source="images/pyramid-exercise-no-height" width="30%" >
+            <shortdescription>Pyramid with rectangular base with side lengths 5.31 and 3.17 and slant height 9.72</shortdescription>
+        </image>
+        <p>To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg and the edge length as the hypotenuse. The second leg is in the base from the center to the corner of the pyramid.</p>
+        <p>We do not have the length of the segment on the base (center to corner). If we add a line from the center of the base to the midpoint of one of the sides, we form another right triangle with the desired length as the hypotenuse. The legs are each half the length of one of the sides. The Pythagorean theorem will give us the hypotenuse length.</p>
+        <image source="images/pyramid-exercise-no-height-labeled" width="30%" >
+            <shortdescription>The same diagram as above but with two right triangles described above labeled</shortdescription>
+        </image>
         <p><md>
             <mrow>\left(\frac{5.31}{2}\right)^2+\left(\frac{3.17}{2}\right)^2 &amp; = c^2.</mrow>
             <mrow>7.0\underline{4}9025+2.5\underline{1}2225 &amp; = c^2. &amp; &amp; \text{ Square maintains 3 sigfigs}</mrow>
@@ -275,7 +321,11 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone" /></p></cell> <cell right="minor"><m>A=\pi r \sqrt{h^2+r^2}</m> or <m>A=\pi r s</m></cell> <cell right="minor"><m>V = \frac{\pi}{3} r^2 h </m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/cone" >
+                    <shortdescription>Right cone with labels</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><m>A=\pi r \sqrt{h^2+r^2}</m> or <m>A=\pi r s</m></cell> <cell right="minor"><m>V = \frac{\pi}{3} r^2 h </m></cell> </row>
         </tabular>
     </table>
 
@@ -283,7 +333,9 @@
 
     <example xml:id="example-cone-need-height">
         <p>Calculate the total surface area and the volume of this cone.</p>
-        <image source="images/cone-example" width="30%" />
+        <image source="images/cone-example" width="30%" >
+            <shortdescription>Right cone with point downward having radius 5.7332 and slant height 18.1231</shortdescription>
+        </image>
         <p>The surface area can be calculated directly. The lateral surface area is
         <md>
             <mrow>LA &amp; = \pi r s</mrow>
@@ -327,7 +379,11 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/pyramid-frustrum" /></p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/pyramid-frustrum" >
+                    <shortdescription>Frustru of a right, square pyramid with labels</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
         </tabular>
     </table>
 
@@ -336,7 +392,7 @@
     <example xml:id="example-pyramid-frustrum">
         <task>
             <p>What is the surface area of the frustrum of the pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p>
-            <p>The perimeter of the lower base (triangle) is <m>3(3.500)=10.500</m> (3 is an exact number here so precision is not changed). The perimeter of the upper base (triangle) is <m>3(2.200)=6.600</m>. To calculate the area of the two bases we will need Heron's formula.
+            <p>The surface area consists of the areas of the base and top which are triangles and the three sides which are rhobmi. For the base and top we know the lengths of the three sides, so we can use Heron's formula to calculate their areas. The perimeter of the lower base (triangle) is <m>3(3.500)=10.500</m> (The number of sides, 3, is an exact number so precision is not changed.) The perimeter of the upper base (triangle) is <m>3(2.200)=6.600</m>.
             <md>
                 <mrow>s_1 &amp; = 10.500.</mrow>
                 <mrow>A_1 &amp; = \sqrt{10.500(10.500-3.500)^3}</mrow>
@@ -377,7 +433,9 @@
 
     <figure xml:id="figure-pyramid-frustrum-example">
         <caption>Calculate Area and Volume of this Frustrum</caption>
-        <image source="images/pyramid-frustrum-exercise" width="50%" />
+        <image source="images/pyramid-frustrum-exercise" width="50%" >
+            <shortdescription>Frustrum of a right, triangluar pyrmaid with lengths labeled</shortdescription>
+        </image>
     </figure>
 
     <table xml:id="figure-cone-frustrum-properties">
@@ -388,7 +446,11 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/cone-frustrum" /></p></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/cone-frustrum" >
+                    <shortdescription>Frustrum of a right code with labels</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
         </tabular>
     </table>
 
@@ -396,7 +458,9 @@
 
     <example xml:id="example-cone-frustrum-muffin-tin">
         <p>What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).</p>
-        <image source="images/cone-frustrum-muffin" width="30%" />
+        <image source="images/cone-frustrum-muffin" width="50%" >
+            <shortdescription>Frustrum of a cone with radii 7.2 and 5.0, height 3.3, and slant height 3.6</shortdescription>
+        </image>
         <p>The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top).
         <md>
             <mrow>LA &amp; = \pi s(r_1+r_2)</mrow>
@@ -463,7 +527,9 @@
 
     <example xml:id="exercise-apply-geometry-birdhouse">
         <p>What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1/8 inch.</p>
-        <image source="images/birdhouse" width="30%" />
+        <image source="images/birdhouse" width="30%" >
+            <shortdescription>Birdhouse that is an A frame: trianglular prism with hole in the front</shortdescription>
+        </image>
         <p>First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.</p>
         <p>For the triangles, we have edge lengths and not the height, because it is easier to measure the edges than the middle. For the area we will use Heron's formula.
         <md>
@@ -483,7 +549,9 @@
     <example xml:id="example-apply-geometry-ice-cream">
         <introduction>
             <p>An ice cream cone has the dimensions shown below.</p>
-            <image source="images/cone-sphere" width="30%" />
+            <image source="images/cone-sphere" width="30%" >
+                <shortdescription>Conical ice cream cone with hemisphere on the top.</shortdescription>
+            </image>
         </introduction>
         <task>
             <statement><p>What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units.</p></statement>
@@ -517,8 +585,10 @@
     </example>
 
     <example xml:id="example-machined-cylinder">
-        <p>A part is produced by drilling a whole into a cylinder as shown below. If the weight of aluminum is <m>2.70 \text{g}/\text{cm}^3</m> what is the total weight of this part? These are precision measurements; round using significant digits.</p>
-        <image source="images/machined_cylinder" width="60%" />
+        <p>A part is produced by drilling a cylindrical hole into a cylinder as shown below. If the weight of aluminum is <m>2.70 \text{g}/\text{cm}^3</m> what is the total weight of this part? These are precision measurements; round using significant digits.</p>
+        <image source="images/machined_cylinder" width="60%" >
+            <shortdescription>Right circular cylinder with smaller right circular cylinder cut out of it</shortdescription>
+        </image>
         <p>First, we calculate the volume of the cylinder. It has a radius of <m>1.20/2=0.60 \text{ cm}</m>. The volume is
         <md>
             <mrow>V_C &amp; = \pi(0.60 \text{ cm})^2(5.00 \text{ cm})</mrow>

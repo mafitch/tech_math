@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<section xml:id="section-activity-radiation2" >
+<section xml:id="section-project-radiation2" >
 <title>Project: Radiation Dosage</title>
 
 <project xml:id="project-radiation-dosage">
@@ -36,8 +36,18 @@
 	<figure xml:id="figure-sphere-runner">
 		<caption>Surface Area Ratio</caption>
 		<sidebyside widths="15%, 30%" valign="middle">
-			<image source="images/sphere_runner1" />
-			<image source="images/sphere_runner2" />
+			<image source="images/sphere_runner1" >
+				<shortdescription>Person in a sphere with radius 1</shortdescription>
+				<description>
+					<p>A person barely fits in the top half of a sphere that is shown with radius 1.</p>
+				</description>
+			</image>
+			<image source="images/sphere_runner2" >
+				<shortdescription>Person in a sphere of radius 2</shortdescription>
+				<description>
+					<p>A person is less than half the height of the top half of a sphere that is shown with radius 2.</p>
+				</description>
+			</image>
 		</sidebyside>
 	</figure></introduction>
 	<task><statement>

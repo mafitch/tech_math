@@ -29,7 +29,9 @@
     <figure xml:id="figure-illustrate-perimeter-area">
         <caption>Complex Shape with Perimeter and Area</caption>
 
-        <image source="images/perimeter_area" width="70%" />
+        <image source="images/perimeter_area" width="70%">
+            <shortdescription>Irregular shape with 11 sides of very different lengths.</shortdescription>
+        </image>
     </figure>
 
     <paragraphs>
@@ -60,7 +62,14 @@
                 <cell right="minor"><p>Area</p></cell>
             </row>
             <row valign="middle" left="minor" bottom="minor">
-                <cell halign="center" right="minor"><p><image width="100%" source="images/parallelogram" /></p></cell>
+                <cell halign="center" right="minor"><p>
+                    <image width="100%" source="images/parallelogram" >
+                        <shortdescription>Parallelogram with sides and height labeled.</shortdescription>
+                        <description>
+                            <p>The top and bottom sides are labeled with length a. The other two sides are labeled with length b. A height (distance from point on the top side down orthogonally to the bottom side) is labeled with length <m>h_1</m>.</p>
+                        </description>
+                    </image>
+                </p></cell>
                 <cell right="minor"><m>2(a+b)</m></cell>
                 <cell right="minor"><m>h_1 a</m></cell>
             </row>
@@ -71,14 +80,18 @@
 
     <example xml:id="example-parallelogram-area">
         <p>What are the perimeter and area of this parallelogram?</p>
-        <image source="images/parallelogram_area" width="30%" />
+        <image source="images/parallelogram_area" width="30%" >
+            <shortdescription>Parallelogram with side lengths 4.05 and 5.00 and height 3.00.</shortdescription>
+        </image>
         <p>The perimeter is the sum of the side lengths which in this case is <me>2(4.05+5.00) = 18.1.</me></p>
         <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3.00 \cdot 5.00 = 15.0.</me></p>
     </example>
 
     <example xml:id="example-rectangle-area">
         <p>What are the perimeter and area of this parallelogram?</p>
-        <image source="images/rectangle_area" width="30%" />
+        <image source="images/rectangle_area" width="30%" >
+            <shortdescription>Rectangle with side lengths 28.2 and 18.1</shortdescription>
+        </image>
         <p>The perimeter is the sum of the side lengths which in this case is <me>2(18.1+28.2) = 92.8.</me></p>
         <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. Because this is a rectangle a side length can be used as the height. <me>\text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510</me>.</p>
     </example>
@@ -106,7 +119,11 @@
                 <cell right="minor"><p>Area</p></cell>
             </row>
             <row valign="middle" left="minor" bottom="minor">
-                <cell halign="center" right="minor"><p><image width="100%" source="images/trapezoid" /></p></cell>
+                <cell halign="center" right="minor"><p>
+                    <image width="100%" source="images/trapezoid" >
+                        <shortdescription>Trapezoid with side lengths and height labeled</shortdescription>
+                    </image>
+                </p></cell>
                 <cell right="minor"><m>a_1+b_1+a_2+b_2</m></cell>
                 <cell right="minor"><m>\frac{h}{2}(a_1+a_2)</m></cell>
             </row>
@@ -117,7 +134,9 @@
 
     <example xml:id="example-trapezoid-area">
         <p>What are the perimeter and area of this trapezoid?</p>
-        <image source="images/trapezoid_area" width="30%" />
+        <image source="images/trapezoid_area" width="30%" >
+            <shortdescription>Trapezoid with parallel side lengths 1.76 and 3.04; other side lengths 5.00 and 4.05; and height 3.00</shortdescription>
+        </image>
         <p>The perimeter of this trapezoid is the sum of the four side lengths <me>4.05+1.76+3.04+5.00 = 13.85</me>.</p>
         <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1</me>.</p>
     </example>
@@ -126,7 +145,9 @@
 
     <example xml:id="example-trapezoid-too">
         <p>What are the perimeter and area of this trapezoid?</p>
-        <image source="images/trapezoid_too" width="30%" />
+        <image source="images/trapezoid_too" width="30%" >
+            <shortdescription>Trapezoid with parallel side lengths 10.00 and 13.00; other side lengths 8.54 and 10.00; and height 8.00</shortdescription>
+        </image>
         <p>The perimeter of this trapezoid is the sum of the four side lengths <me>10.00+10.00+8.54+13.00 = 41.54</me>.</p>
         <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{8.00}{2}(10.00+13.00) = 92.0.</me></p>
     </example>
@@ -149,11 +170,15 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Perimeter</p></cell> <cell right="minor"><p>Area</p></cell> </row>
-            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/triangle" /></p></cell> <cell right="minor"><m>a+b+c</m></cell> <cell right="minor"><m>\frac{1}{2}bh</m></cell> </row>
+            <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/triangle" >
+                    <shortdescription>Triangle with sides and height labeled</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><m>a+b+c</m></cell> <cell right="minor"><m>\frac{1}{2}bh</m></cell> </row>
         </tabular>
     </table>
 
-    <p>Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <xref ref="figure-exercise-triangle-area" />. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</p>
+    <p>Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side which is called the base. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <xref ref="figure-exercise-triangle-area" />. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</p>
 
     <example xml:id="example-triangle-area1">
         <p>What are the perimeter and area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p>
@@ -167,11 +192,15 @@
         <sidebyside valign="bottom">
             <figure xml:id="subfigure-triangle-area1">
                 <caption>Obtuse Triangle</caption>
-                <image width="30%" source="images/triangle_area" />
+                <image width="30%" source="images/triangle_area" >
+                    <shortdescription>Triangle with side lengths 5.98, 8.19, and base side length 10.90 with height 4.43</shortdescription>
+                </image>
             </figure>
             <figure xml:id="subfigure-triangle-area2">
                 <caption>Acute Triangle</caption>
-                <image width="30%" source="images/triangle_area2"  />
+                <image width="30%" source="images/triangle_area2" >
+                    <shortdescription>Triangle with side lengths 5.98, 8.19, and base side length 2.87 with height 4.43</shortdescription>
+                </image>
             </figure>
         </sidebyside>
     </figure>
@@ -231,7 +260,9 @@
 
     <example xml:id="example-heron-formula-integers">
         <p>Calculate the area of a triangle with side lengths 4, 5, and 7.</p>
-        <image source="images/triangle_heron1" width="50%" />
+        <image source="images/triangle_heron1" width="50%" >
+            <shortdescription>Triangle with side lengths 4, 5, 7</shortdescription>
+        </image>
         <p>According to Heron's formula
             <md>
                 <mrow>s &amp; = \frac{1}{2}(4+5+7)</mrow>
@@ -250,7 +281,8 @@
         <p>Calculate the area of the triangles in <xref ref="figure-exercise-triangle-area" />.</p>
         <p>According to Heron's formula for the triangle in <xref ref="subfigure-triangle-area1" />
             <md>
-                <mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90) \text{ Each term is precise to the 100ths (2 places)}</mrow>
+                <mrow>s &amp; = \frac{1}{2}(5.98+8.19+10.90)</mrow>
+                <intertext>Each term is precise to the 100ths (2 places)</intertext>
                 <mrow> &amp; = 12.5\underline{3}5. \text{ Addition maintains to the 100ths (4 sigfigs)}</mrow>
                 <mrow>\text{Area} &amp; \approx \sqrt{12.5\underline{3}5(12.5\underline{3}5-5.98)(12.5\underline{3}5-8.19)(12.5\underline{3}5-10.90)}</mrow>
                 <intertext>Terms precise to 100ths, 3 sigfigs</intertext>
@@ -288,7 +320,11 @@
             <col width="20%" />
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Perimeter</p></cell> <cell right="minor"><p>Area</p></cell> </row>
-            <row left="minor"><cell halign="center" right="minor"><p><image width="100%" source="images/circle_diag" /></p></cell> <cell right="minor"><m>2\pi r</m></cell> <cell right="minor"><m>\pi r^2</m></cell> </row>
+            <row left="minor"><cell halign="center" right="minor"><p>
+                <image width="100%" source="images/circle_diag" >
+                    <shortdescription>Circle with diameter and radius labeled</shortdescription>
+                </image>
+            </p></cell> <cell right="minor"><m>2\pi r</m></cell> <cell right="minor"><m>\pi r^2</m></cell> </row>
             <row valign="middle" left="minor" bottom="minor"><cell right="minor"><p></p></cell> <cell right="minor"><m>\pi d</m></cell> <cell right="minor"><m>\pi \frac{d^2}{4}</m></cell> </row>
         </tabular>
     </table>
@@ -349,10 +385,12 @@
     <example xml:id="example-apply-geometry-house-wall">
         <task>
             <p>Calculate the area of this wall given the dimensions given in feet.</p>
-            <image source="images/HouseWall" width="30%" />
-            <p>First we notice that we can describe the wall as a rectangle with a triangle on top of it.</p>
+            <image source="images/HouseWall" width="30%" >
+                <shortdescription>5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0</shortdescription>
+            </image>
+            <p>First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle.</p>
             <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \times 24.0 \text{ ft} = 168 \text{ ft}^2</m>.</p>
-            <p>The top is a triangle with two sides of length 13.0 and one of length 24.0. We don't know the height of the triangle so it will be easier to use Heron's formula for area.
+            <p>The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area.
             <md>
                 <mrow>s &amp; = \frac{1}{2}(13.0+13.0+24.0)</mrow>
                 <mrow> &amp; = 25.0.</mrow>
@@ -382,7 +420,9 @@
 
     <example xml:id="example-geometry2d-floor-plan">
         <p>Calculate the square footage of the combined living room and hallway.</p>
-        <image source="images/floor_plan_1" width="55%" />
+        <image source="images/floor_plan_1" width="55%" >
+            <shortdescription>Rectangular room with rectangular hallway attached and side lengths labeled</shortdescription>
+        </image>
         <p>This layout is rectangular. The living room is a rectange with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.</p>
         <p>To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.</p>
         <p>The living room height is <m>12 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 10 \text{ in} = 154 \text{ in}</m>. The width is <m>15 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 7 \text{ in} = 187 \text{ in}</m>. The area is <m>(154 \text{ in})(187 \text{ in}) = 28798 \text{ in}^2</m>.</p>
@@ -393,14 +433,16 @@
 
     <example xml:id="example-wall-subtract">
         <p>Calculate the area to be painted on this wall with a circular window.</p>
-        <image source="images/wall_porthole" width="50%" />
+        <image source="images/wall_porthole" width="50%" >
+            <shortdescription>5 sided shape consisting of a triangle on top of a rectangle with a circle cut out of it</shortdescription>
+        </image>
         <p>The wall consists of a rectangle with a triangle on top. The rectangle has width 12 ft and height 5 ft for an area of <m>(5 \text{ ft})(12 \text{ ft})=60 \text{ ft}^2</m>.</p>
-        <p>We have the base of the triangle (12 ft), and we can calculate the height. The total wall height is 11 ft and the rectangular portion is 5 ft, so the triangle has height <m>(11 \text{ ft})-(5 \text{ ft})=6 \text{ ft}</m>. Thus the area is <m>\frac{1}{2}(12 \text{ ft})(6 \text{ ft}) = 36 \text{ ft}^2</m>.</p>
+        <p>We have the base of the triangle (12 ft), but we do not have the height of the triangle. However, we know that the total wall height is 11 ft, and the part of the height from the rectangal is 5 ft. This means that the rest is from the triangle which has height <m>(11 \text{ ft})-(5 \text{ ft})=6 \text{ ft}</m>. Thus the area is <m>\frac{1}{2}(12 \text{ ft})(6 \text{ ft}) = 36 \text{ ft}^2</m>.</p>
         <p>The area of the circle is <m>\pi\left( \frac{6 \text{ ft}}{2} \right)^2 \approx 28.27433389 \text{ ft}^2 \approx 28 \text{ ft}^2</m>.</p>
         <p>The total wall area is therefore <me>60 \text{ ft}^2 + 36 \text{ ft}^2 - 28.27433389 \text{ ft}^2 \approx 67.72566611 \text{ ft}^2 \approx 68 \text{ ft}^2</me>. It is important to round up to have enough paint.</p>
     </example>
 
-    <p>The following example requires geometric thinking, but does not require any formula. Especially important is the type of rounding which is determined by physical constraints.</p>
+    <p>The following example requires geometric thinking, but does not require any formula. Especially important is deciding on the type of rounding which, in this case, is determined by physical constraints.</p>
 
     <example xml:id="example-geometry-abacus">
         <introduction>
@@ -468,14 +510,21 @@
 
     <figure xml:id="figure-apply-geometry-abacus">
         <caption>Abacus</caption>
-        <image source="images/abacus" width="40%" />
+        <image source="images/abacus" width="60%" >
+            <shortdescription>Abacus with dimensions of the wood pieces</shortdescription>
+            <description>
+                <p>The top and bottom (longest) sides are 60.0 inches long. The left, right, and divider sides are 27.0 inches long. All lumber is 1.5 inches wide. Depth of the wood is not shown in the diagram. The divider piece is 15.0" from the left edge.</p>
+            </description>
+        </image>
     </figure>
 
     <p>The following example also illustrates rounding according to physical constraints.</p>
 
     <example xml:id="example-carpet-squares">
         <p>We are purchasing carpet squares to carpet a rectangular room that is 15.5 ft by 19.0 ft. These carpet squares are 18 in by 18 in. A box contains 10 squares. How many boxes of carpet squares do we need purchase? This image shows four carpet squares together.</p>
-        <image source="images/carpet_square_fixed" width="30%" />
+        <image source="images/carpet_square_fixed" width="30%" >
+            <shortdescription>A 2 by 2 grid of the same carpet square</shortdescription>
+        </image>
         <p>We need to know how many square across and down the room. For the number of squares across we can divide the width of the room (15.5 ft) by the width of a carpet square (18 in). This requires matching units, so <m>15.5 \text{ ft} \cdot \frac{12 \text{ in}}{\text{ft}} = 186 \text{ in}</m> Thus the number of squares across is <m>\frac{186}{18} = 10.333</m>. This means the final square will be a third of a square in width. While it might seem efficient to reuse the rest of that carpet square in the rows above, we cannot because the pattern would not continue correctly. Thus we simply round up to 11 squares across.</p>
         <p>Next we calculate the number of squares down. <m>19.0 \text{ ft} \cdot \frac{12 \text{ in}}{\text{ft}} = 228 \text{ in}</m>. Thus the number of squares down is <m>\frac{228}{18} = 12.666</m>. Again to have enough squares we must round up to 13 squares down.</p>
         <p>Thus the total number of carpet squares needed is <m>11 \cdot 13 = 143</m>. Because each box has 10 squares each, we need <m>\frac{143}{10} = 14.3</m> boxes. To have enough we need 15 boxes. In practice we would likely buy at least one extra box in case there are problems.</p>

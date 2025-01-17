@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<section xml:id="section-activity-cycling" >
+<section xml:id="section-project-cycling" >
 <title>Project: Biking in Kansas and Alaska</title>
 
 <project xml:id="project-cycling-linear">
 	<title>Project: Biking in Kansas and Alaska</title>
 
 <introduction>
-	<p>In this project, we’re going to think about what makes a relationship linear or not linear. Each question is worth two points.</p>
+	<p>In this project, we are going to think about what makes a relationship linear or not linear. Each question is worth two points.</p>
 </introduction>
 
 <task><statement>
 	<p>This is a graph of a linear relationship. Looking at it, what about it tells you that it is linear?</p>
 	<figure xml:id="figure-line-graph">
 		<caption>Graph of Line</caption>
-		<image width="50%" source="images/line" />
+		<image width="50%" source="images/line" >
+			<shortdescription>Graph of a line sloped downward</shortdescription>
+			<description>
+				<p>Horizontal and vertical axes are labeled -10 to 10 in increments of 2. There are 4 minor grid lines between each major grid lines. The line begins in the third quadrant (upper left) and works down to the fourth quadrant (bottom right) briefly cutting through the first quadrant (upper right). There are no obvious points.</p>
+			</description>
+		</image>
 	</figure>
 </statement></task>
 
