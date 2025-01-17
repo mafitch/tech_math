@@ -83,8 +83,8 @@
         <image source="images/parallelogram_area" width="30%" >
             <shortdescription>Parallelogram with side lengths 4.05 and 5.00 and height 3.00.</shortdescription>
         </image>
-        <p>The perimeter is the sum of the side lengths which in this case is <me>2(4.05+5.00) = 18.1.</me></p>
-        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3.00 \cdot 5.00 = 15.0.</me></p>
+        <p>The perimeter is the sum of the side lengths which in this case is <me>2(4.05+5.00) = 18.1</me>.</p>
+        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3.00 \cdot 5.00 = 15.0</me>.</p>
     </example>
 
     <example xml:id="example-rectangle-area">
@@ -103,7 +103,7 @@
     <definition xml:id="definition-trapezoid">
         <title>Trapezoid</title>
 
-        <statement><p>A <term>trapezoid</term> is a four sided shape for which  one pair of opposing sides are parallel.</p></statement>
+        <statement><p>A <term>trapezoid</term> is a four sided shape for which one pair of opposing sides are parallel.</p></statement>
     </definition>
 
     <table xml:id="figure-trapezoid-properties">
@@ -122,6 +122,9 @@
                 <cell halign="center" right="minor"><p>
                     <image width="100%" source="images/trapezoid" >
                         <shortdescription>Trapezoid with side lengths and height labeled</shortdescription>
+                        <description>
+                            <p>The trapezoid has parallel sides of lengths <m>a_1</m> and <m>a_2</m> and other sides of length <m>b_1</m> and <m>b_2</m>. The height is the distance between the parallel sides which is defined by a line orthogonal to both.</p>
+                        </description>
                     </image>
                 </p></cell>
                 <cell right="minor"><m>a_1+b_1+a_2+b_2</m></cell>

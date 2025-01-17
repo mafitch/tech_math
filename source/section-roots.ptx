@@ -60,7 +60,10 @@
 
     <figure xml:id="figure-root-rate">
         <caption>Rate Comparison: Linear and Square Root</caption>
-        <image source="images/rate-compare-root" />
+        <image source="images/rate-compare-root" width="60%" >
+            <shortdescription>Graphs of linear and square root functions</shortdescription>
+            <description>The horizontal axis ranges from 0 to 10. The vertical axis ranges from 0 to 5. Graphs of <m>1/2x</m> and <m>\sqrt{x}</m> are shown. From 0 to 4 the square root function is above the linear function. Aftward the linear function is above.</description>
+        </image>
     </figure>
 
     <p>With rates it is important to test if a slow growth rate is leveling off or not. By level off we mean that even though it is constantly growing it never passes some fixed amount. For example, the numbers 0.5, 0.75, 0.875, 0.9375, 0.96875 is growing, but never passes 1.0. We will show that a square root (and other roots) do not level off.</p>

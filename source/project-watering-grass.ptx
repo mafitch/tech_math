@@ -83,6 +83,7 @@
     <figure xml:id="figure-sprinklers-rectangular-none">
         <caption>Sprinklers in Rectangular Grid</caption>
         <image source="images/lawn_nooverlap" width="80%">
+            <shortdescription>A rectangular lawn with sprinklers covering non-overlapping, circular areas</shortdescription>
             <description><p>A rectangular lawn with size 60 by 90 feet. There are 6 circles in a 3 by 2 grid. They do not overlap.</p></description>
         </image>
     </figure>
@@ -90,6 +91,7 @@
     <figure xml:id="figure-sprinklers-half-none">
         <caption>Sprinklers in Half Circle Mode</caption>
         <image source="images/lawn_nooverlap_half" width="80%">
+            <shortdescription>A rectangular lawn with sprinklers covering non-overlapping, circular or semi-circular areas</shortdescription>
             <description><p>A rectangular lawn with size 90 by 108 feet. There are 6 circles in a 3 by 2 grid with an additional row of 3 half circles. Nothing overlaps.</p></description>
         </image>
     </figure>
@@ -97,6 +99,7 @@
     <figure xml:id="figure-sprinklers-for-overlap">
         <caption>Sprinklers Arrangement to Extend</caption>
         <image source="images/lawn_for_overlap" width="80%">
+            <shortdescription>A rectangular lawn with sprinklers covering quarter, half, or full circular areas</shortdescription>
             <description><p>A rectangular lawn with size 60 by 90 feet. Along the top are a quarter circle, two half circles, and another quarter circle. Along the middle are a half circle, two full circles, and another half circle. The bottom like the top is a quarter circle, two half circles, and another quarter circle. Nothing overlaps.</p></description>
         </image>
     </figure>
@@ -104,6 +107,7 @@
     <figure xml:id="figure-sprinklers-rectangular-overlap">
         <caption>Sprinklers in Overlapping Rectangular Grid</caption>
         <image source="images/lawn_overlap2" width="80%">
+            <shortdescription>Rectangular lawn with sprinlers covering overlapping circular areas</shortdescription>
             <description><p>A rectangular lawn with size 60 by 90 feet. There are overlapping circles covering most of the lawn. They are all the same size. Diagonally the circles are tangential. Side to side and up and down they overlap.</p></description>
         </image>
     </figure>
@@ -111,7 +115,7 @@
     <figure xml:id="figure-circle-with-wedge">
         <caption>Identify Overlap Area</caption>
         <image source="images/circle_wedge" width="40%">
-            <description><p>A circle with a quarter wedge highlighted. The angle is a right angle.</p></description>
+            <shortdescription>A circle with a quarter wedge highlighted. The angle is a right angle.</shortdescription>
         </image>
     </figure>
 

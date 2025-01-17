@@ -37,7 +37,12 @@
                 <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2^2</m></cell><cell right="medium"><m>=4</m></cell></row>
             </tabular>
             <p>Next we graph these points and sketch the graph through them.</p>
-            <image source="images/parabola-graph" width="50%" />
+            <image source="images/parabola-graph" width="50%" >
+                <shortdescription>Graph of the points in the table above with a curve sketched through them.</shortdescription>
+                <description>
+                    <p>The horizontal axis ranges from -2 to 2. The vertical axis ranges from 0 to above 4. The points from the table above are plotted. On the left the curve starts above the first point and goes down to the middle point then mirrors the same shape going up on the right.</p>
+                </description>
+            </image>
         </statement>
     </example>
 
@@ -59,7 +64,12 @@
                 <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2(2-1)^2-4</m></cell><cell right="medium"><m>=-2</m></cell></row>
             </tabular>
             <p>Next we graph these points and sketch the graph through them.</p>
-            <image source="images/parabola-graph2" width="50%" />
+            <image source="images/parabola-graph2" width="50%" >
+                <shortdescription>Graph of the points above with a curve sketched through them</shortdescription>
+                <description>
+                    <p>The horizontal axis ranges from -2 to 2. The vertical axis ranges from 0 to above 4. The points from the table above are plotted. The graph looks like the previous parabola except that not all of the right side is shown and the lowest point is not at <m>x=1</m>.</p>
+                </description>
+            </image>
             <p>Notice that this time the vertex is at <m>(1,-4)</m>. The line of symmetry is <m>x=1</m>.</p>
         </statement>
     </example>
@@ -195,7 +205,12 @@
         <p>The second point can be any point. <m>x=0</m> is convenient. <m>y=\frac{1}{3}(0+3)^2+2 = \frac{1}{3} \cdot 9+2 = 3+2 = 5</m>.</p>
         <p>Because the center (axis of symmetry) is <m>x=-3</m>, we want to plot a portion of the curve left and right of that value. <m>x</m> from -6 to 0 (3 left to 3 right) will be convenient.</p>
         <p>We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.</p>
-        <image source="images/parabola_general" width="50%" />
+        <image source="images/parabola_general" width="50%" >
+            <shortdescription>Graph of a parabola shown with the left and right sides colored differently</shortdescription>
+            <description>
+                <p>The horizontal axis ranges from -6 to 0. The vertical axis ranges from 0 to 5. The points <m>(-3,2)</m> and <m>(0,5)</m> are plotted. The right side of a parabola is sketched between these two points. To the left the same shape is sketched in mirror.</p>
+            </description>
+        </image>
     </example>
 
     <exercise>
@@ -215,7 +230,14 @@
         <p>The lift equation has <m>h=0</m> and <m>k=0</m>. This makes sense because there should be zero lift when there is zero speed. If <m>k \gt 0</m> then there would be lift at zero speed. If <m>h \gt 0</m> there would be no lift until that speed.</p>
         <p>The coefficients, <m>\frac{1}{2}\rho S C_L</m>, make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.</p>
         <p>For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).</p>
-        <image source="images/compare_lift_curves" width="50%" />
+        <image source="images/compare_lift_curves" width="50%">
+            <shortdescription>Graphs of the right side of two parabolas representing lift at 2 altitudes</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled velocity and ranges from 0 to 120. The vertical axis is labeled lift and ranges from 0 to 12000.</p>
+                <p>A curve labeled 0 mean sea level (<m>\rho=0.2378</m>) begins at the origin and climbs to the point <m>(120,12000)</m>. The graph switches from dashed to solid beyond about <m>(52,2500)</m>.</p>
+                <p>A curve labeled 10000 mean sea level (<m>\rho=0.1756</m>) begins at the origin and climbs to about the point <m>(120,9000)</m>. The graph switches from dashed to solid beyond about <m>(60,2500)</m>.</p>
+            </description>
+        </image>
     </example>
 
     <example xml:id="example-interpret-parabola-load-factor">
@@ -223,7 +245,15 @@
         <p>This equation has <m>h=0</m> and <m>k=0</m>. Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is <m>V=V_S</m> which gives us 1 G. That is, the normal state of flight is 1 G (the one produced by earth's gravity). If <m>k \gt 0</m> the model would indicate more than 1 G produced by gravity. <m>h \ne 0</m> would indicate this occuring at some other speed.</p>
         <p>The coefficient (<m>1/V_S^2</m>) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's than it does to move from 2 G's to 3 G's.</p>
         <p>For example if the stall speed is 41 nm/hr, then 1 G occurs at 41 nm/hr and 2 G's occurs at <m>V=41\sqrt{2} \approx 58</m> nm/hr. To increase the maximum load factor requires an increase of <m>58-41=17</m> nm/hr. However if the stall speed were 63 nm/hr then 1 G occurs at 63 nm/hr and 2 G's occurs at <m>V=63\sqrt{2} \approx 89</m> nm/hr. To increase the maximum load factor required an increase of <m>89-63=26</m> nm/hr. The higher stall speed implies a greater (<m>22 \gt 16</m>) increase in speed.</p>
-        <image source="images/compare_load_factor_curves" width="50%" />
+        <image source="images/compare_load_factor_curves" width="50%" >
+            <shortdescription>Graphs of the right side of two parabolas representing lift at 2 altitudes</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled velocity and ranges from 0 to 100. The vertical axis is labeled G's and ranges from 0 to 4.</p>
+                <p>A blue curve begins at about <m>(41,1)</m> and climbs to about the point <m>(80,4)</m>. It looks like part of the right side of a parabola.</p>
+                <p>A red curve begins at about <m>(63,1)</m> and climbs to about the point <m>(100,2.4)</m>. It looks like part of the right side of a parabola.</p>
+                <p>A dashed line indicates where both curve cross 2 G's. The blue curve does at about 58, and the red curve does at about 89.</p>
+            </description>
+        </image>
     </example>
 
     <p>The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.</p>
