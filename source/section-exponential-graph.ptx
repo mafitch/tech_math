@@ -43,7 +43,12 @@
             <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>4</m></cell> <cell><m>2^4</m></cell><cell right="medium"><m>=16</m></cell></row>
         </tabular>
         <p>We can plot these points then sketch a curve smoothly through the points.</p>
-        <image source="images/graph-exponential-continuous" width="50%" />
+        <image source="images/graph-exponential-continuous" width="50%" >
+            <shortdescription>Graph of the points in the table above with curve sketched through them</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled x and ranges from -4 to 4. The vertical axis ranges from 0 to 16. Each point from the table above is shown as well as a curve that passes through all of them.</p>
+            </description>
+        </image>
         <p>Starting at <m>x=0</m> consider the curve as it extends to the right. We can use the analogy of walking up hill to understand this curve. At <m>x=0</m> we are walking up hill so we are a little slower than on a flat surface. At <m>x=1</m> the height has doubled but so also has the slope (remember the differences are a multiple of the height). Walking the next segment will be more strenuous. At <m>x=2</m> the height has doubled again, so also has the steepness. Now it is too steep to walk. We will need to scramble or use climbing equipment. Generally an exponential curve becomes increasingly steep.</p>
         <p>Starting back at <m>x=0</m> again consider the curve as it extends to the left. We can see that we are walking downhill; we might pick up a little speed. At <m>x=-1</m> it continues downhill to the left but it is not enough to help us maintain a faster speed. At <m>x=-2</m> we can no longer see the downhill (too gentle) though we would notice it if we were on a bike or skateboard. Just as the curve becomes twice as high and also twice as steep as we move the to right, it becomes half as high and half as steep as we go to the left. The inability to <q>see</q> the downhill nature illustrates that the exponential to the left begins to look like a horizontal line.</p>
         <p>Let's clarify that last statement. We notice that all values (left and right) are positive. So to the left the curve is going down, but it never crosses zero. It must therefore become increasingly close to zero. This is why it begins to look like a line namely <m>x=0</m>. When one curve becomes increasingly like another we call that second curve (the line <m>x=0</m> in this case) an <term>asymptote</term>.</p>
@@ -115,7 +120,12 @@
         <task>
             <p>Graph this model.</p>
             <p>We can use the points from the first task and the method from <xref ref="example-graph-exponential-continous" /> to produce a graph.</p>
-            <image source="images/exp_decay1" width="50%" />
+            <image source="images/exp_decay1" width="50%" >
+                <shortdescription>Graph of the model as a curve with point from above labeled</shortdescription>
+                <description>
+                    <p>The horizontal axis is labeled minutes and ranges from 0 to 168 in intervals of 16.8. The vertical axis is labeled grams and ranges from 0 to 130. Rather than being evently spaced tick marks on the vertical are double the value of the previous one starting at 8.125. The curve begins at the top left and continues down to the right leveling off above 0.</p>
+                </description>
+            </image>
             <p>Notice the gentle decrease toward zero is to the right this time as opposed to the left in <xref ref="example-graph-exponential-continous" />. That is because we are cutting in half each time instead of doubling.</p>
         </task>
     </example>
@@ -198,7 +208,13 @@
                 <cell halign="right"><m>19</m></cell>
             </row>
         </tabular>
-        <image source="images/exponential-translate-vertical" width="50%" />
+        <image source="images/exponential-translate-vertical" width="50%" >
+            <shortdescription>Graph of both curves in table above showing vertical shift</shortdescription>
+            <description>
+                <p>The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.</p>
+                <p>The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each point on <m>y=2^x</m> there is a corresponding point directly above it on <m>y=2^x+3</m>. That point is always 3 units higher. There is a vertical arrow of length 3 at <m>x=1</m> that fits between the points of the two curves.</p> 
+            </description>
+        </image>
         <p>Notice that every point is 3 units higher than the point in the original graph. We have moved the graph 3 units up.</p>
     </example>
 
@@ -270,7 +286,14 @@
                 <cell><m>48</m></cell>
             </row>
         </tabular>
-        <image source="images/exponential-stretch-vertical" width="50%" />
+        <image source="images/exponential-stretch-vertical" width="50%" >
+            <shortdescription>Graph of both curves in table above showing vertical shift</shortdescription>
+            <description>
+                <p>The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.</p>
+                <p>The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For most of the points on <m>y=2^x</m> there is a corresponding point directly above it on <m>y=3(2^x)</m>. Because the graph of <m>y=3(2^x)</m> is too high to fit in the vertical range there are no corresponding points at <m>x=3,4</m>.</p>
+                <p>At <m>x=1</m> there is a vertical arrow of length 1 from the x-axis to the point on <m>y=2^x</m>. There is a second vertical arrow of length 3 there from the x-axis to the point on <m>y=3(2^x)</m>. Imagine the shorter arrow being stretched until it becomes the taller arrow. This is the effect that shifts points on one curve to the other.</p>
+            </description>
+        </image>
         <p>Notice that every point is 3 times farther from the x-axis. This makes it 3 times steeper.</p>
     </example>
 
@@ -357,7 +380,14 @@
                 <cell right="medium" halign="right"><m>\frac{1}{16}</m></cell>
             </row>
         </tabular>
-        <image source="images/exponential-reflect-horizontal" width="50%" />
+        <image source="images/exponential-reflect-horizontal" width="50%" >
+            <shortdescription>Graph of both curves in table above showing reflection over the y-axis</shortdescription>
+            <description>
+                <p>The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.</p>
+                <p>The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each of the points on <m>y=2^x</m> there is a corresponding point on the opposite side of the y-axis on <m>y=2^(-x)</m>.</p>
+                <p>There is a horizontal arrow starting at <m>(-1,\frac{1}{2})</m> on the curve <m>y=2^x</m> that stretches to <m>(1,\frac{1}{2})</m> on the curve <m>y=2^{-x}</m>. There is another horizontal arrow starting at <m>(1,2)</m> on the curve <m>y=2^x</m> that stretches to <m>(-1,2)</m> on the curve <m>y=2^{-x}</m>. These arrows illustrate how points on <m>y=2^x</m> have a corresponding point on <m>y=2^{-x}</m> which is on the opposite side of the y-axis.</p>
+            </description>
+        </image>
         <p>Notice that every point end up on the other side of the y-axis. This is a reflection of the original curve.</p>
     </example>
 
@@ -439,7 +469,14 @@
                 <cell><m>16</m></cell>
             </row>
         </tabular>
-        <image source="images/exponential-stretch-horizontal" width="50%" />
+        <image source="images/exponential-stretch-horizontal" width="50%" >
+            <shortdescription>Graph of both curves in table above showing the horizontal stretch</shortdescription>
+            <description>
+                <p>The horizontal axis ranges from -16 to 16. Notice that this is 4 time wider than the previous examples. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.</p>
+                <p>The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each of the points on <m>y=2^x</m> there is a corresponding point on <m>y=2^(0.25x)</m>.</p>
+                <p>There is a horizontal arrow starting at <m>(-1,\frac{1}{2})</m> on the curve <m>y=2^x</m> that stretches to <m>(-4,\frac{1}{2})</m> on the curve <m>y=2^{0.25x}</m>. There is another horizontal arrow starting at <m>(1,2)</m> on the curve <m>y=2^x</m> that stretches to <m>(4,2)</m> on the curve <m>y=2^{0.25x}</m>. These arrows illustrate how points on <m>y=2^x</m> have a corresponding point on <m>y=2^{0.25x}</m> which is 4 times as far away from the y-axis. This is why the horizontal axis is 4 times wider than previous examples.</p>
+            </description>
+        </image>
         <p>We ended up with the same y values, but they occurred spread out over a wider area. Multiplying  stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).</p>
     </example>
 
@@ -448,7 +485,14 @@
     <example xml:id="example-graph-exponential-complex">
         <p>Graph the model <m>7.000 \cdot 2^{-t/10.551}</m> from <xref ref="example-exponential-decay-barium" />. In order to match our examples above we can express the exponent as <m>7.000 \cdot 2^{-0.094778t}</m>. We simply calculated <m>1/10.551</m> and maintained 5 significant digits.</p>
         <p>First, we identify the changes from <m>y=2^x</m>. The 7.000 in front is a vertical stretch. The negative in the exponent is a reflection over the y-axis. The coefficient of the exponent is a horizontal stretch. We can make these changes in order of operation: horizontal stretch, reflection, vertical stretch. These are shown in the graph below. Graph A is the original. B shows the horizontal stretch. C shows the reflection. D adds the vertical stretch. The labels are located to show how one point is transformed by each step.</p>
-        <image source="images/exponential-barium-steps" width="50%" />
+        <image source="images/exponential-barium-steps" width="50%" >
+            <shortdescription>Four graphs each showing a step in graphing the exponential curve given above.</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled t and ranges from -40 to 40. The vertical axis ranges from 0 to 16.</p>
+                <p>The graph labeled A is of the original <m>y=2^t</m> which is shown as solid blue. The second graph labeled B is of <m>y=2^{t/10.551}</m> and is shown in short dashed dark purple. The third graph labeled C is of <m>y=2^{-t/10.551}</m> and is shown in slightly longer dashed magenta. The fourth graph labeled D is of <m>y=7 \cdot 2^{-t/10.551}</m> and is shown in long dashed red.</p>
+                <p>The label A is placed beside the point <m>(1,2)</m>. The labels B,C, and D are placed beside the point to which A is mapped.</p>
+            </description>
+        </image>
         <p>Looking at the final graph we can note that we really needed only three details to graph it. These are the asymptote (which remained unchanged from <m>y=0</m> here) and two points. One point tells us where to start and the other indicates how steep (because of the change between the two points).</p>
     </example>
 
