@@ -64,7 +64,12 @@
 			<row bottom="medium" left="medium"><cell right="medium">700</cell><cell right="medium"></cell></row>
 			<row bottom="medium" left="medium"><cell right="medium">900</cell><cell right="medium"></cell></row>
 		</tabular>
-		<image width="100%" source="images/tod_axes" />
+		<image width="100%" source="images/tod_axes" >
+			<shortdescription>Labeled axes for plotting the points in this table.</shortdescription>
+			<description>
+				<p>The horizontal axis is labeled x (min) and ranges from before -300 to past 1000. The vertical axes is labeled <m>T(x)</m> F<degree/> and ranges from about 50 to 110.</p>
+			</description>
+		</image>
 	</sidebyside></statement>
 </task>
 

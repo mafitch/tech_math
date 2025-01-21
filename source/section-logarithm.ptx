@@ -180,7 +180,13 @@
         </tabular>
         <p>These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider <m>\log_2(-4) = y</m> means <m>2^y = -4</m>. However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.</p>
         <p>The graph of <m>y=\log_2(x)</m> based on these points is below.</p>
-        <image source="images/graph-log2" width="50%" />
+        <image source="images/graph-log2" width="50%" >
+            <shortdescription>Graph of the logarithm from the table above.</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled x and ranges from 0 to 16. The vertical axis ranges from below -4 to 4.</p>
+                <p>The points from the table above are plotted. A curve is sketched through them that begins at the bottom left and climbs up to the right becoming less steep as it goes.</p>
+            </description>
+        </image>
     </example>
 
     <exercise xml:id="exercise-graph-log3">
@@ -191,7 +197,13 @@
 
     <figure xml:id="figure-level-or-not" >
         <caption>Graph of two always increasing curves</caption>
-        <image source="images/level-or-not" width="50%" />
+        <image source="images/level-or-not" width="50%" >
+            <shortdescription>Graph of two curves which are both initially steep but become less steep differently</shortdescription>
+            <description>
+                <p>The horizontal axis is labeled x and ranges from 0 to 50. The vertical axis ranges from -3 to 3.</p>
+                <p>The blue, dashed curve climbs steeply from 0 to about 3 then turns and becomes almost level by 10. The red, solid curve climbs steeply from 0 to about 2 then reduces steepness as it climbs.</p>
+            </description>
+        </image>
     </figure>
 
     <example xml:id="example-log2-does-not-level">
@@ -265,18 +277,22 @@
         <sidebyside>
             <figure xml:id="subfigure-normal-scale">
                 <caption>Normal Scale</caption>
-                <image source="images/scale-normal" width="30%" />
+                <image source="images/scale-normal" width="30%" >
+                    <shortdescription>Graph of curve on axes with linear scale</shortdescription>
+                </image>
             </figure>
             <figure xml:id="subfigure-log-scale">
                 <caption>Log Scale</caption>
-                <image source="images/scale-logarithm" width="30%" />
+                <image source="images/scale-logarithm" width="30%" >
+                    <shortdescription>Graph of curve on linear horizontal axis and logarithmic vertical axis</shortdescription>
+                </image>
             </figure>
         </sidebyside>
     </figure>
 
     <p>The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing <m>(x,\log(y))</m>.</p>
 
-    <p>When is this scale useful? Any time data is growing by a multiple rather. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. For example consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).</p>
+    <p>When is this scale useful? Any time data is growing by a multiple rather than by an amount added. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. Consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).</p>
 
     <p>Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.</p>
 
