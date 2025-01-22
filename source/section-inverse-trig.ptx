@@ -156,8 +156,10 @@
     <p>This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.</p>
 
     <example xml:id="example-calculate-angle-sun">
-        <p>If the gnomon of a sundial is 89 mm tall and the shadow the sun casts on the sundial is <m>12\bar{0}</m> mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.</p>
-        <image source="images/sundial-sun-angle" width="30%" />
+        <p>If the gnomon of a sundial (L shaped piece that casts a shadow) is 89 mm tall, and the shadow the sun casts on the sundial is <m>12\bar{0}</m> mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.</p>
+        <image source="images/sundial-sun-angle" width="30%" >
+            <shortdescription>Sundial with shadow cast by sun and lengths labeled</shortdescription>
+        </image>
         <p>The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite.
             <md>
                 <mrow>\tan(\theta) &amp; = \frac{89}{12\bar{0}}.</mrow>

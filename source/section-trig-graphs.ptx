@@ -97,7 +97,12 @@
 
     <figure xml:id="figure-graph-sine-long">
         <caption>Graph of Sine</caption>
-        <image source="images/sine-graph-long" width="50%" />
+        <image source="images/sine-graph-long" width="50%" >
+            <shortdescription>Graph of portion of a sine curve from -180 to 720 degrees</shortdescription>
+            <description>
+                <p>The horizontal axis ranges from -180 to 720 in increments of 90. The vertical axis ranges from -1 to 1. The graph of sine on this portion consists of 5 humps that are 180 wide and alternate down (starting at -180) and up. From 0 to 720 there are two complete up/down pairs.</p>
+            </description>
+        </image>
     </figure>
 
     <p>From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a <term>cycle</term>. In the default graph this is from 0<degree/> to 360<degree/> as shown in <xref ref="figure-graph-sine" />.</p>
@@ -208,7 +213,13 @@
     </definition>
 
     <example xml:id="example-sine-properties">
-        <image source="images/sine-property-example" width="50%" />
+        <image source="images/sine-property-example" width="50%" >
+            <shortdescription>Sine wave that completes five cycles from -180 to 720</shortdescription>
+            <description>
+                <p>The horizontal axis ranges from -180 to 720. The vertical axis ranges from -2 to 2.</p>
+                <p>The bottom of the sine wave reaches -2 and the top reaches 2. A complete cycle is repeated from -180 to 0, again from 0 to 180, again from 180 to 360, again from 360 to 540, and again from 540 to 720.</p>
+            </description>
+        </image>
         <p>The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is <me>f=\frac{1}{180} \approx 0.0056</me></p>
     </example>
 
@@ -219,17 +230,29 @@
         <sidebyside>
             <figure xml:id="subfigure-sine-wave-properties1">
                 <caption>Sine Wave</caption>
-                <image source="images/sine-curve1" />
+                <image source="images/sine-curve1" >
+                    <shortdescription>Sine wave with amplitude, period, and frequency labeled</shortdescription>
+                    <description>
+                        <p>The horizontal axis is labeled time and ranges from 0 to 2. The vertical axis ranges from -1.5 to 1.5.</p>
+                        <p>The sine wave reaches 1.5 at the top and -1.5 at the bottom. It completes a cycle by 1/3. It completes 3 cycles by 1.</p>
+                    </description>
+                </image>
             </figure>
             <figure xml:id="subfigure-sine-wave-properties2">
                 <caption>Another Sine Wave</caption>
-                <image source="images/sine-curve2" />
+                <image source="images/sine-curve2" >
+                    <shortdescription>A different sine wave with amplitude, period, and frequency labeled</shortdescription>
+                    <description>
+                        <p>The horizontal axis is labeled time and ranges from 0 to 12. The vertical axis ranges from -3 to 3.</p>
+                        <p>The sine wave reaches 3 at the top and -3 at the bottom. It completes a cycle by 4. It completes one quarter of a cycle by 1.</p>
+                    </description>
+                </image>
             </figure>
         </sidebyside>
     </figure>
 
     <example xml:id="example-identify-sine-traits">
-        <p>Consider the sine wave in <xref ref="subfigure-sine-wave-properties1" />. The amplitude is 3 because the wave reaches a max of 1.5 and a min of -3.</p>
+        <p>Consider the sine wave in <xref ref="subfigure-sine-wave-properties1" />. The amplitude is 1.5 because the wave reaches a max of 1.5 and a min of -1.5.</p>
         <p>The period is 1/3, because a full cycle ends at 1/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.</p>
         <p>Switch to the sine wave in <xref ref="subfigure-sine-wave-properties2" />. The amplitude is 3 because the wave reaches a max of 3 and a min of -3.</p>
         <p>The period is 4, because a full cycle ends at 4. The frequency is 1/4, because the cycle is only 1/4 complete by 1.</p>

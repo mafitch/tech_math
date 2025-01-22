@@ -35,7 +35,12 @@
 
     <figure xml:id="figure-triangle-labeled">
         <caption>Labeled Triangle</caption>
-        <image source="images/triangle-labeled" width="50%" />
+        <image source="images/triangle-labeled" width="50%" >
+            <shortdescription>Triangle with sides and angles labeled</shortdescription>
+            <description>
+                <p>The angles are labeled A, B, and C. The sides opposite angle A, B, and C are labeled a, b, and c respectively.</p>
+            </description>
+        </image>
     </figure>
 
     <example xml:id="example-law-sines-simple1">
@@ -178,8 +183,12 @@
     <figure xml:id="figure-ass-two-cases">
         <caption>Two Possible Triangles</caption>
         <sidebyside>
-            <image source="images/ASS_triangle1" width="45%" />
-            <image source="images/ASS_triangle2" width="45%" />
+            <image source="images/ASS_triangle1" width="45%" >
+                <shortdescription>Acute triangle from above with side lengths 4, 5, and 5.41</shortdescription>
+            </image>
+            <image source="images/ASS_triangle2" width="45%" >
+                <shortdescription>Obtuse triangle from above with side lengths 4, 5, and 1.66</shortdescription>
+            </image>
         </sidebyside>
     </figure>
 
@@ -278,9 +287,11 @@
     <example xml:id="example-flight-distance">
         <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.</p>
         <p>First, it helps to sketch an image.</p>
-        <image source="images/sailboat-course" width="40%" />
-        <p>In our sketch we see a non-right triangle. We know the lengths of two sides and can calculate the angle between them. This is side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of dashed segment).</p>
-        <p>We are given the headings for two segments but not an angle. The angle at the top is the change in headings. If we were at 300<degree/> and ended up at 245<degree/> then we turned left <m>300^\circ-245^\circ = 55^\circ</m>.</p>
+        <image source="images/sailboat-course" width="40%" >
+            <shortdescription>Triangle representing the route of this sailboat</shortdescription>
+        </image>
+        <p>In our sketch we see a non-right triangle. We know the lengths of two sides, and we want the length of the third side (distance from original location). From the headings we can calculate the angle between the two sides of known length. This provides side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of third side).</p>
+        <p>We are given the headings for two segments but not an angle. The angle representing the amount of the turn is the change in headings. If we were at 300<degree/> and ended up at 245<degree/> then we turned left <m>300^\circ-245^\circ = 55^\circ</m>.</p>
         <p>Now we can apply the Law of Cosines.
             <md>
                 <mrow>c^2 &amp; = 3341^2+4051^2-2(3341)(4051)\cos(55^\circ)</mrow>
@@ -297,10 +308,15 @@
     <example xml:id="example-object-height">
         <p>Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00<degree/> from horizontal. The observer at point B recorded an angle of 34.20<degree/> from horizontal. How high above ground was the aircraft?</p>
         <p>First, it helps to sketch an image.</p>
-        <image source="images/aircraft-height" width="75%" />
+        <image source="images/aircraft-height" width="75%" >
+            <shortdescription>Diagram showing relative position of two observers and an airplane</shortdescription>
+            <description>
+                <p>A line connects observer A to the airplane. The angle of inclination is labeled as 8.00<degree/>. To the right a line connects observer B to the airplane. The angle of inclination is labeled 34.20<degree/>. The distance between them is labeled 2.3 miles. To the right of B is a point directly below the airplane labeled C. A dashed line connects it to the airplane and is labeled h.</p>
+            </description>
+        </image>
         <p>How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.</p>
-        <p>In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle on the right of the diagram. Initially we know only the bottom angles (34.20<degree/> and the right angle) and none of the lengths. If we can calculate the length of the side on the left, then we could use the angles and that side length with the Law of Sines to calculate the height.</p>
-        <p>That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. Because we have angle-side-angle information, we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular <me>\frac{\sin(P)}{2.3}=\frac{\sin(8.00^\circ)}{c}</me></p>
+        <p>In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle with vertices B, C, and the airplane. Initially we know only the bottom angles (34.20<degree/> and the right angle) and none of the lengths. If we can calculate the length of the side from B to the airplane (on the left), then we could use the angles and that side length with the Law of Sines to calculate the height.</p>
+        <p>That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we have angle-side-angle information, so we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular <me>\frac{\sin(P)}{2.3}=\frac{\sin(8.00^\circ)}{c}</me></p>
         <p>To calculate the angle at the plane (labeled <m>P</m> above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is <m>180^\circ-34.20^\circ = 145.80^\circ = B</m>. Now, b <m>8.00^\circ+145.80^\circ+P = 180^\circ</m> So, the angle at the aircraft is <m>P = 26.20^\circ</m>.</p>
         <p>Now we can apply the Law of Sines.
             <md>

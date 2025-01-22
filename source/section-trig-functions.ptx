@@ -79,7 +79,9 @@
 
     <figure xml:id="figure-triangle-side-names">
         <caption>Right Triangle Terminology</caption>
-        <image source="images/triangle-names" width="50%"/>
+        <image source="images/triangle-names" width="50%" >
+            <shortdescription>Right triangle illustrating terms defined above</shortdescription>
+        </image>
     </figure>
 
     <example xml:id="example-right-triangle-side-names">
@@ -103,7 +105,12 @@
 
     <figure xml:id="figure-trig-function-read">
         <caption>Right Triangle with Side Lengths</caption>
-        <image source="images/triangle-read-trig" width="50%" />
+        <image source="images/triangle-read-trig" width="50%" >
+            <shortdescription>Right triangle with side lengths labeled</shortdescription>
+            <description>
+                <p>The hypotenuse has length <m>\sqrt{34}</m>. The angle on the right side of the hypotenuse is <m>\theta</m>. The length of the side to the right is 3. The angle on the left side of the hypotenuse is <m>\alpha</m>. The length of the side on the left is 5.</p>
+            </description>
+        </image>
     </figure>
 
     <example xml:id="example-trig-function-read">
@@ -197,7 +204,13 @@
 
     <figure xml:id="figure-view-angle-illustration">
         <caption>Illustrations of Angles of Elevation and Depression</caption>
-        <image source="images/view_angle_definitions" width="50%" />
+        <image source="images/view_angle_definitions" width="50%" >
+            <shortdescription>Image of a person looking from a balcony on one side of a street at the building across the street</shortdescription>
+            <description>
+                <p>The observer is on a balcony on the second story of a building. There is a horizontal line from the viewer across to the building on the other side of the street. There is another line from the observer to the top of the building across the street. The angle between the horizontal and the view of the top is labeled angle of elevation.</p>
+                <p>A third line goes from the observer to the bottom of the building across the street. The angle between the horizontal and the bottom of the building is labeled angle of depression.</p>
+            </description>
+        </image>
     </figure>
 
     <p>For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.</p>
@@ -205,13 +218,17 @@
     <example xml:id="example-apply-ladder-height">
         <p>For safety reasons the optimal angle of elevation of a ladder is 75<degree/>. If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall? We can measure a tenth of a foot but not very easily measure a hundredth of a foot, especially for placing a ladder.</p>
         <p>First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.</p>
-        <image source="images/ladder_sketch" width="30%" />
-        <p>We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75<degree/> angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.</p>
+        <image source="images/ladder_sketch" width="30%" >
+            <shortdescription>Sketch of the ladder against a wall described above.</shortdescription>
+        </image>
+        <p>We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75<degree/> angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length of the side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.</p>
         <p><md>
-            <mrow>\sin(75^\circ) &amp; = \frac{B}{16}</mrow>
-            <mrow>16\sin(75^\circ) &amp; = B</mrow>
+            <mrow>\sin(\theta) &amp; = \frac{\text{opposite}}{\text{hypotenuse}}</mrow>
+            <mrow>\sin(75^\circ) &amp; = \frac{h}{16}</mrow>
+            <mrow>16\sin(75^\circ) &amp; = h</mrow>
             <mrow>15.45 &amp; \approx B</mrow>
         </md> Thus the top of the ladder is 15.5 feet up the wall.</p>
+        <p>Why round to one decimal place? A hundredth of a foot is much less than an inch. This would make no difference in any application. Rounding to the nearest foot (units) would ignore as much as a half foot which could make a difference.</p>
      </example>
 
      <example xml:id="example-apply-ladder-distance">
@@ -236,10 +253,13 @@
      <example xml:id="example-apply-measure-height">
         <p>Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.</p>
         <p>We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.</p>
-        <image source="images/tree-shadow" width="25%" />
-        <p>The shadow of a tree is measured to be 103 ft (measured from the  base of the tree to the end of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63<degree/>. How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.</p>
-        <p>This forms a right triangle with angle 63<degree/>, and an adjacent side length of 103 ft. We want the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function.
+        <image source="images/tree-shadow" width="25%" >
+            <shortdescription>The sun casting a shadow of a tree on the ground with measurements labeled</shortdescription>
+        </image>
+        <p>The sun casts a shadow of a tree on the ground. The distance from the top of the shadow to the base of the tree is measured to be 103 ft (this is the length of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63<degree/>. How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.</p>
+        <p>The tree, shadow, and line to the sun form a right triangle with angle 63<degree/>, and an adjacent side length of 103 ft. The height of the tree is the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function.
         <md>
+            <mrow>\tan(\theta) &amp; = \frac{\text{opposite}}{\text{adjacent}}</mrow>
             <mrow>\tan(63^\circ) &amp; = \frac{H}{103}</mrow>
             <mrow>103\tan(63^\circ) &amp; = H</mrow>
             <mrow>2\underline{0}2.15 &amp; \approx H</mrow>

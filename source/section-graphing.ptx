@@ -127,7 +127,7 @@
         <image source="images/MaximumGlide" width="80%">
             <shortdescription>Graph of line representing relationship between altitude and glide distance.</shortdescription>
             <description>
-                <p>The horizontal axis is labeled Glide Distance and ranges form 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).</p>
+                <p>The horizontal axis is labeled Glide Distance and ranges from 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).</p>
             </description>
         </image>
     </figure>
@@ -212,7 +212,7 @@
     <p>Note some charts like <xref ref="figure-temp-dewpoint" /> are not meant to convey specific numbers but rather to show trends.</p>
 
     <example xml:id="example-read-graph-clouds-form">
-        <p>Notice that while the temperature (red, solid line) wiggles around, it trends down as the pressure decreases. That is, it shows temperature generally decreasing as altitude increases. We expect this, because it is farther from the ground which heats the air. The increase above 300 millibars level is the result of other factors which you can research at <url href="https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere" visual="noaa.gov/jetstream/atmosphere/layers-of-atmosphere" />.</p>
+        <p>Notice that while the temperature (red, solid line) wiggles around, it trends down (to the left) as the pressure decreases (go up the graph). That is, it shows temperature generally decreasing as altitude increases. We expect this, because it is farther from the ground which heats the air. The increase above 300 millibars level is the result of other factors which you can research at <url href="https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere" visual="noaa.gov/jetstream/atmosphere/layers-of-atmosphere" />.</p>
         <p>Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in <xref ref="figure-temp-dewpoint" /> three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.</p>
     </example>
 
