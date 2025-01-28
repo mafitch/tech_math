@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
-<image width="33%"  pi:generated="problems/images/10ffddd3573588a757dd24d7a31e7c0c.png" /><p>
-Suppose a = 10 and A = 5 degrees. Calculate:</p>
+<image width="33%"  pi:generated="problems/images/83b768d4b4b1e408642694c2fc57e5d8.png" /><p>
+Suppose a = 4 and A = 25 degrees. Calculate:</p>
 <p>
 b = <fillin characters="20" /></p>
 <p>
@@ -14,28 +14,28 @@ Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>114.3</li><li>114.7</li><li>85.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>8.6</li><li>9.5</li><li>65.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({5}\right)}}}=\frac{{10}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({25}\right)}}}=\frac{{4}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{10}}{{\tan{{\left({5}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{4}}{{\tan{{\left({25}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{114.30052302761}\approx{114.3}</m>.</p>
+  <m>\displaystyle{b}\approx{8.5780276820382}\approx{8.6}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={10}^{{2}}+{114.30052302761}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={4}^{{2}}+{8.5780276820382}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={100}+{13064.609564386}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={16}+{73.582558913814}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={13164.609564386}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={89.582558913814}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{13164.609564386}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{89.582558913814}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{114.7371324567}\approx{114.7}</m>.</p>
+  <m>\displaystyle{c}\approx{9.46480633261}\approx{9.5}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{5}^{\circ}\approx{85}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{25}^{\circ}\approx{65}^{\circ}</m></p>
 
 </solution>
 </myopenmath>

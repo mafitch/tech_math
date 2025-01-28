@@ -39,3 +39,5 @@ Regexp: grep "1[0-9][1-9]\%" generated/problems/*
 /c/'Program Files'/jdk-22.0.2/bin/java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /c/DATA/Documents/texts/tech_math/source/techmath.ptx >/c/DATA/Documents/texts/tech_math/schemaerrors.txt
 
 grep -Ev 'myopenmath|interactive|"exercise" incomplete|"figure" incomplete' schemaerrors.txt >schemaerrors1.txt
+
+/c/'Program Files'/jdk-22.0.2/bin/java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar ~/pretext/Schema/pretext-dev.rng /c/DATA/Documents/texts/tech_math/source/techmath.ptx >/c/DATA/Documents/texts/tech_math/schemaerrors.txt

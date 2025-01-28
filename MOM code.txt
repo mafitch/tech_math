@@ -20,6 +20,11 @@ $stuans = getstuans($stuanswers,$thisq,0)
 if ($stuans != null) {
 	$error = getfeedbacktxtnumber($stuans,  array($answer,1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect") 
 }
+OR
+$stuans1 = getstuans($stuanswers,$thisq,1)
+if ($stuans1 != null) {
+	$error = getfeedbacktxtnumber($stuans1,  array($answer[1],1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect") 
+}
 
 Survey
 
