@@ -98,7 +98,7 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.3';
+eBookConfig.runestone_version = '7.5.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
@@ -518,7 +518,8 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsection-geometric-properties-2d-5-2">How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.</div></section><article class="definition definition-like" id="definition-parallelogram"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Parallelogram.</span>
 </h4>
-<div class="para" id="definition-parallelogram-2-1">A <dfn class="terminology">parallelogram</dfn> is a four sided shape for which  opposing pairs of sides are parallel.</div></article><div class="para" id="subsection-geometric-properties-2d-7">Parallelograms include <dfn class="terminology">rectangles</dfn>, which are parallelograms with four right angles, and <dfn class="terminology">rhombi</dfn>, which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.</div>
+<div class="para" id="definition-parallelogram-2-1">A <dfn class="terminology">parallelogram</dfn> is a four sided shape for which  opposing pairs of sides are parallel.</div></article><div class="para" id="subsection-geometric-properties-2d-7">Parallelograms include <dfn class="terminology">rectangles</dfn>, which are parallelograms with four right angles, and <dfn class="terminology">rhombi</dfn>, which are parallelograms with four equal length sides. A square is a rectangle and a rhombus.</div>
+<div class="para" id="subsection-geometric-properties-2d-8">For the formulas we need a segment that is perpendicular to one pair of parallel sides. This is called the <dfn class="terminology">height</dfn>. One of these parallel sides is called the <dfn class="terminology">base</dfn>.</div>
 <figure class="table table-like" id="figure-parallelogram-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.3<span class="period">.</span></span><span class="space"> </span>Parallelograms</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-parallelogram-properties-2-4-1-1">Shape</div></td>
@@ -527,19 +528,18 @@ eBookConfig.enable_chatcodes =  false;
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-parallelogram-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
-<img src="external/images/parallelogram.svg" role="img" class="contained" alt="Parallelogram with sides and height labeled."><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-parallelogram-properties-2-5-1-1-1-description"><div class="para" id="figure-parallelogram-properties-2-5-1-1-1-2-1">The top and bottom sides are labeled with length a. The other two sides are labeled with length b. A height (distance from point on the top side down orthogonally to the bottom side) is labeled with length <span class="process-math">\(h_1\text{.}\)</span>
-</div></div></details>
+<img src="external/images/parallelogram.svg" role="img" class="contained" alt="Parallelogram with sides and height labeled"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-parallelogram-properties-2-5-1-1-1-description"><div class="para" id="figure-parallelogram-properties-2-5-1-1-1-2-1">Two parallel sides are labeled with length a. The other pair of sides are labeled with length b. The height is labeled <span class="process-math">\(h_1\)</span> and is between the sides of length a.</div></div></details>
 </div></div></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(2(a+b)\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(h_1 a\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-2d-9">The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with <span class="process-math">\(a+b+a+b = a+a+b+b = 2a+2b = 2(a+b)\text{.}\)</span>
+</table></div></figure><div class="para" id="subsection-geometric-properties-2d-10">The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with <span class="process-math">\(a+b+a+b = a+a+b+b = 2a+2b = 2(a+b)\text{.}\)</span>
 </div>
 <article class="example example-like" id="example-parallelogram-area"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.4</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-parallelogram-area-1">What are the perimeter and area of this parallelogram?</div>
-<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/parallelogram_area.svg" role="img" class="contained" alt="Parallelogram with side lengths 4.05 and 5.00 and height 3.00."></div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/images/parallelogram_area.svg" role="img" class="contained" alt="Parallelogram with height 3.00, base lengths 5.00, and other length 4.05"></div>
 <div class="para logical" id="example-parallelogram-area-3">
 <div class="para">The perimeter is the sum of the side lengths which in this case is</div>
 <div class="displaymath process-math">
@@ -575,13 +575,14 @@ eBookConfig.enable_chatcodes =  false;
 \text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510\text{.}
 \end{equation*}
 </div>
-</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-12"><h4 class="heading">
+</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-13"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.6</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-geometric-properties-2d-12-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-12-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1470115&amp;frame_id=momsubsection-geometric-properties-2d-12-1"></iframe></div></article><article class="definition definition-like" id="definition-trapezoid"><h4 class="heading">
+<div id="momsubsection-geometric-properties-2d-13-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-13-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1470115&amp;frame_id=momsubsection-geometric-properties-2d-13-1"></iframe></div></article><article class="definition definition-like" id="definition-trapezoid"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Trapezoid.</span>
 </h4>
-<div class="para" id="definition-trapezoid-2-1">A <dfn class="terminology">trapezoid</dfn> is a four sided shape for which one pair of opposing sides are parallel.</div></article><figure class="table table-like" id="figure-trapezoid-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.8<span class="period">.</span></span><span class="space"> </span>Trapezoid</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="definition-trapezoid-2-1">A <dfn class="terminology">trapezoid</dfn> is a four sided shape for which one pair of opposing sides are parallel.</div></article><div class="para" id="subsection-geometric-properties-2d-15">Like a parallelogram a trapezoid has a <dfn class="terminology">height</dfn>. This is a segment perpendicular to the parallel sides.</div>
+<figure class="table table-like" id="figure-trapezoid-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.8<span class="period">.</span></span><span class="space"> </span>Trapezoid</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-trapezoid-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-trapezoid-properties-2-4-2-1">Perimeter</div></td>
@@ -589,12 +590,12 @@ eBookConfig.enable_chatcodes =  false;
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-trapezoid-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
-<img src="external/images/trapezoid.svg" role="img" class="contained" alt="Trapezoid with side lengths and height labeled"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-trapezoid-properties-2-5-1-1-1-description"><div class="para" id="figure-trapezoid-properties-2-5-1-1-1-2-1">The trapezoid has parallel sides of lengths <span class="process-math">\(a_1\)</span> and <span class="process-math">\(a_2\)</span> and other sides of length <span class="process-math">\(b_1\)</span> and <span class="process-math">\(b_2\text{.}\)</span> The height is the distance between the parallel sides which is defined by a line orthogonal to both.</div></div></details>
+<img src="external/images/trapezoid.svg" role="img" class="contained" alt="Trapezoid with side lengths and height labeled"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-trapezoid-properties-2-5-1-1-1-description"><div class="para" id="figure-trapezoid-properties-2-5-1-1-1-2-1">The trapezoid has parallel sides of lengths <span class="process-math">\(a_1\)</span> and <span class="process-math">\(a_2\)</span> and other sides of lengths <span class="process-math">\(b_1\)</span> and <span class="process-math">\(b_2\text{.}\)</span> The height has length h.</div></div></details>
 </div></div></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(a_1+b_1+a_2+b_2\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{h}{2}(a_1+a_2)\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-2d-15">Because none of the side lengths need be the same, the perimeter “formula” is just the sum of the four sides. The height must be between the two, parallel sides. The formula does not work if a line is connected between the other two sides.</div>
+</table></div></figure><div class="para" id="subsection-geometric-properties-2d-17">Because none of the side lengths need be the same, the perimeter “formula” is just the sum of the four sides. The height must be between the two, parallel sides. Any line between the other two sides is not perpendicular to both and the formula does not work.</div>
 <article class="example example-like" id="example-trapezoid-area"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.9</span><span class="period">.</span>
 </h4>
@@ -615,7 +616,7 @@ eBookConfig.enable_chatcodes =  false;
 \text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1\text{.}
 \end{equation*}
 </div>
-</div></article><div class="para" id="subsection-geometric-properties-2d-17">Note the following is also a trapezoid and the formulae still apply.</div>
+</div></article><div class="para" id="subsection-geometric-properties-2d-19">Note the following is also a trapezoid and the formulae still apply.</div>
 <article class="example example-like" id="example-trapezoid-too"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.10</span><span class="period">.</span>
 </h4>
@@ -636,10 +637,10 @@ eBookConfig.enable_chatcodes =  false;
 \text{Area} = \frac{8.00}{2}(10.00+13.00) = 92.0.
 \end{equation*}
 </div>
-</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-19"><h4 class="heading">
+</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-21"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.11</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-geometric-properties-2d-19-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-19-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471129&amp;frame_id=momsubsection-geometric-properties-2d-19-1"></iframe></div></article><article class="definition definition-like" id="definition-triangle"><h4 class="heading">
+<div id="momsubsection-geometric-properties-2d-21-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-21-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471129&amp;frame_id=momsubsection-geometric-properties-2d-21-1"></iframe></div></article><article class="definition definition-like" id="definition-triangle"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.12</span><span class="period">.</span><span class="space"> </span><span class="title">Triangle.</span>
 </h4>
 <div class="para" id="definition-triangle-2-1">A <dfn class="terminology">triangle</dfn> is a three sided shape.</div></article><figure class="table table-like" id="figure-triangle-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.13<span class="period">.</span></span><span class="space"> </span>Triangle</figcaption><div class="tabular-box natural-width"><table class="tabular">
@@ -649,11 +650,13 @@ eBookConfig.enable_chatcodes =  false;
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-triangle-properties-2-4-3-1">Area</div></td>
 </tr>
 <tr>
-<td class="c m b1 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-triangle-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/triangle.svg" role="img" class="contained" alt="Triangle with sides and height labeled"></div></div></td>
+<td class="c m b1 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-triangle-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/images/triangle.svg" role="img" class="contained" alt="Triangle with sides and height labeled"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-triangle-properties-2-5-1-1-1-description"><div class="para" id="figure-triangle-properties-2-5-1-1-1-2-1">The base is labeled with length b, and the height is labeled with length h. The other two sides are labeled with lengths a and c.</div></div></details>
+</div></div></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(a+b+c\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{1}{2}bh\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-2d-22">Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side which is called the base. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15">Figure 4.1.15</a>. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</div>
+</table></div></figure><div class="para" id="subsection-geometric-properties-2d-24">Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The <dfn class="terminology">height</dfn> is a segment from a vertex down (perpendicularly) to the opposite side which is called the <dfn class="terminology">base</dfn>. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <a href="section-geometry2D.html#figure-exercise-triangle-area" class="xref" data-knowl="./knowl/xref/figure-exercise-triangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.15">Figure 4.1.15</a>. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</div>
 <article class="example example-like" id="example-triangle-area1"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.14</span><span class="period">.</span>
 </h4>
@@ -691,10 +694,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="sbspanel bottom" style="width:50%;"><figure class="figure figure-like" id="subfigure-triangle-area1"><img src="external/images/triangle_area.svg" role="img" class="contained" alt="Triangle with side lengths 5.98, 8.19, and base side length 10.90 with height 4.43"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Obtuse Triangle</figcaption></figure></div>
 <div class="sbspanel bottom" style="width:50%;"><figure class="figure figure-like" id="subfigure-triangle-area2"><img src="external/images/triangle_area2.svg" role="img" class="contained" alt="Triangle with side lengths 5.98, 8.19, and base side length 2.87 with height 4.43"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Acute Triangle</figcaption></figure></div>
 </div></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.15<span class="period">.</span></span><span class="space"> </span>Two Triangles</figcaption></figure><article class="exercise exercise-like" id="subsection-geometric-properties-2d-25"><h4 class="heading">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.15<span class="period">.</span></span><span class="space"> </span>Two Triangles</figcaption></figure><article class="exercise exercise-like" id="subsection-geometric-properties-2d-27"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.16</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-geometric-properties-2d-25-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-25-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471177&amp;frame_id=momsubsection-geometric-properties-2d-25-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-triangle-alternate-heights"><h4 class="heading">
+<div id="momsubsection-geometric-properties-2d-27-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-27-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471177&amp;frame_id=momsubsection-geometric-properties-2d-27-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-triangle-alternate-heights"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.17</span><span class="period">.</span>
 </h4>
 <div class="para" id="exercise-triangle-alternate-heights-1-1">In <a href="section-geometry2D.html#figure-triangle-properties" class="xref" data-knowl="./knowl/xref/figure-triangle-properties.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.1.13: Triangle">Table 4.1.13</a> the height is labeled <span class="process-math">\(h\text{.}\)</span> Draw the other two heights.</div></article><article class="theorem theorem-like" id="theorem-pythagorean"><h4 class="heading">
@@ -741,11 +744,11 @@ c &amp; = \sqrt{102.8365}\\
 \end{align*}
 </div>
 <div class="para">Because <span class="process-math">\(10.1 \ne 10.9\)</span> this is not a right triangle, but it appears to be close.</div>
-</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-30"><h4 class="heading">
+</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-32"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.21</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-geometric-properties-2d-30-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-30-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471255&amp;frame_id=momsubsection-geometric-properties-2d-30-1"></iframe></div></article><div class="para" id="subsection-geometric-properties-2d-31">In <a href="section-trig-laws.html" class="internal" title="Section 7.3: Non-Right Triangles">Section 7.3</a> we will develop a version of this statement for triangles without a right angle.</div>
-<div class="para" id="subsection-geometric-properties-2d-32">The formula for area of a triangle above requires that we be able to calculate the height. In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.</div>
+<div id="momsubsection-geometric-properties-2d-32-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-32-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471255&amp;frame_id=momsubsection-geometric-properties-2d-32-1"></iframe></div></article><div class="para" id="subsection-geometric-properties-2d-33">In <a href="section-trig-laws.html" class="internal" title="Section 7.3: Non-Right Triangles">Section 7.3</a> we will develop a version of this statement for triangles without a right angle.</div>
+<div class="para" id="subsection-geometric-properties-2d-34">The formula for area of a triangle above requires that we be able to calculate the height. In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.</div>
 <article class="theorem theorem-like" id="theorem-herons-formula"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.1.22</span><span class="period">.</span><span class="space"> </span><span class="title">Heron’s Formula.</span>
 </h4>
@@ -776,7 +779,7 @@ s &amp; = \frac{1}{2}(4+5+7)\\
 \end{align*}
 </div>
 <div class="para">Rounding to one decimal place here is an arbitrary choice for this example.</div>
-</div></article><div class="para" id="subsection-geometric-properties-2d-35">The next example illustrates tracking significant digits while using Heron’s formula to calculate area.</div>
+</div></article><div class="para" id="subsection-geometric-properties-2d-37">The next example illustrates tracking significant digits while using Heron’s formula to calculate area.</div>
 <article class="example example-like" id="example-heron-triangle"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.24</span><span class="period">.</span>
 </h4>
@@ -819,18 +822,20 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87) \text{ Each term precise to 100ths}\\
 &amp; \approx 6.4.
 \end{align*}
 </div>
-</div></article><div class="para" id="subsection-geometric-properties-2d-37">Notice that the results from Heron’s formula are slightly different from the results using the <span class="process-math">\(\frac{1}{2}bh\)</span> formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.</div>
-<article class="exercise exercise-like" id="subsection-geometric-properties-2d-38"><h4 class="heading">
+</div></article><div class="para" id="subsection-geometric-properties-2d-39">Notice that the results from Heron’s formula are slightly different from the results using the <span class="process-math">\(\frac{1}{2}bh\)</span> formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.</div>
+<article class="exercise exercise-like" id="subsection-geometric-properties-2d-40"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.25</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-geometric-properties-2d-38-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-38-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471317&amp;frame_id=momsubsection-geometric-properties-2d-38-1"></iframe></div></article><figure class="table table-like" id="figure-circle-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.26<span class="period">.</span></span><span class="space"> </span>Circle</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div id="momsubsection-geometric-properties-2d-40-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-40-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471317&amp;frame_id=momsubsection-geometric-properties-2d-40-1"></iframe></div></article><figure class="table table-like" id="figure-circle-properties"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.1.26<span class="period">.</span></span><span class="space"> </span>Circle</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b1 r1 l1 t1" style="max-width:180px;"><div class="para" id="figure-circle-properties-2-4-1-1">Shape</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-circle-properties-2-4-2-1">Perimeter</div></td>
 <td class="l m b1 r1 l0 t1" style="max-width:120px;"><div class="para" id="figure-circle-properties-2-4-3-1">Area</div></td>
 </tr>
 <tr>
-<td class="c m b0 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-circle-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/circle_diag.svg" role="img" class="contained" alt="Circle with diameter and radius labeled"></div></div></td>
+<td class="c m b0 r1 l1 t0" style="max-width:180px;"><div class="para" id="figure-circle-properties-2-5-1-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="external/images/circle_diag.svg" role="img" class="contained" alt="Circle with diameter and radius labeled"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-circle-properties-2-5-1-1-1-description"><div class="para" id="figure-circle-properties-2-5-1-1-1-2-1">The radius is labeled with length r and the diameter is labeled length d.</div></div></details>
+</div></div></td>
 <td class="l m b0 r1 l0 t0 lines"><span class="process-math">\(2\pi r\)</span></td>
 <td class="l m b0 r1 l0 t0 lines"><span class="process-math">\(\pi r^2\)</span></td>
 </tr>
@@ -839,7 +844,7 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87) \text{ Each term precise to 100ths}\\
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\pi d\)</span></td>
 <td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(\pi \frac{d^2}{4}\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="subsection-geometric-properties-2d-40">When performing calculations with <span class="process-math">\(\pi\)</span> we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.</div>
+</table></div></figure><div class="para" id="subsection-geometric-properties-2d-42">When performing calculations with <span class="process-math">\(\pi\)</span> we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.</div>
 <article class="example example-like" id="example-circle-properties"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.27</span><span class="period">.</span>
 </h4>
@@ -893,10 +898,10 @@ s &amp; = \frac{1}{2}(5.98+8.19+2.87) \text{ Each term precise to 100ths}\\
 &amp; \approx 215.
 \end{align*}
 </div>
-</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-43"><h4 class="heading">
+</div></article><article class="exercise exercise-like" id="subsection-geometric-properties-2d-45"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.1.29</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-geometric-properties-2d-43-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-43-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471355&amp;frame_id=momsubsection-geometric-properties-2d-43-1"></iframe></div></article></section><section class="subsection" id="subsection-geometry-applied"><h3 class="heading hide-type">
+<div id="momsubsection-geometric-properties-2d-45-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-geometric-properties-2d-45-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1471355&amp;frame_id=momsubsection-geometric-properties-2d-45-1"></iframe></div></article></section><section class="subsection" id="subsection-geometry-applied"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="space"> </span><span class="title">Applying Geometry</span>
 </h3>
 <div class="para" id="subsection-geometry-applied-2">When we encounter geometric questions, they will often involve shapes consisting of more than one basic shape such as the park boundry above. Our first task then is  to break down these shapes into pieces that are basic shapes (ones we already know). Then we can use the geometric properties to calculate results.</div>
@@ -944,7 +949,7 @@ s &amp; = \frac{1}{2}(13.0+13.0+24.0)\\
 </h4>
 <div class="para" id="example-geometry2d-floor-plan-1">Calculate the square footage of the combined living room and hallway.</div>
 <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/images/floor_plan_1.svg" role="img" class="contained" alt="Rectangular room with rectangular hallway attached and side lengths labeled"></div>
-<div class="para" id="example-geometry2d-floor-plan-3">This layout is rectangular. The living room is a rectange with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.</div>
+<div class="para" id="example-geometry2d-floor-plan-3">This layout is rectangular. The living room is a rectangle with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.</div>
 <div class="para" id="example-geometry2d-floor-plan-4">To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.</div>
 <div class="para" id="example-geometry2d-floor-plan-5">The living room height is <span class="process-math">\(12 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 10 \text{ in} = 154 \text{ in}\text{.}\)</span> The width is <span class="process-math">\(15 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 7 \text{ in} = 187 \text{ in}\text{.}\)</span> The area is <span class="process-math">\((154 \text{ in})(187 \text{ in}) = 28798 \text{ in}^2\text{.}\)</span>
 </div>

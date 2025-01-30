@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1489664">
+<statement>
+<p>A triangle has sides with lengths <m>\displaystyle{a}={4.00}</m>, <m>\displaystyle{b}={6.01}</m>, and <m>\displaystyle{c}={5.64}</m>. Calculate all of the angles of this triangle.</p>
+<p>A=<fillin characters="4" /> (across from side of length <m>\displaystyle{a}={4.00}</m>)</p>
+<p>
+  B=<fillin characters="4" /> (across from side of length <m>\displaystyle{b}={6.01}</m>)</p>
+<p>
+  C=<fillin characters="4" /> (across from side of length <m>\displaystyle{c}={5.64}</m>)</p>
+<p>Round to two decimal places.</p>
+
+
+</statement>
+<solution>
+<p><ul><li>40</li><li>74.98</li><li>63.25</li></ul></p><p>Because we have all three sides, we can use the law of cosines for the first angle.</p>
+<p><m>\displaystyle{4}^{{2}}={6.01}^{{2}}+{5.64}^{{2}}-{2}{\left({6.01}\right)}{\left({5.64}\right)}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{16}={36.1201}+{31.8096}-{67.7928}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle-{51.9297}=-{67.7928}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{0.7660061245442}={\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{A}={40.003415458868}={40}</m>.</p>
+<p>For a second angle, we can use the shorter law of sines.</p>
+<p><m>\displaystyle\frac{{\sin{{\left({40.003415458868}\right)}}}}{{4.00}}=\frac{{\sin{{\left({B}\right)}}}}{{6.01}}</m></p>
+<p><m>\displaystyle{1.116103456382}={\sin{{\left({B}\right)}}}</m></p>
+<p><m>\displaystyle{B}={\arcsin{{\left({1.116103456382}\right)}}}</m></p>
+<p><m>\displaystyle{B}={74.984769664751}\approx{74.98}</m></p>
+<p>The third angle we can calculate using the angle sum property.</p>
+<p><m>\displaystyle{40.003415458868}+{74.984769664751}+{C}={180}^{\circ}</m></p>
+<p><m>\displaystyle{C}={63.247072916482}\approx{63.25}</m></p>
+
+</solution>
+</myopenmath>
+

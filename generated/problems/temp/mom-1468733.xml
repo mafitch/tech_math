@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
+<statement>
+<p>Solve this system of equations using elimination.</p>
+<p><m>\displaystyle{9}{x}-{6}{y}={39}</m> </p>
+<p>
+  <m>\displaystyle{9}{x}+{9}{y}=-{81}</m></p>
+<p><fillin characters="8" /></p>
+
+</statement>
+<solution>
+<p><ul><li><m>\displaystyle{\left(-{1},-{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of -9. So we scale by <m>\displaystyle-\frac{{9}}{{9}}</m>.</p>
+<p><m>\displaystyle-\frac{{{9}}}{{9}}{\left({9}{x}+-{6}{y}\right)}=-\frac{{{9}}}{{9}}{\left({39}\right)}</m></p>
+<p><m>\displaystyle-{\left({9}\right)}{x}+{6}{y}=-{39}</m></p>
+<p><m>\displaystyle{9}{x}+{9}{y}=-{81}</m></p>
+<p>Adding these two equations gives us</p>
+<p><m>\displaystyle{15}{y}=-{120}</m></p>
+<p><m>\displaystyle{y}=-\frac{{120}}{{15}}</m></p>
+<p><m>\displaystyle{y}=-{8}</m></p>
+<p>Finally we can substitute this y value into the first equation to solve for x.</p>
+<p><m>\displaystyle{9}{x}+-{6}{\left(-{8}\right)}={39}</m></p>
+<p><m>\displaystyle{9}{x}+{\left({48}\right)}={39}</m></p>
+<p><m>\displaystyle{9}{x}={39}-{\left({48}\right)}</m></p>
+<p><m>\displaystyle{9}{x}=-{9}</m></p>
+<p><m>\displaystyle{x}=-\frac{{9}}{{9}}</m></p>
+<p><m>\displaystyle{x}=-{1}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{1},-{8}\right)}</m>.</p>
+
+</solution>
+</myopenmath>
+

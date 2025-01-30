@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1463992">
+<statement>
+<p>We need a resulting resistance of <m>\displaystyle{7.0}\Omega</m> If one resistor in parallel is <m>\displaystyle{10}\Omega</m>, what should the other resistance be? <fillin characters="4" /> <m>\displaystyle\Omega</m></p>
+
+
+</statement>
+<solution>
+<p><ul><li>23</li></ul></p><p>The model is <m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{R}_{{1}}}+\frac{{1}}{{R}_{{2}}}</m>. In this case that is</p>
+<p><m>\displaystyle\frac{{1}}{{7.0}}=\frac{{1}}{{10}}+\frac{{1}}{{R}_{{2}}}</m>.</p>
+<p><m>\displaystyle\frac{{1}}{{7.0}}-\frac{{1}}{{10}}=\frac{{1}}{{R}_{{2}}}</m> by subtracting to isolate <m>\displaystyle{R}_{{2}}</m>.</p>
+<p><m>\displaystyle\frac{{1}}{{7.0}}\cdot\frac{{10}}{{10}}-\frac{{1}}{{10}}\frac{{7.0}}{{7.0}}=\frac{{1}}{{R}_{{2}}}</m>. Scaling for a common denominator.</p>
+<p><m>\displaystyle\frac{{3}}{{70}}=\frac{{1}}{{R}_{{2}}}</m>.</p>
+<p><m>\displaystyle\frac{{70}}{{3}}={R}_{{2}}</m>. Because ratios work upsidedown.</p>
+<p><m>\displaystyle{23}\approx{R}_{{2}}</m>.</p>
+
+</solution>
+</myopenmath>
+

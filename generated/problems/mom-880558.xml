@@ -2,52 +2,52 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="880558">
 <statement>
 <p class="seqsep" role="heading" tabindex="-1">Part 1 of 2</p>
-<p>Kiara was driving at 99 feet per second on the freeway the other day. If the speed limit is 65 miles per hour, was she driving too fast? Answer the question by converting <em><em>99 feet per second</em></em> into <em><em>miles per hour</em></em>.</p>
+<p>Raquel was driving at 63 feet per second on the highway the other day. If the speed limit is 45 miles per hour, was she driving too fast? Answer the question by converting <em><em>63 feet per second</em></em> into <em><em>miles per hour</em></em>.</p>
 <p>To answer this question, we will convert the numerator into miles and the denominator into hours.</p>
-<p>If we begin with the fraction <m>\displaystyle\frac{{{99}\ \text{feet}}}{{{1}\ \text{second}}}</m>, we can multiply by three unit fractions to complete the conversion. What are these fractions? Choose the correct fractions in the calculation below:</p>
-<p><m>\displaystyle\frac{{{99}\ \text{feet}}}{{{1}\ \text{second}}}\times</m></p>
-<p><ol style="list-style-type:upper-alpha"><li>1 min/60 sec</li> 
-<li>60 min/1 sec</li> 
-<li>60 sec/1 min</li> 
-<li>1 sec/60 min</li> 
-</ol></p>
-<m>\displaystyle\times</m><p><ol style="list-style-type:upper-alpha"><li>1 min/60 hrs</li> 
-<li>60 hrs/1 min</li> 
-<li>60 min/1 hr</li> 
-<li>1 hr/60 min</li> 
-</ol></p>
-<m>\displaystyle\times</m><p><ol style="list-style-type:upper-alpha"><li>5280 ft/1 mi</li> 
+<p>If we begin with the fraction <m>\displaystyle\frac{{{63}\ \text{feet}}}{{{1}\ \text{second}}}</m>, we can multiply by three unit fractions to complete the conversion. What are these fractions? Choose the correct fractions in the calculation below:</p>
+<p><m>\displaystyle\frac{{{63}\ \text{feet}}}{{{1}\ \text{second}}}\times</m></p>
+<p><ol style="list-style-type:upper-alpha"><li>1 ft/5280 mi</li> 
 <li>5280 mi/1 ft</li> 
-<li>1 ft/5280 mi</li> 
 <li>1 mi/5280 ft</li> 
+<li>5280 ft/1 mi</li> 
 </ol></p>
-<p class="seqsep" role="heading" tabindex="-1">Part 2 of 2</p>The conversion calculation looks like:<p><m>\displaystyle\frac{{{99}\ \text{feet}}}{{{1}\ \text{second}}}\times</m><m>\displaystyle\frac{{{60}\ \text{sec}}}{{{1}\ \text{min}}}\times\frac{{{60}\ \text{min}}}{{{1}\ \text{hr}}}\times\frac{{{1}\ \text{mi}}}{{{5280}\ \text{ft}}}</m></p>
-<p>Was Kiara driving too fast?</p>
+<m>\displaystyle\times</m><p><ol style="list-style-type:upper-alpha"><li>60 min/1 sec</li> 
+<li>1 sec/60 min</li> 
+<li>60 sec/1 min</li> 
+<li>1 min/60 sec</li> 
+</ol></p>
+<m>\displaystyle\times</m><p><ol style="list-style-type:upper-alpha"><li>60 min/1 hr</li> 
+<li>1 hr/60 min</li> 
+<li>1 min/60 hrs</li> 
+<li>60 hrs/1 min</li> 
+</ol></p>
+<p class="seqsep" role="heading" tabindex="-1">Part 2 of 2</p>The conversion calculation looks like:<p><m>\displaystyle\frac{{{63}\ \text{feet}}}{{{1}\ \text{second}}}\times</m><m>\displaystyle\frac{{{1}\ \text{mi}}}{{{5280}\ \text{ft}}}\times\frac{{{60}\ \text{sec}}}{{{1}\ \text{min}}}\times\frac{{{60}\ \text{min}}}{{{1}\ \text{hr}}}</m></p>
+<p>Was Raquel driving too fast?</p>
 <p>Answer: </p>
-<p><ol style="list-style-type:upper-alpha"><li>No</li> 
-<li>Yes</li> 
+<p><ol style="list-style-type:upper-alpha"><li>Yes</li> 
+<li>No</li> 
 </ol></p>
-...because she was driving <fillin characters="6" /> mi/hr (round using significant figures; all speeds are accurate to two sig figs) when the limit was <m>\displaystyle{65}</m> mi/hr
+...because she was driving <fillin characters="6" /> mi/hr (round using significant figures; all speeds are accurate to two sig figs) when the limit was <m>\displaystyle{45}</m> mi/hr
 
 </statement>
 <solution>
-<p><ul><li>C: 60 sec/1 min</li><li>C: 60 min/1 hr</li><li>D: 1 mi/5280 ft</li><li>B: Yes</li><li>67</li></ul></p><p>For this problem, we will use the following conversion facts:
+<p><ul><li>C: 1 mi/5280 ft</li><li>C: 60 sec/1 min</li><li>A: 60 min/1 hr</li><li>B: No</li><li>43</li></ul></p><p>For this problem, we will use the following conversion facts:
   </p>
 <p><ul>
   <li>1 minute = 60 seconds</li>
   <li>1 hour = 60 minutes</li>
   <li>1 mile = 5280 feet</li>
 </ul></p>
-<p>So, we can convert Kiara's speed in ft/sec into mi/hr by begnning with the given speed and multiplying by unit fractions, canceling along the way, until the remaining units are miles/hour:
+<p>So, we can convert Raquel's speed in ft/sec into mi/hr by begnning with the given speed and multiplying by unit fractions, canceling along the way, until the remaining units are miles/hour:
   </p>
 <p>
-  <m>\displaystyle\frac{{{99}\ {\color{green}\cancel{{\text{feet}}}}}}{{{1}\ {\color{red}\cancel{{\text{second}}}}}}\times</m><m>\displaystyle\frac{{{60}\ {\color{red}\cancel{{\text{sec}}}}}}{{{1}\ {\color{blue}\cancel{{\text{min}}}}}}\times\frac{{{60}\ {\color{blue}\cancel{{\text{min}}}}}}{{{1}\ \text{hr}}}\times\frac{{{1}\ \text{mi}}}{{{5280}\ {\color{green}\cancel{{\text{ft}}}}}}</m><m>\displaystyle=\frac{{{99}\cdot{60}\cdot{60}\ \text{mi}}}{{{5280}\ \text{hr}}}</m>
+  <m>\displaystyle\frac{{{63}\ {\color{green}\cancel{{\text{feet}}}}}}{{{1}\ {\color{red}\cancel{{\text{second}}}}}}\times</m><m>\displaystyle\frac{{{1}\ \text{mi}}}{{{5280}\ {\color{green}\cancel{{\text{ft}}}}}}\times\frac{{{60}\ {\color{red}\cancel{{\text{sec}}}}}}{{{1}\ {\color{blue}\cancel{{\text{min}}}}}}\times\frac{{{60}\ {\color{blue}\cancel{{\text{min}}}}}}{{{1}\ \text{hr}}}</m><m>\displaystyle=\frac{{{63}\cdot{60}\cdot{60}\ \text{mi}}}{{{5280}\ \text{hr}}}</m>
   </p>
 <p>
-  <m>\displaystyle\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \approx{67}\frac{\text{mi}}{\text{hr}}</m>
+  <m>\displaystyle\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \approx{43}\frac{\text{mi}}{\text{hr}}</m>
   </p>
 <p>
-  So, Kiara was driving too fast since the speed limit was 65 mi/hr.</p>
+  So, Raquel was not driving too fast since the speed limit was 45 mi/hr.</p>
 </solution>
 </myopenmath>
 
