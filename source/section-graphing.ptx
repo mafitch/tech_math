@@ -114,7 +114,7 @@
     <p>Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and reading the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.</p>
 
     <example xml:id="example-read-graph-glide">
-        <p><xref ref="figure-maximum-glide" /> presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles can it glide forward?</p>
+        <p><xref ref="figure-maximum-glide" /> presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles (nm) can it glide forward?</p>
         <p>First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. We notice that no line is labeled 2400. We do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.</p>
         <p>We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent <m>2000/10=200</m> ft.</p>
         <p>Because <m>2400=2000+2(200)</m> we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.</p>
@@ -125,7 +125,7 @@
     <figure xml:id="figure-maximum-glide">
         <caption>Graph Representing Maximum Engine Out Glide</caption>
         <image source="images/MaximumGlide" width="80%">
-            <shortdescription>Graph of line representing relationship between altitude and glide distance.</shortdescription>
+            <shortdescription>Graph of glide distance described in example above</shortdescription>
             <description>
                 <p>The horizontal axis is labeled Glide Distance and ranges from 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).</p>
             </description>
@@ -162,7 +162,6 @@
         <image source="images/StaturePercentilesUSmale" width="70%">
             <shortdescription>7 curves showing the expected height at a given age.</shortdescription>
             <description>
-                <p>Request a manipulative to examine.</p>
                 <p>The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.</p>
             </description>
         </image>
@@ -170,11 +169,10 @@
 
     <example xml:id="example-read-graph-stature-percentiles">
         <p>The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at <url href="https://www.cdc.gov/growthcharts/" visual="cdc.gov/growthcharts/" />. What height in centimeters is the 50th percentile for 11 year old males?</p>
-        <p>Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see <xref ref="example-table-read-interpolate-third" /> for a reminder on how to estimate this).</p>
+        <p>Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. This is shown on the image below. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see <xref ref="example-table-read-interpolate-third" /> for a reminder on how to estimate this).</p>
         <image source="images/StaturePercentilesUSmale-read50" width="70%">
-            <shortdescription>7 curves showing the expected height at a given age and one labeled point.</shortdescription>
+            <shortdescription>7 curves showing the expected height at a given age with above process drawn on top</shortdescription>
             <description>
-                <p>Request a manipulative to examine.</p>
                 <p>The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.</p>
                 <p>A vertical line goes up from 11 years to the 50 percentile curve. From that point a horizontal line goes over to the vertical axis a little above 140 cm.</p>
             </description>
@@ -203,7 +201,6 @@
         <image source="images/TempDewpointPANC" width="80%">
             <shortdescription>Partial radiosonde data showing temperature and dewpoint curves.</shortdescription>
             <description>
-                <p>Request a manipulative to examine.</p>
                 <p>The horizontal axis is labeled Temperature and ranges from -100 to 20 degrees centigrade. The vertical axis is labeled pressure altitude and ranges from 1000 at the bottom to 0 at the top. There are two curves. One represents the temperature at that pressure and the other represents the dew point at that pressure.</p>
             </description>
         </image>
@@ -264,10 +261,10 @@
 
     <example xml:id="example-read-graph-bar-compare">
         <introduction>
-            <p>Vasya wishes to know how her raises are helping her keep up with increasing costs. <xref ref="figure-read-graph-compare" /> shows her raises as a percent of her previous year's salary and the inflation rate (<url href="https://www.usinflationcalculator.com/inflation/current-inflation-rates/" visual="usinflationcalculator.com/inflation/current-inflation-rates/" />) If her raises are at least as large as inflation, then her spending power is not diminished (keeping up)</p>
+            <p>Vasya wishes to know how her raises are helping her keep up with increasing costs. <xref ref="figure-read-graph-compare" /> shows her raises as a percent of her previous year's salary and the inflation rate (<url href="https://www.usinflationcalculator.com/inflation/current-inflation-rates/" visual="usinflationcalculator.com/inflation/current-inflation-rates/" />) If her raises are at least as large as inflation, then her spending power is not diminished.</p>
         </introduction>
         <task>
-            <p>Using <xref ref="table-salary-vasya" /> confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the raise as a percent of the previous year.</p>
+            <p>Using <xref ref="table-salary-vasya" /> confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the percent increase for each year's salary relative to the previous year's salary.</p>
         </task>
         <task>
             <statement>
@@ -282,7 +279,7 @@
                 <p>What trend do you notice in the percent increase of salary? Why is this happening?</p>
             </statement>
             <solution>
-                <p>Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part/whole) the part remains fixed while the whole increases.</p>
+                <p>Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part/whole) the part is remaining fixed while the whole is increasing.</p>
                 <p>Unless there is a change this will lead to her raises eventually not keeping up with inflation.</p>
             </solution>
         </task>
@@ -292,13 +289,39 @@
         <caption>Vasya's Salary</caption>
 
         <image source="images/vasya-raise-comparison">
-            <shortdescription>A bar graph showing the annual raise as a percent and the annual inflation rate as a percent from 2017 to 2023.</shortdescription>
-            <description>
-                <p>The horizontal access is labeled with years from 2017 to 2023. The vertic axis is labeled with percents from 0 to 9.</p>
-                <p>For 2017 the raise is about 8%, and inflation is below 2%. For 2018 The raise is above 7%, and inflation is above 2%. For 2019 the rais is below 7% and inflation is between 1% and 2%. For 2020 the raise is between 6% and 7%, and inflation is about 7%. For 2021 the raise is above 6%, and inflation is between 6% and 7%. For 2022 the raise is less than 6%, and inflation is more than 3%. For 2023 the raise is more than 5%, and inflation is bewteen 2% and 3%.</p>
-            </description>
+            <shortdescription>A bar graph showing the annual raise as a percent increase and the annual inflation rate as a percent from 2017 to 2023</shortdescription>
         </image>
     </figure>
+
+    <table xml:id="table-inflation-rates">
+        <title>Inflation Rates by Year</title>
+        <tabular>
+            <row>
+                <cell>2017</cell> <cell>2.10%</cell>
+            </row>
+            <row>
+                <cell>2018</cell> <cell>1.90%</cell>
+            </row>
+            <row>
+                <cell>2019</cell> <cell>2.30%</cell>
+            </row>
+            <row>
+                <cell>2020</cell> <cell>1.40%</cell>
+            </row>
+            <row>
+                <cell>2021</cell> <cell>7.00%</cell>
+            </row>
+            <row>
+                <cell>2022</cell> <cell>6.50%</cell>
+            </row>
+            <row>
+                <cell>2023</cell> <cell>3.40%</cell>
+            </row>
+            <row>
+                <cell>2024</cell> <cell>2.50%</cell>
+            </row>
+        </tabular>
+    </table>
 
     <exercise xml:id="exercise-read-bar-graph">
         <introduction>
@@ -327,11 +350,7 @@
         <caption>Salary vs Inflation</caption>
 
         <image source="images/salary-inflation-comparison">
-            <shortdescription>A bar graph showing Guido's salary each year and his 2017 salary adjusted for inflation each year.</shortdescription>
-            <description>
-                <p>The horizontal axis is labeled with years from 2017 to 2024. The vertical axis is labeled from $0 to $90000.</p>
-                <p>For 2017 the actual and inflation adjusted salaries are the same height. For 2018 the actual salary bar is slightly higher than the inflation adjusted bar. For 2019 the actual salary bar is slightly higher than the inflation adjusted bar. For 2020 the inflation adjusted bar is slightly higher than the actual bar. For 2021 the inflation adjusted bar is slightly higher than the actual bar. For 2022 the inflation adjusted bar is multiple grid lines higher than the actual salary. For 2023 the inflation adjusted bar is multiple grid lines higher than the actual salary. For 2024 the inflation adjusted bar is multiple grid lines higher than the actual salary.</p>
-            </description>
+            <shortdescription>A bar graph showing for each year Guido's salary and his 2017 salary adjusted for inflation</shortdescription>
         </image>
     </figure>
 
@@ -365,10 +384,7 @@
         <caption>Graph of Scale</caption>
 
         <image source="images/line-graph">
-            <shortdescription>A graph showing the data points from the table above.</shortdescription>
-            <description>
-                <p>The horizontal axis is labeled model inch and ranges from 0 to 4. The vertical axis is labeled object inch and ranges from 0 to over 500. There is one point for each row in the table above. These are connected by a curve that appears flat.</p>
-            </description>
+            <shortdescription>A graph showing the data points from the table above</shortdescription>
         </image>
     </figure>
 
@@ -411,10 +427,7 @@
         <caption>Graph of Ohms Law</caption>
 
         <image source="images/ohms-example" width="70%">
-            <shortdescription>A graph showing the data points from the Ohm's law table above.</shortdescription>
-            <description>
-                <p>The horizontal axis is labeled resistance in ohms and ranges from 1 to 24. The vertical axis is labeled current in amps and ranges from 0 to over 12. There is one point for each row in the Ohm's law table above. These are connected by a curve that begins in the top left and heads down and right, leveling off as it goes right.</p>
-            </description>
+            <shortdescription>A graph showing the data points from the Ohm's law table above</shortdescription>
         </image>
     </figure>
 
@@ -464,17 +477,18 @@
             As expected this is the same slope, because on a line the rate of change (slope) is constant.</p></solution>
     </example>
 
+    <p>To write the equation for a line we need the shift, <m>+b</m>, as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m>, because in the linear form <m>y=mx+b</m> we have <m>y=m \cdot 0 + b = b</m> The shift then is the <m>y</m> coordinate at <m>x=0</m> which is why it is often called the y-intercept.</p>
+
     <figure xml:id="figure-graph-slope">
         <caption>Calculating Slope</caption>
         <image source="images/line-slope">
-            <shortdescription>The graph of a line through 3 points showing a relationship between altitude and pressure.</shortdescription>
+            <shortdescription>The graph of a line through 3 points showing a relationship between altitude and pressure</shortdescription>
             <description>
-                <p>The horizontal exis is labeled altitude in feet mean sea level and ranges from 0 to 10000. The vertical axis is labeled pressure in inches of mercury and ranges from 19 to 30. Three points are labeled. They are (2000,27.92), (4000,25.92) and (8000,21.92). A line is drawn thru these points.</p>
+                <p>The horizontal axis is labeled altitude in feet mean sea level and ranges from 0 to 10000. The vertical axis is labeled pressure in inches of mercury and ranges from 19 to 30.</p>
+                <p>Three points are shown are (2000,27.92), (4000,25.92) and (8000,21.92).</p>
             </description>
         </image>
     </figure>
-
-    <p>To write the equation for a line we need the shift <m>+b</m> as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m>, because in the linear form <m>y=mx+b</m> we have <m>y=m \cdot 0 + b = b</m> The shift then is the <m>y</m> coordinate at <m>x=0</m> which is why it is often called the y-intercept.</p>
 
     <example xml:id="example-calculate-shift">
         <title>Calculate Shift</title>

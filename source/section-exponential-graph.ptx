@@ -45,9 +45,6 @@
         <p>We can plot these points then sketch a curve smoothly through the points.</p>
         <image source="images/graph-exponential-continuous" width="50%" >
             <shortdescription>Graph of the points in the table above with curve sketched through them</shortdescription>
-            <description>
-                <p>The horizontal axis is labeled x and ranges from -4 to 4. The vertical axis ranges from 0 to 16. Each point from the table above is shown as well as a curve that passes through all of them.</p>
-            </description>
         </image>
         <p>Starting at <m>x=0</m> consider the curve as it extends to the right. We can use the analogy of walking up hill to understand this curve. At <m>x=0</m> we are walking up hill so we are a little slower than on a flat surface. At <m>x=1</m> the height has doubled but so also has the slope (remember the differences are a multiple of the height). Walking the next segment will be more strenuous. At <m>x=2</m> the height has doubled again, so also has the steepness. Now it is too steep to walk. We will need to scramble or use climbing equipment. Generally an exponential curve becomes increasingly steep.</p>
         <p>Because the base of this exponential is 2 (i.e., <m>y=2^x</m>) each time we move one unit to the right the height doubles (times 2). The easiest place to see this is from <m>x=0</m> to <m>x=1</m>. This is because <m>y=2^0=1</m> and this is true of any base (i.e., <m>y=a^0=1</m> for all bases). That means at <m>x=1</m> the y value will be the base (e.g., <m>y=2^1=2</m>).</p>
@@ -211,10 +208,6 @@
         </tabular>
         <image source="images/exponential-translate-vertical" width="50%" >
             <shortdescription>Graph of both curves in table above showing vertical shift</shortdescription>
-            <description>
-                <p>The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.</p>
-                <p>The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each point on <m>y=2^x</m> there is a corresponding point directly above it on <m>y=2^x+3</m>. That point is always 3 units higher. There is a vertical arrow of length 3 at <m>x=1</m> that fits between the points of the two curves.</p> 
-            </description>
         </image>
         <p>Notice that every point is 3 units higher than the point in the original graph. We have moved the graph 3 units up. Because the graph has been shifted up 3 units, the asymptote has also been shifted up three units. It is now <m>y=3</m>.</p>
         <p>Because the asymptote was shifted up, we must measure the doubling from one point to the next in terms of height above the asymptote. For example, at <m>x=0</m> the value is <m>y=2^0+3=4</m> so the height above the asymptote is <m>4-3=1</m>. One to the right we have <m>y=2^1+3=5</m>. The height above the asymptote is <m>5-3=2</m>. From <m>x=0</m> to <m>x=1</m> the height above the asymptote doubled as we expect.</p>

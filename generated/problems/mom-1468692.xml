@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{4}{x}-{9}{y}=-{30}</m> </p>
+<p><m>\displaystyle{6}{x}-{7}{y}={75}</m> </p>
 <p>
-  <m>\displaystyle{5}{x}-{5}{y}=-{60}</m></p>
+  <m>\displaystyle-{9}{x}+{3}{y}=-{90}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{6},{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{4}{x}+-{9}{y}=-{30}</m></p>
-<p><m>\displaystyle-{4}{x}=-{30}-{\left(-{9}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{30}-{\left(-{9}{y}\right)}}}{{-{{4}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left({9},-{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{6}{x}+-{7}{y}={75}</m></p>
+<p><m>\displaystyle{6}{x}={75}-{\left(-{7}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{{75}-{\left(-{7}{y}\right)}}}{{6}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{5}{\left(\frac{{-{30}-{\left(-{9}{y}\right)}}}{{-{{4}}}}\right)}+-{5}{y}=-{60}</m></p>
-<p><m>\displaystyle\frac{{5}}{{-{{4}}}}\cdot{\left(-{30}\right)}-\frac{{5}}{{-{{4}}}}{\left(-{9}\right)}{y}+-{5}{y}=-{60}</m></p>
-<p><m>\displaystyle{37.5}-{\left(-{11.25}\right)}{y}+-{5}{y}=-{60}</m></p>
-<p><m>\displaystyle-{11.25}{y}+{\left(-{5}\right)}{y}=-{60}-{37.5}</m></p>
-<p><m>\displaystyle-{11.25}{y}+{\left(-{5}\right)}{y}=-{97.5}</m></p>
-<p><m>\displaystyle{\left(-{11.25}+{\left(-{5}\right)}\right)}{y}=-{97.5}</m></p>
-<p><m>\displaystyle-{16.25}{y}=-{97.5}</m></p>
-<p><m>\displaystyle{y}=-\frac{{97.5}}{{-{{16.25}}}}</m></p>
-<p><m>\displaystyle{y}={6}</m></p>
+<p><m>\displaystyle-{9}{\left(\frac{{{75}-{\left(-{7}{y}\right)}}}{{6}}\right)}+{3}{y}=-{90}</m></p>
+<p><m>\displaystyle-\frac{{9}}{{6}}\cdot{\left({75}\right)}--\frac{{9}}{{6}}{\left(-{7}\right)}{y}+{3}{y}=-{90}</m></p>
+<p><m>\displaystyle-{112.5}-{\left(-{10.5}\right)}{y}+{3}{y}=-{90}</m></p>
+<p><m>\displaystyle-{10.5}{y}+{\left({3}\right)}{y}=-{90}--{112.5}</m></p>
+<p><m>\displaystyle-{10.5}{y}+{\left({3}\right)}{y}={22.5}</m></p>
+<p><m>\displaystyle{\left(-{10.5}+{\left({3}\right)}\right)}{y}={22.5}</m></p>
+<p><m>\displaystyle-{7.5}{y}={22.5}</m></p>
+<p><m>\displaystyle{y}=\frac{{22.5}}{{-{{7.5}}}}</m></p>
+<p><m>\displaystyle{y}=-{3}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{4}{x}+-{9}{\left({6}\right)}=-{30}</m></p>
-<p><m>\displaystyle-{4}{x}+{\left(-{54}\right)}=-{30}</m></p>
-<p><m>\displaystyle-{4}{x}=-{30}-{\left(-{54}\right)}</m></p>
-<p><m>\displaystyle-{4}{x}={24}</m></p>
-<p><m>\displaystyle{x}=\frac{{24}}{{-{{4}}}}</m></p>
-<p><m>\displaystyle{x}=-{6}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{6},{6}\right)}</m>.</p>
+<p><m>\displaystyle{6}{x}+-{7}{\left(-{3}\right)}={75}</m></p>
+<p><m>\displaystyle{6}{x}+{\left({21}\right)}={75}</m></p>
+<p><m>\displaystyle{6}{x}={75}-{\left({21}\right)}</m></p>
+<p><m>\displaystyle{6}{x}={54}</m></p>
+<p><m>\displaystyle{x}=\frac{{54}}{{6}}</m></p>
+<p><m>\displaystyle{x}={9}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({9},-{3}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

@@ -47,7 +47,9 @@
         <statement><p>A <term>parallelogram</term> is a four sided shape for which  opposing pairs of sides are parallel.</p></statement>
     </definition>
 
-    <p>Parallelograms include <term>rectangles</term>, which are parallelograms with four right angles, and <term>rhombi</term>, which are parallelograms with four equal length sides. Notice that a square is a rectangle and a rhombus.</p>
+    <p>Parallelograms include <term>rectangles</term>, which are parallelograms with four right angles, and <term>rhombi</term>, which are parallelograms with four equal length sides. A square is a rectangle and a rhombus.</p>
+
+    <p>For the formulas we need a segment that is perpendicular to one pair of parallel sides. This is called the <term>height</term>. One of these parallel sides is called the <term>base</term>.</p>
 
     <table xml:id="figure-parallelogram-properties">
         <title>Parallelograms</title>
@@ -64,9 +66,9 @@
             <row valign="middle" left="minor" bottom="minor">
                 <cell halign="center" right="minor"><p>
                     <image width="100%" source="images/parallelogram" >
-                        <shortdescription>Parallelogram with sides and height labeled.</shortdescription>
+                        <shortdescription>Parallelogram with sides and height labeled</shortdescription>
                         <description>
-                            <p>The top and bottom sides are labeled with length a. The other two sides are labeled with length b. A height (distance from point on the top side down orthogonally to the bottom side) is labeled with length <m>h_1</m>.</p>
+                            <p>Two parallel sides are labeled with length a. The other pair of sides are labeled with length b. The height is labeled <m>h_1</m> and is between the sides of length a.</p>
                         </description>
                     </image>
                 </p></cell>
@@ -81,7 +83,7 @@
     <example xml:id="example-parallelogram-area">
         <p>What are the perimeter and area of this parallelogram?</p>
         <image source="images/parallelogram_area" width="30%" >
-            <shortdescription>Parallelogram with side lengths 4.05 and 5.00 and height 3.00.</shortdescription>
+            <shortdescription>Parallelogram with height 3.00, base lengths 5.00, and other length 4.05</shortdescription>
         </image>
         <p>The perimeter is the sum of the side lengths which in this case is <me>2(4.05+5.00) = 18.1</me>.</p>
         <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3.00 \cdot 5.00 = 15.0</me>.</p>
@@ -106,6 +108,8 @@
         <statement><p>A <term>trapezoid</term> is a four sided shape for which one pair of opposing sides are parallel.</p></statement>
     </definition>
 
+    <p>Like a parallelogram a trapezoid has a <term>height</term>. This is a segment perpendicular to the parallel sides.</p>
+
     <table xml:id="figure-trapezoid-properties">
         <title>Trapezoid</title>
 
@@ -123,7 +127,7 @@
                     <image width="100%" source="images/trapezoid" >
                         <shortdescription>Trapezoid with side lengths and height labeled</shortdescription>
                         <description>
-                            <p>The trapezoid has parallel sides of lengths <m>a_1</m> and <m>a_2</m> and other sides of length <m>b_1</m> and <m>b_2</m>. The height is the distance between the parallel sides which is defined by a line orthogonal to both.</p>
+                            <p>The trapezoid has parallel sides of lengths <m>a_1</m> and <m>a_2</m> and other sides of lengths <m>b_1</m> and <m>b_2</m>. The height has length h.</p>
                         </description>
                     </image>
                 </p></cell>
@@ -133,7 +137,7 @@
         </tabular>
     </table>
 
-    <p>Because none of the side lengths need be the same, the perimeter <q>formula</q> is just the sum of the four sides. The height must be between the two, parallel sides. The formula does not work if a line is connected between the other two sides.</p>
+    <p>Because none of the side lengths need be the same, the perimeter <q>formula</q> is just the sum of the four sides. The height must be between the two, parallel sides. Any line between the other two sides is not perpendicular to both and the formula does not work.</p>
 
     <example xml:id="example-trapezoid-area">
         <p>What are the perimeter and area of this trapezoid?</p>
@@ -176,12 +180,15 @@
             <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
                 <image width="100%" source="images/triangle" >
                     <shortdescription>Triangle with sides and height labeled</shortdescription>
+                    <description>
+                        <p>The base is labeled with length b, and the height is labeled with length h. The other two sides are labeled with lengths a and c.</p>
+                    </description>
                 </image>
             </p></cell> <cell right="minor"><m>a+b+c</m></cell> <cell right="minor"><m>\frac{1}{2}bh</m></cell> </row>
         </tabular>
     </table>
 
-    <p>Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side which is called the base. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <xref ref="figure-exercise-triangle-area" />. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</p>
+    <p>Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The <term>height</term> is a segment from a vertex down (perpendicularly) to the opposite side which is called the <term>base</term>. Any vertex/side pair can be used. Be aware that the height may not intersect the opposite side; consider <xref ref="figure-exercise-triangle-area" />. The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.</p>
 
     <example xml:id="example-triangle-area1">
         <p>What are the perimeter and area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p>
@@ -326,6 +333,9 @@
             <row left="minor"><cell halign="center" right="minor"><p>
                 <image width="100%" source="images/circle_diag" >
                     <shortdescription>Circle with diameter and radius labeled</shortdescription>
+                    <description>
+                        <p>The radius is labeled with length r and the diameter is labeled length d.</p>
+                    </description>
                 </image>
             </p></cell> <cell right="minor"><m>2\pi r</m></cell> <cell right="minor"><m>\pi r^2</m></cell> </row>
             <row valign="middle" left="minor" bottom="minor"><cell right="minor"><p></p></cell> <cell right="minor"><m>\pi d</m></cell> <cell right="minor"><m>\pi \frac{d^2}{4}</m></cell> </row>
@@ -426,7 +436,7 @@
         <image source="images/floor_plan_1" width="55%" >
             <shortdescription>Rectangular room with rectangular hallway attached and side lengths labeled</shortdescription>
         </image>
-        <p>This layout is rectangular. The living room is a rectange with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.</p>
+        <p>This layout is rectangular. The living room is a rectangle with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.</p>
         <p>To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.</p>
         <p>The living room height is <m>12 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 10 \text{ in} = 154 \text{ in}</m>. The width is <m>15 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 7 \text{ in} = 187 \text{ in}</m>. The area is <m>(154 \text{ in})(187 \text{ in}) = 28798 \text{ in}^2</m>.</p>
         <p>The hallway height is <m>3 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 1 \text{ in} = 37 \text{ in}</m>. The width is <m>11 \text{ ft} \cdot \frac{1 \text{ ft}}{12 \text{ in}} + 1 \text{ in} = 122 \text{ in}</m>. The area is <m>(37 \text{ in})(122 \text{ in}) = 4514 \text{ in}^2</m>.</p>
