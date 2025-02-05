@@ -49,7 +49,9 @@
         <statement><p>A <term>prism</term> is a solid consisting of two identical polygons connected by parallelograms.</p></statement>
     </definition>
 
-    <p>These look like a polygon has been extruded. If the sides are rectangles, then it is called a <term>right prism</term>. Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows multiple prisms. Those on the left are right prisms (the angles on the bottom are right angles) and those on the right are skewed (some angle other than a right angle). The top two are triangular prisms and the bottom two are trapezoidal prisms.</p>
+    <p>These look like a polygon has been extruded. That polygon is called the <term>base</term>. If the base is extruded perpendicular to its surface, then it is called a <term>right prism</term>. Typically this means the sides  are rectangles.</p>
+        
+    <p>Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows four prisms. Those on the left are right prisms, and those on the right are skewed. The top two are triangular prisms, and the bottom two are trapezoidal prisms.</p>
 
     <figure xml:id="figure-prisms-examples">
         <caption>Various Prisms</caption>
@@ -84,7 +86,7 @@
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
             <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
                 <image width="100%" source="images/triangular_prism" >
-                    <shortdescription>Illustrative prism with no labels</shortdescription>
+                    <shortdescription>Example prism with labels</shortdescription>
                 </image>
             </p></cell> <cell right="minor"><p>sum of area of all sides</p></cell> <cell right="minor"><m>V = B h</m></cell> </row>
         </tabular>
@@ -104,7 +106,11 @@
                 <mrow>3.779\underline{0}5 &amp; \approx c.</mrow>
                 <mrow>3.7791 &amp; \approx c.</mrow>
             </md>
-            The third rectangle has area <m>3.779\underline{0}5 \cdot 10.25\underline{0} \approx 38.73\underline{5}2625</m>.  The total area is <m>2(3.3\underline{2}03125)+21.7\underline{8}125+32.0\underline{3}125+38.73\underline{5}2625 \approx 99.1\underline{8}83875 \approx 99.19</m>.</p>
+            The third rectangle has area <m>3.779\underline{0}5 \cdot 10.25\underline{0} \approx 38.73\underline{5}2625</m>.  The total area is 
+            <md>
+                <mrow>2(3.3\underline{2}03125)+21.7\underline{8}125+32.0\underline{3}125+38.73\underline{5}2625 \amp \approx 99.1\underline{8}83875</mrow>
+                <mrow> \amp \approx 99.19</mrow>
+            </md>.</p>
         </task>
         <task>
             <p>What is the volume of the triangular prism in <xref ref="figure-exercise-prism-triangular-right" />?</p>
@@ -162,9 +168,9 @@
         </tabular>
     </table>
 
-    <p>The height (<m>h</m>) of the cylinder is the distance from the top disc down to the plane in which the bottom cylinder sits. It does not necessarily touch both discs (cylinder skewed so far the discs do not overlap). If the cylinder is not slanted then <m>s=h</m>. Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom circles to the lateral surface area.</p>
+    <p>The height (<m>h</m>) of the cylinder is the distance from the top disc down to the plane in which the bottom disc sits. It does not necessarily touch both discs (cylinder skewed so far the discs do not overlap). If the cylinder is not slanted then <m>s=h</m>. Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom discs to the lateral surface area.</p>
 
-    <p>The formula for the area of the side of a cylinder looks like width (<m>2\pi r</m>) times height (<m>s</m>) which is the formula for area of a rectangle. Indeed if you think about a can (the type that contain paint, soup, or other substances) the label if peeled off is a rectangle. The height of that rectangle is the height of the can and the width of that rectangle is enough to wrap around the can.</p>
+    <p>The formula for the area of the side of a cylinder looks like width (<m>2\pi r</m>) times height (<m>s</m>) which is the formula for area of a rectangle. Indeed if you think about a can (the type that contain paint, soup, or other substances), the label if peeled off is a rectangle. The height of that rectangle is the height of the can and the width of that rectangle is enough to wrap around the can.</p>
 
     <example xml:id="example-cylinder-properties">
         <p>What are the total surface area and volume of this slanted cylinder?</p>
@@ -381,7 +387,7 @@
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
             <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
                 <image width="100%" source="images/pyramid-frustrum" >
-                    <shortdescription>Frustru of a right, square pyramid with labels</shortdescription>
+                    <shortdescription>Frustrum of a right, square pyramid with labels</shortdescription>
                 </image>
             </p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
         </tabular>
@@ -658,6 +664,10 @@
 
         <exercise>
             <myopenmath problem="1488888" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1536624" />
         </exercise>
 
         <exercise>
