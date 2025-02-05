@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1532273">
 <statement>
-<p>Guido is flying west at 500 MSL using the local altimeter setting of 28.55 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
-<p>How much does the pressure drop from the ground (0 MSL) to 500 ft above? <fillin characters="6" /> inHg</p>
-<p>If the pressure is 28.55 inHg at 0 MSL, what is the pressure at 500 ft MSL? <fillin characters="6" /> inHg</p>
+<p>Guido is flying east at 5500 MSL using the local altimeter setting of 28.54 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
+<p>How much does the pressure drop from the ground (0 MSL) to 5500 ft above? <fillin characters="6" /> inHg</p>
+<p>If the pressure is 28.54 inHg at 0 MSL, what is the pressure at 5500 ft MSL? <fillin characters="6" /> inHg</p>
 
 
 
 </statement>
 <solution>
-<p><ul><li>0.5</li><li>28.05</li></ul></p><p>This is a proportion.</p>
-<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{500}\ \text{ ft}}}</m></p>
+<p><ul><li>5.5</li><li>23.04</li></ul></p><p>This is a proportion.</p>
+<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{5500}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
+  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{5500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={0.5}\ \text{ inHg}</m></p>
-<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={28.55}\ \text{ inHg}-{0.5}\ \text{ inHg}={28.05}\ \text{ inHg}</m>.</p> 
+  <m>\displaystyle{d}={5.5}\ \text{ inHg}</m></p>
+<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={28.54}\ \text{ inHg}-{5.5}\ \text{ inHg}={23.04}\ \text{ inHg}</m>.</p> 
 </solution>
 </myopenmath>
 

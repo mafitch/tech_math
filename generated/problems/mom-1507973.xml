@@ -2,22 +2,22 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1507973">
 <statement>
 <p>Recall that the lift equation is <m>\displaystyle{L}=\frac{{1}}{{2}}\rho{s}{C}_{{L}}{v}^{{2}}</m>.</p>
-<p>Suppose <m>\displaystyle\rho={0.002333}</m>, <m>\displaystyle{s}={125}</m>, and <m>\displaystyle{C}_{{L}}={1.36}</m>. How much does the lift increase if velocity is increased from 53.9 nm/hr to 75.8 nm/hr? <fillin characters="20" /></p>
+<p>Suppose <m>\displaystyle\rho={0.001934}</m>, <m>\displaystyle{s}={193}</m>, and <m>\displaystyle{C}_{{L}}={1.39}</m>. How much does the lift increase if velocity is increased from 45 nm/hr to 61.6 nm/hr? <fillin characters="20" /></p>
 
 
 </statement>
 <solution>
-<p><ul><li>1600</li></ul></p><p>The velocity units are in nautical miles per hour which does not match the other units. First, we need to convert.</p>
+<p><ul><li>1310</li></ul></p><p>The velocity units are in nautical miles per hour which does not match the other units. First, we need to convert.</p>
 <p>
-  <m>\displaystyle{v}_{{1}}={\left({53.9}\frac{\ \text{ nm}}{\text{hr}}\right)}\frac{{{6076}\ \text{ ft}}}{{\text{nm}}}\frac{{\text{hr}}}{{{3600}\ \text{ sec}}}={90.971222222222}</m>.</p>
+  <m>\displaystyle{v}_{{1}}={\left({45}\frac{\ \text{ nm}}{\text{hr}}\right)}\frac{{{6076}\ \text{ ft}}}{{\text{nm}}}\frac{{\text{hr}}}{{{3600}\ \text{ sec}}}={75.95}</m>.</p>
 <p>
-  <m>\displaystyle{v}_{{2}}={\left({75.8}\frac{\ \text{ nm}}{\text{hr}}\right)}\frac{{{6076}\ \text{ ft}}}{{\text{nm}}}\frac{{\text{hr}}}{{{3600}\ \text{ sec}}}={127.93355555556}</m>.</p>
+  <m>\displaystyle{v}_{{2}}={\left({61.6}\frac{\ \text{ nm}}{\text{hr}}\right)}\frac{{{6076}\ \text{ ft}}}{{\text{nm}}}\frac{{\text{hr}}}{{{3600}\ \text{ sec}}}={103.96711111111}</m>.</p>
 <p>Now we can use the lift equation</p>
 <p>
-  <m>\displaystyle{L}_{{1}}=\frac{{1}}{{2}}{\left({0.002333}\right)}{\left({125}\right)}{\left({1.36}\right)}{\left({90.971222222222}^{{2}}\right)}={1641.1252357739}</m>.</p>
+  <m>\displaystyle{L}_{{1}}=\frac{{1}}{{2}}{\left({0.001934}\right)}{\left({193}\right)}{\left({1.39}\right)}{\left({75.95}^{{2}}\right)}={1496.4221904987}</m>.</p>
 <p>
-  <m>\displaystyle{L}_{{2}}=\frac{{1}}{{2}}{\left({0.002333}\right)}{\left({125}\right)}{\left({1.36}\right)}{\left({127.93355555556}^{{2}}\right)}={3245.6568715074}</m>.</p>
-<p>Thus an increase in 21.9 nm/hr results in an increase of <m>\displaystyle{3245.6568715074}-{1641.1252357739}={1604.5316357335}\approx{1600}</m> lbs.</p>
+  <m>\displaystyle{L}_{{2}}=\frac{{1}}{{2}}{\left({0.001934}\right)}{\left({193}\right)}{\left({1.39}\right)}{\left({103.96711111111}^{{2}}\right)}={2804.0808825575}</m>.</p>
+<p>Thus an increase in 16.6 nm/hr results in an increase of <m>\displaystyle{2804.0808825575}-{1496.4221904987}={1307.6586920587}\approx{1310}</m> lbs.</p>
 </solution>
 </myopenmath>
 

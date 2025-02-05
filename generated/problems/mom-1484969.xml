@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1484969">
 <statement>
-<p>radium-213 has a half-life of 2.74 seconds, and its decay is modeled by <m>\displaystyle{A}={A}_{{0}}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.74}}}}</m>. If the initial amount is <m>\displaystyle{A}_{{0}}={3.5}</m>, how long will it take until only one third, approximately <m>\displaystyle{A}\approx{1.2}</m> is left? <fillin characters="5" /></p>
+<p>nobelium-252 has a half-life of 2.27 seconds, and its decay is modeled by <m>\displaystyle{A}={A}_{{0}}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.27}}}}</m>. If the initial amount is <m>\displaystyle{A}_{{0}}={5.6}</m>, how long will it take until only one third, approximately <m>\displaystyle{A}\approx{1.9}</m> is left? <fillin characters="5" /></p>
 
 </statement>
 <solution>
-<p><ul><li>4.3</li></ul></p><p><m>\displaystyle{1.2}={3.5}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.74}}}}</m>.</p>
-<p><m>\displaystyle\frac{{1}}{{3}}={\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.74}}}}</m>.</p>
-<p><m>\displaystyle{\ln{{\left(\frac{{1}}{{3}}\right)}}}={\left(\frac{{t}}{{2.74}}\right)}{\ln{{\left(\frac{{1}}{{2}}\right)}}}</m>.</p>
-<p><m>\displaystyle\frac{{{\ln{{\left(\frac{{1}}{{3}}\right)}}}{\left({2.74}\right)}}}{{\ln{{\left(\frac{{1}}{{2}}\right)}}}}={t}</m>.</p>
-<p><m>\displaystyle{4.342797251976}\approx{t}</m></p>
-<p><m>\displaystyle{4.3}\approx{t}</m>.</p>
+<p><ul><li>3.6</li></ul></p><p><m>\displaystyle{1.9}={5.6}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.27}}}}</m>.</p>
+<p><m>\displaystyle\frac{{1}}{{3}}={\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.27}}}}</m>.</p>
+<p><m>\displaystyle{\ln{{\left(\frac{{1}}{{3}}\right)}}}={\left(\frac{{t}}{{2.27}}\right)}{\ln{{\left(\frac{{1}}{{2}}\right)}}}</m>.</p>
+<p><m>\displaystyle\frac{{{\ln{{\left(\frac{{1}}{{3}}\right)}}}{\left({2.27}\right)}}}{{\ln{{\left(\frac{{1}}{{2}}\right)}}}}={t}</m>.</p>
+<p><m>\displaystyle{3.597864876637}\approx{t}</m></p>
+<p><m>\displaystyle{3.6}\approx{t}</m>.</p>
 
 </solution>
 </myopenmath>
