@@ -76,6 +76,7 @@ window.MathJax = {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -107,41 +108,6 @@ eBookConfig.enable_chatcodes =  false;
 <!--*** Runestone Services ***-->
 <script src="_static/prefix-runtime.82032a8574f6ce75.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6a985cbf816db5c7.css">
-<style>
-#preface-student-6-1 { counter-set: preface-student-6-1 0; }
-#preface-student-6-1 > li::marker { content: ""counter(preface-student-6-1,decimal)"."; }
-#preface-student-6-1 > li { counter-increment: preface-student-6-1; }
-#preface-student-6-2 { counter-set: preface-student-6-2 0; }
-#preface-student-6-2 > li::marker { content: ""counter(preface-student-6-2,decimal)"."; }
-#preface-student-6-2 > li { counter-increment: preface-student-6-2; }
-#preface-student-6-2-1-1-1 { counter-set: preface-student-6-2-1-1-1 0; }
-#preface-student-6-2-1-1-1 > li::marker { content: "("counter(preface-student-6-2-1-1-1,lower-alpha)")"; }
-#preface-student-6-2-1-1-1 > li { counter-increment: preface-student-6-2-1-1-1; }
-#preface-student-6-2-2-1-1 { counter-set: preface-student-6-2-2-1-1 0; }
-#preface-student-6-2-2-1-1 > li::marker { content: "("counter(preface-student-6-2-2-1-1,lower-alpha)")"; }
-#preface-student-6-2-2-1-1 > li { counter-increment: preface-student-6-2-2-1-1; }
-#preface-student-6-2-3-1-1 { counter-set: preface-student-6-2-3-1-1 0; }
-#preface-student-6-2-3-1-1 > li::marker { content: "("counter(preface-student-6-2-3-1-1,lower-alpha)")"; }
-#preface-student-6-2-3-1-1 > li { counter-increment: preface-student-6-2-3-1-1; }
-#preface-student-6-2-4-1-1 { counter-set: preface-student-6-2-4-1-1 0; }
-#preface-student-6-2-4-1-1 > li::marker { content: "("counter(preface-student-6-2-4-1-1,lower-alpha)")"; }
-#preface-student-6-2-4-1-1 > li { counter-increment: preface-student-6-2-4-1-1; }
-#preface-student-6-2-5-1-1 { counter-set: preface-student-6-2-5-1-1 0; }
-#preface-student-6-2-5-1-1 > li::marker { content: "("counter(preface-student-6-2-5-1-1,lower-alpha)")"; }
-#preface-student-6-2-5-1-1 > li { counter-increment: preface-student-6-2-5-1-1; }
-#preface-student-6-2-6-1-1 { counter-set: preface-student-6-2-6-1-1 0; }
-#preface-student-6-2-6-1-1 > li::marker { content: "("counter(preface-student-6-2-6-1-1,lower-alpha)")"; }
-#preface-student-6-2-6-1-1 > li { counter-increment: preface-student-6-2-6-1-1; }
-#subsection-enough-sigfigs-4-1 { counter-set: subsection-enough-sigfigs-4-1 0; }
-#subsection-enough-sigfigs-4-1 > li::marker { content: ""counter(subsection-enough-sigfigs-4-1,decimal)"."; }
-#subsection-enough-sigfigs-4-1 > li { counter-increment: subsection-enough-sigfigs-4-1; }
-#project-radiation-dosage-6-1-1-1 { counter-set: project-radiation-dosage-6-1-1-1 0; }
-#project-radiation-dosage-6-1-1-1 > li::marker { content: ""counter(project-radiation-dosage-6-1-1-1,decimal)"."; }
-#project-radiation-dosage-6-1-1-1 > li { counter-increment: project-radiation-dosage-6-1-1-1; }
-#project-unicorn-cake-2-5-1 { counter-set: project-unicorn-cake-2-5-1 0; }
-#project-unicorn-cake-2-5-1 > li::marker { content: ""counter(project-unicorn-cake-2-5-1,decimal)"."; }
-#project-unicorn-cake-2-5-1 > li { counter-increment: project-unicorn-cake-2-5-1; }
-</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -1064,7 +1030,8 @@ y=3^{-(x-2)}+4.
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">6.2.3</span><span class="space"> </span><span class="title">Identifying Exponential Graphs</span>
 </h3>
 <div class="para" id="subsection-exponential-ql-2">When we look at data, which may not be labeled as linear, quadratic, or exponential, how can we quickly determine which one it is? Look at the four examples below and try to determine which growth rate each has. Note one graph is a growth rate we have not covered.</div>
-<figure class="figure figure-like" id="figure-identify-rates-bar-graphs"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<figure class="figure figure-like" id="figure-identify-rates-bar-graphs"><div class="sbsgroup">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-bar-graph-linear"><img src="external/images/bar-graph-linear.svg" role="img" class="contained" alt="A bar graph with an entry for each month of the year"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-bar-graph-linear-2-description">
 <div class="para" id="figure-bar-graph-linear-2-2-1">The bars are labeled January to December in order. The vertical axis ranges from 0 to 40 in increments of 5.</div> <div class="para" id="figure-bar-graph-linear-2-2-2">The January bar is about half way between 0 and 5. The February bar appears to be at 5. The March bar is a little more than half way between 5 and 10. As they continue each one appears to be either half way between or near the next multiple of 5.</div> <div class="para" id="figure-bar-graph-linear-2-2-3">The February, July, and December bars all appear to be exactly at a multipe of five (5,20,35).</div>
 </div></details><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Bar Chart 1</figcaption></figure></div>
@@ -1080,6 +1047,7 @@ y=3^{-(x-2)}+4.
 <div class="para" id="figure-bar-graph-cubic-2-2-1">The bars are labeled January to December in order. The vertical axis ranges from 0 to 1400 in increments of 200.</div> <div class="para" id="figure-bar-graph-cubic-2-2-2">The bars for January through March are almost not visible. From April to June they are still below 200. Thereafter they grow more quickly.</div>
 </div></details><figcaption><span class="codenumber">(d)</span><span class="space"> </span>Bar Chart 4</figcaption></figure></div>
 </div></div>
+</div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">6.2.16<span class="period">.</span></span><span class="space"> </span>Identify the Rates of these Charts</figcaption></figure><div class="para" id="subsection-exponential-ql-4">A linear relationship is defined by the differences between pairs of data points being the same. On bar graphs this means the difference in height between consecutive bars must be the same. If we compare the change from January to February to the change from November to December we see that  <a href="section-exponential-graph.html#figure-bar-graph-exponential" class="xref" data-knowl="./knowl/xref/figure-bar-graph-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.(b)">Figure 6.2.(b)–6.2.(d)</a> they are vastly different (very small early and much larger later). For <a href="section-exponential-graph.html#figure-bar-graph-linear" class="xref" data-knowl="./knowl/xref/figure-bar-graph-linear.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.(a)">Figure 6.2.(a)</a> however, the increase between bar heights looks the same. If we wished, we could use a ruler to measure and convince ourselves. This appears to be linear.</div>
 <div class="para" id="subsection-exponential-ql-5">An exponential relationship can be recognized by the ratio between pairs of data points being the same. This is hard to use on a bar graph, because it means the height of each bar is a multiple of the previous. For example each bar would be 2 or 3 times as high. This would be hard to identify if each bar is 2.3 times as high however. Rather we will use two, alternative traits.</div>
 <div class="para" id="subsection-exponential-ql-6">We know that the graph of an exponential is nearly flat in one direction and very steep in the other. <a href="section-exponential-graph.html#figure-bar-graph-quadratic" class="xref" data-knowl="./knowl/xref/figure-bar-graph-quadratic.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.(c)">Figure 6.2.(c)</a> does not appear to flatten heading left. The bottom two graphs do have this flat appearance to the left. The other trait is that the differences of consecutive terms in an exponential relationship are the same scale as the entries. This means the change in height of consecutive bars should be on scale with the size of a bar. Consider September and October on <a href="section-exponential-graph.html#figure-bar-graph-exponential" class="xref" data-knowl="./knowl/xref/figure-bar-graph-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.(b)">Figure 6.2.(b)</a>. The change in height from September to October looks like the height of the September bar. In contrast the change in height from September to October in <a href="section-exponential-graph.html#figure-bar-graph-cubic" class="xref" data-knowl="./knowl/xref/figure-bar-graph-cubic.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.(d)">Figure 6.2.(d)</a> is much less than the height of the September bar. Thus we can be convinced that the data in <a href="section-exponential-graph.html#figure-bar-graph-exponential" class="xref" data-knowl="./knowl/xref/figure-bar-graph-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.(b)">Figure 6.2.(b)</a> is exponential and none of the others are.</div>
@@ -1120,7 +1088,7 @@ y=3^{-(x-2)}+4.
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>
