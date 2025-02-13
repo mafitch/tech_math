@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle{7}{x}-{2}{y}=-{46}</m> </p>
+<p><m>\displaystyle-{7}{x}+{6}{y}=-{79}</m> </p>
 <p>
-  <m>\displaystyle{3}{x}-{y}=-{19}</m></p>
+  <m>\displaystyle{5}{x}+{8}{y}=-{5}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{8},-{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of -3. So we scale by <m>\displaystyle-\frac{{3}}{{7}}</m>.</p>
-<p><m>\displaystyle-\frac{{{3}}}{{7}}{\left({7}{x}+-{2}{y}\right)}=-\frac{{{3}}}{{7}}{\left(-{46}\right)}</m></p>
-<p><m>\displaystyle-{\left({3}\right)}{x}+{0.85714285714286}{y}={19.714285714286}</m></p>
-<p><m>\displaystyle{3}{x}-{y}=-{19}</m></p>
+<p><ul><li><m>\displaystyle{\left({7},-{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of -5. So we scale by <m>\displaystyle-\frac{{5}}{{-{{7}}}}</m>.</p>
+<p><m>\displaystyle-\frac{{{5}}}{{-{{7}}}}{\left(-{7}{x}+{6}{y}\right)}=-\frac{{{5}}}{{-{{7}}}}{\left(-{79}\right)}</m></p>
+<p><m>\displaystyle-{\left({5}\right)}{x}+{4.2857142857143}{y}=-{56.428571428571}</m></p>
+<p><m>\displaystyle{5}{x}+{8}{y}=-{5}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle-{0.14285714285714}{y}={0.71428571428571}</m></p>
-<p><m>\displaystyle{y}=\frac{{0.71428571428571}}{{-{{0.14285714285714}}}}</m></p>
+<p><m>\displaystyle{12.285714285714}{y}=-{61.428571428571}</m></p>
+<p><m>\displaystyle{y}=-\frac{{61.428571428571}}{{12.285714285714}}</m></p>
 <p><m>\displaystyle{y}=-{5}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{7}{x}+-{2}{\left(-{5}\right)}=-{46}</m></p>
-<p><m>\displaystyle{7}{x}+{\left({10}\right)}=-{46}</m></p>
-<p><m>\displaystyle{7}{x}=-{46}-{\left({10}\right)}</m></p>
-<p><m>\displaystyle{7}{x}=-{56}</m></p>
-<p><m>\displaystyle{x}=-\frac{{56}}{{7}}</m></p>
-<p><m>\displaystyle{x}=-{8}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{8},-{5}\right)}</m>.</p>
+<p><m>\displaystyle-{7}{x}+{6}{\left(-{5}\right)}=-{79}</m></p>
+<p><m>\displaystyle-{7}{x}+{\left(-{30}\right)}=-{79}</m></p>
+<p><m>\displaystyle-{7}{x}=-{79}-{\left(-{30}\right)}</m></p>
+<p><m>\displaystyle-{7}{x}=-{49}</m></p>
+<p><m>\displaystyle{x}=-\frac{{49}}{{-{{7}}}}</m></p>
+<p><m>\displaystyle{x}={7}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({7},-{5}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

@@ -18,7 +18,7 @@ Feedback
 $percent = round(100*($new/$old),0)
 $stuans = getstuans($stuanswers,$thisq,0)
 if ($stuans != null) {
-	$error = getfeedbacktxtnumber($stuans,  array($answer,1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect","|0.1|") 
+	$error = getfeedbacktxtnumber($stuans,  array($answer,1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect","|0.1") 
 }
 OR
 $stuans1 = getstuans($stuanswers,$thisq,1)
@@ -32,6 +32,10 @@ if ($stuans != null) {
   else if ($stuans >= $smi*0.99 && $stuans <= $smi*1.01) { $error="<p style='background-color:LemonChiffon;'>Did you forget to round?</p>" }
   else { $error = "<p style='background-color:LightPink;'>Check your work.</p>"}
 }
+
+Accessibility
+$graphdispmode 0 is accessibility on
+$drawentrymode 0 is accessibility on
 
 Survey
 

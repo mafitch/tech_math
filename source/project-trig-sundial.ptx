@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-trig-sundial" >
+<title>Project: A Clever Sundial</title>
+
+<project xml:id="project-trig-sundial">
+	<title>How Tall is the Gnomon?</title>
+
+<introduction>
+	<p>Sundials are one of the oldest types of clocks. Because the apparent motion of the sun through the sky defines time for us, the position of a shadow is an obvious way to measure that progress. One common type of sundial has a vertical object, called a <term>gnomon</term>, standing in the middle of a circle. If the circle is oriented correctly one edge of the gnomon's shadow cross the number marking the time. </p>
+	<p>We also notice that the sun rises and sets at different times throughout the year and that its path across the sky changes. In particular the sun is much higher in the sky in summer and lower in winter. This change is especially noticable in the far north and far south of the planet. </p>
+	<p>In this project we calculate the effect of the shifting path on shadow length and consider ways to adjust for that. This is accomplished using simple trigonometric calculations.</p>
+</introduction>
+
+<task>
+	<introduction>
+		<p>First, we will consider how long the gnomon's shadow is each month of the year. For convenience we will use The first of each month, and <q>high</q> noon (when the sun is highest in the sky). The location for the following data is in Anchorage, Alaska.</p>
+	</introduction>
+
+	<task>
+		<figure xml:id="figure-sundial">
+			<caption>Sundial with altitude angle labeled</caption>
+			<image source="images/sundial" width="50%">
+				<shortdescription>Altitude labeled alpha</shortdescription>
+			</image>
+		</figure>
+		<p>For each month calculate the expected length of the gnomon's shadow. The gnomon is 22.0 cm tall, and the table below gives the altitude for the first of each month at high noon (azimuth 180<degree/>).</p>
+		<table xml:id="table-sun-altitude-anchorage">
+			<title>Altitude and Shadow Length for Sundial</title>
+			<tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+				<col right="minor" width="10%" />
+				<col right="minor" width="10%" />
+				<col width="20%"/>
+				<row bottom="medium">
+					<cell>Date</cell>
+					<cell>Altitude</cell>
+					<cell>Shadow Length</cell>
+				</row>
+				<row bottom="minor">
+					<cell>January</cell>
+					<cell>6.04<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>February</cell>
+					<cell>12.07<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>March</cell>
+					<cell>21.64<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>April</cell>
+					<cell>33.76<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>May</cell>
+					<cell>44.21<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>June</cell>
+					<cell>51.02<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>July</cell>
+					<cell>51.88<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>August</cell>
+					<cell>46.61<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>September</cell>
+					<cell>36.77<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>October</cell>
+					<cell>25.30<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>November</cell>
+					<cell>14.16<degree/></cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>December</cell>
+					<cell>7.00<degree/></cell>
+					<cell></cell>
+				</row>
+			</tabular>
+		</table>
+	</task>
+</task>
+
+<task>
+	<introduction>
+		<p>Here we consider an idea for making this sundial fit in a fixed space.</p>
+	</introduction>
+	<task>
+		<p>Based on the calculations in the table above can this sundial fit into a circle of one meter diameter?</p>
+	</task>
+	<task>
+		<p>If we want to make all the shadows fit on a sundial (circle) of one meter diameter, how tall should the gnomon be?</p>
+	</task>
+	<task>
+		<p>Alternately we could construct a gnomon that was raised and lowered so that the length of the shadow at high noon remains the same every day. Suppose we want the shadow to be 48 cm long at noon. Calculate the necessary gnomon height for each entry in the table below.</p>
+		<table xml:id="table-change-gnomon-height">
+			<title>Calculated Gnomon Height for Fixed Shadow Length</title>
+			<tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+				<col right="minor" width="10%" />
+				<col right="minor" width="10%" />
+				<col width="20%"/>
+				<row bottom="medium">
+					<cell>Date</cell>
+					<cell>Altitude</cell>
+					<cell>Gnomon Height</cell>
+				</row>
+				<row bottom="minor">
+					<cell>January</cell>
+					<cell>6.04<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>February</cell>
+					<cell>12.07<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>March</cell>
+					<cell>21.64<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>April</cell>
+					<cell>33.76<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>May</cell>
+					<cell>44.21<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>June</cell>
+					<cell>51.02<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>July</cell>
+					<cell>51.88<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>August</cell>
+					<cell>46.61<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>September</cell>
+					<cell>36.77<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>October</cell>
+					<cell>25.30<degree/></cell>
+					<cell></cell>
+				</row>
+				<row bottom="minor">
+					<cell>November</cell>
+					<cell>14.16<degree/></cell>
+					<cell></cell>
+				</row>
+				<row>
+					<cell>December</cell>
+					<cell>7.00<degree/></cell>
+					<cell></cell>
+				</row>
+			</tabular>
+		</table>
+	</task>
+	<task>
+		<p>Suppose that we construct gnomon such that it rises out of the middle of the sundial so the height above the face of the sundial is the calculated height. If we need at least 10 cm of the gnomon below the top of the sundial, how tall must the gnomon be based on your table above?</p>
+	</task>
+
+</task>
+
+</project>
+
+</section>
