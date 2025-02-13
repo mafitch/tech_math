@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1543270">
+<statement>
+<p>An 28 ft extension ladder is 196 in long before extending. If each rung is 14 in above the previous, and the ladder is leaned at an angle of <m>\displaystyle{75}^{\circ}</m>, how much higher is the top of the ladder if it is extended 3 rungs? <fillin characters="5" /></p>
+<p>Round down to the nearest inch.</p>
+
+
+</statement>
+<solution>
+<p><ul><li>40</li></ul></p><p>We need to calculate how high the ladder reaches before extending and how high it reaches after extending.</p>
+<p>The unextended height is</p>
+<p>
+  <m>\displaystyle{h}_{{1}}={196}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
+<p>
+  <m>\displaystyle{h}_{{1}}\approx{189.32146195287}</m></p>
+<p>Because each rung is 14" above the previous the length of the ladder will be increased by <m>\displaystyle{14}\cdot{3}={42}</m> inches. That makes the full length of the ladder <m>\displaystyle{196}+{42}={238}</m>. The extended height is</p>
+<p>
+  <m>\displaystyle{h}_{{2}}={238}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
+<p>
+  <m>\displaystyle{h}_{{2}}\approx{229.89034665706}</m></p>
+<p>The increase in height is therefore <m>\displaystyle{h}_{{2}}-{h}_{{1}}={229.89034665706}-{189.32146195287}={40.568884704187}\approx{40}</m>.</p>
+
+</solution>
+</myopenmath>
+

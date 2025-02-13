@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Project: A Clever Sundial</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="https://mafitch.github.io/tech_math/external/images/UAA_GG.png">
+<meta property="book:title" content="Mathematics in Trades and Life">
+<meta property="book:author" content="Mark Fitch">
+<meta property="book:author" content="Megan Ossiander-Gobeille">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.5.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.82032a8574f6ce75.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6a985cbf816db5c7.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="section-activity-trig-error.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-trig.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
+\newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
+\newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="technical-mathematics-2-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-faculty.html" class="internal"><span class="title">For Faculty</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-si-standard" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Converting between Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-convert-compound" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Converting Compound Units</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-units.html#section-units-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-greatest-error" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Greatest Possible Error</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-enough.html#section-enough-7" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-models.html#section-models-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-literal-formula.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Project: Literal Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-percent.html#section-percent-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-mixture.html#subsection-produce-solution" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Producing a Desired Solution</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-mixture.html#section-mixture-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-ratios.html#section-ratios-6" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-extending-similarity" class="internal"><span class="codenumber">2.4.3.4</span> <span class="title">Similarity Beyond Triangles</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-proportion.html#section-proportion-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-medical-rounding" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Rounding in Medical Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Terminology</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dilution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dosage" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Dosage</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-medical.html#section-medical-7" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-falseposition.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Project: False Position</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-60-1-1.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Project: Arclength Estimation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-linear-identify" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Identifying Linear Expressions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear.html#section-linear-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-linear-notation" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-graphing.html#section-graphing-7" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-extrapolation" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Extrapolation</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rates.html#section-rates-6" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-analyze-multi-variable-models" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Analyzing Models with Multiple Variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-set-up" class="internal"><span class="codenumber">3.4.2</span> <span class="title">More Model Usage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-model-limitations-think-first" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Limitations of Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-variation.html#section-variation-6" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Rates</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rational.html#section-rational-5" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-dual-mixture" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-linear-system-weird" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Other Cases</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-linear-systems.html#section-linear-systems-7" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-project-cycling.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Project: Biking in Kansas and Alaska</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-mixture-growth-rate.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Project: Constraints on Dilution Problems</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-project-radiation2.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Project: Radiation Dosage</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning 2D</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Formulae</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry2D.html#section-geometry2D-5" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Formulae</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Applying Geometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-cake.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Project: Unicorn Cake</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-watering-grass.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Project: Watering Grass</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-models" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-inverse-square" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Inversely Quadratic Relations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic.html#section-quadratic-6" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-5" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Graphs of Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-application" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-5" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-discover-integral.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Project: Approximation of Sums</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential.html#section-exponential-6" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-ql" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Identifying Exponential Graphs</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-exponential-graph.html#section-exponential-graph-6" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-log-scales" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Logarithmic Scale</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-logarithm.html#section-logarithm-7" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solving-exponentials" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Solving Equations with Exponentials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Solving Equations with Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials and Logarithms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-log-solve.html#section-log-solve-6" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-tod.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Project: Time of Death</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-angle-sum" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Angle Relationships in Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-function-application" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Calculating lengths using trig functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-limitations-triangle-sides" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Limitations on Triangle Side Lengths</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-functions.html#section-trig-functions-8" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-inverse-trig.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Inverse Trigonometric Relationships</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-inverse-trig" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-solving-triangles2" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Solving Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-trig-function-angles" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Calculating angles using trig functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-inverse-trig.html#section-inverse-trig-6" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-trig-law-applications" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Using Trigonometric Laws in Applications</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-laws.html#section-trig-laws-7" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-trig-graphs.html#section-trig-graphs-6" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-activity-trig-error.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Project: Effects of Scale on Error</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="section-activity-trig-sundial.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Project: A Clever Sundial</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-activity-trig-sundial"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">7.6</span><span class="space"> </span><span class="title">Project: A Clever Sundial</span>
+</h2>
+<article class="project project-like" id="project-trig-sundial"><h3 class="heading">
+<span class="type">Project</span><span class="space"> </span><span class="codenumber">19</span><span class="period">.</span><span class="space"> </span><span class="title">How Tall is the Gnomon?</span>
+</h3>
+<div class="introduction" id="project-trig-sundial-2">
+<div class="para" id="project-trig-sundial-2-1">Sundials are one of the oldest types of clocks. Because the apparent motion of the sun through the sky defines time for us, the position of a shadow is an obvious way to measure that progress. One common type of sundial has a vertical object, called a <dfn class="terminology">gnomon</dfn>, standing in the middle of a circle. If the circle is oriented correctly one edge of the gnomon’s shadow cross the number marking the time.</div>
+<div class="para" id="project-trig-sundial-2-2">We also notice that the sun rises and sets at different times throughout the year and that its path across the sky changes. In particular the sun is much higher in the sky in summer and lower in winter. This change is especially noticable in the far north and far south of the planet.</div>
+<div class="para" id="project-trig-sundial-2-3">In this project we calculate the effect of the shifting path on shadow length and consider ways to adjust for that. This is accomplished using simple trigonometric calculations.</div>
+</div>
+<article class="task exercise-like" id="project-trig-sundial-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="introduction" id="project-trig-sundial-3-1"><div class="para" id="project-trig-sundial-3-1-1">First, we will consider how long the gnomon’s shadow is each month of the year. For convenience we will use The first of each month, and “high” noon (when the sun is highest in the sky). The location for the following data is in Anchorage, Alaska.</div></div>
+<article class="task exercise-like" id="project-trig-sundial-3-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<figure class="figure figure-like" id="figure-sundial"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/sundial.svg" role="img" class="contained" alt="Altitude labeled alpha"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.6.1<span class="period">.</span></span><span class="space"> </span>Sundial with altitude angle labeled</figcaption></figure><div class="para" id="project-trig-sundial-3-2-2">For each month calculate the expected length of the gnomon’s shadow. The gnomon is 22.0 cm tall, and the table below gives the altitude for the first of each month at high noon (azimuth 180°).</div>
+<figure class="table table-like" id="table-sun-altitude-anchorage"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">7.6.2<span class="period">.</span></span><span class="space"> </span>Altitude and Shadow Length for Sundial</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r1 l2 t2 lines">Date</td>
+<td class="c m b2 r1 l0 t2 lines">Altitude</td>
+<td class="c m b2 r2 l0 t2 lines">Shadow Length</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">January</td>
+<td class="c m b1 r1 l0 t0 lines">6.04°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">February</td>
+<td class="c m b1 r1 l0 t0 lines">12.07°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">March</td>
+<td class="c m b1 r1 l0 t0 lines">21.64°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">April</td>
+<td class="c m b1 r1 l0 t0 lines">33.76°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">May</td>
+<td class="c m b1 r1 l0 t0 lines">44.21°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">June</td>
+<td class="c m b1 r1 l0 t0 lines">51.02°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">July</td>
+<td class="c m b1 r1 l0 t0 lines">51.88°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">August</td>
+<td class="c m b1 r1 l0 t0 lines">46.61°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">September</td>
+<td class="c m b1 r1 l0 t0 lines">36.77°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">October</td>
+<td class="c m b1 r1 l0 t0 lines">25.30°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">November</td>
+<td class="c m b1 r1 l0 t0 lines">14.16°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r1 l2 t0 lines">December</td>
+<td class="c m b2 r1 l0 t0 lines">7.00°</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure></article></article><article class="task exercise-like" id="project-trig-sundial-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="introduction" id="project-trig-sundial-4-1"><div class="para" id="project-trig-sundial-4-1-1">Here we consider an idea for making this sundial fit in a fixed space.</div></div>
+<article class="task exercise-like" id="project-trig-sundial-4-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="project-trig-sundial-4-2-1">Based on the calculations in the table above can this sundial fit into a circle of one meter diameter?</div></article><article class="task exercise-like" id="project-trig-sundial-4-3"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="project-trig-sundial-4-3-1">If we want to make all the shadows fit on a sundial (circle) of one meter diameter, how tall should the gnomon be?</div></article><article class="task exercise-like" id="project-trig-sundial-4-4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
+<div class="para" id="project-trig-sundial-4-4-1">Alternately we could construct a gnomon that was raised and lowered so that the length of the shadow at high noon remains the same every day. Suppose we want the shadow to be 48 cm long at noon. Calculate the necessary gnomon height for each entry in the table below.</div>
+<figure class="table table-like" id="table-change-gnomon-height"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">7.6.3<span class="period">.</span></span><span class="space"> </span>Calculated Gnomon Height for Fixed Shadow Length</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b2 r1 l2 t2 lines">Date</td>
+<td class="c m b2 r1 l0 t2 lines">Altitude</td>
+<td class="c m b2 r2 l0 t2 lines">Gnomon Height</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">January</td>
+<td class="c m b1 r1 l0 t0 lines">6.04°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">February</td>
+<td class="c m b1 r1 l0 t0 lines">12.07°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">March</td>
+<td class="c m b1 r1 l0 t0 lines">21.64°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">April</td>
+<td class="c m b1 r1 l0 t0 lines">33.76°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">May</td>
+<td class="c m b1 r1 l0 t0 lines">44.21°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">June</td>
+<td class="c m b1 r1 l0 t0 lines">51.02°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">July</td>
+<td class="c m b1 r1 l0 t0 lines">51.88°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">August</td>
+<td class="c m b1 r1 l0 t0 lines">46.61°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">September</td>
+<td class="c m b1 r1 l0 t0 lines">36.77°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">October</td>
+<td class="c m b1 r1 l0 t0 lines">25.30°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l2 t0 lines">November</td>
+<td class="c m b1 r1 l0 t0 lines">14.16°</td>
+<td class="c m b1 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r1 l2 t0 lines">December</td>
+<td class="c m b2 r1 l0 t0 lines">7.00°</td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="project-trig-sundial-4-5"><h5 class="heading"><span class="codenumber">(iv)</span></h5>
+<div class="para" id="project-trig-sundial-4-5-1">Suppose that we construct gnomon such that it rises out of the middle of the sundial so the height above the face of the sundial is the calculated height. If we need at least 10 cm of the gnomon below the top of the sundial, how tall must the gnomon be based on your table above?</div></article></article></article></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="section-activity-trig-error.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
