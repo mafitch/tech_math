@@ -1,0 +1,28 @@
+$r = rrand(2.5,5, 0.5)
+$d = 2*$r
+$l = rand(6,15)
+
+$dpretty = prettysigfig($d, 3)
+$lpretty = prettysigfig($l,3)
+
+$out = textonimage($pict,$dpretty,90,99,$lpretty,180,70)
+
+$front = pi*$r*$r/2
+$top = pi*$r*$l
+$total = $front + $top
+if ($total >= 100 && $front < 100 && $top < 100) { $sf=4 }
+else { $sf=3 }
+
+$answerboxsize = 8
+$answer = roundsigfig($total,$sf)
+$abstolerance = 0
+//$hints[0]="Area of a circle = `pi r^2`, Circumference of a circle = `pi d`."
+
+<p>Bella Restaurant is building a curved awning for the entrance to their restaurant. The awning consists of a half circle front and a half cylinder top. They need material for only the top and the front of the awning. The front section is $dpretty feet wide, and the top is $lpretty feet long.</p>
+<p>Note that the accuracy of these numbers is not reflected in the picture.
+  <br />
+  $out
+  <br />
+  Find the surface area of the awning to determine the total amount of canvas necessary to make the awning.</p>
+<p>Use the rules of working with significant figures to round appropriately. </p>
+<p>$answerbox `"ft"^2`</p>

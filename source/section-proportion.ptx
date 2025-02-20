@@ -26,11 +26,11 @@
 <subsection xml:id="subsection-proportion" >
     <title>Proportion Examples</title>
 
-    <p>Because a proportion means a ratio is fixed we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.</p>
+    <p>Because a proportion means a ratio is fixed, we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.</p>
 
     <video youtube="gk2PpTQyZk8" xml:id="video-example-proportion-solve" />
 
-    <p>The first example shows a straight forward proportion with the simplest solving method. This is like solving a percent problem.</p>
+    <p>The first example shows a straight forward proportion with the simplest solving method. This method uses the same algebra steps as solving a percent problem.</p>
 
     <example xml:id="example-proportion-cheesecake-double">
         <title>Cheesecake Groceries: Double</title>
@@ -51,7 +51,7 @@
             <mrow>2 \cdot 1500 \text{ g} &amp; = C.</mrow>
             <mrow>3000 \text{ g} &amp; = C.</mrow>
         </md></p>
-        <p>In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will in mess up the food.</p>
+        <p>In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will result in the food not turning out right.</p>
     </example>
 
     <p>This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.</p>
@@ -68,15 +68,14 @@
 
     <p>The following example shows methods for handling proportions when the desired quantity (variable) ends up in the denominator.</p>
 
-    <example xml:id="example-proportion-cheesecake-scale">
-        <title>Cheesecake Groceries: Unknown</title>
-        <p>A particular cheesecake recipe calls for <m>150</m> g of eggs and <m>1500</m> g of cream cheese. If we have <m>350</m> g of egg how much cream cheese do we need?</p>
-        <p>We know that the egg to cream cheese ratio must be 150/1500. We notice <m>150/1500 = 1/10</m>. This means we need to solve <me>\frac{1}{10} = \frac{350 \text{ g}}{C \text{ g}}.</me></p>
+    <example xml:id="example-scale-model">
+        <title>Scale Model</title>
+        <p>A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle. We can express this as a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If we want to know how large a part of the shuttle is and we know on the model it is 1.72 inches we can set up the proportion <me>\frac{1 \text{ model inches}}{144 \text{ inch}} = \frac{1.72 \text{ model inches}}{s \text{ inch}}</me>.</p>
         <p>Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write
         <md>
-            <mrow>\frac{10}{1} &amp; = \frac{C \text{ g}}{350 \text{ g}}.</mrow>
-            <mrow>\frac{10}{1} \cdot 350 \text{ g} &amp; = \frac{C \text{ g}}{350 \text{ g}} \cdot 350 \text{ g}.</mrow>
-            <mrow>3500 \text{ g} &amp; = C \text{ of cream cheese}.</mrow>
+            <mrow>\frac{144 \text{ in}}{1 \text{ model in}} &amp; = \frac{s \text{ in}}{1.72 \text{ model in}}.</mrow>
+            <mrow>\frac{144 \text{ in}}{1 \text{ model in}} \cdot 1.72 \text{ model in} &amp; = \frac{s \text{ in}}{1.72 \text{ model in}} \cdot 1.72 \text{ model in}.</mrow>
+            <mrow>247.68 \text{ in} &amp; = s.</mrow>
         </md></p>
     </example>
 
@@ -86,15 +85,17 @@
         <title>Proportion: Solving</title>
         <p>According to the airplane flight manual a Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
         <p>How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).</p>
-        <p>Because cruise speed is a fixed ratio we can write
+        <p>The proportion is
             <md>
-                <mrow>\frac{110 \text{ nm}}{\text{hour}} \amp = \frac{236 \text{ nm}}{t \text{ hours}}.</mrow>
-                <mrow>\frac{\text{hour}}{110 \text{ nm}} \amp = \frac{t \text{ hours}}{236 \text{ nm}}. \text{ Inverse is still true.}</mrow>
-                <mrow>\frac{\text{hour}}{110 \text{ nm}}(236 \text{ nm}) \amp = \frac{t \text{ hours}}{236 \text{ nm}}(236 \text{ nm}). \text{ Multiply to isolate } t</mrow>
-                <mrow>\frac{\text{hour}}{110 \cancelhighlight{\text{ nm}}}(236 \cancelhighlight{\text{ nm}}) \amp = \frac{t \text{ hours}}{\cancelhighlight{236 \text{ nm}}}\cancelhighlight{(236 \text{ nm})}. \text{ Multiply to isolate } t</mrow>
-                <mrow>\frac{236}{110} \text{ hours} \amp = t</mrow>
-                <mrow>2.14545 \text{ hours} \amp \approx t</mrow>
-                <mrow>2.1 \text{ hours} \amp \approx t.</mrow>
+                <mrow>\frac{110 \text{ nm}}{\text{hr}} \amp = \frac{236 \text{ nm}}{t \text{ hr}}.</mrow>
+                <mrow>\frac{110 \text{ nm}}{\text{hr}}(t \text{ hr}) \amp = \frac{236 \text{ nm}}{t \text{ hr}}(t \text{ hr}).</mrow>
+                <intertext>Multiply both sides to eliminate the division.</intertext>
+                <mrow>\frac{110 \text{ nm}}{\cancelhighlight{\text{hr}}}(t \cancelhighlight{\text{ hr}} ) \amp = \frac{236 \text{ nm}}{\cancelhighlight{t \text{ hr}}}\cancelhighlight{(t \text{ hr})}.</mrow>
+                <mrow>(110 \text{ nm})t \amp = (236 \text{ nm})</mrow>
+                <mrow>\frac{(110 \text{ nm})t}{(110 \text{ nm})} \amp = \frac{(236 \text{ nm})}{(110 \text{ nm})}</mrow>
+                <mrow>\frac{\cancelhighlight{(110 \text{ nm})}t}{\cancelhighlight{(110 \text{ nm})}} \amp = \frac{(236 \cancelhighlight{\text{ nm}})}{(110 \cancelhighlight{\text{ nm}})}</mrow>
+                <mrow>t \amp \approx 2.14545</mrow>
+                <mrow>t \amp \approx 2.1 \text{ hr}.</mrow>
             </md>
         </p>
     </example>
@@ -374,10 +375,6 @@
         </exercise>
 
         <exercise>
-            <myopenmath problem="1536991" />
-        </exercise>
-
-        <exercise>
             <myopenmath problem="42484" />
         </exercise>
 
@@ -451,11 +448,15 @@
         <title>Quantitative Literacy</title>
     
         <introduction>
-            <p>Use proportions to answer these practical questions.</p>
+            <p>Proportions are needed to answer these more involved questions.</p>
         </introduction>
     
         <exercise>
             <myopenmath problem="1532255" />
+        </exercise>
+    
+        <exercise>
+            <myopenmath problem="1545133" />
         </exercise>
     
     </exercisegroup>

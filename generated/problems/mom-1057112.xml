@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
-<image width="33%"  pi:generated="problems/images/05e4419a6ea5958c3772638445120096.png" /><p>
-Suppose a = 3 and A = 65 degrees. Calculate:</p>
+<image width="33%"  pi:generated="problems/images/7d4d978be3e8cb6332cce414ac3c5403.png" /><p>
+Suppose a = 9 and A = 60 degrees. Calculate:</p>
 <p>
 b = <fillin characters="20" /></p>
 <p>
@@ -14,28 +14,28 @@ Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>1.4</li><li>3.3</li><li>25.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>5.2</li><li>10.4</li><li>30.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({65}\right)}}}=\frac{{3}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({60}\right)}}}=\frac{{9}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{3}}{{\tan{{\left({65}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{9}}{{\tan{{\left({60}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{1.398922974465}\approx{1.4}</m>.</p>
+  <m>\displaystyle{b}\approx{5.1961524227066}\approx{5.2}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={3}^{{2}}+{1.398922974465}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={9}^{{2}}+{5.1961524227066}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={9}+{1.956985488486}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={81}+{27}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={10.956985488486}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={108}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{10.956985488486}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{108}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{3.3101337568875}\approx{3.3}</m>.</p>
+  <m>\displaystyle{c}\approx{10.392304845413}\approx{10.4}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{65}^{\circ}\approx{25}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{60}^{\circ}\approx{30}^{\circ}</m></p>
 
 </solution>
 </myopenmath>

@@ -361,10 +361,10 @@
 
     <p>Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.</p>
 
-    <example xml:id="example-scale-model">
+    <example xml:id="example-graph-scale-model">
         <title>Scale Model</title>
 
-        <p>A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle, that is, there is a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If a portion of the model is 1.72 inches then means the part on the actual shuttle is <m>1.72 \cdot 144 = 247.68</m> inches. In general <m>A = 144M</m> where <m>M</m> is the size on the model and <m>A</m> is the size on the actual shuttle.</p>
+        <p>Recall the scale model of a space shuttle in <xref ref="example-scale-model" /> which is labeled as 1:144. We calculated that a model part which is 1.72 inches represents an actual part that is <m>1.72 \cdot 144 = 247.68</m> inches. In general <m>A = 144M</m> where <m>M</m> is the size on the model and <m>A</m> is the size on the actual shuttle.</p>
         <p>To represent this scale conversion as a graph we will generate a table like <xref ref="table-salary-vasya"/> then we will use that to plot the graph.</p>
         <tabular>
             <col halign="center" right="medium" width="15%" />
