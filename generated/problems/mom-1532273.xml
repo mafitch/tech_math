@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1532273">
 <statement>
-<p>Guido is flying west at 14500 MSL using the local altimeter setting of 29.35 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
-<p>How much does the pressure drop from the ground (0 MSL) to 14500 ft above? <fillin characters="6" /> inHg</p>
-<p>If the pressure is 29.35 inHg at 0 MSL, what is the pressure at 14500 ft MSL? <fillin characters="6" /> inHg</p>
+<p>Guido is flying east at 13500 MSL using the local altimeter setting of 29.83 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
+<p>How much does the pressure drop from the ground (0 MSL) to 13500 ft above? <fillin characters="6" /> inHg</p>
+<p>If the pressure is 29.83 inHg at 0 MSL, what is the pressure at 13500 ft MSL? <fillin characters="6" /> inHg</p>
 
 
 
 </statement>
 <solution>
-<p><ul><li>14.5</li><li>14.85</li></ul></p><p>This is a proportion.</p>
-<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{14500}\ \text{ ft}}}</m></p>
+<p><ul><li>13.5</li><li>16.33</li></ul></p><p>This is a proportion.</p>
+<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{13500}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{14500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
+  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{13500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={14.5}\ \text{ inHg}</m></p>
-<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={29.35}\ \text{ inHg}-{14.5}\ \text{ inHg}={14.85}\ \text{ inHg}</m>.</p> 
+  <m>\displaystyle{d}={13.5}\ \text{ inHg}</m></p>
+<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={29.83}\ \text{ inHg}-{13.5}\ \text{ inHg}={16.33}\ \text{ inHg}</m>.</p> 
 </solution>
 </myopenmath>
 
