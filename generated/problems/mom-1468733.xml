@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle-{2}{x}+{4}{y}=-{16}</m> </p>
+<p><m>\displaystyle-{5}{x}-{2}{y}={42}</m> </p>
 <p>
-  <m>\displaystyle-{4}{x}+{8}{y}=-{32}</m></p>
+  <m>\displaystyle{2}{x}+{9}{y}=-{66}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({2},-{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of --4. So we scale by <m>\displaystyle--\frac{{4}}{{-{{2}}}}</m>.</p>
-<p><m>\displaystyle-\frac{{-{4}}}{{-{{2}}}}{\left(-{2}{x}+{4}{y}\right)}=-\frac{{-{4}}}{{-{{2}}}}{\left(-{16}\right)}</m></p>
-<p><m>\displaystyle-{\left(-{4}\right)}{x}+-{8}{y}={32}</m></p>
-<p><m>\displaystyle-{4}{x}+{8}{y}=-{32}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{6},-{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of -2. So we scale by <m>\displaystyle-\frac{{2}}{{-{{5}}}}</m>.</p>
+<p><m>\displaystyle-\frac{{{2}}}{{-{{5}}}}{\left(-{5}{x}+-{2}{y}\right)}=-\frac{{{2}}}{{-{{5}}}}{\left({42}\right)}</m></p>
+<p><m>\displaystyle-{\left({2}\right)}{x}+-{0.8}{y}={16.8}</m></p>
+<p><m>\displaystyle{2}{x}+{9}{y}=-{66}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{0}{y}={0}</m></p>
-<p><m>\displaystyle{y}=\frac{{0}}{{0}}</m></p>
-<p><m>\displaystyle{y}=-{3}</m></p>
+<p><m>\displaystyle{8.2}{y}=-{49.2}</m></p>
+<p><m>\displaystyle{y}=-\frac{{49.2}}{{8.2}}</m></p>
+<p><m>\displaystyle{y}=-{6}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{2}{x}+{4}{\left(-{3}\right)}=-{16}</m></p>
-<p><m>\displaystyle-{2}{x}+{\left(-{12}\right)}=-{16}</m></p>
-<p><m>\displaystyle-{2}{x}=-{16}-{\left(-{12}\right)}</m></p>
-<p><m>\displaystyle-{2}{x}=-{4}</m></p>
-<p><m>\displaystyle{x}=-\frac{{4}}{{-{{2}}}}</m></p>
-<p><m>\displaystyle{x}={2}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({2},-{3}\right)}</m>.</p>
+<p><m>\displaystyle-{5}{x}+-{2}{\left(-{6}\right)}={42}</m></p>
+<p><m>\displaystyle-{5}{x}+{\left({12}\right)}={42}</m></p>
+<p><m>\displaystyle-{5}{x}={42}-{\left({12}\right)}</m></p>
+<p><m>\displaystyle-{5}{x}={30}</m></p>
+<p><m>\displaystyle{x}=\frac{{30}}{{-{{5}}}}</m></p>
+<p><m>\displaystyle{x}=-{6}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{6},-{6}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

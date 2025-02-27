@@ -444,7 +444,7 @@
 
     <p>We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines when we have the equation, and presents analyzing linear models based on their graphs.</p>
 
-    <p>As described in <xref ref="subsection-present-linear"/> a linear equation (model) has two parts: the ratio (slope, rate) <m>m</m> and the shift <m>+b</m>. First, we address the role of the ratio in the graph.</p>
+    <p>As described in <xref ref="subsection-present-linear"/> a linear equation (model) has two parts: the shift <m>+b</m> and the ratio (slope, rate) <m>m</m>. First, we address the role of the ratio in the graph.</p>
 
     <definition xml:id="definition-slope">
         <title>Slope</title>
@@ -477,7 +477,7 @@
             As expected this is the same slope, because on a line the rate of change (slope) is constant.</p></solution>
     </example>
 
-    <p>To write the equation for a line we need the shift, <m>+b</m>, as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m>, because in the linear form <m>y=mx+b</m> we have <m>y=m \cdot 0 + b = b</m> The shift then is the <m>y</m> coordinate at <m>x=0</m> which is why it is often called the y-intercept.</p>
+    <p>To write the equation for a line we need the shift, <m>+b</m>, as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. <m>b</m> controls this shift. It is typically easiest to read this shift at <m>x=0</m>, because in the linear form <m>y=b+mx</m> we have <m>y=b+ m \cdot 0 = b</m>. The shift then is the <m>y</m> coordinate at <m>x=0</m> which is why it is often called the y-intercept.</p>
 
     <figure xml:id="figure-graph-slope">
         <caption>Calculating Slope</caption>
@@ -533,26 +533,6 @@
     <exercisegroup>
         <title>Identify Lines</title>
         <introduction><p>Use the data provided to determine which of these represent lines.</p></introduction>
-
-        <exercise>
-            <myopenmath problem="1505997" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1064025" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1064454" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1064455" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1064462" />
-        </exercise>
 
         <exercise>
             <myopenmath problem="72597" />

@@ -231,7 +231,7 @@
             <mrow> &amp; \approx 12,470.</mrow>
         </md></p>
 
-        <p>By order of operations we first calculate <m>17.9+1.23 = 19.13</m> . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate <m>39 \cdot 19.13 = 746.07</m>. This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is <m>11,728+746.07=12,474.07</m>. 11,728 is significant to the one's place but the 746.07 is significant only to the 10's place. This means the final result is rounded to the 10's place so <m>11,728+39(17.9+1.23) \approx 12,470.</m></p>
+        <p>By order of operations we first calculate <m>17.9+1.23 = 19.13</m>. Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate <m>39 \cdot 19.13 = 746.07</m>. This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is <m>11,728+746.07=12,474.07</m>. 11,728 is significant to the one's place but the 746.07 is significant only to the 10's place. This means the final result is rounded to the 10's place so <m>11,728+39(17.9+1.23) \approx 12,470</m>.</p>
     </example>
 
     <example xml:id="example-sigfig-multi2">

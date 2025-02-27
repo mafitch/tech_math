@@ -31,7 +31,7 @@
             <li><m>y = mx+b</m></li>
             <li><m>Ay+Bx+C = 0</m></li>
         </ul>
-    The second form can be solved for y which will make it look like the first form. The models in this section will be in the first form which you may know as slope intercept. The <m>m</m> is commonly described as the slope which is a measure of how steep the line is. In these models we will generalize that to a rate. The <m>b</m> is commonly called the intercept which indicates a shift of the line up or down. This shift will have a meaning in each application.</p>
+    The second form can be solved for y which will make it look like the first form. The models in this section will be in the first form which you may know as slope intercept. The <m>m</m> is commonly described as the <term>slope</term> which is a measure of how steep the line is. In these models we will generalize slope to a rate. The <m>b</m> is commonly called the <term>intercept</term> which indicates a <term>shift</term> of the line up or down. This shift will have a meaning in each application.</p>
 
     <paragraphs xml:id="model-temperature-altitude-fahrenheit">
         <title>Model of Temperature Change with Altitude</title>
@@ -172,7 +172,11 @@
 
     <p>The previous section presented linear models, and illustrated using the models provided. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.</p>
 
-    <p>A linear model has a starting point (shift, <m>b</m>) and rate (ratio, <m>m</m>). We need to identify these and then write the linear model <me>y = mx+b</me> with these values. We should also label units and explain any parameters.</p>
+    <p>A linear model has a starting point (shift, <m>b</m>) and rate (ratio, <m>m</m>). We need to identify these and then write the linear model <me>y = b+ mx</me> with these values. We should also label units and explain any parameters.</p>
+
+    <aside>
+        <p>We have used both <m>y=mx_b</m> and <m>y=b+mx</m> to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.</p>
+    </aside>
 
     <example xml:id="example-linear-model-purchase">
         <p>Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.</p>
@@ -395,46 +399,32 @@
 </subsection>
 
 <exercises>
-    <exercisegroup>
-        <title>Contextless Linear Equations</title>
-        <introduction>
-            <p>Solve each of these equations.</p>
-        </introduction>
-
-        <exercise>
-            <myopenmath problem="2326" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="2496" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="3419" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1287" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="2017" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="2498" />
-        </exercise>
-    </exercisegroup>
 
     <exercisegroup>
         <title>Linear expressions in applications</title>
     
         <introduction>
-            <p>Solve linear expressions as needed to answer these questions in context.</p>
+            <p>Answer these questions using the linear model described.</p>
         </introduction>
 
         <exercise>
             <myopenmath problem="2020" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="854" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="15603" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1553006" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1553388" />
         </exercise>
 
         <exercise>
@@ -448,10 +438,6 @@
         <introduction>
             <p>Solve each equation for the variable indicated. Treat all other variables as parameters.</p>
         </introduction>
-
-        <exercise>
-            <myopenmath problem="2070" />
-        </exercise>
 
         <exercise>
             <myopenmath problem="2348" />
@@ -482,6 +468,41 @@
         </exercise>
     </exercisegroup>
 
+    <exercisegroup>
+        <title>Contextless Linear Equations</title>
+        <introduction>
+            <p>Solve each of these equations.</p>
+        </introduction>
+
+        <exercise>
+            <myopenmath problem="3419" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="2496" />
+        </exercise>
+    </exercisegroup>
+
+    <exercisegroup>
+        <title>Identifying Linear Models</title>
+    
+        <introduction>
+            <p>For each of the following equations whether in context or not, determine whether it is linear.</p>
+        </introduction>
+    
+        <exercise>
+            <myopenmath problem="42926" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="42927" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="42928" />
+        </exercise>
+    
+    </exercisegroup>
 </exercises>
 
 </section>

@@ -30,8 +30,8 @@
         <title>Combining Mixtures</title>
         <p>Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce <m>10.0</m> oz of 85% alcohol?</p>
         <p>A common technique in mathematics is to start by writing the answer. We will declare that we will use <m>A</m> oz of 91% alcohol and <m>B</m> oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).</p>
-        <p>The first constraint is that we end up with 10 oz of solution. Thus <me>A+B = 10.0.</me></p>
-        <p>The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be <me>(0.85)10.0 = 8.5 \text{ oz}</me>. This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because <m>A</m> oz of the first solution will be added and it is 91% alcohol, it will contribute <m>(0.91)A</m> oz of alcohol. Similarly the second solution will contribute <m>(0.75)B</m> oz of alcohol. Combined we will obtain <me>(0.91)A+(0.75)B = 8.5 \text{ oz}.</me></p>
+        <p>The first constraint is that we end up with 10 oz of solution. Thus <me>A+B = 10.0</me>.</p>
+        <p>The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be <me>(0.85)10.0 = 8.5 \text{ oz}</me>. This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because <m>A</m> oz of the first solution will be added and it is 91% alcohol, it will contribute <m>(0.91)A</m> oz of alcohol. Similarly the second solution will contribute <m>(0.75)B</m> oz of alcohol. Combined we will obtain <me>(0.91)A+(0.75)B = 8.5 \text{ oz}</me>.</p>
         <p>Now we just need a way to solve this pair of equations.</p>
     </example>
 
@@ -117,7 +117,7 @@
             <mrow>A &amp; = \frac{1.0}{0.16}</mrow>
             <mrow> &amp; = 6.25.</mrow>
         </md>
-        Now that we know that <m>A = 6.25</m> we can substitute that into <m>A+B=10.0.</m> This gives us
+        Now that we know that <m>A = 6.25</m> we can substitute that into <m>A+B=10.0</m>. This gives us
         <md>
             <mrow>A+B &amp; = 10.0.</mrow>
             <mrow>6.25+B &amp; = 10.0.</mrow>

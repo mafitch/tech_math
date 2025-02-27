@@ -10,17 +10,13 @@ if ($full !== null) {
   if (comparenumbers($area,$split[0])) { $txt = "Check units"}
 }
 
-Attempting feedback macros
-
-$error = getfeedbacktxtnumber($stuanswers[$thisq],  array($answer,1,$answer,0), array("Correct", "Correct value, check units"), "Incorrect")
-
 Feedback
 $percent = round(100*($new/$old),0)
 $stuans = getstuans($stuanswers,$thisq,0)
 if ($stuans != null) {
 	$error = getfeedbacktxtnumber($stuans,  array($answer,1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect","|0.1") 
 }
-OR
+OR multipart
 $stuans1 = getstuans($stuanswers,$thisq,1)
 if ($stuans1 != null) {
 	$error = getfeedbacktxtnumber($stuans1,  array($answer[1],1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect") 
@@ -31,6 +27,20 @@ if ($stuans != null) {
 	if ($stuans == $answer[1] ) { $error="" }
   else if ($stuans >= $smi*0.99 && $stuans <= $smi*1.01) { $error="<p style='background-color:LemonChiffon;'>Did you forget to round?</p>" }
   else { $error = "<p style='background-color:LightPink;'>Check your work.</p>"}
+}
+OR
+$error = ""
+$stuans = getstuans($stuanswers,$thisq,1)
+if ($stuans != null && $stuans != $answer) {
+  if ( abs($stuans-$nomonthly) <= 0.1 ) { 
+    $error="<p style='background-color:LemonChiffon;'>Did you forget to include the monthly charge?</p>"
+    $leftover = $stuans
+  } else {
+    $leftover = $stuans-$monthly
+  }
+  if ($leftover >= $nomonthly && $leftover <= $roundup) {
+    $error = $error . "<p style='background-color:LemonChiffon;'>Did you include a charge for a partial time unit?</p>"
+  }
 }
 
 Accessibility
