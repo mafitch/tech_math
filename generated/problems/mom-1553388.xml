@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1553388">
+<statement>
+<p>There are two options for a subscription plan for a GPS tracking device. One costs <dollar/>11.95 per month plus <dollar/>0.10 per location ping (sent once every 10 minutes). The other costs <dollar/>34.95 per month for unlimited location pings. What is the smallest number of minutes per month for which the second plan with fixed monthly cost is less expensive?  <fillin characters="4" /></p>
+
+</statement>
+<solution>
+<p><ul><li>2310</li></ul></p><p>We can calculate the number of pings for which the two plans have the same cost.</p>
+<p><m>\displaystyle\${11.95}+\${0.10}{p}=\${34.95}</m></p>
+<p>
+  <m>\displaystyle\${0.10}{p}=\${34.95}-\${11.95}</m></p>
+<p>
+  <m>\displaystyle\${0.10}{p}=\${23}</m></p>
+<p>
+  <m>\displaystyle{p}=\frac{{\${23}}}{{\${0.10}}}</m></p>
+<p>
+  <m>\displaystyle{p}={230}</m></p>
+<p>This is the number of pings at which they are equal. The first plan will be more expensive for one ping more. That is 231 pings. Because each ping represents 10 minutes this would be for <m>\displaystyle{231}\cdot{10}={2310}</m> minutes.</p>
+</solution>
+</myopenmath>
+

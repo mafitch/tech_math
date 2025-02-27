@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1553006">
+<statement>
+<p>A subscription plan for a GPS tracking device costs <dollar/>11.95 per month plus <dollar/>0.10 per location ping (sent once every 10 minutes). What is the monthly charge if the device was used for 2 hours and 57 minutes? <fillin characters="6" /></p>
+
+
+</statement>
+<solution>
+<p><ul><li><dollar/>13.65</li></ul></p><p>First, we need to know how many pings are sent in 2 hours and 57 minutes. This is a total of <m>\displaystyle{2}\cdot{60}+{57}={177}</m> minutes. This is <m>\displaystyle\frac{{177}}{{10}}={17.7}</m> 10 minute periods. Any time past the last 10 minute segment does not generate another ping so only 17 pings will be sent.</p>
+<p>Thus the cost is <m>\displaystyle\${11.95}+\${0.10}{\left({17}\right)}=\${13.65}</m>.</p>
+</solution>
+</myopenmath>
+
