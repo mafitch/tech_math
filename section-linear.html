@@ -495,14 +495,17 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="para">The second form can be solved for y which will make it look like the first form. The models in this section will be in the first form which you may know as slope intercept. The <span class="process-math">\(m\)</span> is commonly described as the <dfn class="terminology">slope</dfn> which is a measure of how steep the line is. In these models we will generalize slope to a rate. The <span class="process-math">\(b\)</span> is commonly called the <dfn class="terminology">intercept</dfn> which indicates a <dfn class="terminology">shift</dfn> of the line up or down. This shift will have a meaning in each application.</div>
 </div>
-<section class="paragraphs" id="model-temperature-altitude-fahrenheit"><h4 class="heading"><span class="title">Model of Temperature Change with Altitude.</span></h4>
+<article class="fact theorem-like" id="model-temperature-altitude-fahrenheit"><h4 class="heading">
+<span class="type">Model</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Temperature Change with Altitude.</span>
+</h4>
 <div class="para logical" id="model-temperature-altitude-fahrenheit-2">
-<div class="para">As a result of atmospheric physics temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as</div>
+<div class="para">As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as</div>
 <div class="displaymath process-math">
 \begin{equation*}
 T_A = T_G - \left(\frac{3.5}{1000}\right)A.
 \end{equation*}
 </div>
+<div class="para">where</div>
 <ul class="disc" id="model-temperature-altitude-fahrenheit-2-2">
 <li id="model-temperature-altitude-fahrenheit-2-2-1"><div class="para" id="p-derived-model-temperature-altitude-fahrenheit-2-2-1">
 <span class="process-math">\(T_A\)</span> is the expected temperature at the specified altitude.</div></li>
@@ -514,19 +517,20 @@ T_A = T_G - \left(\frac{3.5}{1000}\right)A.
 <span class="process-math">\(\frac{3.5^\circ}{1000 \text{ ft}}\)</span> is the rate of temperature decrease.</div></li>
 </ul>
 <div class="para">All temperatures are in Fahrenheit.</div>
+</div></article><div class="para" id="subsection-present-linear-5">Before we use this model, we need to figure out what each part is. <span class="process-math">\(T_G\)</span> is a parameter that we need to find before we use the model. A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work.</div>
+<div class="para" id="subsection-present-linear-6">In contrast the ratio <span class="process-math">\(-\frac{3.5^\circ}{1000 \text{ ft}}\)</span> is a constant (not a parameter), because it is a result of atmospheric physics. This ratio is always in the equation, because it is not dependent on the location for this simplified model.</div>
+<div class="para" id="subsection-present-linear-7">Temperature (<span class="process-math">\(T_A\)</span>) and altitude (<span class="process-math">\(A\)</span>) are variables which implies that the model shows a relationship between these two properties.</div>
+<div class="para" id="subsection-present-linear-8">The model subtracting from the starting temperature results in a decrease of temperature from <span class="process-math">\(T_G\text{.}\)</span> This implies that temperature decreases with altitude.</div>
+<div class="para" id="subsection-present-linear-9">Every linear model (equation) has a rate. In this case <span class="process-math">\(m=-\frac{3.5}{1000}\text{.}\)</span>
 </div>
-<div class="para" id="model-temperature-altitude-fahrenheit-3">Before we can use this model we need to know the parameter <span class="process-math">\(T_G\text{.}\)</span> A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work.</div>
-<div class="para" id="model-temperature-altitude-fahrenheit-4">In contrast the ratio <span class="process-math">\(-\frac{3.5^\circ}{1000 \text{ ft}}\)</span> is a constant (not a parameter), because it is a result of atmospheric physics that is not dependent on the location for this simplified model.</div>
-<div class="para" id="model-temperature-altitude-fahrenheit-5">Temperature (<span class="process-math">\(T_A\)</span>) and altitude (<span class="process-math">\(A\)</span>) are variables which implies that the model shows a relationship between these two properties.</div>
-<div class="para" id="model-temperature-altitude-fahrenheit-6">The model subtracting from the starting temperature results in a decrease of temperature from <span class="process-math">\(T_G\text{.}\)</span> This implies that temperature decreases with altitude.</div>
-<div class="para" id="model-temperature-altitude-fahrenheit-7">Every linear model (equation) has a rate. In this case <span class="process-math">\(m=-\frac{3.5}{1000}\text{.}\)</span>
+<div class="para" id="subsection-present-linear-10">Every linear model has a shift. In this case <span class="process-math">\(b=T_G\text{.}\)</span>
 </div>
-<div class="para" id="model-temperature-altitude-fahrenheit-8">Every linear model has a shift. In this case <span class="process-math">\(b=T_G\text{.}\)</span>
-</div></section><article class="example example-like" id="example-linear-model-read1"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
+<div class="para" id="subsection-present-linear-11">Now that we have analyzed the model, we are prepared to use it.</div>
+<article class="example example-like" id="example-linear-model-read1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-linear-model-read1-1">If the temperature at ground level is 43° what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?</div>
-<div class="para" id="example-linear-model-read1-2">Because fractions of a degree are not useful in making decisions like what to wear, we will round to units.</div>
+<div class="para" id="example-linear-model-read1-2">Because fractions of a degree are not useful in making decisions like what clothes to wear, we will round to units.</div>
 <div class="para logical" id="example-linear-model-read1-3">
 <div class="para">Note <span class="process-math">\(T_G = 43^\circ\text{.}\)</span> We need to calculate <span class="process-math">\(T_A\)</span> for <span class="process-math">\(A=1000, 2000, 3000, 3500\text{.}\)</span>
 </div>
@@ -551,7 +555,7 @@ T_{3500} &amp; = 43^\circ - \frac{3.5^\circ}{1000 \text{ ft}}(3500 \text{ ft})\\
 \end{align*}
 </div>
 </div>
-<div class="para" id="example-linear-model-read1-4">Notice that we now know that it will be below freezing just above 3000 ft.</div></article><section class="paragraphs" id="model-time-to-altitude"><h4 class="heading"><span class="title">Model of Time to Altitude.</span></h4>
+<div class="para" id="example-linear-model-read1-4">Notice that we now know that it will be below freezing just above 3000 ft.</div></article><section class="paragraphs" id="model-time-to-altitude"><h4 class="heading"><span class="title">An Equation for Time to Altitude.</span></h4>
 <div class="para logical" id="model-time-to-altitude-2">
 <div class="para">A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate.</div>
 <div class="displaymath process-math">
@@ -570,11 +574,12 @@ A_t = A_G+C \cdot t.
 <span class="process-math">\(t\)</span> is the time since the climb began in minutes.</div></li>
 </ul>
 </div>
-<div class="para" id="model-time-to-altitude-3">Before we can use this model we need to know the parameters <span class="process-math">\(A_G\)</span> and <span class="process-math">\(C\text{.}\)</span> A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. <span class="process-math">\(A_G\)</span> varies by airport, because they are at different altitudes. The rate <span class="process-math">\(C\)</span> must be obtained for each plane and is often available in the aircraft’s Pilot’s Operating Handbook (POH).</div>
+<div class="para" id="model-time-to-altitude-3">Before we can use this equation, let’s analyze it. We will need to know the parameters <span class="process-math">\(A_G\)</span> and <span class="process-math">\(C\text{.}\)</span> A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. <span class="process-math">\(A_G\)</span> varies by airport, because they are at different altitudes. The rate <span class="process-math">\(C\)</span> must be obtained for each plane and is often available in the aircraft’s Pilot’s Operating Handbook (POH).</div>
 <div class="para" id="model-time-to-altitude-4">Final altitude (<span class="process-math">\(A_t\)</span>) and time (<span class="process-math">\(t\)</span>) are the variables which implies that the model shows a relationship between time climbing and how high the plane is.</div>
 <div class="para" id="model-time-to-altitude-5">In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).</div>
-<div class="para" id="model-time-to-altitude-6">Every linear model (equation) has a rate (the slope <span class="process-math">\(m\)</span> in the equation). In this case <span class="process-math">\(m=\frac{C \text{ ft}}{1 \text{ min}}\text{.}\)</span> Every linear model has a shift (the <span class="process-math">\(b\)</span> in the equation), which may be zero. In this case <span class="process-math">\(b=A_G\text{.}\)</span> <span class="process-math">\(b=A_G=0\)</span> is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.</div></section><article class="example example-like" id="example-linear-model-read2"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+<div class="para" id="model-time-to-altitude-6">Every linear model (equation) has a rate (the slope <span class="process-math">\(m\)</span> in the equation). In this case <span class="process-math">\(m=\frac{C \text{ ft}}{1 \text{ min}}\text{.}\)</span> Every linear model has a shift (the <span class="process-math">\(b\)</span> in the equation), which may be zero. In this case <span class="process-math">\(b=A_G\text{.}\)</span> <span class="process-math">\(b=A_G=0\)</span> is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.</div>
+<div class="para" id="model-time-to-altitude-7">Now that we have analyzed this equation, we are prepared to use it.</div></section><article class="example example-like" id="example-linear-model-read2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-linear-model-read2-1">If a plane begins at 160 ft MSL and is climbing at 700 ft/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?</div>
 <div class="para" id="example-linear-model-read2-2">These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for <span class="process-math">\(A_G\)</span> is to round down: this will give us a lower altitude. If that lower altitude is safe, then altitude 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude climbing at 700 ft/min, then if we climb at 720 ft/min we will reach that safe altitude a little sooner.</div>
@@ -600,7 +605,7 @@ A_{15} &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 15 \text{ 
 \end{align*}
 </div>
 </div>
-<div class="para" id="example-linear-model-read2-4">Based on these calculations the plane will climb  above 4500 ft MSL in between 5 and 10 minutes (closer to 5).</div></article><section class="paragraphs" id="model-fuel-remaining"><h4 class="heading"><span class="title">Model of Fuel Remaining Calculation.</span></h4>
+<div class="para" id="example-linear-model-read2-4">Based on these calculations the plane will climb  above 4500 ft MSL in between 5 and 10 minutes (closer to 5).</div></article><section class="paragraphs" id="model-fuel-remaining"><h4 class="heading"><span class="title">Equation for Fuel Remaining.</span></h4>
 <div class="para logical" id="model-fuel-remaining-2">
 <div class="para">When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model</div>
 <div class="displaymath process-math">
@@ -620,14 +625,15 @@ F_t = F_I - r \cdot t.
 </ul>
 <div class="para">Fuel amounts will be measured in units of volume like gallons or liters. Time will be measured in minutes or hours. The rate <span class="process-math">\(r\)</span> is then in units such as gallons/hour or liters/min.</div>
 </div>
-<div class="para" id="model-fuel-remaining-3">Before we can use this model we need to know the parameters <span class="process-math">\(F_I\)</span> and <span class="process-math">\(r\text{.}\)</span> These parameters are not variables (they remains the same the whole time the model is in use), rather they are values (numbers) that we obtain from the circumstances and write into the model (equation) before we do any work.</div>
+<div class="para" id="model-fuel-remaining-3">Before we use this model, let’s analyze it. We will need to know the parameters <span class="process-math">\(F_I\)</span> and <span class="process-math">\(r\text{.}\)</span> These parameters are not variables (they remains the same the whole time the model is in use), rather they are values (numbers) that we obtain from the circumstances and write into the model (equation) before we do any work.</div>
 <div class="para" id="model-fuel-remaining-4">The initial fuel <span class="process-math">\(F_I\)</span> is obtained by checking the fuel tanks or fuel gauges. The rate <span class="process-math">\(r\)</span> is often  is not shown during operation (fuel gauges show how much is remaining rather than how fast it is used). The rate can sometimes be obtained from vehicle documentation.</div>
 <div class="para" id="model-fuel-remaining-5">Final fuel (<span class="process-math">\(F_t\)</span>) and time (<span class="process-math">\(t\)</span>) are the variables which implies that the model shows a relationship between time flown and fuel available (left in the tanks).</div>
 <div class="para" id="model-fuel-remaining-6">Because fuel decreases the <span class="process-math">\(r \cdot t\)</span> term is subtracted decreasing the amount from <span class="process-math">\(F_I\text{.}\)</span>
 </div>
 <div class="para" id="model-fuel-remaining-7">Every linear model (equation) has a rate. In this case <span class="process-math">\(m=\frac{r \text{ gal}}{1 \text{ hr}}\)</span> (or similar units).</div>
-<div class="para" id="model-fuel-remaining-8">Every linear model has a shift. In this case <span class="process-math">\(b=F_I\text{.}\)</span> We can think of this shift in terms of the needle on the gas gauge moving up to represent the amount of fuel present.</div></section><article class="example example-like" id="example-linear-model-read3"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
+<div class="para" id="model-fuel-remaining-8">Every linear model has a shift. In this case <span class="process-math">\(b=F_I\text{.}\)</span> We can think of this shift in terms of the needle on the gas gauge moving up to represent the amount of fuel present.</div>
+<div class="para" id="model-fuel-remaining-9">Now that we have analyzed this equation, we are prepared to use it.</div></section><article class="example example-like" id="example-linear-model-read3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-linear-model-read3-1-1">If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?</div> <div class="para" id="example-linear-model-read3-1-2">A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.</div>
 <div class="solutions"><details id="example-linear-model-read3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="example-linear-model-read3-2-1">
@@ -657,11 +663,11 @@ F_{0.6} &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 0.6 \t
 &amp; \approx 19.0.
 \end{align*}
 </div>
-</div></div></details></div></article><div class="para" id="subsection-present-linear-10">Use this Checkpoint to practice using a linear model.</div>
-<article class="exercise exercise-like" id="subsection-present-linear-11"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+</div></div></details></div></article><div class="para" id="subsection-present-linear-17">Use this Checkpoint to practice using a linear model.</div>
+<article class="exercise exercise-like" id="subsection-present-linear-18"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
 </h4>
-<div id="momsubsection-present-linear-11-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-present-linear-11-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1453442&amp;frame_id=momsubsection-present-linear-11-1"></iframe></div></article></section><section class="subsection" id="subsection-build-linear-models"><h3 class="heading hide-type">
+<div id="momsubsection-present-linear-18-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-present-linear-18-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1453442&amp;frame_id=momsubsection-present-linear-18-1"></iframe></div></article></section><section class="subsection" id="subsection-build-linear-models"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Building Linear Models</span>
 </h3>
 <div class="para" id="subsection-build-linear-models-2">The previous section presented linear models, and illustrated using the models provided. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.</div>
@@ -674,8 +680,8 @@ y = b+ mx
 </div>
 <div class="para">with these values. We should also label units and explain any parameters.</div>
 </div>
-<aside class="aside aside-like" id="subsection-build-linear-models-4"><div class="para" id="subsection-build-linear-models-4-1">We have used both <span class="process-math">\(y=mx_b\)</span> and <span class="process-math">\(y=b+mx\)</span> to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.</div></aside><article class="example example-like" id="example-linear-model-purchase"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
+<aside class="aside aside-like" id="subsection-build-linear-models-4"><div class="para" id="subsection-build-linear-models-4-1">We have used both <span class="process-math">\(y=mx+b\)</span> and <span class="process-math">\(y=b+mx\)</span> to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.</div></aside><article class="example example-like" id="example-linear-model-purchase"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-linear-model-purchase-1">Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.</div>
 <div class="para" id="example-linear-model-purchase-2">We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars/foot) suggest that we can multiply to calculate the cost. <span class="process-math">\(20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}\text{.}\)</span>
@@ -701,9 +707,9 @@ s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C\text{.}
 \end{equation*}
 </div>
 </div>
-<div class="para" id="example-linear-model-purchase-7">This equation has a ratio ($0.93⁄1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.</div></article><div class="para" id="subsection-build-linear-models-6">When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.</div>
+<div class="para" id="example-linear-model-purchase-7">This equation has a ratio ($0.93/1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.</div></article><div class="para" id="subsection-build-linear-models-6">When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.</div>
 <article class="example example-like" id="example-linear-model-pressure-drop"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-linear-model-pressure-drop-1">At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). We will produce a model for pressure at altitude.</div>
 <div class="para" id="example-linear-model-pressure-drop-2">As in the previous example, we will start by calculating some specific pressures (experiment). If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?</div>
@@ -722,7 +728,7 @@ P_A = P_G-\left(A \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right)
 <div class="para">
 <span class="process-math">\(P_A\)</span> is the pressure at the specified altitude. <span class="process-math">\(P_G\)</span> is the pressure at ground level. <span class="process-math">\(A\)</span> is the altitude above ground level. This is a linear equation with a ratio of (-1/1000) which is the drop in pressure with altitude, and a shift of <span class="process-math">\(P_G\text{,}\)</span> which is the pressure on the ground.</div>
 </div></article><article class="example example-like" id="example-linear-model-temperature-conversion"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-linear-model-temperature-conversion-1">We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Every 9 degrees Fahrenheit is only 5 degrees Celsius, so to convert between them, we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32° and Celsius starts at 0°. Notice we have a ratio and a shift, so this already looks like a linear model.</div>
 <div class="para" id="example-linear-model-temperature-conversion-2">To begin with we will convert 52° F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).</div>
@@ -755,9 +761,9 @@ C = (T-32)\frac{5}{9}+0 = \frac{5}{9}T-\frac{160}{9}.
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">Solving Linear Equations</span>
 </h3>
 <div class="para" id="subsection-solve-invert-2">The first section demonstrated using linear models to calculate values by plugging in the inputs. However, sometimes we know the result and want to calculate the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.</div>
-<div class="para" id="subsection-solve-invert-3">Before reading farther solve the equation <span class="process-math">\(5x-7=12\text{.}\)</span> What steps did you use? Why do they work? <a href="section-linear.html#example-solve-linear-invert" class="xref" data-knowl="./knowl/xref/example-solve-linear-invert.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.8">Example 3.1.8</a> is an example of solving another linear equation.</div>
+<div class="para" id="subsection-solve-invert-3">Before reading farther solve the equation <span class="process-math">\(5x-7=12\text{.}\)</span> What steps did you use? Why do they work? <a href="section-linear.html#example-solve-linear-invert" class="xref" data-knowl="./knowl/xref/example-solve-linear-invert.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.9">Example 3.1.9</a> is an example of solving another linear equation.</div>
 <article class="example example-like" id="example-solve-linear-invert"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-solve-linear-invert-1">Solve <span class="process-math">\(-8x-3=5\text{.}\)</span>
 </div>
@@ -773,11 +779,11 @@ x &amp; = -1.
 </div>
 <div class="para">We added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8). These steps isolate the variable for which we are solving.</div>
 </div></article><article class="exercise exercise-like" id="exercise-solve-linear-invert"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
 </h4>
 <div id="momexercise-solve-linear-invert-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-solve-linear-invert-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1453992&amp;frame_id=momexercise-solve-linear-invert-1"></iframe></div></article><div class="para" id="subsection-solve-invert-6">Some linear equations need one more technique. What would you need to solve <span class="process-math">\(17-4y = 14-y\text{?}\)</span> Below is an example of solving a similar linear equation.</div>
 <article class="example example-like" id="example-solve-linear-combine"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-solve-linear-combine-1">Solve <span class="process-math">\(17-4y = 5+2y\text{.}\)</span>
 </div>
@@ -797,12 +803,12 @@ x &amp; = -1.
 </div>
 <div class="para">Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).</div>
 </div></article><article class="exercise exercise-like" id="exercise-solve-linear-combine"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
 </h4>
 <div id="momexercise-solve-linear-combine-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-solve-linear-combine-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1454026&amp;frame_id=momexercise-solve-linear-combine-1"></iframe></div></article><div class="para" id="subsection-solve-invert-9">Another linear equation is <span class="process-math">\(\frac{x}{3}+\frac{x}{4}=\frac{7}{12}\text{.}\)</span> How would you solve it?</div>
-<div class="para" id="subsection-solve-invert-10">We can solve this the same as in <a href="section-linear.html#example-solve-linear-combine" class="xref" data-knowl="./knowl/xref/example-solve-linear-combine.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.10">Example 3.1.10</a> but because there are factions as coefficients we will use an additional technique.</div>
+<div class="para" id="subsection-solve-invert-10">We can solve this the same as in <a href="section-linear.html#example-solve-linear-combine" class="xref" data-knowl="./knowl/xref/example-solve-linear-combine.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.11">Example 3.1.11</a> but because there are factions as coefficients we will use an additional technique.</div>
 <article class="example example-like" id="example-solve-linear-clear"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-solve-linear-clear-1">Solve <span class="process-math">\(\frac{x}{5}+\frac{2x}{7}=\frac{34}{35}\)</span>
 </div>
@@ -825,9 +831,9 @@ x &amp; = 2.
 <div class="para">This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.</div>
 </div></article><div class="para" id="subsection-solve-invert-12">Now that we have practiced solving linear equations, we can use this skill with the models.</div>
 <article class="example example-like" id="example-solve-temperature-drop"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-solve-temperature-drop-1">Given the temperature model in <a href="section-linear.html#model-temperature-altitude-fahrenheit" class="xref" data-knowl="./knowl/xref/model-temperature-altitude-fahrenheit.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraphs: Model of Temperature Change with Altitude">Model of Temperature Change with Altitude</a> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.</div>
+<div class="para" id="example-solve-temperature-drop-1">Given the temperature model in <a href="section-linear.html#model-temperature-altitude-fahrenheit" class="xref" data-knowl="./knowl/xref/model-temperature-altitude-fahrenheit.html" data-reveal-label="Reveal" data-close-label="Close" title="Model 3.1.1: Temperature Change with Altitude">Temperature Change with Altitude</a> and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.</div>
 <div class="para logical" id="example-solve-temperature-drop-2">
 <div class="para">In this case the model is <span class="process-math">\(T_A = 65^\circ-\frac{3.5^\circ}{1000 \text{ ft}}A\text{.}\)</span> We know <span class="process-math">\(T_A=32^\circ\)</span> and we want to calculate <span class="process-math">\(A\text{,}\)</span> the altitude in feet.</div>
 <div class="displaymath process-math" id="example-solve-temperature-drop-2-4">
@@ -841,9 +847,9 @@ x &amp; = 2.
 \end{align*}
 </div>
 </div></article><article class="example example-like" id="example-solve-time-altitude"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-solve-time-altitude-1">Given the time to altitude model in <a href="section-linear.html#model-time-to-altitude" class="xref" data-knowl="./knowl/xref/model-time-to-altitude.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraphs: Model of Time to Altitude">Model of Time to Altitude</a> and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft/min, how long will it take to complete the climb?</div>
+<div class="para" id="example-solve-time-altitude-1">Given the time to altitude model in <a href="section-linear.html#model-time-to-altitude" class="xref" data-knowl="./knowl/xref/model-time-to-altitude.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraphs: An Equation for Time to Altitude">An Equation for Time to Altitude</a> and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft/min, how long will it take to complete the climb?</div>
 <div class="para logical" id="example-solve-time-altitude-2">
 <div class="para">In this case the model is <span class="process-math">\(A_t = 80 \text{ ft} + \frac{700 \text{ ft}}{\text{min}}t\text{.}\)</span> We know <span class="process-math">\(A_t=5000\)</span> ft, and we want to know the time <span class="process-math">\(t\text{.}\)</span>
 </div>
@@ -860,13 +866,13 @@ x &amp; = 2.
 <div class="para">We round up as a safety margin: it is better to assume we need 8 minutes and be higher, than to hope we can recognize 0.03 of a minute (not quite 2 seconds).</div>
 </div></article><div class="para" id="subsection-solve-invert-15">Use this Checkpoint to try solving a linear model.</div>
 <article class="exercise exercise-like" id="subsection-solve-invert-16"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.16</span><span class="period">.</span>
 </h4>
 <div id="momsubsection-solve-invert-16-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsubsection-solve-invert-16-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1454112&amp;frame_id=momsubsection-solve-invert-16-1"></iframe></div></article></section><section class="subsection" id="subsection-linear-identify"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">Identifying Linear Expressions</span>
 </h3>
-<div class="para" id="subsection-linear-identify-2">All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? <a href="section-linear.html#table-linear-appearance" class="xref" data-knowl="./knowl/xref/table-linear-appearance.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.16: Linear and Non-linear">Table 3.1.16</a> shows examples of linear expressions and non-linear expressions.</div>
-<figure class="table table-like" id="table-linear-appearance"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.16<span class="period">.</span></span><span class="space"> </span>Linear and Non-linear</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="subsection-linear-identify-2">All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? <a href="section-linear.html#table-linear-appearance" class="xref" data-knowl="./knowl/xref/table-linear-appearance.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.17: Linear and Non-linear">Table 3.1.17</a> shows examples of linear expressions and non-linear expressions.</div>
+<figure class="table table-like" id="table-linear-appearance"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.17<span class="period">.</span></span><span class="space"> </span>Linear and Non-linear</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="l m b2 r2 l2 t2 lines">Linear</td>
 <td class="l m b2 r2 l0 t2 lines">Non-linear</td>
@@ -885,7 +891,7 @@ x &amp; = 2.
 </tr>
 </table></div></figure><div class="para" id="subsection-linear-identify-4">Some equations that may not appear to be linear can be solved using the same methods.</div>
 <article class="example example-like" id="example-solve-linear-hidden"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.17</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.18</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-solve-linear-hidden-1">Solve <span class="process-math">\(\frac{11}{x}+2 = \frac{18}{x}-5\text{.}\)</span>
 </div>
@@ -906,49 +912,58 @@ x &amp; = 1.
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <div class="exercisegroup" id="section-linear-7-1">
-<h4 class="heading"><span class="title">Linear expressions in applications.</span></h4>
-<div class="introduction" id="section-linear-7-1-2"><div class="para" id="section-linear-7-1-2-1">Answer these questions using the linear model described.</div></div>
+<h4 class="heading"><span class="title">Identify Shift and Ratio.</span></h4>
+<div class="introduction" id="section-linear-7-1-2"><div class="para" id="section-linear-7-1-2-1">For each model identify the shift (y-intercept) and ratio (slope).</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="section-linear-7-1-3"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-1-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2020&amp;frame_id=momsection-linear-7-1-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-1-4"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-1-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=854&amp;frame_id=momsection-linear-7-1-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-1-5"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-1-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=15603&amp;frame_id=momsection-linear-7-1-5-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-1-6"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-1-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1553006&amp;frame_id=momsection-linear-7-1-6-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-1-7"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-1-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1553388&amp;frame_id=momsection-linear-7-1-7-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-1-8"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-1-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1532511&amp;frame_id=momsection-linear-7-1-8-1"></iframe></div></article>
+<div id="momsection-linear-7-1-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1553678&amp;frame_id=momsection-linear-7-1-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-1-4"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-1-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-1-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1553724&amp;frame_id=momsection-linear-7-1-4-1"></iframe></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="section-linear-7-2">
-<h4 class="heading"><span class="title">Solving in Models.</span></h4>
-<div class="introduction" id="section-linear-7-2-2"><div class="para" id="section-linear-7-2-2-1">Solve each equation for the variable indicated. Treat all other variables as parameters.</div></div>
+<h4 class="heading"><span class="title">Linear expressions in applications.</span></h4>
+<div class="introduction" id="section-linear-7-2-2"><div class="para" id="section-linear-7-2-2-1">Answer these questions using the linear model described.</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-linear-7-2-3"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-2-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2348&amp;frame_id=momsection-linear-7-2-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-4"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-2-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4150&amp;frame_id=momsection-linear-7-2-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-5"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-2-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4153&amp;frame_id=momsection-linear-7-2-5-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-6"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-2-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4157&amp;frame_id=momsection-linear-7-2-6-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-7"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-2-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4159&amp;frame_id=momsection-linear-7-2-7-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-8"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-2-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4167&amp;frame_id=momsection-linear-7-2-8-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-9"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-2-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4169&amp;frame_id=momsection-linear-7-2-9-1"></iframe></div></article>
+<article class="exercise exercise-like" id="section-linear-7-2-3"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-2-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2020&amp;frame_id=momsection-linear-7-2-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-4"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-2-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=854&amp;frame_id=momsection-linear-7-2-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-5"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-2-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=15603&amp;frame_id=momsection-linear-7-2-5-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-6"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-2-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1553006&amp;frame_id=momsection-linear-7-2-6-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-7"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-2-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1553388&amp;frame_id=momsection-linear-7-2-7-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-2-8"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-2-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-2-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1532511&amp;frame_id=momsection-linear-7-2-8-1"></iframe></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="section-linear-7-3">
-<h4 class="heading"><span class="title">Contextless Linear Equations.</span></h4>
-<div class="introduction" id="section-linear-7-3-2"><div class="para" id="section-linear-7-3-2-1">Solve each of these equations.</div></div>
+<h4 class="heading"><span class="title">Solving in Models.</span></h4>
+<div class="introduction" id="section-linear-7-3-2"><div class="para" id="section-linear-7-3-2-1">Solve each equation for the variable indicated. Treat all other variables as parameters.</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-linear-7-3-3"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-3-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3419&amp;frame_id=momsection-linear-7-3-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3-4"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-3-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2496&amp;frame_id=momsection-linear-7-3-4-1"></iframe></div></article>
+<article class="exercise exercise-like" id="section-linear-7-3-3"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-3-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2348&amp;frame_id=momsection-linear-7-3-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3-4"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-3-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4150&amp;frame_id=momsection-linear-7-3-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3-5"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-3-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4153&amp;frame_id=momsection-linear-7-3-5-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3-6"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-3-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4157&amp;frame_id=momsection-linear-7-3-6-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3-7"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-3-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4159&amp;frame_id=momsection-linear-7-3-7-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3-8"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-3-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4167&amp;frame_id=momsection-linear-7-3-8-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-3-9"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-3-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-3-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4169&amp;frame_id=momsection-linear-7-3-9-1"></iframe></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="section-linear-7-4">
-<h4 class="heading"><span class="title">Identifying Linear Models.</span></h4>
-<div class="introduction" id="section-linear-7-4-2"><div class="para" id="section-linear-7-4-2-1">For each of the following equations whether in context or not, determine whether it is linear.</div></div>
+<h4 class="heading"><span class="title">Contextless Linear Equations.</span></h4>
+<div class="introduction" id="section-linear-7-4-2"><div class="para" id="section-linear-7-4-2-1">Solve each of these equations.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="section-linear-7-4-3"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-4-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-4-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=42926&amp;frame_id=momsection-linear-7-4-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-4-4"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-4-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-4-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=42927&amp;frame_id=momsection-linear-7-4-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-4-5"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
-<div id="momsection-linear-7-4-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-4-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=42928&amp;frame_id=momsection-linear-7-4-5-1"></iframe></div></article>
+<div id="momsection-linear-7-4-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-4-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3419&amp;frame_id=momsection-linear-7-4-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-4-4"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-4-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-4-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2496&amp;frame_id=momsection-linear-7-4-4-1"></iframe></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="section-linear-7-5">
+<h4 class="heading"><span class="title">Identifying Linear Models.</span></h4>
+<div class="introduction" id="section-linear-7-5-2"><div class="para" id="section-linear-7-5-2-1">For each of the following equations whether in context or not, determine whether it is linear.</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="section-linear-7-5-3"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-5-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-5-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=42926&amp;frame_id=momsection-linear-7-5-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-5-4"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-5-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-5-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=42927&amp;frame_id=momsection-linear-7-5-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-7-5-5"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div id="momsection-linear-7-5-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-7-5-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=42928&amp;frame_id=momsection-linear-7-5-5-1"></iframe></div></article>
 </div>
 </div></section></section></div>
 <div class="ptx-content-footer">

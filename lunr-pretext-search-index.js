@@ -1105,7 +1105,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Working with Applications",
-  "body": " Working with Applications   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear , rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.  This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.    Calculating Results using Models   Ohm's Law   Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage , measured in volts (V), is analagous to the amount of pressure to move the electrons. Current , measured in amperes (amps), is how much electricity is moving. Resistance measured in Ohms ( ), is, as it sounds, the resistance of a material to letting electricity flow.  The relationship is where  is voltage,  is current, and  is the resistance.      We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.  Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?  Using the model we can calculate Thus in this system 24 volts is required.  If the current is increased to 6.0 amps on the 8.0 ohm circuit, then This result tells us that to double the amps, doubling the voltage is required.  Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate Thus in this system 10 volts is required.    Lift Equation   Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.  The lift equation is where  is the lift in units of lbs or Newtons)  is air density in units of slugs per cubic feet or kilograms per cubic meter  surface area in units of square feet or square meters  is the coefficient of lift which is unitless  is velocity in units of feet per second or meters per second       We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.  Suppose the air density is 0.002378 slugs per cubic feet, surface area is 125 , , and velocity is 84.4 . Calculate the lift.   . Under these circumstances this airfoil can lift 1650 lbs.  If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.   . If nothing else is changed (like velocity), this airfoil can lift (hold in the air) lbs less.     Ideal Gas Law   The ideal gas law is a relationship between the volume, pressure, temperature, and number of molecules of an ideal gas. The relationship is where  is the pressure in units of atmospheres (atm) or Pascals (Pa)  is the volume in units of cubic feet or cubic meters  is the number of moles (number of molecules, see a chemistry text for details)  is a constant specific to each gas (e.g., oxygen and nitrogen have different ones) in units that match the other values  is the temperature in degrees Rankine or Kelvin (these are shifted versions of Fahrenheit and Celsius).   When the number of molecules remains fixed, such as in a closed container, this law can be used to produce the equation where  , , and are the initial pressure, volume, and temperature, and  , , and are the pressure, volume, and temperature at another time.   Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant which is looked up in reference books.  For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.     Suppose the initial conditions are , , and . Also and . Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding. .  If instead , then we have the following.        Calculating Results Requiring Solving  The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.  It does not matter if the value we desire is by itself, we can solve using arithmetic.   Recall the model for lift . Suppose we know the weight of the aircraft ( lbs), density of air ( ), wing surface area ( ), and velocity ( ). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.    The desired value from the model may be in a denominator. We can solve for this using multiplication and division.   Recall from that under simplifying assumptions Suppose we know the initial conditions ( atm, , F) and also atm and . What must the new temperature ( ) be? This is a science model with measurements, so we will use significant digits rounding.   Note we use significant digits for rounding because this is a science model.   The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.   Solve the equation for . Note, this model is explained in .     Solve the lift equation for .   Notice that the steps are the same algebra as if there were numbers. Also we could divide by and we are not concerned with the square as part of solving for .   Solve the lift equation for .    Process Overview  Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.  Our first task is to read the problem to understand it.  Read the problem description a few times.  If you can paraphrase it, you understand it enough.  Drawing a picture and labeling parts may help.   Identify what we are asked to do.  Identify the information we are given. Note distinctions like measurements and rates.  Identify any units. These often help us set up a model.  Write everything! We do not model in our heads.   Next we write the mathematical model (equation or function).  Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).  Do not insert any numbers yet.  Do not do any calculations yet.   Now we will have a model that matches our situation and possibly some numbers to insert.  Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).  Solve for the desired value. Note it may help to do some calculations with the numbers first.  State your answer and use units appropriately.   Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).    You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.   UHaul ad with pricing   Ad containing an image of the truck, truck size information, and pricing information. $39.95 plus $0.79 per mile.      We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).  We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.  Our model is where is the total cost and is the number of miles.  We know the total cost, which will leaves in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in  . The charge is for 52 miles.     Using math modeling for rental truck                     "
+  "body": " Working with Applications   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear , rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.  This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.    Calculating Results using Models   Ohm's Law   Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage , measured in volts (V), is analagous to the amount of pressure to move the electrons. Current , measured in amperes (amps), is how much electricity is moving. Resistance measured in Ohms ( ), is, as it sounds, the resistance of a material to letting electricity flow.  The relationship is where  is voltage,  is current, and  is the resistance.      We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.  Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?  Using the model we can calculate Thus in this system 24 volts is required.  If the current is increased to 6.0 amps on the 8.0 ohm circuit, then This result tells us that to double the amps, doubling the voltage is required.  Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate Thus in this system 10 volts is required.    Lift Equation   Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.  The lift equation is where  is the lift in units of lbs or Newtons)  is air density in units of slugs per cubic feet or kilograms per cubic meter  surface area in units of square feet or square meters  is the coefficient of lift which is unitless  is velocity in units of feet per second or meters per second       We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.  Suppose the air density is 0.002378 slugs per cubic feet, surface area is 125 , , and velocity is 84.4 . Calculate the lift.   . Under these circumstances this airfoil can lift 1650 lbs.  If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.   . If nothing else is changed (like velocity), this airfoil can lift (hold in the air) lbs less.     Ideal Gas Law   The ideal gas law is a relationship between the volume, pressure, temperature, and number of molecules of an ideal gas. The relationship is where  is the pressure in units of atmospheres (atm) or Pascals (Pa)  is the volume in units of cubic feet or cubic meters  is the number of moles (number of molecules, see a chemistry text for details)  is a constant specific to each gas (e.g., oxygen and nitrogen have different ones) in units that match the other values  is the temperature in degrees Rankine or Kelvin (these are shifted versions of Fahrenheit and Celsius).   When the number of molecules remains fixed, such as in a closed container, this law can be used to produce the equation where  , , and are the initial pressure, volume, and temperature, and  , , and are the pressure, volume, and temperature at another time.   Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant which is looked up in reference books.  For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.     Suppose the initial conditions are , , and . Also and . Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding. .  If instead , then we have the following.        Calculating Results Requiring Solving  The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.  It does not matter if the value we desire is by itself, we can solve using arithmetic.   Recall the model for lift . Suppose we know the weight of the aircraft ( lbs), density of air ( ), wing surface area ( ), and velocity ( ). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.    The desired value from the model may be in a denominator. We can solve for this using multiplication and division.   Recall from that under simplifying assumptions Suppose we know the initial conditions ( atm, , F) and also atm and . What must the new temperature ( ) be? This is a science model with measurements, so we will use significant digits rounding.   Note we use significant digits for rounding because this is a science model.   The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.   Solve the equation for . Note, this model is explained in .     Solve the lift equation for .   Notice that the steps are the same algebra as if there were numbers. Also we could divide by and we are not concerned with the square as part of solving for .   Solve the lift equation for .    Process Overview  Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.  Our first task is to read the problem to understand it.  Read the problem description a few times.  If you can paraphrase it, you understand it enough.  Drawing a picture and labeling parts may help.   Identify what we are asked to do.  Identify the information we are given. Note distinctions like measurements and rates.  Identify any units. These often help us set up a model.  Write everything! We do not model in our heads.   Next we write the mathematical model (equation or function).  Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).  Do not insert any numbers yet.  Do not do any calculations yet.   Now we will have a model that matches our situation and possibly some numbers to insert.  Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).  Solve for the desired value. Note it may help to do some calculations with the numbers first.  State your answer and use units appropriately.   Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).    You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.   UHaul ad with pricing   Ad containing an image of the truck, truck size information, and pricing information. $39.95 plus $0.79 per mile.      We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).  We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.  Our model is where is the total cost and is the number of miles.  We know the total cost, which will leaves in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in  . The charge is for 52 miles.     Using math modeling for rental truck                    "
 },
 {
   "id": "model-ohms-law",
@@ -1351,24 +1351,6 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-models-6-13",
-  "level": "2",
-  "url": "section-models.html#section-models-6-13",
-  "type": "Exercise",
-  "number": "1.3.4.13",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-models-6-14",
-  "level": "2",
-  "url": "section-models.html#section-models-6-14",
-  "type": "Exercise",
-  "number": "1.3.4.14",
-  "title": "",
-  "body": ""
-},
-{
   "id": "section-activity-literal-formula",
   "level": "1",
   "url": "section-activity-literal-formula.html",
@@ -1402,7 +1384,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Percents",
-  "body": " Percents   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.  We will learn how to calculate a percent ( , ), how to convert between percents and the numbers (also , ), how to describe growth in terms of percents ( , ), and how to recognize what a percent does and cannot tell us ( , ).    Calculating Percents   Percent  A percent is a ratio of part of something to the whole of that thing that is written as parts per hundred.    Calculate a Percent   In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as . This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.  Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.     Generally, we calculate a percent by    In the class there are 34 students. Of them 13 are male. The percent is calculated as   Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.   In the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.  Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.   In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?  We use the same setup as before, but we do not know the part yet.  Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.  We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.     Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.   In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?  Again we use the same setup, but we do not yet know the whole.    How to Use an Example: Percents  Consider the following question.  If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?  Because we see 2% we recognize this as a percent problem. Without more information we can begin writing. In the first step is writing the definition of percent. In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case . Thus the next step is In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the entire book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable. Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills. Thus we know the entire book has 900 pages.    In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.   This video covers the topics above.     Percent Increase\/Decrease  A common use of percents is to indicate how much something has increased (or decreased) from one time to the next. In these cases the part is the amount changed and the whole is the original amount.   In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.  This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22. .    We say that the class size had a percent increase of 55%. Note this says the increase was 55% of the previous whole .  We can think of this in another way.    In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?  We calculate the percentage the fall class size is with respect to the spring class size. .  Because the fall class size (in the role of part ) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.  Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.       What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.  Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. . Thus the percent decrease is .  As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is . Because the new enrollment is 49% of the previous enrollment the decrease is 100%-49%=51%.   Two bars labeled with both amount and percents.  A long bar labeled 78 is above a shorter bar labeled 38. Their left edges are aligned. The bottom\/shorter bar is labeled 49%. The length from the end of the short bar to the (right) end of the longer bar is labeled 51%.    For percent increase problems it may seem fastest to calculate new\/old-100% whereas for percent decrease problems it may seem most effective to calculate (new-old)\/old. The methods perform the same calculation, so you may choose the one with which you make the correct calculation the most frequently.   The following example starts with the percent increase information, and determines the original amount.   This year's sales increased 3% over last year's sales. If total sales this year were $576,211, how much were last year's sales?  We can use the usual part\/whole definition. It is important to place our information in the correct locations. We are given a percent increase, so we will want to calculate the percent. This is . The amount we are given (this year) is the part; we want to calculate the whole.   If we want to know what amount constituted the 3% increase of the previous year, we can now calculate that as the difference. $576,211 $559,428.16=$16,782.84. We can confirm it is 3% by dividing or 3% when rounded. Notice we needed to compare to the previous year's amount which was not given.   This video covers percent increase topics.     Limitations  We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.   Which of the following do you suppose represents a greater reduction in students?     Percent reduction  Total  18%  495  1.85%  54  60%  5         Percent reduction  Total  Number reduced  18%  495  90  1.85%  54  1  60%  5  3   The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.  Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?    While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.   contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.  When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.    Declared Race in Alaska     Race  Percent  Alaska Native\/Native American  21.9%  Native Hawaiian\/Pacific Islander  2.5%  Asian  8.4%  Black  40.8%  White  70.4%  Other  5.4%       Questions about the definition, terminology, and notation.       Use percentages in various settings.                Percents in Applications   Use percents to answer these questions in various contexts.           Check your understanding of percents on these quantitative literacy questions.           "
+  "body": " Percents   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.  We will learn how to calculate a percent ( , ), how to convert between percents and the numbers (also , ), how to describe growth in terms of percents ( , ), and how to recognize what a percent does and cannot tell us ( , ).    Calculating Percents   Percent  A percent is a ratio of part of something to the whole of that thing that is written as parts per hundred.    Calculate a Percent   In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as . This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.  Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.     Generally, we calculate a percent by    In the class there are 34 students. Of them 13 are male. The percent is calculated as   Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.   In the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.  Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.   In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?  We use the same setup as before, but we do not know the part yet.  Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.  We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.     Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.   In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?  Again we use the same setup, but we do not yet know the whole.    How to Use an Example: Percents  Consider the following question.  If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?  Because we see 2% we recognize this as a percent problem. Without more information we can begin writing. In the first step is writing the definition of percent. In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case . Thus the next step is In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the entire book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable. Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills. Thus we know the entire book has 900 pages.    In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.   This video covers the topics above.     Percent Increase\/Decrease  A common use of percents is to indicate how much something has increased (or decreased) from one time to the next. In these cases the part is the amount changed and the whole is the original amount.   In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.  This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22. .    We say that the class size had a percent increase of 55%. Note this says the increase was 55% of the previous whole .  We can think of this in another way.    In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?  We calculate the percentage the fall class size is with respect to the spring class size. .  Because the fall class size (in the role of part ) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.  Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.       What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.  Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. . Thus the percent decrease is .  As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is . Because the new enrollment is 49% of the previous enrollment the decrease is 100%-49%=51%.   Two bars labeled with both amount and percents.  A long bar labeled 78 is above a shorter bar labeled 38. Their left edges are aligned. The bottom\/shorter bar is labeled 49%. The length from the end of the short bar to the (right) end of the longer bar is labeled 51%.    For percent increase problems it may seem fastest to calculate new\/old-100% whereas for percent decrease problems it may seem most effective to calculate (new-old)\/old. The methods perform the same calculation, so you may choose the one with which you make the correct calculation the most frequently.   The following example starts with the percent increase information, and determines the original amount.   This year's sales increased 3% over last year's sales. If total sales this year were $576,211, how much were last year's sales?  We can use the usual part\/whole definition. It is important to place our information in the correct locations. We are given a percent increase, so we will want to calculate the percent. This is . The amount we are given (this year) is the part; we want to calculate the whole.   If we want to know what amount constituted the 3% increase of the previous year, we can now calculate that as the difference. $576,211 $559,428.16=$16,782.84. We can confirm it is 3% by dividing or 3% when rounded. Notice we needed to compare to the previous year's amount which was not given.   This video covers percent increase topics.     Limitations  We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.   Which of the following do you suppose represents a greater reduction in students?     Percent reduction  Total  18%  495  1.85%  54  60%  5         Percent reduction  Total  Number reduced  18%  495  90  1.85%  54  1  60%  5  3   The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.  Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?    While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.   contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.  When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.    Declared Race in Alaska     Race  Percent  Alaska Native\/Native American  21.9%  Native Hawaiian\/Pacific Islander  2.5%  Asian  8.4%  Black  40.8%  White  70.4%  Other  5.4%       Questions about the definition, terminology, and notation.       Use percentages in various settings.                Percents in Applications   Use percents to answer these questions in various contexts.           Check your understanding of percents on these quantitative literacy questions.            "
 },
 {
   "id": "definition-percent",
@@ -1806,6 +1788,15 @@ var ptx_lunr_docs = [
   "url": "section-percent.html#section-percent-6-4-7",
   "type": "Exercise",
   "number": "2.1.4.26",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-percent-6-4-8",
+  "level": "2",
+  "url": "section-percent.html#section-percent-6-4-8",
+  "type": "Exercise",
+  "number": "2.1.4.27",
   "title": "",
   "body": ""
 },
@@ -2284,7 +2275,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Proportions",
-  "body": " Proportions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    In some circumstances a ratio is fixed. By fixed ratio we mean that no matter which data points we select, we obtain a ratio with equal value. For example when we scale a recipe the ratio of flour to water must remain the same if we make one recipe or double it. These circumstances are called proportions . An example of a non-fixed ratio isa bobble head toy. The head has a different scale (ratio of toy head size to real head size) than the body does.  This section presents a variety of problems in which these arise and, indirectly, reviews the algebra needed to solve them.  Fixed ratios make sense in examples like conversion of units. For example 1 gallon is always 4 quarts. In contrast rates often change: your average speed may be 25 mph, but you must have driven slower and faster during that drive. For the ratios that do not change we can write equations and solve for properties.    Proportion Examples  Because a proportion means a ratio is fixed, we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.   The first example shows a straight forward proportion with the simplest solving method. This method uses the same algebra steps as solving a percent problem.   Cheesecake Groceries: Double  A particular cheesecake recipe calls for g of eggs and g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?  This means everything will be in ratio of 2 (needed)\/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2\/1. Thus Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable). Because scales are accurate to a gram, we do not need to round.  We can perform the same calculation for the cream cheese.  In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will result in the food not turning out right.   This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.   Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for g of flour, how much flour does he need for the 6 dozen cookies?  First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is . Thus to determine the amount of flour needed we set up the proportion   The following example shows methods for handling proportions when the desired quantity (variable) ends up in the denominator.   Scale Model  A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle. We can express this as a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If we want to know how large a part of the shuttle is and we know on the model it is 1.72 inches we can set up the proportion .  Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write   The following example shows an alternate way to solve for the desired quantity when it is in the denominator.   Proportion: Solving  According to the airplane flight manual a Diamond DA-20 cruises at the rate of .  How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).  The proportion is       Multiple Proportions  When we experience math in the wild, problems do not come labeled with solving methods. We must recognize the math and apply our knowledge appropriately. The next example illustrates identifying ratios (proportions) more than once when answering a question.   Suppose a Diamond DA-20 climbs at the rate of and is traveling across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.  Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. .  Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from . .  Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance. . Now we need to convert this result back to nautical miles. This is a unit conversion problem again. .    A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.  The ingredients must remain in the ratio . We can select either ingredient and see how much the ratio tells us we need of the other ingredient.  Because we do not yet know which ingredient is limiting we will suppose we use all 465 g of flour. Then we can set up the proportion Notice that this is more buttermilk than we have. That means the buttermilk is the limiting ingredient. We will be able to use all of the buttermilk, but only some of the flour. To determine how much we setup the proportion but this time solve for flour.  We will use all 918 g of buttermilk. Then we can set up the proportion Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. Note we have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making times as much.    There is an alternate way to determine which ingredient limits our scaling up. We know the recipe calls for a buttermilk to flour ratio of . We can calculate the ratio of the ingredients we have on hand. . This is less than the required ratio, which means the numerator is too small. Thus we have too little buttermilk. From here we can continue to calculate the usable amount of flour as in the previous solution.      Similar polygons   This section presents a geometric fact which is expressed as proportions. This geometry can be used to solve for distances or lengths in some circumstances. First we define and illustrate the geometric fact.    Explaining Similar Triangles   Similar Triangles  Two triangles are similar if and only if corresponding angles have the same measure.   Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.    Two triangles with matching angles and different side lengths.   The triangle with vertices A, B, C has angle measure 64 at A, angle measure 80 at B, and angle measure 36 at C. Side AB has length 3.26; side BC has length 4.86, and side CA has length 5.34.  The triangle with vertices D, E, F has angle measure 64 at D, angle measure 80 at E, and angle measure 36 at F. Side DE has length 2.51; side EF has length 3.73, and side FD has length 4.1.    The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result of being similar the following ratios of sides are the same You can confirm this by dividing the lengths .   From a single example we might think this was just a special case. To convince yourself use the following interactive example.   Similar Triangles      Calculating Using Similar Triangles  We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as .    Two right triangles. Measurements are in the question.   Suppose triangle ABC has angles with the lengths of the sides opposite them respectively. If triangle DEF also has angles it is similar. Suppose the length of the side opposite the angle at point F is .  First, we identify the corresponding sides. and are opposite angles so they are corresponding. and are opposite angles so they are corresponding. Finally, and are opposite angles so they are corresponding. This means  Because we know the ratio , we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving. We can calculate the length of the third side in the same way.       Similarity in Applications  Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.    Stick figure person standing near a light pole. Measurements are in the question.   A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.  Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in .  Because all the angles in these triangles are the same, the triangles are similar. We can use the proportionality of corresponding side lengths to calculate the height of the light. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. The proportion of corresponding sides is If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).     Similarity Beyond Triangles  Shapes other than triangles can be similar. For example there are similar rectangles and similar pentagons. To be similar they must have the same number of sides, corresponding angles must be the same, and corresponding sides must be in the same ratio. Note that just having the same angles is insufficient: any two rectangles have all the same angles (right angles) but not every pair is similar.   Similar Polygons  One way to define similar polygons that avoids the trap illustrated by rectangles is to break the shape down into triangles (e.g., a rectangle can be split into two triangles). Then we require that every such triangle has the same angles. Note how we break a shape down into triangles is not unique. Take two, non-similar rectangles and identify triangles that don't match.   One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1\/32 scale. This means that one inch on the model is 32 inches on the actual object.      Contextless Proportions   Solve each of these proportions.        Proportions in Context   Identify a proportion in each application. Set it up, and solve for the requested value(s).               Similar Triangles   Use the property of side ratios for similar triangles to calculate the values requested.         Similar Triangles in Context   Identify similar triangles in each application, then use the property of side ratios to calculate the requested value(s).         Quantitative Literacy   Proportions are needed to answer these more involved questions.       "
+  "body": " Proportions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    In some circumstances a ratio is fixed. By fixed ratio we mean that no matter which data points we select, we obtain a ratio with equal value. For example when we scale a recipe the ratio of flour to water must remain the same if we make one recipe or double it. These circumstances are called proportions . An example of a non-fixed ratio isa bobble head toy. The head has a different scale (ratio of toy head size to real head size) than the body does.  This section presents a variety of problems in which these arise and, indirectly, reviews the algebra needed to solve them.  Fixed ratios make sense in examples like conversion of units. For example 1 gallon is always 4 quarts. In contrast rates often change: your average speed may be 25 mph, but you must have driven slower and faster during that drive. For the ratios that do not change we can write equations and solve for properties.    Proportion Examples  Because a proportion means a ratio is fixed, we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.   The first example shows a straight forward proportion with the simplest solving method. This method uses the same algebra steps as solving a percent problem.   Cheesecake Groceries: Double  A particular cheesecake recipe calls for g of eggs and g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?  This means everything will be in ratio of 2 (needed)\/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2\/1. Thus Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable). Because scales are accurate to a gram, we do not need to round.  We can perform the same calculation for the cream cheese.  In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will result in the food not turning out right.   This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.   Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for g of flour, how much flour does he need for the 6 dozen cookies?  First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is . Thus to determine the amount of flour needed we set up the proportion   The following example shows methods for handling proportions when the desired quantity (variable) ends up in the denominator.   Scale Model  A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle. We can express this as a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If we want to know how large a part of the shuttle is and we know on the model it is 1.72 inches we can set up the proportion .  Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write   The following example shows an alternate way to solve for the desired quantity when it is in the denominator.   Proportion: Solving  According to the airplane flight manual a Diamond DA-20 cruises at the rate of .  How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).  The proportion is       Multiple Proportions  When we experience math in the wild, problems do not come labeled with solving methods. We must recognize the math and apply our knowledge appropriately. The next example illustrates identifying ratios (proportions) more than once when answering a question.   Suppose a Diamond DA-20 climbs at the rate of and is traveling across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.  Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. .  Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from . .  Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance. . Now we need to convert this result back to nautical miles. This is a unit conversion problem again. .    A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.  The ingredients must remain in the ratio . We can select either ingredient and see how much the ratio tells us we need of the other ingredient.  Because we do not yet know which ingredient is limiting we will suppose we use all 465 g of flour. Then we can set up the proportion Notice that this is more buttermilk than we have. That means the buttermilk is the limiting ingredient. We will be able to use all of the buttermilk, but only some of the flour. To determine how much we setup the proportion but this time solve for flour.  We will use all 918 g of buttermilk. Then we can set up the proportion Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. Note we have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making times as much.    There is an alternate way to determine which ingredient limits our scaling up. We know the recipe calls for a buttermilk to flour ratio of . We can calculate the ratio of the ingredients we have on hand. . This is less than the required ratio, which means the numerator is too small. Thus we have too little buttermilk. From here we can continue to calculate the usable amount of flour as in the previous solution.      Similar polygons   This section presents a geometric fact which is expressed as proportions. This geometry can be used to solve for distances or lengths in some circumstances. First we define and illustrate the geometric fact.    Explaining Similar Triangles   Similar Triangles  Two triangles are similar if and only if corresponding angles have the same measure.   Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.    Two triangles with matching angles and different side lengths.   The triangle with vertices A, B, C has angle measure 64 at A, angle measure 80 at B, and angle measure 36 at C. Side AB has length 3.26; side BC has length 4.86, and side CA has length 5.34.  The triangle with vertices D, E, F has angle measure 64 at D, angle measure 80 at E, and angle measure 36 at F. Side DE has length 2.51; side EF has length 3.73, and side FD has length 4.1.    The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result of being similar the following ratios of sides are the same You can confirm this by dividing the lengths .   From a single example we might think this was just a special case. To convince yourself use the following interactive example.   Similar Triangles      Calculating Using Similar Triangles  We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as .    Two right triangles. Measurements are in the question.   Suppose triangle ABC has angles with the lengths of the sides opposite them respectively. If triangle DEF also has angles it is similar. Suppose the length of the side opposite the angle at point F is .  First, we identify the corresponding sides. and are opposite angles so they are corresponding. and are opposite angles so they are corresponding. Finally, and are opposite angles so they are corresponding. This means  Because we know the ratio , we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving. We can calculate the length of the third side in the same way.       Similarity in Applications  Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.    Stick figure person standing near a light pole. Measurements are in the question.   A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.  Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in .  Because all the angles in these triangles are the same, the triangles are similar. We can use the proportionality of corresponding side lengths to calculate the height of the light. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. The proportion of corresponding sides is If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).     Similarity Beyond Triangles  Shapes other than triangles can be similar. For example there are similar rectangles and similar pentagons. To be similar they must have the same number of sides, corresponding angles must be the same, and corresponding sides must be in the same ratio. Note that just having the same angles is insufficient: any two rectangles have all the same angles (right angles) but not every pair is similar.   Similar Polygons  One way to define similar polygons that avoids the trap illustrated by rectangles is to break the shape down into triangles (e.g., a rectangle can be split into two triangles). Then we require that every such triangle has the same angles. Note how we break a shape down into triangles is not unique. Take two, non-similar rectangles and identify triangles that don't match.   One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1\/32 scale. This means that one inch on the model is 32 inches on the actual object.      Contextless Proportions   Solve each of these proportions.        Proportions in Context   Identify a proportion in each application. Set it up, and solve for the requested value(s).               Similar Triangles   Use the property of side ratios for similar triangles to calculate the values requested.        Similar Triangles in Context   Identify similar triangles in each application, then use the property of side ratios to calculate the requested value(s).         Quantitative Literacy   Proportions are needed to answer these more involved questions.       "
 },
 {
   "id": "section-proportion-2-2",
@@ -2575,20 +2566,11 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-proportion-6-3-6",
-  "level": "2",
-  "url": "section-proportion.html#section-proportion-6-3-6",
-  "type": "Exercise",
-  "number": "2.4.4.17",
-  "title": "",
-  "body": ""
-},
-{
   "id": "section-proportion-6-4-3",
   "level": "2",
   "url": "section-proportion.html#section-proportion-6-4-3",
   "type": "Exercise",
-  "number": "2.4.4.18",
+  "number": "2.4.4.17",
   "title": "",
   "body": ""
 },
@@ -2597,7 +2579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-proportion.html#section-proportion-6-4-4",
   "type": "Exercise",
-  "number": "2.4.4.19",
+  "number": "2.4.4.18",
   "title": "",
   "body": ""
 },
@@ -2606,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-proportion.html#section-proportion-6-4-5",
   "type": "Exercise",
-  "number": "2.4.4.20",
+  "number": "2.4.4.19",
   "title": "",
   "body": ""
 },
@@ -2615,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-proportion.html#section-proportion-6-5-3",
   "type": "Exercise",
-  "number": "2.4.4.21",
+  "number": "2.4.4.20",
   "title": "",
   "body": ""
 },
@@ -2624,7 +2606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-proportion.html#section-proportion-6-5-4",
   "type": "Exercise",
-  "number": "2.4.4.22",
+  "number": "2.4.4.21",
   "title": "",
   "body": ""
 },
@@ -3040,7 +3022,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Linear Expressions",
-  "body": " Linear Expressions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented models in general. This section presents linear models. First, we look at some examples and learn how the pieces of a linear model work. Next, we learn to write linear models given a description of a problem. After that we practice solving for different parts of a linear equation. will introduce a more in depth look at identifying linear models.    Linear Models  This section presents examples of linear models and provides an explanation for the two parts of a linear model.  A linear model (equation) can be written in the following, equivalent forms.    The second form can be solved for y which will make it look like the first form. The models in this section will be in the first form which you may know as slope intercept. The is commonly described as the slope which is a measure of how steep the line is. In these models we will generalize slope to a rate. The is commonly called the intercept which indicates a shift of the line up or down. This shift will have a meaning in each application.   Model of Temperature Change with Altitude  As a result of atmospheric physics temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as   is the expected temperature at the specified altitude.  is the temperature at ground level.  is the specified altitude in number of feet above ground level.  is the rate of temperature decrease.  All temperatures are in Fahrenheit.  Before we can use this model we need to know the parameter . A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work.  In contrast the ratio is a constant (not a parameter), because it is a result of atmospheric physics that is not dependent on the location for this simplified model.  Temperature ( ) and altitude ( ) are variables which implies that the model shows a relationship between these two properties.  The model subtracting from the starting temperature results in a decrease of temperature from . This implies that temperature decreases with altitude.  Every linear model (equation) has a rate. In this case .  Every linear model has a shift. In this case .    If the temperature at ground level is 43 what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?  Because fractions of a degree are not useful in making decisions like what to wear, we will round to units.  Note . We need to calculate for .  Notice that we now know that it will be below freezing just above 3000 ft.    Model of Time to Altitude  A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate.   is the altitude after minutes.  is the starting altitude (likely ground level) in feet mean sea level (MSL).  is the rate of climb in feet per minute.  is the time since the climb began in minutes.   Before we can use this model we need to know the parameters and . A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. varies by airport, because they are at different altitudes. The rate must be obtained for each plane and is often available in the aircraft's Pilot's Operating Handbook (POH).  Final altitude ( ) and time ( ) are the variables which implies that the model shows a relationship between time climbing and how high the plane is.  In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).  Every linear model (equation) has a rate (the slope in the equation). In this case . Every linear model has a shift (the in the equation), which may be zero. In this case . is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.    If a plane begins at 160 ft MSL and is climbing at 700 ft\/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?  These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for is to round down: this will give us a lower altitude. If that lower altitude is safe, then altitude 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude climbing at 700 ft\/min, then if we climb at 720 ft\/min we will reach that safe altitude a little sooner.  Note The expected altitudes are  Based on these calculations the plane will climb above 4500 ft MSL in between 5 and 10 minutes (closer to 5).    Model of Fuel Remaining Calculation  When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model   is the amount of fuel remaining after minutes.  is the amount of fuel at the beginning.  is the rate (volume per time) at which fuel is being consumed.  is the time the vehicle has been operated.  Fuel amounts will be measured in units of volume like gallons or liters. Time will be measured in minutes or hours. The rate is then in units such as gallons\/hour or liters\/min.  Before we can use this model we need to know the parameters and . These parameters are not variables (they remains the same the whole time the model is in use), rather they are values (numbers) that we obtain from the circumstances and write into the model (equation) before we do any work.  The initial fuel is obtained by checking the fuel tanks or fuel gauges. The rate is often is not shown during operation (fuel gauges show how much is remaining rather than how fast it is used). The rate can sometimes be obtained from vehicle documentation.  Final fuel ( ) and time ( ) are the variables which implies that the model shows a relationship between time flown and fuel available (left in the tanks).  Because fuel decreases the term is subtracted decreasing the amount from .  Every linear model (equation) has a rate. In this case (or similar units).  Every linear model has a shift. In this case . We can think of this shift in terms of the needle on the gas gauge moving up to represent the amount of fuel present.     If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?  A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.    The model is . Thus    Use this Checkpoint to practice using a linear model.     Building Linear Models  The previous section presented linear models, and illustrated using the models provided. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.  A linear model has a starting point (shift, ) and rate (ratio, ). We need to identify these and then write the linear model with these values. We should also label units and explain any parameters.   We have used both and to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.    Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.  We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars\/foot) suggest that we can multiply to calculate the cost. .  Notice this multiplication is also the same as using a ratio (proportion). We could setup When we solve this we end up with the same multiplication .  Next we must add the shipping charge. Thus the final cost is . Note there is no rounding because all numbers are exact and no fractions of a cent occurred.  Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be . Then we must add the shipping charge. Thus the final cost is .  We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as .  This equation has a ratio ($0.93 1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.   When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.   At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). We will produce a model for pressure at altitude.  As in the previous example, we will start by calculating some specific pressures (experiment). If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is  If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . Written as one calculation this is  Notice we could do this same calculation for any altitude. So in general we can write  is the pressure at the specified altitude. is the pressure at ground level. is the altitude above ground level. This is a linear equation with a ratio of (-1\/1000) which is the drop in pressure with altitude, and a shift of , which is the pressure on the ground.    We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Every 9 degrees Fahrenheit is only 5 degrees Celsius, so to convert between them, we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32 and Celsius starts at 0 . Notice we have a ratio and a shift, so this already looks like a linear model.  To begin with we will convert 52 F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).  The first step is to determine how many degrees above freezing. Because 32 F is the freezing temperature of water, 52 F is above freezing.  The next step is to scale the degrees. The conversion ratio is . Converting the 20 above freezing is now a unit conversion. The units suggest we can multiply . Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11 C above the freezing point of water in Celsius.  Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0 , we have C.  If we write all of that as one step we obtain .  Notice we could do this with any temperature. So if we call the temperature to convert we have . This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32 is the freezing point of water as opposed to which has no useful meaning.   The temperature conversion example illustrates an idea about models. We describe a linear model as having a ratio and a (that is one) shift. However, in the temperature conversion example there is a shift a ratio and another shift, or two shifts. We showed these can be combined as one shift. That is always true. However, sometimes the version with multiple shifts is easier to understand. This will be true when we look at graphs of quadratics and exponentials (other forms of models).    Solving Linear Equations  The first section demonstrated using linear models to calculate values by plugging in the inputs. However, sometimes we know the result and want to calculate the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.  Before reading farther solve the equation . What steps did you use? Why do they work? is an example of solving another linear equation.   Solve .  We added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8). These steps isolate the variable for which we are solving.    Some linear equations need one more technique. What would you need to solve ? Below is an example of solving a similar linear equation.   Solve .  Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).    Another linear equation is . How would you solve it?  We can solve this the same as in but because there are factions as coefficients we will use an additional technique.   Solve  This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.   Now that we have practiced solving linear equations, we can use this skill with the models.   Given the temperature model in and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.  In this case the model is . We know and we want to calculate , the altitude in feet.    Given the time to altitude model in and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft\/min, how long will it take to complete the climb?  In this case the model is . We know ft, and we want to know the time . We round up as a safety margin: it is better to assume we need 8 minutes and be higher, than to hope we can recognize 0.03 of a minute (not quite 2 seconds).   Use this Checkpoint to try solving a linear model.     Identifying Linear Expressions  All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? shows examples of linear expressions and non-linear expressions.   Linear and Non-linear   Linear Non-linear       Some equations that may not appear to be linear can be solved using the same methods.   Solve .    In we will learn to identify linear models from data.     Linear expressions in applications   Answer these questions using the linear model described.           Solving in Models   Solve each equation for the variable indicated. Treat all other variables as parameters.            Contextless Linear Equations   Solve each of these equations.       Identifying Linear Models   For each of the following equations whether in context or not, determine whether it is linear.        "
+  "body": " Linear Expressions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented models in general. This section presents linear models. First, we look at some examples and learn how the pieces of a linear model work. Next, we learn to write linear models given a description of a problem. After that we practice solving for different parts of a linear equation. will introduce a more in depth look at identifying linear models.    Linear Models  This section presents examples of linear models and provides an explanation for the two parts of a linear model.  A linear model (equation) can be written in the following, equivalent forms.    The second form can be solved for y which will make it look like the first form. The models in this section will be in the first form which you may know as slope intercept. The is commonly described as the slope which is a measure of how steep the line is. In these models we will generalize slope to a rate. The is commonly called the intercept which indicates a shift of the line up or down. This shift will have a meaning in each application.   Temperature Change with Altitude  As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as where  is the expected temperature at the specified altitude.  is the temperature at ground level.  is the specified altitude in number of feet above ground level.  is the rate of temperature decrease.  All temperatures are in Fahrenheit.   Before we use this model, we need to figure out what each part is. is a parameter that we need to find before we use the model. A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work.  In contrast the ratio is a constant (not a parameter), because it is a result of atmospheric physics. This ratio is always in the equation, because it is not dependent on the location for this simplified model.  Temperature ( ) and altitude ( ) are variables which implies that the model shows a relationship between these two properties.  The model subtracting from the starting temperature results in a decrease of temperature from . This implies that temperature decreases with altitude.  Every linear model (equation) has a rate. In this case .  Every linear model has a shift. In this case .  Now that we have analyzed the model, we are prepared to use it.   If the temperature at ground level is 43 what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?  Because fractions of a degree are not useful in making decisions like what clothes to wear, we will round to units.  Note . We need to calculate for .  Notice that we now know that it will be below freezing just above 3000 ft.    An Equation for Time to Altitude  A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate.   is the altitude after minutes.  is the starting altitude (likely ground level) in feet mean sea level (MSL).  is the rate of climb in feet per minute.  is the time since the climb began in minutes.   Before we can use this equation, let's analyze it. We will need to know the parameters and . A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. varies by airport, because they are at different altitudes. The rate must be obtained for each plane and is often available in the aircraft's Pilot's Operating Handbook (POH).  Final altitude ( ) and time ( ) are the variables which implies that the model shows a relationship between time climbing and how high the plane is.  In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).  Every linear model (equation) has a rate (the slope in the equation). In this case . Every linear model has a shift (the in the equation), which may be zero. In this case . is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.  Now that we have analyzed this equation, we are prepared to use it.    If a plane begins at 160 ft MSL and is climbing at 700 ft\/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?  These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for is to round down: this will give us a lower altitude. If that lower altitude is safe, then altitude 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude climbing at 700 ft\/min, then if we climb at 720 ft\/min we will reach that safe altitude a little sooner.  Note The expected altitudes are  Based on these calculations the plane will climb above 4500 ft MSL in between 5 and 10 minutes (closer to 5).    Equation for Fuel Remaining  When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model   is the amount of fuel remaining after minutes.  is the amount of fuel at the beginning.  is the rate (volume per time) at which fuel is being consumed.  is the time the vehicle has been operated.  Fuel amounts will be measured in units of volume like gallons or liters. Time will be measured in minutes or hours. The rate is then in units such as gallons\/hour or liters\/min.  Before we use this model, let's analyze it. We will need to know the parameters and . These parameters are not variables (they remains the same the whole time the model is in use), rather they are values (numbers) that we obtain from the circumstances and write into the model (equation) before we do any work.  The initial fuel is obtained by checking the fuel tanks or fuel gauges. The rate is often is not shown during operation (fuel gauges show how much is remaining rather than how fast it is used). The rate can sometimes be obtained from vehicle documentation.  Final fuel ( ) and time ( ) are the variables which implies that the model shows a relationship between time flown and fuel available (left in the tanks).  Because fuel decreases the term is subtracted decreasing the amount from .  Every linear model (equation) has a rate. In this case (or similar units).  Every linear model has a shift. In this case . We can think of this shift in terms of the needle on the gas gauge moving up to represent the amount of fuel present.  Now that we have analyzed this equation, we are prepared to use it.     If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?  A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.    The model is . Thus    Use this Checkpoint to practice using a linear model.     Building Linear Models  The previous section presented linear models, and illustrated using the models provided. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.  A linear model has a starting point (shift, ) and rate (ratio, ). We need to identify these and then write the linear model with these values. We should also label units and explain any parameters.   We have used both and to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.    Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.  We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars\/foot) suggest that we can multiply to calculate the cost. .  Notice this multiplication is also the same as using a ratio (proportion). We could setup When we solve this we end up with the same multiplication .  Next we must add the shipping charge. Thus the final cost is . Note there is no rounding because all numbers are exact and no fractions of a cent occurred.  Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be . Then we must add the shipping charge. Thus the final cost is .  We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as .  This equation has a ratio ($0.93\/1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.   When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.   At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). We will produce a model for pressure at altitude.  As in the previous example, we will start by calculating some specific pressures (experiment). If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is  If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . Written as one calculation this is  Notice we could do this same calculation for any altitude. So in general we can write  is the pressure at the specified altitude. is the pressure at ground level. is the altitude above ground level. This is a linear equation with a ratio of (-1\/1000) which is the drop in pressure with altitude, and a shift of , which is the pressure on the ground.    We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Every 9 degrees Fahrenheit is only 5 degrees Celsius, so to convert between them, we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32 and Celsius starts at 0 . Notice we have a ratio and a shift, so this already looks like a linear model.  To begin with we will convert 52 F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).  The first step is to determine how many degrees above freezing. Because 32 F is the freezing temperature of water, 52 F is above freezing.  The next step is to scale the degrees. The conversion ratio is . Converting the 20 above freezing is now a unit conversion. The units suggest we can multiply . Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11 C above the freezing point of water in Celsius.  Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0 , we have C.  If we write all of that as one step we obtain .  Notice we could do this with any temperature. So if we call the temperature to convert we have . This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32 is the freezing point of water as opposed to which has no useful meaning.   The temperature conversion example illustrates an idea about models. We describe a linear model as having a ratio and a (that is one) shift. However, in the temperature conversion example there is a shift a ratio and another shift, or two shifts. We showed these can be combined as one shift. That is always true. However, sometimes the version with multiple shifts is easier to understand. This will be true when we look at graphs of quadratics and exponentials (other forms of models).    Solving Linear Equations  The first section demonstrated using linear models to calculate values by plugging in the inputs. However, sometimes we know the result and want to calculate the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.  Before reading farther solve the equation . What steps did you use? Why do they work? is an example of solving another linear equation.   Solve .  We added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8). These steps isolate the variable for which we are solving.    Some linear equations need one more technique. What would you need to solve ? Below is an example of solving a similar linear equation.   Solve .  Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).    Another linear equation is . How would you solve it?  We can solve this the same as in but because there are factions as coefficients we will use an additional technique.   Solve  This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.   Now that we have practiced solving linear equations, we can use this skill with the models.   Given the temperature model in and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.  In this case the model is . We know and we want to calculate , the altitude in feet.    Given the time to altitude model in and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft\/min, how long will it take to complete the climb?  In this case the model is . We know ft, and we want to know the time . We round up as a safety margin: it is better to assume we need 8 minutes and be higher, than to hope we can recognize 0.03 of a minute (not quite 2 seconds).   Use this Checkpoint to try solving a linear model.     Identifying Linear Expressions  All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? shows examples of linear expressions and non-linear expressions.   Linear and Non-linear   Linear Non-linear       Some equations that may not appear to be linear can be solved using the same methods.   Solve .    In we will learn to identify linear models from data.     Identify Shift and Ratio   For each model identify the shift (y-intercept) and ratio (slope).       Linear expressions in applications   Answer these questions using the linear model described.           Solving in Models   Solve each equation for the variable indicated. Treat all other variables as parameters.            Contextless Linear Equations   Solve each of these equations.       Identifying Linear Models   For each of the following equations whether in context or not, determine whether it is linear.        "
 },
 {
   "id": "subsection-present-linear-3",
@@ -3052,20 +3034,29 @@ var ptx_lunr_docs = [
   "body": "slope intercept shift "
 },
 {
+  "id": "model-temperature-altitude-fahrenheit",
+  "level": "2",
+  "url": "section-linear.html#model-temperature-altitude-fahrenheit",
+  "type": "Model",
+  "number": "3.1.1",
+  "title": "Temperature Change with Altitude.",
+  "body": " Temperature Change with Altitude  As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as where  is the expected temperature at the specified altitude.  is the temperature at ground level.  is the specified altitude in number of feet above ground level.  is the rate of temperature decrease.  All temperatures are in Fahrenheit.  "
+},
+{
   "id": "example-linear-model-read1",
   "level": "2",
   "url": "section-linear.html#example-linear-model-read1",
   "type": "Example",
-  "number": "3.1.1",
+  "number": "3.1.2",
   "title": "",
-  "body": " If the temperature at ground level is 43 what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?  Because fractions of a degree are not useful in making decisions like what to wear, we will round to units.  Note . We need to calculate for .  Notice that we now know that it will be below freezing just above 3000 ft.  "
+  "body": " If the temperature at ground level is 43 what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?  Because fractions of a degree are not useful in making decisions like what clothes to wear, we will round to units.  Note . We need to calculate for .  Notice that we now know that it will be below freezing just above 3000 ft.  "
 },
 {
   "id": "example-linear-model-read2",
   "level": "2",
   "url": "section-linear.html#example-linear-model-read2",
   "type": "Example",
-  "number": "3.1.2",
+  "number": "3.1.3",
   "title": "",
   "body": " If a plane begins at 160 ft MSL and is climbing at 700 ft\/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?  These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for is to round down: this will give us a lower altitude. If that lower altitude is safe, then altitude 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude climbing at 700 ft\/min, then if we climb at 720 ft\/min we will reach that safe altitude a little sooner.  Note The expected altitudes are  Based on these calculations the plane will climb above 4500 ft MSL in between 5 and 10 minutes (closer to 5).  "
 },
@@ -3074,16 +3065,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-linear-model-read3",
   "type": "Example",
-  "number": "3.1.3",
+  "number": "3.1.4",
   "title": "",
   "body": "  If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?  A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.    The model is . Thus   "
 },
 {
-  "id": "subsection-present-linear-11",
+  "id": "subsection-present-linear-18",
   "level": "2",
-  "url": "section-linear.html#subsection-present-linear-11",
+  "url": "section-linear.html#subsection-present-linear-18",
   "type": "Checkpoint",
-  "number": "3.1.4",
+  "number": "3.1.5",
   "title": "",
   "body": ""
 },
@@ -3092,16 +3083,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-linear-model-purchase",
   "type": "Example",
-  "number": "3.1.5",
+  "number": "3.1.6",
   "title": "",
-  "body": " Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.  We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars\/foot) suggest that we can multiply to calculate the cost. .  Notice this multiplication is also the same as using a ratio (proportion). We could setup When we solve this we end up with the same multiplication .  Next we must add the shipping charge. Thus the final cost is . Note there is no rounding because all numbers are exact and no fractions of a cent occurred.  Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be . Then we must add the shipping charge. Thus the final cost is .  We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as .  This equation has a ratio ($0.93 1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.  "
+  "body": " Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.  We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars\/foot) suggest that we can multiply to calculate the cost. .  Notice this multiplication is also the same as using a ratio (proportion). We could setup When we solve this we end up with the same multiplication .  Next we must add the shipping charge. Thus the final cost is . Note there is no rounding because all numbers are exact and no fractions of a cent occurred.  Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be . Then we must add the shipping charge. Thus the final cost is .  We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as .  This equation has a ratio ($0.93\/1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.  "
 },
 {
   "id": "example-linear-model-pressure-drop",
   "level": "2",
   "url": "section-linear.html#example-linear-model-pressure-drop",
   "type": "Example",
-  "number": "3.1.6",
+  "number": "3.1.7",
   "title": "",
   "body": " At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). We will produce a model for pressure at altitude.  As in the previous example, we will start by calculating some specific pressures (experiment). If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is  If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . Written as one calculation this is  Notice we could do this same calculation for any altitude. So in general we can write  is the pressure at the specified altitude. is the pressure at ground level. is the altitude above ground level. This is a linear equation with a ratio of (-1\/1000) which is the drop in pressure with altitude, and a shift of , which is the pressure on the ground.  "
 },
@@ -3110,7 +3101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-linear-model-temperature-conversion",
   "type": "Example",
-  "number": "3.1.7",
+  "number": "3.1.8",
   "title": "",
   "body": " We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Every 9 degrees Fahrenheit is only 5 degrees Celsius, so to convert between them, we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32 and Celsius starts at 0 . Notice we have a ratio and a shift, so this already looks like a linear model.  To begin with we will convert 52 F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).  The first step is to determine how many degrees above freezing. Because 32 F is the freezing temperature of water, 52 F is above freezing.  The next step is to scale the degrees. The conversion ratio is . Converting the 20 above freezing is now a unit conversion. The units suggest we can multiply . Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11 C above the freezing point of water in Celsius.  Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0 , we have C.  If we write all of that as one step we obtain .  Notice we could do this with any temperature. So if we call the temperature to convert we have . This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32 is the freezing point of water as opposed to which has no useful meaning.  "
 },
@@ -3119,7 +3110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-solve-linear-invert",
   "type": "Example",
-  "number": "3.1.8",
+  "number": "3.1.9",
   "title": "",
   "body": " Solve .  We added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8). These steps isolate the variable for which we are solving.  "
 },
@@ -3128,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#exercise-solve-linear-invert",
   "type": "Checkpoint",
-  "number": "3.1.9",
+  "number": "3.1.10",
   "title": "",
   "body": ""
 },
@@ -3137,7 +3128,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-solve-linear-combine",
   "type": "Example",
-  "number": "3.1.10",
+  "number": "3.1.11",
   "title": "",
   "body": " Solve .  Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).  "
 },
@@ -3146,7 +3137,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#exercise-solve-linear-combine",
   "type": "Checkpoint",
-  "number": "3.1.11",
+  "number": "3.1.12",
   "title": "",
   "body": ""
 },
@@ -3155,7 +3146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-solve-linear-clear",
   "type": "Example",
-  "number": "3.1.12",
+  "number": "3.1.13",
   "title": "",
   "body": " Solve  This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.  "
 },
@@ -3164,7 +3155,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-solve-temperature-drop",
   "type": "Example",
-  "number": "3.1.13",
+  "number": "3.1.14",
   "title": "",
   "body": " Given the temperature model in and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.  In this case the model is . We know and we want to calculate , the altitude in feet.  "
 },
@@ -3173,7 +3164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-solve-time-altitude",
   "type": "Example",
-  "number": "3.1.14",
+  "number": "3.1.15",
   "title": "",
   "body": " Given the time to altitude model in and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft\/min, how long will it take to complete the climb?  In this case the model is . We know ft, and we want to know the time . We round up as a safety margin: it is better to assume we need 8 minutes and be higher, than to hope we can recognize 0.03 of a minute (not quite 2 seconds).  "
 },
@@ -3182,7 +3173,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#subsection-solve-invert-16",
   "type": "Checkpoint",
-  "number": "3.1.15",
+  "number": "3.1.16",
   "title": "",
   "body": ""
 },
@@ -3191,7 +3182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#table-linear-appearance",
   "type": "Table",
-  "number": "3.1.16",
+  "number": "3.1.17",
   "title": "Linear and Non-linear",
   "body": " Linear and Non-linear   Linear Non-linear      "
 },
@@ -3200,7 +3191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#example-solve-linear-hidden",
   "type": "Example",
-  "number": "3.1.17",
+  "number": "3.1.18",
   "title": "",
   "body": " Solve .   "
 },
@@ -3223,47 +3214,11 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-linear-7-1-5",
-  "level": "2",
-  "url": "section-linear.html#section-linear-7-1-5",
-  "type": "Exercise",
-  "number": "3.1.5.3",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-linear-7-1-6",
-  "level": "2",
-  "url": "section-linear.html#section-linear-7-1-6",
-  "type": "Exercise",
-  "number": "3.1.5.4",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-linear-7-1-7",
-  "level": "2",
-  "url": "section-linear.html#section-linear-7-1-7",
-  "type": "Exercise",
-  "number": "3.1.5.5",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-linear-7-1-8",
-  "level": "2",
-  "url": "section-linear.html#section-linear-7-1-8",
-  "type": "Exercise",
-  "number": "3.1.5.6",
-  "title": "",
-  "body": ""
-},
-{
   "id": "section-linear-7-2-3",
   "level": "2",
   "url": "section-linear.html#section-linear-7-2-3",
   "type": "Exercise",
-  "number": "3.1.5.7",
+  "number": "3.1.5.3",
   "title": "",
   "body": ""
 },
@@ -3272,7 +3227,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#section-linear-7-2-4",
   "type": "Exercise",
-  "number": "3.1.5.8",
+  "number": "3.1.5.4",
   "title": "",
   "body": ""
 },
@@ -3281,7 +3236,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#section-linear-7-2-5",
   "type": "Exercise",
-  "number": "3.1.5.9",
+  "number": "3.1.5.5",
   "title": "",
   "body": ""
 },
@@ -3290,7 +3245,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#section-linear-7-2-6",
   "type": "Exercise",
-  "number": "3.1.5.10",
+  "number": "3.1.5.6",
   "title": "",
   "body": ""
 },
@@ -3299,7 +3254,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#section-linear-7-2-7",
   "type": "Exercise",
-  "number": "3.1.5.11",
+  "number": "3.1.5.7",
   "title": "",
   "body": ""
 },
@@ -3308,16 +3263,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#section-linear-7-2-8",
   "type": "Exercise",
-  "number": "3.1.5.12",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-linear-7-2-9",
-  "level": "2",
-  "url": "section-linear.html#section-linear-7-2-9",
-  "type": "Exercise",
-  "number": "3.1.5.13",
+  "number": "3.1.5.8",
   "title": "",
   "body": ""
 },
@@ -3326,7 +3272,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear.html#section-linear-7-3-3",
   "type": "Exercise",
-  "number": "3.1.5.14",
+  "number": "3.1.5.9",
   "title": "",
   "body": ""
 },
@@ -3334,6 +3280,51 @@ var ptx_lunr_docs = [
   "id": "section-linear-7-3-4",
   "level": "2",
   "url": "section-linear.html#section-linear-7-3-4",
+  "type": "Exercise",
+  "number": "3.1.5.10",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-linear-7-3-5",
+  "level": "2",
+  "url": "section-linear.html#section-linear-7-3-5",
+  "type": "Exercise",
+  "number": "3.1.5.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-linear-7-3-6",
+  "level": "2",
+  "url": "section-linear.html#section-linear-7-3-6",
+  "type": "Exercise",
+  "number": "3.1.5.12",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-linear-7-3-7",
+  "level": "2",
+  "url": "section-linear.html#section-linear-7-3-7",
+  "type": "Exercise",
+  "number": "3.1.5.13",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-linear-7-3-8",
+  "level": "2",
+  "url": "section-linear.html#section-linear-7-3-8",
+  "type": "Exercise",
+  "number": "3.1.5.14",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-linear-7-3-9",
+  "level": "2",
+  "url": "section-linear.html#section-linear-7-3-9",
   "type": "Exercise",
   "number": "3.1.5.15",
   "title": "",
@@ -3358,11 +3349,29 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "section-linear-7-4-5",
+  "id": "section-linear-7-5-3",
   "level": "2",
-  "url": "section-linear.html#section-linear-7-4-5",
+  "url": "section-linear.html#section-linear-7-5-3",
   "type": "Exercise",
   "number": "3.1.5.18",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-linear-7-5-4",
+  "level": "2",
+  "url": "section-linear.html#section-linear-7-5-4",
+  "type": "Exercise",
+  "number": "3.1.5.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-linear-7-5-5",
+  "level": "2",
+  "url": "section-linear.html#section-linear-7-5-5",
+  "type": "Exercise",
+  "number": "3.1.5.20",
   "title": "",
   "body": ""
 },
@@ -3373,7 +3382,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Representing Data",
-  "body": " Representing Data   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varying directly or indirectly (critical thinking)    We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphs of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates. More details about rates will be covered in .    Reading Tables of Data  This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.  Tables are useful if we have a limited number of entries, and the data can be organized by two traits. If there are too many entries, the table may be too large to efficiently use. The two traits become headers for the rows and columns. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.   Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS   Angle of Bank  Flap Setting 0 30 45 60  Up 48 52 57 68  Approach 43 46 51 61  Landing 40 43 48 57    We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity, stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.   What is the stall speed in a 30 bank angle with flaps up?  We can determine this by looking for the column labeled 30 and the row labeled Up . In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.    In what condition is the stall speed the highest?  If we read all three rows, the largest number we find is 68. That is in the Up row and 60 column. So the stall speed is highest in the steep, 60 turn with the flaps in the up position.  Note, there is no shortcut here for checking the entry in every row and column.     As the angle of bank increases (from 0 to 60 ) what happens to the stall speed?    If we look in the Up row, the stall speed changes from 48 to 52 to 57 to 68. The first thing we notice is that the stall speed increases.  If we repeat this in the Approach row, we again see the speeds are increasing. The same is true in the Landing row.  Thus we can say that stall speed increases as the angle of bank increases.  In later sections ( ) we will learn to be more specific about patterns when possible.     Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. This is called interpolation . Below we provide examples of interpolation for linear data. Linear data is described in and .   Interpolation in a Table  What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . Airspeed is reported only to units, so we must round to units. For stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.   When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.   What is the stall speed with 10 bank angle with flaps in the Up setting?  The nearest entries in the table are 0 and 30 . We want to measure how far 10 is from the left (0); we can calculate that as a percent of the distance from 0 to 30. We can use the percent to calculate the matching number between the table entries (48 and 52).  Percent is part\/whole which in this case is . We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.  We want the speed that is 1\/3 of the way from 48 to 52. Again we treat this as a percent problem. This result is how far above 48, so the speed is . Again we round up for safety.  Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.      Reading Graphs  This section illustrates how some data can be represented in graphs and how to read data from a graph, including some comparisons of graphs.  Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and reading the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.   presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles (nm) can it glide forward?  First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. We notice that no line is labeled 2400. We do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.  We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent ft.  Because we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.  We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent nm.  The glide distance for 2400 ft is therefore nm. We subtracted here because it is before 4.    Graph Representing Maximum Engine Out Glide   Graph of glide distance described in example above   The horizontal axis is labeled Glide Distance and ranges from 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).      When we look at any table, graph, or figure, we should ask ourselves why various choices were made in the construction of the table, graph, or figure. We may need to ask someone with related knowledge for explanations of those decisions.   Consider . The input we use is Height Above Ground (ft) . Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?  Consider that the inputs are heights . This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.  Why do the inputs begin at 0 and end at 12000?  They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.  They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.  Why are the inputs labeled every 2000 and the inputs every 2?  This is purely space available. If we put in more labels, the text for them would overlap.   Graphs can be from raw data which may appear random. We still read these graphs the same way.  For the following example we need to define a percentile . A percentile indicates a level such that, that percent of cases is less. For example if the 75th percentile is 88, means that 75% of the cases are less than 88. It is a way of indicating how much of a population is included at that level.   Expected Stature of Males from 2 to 20 Years   7 curves showing the expected height at a given age.   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.      The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at . What height in centimeters is the 50th percentile for 11 year old males?  Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. This is shown on the image below. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see for a reminder on how to estimate this).   7 curves showing the expected height at a given age with above process drawn on top   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.  A vertical line goes up from 11 years to the 50 percentile curve. From that point a horizontal line goes over to the vertical axis a little above 140 cm.    How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.  For 2 year olds it appears to range from 80 to 95 cm (about 3\/4 of the way up). This is a spread of cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of cm. Thus the spread increases over time. The ratio is . For the percent increase we calculate The percent increase is or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.   In addition to reading specific values from these graphs, we should always ask ourselves why the diagram was designed as it was.   When we look at the stature percentiles figure we should ask ourselves questions like the following.  Why is it for males only? The CDC provides separate data for females. On average females in the U.S. are shorter than males. Thus separate figures are needed. Note, to answer this we needed to see rest of the CDC data (cannot be read from the figure above).  Why does it begin at 2 years? The CDC provides separate data for 0-2 years. This is from the WHO rather than the CDC. An explanation is on the CDC website.  Why does the data end at 20 years? Notice that the percentile curves level off toward 20 years old. This simply represents that full, adult height has been reached. The curves should remain the same until age brings shrinking.    has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.  What are the temperature and dewpoint at the 700 millibar level?  We follow the 700 mb line over to the dewpoint (green, dashed) line then move straight down to the x-axis (temperature). This is a little less than halfway between -20 C and 0 (closer to 0 ). We estimate -7 C. For temperature we continue across the 700 mb line to the temperature (red, solid) line then move straight down to the x-axis. We notice it is a little closer to 0 than the dewpoint. We estimate the temperature is 5 C.    Graph of Temperature and Dewpoint   Partial radiosonde data showing temperature and dewpoint curves.   The horizontal axis is labeled Temperature and ranges from -100 to 20 degrees centigrade. The vertical axis is labeled pressure altitude and ranges from 1000 at the bottom to 0 at the top. There are two curves. One represents the temperature at that pressure and the other represents the dew point at that pressure.     Note some charts like are not meant to convey specific numbers but rather to show trends.   Notice that while the temperature (red, solid line) wiggles around, it trends down (to the left) as the pressure decreases (go up the graph). That is, it shows temperature generally decreasing as altitude increases. We expect this, because it is farther from the ground which heats the air. The increase above 300 millibars level is the result of other factors which you can research at .  Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.    Consider . The input we use is Pressure (millibars) . Why was the y-axis chosen for the inputs here?  The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.  Why do the y-axis labels decrease as they go up?  Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.  Why do the inputs begin at 1000?  Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.  Why are the output labels from -100 to 40?  These are based on commonly experienced temperatures. Temperatures lower than -100 C are not expected. Temperatures above 40 C do occur, but not in the location where this sounding was taken.  Use to convert 50 C to Fahrenheit to see why this temperature is uncommon in most locations.   The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet (fractional feet). Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This discrete data is often graphed differently. The next examples illustrate a way of presenting discrete data.   Increasing Income  When Vasya was hired in 2017, she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.  To represent this data we first need to calculate her salary for each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an iterative process. contains the results. A table is an effective means to represent discrete data like this.  We will represent her salary over time using the bar graph in . Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.  Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might you change the graph to make it easier to answer these questions?    Vasya's Salary   2017  $62,347.23   2018  $67,347.23   2019  $72,347.23   2020  $77,347.23   2021  $82,347.23   2022  $87,347.23   2023  $92,347.23   2024  $97,347.23      Vasya's Salary   A bar graph of the data above.      Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished.   Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the percent increase for each year's salary relative to the previous year's salary.   For these years is she keeping up with inflation?   Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.    What trend do you notice in the percent increase of salary? Why is this happening?   Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part is remaining fixed while the whole is increasing.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.     Vasya's Salary   A bar graph showing the annual raise as a percent increase and the annual inflation rate as a percent from 2017 to 2023     Inflation Rates by Year    2017  2.10%    2018  1.90%    2019  2.30%    2020  1.40%    2021  7.00%    2022  6.50%    2023  3.40%    2024  2.50%      Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.   In which years did Guido receive a raise?   The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.   In which years did Guido's salary appear to grow at least as much as inflation?   We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.    Salary vs Inflation   A bar graph showing for each year Guido's salary and his 2017 salary adjusted for inflation      Using Graphs to Analyze Models  Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.   Scale Model  Recall the scale model of a space shuttle in which is labeled as 1:144. We calculated that a model part which is 1.72 inches represents an actual part that is inches. In general where is the size on the model and is the size on the actual shuttle.  To represent this scale conversion as a graph we will generate a table like then we will use that to plot the graph.     Model  Full Size   1.0  144   1.5  216   2.0  288   2.5  360   3.0  432    We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in .  For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.    Graph of Scale   A graph showing the data points from the table above     Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.  Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.  This graph is a line. We knew it would be because is in the form of a line (as shown in ).   The next example is a shape we have not yet encountered in this text.   Ohm's Law  Recall Ohm's Law from . We will explore the relationship between current ( ) and resistance ( ).  To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current ( ). Because we are interested in the effect of resistance on current we will pick a fixed voltage: V. Thus our equation is .     Resistance  Current   1.0  12   4.0  3.0   8.0  1.5   12.0  1.0   16.0  0.75    We can plot these points and sketch a curve through them. This graph is in .  The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.  The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes . Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.     Graph of Ohms Law   A graph showing the data points from the Ohm's law table above    The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas. Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here. Draw a graph for the equation .    Graphing Lines  We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines when we have the equation, and presents analyzing linear models based on their graphs.  As described in a linear equation (model) has two parts: the shift and the ratio (slope, rate) . First, we address the role of the ratio in the graph.   Slope   The rate of change of a line (graph) is called its slope . The numerator is the change in y and the denominator is the change in x. Slope can be calculated as Rise and run are terms to help us remember the formula.    In we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have that is 144 is the change in y (real inches) and and 1 is the change in x (model inches).  Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using . The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.   Calculate Slope  The graph in is linear. We will calculate the slope twice.  First, we will use the points and . This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of feet above mean sea level.  We will use the points and . As expected this is the same slope, because on a line the rate of change (slope) is constant.   To write the equation for a line we need the shift, , as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. controls this shift. It is typically easiest to read this shift at , because in the linear form we have . The shift then is the coordinate at which is why it is often called the y-intercept.   Calculating Slope   The graph of a line through 3 points showing a relationship between altitude and pressure   The horizontal axis is labeled altitude in feet mean sea level and ranges from 0 to 10000. The vertical axis is labeled pressure in inches of mercury and ranges from 19 to 30.  Three points are shown are (2000,27.92), (4000,25.92) and (8000,21.92).      Calculate Shift   The graph in is linear. We will calculate the shift.   The shift can be read when . That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.  We will use to calculate the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up Thus the pressure should increase by 2.00 inHg giving us . Thus the point is and the shift is .  Combining this shift with the slope from the example above the model is   is the pressure at altitude .  29.92 is the initial pressure.  The rate is .  is the altitude above ground level.  If we replaced 29.92 with a parameter we could generalize the model to .        Identify Lines  Use the data provided to determine which of these represent lines.        Interpret Lines  Answer the questions based on the lines provided.                    Rates  Answer these questions about rates\/slopes of lines.             Write Linear Equations   Write an equation that matches the data provided.           Graphing   Graph each line.        "
+  "body": " Representing Data   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varying directly or indirectly (critical thinking)    We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphs of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates. More details about rates will be covered in .    Reading Tables of Data  This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.  Tables are useful if we have a limited number of entries, and the data can be organized by two traits. If there are too many entries, the table may be too large to efficiently use. The two traits become headers for the rows and columns. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.   Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS   Angle of Bank  Flap Setting 0 30 45 60  Up 48 52 57 68  Approach 43 46 51 61  Landing 40 43 48 57    We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity, stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.   What is the stall speed in a 30 bank angle with flaps up?  We can determine this by looking for the column labeled 30 and the row labeled Up . In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.    In what condition is the stall speed the highest?  If we read all three rows, the largest number we find is 68. That is in the Up row and 60 column. So the stall speed is highest in the steep, 60 turn with the flaps in the up position.  Note, there is no shortcut here for checking the entry in every row and column.     As the angle of bank increases (from 0 to 60 ) what happens to the stall speed?    If we look in the Up row, the stall speed changes from 48 to 52 to 57 to 68. The first thing we notice is that the stall speed increases.  If we repeat this in the Approach row, we again see the speeds are increasing. The same is true in the Landing row.  Thus we can say that stall speed increases as the angle of bank increases.  In later sections ( ) we will learn to be more specific about patterns when possible.     Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. This is called interpolation . Below we provide examples of interpolation for linear data. Linear data is described in and .   Interpolation in a Table  What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . Airspeed is reported only to units, so we must round to units. For stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.   When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.   What is the stall speed with 10 bank angle with flaps in the Up setting?  The nearest entries in the table are 0 and 30 . We want to measure how far 10 is from the left (0); we can calculate that as a percent of the distance from 0 to 30. We can use the percent to calculate the matching number between the table entries (48 and 52).  Percent is part\/whole which in this case is . We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.  We want the speed that is 1\/3 of the way from 48 to 52. Again we treat this as a percent problem. This result is how far above 48, so the speed is . Again we round up for safety.  Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.      Reading Graphs  This section illustrates how some data can be represented in graphs and how to read data from a graph, including some comparisons of graphs.  Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and reading the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.   presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles (nm) can it glide forward?  First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. We notice that no line is labeled 2400. We do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.  We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent ft.  Because we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.  We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent nm.  The glide distance for 2400 ft is therefore nm. We subtracted here because it is before 4.    Graph Representing Maximum Engine Out Glide   Graph of glide distance described in example above   The horizontal axis is labeled Glide Distance and ranges from 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).      When we look at any table, graph, or figure, we should ask ourselves why various choices were made in the construction of the table, graph, or figure. We may need to ask someone with related knowledge for explanations of those decisions.   Consider . The input we use is Height Above Ground (ft) . Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?  Consider that the inputs are heights . This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.  Why do the inputs begin at 0 and end at 12000?  They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.  They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.  Why are the inputs labeled every 2000 and the inputs every 2?  This is purely space available. If we put in more labels, the text for them would overlap.   Graphs can be from raw data which may appear random. We still read these graphs the same way.  For the following example we need to define a percentile . A percentile indicates a level such that, that percent of cases is less. For example if the 75th percentile is 88, means that 75% of the cases are less than 88. It is a way of indicating how much of a population is included at that level.   Expected Stature of Males from 2 to 20 Years   7 curves showing the expected height at a given age.   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.      The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at . What height in centimeters is the 50th percentile for 11 year old males?  Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. This is shown on the image below. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see for a reminder on how to estimate this).   7 curves showing the expected height at a given age with above process drawn on top   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.  A vertical line goes up from 11 years to the 50 percentile curve. From that point a horizontal line goes over to the vertical axis a little above 140 cm.    How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.  For 2 year olds it appears to range from 80 to 95 cm (about 3\/4 of the way up). This is a spread of cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of cm. Thus the spread increases over time. The ratio is . For the percent increase we calculate The percent increase is or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.   In addition to reading specific values from these graphs, we should always ask ourselves why the diagram was designed as it was.   When we look at the stature percentiles figure we should ask ourselves questions like the following.  Why is it for males only? The CDC provides separate data for females. On average females in the U.S. are shorter than males. Thus separate figures are needed. Note, to answer this we needed to see rest of the CDC data (cannot be read from the figure above).  Why does it begin at 2 years? The CDC provides separate data for 0-2 years. This is from the WHO rather than the CDC. An explanation is on the CDC website.  Why does the data end at 20 years? Notice that the percentile curves level off toward 20 years old. This simply represents that full, adult height has been reached. The curves should remain the same until age brings shrinking.    has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.  What are the temperature and dewpoint at the 700 millibar level?  We follow the 700 mb line over to the dewpoint (green, dashed) line then move straight down to the x-axis (temperature). This is a little less than halfway between -20 C and 0 (closer to 0 ). We estimate -7 C. For temperature we continue across the 700 mb line to the temperature (red, solid) line then move straight down to the x-axis. We notice it is a little closer to 0 than the dewpoint. We estimate the temperature is 5 C.    Graph of Temperature and Dewpoint   Partial radiosonde data showing temperature and dewpoint curves.   The horizontal axis is labeled Temperature and ranges from -100 to 20 degrees centigrade. The vertical axis is labeled pressure altitude and ranges from 1000 at the bottom to 0 at the top. There are two curves. One represents the temperature at that pressure and the other represents the dew point at that pressure.     Note some charts like are not meant to convey specific numbers but rather to show trends.   Notice that while the temperature (red, solid line) wiggles around, it trends down (to the left) as the pressure decreases (go up the graph). That is, it shows temperature generally decreasing as altitude increases. We expect this, because it is farther from the ground which heats the air. The increase above 300 millibars level is the result of other factors which you can research at .  Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.    Consider . The input we use is Pressure (millibars) . Why was the y-axis chosen for the inputs here?  The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.  Why do the y-axis labels decrease as they go up?  Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.  Why do the inputs begin at 1000?  Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.  Why are the output labels from -100 to 40?  These are based on commonly experienced temperatures. Temperatures lower than -100 C are not expected. Temperatures above 40 C do occur, but not in the location where this sounding was taken.  Use to convert 50 C to Fahrenheit to see why this temperature is uncommon in most locations.   The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet (fractional feet). Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This discrete data is often graphed differently. The next examples illustrate a way of presenting discrete data.   Increasing Income  When Vasya was hired in 2017, she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.  To represent this data we first need to calculate her salary for each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an iterative process. contains the results. A table is an effective means to represent discrete data like this.  We will represent her salary over time using the bar graph in . Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.  Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might you change the graph to make it easier to answer these questions?    Vasya's Salary   2017  $62,347.23   2018  $67,347.23   2019  $72,347.23   2020  $77,347.23   2021  $82,347.23   2022  $87,347.23   2023  $92,347.23   2024  $97,347.23      Vasya's Salary   A bar graph of the data above.      Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished.   Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the percent increase for each year's salary relative to the previous year's salary.   For these years is she keeping up with inflation?   Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.    What trend do you notice in the percent increase of salary? Why is this happening?   Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part is remaining fixed while the whole is increasing.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.     Vasya's Salary   A bar graph showing the annual raise as a percent increase and the annual inflation rate as a percent from 2017 to 2023     Inflation Rates by Year    2017  2.10%    2018  1.90%    2019  2.30%    2020  1.40%    2021  7.00%    2022  6.50%    2023  3.40%    2024  2.50%      Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.   In which years did Guido receive a raise?   The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.   In which years did Guido's salary appear to grow at least as much as inflation?   We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.    Salary vs Inflation   A bar graph showing for each year Guido's salary and his 2017 salary adjusted for inflation      Using Graphs to Analyze Models  Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.   Scale Model  Recall the scale model of a space shuttle in which is labeled as 1:144. We calculated that a model part which is 1.72 inches represents an actual part that is inches. In general where is the size on the model and is the size on the actual shuttle.  To represent this scale conversion as a graph we will generate a table like then we will use that to plot the graph.     Model  Full Size   1.0  144   1.5  216   2.0  288   2.5  360   3.0  432    We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in .  For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.    Graph of Scale   A graph showing the data points from the table above     Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.  Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.  This graph is a line. We knew it would be because is in the form of a line (as shown in ).   The next example is a shape we have not yet encountered in this text.   Ohm's Law  Recall Ohm's Law from . We will explore the relationship between current ( ) and resistance ( ).  To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current ( ). Because we are interested in the effect of resistance on current we will pick a fixed voltage: V. Thus our equation is .     Resistance  Current   1.0  12   4.0  3.0   8.0  1.5   12.0  1.0   16.0  0.75    We can plot these points and sketch a curve through them. This graph is in .  The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.  The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes . Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.     Graph of Ohms Law   A graph showing the data points from the Ohm's law table above    The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas. Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here. Draw a graph for the equation .    Graphing Lines  We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines when we have the equation, and presents analyzing linear models based on their graphs.  As described in a linear equation (model) has two parts: the shift and the ratio (slope, rate) . First, we address the role of the ratio in the graph.   Slope   The rate of change of a line (graph) is called its slope . The numerator is the change in y and the denominator is the change in x. Slope can be calculated as Rise and run are terms to help us remember the formula.    In we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have that is 144 is the change in y (real inches) and and 1 is the change in x (model inches).  Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using . The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.   Calculate Slope  The graph in is linear. We will calculate the slope twice.  First, we will use the points and . This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of feet above mean sea level.  We will use the points and . As expected this is the same slope, because on a line the rate of change (slope) is constant.   To write the equation for a line we need the shift, , as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. controls this shift. It is typically easiest to read this shift at , because in the linear form we have . The shift then is the coordinate at which is why it is often called the y-intercept.   Calculating Slope   The graph of a line through 3 points showing a relationship between altitude and pressure   The horizontal axis is labeled altitude in feet mean sea level and ranges from 0 to 10000. The vertical axis is labeled pressure in inches of mercury and ranges from 19 to 30.  Three points are shown are (2000,27.92), (4000,25.92) and (8000,21.92).      Calculate Shift   The graph in is linear. We will calculate the shift.   The shift can be read when . That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.  We will use to calculate the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up Thus the pressure should increase by 2.00 inHg giving us . Thus the point is and the shift is .  Combining this shift with the slope from the example above the model is   is the pressure at altitude .  29.92 is the initial pressure.  The rate is .  is the altitude above ground level.  If we replaced 29.92 with a parameter we could generalize the model to .        Interpret Charts  Answer the questions based on the charts provided.                   Rates  Answer these questions about rates\/slopes of lines.             Write Linear Equations   Write an equation that matches the data provided.           Graphing   Graph each line.        "
 },
 {
   "id": "table-table-stall",
@@ -3781,11 +3790,110 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
+  "id": "section-graphing-7-1-7",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-7",
+  "type": "Exercise",
+  "number": "3.2.5.5",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-8",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-8",
+  "type": "Exercise",
+  "number": "3.2.5.6",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-9",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-9",
+  "type": "Exercise",
+  "number": "3.2.5.7",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-10",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-10",
+  "type": "Exercise",
+  "number": "3.2.5.8",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-11",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-11",
+  "type": "Exercise",
+  "number": "3.2.5.9",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-12",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-12",
+  "type": "Exercise",
+  "number": "3.2.5.10",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-13",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-13",
+  "type": "Exercise",
+  "number": "3.2.5.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-14",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-14",
+  "type": "Exercise",
+  "number": "3.2.5.12",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-15",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-15",
+  "type": "Exercise",
+  "number": "3.2.5.13",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-16",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-16",
+  "type": "Exercise",
+  "number": "3.2.5.14",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "section-graphing-7-1-17",
+  "level": "2",
+  "url": "section-graphing.html#section-graphing-7-1-17",
+  "type": "Exercise",
+  "number": "3.2.5.15",
+  "title": "",
+  "body": ""
+},
+{
   "id": "section-graphing-7-2-3",
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-3",
   "type": "Exercise",
-  "number": "3.2.5.5",
+  "number": "3.2.5.16",
   "title": "",
   "body": ""
 },
@@ -3794,7 +3902,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-4",
   "type": "Exercise",
-  "number": "3.2.5.6",
+  "number": "3.2.5.17",
   "title": "",
   "body": ""
 },
@@ -3803,7 +3911,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-5",
   "type": "Exercise",
-  "number": "3.2.5.7",
+  "number": "3.2.5.18",
   "title": "",
   "body": ""
 },
@@ -3812,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-6",
   "type": "Exercise",
-  "number": "3.2.5.8",
+  "number": "3.2.5.19",
   "title": "",
   "body": ""
 },
@@ -3821,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-7",
   "type": "Exercise",
-  "number": "3.2.5.9",
+  "number": "3.2.5.20",
   "title": "",
   "body": ""
 },
@@ -3830,7 +3938,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-8",
   "type": "Exercise",
-  "number": "3.2.5.10",
+  "number": "3.2.5.21",
   "title": "",
   "body": ""
 },
@@ -3839,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-9",
   "type": "Exercise",
-  "number": "3.2.5.11",
+  "number": "3.2.5.22",
   "title": "",
   "body": ""
 },
@@ -3848,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-10",
   "type": "Exercise",
-  "number": "3.2.5.12",
+  "number": "3.2.5.23",
   "title": "",
   "body": ""
 },
@@ -3857,70 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-2-11",
   "type": "Exercise",
-  "number": "3.2.5.13",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-2-12",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-2-12",
-  "type": "Exercise",
-  "number": "3.2.5.14",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-2-13",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-2-13",
-  "type": "Exercise",
-  "number": "3.2.5.15",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-2-14",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-2-14",
-  "type": "Exercise",
-  "number": "3.2.5.16",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-2-15",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-2-15",
-  "type": "Exercise",
-  "number": "3.2.5.17",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-2-16",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-2-16",
-  "type": "Exercise",
-  "number": "3.2.5.18",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-2-17",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-2-17",
-  "type": "Exercise",
-  "number": "3.2.5.19",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-2-18",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-2-18",
-  "type": "Exercise",
-  "number": "3.2.5.20",
+  "number": "3.2.5.24",
   "title": "",
   "body": ""
 },
@@ -3929,7 +3974,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-3-3",
   "type": "Exercise",
-  "number": "3.2.5.21",
+  "number": "3.2.5.25",
   "title": "",
   "body": ""
 },
@@ -3938,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-3-4",
   "type": "Exercise",
-  "number": "3.2.5.22",
+  "number": "3.2.5.26",
   "title": "",
   "body": ""
 },
@@ -3947,7 +3992,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-3-5",
   "type": "Exercise",
-  "number": "3.2.5.23",
+  "number": "3.2.5.27",
   "title": "",
   "body": ""
 },
@@ -3956,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-3-6",
   "type": "Exercise",
-  "number": "3.2.5.24",
+  "number": "3.2.5.28",
   "title": "",
   "body": ""
 },
@@ -3965,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-3-7",
   "type": "Exercise",
-  "number": "3.2.5.25",
+  "number": "3.2.5.29",
   "title": "",
   "body": ""
 },
@@ -3974,34 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-3-8",
   "type": "Exercise",
-  "number": "3.2.5.26",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-3-9",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-3-9",
-  "type": "Exercise",
-  "number": "3.2.5.27",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-3-10",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-3-10",
-  "type": "Exercise",
-  "number": "3.2.5.28",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-3-11",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-3-11",
-  "type": "Exercise",
-  "number": "3.2.5.29",
+  "number": "3.2.5.30",
   "title": "",
   "body": ""
 },
@@ -4010,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-4-3",
   "type": "Exercise",
-  "number": "3.2.5.30",
+  "number": "3.2.5.31",
   "title": "",
   "body": ""
 },
@@ -4019,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-4-4",
   "type": "Exercise",
-  "number": "3.2.5.31",
+  "number": "3.2.5.32",
   "title": "",
   "body": ""
 },
@@ -4028,61 +4046,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-graphing.html#section-graphing-7-4-5",
   "type": "Exercise",
-  "number": "3.2.5.32",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-4-6",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-4-6",
-  "type": "Exercise",
   "number": "3.2.5.33",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-4-7",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-4-7",
-  "type": "Exercise",
-  "number": "3.2.5.34",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-4-8",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-4-8",
-  "type": "Exercise",
-  "number": "3.2.5.35",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-5-3",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-5-3",
-  "type": "Exercise",
-  "number": "3.2.5.36",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-5-4",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-5-4",
-  "type": "Exercise",
-  "number": "3.2.5.37",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "section-graphing-7-5-5",
-  "level": "2",
-  "url": "section-graphing.html#section-graphing-7-5-5",
-  "type": "Exercise",
-  "number": "3.2.5.38",
   "title": "",
   "body": ""
 },

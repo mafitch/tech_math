@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle-{5}{x}-{2}{y}={42}</m> </p>
+<p><m>\displaystyle{x}+{7}{y}=-{37}</m> </p>
 <p>
-  <m>\displaystyle{2}{x}+{9}{y}=-{66}</m></p>
+  <m>\displaystyle-{3}{x}+{6}{y}=-{24}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{6},-{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of -2. So we scale by <m>\displaystyle-\frac{{2}}{{-{{5}}}}</m>.</p>
-<p><m>\displaystyle-\frac{{{2}}}{{-{{5}}}}{\left(-{5}{x}+-{2}{y}\right)}=-\frac{{{2}}}{{-{{5}}}}{\left({42}\right)}</m></p>
-<p><m>\displaystyle-{\left({2}\right)}{x}+-{0.8}{y}={16.8}</m></p>
-<p><m>\displaystyle{2}{x}+{9}{y}=-{66}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{2},-{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of --3. So we scale by <m>\displaystyle--\frac{{3}}{{1}}</m>.</p>
+<p><m>\displaystyle-\frac{{-{3}}}{{1}}{\left({1}{x}+{7}{y}\right)}=-\frac{{-{3}}}{{1}}{\left(-{37}\right)}</m></p>
+<p><m>\displaystyle-{\left(-{3}\right)}{x}+{21}{y}=-{111}</m></p>
+<p><m>\displaystyle-{3}{x}+{6}{y}=-{24}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{8.2}{y}=-{49.2}</m></p>
-<p><m>\displaystyle{y}=-\frac{{49.2}}{{8.2}}</m></p>
-<p><m>\displaystyle{y}=-{6}</m></p>
+<p><m>\displaystyle{27}{y}=-{135}</m></p>
+<p><m>\displaystyle{y}=-\frac{{135}}{{27}}</m></p>
+<p><m>\displaystyle{y}=-{5}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{5}{x}+-{2}{\left(-{6}\right)}={42}</m></p>
-<p><m>\displaystyle-{5}{x}+{\left({12}\right)}={42}</m></p>
-<p><m>\displaystyle-{5}{x}={42}-{\left({12}\right)}</m></p>
-<p><m>\displaystyle-{5}{x}={30}</m></p>
-<p><m>\displaystyle{x}=\frac{{30}}{{-{{5}}}}</m></p>
-<p><m>\displaystyle{x}=-{6}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{6},-{6}\right)}</m>.</p>
+<p><m>\displaystyle{1}{x}+{7}{\left(-{5}\right)}=-{37}</m></p>
+<p><m>\displaystyle{1}{x}+{\left(-{35}\right)}=-{37}</m></p>
+<p><m>\displaystyle{1}{x}=-{37}-{\left(-{35}\right)}</m></p>
+<p><m>\displaystyle{1}{x}=-{2}</m></p>
+<p><m>\displaystyle{x}=-\frac{{2}}{{1}}</m></p>
+<p><m>\displaystyle{x}=-{2}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{2},-{5}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
