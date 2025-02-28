@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1471317">
 <statement>
-<image width="33%"  pi:generated="problems/images/46f9a448245819ec5b3efe916525d112.png" />
+<image width="33%"  pi:generated="problems/images/8fa0d94a5c4dec8db481ec83bc003dd0.png" />
 <p>What is the area of the triangle above? <fillin characters="6" /></p>
 <p>Side lengths are measurements.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>32.7</li></ul></p><p>Because we have side lengths but not angles or a height, we will use Heron's Formula.</p>
-<p>The semi-perimeter is <m>\displaystyle\frac{{1}}{{2}}{\left({8.49}+{9.78}+{8.08}\right)}={13.175}</m> which has 4 significant digits.</p>
-<p>The area is <m>\displaystyle\sqrt{{{13.175}{\left({13.175}-{8.49}\right)}{\left({13.175}-{9.78}\right)}{\left({13.175}-{8.08}\right)}}}={32.675488801767}\approx{32.7}</m>.</p>
+<p><ul><li>22.9</li></ul></p><p>Because we have side lengths but not angles or a height, we will use Heron's Formula.</p>
+<p>The semi-perimeter is <m>\displaystyle\frac{{1}}{{2}}{\left({8.15}+{8.93}+{5.76}\right)}={11.42}</m> which has 4 significant digits.</p>
+<p>The area is <m>\displaystyle\sqrt{{{11.42}{\left({11.42}-{8.15}\right)}{\left({11.42}-{8.93}\right)}{\left({11.42}-{5.76}\right)}}}={22.94113060771}\approx{22.9}</m>.</p>
 <p>Each factor has at least 3 significant digits so the product does as well.</p>
 </solution>
 </myopenmath>
