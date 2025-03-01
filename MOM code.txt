@@ -1,8 +1,9 @@
+https://www.myopenmath.com/util/mbx.php?id=901736&preservesvg=true
+
 Manual error processing
 
 // Ensures not null
 $txt = ""
-
 // Check if number matches but not units
 $full = getstuans($stuanswers,$thisq,"0")
 if ($full !== null) {

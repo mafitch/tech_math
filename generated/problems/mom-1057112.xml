@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
-<image width="33%"  pi:generated="problems/images/f026a9469a0786aebd23772d8fc44b16.png" /><p>
-Suppose a = 12 and A = 5 degrees. Calculate:</p>
+<image width="33%"  pi:generated="problems/images/61e8e8b2d235158a4fecaad9e0d52728.png" /><p>
+Suppose a = 10 and A = 20 degrees. Calculate:</p>
 <p>
 b = <fillin characters="20" /></p>
 <p>
@@ -14,28 +14,28 @@ Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>137.2</li><li>137.7</li><li>85.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>27.5</li><li>29.2</li><li>70.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({5}\right)}}}=\frac{{12}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({20}\right)}}}=\frac{{10}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{12}}{{\tan{{\left({5}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{10}}{{\tan{{\left({20}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{137.16062763314}\approx{137.2}</m>.</p>
+  <m>\displaystyle{b}\approx{27.474774194546}\approx{27.5}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={12}^{{2}}+{137.16062763314}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={10}^{{2}}+{27.474774194546}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={144}+{18813.037772716}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={100}+{754.8632170413}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={18957.037772716}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={854.8632170413}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{18957.037772716}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{854.8632170413}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{137.68455894804}\approx{137.7}</m>.</p>
+  <m>\displaystyle{c}\approx{29.238044001631}\approx{29.2}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{5}^{\circ}\approx{85}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{20}^{\circ}\approx{70}^{\circ}</m></p>
 
 </solution>
 </myopenmath>
