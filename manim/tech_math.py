@@ -1,5 +1,52 @@
 from manim import *
 
+class sigfig_multi(Scene):
+    def construct(self):
+        title = Text("Sigfig Arithmetic")
+        title.to_edge(UP)
+        self.add(title)
+
+        eq1 = MathTex(r'\left(','{57-46', r'\over','{46}}',r'\right)','(','54.3-48.2',')')
+        eq2 = MathTex(r'\left(','{11 ',r'\over',' 46}',r'\right)','(','54.3-48.2',')')
+        eq3 = MathTex(r'\left(','{11 ',r'\over',' 46}',r'\right)','(','6.1',')')
+        eq4 = MathTex('(','0.23','9130',')','(','6.1',')')
+        eq5 = MathTex('1.4','586930')
+        eq6 = MathTex('1.5')
+        self.add(eq1)
+        self.wait(2)
+        text1 = Text("Both are precise to units, subtraction maintains that precision.",font_size=20).to_edge(DOWN)
+        self.play(FadeIn(text1),
+            ReplacementTransform(eq1, eq2)
+        )
+        self.wait(2)
+        self.play(FadeOut(text1))
+        text2 = Text("Both are precise to tenths, subtraction maintains that precision.",font_size=20).to_edge(DOWN)
+        self.play(FadeIn(text2),
+            ReplacementTransform(eq2, eq3)
+        )
+        self.wait(2)
+        self.play(FadeOut(text2))
+        text3 = Text("Both have 2 sigfigs, division maintains 2 sigfigs.",font_size=20).to_edge(DOWN)
+        eq4[2].set_color(GRAY)
+        self.play(FadeIn(text3),
+            ReplacementTransform(eq3, eq4)
+        )
+        self.wait(2)
+        self.play(FadeOut(text3))
+        text4 = Text("Both have 2 sigfigs, product maintains 2 sigfigs.",font_size=20).to_edge(DOWN)
+        eq5[1].set_color(GRAY)
+        self.play(FadeIn(text4),
+            ReplacementTransform(eq4, eq5)
+        )
+        self.wait(2)
+        self.play(FadeOut(text4))
+        text5 = Text("Round last significant digit.",font_size=20).to_edge(DOWN)
+        self.play(FadeIn(text5),
+            ReplacementTransform(eq5, eq6)
+        )
+
+        self.wait(5)
+
 class graph_parabola(Scene):
     def construct(self):
         title = Text("Sketching Graphs")
