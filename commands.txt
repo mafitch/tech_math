@@ -4,6 +4,8 @@ deactivate
 
 cd /c/DATA/Documents/texts/tech_math
 
+manim render -ql -p tech_math.py SimilarTriangles
+
 pretext build web
 
 pretext build print -q

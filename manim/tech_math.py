@@ -1,5 +1,211 @@
 from manim import *
 
+class SimilarTriangles(Scene):
+    def construct(self):
+        title = Text("Identifying Similar Triangles")
+        title.to_edge(UP)
+        self.add(title)
+
+        # Label the vertices
+        vertices1_labels = ["A", "B", "C"]
+        vertices2_labels = ["D", "E", "F"]
+
+        # Define the vertices of the triangle
+        triangle1_vertices = [
+            [0,0,0],
+            [0.8992052389, 0.8096480336, 0],
+            [1,0,0]
+        ]
+        triangle2_vertices = triangle1_vertices
+
+        # construct the first triangle
+        triangle1 = Polygon(*triangle1_vertices, color=BLUE)
+        triangle1.rotate(PI/3,about_point=([1/2,2/5,0]))
+        triangle1.scale(3)
+        triangle1_vertices = triangle1.get_vertices()
+        vertex_labels1 = VGroup()
+        for i, vertex in enumerate(triangle1_vertices):
+            label = Tex(vertices1_labels[i]).next_to(vertex,triangle1_vertices[i]/3)
+            vertex_labels1.add(label)
+        triangle1.move_to([-4,0,0])
+        vertex_labels1.move_to([-4,0,0])
+        triangle1_vertices = triangle1.get_vertices()
+
+        # Construct the second triangle (scaled up version of 1st)
+        triangle2 = Polygon(*triangle2_vertices, color=GREEN)
+        triangle2.rotate(-3*PI/8,about_point=([3/4,3/5,0]))
+        triangle2.scale(3.9)
+        triangle2_vertices = triangle2.get_vertices()
+        vertex_labels2 = VGroup()
+        for i, vertex in enumerate(triangle2_vertices):
+            label = Tex(vertices2_labels[i]).next_to(vertex, triangle2_vertices[i]/3.9 )
+            vertex_labels2.add(label)
+        triangle2_vertices = triangle2.get_vertices()
+        triangle2.move_to([4,0,0])
+        vertex_labels2.move_to([4,0,0])
+        triangle2_vertices = triangle2.get_vertices()
+
+        # Display the triangles
+        self.add(triangle1,triangle2,vertex_labels1,vertex_labels2)
+
+        # Label the angles
+        angle_labels1 = VGroup()
+        angle_labels2 = VGroup()
+
+        angles1 = [
+            Angle.from_three_points(triangle1_vertices[2], triangle1_vertices[0], triangle1_vertices[1], radius=0.5, color=RED),
+            Angle.from_three_points(triangle1_vertices[0], triangle1_vertices[1], triangle1_vertices[2], radius=0.5, color=RED),
+            Angle.from_three_points(triangle1_vertices[1], triangle1_vertices[2], triangle1_vertices[0], radius=0.5, color=RED)
+        ]
+
+        angles2 = [
+            Angle.from_three_points(triangle2_vertices[2], triangle2_vertices[0], triangle2_vertices[1], radius=0.5, color=RED),
+            Angle.from_three_points(triangle2_vertices[0], triangle2_vertices[1], triangle2_vertices[2], radius=0.5, color=RED),
+            Angle.from_three_points(triangle2_vertices[1], triangle2_vertices[2], triangle2_vertices[0], radius=0.5, color=RED)
+        ]
+
+        angle_labels1_tex = ["$42^\circ$", "$55^\circ$", "$83^\circ$"]
+        angle_labels2_tex = angle_labels1_tex
+
+        for i, angle in enumerate(angles1):
+            pt0 = np.array(triangle1_vertices[i])
+            pt1 = np.array(angle.point_from_proportion(0.5))
+            pt2 = pt0+(pt1-pt0)*1.4
+            label = Tex(angle_labels1_tex[i],font_size=32).move_to(pt2)
+            angle_labels1.add(label)
+
+        for i, angle in enumerate(angles2):
+            pt0 = np.array(triangle2_vertices[i])
+            pt1 = np.array(angle.point_from_proportion(0.5))
+            pt2 = pt0+(pt1-pt0)*1.4
+            label = Tex(angle_labels2_tex[i],font_size=32).move_to(pt2)
+            angle_labels2.add(label)
+
+        self.add(VGroup(*angles1),VGroup(*angles2),angle_labels1,angle_labels2)
+
+        # construct sides for highlight and label the side lengths
+        side_labels1 = VGroup()
+        side_labels2 = VGroup()
+
+        side_labels1_tex = ["82", "100", "121"]
+        side_labels2_tex = ["106", "130", "157"]
+
+        sides1 = [
+            Line(triangle1_vertices[1],triangle1_vertices[2],stroke_color="WHITE",stroke_width="6"),
+            Line(triangle1_vertices[2],triangle1_vertices[0],stroke_color="WHITE",stroke_width="6"),
+            Line(triangle1_vertices[0],triangle1_vertices[1],stroke_color="WHITE",stroke_width="6")
+        ]
+        sides2 = [
+            Line(triangle2_vertices[1],triangle2_vertices[2],stroke_color="WHITE",stroke_width="6"),
+            Line(triangle2_vertices[2],triangle2_vertices[0],stroke_color="WHITE",stroke_width="6"),
+            Line(triangle2_vertices[0],triangle2_vertices[1],stroke_color="WHITE",stroke_width="6")
+        ]
+        for i, seg in enumerate(sides1):
+            pt0 = np.array(seg.point_from_proportion(0.5))
+            mt = sides1[i].get_slope()
+            mv = -1/mt
+            sgn1 = -(triangle1_vertices[i][1]-triangle1_vertices[(i+1)%3][1])+mt*(triangle1_vertices[i][0]-triangle1_vertices[(i+1)%3][0])
+            sgn1 = sgn1/abs(sgn1)
+            pt2 = pt0+np.array([1,mv,0])/(np.sqrt(1+mv**2)*4)
+            sgn2 = -(pt2[1]-triangle1_vertices[(i+1)%3][1])+mt*(pt2[0]-triangle1_vertices[(i+1)%3][0])
+            sgn2 = sgn2/abs(sgn2)
+            if sgn1 == sgn2:
+                pt2 = pt0-np.array([1,mv,0])/(np.sqrt(1+mv**2)*4)
+            alpha = sides1[i].get_angle()
+            if alpha > PI/2:
+                alpha = alpha - PI
+            elif alpha < -PI/2:
+                alpha = alpha + PI
+            lable = Tex(side_labels1_tex[i],font_size=32).move_to(pt2).rotate(alpha,about_point=pt2)
+            side_labels1.add(lable)
+
+        for i, seg in enumerate(sides2):
+            pt0 = np.array(seg.point_from_proportion(0.5))
+            mt = sides2[i].get_slope()
+            mv = -1/mt
+            sgn1 = -(triangle2_vertices[i][1]-triangle2_vertices[(i+1)%3][1])+mt*(triangle2_vertices[i][0]-triangle2_vertices[(i+1)%3][0])
+            sgn1 = sgn1/abs(sgn1)
+            pt2 = pt0+np.array([1,mv,0])/(np.sqrt(1+mv**2)*4)
+            sgn2 = -(pt2[1]-triangle2_vertices[(i+1)%3][1])+mt*(pt2[0]-triangle2_vertices[(i+1)%3][0])
+            sgn2 = sgn2/abs(sgn2)
+            if sgn1 == sgn2:
+                pt2 = pt0-np.array([1,mv,0])/(np.sqrt(1+mv**2)*4)
+            alpha = sides2[i].get_angle()
+            if alpha > PI/2:
+                alpha = alpha - PI
+            elif alpha < -PI/2:
+                alpha = alpha + PI
+            lable = Tex(side_labels2_tex[i],font_size=32).move_to(pt2).rotate(alpha,about_point=pt2)
+            side_labels2.add(lable)
+
+        self.add(side_labels1,side_labels2)
+        text0 = Tex("Consider these triangles.")
+        text0.to_edge(DOWN)
+        self.play(FadeIn(text0))
+        self.wait(4)
+        self.play(FadeOut(text0))
+#        self.remove(text0)
+
+        # Highlight first corresponding pair
+        text1 = Tex("Both triangles have an angle of $42^\\circ$")
+        text1.to_edge(DOWN)
+        self.play(FadeIn(text1))
+        self.wait(2)
+        self.remove(text1)
+        text1b = Tex("These are across from sides of length 82 and 106")
+        text1b.to_edge(DOWN)
+        self.play(FadeIn(text1b))
+        self.add(sides1[0],sides2[0])
+        self.wait(1)
+        ratio_txt1 = MathTex("{106","\\over","82}","\\approx 1.3")
+        ratio_txt1.move_to([0,1,0])
+        self.play(FadeIn(ratio_txt1))
+        self.wait(2)
+        self.play(FadeOut(text1b))
+        # Highlight second corresponding pair
+        text1 = Tex("Both triangles have an angle of $55^\\circ$")
+        text1.to_edge(DOWN)
+        self.play(FadeIn(text1))
+        self.wait(2)
+        self.remove(text1)
+        text1b = Tex("These are across from sides of length 100 and 130")
+        text1b.to_edge(DOWN)
+        self.play(FadeIn(text1b))
+        self.add(sides1[0],sides2[0])
+        self.wait(1)
+        ratio_txt2 = MathTex("{130","\\over","100}","\\approx 1.3")
+        ratio_txt2.next_to(ratio_txt1,DOWN)
+        self.play(FadeIn(ratio_txt2))
+        self.wait(2)
+        self.play(FadeOut(text1b))
+        # Highlight third corresponding pair
+        text1 = Tex("Both triangles have an angle of $83^\\circ$")
+        text1.to_edge(DOWN)
+        self.play(FadeIn(text1))
+        self.wait(2)
+        self.remove(text1)
+        text1b = Tex("These are across from sides of length 121 and 157")
+        text1b.to_edge(DOWN)
+        self.play(FadeIn(text1b))
+        self.add(sides1[0],sides2[0])
+        self.wait(1)
+        ratio_txt3 = MathTex("{157","\\over","121}","\\approx 1.3")
+        ratio_txt3.next_to(ratio_txt2,DOWN)
+        self.play(FadeIn(ratio_txt3))
+        self.wait(2)
+        self.play(FadeOut(text1b))
+        # Conclusion
+        textc = Tex("Because all angles have the same measure the triangles are similar.")
+        textc.to_edge(DOWN)
+        self.play(FadeIn(textc))
+        self.wait(2)
+        self.play(FadeOut(textc))
+        textcb = Tex("Also the ratio of corresponding sides are the same.")
+        textcb.to_edge(DOWN)
+        self.play(FadeIn(textcb))
+
+        self.wait(5)
+
 class sigfig_multi(Scene):
     def construct(self):
         title = Text("Sigfig Arithmetic")
