@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-floor-plan" >
+<title>Project: Order Flooring</title>
+
+<project xml:id="project-floor-plan">
+	<title>Ordering Enough Flooring</title>
+
+<introduction>
+	<p>The purpose of this project is to use knowledge of geometric properties to solve a purchasing problem. First, we must analyze a floor plan using our ability to break down a shape into easier parts. Second, we must use our knowledge of ratios and rounding to obtain a reasonable cost estimate.</p>
+	<p>Your carpet is worn out and you are looking to replace it with bamboo flooring. We need to know how much flooring to order and how much it will cost. This is dependent on the square footage of floor to be covered.</p>
+	<image width="80%" source="images/floor-plan">
+		<shortdescription>Outline of a floor of a house with lengths labeled.</shortdescription>
+	</image>
+</introduction>
+
+<task><statement><p>The irregular, four sided area at the top of the floor plan is the entryway. You will be keeping that tile because that is easier to clean where dirty boots often go. You could order new tile, in a pattern to match the bamboo flooring, if it is not too expensive. What is the area in square inches of the entryway?</p></statement></task>
+<!-- 2,952 sq in -->
+
+<task><statement><p>The six sided area at the right of the floor plan is the wood stove. That is fire safe tile. You could also order new tile here if it is not too expensive. What is the area in square inches of the wood stove area?</p></statement></task>
+<!-- 1,074 sq in -->
+
+<task><statement><p>What is the total area that will be covered in the bamboo flooring?</p></statement></task>
+<!-- 54,494 sq in -->
+
+<task><statement>
+	<p>Because of mistakes and other limitations, it is recommended that we order 10% more than the calculated amount. How many square inches is this?</p>
+</statement></task>
+<!-- 59,943 sq in -->
+
+<task><statement>
+	<p>Flooring is described by how many square feet it covers. How many square feet do we need?</p>
+</statement></task>
+<!-- 416.27 sq ft -->
+
+<task><statement>
+	<p>Each box of bamboo flooring is supposed to cover <quantity><mag>27.4</mag> <unit base="foot" exp="2" /></quantity>. How many boxes should you order?</p>
+</statement></task>
+<!-- 15.19 = 16 boxes -->
+
+<task><statement>
+	<p>A box of flooring costs $96.16. How much will the bamboo flooring cost?</p>
+</statement></task>
+<!-- $1,538.56 -->
+
+<task><statement>
+	<p>A case of tile for the entryway contains 8 tiles. Each tile is 12 <times/> 24 inches. How many cases would you need?</p>
+</statement></task>
+<!-- roughly 10.25 tiles or 2 boxes -->
+
+<task><statement>
+	<p>A case of these tiles costs $23.91. How much will this tile cost?</p>
+</statement></task>
+<!-- $47.82 -->
+
+<task><statement>
+	<p>A case of tile for the wood stove claims to cover <quantity><mag>10</mag> <unit base="foot" exp="2" /></quantity>. Each tile is 14 inches square. How many tiles are in a box?</p>
+</statement></task>
+
+<task><statement>
+	<p>A case of these tiles costs $157.90. How much will new tile for the wood stove area cost?</p>
+</statement></task>
+<!-- $157.90 -->
+
+<task><statement>
+	<p>You have $1,600.00 available for this project, and the bamboo flooring is the main goal. Which parts of the floor will you recover?</p>
+</statement></task>
+
+</project>
+
+</section>
