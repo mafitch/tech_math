@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle{5}{x}-{3}{y}=-{46}</m> </p>
+<p><m>\displaystyle-{6}{x}+{6}{y}=-{30}</m> </p>
 <p>
-  <m>\displaystyle{6}{x}-{2}{y}=-{52}</m></p>
+  <m>\displaystyle-{3}{x}-{4}{y}=-{8}</m></p>
 <p><fillin characters="8" /></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{8},{2}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle{5}{x}+-{3}{y}=-{46}</m></p>
-<p><m>\displaystyle{5}{x}=-{46}-{\left(-{3}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{46}-{\left(-{3}{y}\right)}}}{{5}}</m></p>
+<p><ul><li><m>\displaystyle{\left({4},-{1}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle-{6}{x}+{6}{y}=-{30}</m></p>
+<p><m>\displaystyle-{6}{x}=-{30}-{\left({6}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{30}-{\left({6}{y}\right)}}}{{-{{6}}}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{6}{\left(\frac{{-{46}-{\left(-{3}{y}\right)}}}{{5}}\right)}+-{2}{y}=-{52}</m></p>
-<p><m>\displaystyle\frac{{6}}{{5}}\cdot{\left(-{46}\right)}-\frac{{6}}{{5}}{\left(-{3}\right)}{y}+-{2}{y}=-{52}</m></p>
-<p><m>\displaystyle-{55.2}-{\left({3.6}\right)}{y}+-{2}{y}=-{52}</m></p>
-<p><m>\displaystyle{3.6}{y}+{\left(-{2}\right)}{y}=-{52}--{55.2}</m></p>
-<p><m>\displaystyle{3.6}{y}+{\left(-{2}\right)}{y}={3.2}</m></p>
-<p><m>\displaystyle{\left({3.6}+{\left(-{2}\right)}\right)}{y}={3.2}</m></p>
-<p><m>\displaystyle{1.6}{y}={3.2}</m></p>
-<p><m>\displaystyle{y}=\frac{{3.2}}{{1.6}}</m></p>
-<p><m>\displaystyle{y}={2}</m></p>
+<p><m>\displaystyle-{3}{\left(\frac{{-{30}-{\left({6}{y}\right)}}}{{-{{6}}}}\right)}+-{4}{y}=-{8}</m></p>
+<p><m>\displaystyle-\frac{{3}}{{-{{6}}}}\cdot{\left(-{30}\right)}--\frac{{3}}{{-{{6}}}}{\left({6}\right)}{y}+-{4}{y}=-{8}</m></p>
+<p><m>\displaystyle-{15}-{\left(-{3}\right)}{y}+-{4}{y}=-{8}</m></p>
+<p><m>\displaystyle-{3}{y}+{\left(-{4}\right)}{y}=-{8}--{15}</m></p>
+<p><m>\displaystyle-{3}{y}+{\left(-{4}\right)}{y}={7}</m></p>
+<p><m>\displaystyle{\left(-{3}+{\left(-{4}\right)}\right)}{y}={7}</m></p>
+<p><m>\displaystyle-{7}{y}={7}</m></p>
+<p><m>\displaystyle{y}=\frac{{7}}{{-{{7}}}}</m></p>
+<p><m>\displaystyle{y}=-{1}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{5}{x}+-{3}{\left({2}\right)}=-{46}</m></p>
-<p><m>\displaystyle{5}{x}+{\left(-{6}\right)}=-{46}</m></p>
-<p><m>\displaystyle{5}{x}=-{46}-{\left(-{6}\right)}</m></p>
-<p><m>\displaystyle{5}{x}=-{40}</m></p>
-<p><m>\displaystyle{x}=-\frac{{40}}{{5}}</m></p>
-<p><m>\displaystyle{x}=-{8}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{8},{2}\right)}</m>.</p>
+<p><m>\displaystyle-{6}{x}+{6}{\left(-{1}\right)}=-{30}</m></p>
+<p><m>\displaystyle-{6}{x}+{\left(-{6}\right)}=-{30}</m></p>
+<p><m>\displaystyle-{6}{x}=-{30}-{\left(-{6}\right)}</m></p>
+<p><m>\displaystyle-{6}{x}=-{24}</m></p>
+<p><m>\displaystyle{x}=-\frac{{24}}{{-{{6}}}}</m></p>
+<p><m>\displaystyle{x}={4}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({4},-{1}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

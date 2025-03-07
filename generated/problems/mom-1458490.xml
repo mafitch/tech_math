@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1458490">
 <statement>
-<p>Suppose that as dry air rose its temperature dropped in a linear fashion. The temperature was measured at 1100 ft MSL as <m>\displaystyle{13}^{\circ}</m> C and at 2100 ft MSL as <m>\displaystyle{14.9}^{\circ}</m> C.</p>
+<p>Suppose that as dry air rose its temperature dropped in a linear fashion. The temperature was measured at 900 ft MSL as <m>\displaystyle{11}^{\circ}</m> C and at 1900 ft MSL as <m>\displaystyle{12.8}^{\circ}</m> C.</p>
 <p>What is the rate of change of temperature with respect to altitude? <fillin characters="20" />   </p>
 <p>Your response may be as a fraction such as 2/1000 or decimal such as 0.002</p>
 <p>What does this data imply about the temperature at 0 ft MSL? <fillin characters="20" /></p>
 
 </statement>
 <solution>
-<p><ul><li>-0.0019</li><li>10.91</li></ul></p><p>We want the ratio of temperature drop to altitude increase. <m>\displaystyle\frac{{{14.9}-{13}}}{{{2100}-{1100}}}=-{0.0019}</m></p>
-<p>Now that we know that ratio we can use a linear model to find the temperature at sea level. Because the temperature increases (we are going down not up) at a rate of -1.9 per 1000 ft the temperature will be expected to increase <m>\displaystyle{1100}{\left(-\frac{{1.9}}{{1000}}\right)}=-{2.09}</m>. That will result in a temperature of <m>\displaystyle{13}\pm{2.09}={10.91}</m>.</p>
+<p><ul><li>-0.0018</li><li>9.38</li></ul></p><p>We want the ratio of temperature drop to altitude increase. <m>\displaystyle\frac{{{12.8}-{11}}}{{{1900}-{900}}}=-{0.0018}</m></p>
+<p>Now that we know that ratio we can use a linear model to find the temperature at sea level. Because the temperature increases (we are going down not up) at a rate of -1.8 per 1000 ft the temperature will be expected to increase <m>\displaystyle{900}{\left(-\frac{{1.8}}{{1000}}\right)}=-{1.62}</m>. That will result in a temperature of <m>\displaystyle{11}\pm{1.62}={9.38}</m>.</p>
 </solution>
 </myopenmath>
 
