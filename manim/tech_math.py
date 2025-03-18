@@ -245,8 +245,8 @@ class sine(MovingCameraScene):
         self.add(text1)
         sine_middle = (sin_seg.t_min+sin_seg.t_max)/2
         self.camera.frame.set(height=sin_seg.height*1.3).move_to(axes.i2gp(sine_middle, sin_seg))
-        self.play(Write(sin_seg))
-        self.wait(2)
+        self.play(Write(sin_seg), run_time = 3)
+        self.wait(1)
         self.remove(text1)
         # Zoom out
         self.play(self.camera.frame.animate.set(width=axes.width*1.2).move_to(axes))
@@ -444,6 +444,208 @@ class sigfig_multi(Scene):
         self.play(FadeIn(text5),
             ReplacementTransform(eq5, eq6)
         )
+
+        self.wait(5)
+
+class exp_base2(Scene):
+    def construct(self):
+        title1 = Text("Draw an Exponential Curve")
+        self.add(title1)
+        self.wait(3)
+        self.remove(title1)
+
+        axes = Axes( x_range = (-4,4), y_range = (0,16) , tips = False)
+        axes.add_coordinates()
+        self.add(axes)
+
+        def func(x):
+            return 2**x
+
+        func_text = MathTex("y=2^x")
+        func_text.to_edge(UP+LEFT)
+        self.add(func_text)
+
+        # generate list of points to the right
+        pts_right = VGroup()
+        for i in range(5):
+            x_text = MathTex("x="+str(i))
+            x_text.next_to(func_text,DOWN)
+            self.add(x_text)
+            pts_right.add(Dot(axes.c2p(i,0),color=GREEN))
+            self.add(pts_right[i])
+            self.wait(0.5)
+            y_text1 = MathTex("y=2^"+str(i))
+            y_text1.next_to(x_text,DOWN)
+            self.add(y_text1)
+            self.wait(0.5)
+            y_text2 = MathTex("="+str(func(i)))
+            y_text2.next_to(y_text1,RIGHT)
+            self.add(y_text2)
+            self.wait(0.5)
+            self.play( ApplyMethod(pts_right[i].move_to, axes.c2p(i,func(i),0) ) )
+            self.wait(0.5)
+            self.remove(x_text,y_text1,y_text2)
+        # sketch curve through these points
+        self.wait(1)
+        curve_right = axes.plot(lambda t: func(t), color=GREEN, x_range=[0,4])
+        self.play(Write(curve_right))
+        self.wait(2)
+        # generate list of points to the left
+        pts_left = VGroup()
+        for i in range(5):
+            x_text = MathTex("x="+str(-i))
+            x_text.next_to(func_text,DOWN)
+            self.add(x_text)
+            pts_left.add(Dot(axes.c2p(-i,0),color=GREEN))
+            self.add(pts_left[i])
+            self.wait(0.5)
+            y_text1 = MathTex("y=2^{"+str(-i)+"}")
+            y_text1.next_to(x_text,DOWN)
+            self.add(y_text1)
+            self.wait(0.5)
+            y_text2 = MathTex("=\\frac{1}{2^"+str(i)+"}")
+            y_text2.next_to(y_text1,RIGHT)
+            self.add(y_text2)
+            self.wait(0.5)
+            y_text3 = MathTex("="+str(func(-i)))
+            y_text3.next_to(y_text2,RIGHT)
+            self.add(y_text3)
+            self.wait(0.5)
+            self.play( ApplyMethod(pts_left[i].move_to, axes.c2p(-i,func(-i),0) ) )
+            self.remove(x_text,y_text1,y_text2,y_text3)
+        # sketch curve through these points
+        self.wait(1)
+        curve_left = axes.plot(lambda t: func(t), color=GREEN, x_range=[-4,0])
+        curve_left.reverse_points()
+        self.play(Write(curve_left))
+        # descriptions
+        text1a = Tex("To the right the curve")
+        text1b = Tex("starts shallow and becomes steep.")
+        text1b.to_edge(DOWN)
+        text1a.next_to(text1b,UP)
+        self.add(text1a,text1b)
+        perc = ValueTracker(0)
+        follow_me = always_redraw(
+            lambda: Dot(curve_right.point_from_proportion(perc.get_value()))
+        )
+        steep = always_redraw(
+            lambda: TangentLine(curve_right, alpha=perc.get_value(), length = 2)
+        )
+        self.add(follow_me,steep)
+        self.play(
+            perc.animate.set_value(1),
+            rate_func = linear,
+            run_time = 2
+        )
+#        self.play(MoveAlongPath(follow_me,curve_right), rate_func = linear, run_time = 2)
+        self.wait(1)
+        self.remove(text1a,text1b,follow_me,steep)
+        text2a = Tex("To the left the curve")
+        text2b = Tex("levels out approaching $y=0$.")
+        text2b.to_edge(DOWN)
+        text2a.next_to(text1b,UP)
+        self.add(text2a,text2b)
+        follow_me = Dot([0,func(0),0])
+        self.play(MoveAlongPath(follow_me,curve_left), rate_func = linear, run_time = 2)
+        self.wait(1)
+        self.remove(text2a,text2b)
+
+        self.wait(5)
+
+class exp_rate(MovingCameraScene):
+    def construct(self):
+
+        def always_redraw_axes(axes_maker_func):
+            mob = axes_maker_func
+
+            def become_axes(m):
+                old_axes = mob
+                new_axes = make_axes()
+                old_axes.become(new_axes)
+                old_axes.x_axis.x_range = new_axes.x_axis.x_range
+                old_axes.x_axis.scaling = new_axes.x_axis.scaling
+                old_axes.y_axis.x_range = new_axes.y_axis.x_range
+                old_axes.y_axis.scaling = new_axes.y_axis.scaling
+            mob.add_updater(become_axes)
+            return mob
+        def make_axes():
+            temp = Axes( 
+                x_range = (0,xmax1.get_value(),6), 
+                y_range = (0,ymax1.get_value(),243), 
+                tips = False,
+                x_axis_config={
+                    "include_numbers": False,
+                    "numbers_to_include": [i for i in range(0,5+1)]
+                },
+                y_axis_config={
+                    "include_numbers": False,
+                    "numbers_to_include": [(3**i)/2 for i in range(0,5+1)],
+                    'decimal_number_config': {
+                        "num_decimal_places": 1
+                    }
+                }
+            )
+            temp.add_coordinates()
+            return temp
+
+        def seg_updater(mob):
+            tmob = VGroup()
+            c1 = axes.point_to_coords(mob[0].start)
+            c2 = axes.point_to_coords(mob[0].end)
+            tll = Line(axes.c2p(c1[0],c1[1]),axes.c2p(c2[0],c2[1]),color=GREEN,stroke_width=6)
+            tmob.add(mob[0].become( tll ))
+            tmob.add(mob[1].become( MathTex(mob[1].tex_strings[0], mob[1].tex_strings[1], font_size=24).next_to(tll,UP+RIGHT) ) )
+            mob = tmob
+
+        def func(x):
+            return (3**x)/2
+
+        title1 = Text("Exponential Growth")
+        self.add(title1)
+        self.wait(3)
+        self.remove(title1)
+
+        # Define axes including code to scale them
+        xmax1 = ValueTracker(1)
+        ymax1 = ValueTracker(2)
+        axes = always_redraw_axes(make_axes())
+        self.add(axes)
+
+        func_text = MathTex("{1 \\over 2}","3^x",font_size=32)
+        func_text.to_edge(UP)
+        self.add(func_text)
+        self.wait(1)
+        
+        lines = VGroup()
+        segments = VGroup()
+
+        lines.add( Line(axes.c2p(0,0),axes.c2p(0,func(0)),color=GREEN,stroke_width=6) )
+        segments.add( VGroup(lines[0], MathTex("{1", "\\over 2}",font_size=24).next_to( lines[0] ,UP+RIGHT) ) )
+        segments[0].add_updater(seg_updater)
+        self.play( Create(lines[0]) )
+        self.add( segments[0] )
+
+        # Draw the next height
+        rotate_line0 = Line(axes.c2p(0,0),axes.c2p(0,func(0)),color=GREEN,stroke_width=6)
+        self.add( rotate_line0 )
+        self.play( ApplyMethod(rotate_line0.move_to, axes.c2p(1,func(0)/2) ) )
+        rotate_line1 = Line(axes.c2p(1,0),axes.c2p(1,func(0)),color=GREEN,stroke_width=6)
+        self.add(rotate_line1)
+        self.play( Rotate(rotate_line1 , angle=PI, about_point=axes.c2p(1,func(0)) ) )
+        rotate_line2 = Line(axes.c2p(1,func(0)),axes.c2p(1,func(0)*2),color=GREEN,stroke_width=6)
+        self.add(rotate_line1)
+        self.play( Rotate(rotate_line2 , angle=PI, about_point=axes.c2p(1,func(0)*2) ) )
+
+        lines.add( Line(axes.c2p(1,0),axes.c2p(1,func(1)), color=GREEN, stroke_width=6) )
+        segments.add( VGroup(lines[1], MathTex("{3", "\\over 2}",font_size=24).next_to( lines[1] ,UP+RIGHT) ) )
+        segments[1].add_updater(seg_updater)
+        self.add(segments[1])
+
+        self.remove(rotate_line0,rotate_line1,rotate_line2)
+        self.wait(2)
+
+        # adjust view for next element
+        self.play(xmax1.animate.set_value(2), ymax1.animate.set_value(5))
 
         self.wait(5)
 
