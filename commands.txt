@@ -21,11 +21,11 @@ Regexp: Preview question [0-9] Part [0-9] of [0-9]
 Regexp: grep "1[0-9][1-9]\%" generated/problems/*
 
 MOM Test
-~/pretext/pretext/pretext -c mom -p publication/publication.ptx source/main.ptx
+~/pretext/pretext/pretext -v -c mom -p publication/publication.ptx source/main.ptx
 ~/pretext/pretext/pretext -c all -f pdf -d output/print -p publication/publication.ptx source/main.ptx
 
 
-~/pretext/pretext/pretext -c mom -p publication/publication.ptx source/techmath.ptx
+~/pretext/pretext/pretext -v -c mom -p publication/publication.ptx source/techmath.ptx
 
 ~/pretext/pretext/pretext -c webwork -s "(http://aholiab.uaa.alaska.edu,anonymous,anonymous,unused,anonymous)" -d /d/Documents/texts/tech_math/generated/webwork/ source/techmath.ptx
 

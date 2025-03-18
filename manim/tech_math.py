@@ -625,28 +625,33 @@ class exp_rate(MovingCameraScene):
         self.play( Create(lines[0]) )
         self.add( segments[0] )
 
-        # Draw the next height
-        rotate_line0 = Line(axes.c2p(0,0),axes.c2p(0,func(0)),color=GREEN,stroke_width=6)
-        self.add( rotate_line0 )
-        self.play( ApplyMethod(rotate_line0.move_to, axes.c2p(1,func(0)/2) ) )
-        rotate_line1 = Line(axes.c2p(1,0),axes.c2p(1,func(0)),color=GREEN,stroke_width=6)
-        self.add(rotate_line1)
-        self.play( Rotate(rotate_line1 , angle=PI, about_point=axes.c2p(1,func(0)) ) )
-        rotate_line2 = Line(axes.c2p(1,func(0)),axes.c2p(1,func(0)*2),color=GREEN,stroke_width=6)
-        self.add(rotate_line1)
-        self.play( Rotate(rotate_line2 , angle=PI, about_point=axes.c2p(1,func(0)*2) ) )
+        # Draw the next segments
+        for i in range(1,5):
+            rotate_line0 = Line(axes.c2p(i-1,0),axes.c2p(i-1,func(i-1)),color=GREEN,stroke_width=6)
+            self.add( rotate_line0 )
+            self.play( ApplyMethod(rotate_line0.move_to, axes.c2p(i,func(i-1)/2) ) )
+            rotate_line1 = Line(axes.c2p(i,0),axes.c2p(i,func(i-1)),color=GREEN,stroke_width=6)
+            self.add(rotate_line1)
+            self.play( Rotate(rotate_line1 , angle=PI, about_point=axes.c2p(i,func(i-1)) ) )
+            rotate_line2 = Line(axes.c2p(i,func(i-1)),axes.c2p(i,func(i-1)*2),color=GREEN,stroke_width=6)
+            self.add(rotate_line1)
+            self.play( Rotate(rotate_line2 , angle=PI, about_point=axes.c2p(i,func(i-1)*2) ) )
 
-        lines.add( Line(axes.c2p(1,0),axes.c2p(1,func(1)), color=GREEN, stroke_width=6) )
-        segments.add( VGroup(lines[1], MathTex("{3", "\\over 2}",font_size=24).next_to( lines[1] ,UP+RIGHT) ) )
-        segments[1].add_updater(seg_updater)
-        self.add(segments[1])
+            lines.add( Line(axes.c2p(i,0),axes.c2p(i,func(i)), color=GREEN, stroke_width=6) )
+            segments.add( VGroup(lines[i], MathTex("{"+str(3**i), "\\over 2}",font_size=24).next_to( lines[i] ,UP+RIGHT) ) )
+            segments[i].add_updater(seg_updater)
+            self.add(segments[i])
 
-        self.remove(rotate_line0,rotate_line1,rotate_line2)
+            self.remove(rotate_line0,rotate_line1,rotate_line2)
+            self.wait(2)
+
+            # adjust view for next element
+            if i < 4:
+                self.play(xmax1.animate.set_value(i+1), ymax1.animate.set_value(np.ceil(func(i+1))))
+
         self.wait(2)
-
-        # adjust view for next element
-        self.play(xmax1.animate.set_value(2), ymax1.animate.set_value(5))
-
+        self.remove(segments[1],segments[2])
+        self.add(segments[3])
         self.wait(5)
 
 class graph_parabola(Scene):
