@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Units",
-  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  1 g 0.1337   Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.     Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.      Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .       Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .     Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.        Dimensional Analysis   Identify the correct units to make these work.        Converting Units   Convert the units as directed. Use the conversion tables () as needed.                       Quantitative Literacy   Use your knowledge of these items to decide on appropriate units.                     "
+  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  1 g 0.1337   Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.       Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.        Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .         Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .       Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.          Dimensional Analysis   Identify the correct units to make these work.              Converting Units   Convert the units as directed. Use the conversion tables () as needed.                                                           Quantitative Literacy   Use your knowledge of these items to decide on appropriate units.                                                     "
 },
 {
   "id": "table-units-of-measure",
@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "table-metric-sizes",
@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "table-customary-to-si",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-convert-speed",
@@ -241,7 +241,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-convert-square-units",
@@ -259,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.24",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-1-3",
@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-1-4",
@@ -277,7 +277,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-2",
@@ -286,7 +286,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-3",
@@ -295,7 +295,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-4",
@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-5",
@@ -313,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-6",
@@ -322,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-7",
@@ -331,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-8",
@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-9",
@@ -349,7 +349,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-10",
@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-11",
@@ -367,7 +367,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-12",
@@ -376,7 +376,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-13",
@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-14",
@@ -394,7 +394,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-15",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-16",
@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-17",
@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-18",
@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-3-19",
@@ -439,7 +439,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-4",
@@ -448,7 +448,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-5-3",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-5-4",
@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.23",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-5-5",
@@ -475,7 +475,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.24",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-5-6",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.25",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-6",
@@ -493,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.26",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-7",
@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.27",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-8",
@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.28",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-9",
@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.29",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-10",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.30",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-11",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.31",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-12",
@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.32",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-13",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.33",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-14",
@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.34",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-15",
@@ -574,7 +574,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.35",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-16",
@@ -583,7 +583,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.36",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-units-8-17",
@@ -592,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.1.6.37",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough",
@@ -601,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Accuracy and Precision",
-  "body": " Accuracy and Precision   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Rounding (skill)  Significant Figures (skill)  Determining appropriate rounding from context (critical thinking)    While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.  First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.    Explanation  When working with measurements, we care about the reasonableness of the results. Suppose four people measure the length of a piece of wood and come up with 1.235 m, 1.236 m, 1.237 m, and 1.234 m. We might conclude that we are confident it is 1.23 m long but we are not certain about the millimeters position. This leads to the concepts of accuracy and precision.   Accuracy  The accuracy of a measurement is how close the measurement is to the actual value.    If the board referenced above is actually 1.2364 m long then all four measurements are accurate to the second decimal place. The second measurement (1.236 m) is accurate to the third decimal place.    Note is an approximation for . Because to six decimals places (not rounded) is 3.141592, the approximation is accurate to only 2 decimal places (i.e., 3.14).  Note, is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.   Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and our use of all such tools has a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.   Error  The error of a measurement is the difference between the reported measurement and the actual value.    The number of people at an outdoor concert was 2453. If someone estimated that the number of people was 2500, then that estimate is accurate to 1000's place, but has an error of only .    Precision  The precision of a measurement is the size of the smallest unit in it.   Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean that number is close to the actual value of the measurement.   The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?  Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).  Because the response matches the actual value to 2 decimal places (the 100ths position), it is accurate to 2 decimal places.  Because , the error is 0.0015.    Introduction to Precision and Accuracy    How do we end up with parts of measurements which are not accurate? Consider the following.    When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3\/4 and less than 7\/8 . The right side of the shape appears to be less than half way between 3\/4 and 7\/8 . Because it appears to be closer to 3\/4 , we can state the width is 3\/4 . Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.  We know this measurement is accurate to the nearest 1\/8 , because the ruler has those marked and, in this case, we can be confident it is closer to the left side.  To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13\/16 or 1\/16 farther. Thus we can state that the shape is 3\/4 wide with an error that is less than 1\/16 .   While other tools for measurement can be more precise, every tool has a limit to its precision similar to this example. We should always be aware of the limitations of measurements when we use them.    Significant Figures  It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation  ) makes no sense, because it is only accurate to the hundreds position (i.e., 3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in many of the problems involving data from measurments for the rest of the text.  When writing down measurements we need a way to indicate how precise the measurement is. Significant digits , also called significant figures or simply sig figs , are a way to do this.  The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.  All non-zero digits are signficant.  Zeros between non-zeros are significant.  Any zeros written to the right of the decimal point are significant.  If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.  If the zero to the left of the decimal is significant, the decimal point may be used with no digits to the right (the bar is an easier to read choice however)  For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.  We can summarize these rules as: write only digits that you mean, and if it is ambiguous, clarify.  Significant digits apply to numbers resulting from measurements. That is, they apply when there is doubt about the accuracy of the number. These will be mixed with exact numbers (numbers with infinite precision). For example the 1\/2 in the area of a triangle ( ) is an exact number.   Writing Significant Digits  Each of these numbers is written with five (5) significant digits.            We also need rules for arithmetic with significant digits. These are based on two principles  A result of arithmetic cannot be more precise than the least precise measurement.  Arithmetic does not increase accuracy.   For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left of the last significant digits.   Subtraction with Significant Digits  . The last significant digit of 11050 is in the 10's position (the 5). The last significant digit of 723 is in the 1's (unit) position (the 3). Because 11050 is less precise than 723, the last significant digit of the result is in the 10's position. We do not know the 1's position of 11050, so we cannot know the 1's position in the result.    Addition with Significant Digits  . This is rounded to the hundreds position because the least (farthest left) significant digit of the three numbers is in the 100's position (in 202,200). The extra precision of the other two numbers is lost because we don't know to what they should be added.   The significant digits addition\/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with addition\/subtraction. For example suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems). The F (measured temperature) would have limited precision and therefore determine the precision of the result.   For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of signficant digits of the input numbers.   Division with Significant Digits  . This is rounded to three (3) significant digits because has only 3 significant digits. The fourth significant digit in 11050 (the 5) would be multiplied by the unknown digit after the 3 in 15.3, so we do not know what that would be.    Multiplication with Significant Digits  . This is rounded to two (2) significant digits because has only two significant digits. The extra precision of the other two numbers is lost.   The significant digit multiplication\/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with multiplication and division. The following example illustrates how we determine the resulting number of significant digits when exact numbers are mixed with measurements.   Suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems).  If we read the temperature as 44.7 F then the conversion is as follows. In the subtraction step the 32 is exact so the precision is determined by solely 44.7 (tenths place). In the multipication step the 5\/9 is exact so the precision is determined by the 12.7 (three significant digits).    The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.  This example also illustrates tracking significant digits and illustrates a way you might keep track of which digits are significant in each step. The rightmost (smallest place value) digit that is significant is underlined. This is not a mathematical notation, but rather a convenient way to track the significant digits.   Multi-Step Arithmetic with Significant Digits  Evaluate .  By order of operations we first calculate . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate . This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is . 11,728 is significant to the one's place but the 746.07 is significant only to the 10's place. This means the final result is rounded to the 10's place so .    Calculate The is an exact number here. The rest are measurements in centimeters.  When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been If all the measurements were rounded down (e.g., 21 was rounded from 21.4), the the value could have been Using these two possibilities we see that the value could be anywhere from 121.125 to 146.64. The one hundred is the only digit about which we can be certain. That is why it is the only significant digit and why we eliminate (replace with zero) all the others.  If losing this much precision is a problem, then we need to obtain more precise measurements.   Significant digts communicates which digits are definitely meaningful. There are other motivations for rounding which lead to keeping more digits. This will be addressed in the next section.     Rounding  Significant digits uses rounding to remove non-useful precision. This section presents various motivations for rounding and types of rounding and motivations for each.   Reasons for Rounding   Reality Constraints For example we cannot buy partial packages or have fractional people  Remove Detail For example when describing the population of a nation  Control Error When used in significant digits    The reason for rounding determines how we do it. Consider the following reality constraints requiring rounding. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need cartons. Since we cannot purchase part of a carton, we must round 1.75 up to 2, and purchase 2 cartons.  Note in this example reality requires us to round up to the nearest integer. We round to an integer because we cannot purchase fractional cartons of eggs. We had to round up, because rounding down would leave us with insufficient eggs (and we are hungry).  Suppose you have a bank account containing $11,410 that accrues 1.65% interest. The bank calculates the payment should be . The bank will pay you $188.26. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.  For removal of detail consider reporting the population of a country. We might report the population as over 9 million rather than 9,904,607. There are multiple motivations for this rounding. Note the population is likely changing multiple times per day, so more precision in the number does not equal more accuracy. Also, because of the scale (millions) the detail about how many ones, tens, hundred, and thousands looses meaning.  When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 to $80,290.11 is unlikely to change a decision. The applicant will ask about the exact salary after deciding the position is a good fit. A common usage of removing detail is when we care about the scale of things rather than the count.  Rounding to control error is the use of significant digits.  Before considering context, we will practice rounding numbers. Note we can round to any digit. We can round up, down, or to the nearest number (what is meant by round if neither up nor down are specified). Context or instructions will specify which digit and which type of rounding.   Rounding Up\/Down  Round 72481 down to the nearest hundred. 72400 is rounding down: we leave the 4 (hundred position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest hundred. 72500 is rounding up: we increase the 4 to a 5 and truncate (turn to 0) all digits to the right. Note .  Round 72481 the nearest hundred. Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is which means rounding up results in a closer number. We could also recognize the need to round up by calculating and and noticing that (round up is closer).    Rounding Up\/Down  Round 72481 down to the nearest thousand. 72000 is rounding down: we leave the 2 (thousands position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest thousand. 73000 is rounding up: we increase the 2 to a 3 and truncate (turn to 0) all digits to the right. Note .  Round 72481 to the nearest thousand. Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is which makes it closer to go down. We could also recognize the need to round down by calculating and and noticing that .    Rounding to Different Precisions  Round 72321.83 to the specified precision.  Thousands: 72000  Ones:72322  Tenths: 72321.8      Next we need to consider when to use each type of rounding.   Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20 . If a room is 50 feet by 38 feet, how many carpet squares do we need?  First lets figure out how many tiles will go across the 50 feet. Before we can we need to convert feet to inches, so we can compare the width of the room to the carpet square width. 50 feet is . We want to know how many 20 in tiles fit into 600 in. tiles across. Notice that the units divide out which indicates we set this up correctly.  Next, lets figure out how many tiles will go across the 38 feet. 38 feet is . This will require laying tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).  Finally we can count the number of tiles which is tiles.  Could we use the 0.2 part of a tile that results from cutting at the end in another row. That depends. Doing so will start the next row shifted by 0.2, so if the tiles need to be aligned due to their color\/pattern this will not work. If the color is solid or designed to be offset, we can do this and save money. Knowledge from carpet installation is required to determine this rounding.    Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?  There are cookies. Each person can have cookies. Because cutting cookies into pieces is how the cookie crumbles, we must round this down to 5 cookies per person.  Curious minds want to know what happens with the rest of the cookies. Notice there will be cookies given away leaving just one cookie which the baker can enjoy.     Greatest Possible Error  We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.  Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, this rounding will always result in a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.   What is the greatest possible error if 130 was rounded to the nearest 10?  One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at .  The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at .  Thus the greatest possible error was 5 from the case that 125 was rounded up.  Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits do not change the rounding.    What is the greatest possible error if 9.31 was rounded to the nearest hundredth?  The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 0.005 or 5 one thousandths.   To determine the greatest possible error, we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object is not exactly on one of the lines, you will choose the closest one (left or right). Moving to the closest one is rounding.  The next example calculates the greatest possible error from rounding up (as opposed to rounding).   What is the greatest possible error if 223 was rounded up to the nearest unit?  223 could have been rounded up from 222.1. But it could also have been rounded up from 222.01 or anything else. Thus the greatest possible error is less than 1 ( ).        Counting Significant Digits   Determine the number of significant digits using the standard notations.           Significant Digit Arithmetic   Perform the arithmetic indicated and write the result with the correct number of significant digits.                Greatest Possible Error   Determine the greatest possible error for each number or calculation.         "
+  "body": " Accuracy and Precision   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Rounding (skill)  Significant Figures (skill)  Determining appropriate rounding from context (critical thinking)    While calculating devices will produce a lot of decimal places, these are not always meaningful nor useful. This section presents different purposes for rounding numbers, examples of using each one, and examples of interpreting numbers we consume in work and life.  First, we will consider what lots of decimal places do and do not mean which will lead to definitions, then we will present a method for reasonably tracking precision, then consider other motivations and matching methods for rounding, and later consider the importance of managing error.    Explanation  When working with measurements, we care about the reasonableness of the results. Suppose four people measure the length of a piece of wood and come up with 1.235 m, 1.236 m, 1.237 m, and 1.234 m. We might conclude that we are confident it is 1.23 m long but we are not certain about the millimeters position. This leads to the concepts of accuracy and precision.   Accuracy  The accuracy of a measurement is how close the measurement is to the actual value.    If the board referenced above is actually 1.2364 m long then all four measurements are accurate to the second decimal place. The second measurement (1.236 m) is accurate to the third decimal place.    Note is an approximation for . Because to six decimals places (not rounded) is 3.141592, the approximation is accurate to only 2 decimal places (i.e., 3.14).  Note, is not a measurement, rather it is defined theoretically. Thus we can produce an approximation that is as accurate as we have time and will to do. If curious, ask the nearest calculus instructor for details.   Note, if we are measuring something, it is because it is not possible to know the actual value. In the example of measuring the board all we can do is use measuring tools and our use of all such tools has a margin of error. The actual length of the board is a mystery. Because of this we cannot determine the exact value of many kinds of data nor determine how accurate our measurement is. Instead we will settle for repeatability. If we get the same result often enough, we can convince ourselves that it is accurate.   Error  The error of a measurement is the difference between the reported measurement and the actual value.    The number of people at an outdoor concert was 2453. If someone estimated that the number of people was 2500, then that estimate is accurate to 1000's place, but has an error of only .    Precision  The precision of a measurement is the size of the smallest unit in it.   Note we can have high precision with low accuracy. That is, just because we write a lot of decimal places does not mean that number is close to the actual value of the measurement.   The answer to a homework question is 5.7632. If a response given is 5.7647 what are the precision and accuracy of the response?  Precision is effectively the number of decimal places. This is precise to 4 decimal places (the 10,000th position).  Because the response matches the actual value to 2 decimal places (the 100ths position), it is accurate to 2 decimal places.  Because , the error is 0.0015.    Introduction to Precision and Accuracy    How do we end up with parts of measurements which are not accurate? Consider the following.    When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3\/4 and less than 7\/8 . The right side of the shape appears to be less than half way between 3\/4 and 7\/8 . Because it appears to be closer to 3\/4 , we can state the width is 3\/4 . Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.  We know this measurement is accurate to the nearest 1\/8 , because the ruler has those marked and, in this case, we can be confident it is closer to the left side.  To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13\/16 or 1\/16 farther. Thus we can state that the shape is 3\/4 wide with an error that is less than 1\/16 .   While other tools for measurement can be more precise, every tool has a limit to its precision similar to this example. We should always be aware of the limitations of measurements when we use them.    Significant Figures  It makes no sense to write numbers that are more precise than they are accurate. For example writing 3.142857 (from the approximation  ) makes no sense, because it is only accurate to the hundreds position (i.e., 3.14). It also makes no sense to perform arithmetic on digits that are not accurate. This section presents a reasonable way of tracking meaningful precision and rounding to maintain it. This will be used in many of the problems involving data from measurments for the rest of the text.  When writing down measurements we need a way to indicate how precise the measurement is. Significant digits , also called significant figures or simply sig figs , are a way to do this.  The rules for writing numbers with significant digits have two parts: non-zero digits, and zero digits.  All non-zero digits are signficant.  Zeros between non-zeros are significant.  Any zeros written to the right of the decimal point are significant.  If zeros between non-zero digits (on left) and the decimal point (on right) are supposed to be significant, a line is drawn over top of the last significant digit.  If the zero to the left of the decimal is significant, the decimal point may be used with no digits to the right (the bar is an easier to read choice however)  For numbers less than 1, zeros between the decimal point (on left) and non-zero digits (on right) are not significant.  We can summarize these rules as: write only digits that you mean, and if it is ambiguous, clarify.  Significant digits apply to numbers resulting from measurements. That is, they apply when there is doubt about the accuracy of the number. These will be mixed with exact numbers (numbers with infinite precision). For example the 1\/2 in the area of a triangle ( ) is an exact number.   Writing Significant Digits  Each of these numbers is written with five (5) significant digits.               We also need rules for arithmetic with significant digits. These are based on two principles  A result of arithmetic cannot be more precise than the least precise measurement.  Arithmetic does not increase accuracy.   For addition and subtraction the result (sum or difference) has the same precision as the least precise number added or subtracted. After adding or subtracting we round to the farthest left of the last significant digits.   Subtraction with Significant Digits  . The last significant digit of 11050 is in the 10's position (the 5). The last significant digit of 723 is in the 1's (unit) position (the 3). Because 11050 is less precise than 723, the last significant digit of the result is in the 10's position. We do not know the 1's position of 11050, so we cannot know the 1's position in the result.    Addition with Significant Digits  . This is rounded to the hundreds position because the least (farthest left) significant digit of the three numbers is in the 100's position (in 202,200). The extra precision of the other two numbers is lost because we don't know to what they should be added.   The significant digits addition\/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with addition\/subtraction. For example suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems). The F (measured temperature) would have limited precision and therefore determine the precision of the result.      For multiplication and division the result (product or quotient) has the same number of significant digits as the least number of signficant digits of the input numbers.   Division with Significant Digits  . This is rounded to three (3) significant digits because has only 3 significant digits. The fourth significant digit in 11050 (the 5) would be multiplied by the unknown digit after the 3 in 15.3, so we do not know what that would be.    Multiplication with Significant Digits  . This is rounded to two (2) significant digits because has only two significant digits. The extra precision of the other two numbers is lost.   The significant digit multiplication\/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious, an explanation of why this rule works is in this video.   Exact numbers may be mixed in calculations with multiplication and division. The following example illustrates how we determine the resulting number of significant digits when exact numbers are mixed with measurements.   Suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is . The 32 and 5\/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems).  If we read the temperature as 44.7 F then the conversion is as follows. In the subtraction step the 32 is exact so the precision is determined by solely 44.7 (tenths place). In the multipication step the 5\/9 is exact so the precision is determined by the 12.7 (three significant digits).       The rounding for significant digit rules is applied at the end of a calculation. That is if we have a mix of addition, subtraction, multiplication, and division then we do all of the operations, track the significant digits that should apply for each operation and apply the rounding at the end.  This example also illustrates tracking significant digits and illustrates a way you might keep track of which digits are significant in each step. The rightmost (smallest place value) digit that is significant is underlined. This is not a mathematical notation, but rather a convenient way to track the significant digits.   Multi-Step Arithmetic with Significant Digits  Evaluate .  By order of operations we first calculate . Note that the result 19.13 is significant only to the first decimal place because 17.9 is only significant to the first decimal place. Second by order of operations we calculate . This is the product of a number with 2 significant digits and one with 3 significant digits so the result should have only 2 significant digits which would be the 10's place (the 4). The last calculation is . 11,728 is significant to the one's place but the 746.07 is significant only to the 10's place. This means the final result is rounded to the 10's place so .    Calculate The is an exact number here. The rest are measurements in centimeters.  When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been If all the measurements were rounded down (e.g., 21 was rounded from 21.4), the the value could have been Using these two possibilities we see that the value could be anywhere from 121.125 to 146.64. The one hundred is the only digit about which we can be certain. That is why it is the only significant digit and why we eliminate (replace with zero) all the others.  If losing this much precision is a problem, then we need to obtain more precise measurements.   Significant digts communicates which digits are definitely meaningful. There are other motivations for rounding which lead to keeping more digits. This will be addressed in the next section.       Rounding  Significant digits uses rounding to remove non-useful precision. This section presents various motivations for rounding and types of rounding and motivations for each.   Reasons for Rounding   Reality Constraints For example we cannot buy partial packages or have fractional people  Remove Detail For example when describing the population of a nation  Control Error When used in significant digits    The reason for rounding determines how we do it. Consider the following reality constraints requiring rounding. For example if we need 21 eggs and eggs are sold in cartons of one dozen (12) eggs, we need cartons. Since we cannot purchase part of a carton, we must round 1.75 up to 2, and purchase 2 cartons.  Note in this example reality requires us to round up to the nearest integer. We round to an integer because we cannot purchase fractional cartons of eggs. We had to round up, because rounding down would leave us with insufficient eggs (and we are hungry).  Suppose you have a bank account containing $11,410 that accrues 1.65% interest. The bank calculates the payment should be . The bank will pay you $188.26. They round to the nearest one hundredth because cents is a unit which can be paid. They round down, because they like paying less.  For removal of detail consider reporting the population of a country. We might report the population as over 9 million rather than 9,904,607. There are multiple motivations for this rounding. Note the population is likely changing multiple times per day, so more precision in the number does not equal more accuracy. Also, because of the scale (millions) the detail about how many ones, tens, hundred, and thousands looses meaning.  When reporting on salary ranges we might report a range between $60,000 and $80,000. That the range is actually $61,233.57 to $80,290.11 is unlikely to change a decision. The applicant will ask about the exact salary after deciding the position is a good fit. A common usage of removing detail is when we care about the scale of things rather than the count.  Rounding to control error is the use of significant digits.  Before considering context, we will practice rounding numbers. Note we can round to any digit. We can round up, down, or to the nearest number (what is meant by round if neither up nor down are specified). Context or instructions will specify which digit and which type of rounding.   Rounding Up\/Down   Round 72481 down to the nearest hundred.  72400 is rounding down: we leave the 4 (hundred position) alone and truncate (turn to 0) all digits to the right. Note .    Round 72481 up to the nearest hundred.  72500 is rounding up: we increase the 4 to a 5 and truncate (turn to 0) all digits to the right. Note .    Round 72481 the nearest hundred.  Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is which means rounding up results in a closer number. We could also recognize the need to round up by calculating and and noticing that (round up is closer).     Rounding Up\/Down   Round 72481 down to the nearest thousand.  72000 is rounding down: we leave the 2 (thousands position) alone and truncate (turn to 0) all digits to the right. Note .    Round 72481 up to the nearest thousand.  73000 is rounding up: we increase the 2 to a 3 and truncate (turn to 0) all digits to the right. Note .    Round 72481 to the nearest thousand.  Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is which makes it closer to go down. We could also recognize the need to round down by calculating and and noticing that .     Rounding to Different Precisions  Round 72321.83 to the specified precision.  Thousands: 72000  Ones:72322  Tenths: 72321.8         Next we need to consider when to use each type of rounding.   Some floors are covered in carpet tiles. These are squares of carpet that are tiled to cover a floor. Suppose the carpet tiles are square with side length 20 . If a room is 50 feet by 38 feet, how many carpet squares do we need?  First lets figure out how many tiles will go across the 50 feet. Before we can we need to convert feet to inches, so we can compare the width of the room to the carpet square width. 50 feet is . We want to know how many 20 in tiles fit into 600 in. tiles across. Notice that the units divide out which indicates we set this up correctly.  Next, lets figure out how many tiles will go across the 38 feet. 38 feet is . This will require laying tiles across. For each 0.8 of a tile we must cut a tile leaving only 0.2 of a tile left. This is too small to use elsewhere. Thus for each of these we will use a whole tile resulting in needing 23 tiles across (rounding up to have enough).  Finally we can count the number of tiles which is tiles.  Could we use the 0.2 part of a tile that results from cutting at the end in another row. That depends. Doing so will start the next row shifted by 0.2, so if the tiles need to be aligned due to their color\/pattern this will not work. If the color is solid or designed to be offset, we can do this and save money. Knowledge from carpet installation is required to determine this rounding.    Suppose you baked three (3) dozen cookies and are distributing them equally between 7 people. How many cookies does each person receive?  There are cookies. Each person can have cookies. Because cutting cookies into pieces is how the cookie crumbles, we must round this down to 5 cookies per person.  Curious minds want to know what happens with the rest of the cookies. Notice there will be cookies given away leaving just one cookie which the baker can enjoy.     Greatest Possible Error  We have acknowledged that measurements will always have error. We have considered ways to round that are practical for the circumstances. Part of this depends on controlling the error. This section presents how to calculate the maximum error (worst case scenario). Typically we use this to ensure that error will not cause problems.  Because our rule for rounding is digits 0-4 round down and digits 5-9 round up, this rounding will always result in a greatest possible error of 5 in the position to the right of the one rounded. Consider the following.   What is the greatest possible error if 130 was rounded to the nearest 10?  One possibility is that 130 was rounded down. Then the original number was one of 130, 131, 132, 133, or 134. 134 is the farthest away from 130 at .  The other possibility is that 130 was rounded up. Then the original number was one of 125, 126, 127, 128, or 129. 125 is the farthest away at .  Thus the greatest possible error was 5 from the case that 125 was rounded up.  Note in this solution we assumed the number rounded was an integer. However, if we allowed for 134.927 and 125.01 the result would be the same. the extra digits do not change the rounding.    What is the greatest possible error if 9.31 was rounded to the nearest hundredth?  The largest possible error is if 9.31 was rounded up from 9.305. Thus the greatest possible error is 0.005 or 5 one thousandths.   To determine the greatest possible error, we have to know what type of rounding was used. In most measurements (i.e., significant digits) standard rounding will be used. For example think about measuring on a ruler: if the object is not exactly on one of the lines, you will choose the closest one (left or right). Moving to the closest one is rounding.  The next example calculates the greatest possible error from rounding up (as opposed to rounding).   What is the greatest possible error if 223 was rounded up to the nearest unit?  223 could have been rounded up from 222.1. But it could also have been rounded up from 222.01 or anything else. Thus the greatest possible error is less than 1 ( ).              Counting Significant Digits   Determine the number of significant digits using the standard notations.                       Significant Digit Arithmetic   Perform the arithmetic indicated and write the result with the correct number of significant digits.                                      Greatest Possible Error   Determine the greatest possible error for each number or calculation.                 "
 },
 {
   "id": "definition-accuracy",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.11",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-sigfig-subtract",
@@ -736,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.14",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-sigfig-divide",
@@ -772,7 +772,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.18",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-sigfig-multi1",
@@ -799,7 +799,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "table-round-reasons",
@@ -817,7 +817,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.2.23",
   "title": "Rounding Up\/Down.",
-  "body": " Rounding Up\/Down  Round 72481 down to the nearest hundred. 72400 is rounding down: we leave the 4 (hundred position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest hundred. 72500 is rounding up: we increase the 4 to a 5 and truncate (turn to 0) all digits to the right. Note .  Round 72481 the nearest hundred. Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is which means rounding up results in a closer number. We could also recognize the need to round up by calculating and and noticing that (round up is closer).  "
+  "body": " Rounding Up\/Down   Round 72481 down to the nearest hundred.  72400 is rounding down: we leave the 4 (hundred position) alone and truncate (turn to 0) all digits to the right. Note .    Round 72481 up to the nearest hundred.  72500 is rounding up: we increase the 4 to a 5 and truncate (turn to 0) all digits to the right. Note .    Round 72481 the nearest hundred.  Because 72481 is closer to 72500 than it is to 72400, we round to 72500. We can recognize that we should round up because the tens position is which means rounding up results in a closer number. We could also recognize the need to round up by calculating and and noticing that (round up is closer).   "
 },
 {
   "id": "example-rounding-types2",
@@ -826,7 +826,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.2.24",
   "title": "Rounding Up\/Down.",
-  "body": " Rounding Up\/Down  Round 72481 down to the nearest thousand. 72000 is rounding down: we leave the 2 (thousands position) alone and truncate (turn to 0) all digits to the right. Note .  Round 72481 up to the nearest thousand. 73000 is rounding up: we increase the 2 to a 3 and truncate (turn to 0) all digits to the right. Note .  Round 72481 to the nearest thousand. Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is which makes it closer to go down. We could also recognize the need to round down by calculating and and noticing that .  "
+  "body": " Rounding Up\/Down   Round 72481 down to the nearest thousand.  72000 is rounding down: we leave the 2 (thousands position) alone and truncate (turn to 0) all digits to the right. Note .    Round 72481 up to the nearest thousand.  73000 is rounding up: we increase the 2 to a 3 and truncate (turn to 0) all digits to the right. Note .    Round 72481 to the nearest thousand.  Because 72481 is closer to 72000 than it is to 73000, we round to 72000. We can recognize that we should round up because the hundreds position is which makes it closer to go down. We could also recognize the need to round down by calculating and and noticing that .   "
 },
 {
   "id": "example-rounding-positions",
@@ -844,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.26",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-rounding-carpet-tiles",
@@ -898,7 +898,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.32",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "exercise-greatest-error2",
@@ -907,7 +907,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.33",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "section-enough-7-1-3",
@@ -916,7 +916,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-1-4",
@@ -925,7 +925,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-1-5",
@@ -934,7 +934,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-1-6",
@@ -943,7 +943,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-1-7",
@@ -952,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-1-8",
@@ -961,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-3",
@@ -970,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-4",
@@ -979,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-5",
@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-6",
@@ -997,7 +997,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-7",
@@ -1006,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-8",
@@ -1015,7 +1015,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-9",
@@ -1024,7 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-10",
@@ -1033,7 +1033,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-11",
@@ -1042,7 +1042,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-12",
@@ -1051,7 +1051,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-2-13",
@@ -1060,7 +1060,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-3-3",
@@ -1069,7 +1069,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-3-4",
@@ -1078,7 +1078,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-3-5",
@@ -1087,7 +1087,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-enough-7-3-6",
@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.5.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models",
@@ -1105,7 +1105,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Working with Applications",
-  "body": " Working with Applications   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear , rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.  This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.    Calculating Results using Models   Ohm's Law   Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage , measured in volts (V), is analagous to the amount of pressure to move the electrons. Current , measured in amperes (amps), is how much electricity is moving. Resistance measured in Ohms ( ), is, as it sounds, the resistance of a material to letting electricity flow.  The relationship is where  is voltage,  is current, and  is the resistance.      We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.  Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?  Using the model we can calculate Thus in this system 24 volts is required.  If the current is increased to 6.0 amps on the 8.0 ohm circuit, then This result tells us that to double the amps, doubling the voltage is required.  Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate Thus in this system 10 volts is required.    Lift Equation   Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.  The lift equation is where  is the lift in units of lbs or Newtons)  is air density in units of slugs per cubic feet or kilograms per cubic meter  surface area in units of square feet or square meters  is the coefficient of lift which is unitless  is velocity in units of feet per second or meters per second       We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.  Suppose the air density is 0.002378 slugs per cubic feet, surface area is 125 , , and velocity is 84.4 . Calculate the lift.   . Under these circumstances this airfoil can lift 1650 lbs.  If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.   . If nothing else is changed (like velocity), this airfoil can lift (hold in the air) lbs less.     Ideal Gas Law   The ideal gas law is a relationship between the volume, pressure, temperature, and number of molecules of an ideal gas. The relationship is where  is the pressure in units of atmospheres (atm) or Pascals (Pa)  is the volume in units of cubic feet or cubic meters  is the number of moles (number of molecules, see a chemistry text for details)  is a constant specific to each gas (e.g., oxygen and nitrogen have different ones) in units that match the other values  is the temperature in degrees Rankine or Kelvin (these are shifted versions of Fahrenheit and Celsius).   When the number of molecules remains fixed, such as in a closed container, this law can be used to produce the equation where  , , and are the initial pressure, volume, and temperature, and  , , and are the pressure, volume, and temperature at another time.   Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant which is looked up in reference books.  For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.     Suppose the initial conditions are , , and . Also and . Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding. .  If instead , then we have the following.        Calculating Results Requiring Solving  The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.  It does not matter if the value we desire is by itself, we can solve using arithmetic.   Recall the model for lift . Suppose we know the weight of the aircraft ( lbs), density of air ( ), wing surface area ( ), and velocity ( ). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.    The desired value from the model may be in a denominator. We can solve for this using multiplication and division.   Recall from that under simplifying assumptions Suppose we know the initial conditions ( atm, , F) and also atm and . What must the new temperature ( ) be? This is a science model with measurements, so we will use significant digits rounding.   Note we use significant digits for rounding because this is a science model.   The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.   Solve the equation for . Note, this model is explained in .     Solve the lift equation for .   Notice that the steps are the same algebra as if there were numbers. Also we could divide by and we are not concerned with the square as part of solving for .   Solve the lift equation for .    Process Overview  Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.  Our first task is to read the problem to understand it.  Read the problem description a few times.  If you can paraphrase it, you understand it enough.  Drawing a picture and labeling parts may help.   Identify what we are asked to do.  Identify the information we are given. Note distinctions like measurements and rates.  Identify any units. These often help us set up a model.  Write everything! We do not model in our heads.   Next we write the mathematical model (equation or function).  Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).  Do not insert any numbers yet.  Do not do any calculations yet.   Now we will have a model that matches our situation and possibly some numbers to insert.  Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).  Solve for the desired value. Note it may help to do some calculations with the numbers first.  State your answer and use units appropriately.   Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).    You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.   UHaul ad with pricing   Ad containing an image of the truck, truck size information, and pricing information. $39.95 plus $0.79 per mile.      We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).  We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.  Our model is where is the total cost and is the number of miles.  We know the total cost, which will leaves in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in  . The charge is for 52 miles.     Using math modeling for rental truck                    "
+  "body": " Working with Applications   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear , rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.  This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.    Calculating Results using Models   Ohm's Law   Ohm's Law relates three properties of electricity: voltage, current, and resistance. Voltage , measured in volts (V), is analagous to the amount of pressure to move the electrons. Current , measured in amperes (amps), is how much electricity is moving. Resistance measured in Ohms ( ), is, as it sounds, the resistance of a material to letting electricity flow.  The relationship is where  is voltage,  is current, and  is the resistance.      We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.  Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?  Using the model we can calculate Thus in this system 24 volts is required.  If the current is increased to 6.0 amps on the 8.0 ohm circuit, then This result tells us that to double the amps, doubling the voltage is required.  Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate Thus in this system 10 volts is required.    Lift Equation   Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.  The lift equation is where  is the lift in units of lbs or Newtons)  is air density in units of slugs per cubic feet or kilograms per cubic meter  surface area in units of square feet or square meters  is the coefficient of lift which is unitless  is velocity in units of feet per second or meters per second       We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.  Suppose the air density is 0.002378 slugs per cubic feet, surface area is 125 , , and velocity is 84.4 . Calculate the lift.   . Under these circumstances this airfoil can lift 1650 lbs.  If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.   . If nothing else is changed (like velocity), this airfoil can lift (hold in the air) lbs less.     Ideal Gas Law   The ideal gas law is a relationship between the volume, pressure, temperature, and number of molecules of an ideal gas. The relationship is where  is the pressure in units of atmospheres (atm) or Pascals (Pa)  is the volume in units of cubic feet or cubic meters  is the number of moles (number of molecules, see a chemistry text for details)  is a constant specific to each gas (e.g., oxygen and nitrogen have different ones) in units that match the other values  is the temperature in degrees Rankine or Kelvin (these are shifted versions of Fahrenheit and Celsius).   When the number of molecules remains fixed, such as in a closed container, this law can be used to produce the equation where  , , and are the initial pressure, volume, and temperature, and  , , and are the pressure, volume, and temperature at another time.   Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant which is looked up in reference books.  For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.     Suppose the initial conditions are , , and . Also and . Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding. .  If instead , then we have the following.              Calculating Results Requiring Solving  The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.  It does not matter if the value we desire is by itself, we can solve using arithmetic.   Recall the model for lift . Suppose we know the weight of the aircraft ( lbs), density of air ( ), wing surface area ( ), and velocity ( ). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.    The desired value from the model may be in a denominator. We can solve for this using multiplication and division.   Recall from that under simplifying assumptions Suppose we know the initial conditions ( atm, , F) and also atm and . What must the new temperature ( ) be? This is a science model with measurements, so we will use significant digits rounding.   Note we use significant digits for rounding because this is a science model.   The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.   Solve the equation for . Note, this model is explained in .     Solve the lift equation for .   Notice that the steps are the same algebra as if there were numbers. Also we could divide by and we are not concerned with the square as part of solving for .    Solve the lift equation for .     Process Overview  Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.  Our first task is to read the problem to understand it.  Read the problem description a few times.  If you can paraphrase it, you understand it enough.  Drawing a picture and labeling parts may help.   Identify what we are asked to do.  Identify the information we are given. Note distinctions like measurements and rates.  Identify any units. These often help us set up a model.  Write everything! We do not model in our heads.   Next we write the mathematical model (equation or function).  Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).  Do not insert any numbers yet.  Do not do any calculations yet.   Now we will have a model that matches our situation and possibly some numbers to insert.  Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).  Solve for the desired value. Note it may help to do some calculations with the numbers first.  State your answer and use units appropriately.   Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).    You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.   UHaul ad with pricing   Ad containing an image of the truck, truck size information, and pricing information. $39.95 plus $0.79 per mile.      We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).  We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.  Our model is where is the total cost and is the number of miles.  We know the total cost, which will leaves in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in  . The charge is for 52 miles.     Using math modeling for rental truck                                            "
 },
 {
   "id": "model-ohms-law",
@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.3.7",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "exercise-formula-ideal-gas1",
@@ -1177,7 +1177,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.3.8",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-model-solve-lift-cl",
@@ -1222,7 +1222,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.3.13",
   "title": "",
-  "body": "Solve the lift equation for . "
+  "body": " Solve the lift equation for .  "
 },
 {
   "id": "example-model-rental-truck",
@@ -1249,7 +1249,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-2",
@@ -1258,7 +1258,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-3",
@@ -1267,7 +1267,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-4",
@@ -1276,7 +1276,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-5",
@@ -1285,7 +1285,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-6",
@@ -1294,7 +1294,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-7",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-8",
@@ -1312,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-9",
@@ -1321,7 +1321,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-10",
@@ -1330,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-11",
@@ -1339,7 +1339,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-models-6-12",
@@ -1348,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-activity-literal-formula",
@@ -1384,7 +1384,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Percents",
-  "body": " Percents   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.  We will learn how to calculate a percent ( , ), how to convert between percents and the numbers (also , ), how to describe growth in terms of percents ( , ), and how to recognize what a percent does and cannot tell us ( , ).    Calculating Percents   Percent  A percent is a ratio of part of something to the whole of that thing that is written as parts per hundred.    Calculate a Percent   In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as . This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.  Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.     Generally, we calculate a percent by    In the class there are 34 students. Of them 13 are male. The percent is calculated as   Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.   In the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.  Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.   In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?  We use the same setup as before, but we do not know the part yet.  Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.  We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.     Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.   In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?  Again we use the same setup, but we do not yet know the whole.    How to Use an Example: Percents  Consider the following question.  If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?  Because we see 2% we recognize this as a percent problem. Without more information we can begin writing. In the first step is writing the definition of percent. In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case . Thus the next step is In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the entire book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable. Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills. Thus we know the entire book has 900 pages.    In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.   This video covers the topics above.     Percent Increase\/Decrease  A common use of percents is to indicate how much something has increased (or decreased) from one time to the next. In these cases the part is the amount changed and the whole is the original amount.   In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.  This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22. .    We say that the class size had a percent increase of 55%. Note this says the increase was 55% of the previous whole .  We can think of this in another way.    In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?  We calculate the percentage the fall class size is with respect to the spring class size. .  Because the fall class size (in the role of part ) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.  Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.       What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.  Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. . Thus the percent decrease is .  As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is . Because the new enrollment is 49% of the previous enrollment the decrease is 100%-49%=51%.   Two bars labeled with both amount and percents.  A long bar labeled 78 is above a shorter bar labeled 38. Their left edges are aligned. The bottom\/shorter bar is labeled 49%. The length from the end of the short bar to the (right) end of the longer bar is labeled 51%.    For percent increase problems it may seem fastest to calculate new\/old-100% whereas for percent decrease problems it may seem most effective to calculate (new-old)\/old. The methods perform the same calculation, so you may choose the one with which you make the correct calculation the most frequently.   The following example starts with the percent increase information, and determines the original amount.   This year's sales increased 3% over last year's sales. If total sales this year were $576,211, how much were last year's sales?  We can use the usual part\/whole definition. It is important to place our information in the correct locations. We are given a percent increase, so we will want to calculate the percent. This is . The amount we are given (this year) is the part; we want to calculate the whole.   If we want to know what amount constituted the 3% increase of the previous year, we can now calculate that as the difference. $576,211 $559,428.16=$16,782.84. We can confirm it is 3% by dividing or 3% when rounded. Notice we needed to compare to the previous year's amount which was not given.   This video covers percent increase topics.     Limitations  We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.   Which of the following do you suppose represents a greater reduction in students?     Percent reduction  Total  18%  495  1.85%  54  60%  5         Percent reduction  Total  Number reduced  18%  495  90  1.85%  54  1  60%  5  3   The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.  Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?    While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.   contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.  When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.    Declared Race in Alaska     Race  Percent  Alaska Native\/Native American  21.9%  Native Hawaiian\/Pacific Islander  2.5%  Asian  8.4%  Black  40.8%  White  70.4%  Other  5.4%       Questions about the definition, terminology, and notation.       Use percentages in various settings.                Percents in Applications   Use percents to answer these questions in various contexts.           Check your understanding of percents on these quantitative literacy questions.            "
+  "body": " Percents   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    Percentages are an often convenient way to express the relative size of two quantities such as the number of people who like lemon meringue pie to the number of those who like pie.  We will learn how to calculate a percent ( , ), how to convert between percents and the numbers (also , ), how to describe growth in terms of percents ( , ), and how to recognize what a percent does and cannot tell us ( , ).    Calculating Percents   Percent  A percent is a ratio of part of something to the whole of that thing that is written as parts per hundred.    Calculate a Percent   In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as . This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.  Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.     Generally, we calculate a percent by    In the class there are 34 students. Of them 13 are male. The percent is calculated as   Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.      In the first pair of examples we had a whole class of 34 students with 21 female and 13 male. Of course 21+13 = 34, that is the two parts add up to the whole. Because of this 61.76% + 38.24% = 100% as well.  Sometimes we are given the size of the whole and a percent, and we are interested in calculating how many are in the part.   In a class of 22 students, 18% are Alaska Native. How many students are Alaska Native?  We use the same setup as before, but we do not know the part yet.  Notice that 3.96 does not make sense as a result when counting people, so we expect that the correct result is 4. We can confirm this by checking that This suggests that the original 18% was rounded. Likely it was rounded to the ones position out of convenience.  We can solve this another way. We know that a percent is a number out of 100, so we can skip a step from the previous example.        Sometimes we know the size of a part and what percent it is of the whole. From this information we can calculate the size of the whole.   In a class 2 Alaska Native students make up 6.25% of the class. How many students are in the class?  Again we use the same setup, but we do not yet know the whole.    How to Use an Example: Percents  Consider the following question.  If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?  Because we see 2% we recognize this as a percent problem. Without more information we can begin writing. In the first step is writing the definition of percent. In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case . Thus the next step is In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the entire book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable. Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills. Thus we know the entire book has 900 pages.    In this next check point the terminology is different but something is still part of a whole and the amount can be calculated using the same approach as above.      This video covers the topics above.     Percent Increase\/Decrease  A common use of percents is to indicate how much something has increased (or decreased) from one time to the next. In these cases the part is the amount changed and the whole is the original amount.   In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.  This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22. .    We say that the class size had a percent increase of 55%. Note this says the increase was 55% of the previous whole .  We can think of this in another way.    In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?  We calculate the percentage the fall class size is with respect to the spring class size. .  Because the fall class size (in the role of part ) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.  Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.          What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.  Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. . Thus the percent decrease is .  As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is . Because the new enrollment is 49% of the previous enrollment the decrease is 100%-49%=51%.   Two bars labeled with both amount and percents.  A long bar labeled 78 is above a shorter bar labeled 38. Their left edges are aligned. The bottom\/shorter bar is labeled 49%. The length from the end of the short bar to the (right) end of the longer bar is labeled 51%.    For percent increase problems it may seem fastest to calculate new\/old-100% whereas for percent decrease problems it may seem most effective to calculate (new-old)\/old. The methods perform the same calculation, so you may choose the one with which you make the correct calculation the most frequently.      The following example starts with the percent increase information, and determines the original amount.   This year's sales increased 3% over last year's sales. If total sales this year were $576,211, how much were last year's sales?  We can use the usual part\/whole definition. It is important to place our information in the correct locations. We are given a percent increase, so we will want to calculate the percent. This is . The amount we are given (this year) is the part; we want to calculate the whole.   If we want to know what amount constituted the 3% increase of the previous year, we can now calculate that as the difference. $576,211 $559,428.16=$16,782.84. We can confirm it is 3% by dividing or 3% when rounded. Notice we needed to compare to the previous year's amount which was not given.   This video covers percent increase topics.     Limitations  We use percents because they can make the difference in scale between two quantities clear to us. However presenting a percent by itself can be deceptive.   Which of the following do you suppose represents a greater reduction in students?     Percent reduction  Total  18%  495  1.85%  54  60%  5         Percent reduction  Total  Number reduced  18%  495  90  1.85%  54  1  60%  5  3   The 18% of 495 represents the largest number of students. The 60% is a higher percent, but because the total is so small it represents very few students. A percent is more useful if we also know the total number.  Did you calculate 89 for 18% of 495? Compare the following to see why both are reasonable responses. 89 is what percent of 495? 90 is what percent of 495?    While percent is defined a parts per one hundred, there are times when percents, sensibly, add to more than one hundred.   contains data from the 2020 U.S. Census. It contains the percent of the state population who checked the box for that race. Note the total is 149.4%. The reason is that a person can select more than one race. As a result a large number of people are counted more than once. Naturally the total is greater than 100 as a result.  When interpreting percents and data in general we should ask about the assumptions are before we draw conclusions.    Declared Race in Alaska     Race  Percent  Alaska Native\/Native American  21.9%  Native Hawaiian\/Pacific Islander  2.5%  Asian  8.4%  Black  40.8%  White  70.4%  Other  5.4%       Questions about the definition, terminology, and notation.             Use percentages in various settings.                                        Percents in Applications   Use percents to answer these questions in various contexts.                     Check your understanding of percents on these quantitative literacy questions.                          "
 },
 {
   "id": "definition-percent",
@@ -1420,7 +1420,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.1.4",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-percent-calculate-part",
@@ -1438,7 +1438,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.1.6",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-percent-calculate-whole",
@@ -1465,7 +1465,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.1.9",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-percent-increase1",
@@ -1501,7 +1501,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.1.12",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-percent-increase-or-decrease",
@@ -1519,7 +1519,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.1.14",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-original-from-increase",
@@ -1564,7 +1564,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-1-3",
@@ -1573,7 +1573,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-1-4",
@@ -1582,7 +1582,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-2",
@@ -1591,7 +1591,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-3",
@@ -1600,7 +1600,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-4",
@@ -1609,7 +1609,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-5",
@@ -1618,7 +1618,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-6",
@@ -1627,7 +1627,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-7",
@@ -1636,7 +1636,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-8",
@@ -1645,7 +1645,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-9",
@@ -1654,7 +1654,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-10",
@@ -1663,7 +1663,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-11",
@@ -1672,7 +1672,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-12",
@@ -1681,7 +1681,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-2-13",
@@ -1690,7 +1690,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-3-3",
@@ -1699,7 +1699,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-3-4",
@@ -1708,7 +1708,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-3-5",
@@ -1717,7 +1717,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-3-6",
@@ -1726,7 +1726,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-3-7",
@@ -1735,7 +1735,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-4-2",
@@ -1744,7 +1744,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-4-3",
@@ -1753,7 +1753,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-4-4",
@@ -1762,7 +1762,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.23",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-4-5",
@@ -1771,7 +1771,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.24",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-4-6",
@@ -1780,7 +1780,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.25",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-4-7",
@@ -1789,7 +1789,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.26",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-percent-6-4-8",
@@ -1798,7 +1798,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.27",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture",
@@ -1807,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Mixtures",
-  "body": " Mixtures   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    This section continues the topic of percents through a set of applications.  There are many situations where we desire to mix two or more substances together in precise ratio. These include mixing medicines in substances (like water) and mixing ingredients in a recipe. This section presents how to calculate the ratio of substances after mixing multiple solutions, and the reverse problem how to calculate the amount of each solution to mix for a desired ratio of substances.    Calculate the Result   In some circumstances we know the concentrations of substances in multiple solutions and how much of each has been combined. From this we can calculate the concentration of substances in the resulting solution.    Mix Multiple Solutions  The first mixture problem we consider is calculating the result of mixing two, known solutions.   Suppose we have a container with a solution of sugar water that is 22% sugar and another container with a solution of sugar water that is 16% sugar. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent of sugar in the resulting solution? Round the percent to two decimal places.  To calculate a percent we need the amount of the part and the amount of the whole. We are told the total amount of each solution we are using, so we can calculate the whole (total amount of resulting solution) directly. Because they have the same units we can add. .  We cannot simply add the amounts of sugar from each because we are told the percent rather than the amount. However, we know how to convert a percent and total amount to an amount of the part. We did this in . . .  Finally we can calculate the percent of sugar in the resulting mixture using the defintion of percent. The percent of sugar in the resulting mixture is .    Suppose we have 11.3 lbs of 4140 steel which is a type of steel containing 40% carbon and 9.2 lbs of 4150 steel which contains 50% carbon. If we melt and mix these two metals, what is the resulting percent carbon? Round the final percent to two decimal places.  To calculate a percent we need the amount of the part and the total amount. We can calculate the total directly: . Note we know we can add these because both represented total amounts and they have the same units (g).  To calculate the part we need to know how much (rather than what percent) carbon was obtained from the two metals. We can calculate that from the given percents and amounts. Thus the percent of carbon in the resulting metal is .      Dilute a Solution  This section presents a slight variation of the mixture calculation problem. In this case we are adding only water resulting in diluting the solution.   Dilute Alcohol  91% isopropyl alcohol is not a good agtent for sanitzing because it evaporates so quickly that bacteria are not exposed long enough to die. As a result we want to dilute it before use. Suppose we begin with 16.0 oz of a 91.0% isopropyl alcohol and add 4.00 oz of water to this mixture. What will the percent alcohol of the resulting solution be? These are measurements, so we will round using significant digits.  We know we can calculate the percent alcohol by dividing the amount of alcohol (part) by the total amount. We also know that we are not increasing the amount of alcohol (adding only water), so we can use the original percent alcohol and original amount to calculate the amount of alcohol. .  We are adding 4.00 oz total to the original solution, thus the volume of the resulting solution is .  Now that we know the part and the whole we can calculate the resulting percent alcohol. .   If we added more water would the percent alcohol be greater or less? If we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.      Producing a Desired Solution  In the previous section we calculated the result of mixing two solutions. In this section the goal is to figure out how much water to add to achieve a specific concentration. That is, the previous section calculated in this section we solve.   Calcluate Dilution  If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to obtain (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.  The concentration (55.0%) is the primary goal here rather than the resulting amount (25.0 oz), because we need at least that amount: more is okay. As a result we will set up our calculation based on the desired percent alcohol.  This is a percent problem with the total alcohol unchanged and adding only some amount of water. This matches the previous example, except that we are calculating the amount to add and know the resulting percent. However, we can write essentially the same equation. where is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.  Because all of the alcohol comes from the initial solution, we can calculate the amount of alcohol in the same way as before. . Thus we setup  This means that to obtain a solution with 55.0% alcohol, we need to add 10 oz of water.  We end up with of new solution. Because we have at least the 25 oz we need, and it is the correct concentration, we have achieved our goal. If we had added less water to get exactly 25 oz we would have had a more concentrated solution than desired.  Also note that the percent alcohol is or 56%. This is not exactly 55% because of the rounding in the calculations. If we needed it to be closer to 55%, we would need to be able to measure more precisely.                    "
+  "body": " Mixtures   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Calculate Percentages (skill)  Understand and interpret percentages (critical thinking)    This section continues the topic of percents through a set of applications.  There are many situations where we desire to mix two or more substances together in precise ratio. These include mixing medicines in substances (like water) and mixing ingredients in a recipe. This section presents how to calculate the ratio of substances after mixing multiple solutions, and the reverse problem how to calculate the amount of each solution to mix for a desired ratio of substances.    Calculate the Result   In some circumstances we know the concentrations of substances in multiple solutions and how much of each has been combined. From this we can calculate the concentration of substances in the resulting solution.    Mix Multiple Solutions  The first mixture problem we consider is calculating the result of mixing two, known solutions.   Suppose we have a container with a solution of sugar water that is 22% sugar and another container with a solution of sugar water that is 16% sugar. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent of sugar in the resulting solution? Round the percent to two decimal places.  To calculate a percent we need the amount of the part and the amount of the whole. We are told the total amount of each solution we are using, so we can calculate the whole (total amount of resulting solution) directly. Because they have the same units we can add. .  We cannot simply add the amounts of sugar from each because we are told the percent rather than the amount. However, we know how to convert a percent and total amount to an amount of the part. We did this in . . .  Finally we can calculate the percent of sugar in the resulting mixture using the defintion of percent. The percent of sugar in the resulting mixture is .    Suppose we have 11.3 lbs of 4140 steel which is a type of steel containing 40% carbon and 9.2 lbs of 4150 steel which contains 50% carbon. If we melt and mix these two metals, what is the resulting percent carbon? Round the final percent to two decimal places.  To calculate a percent we need the amount of the part and the total amount. We can calculate the total directly: . Note we know we can add these because both represented total amounts and they have the same units (g).  To calculate the part we need to know how much (rather than what percent) carbon was obtained from the two metals. We can calculate that from the given percents and amounts. Thus the percent of carbon in the resulting metal is .         Dilute a Solution  This section presents a slight variation of the mixture calculation problem. In this case we are adding only water resulting in diluting the solution.   Dilute Alcohol  91% isopropyl alcohol is not a good agtent for sanitzing because it evaporates so quickly that bacteria are not exposed long enough to die. As a result we want to dilute it before use. Suppose we begin with 16.0 oz of a 91.0% isopropyl alcohol and add 4.00 oz of water to this mixture. What will the percent alcohol of the resulting solution be? These are measurements, so we will round using significant digits.  We know we can calculate the percent alcohol by dividing the amount of alcohol (part) by the total amount. We also know that we are not increasing the amount of alcohol (adding only water), so we can use the original percent alcohol and original amount to calculate the amount of alcohol. .  We are adding 4.00 oz total to the original solution, thus the volume of the resulting solution is .  Now that we know the part and the whole we can calculate the resulting percent alcohol. .   If we added more water would the percent alcohol be greater or less? If we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.        Producing a Desired Solution  In the previous section we calculated the result of mixing two solutions. In this section the goal is to figure out how much water to add to achieve a specific concentration. That is, the previous section calculated in this section we solve.   Calcluate Dilution  If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to obtain (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.  The concentration (55.0%) is the primary goal here rather than the resulting amount (25.0 oz), because we need at least that amount: more is okay. As a result we will set up our calculation based on the desired percent alcohol.  This is a percent problem with the total alcohol unchanged and adding only some amount of water. This matches the previous example, except that we are calculating the amount to add and know the resulting percent. However, we can write essentially the same equation. where is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.  Because all of the alcohol comes from the initial solution, we can calculate the amount of alcohol in the same way as before. . Thus we setup  This means that to obtain a solution with 55.0% alcohol, we need to add 10 oz of water.  We end up with of new solution. Because we have at least the 25 oz we need, and it is the correct concentration, we have achieved our goal. If we had added less water to get exactly 25 oz we would have had a more concentrated solution than desired.  Also note that the percent alcohol is or 56%. This is not exactly 55% because of the rounding in the calculations. If we needed it to be closer to 55%, we would need to be able to measure more precisely.                                              "
 },
 {
   "id": "example-percent-mixture-sugar",
@@ -1834,7 +1834,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.2.3",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-dilute-alcohol",
@@ -1852,7 +1852,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.2.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-calculate-dilute",
@@ -1870,7 +1870,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.2.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-1",
@@ -1879,7 +1879,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-2",
@@ -1888,7 +1888,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-3",
@@ -1897,7 +1897,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-4",
@@ -1906,7 +1906,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-5",
@@ -1915,7 +1915,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-6",
@@ -1924,7 +1924,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-7",
@@ -1933,7 +1933,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-8",
@@ -1942,7 +1942,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-9",
@@ -1951,7 +1951,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-10",
@@ -1960,7 +1960,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-11",
@@ -1969,7 +1969,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-mixture-5-12",
@@ -1978,7 +1978,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.3.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios",
@@ -1987,7 +1987,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Ratios",
-  "body": " Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    A ratio expresses a fixed relationship between two quantities. This section illustrates using ratios to calculate amounts subject to a ratio and presents how to recognize what a ratio does and cannot tell us. Note, percents are simply ratios scaled to parts per 100, that is, what we know about percents is applicable here.    Example Ratios   Simple syrup consists of one cup of sugar and one cup of water which is heated until the sugar is disolved. There are multiple ratios that express this combination. , ratio of sugar to water by weight, ratio of sugar to simple syrup.  Each of these ratios indicates that there is a fixed amount of sugar relative to the water or resulting syrup. That is, is if we made simple syrup with 2 cups of sugar we would need 2 cups of water because by reducing fractions.    In a neighborhood there are 7 dogs and 12 cats. To express the relative number dogs and cats we can write the ratio  Note that . Because it is less than one the ratio tells us that there are fewer dogs than cats in this neighborhood.  We could also write to express the exact same relationship. Note that . Because it is greater than one the ratio tells us that there are more cats than dogs in the neighborhood (same result as above).    Rates are expressed as ratios. The following rates are all written as ratios.  Notice that these (and most rates) are expressed with the denominator being one. This makes it easier to calculate as will be seen below. Frequently we will skip writing the one in the denominator, e.g., .  Rates are not required to have a denominator of one and sometimes a different denominator is easier for calculation. For example     Using Ratios  Just like percents (which are ratios written in decimal form) if we know a ratio and one of the amounts we can calculate the other amount. The method is the same as with percents, namely multiplying the correct number or solving an equation.   Ratio: Airspeed  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?  We notice that the speed units (nautical miles per hour) match with the hours. If the speed and time are multiplied we will end up with a distance. Thus the units suggest we can multiply. .   There is another approach to the same question.   Ratio: Airspeed by Table  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . How far can the plane cruise in 2.5 hours?  Because this ratio remains the same during cruise we can break the problem down into pieces. Based on the ratio (speed) in the first hour the plane will fly 110 nm. In the second hour it will fly another 110 nm. In the last half hour it will fly half of the distance which is nm. Thus in 2.5 hours it will fly nm.  Some manuals provide tables to make this method convenient. See for a table of this sort. How far can the DA-20 cruise in 2.7 hours? We need to write 2.7 as the sum of numbers in the table. One way is . From the table we know it will fly 220 nm in 2 hours, 55 nm in an additional 0.5 hours, and 22 nm in the final 0.2 hours. Thus it will fly nm.  While this method makes sense, it is less efficient than simply multiplying as in the previous example.    Airspeed and Distance     Time Distance  0.1 hour 11 nm  0.2 hour 22 nm  0.3 hour 33 nm  0.4 hour 44 nm  0.5 hour 55 nm  1 hour 110 nm  2 hour 220 nm  3 hour 330 nm     Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?  We can set this up like the calculation in . In that example multiplied the ratio (nm\/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal\/min) by the number of minutes which will give us gallons. .    Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.0020 liters how much mercury is consumed?  We can use the ratio . We apply this ratio to the given volume of 0.0020 liters.     The method for ratios that have a number other than one in the denominator is the same.   A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of this saline solution? Your scale is precise to a gram. Round appropriately.  We can apply the given ratio (2.5 g\/240 mL) to the given amount (0.5 L). First it will be convenient to convert a half liter to milliliters. This is also a ratio problem. See for the conversion ratio. The units suggest that we can multiply the saline solution ratio by the desired volume. . We round to units, because we cannot measure more precisely.    At 90 nm\/hr a plane travels 3 nm\/2 min. How far will it travel in 6 minutes?  We can multiply the given ratio (nm\/hr) by the given amount (min) to calculate distance (nm).      Understanding Ratios  Like percents ratios tell us a relationship between two quantities but do not tell us how much. For example if a cookie recipe calls for 2 cups of milk for every 3 eggs, we do not know how many eggs are needed for a dozen cookies. We would also need to know either how many cups of milk per dozen or how many eggs per dozen.  Ratios may be based on rounded numbers. For example the unit convesion is convenient for quick calculations. However, which is a more accurate conversion rate. If we are trying to convert Tempo 30 (a speed limit of 30 kph) to mph this ratio is fine. If we are sending a satellite to another planet, we will need a more accurate conversion.  Rounding may occur to make the ratio easier to comprehend. For example according to an article by the U.S. Census Bureau 1 in 6 people in the U.S. was aged 65 and over. Because this ratio uses small numbers it is easy to understand. It is much easier to read and use than a more precise estimate of .     Writing Ratios   Write the ratios requested.         Ratios in Contexts   Read the description, and write the requested ratio.           Using Ratios in Contexts   Answer the question using ratios.           Interpretting Ratios   Determine what each ratio tells us about the circumstances.        "
+  "body": " Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    A ratio expresses a fixed relationship between two quantities. This section illustrates using ratios to calculate amounts subject to a ratio and presents how to recognize what a ratio does and cannot tell us. Note, percents are simply ratios scaled to parts per 100, that is, what we know about percents is applicable here.    Example Ratios   Simple syrup consists of one cup of sugar and one cup of water which is heated until the sugar is disolved. There are multiple ratios that express this combination. , ratio of sugar to water by weight, ratio of sugar to simple syrup.  Each of these ratios indicates that there is a fixed amount of sugar relative to the water or resulting syrup. That is, is if we made simple syrup with 2 cups of sugar we would need 2 cups of water because by reducing fractions.    In a neighborhood there are 7 dogs and 12 cats. To express the relative number dogs and cats we can write the ratio  Note that . Because it is less than one the ratio tells us that there are fewer dogs than cats in this neighborhood.  We could also write to express the exact same relationship. Note that . Because it is greater than one the ratio tells us that there are more cats than dogs in the neighborhood (same result as above).    Rates are expressed as ratios. The following rates are all written as ratios.  Notice that these (and most rates) are expressed with the denominator being one. This makes it easier to calculate as will be seen below. Frequently we will skip writing the one in the denominator, e.g., .  Rates are not required to have a denominator of one and sometimes a different denominator is easier for calculation. For example     Using Ratios  Just like percents (which are ratios written in decimal form) if we know a ratio and one of the amounts we can calculate the other amount. The method is the same as with percents, namely multiplying the correct number or solving an equation.   Ratio: Airspeed  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . Cruise is a portion of flight in which the speed is typically constant. How far can the plane cruise in 2.5 hours?  We notice that the speed units (nautical miles per hour) match with the hours. If the speed and time are multiplied we will end up with a distance. Thus the units suggest we can multiply. .   There is another approach to the same question.   Ratio: Airspeed by Table  According to the airplane flight manual the Diamond DA-20 cruises at the rate (speed) of . How far can the plane cruise in 2.5 hours?  Because this ratio remains the same during cruise we can break the problem down into pieces. Based on the ratio (speed) in the first hour the plane will fly 110 nm. In the second hour it will fly another 110 nm. In the last half hour it will fly half of the distance which is nm. Thus in 2.5 hours it will fly nm.  Some manuals provide tables to make this method convenient. See for a table of this sort. How far can the DA-20 cruise in 2.7 hours? We need to write 2.7 as the sum of numbers in the table. One way is . From the table we know it will fly 220 nm in 2 hours, 55 nm in an additional 0.5 hours, and 22 nm in the final 0.2 hours. Thus it will fly nm.  While this method makes sense, it is less efficient than simply multiplying as in the previous example.    Airspeed and Distance     Time Distance  0.1 hour 11 nm  0.2 hour 22 nm  0.3 hour 33 nm  0.4 hour 44 nm  0.5 hour 55 nm  1 hour 110 nm  2 hour 220 nm  3 hour 330 nm     Water is flowing out of a hose at a rate of 11 gallons per minute. How many gallons have come out after 2.7 minutes?  We can set this up like the calculation in . In that example multiplied the ratio (nm\/hr) by the number of hours which gave us nm. Here we multiply the ratio (gal\/min) by the number of minutes which will give us gallons. .    Based on data from the FDA the average amount of mercury found in fresh or frozen salmon is 0.022 ppm (parts per million). This means there are 0.022 mg of mercury in one liter of salmon. If a meal portion of salmon is 0.0020 liters how much mercury is consumed?  We can use the ratio . We apply this ratio to the given volume of 0.0020 liters.        The method for ratios that have a number other than one in the denominator is the same.   A saline solution intended for nasal rinsing has a ratio of 2.5 g of salt (sodium chloride) per 240 mL of pure water. How much salt is needed to make a half liter of this saline solution? Your scale is precise to a gram. Round appropriately.  We can apply the given ratio (2.5 g\/240 mL) to the given amount (0.5 L). First it will be convenient to convert a half liter to milliliters. This is also a ratio problem. See for the conversion ratio. The units suggest that we can multiply the saline solution ratio by the desired volume. . We round to units, because we cannot measure more precisely.    At 90 nm\/hr a plane travels 3 nm\/2 min. How far will it travel in 6 minutes?  We can multiply the given ratio (nm\/hr) by the given amount (min) to calculate distance (nm).         Understanding Ratios  Like percents ratios tell us a relationship between two quantities but do not tell us how much. For example if a cookie recipe calls for 2 cups of milk for every 3 eggs, we do not know how many eggs are needed for a dozen cookies. We would also need to know either how many cups of milk per dozen or how many eggs per dozen.  Ratios may be based on rounded numbers. For example the unit convesion is convenient for quick calculations. However, which is a more accurate conversion rate. If we are trying to convert Tempo 30 (a speed limit of 30 kph) to mph this ratio is fine. If we are sending a satellite to another planet, we will need a more accurate conversion.  Rounding may occur to make the ratio easier to comprehend. For example according to an article by the U.S. Census Bureau 1 in 6 people in the U.S. was aged 65 and over. Because this ratio uses small numbers it is easy to understand. It is much easier to read and use than a more precise estimate of .     Writing Ratios   Write the ratios requested.                 Ratios in Contexts   Read the description, and write the requested ratio.                       Using Ratios in Contexts   Answer the question using ratios.                       Interpretting Ratios   Determine what each ratio tells us about the circumstances.              "
 },
 {
   "id": "example-ratio-simple-syrup",
@@ -2068,7 +2068,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.3.9",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-ratio-apply-saline",
@@ -2095,7 +2095,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.3.12",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "section-ratios-6-1-3",
@@ -2104,7 +2104,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-1-4",
@@ -2113,7 +2113,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-1-5",
@@ -2122,7 +2122,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-1-6",
@@ -2131,7 +2131,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-2-3",
@@ -2140,7 +2140,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-2-4",
@@ -2149,7 +2149,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-2-5",
@@ -2158,7 +2158,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-2-6",
@@ -2167,7 +2167,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-2-7",
@@ -2176,7 +2176,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-2-8",
@@ -2185,7 +2185,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-3-3",
@@ -2194,7 +2194,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-3-4",
@@ -2203,7 +2203,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-3-5",
@@ -2212,7 +2212,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-3-6",
@@ -2221,7 +2221,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-3-7",
@@ -2230,7 +2230,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-3-8",
@@ -2239,7 +2239,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-4-3",
@@ -2248,7 +2248,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-4-4",
@@ -2257,7 +2257,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-ratios-6-5",
@@ -2266,7 +2266,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.3.4.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion",
@@ -2275,7 +2275,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Proportions",
-  "body": " Proportions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    In some circumstances a ratio is fixed. By fixed ratio we mean that no matter which data points we select, we obtain a ratio with equal value. For example when we scale a recipe the ratio of flour to water must remain the same if we make one recipe or double it. These circumstances are called proportions . An example of a non-fixed ratio isa bobble head toy. The head has a different scale (ratio of toy head size to real head size) than the body does.  This section presents a variety of problems in which these arise and, indirectly, reviews the algebra needed to solve them.  Fixed ratios make sense in examples like conversion of units. For example 1 gallon is always 4 quarts. In contrast rates often change: your average speed may be 25 mph, but you must have driven slower and faster during that drive. For the ratios that do not change we can write equations and solve for properties.    Proportion Examples  Because a proportion means a ratio is fixed, we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.   The first example shows a straight forward proportion with the simplest solving method. This method uses the same algebra steps as solving a percent problem.   Cheesecake Groceries: Double  A particular cheesecake recipe calls for g of eggs and g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?  This means everything will be in ratio of 2 (needed)\/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2\/1. Thus Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable). Because scales are accurate to a gram, we do not need to round.  We can perform the same calculation for the cream cheese.  In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will result in the food not turning out right.   This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.   Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for g of flour, how much flour does he need for the 6 dozen cookies?  First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is . Thus to determine the amount of flour needed we set up the proportion   The following example shows methods for handling proportions when the desired quantity (variable) ends up in the denominator.   Scale Model  A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle. We can express this as a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If we want to know how large a part of the shuttle is and we know on the model it is 1.72 inches we can set up the proportion .  Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write   The following example shows an alternate way to solve for the desired quantity when it is in the denominator.   Proportion: Solving  According to the airplane flight manual a Diamond DA-20 cruises at the rate of .  How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).  The proportion is       Multiple Proportions  When we experience math in the wild, problems do not come labeled with solving methods. We must recognize the math and apply our knowledge appropriately. The next example illustrates identifying ratios (proportions) more than once when answering a question.   Suppose a Diamond DA-20 climbs at the rate of and is traveling across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.  Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. .  Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from . .  Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance. . Now we need to convert this result back to nautical miles. This is a unit conversion problem again. .    A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.  The ingredients must remain in the ratio . We can select either ingredient and see how much the ratio tells us we need of the other ingredient.  Because we do not yet know which ingredient is limiting we will suppose we use all 465 g of flour. Then we can set up the proportion Notice that this is more buttermilk than we have. That means the buttermilk is the limiting ingredient. We will be able to use all of the buttermilk, but only some of the flour. To determine how much we setup the proportion but this time solve for flour.  We will use all 918 g of buttermilk. Then we can set up the proportion Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. Note we have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making times as much.    There is an alternate way to determine which ingredient limits our scaling up. We know the recipe calls for a buttermilk to flour ratio of . We can calculate the ratio of the ingredients we have on hand. . This is less than the required ratio, which means the numerator is too small. Thus we have too little buttermilk. From here we can continue to calculate the usable amount of flour as in the previous solution.      Similar polygons   This section presents a geometric fact which is expressed as proportions. This geometry can be used to solve for distances or lengths in some circumstances. First we define and illustrate the geometric fact.    Explaining Similar Triangles   Similar Triangles  Two triangles are similar if and only if corresponding angles have the same measure.   Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.    Two triangles with matching angles and different side lengths.   The triangle with vertices A, B, C has angle measure 64 at A, angle measure 80 at B, and angle measure 36 at C. Side AB has length 3.26; side BC has length 4.86, and side CA has length 5.34.  The triangle with vertices D, E, F has angle measure 64 at D, angle measure 80 at E, and angle measure 36 at F. Side DE has length 2.51; side EF has length 3.73, and side FD has length 4.1.    The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result of being similar the following ratios of sides are the same You can confirm this by dividing the lengths .   From a single example we might think this was just a special case. To convince yourself use the following interactive example.   Similar Triangles      Calculating Using Similar Triangles  We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as .    Two right triangles. Measurements are in the question.   Suppose triangle ABC has angles with the lengths of the sides opposite them respectively. If triangle DEF also has angles it is similar. Suppose the length of the side opposite the angle at point F is .  First, we identify the corresponding sides. and are opposite angles so they are corresponding. and are opposite angles so they are corresponding. Finally, and are opposite angles so they are corresponding. This means  Because we know the ratio , we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving. We can calculate the length of the third side in the same way.       Similarity in Applications  Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.    Stick figure person standing near a light pole. Measurements are in the question.   A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.  Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in .  Because all the angles in these triangles are the same, the triangles are similar. We can use the proportionality of corresponding side lengths to calculate the height of the light. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. The proportion of corresponding sides is If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).     Similarity Beyond Triangles  Shapes other than triangles can be similar. For example there are similar rectangles and similar pentagons. To be similar they must have the same number of sides, corresponding angles must be the same, and corresponding sides must be in the same ratio. Note that just having the same angles is insufficient: any two rectangles have all the same angles (right angles) but not every pair is similar.   Similar Polygons  One way to define similar polygons that avoids the trap illustrated by rectangles is to break the shape down into triangles (e.g., a rectangle can be split into two triangles). Then we require that every such triangle has the same angles. Note how we break a shape down into triangles is not unique. Take two, non-similar rectangles and identify triangles that don't match.   One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1\/32 scale. This means that one inch on the model is 32 inches on the actual object.      Contextless Proportions   Solve each of these proportions.        Proportions in Context   Identify a proportion in each application. Set it up, and solve for the requested value(s).               Similar Triangles   Use the property of side ratios for similar triangles to calculate the values requested.        Similar Triangles in Context   Identify similar triangles in each application, then use the property of side ratios to calculate the requested value(s).         Quantitative Literacy   Proportions are needed to answer these more involved questions.       "
+  "body": " Proportions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Set up and solve proportions (skill)    In some circumstances a ratio is fixed. By fixed ratio we mean that no matter which data points we select, we obtain a ratio with equal value. For example when we scale a recipe the ratio of flour to water must remain the same if we make one recipe or double it. These circumstances are called proportions . An example of a non-fixed ratio isa bobble head toy. The head has a different scale (ratio of toy head size to real head size) than the body does.  This section presents a variety of problems in which these arise and, indirectly, reviews the algebra needed to solve them.  Fixed ratios make sense in examples like conversion of units. For example 1 gallon is always 4 quarts. In contrast rates often change: your average speed may be 25 mph, but you must have driven slower and faster during that drive. For the ratios that do not change we can write equations and solve for properties.    Proportion Examples  Because a proportion means a ratio is fixed, we can write the first ratio equals the second ratio. This gives us an equation to solve. There are multiple ways to solve these, each of which is demonstrated below.   The first example shows a straight forward proportion with the simplest solving method. This method uses the same algebra steps as solving a percent problem.   Cheesecake Groceries: Double  A particular cheesecake recipe calls for g of eggs and g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?  This means everything will be in ratio of 2 (needed)\/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2\/1. Thus Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable). Because scales are accurate to a gram, we do not need to round.  We can perform the same calculation for the cream cheese.  In commercial recipes (and quality home cooking) weights are used because items like eggs are not uniform in mass. If we always use 3 eggs (average total weight 150 g), it might be more (e.g, 152 g) or less (147 g) than we need which will result in the food not turning out right.   This example may seem overly simple because doubling is easy, but the arithmetic is the same for any scaling.   Guido needs 6 dozen cookies. A recipe makes 4 dozen. If that recipe calls for g of flour, how much flour does he need for the 6 dozen cookies?  First, we determine the ratio for scaling. We want 6 dozen and the recipe makes 4 dozen so our ratio is . Thus to determine the amount of flour needed we set up the proportion   The following example shows methods for handling proportions when the desired quantity (variable) ends up in the denominator.   Scale Model  A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle. We can express this as a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If we want to know how large a part of the shuttle is and we know on the model it is 1.72 inches we can set up the proportion .  Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write   The following example shows an alternate way to solve for the desired quantity when it is in the denominator.   Proportion: Solving  According to the airplane flight manual a Diamond DA-20 cruises at the rate of .  How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).  The proportion is          Multiple Proportions  When we experience math in the wild, problems do not come labeled with solving methods. We must recognize the math and apply our knowledge appropriately. The next example illustrates identifying ratios (proportions) more than once when answering a question.   Suppose a Diamond DA-20 climbs at the rate of and is traveling across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.  Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. .  Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from . .  Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance. . Now we need to convert this result back to nautical miles. This is a unit conversion problem again. .    A recipe for hush puppies calls for 150 g of flour for 340 g of buttermilk. If we have 465 g of flour and 918 g of buttermilk, how much of the flour and buttermilk can we use? Which one constrains us (limits size of our batch)? Note quality kitchen scales are accurate to a single gram. Round appropriately.  The ingredients must remain in the ratio . We can select either ingredient and see how much the ratio tells us we need of the other ingredient.  Because we do not yet know which ingredient is limiting we will suppose we use all 465 g of flour. Then we can set up the proportion Notice that this is more buttermilk than we have. That means the buttermilk is the limiting ingredient. We will be able to use all of the buttermilk, but only some of the flour. To determine how much we setup the proportion but this time solve for flour.  We will use all 918 g of buttermilk. Then we can set up the proportion Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. Note we have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making times as much.    There is an alternate way to determine which ingredient limits our scaling up. We know the recipe calls for a buttermilk to flour ratio of . We can calculate the ratio of the ingredients we have on hand. . This is less than the required ratio, which means the numerator is too small. Thus we have too little buttermilk. From here we can continue to calculate the usable amount of flour as in the previous solution.         Similar polygons   This section presents a geometric fact which is expressed as proportions. This geometry can be used to solve for distances or lengths in some circumstances. First we define and illustrate the geometric fact.    Explaining Similar Triangles   Similar Triangles  Two triangles are similar if and only if corresponding angles have the same measure.   Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.    Two triangles with matching angles and different side lengths.   The triangle with vertices A, B, C has angle measure 64 at A, angle measure 80 at B, and angle measure 36 at C. Side AB has length 3.26; side BC has length 4.86, and side CA has length 5.34.  The triangle with vertices D, E, F has angle measure 64 at D, angle measure 80 at E, and angle measure 36 at F. Side DE has length 2.51; side EF has length 3.73, and side FD has length 4.1.    The triangles and are similar. Notice that the angles at and have the same measure (64 ). The same is true of the angles at and (both 80 ) and the angles at and (both 36 ). These are the corresponding angles: A and D, B and E, and C and F.   is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  Similarly is the side opposite the angle at and is the side opposite the angle at . Because and have the same measure, the sides opposite them are corresponding sides.  What is the third pair of corresponding sides?  As a result of being similar the following ratios of sides are the same You can confirm this by dividing the lengths .   From a single example we might think this was just a special case. To convince yourself use the following interactive example.   Similar Triangles      Calculating Using Similar Triangles  We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as .    Two right triangles. Measurements are in the question.   Suppose triangle ABC has angles with the lengths of the sides opposite them respectively. If triangle DEF also has angles it is similar. Suppose the length of the side opposite the angle at point F is .  First, we identify the corresponding sides. and are opposite angles so they are corresponding. and are opposite angles so they are corresponding. Finally, and are opposite angles so they are corresponding. This means  Because we know the ratio , we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving. We can calculate the length of the third side in the same way.          Similarity in Applications  Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.    Stick figure person standing near a light pole. Measurements are in the question.   A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?  We can start by looking at the image. In it we spot multiple triangles. Two, right triangles will be useful for calculating the height. The smaller one has legs of length 8 ft and 5 ft 6 in. The third side (hypotenuse) is the dashed gray line, but we will not need it. The other right triangle we can use has a leg that is the entire bottom (length 8 ft plus 30 ft). Its other leg is the height of the light.  Let's compare the angles of the triangles. If we suppose the light post is straight up and the person is standing straight up, then the angles at the persons feet and the base of the light are right angles and thus the same. The triangles share the angle on the left (between dashed line and ground), so that matches. The third angle must match because the first two do; we will explain why in .  Because all the angles in these triangles are the same, the triangles are similar. We can use the proportionality of corresponding side lengths to calculate the height of the light. Before we do, we will convert the height of the person to decimal. Using a conversion from , 5 ft 6 in is 5.5 ft. The proportion of corresponding sides is If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. Thus the height to that point on the light is approximately 26 ft and 2 in.  We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).     Similarity Beyond Triangles  Shapes other than triangles can be similar. For example there are similar rectangles and similar pentagons. To be similar they must have the same number of sides, corresponding angles must be the same, and corresponding sides must be in the same ratio. Note that just having the same angles is insufficient: any two rectangles have all the same angles (right angles) but not every pair is similar.   Similar Polygons  One way to define similar polygons that avoids the trap illustrated by rectangles is to break the shape down into triangles (e.g., a rectangle can be split into two triangles). Then we require that every such triangle has the same angles. Note how we break a shape down into triangles is not unique. Take two, non-similar rectangles and identify triangles that don't match.   One place where similar shapes (beyond triangles) is used is scale drawing and scale models. If you ever built a model of a car or a plane or some such there was most likely a scale given. For example they may be 1\/32 scale. This means that one inch on the model is 32 inches on the actual object.      Contextless Proportions   Solve each of these proportions.              Proportions in Context   Identify a proportion in each application. Set it up, and solve for the requested value(s).                                   Similar Triangles   Use the property of side ratios for similar triangles to calculate the values requested.              Similar Triangles in Context   Identify similar triangles in each application, then use the property of side ratios to calculate the requested value(s).               Quantitative Literacy   Proportions are needed to answer these more involved questions.           "
 },
 {
   "id": "section-proportion-2-2",
@@ -2329,7 +2329,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.4.5",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-proportion-three-in-one",
@@ -2365,7 +2365,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.4.9",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "definition-similar-triangles",
@@ -2410,7 +2410,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.4.14",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-similar-measure-height",
@@ -2428,7 +2428,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-1-4",
@@ -2437,7 +2437,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-1-5",
@@ -2446,7 +2446,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-3",
@@ -2455,7 +2455,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-4",
@@ -2464,7 +2464,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-5",
@@ -2473,7 +2473,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-6",
@@ -2482,7 +2482,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-7",
@@ -2491,7 +2491,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-8",
@@ -2500,7 +2500,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-9",
@@ -2509,7 +2509,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-10",
@@ -2518,7 +2518,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-11",
@@ -2527,7 +2527,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-2-12",
@@ -2536,7 +2536,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-3-3",
@@ -2545,7 +2545,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-3-4",
@@ -2554,7 +2554,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-3-5",
@@ -2563,7 +2563,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-4-3",
@@ -2572,7 +2572,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-4-4",
@@ -2581,7 +2581,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-4-5",
@@ -2590,7 +2590,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-5-3",
@@ -2599,7 +2599,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-proportion-6-5-4",
@@ -2608,7 +2608,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.4.4.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical",
@@ -2617,7 +2617,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Medical Ratios",
-  "body": " Medical Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Setup and solve proportions (skill)    This section uses medical applications, primarily determine medicine dosages, to illustrate the use of ratios including change of units and proportions. In each example look for how the ratio is recognized and how the information provided is used to setup a calculation.  A common application of ratios in medicine is creating drugs of a desired strength. For example some drugs need to be administered based on the body weight of the patient. This requires the medical personnel to mix the drug they have on hand to the needed strength.  We will work the following three types of medical problems.  Measure drug concentration  Dilute a drug to a lower concentration  Determine how much drug to use      Rounding in Medical Applications  Rounding for medical applications will be dictated by two factors. First, if an amount is more precise than human and\/or machine can measure, then that precision is of no value. For example, if the syringe pumps are capable of measuring a hundredth of a milliliter, then we round to a hundredth. Second, a hospital or other medical provider may have a policy.  Just as with significant digits, rounding will occur solely at the end of a calculation. Intermediate rounding could change a number. Rounding at the end is a practical necessity as noted above.    Terminology  This section defines terminology used in medicine and sciences about solution concentrations that we need for the ratio examples in this section.  The active ingredient in a drug is often added to a inactive ingredient (often liquid) to administer it. This liquid is known as a diluent . The diluent might be water, saline solution, or other substances.  The substance (active ingredient for medicine) which may be a powder or another liquid to which the diluent is added is called the solute . The solute is disolved in the diluent. For example salt (solute) is disolved in water (diluent) to make saline solution.  Even if the drug can be administered directly (e.g., is already liquid) we sometimes need to dilute the stock solution (undiluted drug) for ease of use.  In some problems the drug mixture will be divided into parts. These parts are sometimes called aliquots . For example when testing substances (like blood samples) we may divide the sample drawn into multiple aliquots, one for each test to be run.  The most important concept is measuring how concentrated a solution is. This enables providing sufficient and safe amounts of drugs. There are three common ways concentration is written. These three are examples of how ratios can present the relationship between quantities in different ways. Being able to change between the different presentations of concentration will demonstrate your ability to understand and use ratios accurately.   Dilution Ratio   The Dilution Ratio is the ratio of solute (drug) to diluent.  If the solute is a liquid, then this is in units of volume per volume (e.g., mL per mL). For example a dilution ratio of 1:4 means 1 mL of drug to 4 mL of diluent giving 5 mL of solution.  This expression of concentration is unlikely to be used for dry solutes.     Dilution Factor   The Dilution Factor is the ratio of solute (drug) to the resulting solution.  If the solute is liquid, then this is in units of volume per volume. For example a dilution factor of 5 means 1 unit of the drug in every 5 units of solution implying 4 units of diluent (1\/4 dilution ratio).  If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, 5 g of drug in a total of 100 mL of solution. Note we do not care how much diluent was added (hence we cannot calculate dilution ratio). This dilution factor can be achieved by putting in the dry ingredient, then adding part of the diluent to disolve the dry ingredient, then pouring in enough additional diluent to reach the desired volume.     Percent Concentration   The Percent Concentration is the ratio of mass of solute (drug) to 100 mL of diluent.  If the solute is liquid, then this is in units of volume per volume. For example if the are 2 mL of drug per 100 mL of solution, then the percenet concentration is 2\/100 or 2%.  If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, if there are 2 mg of drug per 100 mL of solution, then the percent concentration is 2\/100 or 2%. Note this is neither percent by volume nor percent by mass as would be used in science.    These examples illustrate the meaning of these terms.   A solution is produced from 3 mL of concentrated chloroform and 37 mL of water.  What is the dilution ratio? The dilution ratio is the ratio of the solute to the diluent. We are given both. The dilution ratio is .  What is the dilution factor? The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is . The ratio then is .  Calculate the percent concentration. The percent concentration is the ratio of the solute to the total solution by volume written as a percent. We are given the volume of the solute (3 mL) and have calculated the total volume in the previous task ( mL). Thus the percent concentration is which is 7.5%.    Saline solution consists of the solute salt (sodium chloride) dissolved in the diluent pure water. The saline solution most commonly used in medical applications is 9 g of the solute salt, which is a solid, dissolved in enough water to make 1 liter of solution. We can express the concentration in the folowing ways.  Because the solution is produced by adding an unspecified amount of water ( enough ), it is easiest to express the concentration as a dilution factor. For medicine these are most commonly expressed in terms of milliliters, so we will convert units ( metric terminology ). The dilution factor is  We can also calculate the percent concentration. To do this we need to express volume in milliliters (percent concentration is ratio of solute to 100 mL). We can use unit conversion from above. The percent concentration is or 0.9%.  Note how comparing the information provided to the definition showed us we needed to perform a unit conversion. The definitions also stated which number is numerator and denominator and what form to use for a final expression (e.g., percent or fraction).    Clorox Disinfecting Bleach contains 7.0% sodium hypochlorite which is a liquid. This means the percent concentration is 7.0%. One commercially available size contains 11 oz. What are the dilution ratio and dilution factor?  Looking at the defintions of both dilution ratio and dilution factor we see that we need to know the amount of solute (sodium hypochlorite) in the 11 oz. Because we are given a percent concentration, we can calculate this amount using the technique of There is oz of sodium hypochlorite.  We know the total volume and the amount of solute which is all we need to calculate the dilution factor. It is . This ratio would be easier to read if we express it with a denominator of one. We start by converting the ratio to a decimal. . Thus the dilution factor is expressed in ounces of bleach to ounces of water.  For the dilution ratio we need the amount of water added. Because the total solution is 11 oz and 0.77 oz is bleach, the amount of water is oz. Thus the dilution ratio is .  This ratio is hard to interpret. We could express it with the numerator as one to indicate how much diluent is added to one part solute. We can calculate this multiple ways. The first way is to scale the ratio so the numerator is one.   Another option is to write this as a proportion.  The ratio means there is one ounce of bleach for every 13.29 ounces of water.   Note a pure substance has dilution factor 1\/1 (the total volume of the solution is just the volume of the solute). The percent concentration for a pure substance is 100%.   Use these Checkpoints to test your ability to calculate these ratios.      Dilution  This section shows how to use knowledge of proportions to perform calculations required in medicine. Dilution ratios or factors tell us a desired ratio, and we know the initial ratio. This pair allows us to setup a proportion.  This first example shows how to produce a solution with a desired dilution factor.   How much diluent do we need to add to produce a solution containing 3.0 mL of concentrated chloroform that will have a dilution factor of ? Because this is in a medical context, we will round to one milliliter which can be reasonably achieved with their tools.  We start by reviewing the definition. Dilution factor is the ratio of the total to the substance. The goal is for that to equal , so we can write the proportion .  We are not given the total volume, but we do know the volume of solute (3.0 mL). Thus far we have  The total is (always) the volume of the solute plus the volume of the diluent. The volume of diluent is what we want to calculate. We can call the volume of diluent . The volume of the solution then is where is the volume of diluent to add. So we need 147 mL of diluent. Notice once we had the proportion set up we needed only algebra.   This example shows us how to apply a dilution ratio (dilute our solution). We can calculate the resulting dilution factor afterward.   A doctor orders 120 mL of 50% solution of Ensure every two hours. How much Ensure (liquid) and water is needed?  50% is a percent concentration. This means the Ensure should be 50% of the total volume (120 mL). mL of Ensure. This leaves mL of water (diluent).   In the example above the dilution ratio is 1\/1, because there is the same volume of solute (Ensure) and diluent (water). The dilution factor is 1\/2, because we have 60 mL of Ensure in 120 mL of solution ( ).  Working on dilutions is a proportion problem. This next example presents a scenario where we work a dilution problem backwards. Notice that the setup is still a proportion, and the solving is still just the algebra steps needed.   One usage of dilution is to reduce the concentration so that instruments can accurately measure it. Consider trying to measure an acid without dissolving the tools used to measure it.  A sample of a suspected high blood glucose value was obtained. According to the manufacturer of the instrument used to read blood glucose values, the highest glucose result which can be obtained on this particular instrument is 500 mg\/dL. When the sample was run, the machine gave an error message (concentration too high).  The serum was then diluted to 1\/10 and retested. The machine gave a result of 70 mg\/dL. What was the initial concentration?  Note that the ratio is milligrams to decilitres (weight to volume). In these types of problems the amount of substance is so small that it does not affect the volume.  Before we jump into an equation, let's try an experiment. That's right, in math we do not have to know what to do when we start. We will try something, learn from it, and maybe revise our approach based on what we learned.  This is a dilution problem which means we can setup the proportion  We are trying to determine the amount of blood sugar in the sample, so the solute portion is unknown. We also do not have the size of sample taken. We will experiment to see how this affects the problem.  Suppose we take 1 dL of the original serum. Because the blood sample is so small, we can calculate as if all the volume is the diluent. That is we started with 1 dL and added more to dilute. To dilute to a ratio of 1\/10 we need to add dL of diluent. No blood glucose was added thus the concentration is changed only by the diluent. Thus the concentration proportion is now Did this result depend on our selecting 1 dL of the original serum? If we are uncertain we can try the problem again and select 2 dL of the original serum. To figure out the total amount of which 2 is 1\/10, we can treat this like  This means we need dL of diluent to have the desired dilution ratio. Also we will have twice as much of the blood glucose. The result is the same. This makes sense, because we are setting up a proportion, and ratios do not depend on the amount.  We can be confident that the original serum sample had a blood glucose level of 700 mg\/dL.   Sometimes we dilute more than one time. Here we experiment to determine what the effect of serial dilution is upon the resulting dilution factor.    Suppose you have a solution consisting of 10 mL of acyl chloride and 90 mL of water. If this is diluted to a dilution ratio of 1\/2 and then diluted again to a dilution ratio of 1\/3, what is the final dilution ratio?    We can do the calculations one at a time. First we calculate the original concentration. To dilute to a ratio of 1\/2 we can calculate the amount of diluent to add as a proportion problem like in . The total will be 200 mL so we need to add of additional diluent. Note at this point the concentration is To dilute again to a ratio of 1\/3 we can calculate the amount of diluent to add The total will be 600 mL so we need to add of additional diluent. Note at this point the concentration is Now we can determine what the resulting dilution ratio after diluting twice (1\/2 and then 1\/3).  Notice that , that is, the resulting dilution factor is the product of the serial dilutions. This relationship is always true for serial dilution.      Dosage  If we know the concentration of a drug, we can determine how much is needed for a given dose. These are proportion problems that require change of units.  In medicine some substances are measured in International Unit or IU. For each substance this is defined by the effect of that amount of the drug.   One IU of insulin is 0.0347 mg. A common concentration of insulin is U-100 which is 100 IU\/mL. This is produced by combining 100 units of insulin in one mL of diluent.  If a person needs 2 units of insulin, how many mL of solution will that be?  This can be solved as a proportion because we are asked for an amount that matches a ratio (concentration). The concentration is 100 IU\/mL. Because we are solving for a number of mL, we write the proportion as  Because we have a ratio of desired amount to provided amount we can also solve this problem as a percent.  The ratio is desired amount per provided amount. In this case which is 2%. We therefore want 2% of the 1 mL (from 100 IU\/1 mL) or 0.02 mL.     A label reads 2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate. How many milliliters are needed to contain 800 mg of streptomycin?    Because a ratio is given (1000 mg\/2.5 mL) and we want to scale this down (to 800 mg), we can set this up as a proportion.  We want to solve for volume (mL), so we set up the proportion as follows.    Because we have a ratio of desired amount to provided amount we can also solve this problem as a percent.  The ratio is desired amount\/provided amount. In this case which is 80%. We therefore want 80% of the 2.5 mL dose or mL.      A physician may prescribe a medicine and specify a total amount and a speed at which it should be delivered. For IV's this is called drop factor and is specified as a number of drops per minute. Medical personnel calculate how long to operate the IV so that the total amount of drug prescribed is delivered in the specified time.   Give 1500 mL of saline solution IV with a drop factor of 10 drops per mL at a rate of 50 drops per minute to an adult patient. Determine how long in hours the IV should be administered.  The rate is specified in drops and the amount is specified in mL which means we need to convert units. This will be done like . The units suggest we should multiply the conversion ratios as follows. Now that we know the rate in mL, we can set up a proportion so that time calculated per total grams of medication matches the specified rate. Notice how we invert the rate to make the algebra easier. The final step is to convert minutes to hours. This is another unit conversion problem using a conversion from . The units suggest we can multiply the 300 minutes by the conversion ratio.      Amoxicillin is an antibiotic obtainable in a liquid suspension form, part medication and part water, and is frequently used to treat infections in infants. One formulation of the drug contains 125 mg of amoxicillin per 5 mL of liquid. A pediatrician orders mg per day for a 4-month-old child with an ear infection. How much of the amoxicillin suspension would the parent need to administer to the infant in order to achieve the recommended daily dose?    Here we need to scale the amount (from 125 mg to mg). This is a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.     A 5% dextrose solution (D5W) contains 5 g of pure dextrose per 100 mL of solution. A doctor orders 500 mL of D5W IV for a patient. How much dextrose does the patient receive from that IV?   Once again we need to scale the amount (from 100 mL to 500 mL). This is also a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.    A sample of chloroform water has a dilution factor of 40. If 2 mL of chloroform are needed how many milliliters total are needed?  A dilution factor of 40 indicates that 1 mL of chloroform is in 40 mL total of solution. We can setup a proportion to answer this.               Dilution Ratios   Answer these questions involving dilution ratios.         "
+  "body": " Medical Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Setup and solve proportions (skill)    This section uses medical applications, primarily determine medicine dosages, to illustrate the use of ratios including change of units and proportions. In each example look for how the ratio is recognized and how the information provided is used to setup a calculation.  A common application of ratios in medicine is creating drugs of a desired strength. For example some drugs need to be administered based on the body weight of the patient. This requires the medical personnel to mix the drug they have on hand to the needed strength.  We will work the following three types of medical problems.  Measure drug concentration  Dilute a drug to a lower concentration  Determine how much drug to use      Rounding in Medical Applications  Rounding for medical applications will be dictated by two factors. First, if an amount is more precise than human and\/or machine can measure, then that precision is of no value. For example, if the syringe pumps are capable of measuring a hundredth of a milliliter, then we round to a hundredth. Second, a hospital or other medical provider may have a policy.  Just as with significant digits, rounding will occur solely at the end of a calculation. Intermediate rounding could change a number. Rounding at the end is a practical necessity as noted above.    Terminology  This section defines terminology used in medicine and sciences about solution concentrations that we need for the ratio examples in this section.  The active ingredient in a drug is often added to a inactive ingredient (often liquid) to administer it. This liquid is known as a diluent . The diluent might be water, saline solution, or other substances.  The substance (active ingredient for medicine) which may be a powder or another liquid to which the diluent is added is called the solute . The solute is disolved in the diluent. For example salt (solute) is disolved in water (diluent) to make saline solution.  Even if the drug can be administered directly (e.g., is already liquid) we sometimes need to dilute the stock solution (undiluted drug) for ease of use.  In some problems the drug mixture will be divided into parts. These parts are sometimes called aliquots . For example when testing substances (like blood samples) we may divide the sample drawn into multiple aliquots, one for each test to be run.  The most important concept is measuring how concentrated a solution is. This enables providing sufficient and safe amounts of drugs. There are three common ways concentration is written. These three are examples of how ratios can present the relationship between quantities in different ways. Being able to change between the different presentations of concentration will demonstrate your ability to understand and use ratios accurately.   Dilution Ratio   The Dilution Ratio is the ratio of solute (drug) to diluent.  If the solute is a liquid, then this is in units of volume per volume (e.g., mL per mL). For example a dilution ratio of 1:4 means 1 mL of drug to 4 mL of diluent giving 5 mL of solution.  This expression of concentration is unlikely to be used for dry solutes.     Dilution Factor   The Dilution Factor is the ratio of solute (drug) to the resulting solution.  If the solute is liquid, then this is in units of volume per volume. For example a dilution factor of 5 means 1 unit of the drug in every 5 units of solution implying 4 units of diluent (1\/4 dilution ratio).  If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, 5 g of drug in a total of 100 mL of solution. Note we do not care how much diluent was added (hence we cannot calculate dilution ratio). This dilution factor can be achieved by putting in the dry ingredient, then adding part of the diluent to disolve the dry ingredient, then pouring in enough additional diluent to reach the desired volume.     Percent Concentration   The Percent Concentration is the ratio of mass of solute (drug) to 100 mL of diluent.  If the solute is liquid, then this is in units of volume per volume. For example if the are 2 mL of drug per 100 mL of solution, then the percenet concentration is 2\/100 or 2%.  If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, if there are 2 mg of drug per 100 mL of solution, then the percent concentration is 2\/100 or 2%. Note this is neither percent by volume nor percent by mass as would be used in science.    These examples illustrate the meaning of these terms.   A solution is produced from 3 mL of concentrated chloroform and 37 mL of water.   What is the dilution ratio?  The dilution ratio is the ratio of the solute to the diluent. We are given both. The dilution ratio is .    What is the dilution factor?  The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is . The ratio then is .    Calculate the percent concentration.  The percent concentration is the ratio of the solute to the total solution by volume written as a percent. We are given the volume of the solute (3 mL) and have calculated the total volume in the previous task ( mL). Thus the percent concentration is which is 7.5%.     Saline solution consists of the solute salt (sodium chloride) dissolved in the diluent pure water. The saline solution most commonly used in medical applications is 9 g of the solute salt, which is a solid, dissolved in enough water to make 1 liter of solution. We can express the concentration in the folowing ways.  Because the solution is produced by adding an unspecified amount of water ( enough ), it is easiest to express the concentration as a dilution factor. For medicine these are most commonly expressed in terms of milliliters, so we will convert units ( metric terminology ). The dilution factor is  We can also calculate the percent concentration. To do this we need to express volume in milliliters (percent concentration is ratio of solute to 100 mL). We can use unit conversion from above. The percent concentration is or 0.9%.  Note how comparing the information provided to the definition showed us we needed to perform a unit conversion. The definitions also stated which number is numerator and denominator and what form to use for a final expression (e.g., percent or fraction).    Clorox Disinfecting Bleach contains 7.0% sodium hypochlorite which is a liquid. This means the percent concentration is 7.0%. One commercially available size contains 11 oz. What are the dilution ratio and dilution factor?  Looking at the defintions of both dilution ratio and dilution factor we see that we need to know the amount of solute (sodium hypochlorite) in the 11 oz. Because we are given a percent concentration, we can calculate this amount using the technique of There is oz of sodium hypochlorite.  We know the total volume and the amount of solute which is all we need to calculate the dilution factor. It is . This ratio would be easier to read if we express it with a denominator of one. We start by converting the ratio to a decimal. . Thus the dilution factor is expressed in ounces of bleach to ounces of water.  For the dilution ratio we need the amount of water added. Because the total solution is 11 oz and 0.77 oz is bleach, the amount of water is oz. Thus the dilution ratio is .  This ratio is hard to interpret. We could express it with the numerator as one to indicate how much diluent is added to one part solute. We can calculate this multiple ways. The first way is to scale the ratio so the numerator is one.   Another option is to write this as a proportion.  The ratio means there is one ounce of bleach for every 13.29 ounces of water.   Note a pure substance has dilution factor 1\/1 (the total volume of the solution is just the volume of the solute). The percent concentration for a pure substance is 100%.   Use these Checkpoints to test your ability to calculate these ratios.      Dilution  This section shows how to use knowledge of proportions to perform calculations required in medicine. Dilution ratios or factors tell us a desired ratio, and we know the initial ratio. This pair allows us to setup a proportion.  This first example shows how to produce a solution with a desired dilution factor.   How much diluent do we need to add to produce a solution containing 3.0 mL of concentrated chloroform that will have a dilution factor of ? Because this is in a medical context, we will round to one milliliter which can be reasonably achieved with their tools.  We start by reviewing the definition. Dilution factor is the ratio of the total to the substance. The goal is for that to equal , so we can write the proportion .  We are not given the total volume, but we do know the volume of solute (3.0 mL). Thus far we have  The total is (always) the volume of the solute plus the volume of the diluent. The volume of diluent is what we want to calculate. We can call the volume of diluent . The volume of the solution then is where is the volume of diluent to add. So we need 147 mL of diluent. Notice once we had the proportion set up we needed only algebra.   This example shows us how to apply a dilution ratio (dilute our solution). We can calculate the resulting dilution factor afterward.   A doctor orders 120 mL of 50% solution of Ensure every two hours. How much Ensure (liquid) and water is needed?  50% is a percent concentration. This means the Ensure should be 50% of the total volume (120 mL). mL of Ensure. This leaves mL of water (diluent).   In the example above the dilution ratio is 1\/1, because there is the same volume of solute (Ensure) and diluent (water). The dilution factor is 1\/2, because we have 60 mL of Ensure in 120 mL of solution ( ).  Working on dilutions is a proportion problem. This next example presents a scenario where we work a dilution problem backwards. Notice that the setup is still a proportion, and the solving is still just the algebra steps needed.   One usage of dilution is to reduce the concentration so that instruments can accurately measure it. Consider trying to measure an acid without dissolving the tools used to measure it.  A sample of a suspected high blood glucose value was obtained. According to the manufacturer of the instrument used to read blood glucose values, the highest glucose result which can be obtained on this particular instrument is 500 mg\/dL. When the sample was run, the machine gave an error message (concentration too high).  The serum was then diluted to 1\/10 and retested. The machine gave a result of 70 mg\/dL. What was the initial concentration?  Note that the ratio is milligrams to decilitres (weight to volume). In these types of problems the amount of substance is so small that it does not affect the volume.  Before we jump into an equation, let's try an experiment. That's right, in math we do not have to know what to do when we start. We will try something, learn from it, and maybe revise our approach based on what we learned.  This is a dilution problem which means we can setup the proportion  We are trying to determine the amount of blood sugar in the sample, so the solute portion is unknown. We also do not have the size of sample taken. We will experiment to see how this affects the problem.  Suppose we take 1 dL of the original serum. Because the blood sample is so small, we can calculate as if all the volume is the diluent. That is we started with 1 dL and added more to dilute. To dilute to a ratio of 1\/10 we need to add dL of diluent. No blood glucose was added thus the concentration is changed only by the diluent. Thus the concentration proportion is now Did this result depend on our selecting 1 dL of the original serum? If we are uncertain we can try the problem again and select 2 dL of the original serum. To figure out the total amount of which 2 is 1\/10, we can treat this like  This means we need dL of diluent to have the desired dilution ratio. Also we will have twice as much of the blood glucose. The result is the same. This makes sense, because we are setting up a proportion, and ratios do not depend on the amount.  We can be confident that the original serum sample had a blood glucose level of 700 mg\/dL.   Sometimes we dilute more than one time. Here we experiment to determine what the effect of serial dilution is upon the resulting dilution factor.    Suppose you have a solution consisting of 10 mL of acyl chloride and 90 mL of water. If this is diluted to a dilution ratio of 1\/2 and then diluted again to a dilution ratio of 1\/3, what is the final dilution ratio?    We can do the calculations one at a time. First we calculate the original concentration. To dilute to a ratio of 1\/2 we can calculate the amount of diluent to add as a proportion problem like in . The total will be 200 mL so we need to add of additional diluent. Note at this point the concentration is To dilute again to a ratio of 1\/3 we can calculate the amount of diluent to add The total will be 600 mL so we need to add of additional diluent. Note at this point the concentration is Now we can determine what the resulting dilution ratio after diluting twice (1\/2 and then 1\/3).  Notice that , that is, the resulting dilution factor is the product of the serial dilutions. This relationship is always true for serial dilution.      Dosage  If we know the concentration of a drug, we can determine how much is needed for a given dose. These are proportion problems that require change of units.  In medicine some substances are measured in International Unit or IU. For each substance this is defined by the effect of that amount of the drug.   One IU of insulin is 0.0347 mg. A common concentration of insulin is U-100 which is 100 IU\/mL. This is produced by combining 100 units of insulin in one mL of diluent.  If a person needs 2 units of insulin, how many mL of solution will that be?  This can be solved as a proportion because we are asked for an amount that matches a ratio (concentration). The concentration is 100 IU\/mL. Because we are solving for a number of mL, we write the proportion as  Because we have a ratio of desired amount to provided amount we can also solve this problem as a percent.  The ratio is desired amount per provided amount. In this case which is 2%. We therefore want 2% of the 1 mL (from 100 IU\/1 mL) or 0.02 mL.     A label reads 2.5 mL of solution for injection contains 1000 mg of streptomycin sulfate. How many milliliters are needed to contain 800 mg of streptomycin?    Because a ratio is given (1000 mg\/2.5 mL) and we want to scale this down (to 800 mg), we can set this up as a proportion.  We want to solve for volume (mL), so we set up the proportion as follows.    Because we have a ratio of desired amount to provided amount we can also solve this problem as a percent.  The ratio is desired amount\/provided amount. In this case which is 80%. We therefore want 80% of the 2.5 mL dose or mL.        A physician may prescribe a medicine and specify a total amount and a speed at which it should be delivered. For IV's this is called drop factor and is specified as a number of drops per minute. Medical personnel calculate how long to operate the IV so that the total amount of drug prescribed is delivered in the specified time.   Give 1500 mL of saline solution IV with a drop factor of 10 drops per mL at a rate of 50 drops per minute to an adult patient. Determine how long in hours the IV should be administered.  The rate is specified in drops and the amount is specified in mL which means we need to convert units. This will be done like . The units suggest we should multiply the conversion ratios as follows. Now that we know the rate in mL, we can set up a proportion so that time calculated per total grams of medication matches the specified rate. Notice how we invert the rate to make the algebra easier. The final step is to convert minutes to hours. This is another unit conversion problem using a conversion from . The units suggest we can multiply the 300 minutes by the conversion ratio.      Amoxicillin is an antibiotic obtainable in a liquid suspension form, part medication and part water, and is frequently used to treat infections in infants. One formulation of the drug contains 125 mg of amoxicillin per 5 mL of liquid. A pediatrician orders mg per day for a 4-month-old child with an ear infection. How much of the amoxicillin suspension would the parent need to administer to the infant in order to achieve the recommended daily dose?    Here we need to scale the amount (from 125 mg to mg). This is a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.      A 5% dextrose solution (D5W) contains 5 g of pure dextrose per 100 mL of solution. A doctor orders 500 mL of D5W IV for a patient. How much dextrose does the patient receive from that IV?    Once again we need to scale the amount (from 100 mL to 500 mL). This is also a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.     A sample of chloroform water has a dilution factor of 40. If 2 mL of chloroform are needed how many milliliters total are needed?  A dilution factor of 40 indicates that 1 mL of chloroform is in 40 mL total of solution. We can setup a proportion to answer this.                                 Dilution Ratios   Answer these questions involving dilution ratios.                 "
 },
 {
   "id": "subsection-dilution-terminology-3",
@@ -2689,7 +2689,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.5.4",
   "title": "",
-  "body": " A solution is produced from 3 mL of concentrated chloroform and 37 mL of water.  What is the dilution ratio? The dilution ratio is the ratio of the solute to the diluent. We are given both. The dilution ratio is .  What is the dilution factor? The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is . The ratio then is .  Calculate the percent concentration. The percent concentration is the ratio of the solute to the total solution by volume written as a percent. We are given the volume of the solute (3 mL) and have calculated the total volume in the previous task ( mL). Thus the percent concentration is which is 7.5%.  "
+  "body": " A solution is produced from 3 mL of concentrated chloroform and 37 mL of water.   What is the dilution ratio?  The dilution ratio is the ratio of the solute to the diluent. We are given both. The dilution ratio is .    What is the dilution factor?  The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is . The ratio then is .    Calculate the percent concentration.  The percent concentration is the ratio of the solute to the total solution by volume written as a percent. We are given the volume of the solute (3 mL) and have calculated the total volume in the previous task ( mL). Thus the percent concentration is which is 7.5%.   "
 },
 {
   "id": "example-solutions-terminology-dry",
@@ -2788,7 +2788,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "subsection-dosage-8",
@@ -2824,7 +2824,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.5.16",
   "title": "",
-  "body": " A 5% dextrose solution (D5W) contains 5 g of pure dextrose per 100 mL of solution. A doctor orders 500 mL of D5W IV for a patient. How much dextrose does the patient receive from that IV?   Once again we need to scale the amount (from 100 mL to 500 mL). This is also a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.  "
+  "body": "  A 5% dextrose solution (D5W) contains 5 g of pure dextrose per 100 mL of solution. A doctor orders 500 mL of D5W IV for a patient. How much dextrose does the patient receive from that IV?    Once again we need to scale the amount (from 100 mL to 500 mL). This is also a proportion problem, that is, the ratio of medicine to volume is the same so we can setup an equation based on the drug concentration.   "
 },
 {
   "id": "example-dose-dilution-factor",
@@ -2842,7 +2842,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-2",
@@ -2851,7 +2851,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-3",
@@ -2860,7 +2860,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-4",
@@ -2869,7 +2869,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-5",
@@ -2878,7 +2878,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-6",
@@ -2887,7 +2887,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-7",
@@ -2896,7 +2896,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-8",
@@ -2905,7 +2905,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-9",
@@ -2914,7 +2914,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-10-3",
@@ -2923,7 +2923,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-10-4",
@@ -2932,7 +2932,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-10-5",
@@ -2941,7 +2941,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-medical-7-10-6",
@@ -2950,7 +2950,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-activity-falseposition",
@@ -2977,7 +2977,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.7",
   "title": "Project: Arclength Estimation",
-  "body": " Project: Arclength Estimation   Estimating Arc Lengths   In aviation it is sometimes useful to estimate a distance between points as the length of a circular arc. This results from navigation methods (search for VOR and DME arc if curious). To estimate on the fly they use what is known as the 60:1:1 approximation. It means that 60 miles from a point a one degree arc is approximately one mile in length. Note in aviation the distances would be in nautical miles (nm), but the ratio does not change if we use statute miles (the usual type).  Here we will practice using the method to approximate then check why it works.   Using the Ratio  View to .   What is the arclength of 2 degrees at a distance of 30 miles?   What is the arclength of 5 degrees at a distance of 30 miles?   What is the arclength of 10 degrees at a distance of 20 miles?   Explaining the Ratio  Calculate the perimeter of a circle with radius 60 miles using the formula where is the perimeter and is the radius.   Calculate the perimeter of a semi-circle (half circle) with radius 60 miles.   Calculate the perimeter of a quarter of a circle with radius 60 miles.   Calculate the perimeter of of a circle with radius 60 miles.   Note that the previous task is the 60:1:1 ratio (1 degree is 1\/360th of a circle). Does your result match (i.e., is the result approximately 1 mile)?     Calculate the arclength of 3 degrees at 60 miles.  If each degree is one mile then 3 degrees is miles.    Calculate the arclength of 1 degree at 30 miles.  At 30 miles we are only half way ( ), so the length is miles.    Calculate the arclength of 4 degree at 18 miles.  The radius is ( ) of the usual. Thus each degree is of a mile. This arc is so the length is miles.   "
+  "body": " Project: Arclength Estimation   Estimating Arc Lengths   In aviation it is sometimes useful to estimate a distance between points as the length of a circular arc. This results from navigation methods (search for VOR and DME arc if curious). To estimate on the fly they use what is known as the 60:1:1 approximation. It means that 60 miles from a point a one degree arc is approximately one mile in length. Note in aviation the distances would be in nautical miles (nm), but the ratio does not change if we use statute miles (the usual type).  Here we will practice using the method to approximate then check why it works.    Using the Ratio    View to .      What is the arclength of 2 degrees at a distance of 30 miles?      What is the arclength of 5 degrees at a distance of 30 miles?      What is the arclength of 10 degrees at a distance of 20 miles?      Explaining the Ratio    Calculate the perimeter of a circle with radius 60 miles using the formula where is the perimeter and is the radius.      Calculate the perimeter of a semi-circle (half circle) with radius 60 miles.      Calculate the perimeter of a quarter of a circle with radius 60 miles.      Calculate the perimeter of of a circle with radius 60 miles.      Note that the previous task is the 60:1:1 ratio (1 degree is 1\/360th of a circle). Does your result match (i.e., is the result approximately 1 mile)?       Calculate the arclength of 3 degrees at 60 miles.  If each degree is one mile then 3 degrees is miles.    Calculate the arclength of 1 degree at 30 miles.  At 30 miles we are only half way ( ), so the length is miles.    Calculate the arclength of 4 degree at 18 miles.  The radius is ( ) of the usual. Thus each degree is of a mile. This arc is so the length is miles.   "
 },
 {
   "id": "project-60-1-1",
@@ -2986,7 +2986,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "3",
   "title": "Estimating Arc Lengths.",
-  "body": " Estimating Arc Lengths   In aviation it is sometimes useful to estimate a distance between points as the length of a circular arc. This results from navigation methods (search for VOR and DME arc if curious). To estimate on the fly they use what is known as the 60:1:1 approximation. It means that 60 miles from a point a one degree arc is approximately one mile in length. Note in aviation the distances would be in nautical miles (nm), but the ratio does not change if we use statute miles (the usual type).  Here we will practice using the method to approximate then check why it works.   Using the Ratio  View to .   What is the arclength of 2 degrees at a distance of 30 miles?   What is the arclength of 5 degrees at a distance of 30 miles?   What is the arclength of 10 degrees at a distance of 20 miles?   Explaining the Ratio  Calculate the perimeter of a circle with radius 60 miles using the formula where is the perimeter and is the radius.   Calculate the perimeter of a semi-circle (half circle) with radius 60 miles.   Calculate the perimeter of a quarter of a circle with radius 60 miles.   Calculate the perimeter of of a circle with radius 60 miles.   Note that the previous task is the 60:1:1 ratio (1 degree is 1\/360th of a circle). Does your result match (i.e., is the result approximately 1 mile)?   "
+  "body": " Estimating Arc Lengths   In aviation it is sometimes useful to estimate a distance between points as the length of a circular arc. This results from navigation methods (search for VOR and DME arc if curious). To estimate on the fly they use what is known as the 60:1:1 approximation. It means that 60 miles from a point a one degree arc is approximately one mile in length. Note in aviation the distances would be in nautical miles (nm), but the ratio does not change if we use statute miles (the usual type).  Here we will practice using the method to approximate then check why it works.    Using the Ratio    View to .      What is the arclength of 2 degrees at a distance of 30 miles?      What is the arclength of 5 degrees at a distance of 30 miles?      What is the arclength of 10 degrees at a distance of 20 miles?      Explaining the Ratio    Calculate the perimeter of a circle with radius 60 miles using the formula where is the perimeter and is the radius.      Calculate the perimeter of a semi-circle (half circle) with radius 60 miles.      Calculate the perimeter of a quarter of a circle with radius 60 miles.      Calculate the perimeter of of a circle with radius 60 miles.      Note that the previous task is the 60:1:1 ratio (1 degree is 1\/360th of a circle). Does your result match (i.e., is the result approximately 1 mile)?     "
 },
 {
   "id": "example-6011-ex1",
@@ -3022,7 +3022,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Linear Expressions",
-  "body": " Linear Expressions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented models in general. This section presents linear models. First, we look at some examples and learn how the pieces of a linear model work. Next, we learn to write linear models given a description of a problem. After that we practice solving for different parts of a linear equation. will introduce a more in depth look at identifying linear models.    Linear Models  This section presents examples of linear models and provides an explanation for the two parts of a linear model.  A linear model (equation) can be written in the following, equivalent forms.    The second form can be solved for y which will make it look like the first form. The models in this section will be in the first form which you may know as slope intercept. The is commonly described as the slope which is a measure of how steep the line is. In these models we will generalize slope to a rate. The is commonly called the intercept which indicates a shift of the line up or down. This shift will have a meaning in each application.   Temperature Change with Altitude  As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as where  is the expected temperature at the specified altitude.  is the temperature at ground level.  is the specified altitude in number of feet above ground level.  is the rate of temperature decrease.  All temperatures are in Fahrenheit.   Before we use this model, we need to figure out what each part is. is a parameter that we need to find before we use the model. A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work.  In contrast the ratio is a constant (not a parameter), because it is a result of atmospheric physics. This ratio is always in the equation, because it is not dependent on the location for this simplified model.  Temperature ( ) and altitude ( ) are variables which implies that the model shows a relationship between these two properties.  The model subtracting from the starting temperature results in a decrease of temperature from . This implies that temperature decreases with altitude.  Every linear model (equation) has a rate. In this case .  Every linear model has a shift. In this case .  Now that we have analyzed the model, we are prepared to use it.   If the temperature at ground level is 43 what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?  Because fractions of a degree are not useful in making decisions like what clothes to wear, we will round to units.  Note . We need to calculate for .  Notice that we now know that it will be below freezing just above 3000 ft.    An Equation for Time to Altitude  A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate.   is the altitude after minutes.  is the starting altitude (likely ground level) in feet mean sea level (MSL).  is the rate of climb in feet per minute.  is the time since the climb began in minutes.   Before we can use this equation, let's analyze it. We will need to know the parameters and . A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. varies by airport, because they are at different altitudes. The rate must be obtained for each plane and is often available in the aircraft's Pilot's Operating Handbook (POH).  Final altitude ( ) and time ( ) are the variables which implies that the model shows a relationship between time climbing and how high the plane is.  In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).  Every linear model (equation) has a rate (the slope in the equation). In this case . Every linear model has a shift (the in the equation), which may be zero. In this case . is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.  Now that we have analyzed this equation, we are prepared to use it.    If a plane begins at 160 ft MSL and is climbing at 700 ft\/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?  These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for is to round down: this will give us a lower altitude. If that lower altitude is safe, then altitude 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude climbing at 700 ft\/min, then if we climb at 720 ft\/min we will reach that safe altitude a little sooner.  Note The expected altitudes are  Based on these calculations the plane will climb above 4500 ft MSL in between 5 and 10 minutes (closer to 5).    Equation for Fuel Remaining  When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model   is the amount of fuel remaining after minutes.  is the amount of fuel at the beginning.  is the rate (volume per time) at which fuel is being consumed.  is the time the vehicle has been operated.  Fuel amounts will be measured in units of volume like gallons or liters. Time will be measured in minutes or hours. The rate is then in units such as gallons\/hour or liters\/min.  Before we use this model, let's analyze it. We will need to know the parameters and . These parameters are not variables (they remains the same the whole time the model is in use), rather they are values (numbers) that we obtain from the circumstances and write into the model (equation) before we do any work.  The initial fuel is obtained by checking the fuel tanks or fuel gauges. The rate is often is not shown during operation (fuel gauges show how much is remaining rather than how fast it is used). The rate can sometimes be obtained from vehicle documentation.  Final fuel ( ) and time ( ) are the variables which implies that the model shows a relationship between time flown and fuel available (left in the tanks).  Because fuel decreases the term is subtracted decreasing the amount from .  Every linear model (equation) has a rate. In this case (or similar units).  Every linear model has a shift. In this case . We can think of this shift in terms of the needle on the gas gauge moving up to represent the amount of fuel present.  Now that we have analyzed this equation, we are prepared to use it.     If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?  A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.    The model is . Thus    Use this Checkpoint to practice using a linear model.     Building Linear Models  The previous section presented linear models, and illustrated using the models provided. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.  A linear model has a starting point (shift, ) and rate (ratio, ). We need to identify these and then write the linear model with these values. We should also label units and explain any parameters.   We have used both and to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.    Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.  We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars\/foot) suggest that we can multiply to calculate the cost. .  Notice this multiplication is also the same as using a ratio (proportion). We could setup When we solve this we end up with the same multiplication .  Next we must add the shipping charge. Thus the final cost is . Note there is no rounding because all numbers are exact and no fractions of a cent occurred.  Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be . Then we must add the shipping charge. Thus the final cost is .  We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as .  This equation has a ratio ($0.93\/1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.   When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.   At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). We will produce a model for pressure at altitude.  As in the previous example, we will start by calculating some specific pressures (experiment). If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is  If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . Written as one calculation this is  Notice we could do this same calculation for any altitude. So in general we can write  is the pressure at the specified altitude. is the pressure at ground level. is the altitude above ground level. This is a linear equation with a ratio of (-1\/1000) which is the drop in pressure with altitude, and a shift of , which is the pressure on the ground.    We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Every 9 degrees Fahrenheit is only 5 degrees Celsius, so to convert between them, we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32 and Celsius starts at 0 . Notice we have a ratio and a shift, so this already looks like a linear model.  To begin with we will convert 52 F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).  The first step is to determine how many degrees above freezing. Because 32 F is the freezing temperature of water, 52 F is above freezing.  The next step is to scale the degrees. The conversion ratio is . Converting the 20 above freezing is now a unit conversion. The units suggest we can multiply . Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11 C above the freezing point of water in Celsius.  Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0 , we have C.  If we write all of that as one step we obtain .  Notice we could do this with any temperature. So if we call the temperature to convert we have . This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32 is the freezing point of water as opposed to which has no useful meaning.   The temperature conversion example illustrates an idea about models. We describe a linear model as having a ratio and a (that is one) shift. However, in the temperature conversion example there is a shift a ratio and another shift, or two shifts. We showed these can be combined as one shift. That is always true. However, sometimes the version with multiple shifts is easier to understand. This will be true when we look at graphs of quadratics and exponentials (other forms of models).    Solving Linear Equations  The first section demonstrated using linear models to calculate values by plugging in the inputs. However, sometimes we know the result and want to calculate the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.  Before reading farther solve the equation . What steps did you use? Why do they work? is an example of solving another linear equation.   Solve .  We added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8). These steps isolate the variable for which we are solving.    Some linear equations need one more technique. What would you need to solve ? Below is an example of solving a similar linear equation.   Solve .  Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).    Another linear equation is . How would you solve it?  We can solve this the same as in but because there are factions as coefficients we will use an additional technique.   Solve  This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.   Now that we have practiced solving linear equations, we can use this skill with the models.   Given the temperature model in and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.  In this case the model is . We know and we want to calculate , the altitude in feet.    Given the time to altitude model in and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft\/min, how long will it take to complete the climb?  In this case the model is . We know ft, and we want to know the time . We round up as a safety margin: it is better to assume we need 8 minutes and be higher, than to hope we can recognize 0.03 of a minute (not quite 2 seconds).   Use this Checkpoint to try solving a linear model.     Identifying Linear Expressions  All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? shows examples of linear expressions and non-linear expressions.   Linear and Non-linear   Linear Non-linear       Some equations that may not appear to be linear can be solved using the same methods.   Solve .    In we will learn to identify linear models from data.     Identify Shift and Ratio   For each model identify the shift (y-intercept) and ratio (slope).       Linear expressions in applications   Answer these questions using the linear model described.            Solving in Models   Solve each equation for the variable indicated. Treat all other variables as parameters.            Contextless Linear Equations   Solve each of these equations.       Identifying Linear Models   For each of the following equations whether in context or not, determine whether it is linear.        "
+  "body": " Linear Expressions   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented models in general. This section presents linear models. First, we look at some examples and learn how the pieces of a linear model work. Next, we learn to write linear models given a description of a problem. After that we practice solving for different parts of a linear equation. will introduce a more in depth look at identifying linear models.    Linear Models  This section presents examples of linear models and provides an explanation for the two parts of a linear model.  A linear model (equation) can be written in the following, equivalent forms.    The second form can be solved for y which will make it look like the first form. The models in this section will be in the first form which you may know as slope intercept. The is commonly described as the slope which is a measure of how steep the line is. In these models we will generalize slope to a rate. The is commonly called the intercept which indicates a shift of the line up or down. This shift will have a meaning in each application.   Temperature Change with Altitude  As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as where  is the expected temperature at the specified altitude.  is the temperature at ground level.  is the specified altitude in number of feet above ground level.  is the rate of temperature decrease.  All temperatures are in Fahrenheit.   Before we use this model, we need to figure out what each part is. is a parameter that we need to find before we use the model. A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work.  In contrast the ratio is a constant (not a parameter), because it is a result of atmospheric physics. This ratio is always in the equation, because it is not dependent on the location for this simplified model.  Temperature ( ) and altitude ( ) are variables which implies that the model shows a relationship between these two properties.  The model subtracting from the starting temperature results in a decrease of temperature from . This implies that temperature decreases with altitude.  Every linear model (equation) has a rate. In this case .  Every linear model has a shift. In this case .  Now that we have analyzed the model, we are prepared to use it.   If the temperature at ground level is 43 what is the temperature 1000 ft above ground level (AGL)? 2000 ft AGL, 3000 ft AGL, 3500 ft AGL?  Because fractions of a degree are not useful in making decisions like what clothes to wear, we will round to units.  Note . We need to calculate for .  Notice that we now know that it will be below freezing just above 3000 ft.    An Equation for Time to Altitude  A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate.   is the altitude after minutes.  is the starting altitude (likely ground level) in feet mean sea level (MSL).  is the rate of climb in feet per minute.  is the time since the climb began in minutes.   Before we can use this equation, let's analyze it. We will need to know the parameters and . A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. varies by airport, because they are at different altitudes. The rate must be obtained for each plane and is often available in the aircraft's Pilot's Operating Handbook (POH).  Final altitude ( ) and time ( ) are the variables which implies that the model shows a relationship between time climbing and how high the plane is.  In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).  Every linear model (equation) has a rate (the slope in the equation). In this case . Every linear model has a shift (the in the equation), which may be zero. In this case . is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.  Now that we have analyzed this equation, we are prepared to use it.    If a plane begins at 160 ft MSL and is climbing at 700 ft\/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?  These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for is to round down: this will give us a lower altitude. If that lower altitude is safe, then altitude 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude climbing at 700 ft\/min, then if we climb at 720 ft\/min we will reach that safe altitude a little sooner.  Note The expected altitudes are  Based on these calculations the plane will climb above 4500 ft MSL in between 5 and 10 minutes (closer to 5).    Equation for Fuel Remaining  When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model   is the amount of fuel remaining after minutes.  is the amount of fuel at the beginning.  is the rate (volume per time) at which fuel is being consumed.  is the time the vehicle has been operated.  Fuel amounts will be measured in units of volume like gallons or liters. Time will be measured in minutes or hours. The rate is then in units such as gallons\/hour or liters\/min.  Before we use this model, let's analyze it. We will need to know the parameters and . These parameters are not variables (they remains the same the whole time the model is in use), rather they are values (numbers) that we obtain from the circumstances and write into the model (equation) before we do any work.  The initial fuel is obtained by checking the fuel tanks or fuel gauges. The rate is often is not shown during operation (fuel gauges show how much is remaining rather than how fast it is used). The rate can sometimes be obtained from vehicle documentation.  Final fuel ( ) and time ( ) are the variables which implies that the model shows a relationship between time flown and fuel available (left in the tanks).  Because fuel decreases the term is subtracted decreasing the amount from .  Every linear model (equation) has a rate. In this case (or similar units).  Every linear model has a shift. In this case . We can think of this shift in terms of the needle on the gas gauge moving up to represent the amount of fuel present.  Now that we have analyzed this equation, we are prepared to use it.     If a car begins with 20 gallons of fuel and burns 1.55 gallons per hour, how much fuel will it have after 1 hour, 2 hours, 3 hours, 36 minutes?  A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.    The model is . Thus    Use this Checkpoint to practice using a linear model.       Building Linear Models  The previous section presented linear models, and illustrated using the models provided. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.  A linear model has a starting point (shift, ) and rate (ratio, ). We need to identify these and then write the linear model with these values. We should also label units and explain any parameters.   We have used both and to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.    Consider rope that costs $0.93 per foot with a shipping charge of $7.64. We will produce a model for the cost of each purchase.  We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars\/foot) suggest that we can multiply to calculate the cost. .  Notice this multiplication is also the same as using a ratio (proportion). We could setup When we solve this we end up with the same multiplication .  Next we must add the shipping charge. Thus the final cost is . Note there is no rounding because all numbers are exact and no fractions of a cent occurred.  Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be . Then we must add the shipping charge. Thus the final cost is .  We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as .  This equation has a ratio ($0.93\/1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.   When cost is set per linear foot, or per square yard, or similar per unit pricing we often end up with a linear model.   At lower altitudes the barometric pressure typically drops 1 inHg for every 1000 feet of elevation gained (the air is less dense higher up). We will produce a model for pressure at altitude.  As in the previous example, we will start by calculating some specific pressures (experiment). If the pressure on the ground is 29.76 inHg, what do we expect the pressure to be flying at 4500 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is  If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?  The pressure drop is a ratio . The units suggest we can multiply . This is the drop in pressure. To calculate the resulting pressure we need . Written as one calculation this is  Notice we could do this same calculation for any altitude. So in general we can write  is the pressure at the specified altitude. is the pressure at ground level. is the altitude above ground level. This is a linear equation with a ratio of (-1\/1000) which is the drop in pressure with altitude, and a shift of , which is the pressure on the ground.    We will construct a model (equation) that converts temperature in Fahrenheit to temperature in Celsius. Every 9 degrees Fahrenheit is only 5 degrees Celsius, so to convert between them, we must scale the degrees. Also they use different values for the starting point (which is the freezing point of water). Fahrenheit starts at 32 and Celsius starts at 0 . Notice we have a ratio and a shift, so this already looks like a linear model.  To begin with we will convert 52 F to Celsius. We will round to units, because this is just an example (no one will be injured in the demonstration of this model).  The first step is to determine how many degrees above freezing. Because 32 F is the freezing temperature of water, 52 F is above freezing.  The next step is to scale the degrees. The conversion ratio is . Converting the 20 above freezing is now a unit conversion. The units suggest we can multiply . Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11 C above the freezing point of water in Celsius.  Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0 , we have C.  If we write all of that as one step we obtain .  Notice we could do this with any temperature. So if we call the temperature to convert we have . This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32 is the freezing point of water as opposed to which has no useful meaning.   The temperature conversion example illustrates an idea about models. We describe a linear model as having a ratio and a (that is one) shift. However, in the temperature conversion example there is a shift a ratio and another shift, or two shifts. We showed these can be combined as one shift. That is always true. However, sometimes the version with multiple shifts is easier to understand. This will be true when we look at graphs of quadratics and exponentials (other forms of models).    Solving Linear Equations  The first section demonstrated using linear models to calculate values by plugging in the inputs. However, sometimes we know the result and want to calculate the input. This requires solving the linear equation. This section reviews solving linear equation starting with non-contextualized examples and then using some of the models presented above.  Before reading farther solve the equation . What steps did you use? Why do they work? is an example of solving another linear equation.   Solve .  We added three because it eliminates the -3 (undoes subtraction of 3). We divided by negative eight because it eliminates the -8 (undoes the multiplication by -8). These steps isolate the variable for which we are solving.       Some linear equations need one more technique. What would you need to solve ? Below is an example of solving a similar linear equation.   Solve .  Because there were multiple instances of the variable in the initial equation, we had to combine like terms (factor and add).       Another linear equation is . How would you solve it?  We can solve this the same as in but because there are factions as coefficients we will use an additional technique.   Solve  This is referred to as clearing denominators. We are once again eliminating division by multiplying. Always remember to distribute. Note, we could multiply once if we figured out the correct number (it would be 35 in this case), but there are no prizes for doing this fast, so you can do this either way.   Now that we have practiced solving linear equations, we can use this skill with the models.   Given the temperature model in and supposing the temperature at ground level is 65, determine at what altitude we expect the temperature to be freezing. Round to the tens position; our measurements and sensors are not more precise.  In this case the model is . We know and we want to calculate , the altitude in feet.    Given the time to altitude model in and supposing that we are climbing from 80 ft MSL to 5000 ft MSL with a climb rate of 700 ft\/min, how long will it take to complete the climb?  In this case the model is . We know ft, and we want to know the time . We round up as a safety margin: it is better to assume we need 8 minutes and be higher, than to hope we can recognize 0.03 of a minute (not quite 2 seconds).   Use this Checkpoint to try solving a linear model.       Identifying Linear Expressions  All of the equations in this section are linear. What can we use to identify linear expressions or linear equations? shows examples of linear expressions and non-linear expressions.   Linear and Non-linear   Linear Non-linear       Some equations that may not appear to be linear can be solved using the same methods.   Solve .    In we will learn to identify linear models from data.     Identify Shift and Ratio   For each model identify the shift (y-intercept) and ratio (slope).           Linear expressions in applications   Answer these questions using the linear model described.                          Solving in Models   Solve each equation for the variable indicated. Treat all other variables as parameters.                          Contextless Linear Equations   Solve each of these equations.           Identifying Linear Models   For each of the following equations whether in context or not, determine whether it is linear.              "
 },
 {
   "id": "subsection-present-linear-3",
@@ -3076,7 +3076,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.1.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-linear-model-purchase",
@@ -3121,7 +3121,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.1.10",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-solve-linear-combine",
@@ -3139,7 +3139,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.1.12",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-solve-linear-clear",
@@ -3175,7 +3175,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.1.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "table-linear-appearance",
@@ -3202,7 +3202,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-1-4",
@@ -3211,7 +3211,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-2-3",
@@ -3220,7 +3220,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-2-4",
@@ -3229,7 +3229,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-2-5",
@@ -3238,7 +3238,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-2-6",
@@ -3247,7 +3247,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-2-7",
@@ -3256,7 +3256,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-2-8",
@@ -3265,7 +3265,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-2-9",
@@ -3274,7 +3274,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-3-3",
@@ -3283,7 +3283,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-3-4",
@@ -3292,7 +3292,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-3-5",
@@ -3301,7 +3301,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-3-6",
@@ -3310,7 +3310,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-3-7",
@@ -3319,7 +3319,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-3-8",
@@ -3328,7 +3328,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-3-9",
@@ -3337,7 +3337,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-4-3",
@@ -3346,7 +3346,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-4-4",
@@ -3355,7 +3355,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-5-3",
@@ -3364,7 +3364,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-5-4",
@@ -3373,7 +3373,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-7-5-5",
@@ -3382,7 +3382,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.5.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing",
@@ -3391,7 +3391,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Representing Data",
-  "body": " Representing Data   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varying directly or indirectly (critical thinking)    We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphs of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates. More details about rates will be covered in .    Reading Tables of Data  This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.  Tables are useful if we have a limited number of entries, and the data can be organized by two traits. If there are too many entries, the table may be too large to efficiently use. The two traits become headers for the rows and columns. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.   Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS   Angle of Bank  Flap Setting 0 30 45 60  Up 48 52 57 68  Approach 43 46 51 61  Landing 40 43 48 57    We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity, stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.   What is the stall speed in a 30 bank angle with flaps up?  We can determine this by looking for the column labeled 30 and the row labeled Up . In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.    In what condition is the stall speed the highest?  If we read all three rows, the largest number we find is 68. That is in the Up row and 60 column. So the stall speed is highest in the steep, 60 turn with the flaps in the up position.  Note, there is no shortcut here for checking the entry in every row and column.     As the angle of bank increases (from 0 to 60 ) what happens to the stall speed?    If we look in the Up row, the stall speed changes from 48 to 52 to 57 to 68. The first thing we notice is that the stall speed increases.  If we repeat this in the Approach row, we again see the speeds are increasing. The same is true in the Landing row.  Thus we can say that stall speed increases as the angle of bank increases.  In later sections ( ) we will learn to be more specific about patterns when possible.     Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. This is called interpolation . Below we provide examples of interpolation for linear data. Linear data is described in and .   Interpolation in a Table  What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . Airspeed is reported only to units, so we must round to units. For stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.   When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.   What is the stall speed with 10 bank angle with flaps in the Up setting?  The nearest entries in the table are 0 and 30 . We want to measure how far 10 is from the left (0); we can calculate that as a percent of the distance from 0 to 30. We can use the percent to calculate the matching number between the table entries (48 and 52).  Percent is part\/whole which in this case is . We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.  We want the speed that is 1\/3 of the way from 48 to 52. Again we treat this as a percent problem. This result is how far above 48, so the speed is . Again we round up for safety.  Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.      Reading Graphs  This section illustrates how some data can be represented in graphs and how to read data from a graph, including some comparisons of graphs.  Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and reading the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.   presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles (nm) can it glide forward?  First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. We notice that no line is labeled 2400. We do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.  We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent ft.  Because we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.  We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent nm.  The glide distance for 2400 ft is therefore nm. We subtracted here because it is before 4.    Graph Representing Maximum Engine Out Glide   Graph of glide distance described in example above   The horizontal axis is labeled Glide Distance and ranges from 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).      When we look at any table, graph, or figure, we should ask ourselves why various choices were made in the construction of the table, graph, or figure. We may need to ask someone with related knowledge for explanations of those decisions.   Consider . The input we use is Height Above Ground (ft) . Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?  Consider that the inputs are heights . This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.  Why do the inputs begin at 0 and end at 12000?  They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.  They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.  Why are the inputs labeled every 2000 and the inputs every 2?  This is purely space available. If we put in more labels, the text for them would overlap.   Graphs can be from raw data which may appear random. We still read these graphs the same way.  For the following example we need to define a percentile . A percentile indicates a level such that, that percent of cases is less. For example if the 75th percentile is 88, means that 75% of the cases are less than 88. It is a way of indicating how much of a population is included at that level.   Expected Stature of Males from 2 to 20 Years   7 curves showing the expected height at a given age.   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.      The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at . What height in centimeters is the 50th percentile for 11 year old males?  Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. This is shown on the image below. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see for a reminder on how to estimate this).   7 curves showing the expected height at a given age with above process drawn on top   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.  A vertical line goes up from 11 years to the 50 percentile curve. From that point a horizontal line goes over to the vertical axis a little above 140 cm.    How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.  For 2 year olds it appears to range from 80 to 95 cm (about 3\/4 of the way up). This is a spread of cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of cm. Thus the spread increases over time. The ratio is . For the percent increase we calculate The percent increase is or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.   In addition to reading specific values from these graphs, we should always ask ourselves why the diagram was designed as it was.   When we look at the stature percentiles figure we should ask ourselves questions like the following.  Why is it for males only? The CDC provides separate data for females. On average females in the U.S. are shorter than males. Thus separate figures are needed. Note, to answer this we needed to see rest of the CDC data (cannot be read from the figure above).  Why does it begin at 2 years? The CDC provides separate data for 0-2 years. This is from the WHO rather than the CDC. An explanation is on the CDC website.  Why does the data end at 20 years? Notice that the percentile curves level off toward 20 years old. This simply represents that full, adult height has been reached. The curves should remain the same until age brings shrinking.    has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.  What are the temperature and dewpoint at the 700 millibar level?  We follow the 700 mb line over to the dewpoint (green, dashed) line then move straight down to the x-axis (temperature). This is a little less than halfway between -20 C and 0 (closer to 0 ). We estimate -7 C. For temperature we continue across the 700 mb line to the temperature (red, solid) line then move straight down to the x-axis. We notice it is a little closer to 0 than the dewpoint. We estimate the temperature is 5 C.    Graph of Temperature and Dewpoint   Partial radiosonde data showing temperature and dewpoint curves.   The horizontal axis is labeled Temperature and ranges from -100 to 20 degrees centigrade. The vertical axis is labeled pressure altitude and ranges from 1000 at the bottom to 0 at the top. There are two curves. One represents the temperature at that pressure and the other represents the dew point at that pressure.     Note some charts like are not meant to convey specific numbers but rather to show trends.   Notice that while the temperature (red, solid line) wiggles around, it trends down (to the left) as the pressure decreases (go up the graph). That is, it shows temperature generally decreasing as altitude increases. We expect this, because it is farther from the ground which heats the air. The increase above 300 millibars level is the result of other factors which you can research at .  Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.    Consider . The input we use is Pressure (millibars) . Why was the y-axis chosen for the inputs here?  The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.  Why do the y-axis labels decrease as they go up?  Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.  Why do the inputs begin at 1000?  Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.  Why are the output labels from -100 to 40?  These are based on commonly experienced temperatures. Temperatures lower than -100 C are not expected. Temperatures above 40 C do occur, but not in the location where this sounding was taken.  Use to convert 50 C to Fahrenheit to see why this temperature is uncommon in most locations.   The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet (fractional feet). Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This discrete data is often graphed differently. The next examples illustrate a way of presenting discrete data.   Increasing Income  When Vasya was hired in 2017, she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.  To represent this data we first need to calculate her salary for each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an iterative process. contains the results. A table is an effective means to represent discrete data like this.  We will represent her salary over time using the bar graph in . Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.  Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might you change the graph to make it easier to answer these questions?    Vasya's Salary   2017  $62,347.23   2018  $67,347.23   2019  $72,347.23   2020  $77,347.23   2021  $82,347.23   2022  $87,347.23   2023  $92,347.23   2024  $97,347.23      Vasya's Salary   A bar graph of the data above.      Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished.   Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the percent increase for each year's salary relative to the previous year's salary.   For these years is she keeping up with inflation?   Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.    What trend do you notice in the percent increase of salary? Why is this happening?   Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part is remaining fixed while the whole is increasing.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.     Vasya's Salary   A bar graph showing the annual raise as a percent increase and the annual inflation rate as a percent from 2017 to 2023     Inflation Rates by Year    2017  2.10%    2018  1.90%    2019  2.30%    2020  1.40%    2021  7.00%    2022  6.50%    2023  3.40%    2024  2.50%      Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.   In which years did Guido receive a raise?   The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.   In which years did Guido's salary appear to grow at least as much as inflation?   We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.    Salary vs Inflation   A bar graph showing for each year Guido's salary and his 2017 salary adjusted for inflation      Using Graphs to Analyze Models  Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.   Scale Model  Recall the scale model of a space shuttle in which is labeled as 1:144. We calculated that a model part which is 1.72 inches represents an actual part that is inches. In general where is the size on the model and is the size on the actual shuttle.  To represent this scale conversion as a graph we will generate a table like then we will use that to plot the graph.     Model  Full Size   1.0  144   1.5  216   2.0  288   2.5  360   3.0  432    We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in .  For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.    Graph of Scale   A graph showing the data points from the table above     Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.  Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.  This graph is a line. We knew it would be because is in the form of a line (as shown in ).   The next example is a shape we have not yet encountered in this text.   Ohm's Law  Recall Ohm's Law from . We will explore the relationship between current ( ) and resistance ( ).  To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current ( ). Because we are interested in the effect of resistance on current we will pick a fixed voltage: V. Thus our equation is .     Resistance  Current   1.0  12   4.0  3.0   8.0  1.5   12.0  1.0   16.0  0.75    We can plot these points and sketch a curve through them. This graph is in .  The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.  The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes . Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.     Graph of Ohms Law   A graph showing the data points from the Ohm's law table above    The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas. Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here. Draw a graph for the equation .    Graphing Lines  We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines when we have the equation, and presents analyzing linear models based on their graphs.  As described in a linear equation (model) has two parts: the shift and the ratio (slope, rate) . First, we address the role of the ratio in the graph.   Slope   The rate of change of a line (graph) is called its slope . The numerator is the change in y and the denominator is the change in x. Slope can be calculated as Rise and run are terms to help us remember the formula.    In we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have that is 144 is the change in y (real inches) and and 1 is the change in x (model inches).  Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using . The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.   Calculate Slope  The graph in is linear. We will calculate the slope twice.  First, we will use the points and . This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of feet above mean sea level.  We will use the points and . As expected this is the same slope, because on a line the rate of change (slope) is constant.   To write the equation for a line we need the shift, , as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. controls this shift. It is typically easiest to read this shift at , because in the linear form we have . The shift then is the coordinate at which is why it is often called the y-intercept.   Calculating Slope   The graph of a line through 3 points showing a relationship between altitude and pressure   The horizontal axis is labeled altitude in feet mean sea level and ranges from 0 to 10000. The vertical axis is labeled pressure in inches of mercury and ranges from 19 to 30.  Three points are shown are (2000,27.92), (4000,25.92) and (8000,21.92).      Calculate Shift   The graph in is linear. We will calculate the shift.   The shift can be read when . That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.  We will use to calculate the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up Thus the pressure should increase by 2.00 inHg giving us . Thus the point is and the shift is .  Combining this shift with the slope from the example above the model is   is the pressure at altitude .  29.92 is the initial pressure.  The rate is .  is the altitude above ground level.  If we replaced 29.92 with a parameter we could generalize the model to .        Interpret Charts  Answer the questions based on the charts provided.                   Rates  Answer these questions about rates\/slopes of lines.             Write Linear Equations   Write an equation that matches the data provided.           Graphing   Graph each line.        "
+  "body": " Representing Data   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varying directly or indirectly (critical thinking)    We often represent numerical data using tables, diagrams, and graphs. These include various kinds of charts like bar graphs and pie charts, and graphs of functions. We do this to make certain traits of the data easier to notice. Here we will look at how some of these are produced and begin to learn to recognize differences due to rates. More details about rates will be covered in .    Reading Tables of Data  This section illustrates how some data can be stored in tables, how to read data from a table, and how to infer additional data when reasonable.  Tables are useful if we have a limited number of entries, and the data can be organized by two traits. If there are too many entries, the table may be too large to efficiently use. The two traits become headers for the rows and columns. If the table has more entries than we can see on a page or screen, it becomes less easy to use. Technology can make it easier to find the desired row and column such as a spreadsheet with the row and column headings frozen.   Stall speed at 2550 lbs, most rearward center of gravity, speeds KIAS   Angle of Bank  Flap Setting 0 30 45 60  Up 48 52 57 68  Approach 43 46 51 61  Landing 40 43 48 57    We do not need to understand what bank, flap, and stall speed mean to read this table. Indeed a table can be presented precisely to help explain what terms mean. However, to satisfy your curiosity, stall speed refers to the speed at which a wing will produce insufficient lift to keep a plane flying. Falling beneath this speed typically results in the plane lowering its nose to regain speed. Angle of bank refers to how steeply the plane is tipped (left or right) in order to turn. KIAS stands for knots indicated air speed. Indicated airspeed is a speed pilots can see (think speedometer). Flaps are a structure extended for landing and sometimes take-off. Up means they are not in use. Approach and landing refer to varying degrees of extension.   What is the stall speed in a 30 bank angle with flaps up?  We can determine this by looking for the column labeled 30 and the row labeled Up . In that cell is the number 52. Thus the stall speed at that bank angle with flaps up is 52 KIAS.    In what condition is the stall speed the highest?  If we read all three rows, the largest number we find is 68. That is in the Up row and 60 column. So the stall speed is highest in the steep, 60 turn with the flaps in the up position.  Note, there is no shortcut here for checking the entry in every row and column.     As the angle of bank increases (from 0 to 60 ) what happens to the stall speed?    If we look in the Up row, the stall speed changes from 48 to 52 to 57 to 68. The first thing we notice is that the stall speed increases.  If we repeat this in the Approach row, we again see the speeds are increasing. The same is true in the Landing row.  Thus we can say that stall speed increases as the angle of bank increases.  In later sections ( ) we will learn to be more specific about patterns when possible.        Sometimes we want to know data that is between entries in a table. We can estimate these values if we know or can safely assume some property about the data. This is called interpolation . Below we provide examples of interpolation for linear data. Linear data is described in and .   Interpolation in a Table  What is the stall speed in a 15 bank angle with flaps in the Approach setting?  First, we note that there is no column for 15 bank angle. However we have 0 and 30 . 15 is half way between these two. For this chart it is reasonable to estimate our desired stall speed by calculating the number half way between those in the table.  The two stall speeds are 43 and 46. The number in between (the average) is . Airspeed is reported only to units, so we must round to units. For stall speeds, it is safest to assume a higher stall speed, so we will round to 45 KIAS.   When we want a value that is half way between two entries in a table, we can simply average them. However, if we want a value somewhere other than half way in between we must perform an additional calculation.   What is the stall speed with 10 bank angle with flaps in the Up setting?  The nearest entries in the table are 0 and 30 . We want to measure how far 10 is from the left (0); we can calculate that as a percent of the distance from 0 to 30. We can use the percent to calculate the matching number between the table entries (48 and 52).  Percent is part\/whole which in this case is . We do not need to write this as a percent (it would be approximately 33.3%), because we are just using it to multiply in the next step.  We want the speed that is 1\/3 of the way from 48 to 52. Again we treat this as a percent problem. This result is how far above 48, so the speed is . Again we round up for safety.  Because there are only 4 knots between the entries, it hardly seems worthwhile to do this work, especially because we round up for safety. There are times however, when this process is useful.         Reading Graphs  This section illustrates how some data can be represented in graphs and how to read data from a graph, including some comparisons of graphs.  Graphs that are curves (like lines) are read by finding a vertical heading that matches our question (think row) and reading the corresponding horizontal heading (think column). Note this could be reversed, that is, find a horizontal heading that matches and read the corresponding vertical one.   presents the maximum engine out glide for an airplane. If that plane is 2400 ft above the ground, how many nautical miles (nm) can it glide forward?  First we note that 2400 ft matches the vertical axis. We want to find the line across the graph that represents 2400 ft. We notice that no line is labeled 2400. We do have 2000 and 4000 and there are lines between them. To figure out which of these lines we should use, we must figure out how many feet each minor line represents.  We count 10 minor lines between each major line. Because each major line represents 2000 ft, we know the minor lines represent ft.  Because we want the second minor line above 2000. We follow that to the blue line, then we follow the gray (minor) line down to the bottom. Our result is two minor lines before 4.  We must figure out how much each minor vertical line represents. Each vertical major line is 2 nm. Again there are 10 minor lines between each major line, so we know the minor lines represent nm.  The glide distance for 2400 ft is therefore nm. We subtracted here because it is before 4.    Graph Representing Maximum Engine Out Glide   Graph of glide distance described in example above   The horizontal axis is labeled Glide Distance and ranges from 0 to 20 nautical miles. The vertical axis is labeled Height Above Ground and ranges from 0 to 12000 feet. The graph is a line from (0,0) to (19.8,12000).         When we look at any table, graph, or figure, we should ask ourselves why various choices were made in the construction of the table, graph, or figure. We may need to ask someone with related knowledge for explanations of those decisions.   Consider . The input we use is Height Above Ground (ft) . Frequently we place the inputs on the x-axis. Why was the y-axis chosen for the inputs here?  Consider that the inputs are heights . This is a y-axis concept, so it matches our expectations. Reading the graph is not affected by this choice.  Why do the inputs begin at 0 and end at 12000?  They begin at 0, because we are talking about a plane gliding to the ground. A plane must be above the ground (above 0) to glide.  They end at 12000 in this case, because this aircraft cannot fly higher than that altitude. We do not need data for cases that cannot occur.  Why are the inputs labeled every 2000 and the inputs every 2?  This is purely space available. If we put in more labels, the text for them would overlap.   Graphs can be from raw data which may appear random. We still read these graphs the same way.  For the following example we need to define a percentile . A percentile indicates a level such that, that percent of cases is less. For example if the 75th percentile is 88, means that 75% of the cases are less than 88. It is a way of indicating how much of a population is included at that level.   Expected Stature of Males from 2 to 20 Years   7 curves showing the expected height at a given age.   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.      The figure above contains the stature (height) percentiles for U.S. males. The data can be obtained at . What height in centimeters is the 50th percentile for 11 year old males?  Age is on the x-axis, so we start at 11 which should be half way between 10 and 12. To read an approximate value from this figure, we can draw a vertical line from here up to the middle (blue) curve. This is shown on the image below. From that point we can draw a horizontal line across to the y-axis. This line is about one quarter of the way between 140 and 160, so we estimate (interpolate) this is 145 cm (see for a reminder on how to estimate this).   7 curves showing the expected height at a given age with above process drawn on top   The horizontal axis is labeled Age and ranges from 2 to 20 years. The vertical axis is labeled Height and ranges from 80 to 200 centimeters. The graphs represent the percentiles: 5, 10, 25, 50, 75, 90, 95.  A vertical line goes up from 11 years to the 50 percentile curve. From that point a horizontal line goes over to the vertical axis a little above 140 cm.    How much greater is the spread (distance from 5th to 95th percentile) for 20 year olds than for 2 year olds? Present as a ratio and as a percent increase.  For 2 year olds it appears to range from 80 to 95 cm (about 3\/4 of the way up). This is a spread of cm. For 20 year olds it appears to range from 165 to 190 cm. This is a spread of cm. Thus the spread increases over time. The ratio is . For the percent increase we calculate The percent increase is or 133% increase. Yes, the increase is greater than 100% in this case, that is, the spread more than doubled.   In addition to reading specific values from these graphs, we should always ask ourselves why the diagram was designed as it was.   When we look at the stature percentiles figure we should ask ourselves questions like the following.  Why is it for males only? The CDC provides separate data for females. On average females in the U.S. are shorter than males. Thus separate figures are needed. Note, to answer this we needed to see rest of the CDC data (cannot be read from the figure above).  Why does it begin at 2 years? The CDC provides separate data for 0-2 years. This is from the WHO rather than the CDC. An explanation is on the CDC website.  Why does the data end at 20 years? Notice that the percentile curves level off toward 20 years old. This simply represents that full, adult height has been reached. The curves should remain the same until age brings shrinking.    has the temperature and dewpoint read by a radiosonde (instruments on weather balloon) as it rose in the atmosphere. Note the vertical axis is the pressure reading. This is not the same as altitude, but it does correspond mostly to altitude. Dew point is the temperature at which water will condense, so it is also a temperature.  What are the temperature and dewpoint at the 700 millibar level?  We follow the 700 mb line over to the dewpoint (green, dashed) line then move straight down to the x-axis (temperature). This is a little less than halfway between -20 C and 0 (closer to 0 ). We estimate -7 C. For temperature we continue across the 700 mb line to the temperature (red, solid) line then move straight down to the x-axis. We notice it is a little closer to 0 than the dewpoint. We estimate the temperature is 5 C.    Graph of Temperature and Dewpoint   Partial radiosonde data showing temperature and dewpoint curves.   The horizontal axis is labeled Temperature and ranges from -100 to 20 degrees centigrade. The vertical axis is labeled pressure altitude and ranges from 1000 at the bottom to 0 at the top. There are two curves. One represents the temperature at that pressure and the other represents the dew point at that pressure.     Note some charts like are not meant to convey specific numbers but rather to show trends.   Notice that while the temperature (red, solid line) wiggles around, it trends down (to the left) as the pressure decreases (go up the graph). That is, it shows temperature generally decreasing as altitude increases. We expect this, because it is farther from the ground which heats the air. The increase above 300 millibars level is the result of other factors which you can research at .  Clouds form when the temperature reaches the dewpoint and the air is saturated (has enough moisture). We see in three places where temperature and dewpoint are the same. The lowest is between 800 and 700 millibars (we estimate 750 millibars). The second is between 700 and 600 millibars (we estimate 650 millibars). The third is at about 500 millibars. We would expect clouds to form at these altitudes.    Consider . The input we use is Pressure (millibars) . Why was the y-axis chosen for the inputs here?  The pressure readings correspond to altitudes (height) which we tend to think of as up. Putting this on the y-axis matches this expectation.  Why do the y-axis labels decrease as they go up?  Atmospheric pressure decreases with altitude, so low pressure means higher altitude. The pressure readings are arranged to be low altitude at the bottom and high altitude at the top.  Why do the inputs begin at 1000?  Because the pressure readings correspond to altitude the highest pressure should be on the ground. It turns out 1013 is a typical pressure at ground level, so much higher pressure readings are not expected.  Why are the output labels from -100 to 40?  These are based on commonly experienced temperatures. Temperatures lower than -100 C are not expected. Temperatures above 40 C do occur, but not in the location where this sounding was taken.  Use to convert 50 C to Fahrenheit to see why this temperature is uncommon in most locations.   The input for the glide ratio questions is altitude. Altitudes are continuous that is it makes sense to refer to an altitude of 2453.27 feet (fractional feet). Similarly the pressure levels are continuous, that is it makes sense to refer to 501.7 millibar level. However, there is data where a fraction does not make sense. This discrete data is often graphed differently. The next examples illustrate a way of presenting discrete data.   Increasing Income  When Vasya was hired in 2017, she was paid an annual salary of $62,347.23. Her work has been good, so each year she has received raises of $5000.00.  To represent this data we first need to calculate her salary for each year. We do this by starting with her initial salary, then for each year adding the $5000 raise to the previous year's salary. This is an iterative process. contains the results. A table is an effective means to represent discrete data like this.  We will represent her salary over time using the bar graph in . Notice the horizontal axis is labeled with years and the vertical axis is labeled in dollars. There is one bar for each year, because her salary was changed only once each year. Bar graphs are a good option for discrete data.  Consider the bar graph (ignore the table). Can you tell that Vasya's salary is increasing? Can you tell how much? How might you change the graph to make it easier to answer these questions?    Vasya's Salary   2017  $62,347.23   2018  $67,347.23   2019  $72,347.23   2020  $77,347.23   2021  $82,347.23   2022  $87,347.23   2023  $92,347.23   2024  $97,347.23      Vasya's Salary   A bar graph of the data above.      Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished.    Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the percent increase for each year's salary relative to the previous year's salary.     For these years is she keeping up with inflation?    Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.      What trend do you notice in the percent increase of salary? Why is this happening?    Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part is remaining fixed while the whole is increasing.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.      Vasya's Salary   A bar graph showing the annual raise as a percent increase and the annual inflation rate as a percent from 2017 to 2023     Inflation Rates by Year    2017  2.10%    2018  1.90%    2019  2.30%    2020  1.40%    2021  7.00%    2022  6.50%    2023  3.40%    2024  2.50%       Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.     In which years did Guido receive a raise?    The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.      In which years did Guido's salary appear to grow at least as much as inflation?    We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.      Salary vs Inflation   A bar graph showing for each year Guido's salary and his 2017 salary adjusted for inflation      Using Graphs to Analyze Models  Above we practiced interpreting graphs provided for us. This section presents generating graphs to analyze and interpret models. While we will rely on technology to produce graphs, these examples begin with manual generation of graphs because that process helps us understand a model and it helps us understand what the graphs mean.   Scale Model  Recall the scale model of a space shuttle in which is labeled as 1:144. We calculated that a model part which is 1.72 inches represents an actual part that is inches. In general where is the size on the model and is the size on the actual shuttle.  To represent this scale conversion as a graph we will generate a table like then we will use that to plot the graph.     Model  Full Size   1.0  144   1.5  216   2.0  288   2.5  360   3.0  432    We sketch a graph by plotting the points first. Notice the five points based on the table above. Through the points we draw a curve: in this case it is a line. The graph is in .  For the curious, software uses this same process to produce a graph. It usually plots a much larger number of points and then connects the dots with short line segments.    Graph of Scale   A graph showing the data points from the table above     Why does the graph start at 0? The inputs are lengths on the model; negative lengths do not make sense.  Why does it end at 4? If we wanted all sizes from zero to the largest dimension of the shuttle, we would need a bigger graph. However, because this is a line, we have a good idea what the rest of the graph looks like.  This graph is a line. We knew it would be because is in the form of a line (as shown in ).   The next example is a shape we have not yet encountered in this text.   Ohm's Law  Recall Ohm's Law from . We will explore the relationship between current ( ) and resistance ( ).  To begin the exploration and to enable graphing we will complete a table. First it will be convenient to solve Ohm's law for current ( ). Because we are interested in the effect of resistance on current we will pick a fixed voltage: V. Thus our equation is .     Resistance  Current   1.0  12   4.0  3.0   8.0  1.5   12.0  1.0   16.0  0.75    We can plot these points and sketch a curve through them. This graph is in .  The apparent relationship between current and resistance for a fixed voltage is that current decreases as resistance increase.  The graph starts with 1 Ohm. Why does it not start at 0? If resistance were 0, then the equation becomes . Division by zero does not make arithmetic sense. 0 ohm resistance means no resistance and this is not physically possible (nothing is perfect). Thus the math model fits the physical reality.     Graph of Ohms Law   A graph showing the data points from the Ohm's law table above     The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas.  Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here.  Draw a graph for the equation .     Graphing Lines  We have seen what linear data looks like in data tables, discrete graphs (e.g., bar graph), and continuous graphs. This section presents how to graph lines when we have the equation, and presents analyzing linear models based on their graphs.  As described in a linear equation (model) has two parts: the shift and the ratio (slope, rate) . First, we address the role of the ratio in the graph.   Slope   The rate of change of a line (graph) is called its slope . The numerator is the change in y and the denominator is the change in x. Slope can be calculated as Rise and run are terms to help us remember the formula.    In we graphed a linear equation with the ratio 144 real inches to 1 model inch. In the linear model we have that is 144 is the change in y (real inches) and and 1 is the change in x (model inches).  Because the rate of change is the fixed, the slope can be calculated from any two points. We can calculate the slope from points in a table or points from a graph using . The next example illustrates calculating the slope from two points and that the slope is the same regardless of points selected.   Calculate Slope  The graph in is linear. We will calculate the slope twice.  First, we will use the points and . This means the slope is a decrease of 1.00 inHg (inch of mercury) per increase of feet above mean sea level.  We will use the points and . As expected this is the same slope, because on a line the rate of change (slope) is constant.   To write the equation for a line we need the shift, , as well as the slope. This can also be read from the graph. The slope determines how tilted the line is. After this that line can be moved up or down. controls this shift. It is typically easiest to read this shift at , because in the linear form we have . The shift then is the coordinate at which is why it is often called the y-intercept.   Calculating Slope   The graph of a line through 3 points showing a relationship between altitude and pressure   The horizontal axis is labeled altitude in feet mean sea level and ranges from 0 to 10000. The vertical axis is labeled pressure in inches of mercury and ranges from 19 to 30.  Three points are shown are (2000,27.92), (4000,25.92) and (8000,21.92).      Calculate Shift   The graph in is linear. We will calculate the shift.   The shift can be read when . That point is not labeled on the graph. However, we can calculate it using one of the points and the ratio.  We will use to calculate the pressure using a proportion. We want the point 2000 feet below this point, and pressure increases as we go down so we set up Thus the pressure should increase by 2.00 inHg giving us . Thus the point is and the shift is .  Combining this shift with the slope from the example above the model is   is the pressure at altitude .  29.92 is the initial pressure.  The rate is .  is the altitude above ground level.  If we replaced 29.92 with a parameter we could generalize the model to .           Interpret Charts  Answer the questions based on the charts provided.                                                 Rates  Answer these questions about rates\/slopes of lines.                               Write Linear Equations   Write an equation that matches the data provided.                       Graphing   Graph each line.              "
 },
 {
   "id": "table-table-stall",
@@ -3436,7 +3436,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.2.5",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "subsection-tables-10",
@@ -3472,7 +3472,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.2.8",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-read-graph-glide",
@@ -3499,7 +3499,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.2.11",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-critical-graph-glide",
@@ -3625,7 +3625,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.2.23",
   "title": "",
-  "body": "  Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished.   Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the percent increase for each year's salary relative to the previous year's salary.   For these years is she keeping up with inflation?   Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.    What trend do you notice in the percent increase of salary? Why is this happening?   Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part is remaining fixed while the whole is increasing.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.   "
+  "body": "  Vasya wishes to know how her raises are helping her keep up with increasing costs. shows her raises as a percent of her previous year's salary and the inflation rate ( ) If her raises are at least as large as inflation, then her spending power is not diminished.    Using confirm that the graph shows the correct percent increase for 2021. Recall her raise is $5000 each year. The graph shows the percent increase for each year's salary relative to the previous year's salary.     For these years is she keeping up with inflation?    Her raise is a larger percent each year except for two. In those two years it is close. She has been more than keeping up with inflation.      What trend do you notice in the percent increase of salary? Why is this happening?    Her percent drops from about 8% to a little over 5%. This results from her raise being the same amount but her previous year's salary is bigger each year. In the percent (part\/whole) the part is remaining fixed while the whole is increasing.  Unless there is a change this will lead to her raises eventually not keeping up with inflation.    "
 },
 {
   "id": "figure-read-graph-compare",
@@ -3652,7 +3652,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.2.26",
   "title": "",
-  "body": " Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.   In which years did Guido receive a raise?   The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.   In which years did Guido's salary appear to grow at least as much as inflation?   We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.  "
+  "body": "  Consider . It contains Guido's annual salary for each year listed. The second bar is the first year's salary increased each year to match inflation. That is it shows what Guido's salary would have been if his raises had exactly matched inflation.     In which years did Guido receive a raise?    The bars show an increase from 2017 to 2018, 2018 to 2019, 2022 to 2023, and 2023 to 2024. He received raises in 2018, 2019, 2022, 2023, and 2024.      In which years did Guido's salary appear to grow at least as much as inflation?    We can see that his salary was bigger than the inflation adjusted amount in 2018 and 2019. Those raises were larger than inflation.  We cannot tell if his raises in 2022-24 were larger, because his salary was so far behind that even if his raise was larger than inflation that year, it would not make up for the years without a raise.    "
 },
 {
   "id": "figure-salary-inflation",
@@ -3715,7 +3715,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.2.33",
   "title": "",
-  "body": "The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas. Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here. Draw a graph for the equation . "
+  "body": " The ideal gas law expresses a relationship between pressure, volume, and temperature of a gas. It is given by where is the pressure, is the volume, is the temperature, and is a constant dependent on the specific gas.  Draw a graph for the equation . Note the units are Kelvin (Celsius + 273.15) for temperature and Jules\/litre for pressure. These do not need to be labeled here.  Draw a graph for the equation .  "
 },
 {
   "id": "definition-slope",
@@ -3760,7 +3760,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.2.38",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "section-graphing-7-1-3",
@@ -3769,7 +3769,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-4",
@@ -3778,7 +3778,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-5",
@@ -3787,7 +3787,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-6",
@@ -3796,7 +3796,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-7",
@@ -3805,7 +3805,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-8",
@@ -3814,7 +3814,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-9",
@@ -3823,7 +3823,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-10",
@@ -3832,7 +3832,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-11",
@@ -3841,7 +3841,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-12",
@@ -3850,7 +3850,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-13",
@@ -3859,7 +3859,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-14",
@@ -3868,7 +3868,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-15",
@@ -3877,7 +3877,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-16",
@@ -3886,7 +3886,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-1-17",
@@ -3895,7 +3895,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-3",
@@ -3904,7 +3904,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-4",
@@ -3913,7 +3913,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-5",
@@ -3922,7 +3922,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-6",
@@ -3931,7 +3931,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-7",
@@ -3940,7 +3940,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-8",
@@ -3949,7 +3949,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-9",
@@ -3958,7 +3958,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-10",
@@ -3967,7 +3967,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.23",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-2-11",
@@ -3976,7 +3976,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.24",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-3-3",
@@ -3985,7 +3985,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.25",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-3-4",
@@ -3994,7 +3994,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.26",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-3-5",
@@ -4003,7 +4003,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.27",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-3-6",
@@ -4012,7 +4012,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.28",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-3-7",
@@ -4021,7 +4021,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.29",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-3-8",
@@ -4030,7 +4030,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.30",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-4-3",
@@ -4039,7 +4039,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.31",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-4-4",
@@ -4048,7 +4048,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.32",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-graphing-7-4-5",
@@ -4057,7 +4057,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.33",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates",
@@ -4066,7 +4066,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Identifying Rates",
-  "body": " Identifying Rates   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)    So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.    Differences  One way to measure rates is to look at the differences between data points. Calculating these differences is illustrated in the table below.   Tien's Salary   Year  Salary  Difference   2017  $52,429.33    2018  $55,050.80  $55,050.80-$52,429.33=$2,621.47   2019  $57,803.34  $57,803.34-$55,050.80=$2,752.54   2020  $60,693.50  $60,693.50-$57,803.34=$2,890.17   2021  $63,728.18  $63,728.18-$60,693.50=$3,034.68   2022  $66,914.59  $66,914.59-$63,728.18=$3,186.41   2023  $70,260.32  $70,260.32-$66,914.59=$3,345.73   2024  $73,773.33  $73,773.33-$70,260.32=$3,513.02     In order to see how these differences can help us distinguish between linear and other models, consider Vasya's salary in . We know that the difference between each year's salary is $5000.00, because we are told that was the raise each year. This is linear model. In contrast Tien's raises are different each year (they grow year to year). This means his salary does not grow linearly.   Differences for Atmospheric Pressure Model  Consider the model in . calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.  calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.  The rates we obtained in both tables do match. Consider .    Atmospheric Pressure Differences (2000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    2000  27.92  27.92-29.92=-2.00   4000  25.92  25.92-27.92=-2.00   6000  23.92  23.92-25.92=-2.00   8000  21.92  21.92-23.92=-2.00      Atmospheric Pressure Differences (1000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    1000  28.92  28.92-29.92=-1.00   2000  27.92  27.92-28.92=-1.00   3000  26.92  26.92-27.92=-1.00   4000  25.92  25.92-26.92=-1.00      Linear Relation  A relation is linear if and only if the rate of change is constant.   This states that a linear model grows by the same amount from one step to the next (rate of change or difference). This equal growth results from the ratio in the form . Consider the specific case . In the table below notice that the differences are all the same and that the difference is 3. 3 is the ratio from the equation. This is always the case. The slope is how fast the line grows.   Differences for Lines     Difference       5-2=3    8-5=3    11-8=3    14-11=3    Notice we used this constant addition property when working with ratio problems like . Relations defined by fixed ratios like these are linear.  For linear data consecutive differences are always the same. The next examples ( to ) illustrate known, non-linear data and how the differences for those look.   Quadratic Data  Consider . The first differences (what we calculated above) are not the same. Thus this data is not linear.  However, the first differences increase in a suspiciously simple pattern (odd numbers). Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all quadratic data.    Quadratic Data     1st difference  2nd difference   1  1     2  4  4-1=3    3  9  9-4=5  5-3=2   4  16  16-9=7  7-5=2   5  25  25-16=9  9-7=2   6  36  36-25=11  11-9=2      Quadratic Relation  A relation is quadratic if and only if the second differences are constant.    Exponential Data  Consider . The differences are not the same nor do they show the same pattern as quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.    Exponential Data     Difference   1  2   2  4  4-2=2   3  8  8-4=4   4  16  16-8=8   5  32  32-16=16   6  64  64-32=32     The next example illustrates that the differences for exponential data are not always exactly equal to the data.   Exponential Data Differences   Consider . The differences are not exactly equal to the original numbers. However, notice that , , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.  Happily there is an easier way to determine that data is exponential shown in the next section.     Exponential Data with Scale     Difference   1  3   2  9  9-3=6   3  27  27-9=18   4  81  81-27=54   5  243  243-81=162   6  729  729-243=486      Exponential Relation  A relation is exponential if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.     Quotients  The previous section analyzed change as the difference (subtraction) of consecutive numbers (salaries in these examples). This section analyzes change using the percent increase for each pair of consecutive numbers.   Salary Percent Incease  We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in and .  Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?    Percent Increase for Tien   Year  Ratio   Increase   2018  $55,050.80\/$52,429.33  =1.05  5%   2019  $57,803.34\/$55,050.80  =1.05 5%   2020  $60,693.50\/$57,803.34  =1.05 5%   2021  $63,728.18\/$60,693.50  =1.05 5%      Percent Increase for Vasya   Year  Ratio   Increase   2018  $67,347.23\/$62,347.23  =1.08 8%   2019  $72,347.23\/$67,347.23  =1.07  7%   2020  $77,347.23\/$72,347.23  =1.07  7%   2021  $82,347.23\/$77,347.23  =1.06  6%      Exponential  A relation is exponential if and only if the percent increase is constant.    The table below gives an amount of caffeine in the blood stream. This data is exponential with a ratio of 0.87. The ratio in this example means there is a 13% decrease per hour of caffeine in the blood stream. This is in contrast to the previous example which was an increasing exponential.   Hour  Caffeine  Ratio   0  95 mg    1  83 mg    2  72 mg    3  63 mg    4  55 mg    5  48 mg    6  41 mg    7  36 mg    8  31 mg      Although and are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. shows an example of analyzing data using both differences and ratios. Notice that the differences are a scaled version of the original data (scaled by ). The ratio from the quotient is which gives about a 33% increase. For the curious the data was generate by .   Exponential Data 2 Ways      Data  Difference  Ratio                             Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. If not linear, divide consecutive pairs. If all the ratios are the same, then that person's raises were exponential.    Extrapolation  In we found a value between two entries in a table. That is interpolation. In other cases we want to find a value past the end of a table. This is called extrapolation .   Extrapolation from a Table  Based on what do we expect Tien's salary to be in 2022, 2025?  From we know each entry is 1.05 times the previous year's salary. Because that was the pattern every year, we might safely suppose it will occur again. Thus we expect his 2022 salary to be .  To extrapolate to 2025 we repeat this process for 2023, 2024, and 2025. If his raises continue at the same rate he will have a salary of $89,671.94 in 2025.    Based on what do we expect Vasya's salary to be in 2025, 2028?  From we know that Vasya has received a $5,000 raise each year. Because that has been the pattern, we might safely suppose it will continue. Thus we expect her 2025 salary to be  To calculate her expected 2028 salary we note that is 4 years after 2024, so she should have four raises of $5,000 each. Her expected salary will be   Notice that in both of these examples we needed to know the growth rate (i.e., exponential or linear respectively) before we could extrapolate.      Identifying Rates   Determine from the tables of data what the rate of growth is.            Extrapolating   Identify the type of relation and extrapolate to write a few more elements.          "
+  "body": " Identifying Rates   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)    So far we have looked at linear models. We will add quadratic, exponential, and some variations in later sections. One of the ways we distinguish between models is by the rate at which they grow. Often the rate at which something is happening is more important than how much there currently is. This section presents two methods for identifying rates from tables of data. How to identify each type by graph is presented in the appropriate chapter and section.    Differences  One way to measure rates is to look at the differences between data points. Calculating these differences is illustrated in the table below.   Tien's Salary   Year  Salary  Difference   2017  $52,429.33    2018  $55,050.80  $55,050.80-$52,429.33=$2,621.47   2019  $57,803.34  $57,803.34-$55,050.80=$2,752.54   2020  $60,693.50  $60,693.50-$57,803.34=$2,890.17   2021  $63,728.18  $63,728.18-$60,693.50=$3,034.68   2022  $66,914.59  $66,914.59-$63,728.18=$3,186.41   2023  $70,260.32  $70,260.32-$66,914.59=$3,345.73   2024  $73,773.33  $73,773.33-$70,260.32=$3,513.02     In order to see how these differences can help us distinguish between linear and other models, consider Vasya's salary in . We know that the difference between each year's salary is $5000.00, because we are told that was the raise each year. This is linear model. In contrast Tien's raises are different each year (they grow year to year). This means his salary does not grow linearly.   Differences for Atmospheric Pressure Model  Consider the model in . calculates the differences every 2000 ft. Notice that the differences are all the same namely -2.00. This model is linear.  calculates the differences every 1000 ft. In this table the differences are all -1.00. This still indicates that the model is linear. It does not matter what interval we choose. If the differences over evenly spaced intervals are the same, then the model is linear.  The rates we obtained in both tables do match. Consider .    Atmospheric Pressure Differences (2000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    2000  27.92  27.92-29.92=-2.00   4000  25.92  25.92-27.92=-2.00   6000  23.92  23.92-25.92=-2.00   8000  21.92  21.92-23.92=-2.00      Atmospheric Pressure Differences (1000 ft intervals)   Altitude (ft MSL)  Expected Pressure (inHg)  Difference   0  29.92    1000  28.92  28.92-29.92=-1.00   2000  27.92  27.92-28.92=-1.00   3000  26.92  26.92-27.92=-1.00   4000  25.92  25.92-26.92=-1.00      Linear Relation  A relation is linear if and only if the rate of change is constant.   This states that a linear model grows by the same amount from one step to the next (rate of change or difference). This equal growth results from the ratio in the form . Consider the specific case . In the table below notice that the differences are all the same and that the difference is 3. 3 is the ratio from the equation. This is always the case. The slope is how fast the line grows.   Differences for Lines     Difference       5-2=3    8-5=3    11-8=3    14-11=3    Notice we used this constant addition property when working with ratio problems like . Relations defined by fixed ratios like these are linear.  For linear data consecutive differences are always the same. The next examples ( to ) illustrate known, non-linear data and how the differences for those look.   Quadratic Data  Consider . The first differences (what we calculated above) are not the same. Thus this data is not linear.  However, the first differences increase in a suspiciously simple pattern (odd numbers). Checking the second differences (the differences of the 1st differences) we see a linear pattern. This turns out to be the pattern for all quadratic data.    Quadratic Data     1st difference  2nd difference   1  1     2  4  4-1=3    3  9  9-4=5  5-3=2   4  16  16-9=7  7-5=2   5  25  25-16=9  9-7=2   6  36  36-25=11  11-9=2      Quadratic Relation  A relation is quadratic if and only if the second differences are constant.    Exponential Data  Consider . The differences are not the same nor do they show the same pattern as quadratics. However, there is a pattern in the differences. Notice that the differences are exactly equal to the original data. This means that the rate of increase is determined by the current scale. In other words, the bigger it is, the faster it grows. This is the pattern of data that varies exponentially.    Exponential Data     Difference   1  2   2  4  4-2=2   3  8  8-4=4   4  16  16-8=8   5  32  32-16=16   6  64  64-32=32     The next example illustrates that the differences for exponential data are not always exactly equal to the data.   Exponential Data Differences   Consider . The differences are not exactly equal to the original numbers. However, notice that , , and . The differences are double the original numbers. In general for exponential data the differences will be the original data scaled by some number.  Happily there is an easier way to determine that data is exponential shown in the next section.     Exponential Data with Scale     Difference   1  3   2  9  9-3=6   3  27  27-9=18   4  81  81-27=54   5  243  243-81=162   6  729  729-243=486      Exponential Relation  A relation is exponential if and only if the differences are a multiple of the original values, that is the rate is proportional to the value.     Quotients  The previous section analyzed change as the difference (subtraction) of consecutive numbers (salaries in these examples). This section analyzes change using the percent increase for each pair of consecutive numbers.   Salary Percent Incease  We will first calculate the percent increase of salary each year for Tien and Vasya. Because salary numbers are exact, we will not use significant digits. Rather we will round to the nearest percent. This is in and .  Notice that for Tien the percent increase is the same each year. It is 5%. For Vasya, the percent increase is not the same each year. How does the percent increase change for her?    Percent Increase for Tien   Year  Ratio   Increase   2018  $55,050.80\/$52,429.33  =1.05  5%   2019  $57,803.34\/$55,050.80  =1.05 5%   2020  $60,693.50\/$57,803.34  =1.05 5%   2021  $63,728.18\/$60,693.50  =1.05 5%      Percent Increase for Vasya   Year  Ratio   Increase   2018  $67,347.23\/$62,347.23  =1.08 8%   2019  $72,347.23\/$67,347.23  =1.07  7%   2020  $77,347.23\/$72,347.23  =1.07  7%   2021  $82,347.23\/$77,347.23  =1.06  6%      Exponential  A relation is exponential if and only if the percent increase is constant.    The table below gives an amount of caffeine in the blood stream. This data is exponential with a ratio of 0.87. The ratio in this example means there is a 13% decrease per hour of caffeine in the blood stream. This is in contrast to the previous example which was an increasing exponential.   Hour  Caffeine  Ratio   0  95 mg    1  83 mg    2  72 mg    3  63 mg    4  55 mg    5  48 mg    6  41 mg    7  36 mg    8  31 mg      Although and are phrased differently they both accurately describe exponential relations. Generally it is easier to test if data is exponential by testing the ratios of terms rather than the differences. shows an example of analyzing data using both differences and ratios. Notice that the differences are a scaled version of the original data (scaled by ). The ratio from the quotient is which gives about a 33% increase. For the curious the data was generate by .   Exponential Data 2 Ways      Data  Difference  Ratio                                Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. If not linear, divide consecutive pairs. If all the ratios are the same, then that person's raises were exponential.     Extrapolation  In we found a value between two entries in a table. That is interpolation. In other cases we want to find a value past the end of a table. This is called extrapolation .   Extrapolation from a Table  Based on what do we expect Tien's salary to be in 2022, 2025?  From we know each entry is 1.05 times the previous year's salary. Because that was the pattern every year, we might safely suppose it will occur again. Thus we expect his 2022 salary to be .  To extrapolate to 2025 we repeat this process for 2023, 2024, and 2025. If his raises continue at the same rate he will have a salary of $89,671.94 in 2025.    Based on what do we expect Vasya's salary to be in 2025, 2028?  From we know that Vasya has received a $5,000 raise each year. Because that has been the pattern, we might safely suppose it will continue. Thus we expect her 2025 salary to be  To calculate her expected 2028 salary we note that is 4 years after 2024, so she should have four raises of $5,000 each. Her expected salary will be   Notice that in both of these examples we needed to know the growth rate (i.e., exponential or linear respectively) before we could extrapolate.        Identifying Rates   Determine from the tables of data what the rate of growth is.                          Extrapolating   Identify the type of relation and extrapolate to write a few more elements.                    "
 },
 {
   "id": "table-differences-exponential-tien",
@@ -4255,7 +4255,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.3.21",
   "title": "",
-  "body": "Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. If not linear, divide consecutive pairs. If all the ratios are the same, then that person's raises were exponential. "
+  "body": "   Subtract consecutive pairs of salaries. If all the differences are the same, then that person's raises were linear. If not linear, divide consecutive pairs. If all the ratios are the same, then that person's raises were exponential.  "
 },
 {
   "id": "subsection-extrapolation-2",
@@ -4291,7 +4291,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.3.24",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-1-3",
@@ -4300,7 +4300,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-1-4",
@@ -4309,7 +4309,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-1-5",
@@ -4318,7 +4318,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-1-6",
@@ -4327,7 +4327,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-1-7",
@@ -4336,7 +4336,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-1-8",
@@ -4345,7 +4345,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-1-9",
@@ -4354,7 +4354,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-2-3",
@@ -4363,7 +4363,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-2-4",
@@ -4372,7 +4372,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-2-5",
@@ -4381,7 +4381,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-3",
@@ -4390,7 +4390,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rates-6-4",
@@ -4399,7 +4399,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation",
@@ -4408,7 +4408,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Variation",
-  "body": " Variation   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    presents how to determine the rate at which one variable grows with respect to another. In all of those cases we considered only one variable changing. However, many models have more than one variable or parameter, and we wish to analyze the impact each one has on the result. This section will also present one more type of rate.    Analyzing Models with Multiple Variables  This first example illustrates how a result can be linear with respect to one or more variables and quadratic (or other relationships) with another.   Review . Consider how lift changes with respect to each of the parameters.  Consider the density of air. If the other parameters remain constant (only density changes), then the model looks like All we used is commutativity of multiplication. We can see that lift ( ) changes linearly with respect to air density ( ).  Consider the surface area of the airfoil (wing or propeller). If the other parameters remain constant (only surface area changes), then the model looks like We can see that lift ( ) changes linearly with respect to surface area ( ).  Consider the coefficient of lift of the airfoil. If the other parameters remain constant, then the model looks like We can see that lift ( ) changes linearly with respect to the coefficient of lift ( ).  Consider the velocity. If the other parameters remain constant, then the model looks like We can see that lift ( ) changes quadratically with respect to velocity ( ).  How can we apply this knowledge? Lift changes linearly with respect to all parameters except for velocity. If greater lift (to handle greater weight) is needed, velocity provides bigger bang for our buck than any other change.   This second example has us look at the impact on more than just one variable. It also introduces a new relationship.   Review .  First consider the impact temperature ( ) has on pressure ( ). If the other parameters remain constant, then the model looks like Pressure ( ) grows linearly with respect to temperature ( ).  Notice that we can write that last equation as which means we can also make the reverse statement: temperature increases linearly with pressure.  Next consider the impact temperature ( ) has on volume ( ). If the other parameters remain constant, then the model looks like Volume ( ) also grows linearly with respect to temperature ( ).  Finally consider the impact volume ( ) has on pressure ( ). If the other parameters remain constant, then the model looks like This pattern is not linear (nor quadratic, nor exponential). If volume is increased the right hand side will decrease (dividing by a larger number). This means that pressure will decrease. Conversely if volume is decreased the right hand side will increase (divide by a smaller number). This means that pressure will increase.    Vary Directly   For two quantities and , if increasing increases , then is said to vary directly with .     Vary Indirectly   For two quantities and , if increasing decreases , then is said to vary indirectly with .    illustrated a model where the increase in one variable caused a decrease in the other. We used an experiment (plugging in numbers) to discover the inverse relationship.  If two quantities vary directly, the model may be linear, quadratic, or exponential. If two quantities vary inversely, the model may be neither linear nor quadratic. In contrast the next example illustrates two quantities can vary inversely, and the model is exponential.   Decreasing Exponential  Review the data in the table below. First, notice that decreases as increases which means varies inversely with . Second, note that the data is exponential with a ratio of . All exponential models that are decreasing have this property.        Ratio   1  1\/2    2  1\/4  1\/2   3  1\/8  1\/2   4  1\/16  1\/2   5  1\/32  1\/2   6  1\/64  1\/2       More Model Usage  In the section above and in we determined growth rates (e.g., linear, quadratic exponential, and direct and inverse variation) by generating data and checking the consecutive differences and\/or the consecutive ratios. In this section we learn a method to directly calculate the relationship.   Pressure is a measure of the amount of force spread over an area. where  is pressure,  is the force in units of pounds (lbs) or Newtons (N),  is the area in units of square inches, or meters, or similar.     Walking on snow (or mud) is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight). This is a science model with measurements, so we will round using significant digits.  Determine the pressure Guido exerts on the snow without and with snow shoes. Suppose Guido weighs 172 lbs.  Without snowshoes each foot has an area of 22 . What is the pressure he exerts on the snow? If he wears snowshoes that have a surface area of 144 , what is the pressure?   The next example illustrates how we can construct another model when we are interested in only some of the variables.   Hydraulic Press   Hydraulic system with two pistons of different sizes.   A force pushes down on a small piston on the left. That piston creates pressure on the hydraulic fluid beneath it. Because the fluid is constrained by the cylinders and tank, that pressure is transfered to a larger piston on the right. This creates an upward force on that piston. The forces are and the surface areas of the pistons are .      Hydraulics  Consider the situation in . The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is . The same is true on the right . Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus .    If the left piston has area , and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area ? This is a science model with measurements, so we will round using significant digits.  We notice this model is a proportion. We can use the relationship   The next example illustrates how we can determine how one variable varies with respect to another by direct calculation. Specifically, consider how changing the size of the second piston affects the resulting force.   If the second piston's area is changed from to , what is the increase or decrease in force?   To determine if it increases or decreases we should calculate the result for the second piston size. We set up the same problem as above.  The piston is larger and the force is also larger. Thus we know that force and area vary directly. The equation also shows us that they increase linearly, because all terms are linear. In particular is in the form of a line with ratio and no shift.    gives two forms of the ideal gas law. The second is produced from the first in the same way as the hydraulics model is produced from the pressure definition. To illustrate consider the case of the air\/water mixture in a pressure cooker. First recall the ideal gas law . The pressure cooker changes the temperature of the gas, but the volume, number of molecules and gas constant do not change. Thus we have and . In both cases we can solve for the shared variables. Similarly . Because both expressions equal we can set them equal giving which is the other model.  The example above produces a second form of the ideal gas law. The next example produces a second form of Ohm's Law. In many applications the voltage is fixed. For example it might be 12V from a car battery. Thus if we are considering current and resistance in two places we have and . Because voltage is the same (same source of electricity) we have .   If the current is 3 amps when the resistance is 8 Ohms, what will the current be when the resistance is 6 Ohms? 4 Ohms?   We can write The second case can be written  Notice as the resistance decreased, the current increased. Current varies inversely with resistance.      Limitations of Models  In we solved the model equation to see how one value changes with respect to another. We considered how temperature impacts pressure if the other properties do not change. We also considered how temperature impacts volume if the other properties do not change. We might ask how how volume impacts temperature if the other properties do not change.  We will not however, because this is impossible. If volume is reduced (e.g., we press down on the handle of a tire pump and do not let the air out), then the pressure will increase. There is no way around that. The increase of pressure will then result in an increase of temperature. This still matches the model we have.  When using a model, mathematics is used to understand what is meant, but we must understand some of the background so we do not draw false conclusions.     Distinguish Direct and Indirect Variation   Based on the model, determine how each parameter (variable) affects the others.       Interpret   Use the definitions of the terms to determine what will happen.       Terminology   Answer these questions based on the stated variation.           Applications   Use a model based on the stated variation to answer these questions.                "
+  "body": " Variation   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    presents how to determine the rate at which one variable grows with respect to another. In all of those cases we considered only one variable changing. However, many models have more than one variable or parameter, and we wish to analyze the impact each one has on the result. This section will also present one more type of rate.    Analyzing Models with Multiple Variables  This first example illustrates how a result can be linear with respect to one or more variables and quadratic (or other relationships) with another.   Review . Consider how lift changes with respect to each of the parameters.  Consider the density of air. If the other parameters remain constant (only density changes), then the model looks like All we used is commutativity of multiplication. We can see that lift ( ) changes linearly with respect to air density ( ).  Consider the surface area of the airfoil (wing or propeller). If the other parameters remain constant (only surface area changes), then the model looks like We can see that lift ( ) changes linearly with respect to surface area ( ).  Consider the coefficient of lift of the airfoil. If the other parameters remain constant, then the model looks like We can see that lift ( ) changes linearly with respect to the coefficient of lift ( ).  Consider the velocity. If the other parameters remain constant, then the model looks like We can see that lift ( ) changes quadratically with respect to velocity ( ).  How can we apply this knowledge? Lift changes linearly with respect to all parameters except for velocity. If greater lift (to handle greater weight) is needed, velocity provides bigger bang for our buck than any other change.   This second example has us look at the impact on more than just one variable. It also introduces a new relationship.   Review .  First consider the impact temperature ( ) has on pressure ( ). If the other parameters remain constant, then the model looks like Pressure ( ) grows linearly with respect to temperature ( ).  Notice that we can write that last equation as which means we can also make the reverse statement: temperature increases linearly with pressure.  Next consider the impact temperature ( ) has on volume ( ). If the other parameters remain constant, then the model looks like Volume ( ) also grows linearly with respect to temperature ( ).  Finally consider the impact volume ( ) has on pressure ( ). If the other parameters remain constant, then the model looks like This pattern is not linear (nor quadratic, nor exponential). If volume is increased the right hand side will decrease (dividing by a larger number). This means that pressure will decrease. Conversely if volume is decreased the right hand side will increase (divide by a smaller number). This means that pressure will increase.    Vary Directly   For two quantities and , if increasing increases , then is said to vary directly with .     Vary Indirectly   For two quantities and , if increasing decreases , then is said to vary indirectly with .    illustrated a model where the increase in one variable caused a decrease in the other. We used an experiment (plugging in numbers) to discover the inverse relationship.  If two quantities vary directly, the model may be linear, quadratic, or exponential. If two quantities vary inversely, the model may be neither linear nor quadratic. In contrast the next example illustrates two quantities can vary inversely, and the model is exponential.   Decreasing Exponential  Review the data in the table below. First, notice that decreases as increases which means varies inversely with . Second, note that the data is exponential with a ratio of . All exponential models that are decreasing have this property.        Ratio   1  1\/2    2  1\/4  1\/2   3  1\/8  1\/2   4  1\/16  1\/2   5  1\/32  1\/2   6  1\/64  1\/2       More Model Usage  In the section above and in we determined growth rates (e.g., linear, quadratic exponential, and direct and inverse variation) by generating data and checking the consecutive differences and\/or the consecutive ratios. In this section we learn a method to directly calculate the relationship.   Pressure is a measure of the amount of force spread over an area. where  is pressure,  is the force in units of pounds (lbs) or Newtons (N),  is the area in units of square inches, or meters, or similar.     Walking on snow (or mud) is difficult because our feet tend to puncture the snow (high pressure applied to low strength snow). We can use snowshoes to avoid this problem: they reduce pressure with minimal increase in force (weight). This is a science model with measurements, so we will round using significant digits.  Determine the pressure Guido exerts on the snow without and with snow shoes. Suppose Guido weighs 172 lbs.  Without snowshoes each foot has an area of 22 . What is the pressure he exerts on the snow? If he wears snowshoes that have a surface area of 144 , what is the pressure?   The next example illustrates how we can construct another model when we are interested in only some of the variables.   Hydraulic Press   Hydraulic system with two pistons of different sizes.   A force pushes down on a small piston on the left. That piston creates pressure on the hydraulic fluid beneath it. Because the fluid is constrained by the cylinders and tank, that pressure is transfered to a larger piston on the right. This creates an upward force on that piston. The forces are and the surface areas of the pistons are .      Hydraulics  Consider the situation in . The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is . The same is true on the right . Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus .    If the left piston has area , and 5.0 N of force is exerted, what is the force exerted on the second piston if it has area ? This is a science model with measurements, so we will round using significant digits.  We notice this model is a proportion. We can use the relationship   The next example illustrates how we can determine how one variable varies with respect to another by direct calculation. Specifically, consider how changing the size of the second piston affects the resulting force.   If the second piston's area is changed from to , what is the increase or decrease in force?   To determine if it increases or decreases we should calculate the result for the second piston size. We set up the same problem as above.  The piston is larger and the force is also larger. Thus we know that force and area vary directly. The equation also shows us that they increase linearly, because all terms are linear. In particular is in the form of a line with ratio and no shift.    gives two forms of the ideal gas law. The second is produced from the first in the same way as the hydraulics model is produced from the pressure definition. To illustrate consider the case of the air\/water mixture in a pressure cooker. First recall the ideal gas law . The pressure cooker changes the temperature of the gas, but the volume, number of molecules and gas constant do not change. Thus we have and . In both cases we can solve for the shared variables. Similarly . Because both expressions equal we can set them equal giving which is the other model.  The example above produces a second form of the ideal gas law. The next example produces a second form of Ohm's Law. In many applications the voltage is fixed. For example it might be 12V from a car battery. Thus if we are considering current and resistance in two places we have and . Because voltage is the same (same source of electricity) we have .   If the current is 3 amps when the resistance is 8 Ohms, what will the current be when the resistance is 6 Ohms? 4 Ohms?   We can write The second case can be written  Notice as the resistance decreased, the current increased. Current varies inversely with resistance.      Limitations of Models  In we solved the model equation to see how one value changes with respect to another. We considered how temperature impacts pressure if the other properties do not change. We also considered how temperature impacts volume if the other properties do not change. We might ask how how volume impacts temperature if the other properties do not change.  We will not however, because this is impossible. If volume is reduced (e.g., we press down on the handle of a tire pump and do not let the air out), then the pressure will increase. There is no way around that. The increase of pressure will then result in an increase of temperature. This still matches the model we have.  When using a model, mathematics is used to understand what is meant, but we must understand some of the background so we do not draw false conclusions.     Distinguish Direct and Indirect Variation   Based on the model, determine how each parameter (variable) affects the others.           Interpret   Use the definitions of the terms to determine what will happen.           Terminology   Answer these questions based on the stated variation.                       Applications   Use a model based on the stated variation to answer these questions.                                      "
 },
 {
   "id": "example-vary-multi-lift",
@@ -4525,7 +4525,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-1-4",
@@ -4534,7 +4534,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-2-3",
@@ -4543,7 +4543,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-2-4",
@@ -4552,7 +4552,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-3-3",
@@ -4561,7 +4561,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-3-4",
@@ -4570,7 +4570,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-3-5",
@@ -4579,7 +4579,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-3-6",
@@ -4588,7 +4588,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-3-7",
@@ -4597,7 +4597,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-3-8",
@@ -4606,7 +4606,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-3",
@@ -4615,7 +4615,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-4",
@@ -4624,7 +4624,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-5",
@@ -4633,7 +4633,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-6",
@@ -4642,7 +4642,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-7",
@@ -4651,7 +4651,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-8",
@@ -4660,7 +4660,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-9",
@@ -4669,7 +4669,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-10",
@@ -4678,7 +4678,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-11",
@@ -4687,7 +4687,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-12",
@@ -4696,7 +4696,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-variation-6-4-13",
@@ -4705,7 +4705,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational",
@@ -4714,7 +4714,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Rational Expressions",
-  "body": " Rational Expressions   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents algebra needed to work with models involving more complex, rational (fractional) expressions; and it presents how to answer questions requiring adding rates.    Re-arranging Rational Expressions  In previous sections many of the models involving rational (fractional) expressions could be set up so we solved for a variable in the numerator. In this section we look at multiple examples in which we must solve for a variable in the denominator.   Gear Measurements   Two gears with pitch diameter and outer diameter labeled.   Outer diameter is labeled as the length of a line going from the tip of one gear tooth to the tip of the gear tooth diametrically opposed. Pitch diameter is labeled as the length of a diameter of a circle drawn roughly half way between bottom and top of the gear teeth. That circle is rubbing against the matching circle of the second gear (as if these were toothless wheels).      Gear Design   For ANSI standard gears there is a relationship between the number of teeth, and diameters of the gear. where  is the total number of teeth  the diameter of the outside of the gear, and  is the pitch diameter.  Outer diameter is the diameter of a circle that contains the tips of the teeth. Pitch diameter is the diameter of a circle such that this gear touches the other gear at this distance. It is illustrated as the dashed circles in the figure above.     Suppose we know the outer diameter (17\/8\") and pitch diameter (2\") needed for a gear. What are the steps to solve for the number of teeth? The number of teeth must end up an integer (half a gear tooth is just a broken gear). Thus there will be no rounding. If the calculation gives a non-integer result, we must change something in the design.  First we convert the outer diameter to decimal: . The model is Thus this gear will have 32 teeth (total).    Formula for Number of Teeth  If we are going to perform this calculation regularly, we can solve the equation for .   Notice we needed to collect the terms with . This required distributing (third line), collecting on one side, then factoring.    Pitch Diamter    A problem with similar algebra is the when we are solving for temperature. The next example illustrates the necessary algebra.   Suppose the conditions for a tire are psi at a temperature of F. At what temperature will the pressure drop below the safe value of 28 psi? Because our gauges are not more accurate we will round to units.  We can use the ideal gas law version below. Note that the volume does not change (the tire size does not change).    The final example in this section presents a type of problem involving adding multiple fractions. This is needed for the resistors in parallel problem and is connected to the next section on additive rates.   Parallel Resistors   When two resistors are in parallel as shown in then the resulting resistance is given by .  If there are more than two resistors, the model is expanded by adding an additional term for each resistor.     Resistors in Parallel   Diagram of a battery with two resistors in parallel.   From the positive side of the battery the circuit continues and then splits into a Y. On each branch of the Y is a resitor. From the farther side of both resitors the circuit continues and comes back together (reverse Y). From here the circuit returns to the negative side of the battery.     The primary algebra technique required is to obtain common denominators.   Parallel Resistance  Calculate the resulting resistance when one resistor is 4 Ohms ( ) and the other is 12 Ohms ( ).  Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., cross multiplication ).    Parallel Resistance Solving  In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.  If we need a 5 Ohm resistance and have an 8 Ohm resistor already, what do we add as the second resistor? Resistor measurements are commonly accurate to 5%. For this problem that allows us to round to units. This is because 5% of 5 is much less than one.      Parallel Resistance Solving      If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain.    Rates  There are many times when we need to calculate the rate at which something can be accomplished when more than one person\/thing is working on it. This section illustrates how to obtain a resulting rate from the individual rates. This process requires algebra similar to that above.   Joint Work: Draining Basement  A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?  The question is how to calculate the speed of the combined pumps. Adding a pump should increase the speed. Thus we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of and the second pump operates at a rate of . Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is . We did not convert to decimal notation, because we will be setting up a proportion, so we want the rate in fraction form.  The next step is to use this rate to determine how long it takes to empty one basement. This is setting up a proportion. Given this is in hours it makes sense to round to the hundredths (a little less than a minute). It also makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).  Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement\/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. . Thus if both pumps are working it will take 1.72 hours drain the basement.  The increase in speed results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).    How to Use an Example: Joint Work  If one housekeeper can clean a hotel room in 11 minutes, and another can clean a room in 13 minutes. How long will it take them combined to clean 27 rooms?  Because the question asks us to determine combined speed, we recognize this as a joint work problem. Looking at we see that the first step was to write down the two rates. and .  After writing the rates, we realize we need to add the rates.  After calculating the rate, the next step is setting up the proportion. In this case we want to calculate the time to clean 27 rooms. Because this is about the time required to complete a task it makes sense to round up.                      "
+  "body": " Rational Expressions   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents algebra needed to work with models involving more complex, rational (fractional) expressions; and it presents how to answer questions requiring adding rates.    Re-arranging Rational Expressions  In previous sections many of the models involving rational (fractional) expressions could be set up so we solved for a variable in the numerator. In this section we look at multiple examples in which we must solve for a variable in the denominator.   Gear Measurements   Two gears with pitch diameter and outer diameter labeled.   Outer diameter is labeled as the length of a line going from the tip of one gear tooth to the tip of the gear tooth diametrically opposed. Pitch diameter is labeled as the length of a diameter of a circle drawn roughly half way between bottom and top of the gear teeth. That circle is rubbing against the matching circle of the second gear (as if these were toothless wheels).      Gear Design   For ANSI standard gears there is a relationship between the number of teeth, and diameters of the gear. where  is the total number of teeth  the diameter of the outside of the gear, and  is the pitch diameter.  Outer diameter is the diameter of a circle that contains the tips of the teeth. Pitch diameter is the diameter of a circle such that this gear touches the other gear at this distance. It is illustrated as the dashed circles in the figure above.     Suppose we know the outer diameter (17\/8\") and pitch diameter (2\") needed for a gear. What are the steps to solve for the number of teeth? The number of teeth must end up an integer (half a gear tooth is just a broken gear). Thus there will be no rounding. If the calculation gives a non-integer result, we must change something in the design.  First we convert the outer diameter to decimal: . The model is Thus this gear will have 32 teeth (total).    Formula for Number of Teeth  If we are going to perform this calculation regularly, we can solve the equation for .   Notice we needed to collect the terms with . This required distributing (third line), collecting on one side, then factoring.    Pitch Diamter    A problem with similar algebra is the when we are solving for temperature. The next example illustrates the necessary algebra.   Suppose the conditions for a tire are psi at a temperature of F. At what temperature will the pressure drop below the safe value of 28 psi? Because our gauges are not more accurate we will round to units.  We can use the ideal gas law version below. Note that the volume does not change (the tire size does not change).    The final example in this section presents a type of problem involving adding multiple fractions. This is needed for the resistors in parallel problem and is connected to the next section on additive rates.   Parallel Resistors   When two resistors are in parallel as shown in then the resulting resistance is given by .  If there are more than two resistors, the model is expanded by adding an additional term for each resistor.     Resistors in Parallel   Diagram of a battery with two resistors in parallel.   From the positive side of the battery the circuit continues and then splits into a Y. On each branch of the Y is a resitor. From the farther side of both resitors the circuit continues and comes back together (reverse Y). From here the circuit returns to the negative side of the battery.     The primary algebra technique required is to obtain common denominators.   Parallel Resistance  Calculate the resulting resistance when one resistor is 4 Ohms ( ) and the other is 12 Ohms ( ).  Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., cross multiplication ).    Parallel Resistance Solving  In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.  If we need a 5 Ohm resistance and have an 8 Ohm resistor already, what do we add as the second resistor? Resistor measurements are commonly accurate to 5%. For this problem that allows us to round to units. This is because 5% of 5 is much less than one.      Parallel Resistance Solving            If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain.     Rates  There are many times when we need to calculate the rate at which something can be accomplished when more than one person\/thing is working on it. This section illustrates how to obtain a resulting rate from the individual rates. This process requires algebra similar to that above.   Joint Work: Draining Basement  A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?  The question is how to calculate the speed of the combined pumps. Adding a pump should increase the speed. Thus we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of and the second pump operates at a rate of . Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is . We did not convert to decimal notation, because we will be setting up a proportion, so we want the rate in fraction form.  The next step is to use this rate to determine how long it takes to empty one basement. This is setting up a proportion. Given this is in hours it makes sense to round to the hundredths (a little less than a minute). It also makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).  Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement\/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. . Thus if both pumps are working it will take 1.72 hours drain the basement.  The increase in speed results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).    How to Use an Example: Joint Work  If one housekeeper can clean a hotel room in 11 minutes, and another can clean a room in 13 minutes. How long will it take them combined to clean 27 rooms?  Because the question asks us to determine combined speed, we recognize this as a joint work problem. Looking at we see that the first step was to write down the two rates. and .  After writing the rates, we realize we need to add the rates.  After calculating the rate, the next step is setting up the proportion. In this case we want to calculate the time to clean 27 rooms. Because this is about the time required to complete a task it makes sense to round up.                                                       "
 },
 {
   "id": "figure-gear-measurements",
@@ -4822,7 +4822,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.5.12",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "exercise-rational-parallel-resistors2",
@@ -4831,7 +4831,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "exercise-rational-parallel-resistors-thought",
@@ -4840,7 +4840,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.5.14",
   "title": "",
-  "body": "If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain. "
+  "body": " If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain.  "
 },
 {
   "id": "example-joint-work1",
@@ -4867,7 +4867,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.5.17",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "section-rational-5-1",
@@ -4876,7 +4876,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-2",
@@ -4885,7 +4885,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-3",
@@ -4894,7 +4894,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-4",
@@ -4903,7 +4903,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-5",
@@ -4912,7 +4912,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-6",
@@ -4921,7 +4921,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-7",
@@ -4930,7 +4930,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-8",
@@ -4939,7 +4939,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-9",
@@ -4948,7 +4948,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-10",
@@ -4957,7 +4957,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-11",
@@ -4966,7 +4966,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-12",
@@ -4975,7 +4975,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-13",
@@ -4984,7 +4984,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-14",
@@ -4993,7 +4993,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-rational-5-15",
@@ -5002,7 +5002,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.5.3.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems",
@@ -5011,7 +5011,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Linear Systems",
-  "body": " Linear Systems   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve a system of linear equations (skill)    In we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions like this involving two or more constraints (equations) at the same time.    Motivation  This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.  In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.   Combining Mixtures  Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce oz of 85% alcohol?  A common technique in mathematics is to start by writing the answer. We will declare that we will use oz of 91% alcohol and oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).  The first constraint is that we end up with 10 oz of solution. Thus .  The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be . This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because oz of the first solution will be added and it is 91% alcohol, it will contribute oz of alcohol. Similarly the second solution will contribute oz of alcohol. Combined we will obtain .  Now we just need a way to solve this pair of equations.     Crossing Lines  This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) there should be a solution. The next section provides the method for solving.  Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.  Recall that a line is a relation (set of points) such that the change between any two, equally spaced points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how steep the line is.  In there are two lines. One goes through point . It rises at a slope of (two up for each one over). The other line goes through the point which is below . Use the slider to set the slope of the second line to 3. Does the line cross the one through ? Where (left or right of point )? Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point )? Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point )? In general if either slope is steeper than the other slope will the two lines cross? Can you select a slope for the second line so that these two lines do not cross?   Crossing Lines    This next example applies the idea of a line starting lower but rising faster to answer a financial question.   Vasya's initial pay was $62,347.23. She received $5,000 raises each year. Pyotr's initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?  We could make a table.      Year  Vasya  Pyotr   2012  $62,347.23  $67,242.33   2013  $67,347.23  $70,742.33   2014  $72,347.23  $74,242.33   2015  $77,347.23  $77,742.33   2016  $82,347.23  $81,242.33    We see that is in 2016 that Vasya is first paid more.  Alternatively we could note that Vasya's raises are $1,500 more each year than Pyotr's raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is . Because she gains by 1500 each year it will take years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.     Solving Linear Systems  This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.   We will solve the system from . The two equations are   Notice we can solve the first equation for . If we do then we can substitute it into the second equation. The result will be a single equation with only one variable. We already know how to solve equations like that.  Now that we know that we can substitute that into . This gives us  We can check that this works in the other equation (about percent alcohol).   If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. This method is called elimination .   We will solve the system  In the second line below notice how we modify the first equation to partially match the second one. In the fifth line we added the two equations. Because they had opposite coefficients for , that variable was eliminated, leaving us with just . This can always be done with systems of linear equations.  We finish solving this system the same way as the previous example, by substituting the value of back into the first equation.        Other Cases  In we discovered a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this, our calculations would not produce a solution. These are known as inconsistent systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.   Inconsistent Linear System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). Our work is correct, but the conclusion is clearly false. You can think of this as saying, for a solution to exist 0 must equal -3. Because this is a contradiction, we call the system inconsistent . This means there are no solutions.   There is a third case.   Dependent System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them dependent .       Solving Using Substitution   Solve each of the following linear systems using substitution.         Solving Using Elimination   Solve each of the following linear systems using elimination.          Applications   Identify the linear system and solve it to answer these questions.             "
+  "body": " Linear Systems   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve a system of linear equations (skill)    In we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions like this involving two or more constraints (equations) at the same time.    Motivation  This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.  In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.   Combining Mixtures  Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce oz of 85% alcohol?  A common technique in mathematics is to start by writing the answer. We will declare that we will use oz of 91% alcohol and oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).  The first constraint is that we end up with 10 oz of solution. Thus .  The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be . This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because oz of the first solution will be added and it is 91% alcohol, it will contribute oz of alcohol. Similarly the second solution will contribute oz of alcohol. Combined we will obtain .  Now we just need a way to solve this pair of equations.     Crossing Lines  This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) there should be a solution. The next section provides the method for solving.  Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.  Recall that a line is a relation (set of points) such that the change between any two, equally spaced points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how steep the line is.   In there are two lines. One goes through point . It rises at a slope of (two up for each one over). The other line goes through the point which is below .  Use the slider to set the slope of the second line to 3. Does the line cross the one through ? Where (left or right of point )?  Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point )?  Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point )?  In general if either slope is steeper than the other slope will the two lines cross?  Can you select a slope for the second line so that these two lines do not cross?    Crossing Lines    This next example applies the idea of a line starting lower but rising faster to answer a financial question.   Vasya's initial pay was $62,347.23. She received $5,000 raises each year. Pyotr's initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?  We could make a table.      Year  Vasya  Pyotr   2012  $62,347.23  $67,242.33   2013  $67,347.23  $70,742.33   2014  $72,347.23  $74,242.33   2015  $77,347.23  $77,742.33   2016  $82,347.23  $81,242.33    We see that is in 2016 that Vasya is first paid more.  Alternatively we could note that Vasya's raises are $1,500 more each year than Pyotr's raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is . Because she gains by 1500 each year it will take years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.     Solving Linear Systems  This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.   We will solve the system from . The two equations are   Notice we can solve the first equation for . If we do then we can substitute it into the second equation. The result will be a single equation with only one variable. We already know how to solve equations like that.  Now that we know that we can substitute that into . This gives us  We can check that this works in the other equation (about percent alcohol).   If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. This method is called elimination .   We will solve the system  In the second line below notice how we modify the first equation to partially match the second one. In the fifth line we added the two equations. Because they had opposite coefficients for , that variable was eliminated, leaving us with just . This can always be done with systems of linear equations.  We finish solving this system the same way as the previous example, by substituting the value of back into the first equation.              Other Cases  In we discovered a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this, our calculations would not produce a solution. These are known as inconsistent systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.   Inconsistent Linear System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). Our work is correct, but the conclusion is clearly false. You can think of this as saying, for a solution to exist 0 must equal -3. Because this is a contradiction, we call the system inconsistent . This means there are no solutions.   There is a third case.   Dependent System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them dependent .          Solving Using Substitution   Solve each of the following linear systems using substitution.                 Solving Using Elimination   Solve each of the following linear systems using elimination.                    Applications   Identify the linear system and solve it to answer these questions.                             "
 },
 {
   "id": "example-dual-mixture",
@@ -5038,7 +5038,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.6.2",
   "title": "",
-  "body": "In there are two lines. One goes through point . It rises at a slope of (two up for each one over). The other line goes through the point which is below . Use the slider to set the slope of the second line to 3. Does the line cross the one through ? Where (left or right of point )? Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point )? Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point )? In general if either slope is steeper than the other slope will the two lines cross? Can you select a slope for the second line so that these two lines do not cross? "
+  "body": " In there are two lines. One goes through point . It rises at a slope of (two up for each one over). The other line goes through the point which is below .  Use the slider to set the slope of the second line to 3. Does the line cross the one through ? Where (left or right of point )?  Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point )?  Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point )?  In general if either slope is steeper than the other slope will the two lines cross?  Can you select a slope for the second line so that these two lines do not cross?  "
 },
 {
   "id": "figure-steep-crossing",
@@ -5092,7 +5092,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.6.7",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "exercise-linear-system-eliminate",
@@ -5101,7 +5101,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.6.8",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "subsection-linear-system-weird-2",
@@ -5137,7 +5137,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.6.11",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "section-linear-systems-7-1-3",
@@ -5146,7 +5146,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-1-4",
@@ -5155,7 +5155,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-1-5",
@@ -5164,7 +5164,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-1-6",
@@ -5173,7 +5173,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-2-3",
@@ -5182,7 +5182,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-2-4",
@@ -5191,7 +5191,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-2-5",
@@ -5200,7 +5200,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-2-6",
@@ -5209,7 +5209,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-2-7",
@@ -5218,7 +5218,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-3",
@@ -5227,7 +5227,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-4",
@@ -5236,7 +5236,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-5",
@@ -5245,7 +5245,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-6",
@@ -5254,7 +5254,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-7",
@@ -5263,7 +5263,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-8",
@@ -5272,7 +5272,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-9",
@@ -5281,7 +5281,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-linear-systems-7-3-10",
@@ -5290,7 +5290,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.6.5.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-project-radiation2",
@@ -5299,7 +5299,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.7",
   "title": "Project: Radiation Dosage",
-  "body": " Project: Radiation Dosage   Calculating Effects of Radiation   The purpose of this project is to build a mathematical model for a situation. We will focus on the structure of the equations, and what they tell us about the mathematical relationships of the data. The emphasis is not on actual numbers.  For an unrelated example of a model, consider dropping a ball off a cliff. Ignoring air resistance, the ball’s position can be modeled by the equation , where is the time and is the height of the ball. There are some other numbers that go in there, but what is changing is the time and position (height). That equation framework is the mathematical model.  You may find this to be a challenging project. Do the best you can and use your own common sense. Math should make sense! After you finish this, please read back over your work and make sure your answers are logically consistent.  Remember that you can ask questions and meet up with a tutor, but you should not be looking up answers or just writing down what someone else says. Do not let someone else copy your answers. That is academic dishonesty and you should not allow it. Your work should be your own.  For this project, imagine that you are working with radioactive material. Since we do not want you harmed by radiation, we should understand how time and distance impacts the radioactive dose. (You should also be behind material that shields you from the radiation, but that math is more complicated, so we’ll focus on time and distance.)   As your time near a radioactive source increases, does the radiation level in your body increase, decrease, or stay the same?  Do you think the relationship between time and dosage is linear or not linear?  Let stand for radiation exposure, stand for length of time of exposure, and be the constant of variation. Write an equation representing the relationship between , , and .  Examine the above equation you just wrote.  Is it linear or non-linear? This should match your answer to .  What in the equation indicates it is linear or non-linear? That is, how did you know the answer to part ?    We have determined the relation between time and radiation exposure. Next we determine the relation between distance to radiation source and radiation exposure. These can be different.  Radiation radiates outwards from a source evenly in all directions (like light radiates out evenly from a lightbulb) unless it is obstructed by something (like a lead shield). Imagine a radiation source floating in the center of a sphere. All parts of the sphere would be getting hit with an equal amount of radiation. We are going to figure out the radiation for a given patch of area on this sphere.  It will be helpful to know the following formula: , where A is the surface area of the sphere and r is the radius of the sphere.  If a sphere had a radius of 2 m, what is the surface area of the sphere? Remember to include units. Leave your answer in terms of (meaning it should look like  ).  A very rough approximation of the surface area of the front of a person is 1 . We will consider what percent of the surface area of a sphere this is.   Surface Area Ratio    Person in a sphere with radius 1   A person barely fits in the top half of a sphere that is shown with radius 1.     Person in a sphere of radius 2   A person is less than half the height of the top half of a sphere that is shown with radius 2.      What percent of the surface area of a sphere of radius 1 is 1 ?   What percent of the surface area of a sphere of radius 2 is 1 ?   Why does the change in percent make sense? See .   In general as the radius increases what will the percent of the surface that is 1 do? Increase\/remain the same\/decrease?   Note that the amount of radiation (energy) remains the same regardless of the radius of the sphere. That is a sphere with radius 1 and surface area has the same energy as a sphere with radius 2 and surface area .  If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 1 from the source?   If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 2 from the source?   In general as the distance (radius) increases what happens to the amount of radiation absorbed by the person do? Increase\/remain the same\/decrease?    If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our human-sized cutout on the surface of the sphere? Your answer should be in terms of .  Complete the following table. Notice that you already found the values for the first row.   Ratio of Surface Areas      Radius of circle Ratio of 1 to surface area  2  3  4  5  r    Graph the points in . Your horizontal axis (radius) should be from 0 to 5. Because the output numbers are small, we need a scale that matches. Make the units on the vertical scale 0.002.  Does the data represented in the table above represent a linear relationship or a non-linear relationship? Give a reason to justify your answer.  Is the relationship between distance and the potential amount of radiation hitting the person better modeled by direct variation or inverse variation?  Consider the numbers 16, 36, 64, 100. These numbers are significant in mathematics. What is the pattern or significance of these numbers? (Note: you only see these numbers if you completed the table in terms of (do not multiply and round). Go back and fix your table if you do not see these numbers.)  As the radius of the sphere increases, does the level of radiation hitting our person-sized cutout increase or decrease? Does this increase or decrease change linearly (at a constant rate) or non-linearly (at a changing rate)? Circle the appropriate answer.  As the radius of the sphere increases, the radiation intensity is increasing \/ decreasing (circle one) in a linear \/ non-linear (circle one) fashion.  The sphere with a floating radiation source is a good model for us to use when thinking through how distance impacts radiation levels because we can disregard complicating factors like the walls, floor, and ceiling of the room as long as a person is still directly exposed to the radiation source. Still, the relationship you found between radius and radiation holds true. With that in mind, answer the following questions.  Let stand for radiation experienced by the person, stand for distance, and be the constant of variation. Write an equation of variation representing the relationship between , and . Look back at your recent answers and the table you built. Is the formula you wrote logically consistent with these answers? That is, if you plugged in the with some constant value , would you get the right answer for ?  Let stand for radiation exposure, stand for length of time of exposure, stand for distance, and be the constant of variation (this may be different from your in or ). Write an equation of joint variation representing the relationship between , and . Is your answer consistent with your answers to #3 and #13?  Use the equation you just built. If you are 5 meters away for 3 hours, how long would you stay at 2 meters away to receive the same radiation dose?  At the end of it all, if you find yourself next to a radioactive source, what do you do? Full points will be awarded for all reasonable answers that address both time and distance.   "
+  "body": " Project: Radiation Dosage   Calculating Effects of Radiation   The purpose of this project is to build a mathematical model for a situation. We will focus on the structure of the equations, and what they tell us about the mathematical relationships of the data. The emphasis is not on actual numbers.  For an unrelated example of a model, consider dropping a ball off a cliff. Ignoring air resistance, the ball’s position can be modeled by the equation , where is the time and is the height of the ball. There are some other numbers that go in there, but what is changing is the time and position (height). That equation framework is the mathematical model.  You may find this to be a challenging project. Do the best you can and use your own common sense. Math should make sense! After you finish this, please read back over your work and make sure your answers are logically consistent.  Remember that you can ask questions and meet up with a tutor, but you should not be looking up answers or just writing down what someone else says. Do not let someone else copy your answers. That is academic dishonesty and you should not allow it. Your work should be your own.  For this project, imagine that you are working with radioactive material. Since we do not want you harmed by radiation, we should understand how time and distance impacts the radioactive dose. (You should also be behind material that shields you from the radiation, but that math is more complicated, so we’ll focus on time and distance.)   As your time near a radioactive source increases, does the radiation level in your body increase, decrease, or stay the same?  Do you think the relationship between time and dosage is linear or not linear?  Let stand for radiation exposure, stand for length of time of exposure, and be the constant of variation. Write an equation representing the relationship between , , and .  Examine the above equation you just wrote.  Is it linear or non-linear? This should match your answer to .  What in the equation indicates it is linear or non-linear? That is, how did you know the answer to part ?    We have determined the relation between time and radiation exposure. Next we determine the relation between distance to radiation source and radiation exposure. These can be different.  Radiation radiates outwards from a source evenly in all directions (like light radiates out evenly from a lightbulb) unless it is obstructed by something (like a lead shield). Imagine a radiation source floating in the center of a sphere. All parts of the sphere would be getting hit with an equal amount of radiation. We are going to figure out the radiation for a given patch of area on this sphere.  It will be helpful to know the following formula: , where A is the surface area of the sphere and r is the radius of the sphere.  If a sphere had a radius of 2 m, what is the surface area of the sphere? Remember to include units. Leave your answer in terms of (meaning it should look like  ).   A very rough approximation of the surface area of the front of a person is 1 . We will consider what percent of the surface area of a sphere this is.   Surface Area Ratio    Person in a sphere with radius 1   A person barely fits in the top half of a sphere that is shown with radius 1.     Person in a sphere of radius 2   A person is less than half the height of the top half of a sphere that is shown with radius 2.       What percent of the surface area of a sphere of radius 1 is 1 ?    What percent of the surface area of a sphere of radius 2 is 1 ?    Why does the change in percent make sense? See .    In general as the radius increases what will the percent of the surface that is 1 do? Increase\/remain the same\/decrease?     Note that the amount of radiation (energy) remains the same regardless of the radius of the sphere. That is a sphere with radius 1 and surface area has the same energy as a sphere with radius 2 and surface area .   If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 1 from the source?    If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 2 from the source?    In general as the distance (radius) increases what happens to the amount of radiation absorbed by the person do? Increase\/remain the same\/decrease?     If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our human-sized cutout on the surface of the sphere? Your answer should be in terms of .   Complete the following table. Notice that you already found the values for the first row.   Ratio of Surface Areas      Radius of circle Ratio of 1 to surface area  2  3  4  5  r     Graph the points in .  Your horizontal axis (radius) should be from 0 to 5. Because the output numbers are small, we need a scale that matches. Make the units on the vertical scale 0.002.   Does the data represented in the table above represent a linear relationship or a non-linear relationship? Give a reason to justify your answer.  Is the relationship between distance and the potential amount of radiation hitting the person better modeled by direct variation or inverse variation?  Consider the numbers 16, 36, 64, 100. These numbers are significant in mathematics. What is the pattern or significance of these numbers? (Note: you only see these numbers if you completed the table in terms of (do not multiply and round). Go back and fix your table if you do not see these numbers.)  As the radius of the sphere increases, does the level of radiation hitting our person-sized cutout increase or decrease? Does this increase or decrease change linearly (at a constant rate) or non-linearly (at a changing rate)? Circle the appropriate answer.  As the radius of the sphere increases, the radiation intensity is increasing \/ decreasing (circle one) in a linear \/ non-linear (circle one) fashion.   The sphere with a floating radiation source is a good model for us to use when thinking through how distance impacts radiation levels because we can disregard complicating factors like the walls, floor, and ceiling of the room as long as a person is still directly exposed to the radiation source. Still, the relationship you found between radius and radiation holds true. With that in mind, answer the following questions.  Let stand for radiation experienced by the person, stand for distance, and be the constant of variation. Write an equation of variation representing the relationship between , and .  Look back at your recent answers and the table you built. Is the formula you wrote logically consistent with these answers? That is, if you plugged in the with some constant value , would you get the right answer for ?    Let stand for radiation exposure, stand for length of time of exposure, stand for distance, and be the constant of variation (this may be different from your in or ). Write an equation of joint variation representing the relationship between , and .  Is your answer consistent with your answers to #3 and #13?   Use the equation you just built. If you are 5 meters away for 3 hours, how long would you stay at 2 meters away to receive the same radiation dose?  At the end of it all, if you find yourself next to a radioactive source, what do you do? Full points will be awarded for all reasonable answers that address both time and distance.   "
 },
 {
   "id": "project-radiation-dosage",
@@ -5308,7 +5308,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "4",
   "title": "Calculating Effects of Radiation.",
-  "body": " Calculating Effects of Radiation   The purpose of this project is to build a mathematical model for a situation. We will focus on the structure of the equations, and what they tell us about the mathematical relationships of the data. The emphasis is not on actual numbers.  For an unrelated example of a model, consider dropping a ball off a cliff. Ignoring air resistance, the ball’s position can be modeled by the equation , where is the time and is the height of the ball. There are some other numbers that go in there, but what is changing is the time and position (height). That equation framework is the mathematical model.  You may find this to be a challenging project. Do the best you can and use your own common sense. Math should make sense! After you finish this, please read back over your work and make sure your answers are logically consistent.  Remember that you can ask questions and meet up with a tutor, but you should not be looking up answers or just writing down what someone else says. Do not let someone else copy your answers. That is academic dishonesty and you should not allow it. Your work should be your own.  For this project, imagine that you are working with radioactive material. Since we do not want you harmed by radiation, we should understand how time and distance impacts the radioactive dose. (You should also be behind material that shields you from the radiation, but that math is more complicated, so we’ll focus on time and distance.)   As your time near a radioactive source increases, does the radiation level in your body increase, decrease, or stay the same?  Do you think the relationship between time and dosage is linear or not linear?  Let stand for radiation exposure, stand for length of time of exposure, and be the constant of variation. Write an equation representing the relationship between , , and .  Examine the above equation you just wrote.  Is it linear or non-linear? This should match your answer to .  What in the equation indicates it is linear or non-linear? That is, how did you know the answer to part ?    We have determined the relation between time and radiation exposure. Next we determine the relation between distance to radiation source and radiation exposure. These can be different.  Radiation radiates outwards from a source evenly in all directions (like light radiates out evenly from a lightbulb) unless it is obstructed by something (like a lead shield). Imagine a radiation source floating in the center of a sphere. All parts of the sphere would be getting hit with an equal amount of radiation. We are going to figure out the radiation for a given patch of area on this sphere.  It will be helpful to know the following formula: , where A is the surface area of the sphere and r is the radius of the sphere.  If a sphere had a radius of 2 m, what is the surface area of the sphere? Remember to include units. Leave your answer in terms of (meaning it should look like  ).  A very rough approximation of the surface area of the front of a person is 1 . We will consider what percent of the surface area of a sphere this is.   Surface Area Ratio    Person in a sphere with radius 1   A person barely fits in the top half of a sphere that is shown with radius 1.     Person in a sphere of radius 2   A person is less than half the height of the top half of a sphere that is shown with radius 2.      What percent of the surface area of a sphere of radius 1 is 1 ?   What percent of the surface area of a sphere of radius 2 is 1 ?   Why does the change in percent make sense? See .   In general as the radius increases what will the percent of the surface that is 1 do? Increase\/remain the same\/decrease?   Note that the amount of radiation (energy) remains the same regardless of the radius of the sphere. That is a sphere with radius 1 and surface area has the same energy as a sphere with radius 2 and surface area .  If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 1 from the source?   If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 2 from the source?   In general as the distance (radius) increases what happens to the amount of radiation absorbed by the person do? Increase\/remain the same\/decrease?    If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our human-sized cutout on the surface of the sphere? Your answer should be in terms of .  Complete the following table. Notice that you already found the values for the first row.   Ratio of Surface Areas      Radius of circle Ratio of 1 to surface area  2  3  4  5  r    Graph the points in . Your horizontal axis (radius) should be from 0 to 5. Because the output numbers are small, we need a scale that matches. Make the units on the vertical scale 0.002.  Does the data represented in the table above represent a linear relationship or a non-linear relationship? Give a reason to justify your answer.  Is the relationship between distance and the potential amount of radiation hitting the person better modeled by direct variation or inverse variation?  Consider the numbers 16, 36, 64, 100. These numbers are significant in mathematics. What is the pattern or significance of these numbers? (Note: you only see these numbers if you completed the table in terms of (do not multiply and round). Go back and fix your table if you do not see these numbers.)  As the radius of the sphere increases, does the level of radiation hitting our person-sized cutout increase or decrease? Does this increase or decrease change linearly (at a constant rate) or non-linearly (at a changing rate)? Circle the appropriate answer.  As the radius of the sphere increases, the radiation intensity is increasing \/ decreasing (circle one) in a linear \/ non-linear (circle one) fashion.  The sphere with a floating radiation source is a good model for us to use when thinking through how distance impacts radiation levels because we can disregard complicating factors like the walls, floor, and ceiling of the room as long as a person is still directly exposed to the radiation source. Still, the relationship you found between radius and radiation holds true. With that in mind, answer the following questions.  Let stand for radiation experienced by the person, stand for distance, and be the constant of variation. Write an equation of variation representing the relationship between , and . Look back at your recent answers and the table you built. Is the formula you wrote logically consistent with these answers? That is, if you plugged in the with some constant value , would you get the right answer for ?  Let stand for radiation exposure, stand for length of time of exposure, stand for distance, and be the constant of variation (this may be different from your in or ). Write an equation of joint variation representing the relationship between , and . Is your answer consistent with your answers to #3 and #13?  Use the equation you just built. If you are 5 meters away for 3 hours, how long would you stay at 2 meters away to receive the same radiation dose?  At the end of it all, if you find yourself next to a radioactive source, what do you do? Full points will be awarded for all reasonable answers that address both time and distance.  "
+  "body": " Calculating Effects of Radiation   The purpose of this project is to build a mathematical model for a situation. We will focus on the structure of the equations, and what they tell us about the mathematical relationships of the data. The emphasis is not on actual numbers.  For an unrelated example of a model, consider dropping a ball off a cliff. Ignoring air resistance, the ball’s position can be modeled by the equation , where is the time and is the height of the ball. There are some other numbers that go in there, but what is changing is the time and position (height). That equation framework is the mathematical model.  You may find this to be a challenging project. Do the best you can and use your own common sense. Math should make sense! After you finish this, please read back over your work and make sure your answers are logically consistent.  Remember that you can ask questions and meet up with a tutor, but you should not be looking up answers or just writing down what someone else says. Do not let someone else copy your answers. That is academic dishonesty and you should not allow it. Your work should be your own.  For this project, imagine that you are working with radioactive material. Since we do not want you harmed by radiation, we should understand how time and distance impacts the radioactive dose. (You should also be behind material that shields you from the radiation, but that math is more complicated, so we’ll focus on time and distance.)   As your time near a radioactive source increases, does the radiation level in your body increase, decrease, or stay the same?  Do you think the relationship between time and dosage is linear or not linear?  Let stand for radiation exposure, stand for length of time of exposure, and be the constant of variation. Write an equation representing the relationship between , , and .  Examine the above equation you just wrote.  Is it linear or non-linear? This should match your answer to .  What in the equation indicates it is linear or non-linear? That is, how did you know the answer to part ?    We have determined the relation between time and radiation exposure. Next we determine the relation between distance to radiation source and radiation exposure. These can be different.  Radiation radiates outwards from a source evenly in all directions (like light radiates out evenly from a lightbulb) unless it is obstructed by something (like a lead shield). Imagine a radiation source floating in the center of a sphere. All parts of the sphere would be getting hit with an equal amount of radiation. We are going to figure out the radiation for a given patch of area on this sphere.  It will be helpful to know the following formula: , where A is the surface area of the sphere and r is the radius of the sphere.  If a sphere had a radius of 2 m, what is the surface area of the sphere? Remember to include units. Leave your answer in terms of (meaning it should look like  ).   A very rough approximation of the surface area of the front of a person is 1 . We will consider what percent of the surface area of a sphere this is.   Surface Area Ratio    Person in a sphere with radius 1   A person barely fits in the top half of a sphere that is shown with radius 1.     Person in a sphere of radius 2   A person is less than half the height of the top half of a sphere that is shown with radius 2.       What percent of the surface area of a sphere of radius 1 is 1 ?    What percent of the surface area of a sphere of radius 2 is 1 ?    Why does the change in percent make sense? See .    In general as the radius increases what will the percent of the surface that is 1 do? Increase\/remain the same\/decrease?     Note that the amount of radiation (energy) remains the same regardless of the radius of the sphere. That is a sphere with radius 1 and surface area has the same energy as a sphere with radius 2 and surface area .   If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 1 from the source?    If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our 1 person who is at a distance of 2 from the source?    In general as the distance (radius) increases what happens to the amount of radiation absorbed by the person do? Increase\/remain the same\/decrease?     If the radiation is being emitted at an intensity of Sieverts per hour ( ), what amount of radiation will be hitting our human-sized cutout on the surface of the sphere? Your answer should be in terms of .   Complete the following table. Notice that you already found the values for the first row.   Ratio of Surface Areas      Radius of circle Ratio of 1 to surface area  2  3  4  5  r     Graph the points in .  Your horizontal axis (radius) should be from 0 to 5. Because the output numbers are small, we need a scale that matches. Make the units on the vertical scale 0.002.   Does the data represented in the table above represent a linear relationship or a non-linear relationship? Give a reason to justify your answer.  Is the relationship between distance and the potential amount of radiation hitting the person better modeled by direct variation or inverse variation?  Consider the numbers 16, 36, 64, 100. These numbers are significant in mathematics. What is the pattern or significance of these numbers? (Note: you only see these numbers if you completed the table in terms of (do not multiply and round). Go back and fix your table if you do not see these numbers.)  As the radius of the sphere increases, does the level of radiation hitting our person-sized cutout increase or decrease? Does this increase or decrease change linearly (at a constant rate) or non-linearly (at a changing rate)? Circle the appropriate answer.  As the radius of the sphere increases, the radiation intensity is increasing \/ decreasing (circle one) in a linear \/ non-linear (circle one) fashion.   The sphere with a floating radiation source is a good model for us to use when thinking through how distance impacts radiation levels because we can disregard complicating factors like the walls, floor, and ceiling of the room as long as a person is still directly exposed to the radiation source. Still, the relationship you found between radius and radiation holds true. With that in mind, answer the following questions.  Let stand for radiation experienced by the person, stand for distance, and be the constant of variation. Write an equation of variation representing the relationship between , and .  Look back at your recent answers and the table you built. Is the formula you wrote logically consistent with these answers? That is, if you plugged in the with some constant value , would you get the right answer for ?    Let stand for radiation exposure, stand for length of time of exposure, stand for distance, and be the constant of variation (this may be different from your in or ). Write an equation of joint variation representing the relationship between , and .  Is your answer consistent with your answers to #3 and #13?   Use the equation you just built. If you are 5 meters away for 3 hours, how long would you stay at 2 meters away to receive the same radiation dose?  At the end of it all, if you find yourself next to a radioactive source, what do you do? Full points will be awarded for all reasonable answers that address both time and distance.  "
 },
 {
   "id": "section-project-cycling",
@@ -5335,7 +5335,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.9",
   "title": "Project: Constraints on Dilution Problems",
-  "body": " Project: Constraints on Dilution Problems   Project: Constraints on Dilution   Curiosity is an important mathematical virtue. We have seen limitations on the results we can obtain when diluting a mixture. This project guides us through conclusions on those constraints and asks at what rate it grows. Each question is worth I DONT KNOW points.  In we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.  By adding water we can of course not increase the percent alcohol, so if we start with 91% alcohol 91% is the highest we can achieve. On the other side we can reduce the percent alcohol to as little as we want (not quite to 0%) if we dilute it enough. This dilution requires not restricting the final volume. This pair of restrictions should make us wonder about a relationship between the desired volume and the minimum\/maximum amount of alchol.  For all of these questions start with 16 oz of 91.0% alcohol solution.   This first question is the same as . Use it to review the basic dilution calculation. Suppose you have 16 oz of 91.0% alcohol solution. How much water must we add to obtain at least 20.0 oz of 70.0% alcohol solution? How many ounces is the resulting solution?   Next we will illustrate that for a percent alcohol such as 70%, there is a maximum volume we can achieve. Specifically this is the number we already calculated.  If we dilute to a 70.0% alcohol solution what is the resulting amount of solution? You calculate this above. Add one ounce of water. Calculate the resulting percent alcohol. Did the percent alcohol decrease, stay the same, or increase? As a result can we produce more 70.0% alcohol solution starting with 16.0 oz of 91.0% alcohol?  Note, if we added less water we would have less solution, so that is a decrease (not the maximum).    Next, we ask at what rate does the maximum percent alcohol increase or decrease as we increase the desired amount of solution. To figure this out we will calculate the percent for multiple amounts and analyze the data as we did in and   How much water must be added for 20 oz of solution? What is the resulting percent alcohol? How much water must be added for 22 oz of solution? What is the resulting percent alcohol? How much water must be added for 24 oz of solution? What is the resulting percent alcohol? Does the maximum percent alcohol increase or decrease with the increase in the number of ounces? Does it grow linearly, quadratically, exponentially, or otherwise?   We can ask this question in reverse as well. If we want a percent alcohol, what is the resulting maximum amount of resulting solution? Then we measure the growth of the amount.  Once again we start with 16.0 oz of 91.0% alcohol solution.  If we want exactly 80.0% alcohol, what is the resulting volume of solution? If we want exactly 70.0% alcohol, what is the resulting volume of solution? If we want exactly 60.0% alcohol, what is the resulting volume of solution? Does the volume of solution increase or decrease as the percent concentration decreases? Does the volume of solution grow\/shrink linearly, quadratically, exponentially, or otherwise?   Note if in some model a variable varies directly with respect to a variable , then must vary directly with respect to . It cannot be direct in one direction and inverse in the other.    "
+  "body": " Project: Constraints on Dilution Problems   Project: Constraints on Dilution   Curiosity is an important mathematical virtue. We have seen limitations on the results we can obtain when diluting a mixture. This project guides us through conclusions on those constraints and asks at what rate it grows. Each question is worth I DONT KNOW points.  In we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.  By adding water we can of course not increase the percent alcohol, so if we start with 91% alcohol 91% is the highest we can achieve. On the other side we can reduce the percent alcohol to as little as we want (not quite to 0%) if we dilute it enough. This dilution requires not restricting the final volume. This pair of restrictions should make us wonder about a relationship between the desired volume and the minimum\/maximum amount of alchol.  For all of these questions start with 16 oz of 91.0% alcohol solution.    This first question is the same as . Use it to review the basic dilution calculation.  Suppose you have 16 oz of 91.0% alcohol solution. How much water must we add to obtain at least 20.0 oz of 70.0% alcohol solution?  How many ounces is the resulting solution?     Next we will illustrate that for a percent alcohol such as 70%, there is a maximum volume we can achieve. Specifically this is the number we already calculated.    If we dilute to a 70.0% alcohol solution what is the resulting amount of solution? You calculate this above.  Add one ounce of water. Calculate the resulting percent alcohol.    Did the percent alcohol decrease, stay the same, or increase?    As a result can we produce more 70.0% alcohol solution starting with 16.0 oz of 91.0% alcohol?    Note, if we added less water we would have less solution, so that is a decrease (not the maximum).      Next, we ask at what rate does the maximum percent alcohol increase or decrease as we increase the desired amount of solution. To figure this out we will calculate the percent for multiple amounts and analyze the data as we did in and     How much water must be added for 20 oz of solution?  What is the resulting percent alcohol?    How much water must be added for 22 oz of solution?  What is the resulting percent alcohol?    How much water must be added for 24 oz of solution?  What is the resulting percent alcohol?    Does the maximum percent alcohol increase or decrease with the increase in the number of ounces?    Does it grow linearly, quadratically, exponentially, or otherwise?      We can ask this question in reverse as well. If we want a percent alcohol, what is the resulting maximum amount of resulting solution? Then we measure the growth of the amount.  Once again we start with 16.0 oz of 91.0% alcohol solution.    If we want exactly 80.0% alcohol, what is the resulting volume of solution?    If we want exactly 70.0% alcohol, what is the resulting volume of solution?    If we want exactly 60.0% alcohol, what is the resulting volume of solution?    Does the volume of solution increase or decrease as the percent concentration decreases?    Does the volume of solution grow\/shrink linearly, quadratically, exponentially, or otherwise?     Note if in some model a variable varies directly with respect to a variable , then must vary directly with respect to . It cannot be direct in one direction and inverse in the other.    "
 },
 {
   "id": "project-dilution-constraints",
@@ -5344,7 +5344,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "6",
   "title": "Project: Constraints on Dilution.",
-  "body": " Project: Constraints on Dilution   Curiosity is an important mathematical virtue. We have seen limitations on the results we can obtain when diluting a mixture. This project guides us through conclusions on those constraints and asks at what rate it grows. Each question is worth I DONT KNOW points.  In we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.  By adding water we can of course not increase the percent alcohol, so if we start with 91% alcohol 91% is the highest we can achieve. On the other side we can reduce the percent alcohol to as little as we want (not quite to 0%) if we dilute it enough. This dilution requires not restricting the final volume. This pair of restrictions should make us wonder about a relationship between the desired volume and the minimum\/maximum amount of alchol.  For all of these questions start with 16 oz of 91.0% alcohol solution.   This first question is the same as . Use it to review the basic dilution calculation. Suppose you have 16 oz of 91.0% alcohol solution. How much water must we add to obtain at least 20.0 oz of 70.0% alcohol solution? How many ounces is the resulting solution?   Next we will illustrate that for a percent alcohol such as 70%, there is a maximum volume we can achieve. Specifically this is the number we already calculated.  If we dilute to a 70.0% alcohol solution what is the resulting amount of solution? You calculate this above. Add one ounce of water. Calculate the resulting percent alcohol. Did the percent alcohol decrease, stay the same, or increase? As a result can we produce more 70.0% alcohol solution starting with 16.0 oz of 91.0% alcohol?  Note, if we added less water we would have less solution, so that is a decrease (not the maximum).    Next, we ask at what rate does the maximum percent alcohol increase or decrease as we increase the desired amount of solution. To figure this out we will calculate the percent for multiple amounts and analyze the data as we did in and   How much water must be added for 20 oz of solution? What is the resulting percent alcohol? How much water must be added for 22 oz of solution? What is the resulting percent alcohol? How much water must be added for 24 oz of solution? What is the resulting percent alcohol? Does the maximum percent alcohol increase or decrease with the increase in the number of ounces? Does it grow linearly, quadratically, exponentially, or otherwise?   We can ask this question in reverse as well. If we want a percent alcohol, what is the resulting maximum amount of resulting solution? Then we measure the growth of the amount.  Once again we start with 16.0 oz of 91.0% alcohol solution.  If we want exactly 80.0% alcohol, what is the resulting volume of solution? If we want exactly 70.0% alcohol, what is the resulting volume of solution? If we want exactly 60.0% alcohol, what is the resulting volume of solution? Does the volume of solution increase or decrease as the percent concentration decreases? Does the volume of solution grow\/shrink linearly, quadratically, exponentially, or otherwise?   Note if in some model a variable varies directly with respect to a variable , then must vary directly with respect to . It cannot be direct in one direction and inverse in the other.   "
+  "body": " Project: Constraints on Dilution   Curiosity is an important mathematical virtue. We have seen limitations on the results we can obtain when diluting a mixture. This project guides us through conclusions on those constraints and asks at what rate it grows. Each question is worth I DONT KNOW points.  In we learned to calculate percents for mixtures and how to dilute a mixture to a specified percent.  By adding water we can of course not increase the percent alcohol, so if we start with 91% alcohol 91% is the highest we can achieve. On the other side we can reduce the percent alcohol to as little as we want (not quite to 0%) if we dilute it enough. This dilution requires not restricting the final volume. This pair of restrictions should make us wonder about a relationship between the desired volume and the minimum\/maximum amount of alchol.  For all of these questions start with 16 oz of 91.0% alcohol solution.    This first question is the same as . Use it to review the basic dilution calculation.  Suppose you have 16 oz of 91.0% alcohol solution. How much water must we add to obtain at least 20.0 oz of 70.0% alcohol solution?  How many ounces is the resulting solution?     Next we will illustrate that for a percent alcohol such as 70%, there is a maximum volume we can achieve. Specifically this is the number we already calculated.    If we dilute to a 70.0% alcohol solution what is the resulting amount of solution? You calculate this above.  Add one ounce of water. Calculate the resulting percent alcohol.    Did the percent alcohol decrease, stay the same, or increase?    As a result can we produce more 70.0% alcohol solution starting with 16.0 oz of 91.0% alcohol?    Note, if we added less water we would have less solution, so that is a decrease (not the maximum).      Next, we ask at what rate does the maximum percent alcohol increase or decrease as we increase the desired amount of solution. To figure this out we will calculate the percent for multiple amounts and analyze the data as we did in and     How much water must be added for 20 oz of solution?  What is the resulting percent alcohol?    How much water must be added for 22 oz of solution?  What is the resulting percent alcohol?    How much water must be added for 24 oz of solution?  What is the resulting percent alcohol?    Does the maximum percent alcohol increase or decrease with the increase in the number of ounces?    Does it grow linearly, quadratically, exponentially, or otherwise?      We can ask this question in reverse as well. If we want a percent alcohol, what is the resulting maximum amount of resulting solution? Then we measure the growth of the amount.  Once again we start with 16.0 oz of 91.0% alcohol solution.    If we want exactly 80.0% alcohol, what is the resulting volume of solution?    If we want exactly 70.0% alcohol, what is the resulting volume of solution?    If we want exactly 60.0% alcohol, what is the resulting volume of solution?    Does the volume of solution increase or decrease as the percent concentration decreases?    Does the volume of solution grow\/shrink linearly, quadratically, exponentially, or otherwise?     Note if in some model a variable varies directly with respect to a variable , then must vary directly with respect to . It cannot be direct in one direction and inverse in the other.   "
 },
 {
   "id": "section-geometry2D",
@@ -5353,7 +5353,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Geometric Reasoning 2D",
-  "body": " Geometric Reasoning 2D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., triangles) is worth memorizing.  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape. In the figure below showing the outline of Kapi'olani Regional Park the perimeter is the distance someone would travel walking around the edge of the park. The area determines how much grass seed it would take to spread over the park.   Complex Shape with Perimeter and Area   Irregular shape with 11 sides of very different lengths.     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Parallelograms include rectangles , which are parallelograms with four right angles, and rhombi , which are parallelograms with four equal length sides. A square is a rectangle and a rhombus.  For the formulas we need a segment that is perpendicular to one pair of parallel sides. This is called the height . One of these parallel sides is called the base .   Parallelograms       Shape  Perimeter  Area      Parallelogram with sides and height labeled   Two parallel sides are labeled with length a. The other pair of sides are labeled with length b. The height is labeled and is between the sides of length a.          The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with .   What are the perimeter and area of this parallelogram?   Parallelogram with height 3.00, base lengths 5.00, and other length 4.05   The perimeter is the sum of the side lengths which in this case is .  The area of a parallelogram, given in is . For this parallelogram that is .    What are the perimeter and area of this parallelogram?   Rectangle with side lengths 28.2 and 18.1   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. .     Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.   Like a parallelogram a trapezoid has a height . This is a segment perpendicular to the parallel sides.   Trapezoid       Shape  Perimeter  Area      Trapezoid with side lengths and height labeled   The trapezoid has parallel sides of lengths and and other sides of lengths and . The height has length h.          Because none of the side lengths need be the same, the perimeter formula is just the sum of the four sides. The height must be between the two, parallel sides. Any line between the other two sides is not perpendicular to both and the formula does not work.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 1.76 and 3.04; other side lengths 5.00 and 4.05; and height 3.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is .   Note the following is also a trapezoid and the formulae still apply.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 10.00 and 13.00; other side lengths 8.54 and 10.00; and height 8.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is     Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area     Triangle with sides and height labeled   The base is labeled with length b, and the height is labeled with length h. The other two sides are labeled with lengths a and c.          Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side which is called the base . Any vertex\/side pair can be used. Be aware that the height may not intersect the opposite side; consider . The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.   What are the perimeter and area of the triangles in ?  The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is    Two Triangles    Obtuse Triangle   Triangle with side lengths 5.98, 8.19, and base side length 10.90 with height 4.43     Acute Triangle   Triangle with side lengths 5.98, 8.19, and base side length 2.87 with height 4.43       In the height is labeled . Draw the other two heights.   Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle ( in the formula).     Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then will equal . . Because this is not a right triangle, but it appears to be close.    In we will develop a version of this statement for triangles without a right angle.  The formula for area of a triangle above requires that we be able to calculate the height. In we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .    Calculate the area of a triangle with side lengths 4, 5, and 7.   Triangle with side lengths 4, 5, 7   According to Heron's formula . Rounding to one decimal place here is an arbitrary choice for this example.   The next example illustrates tracking significant digits while using Heron's formula to calculate area.   Calculate the area of the triangles in .  According to Heron's formula for the triangle in    For the triangle in     Notice that the results from Heron's formula are slightly different from the results using the formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.    Circle      Shape  Perimeter  Area     Circle with diameter and radius labeled   The radius is labeled with length r and the diameter is labeled length d.              When performing calculations with we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.   For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 We need to approximate to at least as many significant digits as the others numbers to avoid reducing precision. We could use more.  The area, given in , is . For radius 7.31    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: . .  The area is simply half of the usual area.      Applying Geometry  When we encounter geometric questions, they will often involve shapes consisting of more than one basic shape such as the park boundry above. Our first task then is to break down these shapes into pieces that are basic shapes (ones we already know). Then we can use the geometric properties to calculate results.  Note that often we can break down a complex shape in more than one way. Which way we choose will depend on what we are trying to calculate and what information we have available.   Calculate the area of this wall given the dimensions given in feet.  5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0  First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle. The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is . The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.  Calculate the perimeter of this wall given the dimensions given in feet. There are five (5) edges. There sum is feet.  What is the (tallest) height of the wall? The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following. The total height is then .    Calculate the square footage of the combined living room and hallway.   Rectangular room with rectangular hallway attached and side lengths labeled   This layout is rectangular. The living room is a rectangle with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.  To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.  The living room height is . The width is . The area is .  The hallway height is . The width is . The area is .  The total floor surface is . We can now convert that back to feet.  We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like . The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.    Calculate the area to be painted on this wall with a circular window.   5 sided shape consisting of a triangle on top of a rectangle with a circle cut out of it   The wall consists of a rectangle with a triangle on top. The rectangle has width 12 ft and height 5 ft for an area of .  We have the base of the triangle (12 ft), but we do not have the height of the triangle. However, we know that the total wall height is 11 ft, and the part of the height from the rectangal is 5 ft. This means that the rest is from the triangle which has height . Thus the area is .  The area of the circle is .  The total wall area is therefore . It is important to round up to have enough paint.   The following example requires geometric thinking, but does not require any formula. Especially important is deciding on the type of rounding which, in this case, is determined by physical constraints.    Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.    What is the total number of feet of lumber (2x4) needed?   There are two boards of length 60 inches and three boards of length 27 inches. The total length is . We convert this to feet using a ratio.    If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?   If a 60 inch section is cut from a 96 inch board, we have left. This is long enough for one of the 27 inch segments but not more. Thus two boards will cover all but the last 27 inch segment. We need three (3), 96 inch boards.    If the boards are painted before they are assembled, what is the total surface area of the boards to be painted? Paint cans are rated for the number of square feet they can cover. We will want the solution in units of square feet.   Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is   Finally we convert this to square feet using the method of . . We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.    What is the area that is hidden, that is, cannot be seen after assembling?   This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .     Abacus   Abacus with dimensions of the wood pieces   The top and bottom (longest) sides are 60.0 inches long. The left, right, and divider sides are 27.0 inches long. All lumber is 1.5 inches wide. Depth of the wood is not shown in the diagram. The divider piece is 15.0\" from the left edge.     The following example also illustrates rounding according to physical constraints.   We are purchasing carpet squares to carpet a rectangular room that is 15.5 ft by 19.0 ft. These carpet squares are 18 in by 18 in. A box contains 10 squares. How many boxes of carpet squares do we need purchase? This image shows four carpet squares together.   A 2 by 2 grid of the same carpet square   We need to know how many square across and down the room. For the number of squares across we can divide the width of the room (15.5 ft) by the width of a carpet square (18 in). This requires matching units, so Thus the number of squares across is . This means the final square will be a third of a square in width. While it might seem efficient to reuse the rest of that carpet square in the rows above, we cannot because the pattern would not continue correctly. Thus we simply round up to 11 squares across.  Next we calculate the number of squares down. . Thus the number of squares down is . Again to have enough squares we must round up to 13 squares down.  Thus the total number of carpet squares needed is . Because each box has 10 squares each, we need boxes. To have enough we need 15 boxes. In practice we would likely buy at least one extra box in case there are problems.    At first the following might seem to be a reasonable way to solve this problem. First, calculate the total square inches of floor. Using the conversion to inches from above square inches of floor.  Next we can divide by the number of square inches each carpet squares covers to count the number of squares. Each square covers square inches. Thus we calculate that we need carpet squares.  This is substantially fewer than the 143 we calculated previously. The reason is this calculation assumes we can use each of the partial squares somewhere else in the room. This is true when the pattern does not need to match, but not in this case.  Now you may understand why such repeating patterns are avoided in most carpets.       Practice Formulae   Use the appropriate formulae to calculate requested values.                      Geometry in Applications   Identify shapes and use appropriate formulae to calculate the results requested.         Quantitative Literacy   Use you knowledge of geometry to determine what makes sense.        "
+  "body": " Geometric Reasoning 2D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., triangles) is worth memorizing.  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape. In the figure below showing the outline of Kapi'olani Regional Park the perimeter is the distance someone would travel walking around the edge of the park. The area determines how much grass seed it would take to spread over the park.   Complex Shape with Perimeter and Area   Irregular shape with 11 sides of very different lengths.     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Parallelograms include rectangles , which are parallelograms with four right angles, and rhombi , which are parallelograms with four equal length sides. A square is a rectangle and a rhombus.  For the formulas we need a segment that is perpendicular to one pair of parallel sides. This is called the height . One of these parallel sides is called the base .   Parallelograms       Shape  Perimeter  Area      Parallelogram with sides and height labeled   Two parallel sides are labeled with length a. The other pair of sides are labeled with length b. The height is labeled and is between the sides of length a.          The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with .   What are the perimeter and area of this parallelogram?   Parallelogram with height 3.00, base lengths 5.00, and other length 4.05   The perimeter is the sum of the side lengths which in this case is .  The area of a parallelogram, given in is . For this parallelogram that is .    What are the perimeter and area of this parallelogram?   Rectangle with side lengths 28.2 and 18.1   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. .       Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.   Like a parallelogram a trapezoid has a height . This is a segment perpendicular to the parallel sides.   Trapezoid       Shape  Perimeter  Area      Trapezoid with side lengths and height labeled   The trapezoid has parallel sides of lengths and and other sides of lengths and . The height has length h.          Because none of the side lengths need be the same, the perimeter formula is just the sum of the four sides. The height must be between the two, parallel sides. Any line between the other two sides is not perpendicular to both and the formula does not work.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 1.76 and 3.04; other side lengths 5.00 and 4.05; and height 3.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is .   Note the following is also a trapezoid and the formulae still apply.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 10.00 and 13.00; other side lengths 8.54 and 10.00; and height 8.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is       Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area     Triangle with sides and height labeled   The base is labeled with length b, and the height is labeled with length h. The other two sides are labeled with lengths a and c.          Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side which is called the base . Any vertex\/side pair can be used. Be aware that the height may not intersect the opposite side; consider . The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.   What are the perimeter and area of the triangles in ?  The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is    Two Triangles    Obtuse Triangle   Triangle with side lengths 5.98, 8.19, and base side length 10.90 with height 4.43     Acute Triangle   Triangle with side lengths 5.98, 8.19, and base side length 2.87 with height 4.43          In the height is labeled . Draw the other two heights.    Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle ( in the formula).     Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then will equal . . Because this is not a right triangle, but it appears to be close.      In we will develop a version of this statement for triangles without a right angle.  The formula for area of a triangle above requires that we be able to calculate the height. In we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .    Calculate the area of a triangle with side lengths 4, 5, and 7.   Triangle with side lengths 4, 5, 7   According to Heron's formula . Rounding to one decimal place here is an arbitrary choice for this example.   The next example illustrates tracking significant digits while using Heron's formula to calculate area.   Calculate the area of the triangles in .  According to Heron's formula for the triangle in    For the triangle in     Notice that the results from Heron's formula are slightly different from the results using the formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.      Circle      Shape  Perimeter  Area     Circle with diameter and radius labeled   The radius is labeled with length r and the diameter is labeled length d.              When performing calculations with we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.   For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 We need to approximate to at least as many significant digits as the others numbers to avoid reducing precision. We could use more.  The area, given in , is . For radius 7.31    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: . .  The area is simply half of the usual area.        Applying Geometry  When we encounter geometric questions, they will often involve shapes consisting of more than one basic shape such as the park boundry above. Our first task then is to break down these shapes into pieces that are basic shapes (ones we already know). Then we can use the geometric properties to calculate results.  Note that often we can break down a complex shape in more than one way. Which way we choose will depend on what we are trying to calculate and what information we have available.    Calculate the area of this wall given the dimensions given in feet.   5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0   First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle.  The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is .  The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.    Calculate the perimeter of this wall given the dimensions given in feet.  There are five (5) edges. There sum is feet.    What is the (tallest) height of the wall?  The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following. The total height is then .     Calculate the square footage of the combined living room and hallway.   Rectangular room with rectangular hallway attached and side lengths labeled   This layout is rectangular. The living room is a rectangle with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.  To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.  The living room height is . The width is . The area is .  The hallway height is . The width is . The area is .  The total floor surface is . We can now convert that back to feet.  We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like . The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.    Calculate the area to be painted on this wall with a circular window.   5 sided shape consisting of a triangle on top of a rectangle with a circle cut out of it   The wall consists of a rectangle with a triangle on top. The rectangle has width 12 ft and height 5 ft for an area of .  We have the base of the triangle (12 ft), but we do not have the height of the triangle. However, we know that the total wall height is 11 ft, and the part of the height from the rectangal is 5 ft. This means that the rest is from the triangle which has height . Thus the area is .  The area of the circle is .  The total wall area is therefore . It is important to round up to have enough paint.   The following example requires geometric thinking, but does not require any formula. Especially important is deciding on the type of rounding which, in this case, is determined by physical constraints.    Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.     What is the total number of feet of lumber (2x4) needed?    There are two boards of length 60 inches and three boards of length 27 inches. The total length is . We convert this to feet using a ratio.      If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?    If a 60 inch section is cut from a 96 inch board, we have left. This is long enough for one of the 27 inch segments but not more. Thus two boards will cover all but the last 27 inch segment. We need three (3), 96 inch boards.      If the boards are painted before they are assembled, what is the total surface area of the boards to be painted? Paint cans are rated for the number of square feet they can cover. We will want the solution in units of square feet.    Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is   Finally we convert this to square feet using the method of . . We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.      What is the area that is hidden, that is, cannot be seen after assembling?    This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .      Abacus   Abacus with dimensions of the wood pieces   The top and bottom (longest) sides are 60.0 inches long. The left, right, and divider sides are 27.0 inches long. All lumber is 1.5 inches wide. Depth of the wood is not shown in the diagram. The divider piece is 15.0\" from the left edge.     The following example also illustrates rounding according to physical constraints.   We are purchasing carpet squares to carpet a rectangular room that is 15.5 ft by 19.0 ft. These carpet squares are 18 in by 18 in. A box contains 10 squares. How many boxes of carpet squares do we need purchase? This image shows four carpet squares together.   A 2 by 2 grid of the same carpet square   We need to know how many square across and down the room. For the number of squares across we can divide the width of the room (15.5 ft) by the width of a carpet square (18 in). This requires matching units, so Thus the number of squares across is . This means the final square will be a third of a square in width. While it might seem efficient to reuse the rest of that carpet square in the rows above, we cannot because the pattern would not continue correctly. Thus we simply round up to 11 squares across.  Next we calculate the number of squares down. . Thus the number of squares down is . Again to have enough squares we must round up to 13 squares down.  Thus the total number of carpet squares needed is . Because each box has 10 squares each, we need boxes. To have enough we need 15 boxes. In practice we would likely buy at least one extra box in case there are problems.    At first the following might seem to be a reasonable way to solve this problem. First, calculate the total square inches of floor. Using the conversion to inches from above square inches of floor.  Next we can divide by the number of square inches each carpet squares covers to count the number of squares. Each square covers square inches. Thus we calculate that we need carpet squares.  This is substantially fewer than the 143 we calculated previously. The reason is this calculation assumes we can use each of the partial squares somewhere else in the room. This is true when the pattern does not need to match, but not in this case.  Now you may understand why such repeating patterns are avoided in most carpets.         Practice Formulae   Use the appropriate formulae to calculate requested values.                                                        Geometry in Applications   Identify shapes and use appropriate formulae to calculate the results requested.                 Quantitative Literacy   Use you knowledge of geometry to determine what makes sense.              "
 },
 {
   "id": "subsection-geometric-properties-2d-3",
@@ -5434,7 +5434,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "definition-trapezoid",
@@ -5488,7 +5488,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "definition-triangle",
@@ -5542,7 +5542,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "exercise-triangle-alternate-heights",
@@ -5551,7 +5551,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.17",
   "title": "",
-  "body": "In the height is labeled . Draw the other two heights. "
+  "body": " In the height is labeled . Draw the other two heights.  "
 },
 {
   "id": "theorem-pythagorean",
@@ -5587,7 +5587,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "theorem-herons-formula",
@@ -5623,7 +5623,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.25",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "figure-circle-properties",
@@ -5659,7 +5659,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.29",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-apply-geometry-house-wall",
@@ -5668,7 +5668,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.1.30",
   "title": "",
-  "body": " Calculate the area of this wall given the dimensions given in feet.  5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0  First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle. The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is . The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.  Calculate the perimeter of this wall given the dimensions given in feet. There are five (5) edges. There sum is feet.  What is the (tallest) height of the wall? The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following. The total height is then .  "
+  "body": "  Calculate the area of this wall given the dimensions given in feet.   5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0   First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle.  The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is .  The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.    Calculate the perimeter of this wall given the dimensions given in feet.  There are five (5) edges. There sum is feet.    What is the (tallest) height of the wall?  The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following. The total height is then .   "
 },
 {
   "id": "example-geometry2d-floor-plan",
@@ -5695,7 +5695,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.1.33",
   "title": "",
-  "body": "  Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.    What is the total number of feet of lumber (2x4) needed?   There are two boards of length 60 inches and three boards of length 27 inches. The total length is . We convert this to feet using a ratio.    If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?   If a 60 inch section is cut from a 96 inch board, we have left. This is long enough for one of the 27 inch segments but not more. Thus two boards will cover all but the last 27 inch segment. We need three (3), 96 inch boards.    If the boards are painted before they are assembled, what is the total surface area of the boards to be painted? Paint cans are rated for the number of square feet they can cover. We will want the solution in units of square feet.   Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is   Finally we convert this to square feet using the method of . . We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.    What is the area that is hidden, that is, cannot be seen after assembling?   This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .   "
+  "body": "  Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.     What is the total number of feet of lumber (2x4) needed?    There are two boards of length 60 inches and three boards of length 27 inches. The total length is . We convert this to feet using a ratio.      If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?    If a 60 inch section is cut from a 96 inch board, we have left. This is long enough for one of the 27 inch segments but not more. Thus two boards will cover all but the last 27 inch segment. We need three (3), 96 inch boards.      If the boards are painted before they are assembled, what is the total surface area of the boards to be painted? Paint cans are rated for the number of square feet they can cover. We will want the solution in units of square feet.    Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is   Finally we convert this to square feet using the method of . . We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.      What is the area that is hidden, that is, cannot be seen after assembling?    This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .    "
 },
 {
   "id": "figure-apply-geometry-abacus",
@@ -5731,7 +5731,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.1.37",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-3",
@@ -5740,7 +5740,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-4",
@@ -5749,7 +5749,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-5",
@@ -5758,7 +5758,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-6",
@@ -5767,7 +5767,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-7",
@@ -5776,7 +5776,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-8",
@@ -5785,7 +5785,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-9",
@@ -5794,7 +5794,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-10",
@@ -5803,7 +5803,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-11",
@@ -5812,7 +5812,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-12",
@@ -5821,7 +5821,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-13",
@@ -5830,7 +5830,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-14",
@@ -5839,7 +5839,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-15",
@@ -5848,7 +5848,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-16",
@@ -5857,7 +5857,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-17",
@@ -5866,7 +5866,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-18",
@@ -5875,7 +5875,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-1-19",
@@ -5884,7 +5884,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-2-3",
@@ -5893,7 +5893,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-2-4",
@@ -5902,7 +5902,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-2-5",
@@ -5911,7 +5911,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-2-6",
@@ -5920,7 +5920,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-3-3",
@@ -5929,7 +5929,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-3-4",
@@ -5938,7 +5938,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.23",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry2D-5-3-5",
@@ -5947,7 +5947,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.1.3.24",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D",
@@ -5956,7 +5956,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Geometric Reasoning 3D",
-  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to determine those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume   Roughly conical shape made from checkered paper     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. That polygon is called the base . If the base is extruded perpendicular to its surface, then it is called a right prism . Typically this means the sides are rectangles.  Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows four prisms. Those on the left are right prisms, and those on the right are skewed. The top two are triangular prisms, and the bottom two are trapezoidal prisms.   Various Prisms     Right triangular prism built from a right triangle    Skewed triangular prism built from a right triangle      Right rectangular prism built by extruding a rectangle backwards    Skewed trapezoidal prism       Prisms      Shape  Surface Area  Volume     Example prism with labels    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.   What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.    Calculate the surface area and volume    Right Triangular Prism   Right triangular prism with sides lengths labeled   The base is a right triangle with leg lengths 2.125 and 3.125. It is a right prism with height 10.250.      Non-Right Triangular Prism   Skewed triangular prism with the same measurements   The base is a right triangle with leg lengths 2.125 and 3.125. It is a skewed prism with height 10.250.        Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume     Skewed circular cylinder with labels         The height ( ) of the cylinder is the distance from the top disc down to the plane in which the bottom disc sits. It does not necessarily touch both discs (cylinder skewed so far the discs do not overlap). If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom discs to the lateral surface area.  The formula for the area of the side of a cylinder looks like width ( ) times height ( ) which is the formula for area of a rectangle. Indeed if you think about a can (the type that contain paint, soup, or other substances), the label if peeled off is a rectangle. The height of that rectangle is the height of the can and the width of that rectangle is enough to wrap around the can.   What are the total surface area and volume of this slanted cylinder?   Skewed cylinder with raidus 3.907, height 5.324, and slant height 5.666   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume     Sphere with radius labeled         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Top half of a sphere with radius 12.9167   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume     Triangular pyramid with irregular sides    sum of surfaces       What is the surface area of this pyramid?  Pyramid with square base with side length 2.0000, height 2.8284, and slant height 3.1623  This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .    Calculate the volume of this rectangular pyramid.   Pyramid with rectangular base with side lengths 5.31 and 3.17 and slant height 9.72   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg and the edge length as the hypotenuse. The second leg is in the base from the center to the corner of the pyramid.  We do not have the length of the segment on the base (center to corner). If we add a line from the center of the base to the midpoint of one of the sides, we form another right triangle with the desired length as the hypotenuse. The legs are each half the length of one of the sides. The Pythagorean theorem will give us the hypotenuse length.   The same diagram as above but with two right triangles described above labeled   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume .    What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.   Cone      Shape  Lateral Surface Area  Volume     Right cone with labels    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). For the full surface area we add the area of the circle at the bottom of the cone. The volume formula works for all cones.   Calculate the total surface area and the volume of this cone.   Right cone with point downward having radius 5.7332 and slant height 18.1231   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume     Frustrum of a right, square pyramid with labels         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly for the upper base (top polygon). is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base.   What is the surface area of the frustrum of the pyramid in ? The surface area consists of the areas of the base and top which are triangles and the three sides which are rhobmi. For the base and top we know the lengths of the three sides, so we can use Heron's formula to calculate their areas. The perimeter of the lower base (triangle) is (The number of sides, 3, is an exact number so precision is not changed.) The perimeter of the upper base (triangle) is . The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values     Calculate Area and Volume of this Frustrum   Frustrum of a right, triangluar pyrmaid with lengths labeled     Frustrum of a Cone      Shape  Lateral Surface Area  Volume     Frustrum of a right code with labels         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   Frustrum of a cone with radii 7.2 and 5.0, height 3.3, and slant height 3.6   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.   For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).    Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   Birdhouse that is an A frame: trianglular prism with hole in the front   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.  For the triangles, we have edge lengths and not the height, because it is easier to measure the edges than the middle. For the area we will use Heron's formula.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).     An ice cream cone has the dimensions shown below.   Conical ice cream cone with hemisphere on the top.    What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is cubic inches.  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is square inches.    A part is produced by drilling a cylindrical hole into a cylinder as shown below. If the weight of aluminum is what is the total weight of this part? These are precision measurements; round using significant digits.   Right circular cylinder with smaller right circular cylinder cut out of it   First, we calculate the volume of the cylinder. It has a radius of . The volume is .  Next, we need to calculate the volume of the hole that is drilled out. That radius is given in mm, so we should convert to cm first. 4.76 mm is 0.476 cm, because there are 10 millimeters per centimeter. It has a radius of . The volume is .  The total volum is .  Finally, we can convert the volume to weight. The units suggest we can multiply, .      Practice Formulae   Use the appropriate formulae to calculate requested values.           Geometry in Applications   Identify shapes and use appropriate formulae to calculate the results requested.               Quantitative Literacy   Use your understanding of geometry to address these questions.      "
+  "body": " Geometric Reasoning 3D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., prisms and spheres) is worth memorizing.  Use this section to learn to identify which measurement is used in each part of a formula and how to determine those from diagrams or descriptions of shapes. The next section will illustrate using these properties in applications.  The surface area of a 3D shape is the cummulative area of all the 2D areas of the shape. You can think of it as the amount of paint needed to cover the object. The volume of a 3D shape is a measure of what it takes to fill a 3D shape. In the figure below showing a paper cone for holding popcorn, the surface area is the amount of wax needed to coat the inside of the cone so the popcorn (butter) does not soak through the paper. The volume is how much popcorn can be held.   Complex Shape with Surface and Volume   Roughly conical shape made from checkered paper     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Prism  A prism is a solid consisting of two identical polygons connected by parallelograms.   These look like a polygon has been extruded. That polygon is called the base . If the base is extruded perpendicular to its surface, then it is called a right prism . Typically this means the sides are rectangles.  Prisms are named for their base shape. For example, there are triangular prisms and pentagonal prisms. The figure below shows four prisms. Those on the left are right prisms, and those on the right are skewed. The top two are triangular prisms, and the bottom two are trapezoidal prisms.   Various Prisms     Right triangular prism built from a right triangle    Skewed triangular prism built from a right triangle      Right rectangular prism built by extruding a rectangle backwards    Skewed trapezoidal prism       Prisms      Shape  Surface Area  Volume     Example prism with labels    sum of area of all sides      For surface area the sides are always parallelograms (rectangles for right prisms). For the volume is the area of the base (the triangle or trapezoid in the four examples). is the height or distance from the bottom to the top (or front to back if we tip the prism over). Note this is not along an edge, but perpendicular to the base.    What is the surface area of the right triangular prism in ?  The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .    What is the volume of the triangular prism in ?  The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .    What is the volume of the triangular prism in ?  The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.     Calculate the surface area and volume    Right Triangular Prism   Right triangular prism with sides lengths labeled   The base is a right triangle with leg lengths 2.125 and 3.125. It is a right prism with height 10.250.      Non-Right Triangular Prism   Skewed triangular prism with the same measurements   The base is a right triangle with leg lengths 2.125 and 3.125. It is a skewed prism with height 10.250.        Cylinder  A cylinder is a circular prism.    Cylinder      Shape  Lateral Surface Area  Volume     Skewed circular cylinder with labels         The height ( ) of the cylinder is the distance from the top disc down to the plane in which the bottom disc sits. It does not necessarily touch both discs (cylinder skewed so far the discs do not overlap). If the cylinder is not slanted then . Notice the volume is not dependent on the angle of slant but the lateral surface area is. To obtain the complete surface area add the area of the top and bottom discs to the lateral surface area.  The formula for the area of the side of a cylinder looks like width ( ) times height ( ) which is the formula for area of a rectangle. Indeed if you think about a can (the type that contain paint, soup, or other substances), the label if peeled off is a rectangle. The height of that rectangle is the height of the can and the width of that rectangle is enough to wrap around the can.   What are the total surface area and volume of this slanted cylinder?   Skewed cylinder with raidus 3.907, height 5.324, and slant height 5.666   The lateral surface area is We must approximate precise to at least as many positions as the rest of the numbers. Otherwise we will decrease the overall precision. We do not need to use more positions: the extra disappears in the rounding at the end. Here we use the portion most commonly memorized or listed in a table.  The area of the top and bottom are both Thus the total surface area is  The volume is     Sphere      Shape  Surface Area  Volume     Sphere with radius labeled         The 4 and 4\/3 are exact numbers.   What are the surface area and volume of this spherical dome? The dome is sitting on the ground so the only surface area of importance is the top surface.   Top half of a sphere with radius 12.9167   Because this is a dome (half sphere) we divide the formula by 2.     Pyramid      Shape  Surface Area  Volume     Triangular pyramid with irregular sides    sum of surfaces        What is the surface area of this pyramid?   Pyramid with square base with side length 2.0000, height 2.8284, and slant height 3.1623   This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers.  The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .    What is the volume of this pyramid?  The volume is .     Calculate the volume of this rectangular pyramid.   Pyramid with rectangular base with side lengths 5.31 and 3.17 and slant height 9.72   To calculate the volume we need the height which is not labeled. This is probably because we cannot put a measuring tape along the height (interior). However, we can calculate the height based on the right triangle with the height as one leg and the edge length as the hypotenuse. The second leg is in the base from the center to the corner of the pyramid.  We do not have the length of the segment on the base (center to corner). If we add a line from the center of the base to the midpoint of one of the sides, we form another right triangle with the desired length as the hypotenuse. The legs are each half the length of one of the sides. The Pythagorean theorem will give us the hypotenuse length.   The same diagram as above but with two right triangles described above labeled   Next, we can use this length and the given side length to calculate the height.  Finally we can calculate the volume. The base has area . This pyramid has volume .       What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.    Cone      Shape  Lateral Surface Area  Volume     Right cone with labels    or      The surface area formulas apply only when it is a right circular cone (tip of the cone directly above the center of the circle). For the full surface area we add the area of the circle at the bottom of the cone. The volume formula works for all cones.   Calculate the total surface area and the volume of this cone.   Right cone with point downward having radius 5.7332 and slant height 18.1231   The surface area can be calculated directly. The lateral surface area is The area of the top circle is The total area therefore is .  To calculate the volume we need to first calculate the height. Looking at the image we see that the labeled radius and side length are part of a right triangle with the height. This means  Having calculated the height we can calculate the volume   The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word frustrum means cut off. This is the etymology of frustrated which refers to a cut off hope. For these formulae the bases must be parallel. Note below refers to the perimeter of the bases.   Frustrum of a Pyramid      Shape  Lateral Surface Area  Volume     Frustrum of a right, square pyramid with labels         is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. is calculated similarly for the upper base (top polygon). is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). is the area of the upper base.    What is the surface area of the frustrum of the pyramid in ?  The surface area consists of the areas of the base and top which are triangles and the three sides which are rhobmi. For the base and top we know the lengths of the three sides, so we can use Heron's formula to calculate their areas. The perimeter of the lower base (triangle) is (The number of sides, 3, is an exact number so precision is not changed.) The perimeter of the upper base (triangle) is . The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .    What is the volume of the frustrum of a pyramid in ?  We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values      Calculate Area and Volume of this Frustrum   Frustrum of a right, triangluar pyrmaid with lengths labeled     Frustrum of a Cone      Shape  Lateral Surface Area  Volume     Frustrum of a right code with labels         The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.   What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).   Frustrum of a cone with radii 7.2 and 5.0, height 3.3, and slant height 3.6   The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top). The total surface area is cm squared.  The volume requires calculating the area of the top surface as well. Now we can calculate the volume of the muffin tin. The volume is 380 square centimeters.   If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in .   Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length . We can use the Pythagorean theorem to calculate the height.    For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height.  If the height is 3, can the slant height be 2?  What is the bottom of the range of possible slant heights for this frustrum?  If the height is 3 and the top base has radius 1, what is the slant height?  If the height is 3 and the top base has radius 0.5, what is the slant height?  What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).     Applying Geometry  Effectively using knowledge of geometric properties requires recognizing the shapes we know in problems we encounter and figuring out missing parameters from the parameters we do know. The latter we did in and . We will extend our ability to calculate missing parameters in . In the following problems we identify shapes and apply the appropriate formulae.   What is the total, external area of this birdhouse? All measurments are in inches and accurate to 1\/8 inch.   Birdhouse that is an A frame: trianglular prism with hole in the front   First, we identify the shapes. The front and back are triangles. The front triangle has a circular hole in it. The bottom and two sides are rectangles. Although this is a 3D object surface area uses 2D formulae.  For the triangles, we have edge lengths and not the height, because it is easier to measure the edges than the middle. For the area we will use Heron's formula.   For the hole we know the diameter so we use the area formula . This hole has area The area of the front triangle is .  The bottom rectangle has area square inches. The two sides both have area square inches.  Thus the total area is . We round up because this is the safer estimate (better to have a little more than not enough for construction).     An ice cream cone has the dimensions shown below.   Conical ice cream cone with hemisphere on the top.     What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units.  First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is cubic inches.    What is the surface area of the ice cream? Note the greater the area the faster it melts.  This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is square inches.     A part is produced by drilling a cylindrical hole into a cylinder as shown below. If the weight of aluminum is what is the total weight of this part? These are precision measurements; round using significant digits.   Right circular cylinder with smaller right circular cylinder cut out of it   First, we calculate the volume of the cylinder. It has a radius of . The volume is .  Next, we need to calculate the volume of the hole that is drilled out. That radius is given in mm, so we should convert to cm first. 4.76 mm is 0.476 cm, because there are 10 millimeters per centimeter. It has a radius of . The volume is .  The total volum is .  Finally, we can convert the volume to weight. The units suggest we can multiply, .      Practice Formulae   Use the appropriate formulae to calculate requested values.                       Geometry in Applications   Identify shapes and use appropriate formulae to calculate the results requested.                                   Quantitative Literacy   Use your understanding of geometry to address these questions.        "
 },
 {
   "id": "subsection-geometric-properties-3d-4",
@@ -6019,7 +6019,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.5",
   "title": "",
-  "body": " What is the surface area of the right triangular prism in ? The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .  What is the volume of the triangular prism in ? The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.  "
+  "body": "  What is the surface area of the right triangular prism in ?  The surface area consists of the areas of the two right triangles and the three rectangles. Because the triangles are right triangles, they both have area . The rectangle areas are and . For the third rectangle we need to calculate the side length. Because this is a right triangle we can use the Pythagorean theorem. The third rectangle has area . The total area is .    What is the volume of the triangular prism in ?  The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is .    What is the volume of the triangular prism in ?  The volume is the area of the triangle, 3.320, times the height of the prism, 10.250. Thus the area is . Notice that the volume is not affected by the tilt of the prism. This is not true of the surface area which we do not have sufficient information to calculate here.   "
 },
 {
   "id": "figure-exercise-prism-triangular",
@@ -6091,7 +6091,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.13",
   "title": "",
-  "body": " What is the surface area of this pyramid?  Pyramid with square base with side length 2.0000, height 2.8284, and slant height 3.1623  This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers. The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .  What is the volume of this pyramid? The volume is .  "
+  "body": "  What is the surface area of this pyramid?   Pyramid with square base with side length 2.0000, height 2.8284, and slant height 3.1623   This pyramid consists of four, identical triangular sides and a square base. Note the side lengths are given as exact numbers.  The area of one of the triangles can be found using Heron's formula. The area of the base is . Thus the surface area is .    What is the volume of this pyramid?  The volume is .   "
 },
 {
   "id": "example-pyramid-minimal-parameters",
@@ -6109,7 +6109,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.2.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "exercise-pyramid-compare-prism",
@@ -6118,7 +6118,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.2.16",
   "title": "",
-  "body": "What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism. "
+  "body": " What is the relationship between the volume of a pyramid to the volume of a prism with the same base? same base means the same shape and size. The pyramid could then be placed inside the prism.  "
 },
 {
   "id": "figure-cone-properties",
@@ -6163,7 +6163,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.20",
   "title": "",
-  "body": " What is the surface area of the frustrum of the pyramid in ? The surface area consists of the areas of the base and top which are triangles and the three sides which are rhobmi. For the base and top we know the lengths of the three sides, so we can use Heron's formula to calculate their areas. The perimeter of the lower base (triangle) is (The number of sides, 3, is an exact number so precision is not changed.) The perimeter of the upper base (triangle) is . The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .  What is the volume of the frustrum of a pyramid in ? We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values   "
+  "body": "  What is the surface area of the frustrum of the pyramid in ?  The surface area consists of the areas of the base and top which are triangles and the three sides which are rhobmi. For the base and top we know the lengths of the three sides, so we can use Heron's formula to calculate their areas. The perimeter of the lower base (triangle) is (The number of sides, 3, is an exact number so precision is not changed.) The perimeter of the upper base (triangle) is . The three sides are rhombi. The area of one of them is Thus the surface area of the entire shape is .    What is the volume of the frustrum of a pyramid in ?  We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values    "
 },
 {
   "id": "figure-pyramid-frustrum-example",
@@ -6208,7 +6208,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.2.25",
   "title": "",
-  "body": "For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height. If the height is 3, can the slant height be 2? What is the bottom of the range of possible slant heights for this frustrum? If the height is 3 and the top base has radius 1, what is the slant height? If the height is 3 and the top base has radius 0.5, what is the slant height? What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base). "
+  "body": " For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.  For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height.  If the height is 3, can the slant height be 2?  What is the bottom of the range of possible slant heights for this frustrum?  If the height is 3 and the top base has radius 1, what is the slant height?  If the height is 3 and the top base has radius 0.5, what is the slant height?  What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).  "
 },
 {
   "id": "exercise-apply-geometry-birdhouse",
@@ -6226,7 +6226,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.27",
   "title": "",
-  "body": "  An ice cream cone has the dimensions shown below.   Conical ice cream cone with hemisphere on the top.    What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units. First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is cubic inches.  What is the surface area of the ice cream? Note the greater the area the faster it melts. This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is square inches.  "
+  "body": "  An ice cream cone has the dimensions shown below.   Conical ice cream cone with hemisphere on the top.     What is the volume of the ice cream? No person can scoop with sufficient accuracy for a fraction of a square or cubic inch, so we will round to units.  First, we identify the shapes. This is a right circular cone with a half sphere on top. The diameter of the cone and sphere is inches. The radius then is half of that or . We convert to decimal inches, because in the end we would want to convert cubic inches (volume) to cups or pints or similar volume measures. This is easier with decimal inches.  The volume of the cone is . The volume of the half sphere is . Thus the total volume of the ice cream is cubic inches.    What is the surface area of the ice cream? Note the greater the area the faster it melts.  This is a right circular cone with a half sphere on top. The surface area of the cone is . The surface area of the half sphere is . Thus the total surface area of the ice cream is square inches.   "
 },
 {
   "id": "example-machined-cylinder",
@@ -6244,7 +6244,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-1-4",
@@ -6253,7 +6253,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-1-5",
@@ -6262,7 +6262,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-1-6",
@@ -6271,7 +6271,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-1-7",
@@ -6280,7 +6280,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-1-8",
@@ -6289,7 +6289,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-3",
@@ -6298,7 +6298,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-4",
@@ -6307,7 +6307,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-5",
@@ -6316,7 +6316,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-6",
@@ -6325,7 +6325,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-7",
@@ -6334,7 +6334,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-8",
@@ -6343,7 +6343,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-9",
@@ -6352,7 +6352,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-10",
@@ -6361,7 +6361,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-11",
@@ -6370,7 +6370,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-2-12",
@@ -6379,7 +6379,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-geometry3D-5-3-3",
@@ -6388,7 +6388,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.3.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-activity-cake",
@@ -6415,7 +6415,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Project: Watering Grass",
-  "body": " Project: Watering Grass   Watering Grass   Many common sprinklers water a circular area. Many lawns are much more rectangular. Placing the sprinklers to that they water enough of the lawn but not too much of the non-grass surfaces (such as driveways) requires thought. In this project we will consider three related questions.    Our first attempt to water the entire lawn will space the sprinklers so that there is no overlap. This will result in not watering some portions of the lawn.  The distance a sprinkler sprays can be set when it is installed. For this case to what distance (radius) should the sprinklers be set to produce this watering pattern? The layout is illustrated in . What is the area that is not covered? Sprinklers can be set to spray 360 , 180 , or 90 . For the layout in , what distance (radius) should the sprinklers be set to produce this watering pattern?   We next investigate how to modify the previous pattern to cover all the area. Use the lawn in .  Calculate the are covered by the circles and partial circles shown. The radius will be the same as in the first lawn. If another sprinkler is placed at the center of the six unwatered areas (four pointed star-like shapes), to what radius should it be set to cover that whole area? If we add these six sprinklers to the pattern, what is the total area of the lawn that is watered by more than one sprinkler? What is the area of one of the overlap areas (the lens shaped regions). What percent is the overlap area with respect to the total area of the lawn?   Now we consider an alternative overlapping pattern. Rather than add additional sprinklers to fill the gaps, we will move the sprinklers closer together so there are no gaps. This of course means we still need more sprinklers.  The pattern consists of four circles each touching a central point. From that point each circle's center is 45 from the next. The pattern is illustrated in .  The main goal here is to calculate the area of the overlap.  First, we calculate the area of the wedge shown in . The interior angle of this wedge is 90 . As a result this wedge is what part of the whole? Your answer should be something like 20\/360 or 1\/7. As a result of the previous answer, and supposing the radius is 15.9, what is the area of the wedge? The overlap area is based on the area that is the difference between the wedge and the triangle. We know the area of the wedge, so lets calculate the area of the triangle. If the radius is 15.9, what is the length of the third side? Remember this is a right triangle. Using Heron's formula, calculate the area of the triangle. Calculate the area of the half lens (difference between the wedge and the triangle). The overlap area is twice this area (two lens halves). Calculate this overlap area. What is the total overlap area (all the lense and half lens shapes). What percent of the total area is overlapped?  Which sprinkler pattern had a lower percent of overlap?    Sprinklers in Rectangular Grid   A rectangular lawn with sprinklers covering non-overlapping, circular areas  A rectangular lawn with size 60 by 90 feet. There are 6 circles in a 3 by 2 grid. They do not overlap.     Sprinklers in Half Circle Mode   A rectangular lawn with sprinklers covering non-overlapping, circular or semi-circular areas  A rectangular lawn with size 90 by 108 feet. There are 6 circles in a 3 by 2 grid with an additional row of 3 half circles. Nothing overlaps.     Sprinklers Arrangement to Extend   A rectangular lawn with sprinklers covering quarter, half, or full circular areas  A rectangular lawn with size 60 by 90 feet. Along the top are a quarter circle, two half circles, and another quarter circle. Along the middle are a half circle, two full circles, and another half circle. The bottom like the top is a quarter circle, two half circles, and another quarter circle. Nothing overlaps.     Sprinklers in Overlapping Rectangular Grid   Rectangular lawn with sprinlers covering overlapping circular areas  A rectangular lawn with size 60 by 90 feet. There are overlapping circles covering most of the lawn. They are all the same size. Diagonally the circles are tangential. Side to side and up and down they overlap.     Identify Overlap Area   A circle with a quarter wedge highlighted. The angle is a right angle.    "
+  "body": " Project: Watering Grass   Watering Grass   Many common sprinklers water a circular area. Many lawns are much more rectangular. Placing the sprinklers to that they water enough of the lawn but not too much of the non-grass surfaces (such as driveways) requires thought. In this project we will consider three related questions.     Our first attempt to water the entire lawn will space the sprinklers so that there is no overlap. This will result in not watering some portions of the lawn.    The distance a sprinkler sprays can be set when it is installed. For this case to what distance (radius) should the sprinklers be set to produce this watering pattern?  The layout is illustrated in .    What is the area that is not covered?    Sprinklers can be set to spray 360 , 180 , or 90 . For the layout in , what distance (radius) should the sprinklers be set to produce this watering pattern?      We next investigate how to modify the previous pattern to cover all the area. Use the lawn in .    Calculate the are covered by the circles and partial circles shown. The radius will be the same as in the first lawn.    If another sprinkler is placed at the center of the six unwatered areas (four pointed star-like shapes), to what radius should it be set to cover that whole area?    If we add these six sprinklers to the pattern, what is the total area of the lawn that is watered by more than one sprinkler?    What is the area of one of the overlap areas (the lens shaped regions).    What percent is the overlap area with respect to the total area of the lawn?      Now we consider an alternative overlapping pattern. Rather than add additional sprinklers to fill the gaps, we will move the sprinklers closer together so there are no gaps. This of course means we still need more sprinklers.  The pattern consists of four circles each touching a central point. From that point each circle's center is 45 from the next. The pattern is illustrated in .  The main goal here is to calculate the area of the overlap.    First, we calculate the area of the wedge shown in . The interior angle of this wedge is 90 . As a result this wedge is what part of the whole? Your answer should be something like 20\/360 or 1\/7.    As a result of the previous answer, and supposing the radius is 15.9, what is the area of the wedge?    The overlap area is based on the area that is the difference between the wedge and the triangle. We know the area of the wedge, so lets calculate the area of the triangle. If the radius is 15.9, what is the length of the third side? Remember this is a right triangle.    Using Heron's formula, calculate the area of the triangle.    Calculate the area of the half lens (difference between the wedge and the triangle). The overlap area is twice this area (two lens halves). Calculate this overlap area.    What is the total overlap area (all the lense and half lens shapes).    What percent of the total area is overlapped?     Which sprinkler pattern had a lower percent of overlap?     Sprinklers in Rectangular Grid   A rectangular lawn with sprinklers covering non-overlapping, circular areas  A rectangular lawn with size 60 by 90 feet. There are 6 circles in a 3 by 2 grid. They do not overlap.     Sprinklers in Half Circle Mode   A rectangular lawn with sprinklers covering non-overlapping, circular or semi-circular areas  A rectangular lawn with size 90 by 108 feet. There are 6 circles in a 3 by 2 grid with an additional row of 3 half circles. Nothing overlaps.     Sprinklers Arrangement to Extend   A rectangular lawn with sprinklers covering quarter, half, or full circular areas  A rectangular lawn with size 60 by 90 feet. Along the top are a quarter circle, two half circles, and another quarter circle. Along the middle are a half circle, two full circles, and another half circle. The bottom like the top is a quarter circle, two half circles, and another quarter circle. Nothing overlaps.     Sprinklers in Overlapping Rectangular Grid   Rectangular lawn with sprinlers covering overlapping circular areas  A rectangular lawn with size 60 by 90 feet. There are overlapping circles covering most of the lawn. They are all the same size. Diagonally the circles are tangential. Side to side and up and down they overlap.     Identify Overlap Area   A circle with a quarter wedge highlighted. The angle is a right angle.    "
 },
 {
   "id": "project-watering-grass",
@@ -6424,7 +6424,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "8",
   "title": "Watering Grass.",
-  "body": " Watering Grass   Many common sprinklers water a circular area. Many lawns are much more rectangular. Placing the sprinklers to that they water enough of the lawn but not too much of the non-grass surfaces (such as driveways) requires thought. In this project we will consider three related questions.    Our first attempt to water the entire lawn will space the sprinklers so that there is no overlap. This will result in not watering some portions of the lawn.  The distance a sprinkler sprays can be set when it is installed. For this case to what distance (radius) should the sprinklers be set to produce this watering pattern? The layout is illustrated in . What is the area that is not covered? Sprinklers can be set to spray 360 , 180 , or 90 . For the layout in , what distance (radius) should the sprinklers be set to produce this watering pattern?   We next investigate how to modify the previous pattern to cover all the area. Use the lawn in .  Calculate the are covered by the circles and partial circles shown. The radius will be the same as in the first lawn. If another sprinkler is placed at the center of the six unwatered areas (four pointed star-like shapes), to what radius should it be set to cover that whole area? If we add these six sprinklers to the pattern, what is the total area of the lawn that is watered by more than one sprinkler? What is the area of one of the overlap areas (the lens shaped regions). What percent is the overlap area with respect to the total area of the lawn?   Now we consider an alternative overlapping pattern. Rather than add additional sprinklers to fill the gaps, we will move the sprinklers closer together so there are no gaps. This of course means we still need more sprinklers.  The pattern consists of four circles each touching a central point. From that point each circle's center is 45 from the next. The pattern is illustrated in .  The main goal here is to calculate the area of the overlap.  First, we calculate the area of the wedge shown in . The interior angle of this wedge is 90 . As a result this wedge is what part of the whole? Your answer should be something like 20\/360 or 1\/7. As a result of the previous answer, and supposing the radius is 15.9, what is the area of the wedge? The overlap area is based on the area that is the difference between the wedge and the triangle. We know the area of the wedge, so lets calculate the area of the triangle. If the radius is 15.9, what is the length of the third side? Remember this is a right triangle. Using Heron's formula, calculate the area of the triangle. Calculate the area of the half lens (difference between the wedge and the triangle). The overlap area is twice this area (two lens halves). Calculate this overlap area. What is the total overlap area (all the lense and half lens shapes). What percent of the total area is overlapped?  Which sprinkler pattern had a lower percent of overlap?  "
+  "body": " Watering Grass   Many common sprinklers water a circular area. Many lawns are much more rectangular. Placing the sprinklers to that they water enough of the lawn but not too much of the non-grass surfaces (such as driveways) requires thought. In this project we will consider three related questions.     Our first attempt to water the entire lawn will space the sprinklers so that there is no overlap. This will result in not watering some portions of the lawn.    The distance a sprinkler sprays can be set when it is installed. For this case to what distance (radius) should the sprinklers be set to produce this watering pattern?  The layout is illustrated in .    What is the area that is not covered?    Sprinklers can be set to spray 360 , 180 , or 90 . For the layout in , what distance (radius) should the sprinklers be set to produce this watering pattern?      We next investigate how to modify the previous pattern to cover all the area. Use the lawn in .    Calculate the are covered by the circles and partial circles shown. The radius will be the same as in the first lawn.    If another sprinkler is placed at the center of the six unwatered areas (four pointed star-like shapes), to what radius should it be set to cover that whole area?    If we add these six sprinklers to the pattern, what is the total area of the lawn that is watered by more than one sprinkler?    What is the area of one of the overlap areas (the lens shaped regions).    What percent is the overlap area with respect to the total area of the lawn?      Now we consider an alternative overlapping pattern. Rather than add additional sprinklers to fill the gaps, we will move the sprinklers closer together so there are no gaps. This of course means we still need more sprinklers.  The pattern consists of four circles each touching a central point. From that point each circle's center is 45 from the next. The pattern is illustrated in .  The main goal here is to calculate the area of the overlap.    First, we calculate the area of the wedge shown in . The interior angle of this wedge is 90 . As a result this wedge is what part of the whole? Your answer should be something like 20\/360 or 1\/7.    As a result of the previous answer, and supposing the radius is 15.9, what is the area of the wedge?    The overlap area is based on the area that is the difference between the wedge and the triangle. We know the area of the wedge, so lets calculate the area of the triangle. If the radius is 15.9, what is the length of the third side? Remember this is a right triangle.    Using Heron's formula, calculate the area of the triangle.    Calculate the area of the half lens (difference between the wedge and the triangle). The overlap area is twice this area (two lens halves). Calculate this overlap area.    What is the total overlap area (all the lense and half lens shapes).    What percent of the total area is overlapped?     Which sprinkler pattern had a lower percent of overlap?   "
 },
 {
   "id": "figure-sprinklers-rectangular-none",
@@ -6496,7 +6496,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Quadratics",
-  "body": " Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Read and interpret models (critical thinking)    In we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.  One of comparing different rates is to enable us to enable us to provide more specific statements than slow or fast. Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept Identify rates as linear, quadratic, exponential, or other.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.   Algebraic Notation for Quadratics   Example  Form  Description    ,  Standard    ,  Factored    ,  Convenient     For this class the form we will see the most is where has some meaning in each model.  When reading models quadratics may look a little different. shows examples of equations that are quadratic and some that are not (but might look like it).   Quadratic and Non-quadratic   Quadratic Non-quadratic           Quadratic Models  Now that we know how to recognize models (equations) as quadratic, we will present a few.   Load Factor   The maximum load factor on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is a measure of the force exerted on the aircraft by a maneuver. Maximum load factor is the greatest load factor an aircraft would experience if at the given speed, the aircraft executed a maximum performance maneuver.  Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.     Kinetic Energy   The kinetic energy of an object in motion is given by where  is the energy (in foot pounds or Joules)  is the mass (think weight) of the object (in pound mass or grams)  is the velocity of the object (in feet or meters per second).      What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias, 105 kias? How many g's does it increase between those two speeds? Round to one decimal place.  We use the formula     The increase of 10 kias increased the g's by .    What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.  First, we need to convert the speeds to feet per second. suggests we can multiply.  Now, we can calculate the kinetic energy. The increase was foot pounds.    Potential Energy   Potential energy of an object is given by where  is the mass of the object (in pound mass or grams)  is the gravitational constant (in feet per seconds squared or meters per second squared)  is the height of the object (in feet or meters)   Potential energy can be thought of as the energy that was expended to move the object higher that can be regained by letting gravity pull it back down. The height may be calculated as above ground level, or above sea level, or any other reference convenient for a question.      Inversely Quadratic Relations  has as an example that is not quadratic. Instead varies inversely with the square of . While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.   Quadratic Relation         1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6      Inversely Quadratic Relation         1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200     In the second differences are all 6, so that is quadratic. In contrast in the second differences are all different.   Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.     What force does the earth exert on the moon? The mass of the earth is approximately kg, and the mass of the moon is approximately kg. The average distance between the earth and moon is 382,500 km.  We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is . Using the model             "
+  "body": " Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Read and interpret models (critical thinking)    In we learned to identify data that has a quadratic relation. This section presents algebraic notation for quadratics with emphasis on the forms we will use in this book. You should be able to identify a model as quadratic by looking at the equation.  One of comparing different rates is to enable us to enable us to provide more specific statements than slow or fast. Quadratic is faster than linear. In the next chapter we will learn that exponential is faster than quadratic (or any polynomial). Frequently descriptions of rates in casual conversation and also in the media are lacking in detail or are even inaccurate. This is part of the concept Identify rates as linear, quadratic, exponential, or other.    Algebraic Forms of Quadratics  Quadratic refers to any expression or equation that has a non-zero squared term. The three most common forms are below. All three rows have the same quadratic.   Algebraic Notation for Quadratics   Example  Form  Description    ,  Standard    ,  Factored    ,  Convenient     For this class the form we will see the most is where has some meaning in each model.  When reading models quadratics may look a little different. shows examples of equations that are quadratic and some that are not (but might look like it).   Quadratic and Non-quadratic   Quadratic Non-quadratic           Quadratic Models  Now that we know how to recognize models (equations) as quadratic, we will present a few.   Load Factor   The maximum load factor on an aircraft is where  is the load factor,  is the velocity, and  is the stall speed.   Load factor is a measure of the force exerted on the aircraft by a maneuver. Maximum load factor is the greatest load factor an aircraft would experience if at the given speed, the aircraft executed a maximum performance maneuver.  Load factor is measured as a multiple of the force of gravity. Thus a load factor of 2 means the object is subject to a force twice as strong as earth's gravity. The expression pulling g's refers to experiencing a load factor greater than one.     Kinetic Energy   The kinetic energy of an object in motion is given by where  is the energy (in foot pounds or Joules)  is the mass (think weight) of the object (in pound mass or grams)  is the velocity of the object (in feet or meters per second).      What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias, 105 kias? How many g's does it increase between those two speeds? Round to one decimal place.  We use the formula     The increase of 10 kias increased the g's by .    What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.  First, we need to convert the speeds to feet per second. suggests we can multiply.  Now, we can calculate the kinetic energy. The increase was foot pounds.    Potential Energy   Potential energy of an object is given by where  is the mass of the object (in pound mass or grams)  is the gravitational constant (in feet per seconds squared or meters per second squared)  is the height of the object (in feet or meters)   Potential energy can be thought of as the energy that was expended to move the object higher that can be regained by letting gravity pull it back down. The height may be calculated as above ground level, or above sea level, or any other reference convenient for a question.      Inversely Quadratic Relations  has as an example that is not quadratic. Instead varies inversely with the square of . While not quadratic, as illustrated below by the tables of differences, they can be solved using the same techniques. Solving quadratics will be demonstrated in the next section.   Quadratic Relation         1st Difference  2nd Difference   1  3     2  12  9    3  27  15  6   4  48  21  6   5  75  27  6   6  108  33  6      Inversely Quadratic Relation         1st Difference  2nd Difference   1  3     2  3\/4  -9\/4    3  1\/3  -5\/12  11\/6   4  3\/16  -7\/48  13\/48   5  3\/25  -27\/400  47\/600   6  1\/12  -11\/300  37\/1200     In the second differences are all 6, so that is quadratic. In contrast in the second differences are all different.   Gravitational Attraction   Two objects exert a gravitational pull on each other related by their masses and the distance between them. The relationship is where  is the resulting gravitational force in Newtons  is the gravitational constant  are the masses of the two objects in kilograms  is the distance between the two objects in meters   The gravitational constant is . The constant has not been determined to any greater precision.     What force does the earth exert on the moon? The mass of the earth is approximately kg, and the mass of the moon is approximately kg. The average distance between the earth and moon is 382,500 km.  We need to convert the kilometers to meters so units match (gravitational constant). Because it is kilo the conversion is . Using the model                         "
 },
 {
   "id": "subsection-quadratic-forms-2",
@@ -6613,7 +6613,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.1.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-6-2",
@@ -6622,7 +6622,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.1.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-6-3",
@@ -6631,7 +6631,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.1.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-6-4",
@@ -6640,7 +6640,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.1.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-6-5",
@@ -6649,7 +6649,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.1.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-6-6",
@@ -6658,7 +6658,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.1.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve",
@@ -6667,7 +6667,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Solving Quadratics",
-  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form . Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.    Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.      Significant Digits beyond Arithmetic  There are significant digits rules for addition\/subtraction and multiplication\/division. We can handle signficant digits with exponents, such as , because this can be interpreted as multiplication. In the case of .  For square roots we rely on mathematics we do not need to present here that indicates we can calculate the square root so that the number of significant digits is maintained. For example     Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ). .     Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Identify all solutions to .  We note that , , .       Solving Quadratic Equations  Use these contextless problems to practice using the quadratic formula.        Quadratic Applications  Answer these questions which involve a quadratic model. Select rounding that is appropriate or as directed.           "
+  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form . Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.    Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.         Significant Digits beyond Arithmetic  There are significant digits rules for addition\/subtraction and multiplication\/division. We can handle signficant digits with exponents, such as , because this can be interpreted as multiplication. In the case of .  For square roots we rely on mathematics we do not need to present here that indicates we can calculate the square root so that the number of significant digits is maintained. For example     Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ). .     Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Identify all solutions to .  We note that , , .          Solving Quadratic Equations  Use these contextless problems to practice using the quadratic formula.                Quadratic Applications  Answer these questions which involve a quadratic model. Select rounding that is appropriate or as directed.                         "
 },
 {
   "id": "example-solve-quadratic-inversion",
@@ -6694,7 +6694,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "5.2.3",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-quadratic-lift",
@@ -6730,7 +6730,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "5.2.7",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "section-quadratic-solve-5-1-3",
@@ -6739,7 +6739,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-1-4",
@@ -6748,7 +6748,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-1-5",
@@ -6757,7 +6757,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-1-6",
@@ -6766,7 +6766,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-2-3",
@@ -6775,7 +6775,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-2-4",
@@ -6784,7 +6784,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-2-5",
@@ -6793,7 +6793,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-2-6",
@@ -6802,7 +6802,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-2-7",
@@ -6811,7 +6811,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-2-8",
@@ -6820,7 +6820,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-solve-5-2-9",
@@ -6829,7 +6829,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.2.3.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-roots",
@@ -6838,7 +6838,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Roots",
-  "body": " Roots   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)    This section is for those who are curious for more details about roots, like the square root. These extensions do not show up in any models in this text. The rate question is an important general concept however.    Definition of Roots  As implied by their use in solving equations with a square term, square roots are a sort of opposite to squares. For example means that 9 is the result of multiplying 3 by itself. means that 3 is a number that multiplied by itself is 9. This means in general  There is one detail that we will not use, but should be acknowledged. Consider that and . Thus might be considered to have two solutions. We saw this in . However when solving using inversion as in reality constraints often meant the negative root was not a solution to the application even if it fits the equation.    Generalized Roots  Just as we can multiply a number by itself (e.g., ) we can multiply a number by itself more than once (e.g., ). In general   As noted above square roots perform the reverse action of squaring. To solve problems involving other powers, there are matching roots. These are denoted with a small number to show which root. For example this is a third root: This root means that because , . In general There are restrictions ( is an integer; if is even, must be non-negative). For models in this text none of these play a role.  Just as with square roots we can use a device to calculate the values. The device may have a key like .  Another notation for roots is a type of exponent. For example, Likewise, This notation can be used when solving problems with powers.     Rates of Roots  This section illustrates where roots fall with respect to the question, How fast is it growing? It ends by addressing an important general question: if growth is slowing is it stopping?  shows a linear equation and a square root equation. The square root eventually grows much more slowly than the linear grows. Because a linear grows more slowly than a quadratic or exponential, the root also grows more slowly than quadratics and exponentials.  The first important idea here is that the square root grows more quickly than the linear at first, but then slows down and is passed up. When we are comparing rates, we typically look at what happens eventually. It does not matter so much what happens at first. For example for salaries, exponential growth might be slower for the first few years, but in our careers it will be substantially more.   Rate Comparison: Linear and Square Root   Graphs of linear and square root functions   The horizontal axis ranges from 0 to 10. The vertical axis ranges from 0 to 5. Graphs of and are shown. From 0 to 4 the square root function is above the linear function. Aftward the linear function is above.     With rates it is important to test if a slow growth rate is leveling off or not. By level off we mean that even though it is constantly growing it never passes some fixed amount. For example, the numbers 0.5, 0.75, 0.875, 0.9375, 0.96875 is growing, but never passes 1.0. We will show that a square root (and other roots) do not level off.  Consider . Clearly this grows larger than 1, because we have a 1 in the first entry. It also grows larger than 2, because we can obtain 2 from . In general if we ask, can the square root grow beyond , the answer is: consider that , so if we choose that will be larger than . While slow, the square root continues to grow without bound (infinite growth).   Rate of a Square Root                          "
+  "body": " Roots   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)    This section is for those who are curious for more details about roots, like the square root. These extensions do not show up in any models in this text. The rate question is an important general concept however.    Definition of Roots  As implied by their use in solving equations with a square term, square roots are a sort of opposite to squares. For example means that 9 is the result of multiplying 3 by itself. means that 3 is a number that multiplied by itself is 9. This means in general  There is one detail that we will not use, but should be acknowledged. Consider that and . Thus might be considered to have two solutions. We saw this in . However when solving using inversion as in reality constraints often meant the negative root was not a solution to the application even if it fits the equation.    Generalized Roots  Just as we can multiply a number by itself (e.g., ) we can multiply a number by itself more than once (e.g., ). In general     As noted above square roots perform the reverse action of squaring. To solve problems involving other powers, there are matching roots. These are denoted with a small number to show which root. For example this is a third root: This root means that because , . In general There are restrictions ( is an integer; if is even, must be non-negative). For models in this text none of these play a role.  Just as with square roots we can use a device to calculate the values. The device may have a key like .  Another notation for roots is a type of exponent. For example, Likewise, This notation can be used when solving problems with powers.       Rates of Roots  This section illustrates where roots fall with respect to the question, How fast is it growing? It ends by addressing an important general question: if growth is slowing is it stopping?  shows a linear equation and a square root equation. The square root eventually grows much more slowly than the linear grows. Because a linear grows more slowly than a quadratic or exponential, the root also grows more slowly than quadratics and exponentials.  The first important idea here is that the square root grows more quickly than the linear at first, but then slows down and is passed up. When we are comparing rates, we typically look at what happens eventually. It does not matter so much what happens at first. For example for salaries, exponential growth might be slower for the first few years, but in our careers it will be substantially more.   Rate Comparison: Linear and Square Root   Graphs of linear and square root functions   The horizontal axis ranges from 0 to 10. The vertical axis ranges from 0 to 5. Graphs of and are shown. From 0 to 4 the square root function is above the linear function. Aftward the linear function is above.     With rates it is important to test if a slow growth rate is leveling off or not. By level off we mean that even though it is constantly growing it never passes some fixed amount. For example, the numbers 0.5, 0.75, 0.875, 0.9375, 0.96875 is growing, but never passes 1.0. We will show that a square root (and other roots) do not level off.  Consider . Clearly this grows larger than 1, because we have a 1 in the first entry. It also grows larger than 2, because we can obtain 2 from . In general if we ask, can the square root grow beyond , the answer is: consider that , so if we choose that will be larger than . While slow, the square root continues to grow without bound (infinite growth).   Rate of a Square Root                          "
 },
 {
   "id": "subsection-roots-general-3",
@@ -6847,7 +6847,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "5.3.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "subsection-roots-general-7",
@@ -6856,7 +6856,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "5.3.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "figure-root-rate",
@@ -6883,7 +6883,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Graphs of Quadratics",
-  "body": " Graphs of Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section will introduce the graph (shape) of quadratic equations, illustrate all the variations that are possible, and demonstrate how these can be used to answer questions.    Properties of Quadratics  First we will graph the most basic quadratic equation . This will show us the basic shape and properties. Later examples will show us the variations and how to control them.    To discover the shape we will graph following the steps shown first in . First we complete this table of values. We must choose the x values randomly for now.               Next we graph these points and sketch the graph through them.   Graph of the points in the table above with a curve sketched through them.   The horizontal axis ranges from -2 to 2. The vertical axis ranges from 0 to above 4. The points from the table above are plotted. On the left the curve starts above the first point and goes down to the middle point then mirrors the same shape going up on the right.      The graph of a quadratic is known as a parabola . Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the vertex . It is at (0,0) for this parabola.  Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the line of symmetry . In this case that is the vertical line .  The following example combines three modifications of the basic quadratic. We will graph it, notice the differences, and then use an activity to understand how each part of the equation produces a particular change in the graph.    We will graph . First we complete this table               Next we graph these points and sketch the graph through them.   Graph of the points above with a curve sketched through them   The horizontal axis ranges from -2 to 2. The vertical axis ranges from 0 to above 4. The points from the table above are plotted. The graph looks like the previous parabola except that not all of the right side is shown and the lowest point is not at .    Notice that this time the vertex is at . The line of symmetry is .    The following activity is a set of experiments to understand how each part of the parabola equation works. It is designed to help you understand by seeing the results in calculations. Do these exercises by hand. While you can look up the meaning of each equation part, memorizing them will be harder (and your ability to use them in later chapters reduced) if you do not see how each transformation is caused by the arithmetic.   Discovering Parabola Parameters  In this task we will check the effect of multiplying a quadratic by a scalar (number). Complete the table of points below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of multiplying a quadratic by a negative scalar. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.    Graph the parabola by identifying the vertex and one other point.  From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is .  The second point can be any point. is convenient. .  Because the center (axis of symmetry) is , we want to plot a portion of the curve left and right of that value. from -6 to 0 (3 left to 3 right) will be convenient.  We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.   Graph of a parabola shown with the left and right sides colored differently   The horizontal axis ranges from -6 to 0. The vertical axis ranges from 0 to 5. The points and are plotted. The right side of a parabola is sketched between these two points. To the left the same shape is sketched in mirror.      Recall that lines can all be expressed in the form where , the slope, defines steepness, and represents a shift. Based on the work above we now know that all quadratics (parabolas) can be written as where indicates how steeply the parabola rises, and and indicate horizontal and vertical shifts of the parabola. The shifts are also the location of the vertex. In the example above we used the shifts to identify the coordinate of the vertex. In applications the shift parameters can have meaning.    Applications  Now that we understand what each part of the equation of a parabola tells us, we can use that to interpret quadratic models and answer some questions using a quadratic model.   The lift equation is a parabola. Note, only the right side of the parabola is part of the model, because negative speeds do not apply.  The lift equation has and . This makes sense because there should be zero lift when there is zero speed. If then there would be lift at zero speed. If there would be no lift until that speed.  The coefficients, , make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.  For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).   Graphs of the right side of two parabolas representing lift at 2 altitudes   The horizontal axis is labeled velocity and ranges from 0 to 120. The vertical axis is labeled lift and ranges from 0 to 12000.  A curve labeled 0 mean sea level ( ) begins at the origin and climbs to the point . The graph switches from dashed to solid beyond about .  A curve labeled 10000 mean sea level ( ) begins at the origin and climbs to about the point . The graph switches from dashed to solid beyond about .      The maximum load factor can be written as This is a parabola.  This equation has and . Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is which gives us 1 G. That is, the normal state of flight is 1 G (the one produced by earth's gravity). If the model would indicate more than 1 G produced by gravity. would indicate this occuring at some other speed.  The coefficient ( ) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's than it does to move from 2 G's to 3 G's.  For example if the stall speed is 41 nm\/hr, then 1 G occurs at 41 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor requires an increase of nm\/hr. However if the stall speed were 63 nm\/hr then 1 G occurs at 63 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor required an increase of nm\/hr. The higher stall speed implies a greater ( ) increase in speed.   Graphs of the right side of two parabolas representing lift at 2 altitudes   The horizontal axis is labeled velocity and ranges from 0 to 100. The vertical axis is labeled G's and ranges from 0 to 4.  A blue curve begins at about and climbs to about the point . It looks like part of the right side of a parabola.  A red curve begins at about and climbs to about the point . It looks like part of the right side of a parabola.  A dashed line indicates where both curve cross 2 G's. The blue curve does at about 58, and the red curve does at about 89.     The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.   Determine the coordinates of the vertex of . All numbers are exact.  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between two points with , that is half way between the solutions to . We can solve this using the quadratic formula. To calculate what is half way in between we average these two values. Thus the x-coordinate of the vertex is 2.75. To calculate the y-coordinate we substitute the x value into the quadratic.    Simplified Effect of Gravity  A model of motion due to gravity is beyond the scope of this course, but we can understand a connection to quadratics. Gravity is a force that accelerates objects toward each other. The strength of earth's gravity at the surface is approximately  9.80665    . Be aware that this value actually varies a little by location and decreases with altitude, but those effects are not needed for any problems in this book.  Notice that gravity is an acceleration (i.e., m\/s is a velocity and this is (m\/s)\/s meaning a change in velocity) and as a result the time portion is squared. This means accleration due to gravity is quadratic with respect to time.  For objects that are dropped, we can figure out both their speed and their height can be determined.   Gravity's Effect on Velocity  If we drop a ball from 1.0 meters above the surface, it will start with a velocity of 0 m\/s. Acceleration due to gravity is (9.8 m\/s)\/s which means after one second the ball will be travelling down at 9.8 m\/s. After another second (2 seconds total) it would increase (accelerate) another 9.8 m\/s so its velocity would be 18.6 m\/s.  We can write an equation for the velocity after seconds. Notice that the change in velocity is a constant, so the change in velocity is a linear equation. The rate (slope) is  9.80665    . The shift is the initial velocity (0 m\/s in this case).   Calculating the exact height of an object falling due to gravity requires mathematics beyond this textbook. A little more information can be found in . The following example illustrates calculations using a provided simplification.   Falling Due to Gravity   Suppose the height of an object falling due to gravity is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the following equation. It will take 0.45 seconds for the object to reach the ground.  Determine the height from which it was dropped. Because the object is dropped, the heighest point is when it is dropped which is time . Thus the height from which it was dropped is meters.    Gravity's Effect on a Thrown Object   Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the . To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths. The negative time does not make sense, so seconds is when the object will reach the ground.  Determine the maximum height the object reached. This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in . We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is . The height at that time is The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.       Graphing Quadratics   Graph each of these equations. Use your knowledge of translations and stretches.          Reading Quadratic Graphs   Use the provided graph to answer these questions about quadratics.          Write Equations for Quadratics   Write a quadratic equation to match the graph or information provided.       Quadratic Application   "
+  "body": " Graphs of Quadratics   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section will introduce the graph (shape) of quadratic equations, illustrate all the variations that are possible, and demonstrate how these can be used to answer questions.    Properties of Quadratics  First we will graph the most basic quadratic equation . This will show us the basic shape and properties. Later examples will show us the variations and how to control them.    To discover the shape we will graph following the steps shown first in . First we complete this table of values. We must choose the x values randomly for now.               Next we graph these points and sketch the graph through them.   Graph of the points in the table above with a curve sketched through them.   The horizontal axis ranges from -2 to 2. The vertical axis ranges from 0 to above 4. The points from the table above are plotted. On the left the curve starts above the first point and goes down to the middle point then mirrors the same shape going up on the right.      The graph of a quadratic is known as a parabola . Notice that there is a single point at the bottom from which the parabola grows upward to the left and upward to the right. This is known as the vertex . It is at (0,0) for this parabola.  Notice as well that the left and right sides are mirrors of each other. Specifically they are mirrored over the line through the vertex known as the line of symmetry . In this case that is the vertical line .  The following example combines three modifications of the basic quadratic. We will graph it, notice the differences, and then use an activity to understand how each part of the equation produces a particular change in the graph.    We will graph . First we complete this table               Next we graph these points and sketch the graph through them.   Graph of the points above with a curve sketched through them   The horizontal axis ranges from -2 to 2. The vertical axis ranges from 0 to above 4. The points from the table above are plotted. The graph looks like the previous parabola except that not all of the right side is shown and the lowest point is not at .    Notice that this time the vertex is at . The line of symmetry is .    The following activity is a set of experiments to understand how each part of the parabola equation works. It is designed to help you understand by seeing the results in calculations. Do these exercises by hand. While you can look up the meaning of each equation part, memorizing them will be harder (and your ability to use them in later chapters reduced) if you do not see how each transformation is caused by the arithmetic.   Discovering Parabola Parameters   In this task we will check the effect of multiplying a quadratic by a scalar (number).  Complete the table of points below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will continue to check the effect of multiplying a quadratic by a scalar (number).  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will check on the effect of multiplying a quadratic by a negative scalar.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will check on the effect of adding inside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will continue to check on the effect of adding inside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will check on the effect of adding outside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will continue to check on the effect of adding outside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.     Graph the parabola by identifying the vertex and one other point.  From the activity we know that the vertex location is determined by the numbers added inside and outside the square. In this case the vertex is at (-3,2), because this is .  The second point can be any point. is convenient. .  Because the center (axis of symmetry) is , we want to plot a portion of the curve left and right of that value. from -6 to 0 (3 left to 3 right) will be convenient.  We can plot the two points we calculate and then sketch the portion of the curve to the right. The portion to the left we then sketch to be symmetrical.   Graph of a parabola shown with the left and right sides colored differently   The horizontal axis ranges from -6 to 0. The vertical axis ranges from 0 to 5. The points and are plotted. The right side of a parabola is sketched between these two points. To the left the same shape is sketched in mirror.        Recall that lines can all be expressed in the form where , the slope, defines steepness, and represents a shift. Based on the work above we now know that all quadratics (parabolas) can be written as where indicates how steeply the parabola rises, and and indicate horizontal and vertical shifts of the parabola. The shifts are also the location of the vertex. In the example above we used the shifts to identify the coordinate of the vertex. In applications the shift parameters can have meaning.    Applications  Now that we understand what each part of the equation of a parabola tells us, we can use that to interpret quadratic models and answer some questions using a quadratic model.   The lift equation is a parabola. Note, only the right side of the parabola is part of the model, because negative speeds do not apply.  The lift equation has and . This makes sense because there should be zero lift when there is zero speed. If then there would be lift at zero speed. If there would be no lift until that speed.  The coefficients, , make the parabola steeper. This means than increased air density, wing surface area, or coefficient of lift make the increase in lift occur faster with respect to increased speed.  For example, for a specific aircraft the increase in lift at ground level is steeper than at 10,000 MSL (air density given below).   Graphs of the right side of two parabolas representing lift at 2 altitudes   The horizontal axis is labeled velocity and ranges from 0 to 120. The vertical axis is labeled lift and ranges from 0 to 12000.  A curve labeled 0 mean sea level ( ) begins at the origin and climbs to the point . The graph switches from dashed to solid beyond about .  A curve labeled 10000 mean sea level ( ) begins at the origin and climbs to about the point . The graph switches from dashed to solid beyond about .      The maximum load factor can be written as This is a parabola.  This equation has and . Note the stall speed of a fixed wing aircraft is the slowest speed at which it can fly. Thus the smallest number we will input into the model is which gives us 1 G. That is, the normal state of flight is 1 G (the one produced by earth's gravity). If the model would indicate more than 1 G produced by gravity. would indicate this occuring at some other speed.  The coefficient ( ) indicates that a higher stall speed (divide by a bigger number) will make the increase in G's slower (graph is less steep). This means it takes a greater increase of speed to move from 1 G to 2 G's than it does to move from 2 G's to 3 G's.  For example if the stall speed is 41 nm\/hr, then 1 G occurs at 41 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor requires an increase of nm\/hr. However if the stall speed were 63 nm\/hr then 1 G occurs at 63 nm\/hr and 2 G's occurs at nm\/hr. To increase the maximum load factor required an increase of nm\/hr. The higher stall speed implies a greater ( ) increase in speed.   Graphs of the right side of two parabolas representing lift at 2 altitudes   The horizontal axis is labeled velocity and ranges from 0 to 100. The vertical axis is labeled G's and ranges from 0 to 4.  A blue curve begins at about and climbs to about the point . It looks like part of the right side of a parabola.  A red curve begins at about and climbs to about the point . It looks like part of the right side of a parabola.  A dashed line indicates where both curve cross 2 G's. The blue curve does at about 58, and the red curve does at about 89.     The next example shows how we can determine the vertex and axis of symmetry even when the equation is not in the easy to read form. Here we use a method that does not require additional algebraic techniques. If you know how to complete the square, that will also work.   Determine the coordinates of the vertex of . All numbers are exact.  Because of the symmetry of a parabola we know that the vertex lies half way between any pair of points with the same height. For example it is half way between two points with , that is half way between the solutions to . We can solve this using the quadratic formula. To calculate what is half way in between we average these two values. Thus the x-coordinate of the vertex is 2.75. To calculate the y-coordinate we substitute the x value into the quadratic.    Simplified Effect of Gravity  A model of motion due to gravity is beyond the scope of this course, but we can understand a connection to quadratics. Gravity is a force that accelerates objects toward each other. The strength of earth's gravity at the surface is approximately  9.80665    . Be aware that this value actually varies a little by location and decreases with altitude, but those effects are not needed for any problems in this book.  Notice that gravity is an acceleration (i.e., m\/s is a velocity and this is (m\/s)\/s meaning a change in velocity) and as a result the time portion is squared. This means accleration due to gravity is quadratic with respect to time.  For objects that are dropped, we can figure out both their speed and their height can be determined.   Gravity's Effect on Velocity  If we drop a ball from 1.0 meters above the surface, it will start with a velocity of 0 m\/s. Acceleration due to gravity is (9.8 m\/s)\/s which means after one second the ball will be travelling down at 9.8 m\/s. After another second (2 seconds total) it would increase (accelerate) another 9.8 m\/s so its velocity would be 18.6 m\/s.  We can write an equation for the velocity after seconds. Notice that the change in velocity is a constant, so the change in velocity is a linear equation. The rate (slope) is  9.80665    . The shift is the initial velocity (0 m\/s in this case).   Calculating the exact height of an object falling due to gravity requires mathematics beyond this textbook. A little more information can be found in . The following example illustrates calculations using a provided simplification.   Falling Due to Gravity   Suppose the height of an object falling due to gravity is given by    Determine when the object strikes the ground. The ground is at height 0.  We can determine this by solving the following equation. It will take 0.45 seconds for the object to reach the ground.    Determine the height from which it was dropped.  Because the object is dropped, the heighest point is when it is dropped which is time . Thus the height from which it was dropped is meters.     Gravity's Effect on a Thrown Object   Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by    Determine when the object strikes the ground. The ground is at height 0.  We can determine this by solving the . To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths. The negative time does not make sense, so seconds is when the object will reach the ground.    Determine the maximum height the object reached.  This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in .  We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is . The height at that time is The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.        Graphing Quadratics   Graph each of these equations. Use your knowledge of translations and stretches.                    Reading Quadratic Graphs   Use the provided graph to answer these questions about quadratics.                    Write Equations for Quadratics   Write a quadratic equation to match the graph or information provided.              Quadratic Application     "
 },
 {
   "id": "example-graph-parabola",
@@ -6928,7 +6928,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "10",
   "title": "Discovering Parabola Parameters.",
-  "body": " Discovering Parabola Parameters  In this task we will check the effect of multiplying a quadratic by a scalar (number). Complete the table of points below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check the effect of multiplying a quadratic by a scalar (number). Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of multiplying a quadratic by a negative scalar. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding inside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  In this task we will continue to check on the effect of adding outside the square. Complete the table below. Compare the results to the table in              Graph these points. Compare the entries in the column to the entries in the in . Describe how they changed. Compare this graph to the graph in . Describe how the graph changed.  "
+  "body": " Discovering Parabola Parameters   In this task we will check the effect of multiplying a quadratic by a scalar (number).  Complete the table of points below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will continue to check the effect of multiplying a quadratic by a scalar (number).  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will check on the effect of multiplying a quadratic by a negative scalar.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will check on the effect of adding inside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will continue to check on the effect of adding inside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will check on the effect of adding outside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.    In this task we will continue to check on the effect of adding outside the square.  Complete the table below. Compare the results to the table in                 Graph these points.  Compare the entries in the column to the entries in the in . Describe how they changed.  Compare this graph to the graph in . Describe how the graph changed.   "
 },
 {
   "id": "example-graph-general-parabola",
@@ -6946,7 +6946,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "5.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-interpret-parabola-lift",
@@ -6991,7 +6991,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.4.9",
   "title": "Falling Due to Gravity.",
-  "body": " Falling Due to Gravity   Suppose the height of an object falling due to gravity is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the following equation. It will take 0.45 seconds for the object to reach the ground.  Determine the height from which it was dropped. Because the object is dropped, the heighest point is when it is dropped which is time . Thus the height from which it was dropped is meters.  "
+  "body": " Falling Due to Gravity   Suppose the height of an object falling due to gravity is given by    Determine when the object strikes the ground. The ground is at height 0.  We can determine this by solving the following equation. It will take 0.45 seconds for the object to reach the ground.    Determine the height from which it was dropped.  Because the object is dropped, the heighest point is when it is dropped which is time . Thus the height from which it was dropped is meters.   "
 },
 {
   "id": "example-gravity-change-position-thrown",
@@ -7000,7 +7000,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.4.10",
   "title": "Gravity’s Effect on a Thrown Object.",
-  "body": " Gravity's Effect on a Thrown Object   Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by   Determine when the object strikes the ground. The ground is at height 0. We can determine this by solving the . To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths. The negative time does not make sense, so seconds is when the object will reach the ground.  Determine the maximum height the object reached. This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in . We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is . The height at that time is The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.  "
+  "body": " Gravity's Effect on a Thrown Object   Consider an object that is thrown upward. Gravity will first slow down the object as it climbs, then it will cause the object to fall (as in the previous example). Suppose the height of this object is given by    Determine when the object strikes the ground. The ground is at height 0.  We can determine this by solving the . To do this we can use the quadratic formula. All numbers have two significant digits and are precise to the 10ths. The negative time does not make sense, so seconds is when the object will reach the ground.    Determine the maximum height the object reached.  This will occur at the vertex of the parabola. Because the equation is not in the easy form we will use the technique demonstrated in .  We use any two points. In the previous step we found the two times when the height is zero. It does not matter that one is negative: this will still work to locate the vertex. The time at which the maximum height occurs is . The height at that time is The object will reach a maximum height of 2.5 meters at 0.52 seconds after it is thrown.   "
 },
 {
   "id": "section-quadratic-graph-5-1-3",
@@ -7009,7 +7009,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-1-4",
@@ -7018,7 +7018,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-1-5",
@@ -7027,7 +7027,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-1-6",
@@ -7036,7 +7036,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-1-7",
@@ -7045,7 +7045,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-2-3",
@@ -7054,7 +7054,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-2-4",
@@ -7063,7 +7063,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-2-5",
@@ -7072,7 +7072,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-2-6",
@@ -7081,7 +7081,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-2-7",
@@ -7090,7 +7090,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-3-3",
@@ -7099,7 +7099,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-3-4",
@@ -7108,7 +7108,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-3-5",
@@ -7117,7 +7117,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-quadratic-graph-5-4",
@@ -7126,7 +7126,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5.4.3.14",
   "title": "Quadratic Application.",
-  "body": "Quadratic Application "
+  "body": " Quadratic Application   "
 },
 {
   "id": "section-activity-discover-integral",
@@ -7135,7 +7135,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.5",
   "title": "Project: Approximation of Sums",
-  "body": " Project: Approximation of Sums   Approximate Height of a Dropped Object   Using the acceleration due to gravity,  9.80665    , we can calculate the velocity at any time. However, we can only approximate its position, because the velocity is constantly changing. This activity demonstrates a method of approximation that is used in many problems including calculating areas (e.g., calculating the amount of asphalt needed for a driveway with curved sides). This activity also illustrates how approximations depend on choices we make.   Review the process shown here. Suppose a ball is dropped from a height of 60.0 meters. We will approximate its height above ground by calculating its approximate position each second. For example, after 1 second the ball will have accelerated from 0 m\/s to 9.8 m\/s. If we pretend that it was travelling 9.8 m\/s the whole time, then we estimate it will be 9.8 m lower than it began. This is a height of . A second later the velocity will have increased 9.8 m\/s so it will be m\/s. If we pretend that it was travelling 19.6 m\/s the whole time, then we estimate it will be 19.6 m lower than it began. This is a height of . Another second later (third second) the velocity will have increased by 9.8 m\/s so it will be . If we pretend that it was travelling 29.4 m\/s the whole time, then we estimate it will be 29.4 m lower than it began. This is a height of . With only 1.2 meters left and a velocity much greater than 1.2, we know it will reach the ground in less than one more second. The table below contains these results.   Time  Velocity  Distance Traveled  Height    0  0  0  60.0    1  9.8  9.8  50.2    2  19.6  19.6  30.6    3  29.4  29.4  1.2    Repeat this exercise using half second intervals instead of one second intervals. Remember that in a half second the acceleration will be m\/s. In the first half second the ball will fall . In the second half second the velocity would be 9.8 m\/s so it would drop . The first two entries are completed for you. Add more rows if you need to.   Time  Velocity  Distance Traveled  Height    0  0  0  60.0    0.5  4.9  2.45  57.55    1.0  9.8  4.9  52.65    1.5       2.0       2.5       3.0       The end result of this task will be a third table calculated in 1\/4 second intervals. What is the acceleration in 1\/4 second? Recall it is 9.8 m\/s which was 4.9 m\/half second. Fill out a table in 1\/4 second intervals.  Notice that in the first table (1 second intervals), we estimated after one second the height would be 50.2 m. In the second table (1\/2 second intervals), we estimated after one second the height would be 52.65 m. Find other times in which the 3 tables have different estimates. Are the estimates in one table always less than or greater than those in the other tables? Explain why these estimates are different. Which estimate do you think is most accurate?   "
+  "body": " Project: Approximation of Sums   Approximate Height of a Dropped Object   Using the acceleration due to gravity,  9.80665    , we can calculate the velocity at any time. However, we can only approximate its position, because the velocity is constantly changing. This activity demonstrates a method of approximation that is used in many problems including calculating areas (e.g., calculating the amount of asphalt needed for a driveway with curved sides). This activity also illustrates how approximations depend on choices we make.    Review the process shown here.  Suppose a ball is dropped from a height of 60.0 meters. We will approximate its height above ground by calculating its approximate position each second. For example, after 1 second the ball will have accelerated from 0 m\/s to 9.8 m\/s. If we pretend that it was travelling 9.8 m\/s the whole time, then we estimate it will be 9.8 m lower than it began. This is a height of . A second later the velocity will have increased 9.8 m\/s so it will be m\/s. If we pretend that it was travelling 19.6 m\/s the whole time, then we estimate it will be 19.6 m lower than it began. This is a height of . Another second later (third second) the velocity will have increased by 9.8 m\/s so it will be . If we pretend that it was travelling 29.4 m\/s the whole time, then we estimate it will be 29.4 m lower than it began. This is a height of . With only 1.2 meters left and a velocity much greater than 1.2, we know it will reach the ground in less than one more second.  The table below contains these results.    Time  Velocity  Distance Traveled  Height    0  0  0  60.0    1  9.8  9.8  50.2    2  19.6  19.6  30.6    3  29.4  29.4  1.2      Repeat this exercise using half second intervals instead of one second intervals. Remember that in a half second the acceleration will be m\/s. In the first half second the ball will fall . In the second half second the velocity would be 9.8 m\/s so it would drop . The first two entries are completed for you. Add more rows if you need to.    Time  Velocity  Distance Traveled  Height    0  0  0  60.0    0.5  4.9  2.45  57.55    1.0  9.8  4.9  52.65    1.5       2.0       2.5       3.0         The end result of this task will be a third table calculated in 1\/4 second intervals.  What is the acceleration in 1\/4 second? Recall it is 9.8 m\/s which was 4.9 m\/half second.  Fill out a table in 1\/4 second intervals.    Notice that in the first table (1 second intervals), we estimated after one second the height would be 50.2 m. In the second table (1\/2 second intervals), we estimated after one second the height would be 52.65 m.  Find other times in which the 3 tables have different estimates.  Are the estimates in one table always less than or greater than those in the other tables?  Explain why these estimates are different.  Which estimate do you think is most accurate?    "
 },
 {
   "id": "project-discover-integral",
@@ -7144,7 +7144,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "11",
   "title": "Approximate Height of a Dropped Object.",
-  "body": " Approximate Height of a Dropped Object   Using the acceleration due to gravity,  9.80665    , we can calculate the velocity at any time. However, we can only approximate its position, because the velocity is constantly changing. This activity demonstrates a method of approximation that is used in many problems including calculating areas (e.g., calculating the amount of asphalt needed for a driveway with curved sides). This activity also illustrates how approximations depend on choices we make.   Review the process shown here. Suppose a ball is dropped from a height of 60.0 meters. We will approximate its height above ground by calculating its approximate position each second. For example, after 1 second the ball will have accelerated from 0 m\/s to 9.8 m\/s. If we pretend that it was travelling 9.8 m\/s the whole time, then we estimate it will be 9.8 m lower than it began. This is a height of . A second later the velocity will have increased 9.8 m\/s so it will be m\/s. If we pretend that it was travelling 19.6 m\/s the whole time, then we estimate it will be 19.6 m lower than it began. This is a height of . Another second later (third second) the velocity will have increased by 9.8 m\/s so it will be . If we pretend that it was travelling 29.4 m\/s the whole time, then we estimate it will be 29.4 m lower than it began. This is a height of . With only 1.2 meters left and a velocity much greater than 1.2, we know it will reach the ground in less than one more second. The table below contains these results.   Time  Velocity  Distance Traveled  Height    0  0  0  60.0    1  9.8  9.8  50.2    2  19.6  19.6  30.6    3  29.4  29.4  1.2    Repeat this exercise using half second intervals instead of one second intervals. Remember that in a half second the acceleration will be m\/s. In the first half second the ball will fall . In the second half second the velocity would be 9.8 m\/s so it would drop . The first two entries are completed for you. Add more rows if you need to.   Time  Velocity  Distance Traveled  Height    0  0  0  60.0    0.5  4.9  2.45  57.55    1.0  9.8  4.9  52.65    1.5       2.0       2.5       3.0       The end result of this task will be a third table calculated in 1\/4 second intervals. What is the acceleration in 1\/4 second? Recall it is 9.8 m\/s which was 4.9 m\/half second. Fill out a table in 1\/4 second intervals.  Notice that in the first table (1 second intervals), we estimated after one second the height would be 50.2 m. In the second table (1\/2 second intervals), we estimated after one second the height would be 52.65 m. Find other times in which the 3 tables have different estimates. Are the estimates in one table always less than or greater than those in the other tables? Explain why these estimates are different. Which estimate do you think is most accurate?  "
+  "body": " Approximate Height of a Dropped Object   Using the acceleration due to gravity,  9.80665    , we can calculate the velocity at any time. However, we can only approximate its position, because the velocity is constantly changing. This activity demonstrates a method of approximation that is used in many problems including calculating areas (e.g., calculating the amount of asphalt needed for a driveway with curved sides). This activity also illustrates how approximations depend on choices we make.    Review the process shown here.  Suppose a ball is dropped from a height of 60.0 meters. We will approximate its height above ground by calculating its approximate position each second. For example, after 1 second the ball will have accelerated from 0 m\/s to 9.8 m\/s. If we pretend that it was travelling 9.8 m\/s the whole time, then we estimate it will be 9.8 m lower than it began. This is a height of . A second later the velocity will have increased 9.8 m\/s so it will be m\/s. If we pretend that it was travelling 19.6 m\/s the whole time, then we estimate it will be 19.6 m lower than it began. This is a height of . Another second later (third second) the velocity will have increased by 9.8 m\/s so it will be . If we pretend that it was travelling 29.4 m\/s the whole time, then we estimate it will be 29.4 m lower than it began. This is a height of . With only 1.2 meters left and a velocity much greater than 1.2, we know it will reach the ground in less than one more second.  The table below contains these results.    Time  Velocity  Distance Traveled  Height    0  0  0  60.0    1  9.8  9.8  50.2    2  19.6  19.6  30.6    3  29.4  29.4  1.2      Repeat this exercise using half second intervals instead of one second intervals. Remember that in a half second the acceleration will be m\/s. In the first half second the ball will fall . In the second half second the velocity would be 9.8 m\/s so it would drop . The first two entries are completed for you. Add more rows if you need to.    Time  Velocity  Distance Traveled  Height    0  0  0  60.0    0.5  4.9  2.45  57.55    1.0  9.8  4.9  52.65    1.5       2.0       2.5       3.0         The end result of this task will be a third table calculated in 1\/4 second intervals.  What is the acceleration in 1\/4 second? Recall it is 9.8 m\/s which was 4.9 m\/half second.  Fill out a table in 1\/4 second intervals.    Notice that in the first table (1 second intervals), we estimated after one second the height would be 50.2 m. In the second table (1\/2 second intervals), we estimated after one second the height would be 52.65 m.  Find other times in which the 3 tables have different estimates.  Are the estimates in one table always less than or greater than those in the other tables?  Explain why these estimates are different.  Which estimate do you think is most accurate?   "
 },
 {
   "id": "section-exponential",
@@ -7153,7 +7153,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Exponential Relations",
-  "body": " Exponential Relations   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented different rates at which data changes including linear, quadratic, and exponential. This section presents models that require exponentials and notation so we can perform calculations. The ability to solve equations with exponentials comes in .    Comparing Growth Rates  In colloquial speech exponential is used to mean very fast . In this text we are using a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster.  Consider the linear, quadratic, and exponential relations in , , and respectively. Linear data has the same differences (3 in the example below). In contrast the differences for quadratic and exponential data grow as the data grows. Their growth is not the same however. Quadratic differences grow at the same rate (2nd differences are linear, 4 in the example below). In contrast exponential differences grow faster as the data grows faster (indeed at the same rate).  Another way to look at this, is to note that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than 3 for the linear below, and 6,10,14 are less than 8,18, and 32 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic growth eventually.   Linear Relation     0  1  2  3  4  5     2  5  8  11  14  17    Differences   3  3  3  3  3      Quadratic Relation     0  1  2  3  4  5     0  2  8  18  32  50    Differences   2  6  10  14  18      Exponential Relation     0  1  2  3  4  5     3  6  12  24  48  96    Differences   3  6  12  24  48     We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. and have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios   5\/2  8\/5  11\/8  14\/11  17\/14   Decimal   2.5  1.6  1.375  1.2727  1.2143      Quadratic Relation    1  2  3  4  5  6    2  8  18  32  50  72   Ratios   8\/2  18\/8  32\/18  50\/32  72\/50   Decimal   4  2.25  1.7778  1.5625  1.44      Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Ratios   2  2  2  2  2     The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. shows the ratios for a relation known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.   Factorial Relation    0  1  2  3  4  5    1  1  2  6  24  120   Ratios   1  2  3  4  5        Applications  This section presents some simple applications that introduce us to the nature of exponential relations and introduce us to how to write equations for exponential models. The next few examples are used to present the mathematics, they are not a complete presentation of the science.  Bacteria (any cells) grow by each cell dividing into two, completely functioning cells. The new cells eventually reproduce by dividing in half as well. This means that the population is doubling. Because each cell takes roughly the same amount of time to grow enough to be able to divide, the population will double again when that much time has elapsed. Because we are interested in the idea, we will not round in the next few examples.   The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.  Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be cells. These results are shown in .  If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times .  We could produce a table for any amount of time (e.g., every hour) and we would discover that the population grows by the same multiple every time.    Growth of Lactobacillus Acidophilus         Minutes  0  70  140  210    Population  4000  8000  16000  32000    Increased by   4000  8000  16000      Growth of Lactobacillus Acidophilus          Minutes  0  35  70  105  140    Population  4000  5657  8000  11314  16000    Ratio   1.4142  1.4142  1.4142  1.4142     Having emphasized that exponential data grows by a fixed ratio (multiple) every time unit, we can now work toward mathematical notation.   First Exponential Model  To obtain a model (equation) we will review our calculations from the previous example and note a pattern in those calculations.  The initial amount (information we are given) is . After 70 minutes all of these split into two so the population is . After 140 minutes they have all split into two a second time so the population is . After 210 minutes they have split a third time increasing the population to . We repeatedly mutiply the initial amount by 2. This means we will have a power of 2 times the initial amount.  The number of 2's by which we multiply is determined by how many multiples of 70 minutes have expired. so we multiplied by . so we multiplied by . In general we multiply by two times.  Putting these together implies we want to multiply the initial amount (4000 in this case) by two (double the population) for each of multiple of 70. This gives us .    First Exponential Model Redux  Of course we cannot actually count the number of cells in a colony of bacteria. It is easier to measure by mass (units of grams). If the number of cells has doubled then the mass will have about doubled as well.  Suppose 3 grams of lactobacillus acidophilus is placed in milk. What is a model for the mass of bacteria if it doubles every 70 minutes?  From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us   Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1. One example is radioactive decay. Radioactive substances are not stable. The radiation they give off is the result of the atoms breaking down into other substances. This means that over time the amount of the radioactive substance decreases. It has been shown that this decrease is exponential. The rate of decay is expressed in half-life , the amount of time for the substance to be reduced by half.   Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.  Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have grams. Note the 1\/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be . In general the amount left after years will be This could also be written as .   Exponential relations are not all doubling or cutting in half. The ratio can be anything. Going viral on the internet could be (but is not always) an exponential growth of views.   A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.  To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be views. The eighth day, there will be views. Each additional four days we multiply the result by 3.  Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple times.  To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is    We learned in that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.   Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . Thus after one year his salary will be . After two years his salary will be . This pattern will continue.  The model then is where is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be    If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.   In the previous example we rounded in the second step to 4 decimal places. Was this the right choice? We can test by trying the calculation with fewer decimal places. If we had rounded to 5 places, the last step would have been . If we had rounded to 6 places, the last step would have been . If we had rounded to 7 places, the last step would have been . Likewise testing 8 places would not change the amount. Thus any more than 6 places is not enough to change the result. However, was the 4 places result bad? The amounts between the roundings are different from each other but not by enough to impact anyone's life. Remember rounding is often about being practical: if the variation we round away has no impact, why bother with all the extra work?  Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but it requires a technique from .   We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?  The end of seven years means there have been six raises. From the two data points we know Thus her annual percentage increase was 4%. The full model is where is time in years.     Two Exponential Models  Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two models.   Exponential Growth (rate)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the doubling ( ), trebling ( ), or other increase. It is unitless.  is the amount of time (units typically days\/hours\/minutes)  is how long until the increase occurs (same units as )      Exponential Growth (percent)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the percent increase or decrease. It is unitless.  is the amount of time (units typically days\/hours\/minutes)     It is possible to convert from one form to the other. The following examples demonstrate using these models, determining the percent increase\/decrease, and converting between forms.   Suppose where is the number of years. What is the annual percent increase?  We know that so this is a 3.2% increase.   Before we can change that form into one that shows us how long until it doubles, we will need to learn another function. We will do this in .   Suppose where is the number of years. What is the annual percent decrease?  We know that so this is a 12% decrease.   Generally if the value is greater than one this is an increasing rate and if it is less than one it is a decreasing rate.   Suppose . Is this increase or decrease and what is the percent increase\/decrease?  Because this is a percent increase. Thus this is a 3% increase.   Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing that or in general   Significant Digits beyond Arithmetic  In we noted that a square root maintains the same number of significant digits. The same mathematics applies to exponential. For example, .    In the exponential model what is the percent increase or decrease? Note these numbers are measurements.  First, we use the algebra above to convert the form Because 1.4 is bigger than one it is a percent increase. Note , so this is a 40% increase.  For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).    In the exponential model what is the percent increase or decrease?   First, we use the algebra above to convert the form Because 0.97 is less than one it is a percent decrease. Note , so this is a 3% decrease.  We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.     A common base for exponentials in many scientific models is . We can work with this base using calculation devices which will have an button or an function.   What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? which we found using a device. Thus this is a percent increase of 2%.       Evaluating Exponential Functions   Evaluate these exponential functions.            Exponential Applications   Evaluate exponential functions as needed to answer these questions.                 "
+  "body": " Exponential Relations   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    presented different rates at which data changes including linear, quadratic, and exponential. This section presents models that require exponentials and notation so we can perform calculations. The ability to solve equations with exponentials comes in .    Comparing Growth Rates  In colloquial speech exponential is used to mean very fast . In this text we are using a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster.  Consider the linear, quadratic, and exponential relations in , , and respectively. Linear data has the same differences (3 in the example below). In contrast the differences for quadratic and exponential data grow as the data grows. Their growth is not the same however. Quadratic differences grow at the same rate (2nd differences are linear, 4 in the example below). In contrast exponential differences grow faster as the data grows faster (indeed at the same rate).  Another way to look at this, is to note that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than 3 for the linear below, and 6,10,14 are less than 8,18, and 32 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic growth eventually.   Linear Relation     0  1  2  3  4  5     2  5  8  11  14  17    Differences   3  3  3  3  3      Quadratic Relation     0  1  2  3  4  5     0  2  8  18  32  50    Differences   2  6  10  14  18      Exponential Relation     0  1  2  3  4  5     3  6  12  24  48  96    Differences   3  6  12  24  48     We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. and have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.   Linear Relation    0  1  2  3  4  5    2  5  8  11  14  17   Ratios   5\/2  8\/5  11\/8  14\/11  17\/14   Decimal   2.5  1.6  1.375  1.2727  1.2143      Quadratic Relation    1  2  3  4  5  6    2  8  18  32  50  72   Ratios   8\/2  18\/8  32\/18  50\/32  72\/50   Decimal   4  2.25  1.7778  1.5625  1.44      Exponential Relation    0  1  2  3  4  5    3  6  12  24  48  96   Ratios   2  2  2  2  2     The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. shows the ratios for a relation known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.   Factorial Relation    0  1  2  3  4  5    1  1  2  6  24  120   Ratios   1  2  3  4  5          Applications  This section presents some simple applications that introduce us to the nature of exponential relations and introduce us to how to write equations for exponential models. The next few examples are used to present the mathematics, they are not a complete presentation of the science.  Bacteria (any cells) grow by each cell dividing into two, completely functioning cells. The new cells eventually reproduce by dividing in half as well. This means that the population is doubling. Because each cell takes roughly the same amount of time to grow enough to be able to divide, the population will double again when that much time has elapsed. Because we are interested in the idea, we will not round in the next few examples.   The bacteria lactobacillus acidophilus is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.  Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be cells. These results are shown in .  If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times .  We could produce a table for any amount of time (e.g., every hour) and we would discover that the population grows by the same multiple every time.    Growth of Lactobacillus Acidophilus         Minutes  0  70  140  210    Population  4000  8000  16000  32000    Increased by   4000  8000  16000      Growth of Lactobacillus Acidophilus          Minutes  0  35  70  105  140    Population  4000  5657  8000  11314  16000    Ratio   1.4142  1.4142  1.4142  1.4142     Having emphasized that exponential data grows by a fixed ratio (multiple) every time unit, we can now work toward mathematical notation.   First Exponential Model  To obtain a model (equation) we will review our calculations from the previous example and note a pattern in those calculations.  The initial amount (information we are given) is . After 70 minutes all of these split into two so the population is . After 140 minutes they have all split into two a second time so the population is . After 210 minutes they have split a third time increasing the population to . We repeatedly mutiply the initial amount by 2. This means we will have a power of 2 times the initial amount.  The number of 2's by which we multiply is determined by how many multiples of 70 minutes have expired. so we multiplied by . so we multiplied by . In general we multiply by two times.  Putting these together implies we want to multiply the initial amount (4000 in this case) by two (double the population) for each of multiple of 70. This gives us .    First Exponential Model Redux  Of course we cannot actually count the number of cells in a colony of bacteria. It is easier to measure by mass (units of grams). If the number of cells has doubled then the mass will have about doubled as well.  Suppose 3 grams of lactobacillus acidophilus is placed in milk. What is a model for the mass of bacteria if it doubles every 70 minutes?  From the previous example we know we can multiply the initial amount (3 g) by 2 for each 70 minutes. This gives us   Some exponential relations show the amount decreasing. That is the ratio that is multiplied is between 0 and 1. One example is radioactive decay. Radioactive substances are not stable. The radiation they give off is the result of the atoms breaking down into other substances. This means that over time the amount of the radioactive substance decreases. It has been shown that this decrease is exponential. The rate of decay is expressed in half-life , the amount of time for the substance to be reduced by half.   Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.  Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have grams. Note the 1\/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be . In general the amount left after years will be This could also be written as .   Exponential relations are not all doubling or cutting in half. The ratio can be anything. Going viral on the internet could be (but is not always) an exponential growth of views.   A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.  To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be views. The eighth day, there will be views. Each additional four days we multiply the result by 3.  Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple times.  To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is       We learned in that salaries increased by a fixed percent each year are exponential in nature. Now we can write a model for this and calculate results.   Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?  Because the raise is a 5% increase, the percent is . Thus after one year his salary will be . After two years his salary will be . This pattern will continue.  The model then is where is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be    If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?  Because the raise is a 4% increase, the percent is . The model then is where is the number of years since he was hired, and is the initial salary. We can now solve for the initial salary. Because the salary would be rounded each year this might be off by a small amount, but not enough to matter for our curiosity.   In the previous example we rounded in the second step to 4 decimal places. Was this the right choice? We can test by trying the calculation with fewer decimal places. If we had rounded to 5 places, the last step would have been . If we had rounded to 6 places, the last step would have been . If we had rounded to 7 places, the last step would have been . Likewise testing 8 places would not change the amount. Thus any more than 6 places is not enough to change the result. However, was the 4 places result bad? The amounts between the roundings are different from each other but not by enough to impact anyone's life. Remember rounding is often about being practical: if the variation we round away has no impact, why bother with all the extra work?  Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but it requires a technique from .   We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?  The end of seven years means there have been six raises. From the two data points we know Thus her annual percentage increase was 4%. The full model is where is time in years.     Two Exponential Models  Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two models.   Exponential Growth (rate)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the doubling ( ), trebling ( ), or other increase. It is unitless.  is the amount of time (units typically days\/hours\/minutes)  is how long until the increase occurs (same units as )      Exponential Growth (percent)   An amount that is growing exponentially with respect to time is given by where  is the final amount (units vary)  is the initial amount (same units as )  is the percent increase or decrease. It is unitless.  is the amount of time (units typically days\/hours\/minutes)     It is possible to convert from one form to the other. The following examples demonstrate using these models, determining the percent increase\/decrease, and converting between forms.   Suppose where is the number of years. What is the annual percent increase?  We know that so this is a 3.2% increase.   Before we can change that form into one that shows us how long until it doubles, we will need to learn another function. We will do this in .   Suppose where is the number of years. What is the annual percent decrease?  We know that so this is a 12% decrease.   Generally if the value is greater than one this is an increasing rate and if it is less than one it is a decreasing rate.   Suppose . Is this increase or decrease and what is the percent increase\/decrease?  Because this is a percent increase. Thus this is a 3% increase.   Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing that or in general   Significant Digits beyond Arithmetic  In we noted that a square root maintains the same number of significant digits. The same mathematics applies to exponential. For example, .    In the exponential model what is the percent increase or decrease? Note these numbers are measurements.  First, we use the algebra above to convert the form Because 1.4 is bigger than one it is a percent increase. Note , so this is a 40% increase.  For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).    In the exponential model what is the percent increase or decrease?   First, we use the algebra above to convert the form Because 0.97 is less than one it is a percent decrease. Note , so this is a 3% decrease.  We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.       A common base for exponentials in many scientific models is . We can work with this base using calculation devices which will have an button or an function.   What is the percent increase or decrease for the exponential model ?  Just as with the fractions we convert to decimal. Note that we can also write the model . Do you see the difference? which we found using a device. Thus this is a percent increase of 2%.          Evaluating Exponential Functions   Evaluate these exponential functions.                          Exponential Applications   Evaluate exponential functions as needed to answer these questions.                                         "
 },
 {
   "id": "subsection-vary-fast-2",
@@ -7234,7 +7234,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.1.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-exponential-relation-lactobacillus",
@@ -7315,7 +7315,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.1.16",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-write-exponential-parameters",
@@ -7414,7 +7414,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.1.27",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-convert-exp-percent",
@@ -7432,7 +7432,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.1.29",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "section-exponential-6-1-3",
@@ -7441,7 +7441,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-1-4",
@@ -7450,7 +7450,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-1-5",
@@ -7459,7 +7459,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-1-6",
@@ -7468,7 +7468,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-1-7",
@@ -7477,7 +7477,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-1-8",
@@ -7486,7 +7486,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-1-9",
@@ -7495,7 +7495,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-3",
@@ -7504,7 +7504,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-4",
@@ -7513,7 +7513,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-5",
@@ -7522,7 +7522,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-6",
@@ -7531,7 +7531,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-7",
@@ -7540,7 +7540,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-8",
@@ -7549,7 +7549,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-9",
@@ -7558,7 +7558,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-10",
@@ -7567,7 +7567,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-11",
@@ -7576,7 +7576,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-12",
@@ -7585,7 +7585,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-13",
@@ -7594,7 +7594,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-6-2-14",
@@ -7603,7 +7603,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.4.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph",
@@ -7612,7 +7612,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "Graphs of Exponential Functions",
-  "body": " Graphs of Exponential Functions   This section addresses the following topics.  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    We have learned how to identify exponential data ( ) and have learned to work with some exponential applications ( ). This section presents the graph (shape) of exponentials and emphasizes two traits of exponential models.  Because devices can quickly produce accurate graphs for us, it is not the goal of this section to help you become proficiant at sketching graphs. Rather, it is the goal for you to be able to read a model, and recognize what different parts of the model imply, because you know what it would look like.    Shape of Exponentials  In order to understand the graph of an exponential function we are going to graph one that is not limited by interpretation or rounding.   Graph .  First we will generate a table of points with which to start.                       We can plot these points then sketch a curve smoothly through the points.   Graph of the points in the table above with curve sketched through them   Starting at consider the curve as it extends to the right. We can use the analogy of walking up hill to understand this curve. At we are walking up hill so we are a little slower than on a flat surface. At the height has doubled but so also has the slope (remember the differences are a multiple of the height). Walking the next segment will be more strenuous. At the height has doubled again, so also has the steepness. Now it is too steep to walk. We will need to scramble or use climbing equipment. Generally an exponential curve becomes increasingly steep.  Because the base of this exponential is 2 (i.e., ) each time we move one unit to the right the height doubles (times 2). The easiest place to see this is from to . This is because and this is true of any base (i.e., for all bases). That means at the y value will be the base (e.g., ).  Starting back at again consider the curve as it extends to the left. We can see that we are walking downhill; we might pick up a little speed. At it continues downhill to the left but it is not enough to help us maintain a faster speed. At we can no longer see the downhill (too gentle) though we would notice it if we were on a bike or skateboard. Just as the curve becomes twice as high and also twice as steep as we move the to right, it becomes half as high and half as steep as we go to the left. The inability to see the downhill nature illustrates that the exponential to the left begins to look like a horizontal line.  Let's clarify that last statement. We notice that all values (left and right) are positive. So to the left the curve is going down, but it never crosses zero. It must therefore become increasingly close to zero. This is why it begins to look like a line namely . When one curve becomes increasingly like another we call that second curve (the line in this case) an asymptote .   This decrease to the left can be understood in contexts as well.   In we determined that the amount of bacteria was modeled by . Initially ( ) there are 30 g of bacteria. Now we will calculate how much bacteria there was before this initial measurement.        Time  Mass of Bacteria                                  We notice that the amount of bacteria decreases. More specifically we see that it is divided in half each time. This is just the reverse of it doubling each time as it grows.  We also notice that because each previous entry is half of the next, there is always some left. No matter how far back in time we go, there will always be some. This is part of all exponentials: rapid growth in one direction and an increasingly gentle decrease toward some amount (zero in this case) in the other direction.  The model measures the bacteria by weight in grams. This can always be cut in half. What reality constraint should we put on this model?   Not all exponential curves increase to the right and decrease to the left. Some reverse (mirror) this pattern. The following example uses radioactive decay as an example of this.    Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with g of uranium-242.   How much is left at times 16.8, 33.6, and 50.4 minutes? At time 0 we have g. At time 16.8 it will be half of the original which is g. The 1\/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again ( , 2nd half-life). Thus there will be g. At time 50.4 it will be reduced by half a third time ( ), so the amount remaining will be g.  Write a model for this decay. We can use the process from . The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is .  Graph this model. We can use the points from the first task and the method from to produce a graph.  Graph of the model as a curve with point from above labeled   The horizontal axis is labeled minutes and ranges from 0 to 168 in intervals of 16.8. The vertical axis is labeled grams and ranges from 0 to 130. Rather than being evently spaced tick marks on the vertical are double the value of the previous one starting at 8.125. The curve begins at the top left and continues down to the right leveling off above 0.   Notice the gentle decrease toward zero is to the right this time as opposed to the left in . That is because we are cutting in half each time instead of doubling.   The following video illustrates the connection between a fixed time (half-life) and decreasing by a ratio (1\/2).   Geometric Illustration of Half-Life      Transforming Exponential Functions  In we learned how to shift and stretch parabolas (graphs of quadratics). Those same transformations work on exponentials (and any other function). The following examples illustrate that the effects are the same.   Translate an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                Graph of both curves in table above showing vertical shift   Notice that every point is 3 units higher than the point in the original graph. We have moved the graph 3 units up. Because the graph has been shifted up 3 units, the asymptote has also been shifted up three units. It is now .  Because the asymptote was shifted up, we must measure the doubling from one point to the next in terms of height above the asymptote. For example, at the value is so the height above the asymptote is . One to the right we have . The height above the asymptote is . From to the height above the asymptote doubled as we expect.    Stretch an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                    Graph of both curves in table above showing vertical shift   The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.  The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For most of the points on there is a corresponding point directly above it on . Because the graph of is too high to fit in the vertical range there are no corresponding points at .  At there is a vertical arrow of length 1 from the x-axis to the point on . There is a second vertical arrow of length 3 there from the x-axis to the point on . Imagine the shorter arrow being stretched until it becomes the taller arrow. This is the effect that shifts points on one curve to the other.    Notice that every point is 3 times farther from the x-axis. This makes it 3 times steeper.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                                   Graph of both curves in table above showing reflection over the y-axis   The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.  The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each of the points on there is a corresponding point on the opposite side of the y-axis on .  There is a horizontal arrow starting at on the curve that stretches to on the curve . There is another horizontal arrow starting at on the curve that stretches to on the curve . These arrows illustrate how points on have a corresponding point on which is on the opposite side of the y-axis.    Notice that every point end up on the other side of the y-axis. This is a reflection of the original curve.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the . Because this changes the x value, we will need a different set of inputs. Look at the result to understand why we selected them.                                                                              Graph of both curves in table above showing the horizontal stretch   The horizontal axis ranges from -16 to 16. Notice that this is 4 time wider than the previous examples. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.  The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each of the points on there is a corresponding point on .  There is a horizontal arrow starting at on the curve that stretches to on the curve . There is another horizontal arrow starting at on the curve that stretches to on the curve . These arrows illustrate how points on have a corresponding point on which is 4 times as far away from the y-axis. This is why the horizontal axis is 4 times wider than previous examples.    We ended up with the same y values, but they occurred spread out over a wider area. Multiplying stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).   Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is where and represent the horizontal and vertical shifts respectively. and represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.   Graph the model from . In order to match our examples above we can express the exponent as . We simply calculated and maintained 5 significant digits.  First, we identify the changes from . The coefficient of the exponent is a horizontal stretch. The negative in the exponent is a reflection over the y-axis. The 7.000 in front is a vertical stretch. We can make these changes in order of operation: horizontal stretch, reflection, vertical stretch. These changes are shown one at a time in the figure below. Graph A is the original. B shows the horizontal stretch. C shows the reflection. D adds the vertical stretch. The labels are located to show how one point is transformed by each step.   Four graphs each showing a step in graphing the exponential curve given above.   The horizontal axis is labeled t and ranges from -40 to 40. The vertical axis ranges from 0 to 16.  The graph labeled A is of the original which is shown as solid blue. The second graph labeled B is of and is shown in short dashed dark purple. The third graph labeled C is of and is shown in slightly longer dashed magenta. The fourth graph labeled D is of and is shown in long dashed red.  The label A is placed beside the point . The labels B,C, and D are placed beside the point to which A is mapped.    Looking at the final graph we can note that we really needed only three details to graph it. These are the asymptote (which remained unchanged from here) and two points. One point tells us where to start and the other indicates how steep (because of the change between the two points).   Before demonstrating graphing using the asymptote and two points, we graph an exponential with shifts as well.   Graph the equation .  First, we identify that this is a modified version of . Next we identify the changes. The -1 is a horizontal shift. The 3 is a vertical stretch. The +4 is a vertical shift. We perform the changes in this order (following order of operations). These are shown in the graph below. Graph A is the original. B shows the horizontal shift. C shows the vertical stretch. D adds the vertical shift. The labels are located to show how one point is transformed by each step. Notice that the asymptote was moved up 4 units by the vertical shift as well.   Graphs of four exponential curves each showing one step of graphing the function above   The horizontal axis is labeled x and ranges from -4 to 5. The vertical axis ranges from 0 to 20.  The graph labeled A is of the original which is shown as solid blue. The second graph labeled B is of and is shown in short dashed dark purple. The third graph labeled C is of and is shown in slightly longer dashed magenta. The fourth graph labeled D is of and is shown in long dashed red.  The label A is placed beside the point . The labels B,C, and D are placed beside the point to which A is mapped.    Again, we could have sketched the asymptote knowing only the vertical shift would change it. Then we could plot points at . The curve is then sketched down to the left (to approach the asymptote) and up to the right with steepness determined by the second point.   Now that we have practiced using the various transformations, we can look at how a graph can be produced from just two, particular points. First, we consider that ; no matter the base the zeroth power is 1. Thus the first of the two points has the x coordinate such that the base is raised to the zero power. Second, we know that the asymptote is one unit below this point. Once we locate this first point, we can sketch the asymptote.  Third, we note that , , . Thus the base can be determined by looking at the point with x coordinate one unit left\/right from the first point. In the following example we use these three ideas to identify the shifts and reflection.   Graph the equation .  First, we calculate the x value where . This is where or . This implies that the curve is shifted to the left (we start graphing two left of zero instead of at zero). At we calculate . We can plot this point.  Because the asymptote is always one unit lower than this point, we now know the asymptote is .  Because this is an increasing exponential (positive exponent), the next point we want is one unit to the right. . At this x value we calculate . Because we know the asymptote is at , we know this point is units above the asymptote. This matches the base of 3 (i.e., the 3 in ).  So from these two points, we can determine the asymptote, the base, and the vertical shift. This is enough for graphing. When you graph exponentials in exercises you will enter these two points, and the software will calculate the rest using these ideas.   Similar ideas enable us to use just two points if we have horizontal or vertical stretches, but the explanation is more complicated than is useful in this text. We should be aware that a vertical stretch means the asymptote is not one unit beneath the first point ( in the example above), because the stretch, stretches that distance. For example for the asymptote is at , the first, convenient point is at which gives . This is 3 above the asmyptote instead of just 1.   The following examples use these ideas in reverse as you will be expected to do. We read the base, vertical shift, and horizontal shift from a graph.   The graph below is of the equation . Determine the values of , , and .   A graph of an exponential function   The horizontal axis ranges from -1 to 7. The vertical axis ranges from 0 to 10.  The graph begins on the left just above and grows slowly until about . It crosses through the point then begins to grow quickly as it continues to the right.    First, by looking at the left side of the graph we notice that the graph is always above . This must be the asymptote. The asymptote gives us the vertical shift, i.e., .  We know all exponential graphs have a point one unit higher ( in this case). This point occurs at . Because this point on an unshifted exponential is at , the horizontal shift .  Finally, we can look one unit to the right of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is    The graph below is of the equation . Determine the values of , the sign, , and .   Graph of a decreasing exponential   First, we notice that the graph decreases to the right instead of the left. We know this is a reflection so it will be .  Second, because it is decreasing we know the asymptote will be on the right. All the points are above thus the asymptote is . The asymptote gives us the vertical shift, i.e., .  We know there will be a point one unit higher ( in this case). This point is at . This tell us the horizontal shift is .  Finally, we can look one unit to the left of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is      Identifying Exponential Graphs  When we look at data, which may not be labeled as linear, quadratic, or exponential, how can we quickly determine which one it is? Look at the four examples below and try to determine which growth rate each has. Note one graph is a growth rate we have not covered.   Identify the Rates of these Charts     Bar Chart 1   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 40 in increments of 5.  The January bar is about half way between 0 and 5. The February bar appears to be at 5. The March bar is a little more than half way between 5 and 10. As they continue each one appears to be either half way between or near the next multiple of 5.  The February, July, and December bars all appear to be exactly at a multipe of five (5,20,35).      Bar Chart 2   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 2500 in increments of 500.  The bars for January through May are almost not visible. From June to August they are fairly short. September through December they grow rapidly.        Bar Chart 3   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 140 in increments of 20.  The bars for January through May are all below 20. June and July are below 40. After that each bar is above the next line (next multiple of 20).      Bar Chart 4   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 1400 in increments of 200.  The bars for January through March are almost not visible. From April to June they are still below 200. Thereafter they grow more quickly.        A linear relationship is defined by the differences between pairs of data points being the same. On bar graphs this means the difference in height between consecutive bars must be the same. If we compare the change from January to February to the change from November to December we see that they are vastly different (very small early and much larger later). For however, the increase between bar heights looks the same. If we wished, we could use a ruler to measure and convince ourselves. This appears to be linear.  An exponential relationship can be recognized by the ratio between pairs of data points being the same. This is hard to use on a bar graph, because it means the height of each bar is a multiple of the previous. For example each bar would be 2 or 3 times as high. This would be hard to identify if each bar is 2.3 times as high however. Rather we will use two, alternative traits.  We know that the graph of an exponential is nearly flat in one direction and very steep in the other. does not appear to flatten heading left. The bottom two graphs do have this flat appearance to the left. The other trait is that the differences of consecutive terms in an exponential relationship are the same scale as the entries. This means the change in height of consecutive bars should be on scale with the size of a bar. Consider September and October on . The change in height from September to October looks like the height of the September bar. In contrast the change in height from September to October in is much less than the height of the September bar. Thus we can be convinced that the data in is exponential and none of the others are.  We identify quadratic data by looking at the second differences. To do this on a bar graph would mean constructing a bar graph where each new bar's height is the change in height of consecutive bars on the original graph. Then we would look if this new bar graph was linear. This is not a reasonable task. We would be better off asking for the original data.  The two bar graphs on the right have different relationships: one is quadratic, the other is not. Both can be described in the same terms (e.g., change in heights is increasing). This is a warning to not make many assumptions about data from limited data or simple graphs.     Identify the Exponential Function   Use the information provided to write an equation for each exponential function.         Graph the Exponential   Distinguish Growth and Decay   For each problem determine if it is a case of exponential growth or decay.           "
+  "body": " Graphs of Exponential Functions   This section addresses the following topics.  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Identify rates as linear, quadratic, exponential, or other (critical thinking)  Identify data varrying directly or indirectly (critical thinking)    We have learned how to identify exponential data ( ) and have learned to work with some exponential applications ( ). This section presents the graph (shape) of exponentials and emphasizes two traits of exponential models.  Because devices can quickly produce accurate graphs for us, it is not the goal of this section to help you become proficiant at sketching graphs. Rather, it is the goal for you to be able to read a model, and recognize what different parts of the model imply, because you know what it would look like.    Shape of Exponentials  In order to understand the graph of an exponential function we are going to graph one that is not limited by interpretation or rounding.   Graph .  First we will generate a table of points with which to start.                       We can plot these points then sketch a curve smoothly through the points.   Graph of the points in the table above with curve sketched through them   Starting at consider the curve as it extends to the right. We can use the analogy of walking up hill to understand this curve. At we are walking up hill so we are a little slower than on a flat surface. At the height has doubled but so also has the slope (remember the differences are a multiple of the height). Walking the next segment will be more strenuous. At the height has doubled again, so also has the steepness. Now it is too steep to walk. We will need to scramble or use climbing equipment. Generally an exponential curve becomes increasingly steep.  Because the base of this exponential is 2 (i.e., ) each time we move one unit to the right the height doubles (times 2). The easiest place to see this is from to . This is because and this is true of any base (i.e., for all bases). That means at the y value will be the base (e.g., ).  Starting back at again consider the curve as it extends to the left. We can see that we are walking downhill; we might pick up a little speed. At it continues downhill to the left but it is not enough to help us maintain a faster speed. At we can no longer see the downhill (too gentle) though we would notice it if we were on a bike or skateboard. Just as the curve becomes twice as high and also twice as steep as we move the to right, it becomes half as high and half as steep as we go to the left. The inability to see the downhill nature illustrates that the exponential to the left begins to look like a horizontal line.  Let's clarify that last statement. We notice that all values (left and right) are positive. So to the left the curve is going down, but it never crosses zero. It must therefore become increasingly close to zero. This is why it begins to look like a line namely . When one curve becomes increasingly like another we call that second curve (the line in this case) an asymptote .   This decrease to the left can be understood in contexts as well.   In we determined that the amount of bacteria was modeled by . Initially ( ) there are 30 g of bacteria. Now we will calculate how much bacteria there was before this initial measurement.        Time  Mass of Bacteria                                  We notice that the amount of bacteria decreases. More specifically we see that it is divided in half each time. This is just the reverse of it doubling each time as it grows.  We also notice that because each previous entry is half of the next, there is always some left. No matter how far back in time we go, there will always be some. This is part of all exponentials: rapid growth in one direction and an increasingly gentle decrease toward some amount (zero in this case) in the other direction.  The model measures the bacteria by weight in grams. This can always be cut in half. What reality constraint should we put on this model?   Not all exponential curves increase to the right and decrease to the left. Some reverse (mirror) this pattern. The following example uses radioactive decay as an example of this.    Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with g of uranium-242.    How much is left at times 16.8, 33.6, and 50.4 minutes?  At time 0 we have g. At time 16.8 it will be half of the original which is g. The 1\/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again ( , 2nd half-life). Thus there will be g. At time 50.4 it will be reduced by half a third time ( ), so the amount remaining will be g.    Write a model for this decay.  We can use the process from . The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is .    Graph this model.  We can use the points from the first task and the method from to produce a graph.   Graph of the model as a curve with point from above labeled   The horizontal axis is labeled minutes and ranges from 0 to 168 in intervals of 16.8. The vertical axis is labeled grams and ranges from 0 to 130. Rather than being evently spaced tick marks on the vertical are double the value of the previous one starting at 8.125. The curve begins at the top left and continues down to the right leveling off above 0.    Notice the gentle decrease toward zero is to the right this time as opposed to the left in . That is because we are cutting in half each time instead of doubling.    The following video illustrates the connection between a fixed time (half-life) and decreasing by a ratio (1\/2).   Geometric Illustration of Half-Life      Transforming Exponential Functions  In we learned how to shift and stretch parabolas (graphs of quadratics). Those same transformations work on exponentials (and any other function). The following examples illustrate that the effects are the same.   Translate an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                Graph of both curves in table above showing vertical shift   Notice that every point is 3 units higher than the point in the original graph. We have moved the graph 3 units up. Because the graph has been shifted up 3 units, the asymptote has also been shifted up three units. It is now .  Because the asymptote was shifted up, we must measure the doubling from one point to the next in terms of height above the asymptote. For example, at the value is so the height above the asymptote is . One to the right we have . The height above the asymptote is . From to the height above the asymptote doubled as we expect.    Stretch an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                    Graph of both curves in table above showing vertical shift   The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.  The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For most of the points on there is a corresponding point directly above it on . Because the graph of is too high to fit in the vertical range there are no corresponding points at .  At there is a vertical arrow of length 1 from the x-axis to the point on . There is a second vertical arrow of length 3 there from the x-axis to the point on . Imagine the shorter arrow being stretched until it becomes the taller arrow. This is the effect that shifts points on one curve to the other.    Notice that every point is 3 times farther from the x-axis. This makes it 3 times steeper.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the .                                                                                   Graph of both curves in table above showing reflection over the y-axis   The horizontal axis ranges from -4 to 4. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.  The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each of the points on there is a corresponding point on the opposite side of the y-axis on .  There is a horizontal arrow starting at on the curve that stretches to on the curve . There is another horizontal arrow starting at on the curve that stretches to on the curve . These arrows illustrate how points on have a corresponding point on which is on the opposite side of the y-axis.    Notice that every point end up on the other side of the y-axis. This is a reflection of the original curve.    Reflect an Exponential  Graph using the graph and table in . We can extend the table to include the . Because this changes the x value, we will need a different set of inputs. Look at the result to understand why we selected them.                                                                              Graph of both curves in table above showing the horizontal stretch   The horizontal axis ranges from -16 to 16. Notice that this is 4 time wider than the previous examples. The vertical axis ranges from 0 to above 16. Tick marks on the vertical axis are each double the one below beginning at 1.  The points for both curves from the table above are plotted and graphs of the curves are sketched through them. For each of the points on there is a corresponding point on .  There is a horizontal arrow starting at on the curve that stretches to on the curve . There is another horizontal arrow starting at on the curve that stretches to on the curve . These arrows illustrate how points on have a corresponding point on which is 4 times as far away from the y-axis. This is why the horizontal axis is 4 times wider than previous examples.    We ended up with the same y values, but they occurred spread out over a wider area. Multiplying stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).   Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is where and represent the horizontal and vertical shifts respectively. and represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.   Graph the model from . In order to match our examples above we can express the exponent as . We simply calculated and maintained 5 significant digits.  First, we identify the changes from . The coefficient of the exponent is a horizontal stretch. The negative in the exponent is a reflection over the y-axis. The 7.000 in front is a vertical stretch. We can make these changes in order of operation: horizontal stretch, reflection, vertical stretch. These changes are shown one at a time in the figure below. Graph A is the original. B shows the horizontal stretch. C shows the reflection. D adds the vertical stretch. The labels are located to show how one point is transformed by each step.   Four graphs each showing a step in graphing the exponential curve given above.   The horizontal axis is labeled t and ranges from -40 to 40. The vertical axis ranges from 0 to 16.  The graph labeled A is of the original which is shown as solid blue. The second graph labeled B is of and is shown in short dashed dark purple. The third graph labeled C is of and is shown in slightly longer dashed magenta. The fourth graph labeled D is of and is shown in long dashed red.  The label A is placed beside the point . The labels B,C, and D are placed beside the point to which A is mapped.    Looking at the final graph we can note that we really needed only three details to graph it. These are the asymptote (which remained unchanged from here) and two points. One point tells us where to start and the other indicates how steep (because of the change between the two points).   Before demonstrating graphing using the asymptote and two points, we graph an exponential with shifts as well.   Graph the equation .  First, we identify that this is a modified version of . Next we identify the changes. The -1 is a horizontal shift. The 3 is a vertical stretch. The +4 is a vertical shift. We perform the changes in this order (following order of operations). These are shown in the graph below. Graph A is the original. B shows the horizontal shift. C shows the vertical stretch. D adds the vertical shift. The labels are located to show how one point is transformed by each step. Notice that the asymptote was moved up 4 units by the vertical shift as well.   Graphs of four exponential curves each showing one step of graphing the function above   The horizontal axis is labeled x and ranges from -4 to 5. The vertical axis ranges from 0 to 20.  The graph labeled A is of the original which is shown as solid blue. The second graph labeled B is of and is shown in short dashed dark purple. The third graph labeled C is of and is shown in slightly longer dashed magenta. The fourth graph labeled D is of and is shown in long dashed red.  The label A is placed beside the point . The labels B,C, and D are placed beside the point to which A is mapped.    Again, we could have sketched the asymptote knowing only the vertical shift would change it. Then we could plot points at . The curve is then sketched down to the left (to approach the asymptote) and up to the right with steepness determined by the second point.   Now that we have practiced using the various transformations, we can look at how a graph can be produced from just two, particular points. First, we consider that ; no matter the base the zeroth power is 1. Thus the first of the two points has the x coordinate such that the base is raised to the zero power. Second, we know that the asymptote is one unit below this point. Once we locate this first point, we can sketch the asymptote.  Third, we note that , , . Thus the base can be determined by looking at the point with x coordinate one unit left\/right from the first point. In the following example we use these three ideas to identify the shifts and reflection.   Graph the equation .  First, we calculate the x value where . This is where or . This implies that the curve is shifted to the left (we start graphing two left of zero instead of at zero). At we calculate . We can plot this point.  Because the asymptote is always one unit lower than this point, we now know the asymptote is .  Because this is an increasing exponential (positive exponent), the next point we want is one unit to the right. . At this x value we calculate . Because we know the asymptote is at , we know this point is units above the asymptote. This matches the base of 3 (i.e., the 3 in ).  So from these two points, we can determine the asymptote, the base, and the vertical shift. This is enough for graphing. When you graph exponentials in exercises you will enter these two points, and the software will calculate the rest using these ideas.   Similar ideas enable us to use just two points if we have horizontal or vertical stretches, but the explanation is more complicated than is useful in this text. We should be aware that a vertical stretch means the asymptote is not one unit beneath the first point ( in the example above), because the stretch, stretches that distance. For example for the asymptote is at , the first, convenient point is at which gives . This is 3 above the asmyptote instead of just 1.     The following examples use these ideas in reverse as you will be expected to do. We read the base, vertical shift, and horizontal shift from a graph.   The graph below is of the equation . Determine the values of , , and .   A graph of an exponential function   The horizontal axis ranges from -1 to 7. The vertical axis ranges from 0 to 10.  The graph begins on the left just above and grows slowly until about . It crosses through the point then begins to grow quickly as it continues to the right.    First, by looking at the left side of the graph we notice that the graph is always above . This must be the asymptote. The asymptote gives us the vertical shift, i.e., .  We know all exponential graphs have a point one unit higher ( in this case). This point occurs at . Because this point on an unshifted exponential is at , the horizontal shift .  Finally, we can look one unit to the right of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is    The graph below is of the equation . Determine the values of , the sign, , and .   Graph of a decreasing exponential   First, we notice that the graph decreases to the right instead of the left. We know this is a reflection so it will be .  Second, because it is decreasing we know the asymptote will be on the right. All the points are above thus the asymptote is . The asymptote gives us the vertical shift, i.e., .  We know there will be a point one unit higher ( in this case). This point is at . This tell us the horizontal shift is .  Finally, we can look one unit to the left of this point ( ). The y value there is . This is units above the asymptote. This is the base .  The equation is        Identifying Exponential Graphs  When we look at data, which may not be labeled as linear, quadratic, or exponential, how can we quickly determine which one it is? Look at the four examples below and try to determine which growth rate each has. Note one graph is a growth rate we have not covered.   Identify the Rates of these Charts     Bar Chart 1   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 40 in increments of 5.  The January bar is about half way between 0 and 5. The February bar appears to be at 5. The March bar is a little more than half way between 5 and 10. As they continue each one appears to be either half way between or near the next multiple of 5.  The February, July, and December bars all appear to be exactly at a multipe of five (5,20,35).      Bar Chart 2   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 2500 in increments of 500.  The bars for January through May are almost not visible. From June to August they are fairly short. September through December they grow rapidly.        Bar Chart 3   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 140 in increments of 20.  The bars for January through May are all below 20. June and July are below 40. After that each bar is above the next line (next multiple of 20).      Bar Chart 4   A bar graph with an entry for each month of the year   The bars are labeled January to December in order. The vertical axis ranges from 0 to 1400 in increments of 200.  The bars for January through March are almost not visible. From April to June they are still below 200. Thereafter they grow more quickly.        A linear relationship is defined by the differences between pairs of data points being the same. On bar graphs this means the difference in height between consecutive bars must be the same. If we compare the change from January to February to the change from November to December we see that they are vastly different (very small early and much larger later). For however, the increase between bar heights looks the same. If we wished, we could use a ruler to measure and convince ourselves. This appears to be linear.  An exponential relationship can be recognized by the ratio between pairs of data points being the same. This is hard to use on a bar graph, because it means the height of each bar is a multiple of the previous. For example each bar would be 2 or 3 times as high. This would be hard to identify if each bar is 2.3 times as high however. Rather we will use two, alternative traits.  We know that the graph of an exponential is nearly flat in one direction and very steep in the other. does not appear to flatten heading left. The bottom two graphs do have this flat appearance to the left. The other trait is that the differences of consecutive terms in an exponential relationship are the same scale as the entries. This means the change in height of consecutive bars should be on scale with the size of a bar. Consider September and October on . The change in height from September to October looks like the height of the September bar. In contrast the change in height from September to October in is much less than the height of the September bar. Thus we can be convinced that the data in is exponential and none of the others are.  We identify quadratic data by looking at the second differences. To do this on a bar graph would mean constructing a bar graph where each new bar's height is the change in height of consecutive bars on the original graph. Then we would look if this new bar graph was linear. This is not a reasonable task. We would be better off asking for the original data.  The two bar graphs on the right have different relationships: one is quadratic, the other is not. Both can be described in the same terms (e.g., change in heights is increasing). This is a warning to not make many assumptions about data from limited data or simple graphs.     Identify the Exponential Function   Use the information provided to write an equation for each exponential function.                    Graph the Exponential     Distinguish Growth and Decay   For each problem determine if it is a case of exponential growth or decay.                       "
 },
 {
   "id": "example-graph-exponential-continous",
@@ -7639,7 +7639,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.2.3",
   "title": "",
-  "body": "  Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with g of uranium-242.   How much is left at times 16.8, 33.6, and 50.4 minutes? At time 0 we have g. At time 16.8 it will be half of the original which is g. The 1\/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again ( , 2nd half-life). Thus there will be g. At time 50.4 it will be reduced by half a third time ( ), so the amount remaining will be g.  Write a model for this decay. We can use the process from . The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is .  Graph this model. We can use the points from the first task and the method from to produce a graph.  Graph of the model as a curve with point from above labeled   The horizontal axis is labeled minutes and ranges from 0 to 168 in intervals of 16.8. The vertical axis is labeled grams and ranges from 0 to 130. Rather than being evently spaced tick marks on the vertical are double the value of the previous one starting at 8.125. The curve begins at the top left and continues down to the right leveling off above 0.   Notice the gentle decrease toward zero is to the right this time as opposed to the left in . That is because we are cutting in half each time instead of doubling.  "
+  "body": "  Uranium-242 has a half-life of 16.8 minutes. Suppose we begin with g of uranium-242.    How much is left at times 16.8, 33.6, and 50.4 minutes?  At time 0 we have g. At time 16.8 it will be half of the original which is g. The 1\/2 is an exact number so 3 significant digits is maintained. At time 33.6 it will be reduced by half again ( , 2nd half-life). Thus there will be g. At time 50.4 it will be reduced by half a third time ( ), so the amount remaining will be g.    Write a model for this decay.  We can use the process from . The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is .    Graph this model.  We can use the points from the first task and the method from to produce a graph.   Graph of the model as a curve with point from above labeled   The horizontal axis is labeled minutes and ranges from 0 to 168 in intervals of 16.8. The vertical axis is labeled grams and ranges from 0 to 130. Rather than being evently spaced tick marks on the vertical are double the value of the previous one starting at 8.125. The curve begins at the top left and continues down to the right leveling off above 0.    Notice the gentle decrease toward zero is to the right this time as opposed to the left in . That is because we are cutting in half each time instead of doubling.   "
 },
 {
   "id": "figure-exponential-half-life",
@@ -7720,7 +7720,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.2.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-exponential-read-graph1",
@@ -7747,7 +7747,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.2.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "figure-identify-rates-bar-graphs",
@@ -7765,7 +7765,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-1-4",
@@ -7774,7 +7774,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-1-5",
@@ -7783,7 +7783,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-1-6",
@@ -7792,7 +7792,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-1-7",
@@ -7801,7 +7801,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-2",
@@ -7810,7 +7810,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.6",
   "title": "Graph the Exponential.",
-  "body": "Graph the Exponential "
+  "body": " Graph the Exponential   "
 },
 {
   "id": "section-exponential-graph-6-3-3",
@@ -7819,7 +7819,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-3-4",
@@ -7828,7 +7828,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-3-5",
@@ -7837,7 +7837,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-3-6",
@@ -7846,7 +7846,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-3-7",
@@ -7855,7 +7855,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-exponential-graph-6-3-8",
@@ -7864,7 +7864,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.2.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm",
@@ -7873,7 +7873,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Logarithm Properties",
-  "body": " Logarithm Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)    The previous two sections presented exponential models, and we answered some questions about applications using these models. In order to solve more problems involving exponential models we need the logarithm which is presented here. This section presents a definition of the logarithm as well as presenting how to graph them and one application. These latter will help us understand how it works.  Historically logarithms also have a connection to drunk pigeons and a Scotsman's bones.    Definition of Logarithm  The following definition is commonly used when we are using logarithms to solve equations.   Logarithm  if and only if   This definition is simply that the logarithm is the opposite of an exponential in the same sort of way that a square root is the opposite of a square.   Each of the following is a conversion between exponential and logarithmic notation.  is the same as .  is the same as .  is the same as .       Graphing Logarithms  The purposes of this section are to become proficient with the defition through practice, and to understand the logarithm through practice and seeing its graph.   We will graph . As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.  While we would normally pick values like plug that in, producing , and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is .                                    To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.                              Notice that as promised we do not have a point with . This is because our method works only on values of that are powers of 2.  To obtain points left of we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.                               Again we produce points on the graph of the logarithm by swapping the x and y coordinates.                          These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider means . However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.  The graph of based on these points is below.   Graph of the logarithm from the table above.   The horizontal axis is labeled x and ranges from 0 to 16. The vertical axis ranges from below -4 to 4.  The points from the table above are plotted. A curve is sketched through them that begins at the bottom left and climbs up to the right becoming less steep as it goes.     Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm.  Next we consider the shape of the graph and what it tells us about logarithms. The first question is how high the logarithm curve grows. To explain this question consider below. As we look from left to right both curves are always increasing. Both curves increase by less as we go to the right. However, the lower (blue, dashed) curve levels off. That is it never increases above . We want to know if the logarithm curve ever levels off.   Graph of two always increasing curves   Graph of two curves which are both initially steep but become less steep differently   The horizontal axis is labeled x and ranges from 0 to 50. The vertical axis ranges from -3 to 3.  The blue, dashed curve climbs steeply from 0 to about 3 then turns and becomes almost level by 10. The red, solid curve climbs steeply from 0 to about 2 then reduces steepness as it climbs.      Consider the example . We know from the table above that it grows above . Consider whether it grows above . This would mean . We know it is easier to calculate this logarithm for powers of 2 so instead we consider . Does it grow above . We can use  By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., and increase forever as well).  In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.   We claimed above that the two graphs in increase more slowly as they continue to the right. The next example explains why this is true of the graph of a logarithm.   Looking at the table of points for in we note that the curve increased by 1 in height from to . The next increase of 1 in height is at . The next one is at . This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was . This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.   The final trait of the graph of a logarithm to consider is what happens as the graph goes to the left. We have already established that it is not defined for negative x values. However, the graph does not have a starting point (first point on the left). The next example illustrates the asymptotic nature of the left part of the graph.   First consider the question, is there an x value such that ? We know that . If we plug in negative values we obtain fractions, e.g., . If we use a bigger negative number (e.g., -29) we end up with a smaller fraction ( ). No matter how far we go, 0 is never the result. Because of this is not defined.  The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches ), so the logarithm curve has an asymptote to the left, namely .   Putting these traits together we realize the graph of any logarithm can be determined by the vertical asymptote and two points. This matches exponential graphs. From the left most point we draw asymptotically toward the vertical asymptote. To the right we draw with a slight increase.     Special Logarithms  Some logarithms occur sufficiently frequently in applications that they have their own notation.  Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: common logs . This is written without the base. For example is the same as .  In science and from mathematics we need another log called the natural logarithm . This is written as (for logarithm natural). Natural logarithms are paired with the base . So is the same as . is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious .     Logarithmic Scale  This section demonstrates how logarithms can be used to better analyze data. The technique is to modify how we graph, specifically how we label one axis.  Often the scales on the two axes are different. Consider the graph of in above. The x-axis is labeled 0 to 16 and the y-axis is labeled - 4 to 4. That means the x-axis, though it takes up the same length of area as the y-axis represents 16 units to the y-axis' 8 units. We do this because many graphs would otherwise be too tall or too wide to fit.  What these graphs do require is that each tick mark represents the same number of units. For example on the graph of this log, every tick mark on the x-axis represents one unit (only half are labeled). On the y-axis every tick mark represents 1\/2 unit (only half are labeled). Sometimes this requirement means it is hard to read a graph.  Consider the two graphs in . Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left (normal scale) or the version on the right (log scale)?   Comparison of Scales    Normal Scale   Graph of curve on axes with linear scale     Log Scale   Graph of curve on linear horizontal axis and logarithmic vertical axis      The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing .  When is this scale useful? Any time data is growing by a multiple rather than by an amount added. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. Consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).  Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.  Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. That is, we perceive things based on how much of a multiple they are of current condition rather than how much is added. For example, a 10 degree temperature change feels like more of change if the initial temperature is F (when it is half of the current value) than if it is F (now only one fifth of the current value).     Evaluate the Logarithms   Evaluate the logarithm using the definition or a device as directed.              Solve Logarithms   Use the definition of logarithm to solve each equation.           Application   Graph Logarithms   Graph Logarithms          "
+  "body": " Logarithm Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Read and interpret models (critical thinking)    The previous two sections presented exponential models, and we answered some questions about applications using these models. In order to solve more problems involving exponential models we need the logarithm which is presented here. This section presents a definition of the logarithm as well as presenting how to graph them and one application. These latter will help us understand how it works.  Historically logarithms also have a connection to drunk pigeons and a Scotsman's bones.    Definition of Logarithm  The following definition is commonly used when we are using logarithms to solve equations.   Logarithm  if and only if   This definition is simply that the logarithm is the opposite of an exponential in the same sort of way that a square root is the opposite of a square.   Each of the following is a conversion between exponential and logarithmic notation.  is the same as .  is the same as .  is the same as .           Graphing Logarithms  The purposes of this section are to become proficient with the defition through practice, and to understand the logarithm through practice and seeing its graph.   We will graph . As before we will begin by completing a table. Before we can fill out a table we need to figure out how we can produce points.  While we would normally pick values like plug that in, producing , and calculating, that will not work with logs. Indeed we will never calculate this particular point. Because it is easier to evaluate exponentials than logs, we will fill out a table of related exponentials then converting the points. The related exponential here is .                                    To produce points on the graph of this logarithm, we need only note that x and y reverse by our definition. The next table was constructed by swapping the x and y columns of the previous table.                              Notice that as promised we do not have a point with . This is because our method works only on values of that are powers of 2.  To obtain points left of we will need to expand the table of points for the exponential. The previous table used positive y values. So we will select negative y values this time.                               Again we produce points on the graph of the logarithm by swapping the x and y coordinates.                          These are points to the left of the previous ones. However, there are none with negative x values. To understand why consider what a negative x value implies. Consider means . However, now matter how many times we multiply positive 2 it will never be negative. Therefore negative x values do not make sense in a logarithm.  The graph of based on these points is below.   Graph of the logarithm from the table above.   The horizontal axis is labeled x and ranges from 0 to 16. The vertical axis ranges from below -4 to 4.  The points from the table above are plotted. A curve is sketched through them that begins at the bottom left and climbs up to the right becoming less steep as it goes.      Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm.   Next we consider the shape of the graph and what it tells us about logarithms. The first question is how high the logarithm curve grows. To explain this question consider below. As we look from left to right both curves are always increasing. Both curves increase by less as we go to the right. However, the lower (blue, dashed) curve levels off. That is it never increases above . We want to know if the logarithm curve ever levels off.   Graph of two always increasing curves   Graph of two curves which are both initially steep but become less steep differently   The horizontal axis is labeled x and ranges from 0 to 50. The vertical axis ranges from -3 to 3.  The blue, dashed curve climbs steeply from 0 to about 3 then turns and becomes almost level by 10. The red, solid curve climbs steeply from 0 to about 2 then reduces steepness as it climbs.      Consider the example . We know from the table above that it grows above . Consider whether it grows above . This would mean . We know it is easier to calculate this logarithm for powers of 2 so instead we consider . Does it grow above . We can use  By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., and increase forever as well).  In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.   We claimed above that the two graphs in increase more slowly as they continue to the right. The next example explains why this is true of the graph of a logarithm.   Looking at the table of points for in we note that the curve increased by 1 in height from to . The next increase of 1 in height is at . The next one is at . This is a jump of 1 then 2 then 4. Each time the distance we have to travel to see an increase in height of 1 unit doubles. This means the rate of increase was . This is a decreasing sequences, so while the logarithm increases forever, it does so increasingly slowly.   The final trait of the graph of a logarithm to consider is what happens as the graph goes to the left. We have already established that it is not defined for negative x values. However, the graph does not have a starting point (first point on the left). The next example illustrates the asymptotic nature of the left part of the graph.   First consider the question, is there an x value such that ? We know that . If we plug in negative values we obtain fractions, e.g., . If we use a bigger negative number (e.g., -29) we end up with a smaller fraction ( ). No matter how far we go, 0 is never the result. Because of this is not defined.  The calculations above also illustrated that we can get as close to zero as we want (just pick a big enough negative number). This means that just as the exponential curve has an asymptote to the left (approaches ), so the logarithm curve has an asymptote to the left, namely .   Putting these traits together we realize the graph of any logarithm can be determined by the vertical asymptote and two points. This matches exponential graphs. From the left most point we draw asymptotically toward the vertical asymptote. To the right we draw with a slight increase.       Special Logarithms  Some logarithms occur sufficiently frequently in applications that they have their own notation.  Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: common logs . This is written without the base. For example is the same as .  In science and from mathematics we need another log called the natural logarithm . This is written as (for logarithm natural). Natural logarithms are paired with the base . So is the same as . is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious .        Logarithmic Scale  This section demonstrates how logarithms can be used to better analyze data. The technique is to modify how we graph, specifically how we label one axis.  Often the scales on the two axes are different. Consider the graph of in above. The x-axis is labeled 0 to 16 and the y-axis is labeled - 4 to 4. That means the x-axis, though it takes up the same length of area as the y-axis represents 16 units to the y-axis' 8 units. We do this because many graphs would otherwise be too tall or too wide to fit.  What these graphs do require is that each tick mark represents the same number of units. For example on the graph of this log, every tick mark on the x-axis represents one unit (only half are labeled). On the y-axis every tick mark represents 1\/2 unit (only half are labeled). Sometimes this requirement means it is hard to read a graph.  Consider the two graphs in . Note they are the same data drawn with different scales. Write down coordinates for the first three points. Is it easier to be precise using the version on the left (normal scale) or the version on the right (log scale)?   Comparison of Scales    Normal Scale   Graph of curve on axes with linear scale     Log Scale   Graph of curve on linear horizontal axis and logarithmic vertical axis      The graph on the left uses the normal (linear) scale. Specifically on both the x and y axes each tick represents the same difference (add 1 unit for each tick or 2 units for each label). The graph on the right is the same data using a logarithmic scale. The x axis is still linear (same as the left), but the y axes is labeled such that each tick is the same product (multiply by 10 for each label). Basing a scale on multiplying rather than adding makes this match exponentials. It is called a log scale because it looks like graphing .  When is this scale useful? Any time data is growing by a multiple rather than by an amount added. This includes anything exponential. Recall that exponential growth means growing by a fixed percent. Signal strength in electronics is an example. Consider how much of the signal is lost as it passes through a long cable. The resistance of the cable will cause a fixed percent to be lost rather than a fixed amount. A stronger signal will lose more (but still be stronger).  Consider an electronic amplifier: a device to increase intensity of sound by increasing the power of the signal. The mechanism used multiplies the incoming signal power by some factor. This enables your media devices to send out a very weak audio signal, but the speakers to receive a lot more power which they need to move enough air to be heard. Based on this design if more than one amplifier is connected in series, each one multiplies the signal strength from the previous one.  Studies of the human brain indicate that our brains interpret sensory data using a logarithmic scale. That is, we perceive things based on how much of a multiple they are of current condition rather than how much is added. For example, a 10 degree temperature change feels like more of change if the initial temperature is F (when it is half of the current value) than if it is F (now only one fifth of the current value).     Evaluate the Logarithms   Evaluate the logarithm using the definition or a device as directed.                                Solve Logarithms   Use the definition of logarithm to solve each equation.                          Application     Graph Logarithms   Graph Logarithms                    "
 },
 {
   "id": "section-logarithm-2-2",
@@ -7909,7 +7909,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.3.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "exercise-exp-convert1",
@@ -7918,7 +7918,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.3.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-graph-log2",
@@ -7936,7 +7936,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.3.6",
   "title": "",
-  "body": "Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm. "
+  "body": " Following the previous example construct a table for , then use it to construct a table for . Finally, graph this logarithm.  "
 },
 {
   "id": "figure-level-or-not",
@@ -7981,7 +7981,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.3.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "subsection-logarithm-special-3",
@@ -8008,7 +8008,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.3.12",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "figure-logarithm-scale-example",
@@ -8026,7 +8026,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-4",
@@ -8035,7 +8035,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-5",
@@ -8044,7 +8044,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-6",
@@ -8053,7 +8053,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-7",
@@ -8062,7 +8062,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-8",
@@ -8071,7 +8071,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-9",
@@ -8080,7 +8080,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-10",
@@ -8089,7 +8089,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-1-11",
@@ -8098,7 +8098,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-2-3",
@@ -8107,7 +8107,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-2-4",
@@ -8116,7 +8116,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-2-5",
@@ -8125,7 +8125,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-2-6",
@@ -8134,7 +8134,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-2-7",
@@ -8143,7 +8143,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-2-8",
@@ -8152,7 +8152,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-2-9",
@@ -8161,7 +8161,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-3",
@@ -8170,7 +8170,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.17",
   "title": "Application.",
-  "body": "Application "
+  "body": " Application   "
 },
 {
   "id": "section-logarithm-7-4-3",
@@ -8179,7 +8179,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-4-4",
@@ -8188,7 +8188,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-4-5",
@@ -8197,7 +8197,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-4-6",
@@ -8206,7 +8206,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-logarithm-7-4-7",
@@ -8215,7 +8215,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.3.5.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve",
@@ -8224,7 +8224,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.4",
   "title": "Solving Equations Using Logarithm",
-  "body": " Solving Equations Using Logarithm   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.    Solving Equations with Exponentials  The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.   Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).   Solve .  Because the exponential is base 2, we will use a log base 2.    Your calculator likely does not have a button for calculating . We can use a property of all logarithms to solve this equation with the natural log. In general .   Solve . Round to units.   Your calculator does have a button for . Note this implies that . This relationship works for logs of any base.      Solving Equations with Logarithms  As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.   Solve . We can re-write this as which tells us that .    Solve .  First we combine the terms outside the logarithm, the we re-write that as an exponential.     Solve . Round to units.   We re-write this as an exponential.        Applications with Exponentials and Logarithms   In we produced the model . Here we will redo this problem using the model .  The bacteria lactobacilus acidophilus doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?  To use this model we must first calculate the constant . We know the amount doubles every 70 minutes, so we can start with the following. . Using this value we can now calculate the value after 24 hours. Note 24 hours is minutes.  This is kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.    Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.  Write the model for Plutonium-241. We must first calculate . We can use as an example. Thus the model is .  If a lab has 12.0g of Pu-241, how much will be left in 6 years?  We use the model from the previous step.    Note, that the example in and imply that . In particular we can convert the power of 2 to a power of e. More generally, we can write or or similar for some value of . The next example shows how we can perform this conversion.   Write as . Numbers are exact.  Thus .    pH (percent hydrogen)   Acidity is measured in pH (percent hydrogen). The calculation is where is the concentration of hydronium ions per mole. This is obtained experimentally.     A solution of hydrochloric acid has a concentration of 0.0025. Calculate its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .    What is the purpose behind defining pH using a log? What does it do, that simply giving the concentration of does not? The next example illustrates what the use of a log adds.   Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).    What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .   We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is times as strong. The log scale gives us growth as a ratio.   Moment Magnitude   Larger earthquakes today are measured and reported using the moment magnitude scale. This is calculated via where is the moment magnitude, and is the seismic moment in Newtons per meter (a measure of energy).     Based on seismic readings . What was the moment magnitude? These are rounded to one decimal place. Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .   Just as with pH, the moment magnitude seismic scale enables us to compare how much stronger one earthquake is than another. The 2\/3 means that a change of 1 is not 10 times as strong but a different ratio. Can you figure out what that ratio is?     Solve Exponential and Logarithmic Equations   Solve each equation using the definitions or devices as directed.              Applications   Use logarithms and exponentials to answer questions about these applications.                   "
+  "body": " Solving Equations Using Logarithm   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)  Read and interpret models (critical thinking)  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)    This section presents methods for solving equations that have an exponential by using the relationship with the logarithm, and also how to solve some equations with logarithms.    Solving Equations with Exponentials  The first two examples demonstrate how we can use the inverse relationship between exponentials and logarithms to solve an equation with an exponential.   Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.    Solve .  Order of operations dictates the following  Rounding here was arbitrarily chosen to be 3 decimal places, because there is no context.      The next two examples show us how to solve equations involving exponentials other than the common (base 10) or natural (base e).   Solve .  Because the exponential is base 2, we will use a log base 2.    Your calculator likely does not have a button for calculating . We can use a property of all logarithms to solve this equation with the natural log. In general .   Solve . Round to units.   Your calculator does have a button for . Note this implies that . This relationship works for logs of any base.        Solving Equations with Logarithms  As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.   Solve . We can re-write this as which tells us that .    Solve .  First we combine the terms outside the logarithm, the we re-write that as an exponential.     Solve . Round to units.   We re-write this as an exponential.           Applications with Exponentials and Logarithms   In we produced the model . Here we will redo this problem using the model .  The bacteria lactobacilus acidophilus doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?  To use this model we must first calculate the constant . We know the amount doubles every 70 minutes, so we can start with the following. . Using this value we can now calculate the value after 24 hours. Note 24 hours is minutes.  This is kilograms. Naturally, this is an unreasonable prediction. This tells us there must be other factors in bacteria growth.    Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.   Write the model for Plutonium-241.  We must first calculate . We can use as an example. Thus the model is .    If a lab has 12.0g of Pu-241, how much will be left in 6 years?   We use the model from the previous step.     Note, that the example in and imply that . In particular we can convert the power of 2 to a power of e. More generally, we can write or or similar for some value of . The next example shows how we can perform this conversion.   Write as . Numbers are exact.  Thus .    pH (percent hydrogen)   Acidity is measured in pH (percent hydrogen). The calculation is where is the concentration of hydronium ions per mole. This is obtained experimentally.      A solution of hydrochloric acid has a concentration of 0.0025. Calculate its pH.     Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.  We setup the pH calculation and solve using .     What is the purpose behind defining pH using a log? What does it do, that simply giving the concentration of does not? The next example illustrates what the use of a log adds.    Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).       What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .     We see that a change of one pH means the substance is 10 times as strong. A change of 2 pH means the substance is times as strong. The log scale gives us growth as a ratio.   Moment Magnitude   Larger earthquakes today are measured and reported using the moment magnitude scale. This is calculated via where is the moment magnitude, and is the seismic moment in Newtons per meter (a measure of energy).      Based on seismic readings . What was the moment magnitude? These are rounded to one decimal place.  Using the formula we obtain    What was the seismic moment for an earthquake with magnitude 7.1?  We setup the calculation and solve using .    Just as with pH, the moment magnitude seismic scale enables us to compare how much stronger one earthquake is than another. The 2\/3 means that a change of 1 is not 10 times as strong but a different ratio. Can you figure out what that ratio is?     Solve Exponential and Logarithmic Equations   Solve each equation using the definitions or devices as directed.                                Applications   Use logarithms and exponentials to answer questions about these applications.                                               "
 },
 {
   "id": "example-solve-exponential-algebra1",
@@ -8251,7 +8251,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-solve-exponential-no-button",
@@ -8278,7 +8278,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-log-solve-basic",
@@ -8314,7 +8314,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.4.10",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-exponential-growth-redux",
@@ -8332,7 +8332,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.4.12",
   "title": "",
-  "body": " Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.  Write the model for Plutonium-241. We must first calculate . We can use as an example. Thus the model is .  If a lab has 12.0g of Pu-241, how much will be left in 6 years?  We use the model from the previous step.   "
+  "body": " Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by . is the initial amount of material. is the amount left after units of time. is a constant that is derives from the speed how fast the material decays.   Write the model for Plutonium-241.  We must first calculate . We can use as an example. Thus the model is .    If a lab has 12.0g of Pu-241, how much will be left in 6 years?   We use the model from the previous step.    "
 },
 {
   "id": "example-convert-exponential-e",
@@ -8359,7 +8359,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.4.15",
   "title": "",
-  "body": " A solution of hydrochloric acid has a concentration of 0.0025. Calculate its pH.  Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions. We setup the pH calculation and solve using .   "
+  "body": "  A solution of hydrochloric acid has a concentration of 0.0025. Calculate its pH.     Sweat has a pH between 4.5 and 7. Suppose sweat is measured to have a pH of 5.3. Determine the concentration of ions.  We setup the pH calculation and solve using .    "
 },
 {
   "id": "example-ph-log",
@@ -8368,7 +8368,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.4.16",
   "title": "",
-  "body": " Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).    What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .  "
+  "body": "  Calculate the concentration of for pH levels of 5, 6, 7 (all within the range of human sweat).       What is the ratio of the concentration from pH of 5 to 6? of 6 to 7? of 5 to 7? This means calculate the ratios , , and .    "
 },
 {
   "id": "definition-moment-magnitude",
@@ -8386,7 +8386,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.4.18",
   "title": "",
-  "body": " Based on seismic readings . What was the moment magnitude? These are rounded to one decimal place. Using the formula we obtain  What was the seismic moment for an earthquake with magnitude 7.1? We setup the calculation and solve using .  "
+  "body": "  Based on seismic readings . What was the moment magnitude? These are rounded to one decimal place.  Using the formula we obtain    What was the seismic moment for an earthquake with magnitude 7.1?  We setup the calculation and solve using .   "
 },
 {
   "id": "section-log-solve-6-1-3",
@@ -8395,7 +8395,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-4",
@@ -8404,7 +8404,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-5",
@@ -8413,7 +8413,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-6",
@@ -8422,7 +8422,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-7",
@@ -8431,7 +8431,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-8",
@@ -8440,7 +8440,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-9",
@@ -8449,7 +8449,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-10",
@@ -8458,7 +8458,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-1-11",
@@ -8467,7 +8467,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-3",
@@ -8476,7 +8476,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-4",
@@ -8485,7 +8485,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-5",
@@ -8494,7 +8494,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-6",
@@ -8503,7 +8503,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-7",
@@ -8512,7 +8512,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-8",
@@ -8521,7 +8521,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-9",
@@ -8530,7 +8530,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-10",
@@ -8539,7 +8539,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-11",
@@ -8548,7 +8548,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-12",
@@ -8557,7 +8557,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-13",
@@ -8566,7 +8566,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-14",
@@ -8575,7 +8575,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-15",
@@ -8584,7 +8584,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-log-solve-6-2-16",
@@ -8593,7 +8593,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.4.4.23",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-activity-tod",
@@ -8602,7 +8602,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.5",
   "title": "Project: Time of Death",
-  "body": " Project: Time of Death   Estimating Time of Death   The purpose of this project is to practice reading a mathematical model, using it to calculate a result, and interpreting its features. This model involves an exponential relation.  If a person is believed to have died within a day or so of the body’s discovery, it’s possible to estimate the time of death using body temperatures. Isaac Newton’s idea was that since hot things cool much faster than cool things, the rate of cooling is more or less proportional to the temperature of the object, resulting in an exponential decay model.   Newton's Law of Cooling  The temperature at a time of a cooling object follows the function . is the ambient (or room) temperature. and are constants that depend on the object.   Suppose a forensics technician arrived at a murder scene and recorded the temperature of the surroundings as well as the body. The technician decides it is fair to assume that the room temperature has been holding steady at about 68 . A thermometer was placed in the liver of the corpse and the following table of values was recorded.   Time and Temperature   Actual Time Minutes Elapsed ( ) Temperature, , of the Body (°F)  2:00 pm 0 85.90  2:20 pm 20 85.17  2:40 pm 40 84.47  3:00 pm 60 83.78    The key to estimating time of death is to estimate , , , and in .   Recall that the technician thinks the room temp was 68 . By substituting this number and the first recording (0, 85.9) into the Cooling Equation, calculate and .  Once you know and , substitute some other data point into the equation so that is the only variable. Solve the resulting equation and round to 6 decimal places. Show your work. Remember the exponential must be isolated before you take the natural log of both sides.  Note: the number is called the cooling (or warming) constant. If an object cools, should be negative. Mathematically, looking at the equation, why should k be negative?  Using the numbers you found for , , and , write the equation for the temperature at any time .   Draw a graph of the temperature function . Completing the table of values may help you graph.     -300  -100  100  300  500  700  900    Labeled axes for plotting the points in this table.   The horizontal axis is labeled x (min) and ranges from before -300 to past 1000. The vertical axes is labeled F and ranges from about 50 to 110.     The graph of has a horizontal asymptote. What is the height of this asymptote and what does it tell you about the way corpses cool?  Notice that this equation deviates from reality if the -value goes too far negative. Generally speaking, (no numbers required), at what point does the model no longer work? What in reality gives us an indication that we’ve taken it too far?  Assuming that the temperature of the person at the time of death (TOD) was 98.6 , set up a TOD equation using the values of , , and you’ve calculated. Then, solve the equation using the same logarithm method you used to solve for .  Write your answer as a time, not just as minutes. Recall that when , the time is 2:00 PM.  When a forensic expert determines time of death, they often have additional information besides body temperature. Suppose a coroner finds that the person who was murdered had an infection that probably raised the core body temperature to around 102 . Using the same cooling constant, ambient room temperature, and temperature data as in and , make a new estimate for the time of death.  Again, write your answer as a time, not just as minutes.   "
+  "body": " Project: Time of Death   Estimating Time of Death   The purpose of this project is to practice reading a mathematical model, using it to calculate a result, and interpreting its features. This model involves an exponential relation.  If a person is believed to have died within a day or so of the body’s discovery, it’s possible to estimate the time of death using body temperatures. Isaac Newton’s idea was that since hot things cool much faster than cool things, the rate of cooling is more or less proportional to the temperature of the object, resulting in an exponential decay model.   Newton's Law of Cooling  The temperature at a time of a cooling object follows the function . is the ambient (or room) temperature. and are constants that depend on the object.   Suppose a forensics technician arrived at a murder scene and recorded the temperature of the surroundings as well as the body. The technician decides it is fair to assume that the room temperature has been holding steady at about 68 . A thermometer was placed in the liver of the corpse and the following table of values was recorded.   Time and Temperature   Actual Time Minutes Elapsed ( ) Temperature, , of the Body (°F)  2:00 pm 0 85.90  2:20 pm 20 85.17  2:40 pm 40 84.47  3:00 pm 60 83.78    The key to estimating time of death is to estimate , , , and in .    Recall that the technician thinks the room temp was 68 . By substituting this number and the first recording (0, 85.9) into the Cooling Equation, calculate and .    Once you know and , substitute some other data point into the equation so that is the only variable. Solve the resulting equation and round to 6 decimal places. Show your work. Remember the exponential must be isolated before you take the natural log of both sides.    Note: the number is called the cooling (or warming) constant. If an object cools, should be negative. Mathematically, looking at the equation, why should k be negative?    Using the numbers you found for , , and , write the equation for the temperature at any time .     Draw a graph of the temperature function . Completing the table of values may help you graph.     -300  -100  100  300  500  700  900    Labeled axes for plotting the points in this table.   The horizontal axis is labeled x (min) and ranges from before -300 to past 1000. The vertical axes is labeled F and ranges from about 50 to 110.       The graph of has a horizontal asymptote. What is the height of this asymptote and what does it tell you about the way corpses cool?    Notice that this equation deviates from reality if the -value goes too far negative. Generally speaking, (no numbers required), at what point does the model no longer work? What in reality gives us an indication that we’ve taken it too far?    Assuming that the temperature of the person at the time of death (TOD) was 98.6 , set up a TOD equation using the values of , , and you’ve calculated. Then, solve the equation using the same logarithm method you used to solve for .  Write your answer as a time, not just as minutes. Recall that when , the time is 2:00 PM.    When a forensic expert determines time of death, they often have additional information besides body temperature. Suppose a coroner finds that the person who was murdered had an infection that probably raised the core body temperature to around 102 . Using the same cooling constant, ambient room temperature, and temperature data as in and , make a new estimate for the time of death.  Again, write your answer as a time, not just as minutes.    "
 },
 {
   "id": "project-time-of-death",
@@ -8611,7 +8611,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "12",
   "title": "Estimating Time of Death.",
-  "body": " Estimating Time of Death   The purpose of this project is to practice reading a mathematical model, using it to calculate a result, and interpreting its features. This model involves an exponential relation.  If a person is believed to have died within a day or so of the body’s discovery, it’s possible to estimate the time of death using body temperatures. Isaac Newton’s idea was that since hot things cool much faster than cool things, the rate of cooling is more or less proportional to the temperature of the object, resulting in an exponential decay model.   Newton's Law of Cooling  The temperature at a time of a cooling object follows the function . is the ambient (or room) temperature. and are constants that depend on the object.   Suppose a forensics technician arrived at a murder scene and recorded the temperature of the surroundings as well as the body. The technician decides it is fair to assume that the room temperature has been holding steady at about 68 . A thermometer was placed in the liver of the corpse and the following table of values was recorded.   Time and Temperature   Actual Time Minutes Elapsed ( ) Temperature, , of the Body (°F)  2:00 pm 0 85.90  2:20 pm 20 85.17  2:40 pm 40 84.47  3:00 pm 60 83.78    The key to estimating time of death is to estimate , , , and in .   Recall that the technician thinks the room temp was 68 . By substituting this number and the first recording (0, 85.9) into the Cooling Equation, calculate and .  Once you know and , substitute some other data point into the equation so that is the only variable. Solve the resulting equation and round to 6 decimal places. Show your work. Remember the exponential must be isolated before you take the natural log of both sides.  Note: the number is called the cooling (or warming) constant. If an object cools, should be negative. Mathematically, looking at the equation, why should k be negative?  Using the numbers you found for , , and , write the equation for the temperature at any time .   Draw a graph of the temperature function . Completing the table of values may help you graph.     -300  -100  100  300  500  700  900    Labeled axes for plotting the points in this table.   The horizontal axis is labeled x (min) and ranges from before -300 to past 1000. The vertical axes is labeled F and ranges from about 50 to 110.     The graph of has a horizontal asymptote. What is the height of this asymptote and what does it tell you about the way corpses cool?  Notice that this equation deviates from reality if the -value goes too far negative. Generally speaking, (no numbers required), at what point does the model no longer work? What in reality gives us an indication that we’ve taken it too far?  Assuming that the temperature of the person at the time of death (TOD) was 98.6 , set up a TOD equation using the values of , , and you’ve calculated. Then, solve the equation using the same logarithm method you used to solve for .  Write your answer as a time, not just as minutes. Recall that when , the time is 2:00 PM.  When a forensic expert determines time of death, they often have additional information besides body temperature. Suppose a coroner finds that the person who was murdered had an infection that probably raised the core body temperature to around 102 . Using the same cooling constant, ambient room temperature, and temperature data as in and , make a new estimate for the time of death.  Again, write your answer as a time, not just as minutes.  "
+  "body": " Estimating Time of Death   The purpose of this project is to practice reading a mathematical model, using it to calculate a result, and interpreting its features. This model involves an exponential relation.  If a person is believed to have died within a day or so of the body’s discovery, it’s possible to estimate the time of death using body temperatures. Isaac Newton’s idea was that since hot things cool much faster than cool things, the rate of cooling is more or less proportional to the temperature of the object, resulting in an exponential decay model.   Newton's Law of Cooling  The temperature at a time of a cooling object follows the function . is the ambient (or room) temperature. and are constants that depend on the object.   Suppose a forensics technician arrived at a murder scene and recorded the temperature of the surroundings as well as the body. The technician decides it is fair to assume that the room temperature has been holding steady at about 68 . A thermometer was placed in the liver of the corpse and the following table of values was recorded.   Time and Temperature   Actual Time Minutes Elapsed ( ) Temperature, , of the Body (°F)  2:00 pm 0 85.90  2:20 pm 20 85.17  2:40 pm 40 84.47  3:00 pm 60 83.78    The key to estimating time of death is to estimate , , , and in .    Recall that the technician thinks the room temp was 68 . By substituting this number and the first recording (0, 85.9) into the Cooling Equation, calculate and .    Once you know and , substitute some other data point into the equation so that is the only variable. Solve the resulting equation and round to 6 decimal places. Show your work. Remember the exponential must be isolated before you take the natural log of both sides.    Note: the number is called the cooling (or warming) constant. If an object cools, should be negative. Mathematically, looking at the equation, why should k be negative?    Using the numbers you found for , , and , write the equation for the temperature at any time .     Draw a graph of the temperature function . Completing the table of values may help you graph.     -300  -100  100  300  500  700  900    Labeled axes for plotting the points in this table.   The horizontal axis is labeled x (min) and ranges from before -300 to past 1000. The vertical axes is labeled F and ranges from about 50 to 110.       The graph of has a horizontal asymptote. What is the height of this asymptote and what does it tell you about the way corpses cool?    Notice that this equation deviates from reality if the -value goes too far negative. Generally speaking, (no numbers required), at what point does the model no longer work? What in reality gives us an indication that we’ve taken it too far?    Assuming that the temperature of the person at the time of death (TOD) was 98.6 , set up a TOD equation using the values of , , and you’ve calculated. Then, solve the equation using the same logarithm method you used to solve for .  Write your answer as a time, not just as minutes. Recall that when , the time is 2:00 PM.    When a forensic expert determines time of death, they often have additional information besides body temperature. Suppose a coroner finds that the person who was murdered had an infection that probably raised the core body temperature to around 102 . Using the same cooling constant, ambient room temperature, and temperature data as in and , make a new estimate for the time of death.  Again, write your answer as a time, not just as minutes.   "
 },
 {
   "id": "section-trig-functions",
@@ -8620,7 +8620,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Ratios",
-  "body": " Trigonometric Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    presented areas of triangles and a relationship between the three sides of a right triangle. This section and the following ones present relationships between angles of triangles and the lengths of their sides.    Angle Relationships in Triangles  The states a relationship between the side lengths of all right triangles. There is also a relationship between the three angles of all (not just right) triangles.   Triangle Angle Sum  The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know the measure of one angle is (right angle) and the measure of another angle is . Thus the third angle must satisfy    For a right triangle each of the other two angles have measure less than a right angle. This is a result of the theorem. so the remaining two angles have a sum that adds to . This implies both non-right angles are smaller than a right angle.    Defining Trig Functions  This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.  For right triangles we have names for the sides. Consider the labels in . These names are relative to the particular non-right angles with which we are working. In this case it is the one labeled . The adjacent is the side that connects the angle and the right angle. The opposite is the side touching the right angle but not touching the angle ( ). Both the adjacent and opposite sides are known as legs of the right triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology   Right triangle illustrating terms defined above     Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.   The trigonometric functions are defined below as ratios of side lengths. We will use only the first three in this text.   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths   Right triangle with side lengths labeled   The hypotenuse has length . The angle on the right side of the hypotenuse is . The length of the side to the right is 3. The angle on the left side of the hypotenuse is . The length of the side on the left is 5.      Given the side lengths in what are each of the following trig ratios?  From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus  From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus     Solving Triangles  Now that we have defined trigonometric functions, we can use them to analyze triangles. The goal is to calculate all of the side lengths and\/or angles given only some of them.   For a right triangle with angle and corresponding opposite side of length 7, what are the other side lengths and angles?  First, we know that two of the angles are and , so the third angle has measure .  To calculate the length of the hypotenuse recall that . We know the angle and the length of the opposite. The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent. The adjacent has length 5.87.  Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.      Calculating lengths using trig functions  This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.  First, we define terminology we need to describe the applications.   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    Illustrations of Angles of Elevation and Depression   Image of a person looking from a balcony on one side of a street at the building across the street   The observer is on a balcony on the second story of a building. There is a horizontal line from the viewer across to the building on the other side of the street. There is another line from the observer to the top of the building across the street. The angle between the horizontal and the view of the top is labeled angle of elevation.  A third line goes from the observer to the bottom of the building across the street. The angle between the horizontal and the bottom of the building is labeled angle of depression.     For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and\/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.   For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall? We can measure a tenth of a foot but not very easily measure a hundredth of a foot, especially for placing a ladder.  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   Sketch of the ladder against a wall described above.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length of the side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall.  Why round to one decimal place? A hundredth of a foot is much less than an inch. This would make no difference in any application. Rounding to the nearest foot (units) would ignore as much as a half foot which could make a difference.    We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.    Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The sun casting a shadow of a tree on the ground with measurements labeled   The sun casts a shadow of a tree on the ground. The distance from the top of the shadow to the base of the tree is measured to be 103 ft (this is the length of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.  The tree, shadow, and line to the sun form a right triangle with angle 63 , and an adjacent side length of 103 ft. The height of the tree is the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high.   Just as in and trigonometric functions and their inverses can be calculated to preserve the same number of significant digits.   Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold? Round to the nearest foot, because aircraft cannot be controlled sufficiently precisely for greater precision to matter here.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold.       Limitations on Triangle Side Lengths  We should always check that results of calculations make sense. This section presents limitations on triangles we can use for these reality checks.  It is possible to define the trigonometric functions as ratios of sides, because there is a connection between how big an angle is, and how big the side across from it must be. The following activity illustrates how the three main trigonometric functions change as the angle increases or decreases because of this connection between angle measure and length of sides.   This activity has two steps. First notice the relationship between the how big an angle is and how long the side opposite that angle is. Second notice how the trig functions change as a result of this first fact. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    While angle size and triangle side length is connected, we can always scale a triangle (e.g., make it twice as large) without changing the angles and hence not changing the trig function values. This is why the trig functions are defined as ratios: the scale is divided out.  Another way to look at this is to recall similar triangles ( ). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle opposite from the side of length 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).    Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?  If is the angle opposite from the side of length 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , call it . Putting these together gives us the following. The last line is included to show how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .   The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.   Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.   For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?  For a right triangle with the longest leg of length 4, how small can the hypotenuse become?      Angle Sum and Pythagorean Theorem  Use the Pythagorean Theorem and angle sum fact to calculate requested information.        Trigonmetric Function Definition  Use the ratio definitions of trigonometric functions to answer these questions.        Solving Right Triangles  Calculate side lengths and angles using trigonometric functions.          Applications  Identify a triangle in each problem then select an appropriate trigonometric function to answer these application questions.                     Quantitative Literacy   Use your knowledge about trigonometric functions and other math to answer these questions.      "
+  "body": " Trigonometric Ratios   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    presented areas of triangles and a relationship between the three sides of a right triangle. This section and the following ones present relationships between angles of triangles and the lengths of their sides.    Angle Relationships in Triangles  The states a relationship between the side lengths of all right triangles. There is also a relationship between the three angles of all (not just right) triangles.   Triangle Angle Sum  The sum of the angles of any triangle is .    If two angles of a triangle are and what is the other angle?  The third angle must satisfy    If one angle of a right triangle is what is the other angle?  We know the measure of one angle is (right angle) and the measure of another angle is . Thus the third angle must satisfy       For a right triangle each of the other two angles have measure less than a right angle. This is a result of the theorem. so the remaining two angles have a sum that adds to . This implies both non-right angles are smaller than a right angle.    Defining Trig Functions  This section presents the trigonometric functions and demonstrates that they make sense. First, we need terminology with which to describe right triangles.  For right triangles we have names for the sides. Consider the labels in . These names are relative to the particular non-right angles with which we are working. In this case it is the one labeled . The adjacent is the side that connects the angle and the right angle. The opposite is the side touching the right angle but not touching the angle ( ). Both the adjacent and opposite sides are known as legs of the right triangle. The hypotenuse is opposite the right angle (the one side not touching it).   Right Triangle Terminology   Right triangle illustrating terms defined above     Consider the triangle in . With respect to the angle the adjacent side is the one with length 5, and the opposite side is the one with length 3.  With respect to the angle the adjacent side is the one with length 3, and the opposite side is the one with length 5.   The trigonometric functions are defined below as ratios of side lengths. We will use only the first three in this text.   Trig Functions as Ratios   sine  cosine  tangent  secant  cosecant  cotangent     Right Triangle with Side Lengths   Right triangle with side lengths labeled   The hypotenuse has length . The angle on the right side of the hypotenuse is . The length of the side to the right is 3. The angle on the left side of the hypotenuse is . The length of the side on the left is 5.      Given the side lengths in what are each of the following trig ratios?    From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus     From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus     flips the ratio of (from the previous problem). Thus     From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus      Solving Triangles  Now that we have defined trigonometric functions, we can use them to analyze triangles. The goal is to calculate all of the side lengths and\/or angles given only some of them.   For a right triangle with angle and corresponding opposite side of length 7, what are the other side lengths and angles?  First, we know that two of the angles are and , so the third angle has measure .  To calculate the length of the hypotenuse recall that . We know the angle and the length of the opposite. The hypotenuse has length 9.13. Now that we know two sides we can use the Pythagorean Theorem to calculate the length of the adjacent. The adjacent has length 5.87.  Rounding was arbitrarily chosen to be two (2) decimal places, because we have no context.         Calculating lengths using trig functions  This section demonstrates using trigonometric functions to calculate lengths in an application when we know an angle and a side length.  First, we define terminology we need to describe the applications.   Angle of Elevation  The angle of elevation of an object or observation is the angle measured from level (often the ground) up to the object (or line of sight).    Angle of Depression  The angle of depression of an object or observation is the angle measured from level down to the object (or line of sight).    Illustrations of Angles of Elevation and Depression   Image of a person looking from a balcony on one side of a street at the building across the street   The observer is on a balcony on the second story of a building. There is a horizontal line from the viewer across to the building on the other side of the street. There is another line from the observer to the top of the building across the street. The angle between the horizontal and the view of the top is labeled angle of elevation.  A third line goes from the observer to the bottom of the building across the street. The angle between the horizontal and the bottom of the building is labeled angle of depression.     For all of these applications our first task is to recognize a right triangle in the problem. We must also identify what the two legs and\/or the hypotenuse are in the application. Then we can set up an equation using a trigonometric function, and use the equation to calculate something.   For safety reasons the optimal angle of elevation of a ladder is 75 . If the ladder is 16 ft long, at what height will the top of the ladder be resting against a wall? We can measure a tenth of a foot but not very easily measure a hundredth of a foot, especially for placing a ladder.  First, it is often useful to sketch an image. This makes it easier to identify triangles or other shapes. Note the sketch does not need to be artistic.   Sketch of the ladder against a wall described above.   We notice that the ladder forms the hypotenuse of a right triangle with the ground and the wall. Next we identify details. We know an angle (75 angle of elevation from the ground) and the length of the hypotenuse (length of the ladder). We want the length of the side opposite the angle (height along the wall). From this information (opposite, hypotenuse, angle) we can recognize the need for the sine function.  Thus the top of the ladder is 15.5 feet up the wall.  Why round to one decimal place? A hundredth of a foot is much less than an inch. This would make no difference in any application. Rounding to the nearest foot (units) would ignore as much as a half foot which could make a difference.    We may also wish to know how far from the wall to place the bottom of the ladder. That is calculating the length of the side adjacent to the angle of elevation, so we use the cosine function.  Thus we place the ladder a little more than 4 feet from the wall.  If we had already calculated the height up the wall (previous example) we could also use the Pythagorean Theorem.  This is quite close to the previous solution, specifically the difference is too small to effect ladder placement. The difference is the result of using the 15.45 length which was rounded.    Measuring the heights of tall objects is a use of trigonometry that has been around for millenia.  We want to determine the height of a tree, but dropping a measuring tape from the top is impractical. Instead we can use its shadow, which being on the ground, is easier to access.   The sun casting a shadow of a tree on the ground with measurements labeled   The sun casts a shadow of a tree on the ground. The distance from the top of the shadow to the base of the tree is measured to be 103 ft (this is the length of the shadow). From the end of the shadow the angle of elevation to the sun is measured to be 63 . How tall is the tree? Round using significant digits because this is based on measurements. We do not want to claim a precision about the height which is not valid.  The tree, shadow, and line to the sun form a right triangle with angle 63 , and an adjacent side length of 103 ft. The height of the tree is the length of the opposite leg. Because we know the adjacent and want the opposite we use the tangent function. The tree is approximately 200 feet high.   Just as in and trigonometric functions and their inverses can be calculated to preserve the same number of significant digits.   Aircraft typically fly a 3 angle of depression to a point 1020 ft past the start of the runway. How high would the plane be when it crosses the runway threshhold? Round to the nearest foot, because aircraft cannot be controlled sufficiently precisely for greater precision to matter here.  This is a right triangle with adjacent leg length 1020 ft and angle 3 . The length of the opposite is the height at the threshold.          Limitations on Triangle Side Lengths  We should always check that results of calculations make sense. This section presents limitations on triangles we can use for these reality checks.  It is possible to define the trigonometric functions as ratios of sides, because there is a connection between how big an angle is, and how big the side across from it must be. The following activity illustrates how the three main trigonometric functions change as the angle increases or decreases because of this connection between angle measure and length of sides.   This activity has two steps. First notice the relationship between the how big an angle is and how long the side opposite that angle is. Second notice how the trig functions change as a result of this first fact. Use the activity in  Use the slider for to increase the angle from to . As the angle increases what does the length of the opposite side (j) do?  Use the slider for to increase the angle from to . As the angle increases what does the length of the adjacent side (j) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of opposite to hypotenuse (j\/g) do?  Note that the hypotenuse does not change in this example. Based on your result in , as the angle increases what will the ratio of adjacent to hypotenuse (i\/g) do?  Based on your result in and , as the angle increases what will the ratio of opposite to adjacent (j\/i) do?    Sides vs Angles    While angle size and triangle side length is connected, we can always scale a triangle (e.g., make it twice as large) without changing the angles and hence not changing the trig function values. This is why the trig functions are defined as ratios: the scale is divided out.  Another way to look at this is to recall similar triangles ( ). The ratios between corresponding sides of two, similar triangles is fixed (all three ratios are the same value). This means ratios of sides of one triangle will be the same as ratios of sides of the other triangle: one will be expressed in non-reduced form. The next examples illustrate this idea.   Consider a right triangle with side lengths 8, 15, and 17. If is the angle opposite from the side of length 8, then .  Next consider a right triangle with side lengths 16, 30, and 34. If is the angle across from 16, then . This is the same ratio as the previous triangle although the triangle is larger (double in each side length).    Consider the right triangle with side lengths 8, 15, and 17. If we scale this triangle until the side of length 8 is now length 40, what are the other side lengths?  If is the angle opposite from the side of length 8 in the original triangle, then . Scaling the triangle does not change the angles, so the new triangle has an angle with the same angle measure as , call it . Putting these together gives us the following. The last line is included to show how the hypotenuse is scaled the same way the opposite leg is. We could use tangent to show the other leg is also scaled by 5, that is the adjacent leg will be length .   The tells us that if we know two sides of a right triangle, the length of the third side is already determined. This means there are restrictions on the side lengths from which a right triangle can be assembled.   Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.    For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?    For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?    For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?    For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?    For a right triangle with the longest leg of length 4, how small can the hypotenuse become?       Angle Sum and Pythagorean Theorem  Use the Pythagorean Theorem and angle sum fact to calculate requested information.                Trigonmetric Function Definition  Use the ratio definitions of trigonometric functions to answer these questions.                Solving Right Triangles  Calculate side lengths and angles using trigonometric functions.                      Applications  Identify a triangle in each problem then select an appropriate trigonometric function to answer these application questions.                                                       Quantitative Literacy   Use your knowledge about trigonometric functions and other math to answer these questions.        "
 },
 {
   "id": "theorem-triangle-angle-sum",
@@ -8656,7 +8656,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.4",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "subsection-trig-ratios-defined-3",
@@ -8710,7 +8710,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "7.1.9",
   "title": "",
-  "body": " Given the side lengths in what are each of the following trig ratios?  From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus  From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus  flips the ratio of (from the previous problem). Thus  From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus  "
+  "body": " Given the side lengths in what are each of the following trig ratios?    From the perspective of , the opposite side has length 3. The hypotenuse has length . Thus     From the perspective of , the adjacent side has length 5. The hypotenuse has length . Thus     flips the ratio of (from the previous problem). Thus     From the perspective of , the opposite side has length 5. The hypotenuse has length . Thus   "
 },
 {
   "id": "example-triangle-solve4",
@@ -8728,7 +8728,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.11",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "definition-angle-elevation",
@@ -8800,7 +8800,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.1.19",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "activity-angle-side-relation",
@@ -8845,7 +8845,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "14",
   "title": "Considering the Shortest Hypotenuse.",
-  "body": " Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.   For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?  For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?  For a right triangle with the longest leg of length 4, how small can the hypotenuse become?  "
+  "body": " Considering the Shortest Hypotenuse   By calculating the sides of a triangle, we will recognize a limitation on how small a hypotenuse can be relative to either leg. Treat all numbers as exact. Do not round.    For a right triangle with a leg of length 4 and hypotenuse of length 5, what is the length of the other leg?    For a right triangle with a leg of length 4 and hypotenuse of length 4.5, what is the length of the other leg?    For a right triangle with a leg of length 4 and hypotenuse of length 4.1, what is the length of the other leg?    For a right triangle with a leg of length 4 and hypotenuse of length 3.5, what is the length of the other leg?    For a right triangle with the longest leg of length 4, how small can the hypotenuse become?   "
 },
 {
   "id": "section-trig-functions-8-1-3",
@@ -8854,7 +8854,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-1-4",
@@ -8863,7 +8863,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-1-5",
@@ -8872,7 +8872,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-1-6",
@@ -8881,7 +8881,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-2-3",
@@ -8890,7 +8890,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-2-4",
@@ -8899,7 +8899,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-2-5",
@@ -8908,7 +8908,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-2-6",
@@ -8917,7 +8917,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-3-3",
@@ -8926,7 +8926,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-3-4",
@@ -8935,7 +8935,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-3-5",
@@ -8944,7 +8944,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-3-6",
@@ -8953,7 +8953,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-3-7",
@@ -8962,7 +8962,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-3-8",
@@ -8971,7 +8971,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-3",
@@ -8980,7 +8980,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-4",
@@ -8989,7 +8989,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-5",
@@ -8998,7 +8998,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-6",
@@ -9007,7 +9007,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-7",
@@ -9016,7 +9016,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.19",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-8",
@@ -9025,7 +9025,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.20",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-9",
@@ -9034,7 +9034,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.21",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-10",
@@ -9043,7 +9043,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.22",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-11",
@@ -9052,7 +9052,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.23",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-12",
@@ -9061,7 +9061,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.24",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-13",
@@ -9070,7 +9070,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.25",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-14",
@@ -9079,7 +9079,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.26",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-15",
@@ -9088,7 +9088,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.27",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-16",
@@ -9097,7 +9097,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.28",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-17",
@@ -9106,7 +9106,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.29",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-18",
@@ -9115,7 +9115,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.30",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-4-19",
@@ -9124,7 +9124,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.31",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-functions-8-5-3",
@@ -9133,7 +9133,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.1.6.32",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig",
@@ -9142,7 +9142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Inverse Trigonometric Relationships",
-  "body": " Inverse Trigonometric Relationships   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    The previous section presented relationships between side lengths and angles and presented solving problems where we know an angle. This section presents examples where we have side lengths and desire to know an angle.    Inverse Trigonometric Functions  The trigonometric functions presented above provide a side ratio given an angle. It is also possible to calculate the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Function Inverse Function       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . As a result that notation will not be used in this text.   What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles. The roles of adjacent and opposite switch for the two angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.      Solving Triangles  With inverse trigonometric functions we can calculate all side lengths and all angles starting with just side lengths.   A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.     A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.       Calculating angles using trig functions  This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.   If the gnomon of a sundial (L shaped piece that casts a shadow) is 89 mm tall, and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.   Sundial with shadow cast by sun and lengths labeled   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. .    An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent? Round to units, because aircraft instruments are not more precise.  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. .       Solving Triangles   Calculate side lengths and angles using trigonometric functions.        Applications   Use inverse trigonometric functions to answer these questions.          Quantitative Literacy   Use inverse trigonometric functions to answer these practical questions.      "
+  "body": " Inverse Trigonometric Relationships   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze right triangles (skill)  Identify properties of sine and cosine functions (skill)    The previous section presented relationships between side lengths and angles and presented solving problems where we know an angle. This section presents examples where we have side lengths and desire to know an angle.    Inverse Trigonometric Functions  The trigonometric functions presented above provide a side ratio given an angle. It is also possible to calculate the angle given a side ratio. We use the so called inverse trigonometric functions for this. There are two common notations for them which are shown in .   Inverse Trigonometric Functions   Function Inverse Function       Note the notation shows up on calculator keys and in many books. It is unfortunately easy to confuse with . As a result that notation will not be used in this text.   What is the measure of both non-right angles in ? Use technology to calculate.  We can use the arcsine function. .  We can also use the arccosine function. .    A right triangle has legs of lengths 4 and 8. What are the measures of the non-right angles?  Because we have the two legs, we can use the arctangent function to calculate the angles. The roles of adjacent and opposite switch for the two angles.  Because we have two legs, we can use the Pythagorean Theorem to calculate the third side length, then use arcsine.  Notice that the larger angle is slightly different from the first solution. This is the result of using the approximate hypotenuse.         Solving Triangles  With inverse trigonometric functions we can calculate all side lengths and all angles starting with just side lengths.   A right triangle has a leg of length 12 and the hypotenuse has length 13, what is the length of the other leg? What are the measures of the angles?  We know lengths of two sides so we can apply the Pythagorean Theorem to calculate the length of the third side.  For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle.  For the angle opposite the side of length 5, we can now use the angle sum theorem. The angle measure is approximate, because we rounded the result of the inverse sine calculation. Rounding to units here was arbitrarily chosen because we do not have a context.     A right triangle has legs of length 14 and 48.     What is the length of the other side?    The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.      What are the measures of the angles?    For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.          Calculating angles using trig functions  This section demonstrates how to calculate the angles when we know the side lengths of a right triangle.   If the gnomon of a sundial (L shaped piece that casts a shadow) is 89 mm tall, and the shadow the sun casts on the sundial is mm long, what is the angle of elevation of the sun? These are measurements, so use significant digits.   Sundial with shadow cast by sun and lengths labeled   The gnomon and surface form the legs of a right triangle. This means we can use the inverse tangent to calculate the angle. With respect to the angle of the sun, the surface is the adjacent and the gnomon is the opposite. .    An airliner is at 13,000 feet MSL and is cleared to descend to 9,000 feet MSL. This descent will be accomplished over 22 nm. What is the angle of descent? Round to units, because aircraft instruments are not more precise.  First, we will need to convert 22 nm to feet. The unit conversions in suggest we can multiply .  The 133,672 ft is the length of the adjacent side. The length of the opposite side is the change in altitude which is 13,000 9,000 = 4,000 ft. Because the horizontal and vertical components are legs of a right triangle, we can use the inverse tangent function to calculate the angle. The horizontal change is the adjacent side, and the vertical change is the opposite side. .         Solving Triangles   Calculate side lengths and angles using trigonometric functions.              Applications   Use inverse trigonometric functions to answer these questions.                    Quantitative Literacy   Use inverse trigonometric functions to answer these practical questions.        "
 },
 {
   "id": "table-arctrig-names",
@@ -9178,7 +9178,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.2.4",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-triangle-solve1",
@@ -9196,7 +9196,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "7.2.6",
   "title": "",
-  "body": "  A right triangle has legs of length 14 and 48.    What is the length of the other side?   The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.    What are the measures of the angles?   For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.   "
+  "body": "  A right triangle has legs of length 14 and 48.     What is the length of the other side?    The other side is the hypotenuse. We can calculate it using the Pythagorean theorem.      What are the measures of the angles?    For the angle opposite the side of length 14 because we know the lengths of both legs, we can use We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.  For the other angle we can use the angle sum theorem.    "
 },
 {
   "id": "exercise-trig-solve1",
@@ -9205,7 +9205,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.2.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "example-calculate-angle-sun",
@@ -9232,7 +9232,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.2.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-1-3",
@@ -9241,7 +9241,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-1-4",
@@ -9250,7 +9250,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-1-5",
@@ -9259,7 +9259,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-2-3",
@@ -9268,7 +9268,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-2-4",
@@ -9277,7 +9277,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-2-5",
@@ -9286,7 +9286,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-2-6",
@@ -9295,7 +9295,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-2-7",
@@ -9304,7 +9304,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-inverse-trig-6-3-3",
@@ -9313,7 +9313,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.2.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws",
@@ -9322,7 +9322,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Non-Right Triangles",
-  "body": " Non-Right Triangles   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze non-right triangles (skill)    In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.  The one relationship that did not require a right angle is the Theorem.    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle   Triangle with sides and angles labeled   The angles are labeled A, B, and C. The sides opposite angle A, B, and C are labeled a, b, and c respectively.      A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.  What is the length of the side opposite the angle? Because we know two angles and a side opposite one of them we can use the law of sines.   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.   For triangle congruency this was known as Angle-Angle-Side.     A triangle has two angles with measure 40 and 60.20 . The side between these two angles has length 7.66.  What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.  The third angle measure is the easiest to calculate, because we can use the angle sum theorem. . Thus .  Now we know an angle ( ) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.  .  We calculate the third side the same way. .  If you recall triangle geometry this was known as Angle-Side-Angle.    The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.   Experiment to Demonstrate the Angle\/Opposite Side Relationship      Use the illustration above to answer the questions below.   Use the slider to set the angle to about 10 . What happens to the length of the opposite side as you increase the angle to 170 ?  Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles? What must be happening to each of the other two angles?  In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step. Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.     Ambiguous Triangles  Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?  We can try to use the Law of Sines. Using the triangle angle sum theorem we learn the other angle measure. or . We use the Law of Sines again to calculate the length of the final side. This gives us a triangle with angles: 45 , 62.11 , and 72.89 ; and with side lengths: 4, 5, and 5.41.  However, , that is, had multiple possible angles. We will repeat the calulcations above using as the second angle. The third angle is or .  Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.  If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.    Two Possible Triangles    Acute triangle from above with side lengths 4, 5, and 5.41    Obtuse triangle from above with side lengths 4, 5, and 1.66     When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.    Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again. Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. so .  For triangle congruency this was known as Side-Side-Side.    A triangle has sides with lengths 5 and 7 and the angle between them is 40 . What are the length of the other side and the measures of the other angles?  Because we have two sides ( ) and the angle between them ( ) we can use the Law of Cosines. Now that we know a side and the angle opposite it, we can use the Law of Sines to calculate the remaining two angles. Finally we can use the triangle angle sum theorem to calculate the final angle. so .  For triangle congruency this was known as Side-Angle-Side.      Using Trigonometric Laws in Applications  When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.   A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.  First, it helps to sketch an image.   Triangle representing the route of this sailboat   In our sketch we see a non-right triangle. We know the lengths of two sides, and we want the length of the third side (distance from original location). From the headings we can calculate the angle between the two sides of known length. This provides side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of third side).  We are given the headings for two segments but not an angle. The angle representing the amount of the turn is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.    Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00 from horizontal. The observer at point B recorded an angle of 34.20 from horizontal. How high above ground was the aircraft?  First, it helps to sketch an image.   Diagram showing relative position of two observers and an airplane   A line connects observer A to the airplane. The angle of inclination is labeled as 8.00 . To the right a line connects observer B to the airplane. The angle of inclination is labeled 34.20 . The distance between them is labeled 2.3 miles. To the right of B is a point directly below the airplane labeled C. A dashed line connects it to the airplane and is labeled h.    How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.  In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle with vertices B, C, and the airplane. Initially we know only the bottom angles (34.20 and the right angle) and none of the lengths. If we can calculate the length of the side from B to the airplane (on the left), then we could use the angles and that side length with the Law of Sines to calculate the height.  That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we have angle-side-angle information, so we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular  To calculate the angle at the plane (labeled above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is . Now, b So, the angle at the aircraft is .  Now we can apply the Law of Sines. .  We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height. . This is in miles. It will be easier to interpret in feet. The conversion ratio in suggests we can multiply .      Solving Triangles   Use the trigonometric laws to calculate side lengths and angles.             Applications   Identify triangles in these applications and use trigonometric laws to answer these questions.               "
+  "body": " Non-Right Triangles   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Analyze non-right triangles (skill)    In we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.  The one relationship that did not require a right angle is the Theorem.    Law of Sines  In we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.   Law of Sines  For a triangle with angles and sides as labeled in ,     Labeled Triangle   Triangle with sides and angles labeled   The angles are labeled A, B, and C. The sides opposite angle A, B, and C are labeled a, b, and c respectively.      A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.   What is the length of the side opposite the angle?  Because we know two angles and a side opposite one of them we can use the law of sines.     What is the third angle and the length of the side opposite it?  We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.    For triangle congruency this was known as Angle-Angle-Side.     A triangle has two angles with measure 40 and 60.20 . The side between these two angles has length 7.66.  What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.  The third angle measure is the easiest to calculate, because we can use the angle sum theorem. . Thus .  Now we know an angle ( ) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.  .  We calculate the third side the same way. .  If you recall triangle geometry this was known as Angle-Side-Angle.       The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.   Experiment to Demonstrate the Angle\/Opposite Side Relationship      Use the illustration above to answer the questions below.    Use the slider to set the angle to about 10 .  What happens to the length of the opposite side as you increase the angle to 170 ?    Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?  What must be happening to each of the other two angles?    In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step.  Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.      Ambiguous Triangles  Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.   A triangle has an angle of measure and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?  We can try to use the Law of Sines. Using the triangle angle sum theorem we learn the other angle measure. or . We use the Law of Sines again to calculate the length of the final side. This gives us a triangle with angles: 45 , 62.11 , and 72.89 ; and with side lengths: 4, 5, and 5.41.  However, , that is, had multiple possible angles. We will repeat the calulcations above using as the second angle. The third angle is or .  Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in . This indicates an ambiguity if what we know is this particular information.  If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.    Two Possible Triangles    Acute triangle from above with side lengths 4, 5, and 5.41    Obtuse triangle from above with side lengths 4, 5, and 1.66     When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.    Law of Cosines  For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.   Law of Cosines  For any triangle with side lengths and angle which is opposite the side with length  .    A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the angles?  We can use the Law of Cosines. With an angle, we could now use the Law of Sines, but for practice we will use the Law of Cosines again. Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. so .  For triangle congruency this was known as Side-Side-Side.    A triangle has sides with lengths 5 and 7 and the angle between them is 40 . What are the length of the other side and the measures of the other angles?  Because we have two sides ( ) and the angle between them ( ) we can use the Law of Cosines. Now that we know a side and the angle opposite it, we can use the Law of Sines to calculate the remaining two angles. Finally we can use the triangle angle sum theorem to calculate the final angle. so .  For triangle congruency this was known as Side-Angle-Side.         Using Trigonometric Laws in Applications  When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.   A sailboat sails 3341 ft at heading 300 then turns to heading 245 and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.  First, it helps to sketch an image.   Triangle representing the route of this sailboat   In our sketch we see a non-right triangle. We know the lengths of two sides, and we want the length of the third side (distance from original location). From the headings we can calculate the angle between the two sides of known length. This provides side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of third side).  We are given the headings for two segments but not an angle. The angle representing the amount of the turn is the change in headings. If we were at 300 and ended up at 245 then we turned left .  Now we can apply the Law of Cosines. Thus the sailboat ended up 3471 ft from its starting point.    Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00 from horizontal. The observer at point B recorded an angle of 34.20 from horizontal. How high above ground was the aircraft?  First, it helps to sketch an image.   Diagram showing relative position of two observers and an airplane   A line connects observer A to the airplane. The angle of inclination is labeled as 8.00 . To the right a line connects observer B to the airplane. The angle of inclination is labeled 34.20 . The distance between them is labeled 2.3 miles. To the right of B is a point directly below the airplane labeled C. A dashed line connects it to the airplane and is labeled h.    How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.  In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle with vertices B, C, and the airplane. Initially we know only the bottom angles (34.20 and the right angle) and none of the lengths. If we can calculate the length of the side from B to the airplane (on the left), then we could use the angles and that side length with the Law of Sines to calculate the height.  That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we have angle-side-angle information, so we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular  To calculate the angle at the plane (labeled above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is . Now, b So, the angle at the aircraft is .  Now we can apply the Law of Sines. .  We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height. . This is in miles. It will be easier to interpret in feet. The conversion ratio in suggests we can multiply .      Solving Triangles   Use the trigonometric laws to calculate side lengths and angles.                             Applications   Identify triangles in these applications and use trigonometric laws to answer these questions.                                   "
 },
 {
   "id": "theorem-law-sines",
@@ -9349,7 +9349,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "7.3.3",
   "title": "",
-  "body": " A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.  What is the length of the side opposite the angle? Because we know two angles and a side opposite one of them we can use the law of sines.   What is the third angle and the length of the side opposite it? We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.   For triangle congruency this was known as Angle-Angle-Side.   "
+  "body": " A triangle has an angle with measure which is opposite a side of length 6. The triangle has another angle with measure .  Rounding in this example is arbitrarily chosen to be two decimal places.   What is the length of the side opposite the angle?  Because we know two angles and a side opposite one of them we can use the law of sines.     What is the third angle and the length of the side opposite it?  We can use the angle sum fact to calculate the third angle. so . As in the previous step we know an angle (50 ), the side opposite it (6), and another angle (85 ) so we can use the Law of Sines.    For triangle congruency this was known as Angle-Angle-Side.   "
 },
 {
   "id": "example-law-sines-simple2",
@@ -9367,7 +9367,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.3.5",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "figure-angle-opposite-side",
@@ -9385,7 +9385,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "15",
   "title": "",
-  "body": "  Use the illustration above to answer the questions below.   Use the slider to set the angle to about 10 . What happens to the length of the opposite side as you increase the angle to 170 ?  Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles? What must be happening to each of the other two angles?  In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step. Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.  "
+  "body": "  Use the illustration above to answer the questions below.    Use the slider to set the angle to about 10 .  What happens to the length of the opposite side as you increase the angle to 170 ?    Recall the relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?  What must be happening to each of the other two angles?    In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step.  Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger\/smaller\/unrelated to the angle opposite a shorter side.   "
 },
 {
   "id": "example-angle-side-side",
@@ -9439,7 +9439,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.3.12",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "example-flight-distance",
@@ -9466,7 +9466,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-1-4",
@@ -9475,7 +9475,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-1-5",
@@ -9484,7 +9484,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-1-6",
@@ -9493,7 +9493,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-1-7",
@@ -9502,7 +9502,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-1-8",
@@ -9511,7 +9511,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-1-9",
@@ -9520,7 +9520,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-1-10",
@@ -9529,7 +9529,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-3",
@@ -9538,7 +9538,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-4",
@@ -9547,7 +9547,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-5",
@@ -9556,7 +9556,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.11",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-6",
@@ -9565,7 +9565,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.12",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-7",
@@ -9574,7 +9574,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.13",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-8",
@@ -9583,7 +9583,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.14",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-9",
@@ -9592,7 +9592,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.15",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-10",
@@ -9601,7 +9601,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.16",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-11",
@@ -9610,7 +9610,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-laws-7-2-12",
@@ -9619,7 +9619,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.3.5.18",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs",
@@ -9628,7 +9628,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Sine Wave Properties",
-  "body": " Sine Wave Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Identify properties of sine and cosine functions (skill)    We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.    Beyond Triangles  This section illustrates how trigonometric functions can be defined on angles greater than 180 . In triangles every angle had to be less than 180 because the sum of the angles of a triangle are only 180 . However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180 when we are driving. Use to explore this idea.    Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.    Bigger Angles     We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine    Now we know what the graph of the sine function looks like and why it looks that way.    Properties of Sine Waves   Graph of Sine   Graph of portion of a sine curve from -180 to 720 degrees   The horizontal axis ranges from -180 to 720 in increments of 90. The vertical axis ranges from -1 to 1. The graph of sine on this portion consists of 5 humps that are 180 wide and alternate down (starting at -180) and up. From 0 to 720 there are two complete up\/down pairs.     From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a cycle . In the default graph this is from 0 to 360 as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .   The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength (2), and the bottom two sine curves have the same wavelength (1). We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.  The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.   Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of .   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.  Because we know the frequency we can directly calculate the period. .  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.    A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle     Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.   Amplitude  The height of the wave (from center to top) is called the amplitude .     Sine wave that completes five cycles from -180 to 720   The horizontal axis ranges from -180 to 720. The vertical axis ranges from -2 to 2.  The bottom of the sine wave reaches -2 and the top reaches 2. A complete cycle is repeated from -180 to 0, again from 0 to 180, again from 180 to 360, again from 360 to 540, and again from 540 to 720.    The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is   In applications the wavelength, period\/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.   Identifying Sine Wave Properties    Sine Wave   Sine wave with amplitude, period, and frequency labeled   The horizontal axis is labeled time and ranges from 0 to 2. The vertical axis ranges from -1.5 to 1.5.  The sine wave reaches 1.5 at the top and -1.5 at the bottom. It completes a cycle by 1\/3. It completes 3 cycles by 1.      Another Sine Wave   A different sine wave with amplitude, period, and frequency labeled   The horizontal axis is labeled time and ranges from 0 to 12. The vertical axis ranges from -3 to 3.  The sine wave reaches 3 at the top and -3 at the bottom. It completes a cycle by 4. It completes one quarter of a cycle by 1.        Consider the sine wave in . The amplitude is 1.5 because the wave reaches a max of 1.5 and a min of -1.5.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.      Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.   This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?    This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?    Amplitude and Wavelength       Frequency and Amplitude   Use the definitions of these properties to answer the questions.           Applications   Apply your knowledge of frequency and amplitude to answer these wave questions.         "
+  "body": " Sine Wave Properties   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Use models including linear, quadratic, exponential\/logarithmic, and trigonometric (skill)  Identify properties of sine and cosine functions (skill)    We began by looking at trigonometric functions in the context of triangles where they represent the ratio of side lengths. Here we will consider trigonometric functions in the context of properties of their graphs. The graphs have direct applications.    Beyond Triangles  This section illustrates how trigonometric functions can be defined on angles greater than 180 . In triangles every angle had to be less than 180 because the sum of the angles of a triangle are only 180 . However, in many applications rather than measuring angles on objects (like triangles), we are measuring how far or how many times around something has moved. For example a wheel on a car moves more than 180 when we are driving. Use to explore this idea.    Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.    Angles of measure 30 and 210  What is the sine value for both angles?  Compare the x coordinates of these two points on the sine graph.  Where is the triangle created by the angle 210 ?    Angles of measure 45 and 315  Compare the sine values for these two points.  Where is the triangle created by the angle 315 ?    Angles of measure 45 and 405  Compare the sine values for these two angles.  Where is the triangle created by the angle 405 ?  Note the angle displayed at the origin for 405 : why does it not match the slider angle?    Angles of measure -45 and 315  Where are the triangles for these two points?  Move the slider from 0 to -45 . Which direction does the point move?  Note the angle displayed at the origin: explain why it is reasonable.     Bigger Angles       We can use the definition of sine as a ratio and this understanding of angles to produce a graph. In drag the slider until you have the full graph. A graph that extends over a longer range (and labeled in degrees) is in .   Produce Graph of Sine    Now we know what the graph of the sine function looks like and why it looks that way.    Properties of Sine Waves   Graph of Sine   Graph of portion of a sine curve from -180 to 720 degrees   The horizontal axis ranges from -180 to 720 in increments of 90. The vertical axis ranges from -1 to 1. The graph of sine on this portion consists of 5 humps that are 180 wide and alternate down (starting at -180) and up. From 0 to 720 there are two complete up\/down pairs.     From the first section we know that the graph of sine is a wave that repeats. The piece that is repeated is called a cycle . In the default graph this is from 0 to 360 as shown in .  The length of the cycle can be modified. Depending on the application we interpret and measure the length of the cycle differently. This section defines two traits of the cycle, illustrates the traits, and gives an alternate definition for one trait.   Period  The length of a cycle measured in time is called the period .    Wavelength  The length of a cycle measured in distance is called the wavelength .   The video below illustrates the difference between wavelength and period of a sine wave. The top two sine curves have the same wavelength (2), and the bottom two sine curves have the same wavelength (1). We can see this because the top two curves have one cycle from 0 to 2, and the bottom two curves have one cycle from 0 to 1. This implies the bottom curves have a wavelength that is half that of those on top.  The left two sine curves have the same period. They complete one cycle in one (1) seconds. The right two sine curves have the same period. They complete one cycle in two (2) seconds.   Sometimes instead of measuring how long a single cycle is in units of time, we measure how many cycles occur in a fixed unit of time. This is called frequency .   Frequency  The number of cycles that occur per second is called the frequency . This is typically measured in Hertz (Hz). 1 Hz is one cycle per second.   Note that frequency is the inverse of the period as shown below. In the video the sine waves above, the sine waves on the right have a period of two (2) and a frequency of .   Period and Frequency are Inverses   Period Frequency      If a wave has a period of seconds, what is its frequency?  We can see how many of a second there are in one second. That is The frequency is 3.  We can consider this a conversion of units. If the period is and frequency is in cycles per second what we want is to remove the 1\/3 from the denominator (turn it into 1).   Generally, if the period is then the frequency is   What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.  Because we know the frequency we can directly calculate the period. .  For the wavelength we need to know that the speed of sound is 1116 feet\/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows.    A local AM radio station broadcasts at Hz. Note radio waves move at the speed of light which is approximately meters per second. What are the period and wavelength of this radio signal?  Because we know the frequency we can directly calculate the period.  For the wavelength we need to convert units from seconds per cycle to meters per cycle        Frequency, period, and wavelength are all about how fast a sine wave moves. Amplitude is about how strong it is.   Amplitude  The height of the wave (from center to top) is called the amplitude .     Sine wave that completes five cycles from -180 to 720   The horizontal axis ranges from -180 to 720. The vertical axis ranges from -2 to 2.  The bottom of the sine wave reaches -2 and the top reaches 2. A complete cycle is repeated from -180 to 0, again from 0 to 180, again from 180 to 360, again from 360 to 540, and again from 540 to 720.    The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is   In applications the wavelength, period\/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.   Identifying Sine Wave Properties    Sine Wave   Sine wave with amplitude, period, and frequency labeled   The horizontal axis is labeled time and ranges from 0 to 2. The vertical axis ranges from -1.5 to 1.5.  The sine wave reaches 1.5 at the top and -1.5 at the bottom. It completes a cycle by 1\/3. It completes 3 cycles by 1.      Another Sine Wave   A different sine wave with amplitude, period, and frequency labeled   The horizontal axis is labeled time and ranges from 0 to 12. The vertical axis ranges from -3 to 3.  The sine wave reaches 3 at the top and -3 at the bottom. It completes a cycle by 4. It completes one quarter of a cycle by 1.        Consider the sine wave in . The amplitude is 1.5 because the wave reaches a max of 1.5 and a min of -1.5.  The period is 1\/3, because a full cycle ends at 1\/3. The frequency is 3, because there are three copies of the cycle from 0 to 1.  Switch to the sine wave in . The amplitude is 3 because the wave reaches a max of 3 and a min of -3.  The period is 4, because a full cycle ends at 4. The frequency is 1\/4, because the cycle is only 1\/4 complete by 1.        Transformations of Sine  In and we learned how to transform a graph by shifting it and reflecting it. Those apply to trigonometric graphs as well. This section illustrates vertical and horizontal stretches and connects them to amplitude and wavelength.   This activity demonstrates how the sine function is modified to change amplitude. Use to answer the following. Note the amplitude of the unmodified graph is 1.  If you set , that is graph what is the amplitude?  If you set , that is graph what is the amplitude?  How could you obtain an amplitude of 1\/2?    This activity demonstrates how the sine function is modified to change wavelength. Use to answer the following. Note the wavelength of the unmodified graph is 2.  If you set , that is graph what is the wavelength?  If you set , that is graph what is the wavelength?  How could you obtain a wavelength of 4?    Amplitude and Wavelength       Frequency and Amplitude   Use the definitions of these properties to answer the questions.                       Applications   Apply your knowledge of frequency and amplitude to answer these wave questions.                 "
 },
 {
   "id": "activity-discover-big-angles",
@@ -9637,7 +9637,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "16",
   "title": "",
-  "body": "  Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.   Angles of measure 30 and 210 What is the sine value for both angles? Compare the x coordinates of these two points on the sine graph. Where is the triangle created by the angle 210 ?  Angles of measure 45 and 315 Compare the sine values for these two points. Where is the triangle created by the angle 315 ?  Angles of measure 45 and 405 Compare the sine values for these two angles. Where is the triangle created by the angle 405 ? Note the angle displayed at the origin for 405 : why does it not match the slider angle?  Angles of measure -45 and 315 Where are the triangles for these two points? Move the slider from 0 to -45 . Which direction does the point move? Note the angle displayed at the origin: explain why it is reasonable.  "
+  "body": "  Use the the illustration in to see how angles, including those bigger than 180 , are measured and how the trig functions act on these angles.    Angles of measure 30 and 210  What is the sine value for both angles?  Compare the x coordinates of these two points on the sine graph.  Where is the triangle created by the angle 210 ?    Angles of measure 45 and 315  Compare the sine values for these two points.  Where is the triangle created by the angle 315 ?    Angles of measure 45 and 405  Compare the sine values for these two angles.  Where is the triangle created by the angle 405 ?  Note the angle displayed at the origin for 405 : why does it not match the slider angle?    Angles of measure -45 and 315  Where are the triangles for these two points?  Move the slider from 0 to -45 . Which direction does the point move?  Note the angle displayed at the origin: explain why it is reasonable.   "
 },
 {
   "id": "figure-angle-repeat",
@@ -9655,7 +9655,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "figure-graph-sine",
@@ -9763,7 +9763,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.4.12",
   "title": "",
-  "body": ""
+  "body": "   "
 },
 {
   "id": "definition-amplitude",
@@ -9808,7 +9808,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "7.4.17",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "activity-amplitude",
@@ -9844,7 +9844,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.1",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-1-4",
@@ -9853,7 +9853,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.2",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-1-5",
@@ -9862,7 +9862,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.3",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-1-6",
@@ -9871,7 +9871,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.4",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-1-7",
@@ -9880,7 +9880,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.5",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-1-8",
@@ -9889,7 +9889,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.6",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-2-3",
@@ -9898,7 +9898,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.7",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-2-4",
@@ -9907,7 +9907,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.8",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-2-5",
@@ -9916,7 +9916,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.9",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-trig-graphs-6-2-6",
@@ -9925,7 +9925,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7.4.4.10",
   "title": "",
-  "body": ""
+  "body": "  "
 },
 {
   "id": "section-activity-trig-error",
@@ -9934,7 +9934,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.5",
   "title": "Project: Effects of Scale on Error",
-  "body": " Project: Effects of Scale on Error   Select the Best Time of Day   In we learned to indirectly measure height of an object from the length of its shadow and angle of elevation. Here we consider the effects of the angle of elevation on the precision of our result.   Suppose the shadow of a tree is measured to be 73 ft. If the the angle of elevation of the sun from the end of the shadow is , what is the height of the tree.  We will consider the impact of the sun's angle of elevation on the calculation. For this section suppose the tree is exactly 73 ft tall. Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? As the angle of elevation grows from toward does the length of the shadow increase directly or inversely? Is it linear? Note the angle of elevation of the sun grows from morning until (high) noon and then decreases again. At what time of day would it be easiest to measure the length of the shadow in order to estimate the height of the tree?  We will consider the effect of error in measurement of the angle of elevation of the sun on our calculation of the height of the tree. Suppose the shadow's length is 73 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 51 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 34 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 20 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 6 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? How much effect on the estimated height of the tree can error in measurement of the angle have? Does the error change as the angle of elevation increases?  We will consider the effect of error in measurement of the length of the shadow on our calculation of the height of the tree. Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 72 ft? 74 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 50 ft? 52 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 33 ft? 35 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 19 ft? 21 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 5 ft? 7 ft? At what angle of elevation does the difference in shadow length make the greatest difference? What does this suggest about when we should measure the shadow?   "
+  "body": " Project: Effects of Scale on Error   Select the Best Time of Day   In we learned to indirectly measure height of an object from the length of its shadow and angle of elevation. Here we consider the effects of the angle of elevation on the precision of our result.    Suppose the shadow of a tree is measured to be 73 ft. If the the angle of elevation of the sun from the end of the shadow is , what is the height of the tree.    We will consider the impact of the sun's angle of elevation on the calculation. For this section suppose the tree is exactly 73 ft tall.  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  As the angle of elevation grows from toward does the length of the shadow increase directly or inversely? Is it linear?  Note the angle of elevation of the sun grows from morning until (high) noon and then decreases again. At what time of day would it be easiest to measure the length of the shadow in order to estimate the height of the tree?    We will consider the effect of error in measurement of the angle of elevation of the sun on our calculation of the height of the tree.  Suppose the shadow's length is 73 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 51 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 34 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 20 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 6 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  How much effect on the estimated height of the tree can error in measurement of the angle have?  Does the error change as the angle of elevation increases?    We will consider the effect of error in measurement of the length of the shadow on our calculation of the height of the tree.  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 72 ft? 74 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 50 ft? 52 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 33 ft? 35 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 19 ft? 21 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 5 ft? 7 ft?  At what angle of elevation does the difference in shadow length make the greatest difference?  What does this suggest about when we should measure the shadow?    "
 },
 {
   "id": "project-trig-error",
@@ -9943,7 +9943,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "19",
   "title": "Select the Best Time of Day.",
-  "body": " Select the Best Time of Day   In we learned to indirectly measure height of an object from the length of its shadow and angle of elevation. Here we consider the effects of the angle of elevation on the precision of our result.   Suppose the shadow of a tree is measured to be 73 ft. If the the angle of elevation of the sun from the end of the shadow is , what is the height of the tree.  We will consider the impact of the sun's angle of elevation on the calculation. For this section suppose the tree is exactly 73 ft tall. Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? Suppose the angle of elevation of the sun is . What is the length of the shadow? As the angle of elevation grows from toward does the length of the shadow increase directly or inversely? Is it linear? Note the angle of elevation of the sun grows from morning until (high) noon and then decreases again. At what time of day would it be easiest to measure the length of the shadow in order to estimate the height of the tree?  We will consider the effect of error in measurement of the angle of elevation of the sun on our calculation of the height of the tree. Suppose the shadow's length is 73 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 51 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 34 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 20 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? Suppose the shadow's length is 6 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ? How much effect on the estimated height of the tree can error in measurement of the angle have? Does the error change as the angle of elevation increases?  We will consider the effect of error in measurement of the length of the shadow on our calculation of the height of the tree. Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 72 ft? 74 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 50 ft? 52 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 33 ft? 35 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 19 ft? 21 ft? Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 5 ft? 7 ft? At what angle of elevation does the difference in shadow length make the greatest difference? What does this suggest about when we should measure the shadow?  "
+  "body": " Select the Best Time of Day   In we learned to indirectly measure height of an object from the length of its shadow and angle of elevation. Here we consider the effects of the angle of elevation on the precision of our result.    Suppose the shadow of a tree is measured to be 73 ft. If the the angle of elevation of the sun from the end of the shadow is , what is the height of the tree.    We will consider the impact of the sun's angle of elevation on the calculation. For this section suppose the tree is exactly 73 ft tall.  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  Suppose the angle of elevation of the sun is . What is the length of the shadow?  As the angle of elevation grows from toward does the length of the shadow increase directly or inversely? Is it linear?  Note the angle of elevation of the sun grows from morning until (high) noon and then decreases again. At what time of day would it be easiest to measure the length of the shadow in order to estimate the height of the tree?    We will consider the effect of error in measurement of the angle of elevation of the sun on our calculation of the height of the tree.  Suppose the shadow's length is 73 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 51 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 34 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 20 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  Suppose the shadow's length is 6 ft. What is the estimated height of the tree if the angle of elevation is measured to be ? ?  How much effect on the estimated height of the tree can error in measurement of the angle have?  Does the error change as the angle of elevation increases?    We will consider the effect of error in measurement of the length of the shadow on our calculation of the height of the tree.  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 72 ft? 74 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 50 ft? 52 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 33 ft? 35 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 19 ft? 21 ft?  Suppose the angle of elevation of the sun from the end of the shadow is . What is the estimated height of the tree if the length of the shadow is measured to be 5 ft? 7 ft?  At what angle of elevation does the difference in shadow length make the greatest difference?  What does this suggest about when we should measure the shadow?   "
 },
 {
   "id": "section-activity-trig-sundial",
@@ -9952,7 +9952,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.6",
   "title": "Project: A Clever Sundial",
-  "body": " Project: A Clever Sundial   How Tall is the Gnomon?   Sundials are one of the oldest types of clocks. Because the apparent motion of the sun through the sky defines time for us, the position of a shadow is an obvious way to measure that progress. One common type of sundial has a vertical object, called a gnomon , standing in the middle of a circle. If the circle is oriented correctly one edge of the gnomon's shadow cross the number marking the time.  We also notice that the sun rises and sets at different times throughout the year and that its path across the sky changes. In particular the sun is much higher in the sky in summer and lower in winter. This change is especially noticable in the far north and far south of the planet.  In this project we calculate the effect of the shifting path on shadow length and consider ways to adjust for that. This is accomplished using simple trigonometric calculations.    First, we will consider how long the gnomon's shadow is each month of the year. For convenience we will use The first of each month, and high noon (when the sun is highest in the sky). The location for the following data is in Anchorage, Alaska.   Sundial with altitude angle labeled   Altitude labeled alpha   For each month calculate the expected length of the gnomon's shadow. The gnomon is 22.0 cm tall, and the table below gives the altitude for the first of each month at high noon (azimuth 180 ).  Altitude and Shadow Length for Sundial       Date  Altitude  Shadow Length    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00       Here we consider an idea for making this sundial fit in a fixed space.  Based on the calculations in the table above can this sundial fit into a circle of one meter diameter? If we want to make all the shadows fit on a sundial (circle) of one meter diameter, how tall should the gnomon be? Alternately we could construct a gnomon that was raised and lowered so that the length of the shadow at high noon remains the same every day. Suppose we want the shadow to be 48 cm long at noon. Calculate the necessary gnomon height for each entry in the table below.  Calculated Gnomon Height for Fixed Shadow Length       Date  Altitude  Gnomon Height    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00     Suppose that we construct gnomon such that it rises out of the middle of the sundial so the height above the face of the sundial is the calculated height. If we need at least 10 cm of the gnomon below the top of the sundial, how tall must the gnomon be based on your table above?   "
+  "body": " Project: A Clever Sundial   How Tall is the Gnomon?   Sundials are one of the oldest types of clocks. Because the apparent motion of the sun through the sky defines time for us, the position of a shadow is an obvious way to measure that progress. One common type of sundial has a vertical object, called a gnomon , standing in the middle of a circle. If the circle is oriented correctly one edge of the gnomon's shadow cross the number marking the time.  We also notice that the sun rises and sets at different times throughout the year and that its path across the sky changes. In particular the sun is much higher in the sky in summer and lower in winter. This change is especially noticable in the far north and far south of the planet.  In this project we calculate the effect of the shifting path on shadow length and consider ways to adjust for that. This is accomplished using simple trigonometric calculations.     First, we will consider how long the gnomon's shadow is each month of the year. For convenience we will use The first of each month, and high noon (when the sun is highest in the sky). The location for the following data is in Anchorage, Alaska.     Sundial with altitude angle labeled   Altitude labeled alpha    For each month calculate the expected length of the gnomon's shadow. The gnomon is 22.0 cm tall, and the table below gives the altitude for the first of each month at high noon (azimuth 180 ).   Altitude and Shadow Length for Sundial       Date  Altitude  Shadow Length    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00          Here we consider an idea for making this sundial fit in a fixed space.    Based on the calculations in the table above can this sundial fit into a circle of one meter diameter?    If we want to make all the shadows fit on a sundial (circle) of one meter diameter, how tall should the gnomon be?    Alternately we could construct a gnomon that was raised and lowered so that the length of the shadow at high noon remains the same every day. Suppose we want the shadow to be 48 cm long at noon. Calculate the necessary gnomon height for each entry in the table below.   Calculated Gnomon Height for Fixed Shadow Length       Date  Altitude  Gnomon Height    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00        Suppose that we construct gnomon such that it rises out of the middle of the sundial so the height above the face of the sundial is the calculated height. If we need at least 10 cm of the gnomon below the top of the sundial, how tall must the gnomon be based on your table above?     "
 },
 {
   "id": "project-trig-sundial",
@@ -9961,7 +9961,7 @@ var ptx_lunr_docs = [
   "type": "Project",
   "number": "20",
   "title": "How Tall is the Gnomon?",
-  "body": " How Tall is the Gnomon?   Sundials are one of the oldest types of clocks. Because the apparent motion of the sun through the sky defines time for us, the position of a shadow is an obvious way to measure that progress. One common type of sundial has a vertical object, called a gnomon , standing in the middle of a circle. If the circle is oriented correctly one edge of the gnomon's shadow cross the number marking the time.  We also notice that the sun rises and sets at different times throughout the year and that its path across the sky changes. In particular the sun is much higher in the sky in summer and lower in winter. This change is especially noticable in the far north and far south of the planet.  In this project we calculate the effect of the shifting path on shadow length and consider ways to adjust for that. This is accomplished using simple trigonometric calculations.    First, we will consider how long the gnomon's shadow is each month of the year. For convenience we will use The first of each month, and high noon (when the sun is highest in the sky). The location for the following data is in Anchorage, Alaska.   Sundial with altitude angle labeled   Altitude labeled alpha   For each month calculate the expected length of the gnomon's shadow. The gnomon is 22.0 cm tall, and the table below gives the altitude for the first of each month at high noon (azimuth 180 ).  Altitude and Shadow Length for Sundial       Date  Altitude  Shadow Length    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00       Here we consider an idea for making this sundial fit in a fixed space.  Based on the calculations in the table above can this sundial fit into a circle of one meter diameter? If we want to make all the shadows fit on a sundial (circle) of one meter diameter, how tall should the gnomon be? Alternately we could construct a gnomon that was raised and lowered so that the length of the shadow at high noon remains the same every day. Suppose we want the shadow to be 48 cm long at noon. Calculate the necessary gnomon height for each entry in the table below.  Calculated Gnomon Height for Fixed Shadow Length       Date  Altitude  Gnomon Height    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00     Suppose that we construct gnomon such that it rises out of the middle of the sundial so the height above the face of the sundial is the calculated height. If we need at least 10 cm of the gnomon below the top of the sundial, how tall must the gnomon be based on your table above?  "
+  "body": " How Tall is the Gnomon?   Sundials are one of the oldest types of clocks. Because the apparent motion of the sun through the sky defines time for us, the position of a shadow is an obvious way to measure that progress. One common type of sundial has a vertical object, called a gnomon , standing in the middle of a circle. If the circle is oriented correctly one edge of the gnomon's shadow cross the number marking the time.  We also notice that the sun rises and sets at different times throughout the year and that its path across the sky changes. In particular the sun is much higher in the sky in summer and lower in winter. This change is especially noticable in the far north and far south of the planet.  In this project we calculate the effect of the shifting path on shadow length and consider ways to adjust for that. This is accomplished using simple trigonometric calculations.     First, we will consider how long the gnomon's shadow is each month of the year. For convenience we will use The first of each month, and high noon (when the sun is highest in the sky). The location for the following data is in Anchorage, Alaska.     Sundial with altitude angle labeled   Altitude labeled alpha    For each month calculate the expected length of the gnomon's shadow. The gnomon is 22.0 cm tall, and the table below gives the altitude for the first of each month at high noon (azimuth 180 ).   Altitude and Shadow Length for Sundial       Date  Altitude  Shadow Length    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00          Here we consider an idea for making this sundial fit in a fixed space.    Based on the calculations in the table above can this sundial fit into a circle of one meter diameter?    If we want to make all the shadows fit on a sundial (circle) of one meter diameter, how tall should the gnomon be?    Alternately we could construct a gnomon that was raised and lowered so that the length of the shadow at high noon remains the same every day. Suppose we want the shadow to be 48 cm long at noon. Calculate the necessary gnomon height for each entry in the table below.   Calculated Gnomon Height for Fixed Shadow Length       Date  Altitude  Gnomon Height    January  6.04     February  12.07     March  21.64     April  33.76     May  44.21     June  51.02     July  51.88     August  46.61     September  36.77     October  25.30     November  14.16     December  7.00        Suppose that we construct gnomon such that it rises out of the middle of the sundial so the height above the face of the sundial is the calculated height. If we need at least 10 cm of the gnomon below the top of the sundial, how tall must the gnomon be based on your table above?    "
 }
 ]
 

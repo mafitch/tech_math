@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1532273">
 <statement>
-<p>Guido is flying west at 12500 MSL using the local altimeter setting of 29.90 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
-<p>How much does the pressure drop from the ground (0 MSL) to 12500 ft above? <fillin characters="6" /> inHg</p>
-<p>If the pressure is 29.90 inHg at 0 MSL, what is the pressure at 12500 ft MSL? <fillin characters="6" /> inHg</p>
+<p>Guido is flying east at 7500 MSL using the local altimeter setting of 27.80 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
+<p>How much does the pressure drop from the ground (0 MSL) to 7500 ft above? <fillin characters="6"/> inHg</p>
+<p>If the pressure is 27.80 inHg at 0 MSL, what is the pressure at 7500 ft MSL? <fillin characters="6"/> inHg</p>
 
 
 
 </statement>
 <solution>
-<p><ul><li>12.5</li><li>17.4</li></ul></p><p>This is a proportion.</p>
-<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{12500}\ \text{ ft}}}</m></p>
+<p><ul><li>7.5</li><li>20.3</li></ul></p><p>This is a proportion.</p>
+<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{7500}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{12500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
+  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{7500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={12.5}\ \text{ inHg}</m></p>
-<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={29.90}\ \text{ inHg}-{12.5}\ \text{ inHg}={17.4}\ \text{ inHg}</m>.</p> 
+  <m>\displaystyle{d}={7.5}\ \text{ inHg}</m></p>
+<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={27.80}\ \text{ inHg}-{7.5}\ \text{ inHg}={20.3}\ \text{ inHg}</m>.</p> 
 </solution>
 </myopenmath>
-

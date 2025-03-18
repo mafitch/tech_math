@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1511978">
 <statement>
-<p>In one version of Snell's Law contains the ratio <m>\displaystyle{\frac{{{V}_{{1}}}}{{{V}_{{2}}}}}</m> where the <m>\displaystyle{V}_{{i}}</m> are the speeds of sound in two materials (like 4340 steel and glass). The goal is to determine if the units for velocity make a difference.</p>
-<p>Suppose <m>\displaystyle{V}_{{1}}={5850}</m> m/s and <m>\displaystyle{V}_{{2}}={5300}</m> m/s. Calculate <m>\displaystyle\frac{{V}_{{1}}}{{V}_{{2}}}=</m> <fillin characters="20" /></p>
+<p>In one version of Snell's Law contains the ratio <m>\displaystyle{\frac{{{V}_{{1}}}}{{{V}_{{2}}}}}</m> where the <m>\displaystyle{V}_{{i}}</m> are the speeds of sound in two materials (like copper and iron). The goal is to determine if the units for velocity make a difference.</p>
+<p>Suppose <m>\displaystyle{V}_{{1}}={4700}</m> m/s and <m>\displaystyle{V}_{{2}}={5900}</m> m/s. Calculate <m>\displaystyle\frac{{V}_{{1}}}{{V}_{{2}}}=</m> <fillin characters="20"/></p>
 <p>The resulting units (of the ratio) are </p>
 <p><ol style="list-style-type:upper-alpha"><li>none</li> 
 <li>m</li> 
@@ -19,20 +19,19 @@
 .
 <p>Convert the units to feet per second.</p>
 <p>
-  <m>\displaystyle{V}_{{1}}=</m><fillin characters="20" /> ft/s</p>
+  <m>\displaystyle{V}_{{1}}=</m><fillin characters="20"/> ft/s</p>
 <p>
-  <m>\displaystyle{V}_{{2}}=</m><fillin characters="20" /> ft/s</p>
-<p>Using the new units calculate <m>\displaystyle\frac{{V}_{{1}}}{{V}_{{2}}}=</m><fillin characters="20" /></p>
+  <m>\displaystyle{V}_{{2}}=</m><fillin characters="20"/> ft/s</p>
+<p>Using the new units calculate <m>\displaystyle\frac{{V}_{{1}}}{{V}_{{2}}}=</m><fillin characters="20"/></p>
 <p>Did changing the units change the result? </p>
 <p><ol style="list-style-type:upper-alpha"><li>no</li> 
 <li>yes</li> 
 </ol></p>
-<p>Explain: <textarea rows="5" name="qn1007" id="qn1007" cols="50" aria-label="Question 1 Part 8 of 8"></textarea>
+<p>Explain: <textarea rows="5" name="qn1007" id="qn1007" cols="50" aria-label="Question 1 Part 8 of 8"/>
 </p>
 
 </statement>
 <solution>
-<p><ul><li>1.1037735849057</li><li>A: none</li><li>A: none</li><li>19192.914</li><li>17388.452</li><li>1.1037735849057</li><li>A: no</li><li></li></ul></p>
+<p><ul><li>0.79661016949153</li><li>A: none</li><li>A: none</li><li>15419.948</li><li>19356.956</li><li>0.79661016949153</li><li>A: no</li><li/></ul></p>
 </solution>
 </myopenmath>
-

@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1532255">
 <statement>
-<p>Aircraft flying at 18,000 ft MSL and above (called the flight levels) use an altimeter setting of 29.92 regardless of the local setting. Note higher pressure is lower in the atmosphere.  29.92 is higher pressure than 29.18, and occurs at a lower altitude.</p>
-<p>If the local altimeter setting is 29.18 inHg, what is the difference in altimeter settings from 29.92 inHg? This should be a positive number. <fillin characters="6" /> inHg </p>
-<p>In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained. Based on this, how many feet does the pressure difference (previous question) represent? <fillin characters="6" /> ft</p>
-<p>Because the plane is using 29.92 inHg instead of 29.18 inHg, they are flying that many feet lower than their altimeter indicates. What is their actual altitude? <fillin characters="6" /> ft MSL </p>
+<p>Aircraft flying at 18,000 ft MSL and above (called the flight levels) use an altimeter setting of 29.92 regardless of the local setting. Note higher pressure is lower in the atmosphere.  29.92 is higher pressure than 29.78, and occurs at a lower altitude.</p>
+<p>If the local altimeter setting is 29.78 inHg, what is the difference in altimeter settings from 29.92 inHg? This should be a positive number. <fillin characters="6"/> inHg </p>
+<p>In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained. Based on this, how many feet does the pressure difference (previous question) represent? <fillin characters="6"/> ft</p>
+<p>Because the plane is using 29.92 inHg instead of 29.78 inHg, they are flying that many feet lower than their altimeter indicates. What is their actual altitude? <fillin characters="6"/> ft MSL </p>
 <p>Because this actual altitude means they could conflict with the aircraft flying at 17,500, aircraft will not be allowed to fly at 18,000 ft MSL on this day.</p>
-<p>Given how much lower they would be than indicated (as you calculated above), how much higher must they fly than 18,000 ft MSL? Note this must be a multiple of 1000 ft (FAA regulations), so round up to the nearest thousand. <fillin characters="6" /> </p>
+<p>Given how much lower they would be than indicated (as you calculated above), how much higher must they fly than 18,000 ft MSL? Note this must be a multiple of 1000 ft (FAA regulations), so round up to the nearest thousand. <fillin characters="6"/> </p>
 
 </statement>
 <solution>
-<p><ul><li>0.74</li><li>740</li><li>17260</li><li>19000</li></ul></p>
+<p><ul><li>0.14</li><li>140</li><li>17860</li><li>19000</li></ul></p>
 </solution>
 </myopenmath>
-

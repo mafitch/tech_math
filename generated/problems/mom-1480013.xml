@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1480013">
 <statement>
-<p>At a particular temperature and acidity bacillus megaterium will doube every 0.47 hours. Suppose we begin with 1.9 grams of the bacteris. Write an equation for the amount of bacteria after <m>\displaystyle{t}</m> hours.</p>
-<p><m>\displaystyle{b}=</m> <fillin characters="20" />  
+<p>At a particular temperature and acidity bacillus megaterium will doube every 0.63 hours. Suppose we begin with 1.4 grams of the bacteris. Write an equation for the amount of bacteria after <m>\displaystyle{t}</m> hours.</p>
+<p><m>\displaystyle{b}=</m> <fillin characters="20"/>  
 </p>
 <p>Use <m>\displaystyle{t}</m> as the variable.</p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{1.9}{\left({2}^{{\frac{{t}}{{0.47}}}}\right)}</m></li></ul></p><p>Because the amount doubles every <m>\displaystyle{0.47}</m> hours the number of doublings is <m>\displaystyle\frac{{t}}{{0.47}}</m>. Thus we have <m>\displaystyle{2}^{{\frac{{t}}{{0.47}}}}</m>. The (initial) amount doubled is <m>\displaystyle{1.9}</m>. Thus the model is <m>\displaystyle{b}={1.9}{\left({2}^{{\frac{{t}}{{0.47}}}}\right)}</m>.</p>
+<p><ul><li><m>\displaystyle{1.4}{\left({2}^{{\frac{{t}}{{0.63}}}}\right)}</m></li></ul></p><p>Because the amount doubles every <m>\displaystyle{0.63}</m> hours the number of doublings is <m>\displaystyle\frac{{t}}{{0.63}}</m>. Thus we have <m>\displaystyle{2}^{{\frac{{t}}{{0.63}}}}</m>. The (initial) amount doubled is <m>\displaystyle{1.4}</m>. Thus the model is <m>\displaystyle{b}={1.4}{\left({2}^{{\frac{{t}}{{0.63}}}}\right)}</m>.</p>
 </solution>
 </myopenmath>
-

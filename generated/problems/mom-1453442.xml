@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1453442">
 <statement>
 <p>The expected temperature at a height above ground is given by</p>
@@ -10,14 +10,13 @@
   <m>\displaystyle{T}_{{G}}</m> is the temperature at ground level in Fahrenheit</p>
 <p>
   <m>\displaystyle{A}</m> is the height above ground level in feet</p>
-<p>If the temperature on the ground is <m>\displaystyle{63}^{\circ}</m>, what will it be at 5500 feet above ground level? <fillin characters="3" /></p>
+<p>If the temperature on the ground is <m>\displaystyle{55}^{\circ}</m>, what will it be at 6100 feet above ground level? <fillin characters="3"/></p>
 <p>Answers should be rounded to the units place.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>44</li></ul></p><p>The model for this situation is <m>\displaystyle{T}_{{A}}={63}-\frac{{{3.5}}}{{{1000}}}{A}</m>.</p>
-<p>Because we want to estimate the temperature at 5500 ft AGL, we calculate <m>\displaystyle{T}_{{A}}={63}-\frac{{{3.5}}}{{{1000}}}{5500}={43.75}\approx{44}</m></p>
+<p><ul><li>34</li></ul></p><p>The model for this situation is <m>\displaystyle{T}_{{A}}={55}-\frac{{{3.5}}}{{{1000}}}{A}</m>.</p>
+<p>Because we want to estimate the temperature at 6100 ft AGL, we calculate <m>\displaystyle{T}_{{A}}={55}-\frac{{{3.5}}}{{{1000}}}{6100}={33.65}\approx{34}</m></p>
 </solution>
 </myopenmath>
-

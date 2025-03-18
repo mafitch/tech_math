@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1553388">
 <statement>
-<p>There are two options for a subscription plan for a GPS tracking device. One costs <dollar/>11.95 per month plus <dollar/>0.10 per location ping (sent once every 10 minutes). The other costs <dollar/>29.99 per month for unlimited location pings. What is the smallest number of minutes per month for which the second plan with fixed monthly cost is less expensive?  <fillin characters="4" /></p>
+<p>There are two options for a subscription plan for a GPS tracking device. One costs <dollar/>11.95 per month plus <dollar/>0.10 per location ping (sent once every 10 minutes). The other costs <dollar/>29.99 per month for unlimited location pings. What is the smallest number of minutes per month for which the second plan with fixed monthly cost is less expensive?  <fillin characters="4"/></p>
 
 </statement>
 <solution>
@@ -18,4 +18,3 @@
 <p>This is the number of pings at which they are equal. The first plan will be more expensive for one ping more. That is 181 pings. Because each ping represents 10 minutes this would be for <m>\displaystyle{181}\cdot{10}={1810}</m> minutes.</p>
 </solution>
 </myopenmath>
-
