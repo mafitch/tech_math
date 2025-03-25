@@ -287,7 +287,7 @@
     <example xml:id="example-flight-distance">
         <p>A sailboat sails 3341 ft at heading 300<degree/> then turns to heading 245<degree/> and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.</p>
         <p>First, it helps to sketch an image.</p>
-        <image source="images/sailboat-course" width="40%" >
+        <image source="images/sailboat-course" width="35%" >
             <shortdescription>Triangle representing the route of this sailboat</shortdescription>
         </image>
         <p>In our sketch we see a non-right triangle. We know the lengths of two sides, and we want the length of the third side (distance from original location). From the headings we can calculate the angle between the two sides of known length. This provides side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of third side).</p>

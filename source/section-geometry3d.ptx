@@ -124,10 +124,10 @@
 
     <figure xml:id="figure-exercise-prism-triangular">
         <caption>Calculate the surface area and volume</caption>
-        <sidebyside>
+        <sidebyside widths="35% 35%" >
             <figure xml:id="figure-exercise-prism-triangular-right">
                 <caption>Right Triangular Prism</caption>
-                <image source="images/triangular_prism_exercise" width="15%" >
+                <image source="images/triangular_prism_exercise" >
                     <shortdescription>Right triangular prism with sides lengths labeled</shortdescription>
                     <description>
                         <p>The base is a right triangle with leg lengths 2.125 and 3.125. It is a right prism with height 10.250.</p>
@@ -136,7 +136,7 @@
             </figure>
             <figure xml:id="figure-exercise-prism-triangular-slant">
                 <caption>Non-Right Triangular Prism</caption>
-                <image source="images/triangular_prism_slant_exercise" width="30%" >
+                <image source="images/triangular_prism_slant_exercise" >
                     <shortdescription>Skewed triangular prism with the same measurements</shortdescription>
                     <description>
                         <p>The base is a right triangle with leg lengths 2.125 and 3.125. It is a skewed prism with height 10.250.</p>
@@ -683,15 +683,11 @@
         </exercise>
 
         <exercise>
-            <myopenmath problem="204370" />
+            <myopenmath problem="901777" />
         </exercise>
 
         <exercise>
             <myopenmath problem="901781" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1539548" />
         </exercise>
 
     </exercisegroup>

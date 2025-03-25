@@ -12,10 +12,9 @@ if ($full !== null) {
 }
 
 Feedback
-$percent = round(100*($new/$old),0)
 $stuans = getstuans($stuanswers,$thisq,0)
 if ($stuans != null) {
-	$error = getfeedbacktxtnumber($stuans,  array($answer,1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect","|0.1") 
+	$error = getfeedbacktxtnumber($stuans,  array($answer,1,$result,0), array("Correct", "Did you remember sigfigs?"), "Incorrect","|0.1") 
 }
 OR multipart
 $stuans1 = getstuans($stuanswers,$thisq,1)

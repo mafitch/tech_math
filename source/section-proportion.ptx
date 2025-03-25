@@ -214,7 +214,7 @@
         <p>Corresponding means we have paired angles on one triangle with those on another. So this definition says that each angle on one triangle can be paired with one on the second triangle that has the same measure. This allows us to define corresponding sides as well. Two sides from the different triangles are corresponding if they are across from angles of the same measurement. When triangles are similiar their corresponding side lengths are proportional. This is illustrated in the following example.</p>
 
         <example xml:id="example-illustrate-similar-triangles">
-            <image source="images/similar_triangles">
+            <image source="images/similar_triangles" width="50%">
                 <shortdescription>Two triangles with matching angles and different side lengths.</shortdescription>
                 <description>
                     <p>The triangle with vertices A, B, C has angle measure 64<degree/> at A, angle measure 80<degree/> at B, and angle measure 36<degree/> at C. Side AB has length 3.26; side BC has length 4.86, and side CA has length 5.34.</p>
@@ -253,7 +253,7 @@
         <p>We can use the proportionaliy of similar triangle sides lengths to calculate the lengths using the same technique as <xref ref="example-ratio-airspeed-solve" />.</p>
 
         <example xml:id="example-similar-triangles">
-            <image source="images/similar_triangles_369">
+            <image source="images/similar_triangles_369" width="50%">
                 <shortdescription>Two right triangles. Measurements are in the question.</shortdescription>
             </image>
             <p>Suppose triangle ABC has angles <m>90^\circ, 60^\circ, 30^\circ</m> with the lengths of the sides opposite them <m>2.000, 1.732, 1.000</m> respectively. If triangle DEF also has angles <m>90^\circ, 60^\circ, 30^\circ</m> it is similar. Suppose the length of the side <m>DE</m> opposite the <m>30^\circ</m> angle at point F is <m>2.000</m>.</p>
@@ -302,7 +302,7 @@
         <p>Similar triangles can be found in a variety of circumstances. This example recognizes similar triangles in a context where we want to calculate rather than measure a length. This method of indirect measurement has been used many time in history.</p>
 
         <example xml:id="example-similar-measure-height">
-            <image source="images/shadow_light_pole">
+            <image source="images/shadow_light_pole" width="50%">
                 <shortdescription>Stick figure person standing near a light pole. Measurements are in the question.</shortdescription>
             </image>
             <p>A person is standing 30 ft from a light pole. The shadow cast by the light is 8 ft long. If the person is 5 ft 6 in tall, how high is the point on the light that is casting the shadow?</p>

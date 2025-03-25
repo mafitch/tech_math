@@ -74,7 +74,7 @@
     <p>How do we end up with parts of measurements which are not accurate? Consider the following.</p>
 
     <example xml:id="example-measure-error-ruler">
-        <image source="images/measure_length" />
+        <image source="images/measure_length" width="33%" />
         <p>When measuring the width of the blue, curved shape using the ruler (measurement in inches), it is clearly longer than 3/4<dblprime/> and less than 7/8<dblprime/>. The right side of the shape appears to be less than half way between 3/4<dblprime/> and 7/8<dblprime/>. Because it appears to be closer to 3/4<dblprime/>, we can state the width is 3/4<dblprime/>. Because the ruler does not have finer markings (e.g., 16ths or 32nds), we cannot be more precise.</p>
         <p>We know this measurement is accurate to the nearest 1/8<dblprime/>, because the ruler has those marked and, in this case, we can be confident it is closer to the left side.</p>
         <p>To estimate the error we note that the right edge is less than half way between the markings. Half way would be 13/16<dblprime/> or 1/16<dblprime/> farther. Thus we can state that the shape is 3/4<dblprime/> wide with an error that is less than 1/16<dblprime/>.</p>
@@ -439,7 +439,7 @@
         </exercise>
 
         <exercise>
-            <myopenmath problem="378209" />
+            <myopenmath problem="1568999" />
         </exercise>
     </exercisegroup>
 

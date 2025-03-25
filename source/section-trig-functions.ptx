@@ -79,7 +79,7 @@
 
     <figure xml:id="figure-triangle-side-names">
         <caption>Right Triangle Terminology</caption>
-        <image source="images/triangle-names" width="50%" >
+        <image source="images/triangle-names" width="40%" >
             <shortdescription>Right triangle illustrating terms defined above</shortdescription>
         </image>
     </figure>
@@ -105,7 +105,7 @@
 
     <figure xml:id="figure-trig-function-read">
         <caption>Right Triangle with Side Lengths</caption>
-        <image source="images/triangle-read-trig" width="50%" >
+        <image source="images/triangle-read-trig" width="40%" >
             <shortdescription>Right triangle with side lengths labeled</shortdescription>
             <description>
                 <p>The hypotenuse has length <m>\sqrt{34}</m>. The angle on the right side of the hypotenuse is <m>\theta</m>. The length of the side to the right is 3. The angle on the left side of the hypotenuse is <m>\alpha</m>. The length of the side on the left is 5.</p>
@@ -509,6 +509,10 @@
 
         <exercise>
             <myopenmath problem="1542525" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1539548" />
         </exercise>
     </exercisegroup>
 

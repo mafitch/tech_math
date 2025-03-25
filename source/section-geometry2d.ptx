@@ -29,7 +29,7 @@
     <figure xml:id="figure-illustrate-perimeter-area">
         <caption>Complex Shape with Perimeter and Area</caption>
 
-        <image source="images/perimeter_area" width="70%">
+        <image source="images/perimeter_area" width="50%">
             <shortdescription>Irregular shape with 11 sides of very different lengths.</shortdescription>
         </image>
     </figure>
@@ -199,16 +199,16 @@
 
     <figure xml:id="figure-exercise-triangle-area">
         <caption>Two Triangles</caption>
-        <sidebyside valign="bottom">
+        <sidebyside widths="40% 40%" valign="bottom">
             <figure xml:id="subfigure-triangle-area1">
                 <caption>Obtuse Triangle</caption>
-                <image width="30%" source="images/triangle_area" >
+                <image source="images/triangle_area" >
                     <shortdescription>Triangle with side lengths 5.98, 8.19, and base side length 10.90 with height 4.43</shortdescription>
                 </image>
             </figure>
             <figure xml:id="subfigure-triangle-area2">
                 <caption>Acute Triangle</caption>
-                <image width="30%" source="images/triangle_area2" >
+                <image source="images/triangle_area2" >
                     <shortdescription>Triangle with side lengths 5.98, 8.19, and base side length 2.87 with height 4.43</shortdescription>
                 </image>
             </figure>
@@ -270,7 +270,7 @@
 
     <example xml:id="example-heron-formula-integers">
         <p>Calculate the area of a triangle with side lengths 4, 5, and 7.</p>
-        <image source="images/triangle_heron1" width="50%" >
+        <image source="images/triangle_heron1" width="25%" >
             <shortdescription>Triangle with side lengths 4, 5, 7</shortdescription>
         </image>
         <p>According to Heron's formula
@@ -600,15 +600,15 @@
         </exercise>
 
         <exercise>
+            <myopenmath problem="901077" />
+        </exercise>
+
+        <exercise>
             <myopenmath problem="1144" />
         </exercise>
 
         <exercise>
             <myopenmath problem="900852" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1148" />
         </exercise>
 
         <exercise>
