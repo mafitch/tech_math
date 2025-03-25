@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1471317">
 <statement>
-<image width="33%" pi:generated="problems/images/47920d8535086f45aa0f6766b7fb931e.png"/>
+<image width="33%" pi:generated="problems/images/mom-1471317-1.png"/>
 <p>What is the area of the triangle above? <fillin characters="6"/></p>
 <p>Side lengths are measurements.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>11.8</li></ul></p><p>Because we have side lengths but not angles or a height, we will use Heron's Formula.</p>
-<p>The semi-perimeter is <m>\displaystyle\frac{{1}}{{2}}{\left({6.65}+{4.24}+{5.59}\right)}={8.24}</m> which has 3 significant digits.</p>
-<p>The area is <m>\displaystyle\sqrt{{{8.24}{\left({8.24}-{6.65}\right)}{\left({8.24}-{4.24}\right)}{\left({8.24}-{5.59}\right)}}}={11.784606909015}\approx{11.8}</m>.</p>
+<p><ul><li>5.79</li></ul></p><p>Because we have side lengths but not angles or a height, we will use Heron's Formula.</p>
+<p>The semi-perimeter is <m>\displaystyle\frac{{1}}{{2}}{\left({4.24}+{3.31}+{3.62}\right)}={5.585}</m> which has 3 significant digits.</p>
+<p>The area is <m>\displaystyle\sqrt{{{5.585}{\left({5.585}-{4.24}\right)}{\left({5.585}-{3.31}\right)}{\left({5.585}-{3.62}\right)}}}={5.7948834918724}\approx{5.79}</m>.</p>
 <p>Each factor has at least 3 significant digits so the product does as well.</p>
 </solution>
 </myopenmath>

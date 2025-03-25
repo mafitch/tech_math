@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1553006">
 <statement>
-<p>A subscription plan for a GPS tracking device costs <dollar/>14.99 per month plus <dollar/>0.10 per location ping (sent once every 10 minutes). What is the monthly charge if the device was used for 3 hours and 59 minutes? <fillin characters="6"/></p>
+<p>A subscription plan for a GPS tracking device costs <dollar/>14.95 per month plus <dollar/>0.10 per location ping (sent once every 10 minutes). What is the monthly charge if the device was used for 3 hours and 29 minutes? <fillin characters="6"/></p>
 
 
 </statement>
 <solution>
-<p><ul><li><dollar/>17.29</li></ul></p><p>First, we need to know how many pings are sent in 3 hours and 59 minutes. This is a total of <m>\displaystyle{3}\cdot{60}+{59}={239}</m> minutes. This is <m>\displaystyle\frac{{239}}{{10}}={23.9}</m> 10 minute periods. Any time past the last 10 minute segment does not generate another ping so only 23 pings will be sent.</p>
-<p>Thus the cost is <m>\displaystyle\${14.99}+\${0.10}{\left({23}\right)}=\${17.29}</m>.</p>
+<p><ul><li><dollar/>16.95</li></ul></p><p>First, we need to know how many pings are sent in 3 hours and 29 minutes. This is a total of <m>\displaystyle{3}\cdot{60}+{29}={209}</m> minutes. This is <m>\displaystyle\frac{{209}}{{10}}={20.9}</m> 10 minute periods. Any time past the last 10 minute segment does not generate another ping so only 20 pings will be sent.</p>
+<p>Thus the cost is <m>\displaystyle\${14.95}+\${0.10}{\left({20}\right)}=\${16.95}</m>.</p>
 </solution>
 </myopenmath>

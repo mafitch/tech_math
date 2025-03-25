@@ -1,16 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="900852">
 <statement>
-<image width="33%" pi:generated="problems/images/6f24ed93b5acad4cac5c623e0bcc945c.png"/>
-  <p>
-  Find the area of the circle pictured above.
-  </p>
-<p>
-  Round your answer using the rules of working with significant figures. Note using the approximation of 3.14 for <m>\displaystyle\pi</m> may result in an incorrect answer.</p>
-<p><fillin characters="20"/> <m>\displaystyle{u}{n}{i}{t}{s}^{{2}}</m> </p>
+<image width="33%" pi:generated="problems/images/mom-900852-1.png"/>
+<p>Find the area of the circle pictured above.</p>
+<p>Round your answer using the rules of working with significant figures. Note using the approximation of 3.14 for <m>\displaystyle\pi</m> may result in an incorrect answer.</p>
+<p><fillin characters="20"/> <m>\displaystyle\text{cm}^{{2}}</m></p>
+
 
 </statement>
 <solution>
-<p><ul><li>28.3</li></ul></p>
+<p><ul><li>314</li></ul></p><p>We must use either the area formula in terms of a diameter (area<m>\displaystyle=\pi{\left(\frac{{d}}{{2}}\right)}^{{2}}</m>) or calculate the radius then the area (area<m>\displaystyle=\pi{r}^{{2}}</m>).</p>
+<p><m>\displaystyle\text{area}=\pi{\left(\frac{{20.0}}{{2}}\right)}^{{2}}</m></p>
+<p>
+  <m>\displaystyle=\pi{\left({10}\right)}^{{2}}</m></p>
+<p>
+  <m>\displaystyle=\pi{\left({100}\right)}</m></p>
+<p>
+  <m>\displaystyle\approx{314.15926535898}</m></p>
+<p>
+  <m>\displaystyle\approx{314}</m>.</p>
+<p>To use the radius formula we calculate <m>\displaystyle{r}={\left(\frac{{20.0}}{{2}}\right)}</m> and then use the formula which is step two above.</p>
 </solution>
 </myopenmath>
