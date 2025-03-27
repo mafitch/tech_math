@@ -556,6 +556,33 @@
 
 </subsection>
 
+<subsection xml:id="subsection-geometry2d-ql">
+    <title>Quantitative Literacy</title>
+
+    <p>We use many methods to help us remember formulae and to use the correct one. We can use dimensional analysis (watching units) to help us use the correct formula in geometry.</p>
+
+    <example xml:id="example-geometry-formula-dimensional-analysis">
+        <p>A circle has radius <m>r=5.3</m> in. To calculate the area of the circle we will use either the formula <m>2\pi r</m> or <m>\pi r^2</m>. One is area, and the other is circumference (perimeter). If we recall that area has <em>square</em> units then we notice <m>\pi r^2</m> will end up with <m>(5.3 \text{ in})^2</m> which has squared units. Thus <m>\pi r^2</m> is the area formula. <m>2\pi r</m> must be circumference.</p>
+    </example>
+
+    <p>Next we consider if there is any obvious relationship between the circumference and area of a circle. Specifically we ask if one is always bigger than the other.</p>
+
+    <example xml:id="example-circumference-area-compare">
+        <p>Is the area of a circle is always a larger number than the circumference of a circle? This might seem reasonable because  the circumference is just the edge of the circle and area is all of it. Guesses are an important part of mathematics. After we guess, we check our conjecture. Consider the following.</p>
+        <p><md>
+            <mrow>r \amp = 1.</mrow>
+            <mrow>2\pi(1) \amp \approx 6.2832.</mrow>
+            <mrow>\pi(1)^2 \amp \approx 3.1416</mrow>
+            <mrow>2\pi(2) \amp \approx 12.5664.</mrow>
+            <mrow>\pi(2)^2 \amp \approx 12.5664</mrow>
+            <mrow>2\pi(3) \amp \approx 18.8496.</mrow>
+            <mrow>\pi(3)^2 \amp \approx 28.2743</mrow>
+        </md></p>
+        <p>Immediately we can see that the circumference is neither always less or always more than the area. If <m>r=1</m>, circumference is a larger number than the area. For <m>r=3</m> the relationship is reversed.</p>
+        <p>Generally, there is no relationship between perimeter and area of shapes.</p>
+    </example>
+</subsection>
+
 <exercises>
     <exercisegroup>
         <title>Practice Formulae</title>

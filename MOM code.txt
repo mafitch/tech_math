@@ -22,10 +22,17 @@ if ($stuans1 != null) {
 	$error = getfeedbacktxtnumber($stuans1,  array($answer[1],1,$percent,0), array("Correct", "Did you remember sigfigs?"), "Incorrect") 
 }
 OR
+$stuans = getstuans($stuanswers,$thisq,0)
+if ($stuans != null) {
+  if ( !$scoreiscorrect[$thisq] ) {
+    	$error = getfeedbacktxtnumber($stuans,  array($area,0), array("Did you remember sigfigs?"), "Incorrect") 
+  }
+}
+OR
 $stuans = getstuans($stuanswers,$thisq,1)
 if ($stuans != null) {
-	if ($stuans == $answer[1] ) { $error="" }
-  else if ($stuans >= $smi*0.99 && $stuans <= $smi*1.01) { $error="<p style='background-color:LemonChiffon;'>Did you forget to round?</p>" }
+	if ( $scoreiscorrect[$thisq][0] ) { $error="" }
+  else if ( abs($stuans-$smi) <= 0.01) { $error="<p style='background-color:LemonChiffon;'>Did you forget to round?</p>" }
   else { $error = "<p style='background-color:LightPink;'>Check your work.</p>"}
 }
 OR
