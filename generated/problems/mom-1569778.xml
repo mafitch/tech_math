@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1569778">
+<statement>
+<p>A manufacturer has just announced their new skateboard. The accounting department has determined that the cost to manufacturer the skateboard is <m>\displaystyle{c}={34.22}{n}+{27192}</m>, where <m>\displaystyle{n}</m> is the number of units manufactured and <m>\displaystyle{c}</m> is the resulting cost. The revenue equation is <m>\displaystyle{c}={75.42}{n}</m>.  What is the break even point? <fillin characters="5"/></p>
+
+</statement>
+<solution>
+<p><ul><li><m>\displaystyle{\left({660},{49777.2}\right)}</m></li></ul></p><p>The equations are already written for us, so we just need to solve the system. We can use substitution.</p>
+<p>
+Substitute the expression <m>\displaystyle{34.22}{n}+{27192}</m> from the first equation into the second equation and solve for <m>\displaystyle{n}</m>.</p>
+<p>
+<m>\displaystyle{34.22}{n}+{27192}={75.42}{n}</m></p>
+<p>
+<m>\displaystyle{27192}={41.2}{n}</m></p>
+<p>
+<m>\displaystyle{n}={660}</m></p>
+<p>
+Now solve for c</p>
+<p>
+<m>\displaystyle{c}={75.42}\cdot{660}={49777.2}</m></p>
+</solution>
+</myopenmath>

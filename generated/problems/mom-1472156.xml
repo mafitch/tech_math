@@ -8,14 +8,14 @@
 
 </statement>
 <solution>
-<p><ul><li>56</li></ul></p><p>This floor area consists of a rectangular area (on the left) and a triangular area (on the right). First measurements should all be converted to the same unit.</p>
-<p>Top edge: <m>\displaystyle{11}\ \text{ ft}\cdot\frac{{{12}\ \text{ in}}}{{{1}\ \text{ ft}}}+{6}\ \text{ in}={138}\ \text{ in}</m></p>
-<p>Left edge: <m>\displaystyle{6}\ \text{ ft}\cdot\frac{{{12}\ \text{ in}}}{{{1}\ \text{ ft}}}+{2}\ \text{ in}={74}\ \text{ in}</m></p>
-<p>Bottom edge: <m>\displaystyle{6}\ \text{ ft}\cdot\frac{{{12}\ \text{ in}}}{{{1}\ \text{ ft}}}+{8}\ \text{ in}={80}\ \text{ in}</m></p>
+<p><ul><li>53</li></ul></p><p>This floor area consists of a rectangular area (on the left) and a triangular area (on the right). First measurements should all be converted to the same unit.</p>
+<p>Top edge: <m>\displaystyle{11}\ \text{ ft}\cdot\frac{{{12}\ \text{ in}}}{{{1}\ \text{ ft}}}+{5}\ \text{ in}={137}\ \text{ in}</m></p>
+<p>Left edge: <m>\displaystyle{6}\ \text{ ft}\cdot\frac{{{12}\ \text{ in}}}{{{1}\ \text{ ft}}}+{5}\ \text{ in}={77}\ \text{ in}</m></p>
+<p>Bottom edge: <m>\displaystyle{5}\ \text{ ft}\cdot\frac{{{12}\ \text{ in}}}{{{1}\ \text{ ft}}}+{2}\ \text{ in}={62}\ \text{ in}</m></p>
 <p>We do not need the length of the right edge (angled).</p>
-<p>The area of the rectangle is <m>\displaystyle{\left({74}\ \text{ in}\right)}{\left({80}\ \text{ in}\right)}={5920}\ \text{ in}^{{2}}</m>.</p>
-<p>The triangles top edge has length <m>\displaystyle{\left({138}\ \text{ in}\right)}-{\left({80}\ \text{ in}\right)}={58}\ \text{ in}</m>. The left edge is 74 in. Thus the area of the triangle is <m>\displaystyle\frac{{1}}{{2}}{\left({74}\ \text{ in}\right)}{\left({58}\ \text{ in}\right)}={2146}\ \text{ in}^{{2}}</m>.</p>
-<p>Thus the total area is <m>\displaystyle{5920}\ \text{ in}^{{2}}+{2146}\ \text{ in}^{{2}}={8066}\ \text{ in}^{{2}}</m>. Converting this to square feet it becomes <m>\displaystyle{8066}\ \text{ in}^{{2}}\cdot{\left(\frac{{{1}\ \text{ ft}}}{{{12}\ \text{ in}}}\right)}^{{2}}=\frac{{8066}}{{144}}\ \text{ ft}^{{2}}={56.013888888889}\ \text{ ft}^{{2}}\approx{56}\ \text{ ft}^{{2}}</m>.</p>
+<p>The area of the rectangle is <m>\displaystyle{\left({77}\ \text{ in}\right)}{\left({62}\ \text{ in}\right)}={4774}\ \text{ in}^{{2}}</m>.</p>
+<p>The triangles top edge has length <m>\displaystyle{\left({137}\ \text{ in}\right)}-{\left({62}\ \text{ in}\right)}={75}\ \text{ in}</m>. The left edge is 77 in. Thus the area of the triangle is <m>\displaystyle\frac{{1}}{{2}}{\left({77}\ \text{ in}\right)}{\left({75}\ \text{ in}\right)}={2887.5}\ \text{ in}^{{2}}</m>.</p>
+<p>Thus the total area is <m>\displaystyle{4774}\ \text{ in}^{{2}}+{2887.5}\ \text{ in}^{{2}}={7661.5}\ \text{ in}^{{2}}</m>. Converting this to square feet it becomes <m>\displaystyle{7661.5}\ \text{ in}^{{2}}\cdot{\left(\frac{{{1}\ \text{ ft}}}{{{12}\ \text{ in}}}\right)}^{{2}}=\frac{{7661.5}}{{144}}\ \text{ ft}^{{2}}={53.204861111111}\ \text{ ft}^{{2}}\approx{53}\ \text{ ft}^{{2}}</m>.</p>
 
 </solution>
 </myopenmath>

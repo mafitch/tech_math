@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Units",
-  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  1 g 0.1337   Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.       Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.        Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .         Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .       Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.          Dimensional Analysis   Identify the correct units to make these work.              Converting Units   Convert the units as directed. Use the conversion tables () as needed.                                                           Quantitative Literacy   Use your knowledge of these items to decide on appropriate units.                                                     "
+  "body": " Units   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Unit conversion (skill)  Set up and solve proportions (skill)    This book is designed to present mathematics in various contexts including a variety of trades. As a result numbers will frequently be connected to units such as length (feet, meters), time (seconds) or others. These units are part of the arithmetic, and so we must learn what they mean and how to perform this arithmetic. Sometimes the units even suggest to us how to setup the arithmetic.  In this section we will introduce the units so we can understand them when we read technical material ( ) and use them correctly to communicate results to others ( ). We will also learn to convert units ( ) which involves our first use of proportions ( ).  We measure many things such as distance, time, and weight. We describe these measurements in terms of units like miles, hours, and pounds. But have you ever stopped to think about how these units are defined?  The story of some of these units is lost in history. For example dividing the day into 24 units began with ancient Egyptians. They did not record, that we know of, the reason for choosing 24 units as opposed to 30 or any other number.  Other units, such as the metric (also called the International System of Units or simply SI) are much more modern. Initially many units were based on something physical. For example, one calorie is the amount of heat it takes to raise the temperature of one gram of water C. The meter was originally defined as one ten-millionth of the distance from the equator to the north pole. The problem with this type of measurement is that it is neither fixed (depends on where on the equator your begin) nor easy to measure.  Thus modern definitions were developed. The length of a meter was changed to mean the length of a bar of metal kept in special storage in France. The bar had been carefully constructed and was used to confirm other measurement devices were correctly calibrated. It was changed yet again to be based on wavelengths of radiation. These are uniform no matter where they are done, so they can be used by many people to construct simple measurement tools.    Types of Measurement  First we will look at units for different types of measurement in the two major systems. In a specific trade you will need to memorize the units you use most often. For this class you should ask your instructor which units must be memorized and which you may look up when working on problems.  Note that the U.S. Customary system (related to the British Imperial system) is non-uniform, so there are multiple names for some types of measurements. This is in contrast to the SI (metric) which has one name for each property and prefixes to indicate the size. lists names of units for both systems. It is important to be able to recognize which unit (name) goes with which type of measurement (e.g., length, volume, ).   Units of Measure   Measuring US Customary Metric  Length inch (in) meter (m)  foot (ft)  yard (yd)  mile (mi)  nautical mile (nm)  Volume fluid ounce (oz) liter (L or )  cup (c)  pint (pt)  quart (qt)  gallon (g)  Weight ounce (oz) gram (g)  pound (lb)  Temperature degrees Fahrenheit (F) degrees Celsius (C)  Pressure inches of mercury (inHg) bar  pounds per square inch (psi) Pascal (Pa)  Time second (s)  minute (min)  hour (hr)    One name: two meanings Note that fluid ounces and weight ounces are not the same unit. Ten (10) fluid ounces of milk does not weigh ten (10) ounces. You must determine which ounce is referenced by the context. This can be tricky in recipes, which is a good reason to use SI units.  Note a gram is a unit of mass rather than than a unit of weight. Pound and ounce on the other hand are units of weight. Nevertheless gram is often used to describe weight because it is easy to switch between it and weight. Namely, mass can be obtained by dividing by the acceleration due to gravity (see a physics book for more information). The official unit for weight (a force) is a Newton, but we will not use that in this book.    U.S. Customary  Often we need to convert between units within the U.S. Customary system. This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.  Why would we need to convert units? This can occur because measurements were taken with different scales. For instance, we cannot add 3 inches to 2.2 feet without changing one to make the units match.  Why are there multiple units in the first place? There are different units for different scales (e.g., inches for small lengths and miles for long distances). This is a result of the U.S. Customary system being developed from the British Imperial system which was based on disparate measurements from multiple centuries ago (look up unit names in an etymological dictionary for fun). Converting between units therefore requires remembering special numbers for conversion. Most of these you likely know.   Converting within U.S. Customary   Measuring Unit 1 Unit 2  Length 1 nm 6076 ft  1 mi 5280 ft  1 yd 3 ft  1 ft 12 in  Area 1 acre 43,560  Volume 1 g 4 qts  1 qt 2 pts  1 pt 2 c  1 c 8 oz  1 g 0.1337   Weight 1 ton 2000 lbs  1 lb 16 oz  Time 1 year 365 days  1 day 24 hrs  1 hr 60 mins  1 min 60 secs    Of course a year is not always the same number of days. In each circumstance it is important to determine whether we can use the common approximation of 365 days without injury or loss.  Review each of these examples to see how to convert from one U.S. Customary unit to another.   How many quarts is 2.3 gallons?  From we know (or can look up) that each gallon is 4 quarts. This means we have . This suggests that we can multiply 2.3 by this ratio, because the gallons will divide out. We can be confident we set up the conversion correctly because the only units left are quarts.   Sometimes to convert units we need to convert more than once.   How many cups is 1.5 quarts?  While we do not have an entry for cups per quart in the conversion table, we do have entries for quarts to pints and pints to cups. This suggests we can put these two conversions together to convert quarts to cups.  . Now we can convert the pints to cups. .  When we know that we need multiple conversions we can calculate them all at once. .  When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.   Nothing restricts this process to two at a time.   How many cups is 1.7 gallons?   The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.  As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.     How many days is 17 hours?   Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use      Check that you can perform a unit conversion using this Checkpoint.       Metric (SI)  Just as with U.S. Customary units, we often need to convert between SI units. This section provides the information needed for conversion and examples of performing them. Again, units suggest how we setup the calculations.  Rather than have different names for different scales, metric uses one name of the unit (e.g., liter) and then uses prefixes to indicate size. These can be converted easily, because each prefix is a power of ten (uniform).  You will need to memorize a few of the prefixes. As with units which ones depends on your work. Ask your instructor which prefixes you should memorize for this course.   Metric Prefixes   Multiple Prefix  tera (T)  giga (G)  mega (M)  kilo (k)  hecto (h)  deka (da)  deci (d)  centi (c)  milli (m)  micro ( )  nano (n)  pico (p)    This next table illustrates these prefixes in the context of length (meters). Notice how it is easier to avoid the fractions (last three entries).   Metric Conversion   Scaled Unit Base Unit  kilometer (km) meters  hectometer meters  10 decimeters meter  centimeters meter  millimeters meter    Review each of these examples to see how to convert from one SI unit to another.   How many centimeters is 3.8 meters?  From we know centimeters is 1 meter, that is, . This suggests that we can multiply 3.8 by the ratio which will cause the meters units to divide out. . Note, because centi is a power of ten ( ) the result is shifting the decimal place two positions. 3.8 meters becomes 380 centimeters.  Using this idea we can convert 0.76 meters to 76 centimeters by just shifting the decimal (no additional process necessary).    How many kilotons is 2.3 megatons?  We know one kiloton is tons and one megaton is tons. Because we have two units we can convert twice. .  Just as in the previous example, we can pay attention to the powers of ten to find a shortcut. Kilo and mega are three powers apart ( ), which means we shift the decimal position three places (we see this in the last two steps above). Because we are converting from a large unit to a smaller unit, we move the decimal place to the right (make the number bigger). 2.3 megatons is 2,300 kilotons.    How many centiliters is 13.6 milliliters?  We know centiliters is 1 liter and milliliters is 1 liter. This means we shift the decimal . Because we are moving from a smaller unit to a larger unit, we move the decimal place to the left (shown by the negative) to make the number smaller. 13.6 milliliters is 1.36 centiliters.        Converting between Systems  Commonly we end up with measurements in both U.S. Standard system and SI. We will need to convert all units to one system before using them together. This process is the same as converting one Standard unit to another (e.g., converting miles to feet). This section provides the information needed for conversion and examples of performing them. It is an example of units suggesting how we setup the calculation.   U.S. Customary to SI   Measuring Standard SI  Length 1 nm 1.85200 km  Length 1 mi 1.60934 km  1 ft 0.304800 m  1 in 2.54000 cm  Volume 1 gal 3.78541 L  1 oz 29.5735 mL  Weight 1 lb 0.453592 kg  1 oz 28.3495 g     SI to U.S. Customary   Measuring SI Standard  Length 1 km 0.621371 mi  1 m 3.28084 ft  1 cm 0.393701 in  Volume 1 L 0.264172 gal  1 mL 0.0338140 oz  Weight 1 kg 2.20462 lb  1 g 0.0352740 oz    Review each of these examples to see how to convert between U.S. Customary units and SI units.   How many kilometers is 26.2 miles?   From we know each mile is 1.60934 km; this means there is . The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out. We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in .     How many inches is 15 centimeters?   From we know each centimeter is 0.393701 inches; this means there is . The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .     How many inches is 1 meter?   From we know each meter is 3.28084 feet. From that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet. We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in .         Converting Compound Units  Some units, such as speeds, are compound. For example speed is distance per time. This section provides examples of converting compound units.   How many meters per second is 15 miles per hour?  We start with . We can convert miles to feet and feet to meters (multi-step conversion like ). The conversion ratios suggest we can multiply the 15 mi\/hr by the conversion ratios. We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. .  Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.    How many pounds does a tablespoon of water weigh? Note that one gallon of pure water weighs 8 lbs. Also a tablespoon is a half fluid ounce.   We need to convert the gallons into tablespoons. Because conversions are ratios, we multiply 8 lbs by the necessary conversions. The ounces (oz) in this conversion are fluid (volume) ounces: we are not converting pounds to ounces here. .       Another kind of compound unit is square units such as square feet or seconds squared. When converting these we must account for the square.   Convert 2 acres to units of square miles.   First we note that an acre is . From we know that there are 5280 ft per mile. These conversion ratios suggest that we can multiply the 2 acres by the ratios to obtain the result in square miles.  It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.          Dimensional Analysis   Identify the correct units to make these work.           Converting Units   Convert the units as directed. Use the conversion tables ( , , or ) as needed.                                                           Applications   Answer these questions by converting units as needed.                                         Quantitative Literacy   Use your knowledge of these items to decide on appropriate units.                       "
 },
 {
   "id": "table-units-of-measure",
@@ -280,173 +280,272 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "section-units-8-2",
+  "id": "section-units-8-2-3",
   "level": "2",
-  "url": "section-units.html#section-units-8-2",
+  "url": "section-units.html#section-units-8-2-3",
   "type": "Exercise",
   "number": "1.1.6.3",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-3",
+  "id": "section-units-8-2-4",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-3",
+  "url": "section-units.html#section-units-8-2-4",
   "type": "Exercise",
   "number": "1.1.6.4",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-4",
+  "id": "section-units-8-2-5",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-4",
+  "url": "section-units.html#section-units-8-2-5",
   "type": "Exercise",
   "number": "1.1.6.5",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-5",
+  "id": "section-units-8-2-6",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-5",
+  "url": "section-units.html#section-units-8-2-6",
   "type": "Exercise",
   "number": "1.1.6.6",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-6",
+  "id": "section-units-8-2-7",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-6",
+  "url": "section-units.html#section-units-8-2-7",
   "type": "Exercise",
   "number": "1.1.6.7",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-7",
+  "id": "section-units-8-2-8",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-7",
+  "url": "section-units.html#section-units-8-2-8",
   "type": "Exercise",
   "number": "1.1.6.8",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-8",
+  "id": "section-units-8-2-9",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-8",
+  "url": "section-units.html#section-units-8-2-9",
   "type": "Exercise",
   "number": "1.1.6.9",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-9",
+  "id": "section-units-8-2-10",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-9",
+  "url": "section-units.html#section-units-8-2-10",
   "type": "Exercise",
   "number": "1.1.6.10",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-10",
+  "id": "section-units-8-2-11",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-10",
+  "url": "section-units.html#section-units-8-2-11",
   "type": "Exercise",
   "number": "1.1.6.11",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-11",
+  "id": "section-units-8-2-12",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-11",
+  "url": "section-units.html#section-units-8-2-12",
   "type": "Exercise",
   "number": "1.1.6.12",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-12",
+  "id": "section-units-8-2-13",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-12",
+  "url": "section-units.html#section-units-8-2-13",
   "type": "Exercise",
   "number": "1.1.6.13",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-13",
+  "id": "section-units-8-2-14",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-13",
+  "url": "section-units.html#section-units-8-2-14",
   "type": "Exercise",
   "number": "1.1.6.14",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-14",
+  "id": "section-units-8-2-15",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-14",
+  "url": "section-units.html#section-units-8-2-15",
   "type": "Exercise",
   "number": "1.1.6.15",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-15",
+  "id": "section-units-8-2-16",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-15",
+  "url": "section-units.html#section-units-8-2-16",
   "type": "Exercise",
   "number": "1.1.6.16",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-16",
+  "id": "section-units-8-2-17",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-16",
+  "url": "section-units.html#section-units-8-2-17",
   "type": "Exercise",
   "number": "1.1.6.17",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-17",
+  "id": "section-units-8-2-18",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-17",
+  "url": "section-units.html#section-units-8-2-18",
   "type": "Exercise",
   "number": "1.1.6.18",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-18",
+  "id": "section-units-8-2-19",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-18",
+  "url": "section-units.html#section-units-8-2-19",
   "type": "Exercise",
   "number": "1.1.6.19",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-3-19",
+  "id": "section-units-8-3",
   "level": "2",
-  "url": "section-units.html#section-units-8-3-19",
+  "url": "section-units.html#section-units-8-3",
   "type": "Exercise",
   "number": "1.1.6.20",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-4",
+  "id": "section-units-8-4-3",
   "level": "2",
-  "url": "section-units.html#section-units-8-4",
+  "url": "section-units.html#section-units-8-4-3",
   "type": "Exercise",
   "number": "1.1.6.21",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-4",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-4",
+  "type": "Exercise",
+  "number": "1.1.6.22",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-5",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-5",
+  "type": "Exercise",
+  "number": "1.1.6.23",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-6",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-6",
+  "type": "Exercise",
+  "number": "1.1.6.24",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-7",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-7",
+  "type": "Exercise",
+  "number": "1.1.6.25",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-8",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-8",
+  "type": "Exercise",
+  "number": "1.1.6.26",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-9",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-9",
+  "type": "Exercise",
+  "number": "1.1.6.27",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-10",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-10",
+  "type": "Exercise",
+  "number": "1.1.6.28",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-11",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-11",
+  "type": "Exercise",
+  "number": "1.1.6.29",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-12",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-12",
+  "type": "Exercise",
+  "number": "1.1.6.30",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-13",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-13",
+  "type": "Exercise",
+  "number": "1.1.6.31",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-4-14",
+  "level": "2",
+  "url": "section-units.html#section-units-8-4-14",
+  "type": "Exercise",
+  "number": "1.1.6.32",
   "title": "",
   "body": "  "
 },
@@ -455,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-5-3",
   "type": "Exercise",
-  "number": "1.1.6.22",
+  "number": "1.1.6.33",
   "title": "",
   "body": "  "
 },
@@ -464,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-5-4",
   "type": "Exercise",
-  "number": "1.1.6.23",
+  "number": "1.1.6.34",
   "title": "",
   "body": "  "
 },
@@ -473,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-5-5",
   "type": "Exercise",
-  "number": "1.1.6.24",
+  "number": "1.1.6.35",
   "title": "",
   "body": "  "
 },
@@ -482,115 +581,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-units.html#section-units-8-5-6",
   "type": "Exercise",
-  "number": "1.1.6.25",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-6",
-  "level": "2",
-  "url": "section-units.html#section-units-8-6",
-  "type": "Exercise",
-  "number": "1.1.6.26",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-7",
-  "level": "2",
-  "url": "section-units.html#section-units-8-7",
-  "type": "Exercise",
-  "number": "1.1.6.27",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-8",
-  "level": "2",
-  "url": "section-units.html#section-units-8-8",
-  "type": "Exercise",
-  "number": "1.1.6.28",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-9",
-  "level": "2",
-  "url": "section-units.html#section-units-8-9",
-  "type": "Exercise",
-  "number": "1.1.6.29",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-10",
-  "level": "2",
-  "url": "section-units.html#section-units-8-10",
-  "type": "Exercise",
-  "number": "1.1.6.30",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-11",
-  "level": "2",
-  "url": "section-units.html#section-units-8-11",
-  "type": "Exercise",
-  "number": "1.1.6.31",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-12",
-  "level": "2",
-  "url": "section-units.html#section-units-8-12",
-  "type": "Exercise",
-  "number": "1.1.6.32",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-13",
-  "level": "2",
-  "url": "section-units.html#section-units-8-13",
-  "type": "Exercise",
-  "number": "1.1.6.33",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-14",
-  "level": "2",
-  "url": "section-units.html#section-units-8-14",
-  "type": "Exercise",
-  "number": "1.1.6.34",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-15",
-  "level": "2",
-  "url": "section-units.html#section-units-8-15",
-  "type": "Exercise",
-  "number": "1.1.6.35",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-units-8-16",
-  "level": "2",
-  "url": "section-units.html#section-units-8-16",
-  "type": "Exercise",
   "number": "1.1.6.36",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-units-8-17",
+  "id": "section-units-8-5-7",
   "level": "2",
-  "url": "section-units.html#section-units-8-17",
+  "url": "section-units.html#section-units-8-5-7",
   "type": "Exercise",
   "number": "1.1.6.37",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-units-8-5-8",
+  "level": "2",
+  "url": "section-units.html#section-units-8-5-8",
+  "type": "Exercise",
+  "number": "1.1.6.38",
   "title": "",
   "body": "  "
 },
@@ -5011,7 +5020,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Linear Systems",
-  "body": " Linear Systems   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve a system of linear equations (skill)    In we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions like this involving two or more constraints (equations) at the same time.    Motivation  This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.  In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.   Combining Mixtures  Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce oz of 85% alcohol?  A common technique in mathematics is to start by writing the answer. We will declare that we will use oz of 91% alcohol and oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).  The first constraint is that we end up with 10 oz of solution. Thus .  The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be . This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because oz of the first solution will be added and it is 91% alcohol, it will contribute oz of alcohol. Similarly the second solution will contribute oz of alcohol. Combined we will obtain .  Now we just need a way to solve this pair of equations.     Crossing Lines  This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) there should be a solution. The next section provides the method for solving.  Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.  Recall that a line is a relation (set of points) such that the change between any two, equally spaced points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how steep the line is.   In there are two lines. One goes through point . It rises at a slope of (two up for each one over). The other line goes through the point which is below .  Use the slider to set the slope of the second line to 3. Does the line cross the one through ? Where (left or right of point )?  Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point )?  Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point )?  In general if either slope is steeper than the other slope will the two lines cross?  Can you select a slope for the second line so that these two lines do not cross?    Crossing Lines    This next example applies the idea of a line starting lower but rising faster to answer a financial question.   Vasya's initial pay was $62,347.23. She received $5,000 raises each year. Pyotr's initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?  We could make a table.      Year  Vasya  Pyotr   2012  $62,347.23  $67,242.33   2013  $67,347.23  $70,742.33   2014  $72,347.23  $74,242.33   2015  $77,347.23  $77,742.33   2016  $82,347.23  $81,242.33    We see that is in 2016 that Vasya is first paid more.  Alternatively we could note that Vasya's raises are $1,500 more each year than Pyotr's raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is . Because she gains by 1500 each year it will take years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.     Solving Linear Systems  This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.   We will solve the system from . The two equations are   Notice we can solve the first equation for . If we do then we can substitute it into the second equation. The result will be a single equation with only one variable. We already know how to solve equations like that.  Now that we know that we can substitute that into . This gives us  We can check that this works in the other equation (about percent alcohol).   If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. This method is called elimination .   We will solve the system  In the second line below notice how we modify the first equation to partially match the second one. In the fifth line we added the two equations. Because they had opposite coefficients for , that variable was eliminated, leaving us with just . This can always be done with systems of linear equations.  We finish solving this system the same way as the previous example, by substituting the value of back into the first equation.              Other Cases  In we discovered a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this, our calculations would not produce a solution. These are known as inconsistent systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.   Inconsistent Linear System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). Our work is correct, but the conclusion is clearly false. You can think of this as saying, for a solution to exist 0 must equal -3. Because this is a contradiction, we call the system inconsistent . This means there are no solutions.   There is a third case.   Dependent System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them dependent .          Solving Using Substitution   Solve each of the following linear systems using substitution.                 Solving Using Elimination   Solve each of the following linear systems using elimination.                    Applications   Identify the linear system and solve it to answer these questions.                             "
+  "body": " Linear Systems   This section addresses the following topics.  Interpret data in various formats and analyze mathematical models  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve a system of linear equations (skill)    In we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions like this involving two or more constraints (equations) at the same time.    Motivation  This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.  In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.   Combining Mixtures  Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce oz of 85% alcohol?  A common technique in mathematics is to start by writing the answer. We will declare that we will use oz of 91% alcohol and oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).  The first constraint is that we end up with 10 oz of solution. Thus .  The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be . This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because oz of the first solution will be added and it is 91% alcohol, it will contribute oz of alcohol. Similarly the second solution will contribute oz of alcohol. Combined we will obtain .  Now we just need a way to solve this pair of equations.     Crossing Lines  This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) there should be a solution. The next section provides the method for solving.  Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.  Recall that a line is a relation (set of points) such that the change between any two, equally spaced points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how steep the line is.   In there are two lines. One goes through point . It rises at a slope of (two up for each one over). The other line goes through the point which is below .  Use the slider to set the slope of the second line to 3. Does the line cross the one through ? Where (left or right of point )?  Use the slider to set the slope to something bigger than 3. Does the line cross the first one? Where (left or right of point )?  Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point )?  In general if either slope is steeper than the other slope will the two lines cross?  Can you select a slope for the second line so that these two lines do not cross?    Crossing Lines    This next example applies the idea of a line starting lower but rising faster to answer a financial question.   Vasya's initial pay was $62,347.23. She received $5,000 raises each year. Pyotr's initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?  We could make a table.      Year  Vasya  Pyotr   2012  $62,347.23  $67,242.33   2013  $67,347.23  $70,742.33   2014  $72,347.23  $74,242.33   2015  $77,347.23  $77,742.33   2016  $82,347.23  $81,242.33    We see that is in 2016 that Vasya is first paid more.  Alternatively we could note that Vasya's raises are $1,500 more each year than Pyotr's raises. This means she closes the gap by $1,500 each year. The difference in their initial salaries is . Because she gains by 1500 each year it will take years. Because they receive raises once a year this result must be rounded up to 4 years. Thus she is first paid more in 2016.     Solving Linear Systems  This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.   We will solve the system from . The two equations are   Notice we can solve the first equation for . If we do then we can substitute it into the second equation. The result will be a single equation with only one variable. We already know how to solve equations like that.  Now that we know that we can substitute that into . This gives us  We can check that this works in the other equation (about percent alcohol).   If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. This method is called elimination .   We will solve the system  In the second line below notice how we modify the first equation to partially match the second one. In the fifth line we added the two equations. Because they had opposite coefficients for , that variable was eliminated, leaving us with just . This can always be done with systems of linear equations.  We finish solving this system the same way as the previous example, by substituting the value of back into the first equation.              Other Cases  In we discovered a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this, our calculations would not produce a solution. These are known as inconsistent systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.   Inconsistent Linear System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). Our work is correct, but the conclusion is clearly false. You can think of this as saying, for a solution to exist 0 must equal -3. Because this is a contradiction, we call the system inconsistent . This means there are no solutions.   There is a third case.   Dependent System  Find all solutions to the system   We will use elimination. If we multiply -2 by the first equation we will obtain -4 (opposite of x in the second equation). This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them dependent .          Solve Systems of Equations   Solve each of the following linear systems.                          Applications   Identify the linear system and solve it to answer these questions.                             "
 },
 {
   "id": "example-dual-mixture",
@@ -5176,11 +5185,38 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
+  "id": "section-linear-systems-7-1-7",
+  "level": "2",
+  "url": "section-linear-systems.html#section-linear-systems-7-1-7",
+  "type": "Exercise",
+  "number": "3.6.5.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-linear-systems-7-1-8",
+  "level": "2",
+  "url": "section-linear-systems.html#section-linear-systems-7-1-8",
+  "type": "Exercise",
+  "number": "3.6.5.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-linear-systems-7-1-9",
+  "level": "2",
+  "url": "section-linear-systems.html#section-linear-systems-7-1-9",
+  "type": "Exercise",
+  "number": "3.6.5.7",
+  "title": "",
+  "body": "  "
+},
+{
   "id": "section-linear-systems-7-2-3",
   "level": "2",
   "url": "section-linear-systems.html#section-linear-systems-7-2-3",
   "type": "Exercise",
-  "number": "3.6.5.5",
+  "number": "3.6.5.8",
   "title": "",
   "body": "  "
 },
@@ -5189,7 +5225,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear-systems.html#section-linear-systems-7-2-4",
   "type": "Exercise",
-  "number": "3.6.5.6",
+  "number": "3.6.5.9",
   "title": "",
   "body": "  "
 },
@@ -5198,7 +5234,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear-systems.html#section-linear-systems-7-2-5",
   "type": "Exercise",
-  "number": "3.6.5.7",
+  "number": "3.6.5.10",
   "title": "",
   "body": "  "
 },
@@ -5207,7 +5243,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear-systems.html#section-linear-systems-7-2-6",
   "type": "Exercise",
-  "number": "3.6.5.8",
+  "number": "3.6.5.11",
   "title": "",
   "body": "  "
 },
@@ -5216,79 +5252,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-linear-systems.html#section-linear-systems-7-2-7",
   "type": "Exercise",
-  "number": "3.6.5.9",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-linear-systems-7-3-3",
-  "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-3",
-  "type": "Exercise",
-  "number": "3.6.5.10",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-linear-systems-7-3-4",
-  "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-4",
-  "type": "Exercise",
-  "number": "3.6.5.11",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-linear-systems-7-3-5",
-  "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-5",
-  "type": "Exercise",
   "number": "3.6.5.12",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-linear-systems-7-3-6",
+  "id": "section-linear-systems-7-2-8",
   "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-6",
+  "url": "section-linear-systems.html#section-linear-systems-7-2-8",
   "type": "Exercise",
   "number": "3.6.5.13",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-linear-systems-7-3-7",
+  "id": "section-linear-systems-7-2-9",
   "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-7",
+  "url": "section-linear-systems.html#section-linear-systems-7-2-9",
   "type": "Exercise",
   "number": "3.6.5.14",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-linear-systems-7-3-8",
+  "id": "section-linear-systems-7-2-10",
   "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-8",
+  "url": "section-linear-systems.html#section-linear-systems-7-2-10",
   "type": "Exercise",
   "number": "3.6.5.15",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-linear-systems-7-3-9",
-  "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-9",
-  "type": "Exercise",
-  "number": "3.6.5.16",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "section-linear-systems-7-3-10",
-  "level": "2",
-  "url": "section-linear-systems.html#section-linear-systems-7-3-10",
-  "type": "Exercise",
-  "number": "3.6.5.17",
   "title": "",
   "body": "  "
 },
@@ -5353,7 +5344,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Geometric Reasoning 2D",
-  "body": " Geometric Reasoning 2D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., triangles) is worth memorizing.  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape. In the figure below showing the outline of Kapi'olani Regional Park the perimeter is the distance someone would travel walking around the edge of the park. The area determines how much grass seed it would take to spread over the park.   Complex Shape with Perimeter and Area   Irregular shape with 11 sides of very different lengths.     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Parallelograms include rectangles , which are parallelograms with four right angles, and rhombi , which are parallelograms with four equal length sides. A square is a rectangle and a rhombus.  For the formulas we need a segment that is perpendicular to one pair of parallel sides. This is called the height . One of these parallel sides is called the base .   Parallelograms       Shape  Perimeter  Area      Parallelogram with sides and height labeled   Two parallel sides are labeled with length a. The other pair of sides are labeled with length b. The height is labeled and is between the sides of length a.          The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with .   What are the perimeter and area of this parallelogram?   Parallelogram with height 3.00, base lengths 5.00, and other length 4.05   The perimeter is the sum of the side lengths which in this case is .  The area of a parallelogram, given in is . For this parallelogram that is .    What are the perimeter and area of this parallelogram?   Rectangle with side lengths 28.2 and 18.1   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. .       Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.   Like a parallelogram a trapezoid has a height . This is a segment perpendicular to the parallel sides.   Trapezoid       Shape  Perimeter  Area      Trapezoid with side lengths and height labeled   The trapezoid has parallel sides of lengths and and other sides of lengths and . The height has length h.          Because none of the side lengths need be the same, the perimeter formula is just the sum of the four sides. The height must be between the two, parallel sides. Any line between the other two sides is not perpendicular to both and the formula does not work.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 1.76 and 3.04; other side lengths 5.00 and 4.05; and height 3.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is .   Note the following is also a trapezoid and the formulae still apply.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 10.00 and 13.00; other side lengths 8.54 and 10.00; and height 8.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is       Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area     Triangle with sides and height labeled   The base is labeled with length b, and the height is labeled with length h. The other two sides are labeled with lengths a and c.          Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side which is called the base . Any vertex\/side pair can be used. Be aware that the height may not intersect the opposite side; consider . The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.   What are the perimeter and area of the triangles in ?  The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is    Two Triangles    Obtuse Triangle   Triangle with side lengths 5.98, 8.19, and base side length 10.90 with height 4.43     Acute Triangle   Triangle with side lengths 5.98, 8.19, and base side length 2.87 with height 4.43          In the height is labeled . Draw the other two heights.    Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle ( in the formula).     Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then will equal . . Because this is not a right triangle, but it appears to be close.      In we will develop a version of this statement for triangles without a right angle.  The formula for area of a triangle above requires that we be able to calculate the height. In we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .    Calculate the area of a triangle with side lengths 4, 5, and 7.   Triangle with side lengths 4, 5, 7   According to Heron's formula . Rounding to one decimal place here is an arbitrary choice for this example.   The next example illustrates tracking significant digits while using Heron's formula to calculate area.   Calculate the area of the triangles in .  According to Heron's formula for the triangle in    For the triangle in     Notice that the results from Heron's formula are slightly different from the results using the formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.      Circle      Shape  Perimeter  Area     Circle with diameter and radius labeled   The radius is labeled with length r and the diameter is labeled length d.              When performing calculations with we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.   For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 We need to approximate to at least as many significant digits as the others numbers to avoid reducing precision. We could use more.  The area, given in , is . For radius 7.31    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: . .  The area is simply half of the usual area.        Applying Geometry  When we encounter geometric questions, they will often involve shapes consisting of more than one basic shape such as the park boundry above. Our first task then is to break down these shapes into pieces that are basic shapes (ones we already know). Then we can use the geometric properties to calculate results.  Note that often we can break down a complex shape in more than one way. Which way we choose will depend on what we are trying to calculate and what information we have available.    Calculate the area of this wall given the dimensions given in feet.   5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0   First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle.  The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is .  The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.    Calculate the perimeter of this wall given the dimensions given in feet.  There are five (5) edges. There sum is feet.    What is the (tallest) height of the wall?  The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following. The total height is then .     Calculate the square footage of the combined living room and hallway.   Rectangular room with rectangular hallway attached and side lengths labeled   This layout is rectangular. The living room is a rectangle with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.  To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.  The living room height is . The width is . The area is .  The hallway height is . The width is . The area is .  The total floor surface is . We can now convert that back to feet.  We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like . The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.    Calculate the area to be painted on this wall with a circular window.   5 sided shape consisting of a triangle on top of a rectangle with a circle cut out of it   The wall consists of a rectangle with a triangle on top. The rectangle has width 12 ft and height 5 ft for an area of .  We have the base of the triangle (12 ft), but we do not have the height of the triangle. However, we know that the total wall height is 11 ft, and the part of the height from the rectangal is 5 ft. This means that the rest is from the triangle which has height . Thus the area is .  The area of the circle is .  The total wall area is therefore . It is important to round up to have enough paint.   The following example requires geometric thinking, but does not require any formula. Especially important is deciding on the type of rounding which, in this case, is determined by physical constraints.    Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.     What is the total number of feet of lumber (2x4) needed?    There are two boards of length 60 inches and three boards of length 27 inches. The total length is . We convert this to feet using a ratio.      If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?    If a 60 inch section is cut from a 96 inch board, we have left. This is long enough for one of the 27 inch segments but not more. Thus two boards will cover all but the last 27 inch segment. We need three (3), 96 inch boards.      If the boards are painted before they are assembled, what is the total surface area of the boards to be painted? Paint cans are rated for the number of square feet they can cover. We will want the solution in units of square feet.    Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is   Finally we convert this to square feet using the method of . . We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.      What is the area that is hidden, that is, cannot be seen after assembling?    This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .      Abacus   Abacus with dimensions of the wood pieces   The top and bottom (longest) sides are 60.0 inches long. The left, right, and divider sides are 27.0 inches long. All lumber is 1.5 inches wide. Depth of the wood is not shown in the diagram. The divider piece is 15.0\" from the left edge.     The following example also illustrates rounding according to physical constraints.   We are purchasing carpet squares to carpet a rectangular room that is 15.5 ft by 19.0 ft. These carpet squares are 18 in by 18 in. A box contains 10 squares. How many boxes of carpet squares do we need purchase? This image shows four carpet squares together.   A 2 by 2 grid of the same carpet square   We need to know how many square across and down the room. For the number of squares across we can divide the width of the room (15.5 ft) by the width of a carpet square (18 in). This requires matching units, so Thus the number of squares across is . This means the final square will be a third of a square in width. While it might seem efficient to reuse the rest of that carpet square in the rows above, we cannot because the pattern would not continue correctly. Thus we simply round up to 11 squares across.  Next we calculate the number of squares down. . Thus the number of squares down is . Again to have enough squares we must round up to 13 squares down.  Thus the total number of carpet squares needed is . Because each box has 10 squares each, we need boxes. To have enough we need 15 boxes. In practice we would likely buy at least one extra box in case there are problems.    At first the following might seem to be a reasonable way to solve this problem. First, calculate the total square inches of floor. Using the conversion to inches from above square inches of floor.  Next we can divide by the number of square inches each carpet squares covers to count the number of squares. Each square covers square inches. Thus we calculate that we need carpet squares.  This is substantially fewer than the 143 we calculated previously. The reason is this calculation assumes we can use each of the partial squares somewhere else in the room. This is true when the pattern does not need to match, but not in this case.  Now you may understand why such repeating patterns are avoided in most carpets.         Practice Formulae   Use the appropriate formulae to calculate requested values.                                                        Geometry in Applications   Identify shapes and use appropriate formulae to calculate the results requested.                 Quantitative Literacy   Use you knowledge of geometry to determine what makes sense.              "
+  "body": " Geometric Reasoning 2D   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Identify shapes and apply their properties (skill)    This section presents geometric properties, illustrates identifying shapes in applications, and illustrates breaking down complex shapes into simple ones.    Formulae  This section defines the two properties of interest and provides the formulae for some common shapes. Memorizing all of the formulae is not likely useful: in a job you will be able to look them up. However, anything you use a lot (e.g., triangles) is worth memorizing.  Two of the properties of shapes we will consider are perimeter and area . The perimeter of a shape is a measure of the size of its border (edges). The area of a shape is a measure of what it takes to fill the shape. In the figure below showing the outline of Kapi'olani Regional Park the perimeter is the distance someone would travel walking around the edge of the park. The area determines how much grass seed it would take to spread over the park.   Complex Shape with Perimeter and Area   Irregular shape with 11 sides of very different lengths.     Rounding  How we round on geometric problems will depend as always on the application. For example a carpenter will round to units that can be measured with a tape measure like 1\/16 of an inch. Contextless examples in this section will be rounded using significant digits. When using significant digits treat all numbers in the formulae as exact numbers.    Parallelogram  A parallelogram is a four sided shape for which opposing pairs of sides are parallel.   Parallelograms include rectangles , which are parallelograms with four right angles, and rhombi , which are parallelograms with four equal length sides. A square is a rectangle and a rhombus.  For the formulas we need a segment that is perpendicular to one pair of parallel sides. This is called the height . One of these parallel sides is called the base .   Parallelograms       Shape  Perimeter  Area      Parallelogram with sides and height labeled   Two parallel sides are labeled with length a. The other pair of sides are labeled with length b. The height is labeled and is between the sides of length a.          The perimeter formula is the sum of the four sides. Because the sides come in two pairs which each have the same length we end up with .   What are the perimeter and area of this parallelogram?   Parallelogram with height 3.00, base lengths 5.00, and other length 4.05   The perimeter is the sum of the side lengths which in this case is .  The area of a parallelogram, given in is . For this parallelogram that is .    What are the perimeter and area of this parallelogram?   Rectangle with side lengths 28.2 and 18.1   The perimeter is the sum of the side lengths which in this case is  The area of a parallelogram, given in is . Because this is a rectangle a side length can be used as the height. .       Trapezoid  A trapezoid is a four sided shape for which one pair of opposing sides are parallel.   Like a parallelogram a trapezoid has a height . This is a segment perpendicular to the parallel sides.   Trapezoid       Shape  Perimeter  Area      Trapezoid with side lengths and height labeled   The trapezoid has parallel sides of lengths and and other sides of lengths and . The height has length h.          Because none of the side lengths need be the same, the perimeter formula is just the sum of the four sides. The height must be between the two, parallel sides. Any line between the other two sides is not perpendicular to both and the formula does not work.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 1.76 and 3.04; other side lengths 5.00 and 4.05; and height 3.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is .   Note the following is also a trapezoid and the formulae still apply.   What are the perimeter and area of this trapezoid?   Trapezoid with parallel side lengths 10.00 and 13.00; other side lengths 8.54 and 10.00; and height 8.00   The perimeter of this trapezoid is the sum of the four side lengths .  The area of a trapezoid, given in is . For this trapezoid that is       Triangle  A triangle is a three sided shape.    Triangle      Shape  Perimeter  Area     Triangle with sides and height labeled   The base is labeled with length b, and the height is labeled with length h. The other two sides are labeled with lengths a and c.          Because the three sides can all be different, the perimeter formula is just the sum of the lengths of each side. The height is a segment from a vertex down (perpendicularly) to the opposite side which is called the base . Any vertex\/side pair can be used. Be aware that the height may not intersect the opposite side; consider . The vertical, dashed line segments are heights for those two triangles. The one on the left is from the top vertex down to the bottom side. The one on the right is from the top vertex down to the extension (to the left) of the bottom side.   What are the perimeter and area of the triangles in ?  The perimeter of the triangle on the left is The perimeter of the triangle on the right is  The area of a triangle, given in is . For the triangle on the left that is  For the triangle on the right the area is    Two Triangles    Obtuse Triangle   Triangle with side lengths 5.98, 8.19, and base side length 10.90 with height 4.43     Acute Triangle   Triangle with side lengths 5.98, 8.19, and base side length 2.87 with height 4.43          In the height is labeled . Draw the other two heights.    Pythagorean Theorem  For a triangle containing a right angle where and are the lengths of the sides adjacent to the right angle and is the third side.    Consider the triangle in . Consider the segments of length 4.43, 5.98, and the horizontal dashed segment. If we want to know the length of the dashed segment, we can use this theorem. 5.98 is the length of the side not adjacent to (opposite from) the right angle ( in the formula).     Another use of this theorem is determining if a triangle is a right triangle. Notice that the triangle in appears to have a right angle at the top (opposite the side of length 10.90). If this is a right triangle, then will equal . . Because this is not a right triangle, but it appears to be close.      In we will develop a version of this statement for triangles without a right angle.  The formula for area of a triangle above requires that we be able to calculate the height. In we will learn to calculate this height if we know an angle. This next formula enables us to calculate the area of a triangle without knowing any angles or the height.   Heron's Formula  The area of a triangle can be calculated using the three sides. where .    Calculate the area of a triangle with side lengths 4, 5, and 7.   Triangle with side lengths 4, 5, 7   According to Heron's formula . Rounding to one decimal place here is an arbitrary choice for this example.   The next example illustrates tracking significant digits while using Heron's formula to calculate area.   Calculate the area of the triangles in .  According to Heron's formula for the triangle in    For the triangle in     Notice that the results from Heron's formula are slightly different from the results using the formula. This reminds us that different calculations can result in different rounding. If the difference does not impact the application we do not care. If it does have a negative impact, then we must measure more precisely.      Circle      Shape  Perimeter  Area     Circle with diameter and radius labeled   The radius is labeled with length r and the diameter is labeled length d.              When performing calculations with we will need to select an appropriate approximation. Because it is possible to obtain an approximation with arbitrary precision (as many decimal places as we want), we will select the approximation so that rounding is not affected.   For a circle with radius 7.31 what are the perimeter and area?  The perimeter, given in , is . For radius 7.31 We need to approximate to at least as many significant digits as the others numbers to avoid reducing precision. We could use more.  The area, given in , is . For radius 7.31    What are the perimeter and area of a semi-circle with diameter 11.7?  The perimeter includes half the usual perimeter plus the length of the diameter. We use the diameter version of the perimeter formula: . .  The area is simply half of the usual area.        Applying Geometry  When we encounter geometric questions, they will often involve shapes consisting of more than one basic shape such as the park boundry above. Our first task then is to break down these shapes into pieces that are basic shapes (ones we already know). Then we can use the geometric properties to calculate results.  Note that often we can break down a complex shape in more than one way. Which way we choose will depend on what we are trying to calculate and what information we have available.    Calculate the area of this wall given the dimensions given in feet.   5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0   First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle.  The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is .  The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area. The total area then is square feet.    Calculate the perimeter of this wall given the dimensions given in feet.  There are five (5) edges. There sum is feet.    What is the (tallest) height of the wall?  The height comes from the center of the wall (peak of the triangle). The height of the wall is the height of the rectangle (7.0 ft) plus the height of the triangle. We must calculate the height of the triangle. At this time we know the area and two area formulae. Height is part of the first area formula, and from Heron's formula we already know the area. Putting these two together gives us the following. The total height is then .     Calculate the square footage of the combined living room and hallway.   Rectangular room with rectangular hallway attached and side lengths labeled   This layout is rectangular. The living room is a rectangle with height 12 ft 10 in and width 15 ft 7 in. The hallway adds an additional rectangle of height 3 ft 1 in and width 11 ft 1 in.  To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.  The living room height is . The width is . The area is .  The hallway height is . The width is . The area is .  The total floor surface is . We can now convert that back to feet.  We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like . The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.    Calculate the area to be painted on this wall with a circular window.   5 sided shape consisting of a triangle on top of a rectangle with a circle cut out of it   The wall consists of a rectangle with a triangle on top. The rectangle has width 12 ft and height 5 ft for an area of .  We have the base of the triangle (12 ft), but we do not have the height of the triangle. However, we know that the total wall height is 11 ft, and the part of the height from the rectangal is 5 ft. This means that the rest is from the triangle which has height . Thus the area is .  The area of the circle is .  The total wall area is therefore . It is important to round up to have enough paint.   The following example requires geometric thinking, but does not require any formula. Especially important is deciding on the type of rounding which, in this case, is determined by physical constraints.    Katie is building a large scale abacus for a park. Her plan is to build it from treated 2x4 lumber. Her plan is shown in Note the depth of each piece of wood is 3.5\". If you are wondering why a 2x4 is 1.5 in x 3.5 in, note that the nominal size (2x4 in this case) is based on the initial cut. The lumber shrinks as it cures and again when it is planed smooth.  Because we must have enough wood, we will round up all approximations. Measurements are accurate to an 8th of an inch.     What is the total number of feet of lumber (2x4) needed?    There are two boards of length 60 inches and three boards of length 27 inches. The total length is . We convert this to feet using a ratio.      If a standard 2x4 is 96.0 inches long, what is the smallest number of boards Katie can purchase to have enough lumber?    If a 60 inch section is cut from a 96 inch board, we have left. This is long enough for one of the 27 inch segments but not more. Thus two boards will cover all but the last 27 inch segment. We need three (3), 96 inch boards.      If the boards are painted before they are assembled, what is the total surface area of the boards to be painted? Paint cans are rated for the number of square feet they can cover. We will want the solution in units of square feet.    Each board has six surface. Each surface size appears twice (e.g., top and bottom). For the long segments these areas are For the short segments these are Thus the total area is   Finally we convert this to square feet using the method of . . We round up because we want to be safe and because we likely cannot order an amount to cover exactly 14.1 square feet.      What is the area that is hidden, that is, cannot be seen after assembling?    This would be where the three short boards touch the long boards. There are six places where this happens which are all the same shape . The covered surface is on both the short boards and the matching spot on the long boards, so there are 12 of these surfaces for .      Abacus   Abacus with dimensions of the wood pieces   The top and bottom (longest) sides are 60.0 inches long. The left, right, and divider sides are 27.0 inches long. All lumber is 1.5 inches wide. Depth of the wood is not shown in the diagram. The divider piece is 15.0\" from the left edge.     The following example also illustrates rounding according to physical constraints.   We are purchasing carpet squares to carpet a rectangular room that is 15.5 ft by 19.0 ft. These carpet squares are 18 in by 18 in. A box contains 10 squares. How many boxes of carpet squares do we need purchase? This image shows four carpet squares together.   A 2 by 2 grid of the same carpet square   We need to know how many square across and down the room. For the number of squares across we can divide the width of the room (15.5 ft) by the width of a carpet square (18 in). This requires matching units, so Thus the number of squares across is . This means the final square will be a third of a square in width. While it might seem efficient to reuse the rest of that carpet square in the rows above, we cannot because the pattern would not continue correctly. Thus we simply round up to 11 squares across.  Next we calculate the number of squares down. . Thus the number of squares down is . Again to have enough squares we must round up to 13 squares down.  Thus the total number of carpet squares needed is . Because each box has 10 squares each, we need boxes. To have enough we need 15 boxes. In practice we would likely buy at least one extra box in case there are problems.    At first the following might seem to be a reasonable way to solve this problem. First, calculate the total square inches of floor. Using the conversion to inches from above square inches of floor.  Next we can divide by the number of square inches each carpet squares covers to count the number of squares. Each square covers square inches. Thus we calculate that we need carpet squares.  This is substantially fewer than the 143 we calculated previously. The reason is this calculation assumes we can use each of the partial squares somewhere else in the room. This is true when the pattern does not need to match, but not in this case.  Now you may understand why such repeating patterns are avoided in most carpets.        Quantitative Literacy  We use many methods to help us remember formulae and to use the correct one. We can use dimensional analysis (watching units) to help us use the correct formula in geometry.   A circle has radius in. To calculate the area of the circle we will use either the formula or . One is area, and the other is circumference (perimeter). If we recall that area has square units then we notice will end up with which has squared units. Thus is the area formula. must be circumference.   Next we consider if there is any obvious relationship between the circumference and area of a circle. Specifically we ask if one is always bigger than the other.   Is the area of a circle is always a larger number than the circumference of a circle? This might seem reasonable because the circumference is just the edge of the circle and area is all of it. Guesses are an important part of mathematics. After we guess, we check our conjecture. Consider the following.   Immediately we can see that the circumference is neither always less or always more than the area. If , circumference is a larger number than the area. For the relationship is reversed.  Generally, there is no relationship between perimeter and area of shapes.      Practice Formulae   Use the appropriate formulae to calculate requested values.                                                        Geometry in Applications   Identify shapes and use appropriate formulae to calculate the results requested.                 Quantitative Literacy   Use you knowledge of geometry to determine what makes sense.              "
 },
 {
   "id": "subsection-geometric-properties-2d-3",
@@ -5734,218 +5725,236 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-3",
+  "id": "example-geometry-formula-dimensional-analysis",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-3",
+  "url": "section-geometry2D.html#example-geometry-formula-dimensional-analysis",
+  "type": "Example",
+  "number": "4.1.38",
+  "title": "",
+  "body": " A circle has radius in. To calculate the area of the circle we will use either the formula or . One is area, and the other is circumference (perimeter). If we recall that area has square units then we notice will end up with which has squared units. Thus is the area formula. must be circumference.  "
+},
+{
+  "id": "example-circumference-area-compare",
+  "level": "2",
+  "url": "section-geometry2D.html#example-circumference-area-compare",
+  "type": "Example",
+  "number": "4.1.39",
+  "title": "",
+  "body": " Is the area of a circle is always a larger number than the circumference of a circle? This might seem reasonable because the circumference is just the edge of the circle and area is all of it. Guesses are an important part of mathematics. After we guess, we check our conjecture. Consider the following.   Immediately we can see that the circumference is neither always less or always more than the area. If , circumference is a larger number than the area. For the relationship is reversed.  Generally, there is no relationship between perimeter and area of shapes.  "
+},
+{
+  "id": "section-geometry2D-6-1-3",
+  "level": "2",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-3",
   "type": "Exercise",
-  "number": "4.1.3.1",
+  "number": "4.1.4.1",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-4",
+  "id": "section-geometry2D-6-1-4",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-4",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-4",
   "type": "Exercise",
-  "number": "4.1.3.2",
+  "number": "4.1.4.2",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-5",
+  "id": "section-geometry2D-6-1-5",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-5",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-5",
   "type": "Exercise",
-  "number": "4.1.3.3",
+  "number": "4.1.4.3",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-6",
+  "id": "section-geometry2D-6-1-6",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-6",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-6",
   "type": "Exercise",
-  "number": "4.1.3.4",
+  "number": "4.1.4.4",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-7",
+  "id": "section-geometry2D-6-1-7",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-7",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-7",
   "type": "Exercise",
-  "number": "4.1.3.5",
+  "number": "4.1.4.5",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-8",
+  "id": "section-geometry2D-6-1-8",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-8",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-8",
   "type": "Exercise",
-  "number": "4.1.3.6",
+  "number": "4.1.4.6",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-9",
+  "id": "section-geometry2D-6-1-9",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-9",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-9",
   "type": "Exercise",
-  "number": "4.1.3.7",
+  "number": "4.1.4.7",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-10",
+  "id": "section-geometry2D-6-1-10",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-10",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-10",
   "type": "Exercise",
-  "number": "4.1.3.8",
+  "number": "4.1.4.8",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-11",
+  "id": "section-geometry2D-6-1-11",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-11",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-11",
   "type": "Exercise",
-  "number": "4.1.3.9",
+  "number": "4.1.4.9",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-12",
+  "id": "section-geometry2D-6-1-12",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-12",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-12",
   "type": "Exercise",
-  "number": "4.1.3.10",
+  "number": "4.1.4.10",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-13",
+  "id": "section-geometry2D-6-1-13",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-13",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-13",
   "type": "Exercise",
-  "number": "4.1.3.11",
+  "number": "4.1.4.11",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-14",
+  "id": "section-geometry2D-6-1-14",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-14",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-14",
   "type": "Exercise",
-  "number": "4.1.3.12",
+  "number": "4.1.4.12",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-15",
+  "id": "section-geometry2D-6-1-15",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-15",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-15",
   "type": "Exercise",
-  "number": "4.1.3.13",
+  "number": "4.1.4.13",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-16",
+  "id": "section-geometry2D-6-1-16",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-16",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-16",
   "type": "Exercise",
-  "number": "4.1.3.14",
+  "number": "4.1.4.14",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-17",
+  "id": "section-geometry2D-6-1-17",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-17",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-17",
   "type": "Exercise",
-  "number": "4.1.3.15",
+  "number": "4.1.4.15",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-18",
+  "id": "section-geometry2D-6-1-18",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-18",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-18",
   "type": "Exercise",
-  "number": "4.1.3.16",
+  "number": "4.1.4.16",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-1-19",
+  "id": "section-geometry2D-6-1-19",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-1-19",
+  "url": "section-geometry2D.html#section-geometry2D-6-1-19",
   "type": "Exercise",
-  "number": "4.1.3.17",
+  "number": "4.1.4.17",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-2-3",
+  "id": "section-geometry2D-6-2-3",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-2-3",
+  "url": "section-geometry2D.html#section-geometry2D-6-2-3",
   "type": "Exercise",
-  "number": "4.1.3.18",
+  "number": "4.1.4.18",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-2-4",
+  "id": "section-geometry2D-6-2-4",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-2-4",
+  "url": "section-geometry2D.html#section-geometry2D-6-2-4",
   "type": "Exercise",
-  "number": "4.1.3.19",
+  "number": "4.1.4.19",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-2-5",
+  "id": "section-geometry2D-6-2-5",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-2-5",
+  "url": "section-geometry2D.html#section-geometry2D-6-2-5",
   "type": "Exercise",
-  "number": "4.1.3.20",
+  "number": "4.1.4.20",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-2-6",
+  "id": "section-geometry2D-6-2-6",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-2-6",
+  "url": "section-geometry2D.html#section-geometry2D-6-2-6",
   "type": "Exercise",
-  "number": "4.1.3.21",
+  "number": "4.1.4.21",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-3-3",
+  "id": "section-geometry2D-6-3-3",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-3-3",
+  "url": "section-geometry2D.html#section-geometry2D-6-3-3",
   "type": "Exercise",
-  "number": "4.1.3.22",
+  "number": "4.1.4.22",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-3-4",
+  "id": "section-geometry2D-6-3-4",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-3-4",
+  "url": "section-geometry2D.html#section-geometry2D-6-3-4",
   "type": "Exercise",
-  "number": "4.1.3.23",
+  "number": "4.1.4.23",
   "title": "",
   "body": "  "
 },
 {
-  "id": "section-geometry2D-5-3-5",
+  "id": "section-geometry2D-6-3-5",
   "level": "2",
-  "url": "section-geometry2D.html#section-geometry2D-5-3-5",
+  "url": "section-geometry2D.html#section-geometry2D-6-3-5",
   "type": "Exercise",
-  "number": "4.1.3.24",
+  "number": "4.1.4.24",
   "title": "",
   "body": "  "
 },

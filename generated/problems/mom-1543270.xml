@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1543270">
 <statement>
-<p>An 16 ft extension ladder is 112 in long before extending. If each rung is 14 in above the previous, and the ladder is leaned at an angle of <m>\displaystyle{75}^{\circ}</m>, how much higher is the top of the ladder if it is extended 2 rungs? <fillin characters="5"/></p>
+<p>An 24 ft extension ladder is 168 in long before extending. If each rung is 14 in above the previous, and the ladder is leaned at an angle of <m>\displaystyle{75}^{\circ}</m>, how much higher is the top of the ladder if it is extended 3 rungs? <fillin characters="5"/></p>
 <p>Round down to the nearest inch.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>27</li></ul></p><p>We need to calculate how high the ladder reaches before extending and how high it reaches after extending.</p>
+<p><ul><li>40</li></ul></p><p>We need to calculate how high the ladder reaches before extending and how high it reaches after extending.</p>
 <p>The unextended height is</p>
 <p>
-  <m>\displaystyle{h}_{{1}}={112}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
+  <m>\displaystyle{h}_{{1}}={168}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
 <p>
-  <m>\displaystyle{h}_{{1}}\approx{108.1836925445}</m></p>
-<p>Because each rung is 14" above the previous the length of the ladder will be increased by <m>\displaystyle{14}\cdot{2}={28}</m> inches. That makes the full length of the ladder <m>\displaystyle{112}+{28}={140}</m>. The extended height is</p>
+  <m>\displaystyle{h}_{{1}}\approx{162.27553881675}</m></p>
+<p>Because each rung is 14" above the previous the length of the ladder will be increased by <m>\displaystyle{14}\cdot{3}={42}</m> inches. That makes the full length of the ladder <m>\displaystyle{168}+{42}={210}</m>. The extended height is</p>
 <p>
-  <m>\displaystyle{h}_{{2}}={140}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
+  <m>\displaystyle{h}_{{2}}={210}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
 <p>
-  <m>\displaystyle{h}_{{2}}\approx{135.22961568062}</m></p>
-<p>The increase in height is therefore <m>\displaystyle{h}_{{2}}-{h}_{{1}}={135.22961568062}-{108.1836925445}={27.045923136125}\approx{27}</m>.</p>
+  <m>\displaystyle{h}_{{2}}\approx{202.84442352094}</m></p>
+<p>The increase in height is therefore <m>\displaystyle{h}_{{2}}-{h}_{{1}}={202.84442352094}-{162.27553881675}={40.568884704187}\approx{40}</m>.</p>
 
 </solution>
 </myopenmath>
