@@ -303,7 +303,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
 <ul class="structural toc-item-list active">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-dual-mixture" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-setup-linear-systems" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-linear-system-weird" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Other Cases</span></a></div></li>
@@ -481,18 +481,18 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">This section covers the following mathematical concepts.</div>
 <ul class="disc" id="section-linear-systems-2-1-2"><li id="section-linear-systems-2-1-2-1"><div class="para" id="p-derived-section-linear-systems-2-1-2-1">Solve a system of linear equations (skill)</div></li></ul>
 </div>
-<div class="para" id="section-linear-systems-2-2">In <a href="section-mixture.html#example-percent-mixture-sugar" class="xref" data-knowl="./knowl/xref/example-percent-mixture-sugar.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.2.1">Example 2.2.1</a> we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions like this involving two or more constraints (equations) at the same time.</div></section><section class="subsection" id="subsection-dual-mixture"><h3 class="heading hide-type">
+<div class="para" id="section-linear-systems-2-2">In <a href="section-mixture.html#example-percent-mixture-sugar" class="xref" data-knowl="./knowl/xref/example-percent-mixture-sugar.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.2.1">Example 2.2.1</a> we solved a problem with two, different mixtures. In that case we knew how much of each we were adding. In other cases we know what result we want and need to figure out how much of each substance. This section presents a method for answering questions like this involving two or more constraints (equations) at the same time.</div></section><section class="subsection" id="subsection-setup-linear-systems"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="space"> </span><span class="title">Motivation</span>
 </h3>
-<div class="para" id="subsection-dual-mixture-2">This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.</div>
-<div class="para" id="subsection-dual-mixture-3">In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.</div>
+<div class="para" id="subsection-setup-linear-systems-2">This section provides a first examples of a problem involving two, linear equations. It illustrates how we would recognize this type of problem and how to write it.</div>
+<div class="para" id="subsection-setup-linear-systems-3">In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.</div>
 <article class="example example-like" id="example-dual-mixture"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Combining Mixtures.</span>
 </h4>
 <div class="para" id="example-dual-mixture-2">Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce <span class="process-math">\(10.0\)</span> oz of 85% alcohol?</div>
-<div class="para" id="example-dual-mixture-3">A common technique in mathematics is to start by writing the answer. We will declare that we will use <span class="process-math">\(A\)</span> oz of 91% alcohol and <span class="process-math">\(B\)</span> oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).</div>
+<div class="para" id="example-dual-mixture-3">The question asks us to determine an amount for each of the two mixtures. We can use a common technique in mathematics which is to start by writing the answer. We will declare that we will use <span class="process-math">\(A\)</span> oz of 91% alcohol and <span class="process-math">\(B\)</span> oz of 75% alcohol. Next we can look at the constraints and use them to write equations using these variables.</div>
 <div class="para logical" id="example-dual-mixture-4">
-<div class="para">The first constraint is that we end up with 10 oz of solution. Thus</div>
+<div class="para">The first constraint is that we end up with 10 oz of solution. Thus when we add the two mixtures we end up with 10 oz, which is expressed by</div>
 <div class="displaymath process-math">
 \begin{equation*}
 A+B = 10.0\text{.}
@@ -513,16 +513,116 @@ A+B = 10.0\text{.}
 \end{equation*}
 </div>
 </div>
-<div class="para" id="example-dual-mixture-6">Now we just need a way to solve this pair of equations.</div></article></section><section class="subsection" id="subsection-crossing-lines"><h3 class="heading hide-type">
+<div class="para" id="example-dual-mixture-6">Now we just need a way to solve this pair of equations.</div></article><div class="para" id="subsection-setup-linear-systems-5">In the next example two business considerations lead to a linear system.</div>
+<article class="example example-like" id="trail-mix-simple"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="trail-mix-simple-1">Based on past sales, a business determines that snack fans prefer two item trail mix consisting of cashews and dried blueberries in 6 oz portions. They are willing to pay $9/lb for it. If the cashews cost $8.50/lb and the dried blueberries cost $9.75/lb, how many oz of each should be in one 6 oz portion?</div>
+<div class="para logical" id="trail-mix-simple-2">
+<div class="para">We are asked for amounts for both ingredients. Let’s call the number of ounces <span class="process-math">\(c\)</span> and <span class="process-math">\(b\text{.}\)</span> Before we set up equations we should convert the prices to dollars per ounce.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\$8.50}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.53125/oz\text{.}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\$9.75}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.609375/oz\text{.}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\$9.00}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.5625/oz\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="trail-mix-simple-3">
+<div class="para">The first constraint is the total amount. This is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+c+b = 6\text{.}
+\end{equation*}
+</div>
+<div class="para">The second constraint is the cost. Total cost ($9.00) is the sum of the cost of the two ingredients, so the equation is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0.53125c + 0.609375b = 0.5625\text{.}
+\end{equation*}
+</div>
+</div></article><div class="para" id="subsection-setup-linear-systems-7">The next example illustrates what to do when one or more of the constraints do not use all the variables. Note, the question can be answered without a linear system (see <a href="section-mixture.html" class="internal" title="Section 2.2: Mixtures">Section 2.2</a>); we use it here as a familiar example.</div>
+<article class="example example-like" id="example-linear-mixture-water"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="example-linear-mixture-water-1">Suppose we hae 16 oz of 91% isopropyl alcohol and 16 oz of water. How much of each do we need to mix to produce 10.0 oz of 85% alcohol?</div>
+<div class="para logical" id="example-linear-mixture-water-2">
+<div class="para">This can be set up the same way as <a href="section-linear-systems.html#example-dual-mixture" class="xref" data-knowl="./knowl/xref/example-dual-mixture.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.6.1: Combining Mixtures">Example 3.6.1</a>. The one change is that the second mixture is 0% isopropyl alcohol. This changes the equations to</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-dual-mixture.html" id="example-linear-mixture-water-2-2">
+\begin{align*}
+A + B \amp = 10.0\\
+(0.91)A + (0.00)B \amp = 8.5\text{.}
+\end{align*}
+</div>
+<div class="para">The second equation can be re-written as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-dual-mixture.html">
+\begin{equation*}
+0.91A = 8.5\text{.}
+\end{equation*}
+</div>
+<div class="para">We can now solve as we did before or using a method shown below.</div>
+</div></article><div class="para" id="subsection-setup-linear-systems-9">The following example illustrated both writing a system of linear equations and also how to use multiple examples to answer a question.</div>
+<article class="example example-like" id="aviation-wind-speed"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="aviation-wind-speed-1">A plane has to fly 106 nm in a straight line between Merrill Field and Homer airports. If the flight from Merrill to Homer took 53 minutes, and the flight from Homer to Merrill took 45 minutes, how fast was the plane flying through the air and how fast was the head/tail wind? We will suppose the wind speed was the same the whole time.</div>
+<div class="para" id="aviation-wind-speed-2">Because we are asked for plane and wind speeds, these are the variables. Call them <span class="process-math">\(p\)</span> and <span class="process-math">\(w\text{.}\)</span> The constraints in this case are the lengths of the two flights.</div>
+<div class="para logical" id="aviation-wind-speed-3">
+<div class="para">Before we write the equations for the constraints however we need to consider how we compare speeds (what we are asked to find) to distances (what we are given). We did this in <a href="section-proportion.html#example-ratio-airspeed-solve" class="xref" data-knowl="./knowl/xref/example-ratio-airspeed-solve.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.4: Proportion: Solving">Example 2.4.4</a> and <a href="section-proportion.html#example-proportion-three-in-one" class="xref" data-knowl="./knowl/xref/example-proportion-three-in-one.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.6">Example 2.4.6</a>. For the trip to Homer we would like to setup</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed-solve.html ./knowl/xref/example-proportion-three-in-one.html">
+\begin{equation*}
+\frac{S \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{53 \text{ min}}\text{,}
+\end{equation*}
+</div>
+<div class="para">however this is hours on the left and minutes on the right. So we convert the time in minutes to time in hours. Because there are 60 minutes per hour, 53 minutes is <span class="process-math">\(53/60\)</span> hours.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed-solve.html ./knowl/xref/example-proportion-three-in-one.html" id="aviation-wind-speed-3-5">
+\begin{align*}
+\frac{S_H \text{ nm}}{\text{hr}} \amp = \frac{106 \text{ nm}}{53/60 \text{ hr}}.\\
+\amp = 120 \frac{\text{nm}}{\text{hr}}\text{.}
+\end{align*}
+</div>
+<div class="para">For the return trip (Homer to Merrill) we perform the same calculation.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed-solve.html ./knowl/xref/example-proportion-three-in-one.html">
+\begin{equation*}
+\frac{S_M \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{45/60} \approx 141 \frac{\text{nm}}{\text{hr}}\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="aviation-wind-speed-4">
+<div class="para">Why do we have two speeds for the same trip? The wind slows down the first flight and speeds up the second. The speeds calculated above are across the ground (nm across the ground per hour). When travelling with wind at our backs, our speed is increased by the wind speed. When travelling with a head wind, our speed is decreased by the wind speed. For example if a plane is flying at 60 nm/hr and has a 7 nm/hr head wind it will be travelling only <span class="process-math">\(60-7=53\)</span> nm/hr over the ground. This idea finally enables us to setup equations for the constraints.</div>
+<div class="displaymath process-math" id="aviation-wind-speed-4-2">
+\begin{align*}
+p-w \amp = 120.\\
+p+w \amp = 141.
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="aviation-wind-speed-5">
+<div class="para">Later in this section we will learn a technique to solve these equations. However, this is a special case. The speed <span class="process-math">\(p\)</span> must be between 120 and 141. Because the same amount (<span class="process-math">\(w\)</span>) is subtracted and added, <span class="process-math">\(p\)</span> is half-way between or</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p=\frac{120+141}{2} \approx 130.5 \approx 130\text{.}
+\end{equation*}
+</div>
+<div class="para">Rounding to 130 is using significant digits rounding (times given had only 2 significant digits).</div>
+</div></article></section><section class="subsection" id="subsection-crossing-lines"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="space"> </span><span class="title">Crossing Lines</span>
 </h3>
 <div class="para" id="subsection-crossing-lines-2">This section connects solving a system of two linear equations to their graphs. Graphs will help us understand why (and when) there should be a solution. The next section provides the method for solving.</div>
 <div class="para" id="subsection-crossing-lines-3">Our goal here is to consider what causes lines to cross. We will do this by looking at a pair of lines and seeing where they cross.</div>
 <div class="para" id="subsection-crossing-lines-4">Recall that a line is a relation (set of points) such that the change between any two, equally spaced points is the same. Often you have heard this described as rise over run or slope. Slope is a geometric interpretation referring to how <dfn class="terminology">steep</dfn> the line is.</div>
 <article class="exercise exercise-like" id="example-steep-crossing"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="example-steep-crossing-1"><div class="para" id="example-steep-crossing-1-1">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.3">Figure 3.6.3</a> there are two lines. One goes through point <span class="process-math">\(A=(1,3)\text{.}\)</span> It rises at a slope of <span class="process-math">\(2/1\)</span> (two up for each one over). The other line goes through the point <span class="process-math">\(B=(1,2)\)</span> which is below <span class="process-math">\(A\text{.}\)</span>
+<div class="introduction" id="example-steep-crossing-1"><div class="para" id="example-steep-crossing-1-1">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.6">Figure 3.6.6</a> there are two lines. One goes through point <span class="process-math">\(A=(1,3)\text{.}\)</span> It rises at a slope of <span class="process-math">\(2/1\)</span> (two up for each one over). The other line goes through the point <span class="process-math">\(B=(1,2)\)</span> which is below <span class="process-math">\(A\text{.}\)</span>
 </div></div>
 <article class="task exercise-like" id="example-steep-crossing-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-steep-crossing-2-1">Use the slider to set the slope of the second line to 3. Does the line cross the one through <span class="process-math">\(A\text{?}\)</span> Where (left or right of point <span class="process-math">\(B\)</span>)?</div></article><article class="task exercise-like" id="example-steep-crossing-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
@@ -530,9 +630,9 @@ A+B = 10.0\text{.}
 <div class="para" id="example-steep-crossing-4-1">Use the slider to set the slope to 1. Does the line cross the first one? Where (left or right of point <span class="process-math">\(B\)</span>)?</div></article><article class="task exercise-like" id="example-steep-crossing-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="para" id="example-steep-crossing-5-1">In general if either slope is steeper than the other slope will the two lines cross?</div></article><article class="task exercise-like" id="example-steep-crossing-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="example-steep-crossing-6-1">Can you select a slope for the second line so that these two lines do not cross?</div></article></article><figure class="figure figure-like" id="figure-steep-crossing"><iframe id="figure-steep-crossing-2" width="510" height="383" src="figure-steep-crossing-2-if.html"></iframe><div class="instructions"><details id="figure-steep-crossing-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content"><div class="para" id="figure-steep-crossing-2-2-1">Use the slider to adjust the slope of the line through B.</div></div></details></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.3<span class="period">.</span></span><span class="space"> </span>Crossing Lines</figcaption></figure><div class="para" id="subsection-crossing-lines-7">This next example applies the idea of a line starting lower but rising faster to answer a financial question.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.6<span class="period">.</span></span><span class="space"> </span>Crossing Lines</figcaption></figure><div class="para" id="subsection-crossing-lines-7">This next example applies the idea of a line starting lower but rising faster to answer a financial question.</div>
 <article class="example example-like" id="example-cross-when"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-cross-when-1">Vasya’s initial pay was $62,347.23. She received $5,000 raises each year. Pyotr’s initial pay was $67,242.33. He receives $3,500 raises each year. If they were both hired in 2012 in what year does Vasya first have a higher salary?</div>
 <div class="para" id="example-cross-when-2">We could make a table.</div>
@@ -574,7 +674,7 @@ A+B = 10.0\text{.}
 </h3>
 <div class="para" id="subsection-system-solving-2">This section presents two ways of solving linear systems of this type. The second method is very important for larger systems.</div>
 <article class="example example-like" id="example-dual-mixture-solve"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.8</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-dual-mixture-solve-1">
 <div class="para">We will solve the system from <a href="section-linear-systems.html#example-dual-mixture" class="xref" data-knowl="./knowl/xref/example-dual-mixture.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.6.1: Combining Mixtures">Example 3.6.1</a>. The two equations are</div>
@@ -625,7 +725,7 @@ B &amp; = 3.75.
 </div>
 </div></article><div class="para" id="subsection-system-solving-4">If we had 7 variables instead of two, substituting would take a while. Instead we can use the following method which is more like solving as we know it, that is isolating a variable. This method is called <dfn class="terminology">elimination</dfn>.</div>
 <article class="example example-like" id="example-dual-mixture-eliminate"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.6</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.9</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-dual-mixture-eliminate-1">
 <div class="para">We will solve the system</div>
@@ -665,17 +765,17 @@ A &amp; = 6.25.
 \end{align*}
 </div>
 </div></article><article class="exercise exercise-like" id="exercise-linear-system-integers"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.7</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.10</span><span class="period">.</span>
 </h4>
 <div id="momexercise-linear-system-integers-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-linear-system-integers-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1468692&amp;frame_id=momexercise-linear-system-integers-1"></iframe></div></article><article class="exercise exercise-like" id="exercise-linear-system-eliminate"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.8</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.11</span><span class="period">.</span>
 </h4>
 <div id="momexercise-linear-system-eliminate-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-linear-system-eliminate-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1468733&amp;frame_id=momexercise-linear-system-eliminate-1"></iframe></div></article></section><section class="subsection" id="subsection-linear-system-weird"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="space"> </span><span class="title">Other Cases</span>
 </h3>
-<div class="para" id="subsection-linear-system-weird-2">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.3">Figure 3.6.3</a> we discovered a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this, our calculations would not produce a solution. These are known as <dfn class="terminology">inconsistent</dfn> systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.</div>
+<div class="para" id="subsection-linear-system-weird-2">In <a href="section-linear-systems.html#figure-steep-crossing" class="xref" data-knowl="./knowl/xref/figure-steep-crossing.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.6.6">Figure 3.6.6</a> we discovered a slope that resulted in no intersection. If we were solving a pair of linear equations that represented lines like this, our calculations would not produce a solution. These are known as <dfn class="terminology">inconsistent</dfn> systems. This section provides two examples of such systems and demonstrates how we identify them. For this book, identifying these cases and correctly describing them is all you are expected to do.</div>
 <article class="example example-like" id="example-linear-system-inconsistent"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.9</span><span class="period">.</span><span class="space"> </span><span class="title">Inconsistent Linear System.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.12</span><span class="period">.</span><span class="space"> </span><span class="title">Inconsistent Linear System.</span>
 </h4>
 <div class="para logical" id="example-linear-system-inconsistent-2">
 <div class="para">Find all solutions to the system</div>
@@ -700,7 +800,7 @@ A &amp; = 6.25.
 <div class="para">Our work is correct, but the conclusion is clearly false. You can think of this as saying, for a solution to exist 0 must equal -3. Because this is a contradiction, we call the system <dfn class="terminology">inconsistent</dfn>. This means there are no solutions.</div>
 </div></article><div class="para" id="subsection-linear-system-weird-4">There is a third case.</div>
 <article class="example example-like" id="example-linear-system-dependent"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.10</span><span class="period">.</span><span class="space"> </span><span class="title">Dependent System.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.13</span><span class="period">.</span><span class="space"> </span><span class="title">Dependent System.</span>
 </h4>
 <div class="para logical" id="example-linear-system-dependent-2">
 <div class="para">Find all solutions to the system</div>
@@ -724,7 +824,7 @@ A &amp; = 6.25.
 </div>
 <div class="para">This time we have a true, but rather uninformative statement. We notice that after scaling (multiplying by -2) the two equations were identical. Essentially we had only one equation. Because one can be obtained from the other we call them <dfn class="terminology">dependent</dfn>.</div>
 </div></article><article class="exercise exercise-like" id="exercise-linear-system-inconsistent-rand"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.11</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.6.14</span><span class="period">.</span>
 </h4>
 <div id="momexercise-linear-system-inconsistent-rand-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-linear-system-inconsistent-rand-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1468760&amp;frame_id=momexercise-linear-system-inconsistent-rand-1"></iframe></div></article></section><section class="exercises" id="section-linear-systems-7"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.6.5</span><span class="space"> </span><span class="title">Exercises</span>
