@@ -19,20 +19,60 @@
 
 </introduction>
 
-<subsection xml:id="subsection-dual-mixture">
+<subsection xml:id="subsection-setup-linear-systems">
     <title>Motivation</title>
 
-    <p>This section provides a first example of a problem involving two, linear equations. It illustrates how we would recognize this type of problem.</p>
+    <p>This section provides a first examples of a problem involving two, linear equations. It illustrates how we would recognize this type of problem and how to write it.</p>
 
     <p>In previous dilution problems, we diluted a mixture using just diluent (water in that case). In other situations we will have two mixtures with different percents that we will combine to obtain a new mixture.</p>
 
     <example xml:id="example-dual-mixture">
         <title>Combining Mixtures</title>
         <p>Suppose we have 16 oz of 91% isopropyl alcohol and 12 oz of 75% isopropyl alcohol. How much of each do we need to mix to produce <m>10.0</m> oz of 85% alcohol?</p>
-        <p>A common technique in mathematics is to start by writing the answer. We will declare that we will use <m>A</m> oz of 91% alcohol and <m>B</m> oz of 75% alcohol. Next we will express our dual constraints using these answers (variables).</p>
-        <p>The first constraint is that we end up with 10 oz of solution. Thus <me>A+B = 10.0</me>.</p>
+        <p>The question asks us to determine an amount for each of the two mixtures. We can use a common technique in mathematics which is to start by writing the answer. We will declare that we will use <m>A</m> oz of 91% alcohol and <m>B</m> oz of 75% alcohol. Next we can look at the constraints and use them to write equations using these variables.</p>
+        <p>The first constraint is that we end up with 10 oz of solution. Thus when we add the two mixtures we end up with 10 oz, which is expressed by <me>A+B = 10.0</me>.</p>
         <p>The second contraint is the percent alcohol. Because our variables are in terms of amount of solution, we need to express the percent alcohol constraint in terms of ounces (not percents). We can obtain amount from percent using the definition of percent. Because the resulting solution will be 85% alcohol there will be <me>(0.85)10.0 = 8.5 \text{ oz}</me>. This will be the result of adding the amounts from each solution (just as in previous mixture problems). Because <m>A</m> oz of the first solution will be added and it is 91% alcohol, it will contribute <m>(0.91)A</m> oz of alcohol. Similarly the second solution will contribute <m>(0.75)B</m> oz of alcohol. Combined we will obtain <me>(0.91)A+(0.75)B = 8.5 \text{ oz}</me>.</p>
         <p>Now we just need a way to solve this pair of equations.</p>
+    </example>
+
+    <p>In the next example two business considerations lead to a linear system.</p>
+
+    <example xml:id="trail-mix-simple">
+        <p>Based on past sales, a business determines that snack fans prefer two item trail mix consisting of cashews and dried blueberries in 6 oz portions. They are willing to pay $9/lb for it. If the cashews cost $8.50/lb and the dried blueberries cost $9.75/lb, how many oz of each should be in one 6 oz portion?</p>
+        <p>We are asked for amounts for both ingredients. Let's call the number of ounces <m>c</m> and <m>b</m>. Before we set up equations we should convert the prices to dollars per ounce.
+        <me>\frac{\$8.50}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.53125/oz</me>.
+        <me>\frac{\$9.75}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.609375/oz</me>.
+        <me>\frac{\$9.00}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.5625/oz</me>.</p>
+        <p>The first constraint is the total amount. This is <me>c+b = 6</me>. The second constraint is the cost. Total cost ($9.00) is the sum of the cost of the two ingredients, so the equation is <me>0.53125c + 0.609375b = 0.5625</me>.</p>
+    </example>
+
+    <p>The next example illustrates what to do when one or more of the constraints do not use all the variables. Note, the question can be answered without a linear system (see <xref ref="section-mixture" />); we use it here as a familiar example.</p>
+
+    <example xml:id="example-linear-mixture-water">
+        <p>Suppose we hae 16 oz of 91% isopropyl alcohol and 16 oz of water. How much of each do we need to mix to produce 10.0 oz of 85% alcohol?</p>
+        <p>This can be set up the same way as <xref ref="example-dual-mixture" />. The one change is that the second mixture is 0% isopropyl alcohol. This changes the equations to 
+        <md>
+            <mrow>A + B \amp = 10.0</mrow>
+            <mrow>(0.91)A + (0.00)B \amp = 8.5</mrow>
+        </md>. The second equation can be re-written as <me>0.91A = 8.5</me>. We can now solve as we did before or using a method shown below.</p>
+    </example>
+
+    <p>The following example illustrated both writing a system of linear equations and also how to use multiple examples to answer a question.</p>
+    <example xml:id="aviation-wind-speed">
+        <p>A plane has to fly 106 nm in a straight line between Merrill Field and Homer airports. If the flight from Merrill to Homer took 53 minutes, and the flight from Homer to Merrill took 45 minutes, how fast was the plane flying through the air and how fast was the head/tail wind? We will suppose the wind speed was the same the whole time.</p>
+        <p>Because we are asked for plane and wind speeds, these are the variables. Call them <m>p</m> and <m>w</m>. The constraints in this case are the lengths of the two flights.</p>
+        <p>Before we write the equations for the constraints however we need to consider how we compare speeds (what we are asked to find) to distances (what we are given). We did this in <xref ref="example-ratio-airspeed-solve" /> and <xref ref="example-proportion-three-in-one" />. For the trip to Homer we would like to setup <me>\frac{S \text{ nm}}{\text{hr}} \amp = \frac{106 \text{ nm}}{53 \text{ min}}</me>, however this is hours on the left and minutes on the right. So we convert the time in minutes to time in hours. Because there are 60 minutes per hour, 53 minutes is <m>53/60</m> hours.
+        <md>
+            <mrow>\frac{S_H \text{ nm}}{\text{hr}} \amp = \frac{106 \text{ nm}}{53/60 \text{ hr}}.</mrow>
+            <mrow> \amp = 120 \frac{\text{nm}}{\text{hr}}</mrow>
+        </md>.
+        For the return trip (Homer to Merrill) we perform the same calculation. <me>\frac{S_M \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{45/60} \approx 141 \frac{\text{nm}}{\text{hr}}</me>.</p>
+        <p>Why do we have two speeds for the same trip? The wind slows down the first flight and speeds up the second. The speeds calculated above are across the ground (nm across the ground per hour). When travelling with wind at our backs, our speed is increased by the wind speed. When travelling with a head wind, our speed is decreased by the wind speed. For example if a plane is flying at 60 nm/hr and has a 7 nm/hr head wind it will be travelling only <m>60-7=53</m> nm/hr over the ground. This idea finally enables us to setup equations for the constraints.
+        <md>
+            <mrow>p-w \amp = 120.</mrow>
+            <mrow>p+w \amp = 141.</mrow>
+        </md></p>
+        <p>Later in this section we will learn a technique to solve these equations. However, this is a special case. The speed <m>p</m> must be between 120 and 141. Because the same amount (<m>w</m>) is subtracted and added, <m>p</m> is half-way between or <me>p=\frac{120+141}{2} \approx 130.5 \approx 130</me>. Rounding to 130 is using significant digits rounding (times given had only 2 significant digits).</p>
     </example>
 
 </subsection>
