@@ -522,17 +522,17 @@ A+B = 10.0\text{.}
 <div class="para">We are asked for amounts for both ingredients. Let’s call the number of ounces <span class="process-math">\(c\)</span> and <span class="process-math">\(b\text{.}\)</span> Before we set up equations we should convert the prices to dollars per ounce.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\frac{\$8.50}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.53125/oz\text{.}
+\frac{\$8.50}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.53125/\text{oz}\text{.}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\frac{\$9.75}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.609375/oz\text{.}
+\frac{\$9.75}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.609375/\text{oz}\text{.}
 \end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-\frac{\$9.00}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.5625/oz\text{.}
+\frac{\$9.00}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.5625/\text{oz}\text{.}
 \end{equation*}
 </div>
 </div>
@@ -540,20 +540,20 @@ A+B = 10.0\text{.}
 <div class="para">The first constraint is the total amount. This is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-c+b = 6\text{.}
+c+b = 6 \text{ oz}\text{.}
 \end{equation*}
 </div>
 <div class="para">The second constraint is the cost. Total cost ($9.00) is the sum of the cost of the two ingredients, so the equation is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-0.53125c + 0.609375b = 0.5625\text{.}
+\frac{\$0.53125}{\text{oz}}(c \text{ oz}) + \frac{\$0.609375}{\text{oz}}(b \text{ oz}) = \$0.5625\text{.}
 \end{equation*}
 </div>
 </div></article><div class="para" id="subsection-setup-linear-systems-7">The next example illustrates what to do when one or more of the constraints do not use all the variables. Note, the question can be answered without a linear system (see <a href="section-mixture.html" class="internal" title="Section 2.2: Mixtures">Section 2.2</a>); we use it here as a familiar example.</div>
 <article class="example example-like" id="example-linear-mixture-water"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-linear-mixture-water-1">Suppose we hae 16 oz of 91% isopropyl alcohol and 16 oz of water. How much of each do we need to mix to produce 10.0 oz of 85% alcohol?</div>
+<div class="para" id="example-linear-mixture-water-1">Suppose we have 16 oz of 91% isopropyl alcohol and 16 oz of water. How much of each do we need to mix to produce 10.0 oz of 85% alcohol?</div>
 <div class="para logical" id="example-linear-mixture-water-2">
 <div class="para">This can be set up the same way as <a href="section-linear-systems.html#example-dual-mixture" class="xref" data-knowl="./knowl/xref/example-dual-mixture.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.6.1: Combining Mixtures">Example 3.6.1</a>. The one change is that the second mixture is 0% isopropyl alcohol. This changes the equations to</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-dual-mixture.html" id="example-linear-mixture-water-2-2">
@@ -574,38 +574,40 @@ A + B \amp = 10.0\\
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.4</span><span class="period">.</span>
 </h4>
 <div class="para" id="aviation-wind-speed-1">A plane has to fly 106 nm in a straight line between Merrill Field and Homer airports. If the flight from Merrill to Homer took 53 minutes, and the flight from Homer to Merrill took 45 minutes, how fast was the plane flying through the air and how fast was the head/tail wind? We will suppose the wind speed was the same the whole time.</div>
-<div class="para" id="aviation-wind-speed-2">Because we are asked for plane and wind speeds, these are the variables. Call them <span class="process-math">\(p\)</span> and <span class="process-math">\(w\text{.}\)</span> The constraints in this case are the lengths of the two flights.</div>
-<div class="para logical" id="aviation-wind-speed-3">
-<div class="para">Before we write the equations for the constraints however we need to consider how we compare speeds (what we are asked to find) to distances (what we are given). We did this in <a href="section-proportion.html#example-ratio-airspeed-solve" class="xref" data-knowl="./knowl/xref/example-ratio-airspeed-solve.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.4: Proportion: Solving">Example 2.4.4</a> and <a href="section-proportion.html#example-proportion-three-in-one" class="xref" data-knowl="./knowl/xref/example-proportion-three-in-one.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.6">Example 2.4.6</a>. For the trip to Homer we would like to setup</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed-solve.html ./knowl/xref/example-proportion-three-in-one.html">
+<div class="para" id="aviation-wind-speed-2">At first it is not clear what type of calculation we will need. We can follow the advice in <a href="section-linear-systems.html#example-dual-mixture" class="xref" data-knowl="./knowl/xref/example-dual-mixture.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.6.1: Combining Mixtures">Example 3.6.1</a> to simply write down the answer. Because we are asked for plane and wind speeds, these are the variables. Call them <span class="process-math">\(p\)</span> and <span class="process-math">\(w\text{.}\)</span>
+</div>
+<div class="para" id="aviation-wind-speed-3">We also have data on two flights. These include times and distance but not speed (what we are asked to find). So we must ask ourselves how we can convert time and distance into speeds. We did this in <a href="section-proportion.html#example-ratio-airspeed-solve" class="xref" data-knowl="./knowl/xref/example-ratio-airspeed-solve.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.4: Proportion: Solving">Example 2.4.4</a> and <a href="section-proportion.html#example-proportion-three-in-one" class="xref" data-knowl="./knowl/xref/example-proportion-three-in-one.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.6">Example 2.4.6</a>.</div>
+<div class="para logical" id="aviation-wind-speed-4">
+<div class="para">For the trip to Homer we would like to setup</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/section-units.html">
 \begin{equation*}
-\frac{S \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{53 \text{ min}}\text{,}
+\frac{S_H \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{53 \text{ min}}\text{,}
 \end{equation*}
 </div>
-<div class="para">however this is hours on the left and minutes on the right. So we convert the time in minutes to time in hours. Because there are 60 minutes per hour, 53 minutes is <span class="process-math">\(53/60\)</span> hours.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed-solve.html ./knowl/xref/example-proportion-three-in-one.html" id="aviation-wind-speed-3-5">
+<div class="para">however this has hours on the left and minutes on the right. So we must convert the time in minutes to time in hours (unit conversion is in <a href="section-units.html" class="internal" title="Section 1.1: Units">Section 1.1</a>). Because there are 60 minutes per hour, 53 minutes is <span class="process-math">\(53/60\)</span> hours.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/section-units.html" id="aviation-wind-speed-4-4">
 \begin{align*}
 \frac{S_H \text{ nm}}{\text{hr}} \amp = \frac{106 \text{ nm}}{53/60 \text{ hr}}.\\
 \amp = 120 \frac{\text{nm}}{\text{hr}}\text{.}
 \end{align*}
 </div>
 <div class="para">For the return trip (Homer to Merrill) we perform the same calculation.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-ratio-airspeed-solve.html ./knowl/xref/example-proportion-three-in-one.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/section-units.html">
 \begin{equation*}
 \frac{S_M \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{45/60} \approx 141 \frac{\text{nm}}{\text{hr}}\text{.}
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="aviation-wind-speed-4">
+<div class="para logical" id="aviation-wind-speed-5">
 <div class="para">Why do we have two speeds for the same trip? The wind slows down the first flight and speeds up the second. The speeds calculated above are across the ground (nm across the ground per hour). When travelling with wind at our backs, our speed is increased by the wind speed. When travelling with a head wind, our speed is decreased by the wind speed. For example if a plane is flying at 60 nm/hr and has a 7 nm/hr head wind it will be travelling only <span class="process-math">\(60-7=53\)</span> nm/hr over the ground. This idea finally enables us to setup equations for the constraints.</div>
-<div class="displaymath process-math" id="aviation-wind-speed-4-2">
+<div class="displaymath process-math" id="aviation-wind-speed-5-2">
 \begin{align*}
 p-w \amp = 120.\\
 p+w \amp = 141.
 \end{align*}
 </div>
 </div>
-<div class="para logical" id="aviation-wind-speed-5">
+<div class="para logical" id="aviation-wind-speed-6">
 <div class="para">Later in this section we will learn a technique to solve these equations. However, this is a special case. The speed <span class="process-math">\(p\)</span> must be between 120 and 141. Because the same amount (<span class="process-math">\(w\)</span>) is subtracted and added, <span class="process-math">\(p\)</span> is half-way between or</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -834,13 +836,13 @@ A &amp; = 6.25.
 <div class="introduction" id="section-linear-systems-7-1-2"><div class="para" id="section-linear-systems-7-1-2-1">Solve each of the following linear systems.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="section-linear-systems-7-1-3"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div id="momsection-linear-systems-7-1-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=210116&amp;frame_id=momsection-linear-systems-7-1-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-4"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div id="momsection-linear-systems-7-1-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=142272&amp;frame_id=momsection-linear-systems-7-1-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-5"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<div id="momsection-linear-systems-7-1-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=142228&amp;frame_id=momsection-linear-systems-7-1-5-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-6"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div id="momsection-linear-systems-7-1-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=142272&amp;frame_id=momsection-linear-systems-7-1-3-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-4"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div id="momsection-linear-systems-7-1-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=142228&amp;frame_id=momsection-linear-systems-7-1-4-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-5"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div id="momsection-linear-systems-7-1-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=210116&amp;frame_id=momsection-linear-systems-7-1-5-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-6"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
 <div id="momsection-linear-systems-7-1-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=115232&amp;frame_id=momsection-linear-systems-7-1-6-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-7"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
-<div id="momsection-linear-systems-7-1-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=141900&amp;frame_id=momsection-linear-systems-7-1-7-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-8"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<div id="momsection-linear-systems-7-1-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=184875&amp;frame_id=momsection-linear-systems-7-1-8-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-9"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<div id="momsection-linear-systems-7-1-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=141856&amp;frame_id=momsection-linear-systems-7-1-9-1"></iframe></div></article>
+<div id="momsection-linear-systems-7-1-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1570431&amp;frame_id=momsection-linear-systems-7-1-7-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-8"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div id="momsection-linear-systems-7-1-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1570433&amp;frame_id=momsection-linear-systems-7-1-8-1"></iframe></div></article><article class="exercise exercise-like" id="section-linear-systems-7-1-9"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div id="momsection-linear-systems-7-1-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-linear-systems-7-1-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1570439&amp;frame_id=momsection-linear-systems-7-1-9-1"></iframe></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="section-linear-systems-7-2">

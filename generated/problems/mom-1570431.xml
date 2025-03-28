@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1570431">
+<statement>
+<p>
+Solve the following system.</p>
+<p>
+<m>\displaystyle{\left.\begin{array}{ccccc} {3}{x}\amp+\amp{y}\amp=\amp{4}\\{2}{x}\amp-\amp{3}{y}\amp=\amp{5}\end{array}\right.}</m></p>
+<p>
+Solution: <fillin characters="3"/> </p>
+<p>
+  </p>
+<p>
+Enter your answers as integers or reduced fractions.
+</p>
+</statement>
+<solution>
+<p><ul><li><m>\displaystyle{\left(\frac{{17}}{{11}},-\frac{{7}}{{11}}\right)}</m></li></ul></p><p>To solve with elimination, we need to get opposite coefficients on one variable. In this case, notice that the <m>\displaystyle{y}</m> does not have a coefficient in the first equation (it's coefficient is <m>\displaystyle{1}</m>). So to get opposite coefficients we can multiply the first equation by <m>\displaystyle{3}</m>:</p>
+<p>
+<m>\displaystyle{3}\cdot{\left({3}{x}+{y}={4}\right)}</m> </p>
+<p>
+  <m>\displaystyle{9}{x}+{3}{y}={12}</m></p>
+<p>
+Here is our updated system:</p>
+<p>
+<m>\displaystyle{9}{x}+{3}{y}={12}</m></p>
+<p>
+  <m>\displaystyle{2}{x}-{3}{y}={5}</m></p>
+<p>
+The next step is to add the equations together. The <m>\displaystyle{y}</m> terms cancel and we are left with:</p>
+<p>
+<m>\displaystyle{11}{x}={17}</m></p>
+<p>
+Solving for <m>\displaystyle{x}</m> we get:</p>
+<p>
+<m>\displaystyle{x}=\frac{{17}}{{11}}=\frac{{17}}{{11}}</m></p>
+<p>
+Now that we know <m>\displaystyle{x}</m>, we can plug into the one of the original equations to find <m>\displaystyle{y}</m>. Let's use the first equation:</p>
+<p>
+<m>\displaystyle{3}\cdot{\left(\frac{{17}}{{11}}\right)}+{y}={4}</m></p>
+<p>
+  <m>\displaystyle{y}={4}-{3}\cdot{\left(\frac{{17}}{{11}}\right)}=-\frac{{7}}{{11}}</m></p>
+<p>
+So the solution is <m>\displaystyle{\left(\frac{{17}}{{11}},-\frac{{7}}{{11}}\right)}</m>.</p>
+</solution>
+</myopenmath>

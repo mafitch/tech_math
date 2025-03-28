@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1553823">
 <statement>
-<p>A man owns stock valued at <dollar/>2,500.00.  One day the stock drops by 9<percent/>, and the next day the gain is the same percentage.  How much money is the stock valued at the end of the second day? <dollar/><fillin characters="4"/> </p>
+<p>A man owns stock valued at <dollar/>2,200.00.  One day the stock drops by 7<percent/>, and the next day the gain is the same percentage.  How much money is the stock valued at the end of the second day? <dollar/><fillin characters="4"/> </p>
 
 
 </statement>
 <solution>
-<p><ul><li>2,479.75</li></ul></p><p>We can calculate in two steps. First, the decrease on the first day is <m>\displaystyle\${2},{500.00}\cdot{0.09}=\${225.00}</m>. This means the value at the end of day 1 is <m>\displaystyle\${2},{500.00}-\${225.00}=\${2},{275.00}</m>.</p>
-<p>Second the increase on the second day is <m>\displaystyle\${2},{275.00}\cdot{0.09}=\${204.75}</m>. Notice that we are calculating the percent based on the first days result, not the original amount. The amount at the end of the second day is <m>\displaystyle\${2},{275.00}+\${204.75}=\${2},{479.75}</m>.</p>
+<p><ul><li>2,189.22</li></ul></p><p>We can calculate in two steps. First, the decrease on the first day is <m>\displaystyle\${2},{200.00}\cdot{0.07}=\${154.00}</m>. This means the value at the end of day 1 is <m>\displaystyle\${2},{200.00}-\${154.00}=\${2},{046.00}</m>.</p>
+<p>Second the increase on the second day is <m>\displaystyle\${2},{046.00}\cdot{0.07}=\${143.22}</m>. Notice that we are calculating the percent based on the first days result, not the original amount. The amount at the end of the second day is <m>\displaystyle\${2},{046.00}+\${143.22}=\${2},{189.22}</m>.</p>
 </solution>
 </myopenmath>
