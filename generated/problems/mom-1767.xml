@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1767">
 <statement>
 <p>
-A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={1300}{e}^{{{0.09}{t}}}</m>.  Estimate when the population will exceed 2441.</p>
+A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={1100}{e}^{{{0.16}{t}}}</m>.  Estimate when the population will exceed 1694.</p>
 <p>
 <em>t</em>= <fillin characters="20"/>   </p>
 <p>
@@ -10,16 +10,16 @@ Give your answer accurate to one decimal place.
 </p>
 </statement>
 <solution>
-<p><ul><li>7.0004836327037</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={1300}{e}^{{{0.09}{t}}}</m></p>
+<p><ul><li>2.6986401026596</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={1100}{e}^{{{0.16}{t}}}</m></p>
 <p>
-<m>\displaystyle{2441}={1300}{e}^{{{0.09}{t}}}</m></p>
+<m>\displaystyle{1694}={1100}{e}^{{{0.16}{t}}}</m></p>
 <p>
-<m>\displaystyle\frac{{2441}}{{1300}}={e}^{{{0.09}{t}}}</m></p>
+<m>\displaystyle\frac{{1694}}{{1100}}={e}^{{{0.16}{t}}}</m></p>
 <p>
-<m>\displaystyle{\ln{{\left(\frac{{2441}}{{1300}}\right)}}}={0.09}{t}</m></p>
+<m>\displaystyle{\ln{{\left(\frac{{1694}}{{1100}}\right)}}}={0.16}{t}</m></p>
 <p>
-<m>\displaystyle\frac{{\ln{{\left(\frac{{2441}}{{1300}}\right)}}}}{{0.09}}={t}</m></p>
+<m>\displaystyle\frac{{\ln{{\left(\frac{{1694}}{{1100}}\right)}}}}{{0.16}}={t}</m></p>
 <p>
-<m>\displaystyle{t}={7.0004836327037}</m></p>
+<m>\displaystyle{t}={2.6986401026596}</m></p>
 </solution>
 </myopenmath>

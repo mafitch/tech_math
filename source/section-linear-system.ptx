@@ -40,16 +40,16 @@
     <example xml:id="trail-mix-simple">
         <p>Based on past sales, a business determines that snack fans prefer two item trail mix consisting of cashews and dried blueberries in 6 oz portions. They are willing to pay $9/lb for it. If the cashews cost $8.50/lb and the dried blueberries cost $9.75/lb, how many oz of each should be in one 6 oz portion?</p>
         <p>We are asked for amounts for both ingredients. Let's call the number of ounces <m>c</m> and <m>b</m>. Before we set up equations we should convert the prices to dollars per ounce.
-        <me>\frac{\$8.50}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.53125/oz</me>.
-        <me>\frac{\$9.75}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.609375/oz</me>.
-        <me>\frac{\$9.00}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.5625/oz</me>.</p>
-        <p>The first constraint is the total amount. This is <me>c+b = 6</me>. The second constraint is the cost. Total cost ($9.00) is the sum of the cost of the two ingredients, so the equation is <me>0.53125c + 0.609375b = 0.5625</me>.</p>
+        <me>\frac{\$8.50}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.53125/\text{oz}</me>.
+        <me>\frac{\$9.75}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.609375/\text{oz}</me>.
+        <me>\frac{\$9.00}{\text{lb}} \cdot \frac{1 \text{ lb}}{16 \text{ oz}} = \$0.5625/\text{oz}</me>.</p>
+        <p>The first constraint is the total amount. This is <me>c+b = 6 \text{ oz}</me>. The second constraint is the cost. Total cost ($9.00) is the sum of the cost of the two ingredients, so the equation is <me>\frac{\$0.53125}{\text{oz}}(c \text{ oz}) + \frac{\$0.609375}{\text{oz}}(b \text{ oz}) = \$0.5625</me>.</p>
     </example>
 
     <p>The next example illustrates what to do when one or more of the constraints do not use all the variables. Note, the question can be answered without a linear system (see <xref ref="section-mixture" />); we use it here as a familiar example.</p>
 
     <example xml:id="example-linear-mixture-water">
-        <p>Suppose we hae 16 oz of 91% isopropyl alcohol and 16 oz of water. How much of each do we need to mix to produce 10.0 oz of 85% alcohol?</p>
+        <p>Suppose we have 16 oz of 91% isopropyl alcohol and 16 oz of water. How much of each do we need to mix to produce 10.0 oz of 85% alcohol?</p>
         <p>This can be set up the same way as <xref ref="example-dual-mixture" />. The one change is that the second mixture is 0% isopropyl alcohol. This changes the equations to 
         <md>
             <mrow>A + B \amp = 10.0</mrow>
@@ -60,8 +60,9 @@
     <p>The following example illustrated both writing a system of linear equations and also how to use multiple examples to answer a question.</p>
     <example xml:id="aviation-wind-speed">
         <p>A plane has to fly 106 nm in a straight line between Merrill Field and Homer airports. If the flight from Merrill to Homer took 53 minutes, and the flight from Homer to Merrill took 45 minutes, how fast was the plane flying through the air and how fast was the head/tail wind? We will suppose the wind speed was the same the whole time.</p>
-        <p>Because we are asked for plane and wind speeds, these are the variables. Call them <m>p</m> and <m>w</m>. The constraints in this case are the lengths of the two flights.</p>
-        <p>Before we write the equations for the constraints however we need to consider how we compare speeds (what we are asked to find) to distances (what we are given). We did this in <xref ref="example-ratio-airspeed-solve" /> and <xref ref="example-proportion-three-in-one" />. For the trip to Homer we would like to setup <me>\frac{S \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{53 \text{ min}}</me>, however this is hours on the left and minutes on the right. So we convert the time in minutes to time in hours. Because there are 60 minutes per hour, 53 minutes is <m>53/60</m> hours.
+        <p>At first it is not clear what type of calculation we will need. We can follow the advice in <xref ref="example-dual-mixture" /> to simply write down the answer. Because we are asked for plane and wind speeds, these are the variables. Call them <m>p</m> and <m>w</m>.</p>
+        <p>We also have data on two flights. These include times and distance but not speed (what we are asked to find). So we must ask ourselves how we can convert time and distance into speeds. We did this in <xref ref="example-ratio-airspeed-solve" /> and <xref ref="example-proportion-three-in-one" />.</p>
+        <p>For the trip to Homer we would like to setup <me>\frac{S_H \text{ nm}}{\text{hr}} = \frac{106 \text{ nm}}{53 \text{ min}}</me>, however this has hours on the left and minutes on the right. So we must convert the time in minutes to time in hours (unit conversion is in <xref ref="section-units" />). Because there are 60 minutes per hour, 53 minutes is <m>53/60</m> hours.
         <md>
             <mrow>\frac{S_H \text{ nm}}{\text{hr}} \amp = \frac{106 \text{ nm}}{53/60 \text{ hr}}.</mrow>
             <mrow> \amp = 120 \frac{\text{nm}}{\text{hr}}</mrow>
@@ -373,10 +374,6 @@
         </introduction>
 
         <exercise>
-            <myopenmath problem="210116" />
-        </exercise>
-
-        <exercise>
             <myopenmath problem="142272" />
         </exercise>
 
@@ -385,19 +382,23 @@
         </exercise>
 
         <exercise>
+            <myopenmath problem="210116" />
+        </exercise>
+
+        <exercise>
             <myopenmath problem="115232" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="141900" />
+            <myopenmath problem="1570431" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="184875" />
+            <myopenmath problem="1570433" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="141856" />
+            <myopenmath problem="1570439" />
         </exercise>
     </exercisegroup>
 
