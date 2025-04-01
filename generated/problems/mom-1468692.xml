@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{5}{x}+{4}{y}={55}</m> </p>
+<p><m>\displaystyle{7}{x}+{y}=-{49}</m> </p>
 <p>
-  <m>\displaystyle{2}{x}-{2}{y}=-{24}</m></p>
-<p><fillin characters="8"/></p>
+  <m>\displaystyle-{4}{x}+{7}{y}={81}</m></p>
+<p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{7},{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{5}{x}+{4}{y}={55}</m></p>
-<p><m>\displaystyle-{5}{x}={55}-{\left({4}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{55}-{\left({4}{y}\right)}}}{{-{{5}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{8},{7}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{7}{x}+{1}{y}=-{49}</m></p>
+<p><m>\displaystyle{7}{x}=-{49}-{\left({1}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{49}-{\left({1}{y}\right)}}}{{7}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{2}{\left(\frac{{{55}-{\left({4}{y}\right)}}}{{-{{5}}}}\right)}+-{2}{y}=-{24}</m></p>
-<p><m>\displaystyle\frac{{2}}{{-{{5}}}}\cdot{\left({55}\right)}-\frac{{2}}{{-{{5}}}}{\left({4}\right)}{y}+-{2}{y}=-{24}</m></p>
-<p><m>\displaystyle-{22}-{\left({1.6}\right)}{y}+-{2}{y}=-{24}</m></p>
-<p><m>\displaystyle{1.6}{y}+{\left(-{2}\right)}{y}=-{24}--{22}</m></p>
-<p><m>\displaystyle{1.6}{y}+{\left(-{2}\right)}{y}=-{2}</m></p>
-<p><m>\displaystyle{\left({1.6}+{\left(-{2}\right)}\right)}{y}=-{2}</m></p>
-<p><m>\displaystyle-{0.4}{y}=-{2}</m></p>
-<p><m>\displaystyle{y}=-\frac{{2}}{{-{{0.4}}}}</m></p>
-<p><m>\displaystyle{y}={5}</m></p>
+<p><m>\displaystyle-{4}{\left(\frac{{-{49}-{\left({1}{y}\right)}}}{{7}}\right)}+{7}{y}={81}</m></p>
+<p><m>\displaystyle-\frac{{4}}{{7}}\cdot{\left(-{49}\right)}--\frac{{4}}{{7}}{\left({1}\right)}{y}+{7}{y}={81}</m></p>
+<p><m>\displaystyle{28}-{\left({0.57142857142857}\right)}{y}+{7}{y}={81}</m></p>
+<p><m>\displaystyle{0.57142857142857}{y}+{\left({7}\right)}{y}={81}-{28}</m></p>
+<p><m>\displaystyle{0.57142857142857}{y}+{\left({7}\right)}{y}={53}</m></p>
+<p><m>\displaystyle{\left({0.57142857142857}+{\left({7}\right)}\right)}{y}={53}</m></p>
+<p><m>\displaystyle{7.5714285714286}{y}={53}</m></p>
+<p><m>\displaystyle{y}=\frac{{53}}{{7.5714285714286}}</m></p>
+<p><m>\displaystyle{y}={7}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{5}{x}+{4}{\left({5}\right)}={55}</m></p>
-<p><m>\displaystyle-{5}{x}+{\left({20}\right)}={55}</m></p>
-<p><m>\displaystyle-{5}{x}={55}-{\left({20}\right)}</m></p>
-<p><m>\displaystyle-{5}{x}={35}</m></p>
-<p><m>\displaystyle{x}=\frac{{35}}{{-{{5}}}}</m></p>
-<p><m>\displaystyle{x}=-{7}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{7},{5}\right)}</m>.</p>
+<p><m>\displaystyle{7}{x}+{1}{\left({7}\right)}=-{49}</m></p>
+<p><m>\displaystyle{7}{x}+{\left({7}\right)}=-{49}</m></p>
+<p><m>\displaystyle{7}{x}=-{49}-{\left({7}\right)}</m></p>
+<p><m>\displaystyle{7}{x}=-{56}</m></p>
+<p><m>\displaystyle{x}=-\frac{{56}}{{7}}</m></p>
+<p><m>\displaystyle{x}=-{8}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{8},{7}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

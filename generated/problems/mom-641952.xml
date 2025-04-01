@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="641952">
 <statement>
-<p> Janet spent 18 hours playing video games in a week. The table shows the number of hours Janet played each video game.</p>
+<p> John Mark watched 25 movies in a week. The table shows the how many of each type of movie John Mark watched.</p>
 <tabular>       
   
     <row>
-      <cell>video games</cell>
-      <cell>hours:</cell>
+      <cell>movies</cell>
+      <cell>amount:</cell>
     </row>
     <row>
-      <cell>Battlefield</cell>
-      <cell>6</cell>
+      <cell>Action</cell>
+      <cell>10</cell>
     </row>
     <row>
-      <cell>Call of Duty</cell>
-      <cell>11</cell>
+      <cell>Drama</cell>
+      <cell>12</cell>
     </row>
     <row>
-      <cell>Minecraft</cell>
-      <cell>1</cell>
+      <cell>Comedy</cell>
+      <cell>3</cell>
     </row>
   
-</tabular><p>What is the ratio of Call of Duty to total hours Janet plays video games in a week?
+</tabular><p>What is the ratio of Comedy to total movies John Mark watches in a week?
   </p>
 <p>
-  <fillin characters="2"/> : <fillin characters="2"/></p>
+  <input type="text" style="width:3.4ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/> : <input type="text" style="width:3.4ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li>11:18</li></ul></p>
+<p><ul><li>3:25</li></ul></p>
 </solution>
 </myopenmath>

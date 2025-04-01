@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1532255">
 <statement>
-<p>Aircraft flying at 18,000 ft MSL and above (called the flight levels) use an altimeter setting of 29.92 regardless of the local setting. Note higher pressure is lower in the atmosphere.  29.92 is higher pressure than 28.51, and occurs at a lower altitude.</p>
-<p>If the local altimeter setting is 28.51 inHg, what is the difference in altimeter settings from 29.92 inHg? This should be a positive number. <fillin characters="6"/> inHg </p>
-<p>In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained. Based on this, how many feet does the pressure difference (previous question) represent? <fillin characters="6"/> ft</p>
-<p>Because the plane is using 29.92 inHg instead of 28.51 inHg, they are flying that many feet lower than their altimeter indicates. What is their actual altitude? <fillin characters="6"/> ft MSL </p>
+<p>Aircraft flying at 18,000 ft MSL and above (called the flight levels) use an altimeter setting of 29.92 regardless of the local setting. Note higher pressure is lower in the atmosphere.  29.92 is higher pressure than 28.53, and occurs at a lower altitude.</p>
+<p>If the local altimeter setting is 28.53 inHg, what is the difference in altimeter settings from 29.92 inHg? This should be a positive number. <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 4" class="text"/> inHg </p>
+<p>In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained. Based on this, how many feet does the pressure difference (previous question) represent? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 4" class="text"/> ft</p>
+<p>Because the plane is using 29.92 inHg instead of 28.53 inHg, they are flying that many feet lower than their altimeter indicates. What is their actual altitude? <input type="text" style="width:8.2ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 4" class="text"/> ft MSL </p>
 <p>Because this actual altitude means they could conflict with the aircraft flying at 17,500, aircraft will not be allowed to fly at 18,000 ft MSL on this day.</p>
-<p>Given how much lower they would be than indicated (as you calculated above), how much higher must they fly than 18,000 ft MSL? Note this must be a multiple of 1000 ft (FAA regulations), so round up to the nearest thousand. <fillin characters="6"/> </p>
+<p>Given how much lower they would be than indicated (as you calculated above), how much higher must they fly than 18,000 ft MSL? Note this must be a multiple of 1000 ft (FAA regulations), so round up to the nearest thousand. <input type="text" style="width:8.2ch" name="qn1003" id="qn1003" value="" autocomplete="off" aria-label="Question 1 Part 4 of 4" class="text"/> </p>
 
 </statement>
 <solution>
-<p><ul><li>1.41</li><li>1410</li><li>16590</li><li>20000</li></ul></p>
+<p><ul><li>1.39</li><li>1390</li><li>16610</li><li>20000</li></ul></p>
 </solution>
 </myopenmath>

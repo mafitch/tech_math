@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1548930">
 <statement>
-<p>Laura invested <dollar/>5,600 in stocks and later sold them for <dollar/>7,500. The sale price is what percent of the purchase price? <fillin characters="6"/> <percent/></p>
+<p>Laura invested <dollar/>6,400 in stocks and later sold them for <dollar/>7,500. The sale price is what percent of the purchase price? <input type="text" style="width:8.2ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <percent/></p>
 <p>Round to 2 decimal places.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>133.93</li></ul></p><p>The percent we desire is new/old.</p>
-<p><m>\displaystyle\frac{{\${7},{500}}}{{\${5},{600}}}={1.3392857142857}</m></p>
+<p><ul><li>117.19</li></ul></p><p>The percent we desire is new/old.</p>
+<p><m>\displaystyle\frac{{\${7},{500}}}{{\${6},{400}}}={1.171875}</m></p>
 <p>
-  <m>\displaystyle{100}\times{1.3392857142857}={133.92857142857}</m><percent/></p>
+  <m>\displaystyle{100}\times{1.171875}={117.1875}</m><percent/></p>
 <p>
-  <m>\displaystyle{133.92857142857}\%\approx{133.93}\%</m></p>
+  <m>\displaystyle{117.1875}\%\approx{117.19}\%</m></p>
 <p>The percent is greater than 100, because the value increased. It is all of the original value plus more.</p>
 </solution>
 </myopenmath>

@@ -2,24 +2,24 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1767">
 <statement>
 <p>
-A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={1100}{e}^{{{0.16}{t}}}</m>.  Estimate when the population will exceed 1694.</p>
+A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={750}{e}^{{{0.18}{t}}}</m>.  Estimate when the population will exceed 2644.</p>
 <p>
-<em>t</em>= <fillin characters="20"/>   </p>
+<em>t</em>= <input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>   </p>
 <p>
 Give your answer accurate to one decimal place.
 </p>
 </statement>
 <solution>
-<p><ul><li>2.6986401026596</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={1100}{e}^{{{0.16}{t}}}</m></p>
+<p><ul><li>6.999861080229</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={750}{e}^{{{0.18}{t}}}</m></p>
 <p>
-<m>\displaystyle{1694}={1100}{e}^{{{0.16}{t}}}</m></p>
+<m>\displaystyle{2644}={750}{e}^{{{0.18}{t}}}</m></p>
 <p>
-<m>\displaystyle\frac{{1694}}{{1100}}={e}^{{{0.16}{t}}}</m></p>
+<m>\displaystyle\frac{{2644}}{{750}}={e}^{{{0.18}{t}}}</m></p>
 <p>
-<m>\displaystyle{\ln{{\left(\frac{{1694}}{{1100}}\right)}}}={0.16}{t}</m></p>
+<m>\displaystyle{\ln{{\left(\frac{{2644}}{{750}}\right)}}}={0.18}{t}</m></p>
 <p>
-<m>\displaystyle\frac{{\ln{{\left(\frac{{1694}}{{1100}}\right)}}}}{{0.16}}={t}</m></p>
+<m>\displaystyle\frac{{\ln{{\left(\frac{{2644}}{{750}}\right)}}}}{{0.18}}={t}</m></p>
 <p>
-<m>\displaystyle{t}={2.6986401026596}</m></p>
+<m>\displaystyle{t}={6.999861080229}</m></p>
 </solution>
 </myopenmath>

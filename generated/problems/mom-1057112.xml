@@ -2,40 +2,40 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057112-1.png"/><p>
-Suppose a = 8 and A = 25 degrees. Calculate:</p>
+Suppose a = 3 and A = 20 degrees. Calculate:</p>
 <p>
-b = <fillin characters="20"/></p>
+b = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
 <p>
-c = <fillin characters="20"/></p>
+c = <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/></p>
 <p>
-B = <fillin characters="20"/> degrees</p>
+B = <input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
 <p>
 Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>17.2</li><li>18.9</li><li>65.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>8.2</li><li>8.8</li><li>70.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({25}\right)}}}=\frac{{8}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({20}\right)}}}=\frac{{3}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{8}}{{\tan{{\left({25}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{3}}{{\tan{{\left({20}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{17.156055364076}\approx{17.2}</m>.</p>
+  <m>\displaystyle{b}\approx{8.2424322583639}\approx{8.2}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={8}^{{2}}+{17.156055364076}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={3}^{{2}}+{8.2424322583639}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={64}+{294.33023565526}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={9}+{67.937689533717}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={358.33023565526}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={76.937689533717}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{358.33023565526}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{76.937689533717}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{18.92961266522}\approx{18.9}</m>.</p>
+  <m>\displaystyle{c}\approx{8.7714132004893}\approx{8.8}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{25}^{\circ}\approx{65}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{20}^{\circ}\approx{70}^{\circ}</m></p>
 
 </solution>
 </myopenmath>

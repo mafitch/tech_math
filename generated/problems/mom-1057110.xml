@@ -2,36 +2,36 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057110">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057110-1.png"/><p>
-Suppose a = 5 and b = 4. Calculate:</p>
+Suppose a = 3 and b = 8. Calculate:</p>
 <p>
-c = <fillin characters="20"/></p>
+c = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
 <p>
-A = <fillin characters="20"/> degrees</p>
+A = <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> degrees</p>
 <p>
-B = <fillin characters="20"/> degrees</p>
+B = <input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
 <p>
 Round all answers to one decimal place. Give angles in <em>degrees</em>.
 </p>
 </statement>
 <solution>
-<p><ul><li>6.4</li><li>51.3</li><li>38.7</li></ul></p><p>First calculate the length of the other leg.</p>
-<p><m>\displaystyle{c}^{{2}}={5}^{{2}}+{4}^{{2}}</m>.</p>
+<p><ul><li>8.5</li><li>20.6</li><li>69.4</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><m>\displaystyle{c}^{{2}}={3}^{{2}}+{8}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={25}+{16}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={9}+{64}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={41}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={73}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{41}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{73}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{6.4031242374328}</m>.</p>
+  <m>\displaystyle{c}\approx{8.5440037453175}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{6.4}</m>.</p>
+  <m>\displaystyle{c}\approx{8.5}</m>.</p>
 <p>For angle A</p>
 <p>
-  <m>\displaystyle{\arctan{{\left(\frac{{5}}{{4}}\right)}}}\approx{51.34019174591}\approx{51.3}</m></p>
+  <m>\displaystyle{\arctan{{\left(\frac{{3}}{{8}}\right)}}}\approx{20.556045219583}\approx{20.6}</m></p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{51.34019174591}^{\circ}\approx{38.65980825409}\approx{38.7}</m>.</p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{20.556045219583}^{\circ}\approx{69.443954780417}\approx{69.4}</m>.</p>
 
 </solution>
 </myopenmath>
