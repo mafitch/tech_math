@@ -2,13 +2,13 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1457088">
 <statement>
 <tabular> <row><cell/><cell>0°</cell><cell>30°</cell><cell>45°</cell><cell>60°</cell></row><row><cell><em>Up</em></cell><cell>48</cell><cell>52</cell><cell>57</cell><cell>68</cell></row><row><cell><em>Approach</em></cell><cell>43</cell><cell>46</cell><cell>51</cell><cell>61</cell></row><row><cell><em>Landing</em></cell><cell>40</cell><cell>43</cell><cell>48</cell><cell>57</cell></row></tabular>
-<p>Based on the table, what is the stall speed in a 15 degree turn with flaps in the Up position? <fillin characters="3"/></p>
+<p>Based on the table, what is the stall speed in a 32.5 degree turn with flaps in the Landing position? <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Flight safety requires rounding up stall speeds. As a result, round up to the nearest integer.</p>
 
 </statement>
 <solution>
-<p><ul><li>50</li></ul></p><p>First, we look in the top row (bank angles) to find the nearest values. Note that 15 is half way between 0 and 30.</p>
-<p>The entries in the Up row for these two columns are 48 and 52.</p>
-<p>To interpolate we average <m>\displaystyle\frac{{{48}+{52}}}{{2}}={50}\approx{50}</m>. We round up to be safe.</p>
+<p><ul><li>46</li></ul></p><p>First, we look in the top row (bank angles) to find the nearest values. Note that 32.5 is half way between 30 and 35.</p>
+<p>The entries in the Landing row for these two columns are 43 and 48.</p>
+<p>To interpolate we average <m>\displaystyle\frac{{{43}+{48}}}{{2}}={45.5}\approx{46}</m>. We round up to be safe.</p>
 </solution>
 </myopenmath>

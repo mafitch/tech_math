@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-rounded-rectangle" >
+<title>Project: Rounded Rectangle</title>
+
+<project xml:id="project-rounded-rectangle">
+    <title>Rounded Rectangle</title>
+
+    <introduction>
+        <p>A common shape in graphic design is a rounded rectangle. This is a rectangle whose corners have been turned into quarter circles. These rounded corners can be small or large where this is measured by the size of the radius of the circle. In this project we determine the impact the radius of the corners has on the area of the shape. We also determine a maximum and minimum possible area.</p>
+    </introduction>
+
+    <task>
+        <introduction>
+            <p>First, we practice calculating the area of a rounded rectangle and produce some data for later steps.</p>
+        </introduction>
+
+        <task>
+            <p>Calculate the area of the rounded rectangle in <xref ref="subfigure-rounded-rectangle1" />. There are multiple ways to calculate this area. You might calculate the area of the four circular corners and then the rest of the area.</p>
+        </task>
+        <task>
+            <p>Calculate the area of the rounded rectangle in <xref ref="subfigure-rounded-rectangle2" /></p>
+        </task>
+        <task>
+            <p>Which has more area, the rectangle with smaller corner radius (<xref ref="subfigure-rounded-rectangle1" />) or the rectangle with larger corner radius (<xref ref="subfigure-rounded-rectangle2" />)?</p>
+        </task>
+    </task>
+
+    <task>
+        <introduction>
+            <p>In this task we determine the first bound (maximum or minimum area) for a rounded rectangle.</p>
+        </introduction>
+        <task>
+            <p>There is a maximum sized radius for the rounded corners. It results from two, adjacent corners running into each other. For a rectangle with width 70 and height 40, what is the maximum radius possible?</p>
+        </task>
+        <task>
+            <p>What is the area of the rounded rectangle with this radius?</p>
+        </task>
+        <task>
+            <p>Is this the maximum or minimum area for a rounded rectangle with width 70 and height 40?</p>
+        </task>
+    </task>
+
+    <task>
+        <introduction>
+            <p>In this task we determine the second bound (maximum or minimum area) for a rounded rectangle.</p>
+        </introduction>
+        <task>
+            <p>As the radius of the corners becomes smaller, the area of the rounded rectangle becomes smaller or larger?</p>
+        </task>
+        <task>
+            <p>As the radius of the corners becomes smaller the area of a rectangle with width 70 and height 40 becomes closer to what area?</p>
+        </task>
+        <task>
+            <p>Is this the maximum or minimum area for a rounded rectangle with width 70 and height 40?</p>
+        </task>
+    </task>
+</project>
+
+<figure xml:id="figure-rounded-rectangles">
+    <caption>Rounded Rectangles</caption>
+    <sidebyside>
+        <figure xml:id="subfigure-rounded-rectangle1">
+            <caption>Small Corners</caption>
+            <image source="images/rounded_rectangle1" width="35%">
+                <shortdescription>A rectangle with rounded corners.</shortdescription>
+                <description><p>A rectangular with width 70, height 40, and circular corners of radius 10.</p></description>
+            </image>
+        </figure>
+        <figure xml:id="subfigure-rounded-rectangle2">
+            <caption>Larger Corners</caption>
+            <image source="images/rounded_rectangle2" width="35%">
+                <shortdescription>A rectangle with rounded corners.</shortdescription>
+                <description><p>A rectangular with width 70, height 40, and circular corners of radius 15.</p></description>
+            </image>
+        </figure>
+    </sidebyside>
+</figure>
+
+</section>

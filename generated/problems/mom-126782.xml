@@ -7,15 +7,15 @@
 <li>6 bottles of fruit juice that each contain 64 fl. oz.</li>
 </ul></p>
 <p>How many cups of beverage do you have?</p>
-<p><fillin characters="4"/>   </p>
+<p><input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/>   </p>
 <p>Will you have enough for the barbecue?</p>
-<p><ol style="list-style-type:upper-alpha"><li>no</li> 
-<li>yes</li> 
+<p><ol style="list-style-type:upper-alpha"><li>yes</li> 
+<li>no</li> 
 </ol></p>
 
 
 </statement>
 <solution>
-<p><ul><li>128</li><li>B: yes</li></ul></p>
+<p><ul><li>128</li><li>A: yes</li></ul></p>
 </solution>
 </myopenmath>

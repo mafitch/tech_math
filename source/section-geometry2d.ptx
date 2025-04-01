@@ -402,7 +402,7 @@
                 <shortdescription>5 sided shape with side lengths 24.0, 7.0, 13.0, 13,0, 7.0</shortdescription>
             </image>
             <p>First we notice that we can describe the wall as a rectangle with a triangle on top of it. The side of the rectangle not drawn will also have length 24.0. This is also the base side of the triangle.</p>
-            <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \times 24.0 \text{ ft} = 168 \text{ ft}^2</m>.</p>
+            <p>The sides of the rectangular area are 7.0 ft (height) and 24.0 ft (width). This means that area is <m>7.0 \text{ ft} \times 24.0 \text{ ft} = 1\bar{6}8 \text{ ft}^2</m>.</p>
             <p>The top is a triangle with two sides of length 13.0 and one of length 24.0. We do not know the height of the triangle so it will be easier to use Heron's formula for area.
             <md>
                 <mrow>s &amp; = \frac{1}{2}(13.0+13.0+24.0)</mrow>
@@ -412,7 +412,7 @@
                 <mrow> &amp; = \sqrt{3600}</mrow>
                 <mrow> &amp; = 6\bar{0}.</mrow>
             </md>
-            The total area then is <m>168+6\bar{0} = 228 \approx 230</m> square feet.</p>
+            The total area then is <m>1\bar{6}8+6\bar{0} = 228 \approx 230</m> square feet.</p>
         </task>
         <task>
             <p>Calculate the perimeter of this wall given the dimensions given in feet.</p>
@@ -590,18 +590,33 @@
             <p>Use the appropriate formulae to calculate requested values.</p>
         </introduction>
 
+<!-- parallelograms -->
         <exercise>
-            <myopenmath problem="806156" />
+            <myopenmath problem="1107" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="901072" />
+            <myopenmath problem="1121" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="434001" />
+            <myopenmath problem="125586" />
         </exercise>
 
+<!-- trapezoids -->
+        <exercise>
+            <myopenmath problem="20446" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1122" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="125585" />
+        </exercise>
+
+<!-- triangles -->
         <exercise>
             <myopenmath problem="1169" />
         </exercise>
@@ -614,12 +629,39 @@
             <myopenmath problem="1175" />
         </exercise>
 
+<!-- compare quads -->
+        <exercise>
+            <myopenmath problem="901072" />
+        </exercise>
+
+<!-- circles -->
+        <exercise>
+            <myopenmath problem="1144" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="900852" />
+        </exercise>
+    </exercisegroup>
+
+    <exercisegroup>
+        <title>Compound Shapes</title>
+
+        <introduction>
+            <p>Use one or more formulas to calculate the areas shown.</p>
+        </introduction>
+
+<!-- Square + Triangle -->
         <exercise>
             <myopenmath problem="1135" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="156626" />
+            <myopenmath problem="434001" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="806156" />
         </exercise>
 
         <exercise>
@@ -628,18 +670,6 @@
 
         <exercise>
             <myopenmath problem="901077" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="1144" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="900852" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="33357" />
         </exercise>
 
         <exercise>
@@ -657,6 +687,7 @@
         <exercise>
             <myopenmath problem="1537787" />
         </exercise>
+    
     </exercisegroup>
 
     <exercisegroup>
@@ -666,7 +697,7 @@
         </introduction>
 
         <exercise>
-            <myopenmath problem="806142" />
+            <myopenmath problem="1573005" />
         </exercise>
 
         <exercise>
@@ -697,7 +728,7 @@
         </exercise>
 
         <exercise>
-            <myopenmath problem="1537875" />
+            <myopenmath problem="156626" />
         </exercise>
     </exercisegroup>
 </exercises>
