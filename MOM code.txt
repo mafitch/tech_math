@@ -25,7 +25,7 @@ OR
 $stuans = getstuans($stuanswers,$thisq,0)
 if ($stuans != null) {
   if ( !$scoreiscorrect[$thisq] ) {
-    	$error = getfeedbacktxtnumber($stuans,  array($area,0), array("Did you remember sigfigs?"), "Incorrect") 
+    	$hints[1] = getfeedbacktxtnumber($stuans,  array($area,0), array("Did you remember sigfigs?"), "Incorrect") 
   }
 }
 OR

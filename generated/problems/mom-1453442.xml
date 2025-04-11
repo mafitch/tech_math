@@ -10,13 +10,13 @@
   <m>\displaystyle{T}_{{G}}</m> is the temperature at ground level in Fahrenheit</p>
 <p>
   <m>\displaystyle{A}</m> is the height above ground level in feet</p>
-<p>If the temperature on the ground is <m>\displaystyle{80}^{\circ}</m>, what will it be at 2900 feet above ground level? <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>If the temperature on the ground is <m>\displaystyle{85}^{\circ}</m>, what will it be at 6200 feet above ground level? <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Answers should be rounded to the units place.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>70</li></ul></p><p>The model for this situation is <m>\displaystyle{T}_{{A}}={80}-\frac{{{3.5}}}{{{1000}}}{A}</m>.</p>
-<p>Because we want to estimate the temperature at 2900 ft AGL, we calculate <m>\displaystyle{T}_{{A}}={80}-\frac{{{3.5}}}{{{1000}}}{2900}={69.85}\approx{70}</m></p>
+<p><ul><li>63</li></ul></p><p>The model for this situation is <m>\displaystyle{T}_{{A}}={85}-\frac{{{3.5}}}{{{1000}}}{A}</m>.</p>
+<p>Because we want to estimate the temperature at 6200 ft AGL, we calculate <m>\displaystyle{T}_{{A}}={85}-\frac{{{3.5}}}{{{1000}}}{6200}={63.3}\approx{63}</m></p>
 </solution>
 </myopenmath>

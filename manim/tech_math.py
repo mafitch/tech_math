@@ -396,6 +396,319 @@ class convert_units(Scene):
 
         self.wait(5)
 
+class RulerMM(VGroup):
+    def __init__(self, length_cm=4, **kwargs):
+        super().__init__(**kwargs)
+        self.length_cm = length_cm
+        self.create_ruler()
+
+    def create_ruler(self):
+        ruler_line = Line(ORIGIN, RIGHT * self.length_cm * 2)
+        self.add(ruler_line)
+
+        # Centimeter marks
+        for i in range(self.length_cm + 1):
+            tick = Line(UP * 0.2, DOWN * 0.2, stroke_width=0.5)
+            tick.move_to(ruler_line.get_start() + RIGHT * 2*i)
+            self.add(tick)
+            if i > 0:
+                label = Tex(str(i))
+                label.next_to(tick, DOWN, aligned_edge=LEFT, buff=0.1)
+                self.add(label)
+            elif i == 0:
+                label = Tex("0")
+                label.next_to(tick, DOWN, aligned_edge=LEFT, buff=0.1)
+                self.add(label)
+
+        # Millimeter marks
+        for i in range(1, self.length_cm * 10):
+            if i % 10 != 0:
+                tick = Line(UP * 0.1, DOWN * 0.1, stroke_width=0.5)
+                tick.move_to(ruler_line.get_start() + RIGHT * (i / 5))
+                self.add(tick)
+
+class RulerCM(VGroup):
+    def __init__(self, length_cm=4, **kwargs):
+        super().__init__(**kwargs)
+        self.length_cm = length_cm
+        self.create_ruler()
+
+    def create_ruler(self):
+        ruler_line = Line(ORIGIN, RIGHT * self.length_cm * 2)
+        self.add(ruler_line)
+
+        # Centimeter marks
+        for i in range(self.length_cm + 1):
+            tick = Line(UP * 0.2, DOWN * 0.2, stroke_width=0.5)
+            tick.move_to(ruler_line.get_start() + RIGHT * 2*i)
+            self.add(tick)
+            if i > 0:
+                label = Tex(str(i))
+                label.next_to(tick, DOWN, aligned_edge=LEFT, buff=0.1)
+                self.add(label)
+            elif i == 0:
+                label = Tex("0")
+                label.next_to(tick, DOWN, aligned_edge=LEFT, buff=0.1)
+                self.add(label)
+
+class sigfig_addition(Scene):
+    def construct(self):
+        # Display the video title
+        title1 = Text("Significant Digits Rules")
+        title2 = Text("Addition")
+        title1.move_to([0,1,0])
+        title2.next_to(title1,DOWN)
+        self.add(title1,title2)
+        self.wait(3)
+        self.remove(title1,title2)
+
+        # Generate the ruler
+        ruler = RulerCM(length_cm=4)
+        ruler.to_edge(DOWN, buff=1)
+
+        rectangle1 = Rectangle(width=3.16 * 2, height=1.23)
+        rectangle1.move_to(UP * 1)
+        rectangle2 = Rectangle(width=2.72 * 2, height=1.23)
+        rectangle2.move_to(DOWN * 1.5)
+
+        # Display everything
+        self.add(ruler,rectangle1,rectangle2)
+
+        measurement_width1 = MathTex('3','.2','\: cm')
+        measurement_width1[1].set_color(BLACK)
+        text1a = Text('Measure the length of the 1st rectangle').to_edge(UP)
+        self.play(Write(text1a))
+
+        # Position the ruler to measure the width
+        self.play( ruler.animate.next_to(rectangle1, DOWN, aligned_edge=LEFT, buff=0) )
+
+        self.wait(2)
+        self.remove(text1a)
+        text1b = Text('The length is at least').to_edge(UP)
+        measurement_width1.next_to(text1b,DOWN)
+        self.play(Write(text1b))
+        self.play(Write(measurement_width1))
+        self.wait(2)
+        text1c = Text('It appears to be about 0.2 cm longer').to_edge(UP)
+        self.remove(text1b)
+        self.play(Write(text1c))
+        measurement_width1[1].set_color(RED)
+        self.wait(2)
+        self.remove(text1c)
+        text1d = Text('We convert this to millimeters for later.').to_edge(UP)
+        self.play(Write(text1d))
+        measurement_width1mm = MathTex('3','2','\: mm').move_to(UP * 1)
+        measurement_width1mm[1].set_color(RED)
+        measurement_width1mm.next_to(text1b,DOWN)
+        self.play( ReplacementTransform(measurement_width1, measurement_width1mm ))
+        self.remove(measurement_width1mm)
+        self.play( measurement_width1.animate.move_to(UP * 1))
+        self.wait(2)
+        self.remove(ruler,text1d)
+
+        # Measure the second rectangle's length
+        ruler = RulerMM(length_cm=4)
+        ruler.to_edge(DOWN, buff=1)
+        self.add(ruler)
+
+        measurement_width2 = MathTex('27','.1','\: mm')
+        measurement_width2[1].set_color(BLACK)
+        text2a = Text('Measure the length of the 2nd rectangle').to_edge(UP)
+        self.play(Write(text2a))
+
+        # Position the ruler to measure the width
+        self.play( ruler.animate.next_to(rectangle2, DOWN, aligned_edge=LEFT, buff=0) )
+
+        self.wait(2)
+        self.remove(text2a)
+        text2b = Text('The length is at least').to_edge(UP)
+        measurement_width2.next_to(text2b,DOWN)
+        self.play(Write(text2b))
+        self.play(Write(measurement_width2))
+        self.wait(2)
+        text2c = Text('It appears to be about 0.1 mm longer').to_edge(UP)
+        self.remove(text2b)
+        self.play(Write(text2c))
+        measurement_width2[1].set_color(RED)
+        self.wait(2)
+        self.remove(text2c)
+        self.play( measurement_width2.animate.move_to(DOWN * 1.5))
+        self.wait(2)
+        self.remove(ruler)
+
+        # Add the lengths
+        self.play(FadeOut(rectangle1,rectangle2))
+        self.play( measurement_width2.animate.next_to(measurement_width1,DOWN, aligned_edge=LEFT) )
+        text3a = Text('We add to obtain the total length.').to_edge(UP)
+        self.play(Write(text3a))
+        plus = MathTex('+')
+        plus.next_to(measurement_width2,LEFT)
+        add_line = Line(ORIGIN,RIGHT * 2.5)
+        add_line.next_to(plus, DOWN, aligned_edge=LEFT, buff=0.1)
+        self.play( Write(plus), Create(add_line) )
+        sum = MathTex('5','9','.1','\: mm').next_to(measurement_width2, DOWN, aligned_edge=LEFT)
+        sum[1:3].set_color(RED)
+        self.play(Write(sum))
+        self.remove(text3a)
+        text3b = Text('Adding 7 to the uncertain value 2').to_edge(UP)
+        self.play(Write(text3b))
+        self.wait(1)
+        self.remove(text3b)
+        text3c = Text('makes the resulting 9 uncertain').to_edge(UP)
+        self.play(Write(text3c))
+        self.wait(1)
+        self.remove(text3c)
+        text3d = Text('The first uncertain digit is the last sigfig').to_edge(UP)
+        self.play(Write(text3d))
+        self.wait(1)
+        self.remove(text3d)
+        text3e = Text('Round to this digit.').to_edge(UP)
+        self.play(Write(text3e))
+        sum[2].set_color(BLACK)
+
+        self.wait(3)
+
+class sigfig_multiplication(Scene):
+    def construct(self):
+        # Display the video title
+        title1 = Text("Significant Digits Rules")
+        title2 = Text("Multiplication")
+        title1.move_to([0,1,0])
+        title2.next_to(title1,DOWN)
+        self.add(title1,title2)
+        self.wait(3)
+        self.remove(title1,title2)
+
+        # Generate the ruler
+        ruler = RulerMM(length_cm=4)
+        ruler.to_edge(DOWN, buff=1)
+
+        # generate the rectangle
+        rectangle1 = Rectangle(width=3.16 * 2, height=1.23 * 2)
+#        rectangle1.move_to(UP * 1)
+
+        # Display everything
+        self.add(ruler,rectangle1)
+
+        measurement_width1 = MathTex('31','.5','\: mm')
+        measurement_width1[1].set_color(BLACK)
+        text1a = Text('Measure the width of the rectangle').to_edge(UP)
+        self.play(Write(text1a))
+
+        # Position the ruler to measure the width
+        self.play( ruler.animate.next_to(rectangle1, DOWN, aligned_edge=LEFT, buff=0) )
+        self.wait(2)
+
+        # Measure width
+        self.remove(text1a)
+        text1b = Text('The length is at least').to_edge(UP)
+        measurement_width1.next_to(text1b,DOWN)
+        self.play(Write(text1b))
+        self.play(Write(measurement_width1))
+        self.wait(2)
+        text1c = Text('It appears to be about 0.5 mm longer').to_edge(UP)
+        self.remove(text1b)
+        self.play(Write(text1c))
+        measurement_width1[1].set_color(RED)
+        self.wait(2)
+        self.remove(text1c)
+        self.play( ruler.animate.shift(DOWN * 0.7) )
+        self.play( measurement_width1.animate.next_to(rectangle1,DOWN))
+        self.wait(2)
+
+        # Position the ruler to measure height
+        measurement_width2 = MathTex('12','.2','\: mm')
+        measurement_width2[1].set_color(BLACK)
+        text2a = Text('Measure the height of the rectangle').to_edge(UP)
+        self.play(Write(text2a))
+
+        rotated_ruler = RulerMM(length_cm=4)
+        rotated_ruler.rotate(PI / 2)
+        rotated_ruler.next_to(rectangle1, RIGHT, aligned_edge=DOWN, buff=0)
+        self.play( Transform(ruler, rotated_ruler) )
+
+        # Measure height
+        self.remove(text2a)
+        text2b = Text('The height is at least').to_edge(UP)
+        measurement_width2.next_to(text2b,DOWN)
+        self.play(Write(text2b))
+        self.play(Write(measurement_width2))
+        self.wait(2)
+        self.remove(text2b)
+        text2c = Text('It appears to be about 0.2 mm longer').to_edge(UP)
+        self.remove(text2b)
+        self.play(Write(text2c))
+        measurement_width2[1].set_color(RED)
+        self.wait(2)
+        self.remove(ruler,text2c)
+        self.play( measurement_width2.animate.next_to(rectangle1,RIGHT))
+        self.wait(2)
+
+        # Multiply for area
+        position = measurement_width1.copy().move_to(UP)
+        self.play( FadeOut(rectangle1) )
+        self.play( measurement_width1.animate.move_to(UP),  measurement_width2.animate.next_to(position, DOWN) )
+        self.wait(1)
+        text3a = Text('We multiply to obtain area.').to_edge(UP)
+        self.play(Write(text3a))
+        times = MathTex('\\times')
+        times.next_to(measurement_width2,LEFT)
+        times_line = Line(ORIGIN,RIGHT * 2.3)
+        times_line.next_to(times, DOWN, aligned_edge=LEFT, buff=0.1)
+        self.play( Write(times), Create(times_line) )
+        self.wait(1)
+        self.remove(text3a)
+
+        # First row
+        text4a = Text('Every digit multiplied by uncertain digit 2').to_edge(UP)
+        row1 = MathTex('6','3','0').next_to(measurement_width2[1],DOWN,aligned_edge=RIGHT)
+        row1.set_color(RED)
+        self.play( Write(row1, reverse=True) )
+        self.add(row1)
+        self.play( Write(text4a) )
+        self.wait(2)
+        self.remove(text4a)
+
+        # Second row
+        text4b = Text('First digit multiplied by uncertain digit 5').to_edge(UP)
+        row2 = MathTex('6','3','0','0').next_to(row1,DOWN,aligned_edge=RIGHT)
+        row2[3].set_color(BLACK) # place holder for alignment
+        row2[2].set_color(RED)
+        self.play( Write(row2, reverse=True) )
+        self.add(row2)
+        self.play( Write(text4b) )
+        self.wait(2)
+        self.remove(text4b)
+
+        # Third row
+        text4c = Text('First digit multiplied by uncertain digit 5').to_edge(UP)
+        row3 = MathTex('3','1','0','0','0').next_to(row2,DOWN,aligned_edge=RIGHT)
+        row3[3:5].set_color(BLACK) # place holder for alignment
+        row3[2].set_color(RED)
+        self.play( Write(row3, reverse=True) )
+        self.add(row3)
+        self.play( Write(text4c) )
+        self.wait(2)
+        self.remove(text4c)
+
+        # Add the rows
+        add_line = Line(ORIGIN,RIGHT * 2.3)
+        add_line.next_to(row3, DOWN, aligned_edge=LEFT, buff=0.1)
+        self.play( Create(add_line) )
+        sum = MathTex('3','7','9','.3','0').next_to(row3,DOWN,aligned_edge=LEFT)
+        sum[2:5].set_color(RED)
+        self.play( Write(sum, reverse=True) )
+        self.add(sum)
+        text5a = Text('The last three digits add uncertain digits.').to_edge(UP)
+        self.play( Write(text5a) )
+        self.wait(1)
+        self.remove(text5a)
+        text5b = Text('Only the first uncertain digit is kept').to_edge(UP)
+        self.play( Write(text5b) )
+        sum[3:5].set_color(BLACK)
+
+        self.wait(3)
+
 class sigfig_multi(Scene):
     def construct(self):
         title1 = Text("Performing Arithmetic")

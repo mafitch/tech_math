@@ -1,0 +1,29 @@
+Old pretext.py embedded SVG conversion
+    try:
+        subprocess.run(["inkscape","--version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        ink_avail = True
+    except FileNotFoundError:
+        log.info('Inkscape not found. Trying pyMuPDF.')
+        ink_avail = False
+        try:
+            import pymupdf # for svg to pdf conversion
+        except ImportError:
+            raise ImportError(__module_warning.format("pyMuPDF"))
+
+                        if ink_avail:
+                            svg_file = open(svgpath)
+                            result = subprocess.run(["inkscape","--export-type=pdf",svgpath], capture_output=True, text=True)
+                            if result.returncode != 0:
+                                log.error(f"Error converting image {svgname} to PDF: {result.returncode}")
+                                log.error(f"{result.stderr}")
+                            result = subprocess.run(["inkscape","--export-type=png",svgpath], capture_output=True, text=True)
+                            if result.returncode != 0:
+                                log.error(f"Error converting image {svgname} to PNG: {result.returncode}")
+                                log.error(f"{result.stderr}")
+                        else:
+                            svg = pymupdf.open(svgpath)
+                            pdfbytes = svg.convert_to_pdf()
+                            pdf = pymupdf.open("pdf", pdfbytes)
+                            pdf.save(pdfpath)
+                            png = svg.load_page(0).get_pixmap(dpi=300, alpha=True)
+                            png.save(pngpath)
