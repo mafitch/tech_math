@@ -462,6 +462,12 @@ class sigfig_addition(Scene):
         self.wait(3)
         self.remove(title1,title2)
 
+        # Introduction
+        intro1 = Tex(r'{7cm}This video illustrates how significant digits keeps us from writing digits that are more precise than our measurements enable. In particular it shows how measurments with different precision lead to extraneous digits we should ignore (round away).',tex_environment="minipage")
+        self.add(intro1)
+        self.wait(10)
+        self.remove(intro1)
+
         # Generate the ruler
         ruler = RulerCM(length_cm=4)
         ruler.to_edge(DOWN, buff=1)
@@ -476,7 +482,7 @@ class sigfig_addition(Scene):
 
         measurement_width1 = MathTex('3','.2','\: cm')
         measurement_width1[1].set_color(BLACK)
-        text1a = Text('Measure the length of the 1st rectangle').to_edge(UP)
+        text1a = Tex(r'{6cm}Measure the length of the 1st rectangle',tex_environment="minipage").to_edge(UP)
         self.play(Write(text1a))
 
         # Position the ruler to measure the width
@@ -484,18 +490,18 @@ class sigfig_addition(Scene):
 
         self.wait(2)
         self.remove(text1a)
-        text1b = Text('The length is at least').to_edge(UP)
+        text1b = Tex(r'{6cm}The length is at least',tex_environment="minipage").to_edge(UP)
         measurement_width1.next_to(text1b,DOWN)
         self.play(Write(text1b))
         self.play(Write(measurement_width1))
         self.wait(2)
-        text1c = Text('It appears to be about 0.2 cm longer').to_edge(UP)
+        text1c = Tex(r'{6cm}It appears to be about 0.2 cm longer',tex_environment="minipage").to_edge(UP)
         self.remove(text1b)
         self.play(Write(text1c))
         measurement_width1[1].set_color(RED)
         self.wait(2)
         self.remove(text1c)
-        text1d = Text('We convert this to millimeters for later.').to_edge(UP)
+        text1d = Tex(r'{6cm}We convert this to millimeters for later.',tex_environment="minipage").to_edge(UP)
         self.play(Write(text1d))
         measurement_width1mm = MathTex('3','2','\: mm').move_to(UP * 1)
         measurement_width1mm[1].set_color(RED)
@@ -513,7 +519,7 @@ class sigfig_addition(Scene):
 
         measurement_width2 = MathTex('27','.1','\: mm')
         measurement_width2[1].set_color(BLACK)
-        text2a = Text('Measure the length of the 2nd rectangle').to_edge(UP)
+        text2a = Tex(r'{6cm}Measure the length of the 2nd rectangle.',tex_environment="minipage").to_edge(UP)
         self.play(Write(text2a))
 
         # Position the ruler to measure the width
@@ -521,12 +527,12 @@ class sigfig_addition(Scene):
 
         self.wait(2)
         self.remove(text2a)
-        text2b = Text('The length is at least').to_edge(UP)
+        text2b = Tex(r'{6cm}The length is at least',tex_environment="minipage").to_edge(UP)
         measurement_width2.next_to(text2b,DOWN)
         self.play(Write(text2b))
         self.play(Write(measurement_width2))
         self.wait(2)
-        text2c = Text('It appears to be about 0.1 mm longer').to_edge(UP)
+        text2c = Tex(r'{6cm}It appears to be about 0.1 mm longer',tex_environment="minipage").to_edge(UP)
         self.remove(text2b)
         self.play(Write(text2c))
         measurement_width2[1].set_color(RED)
@@ -539,7 +545,7 @@ class sigfig_addition(Scene):
         # Add the lengths
         self.play(FadeOut(rectangle1,rectangle2))
         self.play( measurement_width2.animate.next_to(measurement_width1,DOWN, aligned_edge=LEFT) )
-        text3a = Text('We add to obtain the total length.').to_edge(UP)
+        text3a = Tex(r'{6cm}We add to obtain the total length.',tex_environment="minipage").to_edge(UP)
         self.play(Write(text3a))
         plus = MathTex('+')
         plus.next_to(measurement_width2,LEFT)
@@ -550,23 +556,23 @@ class sigfig_addition(Scene):
         sum[1:3].set_color(RED)
         self.play(Write(sum))
         self.remove(text3a)
-        text3b = Text('Adding 7 to the uncertain value 2').to_edge(UP)
+        text3b = Tex(r'{6cm}When we add a digit with uncertain value, the result must also be uncertain.',tex_environment="minipage").to_edge(UP)
         self.play(Write(text3b))
-        self.wait(1)
+        self.wait(2)
         self.remove(text3b)
-        text3c = Text('makes the resulting 9 uncertain').to_edge(UP)
+        text3c = Tex(r'{6cm}Thus the 9 and 1 are both uncertain.',tex_environment="minipage").to_edge(UP)
         self.play(Write(text3c))
-        self.wait(1)
+        self.wait(2)
         self.remove(text3c)
-        text3d = Text('The first uncertain digit is the last sigfig').to_edge(UP)
+        text3d = Tex(r'{6cm}If the digit 9 is uncertain than everything smaller is smaller than the error in 9 (meaningless).',tex_environment="minipage").to_edge(UP)
         self.play(Write(text3d))
-        self.wait(1)
+        self.wait(2)
         self.remove(text3d)
-        text3e = Text('Round to this digit.').to_edge(UP)
+        text3e = Tex(r'{6cm}Thus we round the 9. Notice this matches the sigfigs addition rule.',tex_environment="minipage").to_edge(UP)
         self.play(Write(text3e))
         sum[2].set_color(BLACK)
 
-        self.wait(3)
+        self.wait(5)
 
 class sigfig_multiplication(Scene):
     def construct(self):
@@ -578,6 +584,12 @@ class sigfig_multiplication(Scene):
         self.add(title1,title2)
         self.wait(3)
         self.remove(title1,title2)
+
+        # Introduction
+        intro1 = Tex(r'{7cm}This video illustrates how significant digits keeps us from writing digits that are more precise than our measurements enable. In particular it shows how the uncertainty in a final digit of the measurement propagates, and therefore, which digits we should ignore (round away).',tex_environment="minipage")
+        self.add(intro1)
+        self.wait(10)
+        self.remove(intro1)
 
         # Generate the ruler
         ruler = RulerMM(length_cm=4)
@@ -592,7 +604,7 @@ class sigfig_multiplication(Scene):
 
         measurement_width1 = MathTex('31','.5','\: mm')
         measurement_width1[1].set_color(BLACK)
-        text1a = Text('Measure the width of the rectangle').to_edge(UP)
+        text1a = Tex(r'{6cm}Measure the width of the rectangle',tex_environment="minipage").to_edge(UP)
         self.play(Write(text1a))
 
         # Position the ruler to measure the width
@@ -601,12 +613,12 @@ class sigfig_multiplication(Scene):
 
         # Measure width
         self.remove(text1a)
-        text1b = Text('The length is at least').to_edge(UP)
+        text1b = Tex(r'{6cm}The length is at least',tex_environment="minipage").to_edge(UP)
         measurement_width1.next_to(text1b,DOWN)
         self.play(Write(text1b))
         self.play(Write(measurement_width1))
         self.wait(2)
-        text1c = Text('It appears to be about 0.5 mm longer').to_edge(UP)
+        text1c = Tex(r'{6cm}It appears to be about 0.5 mm longer',tex_environment="minipage").to_edge(UP)
         self.remove(text1b)
         self.play(Write(text1c))
         measurement_width1[1].set_color(RED)
@@ -619,7 +631,7 @@ class sigfig_multiplication(Scene):
         # Position the ruler to measure height
         measurement_width2 = MathTex('12','.2','\: mm')
         measurement_width2[1].set_color(BLACK)
-        text2a = Text('Measure the height of the rectangle').to_edge(UP)
+        text2a = Tex(r'{6cm}Measure the height of the rectangle',tex_environment="minipage").to_edge(UP)
         self.play(Write(text2a))
 
         rotated_ruler = RulerMM(length_cm=4)
@@ -629,13 +641,13 @@ class sigfig_multiplication(Scene):
 
         # Measure height
         self.remove(text2a)
-        text2b = Text('The height is at least').to_edge(UP)
+        text2b = Tex(r'{6cm}The height is at least',tex_environment="minipage").to_edge(UP)
         measurement_width2.next_to(text2b,DOWN)
         self.play(Write(text2b))
         self.play(Write(measurement_width2))
         self.wait(2)
         self.remove(text2b)
-        text2c = Text('It appears to be about 0.2 mm longer').to_edge(UP)
+        text2c = Tex(r'{6cm}It appears to be about 0.2 mm longer',tex_environment="minipage").to_edge(UP)
         self.remove(text2b)
         self.play(Write(text2c))
         measurement_width2[1].set_color(RED)
@@ -649,7 +661,7 @@ class sigfig_multiplication(Scene):
         self.play( FadeOut(rectangle1) )
         self.play( measurement_width1.animate.move_to(UP),  measurement_width2.animate.next_to(position, DOWN) )
         self.wait(1)
-        text3a = Text('We multiply to obtain area.').to_edge(UP)
+        text3a = Tex(r'{6cm}We multiply to obtain area.',tex_environment="minipage").to_edge(UP)
         self.play(Write(text3a))
         times = MathTex('\\times')
         times.next_to(measurement_width2,LEFT)
@@ -660,7 +672,7 @@ class sigfig_multiplication(Scene):
         self.remove(text3a)
 
         # First row
-        text4a = Text('Every digit multiplied by uncertain digit 2').to_edge(UP)
+        text4a = Tex(r'{6cm}Because we are unsure about the last digit 2, everything we multiply it by is also uncertain.',tex_environment="minipage").to_edge(UP)
         row1 = MathTex('6','3','0').next_to(measurement_width2[1],DOWN,aligned_edge=RIGHT)
         row1.set_color(RED)
         self.play( Write(row1, reverse=True) )
@@ -670,7 +682,7 @@ class sigfig_multiplication(Scene):
         self.remove(text4a)
 
         # Second row
-        text4b = Text('First digit multiplied by uncertain digit 5').to_edge(UP)
+        text4b = Tex(r'{6cm}Because we are unsure about the digit 5, the result of multiplying by it is uncertain.',tex_environment="minipage").to_edge(UP)
         row2 = MathTex('6','3','0','0').next_to(row1,DOWN,aligned_edge=RIGHT)
         row2[3].set_color(BLACK) # place holder for alignment
         row2[2].set_color(RED)
@@ -681,8 +693,8 @@ class sigfig_multiplication(Scene):
         self.remove(text4b)
 
         # Third row
-        text4c = Text('First digit multiplied by uncertain digit 5').to_edge(UP)
-        row3 = MathTex('3','1','0','0','0').next_to(row2,DOWN,aligned_edge=RIGHT)
+        text4c = Tex(r'{6cm}Because we are unsure about the digit 5, the result of multiplying by it is uncertain.',tex_environment="minipage").to_edge(UP)
+        row3 = MathTex('3','1','5','0','0').next_to(row2,DOWN,aligned_edge=RIGHT)
         row3[3:5].set_color(BLACK) # place holder for alignment
         row3[2].set_color(RED)
         self.play( Write(row3, reverse=True) )
@@ -695,19 +707,27 @@ class sigfig_multiplication(Scene):
         add_line = Line(ORIGIN,RIGHT * 2.3)
         add_line.next_to(row3, DOWN, aligned_edge=LEFT, buff=0.1)
         self.play( Create(add_line) )
-        sum = MathTex('3','7','9','.3','0').next_to(row3,DOWN,aligned_edge=LEFT)
+        sum = MathTex('3','8','4','.3','0','\: mm').next_to(row3,DOWN,aligned_edge=LEFT)
         sum[2:5].set_color(RED)
         self.play( Write(sum, reverse=True) )
         self.add(sum)
-        text5a = Text('The last three digits add uncertain digits.').to_edge(UP)
-        self.play( Write(text5a) )
-        self.wait(1)
-        self.remove(text5a)
-        text5b = Text('Only the first uncertain digit is kept').to_edge(UP)
+        text5a1 = Tex(r'{6cm}When we add a digit with uncertain value, the result must also be uncertain.',tex_environment="minipage").to_edge(UP)
+        self.play( Write(text5a1) )
+        self.wait(2)
+        self.remove(text5a1)
+        text5a2 = Tex(r'{6cm}This is true of the last three digits.',tex_environment="minipage").to_edge(UP)
+        self.play( Write(text5a2) )
+        self.wait(2)
+        self.remove(text5a2)
+        text5b = Tex(r'{6cm}If the digit 4 is uncertain than everything smaller is smaller than error in 4 (meaningless).',tex_environment="minipage").to_edge(UP)
         self.play( Write(text5b) )
+        self.wait(2)
+        self.remove(text5b)
+        text5c = Tex(r'{6cm}Thus we round the 4. Notice this matches the sigfigs multiplication rule.',tex_environment="minipage").to_edge(UP)
+        self.play( Write(text5c) )
         sum[3:5].set_color(BLACK)
 
-        self.wait(3)
+        self.wait(5)
 
 class sigfig_multi(Scene):
     def construct(self):
