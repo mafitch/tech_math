@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="2646">
 <statement>
 <p>
-A worker's contract states that the hourly wage will start at <dollar/>9.00 and will increase by <m>\displaystyle{r}={3.5}</m><percent/> annually, with half the annual raise given every 6 months.
+A worker's contract states that the hourly wage will start at <dollar/>6.00 and will increase by <m>\displaystyle{r}={6}</m><percent/> annually, with half the annual raise given every 6 months.
 </p>
 <p>
 The hourly wage can be modeled by the exponential formula <m>\displaystyle{S}={P}{\left({1}+\frac{{r}}{{n}}\right)}^{{{n}{t}}}</m>, where <m>\displaystyle{S}</m> is the future value, <m>\displaystyle{P}</m> is the present value, <m>\displaystyle{r}</m> is the (nominal or stated) annual rate of increase, <m>\displaystyle{n}</m> is the number of times each year that the wage is increased, and <m>\displaystyle{t}</m> is the time in years.
@@ -12,7 +12,7 @@ The hourly wage can be modeled by the exponential formula <m>\displaystyle{S}={P
 </p>
 <p><m>\displaystyle{P}=</m> <input type="text" style="width:7ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 5" class="text"/>,<m>\displaystyle\ \text{ }\ </m> <m>\displaystyle{r}=</m> <input type="text" style="width:7ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 5" class="text"/>,<m>\displaystyle\ \text{ }\ </m> <m>\displaystyle{n}=</m> <input type="text" style="width:7ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 5" class="text"/></p>
 <p>
-(B) The final hourly wage in <m>\displaystyle{10}</m> years will equal which dollar amount?
+(B) The final hourly wage in <m>\displaystyle{8}</m> years will equal which dollar amount?
 </p>
 <p> Answer = <dollar/> <input type="text" style="width:7ch" name="qn1003" id="qn1003" value="" autocomplete="off" aria-label="Question 1 Part 4 of 5" class="text"/>.
 </p>
@@ -24,6 +24,6 @@ The hourly wage can be modeled by the exponential formula <m>\displaystyle{S}={P
 </p>
 </statement>
 <solution>
-<p><ul><li>9</li><li>0.035</li><li>2</li><li>12.73</li><li><p><m>\displaystyle{\left({1}+\frac{{0.035}}{{2}}\right)}^{{2}}-{1}={0.0353063}</m> = 3.531<percent/></p></li></ul></p>
+<p><ul><li>6</li><li>0.06</li><li>2</li><li>9.63</li><li><p><m>\displaystyle{\left({1}+\frac{{0.06}}{{2}}\right)}^{{2}}-{1}={0.0609}</m> = 6.09<percent/></p></li></ul></p>
 </solution>
 </myopenmath>

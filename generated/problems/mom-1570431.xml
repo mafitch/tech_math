@@ -4,7 +4,7 @@
 <p>
 Solve the following system.</p>
 <p>
-<m>\displaystyle{\left.\begin{array}{ccccc} {y}\amp-\amp{2}{z}\amp=\amp-{5}\\{5}{y}\amp+\amp{7}{z}\amp=\amp{4}\end{array}\right.}</m></p>
+<m>\displaystyle{\left.\begin{array}{ccccc} -{4}{x}\amp+\amp{y}\amp=\amp{4}\\{5}{x}\amp+\amp{2}{y}\amp=\amp-{5}\end{array}\right.}</m></p>
 <p>
 Solution: <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
 <p>
@@ -14,32 +14,32 @@ Enter your answers as integers or reduced fractions.
 </p>
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-\frac{{27}}{{17}},\frac{{29}}{{17}}\right)}</m></li></ul></p><p>To solve with elimination, we need to get opposite coefficients on one variable. In this case, notice that the <m>\displaystyle{x}</m> does not have a coefficient in the first equation (it's coefficient is <m>\displaystyle{1}</m>). So to get opposite coefficients we can multiply the first equation by <m>\displaystyle-{5}</m>:</p>
+<p><ul><li><m>\displaystyle{\left(-{1},{0}\right)}</m></li></ul></p><p>To solve with elimination, we need to get opposite coefficients on one variable. In this case, notice that the <m>\displaystyle{y}</m> does not have a coefficient in the first equation (it's coefficient is <m>\displaystyle{1}</m>). So to get opposite coefficients we can multiply the first equation by <m>\displaystyle-{2}</m>:</p>
 <p>
-<m>\displaystyle-{5}\cdot{\left({x}-{2}{y}=-{5}\right)}</m> </p>
+<m>\displaystyle-{2}\cdot{\left(-{4}{x}+{y}={4}\right)}</m> </p>
 <p>
-  <m>\displaystyle-{5}{x}+{10}{y}={25}</m></p>
+  <m>\displaystyle{8}{x}-{2}{y}=-{8}</m></p>
 <p>
 Here is our updated system:</p>
 <p>
-<m>\displaystyle-{5}{x}+{10}{y}={25}</m></p>
+<m>\displaystyle{8}{x}-{2}{y}=-{8}</m></p>
 <p>
-  <m>\displaystyle{5}{x}+{7}{y}={4}</m></p>
+  <m>\displaystyle{5}{x}+{2}{y}=-{5}</m></p>
 <p>
-The next step is to add the equations together. The <m>\displaystyle{x}</m> terms cancel and we are left with:</p>
+The next step is to add the equations together. The <m>\displaystyle{y}</m> terms cancel and we are left with:</p>
 <p>
-<m>\displaystyle{17}{y}={29}</m></p>
+<m>\displaystyle{13}{x}=-{13}</m></p>
 <p>
-Solving for <m>\displaystyle{y}</m> we get:</p>
+Solving for <m>\displaystyle{x}</m> we get:</p>
 <p>
-<m>\displaystyle{y}=\frac{{29}}{{17}}=\frac{{29}}{{17}}</m></p>
+<m>\displaystyle{x}=-\frac{{13}}{{13}}=-{1}</m></p>
 <p>
-Now that we know <m>\displaystyle{y}</m>, we can plug into the one of the original equations to find <m>\displaystyle{x}</m>. Let's use the first equation:</p>
+Now that we know <m>\displaystyle{x}</m>, we can plug into the one of the original equations to find <m>\displaystyle{y}</m>. Let's use the first equation:</p>
 <p>
-<m>\displaystyle{x}-{2}\cdot{\left(\frac{{29}}{{17}}\right)}=-{5}</m></p>
+<m>\displaystyle-{4}\cdot{\left(-{1}\right)}+{y}={4}</m></p>
 <p>
-  <m>\displaystyle{x}=-{5}+{2}\cdot{\left(\frac{{29}}{{17}}\right)}=-\frac{{27}}{{17}}</m></p>
+  <m>\displaystyle{y}={4}+{4}\cdot{\left(-{1}\right)}={0}</m></p>
 <p>
-So the solution is <m>\displaystyle{\left(-\frac{{27}}{{17}},\frac{{29}}{{17}}\right)}</m>.</p>
+So the solution is <m>\displaystyle{\left(-{1},{0}\right)}</m>.</p>
 </solution>
 </myopenmath>

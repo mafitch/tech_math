@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1481358">
 <statement>
-<p>Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6.6 hours. Suppose Victor is prescribed 100. mg/day. If Victor takes his first 100 mg dose on Monday morning, how much is expected in his blood Tuesday morning at the same time? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
+<p>Atenolol has a half life of 6-7 hours depending on patient factors. For this problem use a half life of 6.9 hours. Suppose Victor is prescribed 75 mg/day. If Victor takes his first 75 mg dose on Monday morning, how much is expected in his blood Tuesday morning at the same time? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
 
 </statement>
 <solution>
-<p><ul><li>8.0</li></ul></p><p>The half-life model is <m>\displaystyle{A}=\frac{{A}_{{0}}}{{{2}^{{\frac{{t}}{{h}}}}}}</m> where <m>\displaystyle{A}_{{0}}</m> is the initial amount, <m>\displaystyle{t}</m> is the time elapsed, and <m>\displaystyle{h}</m> is the half-life. In this case <m>\displaystyle{A}={100}\frac{.}{{{2}^{{\frac{{24}}{{6.6}}}}}}={8.0416556125589}\approx{8.0}</m>.</p>
+<p><ul><li>6.7</li></ul></p><p>The half-life model is <m>\displaystyle{A}=\frac{{A}_{{0}}}{{{2}^{{\frac{{t}}{{h}}}}}}</m> where <m>\displaystyle{A}_{{0}}</m> is the initial amount, <m>\displaystyle{t}</m> is the time elapsed, and <m>\displaystyle{h}</m> is the half-life. In this case <m>\displaystyle{A}=\frac{{75}}{{{2}^{{\frac{{24}}{{6.9}}}}}}={6.7297728992318}\approx{6.7}</m>.</p>
 </solution>
 </myopenmath>
