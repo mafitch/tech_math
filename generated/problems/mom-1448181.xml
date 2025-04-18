@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1448181">
 <statement>
-<p>Suppose triangle A has angles <m>\displaystyle{50}^{\circ}</m>, <m>\displaystyle{60}^{\circ}</m>, and <m>\displaystyle{70}^{\circ}</m> and the lengths of the sides opposite are 10, 11.31, and 12.27 respectively. If triangle B has the same angle measures and the side opposite the angle of measure <m>\displaystyle{50}^{\circ}</m> is length 26, what are the other two side lengths?</p>
-<p>Length opposite angle of measure <m>\displaystyle{60}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
-<p>Length opposite angle of measure <m>\displaystyle{70}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
+<p>Suppose triangle A has angles <m>\displaystyle{30}^{\circ}</m>, <m>\displaystyle{110}^{\circ}</m>, and <m>\displaystyle{40}^{\circ}</m> and the lengths of the sides opposite are 10, 18.79, and 12.86 respectively. If triangle B has the same angle measures and the side opposite the angle of measure <m>\displaystyle{30}^{\circ}</m> is length 36, what are the other two side lengths?</p>
+<p>Length opposite angle of measure <m>\displaystyle{110}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>Length opposite angle of measure <m>\displaystyle{40}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
 
 
 </statement>
 <solution>
-<p><ul><li>29.406</li><li>31.902</li></ul></p><p>Because these are similar triangles we can setup the proportions below.</p>
-<p><m>\displaystyle\frac{{26}}{{10}}=\frac{{S}_{{60}}}{{11.31}}</m>, so <m>\displaystyle{S}_{{60}}={\left(\frac{{26}}{{10}}\right)}{11.31}={29.406}</m></p>
-<p><m>\displaystyle\frac{{26}}{{10}}=\frac{{S}_{{70}}}{{12.27}}</m>, so <m>\displaystyle{S}_{{70}}={\left(\frac{{26}}{{10}}\right)}{12.27}={31.902}</m></p>
+<p><ul><li>67.644</li><li>46.296</li></ul></p><p>Because these are similar triangles we can setup the proportions below.</p>
+<p><m>\displaystyle\frac{{36}}{{10}}=\frac{{S}_{{110}}}{{18.79}}</m>, so <m>\displaystyle{S}_{{110}}={\left(\frac{{36}}{{10}}\right)}{18.79}={67.644}</m></p>
+<p><m>\displaystyle\frac{{36}}{{10}}=\frac{{S}_{{40}}}{{12.86}}</m>, so <m>\displaystyle{S}_{{40}}={\left(\frac{{36}}{{10}}\right)}{12.86}={46.296}</m></p>
 </solution>
 </myopenmath>

@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057071">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057071-1.png"/><p>
-Suppose a = 8 and c = 9. Calculate:</p>
+Suppose a = 3 and c = 8. Calculate:</p>
 <p>
 b = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
 <p>
@@ -14,26 +14,26 @@ Round all answers to one decimal place. Give angles in <em>degrees</em>.
 </p>
 </statement>
 <solution>
-<p><ul><li>4.1</li><li>62.7</li><li>27.3</li></ul></p><p>First calculate the length of the other leg.</p>
-<p><m>\displaystyle{9}^{{2}}={8}^{{2}}+{b}^{{2}}</m>.</p>
+<p><ul><li>7.4</li><li>22.0</li><li>68.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><m>\displaystyle{8}^{{2}}={3}^{{2}}+{b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{81}={64}+{b}^{{2}}</m>.</p>
+  <m>\displaystyle{64}={9}+{b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{81}-{64}={b}^{{2}}</m>.</p>
+  <m>\displaystyle{64}-{9}={b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{17}={b}^{{2}}</m>.</p>
+  <m>\displaystyle{55}={b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle\sqrt{{{17}}}={b}</m>.</p>
+  <m>\displaystyle\sqrt{{{55}}}={b}</m>.</p>
 <p>
-  <m>\displaystyle{4.1231056256177}\approx{b}</m>.</p>
+  <m>\displaystyle{7.4161984870957}\approx{b}</m>.</p>
 <p>
-  <m>\displaystyle{4.1}\approx{b}</m>.</p>
+  <m>\displaystyle{7.4}\approx{b}</m>.</p>
 <p>For angle A</p>
 <p>
-  <m>\displaystyle{\arcsin{{\left(\frac{{8}}{{9}}\right)}}}\approx{62.733955549281}\approx{62.7}</m></p>
+  <m>\displaystyle{\arcsin{{\left(\frac{{3}}{{8}}\right)}}}\approx{22.024312837042}\approx{22}</m></p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{\arccos{{\left(\frac{{8}}{{9}}\right)}}}\approx{27.266044450719}\approx{27.3}</m></p>
+  <m>\displaystyle{\arccos{{\left(\frac{{3}}{{8}}\right)}}}\approx{67.975687162958}\approx{68}</m></p>
 
 </solution>
 </myopenmath>

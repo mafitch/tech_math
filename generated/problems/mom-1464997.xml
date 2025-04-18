@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1464997">
 <statement>
-<p>If one shop can do 5 float changes in two days, and a second shop can do 14 float changes in three days, how long will it take the pair of shops to do 65 float changes? <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>If one shop can do 7 float changes in two days, and a second shop can do 10 float changes in three days, how long will it take the pair of shops to do 76 float changes? <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
 <p>If they start on Monday and work only weekdays, on what day of the week will they finish? </p>
 <p><ol style="list-style-type:upper-alpha"><li>Monday</li> 
 <li>Tuesday</li> 
@@ -13,15 +13,15 @@
 
 </statement>
 <solution>
-<p><ul><li>10</li><li>A: </li></ul></p><p>First we need to add the rates to obtain the total rate.</p>
-<p><m>\displaystyle\frac{{5}}{{2}}+\frac{{14}}{{3}}=</m></p>
-<p><m>\displaystyle\frac{{{5}\cdot{3}}}{{{2}\cdot{3}}}+\frac{{{14}\cdot{2}}}{{{3}\cdot{2}}}=\frac{{43}}{{6}}</m></p>
+<p><ul><li>12</li><li>B: Tuesday</li></ul></p><p>First we need to add the rates to obtain the total rate.</p>
+<p><m>\displaystyle\frac{{7}}{{2}}+\frac{{10}}{{3}}=</m></p>
+<p><m>\displaystyle\frac{{{7}\cdot{3}}}{{{2}\cdot{3}}}+\frac{{{10}\cdot{2}}}{{{3}\cdot{2}}}=\frac{{41}}{{6}}</m></p>
 <p>Now we can setup the proportion to answer the question.</p>
-<p><m>\displaystyle\frac{{43}}{{6}}=\frac{{65}}{{N}}</m></p>
-<p><m>\displaystyle\frac{{6}}{{43}}=\frac{{N}}{{65}}</m></p>
-<p><m>\displaystyle\frac{{6}}{{43}}\cdot{65}={N}</m></p>
-<p><m>\displaystyle{9.0697674418605}={N}</m></p>
-<p><m>\displaystyle{10}\approx{N}</m> to indicate on how many days work was done.</p>
-<p>10 days is 2 weeks and 0 additional days. Thus the final day will be Monday.</p>
+<p><m>\displaystyle\frac{{41}}{{6}}=\frac{{76}}{{N}}</m></p>
+<p><m>\displaystyle\frac{{6}}{{41}}=\frac{{N}}{{76}}</m></p>
+<p><m>\displaystyle\frac{{6}}{{41}}\cdot{76}={N}</m></p>
+<p><m>\displaystyle{11.121951219512}={N}</m></p>
+<p><m>\displaystyle{12}\approx{N}</m> to indicate on how many days work was done.</p>
+<p>12 days is 2 weeks and 2 additional days. Thus the final day will be Wednesday.</p>
 </solution>
 </myopenmath>

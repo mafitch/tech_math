@@ -375,10 +375,10 @@
         </md></p>
     </example>
 
-    <p>The frustrums are compound shapes: they are obtained by subtracting one shape from itself. The latin word <term>frustrum</term> means <q>cut off.</q> This is the etymology of <q>frustrated</q> which refers to a cut off hope. For these formulae the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
+    <p>The frustums are compound shapes: they are obtained by subtracting one shape from itself. The latin word <term>frustum</term> means <q>cut off.</q> This is the etymology of <q>frustrated</q> which refers to a cut off hope. For these formulae the bases must be parallel. Note <m>P_i</m> below refers to the perimeter of the bases.</p>
 
-    <table xml:id="figure-pyramid-frustrum-properties">
-        <title>Frustrum of a Pyramid</title>
+    <table xml:id="figure-pyramid-frustum-properties">
+        <title>frustum of a Pyramid</title>
 
         <tabular top="minor">
             <col width="30%" />
@@ -386,8 +386,8 @@
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
             <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
-                <image width="100%" source="images/pyramid-frustrum" >
-                    <shortdescription>Frustrum of a right, square pyramid with labels</shortdescription>
+                <image width="100%" source="images/pyramid-frustum" >
+                    <shortdescription>frustum of a right, square pyramid with labels</shortdescription>
                 </image>
             </p></cell> <cell right="minor"><m>\frac{1}{2}s(P_1+P_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
         </tabular>
@@ -395,9 +395,9 @@
 
     <p><m>P_1</m> is the perimeter of the lower base (bottom polygon). It will be the sum of the lengths of each side. <m>P_2</m> is calculated similarly for the upper base (top polygon). <m>B_1</m> is the area of the lower base (bottom polygon). It will be calculated based on the type of polygon (e.g., area of a triangle, parallelogram, etc.). <m>B_2</m> is the area of the upper base.</p>
 
-    <example xml:id="example-pyramid-frustrum">
+    <example xml:id="example-pyramid-frustum">
         <task>
-            <p>What is the surface area of the frustrum of the pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p>
+            <p>What is the surface area of the frustum of the pyramid in <xref ref="figure-pyramid-frustum-example" />?</p>
             <p>The surface area consists of the areas of the base and top which are triangles and the three sides which are rhobmi. For the base and top we know the lengths of the three sides, so we can use Heron's formula to calculate their areas. The perimeter of the lower base (triangle) is <m>3(3.500)=10.500</m> (The number of sides, 3, is an exact number so precision is not changed.) The perimeter of the upper base (triangle) is <m>3(2.200)=6.600</m>.
             <md>
                 <mrow>s_1 &amp; = 10.500.</mrow>
@@ -423,7 +423,7 @@
             Thus the surface area of the entire shape is <m>60.0\underline{1}24987+23.7\underline{1}106071+3(6.90\underline{2}7) \approx 104.4\underline{3}16594 \approx 104.43</m>.</p>
         </task>
         <task>
-            <p>What is the volume of the frustrum of a pyramid in <xref ref="figure-pyramid-frustrum-example" />?</p>
+            <p>What is the volume of the frustum of a pyramid in <xref ref="figure-pyramid-frustum-example" />?</p>
             <p>We need the height (labeled) and the area of the two bases which were calculated in the previous step. Using these values
                 <md>
                     <mrow>V &amp; = \frac{1}{3}(2.333)(60.01+23.71+\sqrt{(60.01)(23.71)}) \text{ Product maintains 4 sigfigs}</mrow>
@@ -437,15 +437,15 @@
         </task>
     </example>
 
-    <figure xml:id="figure-pyramid-frustrum-example">
-        <caption>Calculate Area and Volume of this Frustrum</caption>
-        <image source="images/pyramid-frustrum-exercise" width="50%" >
-            <shortdescription>Frustrum of a right, triangluar pyrmaid with lengths labeled</shortdescription>
+    <figure xml:id="figure-pyramid-frustum-example">
+        <caption>Calculate Area and Volume of this frustum</caption>
+        <image source="images/pyramid-frustum-exercise" width="50%" >
+            <shortdescription>frustum of a right, triangluar pyrmaid with lengths labeled</shortdescription>
         </image>
     </figure>
 
-    <table xml:id="figure-cone-frustrum-properties">
-        <title>Frustrum of a Cone</title>
+    <table xml:id="figure-cone-frustum-properties">
+        <title>frustum of a Cone</title>
 
         <tabular top="minor">
             <col width="30%" />
@@ -453,19 +453,19 @@
             <col width="20%" />
             <row left="minor" bottom="minor"><cell right="minor"><p>Shape</p></cell> <cell right="minor"><p>Lateral Surface Area</p></cell> <cell right="minor"><p>Volume</p></cell> </row>
             <row valign="middle" left="minor" bottom="minor"><cell halign="center" right="minor"><p>
-                <image width="100%" source="images/cone-frustrum" >
-                    <shortdescription>Frustrum of a right code with labels</shortdescription>
+                <image width="100%" source="images/cone-frustum" >
+                    <shortdescription>frustum of a right code with labels</shortdescription>
                 </image>
             </p></cell> <cell right="minor"><m>\pi s(r_1+r_2)</m></cell> <cell right="minor"><m>V = \frac{1}{3} h (B_1+B_2+\sqrt{B_1 B_2}) </m></cell> </row>
         </tabular>
     </table>
 
-    <p>The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The volume is the same formula as for a frustrum of a pyramid because these are pyramids built on a circle.</p>
+    <p>The total surface area adds the area of the two discs (bottom and top) to the lateral surface area. The volume is the same formula as for a frustum of a pyramid because these are pyramids built on a circle.</p>
 
-    <example xml:id="example-cone-frustrum-muffin-tin">
+    <example xml:id="example-cone-frustum-muffin-tin">
         <p>What is the surface area an volume of one part of a muffin tin? The surface area would be the area of a paper liner (assuming it is flat and not corrugated) and the volume is the amount of batter that can be held (if fully filled).</p>
-        <image source="images/cone-frustrum-muffin" width="50%" >
-            <shortdescription>Frustrum of a cone with radii 7.2 and 5.0, height 3.3, and slant height 3.6</shortdescription>
+        <image source="images/cone-frustum-muffin" width="50%" >
+            <shortdescription>frustum of a cone with radii 7.2 and 5.0, height 3.3, and slant height 3.6</shortdescription>
         </image>
         <p>The surface area will be the lateral surface area plus the area of the bottom base (muffin tin is open on top).
         <md>
@@ -499,7 +499,7 @@
         The volume is 380 square centimeters.</p>
     </example>
 
-    <p>If we have the slant height (length of the side of a frustrum of a cone) we can calculate the height. This is similar to the calculation of height in <xref ref="example-pyramid-minimal-parameters" />.</p>
+    <p>If we have the slant height (length of the side of a frustum of a cone) we can calculate the height. This is similar to the calculation of height in <xref ref="example-pyramid-minimal-parameters" />.</p>
 
     <example xml:id="example-cone-calculate-height">
         <p>Suppose the larger radius is 7.32, the smaller radius is 5.44, and the slant height is 6.09. The slant height is the hypotenuse of a right triangle with the height being one other side. The third side is on the larger base and has length <m>7.32-5.44=1.88</m>. We can use the Pythagorean theorem to calculate the height.
@@ -514,14 +514,14 @@
         </md></p>
     </example>
 
-    <exercise xml:id="exercise-frustrum-cone-limitations">
-        <introduction><p>For the surface area of a frustrum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.</p>
+    <exercise xml:id="exercise-frustum-cone-limitations">
+        <introduction><p>For the surface area of a frustum of a cone we use the slant height: the distance from the edge of the bottom base to the edge of the top base. Here we consider limitations on that length.</p>
         <p>For these questions suppose the bottom base has radius 5. The top base will vary depending on the slant height.</p></introduction>
         <task><p>If the height is 3, can the slant height be 2?</p></task>
-        <task><p>What is the bottom of the range of possible slant heights for this frustrum?</p></task>
+        <task><p>What is the bottom of the range of possible slant heights for this frustum?</p></task>
         <task><p>If the height is 3 and the top base has radius 1, what is the slant height?</p></task>
         <task><p>If the height is 3 and the top base has radius 0.5, what is the slant height?</p></task>
-        <task><p>What is the top of the range of possible slant heights for this frustrum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).</p></task>
+        <task><p>What is the top of the range of possible slant heights for this frustum? Note this is for bottom base radius 5, height 3, and top base radius unrestricted (but smaller than bottom base).</p></task>
     </exercise>
 
 </subsection>
@@ -648,6 +648,26 @@
 
         <exercise>
             <myopenmath problem="1582597" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1583355" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1583699" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1584786" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1584841" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1585089" />
         </exercise>
 
     </exercisegroup>

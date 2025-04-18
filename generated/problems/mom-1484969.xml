@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1484969">
 <statement>
-<p>nobelium-256 has a half-life of 2.91 seconds, and its decay is modeled by <m>\displaystyle{A}={A}_{{0}}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.91}}}}</m>. If the initial amount is <m>\displaystyle{A}_{{0}}={4.2}</m>, how long will it take until only one third, approximately <m>\displaystyle{A}\approx{1.4}</m> is left? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>flourine-23 has a half-life of 2.23 seconds, and its decay is modeled by <m>\displaystyle{A}={A}_{{0}}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.23}}}}</m>. If the initial amount is <m>\displaystyle{A}_{{0}}={5.8}</m>, how long will it take until only one third, approximately <m>\displaystyle{A}\approx{1.9}</m> is left? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li>4.6</li></ul></p><p><m>\displaystyle{1.4}={4.2}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.91}}}}</m>.</p>
-<p><m>\displaystyle\frac{{1}}{{3}}={\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.91}}}}</m>.</p>
-<p><m>\displaystyle{\ln{{\left(\frac{{1}}{{3}}\right)}}}={\left(\frac{{t}}{{2.91}}\right)}{\ln{{\left(\frac{{1}}{{2}}\right)}}}</m>.</p>
-<p><m>\displaystyle\frac{{{\ln{{\left(\frac{{1}}{{3}}\right)}}}{\left({2.91}\right)}}}{{\ln{{\left(\frac{{1}}{{2}}\right)}}}}={t}</m>.</p>
-<p><m>\displaystyle{4.6122408770986}\approx{t}</m></p>
-<p><m>\displaystyle{4.6}\approx{t}</m>.</p>
+<p><ul><li>3.5</li></ul></p><p><m>\displaystyle{1.9}={5.8}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.23}}}}</m>.</p>
+<p><m>\displaystyle\frac{{1}}{{3}}={\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{2.23}}}}</m>.</p>
+<p><m>\displaystyle{\ln{{\left(\frac{{1}}{{3}}\right)}}}={\left(\frac{{t}}{{2.23}}\right)}{\ln{{\left(\frac{{1}}{{2}}\right)}}}</m>.</p>
+<p><m>\displaystyle\frac{{{\ln{{\left(\frac{{1}}{{3}}\right)}}}{\left({2.23}\right)}}}{{\ln{{\left(\frac{{1}}{{2}}\right)}}}}={t}</m>.</p>
+<p><m>\displaystyle{3.5344663766082}\approx{t}</m></p>
+<p><m>\displaystyle{3.5}\approx{t}</m>.</p>
 
 </solution>
 </myopenmath>
