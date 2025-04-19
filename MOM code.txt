@@ -54,6 +54,10 @@ Accessibility
 $graphdispmode 0 is accessibility on
 $drawentrymode 0 is accessibility on
 
+if ( !$graphdispmode ) {
+  $img = "image description"
+}
+
 Survey
 
 $choices[1] = array("3.3.2","3.3.3","3.3.4","3.3.5","3.3.6","3.3.8","3.3.9","3.3.10","3.3.11","other","none")
