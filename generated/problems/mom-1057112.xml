@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057112-1.png"/><p>
-Suppose a = 6 and A = 20 degrees. Calculate:</p>
+Suppose a = 3 and A = 35 degrees. Calculate:</p>
 <p>
 b = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
 <p>
@@ -14,28 +14,28 @@ Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>16.5</li><li>17.5</li><li>70.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>4.3</li><li>5.2</li><li>55.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({20}\right)}}}=\frac{{6}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({35}\right)}}}=\frac{{3}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{6}}{{\tan{{\left({20}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{3}}{{\tan{{\left({35}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{16.484864516728}\approx{16.5}</m>.</p>
+  <m>\displaystyle{b}\approx{4.2844440202263}\approx{4.3}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={6}^{{2}}+{16.484864516728}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={3}^{{2}}+{4.2844440202263}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={36}+{271.75075813487}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={9}+{18.356460562453}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={307.75075813487}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={27.356460562453}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{307.75075813487}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{27.356460562453}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{17.542826400979}\approx{17.5}</m>.</p>
+  <m>\displaystyle{c}\approx{5.2303403868633}\approx{5.2}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{20}^{\circ}\approx{70}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{35}^{\circ}\approx{55}^{\circ}</m></p>
 
 </solution>
 </myopenmath>
