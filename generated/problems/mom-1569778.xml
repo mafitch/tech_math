@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1569778">
 <statement>
-<p>A manufacturer has just announced their new phone. The accounting department has determined that the cost to manufacturer the phone is <m>\displaystyle{c}={33.67}{n}+{35768}</m>, where <m>\displaystyle{n}</m> is the number of units manufactured and <m>\displaystyle{c}</m> is the resulting cost. The revenue equation is <m>\displaystyle{c}={86.27}{n}</m>.  What is the break even point? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>A manufacturer has just announced their new snowboard. The accounting department has determined that the cost to manufacturer the snowboard is <m>\displaystyle{c}={21.55}{n}+{46209}</m>, where <m>\displaystyle{n}</m> is the number of units manufactured and <m>\displaystyle{c}</m> is the resulting cost. The revenue equation is <m>\displaystyle{c}={84.85}{n}</m>.  What is the break even point? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({680},{58663.6}\right)}</m></li></ul></p><p>The equations are already written for us, so we just need to solve the system. We can use substitution.</p>
+<p><ul><li><m>\displaystyle{\left({730},{61940.5}\right)}</m></li></ul></p><p>The equations are already written for us, so we just need to solve the system. We can use substitution.</p>
 <p>
-Substitute the expression <m>\displaystyle{33.67}{n}+{35768}</m> from the first equation into the second equation and solve for <m>\displaystyle{n}</m>.</p>
+Substitute the expression <m>\displaystyle{21.55}{n}+{46209}</m> from the first equation into the second equation and solve for <m>\displaystyle{n}</m>.</p>
 <p>
-<m>\displaystyle{33.67}{n}+{35768}={86.27}{n}</m></p>
+<m>\displaystyle{21.55}{n}+{46209}={84.85}{n}</m></p>
 <p>
-<m>\displaystyle{35768}={52.6}{n}</m></p>
+<m>\displaystyle{46209}={63.3}{n}</m></p>
 <p>
-<m>\displaystyle{n}={680}</m></p>
+<m>\displaystyle{n}={730}</m></p>
 <p>
 Now solve for c</p>
 <p>
-<m>\displaystyle{c}={86.27}\cdot{680}={58663.6}</m></p>
+<m>\displaystyle{c}={84.85}\cdot{730}={61940.5}</m></p>
 </solution>
 </myopenmath>

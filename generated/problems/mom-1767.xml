@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1767">
 <statement>
 <p>
-A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={750}{e}^{{{0.06}{t}}}</m>.  Estimate when the population will exceed 1000.</p>
+A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={1550}{e}^{{{0.03}{t}}}</m>.  Estimate when the population will exceed 1727.</p>
 <p>
 <em>t</em>= <input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>   </p>
 <p>
@@ -10,16 +10,16 @@ Give your answer accurate to one decimal place.
 </p>
 </statement>
 <solution>
-<p><ul><li>4.7947012075297</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={750}{e}^{{{0.06}{t}}}</m></p>
+<p><ul><li>3.6043622744462</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={1550}{e}^{{{0.03}{t}}}</m></p>
 <p>
-<m>\displaystyle{1000}={750}{e}^{{{0.06}{t}}}</m></p>
+<m>\displaystyle{1727}={1550}{e}^{{{0.03}{t}}}</m></p>
 <p>
-<m>\displaystyle\frac{{1000}}{{750}}={e}^{{{0.06}{t}}}</m></p>
+<m>\displaystyle\frac{{1727}}{{1550}}={e}^{{{0.03}{t}}}</m></p>
 <p>
-<m>\displaystyle{\ln{{\left(\frac{{1000}}{{750}}\right)}}}={0.06}{t}</m></p>
+<m>\displaystyle{\ln{{\left(\frac{{1727}}{{1550}}\right)}}}={0.03}{t}</m></p>
 <p>
-<m>\displaystyle\frac{{\ln{{\left(\frac{{1000}}{{750}}\right)}}}}{{0.06}}={t}</m></p>
+<m>\displaystyle\frac{{\ln{{\left(\frac{{1727}}{{1550}}\right)}}}}{{0.03}}={t}</m></p>
 <p>
-<m>\displaystyle{t}={4.7947012075297}</m></p>
+<m>\displaystyle{t}={3.6043622744462}</m></p>
 </solution>
 </myopenmath>

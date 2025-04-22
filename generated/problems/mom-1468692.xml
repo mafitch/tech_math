@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{5}{x}+{9}{y}={78}</m> </p>
+<p><m>\displaystyle{8}{x}-{5}{y}={0}</m> </p>
 <p>
-  <m>\displaystyle-{5}{x}+{4}{y}={43}</m></p>
+  <m>\displaystyle-{7}{x}+{6}{y}={13}</m></p>
 <p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{3},{7}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{5}{x}+{9}{y}={78}</m></p>
-<p><m>\displaystyle-{5}{x}={78}-{\left({9}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{78}-{\left({9}{y}\right)}}}{{-{{5}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left({5},{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle{8}{x}+-{5}{y}={0}</m></p>
+<p><m>\displaystyle{8}{x}={0}-{\left(-{5}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{{0}-{\left(-{5}{y}\right)}}}{{8}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle-{5}{\left(\frac{{{78}-{\left({9}{y}\right)}}}{{-{{5}}}}\right)}+{4}{y}={43}</m></p>
-<p><m>\displaystyle-\frac{{5}}{{-{{5}}}}\cdot{\left({78}\right)}--\frac{{5}}{{-{{5}}}}{\left({9}\right)}{y}+{4}{y}={43}</m></p>
-<p><m>\displaystyle{78}-{\left(-{9}\right)}{y}+{4}{y}={43}</m></p>
-<p><m>\displaystyle-{9}{y}+{\left({4}\right)}{y}={43}-{78}</m></p>
-<p><m>\displaystyle-{9}{y}+{\left({4}\right)}{y}=-{35}</m></p>
-<p><m>\displaystyle{\left(-{9}+{\left({4}\right)}\right)}{y}=-{35}</m></p>
-<p><m>\displaystyle-{5}{y}=-{35}</m></p>
-<p><m>\displaystyle{y}=-\frac{{35}}{{-{{5}}}}</m></p>
-<p><m>\displaystyle{y}={7}</m></p>
+<p><m>\displaystyle-{7}{\left(\frac{{{0}-{\left(-{5}{y}\right)}}}{{8}}\right)}+{6}{y}={13}</m></p>
+<p><m>\displaystyle-\frac{{7}}{{8}}\cdot{\left({0}\right)}--\frac{{7}}{{8}}{\left(-{5}\right)}{y}+{6}{y}={13}</m></p>
+<p><m>\displaystyle-{0}-{\left(-{4.375}\right)}{y}+{6}{y}={13}</m></p>
+<p><m>\displaystyle-{4.375}{y}+{\left({6}\right)}{y}={13}--{0}</m></p>
+<p><m>\displaystyle-{4.375}{y}+{\left({6}\right)}{y}={13}</m></p>
+<p><m>\displaystyle{\left(-{4.375}+{\left({6}\right)}\right)}{y}={13}</m></p>
+<p><m>\displaystyle{1.625}{y}={13}</m></p>
+<p><m>\displaystyle{y}=\frac{{13}}{{1.625}}</m></p>
+<p><m>\displaystyle{y}={8}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{5}{x}+{9}{\left({7}\right)}={78}</m></p>
-<p><m>\displaystyle-{5}{x}+{\left({63}\right)}={78}</m></p>
-<p><m>\displaystyle-{5}{x}={78}-{\left({63}\right)}</m></p>
-<p><m>\displaystyle-{5}{x}={15}</m></p>
-<p><m>\displaystyle{x}=\frac{{15}}{{-{{5}}}}</m></p>
-<p><m>\displaystyle{x}=-{3}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{3},{7}\right)}</m>.</p>
+<p><m>\displaystyle{8}{x}+-{5}{\left({8}\right)}={0}</m></p>
+<p><m>\displaystyle{8}{x}+{\left(-{40}\right)}={0}</m></p>
+<p><m>\displaystyle{8}{x}={0}-{\left(-{40}\right)}</m></p>
+<p><m>\displaystyle{8}{x}={40}</m></p>
+<p><m>\displaystyle{x}=\frac{{40}}{{8}}</m></p>
+<p><m>\displaystyle{x}={5}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({5},{8}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

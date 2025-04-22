@@ -2,12 +2,12 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="880475">
 <statement>
 <p>
-Solve:   <m>\displaystyle{I}=\frac{{V}}{{{R}+{r}}}</m>   for <m>\displaystyle{R}</m>.</p>
+Solve:   <m>\displaystyle{I}=\frac{{V}}{{{R}+{r}}}</m>   for <m>\displaystyle{r}</m>.</p>
 <p>
-<m>\displaystyle{R}=</m> <input type="text" style="width:15.4ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>  
+<m>\displaystyle{r}=</m> <input type="text" style="width:15.4ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>  
  </p>
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle\frac{{{V}-{I}{r}}}{{I}}{\quad\text{or}\quad}\frac{{V}}{{I}}-{r}</m></li></ul></p>
+<p><ul><li><m>\displaystyle\frac{{{V}-{I}{R}}}{{I}}{\quad\text{or}\quad}\frac{{V}}{{I}}-{R}</m></li></ul></p>
 </solution>
 </myopenmath>
