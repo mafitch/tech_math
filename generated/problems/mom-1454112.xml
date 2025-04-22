@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1454112">
 <statement>
-<p>How long can you fly if you start with 43 gallons of fuel, burn 14 gallons per hour, and want land with one hour worth of fuel remaining? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>How long can you fly if you start with 63 gallons of fuel, burn 14 gallons per hour, and want land with one hour worth of fuel remaining? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Round down to the nearest tenth for a conservative estimate.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>2</li></ul></p><p>The model is <m>\displaystyle{F}_{{t}}={43}-{14}{t}</m>. We want one hour of fuel remaining which is 14 gallons, so we solve the following.</p>
-<p><m>\displaystyle{14}={43}-{14}{t}.</m></p>
-<p><m>\displaystyle{14}-{43}={43}-{43}-{14}{t}.</m></p>
-<p><m>\displaystyle-{29}=-{14}{t}.</m></p>
-<p><m>\displaystyle-\frac{{29}}{{-{14}}}=\frac{{-{14}{t}}}{{-{14}}}.</m></p>
-<p><m>\displaystyle{2.0714285714286}={t}.</m></p>
-<p><m>\displaystyle{2}\approx{t}.</m></p>
+<p><ul><li>3.5</li></ul></p><p>The model is <m>\displaystyle{F}_{{t}}={63}-{14}{t}</m>. We want one hour of fuel remaining which is 14 gallons, so we solve the following.</p>
+<p><m>\displaystyle{14}={63}-{14}{t}.</m></p>
+<p><m>\displaystyle{14}-{63}={63}-{63}-{14}{t}.</m></p>
+<p><m>\displaystyle-{49}=-{14}{t}.</m></p>
+<p><m>\displaystyle-\frac{{49}}{{-{14}}}=\frac{{-{14}{t}}}{{-{14}}}.</m></p>
+<p><m>\displaystyle{3.5}={t}.</m></p>
+<p><m>\displaystyle{3.5}\approx{t}.</m></p>
 
 </solution>
 </myopenmath>

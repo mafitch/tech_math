@@ -75,20 +75,8 @@
         </statement>
     </fact>
 
-    <fact xml:id="model-kinetic-energy">
-        <title>Kinetic Energy</title>
-        <statement>
-            <p>The kinetic energy of an object in motion is given by <me>E = \frac{1}{2}m v^2</me> where
-            <ul>
-                <li><m>E</m> is the energy (in foot pounds or Joules)</li>
-                <li><m>m</m> is the mass (think weight) of the object (in pound mass or grams)</li>
-                <li><m>v</m> is the velocity of the object (in feet or meters per second).</li>
-            </ul></p>
-        </statement>
-    </fact>
-
     <example xml:id="example-quadratic-load-factor">
-        <p>What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias, 105 kias? How many g's does it increase between those two speeds? Round to one decimal place.</p>
+        <p>What is the maximum load factor if the stall speed is 54 kias, and the current speed is 95 kias? What if the current speed is 105 kias? How many g's does the maximum load factor increase between those two speeds? Recall kias is nm/hour. Round to one decimal place.</p>
         <p>We use the formula
             <md>
                 <mrow>n_{max} &amp; = \left(\frac{95}{54}\right)^2</mrow>
@@ -106,6 +94,18 @@
         </p>
         <p>The increase of 10 kias increased the g's by <m>3.8-3.1=0.7</m>.</p>
     </example>
+
+    <fact xml:id="model-kinetic-energy">
+        <title>Kinetic Energy</title>
+        <statement>
+            <p>The kinetic energy of an object in motion is given by <me>E = \frac{1}{2}m v^2</me> where
+            <ul>
+                <li><m>E</m> is the energy (in foot pounds or Joules)</li>
+                <li><m>m</m> is the mass (think weight) of the object (in pound mass or grams)</li>
+                <li><m>v</m> is the velocity of the object (in feet or meters per second).</li>
+            </ul></p>
+        </statement>
+    </fact>
 
     <example xml:id="example-quadratic-kinetic-energy">
         <p>What is the kinetic energy of a glider weighing 1323 lbs and flying at 34 kias, at 54 kias? How much did it increase? Use significant digits.</p>

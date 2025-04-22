@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1480536">
 <statement>
-<p>In the model <m>\displaystyle{A}={200.8}{e}^{{{0.0215}{t}}}</m> what is the percent increase or decrease? <input type="text" style="width:8.2ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>In the model <m>\displaystyle{A}={195.2}{e}^{{{0.0285}{t}}}</m> what is the percent increase or decrease? <input type="text" style="width:8.2ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Note all numbers are scientific measurements.</p>
 
 </statement>
 <solution>
-<p><ul><li>2.17</li></ul></p><p>The percent increase/decrease is calculated from <m>\displaystyle{e}^{{0.0215}}\approx{1.0217327903374}</m>. Because this is bigger than 1, this is a percent increase and the result is <m>\displaystyle{1.0217327903374}-{1}={0.021732790337382}\approx{0.0217}</m> and the percent is 2.17<percent/>.</p>
+<p><ul><li>2.89</li></ul></p><p>The percent increase/decrease is calculated from <m>\displaystyle{e}^{{0.0285}}\approx{1.0289100108345}</m>. Because this is bigger than 1, this is a percent increase and the result is <m>\displaystyle{1.0289100108345}-{1}={0.028910010834524}\approx{0.0289}</m> and the percent is 2.89<percent/>.</p>
 <p>We round to 3 significant digits because the measurement (exponent) had 3 significant digits.</p>
 </solution>
 </myopenmath>

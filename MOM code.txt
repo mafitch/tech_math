@@ -29,11 +29,11 @@ if ($stuans != null) {
   }
 }
 OR
-$stuans = getstuans($stuanswers,$thisq,1)
+$stuans = getstuans($stuanswers,$thisq,0)
 if ($stuans != null) {
-	if ( $scoreiscorrect[$thisq][0] ) { $error="" }
-  else if ( abs($stuans-$smi) <= 0.01) { $error="<p style='background-color:LemonChiffon;'>Did you forget to round?</p>" }
-  else { $error = "<p style='background-color:LightPink;'>Check your work.</p>"}
+	if ( $scoreiscorrect[$thisq] ) { $hints[1]="" }
+  else if ( abs($stuans-$smi) <= 0.01) { $hints[1]="<p style='background-color:LemonChiffon;'>Did you forget to round?</p>" }
+  else { $hints[1] = "<p style='background-color:LightPink;'>Check your work.</p>"}
 }
 OR
 $error = ""

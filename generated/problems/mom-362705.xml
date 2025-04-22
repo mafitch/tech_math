@@ -1,18 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="362705">
 <statement>
-<p>Load factor refers to the amount of force imposed on an aircrafts body and contents (e.g., pilot). It is typically measured in g-forces. The maximum load factor is calculated by <m>\displaystyle{n}_{{\text{max}}}={\left({\frac{{{V}}}{{{V}_{{s}}}}}\right)}^{{2}}</m> where </p>
+<p>Load factor refers to the amount of force imposed on an aircraft's body and contents (e.g., pilot). It is typically measured in g-forces. The maximum load factor is calculated by </p>
+<p>
+  <m>\displaystyle{n}_{{\text{max}}}={\left({\frac{{{V}}}{{{V}_{{s}}}}}\right)}^{{2}}</m> where </p>
 <p>
   <m>\displaystyle{n}_{{\text{max}}}</m> is the maximum load factor</p>
 <p>
   <m>\displaystyle{V}_{{s}}</m> is the stall speed, and </p>
 <p>
   <m>\displaystyle{V}</m> is the current speed.</p>
-<p>The stall speed (<m>\displaystyle{V}_{{s}}</m>) for a Cessna 206 is 54 kias. Maximum structural cruising speed (<m>\displaystyle{V}_{{{N}{O}}}</m>) is 147 kcas. Maneuvering speed (<m>\displaystyle{V}_{{A}}</m>) at this weight is about 122 kcas.</p>
-<p>Calculate the V speed for a maximum load factor of 4. Give a numeric approximation rounded to the nearest unit. <input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>The stall speed (<m>\displaystyle{V}_{{s}}</m>) for a Diamond Eclipse is 34 kias (nm/hr). Calculate the V speed for a maximum load factor of 3. <m>\displaystyle{V}=</m> <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>Round to the nearest unit.</p>
+
 
 </statement>
 <solution>
-<p><ul><li>108</li></ul></p>
+<p><ul><li>59</li></ul></p>
 </solution>
 </myopenmath>
