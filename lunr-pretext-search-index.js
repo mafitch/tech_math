@@ -6901,7 +6901,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Solving Quadratics",
-  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form . Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.    Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.         Significant Digits beyond Arithmetic  There are significant digits rules for addition\/subtraction and multiplication\/division. We can handle signficant digits with exponents, such as , because this can be interpreted as multiplication. In the case of .  For square roots we rely on mathematics we do not need to present here that indicates we can calculate the square root so that the number of significant digits is maintained. For example     Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ). .     Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Identify all solutions to .  We note that , , .          Solving Quadratic Equations  Use these contextless problems to practice using the quadratic formula.                Quadratic Applications  Answer these questions which involve a quadratic model. Select rounding that is appropriate or as directed.                         Quantitative Literacy   Apply your knowledge of quadratics and solving them to answer these questions.        "
+  "body": " Solving Quadratics   This section addresses the following topics.  Read and use mathematical models in a technical document  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents how to solve equations that contain quadratics. For this text we present two methods of solving quadratics. Both should be memorized and practiced.    Solving Quadratics with Inversion  The first method is for very simple quadratics of the form . Notice that there is no linear term in . This is what makes solving these simpler. The majority of quadratic models in this text can be solved with this technique.   Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.   Notice that we end up with two results. The results from squaring eliminating a negative. That is, and . So could be either 2 or -2.    Identify all solutions to . Round solutions to 2 decimal places.  We can solve this by undoing each operation.         Significant Digits beyond Arithmetic  There are significant digits rules for addition\/subtraction and multiplication\/division. We can handle signficant digits with exponents, such as , because this can be interpreted as multiplication. In the case of .  For square roots we rely on mathematics we do not need to present here that indicates we can calculate the square root so that the number of significant digits is maintained. For example     Recall the lift equation in . If , , and , what velocity in nautical miles per hour is needed to produce ?  We start by filling in the information we know in the equation.  We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.  Note the units for velocity are feet per second. Now we need to convert units (like ). .     Consider What velocity will produce a maximum load factor of if the stall speed is ?  Note that 2 is an exact number, and 54 is a measurement.    The aircraft would have to be travelling at 76 nm\/hour to be able to experience 2 G's in a maximum performance maneuver.  Again reality constraints eliminate the possibility of the negative square root. Negative velocity (backwards motion) does not produce flight.      Solving Quadratics with the Formula  When the quadratic has more than a square term, e.g., we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For the solutions are given by   Identify all solutions to .  We note that , , .       One place quadratics of this sort shows up is equilibrium states for chemical reactions. Search for ICE (initial, change, equilibrium) problems for a full explanation. The following example illustrates how to generate the quadratic and use the formula to solve for the desired result.   Chemistry ICE  Consider the following chemical reaction. . If the amount of bromine gas is 0.60 moles and the amount of chlorine gas is 0.60 moles, and the equilibrium constant what are the amounts of each gas at equilibrium?  The ICE (initial, change, equilibrium) table for this is below.   ICE Table          I       C       E        The initial conditions (first row) will always be given (we know with what we start). The second row uses the to indicate that we do not know how much will be converted by the reaction. It is for the result because when one molecule each of and break apart there are 2 atoms each of Br and Cl resulting in two molecules of BrCl. This all comes from the chemical reaction.  The equilibrium equation then is . This is always the ratio of equilibrium amounts for the outputs divided by equilibrium amounts for the inputs. It will be provided in this text.  Finally, we can solve this equation to determine and the resulting amounts of each gas. Next, we can solve for using the quadratic formula. Because the initial amounts are only 0.6, only the first number is a possible result. 0.34 moles of each gas will be changed resulting in moles of BrCl.      Solving Quadratic Equations  Use these contextless problems to practice using the quadratic formula.                Quadratic Applications  Answer these questions which involve a quadratic model. Select rounding that is appropriate or as directed.                               Quantitative Literacy   Apply your knowledge of quadratics and solving them to answer these questions.        "
 },
 {
   "id": "example-solve-quadratic-inversion",
@@ -6965,6 +6965,15 @@ var ptx_lunr_docs = [
   "number": "5.2.7",
   "title": "",
   "body": "   "
+},
+{
+  "id": "example-chemistry-ice",
+  "level": "2",
+  "url": "section-quadratic-solve.html#example-chemistry-ice",
+  "type": "Example",
+  "number": "5.2.8",
+  "title": "Chemistry ICE.",
+  "body": " Chemistry ICE  Consider the following chemical reaction. . If the amount of bromine gas is 0.60 moles and the amount of chlorine gas is 0.60 moles, and the equilibrium constant what are the amounts of each gas at equilibrium?  The ICE (initial, change, equilibrium) table for this is below.   ICE Table          I       C       E        The initial conditions (first row) will always be given (we know with what we start). The second row uses the to indicate that we do not know how much will be converted by the reaction. It is for the result because when one molecule each of and break apart there are 2 atoms each of Br and Cl resulting in two molecules of BrCl. This all comes from the chemical reaction.  The equilibrium equation then is . This is always the ratio of equilibrium amounts for the outputs divided by equilibrium amounts for the inputs. It will be provided in this text.  Finally, we can solve this equation to determine and the resulting amounts of each gas. Next, we can solve for using the quadratic formula. Because the initial amounts are only 0.6, only the first number is a possible result. 0.34 moles of each gas will be changed resulting in moles of BrCl.  "
 },
 {
   "id": "section-quadratic-solve-5-1-3",
@@ -7066,11 +7075,29 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
+  "id": "section-quadratic-solve-5-2-10",
+  "level": "2",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-10",
+  "type": "Exercise",
+  "number": "5.2.3.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-quadratic-solve-5-2-11",
+  "level": "2",
+  "url": "section-quadratic-solve.html#section-quadratic-solve-5-2-11",
+  "type": "Exercise",
+  "number": "5.2.3.13",
+  "title": "",
+  "body": "  "
+},
+{
   "id": "section-quadratic-solve-5-3-3",
   "level": "2",
   "url": "section-quadratic-solve.html#section-quadratic-solve-5-3-3",
   "type": "Exercise",
-  "number": "5.2.3.12",
+  "number": "5.2.3.14",
   "title": "",
   "body": "  "
 },

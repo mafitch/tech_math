@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1489664">
 <statement>
-<p>A triangle has sides with lengths <m>\displaystyle{a}={4.00}</m>, <m>\displaystyle{b}={11.30}</m>, and <m>\displaystyle{c}={11.65}</m>. Calculate all of the angles of this triangle.</p>
-<p>A=<input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/> (across from side of length <m>\displaystyle{a}={4.00}</m>)</p>
+<p>A triangle has sides with lengths <m>\displaystyle{a}={5.00}</m>, <m>\displaystyle{b}={7.90}</m>, and <m>\displaystyle{c}={8.58}</m>. Calculate all of the angles of this triangle.</p>
+<p>A=<input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/> (across from side of length <m>\displaystyle{a}={5.00}</m>)</p>
 <p>
-  B=<input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> (across from side of length <m>\displaystyle{b}={11.30}</m>)</p>
+  B=<input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> (across from side of length <m>\displaystyle{b}={7.90}</m>)</p>
 <p>
-  C=<input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> (across from side of length <m>\displaystyle{c}={11.65}</m>)</p>
+  C=<input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> (across from side of length <m>\displaystyle{c}={8.58}</m>)</p>
 <p>Round to two decimal places.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>20</li><li>75.06</li><li>85.1</li></ul></p><p>Because we have all three sides, we can use the law of cosines for the first angle.</p>
-<p><m>\displaystyle{4}^{{2}}={11.3}^{{2}}+{11.65}^{{2}}-{2}{\left({11.3}\right)}{\left({11.65}\right)}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{16}={127.69}+{135.7225}-{263.29}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle-{247.4125}=-{263.29}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{0.93969577272209}={\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{A}={19.999471975773}={20}</m>.</p>
+<p><ul><li>35.02</li><li>65.04</li><li>80.75</li></ul></p><p>Because we have all three sides, we can use the law of cosines for the first angle.</p>
+<p><m>\displaystyle{5}^{{2}}={7.9}^{{2}}+{8.58}^{{2}}-{2}{\left({7.9}\right)}{\left({8.58}\right)}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{25}={62.41}+{73.6164}-{135.564}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle-{111.0264}=-{135.564}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{0.81899619367974}={\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{A}={35.015565232064}={35.02}</m>.</p>
 <p>For a second angle, we can use the shorter law of sines.</p>
-<p><m>\displaystyle\frac{{\sin{{\left({19.999471975773}\right)}}}}{{4.00}}=\frac{{\sin{{\left({B}\right)}}}}{{11.30}}</m></p>
-<p><m>\displaystyle{2.5784612506664}={\sin{{\left({B}\right)}}}</m></p>
-<p><m>\displaystyle{B}={\arcsin{{\left({2.5784612506664}\right)}}}</m></p>
-<p><m>\displaystyle{B}={75.056913166587}\approx{75.06}</m></p>
+<p><m>\displaystyle\frac{{\sin{{\left({35.015565232064}\right)}}}}{{5.00}}=\frac{{\sin{{\left({B}\right)}}}}{{7.90}}</m></p>
+<p><m>\displaystyle-{0.69867033122059}={\sin{{\left({B}\right)}}}</m></p>
+<p><m>\displaystyle{B}={\arcsin{{\left(-{0.69867033122059}\right)}}}</m></p>
+<p><m>\displaystyle{B}={65.039963510524}\approx{65.04}</m></p>
 <p>The third angle we can calculate using the angle sum property.</p>
-<p><m>\displaystyle{19.999471975773}+{75.056913166587}+{C}={180}^{\circ}</m></p>
-<p><m>\displaystyle{C}={85.095901292041}\approx{85.1}</m></p>
+<p><m>\displaystyle{35.015565232064}+{65.039963510524}+{C}={180}^{\circ}</m></p>
+<p><m>\displaystyle{C}={80.748722699898}\approx{80.75}</m></p>
 
 </solution>
 </myopenmath>
