@@ -170,30 +170,30 @@
 
     <example xml:id="example-chemistry-ice">
         <title>Chemistry ICE</title>
-        <p>Consider the following chemical reaction. <me>Br_2 + Cl_2 {\rightharpoonup \atop leftharpoondown} 2Br Cl</me>. If the amount of bromine gas is 0.60 moles and the amount of chlorine gas is 0.60 moles, and the equilibrium constant <m>K_c = 7.0</m> what are the amounts of each gas at equilibrium?</p>
+        <p>Consider the following chemical reaction. <me>Br_2 + Cl_2 \rightleftharpoons 2Br Cl</me>. If the amount of bromine gas is 0.60 moles and the amount of chlorine gas is 0.60 moles, and the equilibrium constant <m>K_c = 7.0</m> what are the amounts of each gas at equilibrium?</p>
         <p>The ICE (initial, change, equilibrium) table for this is below.</p>
         <table>
             <title>ICE Table</title>
-            <tabular>
-                <row>
+            <tabular top="minor" right="minor">
+                <row halign="center" bottom="minor" left="minor">
                     <cell></cell>
                     <cell><m>Br_2</m></cell>
                     <cell><m>Cl_2</m></cell>
                     <cell><m>2BrCl</m></cell>
                 </row>
-                <row>
+                <row halign="center" bottom="minor" left="minor">
                     <cell>I</cell>
                     <cell><m>0.6</m></cell>
                     <cell><m>0.6</m></cell>
                     <cell><m>0</m></cell>
                 </row>
-                <row>
+                <row halign="center" bottom="minor" left="minor">
                     <cell>C</cell>
                     <cell><m>-x</m></cell>
                     <cell><m>-x</m></cell>
                     <cell><m>+2x</m></cell>
                 </row>
-                <row>
+                <row halign="center" bottom="minor" left="minor">
                     <cell>E</cell>
                     <cell><m>0.6-x</m></cell>
                     <cell><m>0.6-x</m></cell>
@@ -207,16 +207,16 @@
             <md>
                 <mrow>7.0 = \amp \frac{(2x)^2}{(0.6-x)(0.6-x)}</mrow>
                 <mrow>(2x)^2 = \amp 7.0(0.6-x)(0.6-x) </mrow>
-                <mrow>4x^2 = \amp 2.\underbar{5}2-8.4x+7.0x^2</mrow>
-                <mrow>0 = \amp 2.\underbar{5}2-8.4x+3.0x^2</mrow>
+                <mrow>4x^2 = \amp 2.\underline{5}2-8.4x+7.0x^2</mrow>
+                <mrow>0 = \amp 2.\underline{5}2-8.4x+3.0x^2</mrow>
             </md>
         Next, we can solve for <m>x</m> using the quadratic formula.
             <md>
-                <mrow>x = \amp \frac{-(-8.4) \pm \sqrt{(-8.4)^2-4(3.0)(2.\underbar{5}2)}}{2(3.0)}</mrow>
-                <mrow> = \amp \frac{8.4 \pm \sqrt{7\underbar{0}.56-3\underbar{0}.24}}{6.0}</mrow>
-                <mrow> = \amp \frac{8.4 \pm \sqrt{4\underbar{0}.32}}{6.0}</mrow>
-                <mrow> = \amp \frac{8.4 \pm 6.\underbar{3}498}{6.0}</mrow>
-                <mrow> = \amp 0.3\underbar{4}17, 2.\underbar{4}583</mrow>
+                <mrow>x = \amp \frac{-(-8.4) \pm \sqrt{(-8.4)^2-4(3.0)(2.\underline{5}2)}}{2(3.0)}</mrow>
+                <mrow> = \amp \frac{8.4 \pm \sqrt{7\underline{0}.56-3\underline{0}.24}}{6.0}</mrow>
+                <mrow> = \amp \frac{8.4 \pm \sqrt{4\underline{0}.32}}{6.0}</mrow>
+                <mrow> = \amp \frac{8.4 \pm 6.\underline{3}498}{6.0}</mrow>
+                <mrow> = \amp 0.3\underline{4}17, 2.\underline{4}583</mrow>
             </md>
         Because the initial amounts are only 0.6, only the first number is a possible result. 0.34 moles of each gas will be changed resulting in <m>2(0.34)=0.68</m> moles of BrCl.</p>
     </example>
