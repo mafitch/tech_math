@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle-{x}-{5}{y}={21}</m> </p>
+<p><m>\displaystyle{3}{x}-{9}{y}={6}</m> </p>
 <p>
-  <m>\displaystyle-{8}{x}+{8}{y}={24}</m></p>
+  <m>\displaystyle{9}{x}-{5}{y}=-{4}</m></p>
 <p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{6},-{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of --8. So we scale by <m>\displaystyle--\frac{{8}}{{-{{1}}}}</m>.</p>
-<p><m>\displaystyle-\frac{{-{8}}}{{-{{1}}}}{\left(-{1}{x}+-{5}{y}\right)}=-\frac{{-{8}}}{{-{{1}}}}{\left({21}\right)}</m></p>
-<p><m>\displaystyle-{\left(-{8}\right)}{x}+{40}{y}=-{168}</m></p>
-<p><m>\displaystyle-{8}{x}+{8}{y}={24}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{1},-{1}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of -9. So we scale by <m>\displaystyle-\frac{{9}}{{3}}</m>.</p>
+<p><m>\displaystyle-\frac{{{9}}}{{3}}{\left({3}{x}+-{9}{y}\right)}=-\frac{{{9}}}{{3}}{\left({6}\right)}</m></p>
+<p><m>\displaystyle-{\left({9}\right)}{x}+{27}{y}=-{18}</m></p>
+<p><m>\displaystyle{9}{x}-{5}{y}=-{4}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{48}{y}=-{144}</m></p>
-<p><m>\displaystyle{y}=-\frac{{144}}{{48}}</m></p>
-<p><m>\displaystyle{y}=-{3}</m></p>
+<p><m>\displaystyle{22}{y}=-{22}</m></p>
+<p><m>\displaystyle{y}=-\frac{{22}}{{22}}</m></p>
+<p><m>\displaystyle{y}=-{1}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{1}{x}+-{5}{\left(-{3}\right)}={21}</m></p>
-<p><m>\displaystyle-{1}{x}+{\left({15}\right)}={21}</m></p>
-<p><m>\displaystyle-{1}{x}={21}-{\left({15}\right)}</m></p>
-<p><m>\displaystyle-{1}{x}={6}</m></p>
-<p><m>\displaystyle{x}=\frac{{6}}{{-{{1}}}}</m></p>
-<p><m>\displaystyle{x}=-{6}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{6},-{3}\right)}</m>.</p>
+<p><m>\displaystyle{3}{x}+-{9}{\left(-{1}\right)}={6}</m></p>
+<p><m>\displaystyle{3}{x}+{\left({9}\right)}={6}</m></p>
+<p><m>\displaystyle{3}{x}={6}-{\left({9}\right)}</m></p>
+<p><m>\displaystyle{3}{x}=-{3}</m></p>
+<p><m>\displaystyle{x}=-\frac{{3}}{{3}}</m></p>
+<p><m>\displaystyle{x}=-{1}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{1},-{1}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

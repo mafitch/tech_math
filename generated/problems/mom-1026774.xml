@@ -4,17 +4,17 @@
 <p>Determine Linearity and Slope from a Table</p>
 <p>For each of the following functions, determine if the function is linear. </p>
 <p>If it is linear, give the slope. If it is not linear, enter "DNE" for the slope.</p>
-<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>11</cell><cell>18</cell></row>
-<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>1.25</cell><cell>7.5</cell><cell>13.75</cell><cell>63.75</cell><cell>107.5</cell></row>
+<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>2</cell><cell>5</cell><cell>11</cell><cell>13</cell><cell>14</cell></row>
+<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>5</cell><cell>-8.5</cell><cell>-34</cell><cell>-44.5</cell><cell>-49</cell></row>
 </tabular><p>
 Behavior: </p>
-<p><ol style="list-style-type:upper-alpha"><li>Not Linear</li> 
-<li>Linear</li> 
+<p><ol style="list-style-type:upper-alpha"><li>Linear</li> 
+<li>Not Linear</li> 
 </ol></p>
 <p>
 Slope: <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 8" class="text"/></p>
-<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>4</cell><cell>5</cell><cell>14</cell><cell>15</cell><cell>19</cell></row>
-<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>-19</cell><cell>-21.5</cell><cell>-44</cell><cell>-45</cell><cell>-56.5</cell></row>
+<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>4</cell><cell>6</cell><cell>11</cell><cell>12</cell><cell>13</cell></row>
+<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>-4</cell><cell>-12</cell><cell>-32</cell><cell>-36</cell><cell>-40</cell></row>
 </tabular><p>
 Behavior: </p>
 <p><ol style="list-style-type:upper-alpha"><li>Not Linear</li> 
@@ -22,17 +22,17 @@ Behavior: </p>
 </ol></p>
 <p>
 Slope: <input type="text" style="width:25ch" name="qn1003" id="qn1003" value="" autocomplete="off" aria-label="Question 1 Part 4 of 8" class="text"/></p>
-<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>2</cell><cell>3</cell><cell>7</cell><cell>9</cell><cell>16</cell></row>
-<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>22</cell><cell>29</cell><cell>54</cell><cell>71</cell><cell>120</cell></row>
+<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>5</cell><cell>6</cell><cell>11</cell><cell>12</cell><cell>13</cell></row>
+<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>55</cell><cell>62</cell><cell>95</cell><cell>104</cell><cell>111</cell></row>
 </tabular><p>
 Behavior: </p>
-<p><ol style="list-style-type:upper-alpha"><li>Not Linear</li> 
-<li>Linear</li> 
+<p><ol style="list-style-type:upper-alpha"><li>Linear</li> 
+<li>Not Linear</li> 
 </ol></p>
 <p>
 Slope: <input type="text" style="width:25ch" name="qn1005" id="qn1005" value="" autocomplete="off" aria-label="Question 1 Part 6 of 8" class="text"/></p>
-<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>1</cell><cell>2</cell><cell>8</cell><cell>9</cell><cell>16</cell></row>
-<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>-5</cell><cell>-7</cell><cell>-19</cell><cell>-21</cell><cell>-35</cell></row>
+<tabular> <row><cell><em><m>\displaystyle{x}</m></em></cell><cell>2</cell><cell>4</cell><cell>6</cell><cell>8</cell><cell>19</cell></row>
+<row><cell><em><m>\displaystyle{f{{\left({x}\right)}}}</m></em></cell><cell>19</cell><cell>30</cell><cell>41</cell><cell>52</cell><cell>112.5</cell></row>
 </tabular><p>
 Behavior: </p>
 <p><ol style="list-style-type:upper-alpha"><li>Linear</li> 
@@ -43,6 +43,6 @@ Slope: <input type="text" style="width:25ch" name="qn1007" id="qn1007" value="" 
 
 </statement>
 <solution>
-<p><ul><li>B: Linear</li><li>6.25</li><li>A: Not Linear</li><li>DNE</li><li>A: Not Linear</li><li>DNE</li><li>A: Linear</li><li>-2</li></ul></p>
+<p><ul><li>B: Not Linear</li><li>DNE</li><li>B: Linear</li><li>-4</li><li>B: Not Linear</li><li>DNE</li><li>A: Linear</li><li>5.5</li></ul></p>
 </solution>
 </myopenmath>

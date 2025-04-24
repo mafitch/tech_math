@@ -166,6 +166,61 @@
         <myopenmath problem="1475570" />
     </exercise>
 
+    <p>One place quadratics of this sort shows up is equilibrium states for chemical reactions. Search for ICE (initial, change, equilibrium) problems for a full explanation. The following example illustrates how to generate the quadratic and use the formula to solve for the desired result.</p>        
+
+    <example xml:id="example-chemistry-ice">
+        <title>Chemistry ICE</title>
+        <p>Consider the following chemical reaction. <me>Br_2 + Cl_2 {\rightharpoonup \atop leftharpoondown} 2Br Cl</me>. If the amount of bromine gas is 0.60 moles and the amount of chlorine gas is 0.60 moles, and the equilibrium constant <m>K_c = 7.0</m> what are the amounts of each gas at equilibrium?</p>
+        <p>The ICE (initial, change, equilibrium) table for this is below.</p>
+        <table>
+            <title>ICE Table</title>
+            <tabular>
+                <row>
+                    <cell></cell>
+                    <cell><m>Br_2</m></cell>
+                    <cell><m>Cl_2</m></cell>
+                    <cell><m>2BrCl</m></cell>
+                </row>
+                <row>
+                    <cell>I</cell>
+                    <cell><m>0.6</m></cell>
+                    <cell><m>0.6</m></cell>
+                    <cell><m>0</m></cell>
+                </row>
+                <row>
+                    <cell>C</cell>
+                    <cell><m>-x</m></cell>
+                    <cell><m>-x</m></cell>
+                    <cell><m>+2x</m></cell>
+                </row>
+                <row>
+                    <cell>E</cell>
+                    <cell><m>0.6-x</m></cell>
+                    <cell><m>0.6-x</m></cell>
+                    <cell><m>0+2x</m></cell>
+                </row>
+            </tabular>
+        </table>
+        <p>The initial conditions (first row) will always be given (we know with what we start). The second row uses the <m>x</m> to indicate that we do not know how much will be converted by the reaction. It is <m>+2x</m> for the result because when one molecule each of <m>Br_2</m> and <m>Cl_2</m> break apart there are 2 atoms each of Br and Cl resulting in two molecules of BrCl. This all comes from the chemical reaction.</p>
+        <p>The equilibrium equation then is <me>K_c = 7.0 = \frac{[BrCl]^2}{[Br_2][Cl_2]} = \frac{(2x)^2}{(0.6-x)(0.6-x)}</me>. This is always the ratio of equilibrium amounts for the outputs divided by equilibrium amounts for the inputs. It will be provided in this text.</p>
+        <p>Finally, we can solve this equation to determine <m>x</m> and the resulting amounts of each gas.
+            <md>
+                <mrow>7.0 = \amp \frac{(2x)^2}{(0.6-x)(0.6-x)}</mrow>
+                <mrow>(2x)^2 = \amp 7.0(0.6-x)(0.6-x) </mrow>
+                <mrow>4x^2 = \amp 2.\underbar{5}2-8.4x+7.0x^2</mrow>
+                <mrow>0 = \amp 2.\underbar{5}2-8.4x+3.0x^2</mrow>
+            </md>
+        Next, we can solve for <m>x</m> using the quadratic formula.
+            <md>
+                <mrow>x = \amp \frac{-(-8.4) \pm \sqrt{(-8.4)^2-4(3.0)(2.\underbar{5}2)}}{2(3.0)}</mrow>
+                <mrow> = \amp \frac{8.4 \pm \sqrt{7\underbar{0}.56-3\underbar{0}.24}}{6.0}</mrow>
+                <mrow> = \amp \frac{8.4 \pm \sqrt{4\underbar{0}.32}}{6.0}</mrow>
+                <mrow> = \amp \frac{8.4 \pm 6.\underbar{3}498}{6.0}</mrow>
+                <mrow> = \amp 0.3\underbar{4}17, 2.\underbar{4}583</mrow>
+            </md>
+        Because the initial amounts are only 0.6, only the first number is a possible result. 0.34 moles of each gas will be changed resulting in <m>2(0.34)=0.68</m> moles of BrCl.</p>
+    </example>
+
 </subsection>
 
 <exercises>
@@ -220,6 +275,14 @@
 
         <exercise>
             <myopenmath problem="1538768" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1588226" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1588387" />
         </exercise>
 
     </exercisegroup>
