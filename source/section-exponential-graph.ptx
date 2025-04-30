@@ -81,19 +81,19 @@
                 <cell right="medium"><m>-50</m></cell>
                 <cell><m>30(2^{-50/25})</m></cell>
                 <cell><m>=30 \cdot \frac{1}{4}</m></cell>
-                <cell right="medium"><m>=15</m></cell>
+                <cell right="medium"><m>=7.5</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>-75</m></cell>
                 <cell><m>30(2^{-75/25})</m></cell>
                 <cell><m>=30 \cdot \frac{1}{8}</m></cell>
-                <cell right="medium"><m>=7.5</m></cell>
+                <cell right="medium"><m>=3.75</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>-100</m></cell>
                 <cell><m>30(2^{-100/25})</m></cell>
                 <cell><m>=30 \cdot \frac{1}{16}</m></cell>
-                <cell right="medium"><m>=3.75</m></cell>
+                <cell right="medium"><m>=1.875</m></cell>
             </row>
         </tabular>
         <p>We notice that the amount of bacteria decreases. More specifically we see that it is divided in half each time. This is just the reverse of it doubling each time as it grows.</p>

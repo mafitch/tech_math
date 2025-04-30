@@ -24,11 +24,11 @@
 <subsection xml:id="subsection-vary-fast">
     <title>Comparing Growth Rates</title>
 
-    <p>In colloquial speech <term>exponential</term> is used to mean <q>very fast</q>. In this text we are using a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster.</p>
+    <p>In colloquial speech <term>exponential</term> is used to mean <q>very fast</q>. In this text we are using the term formally which requires a more detailed definition. This section presents examples that illustrate that an exponential relation is very fast in that it grows faster than linear and quadratic relations. To complete the presentation of comparative rates we will also show another relation that is even faster. Thus we can be more precise about how fast something grows.</p>
 
     <p>Consider the linear, quadratic, and exponential relations in <xref ref="table-differences-linear" />, <xref ref="table-differences-quadratic2" />, and <xref ref="table-differences-exponential2" /> respectively. Linear data has the same differences (3 in the example below). In contrast the differences for quadratic and exponential data grow as the data grows. Their growth is not the same however. Quadratic differences grow at the same rate (2nd differences are linear, 4 in the example below). In contrast exponential differences grow faster as the data grows faster (indeed at the same rate).</p>
 
-    <p>Another way to look at this, is to note that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than 3 for the linear below, and 6,10,14 are less than 8,18, and 32 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values, that is the rate of growth increases as quickly as the values do (e.g., the values are doubling and so are the differences). Because of this exponential growth will always outpace linear and quadratic growth eventually.</p>
+    <p>Another way to look at this, is that for linears and quadratics eventually the data is bigger than the differences. For example 5,8,11 are all bigger than the difference 3 for the linear below. Likewise, the values 8, 18, and 32 are greater than the differences 6, 10, 14 respectively for the quadratic below. For exponential relations, however, the rate of growth of the values is a multiple of the values. The rate of growth increases as quickly as the values do. For example the values 6, 12, 24 are exactly equal to the differences 6, 12, 24. In this example the values are doubling and so are the differences between them. Because of this exponential growth will always outpace linear and quadratic growth eventually.</p>
 
     <table xml:id="table-differences-linear">
         <title>Linear Relation</title>
@@ -132,7 +132,7 @@
         </tabular>
     </table>
 
-    <p>We can also compare the ratios of consecutive terms (which can be thought of as percent increase) of the relations. <xref ref="table-ratios-linear" /> and <xref ref="table-ratios-quadratic" /> have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in <xref ref="table-ratios-exponential2" /> we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.</p>
+    <p>We can also compare the ratios of consecutive terms of the relations. Because the ratio can be converted to a percent, we can also think of the growth as percent increase. <xref ref="table-ratios-linear" /> and <xref ref="table-ratios-quadratic" /> have the ratios for a linear and a quadratic relation respectively. From the decimal approximation rows we can see that the ratios are decreasing. A closer look shows they are both trending toward one. In contrast in <xref ref="table-ratios-exponential2" /> we are reminded that the ratios for an exponential relation are constant. This also implies that exponential relations grow faster than linear or quadrataic relations.</p>
 
     <table xml:id="table-ratios-linear">
         <title>Linear Relation</title>
@@ -141,7 +141,8 @@
             <row bottom="medium" left="medium"><cell halign="center" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
             <row bottom="medium" left="medium"><cell halign="center" right="medium"><m>3n+2</m></cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">5</cell> <cell halign="right" right="medium">8</cell> <cell halign="right" right="medium">11</cell> <cell halign="right" right="medium">14</cell> <cell halign="right" right="medium">17</cell> </row>
             <row bottom="medium" left="medium"><cell halign="center" right="medium">Ratios</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">5/2</cell> <cell halign="right" right="medium">8/5</cell> <cell halign="right" right="medium">11/8</cell> <cell halign="right" right="medium">14/11</cell> <cell halign="right" right="medium">17/14</cell> </row>
-            <row bottom="medium" left="medium"><cell halign="center" right="medium">Decimal</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">2.5</cell> <cell halign="right" right="medium">1.6</cell> <cell halign="right" right="medium">1.375</cell> <cell halign="right" right="medium">1.2727</cell> <cell halign="right" right="medium">1.2143</cell> </row>
+            <row bottom="medium" left="medium"><cell halign="center" right="medium">Percent</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">250%</cell> <cell halign="right" right="medium">160%</cell> <cell halign="right" right="medium">137.5%</cell> <cell halign="right" right="medium">127.27%</cell> <cell halign="right" right="medium">121.43%</cell> </row>
+            <row bottom="medium" left="medium"><cell halign="center" right="medium">Percent Increase</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">150%</cell> <cell halign="right" right="medium">60%</cell> <cell halign="right" right="medium">37.5%</cell> <cell halign="right" right="medium">27.27%</cell> <cell halign="right" right="medium">21.43%</cell> </row>
         </tabular>
     </table>
 
@@ -152,7 +153,8 @@
             <row bottom="medium" left="medium"><cell halign="center" right="medium"><m>n</m></cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> <cell halign="right" right="medium">6</cell> </row>
             <row bottom="medium" left="medium"><cell halign="center" right="medium"><m>2n^2</m></cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">8</cell> <cell halign="right" right="medium">18</cell> <cell halign="right" right="medium">32</cell> <cell halign="right" right="medium">50</cell> <cell halign="right" right="medium">72</cell> </row>
             <row bottom="medium" left="medium"><cell halign="center" right="medium">Ratios</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">8/2</cell> <cell halign="right" right="medium">18/8</cell> <cell halign="right" right="medium">32/18</cell> <cell halign="right" right="medium">50/32</cell> <cell halign="right" right="medium">72/50</cell> </row>
-            <row bottom="medium" left="medium"><cell halign="center" right="medium">Decimal</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">2.25</cell> <cell halign="right" right="medium">1.7778</cell> <cell halign="right" right="medium">1.5625</cell> <cell halign="right" right="medium">1.44</cell> </row>
+            <row bottom="medium" left="medium"><cell halign="center" right="medium">Percent</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">400%</cell> <cell halign="right" right="medium">225%</cell> <cell halign="right" right="medium">177.78%</cell> <cell halign="right" right="medium">156.25%</cell> <cell halign="right" right="medium">144%</cell> </row>
+            <row bottom="medium" left="medium"><cell halign="center" right="medium">Percent Increase</cell> <cell halign="right" right="medium"></cell> <cell halign="right" right="medium">300%</cell> <cell halign="right" right="medium">125%</cell> <cell halign="right" right="medium">77.78%</cell> <cell halign="right" right="medium">56.25%</cell> <cell halign="right" right="medium">44%</cell> </row>
         </tabular>
     </table>
 
@@ -163,10 +165,12 @@
             <row bottom="medium" left="medium"><cell halign="center" right="medium"><m>n</m></cell> <cell halign="right" right="medium">0</cell> <cell halign="right" right="medium">1</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">4</cell> <cell halign="right" right="medium">5</cell> </row>
             <row bottom="medium" left="medium"><cell halign="center" right="medium"><m>3(2^n)</m></cell> <cell halign="right" right="medium">3</cell> <cell halign="right" right="medium">6</cell> <cell halign="right" right="medium">12</cell> <cell halign="right" right="medium">24</cell> <cell halign="right" right="medium">48</cell> <cell halign="right" right="medium">96</cell> </row>
             <row bottom="medium" left="medium"><cell halign="center" right="medium">Ratios</cell> <cell right="medium"></cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> <cell halign="right" right="medium">2</cell> </row>
+            <row bottom="medium" left="medium"><cell halign="center" right="medium">Percent</cell> <cell right="medium"></cell> <cell halign="right" right="medium">200%</cell> <cell halign="right" right="medium">200%</cell> <cell halign="right" right="medium">200%</cell> <cell halign="right" right="medium">200%</cell> <cell halign="right" right="medium">200%</cell> </row>
+            <row bottom="medium" left="medium"><cell halign="center" right="medium">Percent Increase</cell> <cell right="medium"></cell> <cell halign="right" right="medium">100%</cell> <cell halign="right" right="medium">100%</cell> <cell halign="right" right="medium">100%</cell> <cell halign="right" right="medium">100%</cell> <cell halign="right" right="medium">100%</cell> </row>
         </tabular>
     </table>
 
-    <p>The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. <xref ref="table-ratios-factorial" /> shows the ratios for a relation known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.</p>
+    <p>The comparisons to linear and quadratic might suggest that exponential is the fastest growing relation. It is not. As one example of a faster relation consider <xref ref="table-ratios-factorial" /> which is known as factorial. Interestingly, the ratios grow linearly. This is vaguely like quadratic relations which grow faster than a linear relation because their differences grow linearly. Factorial relations are growing faster than exponential relations because their ratios are growing linearly rather than remaining constant.</p>
 
     <table xml:id="table-ratios-factorial">
         <title>Factorial Relation</title>
@@ -307,7 +311,7 @@
 
     <example xml:id="example-exponential-cat-video">
         <p>A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.</p>
-        <p>To help ourselves figure this out we can calculate the first few days results. The 4 days after the video is posted, there will be <m>12(3)=36</m> views. The eighth day, there will be <m>12(3)(3)=108</m> views. Each additional four days we multiply the result by 3.</p>
+        <p>To help ourselves figure this out we can calculate the first few days' results. The 4 days after the video is posted, there will be <m>12(3)=36</m> views. The eighth day, there will be <m>12(3)(3)=108</m> views. This suggests that for each additional four days we multiply the result by 3.</p>
         <p>Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple <m>24/4=6</m> times.</p>
         <p>To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is <me>v = 12(3^{d/4})</me></p>
     </example>
@@ -322,7 +326,7 @@
 
     <example xml:id="example-write-exponential-parameters">
         <p>Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?</p>
-        <p>Because the raise is a 5% increase, the percent is <m>p=1.05</m>. Thus after one year his salary will be <m>\$52,429.33(1.05)</m>. After two years his salary will be <m>\$52,429.33(1.05)(1.05)</m>. This pattern will continue.</p>
+        <p>Because the raise is a 5% increase, the percent is 105% or in decimal <m>p=1.05</m>. Thus after one year his salary will be <m>\$52,429.33(1.05)</m>. After two years his salary will be <m>\$52,429.33(1.05)(1.05)</m>. This pattern will continue.</p>
         <p>The model then is <me>S=\$52,429.33(1.05)^t</me> where <m>t</m> is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be <me>S=\$52,429.33(1.05)^5 = \$66,914.59.</me></p>
     </example>
 
@@ -339,7 +343,7 @@
 
     <p>In the previous example we rounded in the second step to 4 decimal places. Was this the right choice? We can test by trying the calculation with fewer decimal places. If we had rounded to 5 places, the last step would have been <m>\frac{\$72,311.54}{1.26532} \approx \$57,148.82</m>. If we had rounded to 6 places, the last step would have been <m>\frac{\$72,311.54}{1.265319} \approx \$57,148.86</m>. If we had rounded to 7 places, the last step would have been <m>\frac{\$72,311.54}{1.265320} \approx \$57,148.86</m>. Likewise testing 8 places would not change the amount. Thus any more than 6 places is not enough to change the result. However, was the 4 places result bad? The amounts between the roundings are different from each other but not by enough to impact anyone's life. Remember rounding is often about being practical: if the variation we round away has no impact, why bother with all the extra work?</p>
 
-    <p>Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but it requires a technique from <xref ref="section-roots" />.</p>
+    <p>Because we just calculated an initial salary from a current salary and the annual percent increase, we might wonder if we can calculate the percent increase from a past and current salary. We can, but that calculation is not an exponential calculation. Rather it requires a technique for roots from <xref ref="section-roots" />.</p>
 
     <example xml:id="example-write-exponential-parameters-one-pt">
         <statement><p>We will calculate the percent increase given initial and final salaries. If Raven's initial salary was $53,242.17, and her salary at the end of 7 years was $67,368.33, what was her annual percentage increase?</p></statement>
@@ -357,7 +361,7 @@
 <subsection xml:id="subsection-exponential-models">
     <title>Two Exponential Models</title>
 
-    <p>Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two models.</p>
+    <p>Above we worked examples in which some initial amount (e.g., mass of bacteria or salary) was repeatedly multiplied by a number. These were written in slightly different ways giving us the following two forms of the exponential model.</p>
 
     <fact xml:id="model-exponential-rate">
         <title>Exponential Growth (rate)</title>
@@ -388,7 +392,7 @@
         </statement>
     </fact>
 
-    <p>It is possible to convert from one form to the other. The following examples demonstrate using these models, determining the percent increase/decrease, and converting between forms.</p>
+    <p>It is possible to convert from one form to the other. The following examples demonstrate determining the percent increase/decrease for both forms which may require converting to the second forms. Percent increase and decrease may be reviewed in <xref ref="subsection-percent-increase" />.</p>
 
     <example xml:id="example-percent-increase-read">
         <p>Suppose <m>P=100(1.032)^t</m> where <m>t</m> is the number of years. What is the annual percent increase?</p>
@@ -411,10 +415,10 @@
                 <mrow>0.88-1 \amp = p</mrow>
                 <mrow>-0.12 \amp = p</mrow>
             </md>
-        so this is a 12% decrease.</p>
+        Because <m>p</m> is negative this is a decrease. The annual percent decrease is 12%.</p>
     </example>
 
-    <p>Generally if the value <m>1+p</m> is greater than one this is an increasing rate and if it is less than one it is a decreasing rate.</p>
+    <p>Generally if the value <m>1+p</m> is greater than one the exponential is increasing (represents a percent increase), and if the value is less than one, the exponential is decreasing (represents a percent decrease).</p>
 
     <example xml:id="example-percent-increase-decrease">
         <statement><p>Suppose <m>P=230(1.03)^t</m>. Is this increase or decrease and what is the percent increase/decrease?</p></statement>
@@ -427,7 +431,7 @@
         Thus this is a 3% increase.</p></solution>
     </example>
 
-    <p>Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing that <m>2^{t/3}=(2^3)^t=8^t</m> or in general <me>B^{t/r}=(B^r)^t.</me></p>
+    <p>Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing the following property <m>2^{t/3}=(2^{1/3})^t \approx (1.2599)^t</m> or in general <me>B^{t/r}=(B^{1/r})^t.</me></p>
 
     <paragraphs xml:id="paragraph-sigfig-exponential" >
         <title>Significant Digits beyond Arithmetic</title>
@@ -437,9 +441,9 @@
 
     <example xml:id="example-convert-percent-increase">
         <p>In the exponential model <m>P=342\left( 2 \right)^{t/2.06}</m> what is the percent increase or decrease? Note these numbers are measurements.</p>
-        <p>First, we use the algebra above to convert the form
+        <p>First, we use the property stated above to convert the form
             <md>
-                <mrow>\left( 2 \right)^{t/2.06} &amp; \approx </mrow>
+                <mrow>\left( 2 \right)^{t/2.06} &amp; = </mrow>
                 <mrow>\left( 2^{\frac{1}{2.06}} \right)^t &amp; \approx 1.400009768^t</mrow>
                 <mrow> &amp; \approx 1.40^t</mrow>
             </md>

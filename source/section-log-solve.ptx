@@ -190,16 +190,16 @@
     <title>Applications with Exponentials and Logarithms</title>
 
     <example xml:id="example-exponential-growth-redux">
-        <p>In <xref ref="example-exponential-model-lactobacillus-gram" /> we produced the model <m>P=3.0 \cdot 2^{t/7\bar{0}}</m>. Here we will redo this problem using the model <m>P=P_0 e^{kt}</m>.</p>
+        <p>In <xref ref="example-exponential-model-lactobacillus-gram" /> we produced the model <m>P=3.0 \cdot 2^{t/7\bar{0}}</m>. Here we will redo this problem using the model <m>P=P_0 e^{rt}</m>.</p>
         <p>The bacteria <term>lactobacilus acidophilus</term> doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?</p>
         <p>To use this model we must first calculate the constant <m>k</m>. We know the amount doubles every 70 minutes, so we can start with the following.
         <md>
-            <mrow>6.0 &amp; = 3.0e^{7\bar{0} k}.</mrow>
-            <mrow>\frac{6.0}{3.0} &amp; = e^{7\bar{0}k}.</mrow>
-            <mrow>2.0 &amp; = e^{7\bar{0}k}.</mrow>
-            <mrow>\ln(2.0) &amp; = \ln\left(e^{7\bar{0}k}\right).</mrow>
-            <mrow>\ln(2.0) &amp; = 7\bar{0}k.</mrow>
-            <mrow>\frac{\ln(2.0)}{7\bar{0}} &amp; = k.</mrow>
+            <mrow>6.0 &amp; = 3.0e^{7\bar{0} r}.</mrow>
+            <mrow>\frac{6.0}{3.0} &amp; = e^{7\bar{0}r}.</mrow>
+            <mrow>2.0 &amp; = e^{7\bar{0}r}.</mrow>
+            <mrow>\ln(2.0) &amp; = \ln\left(e^{7\bar{0}r}\right).</mrow>
+            <mrow>\ln(2.0) &amp; = 7\bar{0}r.</mrow>
+            <mrow>\frac{\ln(2.0)}{7\bar{0}} &amp; = r.</mrow>
             <mrow>k &amp; \approx 0.009902.</mrow>
             <mrow> &amp; \approx 0.0099</mrow>
         </md>.
@@ -213,18 +213,18 @@
     </example>
 
     <example xml:id="example-exponential-decay">
-        <introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by <me>P=P_0 e^{kt}</me>. <m>P_0</m> is the initial amount of material. <m>P</m> is the amount left after <m>t</m> units of time. <m>k</m> is a constant that is derives from the speed how fast the material decays. </p></introduction>
+        <introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by <me>P=P_0 e^{rt}</me>. <m>P_0</m> is the initial amount of material. <m>P</m> is the amount left after <m>t</m> units of time. <m>r</m> is a constant that is derives from the speed how fast the material decays. </p></introduction>
         <task>
             <statement><p>Write the model for Plutonium-241.</p></statement>
             <solution><p>We must first calculate <m>k</m>. We can use <xref ref="example-solve-exponential-algebra1" /> as an example.
             <md>
-                <mrow>5.0 &amp; = 10.0 e^{k(14.4)}</mrow>
-                <mrow>\frac{1}{2.0} &amp; = e^{k(14.4)}</mrow>
-                <mrow>\ln\left(\frac{1}{2.0}\right) &amp; = \ln\left(e^{k(14.4)}\right)</mrow>
-                <mrow>\ln\left(\frac{1}{2.0}\right) &amp; = k(14.4).</mrow>
-                <mrow>\frac{1}{14.4}\ln\left(\frac{1}{2.0}\right) &amp; = k</mrow>
-                <mrow>-0.04813522 &amp; \approx k.</mrow>
-                <mrow>-0.048 &amp; \approx k.</mrow>
+                <mrow>5.0 &amp; = 10.0 e^{r(14.4)}</mrow>
+                <mrow>\frac{1}{2.0} &amp; = e^{r(14.4)}</mrow>
+                <mrow>\ln\left(\frac{1}{2.0}\right) &amp; = \ln\left(e^{r(14.4)}\right)</mrow>
+                <mrow>\ln\left(\frac{1}{2.0}\right) &amp; = r(14.4).</mrow>
+                <mrow>\frac{1}{14.4}\ln\left(\frac{1}{2.0}\right) &amp; = r</mrow>
+                <mrow>-0.04813522 &amp; \approx r.</mrow>
+                <mrow>-0.048 &amp; \approx r.</mrow>
             </md>
             Thus the model is <me>P = P_0 e^{-0.048t}</me>.</p></solution>
         </task>
@@ -241,17 +241,17 @@
         </task>
     </example>
 
-    <p>Note, that the example in <xref ref="example-exponential-model-lactobacillus-gram" /> and <xref ref="example-exponential-growth-redux" /> imply that <m>3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}</m>. In particular we can convert the power of 2 to a power of e. More generally, we can write <m>2^x = e^{kx}</m> or <m>3^x = e^{kx}</m> or similar for some value of <m>k</m>. The next example shows how we can perform this conversion.</p>
+    <p>Note, that the example in <xref ref="example-exponential-model-lactobacillus-gram" /> and <xref ref="example-exponential-growth-redux" /> imply that <m>3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}</m>. In particular we can convert the power of 2 to a power of e. More generally, we can write <m>2^x = e^{rx}</m> or <m>3^x = e^{rx}</m> or similar for some value of <m>k</m>. The next example shows how we can perform this conversion.</p>
 
     <example xml:id="example-convert-exponential-e">
-        <p>Write <m>2^x</m> as <m>e^{kx}</m>. Numbers are exact.</p>
+        <p>Write <m>2^x</m> as <m>e^{rx}</m>. Numbers are exact.</p>
         <p><md>
-                <mrow>2^x &amp; = e^{kx}.</mrow>
-                <mrow>\ln(2^x) &amp; = \ln(e^{kx}).</mrow>
-                <mrow>x \ln(2) &amp; = (kx)\ln(e).</mrow>
-                <mrow>x \ln(2) &amp; = kx.</mrow>
-                <mrow>\frac{x \ln(2)}{x} &amp; = \frac{kx}{x}.</mrow>
-                <mrow>\ln(2) &amp; = k</mrow>
+                <mrow>2^x &amp; = e^{rx}.</mrow>
+                <mrow>\ln(2^x) &amp; = \ln(e^{rx}).</mrow>
+                <mrow>x \ln(2) &amp; = (rx)\ln(e).</mrow>
+                <mrow>x \ln(2) &amp; = rx.</mrow>
+                <mrow>\frac{x \ln(2)}{x} &amp; = \frac{rx}{x}.</mrow>
+                <mrow>\ln(2) &amp; = r</mrow>
         </md>
         Thus <m>2^x = e^{x \ln(2)}</m>.</p>
     </example>

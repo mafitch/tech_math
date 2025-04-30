@@ -240,7 +240,7 @@
 
     <p>Logarithms were developed to manage large numbers base 10. Thus we call base 10 logarithms: <term>common logs</term>. This is written without the base. For example <m>\log(100)=2</m> is the same as <m>\log_{10}(100)=2</m>.</p>
 
-    <p>In science and from mathematics we need another log called the <term>natural logarithm</term>. This is written as <m>\ln(x)</m> (for logarithm natural). Natural logarithms are paired with the base <m>e</m>. So <m>\ln(5)=y</m> is the same as <m>e^y=5</m>. <m>e</m> is a naturally occuring constant. You do not need to memorize an approximation (your calculator can handle that for you). For the curious <m>e \approx 2.1718281828</m>.</p>
+    <p>In science we often use another log called the <term>natural logarithm</term>. This is written as <m>\ln(x)</m> (for logarithm natural). Natural logarithms are paired with the base <m>e</m>, so <m>\ln(x)=\log_e(x)</m>. As a result <m>\ln(5)=y</m> is the same as <m>e^y=5</m>. To calculate natural logs and values of <m>e^x</m> you will use technology: knowing a value for <m>e</m> is unnecessary. For the curious <m>e \approx 2.1718281828</m>.</p>
 
     <exercise xml:id="exercise-logarithm-natural-calculate">
 <!--        <webwork>
