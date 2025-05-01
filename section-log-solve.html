@@ -98,15 +98,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.5.16';
+eBookConfig.runestone_version = '7.6.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.a0c870bab402ccbf.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.97de40e034b535c5.css">
+<script src="_static/prefix-runtime.c7804631fa963734.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
 <script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -649,19 +649,19 @@ e^7-2 &amp; = 3x\\
 <article class="example example-like" id="example-exponential-growth-redux"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-exponential-growth-redux-1">In <a href="section-exponential.html#example-exponential-model-lactobacillus-gram" class="xref" data-knowl="./knowl/xref/example-exponential-model-lactobacillus-gram.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.1.13: First Exponential Model Redux">Example 6.1.13</a> we produced the model <span class="process-math">\(P=3.0 \cdot 2^{t/7\bar{0}}\text{.}\)</span> Here we will redo this problem using the model <span class="process-math">\(P=P_0 e^{kt}\text{.}\)</span>
+<div class="para" id="example-exponential-growth-redux-1">In <a href="section-exponential.html#example-exponential-model-lactobacillus-gram" class="xref" data-knowl="./knowl/xref/example-exponential-model-lactobacillus-gram.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.1.13: First Exponential Model Redux">Example 6.1.13</a> we produced the model <span class="process-math">\(P=3.0 \cdot 2^{t/7\bar{0}}\text{.}\)</span> Here we will redo this problem using the model <span class="process-math">\(P=P_0 e^{rt}\text{.}\)</span>
 </div>
 <div class="para" id="example-exponential-growth-redux-2">The bacteria <dfn class="terminology">lactobacilus acidophilus</dfn> doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?</div>
 <div class="para logical" id="example-exponential-growth-redux-3">
 <div class="para">To use this model we must first calculate the constant <span class="process-math">\(k\text{.}\)</span> We know the amount doubles every 70 minutes, so we can start with the following.</div>
 <div class="displaymath process-math" id="example-exponential-growth-redux-3-2">
 \begin{align*}
-6.0 &amp; = 3.0e^{7\bar{0} k}.\\
-\frac{6.0}{3.0} &amp; = e^{7\bar{0}k}.\\
-2.0 &amp; = e^{7\bar{0}k}.\\
-\ln(2.0) &amp; = \ln\left(e^{7\bar{0}k}\right).\\
-\ln(2.0) &amp; = 7\bar{0}k.\\
-\frac{\ln(2.0)}{7\bar{0}} &amp; = k.\\
+6.0 &amp; = 3.0e^{7\bar{0} r}.\\
+\frac{6.0}{3.0} &amp; = e^{7\bar{0}r}.\\
+2.0 &amp; = e^{7\bar{0}r}.\\
+\ln(2.0) &amp; = \ln\left(e^{7\bar{0}r}\right).\\
+\ln(2.0) &amp; = 7\bar{0}r.\\
+\frac{\ln(2.0)}{7\bar{0}} &amp; = r.\\
 k &amp; \approx 0.009902.\\
 &amp; \approx 0.0099\text{.}
 \end{align*}
@@ -682,11 +682,11 @@ P &amp; = 3.0e^{(144\bar{0})(0.0099)}\\
 <div class="para">Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by</div>
 <div class="displaymath process-math">
 \begin{equation*}
-P=P_0 e^{kt}\text{.}
+P=P_0 e^{rt}\text{.}
 \end{equation*}
 </div>
 <div class="para">
-<span class="process-math">\(P_0\)</span> is the initial amount of material. <span class="process-math">\(P\)</span> is the amount left after <span class="process-math">\(t\)</span> units of time. <span class="process-math">\(k\)</span> is a constant that is derives from the speed how fast the material decays.</div>
+<span class="process-math">\(P_0\)</span> is the initial amount of material. <span class="process-math">\(P\)</span> is the amount left after <span class="process-math">\(t\)</span> units of time. <span class="process-math">\(r\)</span> is a constant that is derives from the speed how fast the material decays.</div>
 </div></div>
 <article class="task exercise-like" id="example-exponential-decay-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="example-exponential-decay-2-1-1">Write the model for Plutonium-241.</div>
@@ -694,13 +694,13 @@ P=P_0 e^{kt}\text{.}
 <div class="para">We must first calculate <span class="process-math">\(k\text{.}\)</span> We can use <a href="section-log-solve.html#example-solve-exponential-algebra1" class="xref" data-knowl="./knowl/xref/example-solve-exponential-algebra1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.1">Example 6.4.1</a> as an example.</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-solve-exponential-algebra1.html" id="example-exponential-decay-2-2-1-3">
 \begin{align*}
-5.0 &amp; = 10.0 e^{k(14.4)}\\
-\frac{1}{2.0} &amp; = e^{k(14.4)}\\
-\ln\left(\frac{1}{2.0}\right) &amp; = \ln\left(e^{k(14.4)}\right)\\
-\ln\left(\frac{1}{2.0}\right) &amp; = k(14.4).\\
-\frac{1}{14.4}\ln\left(\frac{1}{2.0}\right) &amp; = k\\
--0.04813522 &amp; \approx k.\\
--0.048 &amp; \approx k.
+5.0 &amp; = 10.0 e^{r(14.4)}\\
+\frac{1}{2.0} &amp; = e^{r(14.4)}\\
+\ln\left(\frac{1}{2.0}\right) &amp; = \ln\left(e^{r(14.4)}\right)\\
+\ln\left(\frac{1}{2.0}\right) &amp; = r(14.4).\\
+\frac{1}{14.4}\ln\left(\frac{1}{2.0}\right) &amp; = r\\
+-0.04813522 &amp; \approx r.\\
+-0.048 &amp; \approx r.
 \end{align*}
 </div>
 <div class="para">Thus the model is</div>
@@ -720,20 +720,20 @@ P &amp; = 12.0e^{-0.048(6)}\\
 &amp; \approx 9.0.
 \end{align*}
 </div>
-</div></div></details></div></article></article><div class="para" id="subsection-exponential-applications-4">Note, that the example in <a href="section-exponential.html#example-exponential-model-lactobacillus-gram" class="xref" data-knowl="./knowl/xref/example-exponential-model-lactobacillus-gram.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.1.13: First Exponential Model Redux">Example 6.1.13</a> and <a href="section-log-solve.html#example-exponential-growth-redux" class="xref" data-knowl="./knowl/xref/example-exponential-growth-redux.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.11">Example 6.4.11</a> imply that <span class="process-math">\(3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}\text{.}\)</span> In particular we can convert the power of 2 to a power of e. More generally, we can write <span class="process-math">\(2^x = e^{kx}\)</span> or <span class="process-math">\(3^x = e^{kx}\)</span> or similar for some value of <span class="process-math">\(k\text{.}\)</span> The next example shows how we can perform this conversion.</div>
+</div></div></details></div></article></article><div class="para" id="subsection-exponential-applications-4">Note, that the example in <a href="section-exponential.html#example-exponential-model-lactobacillus-gram" class="xref" data-knowl="./knowl/xref/example-exponential-model-lactobacillus-gram.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.1.13: First Exponential Model Redux">Example 6.1.13</a> and <a href="section-log-solve.html#example-exponential-growth-redux" class="xref" data-knowl="./knowl/xref/example-exponential-growth-redux.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 6.4.11">Example 6.4.11</a> imply that <span class="process-math">\(3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}\text{.}\)</span> In particular we can convert the power of 2 to a power of e. More generally, we can write <span class="process-math">\(2^x = e^{rx}\)</span> or <span class="process-math">\(3^x = e^{rx}\)</span> or similar for some value of <span class="process-math">\(k\text{.}\)</span> The next example shows how we can perform this conversion.</div>
 <article class="example example-like" id="example-convert-exponential-e"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.4.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="example-convert-exponential-e-1">Write <span class="process-math">\(2^x\)</span> as <span class="process-math">\(e^{kx}\text{.}\)</span> Numbers are exact.</div>
+<div class="para" id="example-convert-exponential-e-1">Write <span class="process-math">\(2^x\)</span> as <span class="process-math">\(e^{rx}\text{.}\)</span> Numbers are exact.</div>
 <div class="para logical" id="example-convert-exponential-e-2">
 <div class="displaymath process-math" id="example-convert-exponential-e-2-1">
 \begin{align*}
-2^x &amp; = e^{kx}.\\
-\ln(2^x) &amp; = \ln(e^{kx}).\\
-x \ln(2) &amp; = (kx)\ln(e).\\
-x \ln(2) &amp; = kx.\\
-\frac{x \ln(2)}{x} &amp; = \frac{kx}{x}.\\
-\ln(2) &amp; = k
+2^x &amp; = e^{rx}.\\
+\ln(2^x) &amp; = \ln(e^{rx}).\\
+x \ln(2) &amp; = (rx)\ln(e).\\
+x \ln(2) &amp; = rx.\\
+\frac{x \ln(2)}{x} &amp; = \frac{rx}{x}.\\
+\ln(2) &amp; = r
 \end{align*}
 </div>
 <div class="para">Thus <span class="process-math">\(2^x = e^{x \ln(2)}\text{.}\)</span>
