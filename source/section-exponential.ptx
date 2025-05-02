@@ -304,7 +304,13 @@
     <example xml:id="example-exponential-decay-barium">
         <p>Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.</p>
 
-        <p>Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have <m>7.000 \cdot \frac{1}{2} = 3.500</m> grams. Note the 1/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be <m>7.000 \cdot \left(\frac{1}{2}\right)^2 = 1.750</m>. In general the amount left after <m>t</m> years will be <me>A = 7.000\left(\frac{1}{2}\right)^{t/10.551}.</me> This could also be written as <m>A = 7.000 \cdot 2^{-t/10.551}</m>.</p>
+        <p>Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have <m>7.000 \cdot \frac{1}{2} = 3.500</m> grams. Note the 1/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be <m>7.000 \cdot \left(\frac{1}{2}\right)^2 = 1.750</m>. As before the amount left after <m>t</m> years can be written as the initial amount times the ratio for each 10.551 years. <me>A = 7.000\left(\frac{1}{2}\right)^{t/10.551}.</me> Using a algebraic notational change (<m>2^{-1}=1/2</m>), this could also be written as 
+            <md>
+                <mrow>A \amp = 7.000 \cdot \left(\frac{1}{2}\right)^{t/10.551}</mrow>
+                <mrow> \amp = 7.000 \cdot \left(2^{-1}\right)^{t/10.551} </mrow>
+                <mrow> \amp = 7.000 \cdot 2^{-t/10.551}.</mrow>
+            </md>
+        The negative exponent expresses that the process is decreasing, that is, the amount is going down.</p>
     </example>
 
     <p>Exponential relations are not all doubling or cutting in half. The ratio can be anything. Going viral on the internet could be (but is not always) an exponential growth of views.</p>
@@ -313,7 +319,7 @@
         <p>A new cat video is posted and 12 people view it the first day. Every 4 days afterward the number of people who see it triples. Write an equation to model the total number of people who have viewed this video.</p>
         <p>To help ourselves figure this out we can calculate the first few days' results. The 4 days after the video is posted, there will be <m>12(3)=36</m> views. The eighth day, there will be <m>12(3)(3)=108</m> views. This suggests that for each additional four days we multiply the result by 3.</p>
         <p>Thus we need to divide the number of days by 4 to determine how many times it has tripled. For example after 24 days we expect it to triple <m>24/4=6</m> times.</p>
-        <p>To calculate the total number of views we multiply the original twelve by 3 for each time it tripled. Thus the number of people viewing the video is <me>v = 12(3^{d/4})</me></p>
+        <p>To calculate the total number of views we multiply the original twelve views by 3 for each time it tripled. Thus the number of people viewing the video is <me>v = 12(3^{d/4})</me></p>
     </example>
 
     <exercise xml:id="exercise-exponential-bacillus-megaterium">
@@ -326,13 +332,13 @@
 
     <example xml:id="example-write-exponential-parameters">
         <p>Tien's initial salary was $52,429.33. He received a 5% raise each year. What should Tien's salary be entering the sixth year?</p>
-        <p>Because the raise is a 5% increase, the percent is 105% or in decimal <m>p=1.05</m>. Thus after one year his salary will be <m>\$52,429.33(1.05)</m>. After two years his salary will be <m>\$52,429.33(1.05)(1.05)</m>. This pattern will continue.</p>
-        <p>The model then is <me>S=\$52,429.33(1.05)^t</me> where <m>t</m> is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be <me>S=\$52,429.33(1.05)^5 = \$66,914.59.</me></p>
+        <p>Because the raise is a 5% increase, each year's salary is 105% of the previous years. In decimal the percent is <m>p=1.05</m>. Thus after one year his salary will be <m>\$52,429.33(1.05)</m>. After two years his salary will be <m>\$52,429.33(1.05)(1.05)</m>. This pattern will continue.</p>
+        <p>The model then initial salary time 1.05 for each year. <me>S=\$52,429.33(1.05)^t</me> where <m>t</m> is the number of years since he was hired. Entering the sixth year would mean he has just received his fifth raise. His salary would be <me>S=\$52,429.33(1.05)^5 = \$66,914.59.</me></p>
     </example>
 
     <example xml:id="example-write-exponential-parameters-reverse">
         <p>If Moses' salary after six raises was $72,311.54, and he received a 4% raise each year. What was his initial salary?</p>
-        <p>Because the raise is a 4% increase, the percent is <m>p=1.04</m>. The model then is <me>S=S_0(1.04)^t</me> where <m>t</m> is the number of years since he was hired, and <m>S_0</m> is the initial salary. We can now solve for the initial salary.
+        <p>Because the raise is a 4% increase, the percent is <m>p=1.04</m>. The model then is each year's salary is the original salary times 1.04 for each raise. <me>S=S_0(1.04)^t</me> where <m>t</m> is the number of years since he was hired, and <m>S_0</m> is the initial salary. We can now solve for the initial salary.
         <md>
             <mrow>\$72,311.54 \amp = S_0(1.04)^6.</mrow>
             <mrow>\$72,311.54 \amp \approx S_0(1.2653).</mrow>
@@ -405,8 +411,6 @@
         so this is a 3.2% increase.</p>
     </example>
 
-    <p>Before we can change that form into one that shows us how long until it doubles, we will need to learn another function. We will do this in <xref ref="section-log-solve" />.</p>
-
     <example xml:id="example-percent-decrease-read">
         <p>Suppose <m>P=100(0.88)^t</m> where <m>t</m> is the number of years. What is the annual percent decrease?</p>
         <p>We know that
@@ -428,16 +432,10 @@
             <mrow>1.03-1 \amp = p</mrow>
             <mrow>0.03 \amp = p</mrow>
         </md>
-        Thus this is a 3% increase.</p></solution>
+        Thus this is a 3% increase, because the percent increase/decrease is how much more/less than 100%.</p></solution>
     </example>
 
-    <p>Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing the following property <m>2^{t/3}=(2^{1/3})^t \approx (1.2599)^t</m> or in general <me>B^{t/r}=(B^{1/r})^t.</me></p>
-
-    <paragraphs xml:id="paragraph-sigfig-exponential" >
-        <title>Significant Digits beyond Arithmetic</title>
-
-        <p>In <xref ref="paragraph-sigfig-square-root" text="title" /> we noted that a square root maintains the same number of significant digits. The same mathematics applies to exponential. For example, <m>2^{3.51} \approx 11.39240156 \approx 11.4</m>.</p>
-    </paragraphs>
+    <p>Even when the exponential model is expressed in terms of doubling or similar, we can determine the percent increase or decrease. This requires knowing the following property <m>2^{t/3}=(2^{1/3})^t \approx (1.2599)^t</m> or in general <me>b^{t/r}=(b^{1/r})^t.</me></p>
 
     <example xml:id="example-convert-percent-increase">
         <p>In the exponential model <m>P=342\left( 2 \right)^{t/2.06}</m> what is the percent increase or decrease? Note these numbers are measurements.</p>
@@ -447,22 +445,26 @@
                 <mrow>\left( 2^{\frac{1}{2.06}} \right)^t &amp; \approx 1.400009768^t</mrow>
                 <mrow> &amp; \approx 1.40^t</mrow>
             </md>
-        Because 1.4 is bigger than one it is a percent increase. Note <m>1.40=1+0.40</m>, so this is a 40% increase.</p>
+        Because 1.4 is bigger than one it is a percent increase. Note <m>1.40=1+0.40</m>, so this is a 40% increase, because the percent increase/decrease is how much more/less than 100%.</p>
         <p>For rounding we used that 2 and 1 (in the division) are exact numbers. Calculating the power of 2 maintains the number of significant digits (3). When we subtract precision is maintained to the hundredths position (2 significant digits).</p>
     </example>
 
+    <paragraphs xml:id="paragraph-sigfig-exponential" >
+        <title>Significant Digits beyond Arithmetic</title>
+
+        <p>In <xref ref="paragraph-sigfig-square-root" text="title" /> we noted that a square root maintains the same number of significant digits. The same mathematics applies to exponential. For example, <m>2^{3.51} \approx 11.39240156 \approx 11.4</m>.</p>
+    </paragraphs>
+
     <example xml:id="example-convert-percent-decrease">
-        <statement><p>In the exponential model <m>P=342\left( 2 \right)^{-t/27}</m> what is the percent increase or decrease?</p></statement>
-        <solution>
-            <p>First, we use the algebra above to convert the form
-            <md>
-                <mrow>\left( 2 \right)^{-t/27} &amp; = </mrow>
-                <mrow>\left( 2^{\frac{-1}{27}} \right)^t &amp; = 0.9746546091^t</mrow>
-                <mrow> &amp; \approx (0.97)^t</mrow>
-            </md>
-            Because 0.97 is less than one it is a percent decrease. Note <m>1-0.97=0.03</m>, so this is a 3% decrease.</p>
-            <p>We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.</p>
-        </solution>
+        <p>In the exponential model <m>P=342\left( 2 \right)^{-t/27}</m> what is the percent increase or decrease?</p>
+        <p>First, we notice that the exponent is negative which we know means the amount is decreasing. To determine the percent decrease we use the algebra illustrated above to convert the form
+        <md>
+            <mrow>\left( 2 \right)^{-t/27} &amp; = </mrow>
+            <mrow>\left( 2^{\frac{-1}{27}} \right)^t &amp; = 0.9746546091^t</mrow>
+            <mrow> &amp; \approx (0.97)^t</mrow>
+        </md>
+        Because 0.97 is less than one it is a percent decrease. Note <m>1-0.97=0.03</m>, so this is a 3% decrease, because the percent increase/decrease is how much more/less than 100%.</p>
+        <p>We round to two decimal places because 27 has 2 significant digits. The subtraction retains precision to the hundredths position which is only one significant digit.</p>
     </example>
 
     <exercise>
@@ -506,27 +508,40 @@
         </exercise>
 
         <exercise>
-            <myopenmath problem="820203" />
-        </exercise>
-
-        <exercise>
-            <myopenmath problem="820203" />
-        </exercise>
-
-        <exercise>
             <myopenmath problem="820234" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="820234" />
+            <myopenmath problem="1593899" />
+        </exercise>
+
+    </exercisegroup>
+
+    <exercisegroup>
+        <title>Reading Exponential Models</title>
+    
+        <introduction>
+            <p>Identify the requested properties of these models.</p>
+        </introduction>
+    
+        <exercise>
+            <myopenmath problem="1480536" />
+        </exercise>
+    
+        <exercise>
+            <myopenmath problem="1593967" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="820234" />
+            <myopenmath problem="1593973" />
         </exercise>
 
         <exercise>
-            <myopenmath problem="34501" />
+            <myopenmath problem="1593990" />
+        </exercise>
+
+        <exercise>
+            <myopenmath problem="1594012" />
         </exercise>
     </exercisegroup>
 

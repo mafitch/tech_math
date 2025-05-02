@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1448181">
 <statement>
-<p>Suppose triangle A has angles <m>\displaystyle{60}^{\circ}</m>, <m>\displaystyle{70}^{\circ}</m>, and <m>\displaystyle{50}^{\circ}</m> and the lengths of the sides opposite are 10, 10.85, and 8.85 respectively. If triangle B has the same angle measures and the side opposite the angle of measure <m>\displaystyle{60}^{\circ}</m> is length 42, what are the other two side lengths?</p>
-<p>Length opposite angle of measure <m>\displaystyle{70}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
-<p>Length opposite angle of measure <m>\displaystyle{50}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
+<p>Suppose triangle A has angles <m>\displaystyle{40}^{\circ}</m>, <m>\displaystyle{50}^{\circ}</m>, and <m>\displaystyle{90}^{\circ}</m> and the lengths of the sides opposite are 10, 11.92, and 15.56 respectively. If triangle B has the same angle measures and the side opposite the angle of measure <m>\displaystyle{40}^{\circ}</m> is length 31, what are the other two side lengths?</p>
+<p>Length opposite angle of measure <m>\displaystyle{50}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>Length opposite angle of measure <m>\displaystyle{90}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
 
 
 </statement>
 <solution>
-<p><ul><li>45.57</li><li>37.17</li></ul></p><p>Because these are similar triangles we can setup the proportions below.</p>
-<p><m>\displaystyle\frac{{42}}{{10}}=\frac{{S}_{{70}}}{{10.85}}</m>, so <m>\displaystyle{S}_{{70}}={\left(\frac{{42}}{{10}}\right)}{10.85}={45.57}</m></p>
-<p><m>\displaystyle\frac{{42}}{{10}}=\frac{{S}_{{50}}}{{8.85}}</m>, so <m>\displaystyle{S}_{{50}}={\left(\frac{{42}}{{10}}\right)}{8.85}={37.17}</m></p>
+<p><ul><li>36.952</li><li>48.236</li></ul></p><p>Because these are similar triangles we can setup the proportions below.</p>
+<p><m>\displaystyle\frac{{31}}{{10}}=\frac{{S}_{{50}}}{{11.92}}</m>, so <m>\displaystyle{S}_{{50}}={\left(\frac{{31}}{{10}}\right)}{11.92}={36.952}</m></p>
+<p><m>\displaystyle\frac{{31}}{{10}}=\frac{{S}_{{90}}}{{15.56}}</m>, so <m>\displaystyle{S}_{{90}}={\left(\frac{{31}}{{10}}\right)}{15.56}={48.236}</m></p>
 </solution>
 </myopenmath>

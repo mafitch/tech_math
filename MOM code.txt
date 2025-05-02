@@ -36,6 +36,20 @@ if ($stuans != null) {
   else { $hints[1] = "<p style='background-color:LightPink;'>Check your work.</p>"}
 }
 OR
+$stuans0 = getstuans($stuanswers,$thisq,0)
+$hints[1] = ""
+if ($stuans0 != null) {
+	if ( $scoreiscorrect[$thisq][0] ) { $hints[1]="" }
+  else if ( abs($stuans0-$val1) <= 0.01) { $hints[1]="<p style='background-color:LemonChiffon;'>Did you forget sigfigs?</p>" }
+  else { $hints[1] = "<p style='background-color:LightPink;'>Check your work.</p>"}
+}
+$stuans1 = getstuans($stuanswers,$thisq,1)
+if ($stuans1 != null) {
+	if ( $scoreiscorrect[$thisq][1] ) { $hints[1] = $hints[1]."" }
+  else if ( abs($stuans1-$val2) <= 0.01) { $hints[1] = $hints[1]."<p style='background-color:LemonChiffon;'>Did you forget sigfigs?</p>" }
+  else { $hints[1] = $hints[1]."<p style='background-color:LightPink;'>Check your work.</p>"}
+}
+OR
 $error = ""
 $stuans = getstuans($stuanswers,$thisq,1)
 if ($stuans != null && $stuans != $answer) {
