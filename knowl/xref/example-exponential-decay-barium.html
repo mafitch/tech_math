@@ -16,14 +16,21 @@
 </h4>
 <div xmlns:xlink="http://www.w3.org/1999/xlink" class="para">Barium-133 has a half-life of 10.551 years. This means that afeter 10.551 years only half of the original amount will remain. This is the result of the radioactive isotope breaking down into other substances.</div>
 <div xmlns:xlink="http://www.w3.org/1999/xlink" class="para logical">
-<div class="para">Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have <span class="process-math">\(7.000 \cdot \frac{1}{2} = 3.500\)</span> grams. Note the 1/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be <span class="process-math">\(7.000 \cdot \left(\frac{1}{2}\right)^2 = 1.750\text{.}\)</span> In general the amount left after <span class="process-math">\(t\)</span> years will be</div>
+<div class="para">Suppose that we obtain 7.000 grams of Barium-133. After 10.551 years we will have <span class="process-math">\(7.000 \cdot \frac{1}{2} = 3.500\)</span> grams. Note the 1/2 is an exact number (the measurement error is in the number of years). After 21.102 years there will be <span class="process-math">\(7.000 \cdot \left(\frac{1}{2}\right)^2 = 1.750\text{.}\)</span> As before the amount left after <span class="process-math">\(t\)</span> years can be written as the initial amount times the ratio for each 10.551 years.</div>
 <div class="displaymath process-math">
 \begin{equation*}
 A = 7.000\left(\frac{1}{2}\right)^{t/10.551}.
 \end{equation*}
 </div>
-<div class="para">This could also be written as <span class="process-math">\(A = 7.000 \cdot 2^{-t/10.551}\text{.}\)</span>
+<div class="para">Using a algebraic notational change (<span class="process-math">\(2^{-1}=1/2\)</span>), this could also be written as</div>
+<div class="displaymath process-math">
+\begin{align*}
+A \amp = 7.000 \cdot \left(\frac{1}{2}\right)^{t/10.551}\\
+\amp = 7.000 \cdot \left(2^{-1}\right)^{t/10.551} \\
+\amp = 7.000 \cdot 2^{-t/10.551}.
+\end{align*}
 </div>
+<div class="para">The negative exponent expresses that the process is decreasing, that is, the amount is going down.</div>
 </div></article><span class="incontext"><a class="internal" href="section-exponential.html#example-exponential-decay-barium">in-context</a></span>
 </body>
 </html>

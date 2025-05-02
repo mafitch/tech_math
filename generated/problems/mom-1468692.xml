@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle{3}{x}-{2}{y}={23}</m> </p>
+<p><m>\displaystyle-{7}{x}+{7}{y}=-{21}</m> </p>
 <p>
-  <m>\displaystyle{9}{x}+{6}{y}=-{15}</m></p>
+  <m>\displaystyle{9}{x}+{6}{y}={72}</m></p>
 <p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({3},-{7}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle{3}{x}+-{2}{y}={23}</m></p>
-<p><m>\displaystyle{3}{x}={23}-{\left(-{2}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{{23}-{\left(-{2}{y}\right)}}}{{3}}</m></p>
+<p><ul><li><m>\displaystyle{\left({6},{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle-{7}{x}+{7}{y}=-{21}</m></p>
+<p><m>\displaystyle-{7}{x}=-{21}-{\left({7}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{21}-{\left({7}{y}\right)}}}{{-{{7}}}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{9}{\left(\frac{{{23}-{\left(-{2}{y}\right)}}}{{3}}\right)}+{6}{y}=-{15}</m></p>
-<p><m>\displaystyle\frac{{9}}{{3}}\cdot{\left({23}\right)}-\frac{{9}}{{3}}{\left(-{2}\right)}{y}+{6}{y}=-{15}</m></p>
-<p><m>\displaystyle{69}-{\left({6}\right)}{y}+{6}{y}=-{15}</m></p>
-<p><m>\displaystyle{6}{y}+{\left({6}\right)}{y}=-{15}-{69}</m></p>
-<p><m>\displaystyle{6}{y}+{\left({6}\right)}{y}=-{84}</m></p>
-<p><m>\displaystyle{\left({6}+{\left({6}\right)}\right)}{y}=-{84}</m></p>
-<p><m>\displaystyle{12}{y}=-{84}</m></p>
-<p><m>\displaystyle{y}=-\frac{{84}}{{12}}</m></p>
-<p><m>\displaystyle{y}=-{7}</m></p>
+<p><m>\displaystyle{9}{\left(\frac{{-{21}-{\left({7}{y}\right)}}}{{-{{7}}}}\right)}+{6}{y}={72}</m></p>
+<p><m>\displaystyle\frac{{9}}{{-{{7}}}}\cdot{\left(-{21}\right)}-\frac{{9}}{{-{{7}}}}{\left({7}\right)}{y}+{6}{y}={72}</m></p>
+<p><m>\displaystyle{27}-{\left({9}\right)}{y}+{6}{y}={72}</m></p>
+<p><m>\displaystyle{9}{y}+{\left({6}\right)}{y}={72}-{27}</m></p>
+<p><m>\displaystyle{9}{y}+{\left({6}\right)}{y}={45}</m></p>
+<p><m>\displaystyle{\left({9}+{\left({6}\right)}\right)}{y}={45}</m></p>
+<p><m>\displaystyle{15}{y}={45}</m></p>
+<p><m>\displaystyle{y}=\frac{{45}}{{15}}</m></p>
+<p><m>\displaystyle{y}={3}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{3}{x}+-{2}{\left(-{7}\right)}={23}</m></p>
-<p><m>\displaystyle{3}{x}+{\left({14}\right)}={23}</m></p>
-<p><m>\displaystyle{3}{x}={23}-{\left({14}\right)}</m></p>
-<p><m>\displaystyle{3}{x}={9}</m></p>
-<p><m>\displaystyle{x}=\frac{{9}}{{3}}</m></p>
-<p><m>\displaystyle{x}={3}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({3},-{7}\right)}</m>.</p>
+<p><m>\displaystyle-{7}{x}+{7}{\left({3}\right)}=-{21}</m></p>
+<p><m>\displaystyle-{7}{x}+{\left({21}\right)}=-{21}</m></p>
+<p><m>\displaystyle-{7}{x}=-{21}-{\left({21}\right)}</m></p>
+<p><m>\displaystyle-{7}{x}=-{42}</m></p>
+<p><m>\displaystyle{x}=-\frac{{42}}{{-{{7}}}}</m></p>
+<p><m>\displaystyle{x}={6}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({6},{3}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

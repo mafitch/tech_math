@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1767">
 <statement>
 <p>
-A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={650}{e}^{{{0.17}{t}}}</m>.  Estimate when the population will exceed 1742.</p>
+A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={1600}{e}^{{{0.2}{t}}}</m>.  Estimate when the population will exceed 7171.</p>
 <p>
 <em>t</em>= <input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>   </p>
 <p>
@@ -10,16 +10,16 @@ Give your answer accurate to one decimal place.
 </p>
 </statement>
 <solution>
-<p><ul><li>5.7989223207221</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={650}{e}^{{{0.17}{t}}}</m></p>
+<p><ul><li>7.5002074282735</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={1600}{e}^{{{0.2}{t}}}</m></p>
 <p>
-<m>\displaystyle{1742}={650}{e}^{{{0.17}{t}}}</m></p>
+<m>\displaystyle{7171}={1600}{e}^{{{0.2}{t}}}</m></p>
 <p>
-<m>\displaystyle\frac{{1742}}{{650}}={e}^{{{0.17}{t}}}</m></p>
+<m>\displaystyle\frac{{7171}}{{1600}}={e}^{{{0.2}{t}}}</m></p>
 <p>
-<m>\displaystyle{\ln{{\left(\frac{{1742}}{{650}}\right)}}}={0.17}{t}</m></p>
+<m>\displaystyle{\ln{{\left(\frac{{7171}}{{1600}}\right)}}}={0.2}{t}</m></p>
 <p>
-<m>\displaystyle\frac{{\ln{{\left(\frac{{1742}}{{650}}\right)}}}}{{0.17}}={t}</m></p>
+<m>\displaystyle\frac{{\ln{{\left(\frac{{7171}}{{1600}}\right)}}}}{{0.2}}={t}</m></p>
 <p>
-<m>\displaystyle{t}={5.7989223207221}</m></p>
+<m>\displaystyle{t}={7.5002074282735}</m></p>
 </solution>
 </myopenmath>

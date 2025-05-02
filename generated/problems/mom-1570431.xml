@@ -4,7 +4,7 @@
 <p>
 Solve the following system.</p>
 <p>
-<m>\displaystyle{\left.\begin{array}{ccccc} {y}\amp+\amp{5}{z}\amp=\amp-{3}\\-{7}{y}\amp-\amp{4}{z}\amp=\amp-{5}\end{array}\right.}</m></p>
+<m>\displaystyle{\left.\begin{array}{ccccc} -{2}{x}\amp+\amp{y}\amp=\amp{2}\\-{7}{x}\amp-\amp{5}{y}\amp=\amp{6}\end{array}\right.}</m></p>
 <p>
 Solution: <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
 <p>
@@ -14,32 +14,32 @@ Enter your answers as integers or reduced fractions.
 </p>
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(\frac{{37}}{{31}},-\frac{{26}}{{31}}\right)}</m></li></ul></p><p>To solve with elimination, we need to get opposite coefficients on one variable. In this case, notice that the <m>\displaystyle{x}</m> does not have a coefficient in the first equation (it's coefficient is <m>\displaystyle{1}</m>). So to get opposite coefficients we can multiply the first equation by <m>\displaystyle{7}</m>:</p>
+<p><ul><li><m>\displaystyle{\left(-\frac{{16}}{{17}},\frac{{2}}{{17}}\right)}</m></li></ul></p><p>To solve with elimination, we need to get opposite coefficients on one variable. In this case, notice that the <m>\displaystyle{y}</m> does not have a coefficient in the first equation (it's coefficient is <m>\displaystyle{1}</m>). So to get opposite coefficients we can multiply the first equation by <m>\displaystyle{5}</m>:</p>
 <p>
-<m>\displaystyle{7}\cdot{\left({x}+{5}{y}=-{3}\right)}</m> </p>
+<m>\displaystyle{5}\cdot{\left(-{2}{x}+{y}={2}\right)}</m> </p>
 <p>
-  <m>\displaystyle{7}{x}+{35}{y}=-{21}</m></p>
+  <m>\displaystyle-{10}{x}+{5}{y}={10}</m></p>
 <p>
 Here is our updated system:</p>
 <p>
-<m>\displaystyle{7}{x}+{35}{y}=-{21}</m></p>
+<m>\displaystyle-{10}{x}+{5}{y}={10}</m></p>
 <p>
-  <m>\displaystyle-{7}{x}-{4}{y}=-{5}</m></p>
+  <m>\displaystyle-{7}{x}-{5}{y}={6}</m></p>
 <p>
-The next step is to add the equations together. The <m>\displaystyle{x}</m> terms cancel and we are left with:</p>
+The next step is to add the equations together. The <m>\displaystyle{y}</m> terms cancel and we are left with:</p>
 <p>
-<m>\displaystyle{31}{y}=-{26}</m></p>
+<m>\displaystyle-{17}{x}={16}</m></p>
 <p>
-Solving for <m>\displaystyle{y}</m> we get:</p>
+Solving for <m>\displaystyle{x}</m> we get:</p>
 <p>
-<m>\displaystyle{y}=-\frac{{26}}{{31}}=-\frac{{26}}{{31}}</m></p>
+<m>\displaystyle{x}=\frac{{16}}{{-{{17}}}}=-\frac{{16}}{{17}}</m></p>
 <p>
-Now that we know <m>\displaystyle{y}</m>, we can plug into the one of the original equations to find <m>\displaystyle{x}</m>. Let's use the first equation:</p>
+Now that we know <m>\displaystyle{x}</m>, we can plug into the one of the original equations to find <m>\displaystyle{y}</m>. Let's use the first equation:</p>
 <p>
-<m>\displaystyle{x}+{5}\cdot{\left(-\frac{{26}}{{31}}\right)}=-{3}</m></p>
+<m>\displaystyle-{2}\cdot{\left(-\frac{{16}}{{17}}\right)}+{y}={2}</m></p>
 <p>
-  <m>\displaystyle{x}=-{3}-{5}\cdot{\left(-\frac{{26}}{{31}}\right)}=\frac{{37}}{{31}}</m></p>
+  <m>\displaystyle{y}={2}+{2}\cdot{\left(-\frac{{16}}{{17}}\right)}=\frac{{2}}{{17}}</m></p>
 <p>
-So the solution is <m>\displaystyle{\left(\frac{{37}}{{31}},-\frac{{26}}{{31}}\right)}</m>.</p>
+So the solution is <m>\displaystyle{\left(-\frac{{16}}{{17}},\frac{{2}}{{17}}\right)}</m>.</p>
 </solution>
 </myopenmath>

@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1463992">
 <statement>
-<p>We need a resulting resistance of <m>\displaystyle{8.0}\Omega</m> If one resistor in parallel is <m>\displaystyle{9.0}\Omega</m>, what should the other resistance be? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <m>\displaystyle\Omega</m></p>
+<p>We need a resulting resistance of <m>\displaystyle{4.0}\Omega</m> If one resistor in parallel is <m>\displaystyle{11}\Omega</m>, what should the other resistance be? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <m>\displaystyle\Omega</m></p>
 
 
 </statement>
 <solution>
-<p><ul><li>72</li></ul></p><p>The model is <m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{R}_{{1}}}+\frac{{1}}{{R}_{{2}}}</m>. In this case that is</p>
-<p><m>\displaystyle\frac{{1}}{{8.0}}=\frac{{1}}{{9.0}}+\frac{{1}}{{R}_{{2}}}</m>.</p>
-<p><m>\displaystyle\frac{{1}}{{8.0}}-\frac{{1}}{{9.0}}=\frac{{1}}{{R}_{{2}}}</m> by subtracting to isolate <m>\displaystyle{R}_{{2}}</m>.</p>
-<p><m>\displaystyle\frac{{1}}{{8.0}}\cdot\frac{{9.0}}{{9.0}}-\frac{{1}}{{9.0}}\frac{{8.0}}{{8.0}}=\frac{{1}}{{R}_{{2}}}</m>. Scaling for a common denominator.</p>
-<p><m>\displaystyle\frac{{1}}{{72}}=\frac{{1}}{{R}_{{2}}}</m>.</p>
-<p><m>\displaystyle\frac{{72}}{{1}}={R}_{{2}}</m>. Because ratios work upsidedown.</p>
-<p><m>\displaystyle{72}\approx{R}_{{2}}</m>.</p>
+<p><ul><li>6.3</li></ul></p><p>The model is <m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{R}_{{1}}}+\frac{{1}}{{R}_{{2}}}</m>. In this case that is</p>
+<p><m>\displaystyle\frac{{1}}{{4.0}}=\frac{{1}}{{11}}+\frac{{1}}{{R}_{{2}}}</m>.</p>
+<p><m>\displaystyle\frac{{1}}{{4.0}}-\frac{{1}}{{11}}=\frac{{1}}{{R}_{{2}}}</m> by subtracting to isolate <m>\displaystyle{R}_{{2}}</m>.</p>
+<p><m>\displaystyle\frac{{1}}{{4.0}}\cdot\frac{{11}}{{11}}-\frac{{1}}{{11}}\frac{{4.0}}{{4.0}}=\frac{{1}}{{R}_{{2}}}</m>. Scaling for a common denominator.</p>
+<p><m>\displaystyle\frac{{7}}{{44}}=\frac{{1}}{{R}_{{2}}}</m>.</p>
+<p><m>\displaystyle\frac{{44}}{{7}}={R}_{{2}}</m>. Because ratios work upsidedown.</p>
+<p><m>\displaystyle{6.3}\approx{R}_{{2}}</m>.</p>
 
 </solution>
 </myopenmath>

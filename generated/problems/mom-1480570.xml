@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1480570">
 <statement>
-<p>In the model <m>\displaystyle{A}={1800}\cdot{\left({2}^{{\frac{{t}}{{52}}}}\right)}</m> what is the percent increase or decrease? <input type="text" style="width:8.2ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>In the model <m>\displaystyle{A}={1820}\cdot{\left({2}^{{\frac{{t}}{{25}}}}\right)}</m> what is the percent increase or decrease? <input type="text" style="width:8.2ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Note all numbers are scientific measurements.</p>
 
 </statement>
 <solution>
-<p><ul><li>1.3</li></ul></p><p>The percent increase/decrease is calculated from <m>\displaystyle{2}^{{\frac{{1}}{{52}}}}\approx{1.0134189906987}</m>. Because this is bigger than 1, this is a percent increase and the result is <m>\displaystyle{1.0134189906987}-{1}={0.0134189906987}\approx{0.013}</m> and the percent is 1.3<percent/>.</p>
+<p><ul><li>2.8</li></ul></p><p>The percent increase/decrease is calculated from <m>\displaystyle{2}^{{\frac{{1}}{{25}}}}\approx{1.0281138266561}</m>. Because this is bigger than 1, this is a percent increase and the result is <m>\displaystyle{1.0281138266561}-{1}={0.028113826656067}\approx{0.028}</m> and the percent is 2.8<percent/>.</p>
 <p>We round to 2 significant digits because the measurement (exponent) had 2 significant digits.</p>
 </solution>
 </myopenmath>

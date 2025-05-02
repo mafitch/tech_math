@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1594012">
+<statement>
+<p>Consider the compound interest model: <m>\displaystyle{A}={5300}{\left({1}+\frac{{0.0357}}{{12}}\right)}^{{{12}{t}}}</m></p>
+<p>
+  where <m>\displaystyle{t}</m> is in years and interest is compounded monthly.</p>
+<p>What is the initial amount? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>
+  What is the annual percent yield (annual percent increase)? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
+
+
+</statement>
+<solution>
+<p><ul><li>5300</li><li>3.6289972944387</li></ul></p><p>The initial amount is the coefficient 5300, because when <m>\displaystyle{t}={0}</m> the other factor is just one.</p>
+<p>To calculate the annual percent increase we need to convert to the form <m>\displaystyle{\left({1}+{p}\right)}^{{t}}</m>. We can do this by <m>\displaystyle{\left({1}+\frac{{0.0357}}{{12}}\right)}^{{{12}{t}}}={\left({\left({1}+\frac{{0.0357}}{{12}}\right)}^{{{12}}}\right)}^{{t}}={1.0362899729444}^{{t}}</m>. Thus the percent increase is <m>\displaystyle{1.0362899729444}-{1}={0.036289972944387}</m> which in percent form is <m>\displaystyle{100}{\left({0.036289972944387}\right)}={3.6289972944387}\%</m>.</p>
+</solution>
+</myopenmath>

@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1490351">
 <statement>
-<p>Consider the note D4 which has frequency 293.665 Hz.</p>
-<p>What is the period for D4? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
-<p>What is the wavelength for D4? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/> ft</p>
+<p>Consider the note C<hash/>4 which has frequency 277.183 Hz.</p>
+<p>What is the period for C<hash/>4? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>What is the wavelength for C<hash/>4? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/> ft</p>
 <p>
-  Recall that the speed of sound is 1116 feet per second. This is a scientific measurement. Round accordingly.</p>
+  Recall that the speed of sound is 1116 feet per second.</p>
+<p>These are scientific measurements; round accordingly.</p>
 
 </statement>
 <solution>
-<p><ul><li>0.003405</li><li>3.800</li></ul></p><p>Period is the inverse of frequency, so <m>\displaystyle\frac{{1}}{{293.665}}\approx{0.003405240665384}\approx{0.00340524}</m>.</p>
-<p>Wavelength is a unit conversion: <m>\displaystyle\frac{{{1116}\ \text{ ft}}}{{\text{second}}}\cdot\frac{{{1}\ \text{ second}}}{{{293.665}\ \text{ cycles}}}\approx{3.8002485825686}\approx{3.800}</m>.</p>
+<p><ul><li>0.00360772</li><li>4.026</li></ul></p><p>Period is the inverse of frequency, so <m>\displaystyle\frac{{1}}{{277.183}}\approx{0.0036077248604712}\approx{0.00360772}</m>.</p>
+<p>Wavelength is a unit conversion: <m>\displaystyle\frac{{{1116}\ \text{ ft}}}{{\text{second}}}\cdot\frac{{{1}\ \text{ second}}}{{{277.183}\ \text{ cycles}}}\approx{4.0262209442859}\approx{4.026}</m>.</p>
 </solution>
 </myopenmath>

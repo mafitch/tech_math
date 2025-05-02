@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1593990">
+<statement>
+<p>Consider the radioactive decay model for Iodine-123: <m>\displaystyle{A}={16.6}{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{13.2}}}}</m></p>
+<p>
+  where <m>\displaystyle{t}</m> is in units of hours.</p>
+<p>What is the initial amount? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>
+  What is the annual percent increase or decrease? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
+<p>Use 365 days/year, 8760 hours per year, and 525600 minutes per year.</p>
+
+
+</statement>
+<solution>
+<p><ul><li>16.6</li><li>100</li></ul></p><p>The initial amount is the coefficient in front, because when <m>\displaystyle{t}={0}</m> the second factor is just one. So the initial amount is 16.6.</p>
+<p>To obtain the <em>annual</em> percent decrease, we need to convert the units to years. 13.2 hours is <m>\displaystyle\frac{{13.2}}{{8760}}={0.0015068493150685}</m> years.</p>
+<p>Next we need to convert to the form <m>\displaystyle{\left({1}+{p}\right)}^{{t}}</m>. We can do this by expanding <m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{0.0015068493150685}}}}={\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{0.0015068493150685}}}}\right)}^{{t}}={1.6809249833214}{E}-{200}^{{t}}</m>. Now we can calculate the percent decrease as <m>\displaystyle{1}-{1.6809249833214}{E}-{200}={1}</m>. Converting to percent this is <m>\displaystyle{100}{\left({1}\right)}={100}\%</m>.</p>
+</solution>
+</myopenmath>
