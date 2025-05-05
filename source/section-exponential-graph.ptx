@@ -32,10 +32,10 @@
         <p>First we will generate a table of points with which to start.</p>
         <tabular top="medium">
             <row left="medium" bottom="medium" halign="center"><cell right="medium"><m>x</m></cell><cell colspan="2" right="medium"><m>2^x</m></cell></row>
-            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-4</m></cell> <cell><m>2^{-4}=\frac{1}{2^4}</m></cell><cell right="medium"><m>=\frac{1}{16}</m></cell></row>
-            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-3</m></cell> <cell><m>2^{-3}=\frac{1}{2^3}</m></cell><cell right="medium"><m>=\frac{1}{8}</m></cell></row>
-            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2^{-2}=\frac{1}{2^2}</m></cell><cell right="medium"><m>=\frac{1}{4}</m></cell></row>
-            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2^{-1}=\frac{1}{2^1}</m></cell><cell right="medium"><m>=\frac{1}{2}</m></cell></row>
+            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-4</m></cell> <cell><m>2^{-4}</m></cell><cell right="medium"><m>=0.0625</m></cell></row>
+            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-3</m></cell> <cell><m>2^{-3}</m></cell><cell right="medium"><m>=0.125</m></cell></row>
+            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-2</m></cell> <cell><m>2^{-2}</m></cell><cell right="medium"><m>=0.25</m></cell></row>
+            <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>-1</m></cell> <cell><m>2^{-1}</m></cell><cell right="medium"><m>=0.5</m></cell></row>
             <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>0</m></cell> <cell><m>2^0</m></cell><cell right="medium"><m>=1</m></cell></row>
             <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>1</m></cell> <cell><m>2^1</m></cell><cell right="medium"><m>=2</m></cell></row>
             <row left="medium" bottom="medium"><cell right="medium" halign="right"><m>2</m></cell> <cell><m>2^2</m></cell><cell right="medium"><m>=4</m></cell></row>
@@ -68,31 +68,31 @@
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>0</m></cell>
                 <cell><m>30(2^{0/25})</m></cell>
-                <cell><m>=30 \cdot 1</m></cell>
+                <cell><m>=30 \cdot 2^0</m></cell>
                 <cell right="medium"><m>=30</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>-25</m></cell>
                 <cell><m>30(2^{-25/25})</m></cell>
-                <cell><m>=30 \cdot \frac{1}{2}</m></cell>
+                <cell><m>=30 \cdot 2^{-1}</m></cell>
                 <cell right="medium"><m>=15</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>-50</m></cell>
                 <cell><m>30(2^{-50/25})</m></cell>
-                <cell><m>=30 \cdot \frac{1}{4}</m></cell>
+                <cell><m>=30 \cdot 2^{-2}</m></cell>
                 <cell right="medium"><m>=7.5</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>-75</m></cell>
                 <cell><m>30(2^{-75/25})</m></cell>
-                <cell><m>=30 \cdot \frac{1}{8}</m></cell>
+                <cell><m>=30 \cdot 2^{-3}</m></cell>
                 <cell right="medium"><m>=3.75</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell right="medium"><m>-100</m></cell>
                 <cell><m>30(2^{-100/25})</m></cell>
-                <cell><m>=30 \cdot \frac{1}{16}</m></cell>
+                <cell><m>=30 \cdot 2^{-4}</m></cell>
                 <cell right="medium"><m>=1.875</m></cell>
             </row>
         </tabular>
@@ -158,22 +158,26 @@
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-4</m></cell>
                 <cell><m>\frac{1}{16}</m></cell>
-                <cell colspan="2"><m>3+\frac{1}{16}</m></cell>
+                <cell><m>3+\frac{1}{16}</m></cell>
+                <cell halign="left"><m>3.0625</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-3</m></cell>
                 <cell><m>\frac{1}{8}</m></cell>
-                <cell colspan="2"><m>3+\frac{1}{8}</m></cell>
+                <cell><m>3+\frac{1}{8}</m></cell>
+                <cell halign="left"><m>3.125</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-2</m></cell>
                 <cell><m>\frac{1}{4}</m></cell>
-                <cell colspan="2"><m>3+\frac{1}{4}</m></cell>
+                <cell><m>3+\frac{1}{4}</m></cell>
+                <cell halign="left"><m>3.25</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-1</m></cell>
                 <cell><m>\frac{1}{2}</m></cell>
-                <cell colspan="2"><m>3+\frac{1}{2}</m></cell>
+                <cell><m>3+\frac{1}{2}=</m></cell>
+                <cell halign="left"><m>3.5</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>0</m></cell>
@@ -214,7 +218,7 @@
     </example>
 
     <example xml:id="example-exponential-transform-stretch-vertical">
-        <title>Stretch an Exponential</title>
+        <title>Vertically Stretch an Exponential</title>
         <p>Graph <m>y=3(2^x)</m> using the graph and table in <xref ref="example-graph-exponential-continous" />. We can extend the table to include the <m>3 \cdot</m>.</p>
         <tabular top="medium">
             <col halign="right" right="medium" width="10%" />
@@ -228,27 +232,27 @@
             </row>
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-4</m></cell>
-                <cell><m>\frac{1}{16}</m></cell>
-                <cell><m>3 \cdot \frac{1}{16} =</m></cell>
-                <cell><m>\frac{3}{16}</m></cell>
+                <cell><m>0.0625</m></cell>
+                <cell><m>3 \cdot 0.0625 =</m></cell>
+                <cell><m>0.1875</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>-3</m></cell>
-                <cell><m>\frac{1}{8}</m></cell>
-                <cell><m>3 \cdot \frac{1}{8} =</m></cell>
-                <cell><m>\frac{3}{8}</m></cell>
+                <cell><m>0.125</m></cell>
+                <cell><m>3 \cdot 0.125 =</m></cell>
+                <cell><m>0.375</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>-2</m></cell>
-                <cell><m>\frac{1}{4}</m></cell>
-                <cell><m>3 \cdot \frac{1}{4} =</m></cell>
-                <cell><m>\frac{3}{4}</m></cell>
+                <cell><m>0.25</m></cell>
+                <cell><m>3 \cdot 0.25 =</m></cell>
+                <cell><m>0.75</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>-1</m></cell>
-                <cell><m>\frac{1}{2}</m></cell>
-                <cell><m>3 \cdot \frac{1}{2} =</m></cell>
-                <cell><m>\frac{3}{2}</m></cell>
+                <cell><m>0.5</m></cell>
+                <cell><m>3 \cdot 0.5 =</m></cell>
+                <cell><m>1.5</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>0</m></cell>
@@ -294,87 +298,77 @@
 
     <example xml:id="example-exponential-transform-reflect">
         <title>Reflect an Exponential</title>
-        <p>Graph <m>y=2^{-x}</m> using the graph and table in <xref ref="example-graph-exponential-continous" />. We can extend the table to include the <m>-x</m>.</p>
+        <p>Discover the effect of negating <m>x</m> by graphing <m>y=2^{-x}</m> using the graph and table in <xref ref="example-graph-exponential-continous" />.</p>
+        <p>We can begin with <m>x=1</m>, so <m>-x = -1</m>. This means that when we plug <m>x=1</m> into this function (<m>2^{-x}</m>) we get the same result (y value) as plugging <m>x=-1</m> into the function <m>2^x</m>. We can look that up in the table (or simply calculate) <m>y=2^{-1}=0.5</m>. On this function the point (-1,0.5) moved to (1,0.5).</p>
+        <p>Similarly for <m>x=-1</m>, so <m>-x=-(-1)=1</m>. This means that when we plug <m>x=-1</m> into this function (<m>2^{-x}</m>) we get the same result (y value) as plugging <m>x=1</m> into the function <m>2^x</m>. We can look that up in the table (or simply calculate) <m>y=2^1=2</m>. On this function the point (1,2) moved to (-1,2).</p>
+        <p>Comparing the results of these, two calculations we see that the points (1,2) and (-1,0.5) swapped position. We can try one more value to see if this continues. Consider <m>x=4</m>. <m>-x=-4</m>. Thus we obtain the same result as plugging <m>x=-4</m> into <m>2^x</m>. This gives us the point (4,0.0625) which used to be at (-4,0.0625). Again a point swapped sides. You can confirm this works on other points by completing the table below.</p>
         <tabular top="medium">
+            <col halign="right" right="medium" width="10%" />
+            <col width="6%" />
+            <col halign="right" right="medium" width="5%" />
+            <col width="6%" />
+            <col halign="right" right="medium" width="5%" />
             <row left="medium" bottom="medium" halign="center">
-                <cell right="medium"><m>x</m></cell>
-                <cell right="medium" colspan="2"><m>2^x</m></cell>
-                <cell right="medium"><m>-x</m></cell>
-                <cell right="medium" colspan="2"><m>2^{-x}</m></cell>
+                <cell><m>x</m></cell>
+                <cell><m>-x</m></cell>
+                <cell colspan="2"><m>2^{-x}</m></cell>
             </row>
             <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>-4</m></cell>
-                <cell><m>2^{-4}=\frac{1}{2^4}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{16}</m></cell>
-                <cell right="medium"><m>-(-4)=4</m></cell>
-                <cell><m>2^{-(-4)}=2^4=</m></cell>
-                <cell right="medium" halign="right"><m>16</m></cell>
+                <cell><m>-4</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>-3</m></cell>
-                <cell><m>2^{-3}=\frac{1}{2^3}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{8}</m></cell>
-                <cell right="medium"><m>-(-3)=3</m></cell>
-                <cell><m>2^{-(-3)}=2^3=</m></cell>
-                <cell right="medium" halign="right"><m>8</m></cell>
+                <cell><m>-3</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>-2</m></cell>
-                <cell><m>2^{-2}=\frac{1}{2^2}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{4}</m></cell>
-                <cell right="medium"><m>-(-2)=2</m></cell>
-                <cell><m>2^{-(-2)}=2^2=</m></cell>
-                <cell right="medium" halign="right"><m>4</m></cell>
+                <cell><m>-2</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>-1</m></cell>
-                <cell><m>2^{-1}=\frac{1}{2^1}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{2}</m></cell>
-                <cell right="medium"><m>-(-1)=1</m></cell>
-                <cell><m>2^{-(-1)}=2^1=</m></cell>
-                <cell right="medium" halign="right"><m>2</m></cell>
-            </row>
-            <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>0</m></cell>
-                <cell><m>2^{0}=</m></cell>
-                <cell right="medium" halign="right"><m>1</m></cell>
-                <cell right="medium"><m>-(0)=0</m></cell>
-                <cell><m>2^{-(0)}=2^0=</m></cell>
-                <cell right="medium" halign="right"><m>1</m></cell>
-            </row>
-            <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>1</m></cell>
+                <cell><m>-1</m></cell>
+                <cell><m>1</m></cell>
                 <cell><m>2^1=</m></cell>
-                <cell right="medium" halign="right"><m>2</m></cell>
-                <cell right="medium"><m>-(1)=-1</m></cell>
-                <cell><m>2^{-(1)}=2^{-1}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{2}</m></cell>
+                <cell><m>2</m></cell>
             </row>
             <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>2</m></cell>
-                <cell><m>2^2=</m></cell>
-                <cell right="medium" halign="right"><m>4</m></cell>
-                <cell right="medium"><m>-(2)=-2</m></cell>
-                <cell><m>2^{-(2)}=2^{-2}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{4}</m></cell>
+                <cell><m>0</m></cell>
+                <cell><m>-0</m></cell>
+                <cell><m>2^0=</m></cell>
+                <cell><m>1</m></cell>
             </row>
             <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>3</m></cell>
-                <cell><m>2^3=</m></cell>
-                <cell right="medium" halign="right"><m>8</m></cell>
-                <cell right="medium"><m>-(3)=-3</m></cell>
-                <cell><m>2^{-(3)}=2^{-3}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{8}</m></cell>
+                <cell><m>1</m></cell>
+                <cell><m>-1</m></cell>
+                <cell><m>2^{-1}=</m></cell>
+                <cell><m>0.5</m></cell>
             </row>
             <row left="medium" bottom="medium">
-                <cell right="medium" halign="right"><m>4</m></cell>
-                <cell><m>2^4=</m></cell>
-                <cell right="medium" halign="right"><m>16</m></cell>
-                <cell right="medium"><m>-(4)=-4</m></cell>
-                <cell><m>2^{-(4)}=2^{-4}=</m></cell>
-                <cell right="medium" halign="right"><m>\frac{1}{16}</m></cell>
+                <cell><m>2</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>3</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row left="medium" bottom="medium">
+                <cell><m>4</m></cell>
+                <cell><m>-4=</m></cell>
+                <cell><m>2^{-4}=</m></cell>
+                <cell><m>0.0625</m></cell>
             </row>
         </tabular>
+
         <image source="images/exponential-reflect-horizontal" width="50%" >
             <shortdescription>Graph of both curves in table above showing reflection over the y-axis</shortdescription>
             <description>
@@ -383,12 +377,14 @@
                 <p>There is a horizontal arrow starting at <m>(-1,\frac{1}{2})</m> on the curve <m>y=2^x</m> that stretches to <m>(1,\frac{1}{2})</m> on the curve <m>y=2^{-x}</m>. There is another horizontal arrow starting at <m>(1,2)</m> on the curve <m>y=2^x</m> that stretches to <m>(-1,2)</m> on the curve <m>y=2^{-x}</m>. These arrows illustrate how points on <m>y=2^x</m> have a corresponding point on <m>y=2^{-x}</m> which is on the opposite side of the y-axis.</p>
             </description>
         </image>
-        <p>Notice that every point end up on the other side of the y-axis. This is a reflection of the original curve.</p>
+        <p>Notice that every point ends up on the other side of the y-axis. This is a reflection of the original curve.</p>
     </example>
 
     <example xml:id="example-exponential-stretch-horizontal">
-        <title>Reflect an Exponential</title>
-        <p>Graph <m>y=2^{0.25x}</m> using the graph and table in <xref ref="example-graph-exponential-continous" />. We can extend the table to include the <m>0.25x</m>. Because this changes the x value, we will need a different set of inputs. Look at the result to understand why we selected them.</p>
+        <title>Horizontally Stretch an Exponential</title>
+        <p>Discover the effect of multiplying <m>x</m> by a number (0.25 in this case) by graphing <m>y=2^{0.25x}</m> using the graph and table in <xref ref="example-graph-exponential-continous" />.</p>
+        <p>We recognize that <m>0.25=\frac{1}{4}</m>, so for our first value we choose <m>x=4</m>. We calculate <m>0.25(4)=1</m>. This means that when we plug <m>x=4</m> into this function (<m>2^{0.25x}</m>) we get the same result (y value) as plugging in <m>x=1</m> to the function <m>2^x</m>. We can look that up in the table (or simply calculate) <m>y=2^{0.25(4)}=2^1=2</m>. On this function the point (1,2) moved to (4,2).</p>
+        <p>To understand the full effect, complete the table below using the same process. Because multiplying by 0.25 changes the x value, we have changed the x values in this table so that all points will match points in the table we are using.</p>
         <tabular top="medium">
             <col halign="right" right="medium" width="10%" />
             <col width="6%" />
@@ -402,31 +398,31 @@
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>-16</m></cell>
-                <cell><m>0.25(-16)=</m></cell>
-                <cell><m>-4</m></cell>
-                <cell><m>2^{-4}=\frac{1}{2^4}=</m></cell>
-                <cell><m>\frac{1}{16}</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>-12</m></cell>
-                <cell><m>0.25(-12)=</m></cell>
-                <cell><m>-3</m></cell>
-                <cell><m>2^{-3}=\frac{1}{2^3}=</m></cell>
-                <cell><m>\frac{1}{8}</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>-8</m></cell>
-                <cell><m>0.25(-8)=</m></cell>
-                <cell><m>-2</m></cell>
-                <cell><m>2^{-2}=\frac{1}{2^2}=</m></cell>
-                <cell><m>\frac{1}{4}</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>-4</m></cell>
                 <cell><m>0.25(-4)=</m></cell>
                 <cell><m>-1</m></cell>
-                <cell><m>2^{-1}=\frac{1}{2^1}=</m></cell>
-                <cell><m>\frac{1}{2}</m></cell>
+                <cell><m>2^{-1}=</m></cell>
+                <cell><m>0.5</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>0</m></cell>
@@ -444,17 +440,17 @@
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>8</m></cell>
-                <cell><m>0.25(8)=</m></cell>
-                <cell><m>2</m></cell>
-                <cell><m>2^2=</m></cell>
-                <cell><m>2</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>12</m></cell>
-                <cell><m>0.25(12)=</m></cell>
-                <cell><m>3</m></cell>
-                <cell><m>2^3=</m></cell>
-                <cell><m>8</m></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell><m>16</m></cell>
@@ -472,7 +468,7 @@
                 <p>There is a horizontal arrow starting at <m>(-1,\frac{1}{2})</m> on the curve <m>y=2^x</m> that stretches to <m>(-4,\frac{1}{2})</m> on the curve <m>y=2^{0.25x}</m>. There is another horizontal arrow starting at <m>(1,2)</m> on the curve <m>y=2^x</m> that stretches to <m>(4,2)</m> on the curve <m>y=2^{0.25x}</m>. These arrows illustrate how points on <m>y=2^x</m> have a corresponding point on <m>y=2^{0.25x}</m> which is 4 times as far away from the y-axis. This is why the horizontal axis is 4 times wider than previous examples.</p>
             </description>
         </image>
-        <p>We ended up with the same y values, but they occurred spread out over a wider area. Multiplying  stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out (we could squeeze it in).</p>
+        <p>The graph shows that we end up with the same y values, but they occur spread out over a wider area. Multiplying 0.25 by <m>x</m> stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out. We could squeeze it in by multiplying by a number larger than one (e.g., <m>2^{4x}</m>).</p>
     </example>
 
     <p>Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is <me>y=A \cdot 2^{B(x-h)}+k</me> where <m>h</m> and <m>k</m> represent the horizontal and vertical shifts respectively. <m>A</m> and <m>B</m> represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.</p>
