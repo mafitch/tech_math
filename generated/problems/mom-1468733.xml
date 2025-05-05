@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle{x}+{7}{y}={49}</m> </p>
+<p><m>\displaystyle{7}{x}-{5}{y}=-{14}</m> </p>
 <p>
-  <m>\displaystyle-{9}{x}-{6}{y}=-{99}</m></p>
+  <m>\displaystyle-{8}{x}+{6}{y}={18}</m></p>
 <p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({7},{6}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of --9. So we scale by <m>\displaystyle--\frac{{9}}{{1}}</m>.</p>
-<p><m>\displaystyle-\frac{{-{9}}}{{1}}{\left({1}{x}+{7}{y}\right)}=-\frac{{-{9}}}{{1}}{\left({49}\right)}</m></p>
-<p><m>\displaystyle-{\left(-{9}\right)}{x}+{63}{y}={441}</m></p>
-<p><m>\displaystyle-{9}{x}-{6}{y}=-{99}</m></p>
+<p><ul><li><m>\displaystyle{\left({3},{7}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of --8. So we scale by <m>\displaystyle--\frac{{8}}{{7}}</m>.</p>
+<p><m>\displaystyle-\frac{{-{8}}}{{7}}{\left({7}{x}+-{5}{y}\right)}=-\frac{{-{8}}}{{7}}{\left(-{14}\right)}</m></p>
+<p><m>\displaystyle-{\left(-{8}\right)}{x}+-{5.7142857142857}{y}=-{16}</m></p>
+<p><m>\displaystyle-{8}{x}+{6}{y}={18}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{57}{y}={342}</m></p>
-<p><m>\displaystyle{y}=\frac{{342}}{{57}}</m></p>
-<p><m>\displaystyle{y}={6}</m></p>
+<p><m>\displaystyle{0.28571428571429}{y}={2}</m></p>
+<p><m>\displaystyle{y}=\frac{{2}}{{0.28571428571429}}</m></p>
+<p><m>\displaystyle{y}={7}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle{1}{x}+{7}{\left({6}\right)}={49}</m></p>
-<p><m>\displaystyle{1}{x}+{\left({42}\right)}={49}</m></p>
-<p><m>\displaystyle{1}{x}={49}-{\left({42}\right)}</m></p>
-<p><m>\displaystyle{1}{x}={7}</m></p>
-<p><m>\displaystyle{x}=\frac{{7}}{{1}}</m></p>
-<p><m>\displaystyle{x}={7}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({7},{6}\right)}</m>.</p>
+<p><m>\displaystyle{7}{x}+-{5}{\left({7}\right)}=-{14}</m></p>
+<p><m>\displaystyle{7}{x}+{\left(-{35}\right)}=-{14}</m></p>
+<p><m>\displaystyle{7}{x}=-{14}-{\left(-{35}\right)}</m></p>
+<p><m>\displaystyle{7}{x}={21}</m></p>
+<p><m>\displaystyle{x}=\frac{{21}}{{7}}</m></p>
+<p><m>\displaystyle{x}={3}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({3},{7}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
