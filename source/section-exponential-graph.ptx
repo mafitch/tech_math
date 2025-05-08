@@ -144,6 +144,9 @@
 
     <example xml:id="example-exponential-transform-translate">
         <title>Translate an Exponential</title>
+        <p>Discover the effect of adding 3 to the fuction by graphing <m>y=2^x+3</m> using the graph and table in <xref ref="example-graph-exponential-continous" />.</p>
+        <p>We can begin with <m>x=1</m>, from the table we know that <m>2^1=2</m>, so for this function we end up with <m>2^1+3 = 2 + 3 = 5</m>. On this function the point (1,2) moved to (1,5). We should check another point. Consider <m>x=2</m>. From the table we know that <m>2^2=4</m>, so for this function we end up with <m>2^2+3 = 4+3 = 7</m>.</p>
+        <p>If we look at the rest of the table, we see that every point has the same x value but the y value is 3 units higher.</p>
         <p>Graph <m>y=2^x+3</m> using the graph and table in <xref ref="example-graph-exponential-continous" />. We can extend the table to include the <m>+3</m>.</p>
         <tabular top="medium">
             <col halign="right" right="medium" width="10%" />
@@ -158,19 +161,19 @@
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-4</m></cell>
                 <cell><m>\frac{1}{16}</m></cell>
-                <cell><m>3+\frac{1}{16}</m></cell>
+                <cell><m>3+\frac{1}{16}=</m></cell>
                 <cell halign="left"><m>3.0625</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-3</m></cell>
                 <cell><m>\frac{1}{8}</m></cell>
-                <cell><m>3+\frac{1}{8}</m></cell>
+                <cell><m>3+\frac{1}{8}=</m></cell>
                 <cell halign="left"><m>3.125</m></cell>
             </row>
             <row left="medium" bottom="medium">
                 <cell halign="right"><m>-2</m></cell>
                 <cell><m>\frac{1}{4}</m></cell>
-                <cell><m>3+\frac{1}{4}</m></cell>
+                <cell><m>3+\frac{1}{4}=</m></cell>
                 <cell halign="left"><m>3.25</m></cell>
             </row>
             <row left="medium" bottom="medium">
@@ -219,12 +222,14 @@
 
     <example xml:id="example-exponential-transform-stretch-vertical">
         <title>Vertically Stretch an Exponential</title>
-        <p>Graph <m>y=3(2^x)</m> using the graph and table in <xref ref="example-graph-exponential-continous" />. We can extend the table to include the <m>3 \cdot</m>.</p>
+        <p>Discover the effect of multiplying the fuction by 3 by graphing <m>y=3(2^x)</m> using the graph and table in <xref ref="example-graph-exponential-continous" />.</p>
+        <p>We can begin with <m>x=1</m>, from the table we know that <m>2^1=2</m>, so for this function we end up with <m>3 (2^1) = 3 \cdot 2 = 6</m>. On this function the point (1,2) moved to (1,6). We should check another point. Consider <m>x=2</m>. From the table we know that <m>2^2=2</m>, so for this function we end up with <m>3(2^2) = 3(4) = 12</m>. On this function the point (2,4) moved to (2,12).</p>
+        <p>If we look at the rest of the table, we see that every point has the same x value but the y value is triple (higher). This is different from adding 3 (bigger growth).</p>
         <tabular top="medium">
             <col halign="right" right="medium" width="10%" />
             <col halign="center" right="medium" width="10%" />
             <col halign="right" width="20%" />
-            <col halign="center" right="medium" width="10%" />
+            <col halign="left" right="medium" width="10%" />
             <row left="medium" bottom="medium" halign="center">
                 <cell><m>x</m></cell>
                 <cell><m>2^x</m></cell>

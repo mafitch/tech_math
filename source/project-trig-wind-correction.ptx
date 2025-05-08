@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-activity-trig-wind-correction" >
+<title>Project: Wind Correction Angle</title>
+
+<project xml:id="project-trig-wind-correction">
+	<title>Wind Correction Angle</title>
+
+<introduction>
+	<p>In flight the direction and speed across the ground of aircraft depends on the speed and direction it is facing and the speed and direction of the wind. In this project we will learn how to combine the two to determine the actual direction and speed and then figure out how to select a direction for the aircraft in order to follow an intended ground track.</p>
+</introduction>
+
+<task>
+	<introduction>
+		<p>These steps walk through converting the angle and speed into x and y components which may be added. The result is an x and y component for the ground track that we can convert back into an angle and speed. Pilots perform this calculation using a device. We do it manually here to see how those devices perform the calculation.</p>
+		<p>For this task, the aircraft has a heading of 115<degree/> and speed of 95 nm/hr. The wind has a heading of 55<degree/> and speed of 12 nm/hr. Because we measure angles from straight up instead of to the right, x is the vertical component here and y is the horizontal. This also begins with headings (straight up is north or 0<degree/>) instead of angles. If needed, you can review changing headings to angles in <xref ref="example-flight-distance"/></p>
+
+		<figure xml:id="figure-wind-correction-triangle">
+			<caption>Wind Correction Triangle</caption>
+			<image source="images/wind-correction" width="80%" />
+		</figure>
+		
+	</introduction>
+	<task>
+		<p>To calculate the x and y components of the plane, we use the right triangle with the 95 nm/hr side as the hypotenuse. The angle in this triangle is the supplement of <m>\theta_{plane}</m> that is <m>\alpha_{plane}=180^\circ - \theta_{plane}</m>. Calculate this angle.</p>
+
+		<figure xml:id="figure-wind-correction-triangle-x">
+			<caption>Wind Correction Triangle</caption>
+			<image source="images/wind-correction-x" width="80%" />
+		</figure>
+	</task>
+	<task>
+		<statement><p>Calculate <m>x_{plane}</m>.</p></statement>
+	</task>
+	<task>
+		<statement><p>Calculate <m>y_{plane}</m>.</p></statement>
+	</task>
+	<task>
+		<statement>
+			<p>To calculate the x and y components of the wind, we use the right triangle with the 12 nm/hr side as the hypotenuse (small one on the bottom right of the diagram). The angle in this triangle is <m>\theta_{wind}=55^\circ</m>.</p>
+			<p>Calculate the x and y components.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>To calculate the x component of the ground track we use the right triangle with the unknown nm/hr side as the hypotenuse. In the diagram it has green, dotted legs. What is the x component of the ground track?</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>What is the y component of the ground track?</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Now that we know the x and y components of the ground track (legs of the right triangle), calculate the ground speed. This is the length of the hypotenuse.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Using the side lengths you just calculated, calculate the angle <m>\alpha_{ground}</m>.</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Calculate the ground heading (i.e.,  <m>\theta_{ground}</m>).</p>
+		</statement>
+	</task>
+</task>
+
+<task>
+	<introduction>
+		<p>When flying the needed ground track (where we are going) and wind are given as is the aircraft speed. We need to calculate the heading for the aircraft to maintain that track. This somewhat reverses the solution above.</p>
+	</introduction>
+	<statement>
+		<p>Figure it out.</p>
+	</statement>
+</task>
+
+</project>
+
+</section>
