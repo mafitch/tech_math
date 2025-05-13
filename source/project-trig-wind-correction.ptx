@@ -70,11 +70,29 @@
 
 <task>
 	<introduction>
-		<p>When flying the needed ground track (where we are going) and wind are given as is the aircraft speed. We need to calculate the heading for the aircraft to maintain that track. This somewhat reverses the solution above.</p>
+		<p>When flying the needed ground track (where we are going) and wind are given as is the aircraft speed. We need to calculate the heading for the aircraft to maintain that track. This somewhat reverses the process above. Follow these steps to calculate the required heading (<m>\theta_{plane}</m>) when we want a ground track (heading) of <m>\theta_{ground}=100^\circ</m>. As before our wind is 12 nm/hr from <m>\theta_{wind}=55^\circ</m>.</p>
+
+		<figure xml:id="figure-wind-correction-parallelogram">
+			<caption>Wind Correction Triangle</caption>
+			<image source="images/wind-correction-angle-calculate" width="80%" />
+		</figure>
+
+		<p>For this calculation we will use this alternate version of the wind correction diagram. Specifically we will use the top triangle. Because it consists of the same three side lengths and directions, the two triangles are similar (actually congruent). It is easier to calculate some angles on this version of the triangle.</p>
 	</introduction>
-	<statement>
-		<p>Figure it out.</p>
-	</statement>
+	<task><p>Calculate <m>\phi</m>, the angle in the triangle.</p></task>
+	<task><p>We know <m>\phi</m> and the side length opposite it, and we want to know <m>\alpha</m> (wind correction angle), and we know the side length opposite it. Set up Law of Sines for these angle/side pairs, then solve for <m>\alpha</m>.</p></task>
+	<task><p><m>\alpha</m> is the wind correction angle (how much to turn from the desired ground track). What is the heading (angle from vertical in the diagram) the plane will be facing?</p></task>
+	<task><p>Calculate the measure of the third (unlabeled) angle of the triangle.</p></task>
+	<task><p>Calculate the length of the third side of the triangle. This is the ground speed.</p></task>
+</task>
+<task>
+	<introduction>
+		<p>Finally we consider a quantitative literacy question about the effect of a cross wind on efficiency. When the wind is fully a tailwind (blowing from behind in the same direction we are flying), then the ground speed is the sum of the airspeed and wind speed. When the wind is fully a head wind (blowing from in front in the opposite direction from which we are flying), then the ground speed is the difference of the airspeed and wind speed. The first question then is what is the effect of a wind that is perpendicular to our ground track (neither tail nor head).</p>
+	</introduction>
+	<task><p>Use the method from above to calculate wind correction angle and ground speed if the ground track is 90<degree/>, the wind is from 180<degree/> at 12 knots, and the airspeed is 95 knots.</p></task>
+	<task><p>Use the method from above to calculate wind correction angle and ground speed if the ground track is 90<degree/>, the wind is from 180<degree/> at 24 knots, and the airspeed is 95 knots.</p></task>
+	<task><p>Does a pure crosswind (no head or tail component) slow down or speed up cruise flight?</p></task>
+	<task><p>The final question is whether a wind with a tailwind component always increases ground speed. Calculate the wind correction angle and ground speed if the ground track is 90<degree/>, the wind is from 225<degree/> at 12 knots, and the airspeed is 95 knots.</p></task>
 </task>
 
 </project>
