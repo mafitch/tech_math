@@ -55,6 +55,7 @@
                 <mrow>2 \text{ in} &amp; = \frac{(2.125 \text{ in})N}{N+2}.</mrow>
                 <intertext>First, we multiply to eliminate the fraction.</intertext>
                 <mrow>(2 \text{ in}) \cdot (N+2) &amp; = \frac{(2.125 \text{ in})N}{N+2} \cdot (N+2).</mrow>
+                <intertext>Second, we distribute so we can access the variable.</intertext>
                 <mrow>(2 \text{ in})N + (4 \text{ in}) &amp; = (2.125 \text{ in})N</mrow>
                 <intertext>Next, we need to collect N on one side.</intertext>
                 <mrow>-(2 \text{ in})N +(2 \text{ in})N + 4 \text{ in} &amp; = -(2 \text{ in})N + (2.125 \text{ in})N.</mrow>
@@ -107,6 +108,22 @@
                 <mrow>18^\circ &amp; \approx T_2.</mrow>
             </md>
         </p>
+    </example>
+
+    <p>Some rational expressions have the variable in both numerator and denominator. These are handled exactly the same: we can still multiply to eliminate the fractions.</p>
+
+    <example xml:id="example-rational-solve-chemistry-ICE">
+        <p>The following expression comes from an equilibrium problem in chemistry. Here we need to convert this rational expression into a polynomial. <me>\frac{[HBr]^2}{[H_2][Br_2]} = \frac{(2x)^2}{(0.700-x)(0.500-x)} = 64.0.</me></p>
+        <p><md>
+            <mrow>\frac{(2x)^2}{(0.700-x)(0.500-x)} \amp = 64.0.</mrow>
+            <intertext>Multiply to eliminate the fraction.</intertext>
+            <mrow>\frac{(2x)^2}{(0.700-x)(0.500-x)} \cdot (0.700-x)(0.500-x) \amp = 64.0 \cdot (0.700-x)(0.500-x).</mrow>
+            <mrow>(2x)^2 \amp = 64.0 \cdot (0.700-x)(0.500-x).</mrow>
+            <mrow>4x^2 \amp = 64.0(0.350-1.200x+x^2).</mrow>
+            <mrow>4x^2 \amp = 22.4 - 76.8x + 64.0x^2.</mrow>
+            <mrow>0 \amp = 22.4 - 76.8x + 60.0x^2.</mrow>
+        </md></p>
+        <p>Later (<xref ref="subsection-solve-quadratic-formula" />), we will learn to solve this equation.</p>
     </example>
 
     <p>The final example in this section presents a type of problem involving adding multiple fractions. This is needed for the resistors in parallel problem and is connected to the next section on additive rates.</p>
@@ -259,18 +276,6 @@
 
 <exercises>
     <exercise>
-        <myopenmath problem="897571" />
-    </exercise>
-
-    <exercise>
-        <myopenmath problem="1330593" />
-    </exercise>
-
-    <exercise>
-        <myopenmath problem="791975" />
-    </exercise>
-
-    <exercise>
         <myopenmath problem="897575" />
     </exercise>
 
@@ -280,6 +285,18 @@
 
     <exercise>
         <myopenmath problem="897580" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="897571" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="1330593" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="791975" />
     </exercise>
 
     <exercise>
@@ -312,6 +329,14 @@
 
     <exercise>
         <myopenmath problem="793803" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="1611626" />
+    </exercise>
+
+    <exercise>
+        <myopenmath problem="1611639" />
     </exercise>
 
     <exercise>

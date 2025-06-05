@@ -885,6 +885,86 @@ class exp_base2(Scene):
 
         self.wait(5)
 
+
+class exp_reverse(Scene):
+    def construct(self):
+        title1 = Text("Understanding Negative Exponents")
+        self.add(title1)
+        self.wait(3)
+        self.remove(title1)
+
+        axes = Axes( x_range = (-4,4), y_range = (0,16) , tips = False)
+        axes.add_coordinates()
+        self.add(axes)
+
+        xmarkspot = Dot()
+        xmarkspot.move_to(axes.c2p(0,16))
+
+        def func(x):
+            return 2**x
+
+        func_text = MathTex("y=2^x")
+        func_text.to_edge(UP+RIGHT)
+        self.add(func_text)
+
+        # plot points for 2^x
+        text0 = Tex("First, we plot $2^x$.")
+        text0.to_edge(UP,buff=0.2)
+        self.add(text0)
+        self.wait(2)
+
+        pts_positive = VGroup()
+        for i in range(-4,5):
+            pts_positive.add(Dot(axes.c2p(i,func(i)),color=GREEN))
+            self.add(pts_positive[i+4])
+            self.wait(0.5)
+        # sketch curve through these points
+        self.wait(1)
+        curve_positive = axes.plot(lambda t: func(t), color=GREEN, x_range=[-4,4])
+        self.play(Write(curve_positive))
+        self.wait(2)
+        self.remove(text0)
+
+        # Build negative exponent version from the original
+        text1 = Tex("Now, we build $2^{-x}$ from this $2^x$.")
+        text1.to_edge(UP,buff=0.2)
+        self.add(text1)
+        self.wait(3)
+        self.remove(text1)
+
+        func2_text = MathTex("y=2^{-x}")
+        func2_text.to_edge(UP+LEFT)
+        self.add(func2_text)
+
+        pts_negative = VGroup()
+        for i in range(-4,5):
+            texts1 = Tex("Consider $x="+str(i)+"$")
+            texts1.next_to(xmarkspot,aligned_edge=LEFT)
+            self.add(texts1)
+            self.wait(2)
+            calc1 = MathTex("y=2^{-("+str(i)+")}","=2^{"+str(-i)+"}")
+            calc1.next_to(func2_text,DOWN,aligned_edge=LEFT)
+            self.add(calc1[0])
+            self.wait(1.5)
+            self.add(calc1[1])
+            self.wait(1.5)
+            texts2 = Tex(r'{4cm}So the point at $x='+str(i)+'$ is the point from $x='+str(-i)+'$ on the original.',tex_environment="minipage")
+            texts2.next_to(texts1,DOWN,aligned_edge=LEFT)
+            self.add(texts2)
+
+            pts_negative.add(Dot(axes.c2p(-i,func(-i)),color=BLUE))
+            self.add(pts_negative[i+4])
+            self.play(pts_negative[i+4].animate.move_to(axes.c2p(i,func(-i))))
+
+            self.wait(3)
+
+            self.remove(texts1,texts2,calc1[0],calc1[1])
+
+        curve_negative = axes.plot(lambda t: func(-t), color=BLUE, x_range=[-4,4])
+        self.play(Write(curve_negative))
+        self.wait(5)
+
+
 class exp_rate(MovingCameraScene):
     def construct(self):
 
