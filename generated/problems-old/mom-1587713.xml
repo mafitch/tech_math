@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1587713">
+<statement>
+<image width="48%" pi:generated="problems/images/mom-1587713-1"/>
+<p>The image is not to scale. Round to units.</p>
+<p>What is the volume of this object? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+
+
+</statement>
+<solution>
+<p><ul><li>2046</li></ul></p><p>We have enough information to calculate the volume of the box like portion (square prism)</p>
+<p>
+  <m>\displaystyle{6}\times{6}\times{16}={576}</m>.</p>
+<p>For the cylinder we need the diameter or radius. The diameter is the distance from one corner of the square to the opposite corner. We can use the Pythagorean theorem to calculate this. <m>\displaystyle{6}^{{2}}+{6}^{{2}}={d}^{{2}}</m> so <m>\displaystyle{d}={4.2426406871193}</m>. The volume of the cylinder is <m>\displaystyle\pi{\left(\frac{{4.2426406871193}}{{2}}\right)}^{{2}}\times{26}={1470.26536188}</m>.</p>
+<p>Thus the total volume is <m>\displaystyle{576}+{1470.26536188}={2046.26536188}\approx{2046}</m>.</p>
+</solution>
+</myopenmath>

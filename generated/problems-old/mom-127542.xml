@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="127542">
+<statement>
+<p>
+Many substances are metabolized by our body so that the amount of the substance in our system decreases exponentially.
+Sometimes studies state this in terms of "half-life", and sometimes as an hourly rate of decrease.</p>
+<p>
+<m>\displaystyle{A}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{{H}{L}}}}}={A}\cdot{\left({1}-{r}\right)}^{{t}}</m></p>
+<p>
+Where <m>\displaystyle{A}</m> is the initial amount, <m>\displaystyle{H}{L}</m> is the half-life in hours, <m>\displaystyle{t}</m> is the time in hours, and <m>\displaystyle{r}</m> is the hourly rate of decrease.</p>
+<p>
+Suppose a substance has a half-life of 9 hours.</p>
+<p>
+What is the hourly decay rate, to the nearest tenth of a percent?
+<input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <percent/>
+</p>
+</statement>
+<solution>
+<p><ul><li>7.4</li></ul></p><p><m>\displaystyle{A}\cdot{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{{H}{L}}}}}={A}\cdot{\left({1}-{r}\right)}^{{t}}</m></p>
+<p>
+We can start by dividing both sides by the initial amount <m>\displaystyle{A}</m>.</p>
+<p>
+<m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{{H}{L}}}}}={\left({1}-{r}\right)}^{{t}}</m></p>
+<p>
+Since the time has to be the same on both sides, let <m>\displaystyle{t}={1}</m>.</p>
+<p>
+<m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{{H}{L}}}}}={1}-{r}</m></p>
+<p>
+Subtract 1 from both sides.</p>
+<p>
+<m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{{H}{L}}}}}-{1}=-{r}</m></p>
+<p>
+Now multiply both sides by <m>\displaystyle-{1}</m>.</p>
+<p>
+<m>\displaystyle-{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{{H}{L}}}}}+{1}={r}</m> </p>
+<p>
+OR  </p>
+<p>
+<m>\displaystyle{r}={1}-{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{{H}{L}}}}}</m></p>
+<p>
+If the half-life is 9 hours, then we get <m>\displaystyle{r}={1}-{\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{9}}}}\approx{0.07412528771271}</m></p>
+<p>
+If we round to the nearest tenth of a percent, then the rate of decrease, <m>\displaystyle{r}\approx{7.4}\%</m>.</p>
+</solution>
+</myopenmath>

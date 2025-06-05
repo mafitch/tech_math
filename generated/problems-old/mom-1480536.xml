@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1480536">
+<statement>
+<p>In the model <m>\displaystyle{A}={186.7}{e}^{{{0.0374}{t}}}</m> what is the percent increase or decrease? <input type="text" style="width:8.2ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>Note all numbers are scientific measurements; round accordingly.</p>
+
+
+</statement>
+<solution>
+<p><ul><li>3.81</li></ul></p><p>The percent increase/decrease is calculated from <m>\displaystyle{e}^{{0.0374}}\approx{1.038108181073}</m>. Because this is bigger than 1, this is a percent increase and the result is <m>\displaystyle{1.038108181073}-{1}={0.038108181073004}\approx{0.0381}</m> and the percent is 3.81<percent/>.</p>
+<p>We round to 3 significant digits because the measurement (exponent) had 3 significant digits.</p>
+</solution>
+</myopenmath>

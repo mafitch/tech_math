@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1436224">
+<statement>
+<p>Initially, there were 510 wasps in a population, and it increases by 15<percent/> every 7 days.</p>
+<p><ul>
+  <li><p>What will be the population at <m>\displaystyle{t}={12}</m> days? <lbracket/>Round your answer to the nearest whole number.<rbracket/></p>
+<p>
+    Answer: <input type="text" style="width:7ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/>   </p></li>
+  <li><p>Write a formula for the population of wasps as a function of <m>\displaystyle{t}</m>. </p>
+<p>
+    Answer: <m>\displaystyle{P}{\left({t}\right)}=</m><input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/>  
+</p></li>
+</ul></p>
+
+</statement>
+<solution>
+<p><ul><li>648</li><li><m>\displaystyle{510}\cdot{\left({1.15}\right)}^{{\frac{{t}}{{7}}}}</m></li></ul></p>
+</solution>
+</myopenmath>

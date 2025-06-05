@@ -4,7 +4,7 @@
 <p>
 Solve the following system.</p>
 <p>
-<m>\displaystyle{\left.\begin{array}{ccccc} {y}\amp-\amp{3}{z}\amp=\amp{3}\\-{5}{y}\amp+\amp{7}{z}\amp=\amp{6}\end{array}\right.}</m></p>
+<m>\displaystyle{\left.\begin{array}{ccccc} {y}\amp+\amp{6}{z}\amp=\amp-{6}\\{5}{y}\amp+\amp{7}{z}\amp=\amp-{4}\end{array}\right.}</m></p>
 <p>
 Solution: <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
 <p>
@@ -14,32 +14,32 @@ Enter your answers as integers or reduced fractions.
 </p>
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-\frac{{39}}{{8}},-\frac{{21}}{{8}}\right)}</m></li></ul></p><p>To solve with elimination, we need to get opposite coefficients on one variable. In this case, notice that the <m>\displaystyle{x}</m> does not have a coefficient in the first equation (it's coefficient is <m>\displaystyle{1}</m>). So to get opposite coefficients we can multiply the first equation by <m>\displaystyle{5}</m>:</p>
+<p><ul><li><m>\displaystyle{\left(\frac{{18}}{{23}},-\frac{{26}}{{23}}\right)}</m></li></ul></p><p>To solve with elimination, we need to get opposite coefficients on one variable. In this case, notice that the <m>\displaystyle{x}</m> does not have a coefficient in the first equation (it's coefficient is <m>\displaystyle{1}</m>). So to get opposite coefficients we can multiply the first equation by <m>\displaystyle-{5}</m>:</p>
 <p>
-<m>\displaystyle{5}\cdot{\left({x}-{3}{y}={3}\right)}</m> </p>
+<m>\displaystyle-{5}\cdot{\left({x}+{6}{y}=-{6}\right)}</m> </p>
 <p>
-  <m>\displaystyle{5}{x}-{15}{y}={15}</m></p>
+  <m>\displaystyle-{5}{x}-{30}{y}={30}</m></p>
 <p>
 Here is our updated system:</p>
 <p>
-<m>\displaystyle{5}{x}-{15}{y}={15}</m></p>
+<m>\displaystyle-{5}{x}-{30}{y}={30}</m></p>
 <p>
-  <m>\displaystyle-{5}{x}+{7}{y}={6}</m></p>
+  <m>\displaystyle{5}{x}+{7}{y}=-{4}</m></p>
 <p>
 The next step is to add the equations together. The <m>\displaystyle{x}</m> terms cancel and we are left with:</p>
 <p>
-<m>\displaystyle-{8}{y}={21}</m></p>
+<m>\displaystyle-{23}{y}={26}</m></p>
 <p>
 Solving for <m>\displaystyle{y}</m> we get:</p>
 <p>
-<m>\displaystyle{y}=\frac{{21}}{{-{{8}}}}=-\frac{{21}}{{8}}</m></p>
+<m>\displaystyle{y}=\frac{{26}}{{-{{23}}}}=-\frac{{26}}{{23}}</m></p>
 <p>
 Now that we know <m>\displaystyle{y}</m>, we can plug into the one of the original equations to find <m>\displaystyle{x}</m>. Let's use the first equation:</p>
 <p>
-<m>\displaystyle{x}-{3}\cdot{\left(-\frac{{21}}{{8}}\right)}={3}</m></p>
+<m>\displaystyle{x}+{6}\cdot{\left(-\frac{{26}}{{23}}\right)}=-{6}</m></p>
 <p>
-  <m>\displaystyle{x}={3}+{3}\cdot{\left(-\frac{{21}}{{8}}\right)}=-\frac{{39}}{{8}}</m></p>
+  <m>\displaystyle{x}=-{6}-{6}\cdot{\left(-\frac{{26}}{{23}}\right)}=\frac{{18}}{{23}}</m></p>
 <p>
-So the solution is <m>\displaystyle{\left(-\frac{{39}}{{8}},-\frac{{21}}{{8}}\right)}</m>.</p>
+So the solution is <m>\displaystyle{\left(\frac{{18}}{{23}},-\frac{{26}}{{23}}\right)}</m>.</p>
 </solution>
 </myopenmath>

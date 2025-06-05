@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
+<statement>
+<image width="33%" pi:generated="problems/images/mom-1057112-1.png"/><p>
+Suppose a = 4 and A = 65 degrees. Calculate:</p>
+<p>
+b = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
+<p>
+c = <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/></p>
+<p>
+B = <input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
+<p>
+Round all answers to one decimal place.  Give angles in <em>degrees</em>
+</p>
+</statement>
+<solution>
+<p><ul><li>1.9</li><li>4.4</li><li>25.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p>For the length of the other leg,</p>
+<p>
+  <m>\displaystyle{\tan{{\left({65}\right)}}}=\frac{{4}}{{b}}</m>.</p>
+<p>
+  <m>\displaystyle{b}=\frac{{4}}{{\tan{{\left({65}\right)}}}}</m>.</p>
+<p>
+  <m>\displaystyle{b}\approx{1.86523063262}\approx{1.9}</m>.</p>
+<p>For the third side</p>
+<p>
+  <m>\displaystyle{c}^{{2}}={4}^{{2}}+{1.86523063262}^{{2}}</m>.</p>
+<p>
+  <m>\displaystyle{c}^{{2}}={16}+{3.479085312864}</m>.</p>
+<p>
+  <m>\displaystyle{c}^{{2}}={19.479085312864}</m>.</p>
+<p>
+  <m>\displaystyle{c}=\sqrt{{{19.479085312864}}}</m>.</p>
+<p>
+  <m>\displaystyle{c}\approx{4.41351167585}\approx{4.4}</m>.</p>
+<p>For angle B</p>
+<p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{65}^{\circ}\approx{25}^{\circ}</m></p>
+
+</solution>
+</myopenmath>

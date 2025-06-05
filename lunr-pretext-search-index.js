@@ -4732,7 +4732,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Rational Expressions",
-  "body": " Rational Expressions   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents algebra needed to work with models involving more complex, rational (fractional) expressions; and it presents how to answer questions requiring adding rates.    Re-arranging Rational Expressions  In previous sections many of the models involving rational (fractional) expressions could be set up so we solved for a variable in the numerator. In this section we look at multiple examples in which we must solve for a variable in the denominator.   Gear Measurements   Two gears with pitch diameter and outer diameter labeled.   Outer diameter is labeled as the length of a line going from the tip of one gear tooth to the tip of the gear tooth diametrically opposed. Pitch diameter is labeled as the length of a diameter of a circle drawn roughly half way between bottom and top of the gear teeth. That circle is rubbing against the matching circle of the second gear (as if these were toothless wheels).      Gear Design   For ANSI standard gears there is a relationship between the number of teeth, and diameters of the gear. where  is the total number of teeth  the diameter of the outside of the gear, and  is the pitch diameter.  Outer diameter is the diameter of a circle that contains the tips of the teeth. Pitch diameter is the diameter of a circle such that this gear touches the other gear at this distance. It is illustrated as the dashed circles in the figure above.     Suppose we know the outer diameter (17\/8\") and pitch diameter (2\") needed for a gear. What are the steps to solve for the number of teeth? The number of teeth must end up an integer (half a gear tooth is just a broken gear). Thus there will be no rounding. If the calculation gives a non-integer result, we must change something in the design.  First we convert the outer diameter to decimal: . The model is Thus this gear will have 32 teeth (total).    Formula for Number of Teeth  If we are going to perform this calculation regularly, we can solve the equation for .   Notice we needed to collect the terms with . This required distributing (third line), collecting on one side, then factoring.    Pitch Diamter    A problem with similar algebra is the when we are solving for temperature. The next example illustrates the necessary algebra.   Suppose the conditions for a tire are psi at a temperature of F. At what temperature will the pressure drop below the safe value of 28 psi? Because our gauges are not more accurate we will round to units.  We can use the ideal gas law version below. Note that the volume does not change (the tire size does not change).    The final example in this section presents a type of problem involving adding multiple fractions. This is needed for the resistors in parallel problem and is connected to the next section on additive rates.   Parallel Resistors   When two resistors are in parallel as shown in then the resulting resistance is given by .  If there are more than two resistors, the model is expanded by adding an additional term for each resistor.     Resistors in Parallel   Diagram of a battery with two resistors in parallel.   From the positive side of the battery the circuit continues and then splits into a Y. On each branch of the Y is a resitor. From the farther side of both resitors the circuit continues and comes back together (reverse Y). From here the circuit returns to the negative side of the battery.     The primary algebra technique required is to obtain common denominators.   Parallel Resistance  Calculate the resulting resistance when one resistor is 4 Ohms ( ) and the other is 12 Ohms ( ).  Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., cross multiplication ).    Parallel Resistance Solving  In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.  If we need a 5 Ohm resistance and have an 8 Ohm resistor already, what do we add as the second resistor? Resistor measurements are commonly accurate to 5%. For this problem that allows us to round to units. This is because 5% of 5 is much less than one.      Parallel Resistance Solving            If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain.     Rates  There are many times when we need to calculate the rate at which something can be accomplished when more than one person\/thing is working on it. This section illustrates how to obtain a resulting rate from the individual rates. This process requires algebra similar to that above.   Joint Work: Draining Basement  A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?  The question is how to calculate the speed of the combined pumps. Adding a pump should increase the speed. Thus we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of and the second pump operates at a rate of . Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is . We did not convert to decimal notation, because we will be setting up a proportion, so we want the rate in fraction form.  The next step is to use this rate to determine how long it takes to empty one basement. This is setting up a proportion. Given this is in hours it makes sense to round to the hundredths (a little less than a minute). It also makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).  Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement\/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. . Thus if both pumps are working it will take 1.72 hours drain the basement.  The increase in speed results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).    How to Use an Example: Joint Work  If one housekeeper can clean a hotel room in 11 minutes, and another can clean a room in 13 minutes. How long will it take them combined to clean 27 rooms?  Because the question asks us to determine combined speed, we recognize this as a joint work problem. Looking at we see that the first step was to write down the two rates. and .  After writing the rates, we realize we need to add the rates.  After calculating the rate, the next step is setting up the proportion. In this case we want to calculate the time to clean 27 rooms. Because this is about the time required to complete a task it makes sense to round up.                                                       "
+  "body": " Rational Expressions   This section addresses the following topics.  Read and use mathematical models in a technical document  Communicate results in mathematical notation and in language appropriate to the technical field  This section covers the following mathematical concepts.  Solve linear, rational, quadratic, and exponential equations and formulas (skill)    This section presents algebra needed to work with models involving more complex, rational (fractional) expressions; and it presents how to answer questions requiring adding rates.    Re-arranging Rational Expressions  In previous sections many of the models involving rational (fractional) expressions could be set up so we solved for a variable in the numerator. In this section we look at multiple examples in which we must solve for a variable in the denominator.   Gear Measurements   Two gears with pitch diameter and outer diameter labeled.   Outer diameter is labeled as the length of a line going from the tip of one gear tooth to the tip of the gear tooth diametrically opposed. Pitch diameter is labeled as the length of a diameter of a circle drawn roughly half way between bottom and top of the gear teeth. That circle is rubbing against the matching circle of the second gear (as if these were toothless wheels).      Gear Design   For ANSI standard gears there is a relationship between the number of teeth, and diameters of the gear. where  is the total number of teeth  the diameter of the outside of the gear, and  is the pitch diameter.  Outer diameter is the diameter of a circle that contains the tips of the teeth. Pitch diameter is the diameter of a circle such that this gear touches the other gear at this distance. It is illustrated as the dashed circles in the figure above.     Suppose we know the outer diameter (17\/8\") and pitch diameter (2\") needed for a gear. What are the steps to solve for the number of teeth? The number of teeth must end up an integer (half a gear tooth is just a broken gear). Thus there will be no rounding. If the calculation gives a non-integer result, we must change something in the design.  First we convert the outer diameter to decimal: . The model is Thus this gear will have 32 teeth (total).    Formula for Number of Teeth  If we are going to perform this calculation regularly, we can solve the equation for .   Notice we needed to collect the terms with . This required distributing (third line), collecting on one side, then factoring.    Pitch Diamter    A problem with similar algebra is the when we are solving for temperature. The next example illustrates the necessary algebra.   Suppose the conditions for a tire are psi at a temperature of F. At what temperature will the pressure drop below the safe value of 28 psi? Because our gauges are not more accurate we will round to units.  We can use the ideal gas law version below. Note that the volume does not change (the tire size does not change).    Some rational expressions have the variable in both numerator and denominator. These are handled exactly the same: we can still multiply to eliminate the fractions.   The following expression comes from an equilibrium problem in chemistry. Here we need to convert this rational expression into a polynomial.   Later ( ), we will learn to solve this equation.   The final example in this section presents a type of problem involving adding multiple fractions. This is needed for the resistors in parallel problem and is connected to the next section on additive rates.   Parallel Resistors   When two resistors are in parallel as shown in then the resulting resistance is given by .  If there are more than two resistors, the model is expanded by adding an additional term for each resistor.     Resistors in Parallel   Diagram of a battery with two resistors in parallel.   From the positive side of the battery the circuit continues and then splits into a Y. On each branch of the Y is a resitor. From the farther side of both resitors the circuit continues and comes back together (reverse Y). From here the circuit returns to the negative side of the battery.     The primary algebra technique required is to obtain common denominators.   Parallel Resistance  Calculate the resulting resistance when one resistor is 4 Ohms ( ) and the other is 12 Ohms ( ).  Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., cross multiplication ).    Parallel Resistance Solving  In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.  If we need a 5 Ohm resistance and have an 8 Ohm resistor already, what do we add as the second resistor? Resistor measurements are commonly accurate to 5%. For this problem that allows us to round to units. This is because 5% of 5 is much less than one.      Parallel Resistance Solving            If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain.     Rates  There are many times when we need to calculate the rate at which something can be accomplished when more than one person\/thing is working on it. This section illustrates how to obtain a resulting rate from the individual rates. This process requires algebra similar to that above.   Joint Work: Draining Basement  A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?  The question is how to calculate the speed of the combined pumps. Adding a pump should increase the speed. Thus we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of and the second pump operates at a rate of . Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is . We did not convert to decimal notation, because we will be setting up a proportion, so we want the rate in fraction form.  The next step is to use this rate to determine how long it takes to empty one basement. This is setting up a proportion. Given this is in hours it makes sense to round to the hundredths (a little less than a minute). It also makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).  Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement\/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. . Thus if both pumps are working it will take 1.72 hours drain the basement.  The increase in speed results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).    How to Use an Example: Joint Work  If one housekeeper can clean a hotel room in 11 minutes, and another can clean a room in 13 minutes. How long will it take them combined to clean 27 rooms?  Because the question asks us to determine combined speed, we recognize this as a joint work problem. Looking at we see that the first step was to write down the two rates. and .  After writing the rates, we realize we need to add the rates.  After calculating the rate, the next step is setting up the proportion. In this case we want to calculate the time to clean 27 rooms. Because this is about the time required to complete a task it makes sense to round up.                                                             "
 },
 {
   "id": "figure-gear-measurements",
@@ -4789,11 +4789,20 @@ var ptx_lunr_docs = [
   "body": " Suppose the conditions for a tire are psi at a temperature of F. At what temperature will the pressure drop below the safe value of 28 psi? Because our gauges are not more accurate we will round to units.  We can use the ideal gas law version below. Note that the volume does not change (the tire size does not change).   "
 },
 {
+  "id": "example-rational-solve-chemistry-ICE",
+  "level": "2",
+  "url": "section-rational.html#example-rational-solve-chemistry-ICE",
+  "type": "Example",
+  "number": "3.5.7",
+  "title": "",
+  "body": " The following expression comes from an equilibrium problem in chemistry. Here we need to convert this rational expression into a polynomial.   Later ( ), we will learn to solve this equation.  "
+},
+{
   "id": "model-resistors-parallel",
   "level": "2",
   "url": "section-rational.html#model-resistors-parallel",
   "type": "Model",
-  "number": "3.5.7",
+  "number": "3.5.8",
   "title": "Parallel Resistors.",
   "body": " Parallel Resistors   When two resistors are in parallel as shown in then the resulting resistance is given by .  If there are more than two resistors, the model is expanded by adding an additional term for each resistor.   "
 },
@@ -4802,7 +4811,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#figure-parallel-resistance",
   "type": "Figure",
-  "number": "3.5.8",
+  "number": "3.5.9",
   "title": "",
   "body": " Resistors in Parallel   Diagram of a battery with two resistors in parallel.   From the positive side of the battery the circuit continues and then splits into a Y. On each branch of the Y is a resitor. From the farther side of both resitors the circuit continues and comes back together (reverse Y). From here the circuit returns to the negative side of the battery.    "
 },
@@ -4811,7 +4820,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#example-parallel-resistance-dual",
   "type": "Example",
-  "number": "3.5.9",
+  "number": "3.5.10",
   "title": "Parallel Resistance.",
   "body": " Parallel Resistance  Calculate the resulting resistance when one resistor is 4 Ohms ( ) and the other is 12 Ohms ( ).  Note the need for a common denominator in the third line. The final step is our now frequently used clearing of denominators (i.e., cross multiplication ).  "
 },
@@ -4820,7 +4829,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#example-parallel-resistance-dual2",
   "type": "Example",
-  "number": "3.5.10",
+  "number": "3.5.11",
   "title": "Parallel Resistance Solving.",
   "body": " Parallel Resistance Solving  In the previous example we knew the two resistors and calculated the resulting resistance. In other cases we know how much resistance we need and one of the resistors. We must calculate the resistance for the other resistor.  If we need a 5 Ohm resistance and have an 8 Ohm resistor already, what do we add as the second resistor? Resistor measurements are commonly accurate to 5%. For this problem that allows us to round to units. This is because 5% of 5 is much less than one.    "
 },
@@ -4829,7 +4838,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#figure-video-parallel-resistance",
   "type": "Figure",
-  "number": "3.5.11",
+  "number": "3.5.12",
   "title": "",
   "body": " Parallel Resistance Solving   "
 },
@@ -4838,7 +4847,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#exercise-rational-parallel-resistors1",
   "type": "Checkpoint",
-  "number": "3.5.12",
+  "number": "3.5.13",
   "title": "",
   "body": "   "
 },
@@ -4847,7 +4856,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#exercise-rational-parallel-resistors2",
   "type": "Checkpoint",
-  "number": "3.5.13",
+  "number": "3.5.14",
   "title": "",
   "body": "  "
 },
@@ -4856,7 +4865,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#exercise-rational-parallel-resistors-thought",
   "type": "Checkpoint",
-  "number": "3.5.14",
+  "number": "3.5.15",
   "title": "",
   "body": " If we need 5 Ohm resistance and one of our resistors is a 4 Ohm resistor, is there a second resistor to make this work? Explain.  "
 },
@@ -4865,7 +4874,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#example-joint-work1",
   "type": "Example",
-  "number": "3.5.15",
+  "number": "3.5.16",
   "title": "Joint Work: Draining Basement.",
   "body": " Joint Work: Draining Basement  A company has two pumps available for draining flooded basements. One pump can drain a basement in 4 hours, whereas the other pump can do the job in only 3 hours. How long would it take to drain the basement if both pumps are used simulataneously?  The question is how to calculate the speed of the combined pumps. Adding a pump should increase the speed. Thus we want to determine a way to add the speeds. We can start by writing down the rates to see what that suggests. The first pump operates at a rate of and the second pump operates at a rate of . Because rates are ratios (fractions), and the units match, we know how to add them. The combined rate is . We did not convert to decimal notation, because we will be setting up a proportion, so we want the rate in fraction form.  The next step is to use this rate to determine how long it takes to empty one basement. This is setting up a proportion. Given this is in hours it makes sense to round to the hundredths (a little less than a minute). It also makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).  Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement\/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. . Thus if both pumps are working it will take 1.72 hours drain the basement.  The increase in speed results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).  "
 },
@@ -4874,7 +4883,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#example-use-example-joint-work",
   "type": "Example",
-  "number": "3.5.16",
+  "number": "3.5.17",
   "title": "How to Use an Example: Joint Work.",
   "body": " How to Use an Example: Joint Work  If one housekeeper can clean a hotel room in 11 minutes, and another can clean a room in 13 minutes. How long will it take them combined to clean 27 rooms?  Because the question asks us to determine combined speed, we recognize this as a joint work problem. Looking at we see that the first step was to write down the two rates. and .  After writing the rates, we realize we need to add the rates.  After calculating the rate, the next step is setting up the proportion. In this case we want to calculate the time to clean 27 rooms. Because this is about the time required to complete a task it makes sense to round up.  "
 },
@@ -4883,7 +4892,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-rational.html#subsection-rational-rates-5",
   "type": "Checkpoint",
-  "number": "3.5.17",
+  "number": "3.5.18",
   "title": "",
   "body": "   "
 },
@@ -5019,6 +5028,24 @@ var ptx_lunr_docs = [
   "url": "section-rational.html#section-rational-5-15",
   "type": "Exercise",
   "number": "3.5.3.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-rational-5-16",
+  "level": "2",
+  "url": "section-rational.html#section-rational-5-16",
+  "type": "Exercise",
+  "number": "3.5.3.16",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "section-rational-5-17",
+  "level": "2",
+  "url": "section-rational.html#section-rational-5-17",
+  "type": "Exercise",
+  "number": "3.5.3.17",
   "title": "",
   "body": "  "
 },

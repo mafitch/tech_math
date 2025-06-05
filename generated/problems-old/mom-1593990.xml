@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1593990">
+<statement>
+<p>Consider the radioactive decay model for Ytterbium-169: <m>\displaystyle{A}={46.7}{\left(\frac{{1}}{{2}}\right)}^{{{t}{/}{32.01}}}</m></p>
+<p>
+  where <m>\displaystyle{t}</m> is in units of days.</p>
+<p>What is the initial amount? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>
+  What is the annual percent increase or decrease? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
+<p>Use 365 days/year, 8760 hours per year, and 525600 minutes per year.</p>
+
+
+</statement>
+<solution>
+<p><ul><li>46.7</li><li>99.963064049114</li></ul></p><p>The initial amount is the coefficient in front, because when <m>\displaystyle{t}={0}</m> the second factor is just one. So the initial amount is 46.7.</p>
+<p>To obtain the <em>annual</em> percent decrease, we need to convert the units to years. 32.01 days is <m>\displaystyle\frac{{32.01}}{{365}}={0.087698630136986}</m> years.</p>
+<p>Next we need to convert to the form <m>\displaystyle{\left({1}+{p}\right)}^{{t}}</m>. We can do this by expanding <m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{0.087698630136986}}}}={\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{0.087698630136986}}}}\right)}^{{t}}={0.00036935950885786}^{{t}}</m>. Now we can calculate the percent decrease as <m>\displaystyle{1}-{0.00036935950885786}={0.99963064049114}</m>. Converting to percent this is <m>\displaystyle{100}{\left({0.99963064049114}\right)}={99.963064049114}\%</m>.</p>
+</solution>
+</myopenmath>
