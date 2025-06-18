@@ -757,81 +757,76 @@ class sigfig_multi(Scene):
 
         eq1 = MathTex(r'\left(','{57-46', r'\over','{46}}',r'\right)','(','6.1+48.2',')')
         eq2 = MathTex(r'\left(','{11 ',r'\over',' 46}',r'\right)','(','6.1+48.2',')')
-        eq3 = MathTex('(','0.23','9130',')','(','6.1+48.2',')')
+        eq3 = MathTex(r'\left(','{11 ',r'\over',' 46}',r'\right)','(','54.3',')')
         eq4 = MathTex('(','0.23','9130',')','(','54.3',')')
         eq5 = MathTex('12','.9847590')
         eq6 = MathTex('13')
 
         # Initial calculation
         self.add(eq1)
-        self.wait(6)
+        self.wait(5)
 
         # First step
-        text1a = Tex("First, subtract",font_size=40).to_edge(DOWN)
+        text1a = Tex("First, subtract").to_edge(DOWN)
         self.play(FadeIn(text1a))
         self.play(Indicate(eq1[1]))
         self.wait(1)
         self.remove(text1a)
-        text1 = Tex("Both are precise to units, so subtraction maintains that precision.",font_size=40).to_edge(DOWN)
-        self.play(FadeIn(text1))
-        self.wait(1)
-        self.play(ReplacementTransform(eq1, eq2))
-        self.wait(2)
+        text1 = Tex("Both are precise to units, so subtraction maintains that precision.").to_edge(DOWN)
+        self.play(FadeIn(text1),
+            ReplacementTransform(eq1, eq2)
+        )
+        self.wait(3)
         self.play(FadeOut(text1))
 
         # Second step
-        text2a = Tex("Second, divide",font_size=40).to_edge(DOWN)
+        text2a = Tex("Next, add").to_edge(DOWN)
         self.play(FadeIn(text2a))
-        self.play(Indicate(eq2[1:4]))
+        self.play(Indicate(eq2[6]))
         self.wait(1)
         self.remove(text2a)
-        text2 = Tex("Both have 2 sigfigs, so division maintains 2 sigfigs.",font_size=40).to_edge(DOWN)
-        eq3[2].set_color(GRAY)
-        self.play(FadeIn(text2))
-        self.wait(1)
-        self.play(ReplacementTransform(eq2, eq3))
-        self.wait(2)
+        text2 = Tex("Both are precise to tenths, so addition maintains that precision.").to_edge(DOWN)
+        self.play(FadeIn(text2),
+            ReplacementTransform(eq2, eq3)
+        )
+        self.wait(3)
         self.play(FadeOut(text2))
 
         # Third step
-        text3a = Tex("Next, add",font_size=40).to_edge(DOWN)
+        text3a = Tex("Next divide").to_edge(DOWN)
         self.play(FadeIn(text3a))
-        self.play(Indicate(eq3[5]))
+        self.play(Indicate(eq3[1:4]))
         self.wait(1)
         self.remove(text3a)
+        text3 = Tex("Both have 2 sigfigs, so division maintains 2 sigfigs.").to_edge(DOWN)
         eq4[2].set_color(GRAY)
-        text3 = Tex("Both are precise to tenths, so addition maintains that precision.",font_size=40).to_edge(DOWN)
-        self.play(FadeIn(text3))
-        self.wait(1)
-        self.play(ReplacementTransform(eq3, eq4))
-        self.wait(2)
+        self.play(FadeIn(text3),
+            ReplacementTransform(eq3, eq4)
+        )
+        self.wait(3)
         self.play(FadeOut(text3))
 
         # Fourth step
-        text4a = Tex("Then, multiply",font_size=40).to_edge(DOWN)
+        text4a = Tex("Next, multiply").to_edge(DOWN)
         self.play(FadeIn(text4a))
         self.play(Indicate(eq4))
         self.wait(1)
         self.remove(text4a)
-        text4 = Tex("The left has 2 sigfigs, so the product maintains only 2 sigfigs.",font_size=40).to_edge(DOWN)
+        text4 = Tex("Both have 2 sigfigs, so the product maintains 2 sigfigs.").to_edge(DOWN)
         eq5[1].set_color(GRAY)
-        self.play(FadeIn(text4))
-        self.wait(1)
-        self.play(ReplacementTransform(eq4, eq5))
-        self.wait(2)
+        self.play(FadeIn(text4),
+            ReplacementTransform(eq4, eq5)
+        )
+        self.wait(3)
         self.play(FadeOut(text4))
 
         # Fifth step
-        text5a = Tex("With the calculations completed, round.",font_size=40).to_edge(DOWN)
-        self.play(FadeIn(text5a))
-        self.wait(1)
-        self.remove(text5a)
-        text5 = Tex("Round to the last significant digit (2 digits which is units).",font_size=40).to_edge(DOWN)
-        self.play(FadeIn(text5))
-        self.wait(1)
-        self.play(ReplacementTransform(eq5, eq6))
+        text5 = Tex("With the calculations completed, round to the last significant digit.").to_edge(DOWN)
+        self.play(FadeIn(text5),
+            ReplacementTransform(eq5, eq6)
+        )
 
-        self.wait(4)
+        self.wait(5)
 
 class exp_base2(Scene):
     def construct(self):
