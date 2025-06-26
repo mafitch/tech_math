@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle-{6}{x}+{3}{y}=-{27}</m> </p>
+<p><m>\displaystyle-{5}{x}+{3}{y}=-{36}</m> </p>
 <p>
-  <m>\displaystyle{6}{x}+{2}{y}={52}</m></p>
+  <m>\displaystyle-{x}+{4}{y}={3}</m></p>
 <p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({7},{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of -6. So we scale by <m>\displaystyle-\frac{{6}}{{-{{6}}}}</m>.</p>
-<p><m>\displaystyle-\frac{{{6}}}{{-{{6}}}}{\left(-{6}{x}+{3}{y}\right)}=-\frac{{{6}}}{{-{{6}}}}{\left(-{27}\right)}</m></p>
-<p><m>\displaystyle-{\left({6}\right)}{x}+{3}{y}=-{27}</m></p>
-<p><m>\displaystyle{6}{x}+{2}{y}={52}</m></p>
+<p><ul><li><m>\displaystyle{\left({9},{3}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of --1. So we scale by <m>\displaystyle--\frac{{1}}{{-{{5}}}}</m>.</p>
+<p><m>\displaystyle-\frac{{-{1}}}{{-{{5}}}}{\left(-{5}{x}+{3}{y}\right)}=-\frac{{-{1}}}{{-{{5}}}}{\left(-{36}\right)}</m></p>
+<p><m>\displaystyle-{\left(-{1}\right)}{x}+-{0.6}{y}={7.2}</m></p>
+<p><m>\displaystyle-{x}+{4}{y}={3}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{5}{y}={25}</m></p>
-<p><m>\displaystyle{y}=\frac{{25}}{{5}}</m></p>
-<p><m>\displaystyle{y}={5}</m></p>
+<p><m>\displaystyle{3.4}{y}={10.2}</m></p>
+<p><m>\displaystyle{y}=\frac{{10.2}}{{3.4}}</m></p>
+<p><m>\displaystyle{y}={3}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{6}{x}+{3}{\left({5}\right)}=-{27}</m></p>
-<p><m>\displaystyle-{6}{x}+{\left({15}\right)}=-{27}</m></p>
-<p><m>\displaystyle-{6}{x}=-{27}-{\left({15}\right)}</m></p>
-<p><m>\displaystyle-{6}{x}=-{42}</m></p>
-<p><m>\displaystyle{x}=-\frac{{42}}{{-{{6}}}}</m></p>
-<p><m>\displaystyle{x}={7}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({7},{5}\right)}</m>.</p>
+<p><m>\displaystyle-{5}{x}+{3}{\left({3}\right)}=-{36}</m></p>
+<p><m>\displaystyle-{5}{x}+{\left({9}\right)}=-{36}</m></p>
+<p><m>\displaystyle-{5}{x}=-{36}-{\left({9}\right)}</m></p>
+<p><m>\displaystyle-{5}{x}=-{45}</m></p>
+<p><m>\displaystyle{x}=-\frac{{45}}{{-{{5}}}}</m></p>
+<p><m>\displaystyle{x}={9}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({9},{3}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

@@ -1,16 +1,5 @@
 from manim import *
 
-class Test(Scene):
-    def construct(self):
-        myline = Line([-1,-1,0],[-1,1,0],stroke_color="WHITE",stroke_width="6")
-        mysquare = Square()
-        mysq2 = Square().to_edge(DOWN)
-
-        self.play( FadeIn(mysq2) )
-        self.wait(1)
-        self.play( GrowFromCenter(mysquare) )
-        self.wait(5)
-
 class SimilarTriangles(Scene):
     def construct(self):
         title = Text("Identifying Similar Triangles")
@@ -37,7 +26,7 @@ class SimilarTriangles(Scene):
         triangle1_vertices = triangle1.get_vertices()
         vertex_labels1 = VGroup()
         for i, vertex in enumerate(triangle1_vertices):
-            label = Tex(vertices1_labels[i]).next_to(vertex,triangle1_vertices[i]/3)
+            label = Tex(vertices1_labels[i],font_size=40).next_to(vertex,triangle1_vertices[i]/3)
             vertex_labels1.add(label)
         triangle1.move_to([-4,0,0])
         vertex_labels1.move_to([-4,0,0])
@@ -50,7 +39,7 @@ class SimilarTriangles(Scene):
         triangle2_vertices = triangle2.get_vertices()
         vertex_labels2 = VGroup()
         for i, vertex in enumerate(triangle2_vertices):
-            label = Tex(vertices2_labels[i]).next_to(vertex, triangle2_vertices[i]/3.9 )
+            label = Tex(vertices2_labels[i],font_size=40).next_to(vertex, triangle2_vertices[i]/3.9 )
             vertex_labels2.add(label)
         triangle2_vertices = triangle2.get_vertices()
         triangle2.move_to([4,0,0])
@@ -103,15 +92,21 @@ class SimilarTriangles(Scene):
         side_labels2_tex = ["106", "130", "157"]
 
         sides1 = [
-            Line(triangle1_vertices[1],triangle1_vertices[2],stroke_color="WHITE",stroke_width="6"),
-            Line(triangle1_vertices[2],triangle1_vertices[0],stroke_color="WHITE",stroke_width="6"),
-            Line(triangle1_vertices[0],triangle1_vertices[1],stroke_color="WHITE",stroke_width="6")
+            Line(triangle1_vertices[1],triangle1_vertices[2]),
+            Line(triangle1_vertices[2],triangle1_vertices[0]),
+            Line(triangle1_vertices[0],triangle1_vertices[1])
         ]
+        sides1[0].stroke_width=6
+        sides1[1].stroke_width=6
+        sides1[2].stroke_width=6
         sides2 = [
-            Line(triangle2_vertices[1],triangle2_vertices[2],stroke_color="WHITE",stroke_width="6"),
-            Line(triangle2_vertices[2],triangle2_vertices[0],stroke_color="WHITE",stroke_width="6"),
-            Line(triangle2_vertices[0],triangle2_vertices[1],stroke_color="WHITE",stroke_width="6")
+            Line(triangle2_vertices[1],triangle2_vertices[2]),
+            Line(triangle2_vertices[2],triangle2_vertices[0]),
+            Line(triangle2_vertices[0],triangle2_vertices[1])
         ]
+        sides2[0].stroke_width=6
+        sides2[1].stroke_width=6
+        sides2[2].stroke_width=6
         for i, seg in enumerate(sides1):
             pt0 = np.array(seg.point_from_proportion(0.5))
             mt = sides1[i].get_slope()
@@ -332,7 +327,7 @@ class convert_units(Scene):
         self.play(FadeIn(text1b))
         self.wait(1)
         self.play(FadeIn(slugs))
-        self.wait(1)
+        self.wait(2)
         self.play(Transform(slugs[1],eq2[2]),Transform(slugs[2],eq2[3]),Transform(slugs[4],eq2[5]))
         self.remove(eq1,slugs)
         self.add(eq2)
@@ -768,6 +763,7 @@ class sigfig_multiplication(Scene):
         self.play( Write(sum, reverse=True) )
         self.add(sum)
         self.wait(3)
+        self.remove(text5)
         text5a1 = Tex(r'{6cm}When we add a digit with uncertain value, the resulting digit must also be uncertain.',tex_environment="minipage").to_edge(UP)
         self.play( Write(text5a1) )
         sum[2:5].set_color(RED)
@@ -1085,7 +1081,8 @@ class exp_reverse(Scene):
         curve_negative = axes.plot(lambda t: func(-t), color=BLUE, x_range=[-4,4])
         self.play(Write(curve_negative))
         texts3 = Tex("So $2^{-x}$ is $2^x$ plotted backwards.")
-        texts3.next_to(xmarkspot,aligned_edge=LEFT)
+        texts3.to_edge(UP,buff=0.2)
+        self.add(texts3)
         self.wait(5)
 
 

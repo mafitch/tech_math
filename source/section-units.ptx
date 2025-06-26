@@ -342,7 +342,7 @@
                 <mrow>2 \text{ acres} \cdot \frac{43,560 \text{ ft}^2}{\text{ acre}} \cdot \frac{\text{mi}}{5280 \text{ ft}} \cdot \frac{\text{mi}}{5280 \text{ ft}} &amp; =</mrow>
                 <mrow>2 \text{ acres} \cdot \frac{43,560 \text{ ft}^2}{\text{ acre}} \cdot \left(\frac{\text{mi}}{5280 \text{ ft}}\right)^2 &amp; =</mrow>
                 <mrow>2 \text{ acres} \cdot \frac{43,560 \text{ ft}^2}{\text{ acre}} \cdot \frac{\text{mi}^2}{5280^2 \text{ ft}^2} &amp; = \frac{1}{320} \text{ mi}^2</mrow>
-                <mrow> &amp; = 0.003125</mrow>
+                <mrow> &amp; = 0.003125 \text{ mi}^2</mrow>
             </md></p>
             <p>It is not necessary to write all of the steps above if you understand how the final conversion line is obtained. The steps are included here to show how the squares show up in the final conversion.</p>
         </solution>
@@ -352,6 +352,22 @@
         <myopenmath problem="1443878" />
     </exercise>
 
+    <video youtube="fC2-uYouAP0" xml:id="video-example-unit-convert-compound" />
+
+    <example xml:id="example-unit-convert-compound">
+        <p>Calculate the value and resulting (simplified) units for <me>\frac{1}{2} \cdot \frac{0.002309 \text{ slugs}}{\text{ft}^3} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}}{\text{s}}\right)^2</me>. Note, the unit slug is defined as <me>\text{slug} = \frac{\text{lbs} \text{ s}^2}{\text{ft}}</me>.</p>
+        <p><md>
+            <mrow>\frac{1}{2} \cdot \frac{0.002309 \text{ slugs}}{\text{ft}^3} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}}{\text{s}}\right)^2 \amp = \text{ First, substitute slugs}</mrow>
+            <mrow>\frac{1}{2} \cdot \frac{0.002309 \text{ lbs} \text{ s}^2}{\text{ft} \cdot \text{ft}^3} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}}{\text{s}}\right)^2 \amp = \text{ Second, handle powers}</mrow>
+            <mrow>\frac{1}{2} \cdot \frac{0.002309 \text{ lbs} \text{ s}^2}{\text{ft}^4} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}^2}{\text{s}^2}\right) \amp = \text{ Now, collect units}</mrow>
+            <mrow>\frac{1}{2}(0.002309)(174)(3.1067)(75.95) \frac{ \text{ lbs} \text{ s}^2 \text{ ft}^2 \text{ ft}^2}{\text{ft}^4 \text{s}^2} \amp = \text{ Combine units}</mrow>
+            <mrow>\frac{1}{2}(0.002309)(174)(3.1067)(75.95) \frac{ \text{ lbs} \text{ s}^2 \text{ ft}^4}{\text{ft}^4 \text{s}^2} \amp = \text{ Calculate the result}</mrow>
+            <mrow>35\underline{9}9.963183 \frac{ \text{ lbs} \text{ s}^2 \text{ ft}^4}{\text{ft}^4 \text{s}^2} \amp = \text{ Divide units}</mrow>
+            <mrow>35\underline{9}9.963183 \frac{ \text{ lbs} \cancelhighlight{\text{ s}^2} \cancelhighlight{\text{ ft}^4}}{\cancelhighlight{\text{ft}^4} \cancelhighlight{\text{s}^2}} \amp = \text{ Divide units}</mrow>
+            <mrow>35\underline{9}9.963183 \text{ lbs} \amp = \text{ Round using sigfigs}</mrow>
+            <mrow>3600 \text{ lbs}</mrow>
+        </md></p>
+    </example>
 </subsection>
 
 <exercises>

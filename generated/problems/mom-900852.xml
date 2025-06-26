@@ -4,21 +4,21 @@
 <image width="33%" pi:generated="problems/images/mom-900852-1.png"/>
 <p>Find the area of the circle pictured above.</p>
 <p>Round your answer using the rules of working with significant figures. Note using the approximation of 3.14 for <m>\displaystyle\pi</m> may result in an incorrect answer.</p>
-<p><input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <m>\displaystyle\text{m}^{{2}}</m></p>
+<p><input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <m>\displaystyle\text{mm}^{{2}}</m></p>
 
 
 </statement>
 <solution>
-<p><ul><li>254</li></ul></p><p>We must use either the area formula in terms of a diameter (area<m>\displaystyle=\pi{\left(\frac{{d}}{{2}}\right)}^{{2}}</m>) or calculate the radius then the area (area<m>\displaystyle=\pi{r}^{{2}}</m>).</p>
-<p><m>\displaystyle\text{area}=\pi{\left(\frac{{18.0}}{{2}}\right)}^{{2}}</m></p>
+<p><ul><li>28.3</li></ul></p><p>We must use either the area formula in terms of a diameter (area<m>\displaystyle=\pi{\left(\frac{{d}}{{2}}\right)}^{{2}}</m>) or calculate the radius then the area (area<m>\displaystyle=\pi{r}^{{2}}</m>).</p>
+<p><m>\displaystyle\text{area}=\pi{\left(\frac{{6.00}}{{2}}\right)}^{{2}}</m></p>
 <p>
-  <m>\displaystyle=\pi{\left({9}\right)}^{{2}}</m></p>
+  <m>\displaystyle=\pi{\left({3}\right)}^{{2}}</m></p>
 <p>
-  <m>\displaystyle=\pi{\left({81}\right)}</m></p>
+  <m>\displaystyle=\pi{\left({9}\right)}</m></p>
 <p>
-  <m>\displaystyle\approx{254.46900494077}</m></p>
+  <m>\displaystyle\approx{28.274333882308}</m></p>
 <p>
-  <m>\displaystyle\approx{254}</m>.</p>
-<p>To use the radius formula we calculate <m>\displaystyle{r}={\left(\frac{{18.0}}{{2}}\right)}</m> and then use the formula which is step two above.</p>
+  <m>\displaystyle\approx{28.3}</m>.</p>
+<p>To use the radius formula we calculate <m>\displaystyle{r}={\left(\frac{{6.00}}{{2}}\right)}</m> and then use the formula which is step two above.</p>
 </solution>
 </myopenmath>

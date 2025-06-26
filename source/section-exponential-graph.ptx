@@ -52,6 +52,8 @@
         <p>Let's clarify that last statement. We notice that all values (left and right) are positive. So to the left the curve is going down, but it never crosses zero. It must therefore become increasingly close to zero. This is why it begins to look like a line namely <m>x=0</m>. When one curve becomes increasingly like another we call that second curve (the line <m>x=0</m> in this case) an <term>asymptote</term>.</p>
     </example>
 
+    <video youtube="bHkSVh_Jq-k"/>
+
     <p>This decrease to the left can be understood in contexts as well.</p>
 
     <example xml:id="example-exponential-decrease1" >
@@ -128,12 +130,9 @@
         </task>
     </example>
 
-    <p>The following video illustrates the connection between a fixed time (half-life) and decreasing by a ratio (1/2).</p>
+    <p>The following video geometrically illustrates the connection between a fixed time (half-life) and decreasing by a ratio (1/2).</p>
 
-    <figure xml:id="figure-exponential-half-life">
-        <caption>Geometric Illustration of Half-Life</caption>
-        <video youtube="RMFb2FPw02o" />
-    </figure>
+    <video label="video-external-half-life" youtube="RMFb2FPw02o" />
 
 </subsection>
 
@@ -384,6 +383,8 @@
         </image>
         <p>Notice that every point ends up on the other side of the y-axis. This is a reflection of the original curve.</p>
     </example>
+
+    <video youtube="WkCyF2kk2ZY"/>
 
     <example xml:id="example-exponential-stretch-horizontal">
         <title>Horizontally Stretch an Exponential</title>

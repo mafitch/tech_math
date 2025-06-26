@@ -153,7 +153,7 @@
 
     <p>The significant digits addition/subtraction rule basically says that adding precise data to imprecise data does not increase the precision of the imprecise data. For those who are curious, an explanation of why this rule works is in this video.</p>
 
-    <video youtube="kxnjKrjXOH4" xml:id="video-example-sigfig-add" />
+    <video youtube="DziRB5vChBg" xml:id="video-example-sigfig-add" />
 
     <p>Exact numbers may be mixed in calculations with addition/subtraction. For example suppose we are converting temperature from Fahrenheit to Celsius based on a thermometer reading. The formula is <m>C=\frac{5}{9}(F-32)</m>. The 32 and 5/9 are exact numbers (part of the definition of the Fahrenheit and Celsius systems). The F (measured temperature) would have limited precision and therefore determine the precision of the result.</p>
 
@@ -185,7 +185,7 @@
 
     <p>The significant digit multiplication/division rule basically says that digits that were multiplied by imprecise data cannot be precise. For those who are curious, an explanation of why this rule works is in this video.</p>
 
-    <video youtube="oQ48Agi4TfI" xml:id="video-example-sigfig-multiply" />
+    <video youtube="hMr50KJnaRc" xml:id="video-example-sigfig-multiply" />
 
     <p>Exact numbers may be mixed in calculations with multiplication and division. The following example illustrates how we determine the resulting number of significant digits when exact numbers are mixed with measurements.</p>
 
@@ -249,6 +249,8 @@
         Using these two possibilities we see that the value could be anywhere from 121.125 to 146.64. The one hundred is the only digit about which we can be certain. That is why it is the only significant digit and why we eliminate (replace with zero) all the others.</p>
         <p>If losing this much precision is a problem, then we need to obtain more precise measurements.</p>
     </example>
+
+    <video label="video-sigfigs-multi" youtube="huyOIk5La-k"/>
 
     <p>Significant digts communicates which digits are definitely meaningful. There are other motivations for rounding which lead to keeping more digits. This will be addressed in the next section.</p>
 

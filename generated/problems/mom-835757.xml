@@ -4,36 +4,36 @@
 <p>
 A <em>kite</em> is a quadrilateral with two pairs of adjacent sides of equal length (think of simple ones you can fly).</p>
 <p>
-A kite has two sides of length 5.4 and two sides of length 5.2 (all measured in yards).  The angle between the sides of length 5.4 is 57°.</p><image width="42%" pi:generated="problems/images/mom-835757-1.png"/><p>
+A kite has two sides of length 3.6 and two sides of length 5.3 (all measured in yards).  The angle between the sides of length 3.6 is 63°.</p><image width="42%" pi:generated="problems/images/mom-835757-1.png"/><p>
 What is the area of this kite? <input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> yd²</p>
 <p>
 Round using measurement rules.
 </p>
 </statement>
 <solution>
-<p><ul><li>24</li></ul></p><p>A kite can be broken down into two triangles. One way is to use the isosceles triangle at the top (two sides of length 5.2) and another on the bottom (two sides of length 5.4). If we calculate the length of the segment cutting across the middle, we can use Heron's formula for the area of both triangles.</p>
+<p><ul><li>15</li></ul></p><p>A kite can be broken down into two triangles. One way is to use the isosceles triangle at the top (two sides of length 5.3) and another on the bottom (two sides of length 3.6). If we calculate the length of the segment cutting across the middle, we can use Heron's formula for the area of both triangles.</p>
 <p>Because we know two sides and the angle between (SAS), we can use the Law of Cosines</p>
-<p><m>\displaystyle{c}^{{2}}={5.4}^{{2}}+{5.4}^{{2}}-{2}{\left({5.4}\right)}{\left({5.4}\right)}{\cos{{\left({57}^\circ\right)}}}</m></p>
+<p><m>\displaystyle{c}^{{2}}={3.6}^{{2}}+{3.6}^{{2}}-{2}{\left({3.6}\right)}{\left({3.6}\right)}{\cos{{\left({63}^\circ\right)}}}</m></p>
 <p>
-  <m>\displaystyle{c}^{{2}}={26.556651477924}</m></p>
+  <m>\displaystyle{c}^{{2}}={14.152566246751}</m></p>
 <p>
-  <m>\displaystyle{c}={5.1533146108038}</m></p>
+  <m>\displaystyle{c}={3.7619896659548}</m></p>
 <p>The area for the top triangle can now be calculated.</p>
-<p><m>\displaystyle{s}_{{1}}=\frac{{{5.2}+{5.2}+{5.1533146108038}}}{{2}}={7.9766573054019}</m></p>
+<p><m>\displaystyle{s}_{{1}}=\frac{{{5.3}+{5.3}+{3.7619896659548}}}{{2}}={5.4809948329774}</m></p>
 <p>
-  area<m>\displaystyle=\sqrt{{{7.9766573054019}{\left({7.9766573054019}-{5.2}\right)}^{{2}}{\left({7.9766573054019}-{5.1533146108038}\right)}}}</m></p>
+  area<m>\displaystyle=\sqrt{{{5.4809948329774}{\left({5.4809948329774}-{5.3}\right)}^{{2}}{\left({5.4809948329774}-{3.7619896659548}\right)}}}</m></p>
 <p>
-  <m>\displaystyle={12.227816880644}</m>.</p>
+  <m>\displaystyle={5.7737222767406}</m>.</p>
 <p>Similarly, </p>
 <p>
-  <m>\displaystyle{s}_{{2}}=\frac{{{5.4}+{5.4}+{5.1533146108038}}}{{2}}={7.7766573054019}</m></p>
+  <m>\displaystyle{s}_{{2}}=\frac{{{3.6}+{3.6}+{3.7619896659548}}}{{2}}={7.1809948329774}</m></p>
 <p>
-  area<m>\displaystyle=\sqrt{{{7.7766573054019}{\left({7.7766573054019}-{5.4}\right)}^{{2}}{\left({7.7766573054019}-{5.1533146108038}\right)}}}</m></p>
+  area<m>\displaystyle=\sqrt{{{7.1809948329774}{\left({7.1809948329774}-{3.6}\right)}^{{2}}{\left({7.1809948329774}-{3.7619896659548}\right)}}}</m></p>
 <p>
-  <m>\displaystyle={11.638061710752}</m>.</p>
+  <m>\displaystyle={9.3202977826498}</m>.</p>
 <p>Thus the total area is</p>
 <p>
-  area<m>\displaystyle={12.227816880644}+{11.638061710752}={23.865878591396}\approx{24}</m></p>
+  area<m>\displaystyle={5.7737222767406}+{9.3202977826498}={15.09402005939}\approx{15}</m></p>
 
 </solution>
 </myopenmath>
