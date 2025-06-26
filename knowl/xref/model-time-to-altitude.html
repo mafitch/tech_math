@@ -27,20 +27,39 @@ A_t = A_G+C \cdot t.
 \end{equation*}
 </div>
 <ul class="disc" id="model-time-to-altitude-2-2">
-<li><div class="para">
-<span class="process-math">\(A_t\)</span> is the altitude after <span class="process-math">\(t\)</span> minutes.</div></li>
-<li><div class="para">
-<span class="process-math">\(A_G\)</span> is the starting altitude (likely ground level) in feet mean sea level (MSL).</div></li>
-<li><div class="para">
-<span class="process-math">\(C\)</span> is the rate of climb in feet per minute.</div></li>
-<li><div class="para">
-<span class="process-math">\(t\)</span> is the time since the climb began in minutes.</div></li>
+<li>
+<div class="para">
+<span class="process-math">\(A_t\)</span> is the altitude after <span class="process-math">\(t\)</span> minutes.</div>
+<div class="autopermalink" data-description="Item"><a href="#model-time-to-altitude-2-2-1" title="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li>
+<div class="para">
+<span class="process-math">\(A_G\)</span> is the starting altitude (likely ground level) in feet mean sea level (MSL).</div>
+<div class="autopermalink" data-description="Item"><a href="#model-time-to-altitude-2-2-2" title="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li>
+<div class="para">
+<span class="process-math">\(C\)</span> is the rate of climb in feet per minute.</div>
+<div class="autopermalink" data-description="Item"><a href="#model-time-to-altitude-2-2-3" title="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li>
+<div class="para">
+<span class="process-math">\(t\)</span> is the time since the climb began in minutes.</div>
+<div class="autopermalink" data-description="Item"><a href="#model-time-to-altitude-2-2-4" title="Copy heading and permalink for Item">🔗</a></div>
+</li>
 </ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#model-time-to-altitude-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para">Before we can use this equation, let’s analyze it. We will need to know the parameters <span class="process-math">\(A_G\)</span> and <span class="process-math">\(C\text{.}\)</span> A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. <span class="process-math">\(A_G\)</span> varies by airport, because they are at different altitudes. The rate <span class="process-math">\(C\)</span> must be obtained for each plane and is often available in the aircraft’s Pilot’s Operating Handbook (POH).</div>
-<div class="para">Final altitude (<span class="process-math">\(A_t\)</span>) and time (<span class="process-math">\(t\)</span>) are the variables which implies that the model shows a relationship between time climbing and how high the plane is.</div>
-<div class="para">In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).</div>
-<div class="para">Every linear model (equation) has a rate (the slope <span class="process-math">\(m\)</span> in the equation). In this case <span class="process-math">\(m=\frac{C \text{ ft}}{1 \text{ min}}\text{.}\)</span> Every linear model has a shift (the <span class="process-math">\(b\)</span> in the equation), which may be zero. In this case <span class="process-math">\(b=A_G\text{.}\)</span> <span class="process-math">\(b=A_G=0\)</span> is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.</div>
-<div class="para">Now that we have analyzed this equation, we are prepared to use it.</div></section><span class="incontext"><a class="internal" href="section-linear.html#model-time-to-altitude">in-context</a></span>
+<div class="para">Before we can use this equation, let’s analyze it. We will need to know the parameters <span class="process-math">\(A_G\)</span> and <span class="process-math">\(C\text{.}\)</span> A parameter is not a variable, rather it is a value (number) that we obtain from the circumstances and write into the model (equation) before we do any work. <span class="process-math">\(A_G\)</span> varies by airport, because they are at different altitudes. The rate <span class="process-math">\(C\)</span> must be obtained for each plane and is often available in the aircraft’s Pilot’s Operating Handbook (POH).<div class="autopermalink" data-description="Paragraph"><a href="#model-time-to-altitude-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Final altitude (<span class="process-math">\(A_t\)</span>) and time (<span class="process-math">\(t\)</span>) are the variables which implies that the model shows a relationship between time climbing and how high the plane is.<div class="autopermalink" data-description="Paragraph"><a href="#model-time-to-altitude-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">In this model everything is added which matches the increase of elevation over time (adding makes the altitude bigger).<div class="autopermalink" data-description="Paragraph"><a href="#model-time-to-altitude-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Every linear model (equation) has a rate (the slope <span class="process-math">\(m\)</span> in the equation). In this case <span class="process-math">\(m=\frac{C \text{ ft}}{1 \text{ min}}\text{.}\)</span> Every linear model has a shift (the <span class="process-math">\(b\)</span> in the equation), which may be zero. In this case <span class="process-math">\(b=A_G\text{.}\)</span> <span class="process-math">\(b=A_G=0\)</span> is possible because an aircraft can take off from sea level (e.g., float planes). This shift makes sense, because the climb starts at the altitude of the ground: the plane was already shifted up by being at that airport.<div class="autopermalink" data-description="Paragraph"><a href="#model-time-to-altitude-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para">Now that we have analyzed this equation, we are prepared to use it.<div class="autopermalink" data-description="Paragraph"><a href="#model-time-to-altitude-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Paragraphs: An Equation for Time to Altitude"><a href="#model-time-to-altitude" title="Copy heading and permalink for Paragraphs: An Equation for Time to Altitude">🔗</a></div></section><span class="incontext"><a class="internal" href="section-linear.html#model-time-to-altitude">in-context</a></span>
 </body>
 </html>

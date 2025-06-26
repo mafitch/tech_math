@@ -10,23 +10,23 @@
   <m>\displaystyle{g}={32.1740}</m> is earth's standard gravity</p>
 <p>
   <m>\displaystyle{h}</m> is the height above sea level in feet</p>
-<p>Suppose a glider with mass <m>\displaystyle{1138}</m> lbs and initial velocity <m>\displaystyle{94.0}</m> ft/s is at an altitude of <m>\displaystyle{9000}.</m> ft MSL. If the pilot wants to increase the velocity to <m>\displaystyle{132.0}</m> ft/s to what altitude must it descend? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> ft MSL</p>
+<p>Suppose a glider with mass <m>\displaystyle{1071}</m> lbs and initial velocity <m>\displaystyle{101.0}</m> ft/s is at an altitude of <m>\displaystyle{7000}.</m> ft MSL. If the pilot wants to increase the velocity to <m>\displaystyle{140.0}</m> ft/s to what altitude must it descend? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> ft MSL</p>
 <p>Round according to the rules for measurements.</p>
 <p><em>Hint:</em> The total energy will be the same before and after the altitude change.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>8,870</li></ul></p><p>To solve for a new altitude we will need to know the total energy. We can calculate that from the initial conditions.</p>
-<p><m>\displaystyle{E}_{{T}}=\frac{{1}}{{2}}{\left({1138}\right)}{\left({94.0}\right)}^{{2}}+{\left({1138}\right)}{\left({32.1740}\right)}{\left({9000}.\right)}={334553792}</m>.</p>
-<p><m>\displaystyle{334553792}=\frac{{1}}{{2}}{\left({1138}\right)}{\left({132.0}\right)}^{{2}}+{\left({1138}\right)}{\left({32.1740}\right)}{h}</m></p>
+<p><ul><li>6,854</li></ul></p><p>To solve for a new altitude we will need to know the total energy. We can calculate that from the initial conditions.</p>
+<p><m>\displaystyle{E}_{{T}}=\frac{{1}}{{2}}{\left({1071}\right)}{\left({101.0}\right)}^{{2}}+{\left({1071}\right)}{\left({32.1740}\right)}{\left({7000}.\right)}={246671113.5}</m>.</p>
+<p><m>\displaystyle{246671113.5}=\frac{{1}}{{2}}{\left({1071}\right)}{\left({140.0}\right)}^{{2}}+{\left({1071}\right)}{\left({32.1740}\right)}{h}</m></p>
 <p>
-  <m>\displaystyle{334553792}={5027684}+{\left({1138}\right)}{\left({32.1740}\right)}{h}</m></p>
+  <m>\displaystyle{246671113.5}={5462635.5}+{\left({1071}\right)}{\left({32.1740}\right)}{h}</m></p>
 <p>
-  <m>\displaystyle{329526108}={\left({1138}\right)}{\left({32.1740}\right)}{h}</m></p>
+  <m>\displaystyle{241208478}={\left({1071}\right)}{\left({32.1740}\right)}{h}</m></p>
 <p>
-  <m>\displaystyle{8866.5381985454}={h}</m></p>
+  <m>\displaystyle{6853.9348542301}={h}</m></p>
 <p>
-  <m>\displaystyle{8870}\approx{h}</m></p>
+  <m>\displaystyle{6854}\approx{h}</m></p>
 </solution>
 </myopenmath>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1458490">
 <statement>
-<p>Suppose that as dry air rose its temperature dropped in a linear fashion. The temperature was measured at 900 ft MSL as <m>\displaystyle{24}^{\circ}</m> C and at 3900 ft MSL as <m>\displaystyle{30}^{\circ}</m> C.</p>
+<p>Suppose that as dry air rose its temperature dropped in a linear fashion. The temperature was measured at 1100 ft MSL as <m>\displaystyle{12}^{\circ}</m> C and at 2100 ft MSL as <m>\displaystyle{13.9}^{\circ}</m> C.</p>
 <p>What is the rate of change of temperature with respect to altitude? <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/>   </p>
 <p>Your response may be as a fraction such as 2/1000 or decimal such as 0.002</p>
 <p>What does this data imply about the temperature at 0 ft MSL? <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li>-0.002</li><li>22.2</li></ul></p><p>We want the ratio of temperature drop to altitude increase. <m>\displaystyle\frac{{{30}-{24}}}{{{3900}-{900}}}=-{0.002}</m></p>
-<p>Now that we know that ratio we can use a linear model to find the temperature at sea level. Because the temperature increases (we are going down not up) at a rate of -2 per 1000 ft the temperature will be expected to increase <m>\displaystyle{900}{\left(-\frac{{2}}{{1000}}\right)}=-{1.8}</m>. That will result in a temperature of <m>\displaystyle{24}\pm{1.8}={22.2}</m>.</p>
+<p><ul><li>-0.0019</li><li>9.91</li></ul></p><p>We want the ratio of temperature drop to altitude increase. <m>\displaystyle\frac{{{13.9}-{12}}}{{{2100}-{1100}}}=-{0.0019}</m></p>
+<p>Now that we know that ratio we can use a linear model to find the temperature at sea level. Because the temperature increases (we are going down not up) at a rate of -1.9 per 1000 ft the temperature will be expected to increase <m>\displaystyle{1100}{\left(-\frac{{1.9}}{{1000}}\right)}=-{2.09}</m>. That will result in a temperature of <m>\displaystyle{12}\pm{2.09}={9.91}</m>.</p>
 </solution>
 </myopenmath>

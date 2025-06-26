@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1532273">
 <statement>
-<p>Guido is flying west at 500 MSL using the local altimeter setting of 27.79 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
-<p>How much does the pressure drop from the ground (0 MSL) to 500 ft above? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/> inHg</p>
-<p>If the pressure is 27.79 inHg at 0 MSL, what is the pressure at 500 ft MSL? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/> inHg</p>
+<p>Guido is flying west at 2500 MSL using the local altimeter setting of 27.43 inHg. In the lower atmosphere the pressure drops approximately 1 inHg per 1000 feet of elevation gained.</p>
+<p>How much does the pressure drop from the ground (0 MSL) to 2500 ft above? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/> inHg</p>
+<p>If the pressure is 27.43 inHg at 0 MSL, what is the pressure at 2500 ft MSL? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/> inHg</p>
 
 
 
 </statement>
 <solution>
-<p><ul><li>0.5</li><li>27.29</li></ul></p><p>This is a proportion.</p>
-<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{500}\ \text{ ft}}}</m></p>
+<p><ul><li>2.5</li><li>24.93</li></ul></p><p>This is a proportion.</p>
+<p><m>\displaystyle\frac{{{1}\ \text{ inHg}}}{{{1000}\ \text{ ft}}}=\frac{{{d}\ \text{ inHg}}}{{{2500}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
+  <m>\displaystyle{d}={1}\ \text{ inHg}\cdot\frac{{{2500}\ \text{ ft}}}{{{1000}\ \text{ ft}}}</m></p>
 <p>
-  <m>\displaystyle{d}={0.5}\ \text{ inHg}</m></p>
-<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={27.79}\ \text{ inHg}-{0.5}\ \text{ inHg}={27.29}\ \text{ inHg}</m>.</p> 
+  <m>\displaystyle{d}={2.5}\ \text{ inHg}</m></p>
+<p>Because this is a <em>drop</em> in pressure, the expected pressure is <m>\displaystyle{P}={27.43}\ \text{ inHg}-{2.5}\ \text{ inHg}={24.93}\ \text{ inHg}</m>.</p> 
 </solution>
 </myopenmath>

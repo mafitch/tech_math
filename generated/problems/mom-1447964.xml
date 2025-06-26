@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1447964">
 <statement>
-<p>A cheesecake recipe calls for 150 g of eggs and 750 g of cream cheese. If you currently have 200 g of eggs and 1739 g of cream cheese, determine which ingredient is the limiting one (will use all of it) and the amount of each you will use.</p>
+<p>A cheesecake recipe calls for 150 g of eggs and 750 g of cream cheese. If you currently have 200 g of eggs and 1512 g of cream cheese, determine which ingredient is the limiting one (will use all of it) and the amount of each you will use.</p>
 <p>Limiting ingredient: </p>
-<p><ol style="list-style-type:upper-alpha"><li>eggs</li> 
-<li>cream cheese</li> 
+<p><ol style="list-style-type:upper-alpha"><li>cream cheese</li> 
+<li>eggs</li> 
 </ol></p>
 <p>Eggs: <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> g  Cream cheese: <input type="text" style="width:8.2ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> g</p>
 
 </statement>
 <solution>
-<p><ul><li>A: eggs</li><li>200</li><li>8695</li></ul></p><p>To determine which ingredient limits us, we compare the ratios <m>\displaystyle\frac{{200}}{{1739}}={0.11500862564692}</m> to the recipe's ratio of <m>\displaystyle\frac{{1}}{{5}}={0.2}</m>. Because the ratio is less than 0.2, we know that the eggs is the limiting ingredient.</p>
+<p><ul><li>B: eggs</li><li>200</li><li>7560</li></ul></p><p>To determine which ingredient limits us, we compare the ratios <m>\displaystyle\frac{{200}}{{1512}}={0.13227513227513}</m> to the recipe's ratio of <m>\displaystyle\frac{{1}}{{5}}={0.2}</m>. Because the ratio is less than 0.2, we know that the eggs is the limiting ingredient.</p>
 <p>Now we setup the proportion <m>\displaystyle\frac{{5}}{{1}}=\frac{{C}}{{200}}</m></p>
-<p>Solving gives us 8695 g of cream cheese</p>
+<p>Solving gives us 7560 g of cream cheese</p>
 </solution>
 </myopenmath>
