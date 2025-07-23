@@ -110,9 +110,9 @@
     <example xml:id="example-calculate-dilute">
         <title>Calcluate Dilution</title>
         <p>If we start with 16.0 oz of 91.0% alcohol solution, how much water do we add to obtain (at least) 25.0 oz of a 55.0% alcohol solution? These are measurements, so we will round using significant digits.</p>
-        <p>The concentration (55.0%) is the primary goal here rather than the resulting amount (25.0 oz), because we need <q>at least</q> that amount: more is okay. As a result we will set up our calculation based on the desired percent alcohol.</p>
+        <p>The concentration (55.0%) is the primary goal here rather than the resulting amount (25.0 oz), because we need <em>at least</em> that amount: more is okay. As a result we will set up our calculation based on the desired percent alcohol.</p>
         <p>This is a percent problem with the total alcohol unchanged and adding only some amount <m>w</m> of water. This matches the previous example, except that we are calculating the amount to add and know the resulting percent. However, we can write essentially the same equation. <m>\frac{\text{part}}{\text{whole}} = \frac{A}{16.0+w}=0.550</m> where <m>A</m> is the amount of alcohol. We do not use the 25.0 oz at this time. We will address that at the end.</p>
-        <p>Because all of the alcohol comes from the initial solution, we can calculate the amount of alcohol in the same way as before. <m>(0.910)16.0 \text{ oz} = 14.56 \text{ oz}</m>. Thus we setup
+        <p>Because we are addomg only water, all of the alcohol comes from the initial solution. Thus we can calculate the amount of alcohol in the same way as before. <m>(0.910)16.0 \text{ oz} = 14.56 \text{ oz}</m>. Thus we setup
             <md>
                 <mrow>\frac{(0.910)16.0 \text{ oz}}{16.0 \text{ oz}+w \text{ oz}} &amp; = 0.550.</mrow>
                 <mrow>\frac{14.\underline{5}6 \text{ oz}}{16.0 \text{ oz}+w \text{ oz}} &amp; = 0.550 \text{ Multiply to move } w \text{ out of the denominator}</mrow>
@@ -148,10 +148,6 @@
 
     <exercise>
         <myopenmath problem="887952" />
-    </exercise>
-
-    <exercise>
-        <myopenmath problem="883019" />
     </exercise>
 
     <exercise>
