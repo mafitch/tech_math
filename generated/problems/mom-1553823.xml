@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1553823">
 <statement>
-<p>A man owns stock valued at <dollar/>2,900.00.  One day the stock drops by 6<percent/>, and the next day the gain is the same percentage.  How much money is the stock valued at the end of the second day? <dollar/><input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
+<p>A man owns stock valued at <dollar/>2,100.00.  One day the stock drops by 9<percent/>, and the next day the gain is the same percentage.  How much money is the stock valued at the end of the second day? <dollar/><input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
 
 
 </statement>
 <solution>
-<p><ul><li>2,889.56</li></ul></p><p>We can calculate in two steps. First, the decrease on the first day is <m>\displaystyle\${2},{900.00}\cdot{0.06}=\${174.00}</m>. This means the value at the end of day 1 is <m>\displaystyle\${2},{900.00}-\${174.00}=\${2},{726.00}</m>.</p>
-<p>Second the increase on the second day is <m>\displaystyle\${2},{726.00}\cdot{0.06}=\${163.56}</m>. Notice that we are calculating the percent based on the first days result, not the original amount. The amount at the end of the second day is <m>\displaystyle\${2},{726.00}+\${163.56}=\${2},{889.56}</m>.</p>
+<p><ul><li>2,082.99</li></ul></p><p>We can calculate in two steps. First, the decrease on the first day is <m>\displaystyle\${2},{100.00}\cdot{0.09}=\${189.00}</m>. This means the value at the end of day 1 is <m>\displaystyle\${2},{100.00}-\${189.00}=\${1},{911.00}</m>.</p>
+<p>Second the increase on the second day is <m>\displaystyle\${1},{911.00}\cdot{0.09}=\${171.99}</m>. Notice that we are calculating the percent based on the first days result, not the original amount. The amount at the end of the second day is <m>\displaystyle\${1},{911.00}+\${171.99}=\${2},{082.99}</m>.</p>
 </solution>
 </myopenmath>

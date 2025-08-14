@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1489519">
 <statement>
-<p>A triangle has angles of measure <m>\displaystyle{A}={35}^{\circ}</m> and <m>\displaystyle{B}={75}^{\circ}</m>. The side opposite angle <m>\displaystyle{A}</m> has length 4.0. What is the length of the side opposite angle <m>\displaystyle{B}</m>? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>A triangle has angles of measure <m>\displaystyle{A}={30}^{\circ}</m> and <m>\displaystyle{B}={80}^{\circ}</m>. The side opposite angle <m>\displaystyle{A}</m> has length 7.0. What is the length of the side opposite angle <m>\displaystyle{B}</m>? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Round to the nearest tenth.
 </p>
 </statement>
 <solution>
-<p><ul><li>6.7</li></ul></p><p>Because we know angles and a side opposite one of the angles, we can use the law of sines.</p>
-<p><m>\displaystyle\frac{{\sin{{\left({35}\right)}}}}{{4.0}}=\frac{{\sin{{\left({75}\right)}}}}{{b}}</m>.</p>
-<p><m>\displaystyle{b}=\frac{{\sin{{\left({75}\right)}}}}{{\sin{{\left({35}\right)}}}}{4.0}</m></p>
-<p><m>\displaystyle{b}\approx{6.7361611466054}\approx{6.7}</m>.</p>
+<p><ul><li>13.8</li></ul></p><p>Because we know angles and a side opposite one of the angles, we can use the law of sines.</p>
+<p><m>\displaystyle\frac{{\sin{{\left({30}\right)}}}}{{7.0}}=\frac{{\sin{{\left({80}\right)}}}}{{b}}</m>.</p>
+<p><m>\displaystyle{b}=\frac{{\sin{{\left({80}\right)}}}}{{\sin{{\left({30}\right)}}}}{7.0}</m></p>
+<p><m>\displaystyle{b}\approx{13.787308542171}\approx{13.8}</m>.</p>
 </solution>
 </myopenmath>

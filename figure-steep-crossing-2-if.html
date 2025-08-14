@@ -12,7 +12,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -81,20 +80,20 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div style="width:510px; height:383px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;">
-<script>var medians_onload = function(medians_applet) {
-medians_applet.setCoordSystem(-0.5, 6, -0.5, 5);
-medians_applet.enableShiftDragZoom(true);
-listeners(medians_applet)};
-var medians_params = {
+<script>var ggb_medians_onload = function(ggb_medians_applet) {
+ggb_medians_applet.setCoordSystem(-0.5, 6, -0.5, 5);
+ggb_medians_applet.enableShiftDragZoom(true);
+listeners(ggb_medians_applet)};
+var ggb_medians_params = {
 material_id:"jtzemq8d",
 width:510,
 height:383,
-appletOnLoad:medians_onload};
+appletOnLoad:ggb_medians_onload};
 new Promise((resolve, reject) => {
-var medians = new GGBApplet(medians_params, true);
-resolve(medians);})
-.then((medians) => {
-window.onload = function() { medians.inject('medians-container'); }
+var ggb_medians = new GGBApplet(ggb_medians_params, true);
+resolve(ggb_medians);})
+.then((ggb_medians) => {
+window.onload = function() { ggb_medians.inject('medians-container'); }
 },
 (error) => {console.log('GGB applet load failure.', error)});
 </script><div class="geogebra-applet" id="medians-container" style="width:510px; height:383px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"></div>

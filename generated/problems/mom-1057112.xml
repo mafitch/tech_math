@@ -2,40 +2,40 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057112-1.png"/><p>
-Suppose a = 5 and A = 35 degrees. Calculate:</p>
+Suppose a = 10 and A = 50 degrees. Calculate:</p>
 <p>
-b = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
+<m>\displaystyle{b}\approx</m> <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
 <p>
-c = <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/></p>
+<m>\displaystyle{c}\approx</m> <input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/></p>
 <p>
-B = <input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
+<m>\displaystyle{B}\approx</m> <input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
 <p>
 Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>7.1</li><li>8.7</li><li>55.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>8.4</li><li>13.1</li><li>40.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({35}\right)}}}=\frac{{5}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({50}\right)}}}=\frac{{10}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{5}}{{\tan{{\left({35}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{10}}{{\tan{{\left({50}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{7.1407400337106}\approx{7.1}</m>.</p>
+  <m>\displaystyle{b}\approx{8.3909963117728}\approx{8.4}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={5}^{{2}}+{7.1407400337106}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={10}^{{2}}+{8.3909963117728}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={25}+{50.990168229037}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={100}+{70.408819104185}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={75.990168229037}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={170.40881910418}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{75.990168229037}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{170.40881910418}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{8.7172339781055}\approx{8.7}</m>.</p>
+  <m>\displaystyle{c}\approx{13.054072893323}\approx{13.1}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{35}^{\circ}\approx{55}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{50}^{\circ}\approx{40}^{\circ}</m></p>
 
 </solution>
 </myopenmath>

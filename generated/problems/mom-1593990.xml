@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1593990">
 <statement>
-<p>Consider the radioactive decay model for Cesium-137: <m>\displaystyle{A}={22.2}{\left(\frac{{1}}{{2}}\right)}^{{{t}{/}{30}}}</m></p>
+<p>Consider the radioactive decay model for Bismuth-212: <m>\displaystyle{A}={14.5}{\left(\frac{{1}}{{2}}\right)}^{{{t}{/}{60.55}}}</m></p>
 <p>
-  where <m>\displaystyle{t}</m> is in units of years.</p>
+  where <m>\displaystyle{t}</m> is in units of minutes.</p>
 <p>What is the initial amount? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
 <p>
   What is the annual percent increase or decrease? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
@@ -12,8 +12,8 @@
 
 </statement>
 <solution>
-<p><ul><li>22.2</li><li>2.2840031565754</li></ul></p><p>The initial amount is the coefficient in front, because when <m>\displaystyle{t}={0}</m> the second factor is just one. So the initial amount is 22.2.</p>
-<p>To obtain the <em>annual</em> percent decrease, we need to convert the units to years. 30 years is <m>\displaystyle\frac{{30}}{{1}}={30}</m> years.</p>
-<p>Next we need to convert to the form <m>\displaystyle{\left({1}+{p}\right)}^{{t}}</m>. We can do this by expanding <m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{30}}}}={\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{30}}}}\right)}^{{t}}={0.97715996843425}^{{t}}</m>. Now we can calculate the percent decrease as <m>\displaystyle{1}-{0.97715996843425}={0.022840031565754}</m>. Converting to percent this is <m>\displaystyle{100}{\left({0.022840031565754}\right)}={2.2840031565754}\%</m>.</p>
+<p><ul><li>14.5</li><li>100</li></ul></p><p>The initial amount is the coefficient in front, because when <m>\displaystyle{t}={0}</m> the second factor is just one. So the initial amount is 14.5.</p>
+<p>To obtain the <em>annual</em> percent decrease, we need to convert the units to years. 60.55 minutes is <m>\displaystyle\frac{{60.55}}{{525600}}={0.00011520167427702}</m> years.</p>
+<p>Next we need to convert to the form <m>\displaystyle{\left({1}+{p}\right)}^{{t}}</m>. We can do this by expanding <m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{0.00011520167427702}}}}={\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{0.00011520167427702}}}}\right)}^{{t}}={0}^{{t}}</m>. Now we can calculate the percent decrease as <m>\displaystyle{1}-{0}={1}</m>. Converting to percent this is <m>\displaystyle{100}{\left({1}\right)}={100}\%</m>.</p>
 </solution>
 </myopenmath>

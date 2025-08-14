@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1463978">
 <statement>
-<p>If two resistors are arranged in parallel one is <m>\displaystyle{7.0}\Omega</m> and the other is <m>\displaystyle{7.0}\Omega</m>, what is the resulting resistance? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <m>\displaystyle\Omega</m></p>
+<p>If two resistors are arranged in parallel one is <m>\displaystyle{10}\Omega</m> and the other is <m>\displaystyle{5.0}\Omega</m>, what is the resulting resistance? <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <m>\displaystyle\Omega</m></p>
 
 
 </statement>
 <solution>
-<p><ul><li>3.5</li></ul></p><p>The model is <m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{R}_{{1}}}+\frac{{1}}{{R}_{{2}}}</m>. In this case that is</p>
-<p><m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{7.0}}+\frac{{1}}{{7.0}}</m>.</p>
-<p><m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{7.0}}\cdot\frac{{7.0}}{{7.0}}+\frac{{1}}{{7.0}}\frac{{7.0}}{{7.0}}</m>. Scaling for a common denominator.</p>
-<p><m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{14}}{{49}}</m>.</p>
-<p><m>\displaystyle{R}_{{F}}=\frac{{49}}{{14}}</m>. Because ratios work upsidedown.</p>
-<p><m>\displaystyle{R}_{{F}}\approx{3.5}</m>.</p>
+<p><ul><li>3.3</li></ul></p><p>The model is <m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{R}_{{1}}}+\frac{{1}}{{R}_{{2}}}</m>. In this case that is</p>
+<p><m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{10}}+\frac{{1}}{{5.0}}</m>.</p>
+<p><m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{1}}{{10}}\cdot\frac{{5.0}}{{5.0}}+\frac{{1}}{{5.0}}\frac{{10}}{{10}}</m>. Scaling for a common denominator.</p>
+<p><m>\displaystyle\frac{{1}}{{R}_{{F}}}=\frac{{15}}{{50}}</m>.</p>
+<p><m>\displaystyle{R}_{{F}}=\frac{{50}}{{15}}</m>. Because ratios work upsidedown.</p>
+<p><m>\displaystyle{R}_{{F}}\approx{3.3}</m>.</p>
 
 </solution>
 </myopenmath>

@@ -2,35 +2,35 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{4}{x}+{y}=-{16}</m> </p>
+<p><m>\displaystyle-{4}{x}-{6}{y}=-{28}</m> </p>
 <p>
-  <m>\displaystyle-{8}{x}-{4}{y}=-{80}</m></p>
+  <m>\displaystyle-{4}{x}-{5}{y}=-{20}</m></p>
 <p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left({6},{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{4}{x}+{1}{y}=-{16}</m></p>
-<p><m>\displaystyle-{4}{x}=-{16}-{\left({1}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{16}-{\left({1}{y}\right)}}}{{-{{4}}}}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{5},{8}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle-{4}{x}+-{6}{y}=-{28}</m></p>
+<p><m>\displaystyle-{4}{x}=-{28}-{\left(-{6}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{28}-{\left(-{6}{y}\right)}}}{{-{{4}}}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle-{8}{\left(\frac{{-{16}-{\left({1}{y}\right)}}}{{-{{4}}}}\right)}+-{4}{y}=-{80}</m></p>
-<p><m>\displaystyle-\frac{{8}}{{-{{4}}}}\cdot{\left(-{16}\right)}--\frac{{8}}{{-{{4}}}}{\left({1}\right)}{y}+-{4}{y}=-{80}</m></p>
-<p><m>\displaystyle-{32}-{\left(-{2}\right)}{y}+-{4}{y}=-{80}</m></p>
-<p><m>\displaystyle-{2}{y}+{\left(-{4}\right)}{y}=-{80}--{32}</m></p>
-<p><m>\displaystyle-{2}{y}+{\left(-{4}\right)}{y}=-{48}</m></p>
-<p><m>\displaystyle{\left(-{2}+{\left(-{4}\right)}\right)}{y}=-{48}</m></p>
-<p><m>\displaystyle-{6}{y}=-{48}</m></p>
-<p><m>\displaystyle{y}=-\frac{{48}}{{-{{6}}}}</m></p>
+<p><m>\displaystyle-{4}{\left(\frac{{-{28}-{\left(-{6}{y}\right)}}}{{-{{4}}}}\right)}+-{5}{y}=-{20}</m></p>
+<p><m>\displaystyle-\frac{{4}}{{-{{4}}}}\cdot{\left(-{28}\right)}--\frac{{4}}{{-{{4}}}}{\left(-{6}\right)}{y}+-{5}{y}=-{20}</m></p>
+<p><m>\displaystyle-{28}-{\left({6}\right)}{y}+-{5}{y}=-{20}</m></p>
+<p><m>\displaystyle{6}{y}+{\left(-{5}\right)}{y}=-{20}--{28}</m></p>
+<p><m>\displaystyle{6}{y}+{\left(-{5}\right)}{y}={8}</m></p>
+<p><m>\displaystyle{\left({6}+{\left(-{5}\right)}\right)}{y}={8}</m></p>
+<p><m>\displaystyle{1}{y}={8}</m></p>
+<p><m>\displaystyle{y}=\frac{{8}}{{1}}</m></p>
 <p><m>\displaystyle{y}={8}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{4}{x}+{1}{\left({8}\right)}=-{16}</m></p>
-<p><m>\displaystyle-{4}{x}+{\left({8}\right)}=-{16}</m></p>
-<p><m>\displaystyle-{4}{x}=-{16}-{\left({8}\right)}</m></p>
-<p><m>\displaystyle-{4}{x}=-{24}</m></p>
-<p><m>\displaystyle{x}=-\frac{{24}}{{-{{4}}}}</m></p>
-<p><m>\displaystyle{x}={6}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({6},{8}\right)}</m>.</p>
+<p><m>\displaystyle-{4}{x}+-{6}{\left({8}\right)}=-{28}</m></p>
+<p><m>\displaystyle-{4}{x}+{\left(-{48}\right)}=-{28}</m></p>
+<p><m>\displaystyle-{4}{x}=-{28}-{\left(-{48}\right)}</m></p>
+<p><m>\displaystyle-{4}{x}={20}</m></p>
+<p><m>\displaystyle{x}=\frac{{20}}{{-{{4}}}}</m></p>
+<p><m>\displaystyle{x}=-{5}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{5},{8}\right)}</m>.</p>
 
 </solution>
 </myopenmath>
