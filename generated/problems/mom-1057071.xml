@@ -2,38 +2,38 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057071">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057071-1.png"/><p>
-Suppose a = 2 and c = 6. Calculate:</p>
+Suppose a = 4 and c = 8. Calculate:</p>
 <p>
-b = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
+<m>\displaystyle{b}\approx</m> <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
 <p>
-A = <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> degrees</p>
+<m>\displaystyle{A}\approx</m> <input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> degrees</p>
 <p>
-B = <input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
+<m>\displaystyle{B}\approx</m> <input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
 <p>
 Round all answers to one decimal place. Give angles in <em>degrees</em>.
 </p>
 </statement>
 <solution>
-<p><ul><li>5.7</li><li>19.5</li><li>70.5</li></ul></p><p>First calculate the length of the other leg.</p>
-<p><m>\displaystyle{6}^{{2}}={2}^{{2}}+{b}^{{2}}</m>.</p>
+<p><ul><li>6.9</li><li>30.0</li><li>60.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><m>\displaystyle{8}^{{2}}={4}^{{2}}+{b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{36}={4}+{b}^{{2}}</m>.</p>
+  <m>\displaystyle{64}={16}+{b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{36}-{4}={b}^{{2}}</m>.</p>
+  <m>\displaystyle{64}-{16}={b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{32}={b}^{{2}}</m>.</p>
+  <m>\displaystyle{48}={b}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle\sqrt{{{32}}}={b}</m>.</p>
+  <m>\displaystyle\sqrt{{{48}}}={b}</m>.</p>
 <p>
-  <m>\displaystyle{5.6568542494924}\approx{b}</m>.</p>
+  <m>\displaystyle{6.9282032302755}\approx{b}</m>.</p>
 <p>
-  <m>\displaystyle{5.7}\approx{b}</m>.</p>
+  <m>\displaystyle{6.9}\approx{b}</m>.</p>
 <p>For angle A</p>
 <p>
-  <m>\displaystyle{\arcsin{{\left(\frac{{2}}{{6}}\right)}}}\approx{19.47122063447}\approx{19.5}</m></p>
+  <m>\displaystyle{\arcsin{{\left(\frac{{4}}{{8}}\right)}}}\approx{30}\approx{30}</m></p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{\arccos{{\left(\frac{{2}}{{6}}\right)}}}\approx{70.52877936553}\approx{70.5}</m></p>
+  <m>\displaystyle{\arccos{{\left(\frac{{4}}{{8}}\right)}}}\approx{60}\approx{60}</m></p>
 
 </solution>
 </myopenmath>

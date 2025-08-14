@@ -2,18 +2,18 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="900863">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-900863-1.png"/>
-<p>This is a circle with radius 8.00 yd inscribed in a square with no side labeled. Round using the rules for measurements.</p>
+<p>This is a circle with radius 4.00 cm inscribed in a square with no side labeled. Round using the rules for measurements.</p>
 <p><ol>
-  <li>What is the area of the square? <input type="text" style="width:4.6ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/> <m>\displaystyle\text{yd}^{{2}}</m></li>
-  <li>What is the area of the circle? <input type="text" style="width:4.6ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> <m>\displaystyle\text{yd}^{{2}}</m></li>
-  <li>What is the area of the shaded section? <input type="text" style="width:4.6ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> <m>\displaystyle\text{yd}^{{2}}</m></li>
+  <li>What is the area of the square? <input type="text" style="width:4.6ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/> <m>\displaystyle\text{cm}^{{2}}</m></li>
+  <li>What is the area of the circle? <input type="text" style="width:4.6ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> <m>\displaystyle\text{cm}^{{2}}</m></li>
+  <li>What is the area of the shaded section? <input type="text" style="width:4.6ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> <m>\displaystyle\text{cm}^{{2}}</m></li>
 </ol></p>
 
 
 </statement>
 <solution>
-<p><ul><li>256</li><li>201</li><li>55</li></ul></p><p>The side length of the square is not given directly. However, because the circle is inscribed, a diameter of the circle is the same length as a side. Thus the square has side length <m>\displaystyle{16.0}\ \text{ yd}</m> and area <m>\displaystyle{16.0}^{{2}}={256}\approx{256}\ \text{ yd}^{{2}}</m>.</p>
-<p>The area of the circle is <m>\displaystyle\pi{\left({8.00}^{{2}}\right)}\approx{201.06192982975}\approx{201}\ \text{ yd}^{{2}}</m>.</p>
-<p>The area between them (shaded) is <m>\displaystyle{256}-{201.06192982975}={54.938070170253}\approx{55}\ \text{ yd}^{{2}}</m>.</p>
+<p><ul><li>64.0</li><li>50.3</li><li>13.7</li></ul></p><p>The side length of the square is not given directly. However, because the circle is inscribed, a diameter of the circle is the same length as a side. Thus the square has side length <m>\displaystyle{8.00}\ \text{ cm}</m> and area <m>\displaystyle{8.00}^{{2}}={64}\approx{64}\ \text{ cm}^{{2}}</m>.</p>
+<p>The area of the circle is <m>\displaystyle\pi{\left({4.00}^{{2}}\right)}\approx{50.265482457437}\approx{50.3}\ \text{ cm}^{{2}}</m>.</p>
+<p>The area between them (shaded) is <m>\displaystyle{64}-{50.265482457437}={13.734517542563}\approx{13.7}\ \text{ cm}^{{2}}</m>.</p>
 </solution>
 </myopenmath>

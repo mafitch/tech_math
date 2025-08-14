@@ -10,13 +10,13 @@
   <m>\displaystyle{T}_{{G}}</m> is the temperature at ground level in Fahrenheit</p>
 <p>
   <m>\displaystyle{A}</m> is the height above ground level in feet</p>
-<p>If the temperature on the ground is <m>\displaystyle{63}^{\circ}</m>, what will it be at 3500 feet above ground level? <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>If the temperature on the ground is <m>\displaystyle{75}^{\circ}</m>, what will it be at 5200 feet above ground level? <input type="text" style="width:4.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Answers should be rounded to the units place.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>51</li></ul></p><p>The model for this situation is <m>\displaystyle{T}_{{A}}={63}-\frac{{{3.5}}}{{{1000}}}{A}</m>.</p>
-<p>Because we want to estimate the temperature at 3500 ft AGL, we calculate <m>\displaystyle{T}_{{A}}={63}-\frac{{{3.5}}}{{{1000}}}{3500}={50.75}\approx{51}</m></p>
+<p><ul><li>57</li></ul></p><p>The model for this situation is <m>\displaystyle{T}_{{A}}={75}-\frac{{{3.5}}}{{{1000}}}{A}</m>.</p>
+<p>Because we want to estimate the temperature at 5200 ft AGL, we calculate <m>\displaystyle{T}_{{A}}={75}-\frac{{{3.5}}}{{{1000}}}{5200}={56.8}\approx{57}</m></p>
 </solution>
 </myopenmath>
