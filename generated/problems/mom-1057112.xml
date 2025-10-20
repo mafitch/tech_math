@@ -2,7 +2,7 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057112-1.png"/><p>
-Suppose a = 10 and A = 50 degrees. Calculate:</p>
+Suppose a = 3 and A = 45 degrees. Calculate:</p>
 <p>
 <m>\displaystyle{b}\approx</m> <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
 <p>
@@ -14,28 +14,28 @@ Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
 <solution>
-<p><ul><li>8.4</li><li>13.1</li><li>40.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<p><ul><li>3.0</li><li>4.2</li><li>45.0</li></ul></p><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({50}\right)}}}=\frac{{10}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({45}\right)}}}=\frac{{3}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{10}}{{\tan{{\left({50}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{3}}{{\tan{{\left({45}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{8.3909963117728}\approx{8.4}</m>.</p>
+  <m>\displaystyle{b}\approx{3}\approx{3}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={10}^{{2}}+{8.3909963117728}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={3}^{{2}}+{3}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={100}+{70.408819104185}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={9}+{9}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={170.40881910418}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={18}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{170.40881910418}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{18}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{13.054072893323}\approx{13.1}</m>.</p>
+  <m>\displaystyle{c}\approx{4.2426406871193}\approx{4.2}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{50}^{\circ}\approx{40}^{\circ}</m></p>
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{45}^{\circ}\approx{45}^{\circ}</m></p>
 
 </solution>
 </myopenmath>

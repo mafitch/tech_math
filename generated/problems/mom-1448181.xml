@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1448181">
 <statement>
-<p>Suppose triangle A has angles <m>\displaystyle{20}^{\circ}</m>, <m>\displaystyle{120}^{\circ}</m>, and <m>\displaystyle{40}^{\circ}</m> and the lengths of the sides opposite are 10, 25.32, and 18.79 respectively. If triangle B has the same angle measures and the side opposite the angle of measure <m>\displaystyle{20}^{\circ}</m> is length 23, what are the other two side lengths?</p>
-<p>Length opposite angle of measure <m>\displaystyle{120}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
-<p>Length opposite angle of measure <m>\displaystyle{40}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
+<p>Suppose triangle A has angles <m>\displaystyle{20}^{\circ}</m>, <m>\displaystyle{60}^{\circ}</m>, and <m>\displaystyle{100}^{\circ}</m> and the lengths of the sides opposite are 10, 25.32, and 28.79 respectively. If triangle B has the same angle measures and the side opposite the angle of measure <m>\displaystyle{20}^{\circ}</m> is length 49, what are the other two side lengths?</p>
+<p>Length opposite angle of measure <m>\displaystyle{60}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
+<p>Length opposite angle of measure <m>\displaystyle{100}^{\circ}</m>: <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
 
 
 </statement>
 <solution>
-<p><ul><li>58.236</li><li>43.217</li></ul></p><p>Because these are similar triangles we can setup the proportions below.</p>
-<p><m>\displaystyle\frac{{23}}{{10}}=\frac{{S}_{{120}}}{{25.32}}</m>, so <m>\displaystyle{S}_{{120}}={\left(\frac{{23}}{{10}}\right)}{25.32}={58.236}</m></p>
-<p><m>\displaystyle\frac{{23}}{{10}}=\frac{{S}_{{40}}}{{18.79}}</m>, so <m>\displaystyle{S}_{{40}}={\left(\frac{{23}}{{10}}\right)}{18.79}={43.217}</m></p>
+<p><ul><li>124.068</li><li>141.071</li></ul></p><p>Because these are similar triangles we can setup the proportions below.</p>
+<p><m>\displaystyle\frac{{49}}{{10}}=\frac{{S}_{{60}}}{{25.32}}</m>, so <m>\displaystyle{S}_{{60}}={\left(\frac{{49}}{{10}}\right)}{25.32}={124.068}</m></p>
+<p><m>\displaystyle\frac{{49}}{{10}}=\frac{{S}_{{100}}}{{28.79}}</m>, so <m>\displaystyle{S}_{{100}}={\left(\frac{{49}}{{10}}\right)}{28.79}={141.071}</m></p>
 </solution>
 </myopenmath>

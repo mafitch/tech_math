@@ -2,30 +2,30 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468733">
 <statement>
 <p>Solve this system of equations using elimination.</p>
-<p><m>\displaystyle-{8}{x}+{7}{y}={43}</m> </p>
+<p><m>\displaystyle-{7}{x}+{5}{y}={7}</m> </p>
 <p>
-  <m>\displaystyle{5}{x}+{4}{y}={15}</m></p>
+  <m>\displaystyle{8}{x}+{8}{y}=-{104}</m></p>
 <p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 
 </statement>
 <solution>
-<p><ul><li><m>\displaystyle{\left(-{1},{5}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
-<p>To eliminate we need the scaled version of equation one to have a coefficient of -5. So we scale by <m>\displaystyle-\frac{{5}}{{-{{8}}}}</m>.</p>
-<p><m>\displaystyle-\frac{{{5}}}{{-{{8}}}}{\left(-{8}{x}+{7}{y}\right)}=-\frac{{{5}}}{{-{{8}}}}{\left({43}\right)}</m></p>
-<p><m>\displaystyle-{\left({5}\right)}{x}+{4.375}{y}={26.875}</m></p>
-<p><m>\displaystyle{5}{x}+{4}{y}={15}</m></p>
+<p><ul><li><m>\displaystyle{\left(-{6},-{7}\right)}</m></li></ul></p><p>We chose (for no special reason) to use the first equation to eliminate x from the second equation.</p>
+<p>To eliminate we need the scaled version of equation one to have a coefficient of -8. So we scale by <m>\displaystyle-\frac{{8}}{{-{{7}}}}</m>.</p>
+<p><m>\displaystyle-\frac{{{8}}}{{-{{7}}}}{\left(-{7}{x}+{5}{y}\right)}=-\frac{{{8}}}{{-{{7}}}}{\left({7}\right)}</m></p>
+<p><m>\displaystyle-{\left({8}\right)}{x}+{5.7142857142857}{y}={8}</m></p>
+<p><m>\displaystyle{8}{x}+{8}{y}=-{104}</m></p>
 <p>Adding these two equations gives us</p>
-<p><m>\displaystyle{8.375}{y}={41.875}</m></p>
-<p><m>\displaystyle{y}=\frac{{41.875}}{{8.375}}</m></p>
-<p><m>\displaystyle{y}={5}</m></p>
+<p><m>\displaystyle{13.714285714286}{y}=-{96}</m></p>
+<p><m>\displaystyle{y}=-\frac{{96}}{{13.714285714286}}</m></p>
+<p><m>\displaystyle{y}=-{7}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{8}{x}+{7}{\left({5}\right)}={43}</m></p>
-<p><m>\displaystyle-{8}{x}+{\left({35}\right)}={43}</m></p>
-<p><m>\displaystyle-{8}{x}={43}-{\left({35}\right)}</m></p>
-<p><m>\displaystyle-{8}{x}={8}</m></p>
-<p><m>\displaystyle{x}=\frac{{8}}{{-{{8}}}}</m></p>
-<p><m>\displaystyle{x}=-{1}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left(-{1},{5}\right)}</m>.</p>
+<p><m>\displaystyle-{7}{x}+{5}{\left(-{7}\right)}={7}</m></p>
+<p><m>\displaystyle-{7}{x}+{\left(-{35}\right)}={7}</m></p>
+<p><m>\displaystyle-{7}{x}={7}-{\left(-{35}\right)}</m></p>
+<p><m>\displaystyle-{7}{x}={42}</m></p>
+<p><m>\displaystyle{x}=\frac{{42}}{{-{{7}}}}</m></p>
+<p><m>\displaystyle{x}=-{6}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left(-{6},-{7}\right)}</m>.</p>
 
 </solution>
 </myopenmath>

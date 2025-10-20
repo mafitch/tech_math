@@ -36,10 +36,10 @@
     <fact xml:id="model-temperature-altitude-fahrenheit">
         <title>Temperature Change with Altitude</title>
 
-        <p>As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as <me>T_A = T_G - \left(\frac{3.5}{1000}\right)A.</me> where
+        <p>As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as <me>T_A = T_G - \left(\frac{3.5^\circ \text{ F}}{1000 \text{ ft}}\right)A.</me> where
         <ul>
-            <li><m>T_A</m> is the expected temperature at the specified altitude.</li>
-            <li><m>T_G</m> is the temperature at ground level.</li>
+            <li><m>T_A</m> is the expected temperature in degrees Fahrenheit at the specified altitude.</li>
+            <li><m>T_G</m> is the temperature at ground level in degrees Fahrenheit.</li>
             <li><m>A</m> is the specified altitude in number of feet above ground level.</li>
             <li><m>\frac{3.5^\circ}{1000 \text{ ft}}</m> is the rate of temperature decrease.</li>
         </ul>

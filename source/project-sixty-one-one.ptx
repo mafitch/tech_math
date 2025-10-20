@@ -7,7 +7,7 @@
 	<title>Estimating Arc Lengths</title>
 
 <introduction>
-	<p>In aviation it is sometimes useful to estimate a distance between points as the length of a circular arc. This results from navigation methods (search for VOR and DME arc if curious). To estimate on the fly they use what is known as the 60:1:1 approximation. It means that 60 miles from a point a one degree arc is approximately one mile in length. Note in aviation the distances would be in nautical miles (nm), but the ratio does not change if we use statute miles (the usual type).</p>
+	<p>In aviation it is sometimes useful to estimate a distance between points as the length of a circular arc. This results from navigation methods (search for VOR and DME arc if curious). To estimate on the fly they use what is known as the 60:1:1 approximation. It means that 60 miles from a point a one degree arc is approximately one mile in length. In aviation the distances would be in nautical miles (nm), but the ratio does not change if we use statute miles (the usual type).</p>
 	<p>Here we will practice using the method to approximate then check why it works.</p>
 </introduction>
 
@@ -38,10 +38,13 @@
 
 <task>
 	<title>Explaining the Ratio</title>
+	<introduction>
+		<p>In four steps we will figure out the length of a one degree arc on a circle with radius 60 miles. Use <m>P=2\pi r</m> where <m>P</m> is the perimeter and <m>r</m> is the radius.</p>
+	</introduction>
 
 	<task>
 		<statement>
-			<p>Calculate the perimeter of a circle with radius 60 miles using the formula <m>P=2\pi r</m> where <m>P</m> is the perimeter and <m>r</m> is the radius.</p>
+			<p>Calculate the perimeter of a circle with radius 60 miles using the formula </p>
 		</statement>
 	</task>
 	<task>
@@ -59,13 +62,28 @@
 			<p>Calculate the perimeter of <m>1/360</m> of a circle with radius 60 miles.</p>
 		</statement>
 	</task>
+</task>
+
+<task>
+	<introduction>
+		<p>Next we will consider how accurate this estimate is.</p>
+	</introduction>
 	<task>
 		<statement>
-			<p>Note that the previous task is the 60:1:1 ratio (1 degree is 1/360th of a circle). Does your result match (i.e., is the result approximately 1 mile)?</p>
+			<p>Compare the result of the arclength of <m>1/360</m> of a circle from the previous step to the estimation of 1 miles from the 60:1:1. What is the error using 3 decimal places from your calculation above?</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>Calculate the arclength for a 15<degree/> arc of a circle with radius 20 miles using <m>P=2\pi R</m> and using the 60:1:1 approximation. What is the difference between these calculations using 3 decimal places?</p>
+		</statement>
+	</task>
+	<task>
+		<statement>
+			<p>At 90 mph how long does it take to travel the difference in distance from the previous step?</p>
 		</statement>
 	</task>
 </task>
-
 </project>
 
 <example xml:id="example-6011-ex1">
