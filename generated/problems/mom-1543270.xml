@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1543270">
 <statement>
-<p>An 20 ft extension ladder is 144 in long before extending. If each rung is 14 in above the previous, and the ladder is leaned at an angle of <m>\displaystyle{75}^{\circ}</m>, how much higher is the top of the ladder if it is extended 5 rungs? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+<p>An 28 ft extension ladder is 196 in long before extending. If each rung is 14 in above the previous, and the ladder is leaned at an angle of <m>\displaystyle{75}^{\circ}</m>, how much higher is the top of the ladder if it is extended 10 rungs? <input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
 <p>Round down to the nearest inch.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>67</li></ul></p><p>We need to calculate how high the ladder reaches before extending and how high it reaches after extending.</p>
+<p><ul><li>135</li></ul></p><p>We need to calculate how high the ladder reaches before extending and how high it reaches after extending.</p>
 <p>The unextended height is</p>
 <p>
-  <m>\displaystyle{h}_{{1}}={144}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
+  <m>\displaystyle{h}_{{1}}={196}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
 <p>
-  <m>\displaystyle{h}_{{1}}\approx{139.09331898578}</m></p>
-<p>Because each rung is 14" above the previous the length of the ladder will be increased by <m>\displaystyle{14}\cdot{5}={70}</m> inches. That makes the full length of the ladder <m>\displaystyle{144}+{70}={214}</m>. The extended height is</p>
+  <m>\displaystyle{h}_{{1}}\approx{189.32146195287}</m></p>
+<p>Because each rung is 14" above the previous the length of the ladder will be increased by <m>\displaystyle{14}\cdot{10}={140}</m> inches. That makes the full length of the ladder <m>\displaystyle{196}+{140}={336}</m>. The extended height is</p>
 <p>
-  <m>\displaystyle{h}_{{2}}={214}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
+  <m>\displaystyle{h}_{{2}}={336}{\sin{{\left({75}^{\circ}\right)}}}</m></p>
 <p>
-  <m>\displaystyle{h}_{{2}}\approx{206.7081268261}</m></p>
-<p>The increase in height is therefore <m>\displaystyle{h}_{{2}}-{h}_{{1}}={206.7081268261}-{139.09331898578}={67.614807840312}\approx{67}</m>.</p>
+  <m>\displaystyle{h}_{{2}}\approx{324.5510776335}</m></p>
+<p>The increase in height is therefore <m>\displaystyle{h}_{{2}}-{h}_{{1}}={324.5510776335}-{189.32146195287}={135.22961568062}\approx{135}</m>.</p>
 
 </solution>
 </myopenmath>

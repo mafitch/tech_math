@@ -2,16 +2,24 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1627937">
 <statement>
 <p>
-Given the measurement 549 psi, find the following.</p>
+Given the measurement 599 psi, find the following.</p>
 <p>
-Precision to nearest <fillin characters="20"/> (thousand, hundred, ten, whole, tenth, hundreth, thousandth)</p>
+Precision to nearest </p>
+<p><ol style="list-style-type:upper-alpha"><li>thousand</li> 
+<li>hundred</li> 
+<li>ten</li> 
+<li>whole</li> 
+<li>tenth</li> 
+<li>hundreth</li> 
+<li>thousandth</li> 
+</ol></p>
+ (thousand, hundred, ten, whole, tenth, hundreth, thousandth)<p>
+Accuracy <input type="text" style="width:7ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> (number of significant digits)</p>
 <p>
-Accuracy <input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> (number of significant digits)</p>
-<p>
-Greatest possible error <input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> psi
+Greatest possible error <input type="text" style="width:7ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> psi
 </p>
 </statement>
 <solution>
-<p><ul><li>whole</li><li>3</li><li>0.5</li></ul></p>
+<p><ul><li>D: whole</li><li>3</li><li>0.5</li></ul></p>
 </solution>
 </myopenmath>

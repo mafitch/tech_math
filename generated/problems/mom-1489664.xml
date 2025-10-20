@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1489664">
 <statement>
-<p>A triangle has sides with lengths <m>\displaystyle{a}={7.00}</m>, <m>\displaystyle{b}={13.16}</m>, and <m>\displaystyle{c}={13.79}</m>. Calculate all of the angles of this triangle.</p>
+<p>A triangle has sides with lengths <m>\displaystyle{a}={7.00}</m>, <m>\displaystyle{b}={10.72}</m>, and <m>\displaystyle{c}={9.43}</m>. Calculate all of the angles of this triangle.</p>
 <p><m>\displaystyle{A}\approx</m> <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/> (across from side of length <m>\displaystyle{a}={7.00}</m>)</p>
 <p>
-  <m>\displaystyle{B}\approx</m> <input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> (across from side of length <m>\displaystyle{b}={13.16}</m>)</p>
+  <m>\displaystyle{B}\approx</m> <input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> (across from side of length <m>\displaystyle{b}={10.72}</m>)</p>
 <p>
-  <m>\displaystyle{C}\approx</m> <input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> (across from side of length <m>\displaystyle{c}={13.79}</m>)</p>
+  <m>\displaystyle{C}\approx</m> <input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> (across from side of length <m>\displaystyle{c}={9.43}</m>)</p>
 <p>Round to two decimal places.</p>
 
 
 </statement>
 <solution>
-<p><ul><li>29.99</li><li>70.02</li><li>80.45</li></ul></p><p>Because we have all three sides, we can use the law of cosines for the first angle.</p>
-<p><m>\displaystyle{7}^{{2}}={13.16}^{{2}}+{13.79}^{{2}}-{2}{\left({13.16}\right)}{\left({13.79}\right)}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{49}={173.1856}+{190.1641}-{362.9528}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle-{314.3497}=-{362.9528}{\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{0.86608975051301}={\cos{{\left({A}\right)}}}</m></p>
-<p><m>\displaystyle{A}={29.992625586052}={29.99}</m>.</p>
+<p><ul><li>40.02</li><li>79.96</li><li>55.39</li></ul></p><p>Because we have all three sides, we can use the law of cosines for the first angle.</p>
+<p><m>\displaystyle{7}^{{2}}={10.72}^{{2}}+{9.43}^{{2}}-{2}{\left({10.72}\right)}{\left({9.43}\right)}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{49}={114.9184}+{88.9249}-{202.1792}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle-{154.8433}=-{202.1792}{\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{0.76587156344471}={\cos{{\left({A}\right)}}}</m></p>
+<p><m>\displaystyle{A}={40.015407404737}={40.02}</m>.</p>
 <p>For a second angle, we can use the shorter law of sines.</p>
-<p><m>\displaystyle\frac{{\sin{{\left({29.992625586052}\right)}}}}{{7.00}}=\frac{{\sin{{\left({B}\right)}}}}{{13.16}}</m></p>
-<p><m>\displaystyle-{1.8595874532924}={\sin{{\left({B}\right)}}}</m></p>
-<p><m>\displaystyle{B}={\arcsin{{\left(-{1.8595874532924}\right)}}}</m></p>
-<p><m>\displaystyle{B}={70.016393190488}\approx{70.02}</m></p>
+<p><m>\displaystyle\frac{{\sin{{\left({40.015407404737}\right)}}}}{{7.00}}=\frac{{\sin{{\left({B}\right)}}}}{{10.72}}</m></p>
+<p><m>\displaystyle{1.125216137666}={\sin{{\left({B}\right)}}}</m></p>
+<p><m>\displaystyle{B}={\arcsin{{\left({1.125216137666}\right)}}}</m></p>
+<p><m>\displaystyle{B}={79.964096209035}\approx{79.96}</m></p>
 <p>The third angle we can calculate using the angle sum property.</p>
-<p><m>\displaystyle{29.992625586052}+{70.016393190488}+{C}={180}^{\circ}</m></p>
-<p><m>\displaystyle{C}={80.452631691571}\approx{80.45}</m></p>
+<p><m>\displaystyle{40.015407404737}+{79.964096209035}+{C}={180}^{\circ}</m></p>
+<p><m>\displaystyle{C}={55.38588514014}\approx{55.39}</m></p>
 
 </solution>
 </myopenmath>

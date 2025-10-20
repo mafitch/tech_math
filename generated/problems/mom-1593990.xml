@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1593990">
 <statement>
-<p>Consider the radioactive decay model for Bismuth-212: <m>\displaystyle{A}={14.5}{\left(\frac{{1}}{{2}}\right)}^{{{t}{/}{60.55}}}</m></p>
+<p>Consider the radioactive decay model for Lutetium-177: <m>\displaystyle{A}={47.7}{\left(\frac{{1}}{{2}}\right)}^{{{t}{/}{6.71}}}</m></p>
 <p>
-  where <m>\displaystyle{t}</m> is in units of minutes.</p>
+  where <m>\displaystyle{t}</m> is in units of days.</p>
 <p>What is the initial amount? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/></p>
 <p>
   What is the annual percent increase or decrease? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/></p>
@@ -12,8 +12,8 @@
 
 </statement>
 <solution>
-<p><ul><li>14.5</li><li>100</li></ul></p><p>The initial amount is the coefficient in front, because when <m>\displaystyle{t}={0}</m> the second factor is just one. So the initial amount is 14.5.</p>
-<p>To obtain the <em>annual</em> percent decrease, we need to convert the units to years. 60.55 minutes is <m>\displaystyle\frac{{60.55}}{{525600}}={0.00011520167427702}</m> years.</p>
-<p>Next we need to convert to the form <m>\displaystyle{\left({1}+{p}\right)}^{{t}}</m>. We can do this by expanding <m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{0.00011520167427702}}}}={\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{0.00011520167427702}}}}\right)}^{{t}}={0}^{{t}}</m>. Now we can calculate the percent decrease as <m>\displaystyle{1}-{0}={1}</m>. Converting to percent this is <m>\displaystyle{100}{\left({1}\right)}={100}\%</m>.</p>
+<p><ul><li>47.7</li><li>100</li></ul></p><p>The initial amount is the coefficient in front, because when <m>\displaystyle{t}={0}</m> the second factor is just one. So the initial amount is 47.7.</p>
+<p>To obtain the <em>annual</em> percent decrease, we need to convert the units to years. 6.71 days is <m>\displaystyle\frac{{6.71}}{{365}}={0.018383561643836}</m> years.</p>
+<p>Next we need to convert to the form <m>\displaystyle{\left({1}+{p}\right)}^{{t}}</m>. We can do this by expanding <m>\displaystyle{\left(\frac{{1}}{{2}}\right)}^{{\frac{{t}}{{0.018383561643836}}}}={\left({\left(\frac{{1}}{{2}}\right)}^{{\frac{{1}}{{0.018383561643836}}}}\right)}^{{t}}={4.217401471716}{E}-{17}^{{t}}</m>. Now we can calculate the percent decrease as <m>\displaystyle{1}-{4.217401471716}{E}-{17}={1}</m>. Converting to percent this is <m>\displaystyle{100}{\left({1}\right)}={100}\%</m>.</p>
 </solution>
 </myopenmath>
