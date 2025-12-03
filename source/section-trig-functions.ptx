@@ -143,7 +143,7 @@
     <example xml:id="example-triangle-solve4">
         <p>For a right triangle with angle <m>\alpha=50^\circ</m> and corresponding opposite side of length 7, what are the other side lengths and angles?</p>
         <p>First, we know that two of the angles are <m>90^\circ</m> and <m>50^\circ</m>, so the third angle has measure <m>180^\circ-90^\circ-50^\circ = 40^\circ</m>.</p>
-        <p>To calculate the length of the hypotenuse recall that <m>sin(\alpha)=\frac{\text{opposite}}{\text{hypotenuse}}</m>. We know the angle and the length of the opposite.
+        <p>To calculate the length of the hypotenuse recall that <m>\sin(\alpha)=\frac{\text{opposite}}{\text{hypotenuse}}</m>. We know the angle and the length of the opposite.
         <md>
             <mrow>\sin(50^\circ) \amp \approx 0.76604444. &amp; &amp; \text{ Use a device to approximate.}</mrow>
             <mrow>\frac{7}{h} \amp \approx 0.76604444. &amp; &amp; \text{ Write the ratio.}</mrow>

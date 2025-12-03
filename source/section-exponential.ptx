@@ -198,7 +198,7 @@
     <example xml:id="example-exponential-relation-lactobacillus">
         <p>The bacteria <term>lactobacillus acidophilus</term> is part of turning milk into yogurt. Based on experiments a new generation of bacteria are formed every 70 minutes, that is, the population doubles every 70 minutes.</p>
 
-        <p>Suppose when we start tracking the data there are 3000 cells. After 70 minutes, all of these will have divided into two, so there will be <m>4000(2)=8000</m> cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be <m>8000(2)=16000</m> cells. These results are shown in <xref ref="table-lactobacillus-growth1" />.</p>
+        <p>Suppose when we start tracking the data there are 4000 cells. After 70 minutes, all of these will have divided into two, so there will be <m>4000(2)=8000</m> cells. After another 70 minutes, all of these 8000 cells will have divided into two, so there will be <m>8000(2)=16000</m> cells. These results are shown in <xref ref="table-lactobacillus-growth1" />.</p>
 
         <p>If the population grows by the same ratio every 70 minutes, we might ask ourselves if it grows by the same ratio every 35 minutes. Using math from later in this chapter we can construct <xref ref="table-lactobacillus-growth2" /> which shows populations every 35 minutes. We discover that the population does grow by a fixed percent every 35 minutes. If we look a little deeper we realize that we cut the time in half and switched from doubling (times 2) to times <m>\sqrt{2} \approx 1.4142</m>.</p>
 

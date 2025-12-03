@@ -51,7 +51,7 @@
             <p>Because we know two angles and a side opposite one of them we can use the law of sines.
                 <md>
                     <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}. \amp \amp \text{Set up Law of Sines}</mrow>
-                    <mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \amp \text{ Clear the denominators}</mrow>
+                    <mrow>b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \amp \text{Clear the denominators}</mrow>
                     <mrow>b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}. \amp \amp \text{Divide to solve for }b</mrow>
                     <mrow> \amp \approx 5.54.</mrow>
                 </md>
@@ -62,13 +62,13 @@
             <p>We can use the angle sum fact to calculate the third angle. <m>50^\circ+45^\circ+\alpha=180^\circ</m> so <m>\alpha=85^\circ</m>. As in the previous step we know an angle (50<degree/>), the side opposite it (6), and another angle (85<degree/>) so we can use the Law of Sines.
             <md>
                 <mrow>\frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}. \amp \amp \text{Set up the Law of Sines}</mrow>
-                <mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \amp \text{ Clear the denominators}</mrow>
+                <mrow>c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \amp \text{Clear the denominators}</mrow>
                 <mrow>c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)} \amp \amp \text{Divide to solve for }c</mrow>
                 <mrow> \amp \approx 7.80.</mrow>
             </md></p>
         </task>
         <conclusion>
-            <p>For triangle congruency this was known as Angle-Angle-Side.</p>
+            <p>If you recall triangle congruency, this was known as Angle-Angle-Side.</p>
         </conclusion>
     </example>
 
@@ -92,7 +92,7 @@
             <mrow> &amp; \approx 6.75382345</mrow>
             <mrow> &amp; \approx 6.75</mrow>
         </md>.</p>
-        <p>If you recall triangle geometry this was known as Angle-Side-Angle.</p>
+        <p>For triangle geometry, this was known as Angle-Side-Angle.</p>
     </example>
 
     <exercise xml:id="exercise-law-sines1">
@@ -176,8 +176,8 @@
                 <mrow>c \amp = 4 \frac{\sin(17.11^\circ)}{\sin(45^\circ)}.</mrow>
                 <mrow>c \amp \approx 1.66.</mrow>
             </md></p>
-        <p>Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <xref ref="figure-ass-two-cases" />. This indicates an ambiguity if what we know is this particular information.</p>
-        <p>If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.</p>
+        <p>Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <xref ref="figure-ass-two-cases" />. This indicates an ambiguity if all we know is this particular information.</p>
+        <p>If you recall triangle geometry, this was the case Side-Side-Angle which does not prove congruent triangles.</p>
     </example>
 
     <figure xml:id="figure-ass-two-cases">
@@ -232,7 +232,7 @@
                 <mrow>60.0^\circ \amp \approx B.</mrow>
             </md>
         Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. <m>40.0^\circ+60.0^\circ+C=180^\circ</m> so <m>C = 80.0^\circ</m>.</p>
-        <p>For triangle congruency this was known as Side-Side-Side.</p>
+        <p>For triangle congruency, this was known as Side-Side-Side.</p>
     </example>
 
     <example xml:id="example-law-cosine-sas">
