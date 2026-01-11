@@ -61,14 +61,14 @@
         </statement>
     </definition>
 
-    <definition xml:id="definition-dilution-factor">
+<!--    <definition xml:id="definition-dilution-factor">
         <title>Dilution Factor</title>
         <statement>
             <p>The <term>Dilution Factor</term> is the ratio of solute (drug) to the resulting solution.</p>
             <p>If the solute is liquid, then this is in units of volume per volume. For example a dilution factor of 5 means 1 unit of the drug in every 5 units of solution implying 4 units of diluent (1/4 dilution ratio).</p>
             <p>If the solute is solid (e.g, powder) then this is in units of mass per volume. For example, 5 g of drug in a total of 100 mL of solution. Note we do not care how much diluent was added (hence we cannot calculate dilution ratio). This dilution factor can be achieved by putting in the dry ingredient, then adding part of the diluent to disolve the dry ingredient, then pouring in enough additional diluent to reach the desired volume.</p>
         </statement>
-    </definition>
+    </definition> -->
 
     <definition xml:id="definition-percent-concentration">
         <title>Percent Concentration</title>
@@ -87,10 +87,10 @@
             <p>What is the dilution ratio?</p>
             <p>The dilution ratio is the ratio of the solute to the diluent. We are given both. The dilution ratio is <m>3/37</m>.</p>
         </task>
-        <task>
+<!--        <task>
             <p>What is the dilution factor?</p>
             <p>The dilution factor is the ratio of the total to the substance. The total is substance plus diluent. Here that is <m>3+37=4\bar{0}</m>. The ratio then is <m>\frac{4\bar{0}}{3} \approx 13</m>.</p>
-        </task>
+        </task> -->
         <task>
             <p>Calculate the percent concentration.</p>
             <p>The percent concentration is the ratio of the solute to the total solution by volume written as a percent. We are given the volume of the solute (3 mL) and have calculated the total volume in the previous task (<m>4\bar{0}</m> mL). Thus the percent concentration is <m>\frac{3}{4\bar{0}} = 0.075</m> which is 7.5%.</p>
@@ -99,8 +99,8 @@
 
     <example xml:id="example-solutions-terminology-dry">
         <p>Saline solution consists of the solute salt (sodium chloride) dissolved in the diluent pure water. The saline solution most commonly used in medical applications is 9 g of the solute salt, which is a solid, dissolved in enough water to make 1 liter of solution. We can express the concentration in the folowing ways.</p>
-        <p>Because the solution is produced by adding an unspecified amount of water (<q>enough</q>), it is easiest to express the concentration as a dilution factor. For medicine these are most commonly expressed in terms of milliliters, so we will convert units (<xref ref="table-metric-metric-conversion" text="custom">metric terminology</xref>). The dilution factor is <me>\frac{9 \text{ g}}{1 \text{ L}} \cdot \frac{1 \text{ L}}{1000 \text{ mL}}=\frac{9 \text{ g}}{1000 \text{ mL}}. </me></p>
-        <p>We can also calculate the percent concentration. To do this we need to express volume in milliliters (percent concentration is ratio of solute to 100 mL). We can use unit conversion from above. The percent concentration is
+<!--        <p>Because the solution is produced by adding an unspecified amount of water (<q>enough</q>), it is easiest to express the concentration as a dilution factor. For medicine these are most commonly expressed in terms of milliliters, so we will convert units (<xref ref="table-metric-metric-conversion" text="custom">metric terminology</xref>). The dilution factor is <me>\frac{9 \text{ g}}{1 \text{ L}} \cdot \frac{1 \text{ L}}{1000 \text{ mL}}=\frac{9 \text{ g}}{1000 \text{ mL}}. </me></p> -->
+        <p>We can calculate the percent concentration. To do this we need to express the volume in milliliters, because percent concentration is ratio of solute to 100 mL. We will convert units using <xref ref="table-metric-metric-conversion" text="custom">metric terminology</xref>. The percent concentration is
         <md>
             <mrow>\frac{9 \text{ g}}{1000 \text{ mL}} &amp; =</mrow>
             <mrow>\frac{9 \text{ g}}{1000 \text{ mL}} \cdot \frac{1/10}{1/10} &amp; =</mrow>
@@ -110,9 +110,9 @@
     </example>
 
     <example xml:id="example-solutions-terminology-wet">
-        <p>Clorox<registered/> Disinfecting Bleach contains 7.0% sodium hypochlorite which is a liquid. This means the percent concentration is 7.0%. One commercially available size contains 11 oz. What are the dilution ratio and dilution factor?</p>
-        <p>Looking at the defintions of both dilution ratio and dilution factor we see that we need to know the amount of solute (sodium hypochlorite) in the 11 oz. Because we are given a percent concentration, we can calculate this amount using the technique of <xref ref="example-percent-calculate-part" /> There is <m>11 \text{ oz} \cdot 0.070 = 0.77</m> oz of sodium hypochlorite.</p>
-        <p>We know the total volume and the amount of solute which is all we need to calculate the dilution factor. It is <m>\frac{0.77}{11}</m>. This ratio would be easier to read if we express it with a denominator of one. We start by converting the ratio to a decimal. <m>\frac{0.77}{11}=0.7</m>. Thus the dilution factor is <m>\frac{0.7}{1}</m> expressed in ounces of bleach to ounces of water.</p>
+        <p>Clorox<registered/> Disinfecting Bleach contains 7.0% sodium hypochlorite which is a liquid. This means the percent concentration is 7.0%. One commercially available size contains 11 oz. What is the dilution ratio?</p>
+        <p>Looking at the defintion of dilution ratio, we see that we need to know the amount of solute (sodium hypochlorite) in the 11 oz. Because we are given a percent concentration, we can calculate this amount using the technique of <xref ref="example-percent-calculate-part" /> There is <m>11 \text{ oz} \cdot 0.070 = 0.77</m> oz of sodium hypochlorite.</p>
+<!--        <p>We know the total volume and the amount of solute which is all we need to calculate the dilution factor. It is <m>\frac{0.77}{11}</m>. This ratio would be easier to read if we express it with a denominator of one. We start by converting the ratio to a decimal. <m>\frac{0.77}{11}=0.7</m>. Thus the dilution factor is <m>\frac{0.7}{1}</m> expressed in ounces of bleach to ounces of water.</p> -->
         <p>For the dilution ratio we need the amount of water added. Because the total solution is 11 oz and 0.77 oz is bleach, the amount of water is <m>11-0.77=10.23</m> oz. Thus the dilution ratio is <m>\frac{0.77}{10.23}</m>.</p>
         <p>This ratio is hard to interpret. We could express it with the numerator as one to indicate how much diluent is added to one part solute. We can calculate this multiple ways. The first way is to scale the ratio so the numerator is one.</p>
         <p><md>
@@ -130,7 +130,7 @@
         <p>The ratio <m>\frac{1}{13.29}</m> means there is one ounce of bleach for every 13.29 ounces of water.</p>
     </example>
 
-    <p>Note a pure substance has dilution factor 1/1 (the total volume of the solution is just the volume of the solute). The percent concentration for a pure substance is 100%.</p>
+    <p>Note, the percent concentration for a pure substance is 100%.</p>
 
     <video youtube="BYXKwXJVrio" xml:id="video-example-percent-concentration" />
 
@@ -147,7 +147,7 @@
 
     <p>This section shows how to use knowledge of proportions to perform calculations required in medicine. Dilution ratios or factors tell us a desired ratio, and we know the initial ratio. This pair allows us to setup a proportion.</p>
 
-    <p>This first example shows how to produce a solution with a desired dilution factor.</p>
+<!--    <p>This first example shows how to produce a solution with a desired dilution factor.</p>
 
     <example xml:id="example-make-dilution-factor">
         <p>How much diluent do we need to add to produce a solution containing 3.0 mL of concentrated chloroform that will have a dilution factor of <m>50</m>? Because this is in a medical context, we will round to one milliliter which can be reasonably achieved with their tools.</p>
@@ -162,16 +162,16 @@
             <mrow>D \amp = 147.</mrow>
         </md>
         So we need 147 mL of diluent. Notice once we had the proportion set up we needed only algebra.</p>
-    </example>
+    </example> -->
 
-    <p>This example shows us how to apply a dilution ratio (dilute our solution). We can calculate the resulting dilution factor afterward.</p>
+    <p>This example shows us how to apply a dilution ratio (dilute our solution).</p>
 
     <example xml:id="example-dilute-to-percent-concentration">
         <p>A doctor orders 120 mL of 50% solution of Ensure every two hours. How much Ensure (liquid) and water is needed?</p>
         <p>50% is a percent concentration. This means the Ensure should be 50% of the total volume (120 mL). <m>120 \cdot 0.50 = 60</m> mL of Ensure. This leaves <m>120-60=60</m> mL of water (diluent).</p>
     </example>
 
-    <p>In the example above the dilution ratio is 1/1, because there is the same volume of solute (Ensure) and diluent (water). The dilution factor is 1/2, because we have 60 mL of Ensure in 120 mL of solution (<m>60/120=1/2</m>).</p>
+    <p>In the example above the dilution ratio is 1/1, because there is the same volume of solute (Ensure) and diluent (water).</p>
 
     <p>Working on dilutions is a proportion problem. This next example presents a scenario where we work a dilution problem backwards. Notice that the setup is still a proportion, and the solving is still just the algebra steps needed.</p>
 
