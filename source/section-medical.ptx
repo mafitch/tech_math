@@ -208,7 +208,7 @@
         <p>We can be confident that the original serum sample had a blood glucose level of 700 mg/dL.</p>
     </example>
 
-    <p>Sometimes we dilute more than one time. Here we experiment to determine what the effect of <term>serial dilution</term> is upon the resulting dilution factor.</p>
+    <p>Sometimes we dilute more than one time. Here we experiment to determine what the effect of <term>serial dilution</term> is upon the resulting dilution ratio.</p>
 
     <example xml:id="example-serial-dilution">
         <statement>
@@ -234,7 +234,7 @@
                 <mrow>1 \cdot (T \text{ mL}) \amp = 3 \cdot (200 \text{ mL})</mrow>
                 <mrow>T \amp = 600 \text{ mL}.</mrow>
             </md>
-            The total will be 600 mL so we need to add <m>600 \text{ mL} - 200 \text{ mL} = 400 \text{ mL}</m> of additional diluent. Note at this point the concentration is
+            The total will be 600 mL so we need to add <m>600 \text{ mL} - 200 \text{ mL} = 400 \text{ mL}</m> of additional diluent. At this point the concentration is
             <me>\frac{10 \text{ mL acyl chloride}}{600 \text{ mL diluent}} = \frac{1}{60}.</me>
             Now we can determine what the resulting dilution ratio after diluting twice (1/2 and then 1/3).
             <md>
@@ -242,7 +242,7 @@
                 <mrow>10 \cdot \frac{1}{10} \cdot F \amp = 10 \cdot \frac{1}{60}.</mrow>
                 <mrow>F \amp = \frac{1}{6}.</mrow>
             </md></p>
-            <p>Notice that <m>\frac{1}{6} = \frac{1}{2} \cdot \frac{1}{3}</m>, that is, the resulting dilution factor is the product of the serial dilutions. This relationship is always true for serial dilution.</p>
+            <p>Notice that <m>\frac{1}{6} = \frac{1}{2} \cdot \frac{1}{3}</m>, that is, the resulting dilution ratio is the product of the serial dilutions. This relationship is always true for serial dilution.</p>
         </solution>
     </example>
 
@@ -344,8 +344,8 @@
     </exercise>
 
     <example xml:id="example-dose-dilution-factor">
-        <statement><p>A sample of chloroform water has a dilution factor of 40. If 2 mL of chloroform are needed how many milliliters total are needed?</p></statement>
-        <solution><p>A dilution factor of 40 indicates that 1 mL of chloroform is in 40 mL total of solution. We can setup a proportion to answer this.
+        <statement><p>A sample of chloroform water has a dilution ratio of 1:39. If 2 mL of chloroform are needed how many milliliters total are needed?</p></statement>
+        <solution><p>A dilution ratio of 1:39 indicates that 1 mL of chloroform is in <m>1+39=40</m> mL total of solution. We can setup a proportion to answer this.
         <md>
             <mrow>\frac{1 \text{ mL}}{40 \text{ mL}} \amp = \frac{2 \text{ mL}}{T \text{ mL}}</mrow>
             <mrow>\frac{40 \text{ mL}}{1 \text{ mL}} \amp = \frac{T \text{ mL}}{2 \text{ mL}}</mrow>
