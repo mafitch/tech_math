@@ -98,9 +98,9 @@
     </example>
 
     <example xml:id="example-solutions-terminology-dry">
-        <p>Saline solution consists of the solute salt (sodium chloride) dissolved in the diluent pure water. The saline solution most commonly used in medical applications is 9 g of the solute salt, which is a solid, dissolved in enough water to make 1 liter of solution. We can express the concentration in the folowing ways.</p>
+        <p>Saline solution consists of the solute salt (sodium chloride) dissolved in the diluent pure water. The saline solution most commonly used in medical applications is 9 g of the solute salt, which is a solid, dissolved in enough water to make 1 liter of solution. Because this is a solid disolved in a liquid (which does not meaningfully increase the volume) percent concentration makes the most sense for expressing the concentration.</p>
 <!--        <p>Because the solution is produced by adding an unspecified amount of water (<q>enough</q>), it is easiest to express the concentration as a dilution factor. For medicine these are most commonly expressed in terms of milliliters, so we will convert units (<xref ref="table-metric-metric-conversion" text="custom">metric terminology</xref>). The dilution factor is <me>\frac{9 \text{ g}}{1 \text{ L}} \cdot \frac{1 \text{ L}}{1000 \text{ mL}}=\frac{9 \text{ g}}{1000 \text{ mL}}. </me></p> -->
-        <p>We can calculate the percent concentration. To do this we need to express the volume in milliliters, because percent concentration is ratio of solute to 100 mL. We will convert units using <xref ref="table-metric-metric-conversion" text="custom">metric terminology</xref>. The percent concentration is
+        <p>To calculate the percent concentration we need to express the volume in milliliters, because percent concentration is the ratio of solute to 100 milliliters. We will convert units using <xref ref="table-metric-metric-conversion" />. The percent concentration is
         <md>
             <mrow>\frac{9 \text{ g}}{1000 \text{ mL}} &amp; =</mrow>
             <mrow>\frac{9 \text{ g}}{1000 \text{ mL}} \cdot \frac{1/10}{1/10} &amp; =</mrow>
@@ -110,8 +110,8 @@
     </example>
 
     <example xml:id="example-solutions-terminology-wet">
-        <p>Clorox<registered/> Disinfecting Bleach contains 7.0% sodium hypochlorite which is a liquid. This means the percent concentration is 7.0%. One commercially available size contains 11 oz. What is the dilution ratio?</p>
-        <p>Looking at the defintion of dilution ratio, we see that we need to know the amount of solute (sodium hypochlorite) in the 11 oz. Because we are given a percent concentration, we can calculate this amount using the technique of <xref ref="example-percent-calculate-part" /> There is <m>11 \text{ oz} \cdot 0.070 = 0.77</m> oz of sodium hypochlorite.</p>
+        <p>Clorox<registered/> Disinfecting Bleach contains 7.0% sodium hypochlorite in water. Sodium hypochlorite is a liquid. This means the percent concentration is 7.0%. One commercially available size contains 11 oz. What is the dilution ratio?</p>
+        <p>Looking at the defintion of dilution ratio, we see that we need to know the amount of solute (sodium hypochlorite) in the 11 oz. Because we are given a percent concentration, we can calculate this amount using the technique of <xref ref="example-percent-calculate-part" />. There is <m>11 \text{ oz} \cdot 0.070 = 0.77</m> oz of sodium hypochlorite.</p>
 <!--        <p>We know the total volume and the amount of solute which is all we need to calculate the dilution factor. It is <m>\frac{0.77}{11}</m>. This ratio would be easier to read if we express it with a denominator of one. We start by converting the ratio to a decimal. <m>\frac{0.77}{11}=0.7</m>. Thus the dilution factor is <m>\frac{0.7}{1}</m> expressed in ounces of bleach to ounces of water.</p> -->
         <p>For the dilution ratio we need the amount of water added. Because the total solution is 11 oz and 0.77 oz is bleach, the amount of water is <m>11-0.77=10.23</m> oz. Thus the dilution ratio is <m>\frac{0.77}{10.23}</m>.</p>
         <p>This ratio is hard to interpret. We could express it with the numerator as one to indicate how much diluent is added to one part solute. We can calculate this multiple ways. The first way is to scale the ratio so the numerator is one.</p>
