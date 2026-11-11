@@ -85,8 +85,8 @@
         <image source="images/parallelogram_area" width="30%" >
             <shortdescription>Parallelogram with height 3.00, base lengths 5.00, and other length 4.05</shortdescription>
         </image>
-        <p>The perimeter is the sum of the side lengths which in this case is <me>2(4.05+5.00) = 18.1</me>.</p>
-        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <me>\text{Area} = 3.00 \cdot 5.00 = 15.0</me>.</p>
+        <p>The perimeter is the sum of the side lengths which in this case is <md>2(4.05+5.00) = 18.1</md>.</p>
+        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. For this parallelogram that is <md>\text{Area} = 3.00 \cdot 5.00 = 15.0</md>.</p>
     </example>
 
     <example xml:id="example-rectangle-area">
@@ -94,8 +94,8 @@
         <image source="images/rectangle_area" width="30%" >
             <shortdescription>Rectangle with side lengths 28.2 and 18.1</shortdescription>
         </image>
-        <p>The perimeter is the sum of the side lengths which in this case is <me>2(18.1+28.2) = 92.8.</me></p>
-        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. Because this is a rectangle a side length can be used as the height. <me>\text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510</me>.</p>
+        <p>The perimeter is the sum of the side lengths which in this case is <md>2(18.1+28.2) = 92.8.</md></p>
+        <p>The area of a parallelogram, given in <xref ref="figure-parallelogram-properties" /> is <m>h_1 a</m>. Because this is a rectangle a side length can be used as the height. <md>\text{Area} = 18.1 \cdot 28.2 = 510.42 \approx 510</md>.</p>
     </example>
 
     <exercise>
@@ -144,8 +144,8 @@
         <image source="images/trapezoid_area" width="30%" >
             <shortdescription>Trapezoid with parallel side lengths 1.76 and 3.04; other side lengths 5.00 and 4.05; and height 3.00</shortdescription>
         </image>
-        <p>The perimeter of this trapezoid is the sum of the four side lengths <me>4.05+1.76+3.04+5.00 = 13.85</me>.</p>
-        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1</me>.</p>
+        <p>The perimeter of this trapezoid is the sum of the four side lengths <md>4.05+1.76+3.04+5.00 = 13.85</md>.</p>
+        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <md>\text{Area} = \frac{3.00}{2}(1.76+5.00) = 10.14 \approx 10.1</md>.</p>
     </example>
 
     <p>Note the following is also a trapezoid and the formulae still apply.</p>
@@ -155,8 +155,8 @@
         <image source="images/trapezoid_too" width="30%" >
             <shortdescription>Trapezoid with parallel side lengths 10.00 and 13.00; other side lengths 8.54 and 10.00; and height 8.00</shortdescription>
         </image>
-        <p>The perimeter of this trapezoid is the sum of the four side lengths <me>10.00+10.00+8.54+13.00 = 41.54</me>.</p>
-        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <me>\text{Area} = \frac{8.00}{2}(10.00+13.00) = 92.0.</me></p>
+        <p>The perimeter of this trapezoid is the sum of the four side lengths <md>10.00+10.00+8.54+13.00 = 41.54</md>.</p>
+        <p>The area of a trapezoid, given in <xref ref="figure-trapezoid-properties" /> is <m>\frac{h}{2}(a+b)</m>. For this trapezoid that is <md>\text{Area} = \frac{8.00}{2}(10.00+13.00) = 92.0.</md></p>
     </example>
 
     <exercise>
@@ -192,9 +192,9 @@
 
     <example xml:id="example-triangle-area1">
         <p>What are the perimeter and area of the triangles in <xref ref="figure-exercise-triangle-area" />?</p>
-        <p>The perimeter of the triangle on the left is <me>5.98+10.9+8.19 = 25.07 \approx 25.1.</me> The perimeter of the triangle on the right is <me>5.98+2.87+8.19 = 17.04 \approx 17.0.</me></p>
-        <p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <me>\text{Area} = \frac{1}{2}10.90 \cdot 4.43 = 24.\underline{1}435 \approx 24.1.</me></p>
-        <p>For the triangle on the right the area is <me>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.3\underline{5}705 \approx 6.36</me></p>
+        <p>The perimeter of the triangle on the left is <md>5.98+10.9+8.19 = 25.07 \approx 25.1.</md> The perimeter of the triangle on the right is <md>5.98+2.87+8.19 = 17.04 \approx 17.0.</md></p>
+        <p>The area of a triangle, given in <xref ref="figure-triangle-properties" /> is <m>\frac{1}{2}b h</m>. For the triangle on the left that is <md>\text{Area} = \frac{1}{2}10.90 \cdot 4.43 = 24.\underline{1}435 \approx 24.1.</md></p>
+        <p>For the triangle on the right the area is <md>\text{Area} = \frac{1}{2}2.87 \cdot 4.43 = 6.3\underline{5}705 \approx 6.36</md></p>
     </example>
 
     <figure xml:id="figure-exercise-triangle-area">
@@ -225,7 +225,7 @@
 
     <theorem xml:id="theorem-pythagorean">
         <title>Pythagorean Theorem</title>
-        <statement><p>For a triangle containing a right angle <me>a^2+b^2=c^2</me> where <m>a</m> and <m>b</m> are the lengths of the sides adjacent to the right angle and <m>c</m> is the third side.</p></statement>
+        <statement><p>For a triangle containing a right angle <md>a^2+b^2=c^2</md> where <m>a</m> and <m>b</m> are the lengths of the sides adjacent to the right angle and <m>c</m> is the third side.</p></statement>
     </theorem>
 
     <example xml:id="example-pythagorean-use1">
@@ -265,7 +265,7 @@
 
     <theorem xml:id="theorem-herons-formula">
         <title>Heron's Formula</title>
-        <statement><p>The area of a triangle can be calculated using the three sides. <me>A = \sqrt{s(s-a)(s-b)(s-c)}</me> where <m>s=\frac{1}{2}(a+b+c)</m>.</p></statement>
+        <statement><p>The area of a triangle can be calculated using the three sides. <md>A = \sqrt{s(s-a)(s-b)(s-c)}</md> where <m>s=\frac{1}{2}(a+b+c)</m>.</p></statement>
     </theorem>
 
     <example xml:id="example-heron-formula-integers">
@@ -440,7 +440,7 @@
         <p>To calculate square footage we need to convert everything to the same unit. To avoid rounding issues we will convert to inches then back to feet in the end.</p>
         <p>The living room height is <m>12 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} + 10 \text{ in} = 154 \text{ in}</m>. The width is <m>15 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} + 7 \text{ in} = 187 \text{ in}</m>. The area is <m>(154 \text{ in})(187 \text{ in}) = 28798 \text{ in}^2</m>.</p>
         <p>The hallway height is <m>3 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} + 1 \text{ in} = 37 \text{ in}</m>. The width is <m>11 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} + 1 \text{ in} = 133 \text{ in}</m>. The area is <m>(37 \text{ in})(133 \text{ in}) = 4921 \text{ in}^2</m>.</p>
-        <p>The total floor surface is <m>28798 \text{ in}^2+4921 \text{ in}^2=33312 \text{ in}^2</m>. We can now convert that back to feet. <me>33719 \text{ in}^2 \cdot \left( \frac{1 \text{ ft}}{12 \text{ in}} \right)^2 = \frac{33719}{144} \text{ ft}^2 \approx 234.1597 \text{ ft}^2 \approx 234 \text{ ft}^2.</me></p>
+        <p>The total floor surface is <m>28798 \text{ in}^2+4921 \text{ in}^2=33312 \text{ in}^2</m>. We can now convert that back to feet. <md>33719 \text{ in}^2 \cdot \left( \frac{1 \text{ ft}}{12 \text{ in}} \right)^2 = \frac{33719}{144} \text{ ft}^2 \approx 234.1597 \text{ ft}^2 \approx 234 \text{ ft}^2.</md></p>
         <p>We are using significant digits rounding. All measurements were accurate to one inch. If we converted to decimal feet we would end up with measurements like <m>3 \text{ ft } 1 \text{in} \approx 3.0833 \text{ ft}</m>. The repeated decimal would have to be rounded whereas the inch measurement did not need to be rounded. Avoiding rounding avoids introducing error.</p>
     </example>
 
@@ -452,7 +452,7 @@
         <p>The wall consists of a rectangle with a triangle on top. The rectangle has width 12 ft and height 5 ft for an area of <m>(5 \text{ ft})(12 \text{ ft})=60 \text{ ft}^2</m>.</p>
         <p>We have the base of the triangle (12 ft), but we do not have the height of the triangle. However, we know that the total wall height is 11 ft, and the part of the height from the rectangal is 5 ft. This means that the rest is from the triangle which has height <m>(11 \text{ ft})-(5 \text{ ft})=6 \text{ ft}</m>. Thus the area is <m>\frac{1}{2}(12 \text{ ft})(6 \text{ ft}) = 36 \text{ ft}^2</m>.</p>
         <p>The area of the circle is <m>\pi\left( \frac{6 \text{ ft}}{2} \right)^2 \approx 28.27433389 \text{ ft}^2 \approx 28 \text{ ft}^2</m>.</p>
-        <p>The total wall area is therefore <me>60 \text{ ft}^2 + 36 \text{ ft}^2 - 28.27433389 \text{ ft}^2 \approx 67.72566611 \text{ ft}^2 \approx 68 \text{ ft}^2</me>. It is important to round up to have enough paint.</p>
+        <p>The total wall area is therefore <md>60 \text{ ft}^2 + 36 \text{ ft}^2 - 28.27433389 \text{ ft}^2 \approx 67.72566611 \text{ ft}^2 \approx 68 \text{ ft}^2</md>. It is important to round up to have enough paint.</p>
     </example>
 
     <p>The following example requires geometric thinking, but does not require any formula. Especially important is deciding on the type of rounding which, in this case, is determined by physical constraints.</p>
@@ -467,7 +467,7 @@
                 <p>What is the total number of feet of lumber (2x4) needed?</p>
             </statement>
             <solution>
-                <p>There are two boards of length 60 inches and three boards of length 27 inches. The total length is <me>2 (60\text{ in}) + 3(27.0\text{ in}) = 120\text{ in}</me>. We convert this to feet using a ratio. <me>120 \text{ in} \cdot \frac{1 \text{ ft}}{12 \; \text{in}} = 10 \text{ ft}</me></p>
+                <p>There are two boards of length 60 inches and three boards of length 27 inches. The total length is <md>2 (60\text{ in}) + 3(27.0\text{ in}) = 120\text{ in}</md>. We convert this to feet using a ratio. <md>120 \text{ in} \cdot \frac{1 \text{ ft}}{12 \; \text{in}} = 10 \text{ ft}</md></p>
             </solution>
         </task>
         <task>

@@ -2,18 +2,41 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="835746">
 <statement>
 <p>Solve the triangle</p><image width="58%" pi:generated="problems/images/mom-835746-1.png"/>
-<p><m>\displaystyle\angle{B}</m> is <input type="text" style="width:7ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/>    degrees
+<p><m>\displaystyle\angle{B}</m> is <fillin characters="5"/>    degrees
   </p>
 <p>
-  <m>\displaystyle{a}=</m> <input type="text" style="width:7ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/>   
+  <m>\displaystyle{a}=</m> <fillin characters="5"/>   
   </p>
 <p>
-  <m>\displaystyle{c}=</m> <input type="text" style="width:7ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/>   
+  <m>\displaystyle{c}=</m> <fillin characters="5"/>   
 </p>
 <p>Round to 2 decimal places.</p>
 
+
 </statement>
-<solution>
-<p><ul><li>78</li><li>12.920458504128</li><li>19.457660084727</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>63</li><li>8.42</li><li>11.87</li></ul></p>
+</answer>
+<solution><p>We want to know the length of a side opposite a known angle. The law of sines could help. However, we do not yet know the angle across from the known side.</p>
+<p>We calculate that using the known measures of the other two angles. <m>\displaystyle{180}^{\circ}-{43}^{\circ}-{74}^{\circ}={63}^{\circ}</m>.</p>
+<p>Now we can use law of sines to calculate the desired side length.</p>
+<p>
+  <m>\displaystyle\frac{{\sin{{\left({43}^{\circ}\right)}}}}{{a}}=\frac{{\sin{{\left({63}^{\circ}\right)}}}}{{11}}</m>.</p>
+<p>
+  <m>\displaystyle{11}{\sin{{\left({43}^{\circ}\right)}}}={a}{\sin{{\left({63}^{\circ}\right)}}}</m>.</p>
+<p>
+  <m>\displaystyle{11}\frac{{\sin{{\left({43}^{\circ}\right)}}}}{{\sin{{\left({63}^{\circ}\right)}}}}={a}</m>.</p>
+<p>
+  <m>\displaystyle{8.4196711887392}={a}</m></p>
+<p>
+  <m>\displaystyle{8.42}\approx{a}</m></p>
+<p><m>\displaystyle\frac{{\sin{{\left({74}^{\circ}\right)}}}}{{c}}=\frac{{\sin{{\left({63}^{\circ}\right)}}}}{{11}}</m>.</p>
+<p>
+  <m>\displaystyle{11}{\sin{{\left({74}^{\circ}\right)}}}={c}{\sin{{\left({63}^{\circ}\right)}}}</m>.</p>
+<p>
+  <m>\displaystyle{11}\frac{{\sin{{\left({74}^{\circ}\right)}}}}{{\sin{{\left({63}^{\circ}\right)}}}}={c}</m>.</p>
+<p>
+  <m>\displaystyle{11.867341448429}={c}</m></p>
+<p>
+  <m>\displaystyle{11.87}\approx{c}</m></p></solution>
 </myopenmath>

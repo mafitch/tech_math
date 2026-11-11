@@ -35,7 +35,7 @@
 
         <example xml:id="example-percent-mixture-sugar">
             <p>Suppose we have a container with a solution of sugar water that is 22% sugar and another container with a solution of sugar water that is 16% sugar. If we combine 150 g of the first solution and 250 g of the second solution, what is the percent of sugar in the resulting solution? Round the percent to two decimal places.</p>
-            <p>To calculate a percent we need the amount of the part and the amount of the whole. We are told the total amount of each solution we are using, so we can calculate the whole (total amount of resulting solution) directly. Because they have the same units we can add. <me>T=150 \text{ g}+250 \text{ g}=400 \text{ g}</me>.</p>
+            <p>To calculate a percent we need the amount of the part and the amount of the whole. We are told the total amount of each solution we are using, so we can calculate the whole (total amount of resulting solution) directly. Because they have the same units we can add. <md>T=150 \text{ g}+250 \text{ g}=400 \text{ g}</md>.</p>
             <p>We cannot simply add the amounts of sugar from each because we are told the percent rather than the amount. However, we know how to convert a percent and total amount to an amount of the part. We did this in <xref ref="example-percent-calculate-part" />.
                 <md>
                     <mrow>S_1 &amp; = 150 \text{ g} \cdot 0.22</mrow>
@@ -48,7 +48,7 @@
                     <mrow> &amp; = 73 \text{ g}</mrow>
                 </md>.
             </p>
-            <p>Finally we can calculate the percent of sugar in the resulting mixture using the defintion of percent. The percent of sugar in the resulting mixture is <me>\frac{\text{Part}}{\text{Whole}} = \frac{73 \text{ g}}{400 \text{ g}} = 0.1825 = 18.25\%</me>.</p>
+            <p>Finally we can calculate the percent of sugar in the resulting mixture using the defintion of percent. The percent of sugar in the resulting mixture is <md>\frac{\text{Part}}{\text{Whole}} = \frac{73 \text{ g}}{400 \text{ g}} = 0.1825 = 18.25\%</md>.</p>
         </example>
 
         <example xml:id="example-percent-mixture-steel">
@@ -87,9 +87,9 @@
             <title>Dilute Alcohol</title>
 
             <p>91% isopropyl alcohol is not a good agtent for sanitzing because it evaporates so quickly that bacteria are not exposed long enough to die. As a result we want to dilute it before use. Suppose we begin with 16.0 oz of a 91.0% isopropyl alcohol and add 4.00 oz of water to this mixture. What will the percent alcohol of the resulting solution be? These are measurements, so we will round using significant digits.</p>
-            <p>We know we can calculate the percent alcohol by dividing the amount of alcohol (part) by the total amount. We also know that we are not increasing the amount of alcohol (adding only water), so we can use the original percent alcohol and original amount to calculate the amount of alcohol. <me>0.910(16.0 \text{ oz}) = 14.\underline{5}6 \text{ oz}</me>.</p>
-            <p>We are adding 4.00 oz total to the original solution, thus the volume of the resulting solution is <me>16.0 \text{ oz}+4.00 \text{ oz} = 20.0 \text{ oz}</me>.</p>
-            <p>Now that we know the part and the whole we can calculate the resulting percent alcohol. <me>\frac{14.\underline{5}6 \text{ oz}}{20.0 \text{ oz}}=0.72\underline{8} = 72.8\%</me>.</p>
+            <p>We know we can calculate the percent alcohol by dividing the amount of alcohol (part) by the total amount. We also know that we are not increasing the amount of alcohol (adding only water), so we can use the original percent alcohol and original amount to calculate the amount of alcohol. <md>0.910(16.0 \text{ oz}) = 14.\underline{5}6 \text{ oz}</md>.</p>
+            <p>We are adding 4.00 oz total to the original solution, thus the volume of the resulting solution is <md>16.0 \text{ oz}+4.00 \text{ oz} = 20.0 \text{ oz}</md>.</p>
+            <p>Now that we know the part and the whole we can calculate the resulting percent alcohol. <md>\frac{14.\underline{5}6 \text{ oz}}{20.0 \text{ oz}}=0.72\underline{8} = 72.8\%</md>.</p>
         </example>
 
         <p>If we added more water would the percent alcohol be greater or less? If we are using all of the alcohol solution, the amount of water we add determines the percent alcohol.</p>

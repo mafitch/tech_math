@@ -107,8 +107,8 @@
 				<mrow>100 \; \text{g} \amp = S.</mrow>
 			</md></p>
 			<p>We have a total of 100 g and 37 g is HCl, thus the water is 
-				<me>100 \; \text{g} - 37 \; \text{g} = 63 \; \text{g}</me> of water. 1 g of water at standard conditions has a volume of 1 mL. This is now a unit conversion problem.
-				<me>63 g \cdot \frac{1 \; \text{mL}}{1 \; \text{g}} = 63 \; \text{mL}</me>.</p>
+				<md>100 \; \text{g} - 37 \; \text{g} = 63 \; \text{g}</md> of water. 1 g of water at standard conditions has a volume of 1 mL. This is now a unit conversion problem.
+				<md>63 g \cdot \frac{1 \; \text{mL}}{1 \; \text{g}} = 63 \; \text{mL}</md>.</p>
 		</solution>
 	</example>
 
@@ -141,7 +141,7 @@
 
 	<example xml:id="example-dilution-ratio-apply">
 		<p>If we have a solution of HCl and water that has a ratio of solution to total of 37/100, and we apply a dilution ratio of 1/2, what is the new ratio of solution to total?</p>
-		<p><me>\frac{37}{100} \cdot \frac{1}{2} = \frac{37}{200}</me> Note this means there are 37 g of HCl and <m>200-37=163</m> grams of water.</p>
+		<p><md>\frac{37}{100} \cdot \frac{1}{2} = \frac{37}{200}</md> Note this means there are 37 g of HCl and <m>200-37=163</m> grams of water.</p>
 	</example>
 
 	<example xml:id="example-diluation-ratio-calculate">
@@ -200,7 +200,7 @@
 				<mrow>T \amp = 200 \; \text{mL}.</mrow>
 			</md>
 			The total will be 200 mL so we need to add <m>200 \; \text{mL}- 100 \; \text{mL} = 100 \; \text{mL}</m> of additional diluent. Note at this point the concentration is
-			<me>\frac{10 \; \text{mL acyl chloride}}{200 \; \text{mL diluent}} = \frac{1}{20}.</me>
+			<md>\frac{10 \; \text{mL acyl chloride}}{200 \; \text{mL diluent}} = \frac{1}{20}.</md>
 			To dilute again to a ratio of 1/3 we can calculate the amount of diluent to add
 			<md>
 				<mrow>\frac{1}{3} \amp = \frac{200 \; \text{mL}}{T \; \text{mL}}</mrow>
@@ -208,7 +208,7 @@
 				<mrow>T \amp = 600 \; \text{mL}.</mrow>
 			</md>
 			The total will be 600 mL so we need to add <m>600 \; \text{mL} - 200 \; \text{mL} = 400 \; \text{mL}</m> of additional diluent. Note at this point the concentration is
-			<me>\frac{10 \; \text{mL acyl chloride}}{600 \; \text{mL diluent}} = \frac{1}{60}.</me>
+			<md>\frac{10 \; \text{mL acyl chloride}}{600 \; \text{mL diluent}} = \frac{1}{60}.</md>
 			Now we can determine what the resulting dilution ratio after diluting twice (1/2 and then 1/3). We set this up like <xref ref="example-diluation-ratio-calculate" />
 			<md>
 				<mrow>\frac{1}{10} \cdot F \amp = \frac{1}{60} \amp \; \text{clear the denominator on the left}</mrow>
@@ -264,11 +264,11 @@
 		</statement>
 		<solution>
 			<p>This is also a unit conversion problem like <xref ref="example-convert-speed" />.  We need to convert from drops per minute to drops per mL.
-			<me>\frac{50 \; \text{drops}}{\text{minute}} \cdot \frac{\text{mL}}{10 \; \text{drops}} = \frac{5 \; \text{mL}}{\text{minute}}</me>
+			<md>\frac{50 \; \text{drops}}{\text{minute}} \cdot \frac{\text{mL}}{10 \; \text{drops}} = \frac{5 \; \text{mL}}{\text{minute}}</md>
 			Now that we know the rate, we can determine how long it will take to give the whole IV solution. Notice how we invert the rate to make the mL units match.
-			<me>1500 \; \text{mL} \cdot \frac{\text{minute}}{5 \; \text{mL}} = 300 \; \text{minutes}</me>
+			<md>1500 \; \text{mL} \cdot \frac{\text{minute}}{5 \; \text{mL}} = 300 \; \text{minutes}</md>
 			The final step is to convert minutes to hours. This is another unit conversion problem using a conversion from <xref ref="table-customary-convert" />
-			<me>300 \; \text{minutes} \cdot \frac{1 \; \text{hr}}{60 \; \text{min}} = 5 \; \text{hours}</me></p>
+			<md>300 \; \text{minutes} \cdot \frac{1 \; \text{hr}}{60 \; \text{min}} = 5 \; \text{hours}</md></p>
 		</solution>
 	</example>
 

@@ -2,12 +2,19 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="901726">
 <statement>
 <p>Find the volume of the figure below. All measurements are in inches. Round accordingly.</p>
-<image width="48%" pi:generated="problems/images/mom-901726-1"/>
-<p><input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> <m>{in}^{3}</m></p>
+<image width="52%" pi:generated="problems/images/mom-901726-1"/>
+<p><fillin characters="5"/> <m>{in}^{3}</m></p>
 
 
 </statement>
-<solution>
-<p><ul><li>180</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>210</li></ul></p>
+</answer>
+<solution><p>One way to calculate this volume is to calculate the volume of two boxes and add them.</p>
+<p>
+  <m>\displaystyle{\left({4}\right)}{\left({6}\right)}{\left({3}\right)}={72}</m></p>
+<p>
+  <m>\displaystyle{\left({4}\right)}{\left({7}\right)}{\left({5}\right)}={140}</m></p>
+<p>
+  Total volume is <m>\displaystyle{72}+{140}={212}\approx{210}</m>.</p></solution>
 </myopenmath>

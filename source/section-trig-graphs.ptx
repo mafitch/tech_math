@@ -149,14 +149,14 @@
             <mrow>f \cdot \frac{1}{3} \amp = 1</mrow>
             <mrow>f \amp = 3</mrow>
         </md> The frequency is 3.</p>
-        <p>We can consider this a conversion of units. If the period is <me>\frac{1/3 \text{ seconds}}{\text{cycle}}</me> and frequency is in cycles per second what we want is to remove the 1/3 from the denominator (turn it into 1).
+        <p>We can consider this a conversion of units. If the period is <md>\frac{1/3 \text{ seconds}}{\text{cycle}}</md> and frequency is in cycles per second what we want is to remove the 1/3 from the denominator (turn it into 1).
         <md>
             <mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \amp = </mrow>
             <mrow>\frac{\text{cycles}}{1/3 \text{ seconds}} \cdot \frac{3}{3} \amp = \frac{3 \text{ cycles}}{\text{ second}}</mrow>
         </md></p>
     </example>
 
-    <p>Generally, if the period is <m>T</m> then the frequency is <me>f=\frac{1}{T}.</me></p>
+    <p>Generally, if the period is <m>T</m> then the frequency is <md>f=\frac{1}{T}.</md></p>
 
     <example xml:id="example-wave-length-sound">
         <p>What are the period and wavelength of middle C which has a frequency of 261.63 Hz? This is a measurement in a science model so we will use significant digits.</p>
@@ -170,7 +170,7 @@
             <mrow> \amp \approx 0.003822\underline{1}916</mrow>
             <mrow> \amp \approx 0.0038222</mrow>
         </md>.</p>
-        <p>For the wavelength we need to know that the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows. <me>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.265\underline{5}65875 \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</me></p>
+        <p>For the wavelength we need to know that the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). The units suggest that we multiply as follows. <md>\frac{\text{second}}{261.63 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 4.265\underline{5}65875 \approx 4.266 \frac{\text{feet}}{\text{cycle}}.</md></p>
     </example>
 
     <example xml:id="example-wave-length-radio">
@@ -181,7 +181,7 @@
             <mrow> \amp \approx 0.00133\underline{3}333333</mrow>
             <mrow> \amp \approx 0.00133</mrow>
         </md></p>
-        <p>For the wavelength we need to convert units from seconds per cycle to meters per cycle <me>\frac{1 \text{ s}}{750.0 \text{ cycles}} \cdot \frac{2.9979 \times 10^8 \text{ m}}{\text{s}} \approx 399\underline{7}20 \frac{\text{feet}}{\text{cycle}} \approx 399700 \frac{\text{m}}{\text{cycle}}.</me></p>
+        <p>For the wavelength we need to convert units from seconds per cycle to meters per cycle <md>\frac{1 \text{ s}}{750.0 \text{ cycles}} \cdot \frac{2.9979 \times 10^8 \text{ m}}{\text{s}} \approx 399\underline{7}20 \frac{\text{feet}}{\text{cycle}} \approx 399700 \frac{\text{m}}{\text{cycle}}.</md></p>
         </solution>
     </example>
 
@@ -200,7 +200,7 @@
                 <mrow>T \amp = \frac{1}{293.66}</mrow>
                 <mrow>T \amp \approx 0.0034053</mrow>
             </md></p>
-            <p>For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <me>\frac{\text{second}}{293.66 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 3.800 \frac{\text{feet}}{\text{cycle}}.</me></p></solution>
+            <p>For the wavelength we need to recall the speed of sound is 1116 feet/second. Now we can use the fact that Hz is cycles per second to convert frequency (cycles per second) to wavelength (feet per cycle). <md>\frac{\text{second}}{293.66 \text{ cycles}} \cdot \frac{1116 \text{ feet}}{\text{second}} \approx 3.800 \frac{\text{feet}}{\text{cycle}}.</md></p></solution>
         </webwork> -->
         <myopenmath problem="1490351" />
     </exercise>
@@ -220,7 +220,7 @@
                 <p>The bottom of the sine wave reaches -2 and the top reaches 2. A complete cycle is repeated from -180 to 0, again from 0 to 180, again from 180 to 360, again from 360 to 540, and again from 540 to 720.</p>
             </description>
         </image>
-        <p>The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is <me>f=\frac{1}{180} \approx 0.0056</me></p>
+        <p>The amplitude of this sine wave is 2. The period is 180. Note without a context period and wavelength are the same. The frequency is <md>f=\frac{1}{180} \approx 0.0056</md></p>
     </example>
 
     <p>In applications the wavelength, period/frequency, and amplitude are determined experimentally: we rarely see the wave. However, in order to practice distinguishing between these properties, we will use visual examples and exercises.</p>

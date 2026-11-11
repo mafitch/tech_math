@@ -30,7 +30,7 @@
 
     <theorem xml:id="theorem-law-sines">
         <title>Law of Sines</title>
-        <p>For a triangle with angles and sides as labeled in <xref ref="figure-triangle-labeled" />, <me> \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.</me> </p>
+        <p>For a triangle with angles and sides as labeled in <xref ref="figure-triangle-labeled" />, <md> \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.</md> </p>
     </theorem>
 
     <figure xml:id="figure-triangle-labeled">
@@ -205,7 +205,7 @@
         <title>Law of Cosines</title>
 
         <statement><p>For any triangle with side lengths <m>a,b,c</m> and angle <m>C</m> which is opposite the side with length <m>c</m>
-        <me>c^2 = a^2+b^2-2ab\cos(C)</me>.</p></statement>
+        <md>c^2 = a^2+b^2-2ab\cos(C)</md>.</p></statement>
     </theorem>
 
     <example xml:id="example-law-cosines-sss">
@@ -316,7 +316,7 @@
         </image>
         <p>How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.</p>
         <p>In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle with vertices B, C, and the airplane. Initially we know only the bottom angles (34.20<degree/> and the right angle) and none of the lengths. If we can calculate the length of the side from B to the airplane (on the left), then we could use the angles and that side length with the Law of Sines to calculate the height.</p>
-        <p>That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we have angle-side-angle information, so we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular <me>\frac{\sin(P)}{2.3}=\frac{\sin(8.00^\circ)}{c}</me></p>
+        <p>That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we have angle-side-angle information, so we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular <md>\frac{\sin(P)}{2.3}=\frac{\sin(8.00^\circ)}{c}</md></p>
         <p>To calculate the angle at the plane (labeled <m>P</m> above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is <m>180^\circ-34.20^\circ = 145.80^\circ = B</m>. Now, b <m>8.00^\circ+145.80^\circ+P = 180^\circ</m> So, the angle at the aircraft is <m>P = 26.20^\circ</m>.</p>
         <p>Now we can apply the Law of Sines.
             <md>
@@ -335,7 +335,7 @@
                 <mrow> &amp; \approx 0.4\underline{0}75185828 \text{ mi}</mrow>
                 <mrow> &amp; \approx 0.41 \text{ mi}</mrow>
             </md>.
-        This is in miles. It will be easier to interpret in feet. The conversion ratio in <xref ref="table-customary-convert" /> suggests we can multiply <me>(0.4\underline{0}751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2\underline{1}51.6983 \text{ ft} \approx 2200 \text{ ft}</me>.</p>
+        This is in miles. It will be easier to interpret in feet. The conversion ratio in <xref ref="table-customary-convert" /> suggests we can multiply <md>(0.4\underline{0}751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2\underline{1}51.6983 \text{ ft} \approx 2200 \text{ ft}</md>.</p>
     </example>
 
 </subsection>

@@ -24,7 +24,7 @@
 	<title>Understand a Model</title>
 
 	<activity xml:id="activity-rational-gears">
-		<introduction><p>When one gear directly drives another the speeds at which they rotate (in rotations per minute or rpm) is given by <me>r_1 g_1 = r_2 g_2</me> where <m>r_1</m> and <m>r_2</m> are the rotation speeds of the two gears and <m>g_1</m> and <m>g_2</m> are the number of teeth on each gear.</p></introduction>
+		<introduction><p>When one gear directly drives another the speeds at which they rotate (in rotations per minute or rpm) is given by <md>r_1 g_1 = r_2 g_2</md> where <m>r_1</m> and <m>r_2</m> are the rotation speeds of the two gears and <m>g_1</m> and <m>g_2</m> are the number of teeth on each gear.</p></introduction>
 		<task><p>Consider a pair of gears with the larger have 32 teeth and the smaller having 16 teeth. If the larger gear does one, full rotation, 32 teeth move around. This means the smaller gear also has 32 teeth move around. How many rotations is this?</p></task>
 		<task><p>Next consider a pair of gears with the larger having 36 teeth and the smaller having 20 teeth. If the larger gear rotates 2 times, how many times has the smaller gear rotated?</p></task>
 		<task><p>Next we consider the effect of increasing the disparity in the number of teeth. Suppose the smaller gear has 10 teeth. How many times does it rotate for a single rotation if the larger gear has 30 teeth? 36 teeth? 42 teeth? 48 teeth? Is this linear, quadratic, exponential, inverse of one of these?</p></task>
@@ -38,7 +38,7 @@
 
 	<p>We worked with Ohm's Law relating voltage, current, and resistance. That applies to electricity flowing along one path (e.g., wire). In the next example we look at what effect connecting multiple paths has on resistance.</p>
 
-	<p>When two resistors are in parallel as shown in <xref ref="figure-parallel-resistance" /> then the resulting resistance is given by <me>\frac{1}{R} = \frac{1}{R_1}+\frac{1}{R_2}</me>. </p>
+	<p>When two resistors are in parallel as shown in <xref ref="figure-parallel-resistance" /> then the resulting resistance is given by <md>\frac{1}{R} = \frac{1}{R_1}+\frac{1}{R_2}</md>. </p>
 
 	<figure xml:id="figure-parallel-resistance">
 		<caption>Resistors in Parallel</caption>
@@ -106,7 +106,7 @@
 	<example xml:id="example-rational-solve-gear">
 		<title>Pitch Diamter</title>
 
-		<statement><p>There is a relation between the number of teeth (<m>N</m>) of a gear, the outside diameter (<m>D_o</m>), and the pitch diameter (<m>D_p</m>). It is <me>D_p = \frac{D_o N}{N+2}.</me> If we want to find the number of teeth given the two diameters we will need to solve for <m>N</m>.</p></statement>
+		<statement><p>There is a relation between the number of teeth (<m>N</m>) of a gear, the outside diameter (<m>D_o</m>), and the pitch diameter (<m>D_p</m>). It is <md>D_p = \frac{D_o N}{N+2}.</md> If we want to find the number of teeth given the two diameters we will need to solve for <m>N</m>.</p></statement>
 		<solution><p><md>
 			<mrow>D_p &amp; = \frac{D_o N}{N+2}.</mrow>
 			<mrow>D_p \cdot (N+2) &amp; = \frac{D_o N}{N+2} \cdot (N+2).</mrow>
@@ -125,7 +125,7 @@
 		<video youtube="o1v5CUSzTak" xml:id="video-pitch-diameter" />
 	</figure>
 
-	<p>There is a relationship between volume, pressure, and temperature. <me>\frac{P_1 V_1}{T_1+460} = \frac{P_2 V_2}{T_2+460}.</me> <m>P_1</m>, <m>V_1</m>, and <m>T_1</m> are the initial pressure, volume, and temperature. <m>P_2</m>, <m>V_2</m>, and <m>T_2</m> are pressure, volume, and temperature at another time. One or more might change.</p>
+	<p>There is a relationship between volume, pressure, and temperature. <md>\frac{P_1 V_1}{T_1+460} = \frac{P_2 V_2}{T_2+460}.</md> <m>P_1</m>, <m>V_1</m>, and <m>T_1</m> are the initial pressure, volume, and temperature. <m>P_2</m>, <m>V_2</m>, and <m>T_2</m> are pressure, volume, and temperature at another time. One or more might change.</p>
 
 	<exercise>
 		<introduction><p>Consider a situation where the initial measurements are <m>P_1=29.97</m> inHg, <m>V_1=28.88 \; \text{in}^3</m>,  and <m>T_1=55.00^\circ</m> F.</p></introduction>
@@ -161,7 +161,7 @@
 			<mrow>\frac{3}{3} \cdot \frac{1 \text{ basement}}{4.0 \text{ hours}} + \frac{4}{4} \cdot \frac{1 \text{ basement}}{3.0 \text{ hours}} &amp; = </mrow>
 			<mrow>\frac{3 \text{ basement}}{12.0 \text{ hours}} + \frac{4 \text{ basement}}{12.0 \text{ hours}} &amp; = \frac{7 \text{ basement}}{12.0 \text{ hours}}</mrow>
 		</md>.
-		Now we need to scale this rate from 7 basements per 12 hours to 1 basement per N hours. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.7 \text{ hours}}</me>. Thus if both pumps are working it will take 1.7 hours drain the basement.</p></solution>
+		Now we need to scale this rate from 7 basements per 12 hours to 1 basement per N hours. <md>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12.0 \text{ hours}} = \frac{1 \text{ basement}}{1.7 \text{ hours}}</md>. Thus if both pumps are working it will take 1.7 hours drain the basement.</p></solution>
 	</example>
 
 	<exercise>

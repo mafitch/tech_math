@@ -127,7 +127,7 @@
             <mrow>\frac{3.0 \cancelhighlight{\text{ pints}}}{1} \cdot \frac{2 \text{ cups}}{\cancelhighlight{\text{pint}}} &amp; =</mrow>
             <mrow>3.0 \cdot 2 \text{ cups} &amp; = 6.0 \text{ cups}</mrow>
         </md>.</p>
-        <p>When we know that we need multiple conversions we can calculate them all at once. <me>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}</me>.</p>
+        <p>When we know that we need multiple conversions we can calculate them all at once. <md>1.5 \text{ quarts} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 6.0 \text{ cups}</md>.</p>
         <p>When we use more than one conversion, we are careful to set up the ratios so that the intermediate units (quarts and pints in this case) are divided out leaving us with only the desired unit.</p>
     </example>
 
@@ -138,7 +138,7 @@
         <solution>
             <p>The conversion table does not include the number of cups per gallon. However, we can start by converting gallons to quarts. Then looking at the table again, we can convert quarts to pints, and finally we can convert pints to cups.</p>
             <p>As with the previous example we can treat each conversion as a ratio of units. We setup the units so that multiplying will result in units dividing out.
-            <me>1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ cups}</me></p>
+            <md>1.7 \text{ gallons} \cdot \frac{4 \text{ quarts}}{\text{gallon}} \cdot \frac{2 \text{ pints}}{\text{quart}} \cdot \frac{2 \text{ cups}}{\text{pint}} = 27.2 \text{ cups}</md></p>
         </solution>
     </example>
 
@@ -146,7 +146,7 @@
         <statement><p>How many days is 17 hours?</p></statement>
         <solution>
             <p>Here we are going from a small unit (hours) to a bigger one (days). This does not change our process. We can still multiply the amount by the unit conversion. Because we want to end up with days we use <m>\frac{1 \text{ day}}{24 \text{ hours}}</m>
-            <me>17 \text{ hours} \cdot \frac{1 \text{ day}}{24 \text{ hours}} \approx 0.7083 \text{ days}</me></p>
+            <md>17 \text{ hours} \cdot \frac{1 \text{ day}}{24 \text{ hours}} \approx 0.7083 \text{ days}</md></p>
         </solution>
     </example>
 
@@ -277,8 +277,8 @@
     <example xml:id="example-customary-to-si">
         <statement><p>How many kilometers is 26.2 miles?</p></statement>
         <solution>
-            <p>From <xref ref="table-customary-to-si" /> we know each mile is 1.60934 km; this means there is <me>\frac{1.60934 \text{ km}}{1 \text{ mi}}</me>. The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.
-            <me>26.2 \text{ mi} \cdot \frac{1.60934 \text{ km}}{\text{mi}} = 42.164708 \text{ km} \approx 42.2 \text{ km}</me>
+            <p>From <xref ref="table-customary-to-si" /> we know each mile is 1.60934 km; this means there is <md>\frac{1.60934 \text{ km}}{1 \text{ mi}}</md>. The ratio suggests that we can multiply 23.6 miles by the ratio, because the miles will divide out.
+            <md>26.2 \text{ mi} \cdot \frac{1.60934 \text{ km}}{\text{mi}} = 42.164708 \text{ km} \approx 42.2 \text{ km}</md>
             We have rounded here to 3 digits to match the original number (26.2). A reason to do so is presented in <xref ref="section-enough" />. </p>
         </solution>
     </example>
@@ -286,8 +286,8 @@
     <example xml:id="example-si-to-customary">
         <statement><p>How many inches is 15 centimeters?</p></statement>
         <solution>
-            <p>From <xref ref="table-si-to-customary" /> we know each centimeter is 0.393701 inches; this means there is <me>\frac{0.393701 \text{ in}}{1 \text{ cm}}</me>. The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out.
-            <me>15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} = 5.905515 \text{ in} \approx 5.9 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
+            <p>From <xref ref="table-si-to-customary" /> we know each centimeter is 0.393701 inches; this means there is <md>\frac{0.393701 \text{ in}}{1 \text{ cm}}</md>. The ratio suggests that we can multiply 15 centimeters by the ratio, because the centimeters will divide out.
+            <md>15 \text{ cm} \cdot \frac{0.393701 \text{ in}}{\text{cm}} = 5.905515 \text{ in} \approx 5.9 \text{ in}</md>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
         </solution>
     </example>
 
@@ -295,7 +295,7 @@
         <statement><p>How many inches is 1 meter?</p></statement>
         <solution>
             <p>From <xref ref="table-si-to-customary" /> we know each meter is 3.28084 feet. From <xref ref="table-customary-convert" /> that each foot is 12 inches. We use the method of setting up a product of ratios so that the units divide out. We start with meters, so the first ratio must be feet per meters. We want to end with inches so the second ratio must be inches per feet.
-            <me>1 \text{ m} \cdot \frac{3.28084 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 39.37008 \text{ in} \approx 39 \text{ in}</me>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
+            <md>1 \text{ m} \cdot \frac{3.28084 \text{ ft}}{1 \text{ m}} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 39.37008 \text{ in} \approx 39 \text{ in}</md>We have rounded here to 2 digits to match the original number (15). A reason to do so is presented in <xref ref="section-enough" />. </p>
         </solution>
     </example>
 
@@ -312,7 +312,7 @@
 
     <example xml:id="example-convert-speed">
         <p>How many meters per second is 15 miles per hour?</p>
-        <p>We start with <m>\frac{15 \text{ mi}}{1 \text{ hr}}</m>. We can convert miles to feet and feet to meters (multi-step conversion like <xref ref="example-customary-convert-down2" />). The conversion ratios suggest we can multiply the 15 mi/hr by the conversion ratios. <me>\frac{15 \text{ mi}}{1 \text{ hr}} \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \cdot \frac{0.3048 \text{ m}}{1 \text{ ft}} \approx \frac{24140 \text{ m}}{1 \text{ hr}}</me> We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. <me>\frac{24140 \text{ m}}{1 \text{ hr}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \cdot \frac{1 \text{ min}}{60 \text{ sec}} \approx 6.706 \frac{\text{m}}{\text{sec}}</me>.</p>
+        <p>We start with <m>\frac{15 \text{ mi}}{1 \text{ hr}}</m>. We can convert miles to feet and feet to meters (multi-step conversion like <xref ref="example-customary-convert-down2" />). The conversion ratios suggest we can multiply the 15 mi/hr by the conversion ratios. <md>\frac{15 \text{ mi}}{1 \text{ hr}} \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \cdot \frac{0.3048 \text{ m}}{1 \text{ ft}} \approx \frac{24140 \text{ m}}{1 \text{ hr}}</md> We can use the same method (multiplying by conversion ratios to divide out units) to also conver hours to seconds. <md>\frac{24140 \text{ m}}{1 \text{ hr}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \cdot \frac{1 \text{ min}}{60 \text{ sec}} \approx 6.706 \frac{\text{m}}{\text{sec}}</md>.</p>
         <p>Note, we could perform that conversion in on step by multiplying all the conversion ratios at once.</p>
     </example>
 
@@ -355,7 +355,7 @@
     <video youtube="fC2-uYouAP0" xml:id="video-example-unit-convert-compound" />
 
     <example xml:id="example-unit-convert-compound">
-        <p>Calculate the value and resulting (simplified) units for <me>\frac{1}{2} \cdot \frac{0.002309 \text{ slugs}}{\text{ft}^3} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}}{\text{s}}\right)^2</me>. Note, the unit slug is defined as <me>\text{slug} = \frac{\text{lbs} \text{ s}^2}{\text{ft}}</me>.</p>
+        <p>Calculate the value and resulting (simplified) units for <md>\frac{1}{2} \cdot \frac{0.002309 \text{ slugs}}{\text{ft}^3} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}}{\text{s}}\right)^2</md>. Note, the unit slug is defined as <md>\text{slug} = \frac{\text{lbs} \text{ s}^2}{\text{ft}}</md>.</p>
         <p><md>
             <mrow>\frac{1}{2} \cdot \frac{0.002309 \text{ slugs}}{\text{ft}^3} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}}{\text{s}}\right)^2 \amp = \text{ First, substitute slugs}</mrow>
             <mrow>\frac{1}{2} \cdot \frac{0.002309 \text{ lbs} \text{ s}^2}{\text{ft} \cdot \text{ft}^3} \cdot (174 \text{ ft}^2)(3.1067)\left(\frac{75.95 \text{ ft}}{\text{s}}\right)^2 \amp = \text{ Second, handle powers}</mrow>

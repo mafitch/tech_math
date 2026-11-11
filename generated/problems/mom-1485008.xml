@@ -1,16 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1485008">
 <statement>
-<p>Solve <m>\displaystyle{5.4}={\left(\frac{{2}}{{3}}\right)}{\log{{\left({M}_{{0}}\right)}}}-{10.7}</m>.</p>
-<p><m>\displaystyle{M}_{{0}}=</m> <input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>   </p>
+<p>Solve <m>\displaystyle{6.9}={\left(\frac{{2}}{{3}}\right)}{\log{{\left({M}_{{0}}\right)}}}-{10.7}</m>.</p>
+<p><m>\displaystyle{M}_{{0}}=</m> <fillin characters="20"/>   </p>
 
 </statement>
-<solution>
-<p><ul><li><m>\displaystyle{1.413}\cdot{10}^{{{24}}}</m></li></ul></p><p><m>\displaystyle{5.4}={\left(\frac{{2}}{{3}}\right)}{\log{{\left({M}_{{0}}\right)}}}-{10.7}</m>.</p>
-<p><m>\displaystyle{16.1}={\left(\frac{{2}}{{3}}\right)}{\log{{\left({M}_{{0}}\right)}}}</m>.</p>
-<p><m>\displaystyle{24.15}={\log{{\left({M}_{{0}}\right)}}}</m>.</p>
-<p><m>\displaystyle{10}^{{24.15}}={M}_{{0}}</m>.</p>
-<p><m>\displaystyle{1.4125375446228}{E}+{24}\approx{M}_{{0}}</m>.</p>
-<p><m>\displaystyle{1.413}{E}+{24}\approx{M}_{{0}}</m>.</p>
-</solution>
+<answer>
+<p><ul><li><m>\displaystyle{2.51}\cdot{10}^{{{26}}}</m></li></ul></p>
+</answer>
+<solution><p><m>\displaystyle{6.9}={\left(\frac{{2}}{{3}}\right)}{\log{{\left({M}_{{0}}\right)}}}-{10.7}</m>.</p>
+<p><m>\displaystyle{17.6}={\left(\frac{{2}}{{3}}\right)}{\log{{\left({M}_{{0}}\right)}}}</m>.</p>
+<p><m>\displaystyle{26.4}={\log{{\left({M}_{{0}}\right)}}}</m>.</p>
+<p><m>\displaystyle{10}^{{26.4}}={M}_{{0}}</m>.</p>
+<p><m>\displaystyle{2.5118864315096}{E}+{26}\approx{M}_{{0}}</m>.</p>
+<p><m>\displaystyle{2.51}{E}+{26}\approx{M}_{{0}}</m>.</p></solution>
 </myopenmath>

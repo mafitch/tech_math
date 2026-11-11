@@ -235,7 +235,7 @@
     </example>
 
     <example xml:id="example-sigfig-multi2">
-        <p>Calculate <me>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4).</me> The <m>1/2</m> is an exact number here. The rest are measurements in centimeters.
+        <p>Calculate <md>21 \cdot 9 - \frac{1}{2} \cdot 9(21-5-4).</md> The <m>1/2</m> is an exact number here. The rest are measurements in centimeters.
         <md>
             <mrow>2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(2\underline{1}-\underline{5}-\underline{4}) &amp; =</mrow>
             <mrow>2\underline{1} \cdot \underline{9} - \frac{1}{2} \cdot \underline{9}(1\underline{2}) &amp; = &amp; &amp; \text{ Subtraction maintains precision to units}</mrow>
@@ -243,9 +243,9 @@
             <mrow>\underline{1}35 &amp; \approx 100 &amp; &amp; \text{ Subtraction maintains only to hundreds}</mrow>
         </md></p>
         <p>When we round we lose 35 units. If this seems like a lot consider the following. If all these measurements were rounded up (e.g., 21 was rounded from 20.5), then the value could have been
-            <me>20.5 \cdot 8.5 - \frac{1}{2}8.5(20.5-4.5-3.5) = 121.125.</me>
+            <md>20.5 \cdot 8.5 - \frac{1}{2}8.5(20.5-4.5-3.5) = 121.125.</md>
         If all the measurements were rounded down (e.g., 21 was rounded from 21.4), the the value could have been
-            <me>21.4 \cdot 9.4 - \frac{1}{2}9.4(21.4-5.4-4.4) = 146.64.</me>
+            <md>21.4 \cdot 9.4 - \frac{1}{2}9.4(21.4-5.4-4.4) = 146.64.</md>
         Using these two possibilities we see that the value could be anywhere from 121.125 to 146.64. The one hundred is the only digit about which we can be certain. That is why it is the only significant digit and why we eliminate (replace with zero) all the others.</p>
         <p>If losing this much precision is a problem, then we need to obtain more precise measurements.</p>
     </example>

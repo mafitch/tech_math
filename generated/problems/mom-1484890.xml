@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1484890">
 <statement>
-<p>Solve the equation: <m>\displaystyle{3}{\left({10}^{{{8}{x}}}\right)}-{9}={0}</m>.</p>
-<p><m>\displaystyle{x}=</m><input type="text" style="width:8.2ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> </p>
+<p>Solve the equation: <m>\displaystyle{3}{\left({10}^{{-{10}{x}}}\right)}-{15}={0}</m>.</p>
+<p><m>\displaystyle{x}=</m><fillin characters="6"/> </p>
 <p>Round to 3 decimal places.</p>
 
 </statement>
-<solution>
-<p><ul><li>0.06</li></ul></p><p><m>\displaystyle{3}{\left({10}^{{{8}{x}}}\right)}-{9}={0}</m></p>
-<p><m>\displaystyle{3}{\left({10}^{{{8}{x}}}\right)}=-{9}</m></p>
-<p><m>\displaystyle{10}^{{{8}{x}}}=-\frac{{9}}{{3}}</m></p>
-<p><m>\displaystyle{8}{x}={\log{{\left(-\frac{{9}}{{3}}\right)}}}</m></p>
-<p><m>\displaystyle{x}=\frac{{\log{{\left(-\frac{{9}}{{3}}\right)}}}}{{8}}</m></p>
-<p><m>\displaystyle{x}\approx{0.06}</m></p>
-</solution>
+<answer>
+<p><ul><li>-0.07</li></ul></p>
+</answer>
+<solution><p><m>\displaystyle{3}{\left({10}^{{-{10}{x}}}\right)}-{15}={0}</m></p>
+<p><m>\displaystyle{3}{\left({10}^{{-{10}{x}}}\right)}={15}</m></p>
+<p><m>\displaystyle{10}^{{-{10}{x}}}=\frac{{15}}{{3}}</m></p>
+<p><m>\displaystyle-{10}{x}={\log{{\left(\frac{{15}}{{3}}\right)}}}</m></p>
+<p><m>\displaystyle{x}=\frac{{\log{{\left(\frac{{15}}{{3}}\right)}}}}{{-{{10}}}}</m></p>
+<p><m>\displaystyle{x}\approx-{0.07}</m></p></solution>
 </myopenmath>

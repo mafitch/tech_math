@@ -2,35 +2,36 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1468692">
 <statement>
 <p>Solve this system of equations using substitution.</p>
-<p><m>\displaystyle-{2}{x}-{2}{y}=-{22}</m> </p>
+<p><m>\displaystyle-{7}{x}+{4}{y}=-{54}</m> </p>
 <p>
-  <m>\displaystyle{2}{x}-{6}{y}=-{34}</m></p>
-<p><input type="text" style="width:10.6ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/></p>
+  <m>\displaystyle-{2}{x}-{6}{y}={6}</m></p>
+<p><fillin characters="8"/></p>
 
 </statement>
-<solution>
-<p><ul><li><m>\displaystyle{\left({4},{7}\right)}</m></li></ul></p><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
-<p><m>\displaystyle-{2}{x}+-{2}{y}=-{22}</m></p>
-<p><m>\displaystyle-{2}{x}=-{22}-{\left(-{2}{y}\right)}</m></p>
-<p><m>\displaystyle{x}=\frac{{-{22}-{\left(-{2}{y}\right)}}}{{-{{2}}}}</m></p>
+<answer>
+<p><ul><li><m>\displaystyle{\left({6},-{3}\right)}</m></li></ul></p>
+</answer>
+<solution><p>We chose (for no special reason) to solve the first equation for <m>\displaystyle{x}</m>.</p>
+<p><m>\displaystyle-{7}{x}+{4}{y}=-{54}</m></p>
+<p><m>\displaystyle-{7}{x}=-{54}-{\left({4}{y}\right)}</m></p>
+<p><m>\displaystyle{x}=\frac{{-{54}-{\left({4}{y}\right)}}}{{-{{7}}}}</m></p>
 <p>Then we can substitute this into the second equation.</p>
-<p><m>\displaystyle{2}{\left(\frac{{-{22}-{\left(-{2}{y}\right)}}}{{-{{2}}}}\right)}+-{6}{y}=-{34}</m></p>
-<p><m>\displaystyle\frac{{2}}{{-{{2}}}}\cdot{\left(-{22}\right)}-\frac{{2}}{{-{{2}}}}{\left(-{2}\right)}{y}+-{6}{y}=-{34}</m></p>
-<p><m>\displaystyle{22}-{\left(-{2}\right)}{y}+-{6}{y}=-{34}</m></p>
-<p><m>\displaystyle-{2}{y}+{\left(-{6}\right)}{y}=-{34}-{22}</m></p>
-<p><m>\displaystyle-{2}{y}+{\left(-{6}\right)}{y}=-{56}</m></p>
-<p><m>\displaystyle{\left(-{2}+{\left(-{6}\right)}\right)}{y}=-{56}</m></p>
-<p><m>\displaystyle-{8}{y}=-{56}</m></p>
-<p><m>\displaystyle{y}=-\frac{{56}}{{-{{8}}}}</m></p>
-<p><m>\displaystyle{y}={7}</m></p>
+<p><m>\displaystyle-{2}{\left(\frac{{-{54}-{\left({4}{y}\right)}}}{{-{{7}}}}\right)}+-{6}{y}={6}</m></p>
+<p><m>\displaystyle-\frac{{2}}{{-{{7}}}}\cdot{\left(-{54}\right)}--\frac{{2}}{{-{{7}}}}{\left({4}\right)}{y}+-{6}{y}={6}</m></p>
+<p><m>\displaystyle-{15.428571428571}-{\left(-{1.1428571428571}\right)}{y}+-{6}{y}={6}</m></p>
+<p><m>\displaystyle-{1.1428571428571}{y}+{\left(-{6}\right)}{y}={6}--{15.428571428571}</m></p>
+<p><m>\displaystyle-{1.1428571428571}{y}+{\left(-{6}\right)}{y}={21.428571428571}</m></p>
+<p><m>\displaystyle{\left(-{1.1428571428571}+{\left(-{6}\right)}\right)}{y}={21.428571428571}</m></p>
+<p><m>\displaystyle-{7.1428571428571}{y}={21.428571428571}</m></p>
+<p><m>\displaystyle{y}=\frac{{21.428571428571}}{{-{{7.1428571428571}}}}</m></p>
+<p><m>\displaystyle{y}=-{3}</m></p>
 <p>Finally we can substitute this y value into the first equation to solve for x.</p>
-<p><m>\displaystyle-{2}{x}+-{2}{\left({7}\right)}=-{22}</m></p>
-<p><m>\displaystyle-{2}{x}+{\left(-{14}\right)}=-{22}</m></p>
-<p><m>\displaystyle-{2}{x}=-{22}-{\left(-{14}\right)}</m></p>
-<p><m>\displaystyle-{2}{x}=-{8}</m></p>
-<p><m>\displaystyle{x}=-\frac{{8}}{{-{{2}}}}</m></p>
-<p><m>\displaystyle{x}={4}</m></p>
-<p>Thus the answer is <m>\displaystyle{\left({4},{7}\right)}</m>.</p>
-
+<p><m>\displaystyle-{7}{x}+{4}{\left(-{3}\right)}=-{54}</m></p>
+<p><m>\displaystyle-{7}{x}+{\left(-{12}\right)}=-{54}</m></p>
+<p><m>\displaystyle-{7}{x}=-{54}-{\left(-{12}\right)}</m></p>
+<p><m>\displaystyle-{7}{x}=-{42}</m></p>
+<p><m>\displaystyle{x}=-\frac{{42}}{{-{{7}}}}</m></p>
+<p><m>\displaystyle{x}={6}</m></p>
+<p>Thus the answer is <m>\displaystyle{\left({6},-{3}\right)}</m>.</p>
 </solution>
 </myopenmath>

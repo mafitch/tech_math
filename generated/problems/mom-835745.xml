@@ -2,13 +2,27 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="835745">
 <statement>
 <image width="58%" pi:generated="problems/images/mom-835745-1.png"/>
-<p><m>\displaystyle{b}=</m> <input type="text" style="width:9.4ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>
+<p><m>\displaystyle{b}=</m> <fillin characters="7"/>
   </p>
 <p>Round to 2 decimal places.</p>
 
 
 </statement>
-<solution>
-<p><ul><li>174.74</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>210.33</li></ul></p>
+</answer>
+<solution><p>We want to know the length of a side opposite a known angle. The law of sines could help. However, we do not yet know the angle across from the known side.</p>
+<p>We calculate that using the known measures of the other two angles. <m>\displaystyle{180}^{\circ}-{82}^{\circ}-{52}^{\circ}={46}^{\circ}</m>.</p>
+<p>Now we can use law of sines to calculate the desired side length.</p>
+<p>
+  <m>\displaystyle\frac{{\sin{{\left({52}^{\circ}\right)}}}}{{b}}=\frac{{\sin{{\left({46}^{\circ}\right)}}}}{{192}}</m>.</p>
+<p>
+  <m>\displaystyle{192}{\sin{{\left({52}^{\circ}\right)}}}={b}{\sin{{\left({46}^{\circ}\right)}}}</m>.</p>
+<p>
+  <m>\displaystyle{192}\frac{{\sin{{\left({52}^{\circ}\right)}}}}{{\sin{{\left({46}^{\circ}\right)}}}}={b}</m>.</p>
+<p>
+  <m>\displaystyle{210.32906092679}={b}</m></p>
+<p>
+  <m>\displaystyle{210.33}\approx{b}</m></p>
+  </solution>
 </myopenmath>

@@ -9,10 +9,12 @@ Copyright 2020 Megan Ossiander-Gobeille and Mark Fitch
     <!-- entire front matter section with more headings   -->
     <author-biographies length="short" />
 
-    <brandlogo url="http://uaa.alaska.edu" source="images/UAA_GG.png" />
+    <source>
+    <directories external="../external" generated="../generated" />
+    </source>
 
     <!-- this is the default, but supresses a warning -->
-    <cross-references text="type-global" />
+<!--    <cross-references text="type-global" /> -->
 
     <rename element="fact">Model</rename>
     <!-- for Webworks: no longer needed -->

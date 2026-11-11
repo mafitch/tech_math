@@ -4,9 +4,6 @@
   <!-- Set where external assets and generated assets will be   -->
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
-  <source>
-    <directories external="../external" generated="../generated" />
-  </source>
 
   <numbering>
     <projects level="0"/>
@@ -21,8 +18,10 @@
   <webwork server="https://webwork.uaa.alaska.edu" />
 
   <html>
+    <brandlogo url="http://uaa.alaska.edu" source="images/UAA_GG.png" />
+
 <!--    <baseurl href="http://www.math.uaa.alaska.edu/\~afmaf/classes/math104/materials/" /> -->
-<!--    <baseurl href="http://mital.uaa.alaska.edu/v2024/" /> -->
+<!--    <baseurl href="http://mital.uaa.alaska.edu/v2025/" /> -->
     <baseurl href="https://mafitch.github.io/tech_math/" />
     <knowl example="no"/>
     <knowl exercise-inline="no"/>

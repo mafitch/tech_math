@@ -38,7 +38,7 @@
     <fact xml:id="model-gear-teeth">
         <title>Gear Design</title>
         <statement>
-            <p>For ANSI standard gears there is a relationship between the number of teeth, and diameters of the gear. <me>D_p = \frac{D_o N}{N+2}</me> where
+            <p>For ANSI standard gears there is a relationship between the number of teeth, and diameters of the gear. <md>D_p = \frac{D_o N}{N+2}</md> where
             <ul>
                 <li><m>N</m> is the total number of teeth</li>
                 <li><m>D_o</m> the diameter of the outside of the gear, and</li>
@@ -117,7 +117,7 @@
     <p>Some rational expressions have the variable in both numerator and denominator. These are handled exactly the same: we can still multiply to eliminate the fractions.</p>
 
     <example xml:id="example-rational-solve-chemistry-ICE">
-        <p>The following expression comes from an equilibrium problem in chemistry. Here we need to convert this rational expression into a polynomial. <me>\frac{[HBr]^2}{[H_2][Br_2]} = \frac{(2x)^2}{(0.700-x)(0.500-x)} = 64.0.</me></p>
+        <p>The following expression comes from an equilibrium problem in chemistry. Here we need to convert this rational expression into a polynomial. <md>\frac{[HBr]^2}{[H_2][Br_2]} = \frac{(2x)^2}{(0.700-x)(0.500-x)} = 64.0.</md></p>
         <p><md>
             <mrow>\frac{(2x)^2}{(0.700-x)(0.500-x)} \amp = 64.0.</mrow>
             <intertext>Multiply to eliminate the fraction.</intertext>
@@ -135,7 +135,7 @@
     <fact xml:id="model-resistors-parallel">
         <title>Parallel Resistors</title>
         <statement>
-            <p>When two resistors are in parallel as shown in <xref ref="figure-parallel-resistance" /> then the resulting resistance is given by <me>\frac{1}{R} = \frac{1}{R_1}+\frac{1}{R_2}</me>. </p>
+            <p>When two resistors are in parallel as shown in <xref ref="figure-parallel-resistance" /> then the resulting resistance is given by <md>\frac{1}{R} = \frac{1}{R_1}+\frac{1}{R_2}</md>. </p>
             <p>If there are more than two resistors, the model is expanded by adding an additional <m>1/R</m> term for each resistor.</p>
         </statement>
     </fact>
@@ -234,7 +234,7 @@
                 <mrow>1.714285714 \text{ hours} &amp; \approx N.</mrow>
                 <mrow>1.72 \text{ hours} &amp; \approx N.</mrow>
             </md> Given this is in hours it makes sense to round to the hundredths (a little less than a minute). It also makes sense to round up (better to expect the worst and be happy it was better). We expect the two pumps to complete the work in 1.72 hours (a little less than 1 hour and 45 minutes).</p>
-        <p>Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. <me>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12 \text{ hours}} = \frac{1 \text{ basement}}{1.72 \text{ hours}}</me>. Thus if both pumps are working it will take 1.72 hours drain the basement.</p>
+        <p>Because the denominator was 1 basement, when we cleared the denominator (cross multiplication) all we did was adjust the units (basement/basement divides out). This suggests we could have simply scaled the combined rate to obtain the final result. <md>\frac{1/7}{1/7} \cdot \frac{7 \text{ basement}}{12 \text{ hours}} = \frac{1 \text{ basement}}{1.72 \text{ hours}}</md>. Thus if both pumps are working it will take 1.72 hours drain the basement.</p>
         <p>The increase in speed results in less time required to complete the job. This is why the faster rate (1 basement per 1.72 hours) has a smaller denominator (1.72 vs 3 or 4).</p>
     </example>
 

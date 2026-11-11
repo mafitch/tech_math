@@ -2,24 +2,25 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1767">
 <statement>
 <p>
-A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={300}{e}^{{{0.08}{t}}}</m>.  Estimate when the population will exceed 509.</p>
+A population of bacteria is growing according to the equation <m>\displaystyle{P}{\left({t}\right)}={1850}{e}^{{{0.21}{t}}}</m>.  Estimate when the population will exceed 4024.</p>
 <p>
-<em>t</em>= <input type="text" style="width:25ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/>   </p>
+<em>t</em>= <fillin characters="20"/>   </p>
 <p>
 Give your answer accurate to one decimal place.
 </p>
 </statement>
-<solution>
-<p><ul><li>6.608319273679</li></ul></p><p><m>\displaystyle{P}{\left({t}\right)}={300}{e}^{{{0.08}{t}}}</m></p>
+<answer>
+<p><ul><li>3.7004323509867</li></ul></p>
+</answer>
+<solution><p><m>\displaystyle{P}{\left({t}\right)}={1850}{e}^{{{0.21}{t}}}</m></p>
 <p>
-<m>\displaystyle{509}={300}{e}^{{{0.08}{t}}}</m></p>
+<m>\displaystyle{4024}={1850}{e}^{{{0.21}{t}}}</m></p>
 <p>
-<m>\displaystyle\frac{{509}}{{300}}={e}^{{{0.08}{t}}}</m></p>
+<m>\displaystyle\frac{{4024}}{{1850}}={e}^{{{0.21}{t}}}</m></p>
 <p>
-<m>\displaystyle{\ln{{\left(\frac{{509}}{{300}}\right)}}}={0.08}{t}</m></p>
+<m>\displaystyle{\ln{{\left(\frac{{4024}}{{1850}}\right)}}}={0.21}{t}</m></p>
 <p>
-<m>\displaystyle\frac{{\ln{{\left(\frac{{509}}{{300}}\right)}}}}{{0.08}}={t}</m></p>
+<m>\displaystyle\frac{{\ln{{\left(\frac{{4024}}{{1850}}\right)}}}}{{0.21}}={t}</m></p>
 <p>
-<m>\displaystyle{t}={6.608319273679}</m></p>
-</solution>
+<m>\displaystyle{t}={3.7004323509867}</m></p></solution>
 </myopenmath>

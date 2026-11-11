@@ -133,7 +133,7 @@
     <p>In the section above and in <xref ref="section-rates" /> we determined growth rates (e.g., linear, quadratic exponential, and direct and inverse variation) by generating data and checking the consecutive differences and/or the consecutive ratios. In this section we learn a method to directly calculate the relationship.</p>
 
     <fact xml:id="model-pressure">
-        <p>Pressure is a measure of the amount of force spread over an area. <me>P = \frac{F}{A}</me> where
+        <p>Pressure is a measure of the amount of force spread over an area. <md>P = \frac{F}{A}</md> where
         <ul>
             <li><m>P</m> is pressure,</li>
             <li><m>F</m> is the force in units of pounds (lbs) or Newtons (N),</li>
@@ -175,7 +175,7 @@
     <fact xml:id="model-hydraulic">
         <title>Hydraulics</title>
 
-        <p>Consider the situation in <xref ref="figure-hydraulic-press" />. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <m>P=\frac{F_1}{A_1}</m>. The same is true on the right <m>P=\frac{F_2}{A_2}</m>. Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus <me>\frac{F_1}{A_1} = \frac{F_2}{A_2}</me>.</p>
+        <p>Consider the situation in <xref ref="figure-hydraulic-press" />. The pressure exerted on a fluid by a piston is the ratio of the force exerted and the area of the piston. On the left that is <m>P=\frac{F_1}{A_1}</m>. The same is true on the right <m>P=\frac{F_2}{A_2}</m>. Because the hydraulic fluid is contiguous the pressure is the same on both sides. Thus <md>\frac{F_1}{A_1} = \frac{F_2}{A_2}</md>.</p>
     </fact>
 
     <example xml:id="example-hydraulic-calculate">

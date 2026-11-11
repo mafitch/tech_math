@@ -57,7 +57,7 @@
     <p>This decrease to the left can be understood in contexts as well.</p>
 
     <example xml:id="example-exponential-decrease1" >
-        <p>In <xref ref="exercise-exponential-bacillus-megaterium" /> we determined that the amount of bacteria was modeled by <me>b = 30(2^{t/25})</me>. Initially (<m>t=0</m>) there are 30 g of bacteria. Now we will calculate how much bacteria there was before this initial measurement.</p>
+        <p>In <xref ref="exercise-exponential-bacillus-megaterium" /> we determined that the amount of bacteria was modeled by <md>b = 30(2^{t/25})</md>. Initially (<m>t=0</m>) there are 30 g of bacteria. Now we will calculate how much bacteria there was before this initial measurement.</p>
         <tabular top="medium">
             <col halign="right" width="10%" />
             <col width="20%" />
@@ -115,7 +115,7 @@
         </task>
         <task>
             <p>Write a model for this decay.</p>
-            <p>We can use the process from <xref ref="subsection-exponential-application" />. The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is <m>\frac{1}{2}</m>. <me>A = 13\bar{0}\left(\frac{1}{2}\right)^{t/16.8}</me></p>
+            <p>We can use the process from <xref ref="subsection-exponential-application" />. The time in minutes is divided by the half-life 16.8 minutes. Because this is reducing by half the scale is <m>\frac{1}{2}</m>. <md>A = 13\bar{0}\left(\frac{1}{2}\right)^{t/16.8}</md></p>
         </task>
         <task>
             <p>Graph this model.</p>
@@ -477,7 +477,7 @@
         <p>The graph shows that we end up with the same y values, but they occur spread out over a wider area. Multiplying 0.25 by <m>x</m> stretched the curve horizontally. Because the number is between 0 and 1 (small fraction) it stretched it out. We could squeeze it in by multiplying by a number larger than one (e.g., <m>2^{4x}</m>).</p>
     </example>
 
-    <p>Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is <me>y=A \cdot 2^{B(x-h)}+k</me> where <m>h</m> and <m>k</m> represent the horizontal and vertical shifts respectively. <m>A</m> and <m>B</m> represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.</p>
+    <p>Now that we know how each piece affects the result we can put them all together. Our general equation for a base of 2 is <md>y=A \cdot 2^{B(x-h)}+k</md> where <m>h</m> and <m>k</m> represent the horizontal and vertical shifts respectively. <m>A</m> and <m>B</m> represent the vertical and horizontal stretches respectively. The first two examples below start by using each of these transformations individually. The third example illustrates using a shorter method that we typically use.</p>
 
     <example xml:id="example-graph-exponential-complex">
         <p>Graph the model <m>7.000 \cdot 2^{-t/10.551}</m> from <xref ref="example-exponential-decay-barium" />. In order to match our examples above we can express the exponent as <m>7.000 \cdot 2^{-0.094778t}</m>. We simply calculated <m>1/10.551</m> and maintained 5 significant digits.</p>
@@ -541,7 +541,7 @@
         <p>First, by looking at the left side of the graph we notice that the graph is always above <m>y=1</m>. This must be the asymptote. The asymptote gives us the vertical shift, i.e., <m>k=1</m>.</p>
         <p>We know all exponential graphs have a point one unit higher (<m>y=2</m> in this case). This point occurs at <m>x=3</m>. Because this point on an unshifted exponential is at <m>x=0</m>, the horizontal shift <m>h=3</m>.</p>
         <p>Finally, we can look one unit to the right of this point (<m>x=4</m>). The y value there is <m>y=6</m>. This is <m>6-1=5</m> units above the asymptote. This is the base <m>b=5</m>.</p>
-        <p>The equation is <me>y=5^{x-3}+1.</me></p>
+        <p>The equation is <md>y=5^{x-3}+1.</md></p>
     </example>
 
     <example xml:id="example-exponential-read-graph2">
@@ -553,7 +553,7 @@
         <p>Second, because it is decreasing we know the asymptote will be on the right. All the points are above <m>y=4</m> thus the asymptote is <m>y=4</m>. The asymptote gives us the vertical shift, i.e., <m>k=4</m>.</p>
         <p>We know there will be a point one unit higher (<m>y=5</m> in this case). This point is at <m>x=2</m>. This tell us the horizontal shift is <m>h=2</m>.</p>
         <p>Finally, we can look one unit to the left of this point (<m>x=1</m>). The y value there is <m>y=7</m>. This is <m>7-4=3</m> units above the asymptote. This is the base <m>b=3</m>.</p>
-        <p>The equation is <me>y=3^{-(x-2)}+4.</me></p>
+        <p>The equation is <md>y=3^{-(x-2)}+4.</md></p>
     </example>
 
     <exercise>

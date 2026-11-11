@@ -117,15 +117,15 @@
 
 	<example xml:id="example-exponential-cat-video">
 		<statement><p>A new cat video is posted and 12 people view it. Every 4 days after they view it the number of people who see it triples. Write an equation to model the number of people who view it on a given day.</p></statement>
-		<solution><p>We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is <me>v = 12(3^{d/4})</me></p></solution>
+		<solution><p>We can calculate the first few days results. The 4 days after the video is posted, there will be 36 views. The eighth day, there will be 108 views. Each day we multiply the result by 3. Note that the tripling occurs every four days we need to divide the number of days by 4 to determine how many times it has tripled. We multiply the original twelve by 3 to triple it. Thus the number of people viewing the video is <md>v = 12(3^{d/4})</md></p></solution>
 	</example>
 
 	<exercise xml:id="exercise-exponential-bacillus-megaterium">
 		<statement><p>The bacteria <term>bacillus megaterium</term> grows exponentially. It forms a new generation every 25 minutes. Write an equation to model this grows supposing there are 3000 bacteria at the beginning.</p></statement>
-		<solution><p><me>b = 3000(2^{t/25})</me></p></solution>
+		<solution><p><md>b = 3000(2^{t/25})</md></p></solution>
 	</exercise>
 
-	<p>Note that in general these types of exponential growth models look like <me>P = P_0 (r^t)</me> where <m>P</m> is the current population (or count), <m>P_0</m> is the initial population (or count), and <m>r</m> is the rate at which the population grows (e.g., doubles, triples).</p>
+	<p>Note that in general these types of exponential growth models look like <md>P = P_0 (r^t)</md> where <m>P</m> is the current population (or count), <m>P_0</m> is the initial population (or count), and <m>r</m> is the rate at which the population grows (e.g., doubles, triples).</p>
 
 	<p>To write the model (equation) we need to know an initial amount and the rate of increase or decrease.</p>
 
@@ -134,7 +134,7 @@
 			<p>Suppose we know that over a period of time a population of hares are growing exponentially. The initial population was 320 hares and they doubled every 200 days. Write the equation to model this population.</p>
 		</statement>
 		<solution>
-			<p>The initial population is <m>P_0=320</m>. Because the rate is doubling, we know that <m>r=2</m>. If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using <m>t/200</m>. Note this means 200 gives doubling once (<m>200/200=1</m>), and 400 gives doubling twice (<m>400/200=2</m>). <me>P=320(2^{t/200})</me>
+			<p>The initial population is <m>P_0=320</m>. Because the rate is doubling, we know that <m>r=2</m>. If we want the variable to be in units of days, we need to adjust for the 200 day period. This is accomplished by using <m>t/200</m>. Note this means 200 gives doubling once (<m>200/200=1</m>), and 400 gives doubling twice (<m>400/200=2</m>). <md>P=320(2^{t/200})</md>
 			</p>
 		</solution>
 	</example>
@@ -147,7 +147,7 @@
 			<mrow>\frac{67368.33}{53242.17} &amp; = r^6</mrow>
 			<mrow>\sqrt[6]{\frac{67368.33}{53242.17}} &amp; = \sqrt[6]{r^6}</mrow>
 			<mrow>1.04 &amp; = r</mrow>
-		</md> Thus the full model is <me>S = 53242.17(1.04)^t</me> where <m>t</m> is time in years.</p></solution>
+		</md> Thus the full model is <md>S = 53242.17(1.04)^t</md> where <m>t</m> is time in years.</p></solution>
 	</example>
 
 	<example xml:id="example-write-exponential-parameters-two-pts">
@@ -163,12 +163,12 @@
 			<mrow>\frac{89045.83}{72438.84} &amp; = r^6</mrow>
 			<mrow>\sqrt[6]{\frac{89045.83}{72438.84}} &amp; = \sqrt[6]{r^6}</mrow>
 			<mrow>1.035 &amp; = r</mrow>
-		</md> Remember we built this from year 2. The shift it back to year 0 we have at least two options. We can use the idea of shifting graphs to write the model <me>S = 72438.84(1.035)^{t-2}</me> where <m>t</m> is time in years. If we want to write it without the shift we need to calculate the salary at year zero. We can express the year two salary in terms of the initial salary.
+		</md> Remember we built this from year 2. The shift it back to year 0 we have at least two options. We can use the idea of shifting graphs to write the model <md>S = 72438.84(1.035)^{t-2}</md> where <m>t</m> is time in years. If we want to write it without the shift we need to calculate the salary at year zero. We can express the year two salary in terms of the initial salary.
 		<md>
 			<mrow>72438.84 &amp; = S_0(1.035)^2</mrow>
 			<mrow>\frac{72438.84}{1.035^2} &amp; = S_0</mrow>
 			<mrow>67622.43 &amp; S_0</mrow>
-		</md> This gives us the model <me>S = 67622.43(1.035)^2</me>.</p></solution>
+		</md> This gives us the model <md>S = 67622.43(1.035)^2</md>.</p></solution>
 	</example>
 
 </subsection>

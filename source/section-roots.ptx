@@ -22,7 +22,7 @@
 <subsection xml:id="subsection-roots-definition">
     <title>Definition of Roots</title>
 
-    <p>As implied by their use in solving equations with a square term, square roots are a sort of opposite to squares. For example <m>3^2=9</m> means that 9 is the result of multiplying 3 by itself. <m>\sqrt{9}=3</m> means that 3 is a number that multiplied by itself is 9. This means in general <me>\sqrt{n^2}=n.</me></p>
+    <p>As implied by their use in solving equations with a square term, square roots are a sort of opposite to squares. For example <m>3^2=9</m> means that 9 is the result of multiplying 3 by itself. <m>\sqrt{9}=3</m> means that 3 is a number that multiplied by itself is 9. This means in general <md>\sqrt{n^2}=n.</md></p>
 
     <p>There is one detail that we will not use, but should be acknowledged. Consider that <m>(3)^2=9</m> and <m>(-3)^2=9</m>. Thus <m>\sqrt{9}</m> might be considered to have two solutions. We saw this in <xref ref="subsection-solve-quadratic-formula" />. However when solving using inversion as in <xref ref="subsection-solve-quadratic-inversion" /> reality constraints often meant the negative root was not a solution to the application even if it fits the equation.</p>
 
@@ -31,17 +31,17 @@
 <subsection xml:id="subsection-roots-general">
     <title>Generalized Roots</title>
 
-    <p>Just as we can multiply a number by itself (e.g., <m>3^2=3 \cdot 3 = 9</m>) we can multiply a number by itself more than once (e.g., <m>3^3=3 \cdot 3 \cdot 3 = 27</m>). In general <me>3^m = \overbrace{3 \cdot 3 \cdot \ldots 3}^m.</me></p>
+    <p>Just as we can multiply a number by itself (e.g., <m>3^2=3 \cdot 3 = 9</m>) we can multiply a number by itself more than once (e.g., <m>3^3=3 \cdot 3 \cdot 3 = 27</m>). In general <md>3^m = \overbrace{3 \cdot 3 \cdot \ldots 3}^m.</md></p>
 
     <exercise>
         <myopenmath problem="1475633" />
     </exercise>
 
-    <p>As noted above square roots perform the reverse action of squaring. To solve problems involving other powers, there are matching roots. These are denoted with a small number to show which root. For example this is a third root: <me>\sqrt[3]{8}=2.</me> This root means that because <m>2^3=8</m>, <m>\sqrt[3]{8}=\sqrt[3]{2^3}=2</m>. In general <me>\sqrt[n]{x^n}=x.</me> There are restrictions (<m>n</m> is an integer; if <m>n</m> is even, <m>x</m> must be non-negative). For models in this text none of these play a role.</p>
+    <p>As noted above square roots perform the reverse action of squaring. To solve problems involving other powers, there are matching roots. These are denoted with a small number to show which root. For example this is a third root: <md>\sqrt[3]{8}=2.</md> This root means that because <m>2^3=8</m>, <m>\sqrt[3]{8}=\sqrt[3]{2^3}=2</m>. In general <md>\sqrt[n]{x^n}=x.</md> There are restrictions (<m>n</m> is an integer; if <m>n</m> is even, <m>x</m> must be non-negative). For models in this text none of these play a role.</p>
 
     <p>Just as with square roots we can use a device to calculate the values. The device may have a key like <m>\sqrt[m]{x}</m>.</p>
 
-    <p>Another notation for roots is a type of exponent. For example, <me>\sqrt{9}=9^{1/2}=3.</me> Likewise, <me>\sqrt[3]{8}=8^{1/3}=2.</me> This notation can be used when solving problems with powers.</p>
+    <p>Another notation for roots is a type of exponent. For example, <md>\sqrt{9}=9^{1/2}=3.</md> Likewise, <md>\sqrt[3]{8}=8^{1/3}=2.</md> This notation can be used when solving problems with powers.</p>
 
     <exercise>
         <myopenmath problem="1475643" />

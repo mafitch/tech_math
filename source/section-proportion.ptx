@@ -35,7 +35,7 @@
     <example xml:id="example-proportion-cheesecake-double">
         <title>Cheesecake Groceries: Double</title>
         <p>A particular cheesecake recipe calls for <m>150</m> g of eggs and <m>1500</m> g of cream cheese. How many grams of eggs and how many grams of cream cheese do we need to double the recipe?</p>
-        <p>This means everything will be in ratio of 2 (needed)/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2/1. Thus <me>\frac{2}{1} = \frac{E \text{ g}}{150 \text{ g}}.</me> Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable).
+        <p>This means everything will be in ratio of 2 (needed)/1 (in the recipe). We must perform the calculation for eggs and cream cheese separately. We want the ratio of amount of eggs in the doubled recipe to the amount of eggs in the original recipe to be 2/1. Thus <md>\frac{2}{1} = \frac{E \text{ g}}{150 \text{ g}}.</md> Because the quantity to solve is in the numerator we can simply multiply to isolate that quantity (variable).
         <md>
             <mrow>\frac{2}{1} &amp; = \frac{E \text{ g}}{150 \text{ g}}.</mrow>
             <mrow>2 &amp; = \frac{E \text{ g}}{150 \text{ g}}.</mrow>
@@ -70,7 +70,7 @@
 
     <example xml:id="example-scale-model">
         <title>Scale Model</title>
-        <p>A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle. We can express this as a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If we want to know how large a part of the shuttle is and we know on the model it is 1.72 inches we can set up the proportion <me>\frac{1 \text{ model inches}}{144 \text{ inch}} = \frac{1.72 \text{ model inches}}{s \text{ inch}}</me>.</p>
+        <p>A model of a space shuttle is labeled as 1:144. This means one inch on the model represents 144 inches on the actual shuttle. We can express this as a ratio between the size of objects on the model and the size of the objects on the actual shuttle. If we want to know how large a part of the shuttle is and we know on the model it is 1.72 inches we can set up the proportion <md>\frac{1 \text{ model inches}}{144 \text{ inch}} = \frac{1.72 \text{ model inches}}{s \text{ inch}}</md>.</p>
         <p>Because a ratio expresses the relationship between two quantities, it is not important which is numerator or denominator. Thus it is equally valid to write
         <md>
             <mrow>\frac{144 \text{ in}}{1 \text{ model in}} &amp; = \frac{s \text{ in}}{1.72 \text{ model in}}.</mrow>
@@ -83,7 +83,7 @@
 
     <example xml:id="example-ratio-airspeed-solve">
         <title>Proportion: Solving</title>
-        <p>According to the airplane flight manual a Diamond DA-20 cruises at the rate of <me>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</me>.</p>
+        <p>According to the airplane flight manual a Diamond DA-20 cruises at the rate of <md>\frac{110 \text{ nautical miles}}{1 \text{ hour}}</md>.</p>
         <p>How long will it take to travel 236 nm? Round to tenths of an hour (a standard in aviation).</p>
         <p>The proportion is
             <md>
@@ -103,7 +103,7 @@
     <exercise xml:id="exercise-ratio-climb">
 <!--        <webwork>
             <statement>
-                <p>If the Diamond DA-20 climbs at the rate of <me>\frac{450 \text{ feet}}{1.0 \text{ minute}}</me> how long will it take it to climb 2500 ft? <var name="'5.5'" width="4" /></p>
+                <p>If the Diamond DA-20 climbs at the rate of <md>\frac{450 \text{ feet}}{1.0 \text{ minute}}</md> how long will it take it to climb 2500 ft? <var name="'5.5'" width="4" /></p>
             </statement>
             <solution>
                 <p> <md>
@@ -128,15 +128,15 @@
 
     <example xml:id="example-proportion-three-in-one">
         <p>Suppose a Diamond DA-20 climbs at the rate of <m>\frac{550 \text{ feet}}{1.0 \text{ minute}}</m> and is traveling <m>\frac{72.8 \text{ nm}}{\text{hour}}</m> across the ground during this climb. How far forward in nautical miles does the plane fly during a climb of 3500 feet? Round the final distance to one decimal place.</p>
-        <p>Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. <me>3500 \text{ ft} \cdot \frac{1 \text{ min}}{550 \text{ ft}} \approx 6.36363636 \text{ min}</me>.</p>
-        <p>Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from <xref ref="table-customary-convert" />. <me>\frac{72.8 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \approx \frac{7372.213333 \text{ ft}}{\text{min}}</me>.</p>
+        <p>Looking at the information we are given, only two pieces match initially: we have a climb rate and a distance to climb. Thus we will use these first. As before we can calculate how long it will take to climb. <md>3500 \text{ ft} \cdot \frac{1 \text{ min}}{550 \text{ ft}} \approx 6.36363636 \text{ min}</md>.</p>
+        <p>Now we know how long the plane flies during this climb. This time matches with the other rate: speed across the ground. However, the units do not match. We must first convert the speed to feet per minute or the time to hours. We use conversions from <xref ref="table-customary-convert" />. <md>\frac{72.8 \text{ nm}}{\text{hr}} \cdot \frac{6076 \text{ ft}}{\text{nm}} \cdot \frac{1 \text{ hr}}{60 \text{ min}} \approx \frac{7372.213333 \text{ ft}}{\text{min}}</md>.</p>
         <p>Now the units suggest that we can multiply the speed by the time we obtained, and we will end up with the desired distance.
             <md>
                 <mrow>\frac{7372.213333 \text{ ft}}{\text{min}} &amp; = \frac{s \text{ ft}}{6.36363636 \text{ min}}</mrow>
                 <mrow>\frac{7372.213333 \text{ ft}}{\text{min}} \cdot (6.36363636 \text{ min}) &amp; = \frac{s \text{ ft}}{6.36363636 \text{ min}} \cdot (6.36363636 \text{ min})</mrow>
                 <mrow>46914.08482 \approx s \text{ ft}</mrow>
             </md>.
-        Now we need to convert this result back to nautical miles. This is a unit conversion problem again. <me>(46914.08482 \text{ ft}) \cdot \frac{1 \text{ nm}}{6076 \text{ ft}} \approx 7.72121212 \text{ nm} \approx 7.7 \text{ nm}</me>.</p>
+        Now we need to convert this result back to nautical miles. This is a unit conversion problem again. <md>(46914.08482 \text{ ft}) \cdot \frac{1 \text{ nm}}{6076 \text{ ft}} \approx 7.72121212 \text{ nm} \approx 7.7 \text{ nm}</md>.</p>
     </example>
 
     <example xml:id="example-proportion-constraints">
@@ -155,7 +155,7 @@
                 <mrow>\frac{15 \text{ g flour}} {34 \cancelhighlight{\text{ g buttermilk}}} \cdot (918 \cancelhighlight{\text{ g buttermilk}}) &amp; = \frac{F \text{ g}}{\cancelhighlight{918 \text{ g buttermilk}}} \cdot \cancelhighlight{(918 \text{ g buttermilk})}.</mrow>
                 <mrow>405 \text{ g} &amp; = F.</mrow>
             </md>
-        Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. We have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making <me>\frac{918 \text{ g}}{340 \text{ g}} = 2.7</me> times as much.</p>
+        Thus we can use all 918 g of buttermilk and 405 of the 465 g of flour. We have rounded everything to one gram because that is as accurate as we can measure with our scale. If a single recipe uses 340 g of buttermilk, then we will be making <md>\frac{918 \text{ g}}{340 \text{ g}} = 2.7</md> times as much.</p>
     </example>
 
     <example xml:id="example-proportion-constraints-ratio">
@@ -170,7 +170,7 @@
                 <p>Cream cheese: <var name="'3400'" width="5" /> </p>
             </statement>
             <solution>
-                <p>First we can figure out whether the egg or the cream cheese is the limiting ingredient. The egg to cream cheese must be in a <me>\frac{15\bar{0}}{150\bar{0}}=\frac{1.00}{10.0}</me> ratio. We can calculate the ratio of ingredients we have <me>\frac{35\bar{0} \text{ g}}{340\bar{0} \text{ g}} \approx 0.103</me> Because this is more than <m>0.103 \gt 0.1=1/10,</m> we have more egg than we can use, because the numerator (egg) is bigger. Thus we will set up the proportion using all of the cream cheese.</p>
+                <p>First we can figure out whether the egg or the cream cheese is the limiting ingredient. The egg to cream cheese must be in a <md>\frac{15\bar{0}}{150\bar{0}}=\frac{1.00}{10.0}</md> ratio. We can calculate the ratio of ingredients we have <md>\frac{35\bar{0} \text{ g}}{340\bar{0} \text{ g}} \approx 0.103</md> Because this is more than <m>0.103 \gt 0.1=1/10,</m> we have more egg than we can use, because the numerator (egg) is bigger. Thus we will set up the proportion using all of the cream cheese.</p>
                 <p>We can setup the ratio multiple ways. The first is using the egg to cheese ratio.
                 <md>
                     <mrow>\frac{15\bar{0}}{150\bar{0}} &amp; = \frac{E \text{ g}}{340\bar{0} \text{ g}}.</mrow>
@@ -225,7 +225,7 @@
             <p> <m>BC</m> is the side opposite the angle at <m>A</m> and <m>EF</m> is the side opposite the angle at <m>D</m>. Because <m>A</m> and <m>D</m> have the same measure, the sides opposite them are corresponding sides.</p>
             <p>Similarly <m>CA</m> is the side opposite the angle at <m>B</m> and <m>FD</m> is the side opposite the angle at <m>E</m>. Because <m>B</m> and <m>E</m> have the same measure, the sides opposite them are corresponding sides.</p>
             <p>What is the third pair of corresponding sides?</p>
-            <p>As a result of being similar the following ratios of sides are the same <me>\frac{AB}{DE}=\frac{BC}{EF}=\frac{CA}{FD}.</me> You can confirm this by dividing the lengths <m>\left( \frac{3.26}{2.51}=\frac{4.86}{3.73}=\frac{5.34}{4.1} \right)</m>.</p>
+            <p>As a result of being similar the following ratios of sides are the same <md>\frac{AB}{DE}=\frac{BC}{EF}=\frac{CA}{FD}.</md> You can confirm this by dividing the lengths <m>\left( \frac{3.26}{2.51}=\frac{4.86}{3.73}=\frac{5.34}{4.1} \right)</m>.</p>
         </example>
 
         <video youtube="GXjlOOuJBqc"/>
@@ -259,7 +259,7 @@
                 <shortdescription>Two right triangles. Measurements are in the question.</shortdescription>
             </image>
             <p>Suppose triangle ABC has angles <m>90^\circ, 60^\circ, 30^\circ</m> with the lengths of the sides opposite them <m>2.000, 1.732, 1.000</m> respectively. If triangle DEF also has angles <m>90^\circ, 60^\circ, 30^\circ</m> it is similar. Suppose the length of the side <m>DE</m> opposite the <m>30^\circ</m> angle at point F is <m>2.000</m>.</p>
-            <p>First, we identify the corresponding sides. <m>\overline{AB}</m> and <m>\overline{DE}</m> are opposite <m>30^\circ</m> angles so they are corresponding. <m>\overline{CA}</m> and <m>\overline{FD}</m> are opposite <m>60^\circ</m> angles so they are corresponding. Finally, <m>\overline{BC}</m> and <m>\overline{EF}</m> are opposite <m>90^\circ</m> angles so they are corresponding. This means <me>\frac{\overline{AB}}{\overline{DE}} = \frac{\overline{CA}}{\overline{FD}} = \frac{\overline{BC}}{\overline{EF}}.</me></p>
+            <p>First, we identify the corresponding sides. <m>\overline{AB}</m> and <m>\overline{DE}</m> are opposite <m>30^\circ</m> angles so they are corresponding. <m>\overline{CA}</m> and <m>\overline{FD}</m> are opposite <m>60^\circ</m> angles so they are corresponding. Finally, <m>\overline{BC}</m> and <m>\overline{EF}</m> are opposite <m>90^\circ</m> angles so they are corresponding. This means <md>\frac{\overline{AB}}{\overline{DE}} = \frac{\overline{CA}}{\overline{FD}} = \frac{\overline{BC}}{\overline{EF}}.</md></p>
             <p>Because we know the ratio <m>\frac{\overline{AB}}{\overline{DE}}</m>, we can use the proportion to solve for the other two side lengths on triangle DEF. We invert the ratios for easier solving.
             <md>
                 <mrow>\frac{\overline{DE}}{\overline{AB}} &amp; = \frac{\overline{DF}}{\overline{CA}}</mrow>
@@ -316,7 +316,7 @@
                     <mrow>\frac{5.5 \text{ ft}}{8 \text{ ft}} \cdot (38 \text{ ft}) \amp = \frac{h}{38 \text{ ft}} \cdot (38 \text{ ft}).</mrow>
                     <mrow>26.125 \text{ ft} \amp = h.</mrow>
                 </md>
-            If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. <me> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</me> Thus the height to that point on the light is approximately 26 ft and 2 in.</p>
+            If these measurements were taken with a tape measure we can reasonably suppose they are accurate to the nearest inch. We can convert the 0.125 ft into inches and then round. <md> 0.125 \text{ ft} \cdot \frac{12 \text{ in}}{1 \text{ ft}} = 1.5 \text{ in}.</md> Thus the height to that point on the light is approximately 26 ft and 2 in.</p>
             <p>We use this type of measurement because it is simpler: we can measure across the ground much more easily than we can climb the pole and measure its height. It was not important that the person chose to be 30 ft from the pole. If they chose to be 20 ft, then the shadow would also be shorter (proportional). If we are too close it will be hard to accurately measure the short shadow (ever try to measure a shadow?).</p>
         </example>
 

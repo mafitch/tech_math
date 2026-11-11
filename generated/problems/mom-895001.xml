@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="895001">
 <statement>
-<p>The velocity <m>\displaystyle{v}</m> of a falling object varies directly with the time <m>\displaystyle{t}</m> of the fall. If after 3.00 seconds, the velocity of an object is 96.0 feet per second, what is the velocity after 4.00 seconds?</p>
-<p><input type="text" style="width:7ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> feet per second </p>
+<p>The velocity <m>\displaystyle{v}</m> of a falling object varies directly with the time <m>\displaystyle{t}</m> of the fall. If after 4.00 seconds, the velocity of an object is 128 feet per second, what is the velocity after 6.00 seconds?</p>
+<p><fillin characters="5"/> feet per second </p>
 <p>Round using significant figures.</p>
 
 
 </statement>
-<solution>
-<p><ul><li>128</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>192</li></ul></p>
+</answer>
+<solution><p>Varying directly means <m>\displaystyle{v}={k}\cdot{t}</m>. We know <m>\displaystyle{128}={k}{4.00}</m>, so <m>\displaystyle{k}=\frac{{128}}{{4.00}}={32}</m>.</p>
+<p>Thus after 6.00 seconds we would have <m>\displaystyle{v}={32}\cdot{6.00}={192}\approx{192}</m>.</p></solution>
 </myopenmath>

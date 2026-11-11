@@ -2,24 +2,25 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="5788">
 <statement>
 <p>
-A cell of some bacteria divides into two cells every <m>\displaystyle{50}</m> minutes.The
-initial population is <m>\displaystyle{5}</m> bacteria. </p>
+A cell of some bacteria divides into two cells every <m>\displaystyle{20}</m> minutes.The
+initial population is <m>\displaystyle{6}</m> bacteria. </p>
 <p>
 (a) Find the size of the population after t hours </p>
 <p>
-<m>\displaystyle{y}{\left({t}\right)}=</m>  <input type="text" style="width:49ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/>  
+<m>\displaystyle{y}{\left({t}\right)}=</m>  <fillin characters="40"/>  
   </p>
 <p> (function of <m>\displaystyle{t}</m>) </p>
 <p>
-(b) Find the size of the population after 6 hours. </p>
+(b) Find the size of the population after 7 hours. </p>
 <p>
-<m>\displaystyle{y}{\left({6}\right)}=</m> <input type="text" style="width:49ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/>     </p>
+<m>\displaystyle{y}{\left({7}\right)}=</m> <fillin characters="40"/>     </p>
 <p>
-(c) When will the population reach <m>\displaystyle{30}</m>?  </p>
+(c) When will the population reach <m>\displaystyle{42}</m>?  </p>
 <p>
-<m>\displaystyle{T}=</m> <input type="text" style="width:49ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/>     </p>
+<m>\displaystyle{T}=</m> <fillin characters="40"/>     </p>
 </statement>
-<solution>
-<p><ul><li><m>\displaystyle{5}\cdot{\left({2}^{{{1.2}\cdot{t}}}\right)}</m></li><li>735.1669471981</li><li>2.1541354172676</li></ul></p>
-</solution>
+<answer>
+<p><ul><li><m>\displaystyle{6}\cdot{\left({2}^{{{3}\cdot{t}}}\right)}</m></li><li>12582912</li><li>0.9357849740192</li></ul></p>
+</answer>
+
 </myopenmath>

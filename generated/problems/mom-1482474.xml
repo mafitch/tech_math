@@ -3,11 +3,20 @@
 <statement>
 <p>A box contains 9 identical glass spheres that are used to make snow globes. The spheres are tightly packed, as shown below.</p>
 <image width="54%" pi:generated="problems/images/mom-1482474-1"/>
-<p>What is the total volume, in cubic inches, of all 9 spheres? <input type="text" style="width:8.2ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 2" class="text"/>  cubic inches</p>
-<p>If a styrofoam inset is made to fill the area between the box and the spheres, what is the volume of foam needed? <input type="text" style="width:8.2ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 2" class="text"/> </p>
+<p>What is the total volume, in cubic inches, of all 9 spheres? <fillin characters="6"/>  cubic inches</p>
+<p>If a styrofoam inset is made to fill the area between the box and the spheres, what is the volume of foam needed? <fillin characters="6"/> </p>
 
 </statement>
-<solution>
-<p><ul><li>300</li><li>270</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>38</li><li>34</li></ul></p>
+</answer>
+<solution><p>The volume of a sphere is <m>\displaystyle\frac{{4}}{{3}}\pi{r}^{{3}}</m>. We notice that 3 spheres have a length of 6 in. This means that each sphere has <m>\displaystyle\frac{{6}}{{3}}={2}</m> in diameter or a radius of 1 in. The total volume of the 9 spheres is</p>
+<p>
+  <m>\displaystyle{9}{\left(\frac{{{4}\pi}}{{3}}{1}^{{3}}\right)}={37.699111843078}\approx{38}</m>.</p>
+<p>The box is just wide enough for 3 spheres so it is 3 diameters or 6 radii long in two directions. It is just tall enough for one sphere so it is one diameter or 2 radii tall. Thus its volume is</p>
+<p>
+  <m>\displaystyle{\left({2}{1}\right)}{\left({6}{1}\right)}{\left({6}{1}\right)}={72}</m>.</p>
+<p>The area to fill is the difference of these two</p>
+<p>
+  <m>\displaystyle{72}-{37.699111843078}={34.300888156922}\approx{34}</m>.</p></solution>
 </myopenmath>

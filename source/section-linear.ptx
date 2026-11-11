@@ -36,7 +36,7 @@
     <fact xml:id="model-temperature-altitude-fahrenheit">
         <title>Temperature Change with Altitude</title>
 
-        <p>As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as <me>T_A = T_G - \left(\frac{3.5^\circ \text{ F}}{1000 \text{ ft}}\right)A.</me> where
+        <p>As a result of atmospheric physics, temperature decreases as the distance above the ground increases. For lower altitudes this can be modeled as <md>T_A = T_G - \left(\frac{3.5^\circ \text{ F}}{1000 \text{ ft}}\right)A.</md> where
         <ul>
             <li><m>T_A</m> is the expected temperature in degrees Fahrenheit at the specified altitude.</li>
             <li><m>T_G</m> is the temperature at ground level in degrees Fahrenheit.</li>
@@ -82,7 +82,7 @@
     <paragraphs xml:id="model-time-to-altitude">
         <title>An Equation for Time to Altitude</title>
 
-        <p>A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate. <me>A_t = A_G+C \cdot t.</me>
+        <p>A fixed wing aircraft flown optimally climbs from a starting altitude at a fixed climb rate. <md>A_t = A_G+C \cdot t.</md>
         <ul>
             <li><m>A_t</m> is the altitude after <m>t</m> minutes.</li>
             <li><m>A_G</m> is the starting altitude (likely ground level) in feet mean sea level (MSL).</li>
@@ -100,7 +100,7 @@
     <example xml:id="example-linear-model-read2">
         <p>If a plane begins at 160 ft MSL and is climbing at 700 ft/min, how high will it be after 5 minutes? 10 minutes? 15 minutes?</p>
         <p>These calculations are made as part of safety planning. The data is sufficiently accurate that rounding is not necessary. Rather we make conservative estimates of the parameters, so that there is always a safety buffer. In this case a conservative estimate for <m>A_G</m> is to round down: this will give us a lower altitude. If that lower altitude is safe, then altitude 5 feet higher will be safe as well. For the climb rate a conservative estimate is to round down as well. If we can reach an altitude climbing at 700 ft/min, then if we climb at 720 ft/min we will reach that safe altitude a little sooner.</p>
-        <p>Note <me>A_t = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot t.</me> The expected altitudes are
+        <p>Note <md>A_t = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot t.</md> The expected altitudes are
             <md>
                 <mrow>A_5 &amp; = 160 \text{ ft}+\frac{700 \text{ ft}}{\text{min}} \cdot 5 \text{ min}</mrow>
                 <mrow> &amp; = 160 \text{ ft}+3500 \text{ ft}</mrow>
@@ -118,7 +118,7 @@
     <paragraphs xml:id="model-fuel-remaining">
         <title>Equation for Fuel Remaining</title>
 
-        <p>When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model <me>F_t = F_I - r \cdot t.</me>
+        <p>When operated at a fixed power setting a vehicle burns the same amount of gas per hour (or other time unit). This leads to the linear model <md>F_t = F_I - r \cdot t.</md>
         <ul>
             <li><m>F_t</m> is the amount of fuel remaining after <m>t</m> minutes.</li>
             <li><m>F_I</m> is the amount of fuel at the beginning.</li>
@@ -142,7 +142,7 @@
             <p>A gallon is a large amount so we will maintain one decimal place precision. For safety we should always assume a larger fuel burn, so we will round fuel remaining down.</p>
         </statement>
         <solution>
-            <p>The model is <me>F_t = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot t \text{ hr}</me>. Thus
+            <p>The model is <md>F_t = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot t \text{ hr}</md>. Thus
             <md>
                 <mrow>F_1 &amp; = 20 \text{ gal} - \frac{1.55 \text{ gal}}{\text{hr}} \cdot 1 \text{ hr}</mrow>
                 <mrow> &amp; = 20 \text{ gal} - 1.55 \text{ gal}</mrow>
@@ -176,7 +176,7 @@
 
     <p>The previous section presented linear models, and illustrated using the models provided. This section presents problems that can be modeled as linear equations, and illustrates writing the model (equation) before using it.</p>
 
-    <p>A linear model has a starting point (shift, <m>b</m>) and rate (ratio, <m>m</m>). We need to identify these and then write the linear model <me>y = b+ mx</me> with these values. We should also label units and explain any parameters.</p>
+    <p>A linear model has a starting point (shift, <m>b</m>) and rate (ratio, <m>m</m>). We need to identify these and then write the linear model <md>y = b+ mx</md> with these values. We should also label units and explain any parameters.</p>
 
     <aside>
         <p>We have used both <m>y=mx+b</m> and <m>y=b+mx</m> to describe a linear model. These are of course the same thing. In many applications it feels more appropriate to begin with the shift or offset, so we will prefer that version in this text.</p>
@@ -187,8 +187,8 @@
         <p>We can start by calculating the cost of some specific orders (experiment). Suppose we are purchasing 20 feet of this rope. The units (dollars/foot) suggest that we can multiply to calculate the cost. <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</m>.</p>
         <p>Notice this multiplication is also the same as using a ratio (proportion). We could setup <m>\frac{\$0.93}{1 \text{ft}} = \frac{C}{20 \text{ ft}}</m> When we solve this we end up with the same multiplication <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</m>.</p>
         <p>Next we must add the shipping charge. Thus the final cost is <m>20 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$26.24</m>. Note there is no rounding because all numbers are exact and no fractions of a cent occurred.</p>
-        <p>Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be <me>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</me>. Then we must add the shipping charge. Thus the final cost is <m>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$100.64</m>.</p>
-        <p>We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as <me>s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C</me>.</p>
+        <p>Suppose we are purchasing 100 feet of this rope. The cost for the 100 feet will be <md>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}</md>. Then we must add the shipping charge. Thus the final cost is <m>100 \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = \$100.64</m>.</p>
+        <p>We can now notice that this calculation is the same with any number of feet (unless the shipping charge increases for larger orders). So in general we can write the cost as <md>s \text{ ft} \cdot \frac{\$0.93}{\text{ft}}+\$7.64 = C</md>.</p>
         <p>This equation has a ratio ($0.93/1 ft), which is the cost per foot, and also has a shift (+$7.64), which is the fixed shipping cost. Thus this is another linear equation.</p>
     </example>
 
@@ -200,7 +200,7 @@
         <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 4.5 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>29.76 \text{ inHg} - 4.5 \text{ inHg} = 25.26 \text{ inHg}</m>. We retain 2 decimal places because that is the traditional amount for reporting by meteorologists. Written as one calculation this is <m>T = 29.76 \text{ inHg}-\left(4500 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
         <p>If the pressure on the ground is 30.02 inHg what do we expect the pressure to be flying at 6000 ft above ground level?</p>
         <p>The pressure drop is a ratio <m>\frac{1 \text{ inHg}}{1000 \text{ ft}}</m>. The units suggest we can multiply <m>6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}} = 6 \text{ inHg}</m>. This is the drop in pressure. To calculate the resulting pressure we need <m>30.02 \text{ inHg} - 6 \text{ inHg} = 24.02 \text{ inHg}</m>. Written as one calculation this is <m>P = 30.02 \text{ inHg}-\left(6000 \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </m></p>
-        <p>Notice we could do this same calculation for any altitude. So in general we can write <me>P_A = P_G-\left(A \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </me> <m>P_A</m> is the pressure at the specified altitude. <m>P_G</m> is the pressure at ground level. <m>A</m> is the altitude above ground level. This is a linear equation with a ratio of (-1/1000) which is the drop in pressure with altitude, and a shift of <m>P_G</m>, which is the pressure on the ground.</p>
+        <p>Notice we could do this same calculation for any altitude. So in general we can write <md>P_A = P_G-\left(A \text{ ft} \cdot \frac{1 \text{ inHg}}{1000 \text{ ft}}\right). </md> <m>P_A</m> is the pressure at the specified altitude. <m>P_G</m> is the pressure at ground level. <m>A</m> is the altitude above ground level. This is a linear equation with a ratio of (-1/1000) which is the drop in pressure with altitude, and a shift of <m>P_G</m>, which is the pressure on the ground.</p>
     </example>
 
     <example xml:id="example-linear-model-temperature-conversion">
@@ -209,8 +209,8 @@
         <p>The first step is to determine how many degrees above freezing. Because 32<degree/> F is the freezing temperature of water, 52<degree/> F is <m>52^\circ-32^\circ=20^\circ</m> above freezing.</p>
         <p>The next step is to scale the degrees. The conversion ratio is <m>\frac{9^\circ \text{ F}}{5^\circ \text{ C}}</m>. Converting the 20<degree/> above freezing is now a unit conversion. The units suggest we can multiply <m>20^\circ \text{ F} \cdot \frac{5^\circ \text{ C}}{9^\circ \text{ F}} \approx 11^\circ \text{ C}</m>. Notice we flipped the conversion ratio so the Fahrenheit degrees would divide to one. The result is 11<degree/> C above the freezing point of water in Celsius.</p>
         <p>Finally we can add the degrees Celsius to the starting point (freezing temperature of water). Because that is 0<degree/>, we have <m>0^\circ+11^\circ=11^\circ</m> C.</p>
-        <p>If we write all of that as one step we obtain <me>(52^\circ \text{ F}-32^\circ \text{ F})\frac{5^\circ \text{ C}}{9^\circ \text{ F}}+0^\circ \text{ C} = 11^\circ \text{ C}</me>.</p>
-        <p>Notice we could do this with any temperature. So if we call the temperature to convert <m>T</m> we have <me>C = (T-32)\frac{5}{9}+0</me>. This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain <me>C = (T-32)\frac{5}{9}+0 = \frac{5}{9}T-\frac{160}{9}.</me> So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32<degree/> is the freezing point of water as opposed to <m>160/9</m> which has no useful meaning.</p>
+        <p>If we write all of that as one step we obtain <md>(52^\circ \text{ F}-32^\circ \text{ F})\frac{5^\circ \text{ C}}{9^\circ \text{ F}}+0^\circ \text{ C} = 11^\circ \text{ C}</md>.</p>
+        <p>Notice we could do this with any temperature. So if we call the temperature to convert <m>T</m> we have <md>C = (T-32)\frac{5}{9}+0</md>. This may not look like a starting point plus a ratio scaled. If we expand the expression we obtain <md>C = (T-32)\frac{5}{9}+0 = \frac{5}{9}T-\frac{160}{9}.</md> So this is a linear model. We prefer the first form of the equation because the numbers have meaning (e.g., 32<degree/> is the freezing point of water as opposed to <m>160/9</m> which has no useful meaning.</p>
     </example>
 
     <p>The temperature conversion example illustrates an idea about models. We describe a linear model as having a ratio and a (that is one) shift. However, in the temperature conversion example there is a shift a ratio and another shift, or two shifts. We showed these can be combined as one shift. That is always true. However, sometimes the version with multiple shifts is easier to understand. This will be true when we look at graphs of quadratics and exponentials (other forms of models).</p>

@@ -2,13 +2,22 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057360">
 <statement>
 <p>
-A 36-foot tree casts a 19-foot shadow. Find the measure of the angle of elevation to the sun to the nearest degree.</p>
+A 32-foot tree casts a 19-foot shadow. Find the measure of the angle of elevation to the sun to the nearest degree.</p>
 <p>
-Angle of elevation is <input type="text" style="width:5.8ch" name="qn0" id="qn0" value="" autocomplete="off" aria-label="Question 1" class="text"/> degrees.</p>
+Angle of elevation is <fillin characters="4"/> degrees.</p>
 <p>   
 </p>
 </statement>
-<solution>
-<p><ul><li>62</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>59</li></ul></p>
+</answer>
+<solution><p>The tree and its shadow form the legs of a right triangle, so we can calculate the angle using an inverse tangent.</p>
+<p>
+  <m>\displaystyle{\tan{{\left(\theta\right)}}}=\frac{{32}}{{19}}</m></p>
+<p>
+  <m>\displaystyle\theta={\arctan{{\left(\frac{{32}}{{19}}\right)}}}</m></p>
+<p>
+  <m>\displaystyle\theta={59.300277449186}</m></p>
+<p>
+  <m>\displaystyle\theta\approx{59}</m></p></solution>
 </myopenmath>

@@ -43,8 +43,6 @@ MOM Test
 
 ~/pretext/pretext/pretext -c all -f latex -p publication/publication.ptx -d output output/xml/techmath.xml
 
-/c/'Program Files'/jdk-22.0.2/bin/java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar ~/pretext/Schema/pretext.rng /c/DATA/Documents/texts/tech_math/source/techmath.ptx >/c/DATA/Documents/texts/tech_math/schemaerrors.txt
+java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar ~/pretext/Schema/pretext-dev.rng /c/DATA/Documents/texts/tech_math/source/techmath.ptx >/c/DATA/Documents/texts/tech_math/schemaerrors.txt
 
 grep -Ev 'myopenmath|interactive|"exercise" incomplete|"figure" incomplete' schemaerrors.txt >schemaerrors1.txt
-
-/c/'Program Files'/jdk-22.0.2/bin/java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar ~/pretext/Schema/pretext-dev.rng /c/DATA/Documents/texts/tech_math/source/techmath.ptx >/c/DATA/Documents/texts/tech_math/schemaerrors.txt

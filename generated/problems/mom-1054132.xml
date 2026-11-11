@@ -2,22 +2,55 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1054132">
 <statement>
 <p>
-A native wolf species has been reintroduced into a national forest.  Originally 500 wolves were transplanted, and after 3 years the population had grown to 680 wolves.  If the population grows exponentially according to the formula <m>\displaystyle{P}_{{t}}={P}_{{{0}}}{\left({1}+{r}\right)}^{{t}}</m></p>
+A native wolf species has been reintroduced into a national forest.  Originally 300 wolves were transplanted, and after 3 years the population had grown to 658 wolves.  If the population grows exponentially according to the formula <m>\displaystyle{P}_{{t}}={P}_{{{0}}}{\left({1}+{r}\right)}^{{t}}</m>.</p>
 <p>
 (a) Find the growth rate.  Round your answer to the nearest tenth of a percent.</p>
 <p>
-r = <input type="text" style="width:25ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/><percent/></p>
+r = <fillin characters="6"/><percent/></p>
 <p>
 (b) If this trend continues, how many wolves will there be in ten years?</p>
 <p>
-<input type="text" style="width:25ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/> wolves</p>
+<fillin characters="6"/> wolves</p>
 <p>
 (c) If this trend continues, how long will it take for the population to grow to 1000 wolves?  Round your answer to the nearest tenth of a year.</p>
 <p>
-<input type="text" style="width:25ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> years
-</p>
+<fillin characters="6"/> years</p>
 </statement>
-<solution>
-<p><ul><li>10.8</li><li>1394</li><li>6.7586801772574</li></ul></p>
+<answer>
+<p><ul><li>29.9</li><li>4113</li><li>4.6</li></ul></p>
+</answer>
+<solution><p>Based on the information given</p>
+<p>
+  <m>\displaystyle{658}={300}{\left({1}+{r}\right)}^{{3}}</m>.</p>
+<p>
+  <m>\displaystyle\frac{{658}}{{300}}={\left({1}+{r}\right)}^{{3}}</m>.</p>
+<p>
+  <m>\displaystyle{\left(\frac{{658}}{{300}}\right)}^{{\frac{{1}}{{3}}}}={1}+{r}</m>.</p>
+<p>
+  <m>\displaystyle{\left(\frac{{658}}{{300}}\right)}^{{\frac{{1}}{{3}}}}-{1}={r}</m>.</p>
+<p>
+  <m>\displaystyle{r}={29.927638887994}</m></p>
+<p>
+  <m>\displaystyle{r}\approx{29.9}</m></p>
+<p>The amount after 10 years is </p>
+<p>
+  <m>\displaystyle{P}{\left({10}\right)}={300}{\left({1.2992763888799}\right)}^{{{10}}}</m></p>
+<p>
+  <m>\displaystyle{P}{\left({10}\right)}={4112.791731136}</m></p>
+<p>
+  <m>\displaystyle{P}{\left({10}\right)}\approx{4113}</m></p>
+<p>To find how long until the population reaches 1000 wolves, we solve the following.</p>
+<p>
+  <m>\displaystyle{1000}={300}{\left({1.2992763888799}\right)}^{{t}}</m></p>
+<p>
+  <m>\displaystyle\frac{{1000}}{{300}}={1.2992763888799}^{{t}}</m></p>
+<p>
+  <m>\displaystyle{\ln{{\left(\frac{{1000}}{{300}}\right)}}}={\ln{{\left({1.2992763888799}^{{t}}\right)}}}</m></p>
+<p>
+  <m>\displaystyle{\ln{{\left(\frac{{1000}}{{300}}\right)}}}={t}{\ln{{\left({1.2992763888799}\right)}}}</m></p>
+<p>
+  <m>\displaystyle\frac{{\ln{{\left(\frac{{1000}}{{300}}\right)}}}}{{\ln{{\left({1.2992763888799}\right)}}}}={t}</m></p>
+<p>
+  <m>\displaystyle{4.6}\approx{t}</m>.</p>
 </solution>
 </myopenmath>

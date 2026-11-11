@@ -207,7 +207,7 @@
     </figure>
 
     <example xml:id="example-log2-does-not-level">
-        <p>Consider the example <m>y=\log_2(x)</m>. We know from the table above that it grows above <m>y=1</m>. Consider whether it grows above <m>y=100</m>. This would mean <m>100 \lt 2^x</m>. We know it is easier to calculate this logarithm for powers of 2 so instead we consider <me>100 \lt 128 = 2^7</me>. Does it grow above <m>y=1000</m>. We can use <me>1000 \lt 1024 = 2^{10}.</me></p>
+        <p>Consider the example <m>y=\log_2(x)</m>. We know from the table above that it grows above <m>y=1</m>. Consider whether it grows above <m>y=100</m>. This would mean <m>100 \lt 2^x</m>. We know it is easier to calculate this logarithm for powers of 2 so instead we consider <md>100 \lt 128 = 2^7</md>. Does it grow above <m>y=1000</m>. We can use <md>1000 \lt 1024 = 2^{10}.</md></p>
         <p>By now we can see a pattern. For any y value we select there is a power of 2 that is greater (we can double forever). The logarithm evaluated at that power is bigger. Thus we know the logarithm increases forever. This is not dependent on the base 2. The same statement is true of any number (e.g., <m>3^x</m> and <m>29^x</m> increase forever as well).</p>
         <p>In practice this means we should draw the graph of any logarithm with the curve pointing slightly up at the end.</p>
     </example>

@@ -34,17 +34,17 @@
     <example xml:id="example-percent-female">
         <title>Calculate a Percent</title>
         <statement>
-            <p>In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as <me>\frac{\text{part}}{\text{whole}} = \frac{21}{34} \approx 0.6176</me>. This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.</p>
+            <p>In a class there are 34 students. Of them 21 are female. In this case female students is part of the whole (all students). Thus the percent is calculated as <md>\frac{\text{part}}{\text{whole}} = \frac{21}{34} \approx 0.6176</md>. This number says there are 61 hundreths (remembering our numbering system), so the percent is written as 61.76%.</p>
             <p>Rounding to two (2) decimal places was chosen to illustrate how we convert a ratio in decimal form to a percent. If we were reporting this information, we would most likely round to 62%. This would convey the same meaning, because the difference between 61.76% and 62% for 34 people is less than one person.</p>
         </statement>
     </example>
 
     <video youtube="gA7tQzn72lg" xml:id="video-example-percent-use-definition" />
 
-    <p>Generally, we calculate a percent by <me>100 \times \frac{\text{part}}{\text{whole}}. </me> </p>
+    <p>Generally, we calculate a percent by <md>100 \times \frac{\text{part}}{\text{whole}}. </md> </p>
 
     <example xml:id="example-percent-male">
-        <statement><p>In the class there are 34 students. Of them 13 are male. The percent is calculated as <me> 100 \times \frac{13}{34} = 100 \times 0.3824 = 38.24\%.</me></p></statement>
+        <statement><p>In the class there are 34 students. Of them 13 are male. The percent is calculated as <md> 100 \times \frac{13}{34} = 100 \times 0.3824 = 38.24\%.</md></p></statement>
     </example>
 
     <p>Now that we have presented two examples of calculating a percent from counts, use the check point below to test that you can setup and calculate one yourself.</p>
@@ -133,11 +133,11 @@
         <p>Consider the following question.</p>
         <p>If the first chapter of a certain book is 18 pages long and makes up 2% of the book, how many pages does the entire book have?</p>
         <p>Because we see <q>2%</q> we recognize this as a percent problem. Without more information we can begin writing. In <xref ref="example-percent-calculate-whole" /> the first step is writing the definition of percent.
-        <me>\frac{\text{part}}{\text{whole}} = \text{percent}</me>
+        <md>\frac{\text{part}}{\text{whole}} = \text{percent}</md>
         In the example 0.0625 is written on the right (in place of percent). In this problem we know the percent is 2. We also know that in a calculation we convert the percent to a decimal. In this case <m>2\% = \frac{2}{100} = 0.02</m>. Thus the next step is
-        <me>\frac{\text{part}}{\text{whole}} = 0.02</me>
+        <md>\frac{\text{part}}{\text{whole}} = 0.02</md>
         In the next step in the example the entries for part and whole are entered. In this problem the 18 pages is stated as one chapter and is contrasted to the <q>entire</q> book. Thus the 18 is the part. As with the example, the whole is not known so we leave it as a variable.
-        <me>\frac{18}{W} = 0.02</me>
+        <md>\frac{18}{W} = 0.02</md>
         Finally in the example they solve for the variable. Note the steps of solving may vary depending on what we know, so rather than follow the rest of the example step-by-step, we apply our algebra skills.
         <md>
             <mrow>\frac{18}{W} &amp; = 0.02</mrow>
@@ -179,7 +179,7 @@
     <example xml:id="example-percent-increase1">
         <statement><p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What was the percent increase? Round the percent to the nearest unit.</p>
         <p>This was an increase of 34-22=12 students. We can calculate what percent the increase of 12 is with respect to the original (spring) class size of 22.
-            <me>100 \times \frac{12}{22} \approx 54.545454 \approx 55\% </me>.</p>
+            <md>100 \times \frac{12}{22} \approx 54.545454 \approx 55\% </md>.</p>
         </statement>
     </example>
 
@@ -190,7 +190,7 @@
     <example xml:id="example-percent-increase2">
         <statement>
             <p>In spring there were 22 students in a class. In the following fall there were 34 students in the same class. What is the percent increase in the fall?</p>
-            <p>We calculate the percentage the fall class size is with respect to the spring class size. <me> 100 \times \frac{34}{22} = 155\% </me>. </p>
+            <p>We calculate the percentage the fall class size is with respect to the spring class size. <md> 100 \times \frac{34}{22} = 155\% </md>. </p>
             <p>Because the fall class size (in the role of <q>part</q>) is greater than the spring class size (in the role of whole), the percent ends up being greater than 100%. For percent increase we should always expect a percent greater than 100%.</p>
             <p>Because this is 55% greater than 100%, the percent increase was 55% over the previous semester.</p>
             <image source="images/percent_increase" width="50%" />
@@ -211,7 +211,7 @@
 
     <example xml:id="example-percent-increase-or-decrease">
         <p>What is the percent increase or decrease if enrollment in a class was 78 in fall and 38 in the following spring? Round the percent to the nearest unit.</p>
-        <p>Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. <m>78-38=40</m>. Thus the percent decrease is <me>100 \cdot \frac{40}{78} \approx 0.51282051 \approx 51\%</me>.</p>
+        <p>Because 38 is less than 78 this is a decrease. Similar to the percent increase we can calculate the decrease first and then calculate the percent. <m>78-38=40</m>. Thus the percent decrease is <md>100 \cdot \frac{40}{78} \approx 0.51282051 \approx 51\%</md>.</p>
         <p>As with the percent increase we can also start by simply computing what percent the fall enrollment is with respect to the prior spring enrollment. The ratio is <m>100 \cdot \frac{38}{78} \approx 0.48717949 \approx 0.49</m>. Because the new enrollment <em>is</em> 49% of the previous enrollment the decrease is 100%-49%=51%.</p>
             <image source="images/percent_decrease" width="50%">
                 <shortdescription>Two bars labeled with both amount and percents.</shortdescription>

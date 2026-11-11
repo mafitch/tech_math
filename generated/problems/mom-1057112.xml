@@ -2,40 +2,41 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1057112">
 <statement>
 <image width="33%" pi:generated="problems/images/mom-1057112-1.png"/><p>
-Suppose a = 3 and A = 45 degrees. Calculate:</p>
+Suppose a = 7 and A = 55 degrees. Calculate:</p>
 <p>
-<m>\displaystyle{b}\approx</m> <input type="text" style="width:5.8ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 3" class="text"/></p>
+<m>\displaystyle{b}\approx</m> <fillin characters="4"/></p>
 <p>
-<m>\displaystyle{c}\approx</m> <input type="text" style="width:5.8ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 3" class="text"/></p>
+<m>\displaystyle{c}\approx</m> <fillin characters="4"/></p>
 <p>
-<m>\displaystyle{B}\approx</m> <input type="text" style="width:5.8ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 3" class="text"/> degrees</p>
+<m>\displaystyle{B}\approx</m> <fillin characters="4"/> degrees</p>
 <p>
 Round all answers to one decimal place.  Give angles in <em>degrees</em>
 </p>
 </statement>
-<solution>
-<p><ul><li>3.0</li><li>4.2</li><li>45.0</li></ul></p><p>First calculate the length of the other leg.</p>
+<answer>
+<p><ul><li>4.9</li><li>8.5</li><li>35.0</li></ul></p>
+</answer>
+<solution><p>First calculate the length of the other leg.</p>
 <p>For the length of the other leg,</p>
 <p>
-  <m>\displaystyle{\tan{{\left({45}\right)}}}=\frac{{3}}{{b}}</m>.</p>
+  <m>\displaystyle{\tan{{\left({55}\right)}}}=\frac{{7}}{{b}}</m>.</p>
 <p>
-  <m>\displaystyle{b}=\frac{{3}}{{\tan{{\left({45}\right)}}}}</m>.</p>
+  <m>\displaystyle{b}=\frac{{7}}{{\tan{{\left({55}\right)}}}}</m>.</p>
 <p>
-  <m>\displaystyle{b}\approx{3}\approx{3}</m>.</p>
+  <m>\displaystyle{b}\approx{4.901452767468}\approx{4.9}</m>.</p>
 <p>For the third side</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={3}^{{2}}+{3}^{{2}}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={7}^{{2}}+{4.901452767468}^{{2}}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={9}+{9}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={49}+{24.024239231719}</m>.</p>
 <p>
-  <m>\displaystyle{c}^{{2}}={18}</m>.</p>
+  <m>\displaystyle{c}^{{2}}={73.024239231719}</m>.</p>
 <p>
-  <m>\displaystyle{c}=\sqrt{{{18}}}</m>.</p>
+  <m>\displaystyle{c}=\sqrt{{{73.024239231719}}}</m>.</p>
 <p>
-  <m>\displaystyle{c}\approx{4.2426406871193}\approx{4.2}</m>.</p>
+  <m>\displaystyle{c}\approx{8.5454221213302}\approx{8.5}</m>.</p>
 <p>For angle B</p>
 <p>
-  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{45}^{\circ}\approx{45}^{\circ}</m></p>
-
+  <m>\displaystyle{B}={180}^{\circ}-{90}^{\circ}-{55}^{\circ}\approx{35}^{\circ}</m></p>
 </solution>
 </myopenmath>

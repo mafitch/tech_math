@@ -290,8 +290,8 @@
 
     <example xml:id="example-table-extrapolate-linear">
         <p>Based on <xref ref="table-salary-vasya" /> what do we expect Vasya's salary to be in 2025, 2028?</p>
-        <p>From <xref ref="example-graphing-bar1" /> we know that Vasya has received a $5,000 raise each year. Because that has been the pattern, we might safely suppose it will continue. Thus we expect her 2025 salary to be <me>\$97,347.23+\$5,000.00 = \$102,347.23.</me></p>
-        <p>To calculate her expected 2028 salary we note that is 4 years after 2024, so she should have four raises of $5,000 each. Her expected salary will be <me>\$97,347.23+4(\$5,000.00) = \$117,347.23.</me></p>
+        <p>From <xref ref="example-graphing-bar1" /> we know that Vasya has received a $5,000 raise each year. Because that has been the pattern, we might safely suppose it will continue. Thus we expect her 2025 salary to be <md>\$97,347.23+\$5,000.00 = \$102,347.23.</md></p>
+        <p>To calculate her expected 2028 salary we note that is 4 years after 2024, so she should have four raises of $5,000 each. Her expected salary will be <md>\$97,347.23+4(\$5,000.00) = \$117,347.23.</md></p>
     </example>
 
     <p>Notice that in both of these examples we needed to know the growth rate (i.e., exponential or linear respectively) before we could extrapolate.</p>

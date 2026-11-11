@@ -43,8 +43,8 @@
 
     <example xml:id="example-angle-from-inverse-trig">
         <p>What is the measure of both non-right angles in <xref ref="figure-trig-function-read" />? Use technology to calculate.</p>
-        <p>We can use the arcsine function. <me>\alpha = \arcsin(3/\sqrt{34}) \approx 31^\circ</me>. <me>\theta = \arcsin(5/\sqrt{34}) \approx 59^\circ</me></p>
-        <p>We can also use the arccosine function. <me>\alpha = \arccos(5/\sqrt{34}) \approx 31^\circ</me>. <me>\theta = \arccos(3/\sqrt{34}) \approx 59^\circ</me></p>
+        <p>We can use the arcsine function. <md>\alpha = \arcsin(3/\sqrt{34}) \approx 31^\circ</md>. <md>\theta = \arcsin(5/\sqrt{34}) \approx 59^\circ</md></p>
+        <p>We can also use the arccosine function. <md>\alpha = \arccos(5/\sqrt{34}) \approx 31^\circ</md>. <md>\theta = \arccos(3/\sqrt{34}) \approx 59^\circ</md></p>
     </example>
 
     <example xml:id="example-side-plus-inverse-trig">
@@ -100,7 +100,7 @@
             <mrow>b^2 &amp; = 25.</mrow>
             <mrow>b &amp; = 5.</mrow>
         </md></p>
-        <p>For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle. <me>\arcsin\left(\frac{12}{13}\right) \approx 67^\circ.</me></p>
+        <p>For the angle opposite the side of length 12, we can use the inverse sine to calculate the angle. <md>\arcsin\left(\frac{12}{13}\right) \approx 67^\circ.</md></p>
         <p>For the angle opposite the side of length 5, we can now use the angle sum theorem.
             <md>
                 <mrow>90^\circ+67^\circ+B &amp; \approx 180^\circ.</mrow>
@@ -133,7 +133,7 @@
                 <p>What are the measures of the angles?</p>
             </statement>
             <solution>
-                <p>For the angle opposite the side of length 14 because we know the lengths of both legs, we can use <me>\arctan\left( \frac{14}{48} \right) \approx 16^\circ.</me> We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.</p>
+                <p>For the angle opposite the side of length 14 because we know the lengths of both legs, we can use <md>\arctan\left( \frac{14}{48} \right) \approx 16^\circ.</md> We could have used arcsine and the length of the hypotenuse, however, that length has rounding error which could affect this calculation.</p>
                 <p>For the other angle we can use the angle sum theorem.
                 <md>
                     <mrow>90^\circ+16^\circ+B &amp; \approx 180^\circ.</mrow>

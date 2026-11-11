@@ -102,7 +102,7 @@
         </md></p>
         <p>We do not consider the negative square root, because a negative velocity (flying backwards) does not work. Remember to consider reality constraints.</p>
         <p>Note the units for velocity are feet per second. Now we need to convert units (like <xref ref="example-convert-speed" />).
-        <me>\frac{186.\underline{6}525821 \; \text{ft}}{\text{s}} \cdot \frac{\text{mi}}{6076 \; \text{ft}} \cdot \frac{3600 \; \text{s}}{\text{hr}} \approx 110.\underline{5}907333 \frac{\text{mi}}{\text{hr}} \approx 110.6 \frac{\text{mi}}{\text{hr}}</me>.
+        <md>\frac{186.\underline{6}525821 \; \text{ft}}{\text{s}} \cdot \frac{\text{mi}}{6076 \; \text{ft}} \cdot \frac{3600 \; \text{s}}{\text{hr}} \approx 110.\underline{5}907333 \frac{\text{mi}}{\text{hr}} \approx 110.6 \frac{\text{mi}}{\text{hr}}</md>.
         </p>
     </example>
 
@@ -132,7 +132,7 @@
 <subsection xml:id="subsection-solve-quadratic-formula">
     <title>Solving Quadratics with the Formula</title>
 
-    <p>When the quadratic has more than a square term, e.g., <m>11x^2+32x-3=0</m> we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For <m>ax^2+bx+c=0</m> the solutions are given by <me>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.</me></p>
+    <p>When the quadratic has more than a square term, e.g., <m>11x^2+32x-3=0</m> we cannot solve by undoing each operation. In this text we will solve all of these quadratics using the quadratic formula. For <m>ax^2+bx+c=0</m> the solutions are given by <md>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.</md></p>
 
     <example xml:id="example-solve-quadratic-formula">
         <p>Identify all solutions to <m>11x^2+32x-3=0</m>.</p>
@@ -170,7 +170,7 @@
 
     <example xml:id="example-chemistry-ice">
         <title>Chemistry ICE</title>
-        <p>Consider the following chemical reaction. <me>Br_2 + Cl_2 \rightleftharpoons 2Br Cl</me>. If the amount of bromine gas is 0.60 moles and the amount of chlorine gas is 0.60 moles, and the equilibrium constant <m>K_c = 7.0</m> what are the amounts of each gas at equilibrium?</p>
+        <p>Consider the following chemical reaction. <md>Br_2 + Cl_2 \rightleftharpoons 2Br Cl</md>. If the amount of bromine gas is 0.60 moles and the amount of chlorine gas is 0.60 moles, and the equilibrium constant <m>K_c = 7.0</m> what are the amounts of each gas at equilibrium?</p>
         <p>The ICE (initial, change, equilibrium) table for this is below.</p>
         <table>
             <title>ICE Table</title>
@@ -202,7 +202,7 @@
             </tabular>
         </table>
         <p>The initial conditions (first row) will always be given (we know with what we start). The second row uses the <m>x</m> to indicate that we do not know how much will be converted by the reaction. It is <m>+2x</m> for the result because when one molecule each of <m>Br_2</m> and <m>Cl_2</m> break apart there are 2 atoms each of Br and Cl resulting in two molecules of BrCl. This all comes from the chemical reaction.</p>
-        <p>The equilibrium equation then is <me>K_c = 7.0 = \frac{[BrCl]^2}{[Br_2][Cl_2]} = \frac{(2x)^2}{(0.6-x)(0.6-x)}</me>. This is always the ratio of equilibrium amounts for the outputs divided by equilibrium amounts for the inputs. It will be provided in this text.</p>
+        <p>The equilibrium equation then is <md>K_c = 7.0 = \frac{[BrCl]^2}{[Br_2][Cl_2]} = \frac{(2x)^2}{(0.6-x)(0.6-x)}</md>. This is always the ratio of equilibrium amounts for the outputs divided by equilibrium amounts for the inputs. It will be provided in this text.</p>
         <p>Finally, we can solve this equation to determine <m>x</m> and the resulting amounts of each gas.
             <md>
                 <mrow>7.0 = \amp \frac{(2x)^2}{(0.6-x)(0.6-x)}</mrow>

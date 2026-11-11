@@ -81,7 +81,7 @@
         <video youtube="F5wY2KRtFuQ" xml:id="video-example-solve-exponential2" />
     </example>
 
-    <p>Your calculator likely does not have a button for calculating <m>\log_2(x)</m>. We can use a property of all logarithms to solve this equation with the natural log. In general <me>\log_b(a^p) = p \log_b(a)</me>.</p>
+    <p>Your calculator likely does not have a button for calculating <m>\log_2(x)</m>. We can use a property of all logarithms to solve this equation with the natural log. In general <md>\log_b(a^p) = p \log_b(a)</md>.</p>
 
     <example xml:id="example-solve-exponential-ln">
         <p>Solve <m>5.0 = 3.0 \left(2^{\frac{t}{7\bar{0}}}\right)</m>. Round to units.</p>
@@ -109,7 +109,7 @@
     <p>As with equations involving exponentials, we can solve equations involving logarithms using the inverse relationship between exponentials and logarithms. The first two examples demonstrate using the definition of logarithm.</p>
 
     <example xml:id="example-log-solve-basic">
-        <p>Solve <me>\log_3(x)=2</me>. We can re-write this as <me>3^2=x</me> which tells us that <m>x=9</m>.</p>
+        <p>Solve <md>\log_3(x)=2</md>. We can re-write this as <md>3^2=x</md> which tells us that <m>x=9</m>.</p>
     </example>
 
     <example xml:id="example-log-solve1">
@@ -177,7 +177,7 @@
                 $ans = e**($p/$c)-$s;
             </pg-code>
             <statement>
-                <p>Solve <me><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</me> <m>x=</m> <var name="$ans" width="12" />.</p>
+                <p>Solve <md><var name="$p"/> = <var name="$c"/>\ln(x+<var name="$s"/>)</md> <m>x=</m> <var name="$ans" width="12" />.</p>
                 <p>Precision should be at least four decimal places.</p>
             </statement>
         </webwork> -->
@@ -190,9 +190,9 @@
     <title>Applications with Exponentials and Logarithms</title>
 
     <example xml:id="example-exponential-growth-redux">
-        <p>In <xref ref="example-exponential-model-lactobacillus-gram" /> we produced the model <m>P=3.0 \cdot 2^{t/7\bar{0}}</m>. Here we will redo this problem using the model <m>P=P_0 e^{rt}</m>.</p>
+        <p>In <xref ref="example-exponential-model-lactobacillus-gram" /> we produced the model <m>P=3.0 \cdot 2^{t/7\bar{0}}</m>. Here we will redo this problem by converting the model to the form <m>P=P_0 e^{rt}</m>. Specifically, we will find <m>r</m> such that <m>(e^{r})^t=(2^{t/7\bar{0}})^t</m>.</p>
         <p>The bacteria <term>lactobacilus acidophilus</term> doubles in population every 70 minutes. If the initial amount was 3 grams, what how much would there be after 24 hours?</p>
-        <p>To use this model we must first calculate the constant <m>k</m>. We know the amount doubles every 70 minutes, so we can start with the following.
+        <p>To use this model we must first calculate the constant <m>r</m>. We know the amount doubles every 70 minutes, so we can start with the following.
         <md>
             <mrow>6.0 &amp; = 3.0e^{7\bar{0} r}.</mrow>
             <mrow>\frac{6.0}{3.0} &amp; = e^{7\bar{0}r}.</mrow>
@@ -200,7 +200,7 @@
             <mrow>\ln(2.0) &amp; = \ln\left(e^{7\bar{0}r}\right).</mrow>
             <mrow>\ln(2.0) &amp; = 7\bar{0}r.</mrow>
             <mrow>\frac{\ln(2.0)}{7\bar{0}} &amp; = r.</mrow>
-            <mrow>k &amp; \approx 0.009902.</mrow>
+            <mrow>r &amp; \approx 0.009902.</mrow>
             <mrow> &amp; \approx 0.0099</mrow>
         </md>.
         Using this value we can now calculate the value after 24 hours. Note 24 hours is <m>24 \cdot 60 = 1440</m> minutes.
@@ -213,10 +213,10 @@
     </example>
 
     <example xml:id="example-exponential-decay">
-        <introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by <me>P=P_0 e^{rt}</me>. <m>P_0</m> is the initial amount of material. <m>P</m> is the amount left after <m>t</m> units of time. <m>r</m> is a constant that is derives from the speed how fast the material decays. </p></introduction>
+        <introduction><p>Plutonium-241 has a half-life of 14.4 years. This means if you start with 10.0 g of Pu-241 in 14.4 years there will be only 5.0 g of Pu-241. Generally, this can also be modeled by <md>P=P_0 e^{rt}</md>. <m>P_0</m> is the initial amount of material. <m>P</m> is the amount left after <m>t</m> units of time. <m>r</m> is a constant that is derives from the speed how fast the material decays. </p></introduction>
         <task>
             <statement><p>Write the model for Plutonium-241.</p></statement>
-            <solution><p>We must first calculate <m>k</m>. We can use <xref ref="example-solve-exponential-algebra1" /> as an example.
+            <solution><p>We must first calculate <m>r</m>. We can use <xref ref="example-solve-exponential-algebra1" /> as an example.
             <md>
                 <mrow>5.0 &amp; = 10.0 e^{r(14.4)}</mrow>
                 <mrow>\frac{1}{2.0} &amp; = e^{r(14.4)}</mrow>
@@ -226,7 +226,7 @@
                 <mrow>-0.04813522 &amp; \approx r.</mrow>
                 <mrow>-0.048 &amp; \approx r.</mrow>
             </md>
-            Thus the model is <me>P = P_0 e^{-0.048t}</me>.</p></solution>
+            Thus the model is <md>P = P_0 e^{-0.048t}</md>.</p></solution>
         </task>
         <task>
             <statement><p>If a lab has 12.0g of Pu-241, how much will be left in 6 years?</p></statement>
@@ -241,7 +241,7 @@
         </task>
     </example>
 
-    <p>Note, that the example in <xref ref="example-exponential-model-lactobacillus-gram" /> and <xref ref="example-exponential-growth-redux" /> imply that <m>3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}</m>. In particular we can convert the power of 2 to a power of e. More generally, we can write <m>2^x = e^{rx}</m> or <m>3^x = e^{rx}</m> or similar for some value of <m>k</m>. The next example shows how we can perform this conversion.</p>
+    <p>Note, that the example in <xref ref="example-exponential-model-lactobacillus-gram" /> and <xref ref="example-exponential-growth-redux" /> imply that <m>3.0 \cdot 2^{t/70} = 3.0 e^{(0.0099)t}</m>. In particular we can convert the power of 2 to a power of e. More generally, we can write <m>2^x = e^{rx}</m> or <m>3^x = e^{rx}</m> or similar for some value of <m>r</m>. The next example shows how we can perform this conversion.</p>
 
     <example xml:id="example-convert-exponential-e">
         <p>Write <m>2^x</m> as <m>e^{rx}</m>. Numbers are exact.</p>
@@ -259,7 +259,7 @@
     <definition xml:id="definition-ph">
         <title>pH (percent hydrogen)</title>
         <statement>
-            <p>Acidity is measured in pH (percent hydrogen). The calculation is <me>\text{pH} = -\log(H_3O^+)</me> where <m>H_3O^+</m> is the concentration of hydronium ions per mole. This is obtained experimentally.</p>
+            <p>Acidity is measured in pH (percent hydrogen). The calculation is <md>\text{pH} = -\log(H_3O^+)</md> where <m>H_3O^+</m> is the concentration of hydronium ions per mole. This is obtained experimentally.</p>
         </statement>
     </definition>
 
@@ -316,7 +316,7 @@
     <definition xml:id="definition-moment-magnitude">
         <title>Moment Magnitude</title>
         <statement>
-            <p>Larger earthquakes today are measured and reported using the <term>moment magnitude</term> scale. This is calculated via <me>M_w = \frac{2}{3}\log(M_0)-10.7</me> where <m>M_w</m> is the moment magnitude, and <m>M_0</m> is the seismic moment in Newtons per meter (a measure of energy).</p>
+            <p>Larger earthquakes today are measured and reported using the <term>moment magnitude</term> scale. This is calculated via <md>M_w = \frac{2}{3}\log(M_0)-10.7</md> where <m>M_w</m> is the moment magnitude, and <m>M_0</m> is the seismic moment in Newtons per meter (a measure of energy).</p>
         </statement>
     </definition>
 

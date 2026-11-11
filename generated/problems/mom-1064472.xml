@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="1064472">
 <statement>
-<p>The side lengths of <m>\displaystyle\Delta{A}{B}{C}</m> are: <m>\displaystyle{A}{B}={5}</m> <m>\displaystyle{B}{C}={6}</m> <m>\displaystyle{A}{C}={5}</m></p>
-<p>The side lengths of <m>\displaystyle\Delta{R}{S}{T}</m> are: <m>\displaystyle{R}{S}={1.25}</m> <m>\displaystyle{S}{T}={1.5}</m> <m>\displaystyle{R}{T}={1.25}</m></p>
+<p>The side lengths of <m>\displaystyle\Delta{A}{B}{C}</m> are: <m>\displaystyle{A}{B}={3}</m> <m>\displaystyle{B}{C}={8}</m> <m>\displaystyle{A}{C}={7}</m></p>
+<p>The side lengths of <m>\displaystyle\Delta{R}{S}{T}</m> are: <m>\displaystyle{R}{S}={0.75}</m> <m>\displaystyle{S}{T}={2}</m> <m>\displaystyle{R}{T}={35}</m></p>
 <p>Simplify the given corresponding side ratios:</p>
 <p>
-  <m>\displaystyle\frac{{{R}{S}}}{{{A}{B}}}=</m> <input type="text" style="width:7ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 4" class="text"/>  <m>\displaystyle\frac{{{S}{T}}}{{{B}{C}}}=</m> <input type="text" style="width:7ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 4" class="text"/>  <m>\displaystyle\frac{{{R}{T}}}{{{A}{C}}}=</m> <input type="text" style="width:7ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 4" class="text"/> </p>
+  <m>\displaystyle\frac{{{R}{S}}}{{{A}{B}}}=</m> <fillin characters="5"/>  <m>\displaystyle\frac{{{S}{T}}}{{{B}{C}}}=</m> <fillin characters="5"/>  <m>\displaystyle\frac{{{R}{T}}}{{{A}{C}}}=</m> <fillin characters="5"/> </p>
 <p>Are <m>\displaystyle\Delta{A}{B}{C}</m> and  <m>\displaystyle\Delta{R}{S}{T}</m> similar?? </p>
 <p><ol style="list-style-type:upper-alpha"><li>Yes</li> 
 <li>No</li> 
@@ -13,7 +13,8 @@
 
 
 </statement>
-<solution>
-<p><ul><li>0.25</li><li>0.25</li><li>0.25</li><li>A: Yes</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>0.25</li><li>0.25</li><li>5</li><li>B: No</li></ul></p>
+</answer>
+
 </myopenmath>

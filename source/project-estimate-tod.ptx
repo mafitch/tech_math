@@ -13,7 +13,7 @@
 	<theorem xml:id="theorem-newton-law-cooling">
 		<title>Newton's Law of Cooling</title>
 
-		<statement><p>The temperature <m>T</m> at a time <m>x</m> of a cooling object follows the function <me>T=A+Be^{kx}</me>. <m>A</m> is the ambient (or room) temperature. <m>B</m> and <m>k</m> are constants that depend on the object.</p></statement>
+		<statement><p>The temperature <m>T</m> at a time <m>x</m> of a cooling object follows the function <md>T=A+Be^{kx}</md>. <m>A</m> is the ambient (or room) temperature. <m>B</m> and <m>k</m> are constants that depend on the object.</p></statement>
 	</theorem>
 
 	<p>Suppose a forensics technician arrived at a murder scene and recorded the temperature of the surroundings as well as the body. The technician decides it is fair to assume that the room temperature has been holding steady at about <quantity><mag>68</mag><unit base="fahrenheit" /></quantity>. A thermometer was placed in the liver of the corpse and the following table of values was recorded.</p>
@@ -39,7 +39,7 @@
 
 <task xml:id="project-tod-constant">
 	<statement><p>Once you know <m>A</m> and <m>B</m>, substitute some <em>other</em> data point into the equation so that <m>k</m> is the only variable. Solve the resulting equation and round <m>k</m> to 6 decimal places. Show your work. Remember the exponential must be isolated before you take the natural log of both sides.
-	<me>k \approx <fillin/></me></p></statement>
+	<md>k \approx <fillin/></md></p></statement>
 </task>
 
 <task>

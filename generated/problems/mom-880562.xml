@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="880562">
 <statement>
-<p>How many millimeters are there in a meter? <input type="text" style="width:7ch" name="qn1000" id="qn1000" value="" autocomplete="off" aria-label="Question 1 Part 1 of 7" class="text"/></p>
-<p>How many liters are in a decaliter? <input type="text" style="width:7ch" name="qn1001" id="qn1001" value="" autocomplete="off" aria-label="Question 1 Part 2 of 7" class="text"/></p>
-<p>How many centigrams are there in a gram? <input type="text" style="width:7ch" name="qn1002" id="qn1002" value="" autocomplete="off" aria-label="Question 1 Part 3 of 7" class="text"/></p>
-<p>Which prefix indicates a bigger quantity? hecto</p>
+<p>How many millimeters are there in a meter? <fillin characters="5"/></p>
+<p>How many liters are in a decaliter? <fillin characters="5"/></p>
+<p>How many centigrams are there in a gram? <fillin characters="5"/></p>
+<p>Which prefix indicates a bigger quantity? kilo</p>
 <p>
-kilo</p>
+hecto</p>
 <p>Which prefix indicates a bigger quantity? deca</p>
 <p>
 deci</p>
@@ -18,7 +18,8 @@ mega</p>
 centi</p>
 
 </statement>
-<solution>
-<p><ul><li>1000</li><li>10</li><li>100</li><li>B: kilo</li><li>A: deca</li><li>B: mega</li><li>B: centi</li></ul></p>
-</solution>
+<answer>
+<p><ul><li>1000</li><li>10</li><li>100</li><li>A: kilo</li><li>A: deca</li><li>B: mega</li><li>B: centi</li></ul></p>
+</answer>
+
 </myopenmath>
