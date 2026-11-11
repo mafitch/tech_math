@@ -17,71 +17,31 @@
 <title>Non-Right Triangles</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js/lib"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<style>
+@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta name="twitter:image" content="https://mafitch.github.io/tech_math/external/images/UAA_GG.png">
 <meta property="og:image" content="https://mafitch.github.io/tech_math/external/images/UAA_GG.png">
+<meta name="twitter:image:alt" content="Document Logo">
+<meta property="og:image:alt" content="Document Logo">
+<meta name="twitter:title" content="Mathematics in Trades and Life">
+<meta property="og:title" content="Mathematics in Trades and Life">
 <meta property="book:title" content="Mathematics in Trades and Life">
-<meta property="book:author" content="Mark Fitch">
-<meta property="book:author" content="Megan Ossiander-Gobeille">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<meta name="twitter:card" content="summary_large_image">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.56"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.56"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -103,37 +63,63 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.14';
+eBookConfig.runestone_version = '8.4.0';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.cc8d78735f870736.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.29d986501a531379.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
-<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/prefix-runtime.7e2ee203f2ecd6c8.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<div class="heading ptx-banner-heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></div>
 <p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
 </div>
 </div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
-<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
-<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
-<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
-<div class="search-results-controls">
-<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<h2 class="search-results-heading">Search Results: </h2>
-<div id="searchempty" class="searchempty"><span>No results.</span></div>
-<ol id="searchresults" class="searchresults"></ol>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
 </div>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="section-inverse-trig.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-trig.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-trig-graphs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="section-inverse-trig.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-trig.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-trig-graphs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
 \newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
 \newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
@@ -144,10 +130,10 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-technical-mathematics-2" class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="technical-mathematics-2-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
@@ -156,10 +142,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-intro" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-units" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
@@ -170,7 +156,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-enough" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
@@ -180,7 +166,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-models" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
@@ -192,10 +178,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-ratios" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-percent" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
@@ -204,10 +190,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-mixture" class="structural toc-item-list">
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-subsection-calculate-resulting-mixture" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
 </ul>
@@ -218,7 +204,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-ratios" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
@@ -227,12 +213,12 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-proportion" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-subsection-proportion-similar" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
@@ -244,7 +230,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-medical" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-medical-rounding" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Rounding in Medical Applications</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Terminology</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dilution</span></a></div></li>
@@ -258,10 +244,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-models" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-linear" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
@@ -271,7 +257,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-graphing" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
@@ -281,7 +267,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-rates" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-extrapolation" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Extrapolation</span></a></div></li>
@@ -290,7 +276,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-variation" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-analyze-multi-variable-models" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Analyzing Models with Multiple Variables</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-set-up" class="internal"><span class="codenumber">3.4.2</span> <span class="title">More Model Usage</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-model-limitations-think-first" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Limitations of Models</span></a></div></li>
@@ -299,7 +285,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-rational" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Rates</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rational.html#section-rational-5" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Exercises</span></a></div></li>
@@ -307,7 +293,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-linear-systems" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-setup-linear-systems" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
@@ -322,10 +308,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-geometry" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning 2D</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-geometry2D" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Formulae</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Applying Geometry</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry2d-ql" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Quantitative Literacy</span></a></div></li>
@@ -334,7 +320,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-geometry3D" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Formulae</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Applying Geometry</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Exercises</span></a></div></li>
@@ -348,10 +334,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-quadratic" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-quadratic" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-models" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-inverse-square" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Inversely Quadratic Relations</span></a></div></li>
@@ -360,7 +346,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-quadratic-solve" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-5" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
@@ -368,7 +354,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-roots" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
@@ -376,7 +362,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Graphs of Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-quadratic-graph" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-application" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Applications</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-5" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Exercises</span></a></div></li>
@@ -387,10 +373,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-exponential" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-exponential" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
@@ -399,7 +385,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-exponential-graph" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-ql" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Identifying Exponential Graphs</span></a></div></li>
@@ -408,7 +394,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-logarithm" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
@@ -418,7 +404,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-log-solve" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solving-exponentials" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Solving Equations with Exponentials</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Solving Equations with Logarithms</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials and Logarithms</span></a></div></li>
@@ -430,10 +416,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-chapter-trig">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-trig-functions" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-angle-sum" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Angle Relationships in Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
@@ -444,7 +430,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-inverse-trig.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Inverse Trigonometric Relationships</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-inverse-trig" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-inverse-trig" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-solving-triangles2" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Solving Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-trig-function-angles" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Calculating angles using trig functions</span></a></div></li>
@@ -453,7 +439,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list active" id="ptx-toc-group-section-trig-laws">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
@@ -463,7 +449,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-trig-graphs" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
@@ -476,109 +462,128 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-trig-laws"><h2 class="heading hide-type">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="section-trig-laws">
+<h1 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Non-Right Triangles</span>
-</h2>
-<section class="introduction" id="section-trig-laws-2"><div class="para logical" id="section-trig-laws-2-1">
+</h1>
+<section class="introduction" id="section-trig-laws-2">
+<div class="para logical" id="section-trig-laws-2-1">
 <div class="para">This section addresses the following topics.</div>
 <ul class="disc" id="section-trig-laws-2-1-1">
 <li id="section-trig-laws-2-1-1-1">
 <div class="para" id="p-derived-section-trig-laws-2-1-1-1">Read and use mathematical models in a technical document</div>
-<div class="autopermalink" data-description="Item"><a href="#section-trig-laws-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-trig-laws-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="section-trig-laws-2-1-1-2">
 <div class="para" id="p-derived-section-trig-laws-2-1-1-2">Communicate results in mathematical notation and in language appropriate to the technical field</div>
-<div class="autopermalink" data-description="Item"><a href="#section-trig-laws-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-trig-laws-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <div class="para">This section covers the following mathematical concepts.</div>
 <ul class="disc" id="section-trig-laws-2-1-2">
 <li id="section-trig-laws-2-1-2-1">
 <div class="para" id="p-derived-section-trig-laws-2-1-2-1">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</div>
-<div class="autopermalink" data-description="Item"><a href="#section-trig-laws-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-trig-laws-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="section-trig-laws-2-1-2-2">
 <div class="para" id="p-derived-section-trig-laws-2-1-2-2">Analyze non-right triangles (skill)</div>
-<div class="autopermalink" data-description="Item"><a href="#section-trig-laws-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-trig-laws-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#section-trig-laws-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-trig-laws-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="section-trig-laws-2-2">In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.<div class="autopermalink" data-description="Paragraph"><a href="#section-trig-laws-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="section-trig-laws-2-2">In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we learned about relationships between angles of the triangles and their sides. However, most of our work was restricted to right triangles. This section demonstrates how to make similar calculations on non-right triangles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-trig-laws-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="section-trig-laws-2-3">The one relationship that did not require a right angle is the <a href="section-trig-functions.html#theorem-triangle-angle-sum" class="xref" data-knowl="./knowl/xref/theorem-triangle-angle-sum.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.1.1: Triangle Angle Sum">Triangle Angle Sum</a> Theorem.<div class="autopermalink" data-description="Paragraph"><a href="#section-trig-laws-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><section class="subsection" id="subsection-law-sines"><h3 class="heading hide-type">
+<div class="para" id="section-trig-laws-2-3">The one relationship that did not require a right angle is the <a href="section-trig-functions.html#theorem-triangle-angle-sum" class="xref" data-knowl="./knowl/xref/theorem-triangle-angle-sum.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.1.1: Triangle Angle Sum">Triangle Angle Sum</a> Theorem.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-trig-laws-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="subsection-law-sines">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Sines</span>
-</h3>
-<div class="para" id="subsection-law-sines-2">In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-law-sines-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h2>
+<div class="para" id="subsection-law-sines-2">In <a href="section-trig-functions.html" class="internal" title="Section 7.1: Trigonometric Ratios">Section 7.1</a> we saw that there was a relationship between angles of a triangle and the side ratios. More generally there is a relationship between the magnitude of an angle of a triangle and the length of the side opposite it. The following theorem expresses this relationship.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-law-sines-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="theorem theorem-like" id="theorem-law-sines"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Sines.</span>
-</h4>
+<article class="theorem theorem-like" id="theorem-law-sines"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Sines.</span>
+</h3>
 <div class="para logical" id="theorem-law-sines-2">
 <div class="para">For a triangle with angles and sides as labeled in <a href="section-trig-laws.html#figure-triangle-labeled" class="xref" data-knowl="./knowl/xref/figure-triangle-labeled.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.3.2">Figure 7.3.2</a>,</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-triangle-labeled.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-triangle-labeled.html" id="theorem-law-sines-2-2">
 \begin{equation*}
 \frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#theorem-law-sines-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#theorem-law-sines-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 7.3.1: Law of Sines"><a href="#theorem-law-sines" title="Copy heading and permalink for Theorem 7.3.1: Law of Sines" aria-label="Copy heading and permalink for Theorem 7.3.1: Law of Sines">🔗</a></div></article><figure class="figure figure-like" id="figure-triangle-labeled"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
-<img src="external/images/triangle-labeled.svg" role="img" class="contained" alt="Triangle with sides and angles labeled"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-triangle-labeled-2-description"><div class="para" id="figure-triangle-labeled-2-2-1">The angles are labeled A, B, and C. The sides opposite angle A, B, and C are labeled a, b, and c respectively.<div class="autopermalink" data-description="Paragraph"><a href="#figure-triangle-labeled-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div></details>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 7.3.1: Law of Sines"><a tabindex="-1" href="#theorem-law-sines" title="Copy heading and permalink for Theorem 7.3.1: Law of Sines" aria-label="Copy heading and permalink for Theorem 7.3.1: Law of Sines">🔗</a></div>
+</article>
+<figure class="figure figure-like" id="figure-triangle-labeled"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
+<img src="external/images/triangle-labeled.svg" role="img" class="contained" alt="Triangle with sides and angles labeled"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-triangle-labeled-2-description" style="width: 160%; margin-left: -30%;">
+<div class="para" id="figure-triangle-labeled-2-2-1">The angles are labeled A, B, and C. The sides opposite angle A, B, and C are labeled a, b, and c respectively.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-triangle-labeled-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Labeled Triangle<div class="autopermalink" data-description="Figure 7.3.2"><a href="#figure-triangle-labeled" title="Copy heading and permalink for Figure 7.3.2" aria-label="Copy heading and permalink for Figure 7.3.2">🔗</a></div></figcaption></figure><article class="example example-like" id="example-law-sines-simple1"><h4 class="heading">
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Labeled Triangle<div class="autopermalink" aria-hidden="true" data-description="Figure 7.3.2"><a tabindex="-1" href="#figure-triangle-labeled" title="Copy heading and permalink for Figure 7.3.2" aria-label="Copy heading and permalink for Figure 7.3.2">🔗</a></div></figcaption>
+</figure>
+<article class="example example-like" id="example-law-sines-simple1"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
+</h3>
 <div class="introduction" id="example-law-sines-simple1-1">
-<div class="para" id="example-law-sines-simple1-1-1">A triangle has an angle with measure <span class="process-math">\(50^\circ\)</span> which is opposite a side of length 6. The triangle has another angle with measure <span class="process-math">\(45^\circ\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-sines-simple1-1-1">A triangle has an angle with measure <span class="process-math">\(50^\circ\)</span> which is opposite a side of length 6. The triangle has another angle with measure <span class="process-math">\(45^\circ\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-law-sines-simple1-1-2">Rounding in this example is arbitrarily chosen to be two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-sines-simple1-1-2">Rounding in this example is arbitrarily chosen to be two decimal places.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
-<article class="task exercise-like" id="example-law-sines-simple1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="example-law-sines-simple1-2-1">What is the length of the side opposite the <span class="process-math">\(45^\circ\)</span> angle?<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="example-law-sines-simple1-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="example-law-sines-simple1-2-1">What is the length of the side opposite the <span class="process-math">\(45^\circ\)</span> angle?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-law-sines-simple1-2-2">
 <div class="para">Because we know two angles and a side opposite one of them we can use the law of sines.</div>
 <div class="displaymath process-math" id="example-law-sines-simple1-2-2-1">
 \begin{align*}
 \frac{\sin(50^\circ)}{6} \amp = \frac{\sin(45^\circ)}{b}. \amp \amp \text{Set up Law of Sines}\\
-b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \amp \text{ Clear the denominators}\\
+b \sin(50^\circ) \amp = 6 \sin(45^\circ). \amp \amp \text{Clear the denominators}\\
 b \amp = 6 \frac{\sin(45^\circ)}{\sin(50^\circ)}. \amp \amp \text{Divide to solve for }b\\
 \amp \approx 5.54.
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 7.3.3.a"><a href="#example-law-sines-simple1-2" title="Copy heading and permalink for Task 7.3.3.a" aria-label="Copy heading and permalink for Task 7.3.3.a">🔗</a></div></article><article class="task exercise-like" id="example-law-sines-simple1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="example-law-sines-simple1-3-1">What is the third angle and the length of the side opposite it?<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.3.3.a"><a tabindex="-1" href="#example-law-sines-simple1-2" title="Copy heading and permalink for Task 7.3.3.a" aria-label="Copy heading and permalink for Task 7.3.3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="example-law-sines-simple1-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="example-law-sines-simple1-3-1">What is the third angle and the length of the side opposite it?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-law-sines-simple1-3-2">
 <div class="para">We can use the angle sum fact to calculate the third angle. <span class="process-math">\(50^\circ+45^\circ+\alpha=180^\circ\)</span> so <span class="process-math">\(\alpha=85^\circ\text{.}\)</span> As in the previous step we know an angle (50°), the side opposite it (6), and another angle (85°) so we can use the Law of Sines.</div>
 <div class="displaymath process-math" id="example-law-sines-simple1-3-2-5">
 \begin{align*}
 \frac{\sin(50^\circ)}{6} \amp = \frac{\sin(85^\circ)}{c}. \amp \amp \text{Set up the Law of Sines}\\
-c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \amp \text{ Clear the denominators}\\
+c \sin(50^\circ) \amp = 6 \sin(85^\circ). \amp \amp \text{Clear the denominators}\\
 c \amp = 6 \frac{\sin(85^\circ)}{\sin(50^\circ)} \amp \amp \text{Divide to solve for }c\\
 \amp \approx 7.80.
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Task 7.3.3.b"><a href="#example-law-sines-simple1-3" title="Copy heading and permalink for Task 7.3.3.b" aria-label="Copy heading and permalink for Task 7.3.3.b">🔗</a></div></article><div class="conclusion" id="example-law-sines-simple1-4"><div class="para" id="example-law-sines-simple1-4-1">For triangle congruency this was known as Angle-Angle-Side.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
-<div class="autopermalink" data-description="Example 7.3.3"><a href="#example-law-sines-simple1" title="Copy heading and permalink for Example 7.3.3" aria-label="Copy heading and permalink for Example 7.3.3">🔗</a></div></article><article class="example example-like" id="example-law-sines-simple2"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.3.3.b"><a tabindex="-1" href="#example-law-sines-simple1-3" title="Copy heading and permalink for Task 7.3.3.b" aria-label="Copy heading and permalink for Task 7.3.3.b">🔗</a></div>
+</article>
+<div class="conclusion" id="example-law-sines-simple1-4">
+<div class="para" id="example-law-sines-simple1-4-1">If you recall triangle congruency, this was known as Angle-Angle-Side.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 7.3.3"><a tabindex="-1" href="#example-law-sines-simple1" title="Copy heading and permalink for Example 7.3.3" aria-label="Copy heading and permalink for Example 7.3.3">🔗</a></div>
+</article>
+<article class="example example-like" id="example-law-sines-simple2"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-law-sines-simple2-1">A triangle has two angles with measure 40° and 60.20°. The side between these two angles has length 7.66.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h3>
+<div class="para" id="example-law-sines-simple2-1">A triangle has two angles with measure 40° and 60.20°. The side between these two angles has length 7.66.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-law-sines-simple2-2">What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-sines-simple2-2">What is the measure of the other angle, and what are the other side lengths? Everything will be rounded to two decimal places.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-law-sines-simple2-3">The third angle measure is the easiest to calculate, because we can use the angle sum theorem. <span class="process-math">\(40^\circ+60.20^\circ+\alpha=180^\circ\text{.}\)</span> Thus <span class="process-math">\(\alpha = 79.80^\circ\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-sines-simple2-3">The third angle measure is the easiest to calculate, because we can use the angle sum theorem. <span class="process-math">\(40^\circ+60.20^\circ+\alpha=180^\circ\text{.}\)</span> Thus <span class="process-math">\(\alpha = 79.80^\circ\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-law-sines-simple2-4">Now we know an angle (<span class="process-math">\(\alpha\)</span>) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-sines-simple2-4">Now we know an angle (<span class="process-math">\(\alpha\)</span>) and the length of the side opposite it (7.66). This enables us to use the Law of Sines to calculate the other two side lengths.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-law-sines-simple2-5">
 <div class="displaymath process-math" id="example-law-sines-simple2-5-1">
@@ -590,7 +595,7 @@ a &amp; = \frac{7.66\sin(40^\circ)}{\sin(79.80^\circ)} \amp \amp \text{Multiply 
 &amp; \approx 5.00\text{.}
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-law-sines-simple2-6">
 <div class="para">We calculate the third side the same way.</div>
@@ -603,52 +608,74 @@ a &amp; = \frac{7.66\sin(60.20^\circ)}{\sin(79.80^\circ)}\\
 &amp; \approx 6.75\text{.}
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-law-sines-simple2-7">If you recall triangle geometry this was known as Angle-Side-Angle.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-sines-simple2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-sines-simple2-7">For triangle geometry, this was known as Angle-Side-Angle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-sines-simple2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 7.3.4"><a href="#example-law-sines-simple2" title="Copy heading and permalink for Example 7.3.4" aria-label="Copy heading and permalink for Example 7.3.4">🔗</a></div></article><article class="exercise exercise-like" id="exercise-law-sines1"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Example 7.3.4"><a tabindex="-1" href="#example-law-sines-simple2" title="Copy heading and permalink for Example 7.3.4" aria-label="Copy heading and permalink for Example 7.3.4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercise-law-sines1"><h3 class="heading">
 <span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div id="momexercise-law-sines1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-law-sines1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1489519&amp;frame_id=momexercise-law-sines1-1"></iframe></div>
-<div class="autopermalink" data-description="Checkpoint 7.3.5"><a href="#exercise-law-sines1" title="Copy heading and permalink for Checkpoint 7.3.5" aria-label="Copy heading and permalink for Checkpoint 7.3.5">🔗</a></div></article><div class="para" id="subsection-law-sines-8">The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-law-sines-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="figure-angle-opposite-side"><iframe id="figure-angle-opposite-side-2" width="600" height="450" src="figure-angle-opposite-side-2-if.html"></iframe><div class="instructions"><details id="figure-angle-opposite-side-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><div class="solution-like knowl__content">
-<div class="para" id="figure-angle-opposite-side-2-2-1">Use the slider to change the angle. Observe how the length of the side opposite the angle changes length.<div class="autopermalink" data-description="Paragraph"><a href="#figure-angle-opposite-side-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="figure-angle-opposite-side-2-2-2">You can drag the slider or click on it and use the arrow keys.<div class="autopermalink" data-description="Paragraph"><a href="#figure-angle-opposite-side-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Instructions"><a href="#figure-angle-opposite-side-2-2" title="Copy heading and permalink for Instructions" aria-label="Copy heading and permalink for Instructions">🔗</a></div>
-</div></details></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Experiment to Demonstrate the Angle/Opposite Side Relationship<div class="autopermalink" data-description="Figure 7.3.6"><a href="#figure-angle-opposite-side" title="Copy heading and permalink for Figure 7.3.6" aria-label="Copy heading and permalink for Figure 7.3.6">🔗</a></div></figcaption></figure><article class="activity project-like" id="activity-angle-side-relationship"><h4 class="heading">
-<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="introduction" id="activity-angle-side-relationship-1"><div class="para" id="activity-angle-side-relationship-1-1">Use the illustration above to answer the questions below.<div class="autopermalink" data-description="Paragraph"><a href="#activity-angle-side-relationship-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
-<article class="task exercise-like" id="activity-angle-side-relationship-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="activity-angle-side-relationship-2-1">Use the slider to set the angle to about 10°.<div class="autopermalink" data-description="Paragraph"><a href="#activity-angle-side-relationship-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="activity-angle-side-relationship-2-2">What happens to the length of the opposite side as you increase the angle to 170°?<div class="autopermalink" data-description="Paragraph"><a href="#activity-angle-side-relationship-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Task 16.a"><a href="#activity-angle-side-relationship-2" title="Copy heading and permalink for Task 16.a" aria-label="Copy heading and permalink for Task 16.a">🔗</a></div></article><article class="task exercise-like" id="activity-angle-side-relationship-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="activity-angle-side-relationship-3-1">Recall the <a href="section-trig-functions.html#theorem-triangle-angle-sum" class="xref" data-knowl="./knowl/xref/theorem-triangle-angle-sum.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.1.1: Triangle Angle Sum">Triangle Angle Sum</a> relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?<div class="autopermalink" data-description="Paragraph"><a href="#activity-angle-side-relationship-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="activity-angle-side-relationship-3-2">What must be happening to each of the other two angles?<div class="autopermalink" data-description="Paragraph"><a href="#activity-angle-side-relationship-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Task 16.b"><a href="#activity-angle-side-relationship-3" title="Copy heading and permalink for Task 16.b" aria-label="Copy heading and permalink for Task 16.b">🔗</a></div></article><article class="task exercise-like" id="activity-angle-side-relationship-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="activity-angle-side-relationship-4-1">In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step.<div class="autopermalink" data-description="Paragraph"><a href="#activity-angle-side-relationship-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="activity-angle-side-relationship-4-2">Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger/smaller/unrelated to the angle opposite a shorter side.<div class="autopermalink" data-description="Paragraph"><a href="#activity-angle-side-relationship-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Task 16.c"><a href="#activity-angle-side-relationship-4" title="Copy heading and permalink for Task 16.c" aria-label="Copy heading and permalink for Task 16.c">🔗</a></div></article><div class="autopermalink" data-description="Activity 16"><a href="#activity-angle-side-relationship" title="Copy heading and permalink for Activity 16" aria-label="Copy heading and permalink for Activity 16">🔗</a></div></article><div class="autopermalink" data-description="Subsection 7.3.1: Law of Sines"><a href="#subsection-law-sines" title="Copy heading and permalink for Subsection 7.3.1: Law of Sines" aria-label="Copy heading and permalink for Subsection 7.3.1: Law of Sines">🔗</a></div></section><section class="subsection" id="subsection-ass-issue"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ambiguous Triangles</span>
 </h3>
-<div class="para" id="subsection-ass-issue-2">Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-ass-issue-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div id="momexercise-law-sines1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-law-sines1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1489519&amp;frame_id=momexercise-law-sines1-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 7.3.5"><a tabindex="-1" href="#exercise-law-sines1" title="Copy heading and permalink for Checkpoint 7.3.5" aria-label="Copy heading and permalink for Checkpoint 7.3.5">🔗</a></div>
+</article>
+<div class="para" id="subsection-law-sines-8">The following activity demonstrates the relationship between the magnitude of an angle and the length of the side opposite that angle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-law-sines-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="example-angle-side-side"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-angle-side-side-1">A triangle has an angle of measure <span class="process-math">\(45^\circ\)</span> and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?<div class="autopermalink" data-description="Paragraph"><a href="#example-angle-side-side-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<figure class="figure figure-like" id="figure-angle-opposite-side"><div class="interactive-iframe-container"><iframe id="figure-angle-opposite-side-2" style="width:600px; height:450px; display: block; " src="figure-angle-opposite-side-2-if.html"></iframe></div>
+<div class="interactive-iframe-container__opener"><a href="figure-angle-opposite-side-2.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
+<div class="instructions interactive__instructions">
+<details id="figure-angle-opposite-side-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Instructions<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary>
+<div class="solution-like knowl__content">
+<div class="para" id="figure-angle-opposite-side-2-2-1">Use the slider to change the angle. Observe how the length of the side opposite the angle changes length.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-angle-opposite-side-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="figure-angle-opposite-side-2-2-2">You can drag the slider or click on it and use the arrow keys.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#figure-angle-opposite-side-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Instructions"><a tabindex="-1" href="#figure-angle-opposite-side-2-2" title="Copy heading and permalink for Instructions" aria-label="Copy heading and permalink for Instructions">🔗</a></div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Experiment to Demonstrate the Angle/Opposite Side Relationship<div class="autopermalink" aria-hidden="true" data-description="Figure 7.3.6"><a tabindex="-1" href="#figure-angle-opposite-side" title="Copy heading and permalink for Figure 7.3.6" aria-label="Copy heading and permalink for Figure 7.3.6">🔗</a></div></figcaption>
+</figure>
+<article class="activity project-like" id="activity-angle-side-relationship"><h3 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="introduction" id="activity-angle-side-relationship-1">
+<div class="para" id="activity-angle-side-relationship-1-1">Use the illustration above to answer the questions below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activity-angle-side-relationship-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="activity-angle-side-relationship-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="activity-angle-side-relationship-2-1">Use the slider to set the angle to about 10°.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activity-angle-side-relationship-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="activity-angle-side-relationship-2-2">What happens to the length of the opposite side as you increase the angle to 170°?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activity-angle-side-relationship-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.3.7.a"><a tabindex="-1" href="#activity-angle-side-relationship-2" title="Copy heading and permalink for Task 7.3.7.a" aria-label="Copy heading and permalink for Task 7.3.7.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="activity-angle-side-relationship-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="activity-angle-side-relationship-3-1">Recall the <a href="section-trig-functions.html#theorem-triangle-angle-sum" class="xref" data-knowl="./knowl/xref/theorem-triangle-angle-sum.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.1.1: Triangle Angle Sum">Triangle Angle Sum</a> relationship. As the angle at A increases what must be happening to the sum of the measures of the other two angles?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activity-angle-side-relationship-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="activity-angle-side-relationship-3-2">What must be happening to each of the other two angles?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activity-angle-side-relationship-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.3.7.b"><a tabindex="-1" href="#activity-angle-side-relationship-3" title="Copy heading and permalink for Task 7.3.7.b" aria-label="Copy heading and permalink for Task 7.3.7.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="activity-angle-side-relationship-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="activity-angle-side-relationship-4-1">In this illustration the side connecting A and B is remaining the same length. The angle opposite that side is changing as you noted in the previous step.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activity-angle-side-relationship-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="activity-angle-side-relationship-4-2">Combining the results of the previous two steps, what do you think is true about the following. The angle opposite a larger side is bigger/smaller/unrelated to the angle opposite a shorter side.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#activity-angle-side-relationship-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 7.3.7.c"><a tabindex="-1" href="#activity-angle-side-relationship-4" title="Copy heading and permalink for Task 7.3.7.c" aria-label="Copy heading and permalink for Task 7.3.7.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Activity 7.3.7"><a tabindex="-1" href="#activity-angle-side-relationship" title="Copy heading and permalink for Activity 7.3.7" aria-label="Copy heading and permalink for Activity 7.3.7">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 7.3.1: Law of Sines"><a tabindex="-1" href="#subsection-law-sines" title="Copy heading and permalink for Subsection 7.3.1: Law of Sines" aria-label="Copy heading and permalink for Subsection 7.3.1: Law of Sines">🔗</a></div>
+</section>
+<section class="subsection" id="subsection-ass-issue">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ambiguous Triangles</span>
+</h2>
+<div class="para" id="subsection-ass-issue-2">Above we calculated angles and side lengths given partial information about a triangle (two angles and a side). This section presents a case (two sides and an angle) that we cannot resolve without additional information.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-ass-issue-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="example-angle-side-side"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="example-angle-side-side-1">A triangle has an angle of measure <span class="process-math">\(45^\circ\)</span> and the side opposite it is length 4. Another side has length 5. What are the other angles and side lengths?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-angle-side-side-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-angle-side-side-2">
 <div class="para">We can try to use the Law of Sines.</div>
@@ -670,7 +697,7 @@ c \amp \approx 5.41.
 \end{align*}
 </div>
 <div class="para">This gives us a triangle with angles: 45°, 62.11°, and 72.89°; and with side lengths: 4, 5, and 5.41.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-angle-side-side-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-angle-side-side-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-angle-side-side-3">
 <div class="para">However, <span class="process-math">\(\sin(117.89^\circ)=\sin(62.11^\circ)\text{,}\)</span> that is, <span class="process-math">\(\arcsin\left( \frac{5}{4}\sin(45^\circ) \right)\)</span> had multiple possible angles. We will repeat the calulcations above using <span class="process-math">\(117.89^\circ\)</span> as the second angle. The third angle is <span class="process-math">\(45^\circ+117.89^\circ+\alpha = 180^\circ\)</span> or <span class="process-math">\(\alpha \approx 17.11^\circ\text{.}\)</span>
@@ -683,40 +710,52 @@ c \amp = 4 \frac{\sin(17.11^\circ)}{\sin(45^\circ)}.\\
 c \amp \approx 1.66.
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-angle-side-side-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-angle-side-side-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-angle-side-side-4">Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <a href="section-trig-laws.html#figure-ass-two-cases" class="xref" data-knowl="./knowl/xref/figure-ass-two-cases.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.3.8">Figure 7.3.8</a>. This indicates an ambiguity if what we know is this particular information.<div class="autopermalink" data-description="Paragraph"><a href="#example-angle-side-side-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-angle-side-side-4">Notice we have two, distinct triangles that match the initial angle and side information. They can be seen in <a href="section-trig-laws.html#figure-ass-two-cases" class="xref" data-knowl="./knowl/xref/figure-ass-two-cases.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.3.9">Figure 7.3.9</a>. This indicates an ambiguity if all we know is this particular information.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-angle-side-side-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-angle-side-side-5">If you recall previous geometry this was the case Side-Side-Angle which does not prove congruent triangles.<div class="autopermalink" data-description="Paragraph"><a href="#example-angle-side-side-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-angle-side-side-5">If you recall triangle geometry, this was the case Side-Side-Angle which does not prove congruent triangles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-angle-side-side-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 7.3.7"><a href="#example-angle-side-side" title="Copy heading and permalink for Example 7.3.7" aria-label="Copy heading and permalink for Example 7.3.7">🔗</a></div></article><figure class="figure figure-like" id="figure-ass-two-cases"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
-<div class="sbspanel sbspanel--top top" style=""><img src="external/images/ASS_triangle1.svg" role="img" class="contained" alt="Acute triangle from above with side lengths 4, 5, and 5.41"></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/images/ASS_triangle2.svg" role="img" class="contained" alt="Obtuse triangle from above with side lengths 4, 5, and 1.66"></div>
-</div></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Two Possible Triangles<div class="autopermalink" data-description="Figure 7.3.8"><a href="#figure-ass-two-cases" title="Copy heading and permalink for Figure 7.3.8" aria-label="Copy heading and permalink for Figure 7.3.8">🔗</a></div></figcaption></figure><div class="para" id="subsection-ass-issue-5">When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-ass-issue-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 7.3.8"><a tabindex="-1" href="#example-angle-side-side" title="Copy heading and permalink for Example 7.3.8" aria-label="Copy heading and permalink for Example 7.3.8">🔗</a></div>
+</article>
+<figure class="figure figure-like" id="figure-ass-two-cases">
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="external/images/ASS_triangle1.svg" role="img" class="contained" alt="Acute triangle from above with side lengths 4, 5, and 5.41"></div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="image-box"><img src="external/images/ASS_triangle2.svg" role="img" class="contained" alt="Obtuse triangle from above with side lengths 4, 5, and 1.66"></div></div>
 </div>
-<div class="autopermalink" data-description="Subsection 7.3.2: Ambiguous Triangles"><a href="#subsection-ass-issue" title="Copy heading and permalink for Subsection 7.3.2: Ambiguous Triangles" aria-label="Copy heading and permalink for Subsection 7.3.2: Ambiguous Triangles">🔗</a></div></section><section class="subsection" id="subsection-law-cosines"><h3 class="heading hide-type">
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Two Possible Triangles<div class="autopermalink" aria-hidden="true" data-description="Figure 7.3.9"><a tabindex="-1" href="#figure-ass-two-cases" title="Copy heading and permalink for Figure 7.3.9" aria-label="Copy heading and permalink for Figure 7.3.9">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="subsection-ass-issue-5">When using the Law of Sines we will need to restrict ourselves to the two cases for which it works: Angle-Angle-Side and Angle-Side-Angle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-ass-issue-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection 7.3.2: Ambiguous Triangles"><a tabindex="-1" href="#subsection-ass-issue" title="Copy heading and permalink for Subsection 7.3.2: Ambiguous Triangles" aria-label="Copy heading and permalink for Subsection 7.3.2: Ambiguous Triangles">🔗</a></div>
+</section>
+<section class="subsection" id="subsection-law-cosines">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Cosines</span>
-</h3>
-<div class="para" id="subsection-law-cosines-2">For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-law-cosines-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h2>
+<div class="para" id="subsection-law-cosines-2">For right triangles we know the Pythagorean theorem is a relationship between the sides of those triangles. For triangles without a right angle that relationship must be slightly modified. The more general statement is below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-law-cosines-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="theorem theorem-like" id="theorem-law-cosines"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Cosines.</span>
-</h4>
+<article class="theorem theorem-like" id="theorem-law-cosines"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.10</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Cosines.</span>
+</h3>
 <div class="para logical" id="theorem-law-cosines-2-1">
 <div class="para">For any triangle with side lengths <span class="process-math">\(a,b,c\)</span> and angle <span class="process-math">\(C\)</span> which is opposite the side with length <span class="process-math">\(c\)</span>
 </div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="theorem-law-cosines-2-1-4">
 \begin{equation*}
 c^2 = a^2+b^2-2ab\cos(C)\text{.}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#theorem-law-cosines-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#theorem-law-cosines-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 7.3.9: Law of Cosines"><a href="#theorem-law-cosines" title="Copy heading and permalink for Theorem 7.3.9: Law of Cosines" aria-label="Copy heading and permalink for Theorem 7.3.9: Law of Cosines">🔗</a></div></article><article class="example example-like" id="example-law-cosines-sss"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-law-cosines-sss-1">A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the  angles?<div class="autopermalink" data-description="Paragraph"><a href="#example-law-cosines-sss-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Theorem 7.3.10: Law of Cosines"><a tabindex="-1" href="#theorem-law-cosines" title="Copy heading and permalink for Theorem 7.3.10: Law of Cosines" aria-label="Copy heading and permalink for Theorem 7.3.10: Law of Cosines">🔗</a></div>
+</article>
+<article class="example example-like" id="example-law-cosines-sss"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="example-law-cosines-sss-1">A triangle has sides of lengths 4.00, 5.39, and 6.13. What are the  angles?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-cosines-sss-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-law-cosines-sss-2">
 <div class="para">We can use the Law of Cosines.</div>
@@ -746,14 +785,16 @@ c^2 = a^2+b^2-2ab\cos(C)\text{.}
 </div>
 <div class="para">Knowing two of the angles we can use the triangle angle sum theorem to calculate the third angle measure. <span class="process-math">\(40.0^\circ+60.0^\circ+C=180^\circ\)</span> so <span class="process-math">\(C = 80.0^\circ\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-law-cosines-sss-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-cosines-sss-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-law-cosines-sss-3">For triangle congruency this was known as Side-Side-Side.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-cosines-sss-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-cosines-sss-3">For triangle congruency, this was known as Side-Side-Side.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-cosines-sss-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 7.3.10"><a href="#example-law-cosines-sss" title="Copy heading and permalink for Example 7.3.10" aria-label="Copy heading and permalink for Example 7.3.10">🔗</a></div></article><article class="example example-like" id="example-law-cosine-sas"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-law-cosine-sas-1">A triangle has sides with lengths 5 and 7 and the angle between them is 40°. What are the length of the other side and the measures of the other angles?<div class="autopermalink" data-description="Paragraph"><a href="#example-law-cosine-sas-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 7.3.11"><a tabindex="-1" href="#example-law-cosines-sss" title="Copy heading and permalink for Example 7.3.11" aria-label="Copy heading and permalink for Example 7.3.11">🔗</a></div>
+</article>
+<article class="example example-like" id="example-law-cosine-sas"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="example-law-cosine-sas-1">A triangle has sides with lengths 5 and 7 and the angle between them is 40°. What are the length of the other side and the measures of the other angles?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-cosine-sas-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-law-cosine-sas-2">
 <div class="para">Because we have two sides (<span class="process-math">\(a,b\)</span>) and the angle between them (<span class="process-math">\(C\)</span>) we can use the Law of Cosines.</div>
@@ -778,30 +819,36 @@ c \amp \approx 4.514076761\\
 </div>
 <div class="para">Finally we can use the triangle angle sum theorem to calculate the final angle. <span class="process-math">\(40^\circ+45.4^\circ+B = 180^\circ\)</span> so <span class="process-math">\(B=94.6^\circ\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-law-cosine-sas-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-cosine-sas-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-law-cosine-sas-3">For triangle congruency this was known as Side-Angle-Side.<div class="autopermalink" data-description="Paragraph"><a href="#example-law-cosine-sas-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-law-cosine-sas-3">For triangle congruency this was known as Side-Angle-Side.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-law-cosine-sas-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 7.3.11"><a href="#example-law-cosine-sas" title="Copy heading and permalink for Example 7.3.11" aria-label="Copy heading and permalink for Example 7.3.11">🔗</a></div></article><article class="exercise exercise-like" id="exercise-law-cosines1"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div id="momexercise-law-cosines1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-law-cosines1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1489664&amp;frame_id=momexercise-law-cosines1-1"></iframe></div>
-<div class="autopermalink" data-description="Checkpoint 7.3.12"><a href="#exercise-law-cosines1" title="Copy heading and permalink for Checkpoint 7.3.12" aria-label="Copy heading and permalink for Checkpoint 7.3.12">🔗</a></div></article><div class="autopermalink" data-description="Subsection 7.3.3: Law of Cosines"><a href="#subsection-law-cosines" title="Copy heading and permalink for Subsection 7.3.3: Law of Cosines" aria-label="Copy heading and permalink for Subsection 7.3.3: Law of Cosines">🔗</a></div></section><section class="subsection" id="subsection-trig-law-applications"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Using Trigonometric Laws in Applications</span>
+<div class="autopermalink" aria-hidden="true" data-description="Example 7.3.12"><a tabindex="-1" href="#example-law-cosine-sas" title="Copy heading and permalink for Example 7.3.12" aria-label="Copy heading and permalink for Example 7.3.12">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercise-law-cosines1"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="subsection-trig-law-applications-2">When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-trig-law-applications-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div id="momexercise-law-cosines1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-law-cosines1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1489664&amp;frame_id=momexercise-law-cosines1-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 7.3.13"><a tabindex="-1" href="#exercise-law-cosines1" title="Copy heading and permalink for Checkpoint 7.3.13" aria-label="Copy heading and permalink for Checkpoint 7.3.13">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 7.3.3: Law of Cosines"><a tabindex="-1" href="#subsection-law-cosines" title="Copy heading and permalink for Subsection 7.3.3: Law of Cosines" aria-label="Copy heading and permalink for Subsection 7.3.3: Law of Cosines">🔗</a></div>
+</section>
+<section class="subsection" id="subsection-trig-law-applications">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Using Trigonometric Laws in Applications</span>
+</h2>
+<div class="para" id="subsection-trig-law-applications-2">When we encounter non-right triangles in applications, we will need to check if we have the information needed to use the Law of Sines or the Law of Cosines.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-trig-law-applications-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="example-flight-distance"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-flight-distance-1">A sailboat sails 3341 ft at heading 300° then turns to heading 245° and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.<div class="autopermalink" data-description="Paragraph"><a href="#example-flight-distance-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="example example-like" id="example-flight-distance"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="example-flight-distance-1">A sailboat sails 3341 ft at heading 300° then turns to heading 245° and sails 4051 ft. How far is the sailbot from its starting position? Round to units, because fractions of a foot are not meaningful in the motion of a vehicle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-flight-distance-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-flight-distance-2">First, it helps to sketch an image.<div class="autopermalink" data-description="Paragraph"><a href="#example-flight-distance-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-flight-distance-2">First, it helps to sketch an image.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-flight-distance-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/images/sailboat-course.svg" role="img" class="contained" alt="Triangle representing the route of this sailboat"></div>
-<div class="para" id="example-flight-distance-4">In our sketch we see a non-right triangle. We know the lengths of two sides, and we want the length of the third side (distance from original location). From the headings we can calculate the angle between the two sides of known length. This provides side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of third side).<div class="autopermalink" data-description="Paragraph"><a href="#example-flight-distance-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-flight-distance-4">In our sketch we see a non-right triangle. We know the lengths of two sides, and we want the length of the third side (distance from original location). From the headings we can calculate the angle between the two sides of known length. This provides side-angle-side which allows us to use the Law of Cosines to calculate the desired distance (length of third side).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-flight-distance-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-flight-distance-5">We are given the headings for two segments but not an angle. The angle representing the amount of the turn is the change in headings. If we were at 300° and ended up at 245° then we turned left <span class="process-math">\(300^\circ-245^\circ = 55^\circ\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-flight-distance-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-flight-distance-5">We are given the headings for two segments but not an angle. The angle representing the amount of the turn is the change in headings. If we were at 300° and ended up at 245° then we turned left <span class="process-math">\(300^\circ-245^\circ = 55^\circ\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-flight-distance-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-flight-distance-6">
 <div class="para">Now we can apply the Law of Cosines.</div>
@@ -817,33 +864,37 @@ c &amp; \approx \sqrt{12046866.49}\\
 \end{align*}
 </div>
 <div class="para">Thus the sailboat ended up 3471 ft from its starting point.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-flight-distance-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-flight-distance-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 7.3.13"><a href="#example-flight-distance" title="Copy heading and permalink for Example 7.3.13" aria-label="Copy heading and permalink for Example 7.3.13">🔗</a></div></article><article class="example example-like" id="example-object-height"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-object-height-1">Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00° from horizontal. The observer at point B recorded an angle of 34.20° from horizontal. How high above ground was the aircraft?<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 7.3.14"><a tabindex="-1" href="#example-flight-distance" title="Copy heading and permalink for Example 7.3.14" aria-label="Copy heading and permalink for Example 7.3.14">🔗</a></div>
+</article>
+<article class="example example-like" id="example-object-height"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="example-object-height-1">Two observers are 2.3 miles apart on the ground at the same altitude. At the same time they record the angle at which they saw an aircraft pass. The observer at point A recorded an angle of 8.00° from horizontal. The observer at point B recorded an angle of 34.20° from horizontal. How high above ground was the aircraft?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-object-height-2">First, it helps to sketch an image.<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-object-height-2">First, it helps to sketch an image.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;">
-<img src="external/images/aircraft-height.svg" role="img" class="contained" alt="Diagram showing relative position of two observers and an airplane"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="example-object-height-3-description"><div class="para" id="example-object-height-3-2-1">A line connects observer A to the airplane. The angle of inclination is labeled as 8.00°. To the right a line connects observer B to the airplane. The angle of inclination is labeled 34.20°. The distance between them is labeled 2.3 miles. To the right of B is a point directly below the airplane labeled C. A dashed line connects it to the airplane and is labeled h.<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div></details>
+<img src="external/images/aircraft-height.svg" role="img" class="contained" alt="Diagram showing relative position of two observers and an airplane"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="example-object-height-3-description" style="width: 106.67%; margin-left: -3.33%;">
+<div class="para" id="example-object-height-3-2-1">A line connects observer A to the airplane. The angle of inclination is labeled as 8.00°. To the right a line connects observer B to the airplane. The angle of inclination is labeled 34.20°. The distance between them is labeled 2.3 miles. To the right of B is a point directly below the airplane labeled C. A dashed line connects it to the airplane and is labeled h.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-object-height-4">How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></details>
 </div>
-<div class="para" id="example-object-height-5">In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle with vertices B, C, and the airplane. Initially we know only the bottom angles (34.20° and the right angle) and none of the lengths. If we can calculate the length of the side from B to the airplane (on the left), then we could use the angles and that side length with the Law of Sines to calculate the height.<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-object-height-4">How do we know that the larger angle is closer to the aircraft? If we think about an aircraft flying toward us, we realize that our head tips up (bigger angle) as it becomes closer. Thus the closer observer will have the larger angle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="example-object-height-5">In our sketch we see multiple triangles including some right triangles. We want to calculate the height of the aircraft above ground which is part of the small, right triangle with vertices B, C, and the airplane. Initially we know only the bottom angles (34.20° and the right angle) and none of the lengths. If we can calculate the length of the side from B to the airplane (on the left), then we could use the angles and that side length with the Law of Sines to calculate the height.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-object-height-6">
 <div class="para">That left side is also part of a non-right triangle with vertices at points A, B, and the aircraft. The side from A to B has length 2.9 mi, and we know the angles on either side. This means we have angle-side-angle information, so we can apply the Law of Sines to calculate the length of the hypotenuse we need. In particular</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="example-object-height-6-1">
 \begin{equation*}
 \frac{\sin(P)}{2.3}=\frac{\sin(8.00^\circ)}{c}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-object-height-7">To calculate the angle at the plane (labeled <span class="process-math">\(P\)</span> above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is <span class="process-math">\(180^\circ-34.20^\circ = 145.80^\circ = B\text{.}\)</span> Now, b <span class="process-math">\(8.00^\circ+145.80^\circ+P = 180^\circ\)</span> So, the angle at the aircraft is <span class="process-math">\(P = 26.20^\circ\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-object-height-7">To calculate the angle at the plane (labeled <span class="process-math">\(P\)</span> above) we will need to use the Triangle Angle Sum theorem. However, the angle we are given is the other side of the non-right triangle. The angle we need now is on the other side of that line, so its measure is <span class="process-math">\(180^\circ-34.20^\circ = 145.80^\circ = B\text{.}\)</span> Now, b <span class="process-math">\(8.00^\circ+145.80^\circ+P = 180^\circ\)</span> So, the angle at the aircraft is <span class="process-math">\(P = 26.20^\circ\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-object-height-8">
 <div class="para">Now we can apply the Law of Sines.</div>
@@ -856,7 +907,7 @@ c &amp; = \frac{(2.3 \text{ mi})\sin(8.00^\circ)}{\sin(26.20^\circ)}\\
 &amp; \approx 0.73 \text{ mi}\text{.}
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-object-height-9">
 <div class="para">We now know the length of the hypotenuse of the right triangle whose leg is the desired aircraft altitude. This gives us angle-angle-side (first angle is the right angle). This means we can use the Law of Sines to calculate the height.</div>
@@ -870,77 +921,122 @@ h &amp; = \frac{(0.7\underline{2}501447 \text{ mi})\sin(34.20^\circ)}{\sin(90^\c
 \end{align*}
 </div>
 <div class="para">This is in miles. It will be easier to interpret in feet. The conversion ratio in <a href="section-units.html#table-customary-convert" class="xref" data-knowl="./knowl/xref/table-customary-convert.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.1.2: Converting within U.S. Customary">Table 1.1.2</a> suggests we can multiply</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/table-customary-convert.html" id="example-object-height-9-3">
 \begin{equation*}
 (0.4\underline{0}751862 \text{ mi}) \cdot \frac{5280 \text{ ft}}{1 \text{ mi}} \approx 2\underline{1}51.6983 \text{ ft} \approx 2200 \text{ ft}\text{.}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-object-height-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-object-height-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 7.3.14"><a href="#example-object-height" title="Copy heading and permalink for Example 7.3.14" aria-label="Copy heading and permalink for Example 7.3.14">🔗</a></div></article><div class="autopermalink" data-description="Subsection 7.3.4: Using Trigonometric Laws in Applications"><a href="#subsection-trig-law-applications" title="Copy heading and permalink for Subsection 7.3.4: Using Trigonometric Laws in Applications" aria-label="Copy heading and permalink for Subsection 7.3.4: Using Trigonometric Laws in Applications">🔗</a></div></section><section class="exercises" id="section-trig-laws-7"><h3 class="heading hide-type">
+<div class="autopermalink" aria-hidden="true" data-description="Example 7.3.15"><a tabindex="-1" href="#example-object-height" title="Copy heading and permalink for Example 7.3.15" aria-label="Copy heading and permalink for Example 7.3.15">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 7.3.4: Using Trigonometric Laws in Applications"><a tabindex="-1" href="#subsection-trig-law-applications" title="Copy heading and permalink for Subsection 7.3.4: Using Trigonometric Laws in Applications" aria-label="Copy heading and permalink for Subsection 7.3.4: Using Trigonometric Laws in Applications">🔗</a></div>
+</section>
+<section class="exercises" id="section-trig-laws-7">
+<h2 class="heading hide-type">
 <span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
-</h3>
+</h2>
 <div class="exercisegroup" id="section-trig-laws-7-1">
-<h4 class="heading"><span class="title">Solving Triangles.</span></h4>
-<div class="introduction" id="section-trig-laws-7-1-2"><div class="para" id="section-trig-laws-7-1-2-1">Use the trigonometric laws to calculate side lengths and angles.<div class="autopermalink" data-description="Paragraph"><a href="#section-trig-laws-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
-<div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-trig-laws-7-1-3"><h5 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835745&amp;frame_id=momsection-trig-laws-7-1-3-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.1"><a href="#section-trig-laws-7-1-3" title="Copy heading and permalink for Exercise 7.3.5.1" aria-label="Copy heading and permalink for Exercise 7.3.5.1">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-1-4"><h5 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835746&amp;frame_id=momsection-trig-laws-7-1-4-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.2"><a href="#section-trig-laws-7-1-4" title="Copy heading and permalink for Exercise 7.3.5.2" aria-label="Copy heading and permalink for Exercise 7.3.5.2">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-1-5"><h5 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-1-5-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.3"><a href="#section-trig-laws-7-1-5" title="Copy heading and permalink for Exercise 7.3.5.3" aria-label="Copy heading and permalink for Exercise 7.3.5.3">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-1-6"><h5 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-1-6-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.4"><a href="#section-trig-laws-7-1-6" title="Copy heading and permalink for Exercise 7.3.5.4" aria-label="Copy heading and permalink for Exercise 7.3.5.4">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-1-7"><h5 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-1-7-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.5"><a href="#section-trig-laws-7-1-7" title="Copy heading and permalink for Exercise 7.3.5.5" aria-label="Copy heading and permalink for Exercise 7.3.5.5">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-1-8"><h5 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4413&amp;frame_id=momsection-trig-laws-7-1-8-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.6"><a href="#section-trig-laws-7-1-8" title="Copy heading and permalink for Exercise 7.3.5.6" aria-label="Copy heading and permalink for Exercise 7.3.5.6">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-1-9"><h5 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835751&amp;frame_id=momsection-trig-laws-7-1-9-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.7"><a href="#section-trig-laws-7-1-9" title="Copy heading and permalink for Exercise 7.3.5.7" aria-label="Copy heading and permalink for Exercise 7.3.5.7">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-1-10"><h5 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div id="momsection-trig-laws-7-1-10-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-10-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1059257&amp;frame_id=momsection-trig-laws-7-1-10-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.8"><a href="#section-trig-laws-7-1-10" title="Copy heading and permalink for Exercise 7.3.5.8" aria-label="Copy heading and permalink for Exercise 7.3.5.8">🔗</a></div></article>
+<h3 class="heading"><span class="title">Solving Triangles.</span></h3>
+<div class="introduction" id="section-trig-laws-7-1-2">
+<div class="para" id="section-trig-laws-7-1-2-1">Use the trigonometric laws to calculate side lengths and angles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-trig-laws-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Exercise Group 7.3.5.1–8: Solving Triangles"><a href="#section-trig-laws-7-1" title="Copy heading and permalink for Exercise Group 7.3.5.1–8: Solving Triangles" aria-label="Copy heading and permalink for Exercise Group 7.3.5.1–8: Solving Triangles">🔗</a></div>
+</div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="section-trig-laws-7-1-3"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835745&amp;frame_id=momsection-trig-laws-7-1-3-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.1"><a tabindex="-1" href="#section-trig-laws-7-1-3" title="Copy heading and permalink for Exercise 7.3.5.1" aria-label="Copy heading and permalink for Exercise 7.3.5.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-1-4"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835746&amp;frame_id=momsection-trig-laws-7-1-4-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.2"><a tabindex="-1" href="#section-trig-laws-7-1-4" title="Copy heading and permalink for Exercise 7.3.5.2" aria-label="Copy heading and permalink for Exercise 7.3.5.2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-1-5"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-1-5-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.3"><a tabindex="-1" href="#section-trig-laws-7-1-5" title="Copy heading and permalink for Exercise 7.3.5.3" aria-label="Copy heading and permalink for Exercise 7.3.5.3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-1-6"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-1-6-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.4"><a tabindex="-1" href="#section-trig-laws-7-1-6" title="Copy heading and permalink for Exercise 7.3.5.4" aria-label="Copy heading and permalink for Exercise 7.3.5.4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-1-7"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835748&amp;frame_id=momsection-trig-laws-7-1-7-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.5"><a tabindex="-1" href="#section-trig-laws-7-1-7" title="Copy heading and permalink for Exercise 7.3.5.5" aria-label="Copy heading and permalink for Exercise 7.3.5.5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-1-8"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4413&amp;frame_id=momsection-trig-laws-7-1-8-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.6"><a tabindex="-1" href="#section-trig-laws-7-1-8" title="Copy heading and permalink for Exercise 7.3.5.6" aria-label="Copy heading and permalink for Exercise 7.3.5.6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-1-9"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835751&amp;frame_id=momsection-trig-laws-7-1-9-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.7"><a tabindex="-1" href="#section-trig-laws-7-1-9" title="Copy heading and permalink for Exercise 7.3.5.7" aria-label="Copy heading and permalink for Exercise 7.3.5.7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-1-10"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="momsection-trig-laws-7-1-10-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-1-10-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1059257&amp;frame_id=momsection-trig-laws-7-1-10-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.8"><a tabindex="-1" href="#section-trig-laws-7-1-10" title="Copy heading and permalink for Exercise 7.3.5.8" aria-label="Copy heading and permalink for Exercise 7.3.5.8">🔗</a></div>
+</article>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise Group 7.3.5.1–8: Solving Triangles"><a tabindex="-1" href="#section-trig-laws-7-1" title="Copy heading and permalink for Exercise Group 7.3.5.1–8: Solving Triangles" aria-label="Copy heading and permalink for Exercise Group 7.3.5.1–8: Solving Triangles">🔗</a></div>
 </div>
 <div class="exercisegroup" id="section-trig-laws-7-2">
-<h4 class="heading"><span class="title">Applications.</span></h4>
-<div class="introduction" id="section-trig-laws-7-2-2"><div class="para" id="section-trig-laws-7-2-2-1">Identify triangles in these applications and use trigonometric laws to answer these questions.<div class="autopermalink" data-description="Paragraph"><a href="#section-trig-laws-7-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
+<h3 class="heading"><span class="title">Applications.</span></h3>
+<div class="introduction" id="section-trig-laws-7-2-2">
+<div class="para" id="section-trig-laws-7-2-2-1">Identify triangles in these applications and use trigonometric laws to answer these questions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-trig-laws-7-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="section-trig-laws-7-2-3"><h5 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-3"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8477&amp;frame_id=momsection-trig-laws-7-2-3-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.9"><a href="#section-trig-laws-7-2-3" title="Copy heading and permalink for Exercise 7.3.5.9" aria-label="Copy heading and permalink for Exercise 7.3.5.9">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-4"><h5 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.9"><a tabindex="-1" href="#section-trig-laws-7-2-3" title="Copy heading and permalink for Exercise 7.3.5.9" aria-label="Copy heading and permalink for Exercise 7.3.5.9">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-4"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8478&amp;frame_id=momsection-trig-laws-7-2-4-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.10"><a href="#section-trig-laws-7-2-4" title="Copy heading and permalink for Exercise 7.3.5.10" aria-label="Copy heading and permalink for Exercise 7.3.5.10">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-5"><h5 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.10"><a tabindex="-1" href="#section-trig-laws-7-2-4" title="Copy heading and permalink for Exercise 7.3.5.10" aria-label="Copy heading and permalink for Exercise 7.3.5.10">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-5"><h4 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=8479&amp;frame_id=momsection-trig-laws-7-2-5-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.11"><a href="#section-trig-laws-7-2-5" title="Copy heading and permalink for Exercise 7.3.5.11" aria-label="Copy heading and permalink for Exercise 7.3.5.11">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-6"><h5 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.11"><a tabindex="-1" href="#section-trig-laws-7-2-5" title="Copy heading and permalink for Exercise 7.3.5.11" aria-label="Copy heading and permalink for Exercise 7.3.5.11">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-6"><h4 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=14432&amp;frame_id=momsection-trig-laws-7-2-6-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.12"><a href="#section-trig-laws-7-2-6" title="Copy heading and permalink for Exercise 7.3.5.12" aria-label="Copy heading and permalink for Exercise 7.3.5.12">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-7"><h5 class="heading"><span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.12"><a tabindex="-1" href="#section-trig-laws-7-2-6" title="Copy heading and permalink for Exercise 7.3.5.12" aria-label="Copy heading and permalink for Exercise 7.3.5.12">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-7"><h4 class="heading"><span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4323&amp;frame_id=momsection-trig-laws-7-2-7-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.13"><a href="#section-trig-laws-7-2-7" title="Copy heading and permalink for Exercise 7.3.5.13" aria-label="Copy heading and permalink for Exercise 7.3.5.13">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-8"><h5 class="heading"><span class="codenumber">14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.13"><a tabindex="-1" href="#section-trig-laws-7-2-7" title="Copy heading and permalink for Exercise 7.3.5.13" aria-label="Copy heading and permalink for Exercise 7.3.5.13">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-8"><h4 class="heading"><span class="codenumber">14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4324&amp;frame_id=momsection-trig-laws-7-2-8-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.14"><a href="#section-trig-laws-7-2-8" title="Copy heading and permalink for Exercise 7.3.5.14" aria-label="Copy heading and permalink for Exercise 7.3.5.14">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-9"><h5 class="heading"><span class="codenumber">15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.14"><a tabindex="-1" href="#section-trig-laws-7-2-8" title="Copy heading and permalink for Exercise 7.3.5.14" aria-label="Copy heading and permalink for Exercise 7.3.5.14">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-9"><h4 class="heading"><span class="codenumber">15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4424&amp;frame_id=momsection-trig-laws-7-2-9-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.15"><a href="#section-trig-laws-7-2-9" title="Copy heading and permalink for Exercise 7.3.5.15" aria-label="Copy heading and permalink for Exercise 7.3.5.15">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-10"><h5 class="heading"><span class="codenumber">16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.15"><a tabindex="-1" href="#section-trig-laws-7-2-9" title="Copy heading and permalink for Exercise 7.3.5.15" aria-label="Copy heading and permalink for Exercise 7.3.5.15">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-10"><h4 class="heading"><span class="codenumber">16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-10-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-10-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=840203&amp;frame_id=momsection-trig-laws-7-2-10-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.16"><a href="#section-trig-laws-7-2-10" title="Copy heading and permalink for Exercise 7.3.5.16" aria-label="Copy heading and permalink for Exercise 7.3.5.16">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-11"><h5 class="heading"><span class="codenumber">17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.16"><a tabindex="-1" href="#section-trig-laws-7-2-10" title="Copy heading and permalink for Exercise 7.3.5.16" aria-label="Copy heading and permalink for Exercise 7.3.5.16">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-11"><h4 class="heading"><span class="codenumber">17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-11-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-11-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=835757&amp;frame_id=momsection-trig-laws-7-2-11-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.17"><a href="#section-trig-laws-7-2-11" title="Copy heading and permalink for Exercise 7.3.5.17" aria-label="Copy heading and permalink for Exercise 7.3.5.17">🔗</a></div></article><article class="exercise exercise-like" id="section-trig-laws-7-2-12"><h5 class="heading"><span class="codenumber">18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.17"><a tabindex="-1" href="#section-trig-laws-7-2-11" title="Copy heading and permalink for Exercise 7.3.5.17" aria-label="Copy heading and permalink for Exercise 7.3.5.17">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-trig-laws-7-2-12"><h4 class="heading"><span class="codenumber">18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div id="momsection-trig-laws-7-2-12-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-trig-laws-7-2-12-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=4430&amp;frame_id=momsection-trig-laws-7-2-12-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 7.3.5.18"><a href="#section-trig-laws-7-2-12" title="Copy heading and permalink for Exercise 7.3.5.18" aria-label="Copy heading and permalink for Exercise 7.3.5.18">🔗</a></div></article>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 7.3.5.18"><a tabindex="-1" href="#section-trig-laws-7-2-12" title="Copy heading and permalink for Exercise 7.3.5.18" aria-label="Copy heading and permalink for Exercise 7.3.5.18">🔗</a></div>
+</article>
 </div>
-<div class="autopermalink" data-description="Exercise Group 7.3.5.9–18: Applications"><a href="#section-trig-laws-7-2" title="Copy heading and permalink for Exercise Group 7.3.5.9–18: Applications" aria-label="Copy heading and permalink for Exercise Group 7.3.5.9–18: Applications">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise Group 7.3.5.9–18: Applications"><a tabindex="-1" href="#section-trig-laws-7-2" title="Copy heading and permalink for Exercise Group 7.3.5.9–18: Applications" aria-label="Copy heading and permalink for Exercise Group 7.3.5.9–18: Applications">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Exercises 7.3.5"><a href="#section-trig-laws-7" title="Copy heading and permalink for Exercises 7.3.5" aria-label="Copy heading and permalink for Exercises 7.3.5">🔗</a></div></section><div class="autopermalink" data-description="Section 7.3: Non-Right Triangles"><a href="#section-trig-laws" title="Copy heading and permalink for Section 7.3: Non-Right Triangles" aria-label="Copy heading and permalink for Section 7.3: Non-Right Triangles">🔗</a></div></section></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercises 7.3.5"><a tabindex="-1" href="#section-trig-laws-7" title="Copy heading and permalink for Exercises 7.3.5" aria-label="Copy heading and permalink for Exercises 7.3.5">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 7.3: Non-Right Triangles"><a tabindex="-1" href="#section-trig-laws" title="Copy heading and permalink for Section 7.3: Non-Right Triangles" aria-label="Copy heading and permalink for Section 7.3: Non-Right Triangles">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="section-inverse-trig.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-trig-graphs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" alt="Runestone Academy logo" src="data:image/png;base64,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"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" alt="MathJax logo" src="data:image/png;base64,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"></a>
 </div>
 </body>
 </html>

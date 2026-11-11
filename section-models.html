@@ -17,71 +17,31 @@
 <title>Working with Applications</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js/lib"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<style>
+@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta name="twitter:image" content="https://mafitch.github.io/tech_math/external/images/UAA_GG.png">
 <meta property="og:image" content="https://mafitch.github.io/tech_math/external/images/UAA_GG.png">
+<meta name="twitter:image:alt" content="Document Logo">
+<meta property="og:image:alt" content="Document Logo">
+<meta name="twitter:title" content="Mathematics in Trades and Life">
+<meta property="og:title" content="Mathematics in Trades and Life">
 <meta property="book:title" content="Mathematics in Trades and Life">
-<meta property="book:author" content="Mark Fitch">
-<meta property="book:author" content="Megan Ossiander-Gobeille">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<meta name="twitter:card" content="summary_large_image">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.56"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.56"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -103,37 +63,63 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.14';
+eBookConfig.runestone_version = '8.4.0';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.cc8d78735f870736.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.29d986501a531379.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
-<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/prefix-runtime.7e2ee203f2ecd6c8.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href="http://uaa.alaska.edu"><img src="external/images/UAA_GG.png" alt="Logo image"></a><div class="title-container">
-<h1 class="heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></h1>
+<div class="heading ptx-banner-heading"><a href="technical-mathematics.html"><span class="title">Mathematics in Trades and Life</span></a></div>
 <p class="byline">Mark Fitch, Megan Ossiander-Gobeille</p>
 </div>
 </div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
-<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
-<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
-<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
-<div class="search-results-controls">
-<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<h2 class="search-results-heading">Search Results: </h2>
-<div id="searchempty" class="searchempty"><span>No results.</span></div>
-<ol id="searchresults" class="searchresults"></ol>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
 </div>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="section-enough.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-intro.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-activity-literal-formula.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="section-enough.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-intro.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-activity-literal-formula.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\cancelhighlight}[1]{\color{blue}{{\cancel{#1}}}}
 \newcommand{\secondcancelhighlight}[1]{\color{green}{{\bcancel{#1}}}}
 \newcommand{\thirdcancelhighlight}[1]{\color{orange}{{\xcancel{#1}}}}
@@ -144,10 +130,10 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="technical-mathematics-2.html" class="internal"><span class="title">Front Matter</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-technical-mathematics-2" class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="technical-mathematics-2-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-student.html" class="internal"><span class="title">For Students</span></a></div></li>
@@ -156,10 +142,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="chapter-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Cross Cutting Topics</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-chapter-intro">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-units.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-units" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-measurement-types" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Types of Measurement</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-customary" class="internal"><span class="codenumber">1.1.2</span> <span class="title">U.S. Customary</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-units.html#subsection-metric" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Metric (SI)</span></a></div></li>
@@ -170,7 +156,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-enough.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Accuracy and Precision</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-enough" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-accuracy" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explanation</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-enough-sigfigs" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Significant Figures</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-enough.html#subsection-rounding" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Rounding</span></a></div></li>
@@ -180,7 +166,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="section-models.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Working with Applications</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list active" id="ptx-toc-group-section-models">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-using-simple" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Calculating Results using Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-models-solving-one" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculating Results Requiring Solving</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-models.html#subsection-model-process" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Process Overview</span></a></div></li>
@@ -192,10 +178,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-ratios.html" class="internal"><span class="codenumber">2</span> <span class="title">Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-ratios" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-percent.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Percents</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-percent" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-examples" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Calculating Percents</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-increase" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Percent Increase/Decrease</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-percent.html#subsection-percent-limitation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limitations</span></a></div></li>
@@ -204,10 +190,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-mixture.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Mixtures</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-mixture" class="structural toc-item-list">
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="section-mixture.html#subsection-calculate-resulting-mixture" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Calculate the Result</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-subsection-calculate-resulting-mixture" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsection-mix-solutions" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Mix Multiple Solutions</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-mixture.html#subsubsetion-dilute-solution" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Dilute a Solution</span></a></div></li>
 </ul>
@@ -218,7 +204,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-ratios.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-ratios" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-examples" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Example Ratios</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-using-ratios" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Using Ratios</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-ratios.html#subsection-ratio-literacy" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Ratios</span></a></div></li>
@@ -227,12 +213,12 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-proportion.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Proportions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-proportion" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Proportion Examples</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-complex" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Multiple Proportions</span></a></div></li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="section-proportion.html#subsection-proportion-similar" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Similar polygons</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-subsection-proportion-similar" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-triangle-defined" class="internal"><span class="codenumber">2.4.3.1</span> <span class="title">Explaining Similar Triangles</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similarity-proportion" class="internal"><span class="codenumber">2.4.3.2</span> <span class="title">Calculating Using Similar Triangles</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="section-proportion.html#subsubsection-similar-applied" class="internal"><span class="codenumber">2.4.3.3</span> <span class="title">Similarity in Applications</span></a></div></li>
@@ -244,7 +230,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-medical.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Medical Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-medical" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-medical-rounding" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Rounding in Medical Applications</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution-terminology" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Terminology</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-medical.html#subsection-dilution" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Dilution</span></a></div></li>
@@ -258,10 +244,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-models.html" class="internal"><span class="codenumber">3</span> <span class="title">Models</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-models" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-linear.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Linear Expressions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-linear" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-present-linear" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Linear Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-build-linear-models" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Building Linear Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear.html#subsection-solve-invert" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Solving Linear Equations</span></a></div></li>
@@ -271,7 +257,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-graphing.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Representing Data</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-graphing" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-tables" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Reading Tables of Data</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-reading-curve-graphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Reading Graphs</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-graphing.html#subsection-analyze-using-graphs" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Using Graphs to Analyze Models</span></a></div></li>
@@ -281,7 +267,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-rates.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Identifying Rates</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-rates" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-vary-difference" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Differences</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-quotients" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Quotients</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rates.html#subsection-extrapolation" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Extrapolation</span></a></div></li>
@@ -290,7 +276,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-variation.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Variation</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-variation" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-analyze-multi-variable-models" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Analyzing Models with Multiple Variables</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-vary-set-up" class="internal"><span class="codenumber">3.4.2</span> <span class="title">More Model Usage</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-variation.html#subsection-model-limitations-think-first" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Limitations of Models</span></a></div></li>
@@ -299,7 +285,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-rational.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Rational Expressions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-rational" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-solving" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Re-arranging Rational Expressions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-rational.html#subsection-rational-rates" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Rates</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-rational.html#section-rational-5" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Exercises</span></a></div></li>
@@ -307,7 +293,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-linear-systems.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Systems</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-linear-systems" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-setup-linear-systems" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Motivation</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-crossing-lines" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Crossing Lines</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-linear-systems.html#subsection-system-solving" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Solving Linear Systems</span></a></div></li>
@@ -322,10 +308,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">4</span> <span class="title">Geometry</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-geometry" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-geometry2D.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Geometric Reasoning 2D</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-geometry2D" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometric-properties-2d" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Formulae</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry-applied" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Applying Geometry</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry2D.html#subsection-geometry2d-ql" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Quantitative Literacy</span></a></div></li>
@@ -334,7 +320,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-geometry3D.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Geometric Reasoning 3D</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-geometry3D" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometric-properties-3d" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Formulae</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-geometry3D.html#subsection-geometry3d-applied" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Applying Geometry</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-geometry3D.html#section-geometry3D-5" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Exercises</span></a></div></li>
@@ -348,10 +334,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-quadratic.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-quadratic" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-quadratic.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-quadratic" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-forms" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Algebraic Forms of Quadratics</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-quadratic-models" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Quadratic Models</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic.html#subsection-inverse-square" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Inversely Quadratic Relations</span></a></div></li>
@@ -360,7 +346,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-quadratic-solve.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Solving Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-quadratic-solve" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-solve-quadratic-inversion" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Solving Quadratics with Inversion</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-solve.html#subsection-solve-quadratic-formula" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Solving Quadratics with the Formula</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-solve.html#section-quadratic-solve-5" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
@@ -368,7 +354,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-roots.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Roots</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-roots" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-definition" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Definition of Roots</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-roots-general" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Generalized Roots</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-roots.html#subsection-root-rate" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Rates of Roots</span></a></div></li>
@@ -376,7 +362,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-quadratic-graph.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Graphs of Quadratics</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-quadratic-graph" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-properties" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Properties of Quadratics</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-quadratic-graph.html#subsection-quadratic-application" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Applications</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="section-quadratic-graph.html#section-quadratic-graph-5" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Exercises</span></a></div></li>
@@ -387,10 +373,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-exponential.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponential</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-exponential" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-exponential.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Exponential Relations</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-exponential" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-vary-fast" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Growth Rates</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-application" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Applications</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential.html#subsection-exponential-models" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Two Exponential Models</span></a></div></li>
@@ -399,7 +385,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-exponential-graph.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Exponential Functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-exponential-graph" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-shape" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Shape of Exponentials</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-transform" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Transforming Exponential Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-exponential-graph.html#subsection-exponential-ql" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Identifying Exponential Graphs</span></a></div></li>
@@ -408,7 +394,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-logarithm.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Logarithm Properties</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-logarithm" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-notation" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Definition of Logarithm</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-graph" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Graphing Logarithms</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-logarithm.html#subsection-logarithm-special" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Special Logarithms</span></a></div></li>
@@ -418,7 +404,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-log-solve.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Solving Equations Using Logarithm</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-log-solve" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solving-exponentials" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Solving Equations with Exponentials</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-solve-logs" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Solving Equations with Logarithms</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-log-solve.html#subsection-exponential-applications" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Applications with Exponentials and Logarithms</span></a></div></li>
@@ -430,10 +416,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-trig.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometry</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-chapter-trig" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-trig-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Ratios</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-trig-functions" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-angle-sum" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Angle Relationships in Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-trig-ratios-defined" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Defining Trig Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-functions.html#subsection-solving-triangles" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Solving Triangles</span></a></div></li>
@@ -444,7 +430,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-inverse-trig.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Inverse Trigonometric Relationships</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-inverse-trig" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-inverse-trig" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-solving-triangles2" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Solving Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-inverse-trig.html#subsection-trig-function-angles" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Calculating angles using trig functions</span></a></div></li>
@@ -453,7 +439,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-trig-laws.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Non-Right Triangles</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-trig-laws" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-sines" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Law of Sines</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-ass-issue" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Ambiguous Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-laws.html#subsection-law-cosines" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Law of Cosines</span></a></div></li>
@@ -463,7 +449,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-trig-graphs.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Sine Wave Properties</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-section-trig-graphs" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-angles" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Beyond Triangles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-wave-properties" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Properties of Sine Waves</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-trig-graphs.html#subsection-sine-graphs" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Transformations of Sine</span></a></div></li>
@@ -476,51 +462,57 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-models"><h2 class="heading hide-type">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="section-models">
+<h1 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Working with Applications</span>
-</h2>
-<section class="introduction" id="section-models-2"><div class="para logical" id="section-models-2-1">
+</h1>
+<section class="introduction" id="section-models-2">
+<div class="para logical" id="section-models-2-1">
 <div class="para">This section addresses the following topics.</div>
 <ul class="disc" id="section-models-2-1-1">
 <li id="section-models-2-1-1-1">
 <div class="para" id="p-derived-section-models-2-1-1-1">Interpret data in various formats and analyze mathematical models</div>
-<div class="autopermalink" data-description="Item"><a href="#section-models-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-models-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="section-models-2-1-1-2">
 <div class="para" id="p-derived-section-models-2-1-1-2">Read and use mathematical models in a technical document</div>
-<div class="autopermalink" data-description="Item"><a href="#section-models-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-models-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <div class="para">This section covers the following mathematical concepts.</div>
 <ul class="disc" id="section-models-2-1-2">
 <li id="section-models-2-1-2-1">
 <div class="para" id="p-derived-section-models-2-1-2-1">Solve <em class="emphasis">linear</em>, rational, quadratic, and exponential equations and formulas (skill)</div>
-<div class="autopermalink" data-description="Item"><a href="#section-models-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-models-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="section-models-2-1-2-2">
 <div class="para" id="p-derived-section-models-2-1-2-2">Read and interpret models (critical thinking)</div>
-<div class="autopermalink" data-description="Item"><a href="#section-models-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-models-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="section-models-2-1-2-3">
 <div class="para" id="p-derived-section-models-2-1-2-3">Use models including linear, quadratic, exponential/logarithmic, and trigonometric (skill)</div>
-<div class="autopermalink" data-description="Item"><a href="#section-models-2-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#section-models-2-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#section-models-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-models-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="section-models-2-2">In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.<div class="autopermalink" data-description="Paragraph"><a href="#section-models-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="section-models-2-2">In life when we figure out processes at work or in science we often express the result in mathematical notation. This includes equations, functions, and other options. These are collectively known as models. They allow us to communicate what we know and calculate results as needed. To succeed in many jobs and to fully enjoy life we need to be proficient at reading and using models.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-models-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="section-models-2-3">This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.<div class="autopermalink" data-description="Paragraph"><a href="#section-models-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><section class="subsection" id="subsection-models-using-simple"><h3 class="heading hide-type">
+<div class="para" id="section-models-2-3">This section begins by presenting models and illustrates calculating some results from them. It progresses to solving equations (models) as a review of algebra skills. Finally we present tips on how to identify and use models arising in applications. These topics are continued with specific models in later sections.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#section-models-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="subsection-models-using-simple">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Calculating Results using Models</span>
+</h2>
+<article class="fact theorem-like" id="model-ohms-law"><h3 class="heading">
+<span class="type">Model</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ohm’s Law.</span>
 </h3>
-<article class="fact theorem-like" id="model-ohms-law"><h4 class="heading">
-<span class="type">Model</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ohm’s Law.</span>
-</h4>
-<div class="para" id="model-ohms-law-2-1">Ohm’s Law relates three properties of electricity: voltage, current, and resistance. <dfn class="terminology">Voltage</dfn>, measured in volts (V), is analagous to the amount of pressure to move the electrons. <dfn class="terminology">Current</dfn>, measured in amperes (amps), is how much electricity is moving. <dfn class="terminology">Resistance</dfn> measured in Ohms (<span class="process-math">\(\Omega\)</span>), is, as it sounds, the resistance of a material to letting electricity flow.<div class="autopermalink" data-description="Paragraph"><a href="#model-ohms-law-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para logical" id="model-ohms-law-2-2">
+<div class="para" id="model-ohms-law-2-1">Ohm’s Law relates three properties of electricity: voltage, current, and resistance. <dfn class="terminology">Voltage</dfn>, measured in volts (V), is analagous to the amount of pressure to move the electrons. <dfn class="terminology">Current</dfn>, measured in amperes (amps), is how much electricity is moving. <dfn class="terminology">Resistance</dfn> measured in Ohms (<span class="process-math">\(\Omega\)</span>), is, as it sounds, the resistance of a material to letting electricity flow.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-ohms-law-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="model-ohms-law-2-2">
 <div class="para">The relationship is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="model-ohms-law-2-2-1">
 \begin{equation*}
 V = IR
 \end{equation*}
@@ -530,65 +522,70 @@ V = IR
 <li id="model-ohms-law-2-2-2-1">
 <div class="para" id="p-derived-model-ohms-law-2-2-2-1">
 <span class="process-math">\(V\)</span> is voltage,</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ohms-law-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ohms-law-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-ohms-law-2-2-2-2">
 <div class="para" id="p-derived-model-ohms-law-2-2-2-2">
 <span class="process-math">\(I\)</span> is current, and</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ohms-law-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ohms-law-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-ohms-law-2-2-2-3">
 <div class="para" id="p-derived-model-ohms-law-2-2-2-3">
 <span class="process-math">\(R\)</span> is the resistance.</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ohms-law-2-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ohms-law-2-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#model-ohms-law-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-ohms-law-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Model 1.3.1: Ohm’s Law"><a href="#model-ohms-law" title="Copy heading and permalink for Model 1.3.1: Ohm’s Law" aria-label="Copy heading and permalink for Model 1.3.1: Ohm’s Law">🔗</a></div></article><article class="example example-like" id="example-formula-ohms-law"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Model 1.3.1: Ohm’s Law"><a tabindex="-1" href="#model-ohms-law" title="Copy heading and permalink for Model 1.3.1: Ohm’s Law" aria-label="Copy heading and permalink for Model 1.3.1: Ohm’s Law">🔗</a></div>
+</article>
+<article class="example example-like" id="example-formula-ohms-law"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-formula-ohms-law-1">We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-ohms-law-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h3>
+<div class="para" id="example-formula-ohms-law-1">We will consider how voltage must change as the needed current changes. These are measurements in a science model which means we will use significant digits rounding.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-ohms-law-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-formula-ohms-law-2">Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-ohms-law-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-formula-ohms-law-2">Suppose the current is 3.0 amps and the resistance is 8.0 ohms. What is the voltage?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-ohms-law-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-formula-ohms-law-3">
 <div class="para">Using the model we can calculate</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="example-formula-ohms-law-3-1">
 \begin{equation*}
 V = 3.0 \cdot 8.0 = 24.
 \end{equation*}
 </div>
 <div class="para">Thus in this system 24 volts is required.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-ohms-law-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-ohms-law-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-formula-ohms-law-4">
 <div class="para">If the current is increased to 6.0 amps on the 8.0 ohm circuit, then</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="example-formula-ohms-law-4-1">
 \begin{equation*}
 V = 6.0 \cdot 8.0 = 48.
 \end{equation*}
 </div>
 <div class="para">This result tells us that to double the amps, doubling the voltage is required.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-ohms-law-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-ohms-law-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-formula-ohms-law-5">
 <div class="para">Similarly if we know that the current is 1.7 amps and the resistance is 6.0 ohms, then we can calculate</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="example-formula-ohms-law-5-1">
 \begin{equation*}
 V = 1.7 \cdot 6.0 = 10.2 \approx 10.
 \end{equation*}
 </div>
 <div class="para">Thus in this system 10 volts is required.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-ohms-law-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-ohms-law-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.3.2"><a href="#example-formula-ohms-law" title="Copy heading and permalink for Example 1.3.2" aria-label="Copy heading and permalink for Example 1.3.2">🔗</a></div></article><article class="fact theorem-like" id="model-lift-equation"><h4 class="heading">
-<span class="type">Model</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Lift Equation.</span>
-</h4>
-<div class="para" id="model-lift-equation-2-1">Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.<div class="autopermalink" data-description="Paragraph"><a href="#model-lift-equation-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para logical" id="model-lift-equation-2-2">
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.2"><a tabindex="-1" href="#example-formula-ohms-law" title="Copy heading and permalink for Example 1.3.2" aria-label="Copy heading and permalink for Example 1.3.2">🔗</a></div>
+</article>
+<article class="fact theorem-like" id="model-lift-equation"><h3 class="heading">
+<span class="type">Model</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Lift Equation.</span>
+</h3>
+<div class="para" id="model-lift-equation-2-1">Lift is the force that keeps aircraft in the air.The lift equation explains factors that control the strength of lift produced by an airfoil (think wing or propellor). The factors included are air density, surface area of the airfoil, the coefficient of lift, and velocity. Air density is the amount of air per volume; you may see this as highs and lows on a weather map. It is also related to pressurizing aircraft flying at high altitude. The coefficient of lift incorporates multiple factors that are part of the design of the airfoil and how it is in use during flight.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-lift-equation-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="model-lift-equation-2-2">
 <div class="para">The lift equation is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="model-lift-equation-2-2-1">
 \begin{equation*}
 L = \frac{1}{2}\rho s C_L v^2
 \end{equation*}
@@ -598,37 +595,41 @@ L = \frac{1}{2}\rho s C_L v^2
 <li id="model-lift-equation-2-2-2-1">
 <div class="para" id="p-derived-model-lift-equation-2-2-2-1">
 <span class="process-math">\(L\)</span> is the lift in units of lbs or Newtons)</div>
-<div class="autopermalink" data-description="Item"><a href="#model-lift-equation-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-lift-equation-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-lift-equation-2-2-2-2">
 <div class="para" id="p-derived-model-lift-equation-2-2-2-2">
 <span class="process-math">\(\rho\)</span> is air density in units of slugs per cubic feet or kilograms per cubic meter</div>
-<div class="autopermalink" data-description="Item"><a href="#model-lift-equation-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-lift-equation-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-lift-equation-2-2-2-3">
 <div class="para" id="p-derived-model-lift-equation-2-2-2-3">
 <span class="process-math">\(s\)</span> surface area in units of square feet or square meters</div>
-<div class="autopermalink" data-description="Item"><a href="#model-lift-equation-2-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-lift-equation-2-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-lift-equation-2-2-2-4">
 <div class="para" id="p-derived-model-lift-equation-2-2-2-4">
 <span class="process-math">\(C_L\)</span> is the coefficient of lift which is unitless</div>
-<div class="autopermalink" data-description="Item"><a href="#model-lift-equation-2-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-lift-equation-2-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-lift-equation-2-2-2-5">
 <div class="para" id="p-derived-model-lift-equation-2-2-2-5">
 <span class="process-math">\(v\)</span> is velocity in units of feet per second or meters per second</div>
-<div class="autopermalink" data-description="Item"><a href="#model-lift-equation-2-2-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-lift-equation-2-2-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#model-lift-equation-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-lift-equation-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Model 1.3.3: Lift Equation"><a href="#model-lift-equation" title="Copy heading and permalink for Model 1.3.3: Lift Equation" aria-label="Copy heading and permalink for Model 1.3.3: Lift Equation">🔗</a></div></article><article class="example example-like" id="example-formula-lift"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Model 1.3.3: Lift Equation"><a tabindex="-1" href="#model-lift-equation" title="Copy heading and permalink for Model 1.3.3: Lift Equation" aria-label="Copy heading and permalink for Model 1.3.3: Lift Equation">🔗</a></div>
+</article>
+<article class="example example-like" id="example-formula-lift"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-formula-lift-1-1">We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-lift-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="example-formula-lift-1-2">Suppose the air density is 0.002378 slugs per cubic feet, surface area is <span class="quantity">125 ft<sup>2</sup></span>, <span class="process-math">\(C_L=1.5617\text{,}\)</span> and velocity is <span class="quantity">84.4 <sup>ft</sup>⁄<sub>s</sub></span>. Calculate the lift.<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-lift-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para logical" id="example-formula-lift-1-3">
+</h3>
+<div class="para" id="example-formula-lift-1-1">We can consider the impact of changes in air density. Air density generally decreases as altitude increases. This is a science model with measurements, so we will use significant digits rounding.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-lift-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="example-formula-lift-1-2">Suppose the air density is 0.002378 slugs per cubic feet, surface area is <span class="quantity">125 ft<sup>2</sup></span>, <span class="process-math">\(C_L=1.5617\text{,}\)</span> and velocity is <span class="quantity">84.4 <sup>ft</sup>⁄<sub>s</sub></span>. Calculate the lift.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-lift-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="example-formula-lift-1-3">
 <div class="displaymath process-math" id="example-formula-lift-1-3-1">
 \begin{align*}
 L &amp; = \frac{1}{2} \cdot 0.002378 \cdot 125 \cdot 1.5617 \cdot 84.4^2\\
@@ -637,9 +638,11 @@ L &amp; = \frac{1}{2} \cdot 0.002378 \cdot 125 \cdot 1.5617 \cdot 84.4^2\\
 \end{align*}
 </div>
 <div class="para">Under these circumstances this airfoil can lift 1650 lbs.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-lift-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="example-formula-lift-1-4">If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-lift-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para logical" id="example-formula-lift-1-5">
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-lift-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="example-formula-lift-1-4">If the air density is reduced to 0.001988 slugs per cubic feet, what is the lift? This represents the same aircraft flying 6000 feet higher.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-lift-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="example-formula-lift-1-5">
 <div class="displaymath process-math" id="example-formula-lift-1-5-1">
 \begin{align*}
 L &amp; = \frac{1}{2} \cdot 0.001988 \cdot 125 \cdot 1.5617 \cdot 84.4^2\\
@@ -648,14 +651,16 @@ L &amp; = \frac{1}{2} \cdot 0.001988 \cdot 125 \cdot 1.5617 \cdot 84.4^2\\
 \end{align*}
 </div>
 <div class="para">If nothing else is changed (like velocity), this airfoil can lift (hold in the air) <span class="process-math">\(1650-1380=270\)</span> lbs less.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-lift-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-lift-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.3.4"><a href="#example-formula-lift" title="Copy heading and permalink for Example 1.3.4" aria-label="Copy heading and permalink for Example 1.3.4">🔗</a></div></article><article class="fact theorem-like" id="model-ideal-gas-law"><h4 class="heading">
-<span class="type">Model</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ideal Gas Law.</span>
-</h4>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.4"><a tabindex="-1" href="#example-formula-lift" title="Copy heading and permalink for Example 1.3.4" aria-label="Copy heading and permalink for Example 1.3.4">🔗</a></div>
+</article>
+<article class="fact theorem-like" id="model-ideal-gas-law"><h3 class="heading">
+<span class="type">Model</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ideal Gas Law.</span>
+</h3>
 <div class="para logical" id="model-ideal-gas-law-2-1">
 <div class="para">The ideal gas law is a relationship between the volume, pressure, temperature, and number of molecules of an ideal gas. The relationship is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="model-ideal-gas-law-2-1-1">
 \begin{equation*}
 PV = nRT
 \end{equation*}
@@ -665,33 +670,34 @@ PV = nRT
 <li id="model-ideal-gas-law-2-1-2-1">
 <div class="para" id="p-derived-model-ideal-gas-law-2-1-2-1">
 <span class="process-math">\(P\)</span> is the pressure in units of atmospheres (atm) or Pascals (Pa)</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ideal-gas-law-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ideal-gas-law-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-ideal-gas-law-2-1-2-2">
 <div class="para" id="p-derived-model-ideal-gas-law-2-1-2-2">
 <span class="process-math">\(V\)</span> is the volume in units of cubic feet or cubic meters</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ideal-gas-law-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ideal-gas-law-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-ideal-gas-law-2-1-2-3">
 <div class="para" id="p-derived-model-ideal-gas-law-2-1-2-3">
 <span class="process-math">\(n\)</span> is the number of moles (number of molecules, see a chemistry text for details)</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ideal-gas-law-2-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ideal-gas-law-2-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-ideal-gas-law-2-1-2-4">
 <div class="para" id="p-derived-model-ideal-gas-law-2-1-2-4">
 <span class="process-math">\(R\)</span> is a constant specific to each gas (e.g., oxygen and nitrogen have different ones) in units that match the other values</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ideal-gas-law-2-1-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ideal-gas-law-2-1-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-ideal-gas-law-2-1-2-5">
 <div class="para" id="p-derived-model-ideal-gas-law-2-1-2-5">
 <span class="process-math">\(T\)</span> is the temperature in degrees Rankine or Kelvin (these are shifted versions of Fahrenheit and Celsius).</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ideal-gas-law-2-1-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ideal-gas-law-2-1-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#model-ideal-gas-law-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para logical" id="model-ideal-gas-law-2-2">
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-ideal-gas-law-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="model-ideal-gas-law-2-2">
 <div class="para">When the number of molecules remains fixed, such as in a closed container, this law can be used to produce the equation</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="model-ideal-gas-law-2-2-1">
 \begin{equation*}
 \frac{P_1 V_1}{T_1+273} = \frac{P_2 V_2}{T_2+273}.
 \end{equation*}
@@ -701,21 +707,25 @@ PV = nRT
 <li id="model-ideal-gas-law-2-2-2-1">
 <div class="para" id="p-derived-model-ideal-gas-law-2-2-2-1">
 <span class="process-math">\(P_1\text{,}\)</span> <span class="process-math">\(V_1\text{,}\)</span> and <span class="process-math">\(T_1\)</span> are the initial pressure, volume, and temperature, and</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ideal-gas-law-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ideal-gas-law-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="model-ideal-gas-law-2-2-2-2">
 <div class="para" id="p-derived-model-ideal-gas-law-2-2-2-2">
 <span class="process-math">\(P_2\text{,}\)</span> <span class="process-math">\(V_2\text{,}\)</span> and <span class="process-math">\(T_2\)</span> are the pressure, volume, and temperature at another time.</div>
-<div class="autopermalink" data-description="Item"><a href="#model-ideal-gas-law-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#model-ideal-gas-law-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#model-ideal-gas-law-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="model-ideal-gas-law-2-3">Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant <span class="process-math">\(R\)</span> which is looked up in reference books.<div class="autopermalink" data-description="Paragraph"><a href="#model-ideal-gas-law-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="model-ideal-gas-law-2-4">For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.<div class="autopermalink" data-description="Paragraph"><a href="#model-ideal-gas-law-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-ideal-gas-law-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="model-ideal-gas-law-2-3">Note in both forms of the law the units can be other than those listed (especially different scale like centimeters rather than meters). However, they must always match including the constant <span class="process-math">\(R\)</span> which is looked up in reference books.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-ideal-gas-law-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="model-ideal-gas-law-2-4">For rounding note 273 is three (3) significant digits. 273.15 can be used if more precision is needed.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#model-ideal-gas-law-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Model 1.3.5: Ideal Gas Law"><a href="#model-ideal-gas-law" title="Copy heading and permalink for Model 1.3.5: Ideal Gas Law" aria-label="Copy heading and permalink for Model 1.3.5: Ideal Gas Law">🔗</a></div></article><article class="example example-like" id="example-formula-gas-law"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Model 1.3.5: Ideal Gas Law"><a tabindex="-1" href="#model-ideal-gas-law" title="Copy heading and permalink for Model 1.3.5: Ideal Gas Law" aria-label="Copy heading and permalink for Model 1.3.5: Ideal Gas Law">🔗</a></div>
+</article>
+<article class="example example-like" id="example-formula-gas-law"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
+</h3>
 <div class="para logical" id="example-formula-gas-law-1">
 <div class="para">Suppose the initial conditions are <span class="process-math">\(P_1=101.3 \text{ Pa}\text{,}\)</span> <span class="process-math">\(V_1=0.125 \text{ m}^3\text{,}\)</span> and <span class="process-math">\(T_1=10.2^\circ \text{ C}\text{.}\)</span> Also <span class="process-math">\(V_2=0.125 \text{ m}^3\)</span> and <span class="process-math">\(T_2=50.7^\circ \text{ C}\text{.}\)</span> Calculate the new pressure. This is a science model with measurements, so we will use significant digits rounding.</div>
 <div class="displaymath process-math" id="example-formula-gas-law-1-6">
@@ -729,7 +739,7 @@ PV = nRT
 116 \amp \approx P_2\text{.}
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-gas-law-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-gas-law-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-formula-gas-law-2">
 <div class="para">If instead <span class="process-math">\(T_2=-10.3^\circ \text{ C}\text{,}\)</span> then we have the following.</div>
@@ -743,27 +753,35 @@ PV = nRT
 94.0 \amp \approx P_2
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-formula-gas-law-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-formula-gas-law-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.3.6"><a href="#example-formula-gas-law" title="Copy heading and permalink for Example 1.3.6" aria-label="Copy heading and permalink for Example 1.3.6">🔗</a></div></article><article class="exercise exercise-like" id="exercise-formula-ohms"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.6"><a tabindex="-1" href="#example-formula-gas-law" title="Copy heading and permalink for Example 1.3.6" aria-label="Copy heading and permalink for Example 1.3.6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercise-formula-ohms"><h3 class="heading">
 <span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div id="momexercise-formula-ohms-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-formula-ohms-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1455761&amp;frame_id=momexercise-formula-ohms-1"></iframe></div>
-<div class="autopermalink" data-description="Checkpoint 1.3.7"><a href="#exercise-formula-ohms" title="Copy heading and permalink for Checkpoint 1.3.7" aria-label="Copy heading and permalink for Checkpoint 1.3.7">🔗</a></div></article><article class="exercise exercise-like" id="exercise-formula-ideal-gas1"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div id="momexercise-formula-ideal-gas1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-formula-ideal-gas1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1455769&amp;frame_id=momexercise-formula-ideal-gas1-1"></iframe></div>
-<div class="autopermalink" data-description="Checkpoint 1.3.8"><a href="#exercise-formula-ideal-gas1" title="Copy heading and permalink for Checkpoint 1.3.8" aria-label="Copy heading and permalink for Checkpoint 1.3.8">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.3.1: Calculating Results using Models"><a href="#subsection-models-using-simple" title="Copy heading and permalink for Subsection 1.3.1: Calculating Results using Models" aria-label="Copy heading and permalink for Subsection 1.3.1: Calculating Results using Models">🔗</a></div></section><section class="subsection" id="subsection-models-solving-one"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Calculating Results Requiring Solving</span>
 </h3>
-<div class="para" id="subsection-models-solving-one-2">The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-models-solving-one-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div id="momexercise-formula-ohms-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-formula-ohms-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1455761&amp;frame_id=momexercise-formula-ohms-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.3.7"><a tabindex="-1" href="#exercise-formula-ohms" title="Copy heading and permalink for Checkpoint 1.3.7" aria-label="Copy heading and permalink for Checkpoint 1.3.7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercise-formula-ideal-gas1"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div id="momexercise-formula-ideal-gas1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momexercise-formula-ideal-gas1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1455769&amp;frame_id=momexercise-formula-ideal-gas1-1"></iframe></div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.3.8"><a tabindex="-1" href="#exercise-formula-ideal-gas1" title="Copy heading and permalink for Checkpoint 1.3.8" aria-label="Copy heading and permalink for Checkpoint 1.3.8">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 1.3.1: Calculating Results using Models"><a tabindex="-1" href="#subsection-models-using-simple" title="Copy heading and permalink for Subsection 1.3.1: Calculating Results using Models" aria-label="Copy heading and permalink for Subsection 1.3.1: Calculating Results using Models">🔗</a></div>
+</section>
+<section class="subsection" id="subsection-models-solving-one">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Calculating Results Requiring Solving</span>
+</h2>
+<div class="para" id="subsection-models-solving-one-2">The previous section illustrated calculating model results without solving. This section presents additional example requiring limited solving and finishes with solving before any values have been substituted.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-models-solving-one-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsection-models-solving-one-3">It does not matter if the value we desire is by itself, we can solve using arithmetic.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-models-solving-one-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsection-models-solving-one-3">It does not matter if the value we desire is by itself, we can solve using arithmetic.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-models-solving-one-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="example-model-solve-lift-cl"><h4 class="heading">
+<article class="example example-like" id="example-model-solve-lift-cl"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-model-solve-lift-cl-1">Recall the <a href="section-models.html#model-lift-equation" class="xref" data-knowl="./knowl/xref/model-lift-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Model 1.3.3: Lift Equation">model for lift</a>. Suppose we know the weight of the aircraft (<span class="process-math">\(w=239\bar{0}\)</span> lbs),  density of air (<span class="process-math">\(\rho=0.001869 \text{ slugs}/\text{ft}^3\)</span>), wing surface area (<span class="process-math">\(s=165 \text{ ft}^2\)</span>), and velocity (<span class="process-math">\(v=91.1 \text{ ft}/\text{sec}\)</span>). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.<div class="autopermalink" data-description="Paragraph"><a href="#example-model-solve-lift-cl-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h3>
+<div class="para" id="example-model-solve-lift-cl-1">Recall the <a href="section-models.html#model-lift-equation" class="xref" data-knowl="./knowl/xref/model-lift-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Model 1.3.3: Lift Equation">model for lift</a>. Suppose we know the weight of the aircraft (<span class="process-math">\(w=239\bar{0}\)</span> lbs),  density of air (<span class="process-math">\(\rho=0.001869 \text{ slugs}/\text{ft}^3\)</span>), wing surface area (<span class="process-math">\(s=165 \text{ ft}^2\)</span>), and velocity (<span class="process-math">\(v=91.1 \text{ ft}/\text{sec}\)</span>). Noting that lift must equal weight, what must the coefficient of lift be? This is a science model with measurements, so we will use significant digits rounding.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-solve-lift-cl-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-model-solve-lift-cl-2">
 <div class="displaymath process-math" id="example-model-solve-lift-cl-2-1">
@@ -776,22 +794,24 @@ L &amp; = \frac{1}{2}\rho s C_L v^2\\
 1.87 &amp; \approx C_L.
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-model-solve-lift-cl-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-solve-lift-cl-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.3.9"><a href="#example-model-solve-lift-cl" title="Copy heading and permalink for Example 1.3.9" aria-label="Copy heading and permalink for Example 1.3.9">🔗</a></div></article><div class="para" id="subsection-models-solving-one-5">The desired value from the model may be in a denominator. We can solve for this using multiplication and division.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-models-solving-one-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.9"><a tabindex="-1" href="#example-model-solve-lift-cl" title="Copy heading and permalink for Example 1.3.9" aria-label="Copy heading and permalink for Example 1.3.9">🔗</a></div>
+</article>
+<div class="para" id="subsection-models-solving-one-5">The desired value from the model may be in a denominator. We can solve for this using multiplication and division.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-models-solving-one-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="example-model-solve-gas-temp"><h4 class="heading">
+<article class="example example-like" id="example-model-solve-gas-temp"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
+</h3>
 <div class="para logical" id="example-model-solve-gas-temp-1">
 <div class="para">Recall from <a href="section-models.html#model-ideal-gas-law" class="xref" data-knowl="./knowl/xref/model-ideal-gas-law.html" data-reveal-label="Reveal" data-close-label="Close" title="Model 1.3.5: Ideal Gas Law">Model 1.3.5</a> that under simplifying assumptions</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/model-ideal-gas-law.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/model-ideal-gas-law.html" id="example-model-solve-gas-temp-1-2">
 \begin{equation*}
 \frac{P_1 V_1}{T_1+273} = \frac{P_2 V_2}{T_2+273}.
 \end{equation*}
 </div>
 <div class="para">Suppose we know the initial conditions (<span class="process-math">\(P_1=1.00\)</span> atm, <span class="process-math">\(V_1=1.35 \text{ ft}^3\text{,}\)</span> <span class="process-math">\(T_1=51.2^\circ\)</span> F) and also <span class="process-math">\(P_2=1.00\)</span> atm and <span class="process-math">\(V_2=1.39 \text{ ft}^3\text{.}\)</span> What must the new temperature (<span class="process-math">\(T_2\)</span>) be? This is a science model with measurements, so we will use significant digits rounding.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-model-solve-gas-temp-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-solve-gas-temp-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-model-solve-gas-temp-2">
 <div class="displaymath process-math" id="example-model-solve-gas-temp-2-1">
@@ -808,16 +828,18 @@ T_2 &amp; \approx 6\underline{0}.80593. \text{ Subtraction maintains precision t
 T_2 &amp; \approx 61.
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-model-solve-gas-temp-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-solve-gas-temp-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-model-solve-gas-temp-3">Note we use significant digits for rounding because this is a science model.<div class="autopermalink" data-description="Paragraph"><a href="#example-model-solve-gas-temp-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-model-solve-gas-temp-3">Note we use significant digits for rounding because this is a science model.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-solve-gas-temp-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.3.10"><a href="#example-model-solve-gas-temp" title="Copy heading and permalink for Example 1.3.10" aria-label="Copy heading and permalink for Example 1.3.10">🔗</a></div></article><div class="para" id="subsection-models-solving-one-7">The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-models-solving-one-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.10"><a tabindex="-1" href="#example-model-solve-gas-temp" title="Copy heading and permalink for Example 1.3.10" aria-label="Copy heading and permalink for Example 1.3.10">🔗</a></div>
+</article>
+<div class="para" id="subsection-models-solving-one-7">The previous examples solved for a variable in a model after substituting numbers for the other variables. The next examples illustrate solving first. Note this process is the same as solving after substituting (same algebra) though there may be more steps. We might wish to solve this way, so it is easier to use the model multiple times.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-models-solving-one-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="example-solve-ohms"><h4 class="heading">
+<article class="example example-like" id="example-solve-ohms"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-solve-ohms-1">Solve the equation <span class="process-math">\(V=IR\)</span> for <span class="process-math">\(R\text{.}\)</span> Note, this model is explained in <a href="section-models.html#model-ohms-law" class="xref" data-knowl="./knowl/xref/model-ohms-law.html" data-reveal-label="Reveal" data-close-label="Close" title="Model 1.3.1: Ohm’s Law">Model 1.3.1</a>.<div class="autopermalink" data-description="Paragraph"><a href="#example-solve-ohms-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h3>
+<div class="para" id="example-solve-ohms-1">Solve the equation <span class="process-math">\(V=IR\)</span> for <span class="process-math">\(R\text{.}\)</span> Note, this model is explained in <a href="section-models.html#model-ohms-law" class="xref" data-knowl="./knowl/xref/model-ohms-law.html" data-reveal-label="Reveal" data-close-label="Close" title="Model 1.3.1: Ohm’s Law">Model 1.3.1</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-solve-ohms-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-solve-ohms-2">
 <div class="displaymath process-math" id="example-solve-ohms-2-1">
@@ -827,12 +849,14 @@ V &amp; = IR.\\
 \frac{V}{I} &amp; = R.
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-solve-ohms-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-solve-ohms-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.3.11"><a href="#example-solve-ohms" title="Copy heading and permalink for Example 1.3.11" aria-label="Copy heading and permalink for Example 1.3.11">🔗</a></div></article><article class="example example-like" id="example-solve-lift"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.11"><a tabindex="-1" href="#example-solve-ohms" title="Copy heading and permalink for Example 1.3.11" aria-label="Copy heading and permalink for Example 1.3.11">🔗</a></div>
+</article>
+<article class="example example-like" id="example-solve-lift"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-solve-lift-1">Solve the lift equation <span class="process-math">\(L=\frac{1}{2}\rho S C_L v^2\)</span> for <span class="process-math">\(S\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-solve-lift-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h3>
+<div class="para" id="example-solve-lift-1">Solve the lift equation <span class="process-math">\(L=\frac{1}{2}\rho S C_L v^2\)</span> for <span class="process-math">\(S\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-solve-lift-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-solve-lift-2">
 <div class="displaymath process-math" id="example-solve-lift-2-1">
@@ -848,19 +872,25 @@ L \amp = \frac{1}{2}\rho S C_L v^2.\\
 \frac{2L}{\rho C_L v^2} \amp = S.
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-solve-lift-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-solve-lift-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-solve-lift-3">Notice that the steps are the same algebra as if there were numbers. Also we could divide by <span class="process-math">\(v^2\)</span> and we are not concerned with the square as part of solving for <span class="process-math">\(S\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-solve-lift-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-solve-lift-3">Notice that the steps are the same algebra as if there were numbers. Also we could divide by <span class="process-math">\(v^2\)</span> and we are not concerned with the square as part of solving for <span class="process-math">\(S\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-solve-lift-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.3.12"><a href="#example-solve-lift" title="Copy heading and permalink for Example 1.3.12" aria-label="Copy heading and permalink for Example 1.3.12">🔗</a></div></article><article class="exercise exercise-like" id="exercise-solve-lift"><h4 class="heading">
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.12"><a tabindex="-1" href="#example-solve-lift" title="Copy heading and permalink for Example 1.3.12" aria-label="Copy heading and permalink for Example 1.3.12">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercise-solve-lift"><h3 class="heading">
 <span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="exercise-solve-lift-1-1">Solve the lift equation <span class="process-math">\(L=\frac{1}{2}\rho S C_L v^2\)</span> for <span class="process-math">\(\rho\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercise-solve-lift-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Checkpoint 1.3.13"><a href="#exercise-solve-lift" title="Copy heading and permalink for Checkpoint 1.3.13" aria-label="Copy heading and permalink for Checkpoint 1.3.13">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.3.2: Calculating Results Requiring Solving"><a href="#subsection-models-solving-one" title="Copy heading and permalink for Subsection 1.3.2: Calculating Results Requiring Solving" aria-label="Copy heading and permalink for Subsection 1.3.2: Calculating Results Requiring Solving">🔗</a></div></section><section class="subsection" id="subsection-model-process"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Process Overview</span>
 </h3>
-<div class="para" id="subsection-model-process-2">Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.<div class="autopermalink" data-description="Paragraph"><a href="#subsection-model-process-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="exercise-solve-lift-1-1">Solve the lift equation <span class="process-math">\(L=\frac{1}{2}\rho S C_L v^2\)</span> for <span class="process-math">\(\rho\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercise-solve-lift-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 1.3.13"><a tabindex="-1" href="#exercise-solve-lift" title="Copy heading and permalink for Checkpoint 1.3.13" aria-label="Copy heading and permalink for Checkpoint 1.3.13">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 1.3.2: Calculating Results Requiring Solving"><a tabindex="-1" href="#subsection-models-solving-one" title="Copy heading and permalink for Subsection 1.3.2: Calculating Results Requiring Solving" aria-label="Copy heading and permalink for Subsection 1.3.2: Calculating Results Requiring Solving">🔗</a></div>
+</section>
+<section class="subsection" id="subsection-model-process">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Process Overview</span>
+</h2>
+<div class="para" id="subsection-model-process-2">Above we started with a model and were asked to do something with it. Normally we will start with a problem which does not identify a model to use. Very few problems you encounter in lifte come pre-labled with models. This section presents how to start with a problem and work to a solution by identifying the model first.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-model-process-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="subsection-model-process-3">
 <div class="para">Our first task is to read the problem to understand it.</div>
@@ -871,88 +901,92 @@ L \amp = \frac{1}{2}\rho S C_L v^2.\\
 <ul class="circle" id="subsection-model-process-3-1-1-1-1">
 <li id="subsection-model-process-3-1-1-1-1-1">
 <div class="para" id="p-derived-subsection-model-process-3-1-1-1-1-1">If you can paraphrase it, you understand it enough.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-3-1-1-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-3-1-1-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-3-1-1-1-1-2">
 <div class="para" id="p-derived-subsection-model-process-3-1-1-1-1-2">Drawing a picture and labeling parts may help.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-3-1-1-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-3-1-1-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsection-model-process-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-model-process-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-3-1-2">
 <div class="para" id="p-derived-subsection-model-process-3-1-2">Identify what we are asked to do.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-3-1-3">
 <div class="para" id="p-derived-subsection-model-process-3-1-3">Identify the information we are given. Note distinctions like measurements and rates.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-3-1-4">
 <div class="para" id="p-derived-subsection-model-process-3-1-4">Identify any units. These often help us set up a model.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-3-1-5">
 <div class="para" id="p-derived-subsection-model-process-3-1-5">Write everything! We do not model in our heads.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-3-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-3-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsection-model-process-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-model-process-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="subsection-model-process-4">
 <div class="para">Next we write the mathematical model (equation or function).</div>
 <ul class="disc" id="subsection-model-process-4-1">
 <li id="subsection-model-process-4-1-1">
 <div class="para" id="p-derived-subsection-model-process-4-1-1">Use the description to determine which application type (e.g., percent, proportion, linear model, etc.). Note units can suggest this (e.g., meters and meters squared indicate something was squared).</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-4-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-4-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-4-1-2">
 <div class="para" id="p-derived-subsection-model-process-4-1-2">Do not insert any numbers yet.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-4-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-4-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-4-1-3">
 <div class="para" id="p-derived-subsection-model-process-4-1-3">Do not do any calculations yet.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-4-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-4-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsection-model-process-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-model-process-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="subsection-model-process-5">
 <div class="para">Now we will have a model that matches our situation and possibly some numbers to insert.</div>
 <ul class="disc" id="subsection-model-process-5-1">
 <li id="subsection-model-process-5-1-1">
 <div class="para" id="p-derived-subsection-model-process-5-1-1">Insert numbers into the model. You may have to calculate some of these (e.g., you are given two points but not the slope you need).</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-5-1-2">
 <div class="para" id="p-derived-subsection-model-process-5-1-2">Solve for the desired value. Note it may help to do some calculations with the numbers first.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsection-model-process-5-1-3">
 <div class="para" id="p-derived-subsection-model-process-5-1-3">State your answer and use units appropriately.</div>
-<div class="autopermalink" data-description="Item"><a href="#subsection-model-process-5-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsection-model-process-5-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsection-model-process-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-model-process-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsection-model-process-6">Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).<div class="autopermalink" data-description="Paragraph"><a href="#subsection-model-process-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsection-model-process-6">Finally we should check that our answer makes sense. We should not have negative prices (usually) or distances larger than the earth (when working with terrestrial problems).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsection-model-process-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="example-model-rental-truck"><h4 class="heading">
+<article class="example example-like" id="example-model-rental-truck"><h3 class="heading">
 <span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
-<div class="para" id="example-model-rental-truck-1-1">You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.<div class="autopermalink" data-description="Paragraph"><a href="#example-model-rental-truck-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h3>
+<div class="para" id="example-model-rental-truck-1-1">You moved across town and rented a 20 foot moving truck for the day. You want to make sure the bill you received is correct. If you paid $81.03, for how many miles were you charged? Assume there were no extra fees.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-rental-truck-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
-<img src="external/images/UHaul.png" class="contained" alt="UHaul ad with pricing"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="example-model-rental-truck-1-2-description"><div class="para" id="example-model-rental-truck-1-2-2-1">Ad containing an image of the truck, truck size information, and pricing information. $39.95 plus $0.79 per mile.<div class="autopermalink" data-description="Paragraph"><a href="#example-model-rental-truck-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div></details>
+<img src="external/images/UHaul.png" class="contained" alt="UHaul ad with pricing"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="example-model-rental-truck-1-2-description" style="width: 80%; margin-left: 10%;">
+<div class="para" id="example-model-rental-truck-1-2-2-1">Ad containing an image of the truck, truck size information, and pricing information. $39.95 plus $0.79 per mile.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-rental-truck-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="example-model-rental-truck-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="example-model-rental-truck-2-1">We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).<div class="autopermalink" data-description="Paragraph"><a href="#example-model-rental-truck-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></details>
 </div>
-<div class="para" id="example-model-rental-truck-2-2">We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.<div class="autopermalink" data-description="Paragraph"><a href="#example-model-rental-truck-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="solutions">
+<details id="example-model-rental-truck-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="example-model-rental-truck-2-1">We want to compare the bill we received to the price listed in the add. The question is about how many miles (not how much money).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-rental-truck-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="example-model-rental-truck-2-3">Our model is <span class="process-math">\(C = \$39.95+\$0.79m\)</span> where <span class="process-math">\(C\)</span> is the total cost and <span class="process-math">\(m\)</span> is the number of miles.<div class="autopermalink" data-description="Paragraph"><a href="#example-model-rental-truck-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-model-rental-truck-2-2">We are given the price per mile ($0.79 per mile). There is also a fixed cost for the rental ($39.95). Adding the fixed cost and the milage cost will give us the total.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-rental-truck-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="example-model-rental-truck-2-3">Our model is <span class="process-math">\(C = \$39.95+\$0.79m\)</span> where <span class="process-math">\(C\)</span> is the total cost and <span class="process-math">\(m\)</span> is the number of miles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-rental-truck-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="example-model-rental-truck-2-4">
 <div class="para">We know the total cost, which will leaves <span class="process-math">\(m\)</span> in the equation, the number of miles, which is what we want to calculate. We can use the solving technique in <a href="section-linear.html" class="internal" title="Section 3.1: Linear Expressions">Section 3.1</a>
@@ -967,45 +1001,78 @@ L \amp = \frac{1}{2}\rho S C_L v^2.\\
 \end{align*}
 </div>
 <div class="para">The charge is for 52 miles.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-model-rental-truck-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#example-model-rental-truck-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Solution 1.3.14.1"><a href="#example-model-rental-truck-2" title="Copy heading and permalink for Solution 1.3.14.1" aria-label="Copy heading and permalink for Solution 1.3.14.1">🔗</a></div>
-</div></details></div>
-<div class="autopermalink" data-description="Example 1.3.14"><a href="#example-model-rental-truck" title="Copy heading and permalink for Example 1.3.14" aria-label="Copy heading and permalink for Example 1.3.14">🔗</a></div></article><figure class="figure figure-like" id="figure-video-model-uhaul"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/zjO5bwOt7Qk?&amp;modestbranding=1&amp;rel=0" id="video-example-model-uhaul"></iframe></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Using math modeling for rental truck<div class="autopermalink" data-description="Figure 1.3.15"><a href="#figure-video-model-uhaul" title="Copy heading and permalink for Figure 1.3.15" aria-label="Copy heading and permalink for Figure 1.3.15">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Subsection 1.3.3: Process Overview"><a href="#subsection-model-process" title="Copy heading and permalink for Subsection 1.3.3: Process Overview" aria-label="Copy heading and permalink for Subsection 1.3.3: Process Overview">🔗</a></div></section><section class="exercises" id="section-models-6"><h3 class="heading hide-type">
+<div class="autopermalink" aria-hidden="true" data-description="Solution 1.3.14.1"><a tabindex="-1" href="#example-model-rental-truck-2" title="Copy heading and permalink for Solution 1.3.14.1" aria-label="Copy heading and permalink for Solution 1.3.14.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Example 1.3.14"><a tabindex="-1" href="#example-model-rental-truck" title="Copy heading and permalink for Example 1.3.14" aria-label="Copy heading and permalink for Example 1.3.14">🔗</a></div>
+</article>
+<figure class="figure figure-like" id="figure-video-model-uhaul"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/zjO5bwOt7Qk?&amp;modestbranding=1&amp;rel=0" id="video-example-model-uhaul"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Using math modeling for rental truck<div class="autopermalink" aria-hidden="true" data-description="Figure 1.3.15"><a tabindex="-1" href="#figure-video-model-uhaul" title="Copy heading and permalink for Figure 1.3.15" aria-label="Copy heading and permalink for Figure 1.3.15">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Subsection 1.3.3: Process Overview"><a tabindex="-1" href="#subsection-model-process" title="Copy heading and permalink for Subsection 1.3.3: Process Overview" aria-label="Copy heading and permalink for Subsection 1.3.3: Process Overview">🔗</a></div>
+</section>
+<section class="exercises" id="section-models-6">
+<h2 class="heading hide-type">
 <span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
-</h3>
-<article class="exercise exercise-like" id="section-models-6-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+</h2>
+<article class="exercise exercise-like" id="section-models-6-1"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-1-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-1-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1538269&amp;frame_id=momsection-models-6-1-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.1"><a href="#section-models-6-1" title="Copy heading and permalink for Exercise 1.3.4.1" aria-label="Copy heading and permalink for Exercise 1.3.4.1">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.1"><a tabindex="-1" href="#section-models-6-1" title="Copy heading and permalink for Exercise 1.3.4.1" aria-label="Copy heading and permalink for Exercise 1.3.4.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-2"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-2-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-2-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1538391&amp;frame_id=momsection-models-6-2-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.2"><a href="#section-models-6-2" title="Copy heading and permalink for Exercise 1.3.4.2" aria-label="Copy heading and permalink for Exercise 1.3.4.2">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.2"><a tabindex="-1" href="#section-models-6-2" title="Copy heading and permalink for Exercise 1.3.4.2" aria-label="Copy heading and permalink for Exercise 1.3.4.2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-3"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-3-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-3-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1547440&amp;frame_id=momsection-models-6-3-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.3"><a href="#section-models-6-3" title="Copy heading and permalink for Exercise 1.3.4.3" aria-label="Copy heading and permalink for Exercise 1.3.4.3">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-4"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.3"><a tabindex="-1" href="#section-models-6-3" title="Copy heading and permalink for Exercise 1.3.4.3" aria-label="Copy heading and permalink for Exercise 1.3.4.3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-4"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-4-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-4-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=2001&amp;frame_id=momsection-models-6-4-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.4"><a href="#section-models-6-4" title="Copy heading and permalink for Exercise 1.3.4.4" aria-label="Copy heading and permalink for Exercise 1.3.4.4">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-5"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.4"><a tabindex="-1" href="#section-models-6-4" title="Copy heading and permalink for Exercise 1.3.4.4" aria-label="Copy heading and permalink for Exercise 1.3.4.4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-5"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-5-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-5-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=872807&amp;frame_id=momsection-models-6-5-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.5"><a href="#section-models-6-5" title="Copy heading and permalink for Exercise 1.3.4.5" aria-label="Copy heading and permalink for Exercise 1.3.4.5">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-6"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.5"><a tabindex="-1" href="#section-models-6-5" title="Copy heading and permalink for Exercise 1.3.4.5" aria-label="Copy heading and permalink for Exercise 1.3.4.5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-6"><h3 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-6-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-6-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=872769&amp;frame_id=momsection-models-6-6-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.6"><a href="#section-models-6-6" title="Copy heading and permalink for Exercise 1.3.4.6" aria-label="Copy heading and permalink for Exercise 1.3.4.6">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-7"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.6"><a tabindex="-1" href="#section-models-6-6" title="Copy heading and permalink for Exercise 1.3.4.6" aria-label="Copy heading and permalink for Exercise 1.3.4.6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-7"><h3 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-7-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-7-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=872801&amp;frame_id=momsection-models-6-7-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.7"><a href="#section-models-6-7" title="Copy heading and permalink for Exercise 1.3.4.7" aria-label="Copy heading and permalink for Exercise 1.3.4.7">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-8"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.7"><a tabindex="-1" href="#section-models-6-7" title="Copy heading and permalink for Exercise 1.3.4.7" aria-label="Copy heading and permalink for Exercise 1.3.4.7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-8"><h3 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-8-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-8-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=226411&amp;frame_id=momsection-models-6-8-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.8"><a href="#section-models-6-8" title="Copy heading and permalink for Exercise 1.3.4.8" aria-label="Copy heading and permalink for Exercise 1.3.4.8">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-9"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.8"><a tabindex="-1" href="#section-models-6-8" title="Copy heading and permalink for Exercise 1.3.4.8" aria-label="Copy heading and permalink for Exercise 1.3.4.8">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-9"><h3 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-9-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-9-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=1506446&amp;frame_id=momsection-models-6-9-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.9"><a href="#section-models-6-9" title="Copy heading and permalink for Exercise 1.3.4.9" aria-label="Copy heading and permalink for Exercise 1.3.4.9">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-10"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.9"><a tabindex="-1" href="#section-models-6-9" title="Copy heading and permalink for Exercise 1.3.4.9" aria-label="Copy heading and permalink for Exercise 1.3.4.9">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-10"><h3 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-10-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-10-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=872804&amp;frame_id=momsection-models-6-10-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.10"><a href="#section-models-6-10" title="Copy heading and permalink for Exercise 1.3.4.10" aria-label="Copy heading and permalink for Exercise 1.3.4.10">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-11"><h4 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.10"><a tabindex="-1" href="#section-models-6-10" title="Copy heading and permalink for Exercise 1.3.4.10" aria-label="Copy heading and permalink for Exercise 1.3.4.10">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-11"><h3 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-11-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-11-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3443&amp;frame_id=momsection-models-6-11-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.11"><a href="#section-models-6-11" title="Copy heading and permalink for Exercise 1.3.4.11" aria-label="Copy heading and permalink for Exercise 1.3.4.11">🔗</a></div></article><article class="exercise exercise-like" id="section-models-6-12"><h4 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.11"><a tabindex="-1" href="#section-models-6-11" title="Copy heading and permalink for Exercise 1.3.4.11" aria-label="Copy heading and permalink for Exercise 1.3.4.11">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="section-models-6-12"><h3 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
 <div id="momsection-models-6-12-1wrap" style="width:100%;overflow:visible;position:relative"><iframe id="momsection-models-6-12-1" style="position:absolute;z-index:1;object-fit: contain; width: 100%" frameborder="0" data-knowl-callback="sendResizeRequest" src="https://www.myopenmath.com/embedq2.php?id=3483&amp;frame_id=momsection-models-6-12-1"></iframe></div>
-<div class="autopermalink" data-description="Exercise 1.3.4.12"><a href="#section-models-6-12" title="Copy heading and permalink for Exercise 1.3.4.12" aria-label="Copy heading and permalink for Exercise 1.3.4.12">🔗</a></div></article><div class="autopermalink" data-description="Exercises 1.3.4"><a href="#section-models-6" title="Copy heading and permalink for Exercises 1.3.4" aria-label="Copy heading and permalink for Exercises 1.3.4">🔗</a></div></section><div class="autopermalink" data-description="Section 1.3: Working with Applications"><a href="#section-models" title="Copy heading and permalink for Section 1.3: Working with Applications" aria-label="Copy heading and permalink for Section 1.3: Working with Applications">🔗</a></div></section></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 1.3.4.12"><a tabindex="-1" href="#section-models-6-12" title="Copy heading and permalink for Exercise 1.3.4.12" aria-label="Copy heading and permalink for Exercise 1.3.4.12">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercises 1.3.4"><a tabindex="-1" href="#section-models-6" title="Copy heading and permalink for Exercises 1.3.4" aria-label="Copy heading and permalink for Exercises 1.3.4">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 1.3: Working with Applications"><a tabindex="-1" href="#section-models" title="Copy heading and permalink for Section 1.3: Working with Applications" aria-label="Copy heading and permalink for Section 1.3: Working with Applications">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="section-enough.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-activity-literal-formula.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" alt="Runestone Academy logo" src="data:image/png;base64,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"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" alt="MathJax logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAABgFBMVEUZlkYjHiBJpFaJu4h1s3cmIySYwpZnrGstmUvW5dOqy6ZGRkZaqWIAAAAhHB2307McFxk4oFA4NzfJ3MVRV1GIiYl2eHbl7eKhxp3B2L1HmVTh6t2qq6oVoUtpaGlOZ1G0tbSSl5M7RTowiUtNdlN+t4BwlnEUmkaNqYwAfwEIp09riGwVl0gUmkcUmkctnErr8ec5dEc8V0FOh1fExcMAf383VTo5ZkZdsWVAPj9BPkBdg2FammFVqlUUmkciIB9/f38Afz8A/wA+P0A+SEFIpllJpVpPqWYDhSUOm0YVqj8A/38A//8pnEYomkc6oVA6oE9gXV9ps3V//3////8QCw0AXAAAagAAfBAAixcAghQLiy4NjC4AjUYVlD8RkCwckjgqYDk/fz8qlTwillE8n1A2pFJAQT9fX2BAn1NCo1ZEq2Z/gYBnrW9rtHZ3wIaAf4CAin+BnX+eoKCAtn+/4b3//wDj8d8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACl+HKkAAAAgHRSTlP+//7+/v/+/v7+///+AP/+//7//v////7////+//7///////////9o/wMH/yyzzWn+/////wL/////////A0v/AgQB//+0y60pEgwCATFLssT/zQIB/wsMLwszFkwSDEps/wRtFr1j///cZMn/3Ln0////////Af8AAAAAAAAAADN3ZZgAAAl5SURBVHjatZqJd9q4FodtjMAgbIyQHSDYxkCAhJC1aSZtX+fNTJeZebMvb9/3fV/+/XclL5JsmfacSe85aU5S5/fdTVeSD4aT27cc57s//OPLL5qWZEdHR02ttSXrFdZovHj+249/wMUyM7LvN45z/Ku/tv7Tubg4YHbYyWzIbTwe97l1cxuNWqkVvuTsxvPzn3BBGQDE8y/6/wP1Q7COZKp+jmiV1C05uOZbL86LIIxM//3nfaZ+kJkKyePISYX7UjKV5DV7n546JwLwX+dnzc6BsHIUhT4A+nJ6BOGoVJ1m4xPn3RzwS2dtHQjvq/oFYdzX578K6LUb5847KeBL58cWFFUJQKs/zmusAZT7i7XUJyANgG877zdBcJ//KUC0UDVDVrl/edOegjgDvOgcdg6Ful5+LOm/JqD32TEAbpzzLkge5tapWuq+BiD0/62NAMpwY3z1o790Cv1OR68/VtdY63VKAPqNP/z6K8P5eb8keHjB/5UAr1jDuiZKARCC8b2XJf2LYRJR6s8K/bGqrwXURND4zU+N7/+tM1QACfE8jyCPTmX9/QHUAhofG+d9FRB4LkL+NAmQGQ3z9CgBiAq0rE17tdHoC8C58bJf0kfI+/1sOp1Nyde40NcF0LK2GIHhbW0JGo1PjT8NZcDGNJHp4SnYDHse7tcGYLU2GBGMCTiEV0c1ATQ+M3rDsdB/QDxkmibkfzYLkIu8oLbCrRWTxzhI/hWYaFsHGBhNEcGQJcg0OcGnkCtAbPpdvb5FmD6hLJuBZ271+gwwFhEMcQZA0EiIhe9FAOjqEkQR0/cCDjBdtNoDyId9Z5bpAwGcBwHkEUvxP99oWgnXh2aeQTvceVCHekC/ACQFABAu4YStdom1Yo/9L3geBQF24WlIUrvSQxzQ1wNMkxGI9zutPq8AqJouJNPjScXKIH0dACcgb8MyPxopS6y18ggmbppMhDiAtDUZKgE2KsCERnxk0n4rU5YAAQCgTNKjAiDrq4BhF5dCAAJCSXFIEYAYQYUVXwpArwrI22jc+UcpBMgSJFdMt2LKYQAoz0I/6QIAQBsAwmiJ4EKDeEFXGp/pkIMJRFylI8zHdYCuDIAkmWnVhG+muR2p07n1T0RUAA+ALwRVnwMkQn/cjWEVuwoDujFQpz8rAVa88DD4vl0uV3qAZN3+hpKUIQjIiy15A7aICoBFuQxgLn2OyfVbir4GAD9aq5gqDDaRk4LQbAVuvgpELyDqJwE2l68A8PUKvxhtthS5ouLIQ7GV52mLhD6bFqybYej5lJikreqXAWycpQMB/t0ESCIALVgx+fZS6DN5aKgomU0D/B6Ese1VAL2RAJRX1EbqWsQQmFJKvEd8CqUrERE4gMwSSnhbPS4lqAToVhYsDE2llmyyMZ9dPs/ZsAqmD8B58h6bixp9Bmh1a/Q5gW9sIgo+2lyXfyESJQ9mPsV868z0dYBROvH7o7I863gLe65bmh8QCshjf8adx9ygXI+bVX0OaKX63ao8I2yIOnUQ00d30ZQ5TzJ5VpRls7cX0NWoc8IqYluWcD6t64NpxDPP7Q55ZqzVlwHZKFNmAreAEZCY4OD81MeF82xrduv0GcBKAVXh3DZxEGRZgpkQzIazCAt10Hdz/X2Aen3LWtEg4J0P+aEHF8NU/lEWA/zSpb0afQGw9lkcBZ97KD1p+NA53G9FH6S0+gVgXwBNa4XTJCG21Wdpz7/n+kCoA1j7AuCn2qM48mmaokwWZemHonuZ/qChBzQYoCaA/FWLRSEENvn44AT5YnVBUPMnqRJYHWA0qneeW2yiIFsMsAw8VKwu+GHeK/TtQR2gtU+92aQYu1EQpY3Ej2N590NRhP82mB7Qspr73kFhGiGTZgDI0l3W/fwwNCn0OaASBACaVqu5x9owGEBaApBsuKn6XN42jIEGYO3Vj3zWinmK+IGSsPSwil+X/DfA7Cpgv34CznokkOcRWNq0k6p+icAA9epNWGFMn98CiHQ7ye9Bc0U/AyiEfQDQJ/6G6UMFAmpWDRaxRl8h7AFw/YQXk+mjyr6WE+yBKq8QagFtpp9wfU/VR6VDdcO2KwBB0AP4Wz3Q97k+Tm9h0gFJPlW6lGfIKJktAG2tsfxwfZf4Un3ZEY8oxwDkzieDin5BqANAfwZc33RhHcsHPHI9WWJTIaDYDsMaQg0gX1/5lVm6VPHWXypMhOa3i0GoJdRFMKd+riHSzxIUp5FP5nkQbJH4sMnNf7Eox2FzwEAXAMU+8pCmK7PhMxk0aEaAVe77fvLnCDa5+e3SNiTIoAbQXD4KdPog9jAbPvZgEBcxUJ8h/Igd+Nz5pSETGKBXtieZPhJXwXSQvm0uxfAUBA/7qUE7wLNzqacGAKjot9kRHbHiisMWctPx/2QgZsNgWWQpDcJP/o7ZCzOFUAU0nhCXH9G9Yj6L/SuVz2aPILgedB03ynoiDpU0la1HPZddA6Iof3uUHc+hxg1b6EM9CwIg7lJEZIJni72AxiSmNEbRrHixkL6bA9eu8smWDYcwNt8u7okI1iYvBHKvBnsBzK7xLCoaCcLmJywzLuTzNM9daUi5mEUBNwqykAGTyaQKuPKnyrWAFVkCiMUk70MmIIIELkXeZSgtt8mkipjMpwkp7wAFQMpweJsnKUsUYZPdjY0yoMRY0qkaQQpYViezrfrBEmXWAARj0niIpzNaAaDr6mBWQ0g3bNgkbD0gYwwYYOqXJ4WLNHPfWCC3OlJiGWBXjQOmpfdfyH1m6OxZ9RZqXkqAgQYweEgA4KsbPfgVavTDZTmVUGmpTbUAe4mS6VRaCenEWWgjWJQPHMi8lf9fC7Dn7KV0gpSt8SrUAux5KZXKtDPO9IAF3FZnMgDitg29XcqbR2manhk7PQAIhGLlvdpljb5hXxWHADbj53Imd8a6BgAErxh2iF3l6wJgBMRfwiD27VZZ6GvjNDSq4uLP+G4GX+iyXh8evZzDHGKPPSw1wqnx4S6s/bMFJdwvQuPFPn2OiOmzymPh7kPDWYd7/sxeXF8vFob9Cvn02eoJMlw7xkcnZ6Hxhiw8O/nIuNkbwjcErJ0bwzk+flMhhGfHxw4AnFPjjRBC49RhAOc7ztM3E8FTkOYfGnjHWd9/DKGxzj804DjvQgzhfes/FR97cJwT53QX3iMiDHfKBzcY4Xh9dl+IMDxbH2f6xYdnjh3ng/XuPhIVGrv1B1xQAbAgnJPT9e7sm8mf7danJ07uPtj/AWFeRaMe9pxOAAAAAElFTkSuQmCC"></a>
 </div>
 </body>
 </html>
